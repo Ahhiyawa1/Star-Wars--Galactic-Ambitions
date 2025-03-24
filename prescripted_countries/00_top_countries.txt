@@ -186,61 +186,6 @@ CiutricHegemony = {
 # Rebel Alliance Founders
 #####################################
 
-# Dantari Territories - (Dantari - Dantooine)
-DantariTerritories = {
-	name_list="Rebel"
-	ship_prefix="PRESCRIPTED_ship_prefix_DantariTerritories"
-	species_name="PRESCRIPTED_species_name_DantariTerritories"
-	species_plural="PRESCRIPTED_species_plural_DantariTerritories"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_DantariTerritories"
-	species_bio="PRESCRIPTED_species_bio_DantariTerritories"
-	portrait="human"
-	name="EMPIRE_DESIGN_DantariTerritories"
-	adjective="PRESCRIPTED_adjective_DantariTerritories"
-
-	authority="auth_democratic"
-	civics={ "civic_rebel_sympathy" "civic_idyllic_charm" }
-	government="gov_imperial_senate"
-
-	ethic="ethic_egalitarian"
-	ethic="ethic_pacifist"
-	ethic="ethic_xenophile"
-
-	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-
-	origin = "origin_swp_restoration"
-
-	flags={ custom_start_screen senate_loyalists rebel_tech human_sw init_spawned }
-	#weapon="red"
-	planet_name="NAME_Dantooine_P4"
-	planet_class="pc_continental"
-	system_name="NAME_Dantooine"
-	initializer="canon_dantooine_system_initializer"
-	graphical_culture="rebel_01"
-	city_graphical_culture="rebel_01"
-	empire_flag={
-		icon = { category="starwars" file="RepublicLoyalists.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor1053" "customcolor1053" "null" "null" }
-	}
-	ruler={
-		gender=female
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_DantariTerritories
-			second_name = PRESCRIPTED_ruler_second_name_DantariTerritories
-		}
-		portrait="mon_mothma_female_01"
-		texture=0
-		attachment=44
-		clothes=9
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="dantari_territories_room"
-}
 
 # Kingdom of Alderaan
 KingdomofAlderaan = {
@@ -578,60 +523,7 @@ ConfederacyOfIndependentSystems = {
 }
 
 
-# Confederate Remnant
-ConfederateRemnant = {
-	name_list="Neimoidian"
-	ship_prefix="PRESCRIPTED_ship_prefix_ConfederateRemnant"
-	species_name="PRESCRIPTED_species_name_ConfederateRemnant"
-	species_plural="PRESCRIPTED_species_plural_ConfederateRemnant"
-	species_class="NEI"
-	species_adjective="PRESCRIPTED_species_adjective_ConfederateRemnant"
-	species_bio="PRESCRIPTED_species_bio_ConfederateRemnant"
-	portrait="neimoidian"
-	name="EMPIRE_DESIGN_ConfederateRemnant"
-	adjective="PRESCRIPTED_adjective_ConfederateRemnant"
 
-	authority="auth_oligarchic"
-	civics={ "civic_confederate_remnant" "civic_clone_wars_loser" }
-	government="gov_confederate_remnant"
-
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	trait="trait_thrifty"
-	trait="trait_communal"
-	trait="trait_weak"
-
-	origin = "origin_swp_confed_remnant"
-
-	flags={ custom_start_screen confederate_remnant cis_tech neimoidian_sw init_spawned }
-	#weapon="red"
-	planet_name="NAME_Enarc_P1"
-	planet_class="pc_continental"
-	system_name="NAME_Enarc"
-	initializer="canon_enarc_system_initializer"
-	graphical_culture="cis_01"
-	city_graphical_culture="cis_01"
-	empire_flag={
-		icon = { category="starwars" file="ConfederateRemnant.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor1583" "customcolor1583" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_ConfederateRemnant
-			second_name = PRESCRIPTED_ruler_second_name_ConfederateRemnant
-		}
-		portrait="marath_vooro_01"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="confederate_remnant_room"
-}
 
 # Trade Federation
 TradeFederation = {
