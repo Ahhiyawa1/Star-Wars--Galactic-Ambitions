@@ -25,7 +25,7 @@ GalacticRepublic = {
 	
 	authority="auth_galactic_republic"
 	government="gov_galactic_republic_phase_01"
-	civics={ "civic_high_republic_twilight" "civic_ruusaan_accords" "civic_peacekeepers_in_jedi_and_judicial_forces" "civic_the_galactic_senate"}
+	civics={ "civic_high_republic_twilight"  "civic_peacekeepers_in_jedi_and_judicial_forces" "civic_the_galactic_senate"}
 
 	flags={ custom_start_screen galactic_republic imperial_tech human_sw init_spawned }
 	

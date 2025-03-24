@@ -20,6 +20,24 @@ event = {
 	}
 }
 
+country_event = {
+	id = swnd_start.1666
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_canon_map = yes
+		is_ttce_map = yes
+		has_country_flag = galactic_republic
+	}
+	immediate = {
+
+			add_modifier = {
+			modifier = "ruusaan_accords"
+		}
+	}	
+
+}
 # Start of Game Technology Event - Canon Maps
 country_event = {
 	id = swnd_start.6

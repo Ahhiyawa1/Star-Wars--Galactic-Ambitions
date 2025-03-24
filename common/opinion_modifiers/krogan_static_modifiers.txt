@@ -1,0 +1,10 @@
+ruusaan_accords = {
+        
+	    planet_stability_add = 10
+		pop_growth_from_immigration = 0.5
+		pop_citizen_happiness = 0.09
+		command_limit_add = -10
+        country_naval_cap_mult = -0.10
+		trade_value_mult = 0.12
+		country_unity_produces_mult = 0.1
+}
