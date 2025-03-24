@@ -116,8 +116,8 @@
 		#PLANET_ORBIT_DISTANCE 								= 3.0 		# 10.0 - how far from the planet ships will orbit
 		PLANET_STATION_ORBIT_DISTANCE 						= 3.0 		# 6.0 - how far from the planet orbital stations will be
 		SHIP_SUBLIGHT_SPEED_MULT							= 5			# General speed multiplier for ship movement within solar systems
-		ETHOS_MAX_POINTS					= 8	# Number of points which you can spend on ethos.
-		GOVERNMENT_CIVIC_POINTS_BASE		= 8		# Base amount of civic points (to "pay" for government civic costs)
+		ETHOS_MAX_POINTS					= 4	# Number of points which you can spend on ethos.
+		GOVERNMENT_CIVIC_POINTS_BASE		= 4		# Base amount of civic points (to "pay" for government civic costs)
 		MISSILE_SUBLIGHT_SPEED_MULT 						= 10		# General speed multiplier for missile movement within solar systems
 		CUSTOM_EMPIRE_SPAWN_CHANCE 							= 10000		
 
