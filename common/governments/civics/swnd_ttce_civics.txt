@@ -42,8 +42,9 @@ civic_ruusaan_accords = {
 		planet_stability_add = 10
 		pop_growth_from_immigration = 0.5
 		pop_citizen_happiness = 0.09
-		command_limit_add = -2
-		trade_value_mult = 0.02
+		command_limit_add = -10
+        country_naval_cap_mult = -0.10
+		trade_value_mult = 0.12
 		country_unity_produces_mult = 0.1
 	}
 }
@@ -56,10 +57,9 @@ civic_peacekeepers_in_jedi_and_judicial_forces = {
 	random_weight = { base = 0 }
 	modifier = {
 		diplo_weight_economy_mult = 0.20
-		country_leader_cap_add = 12
+		country_leader_cap_add = 6
 		pop_growth_from_immigration = 0.2
-		country_naval_cap_mult = 0.7
-		command_limit_add = -2
+		army_attack_health_mult = 0.4
 		country_resource_max_minerals_add = 10000
 		country_energy_produces_mult = 0.3
 	}
@@ -73,7 +73,7 @@ civic_the_galactic_senate = {
 	random_weight = { base = 0 }
 	modifier = {
 		diplo_weight_economy_mult = 0.50
-		country_leader_cap_add = 50
+		envoys_add = 10
 		country_edict_fund_add = 20
 		leaders_upkeep_mult = -25
 		diplo_weight_mult = 0.25
