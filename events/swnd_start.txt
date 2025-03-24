@@ -32,8 +32,12 @@ country_event = {
 	}
 	immediate = {
 
-			add_modifier = {
-			modifier = "ruusaan_accords"
+		add_modifier = {
+		modifier = "ruusaan_accords"
+		}
+
+		add_modifier = {
+			modifier = "high_republic_twilight"
 		}
 	}	
 
