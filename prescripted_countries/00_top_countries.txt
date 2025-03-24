@@ -11,2482 +11,2482 @@
 #####################################
 
 # Galactic Republic
-GalacticRepublic = {
-	name="EMPIRE_DESIGN_GalacticRepublic"
-	name_list="TGR_Republic"
-	portrait="human"
-	adjective="PRESCRIPTED_adjective_GalacticRepublic"
-	ship_prefix="PRESCRIPTED_ship_prefix_GalacticRepublic"
-	species_name = "PRESCRIPTED_species_name_GalacticRepublic"
-	species_plural = "PRESCRIPTED_species_plural_GalacticRepublic"
-	species_class = "HUM"
-	species_adjective = "PRESCRIPTED_species_adjective_GalacticRepublic"
-	species_bio="PRESCRIPTED_species_bio_GalacticRepublic"
+# GalacticRepublic = {
+# 	name="EMPIRE_DESIGN_GalacticRepublic"
+# 	name_list="TGR_Republic"
+# 	portrait="human"
+# 	adjective="PRESCRIPTED_adjective_GalacticRepublic"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_GalacticRepublic"
+# 	species_name = "PRESCRIPTED_species_name_GalacticRepublic"
+# 	species_plural = "PRESCRIPTED_species_plural_GalacticRepublic"
+# 	species_class = "HUM"
+# 	species_adjective = "PRESCRIPTED_species_adjective_GalacticRepublic"
+# 	species_bio="PRESCRIPTED_species_bio_GalacticRepublic"
 	
-	authority="auth_galactic_republic"
-	government="gov_galactic_republic_phase_01"
-	civics={ "civic_peacekeepers_in_jedi_and_judicial_forces" "civic_the_galactic_senate"}
+# 	authority="auth_galactic_republic"
+# 	government="gov_galactic_republic_phase_01"
+# 	civics={ "civic_peacekeepers_in_jedi_and_judicial_forces" "civic_the_galactic_senate"}
 
-	flags={ custom_start_screen galactic_republic imperial_tech human_sw init_spawned }
+# 	flags={ custom_start_screen galactic_republic imperial_tech human_sw init_spawned }
 	
-	ethic="ethic_egalitarian"
-	ethic="ethic_militarist"
-	ethic="ethic_xenophile"
+# 	ethic="ethic_egalitarian"
+# 	ethic="ethic_militarist"
+# 	ethic="ethic_xenophile"
 
-	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
+# 	trait="trait_nomadic"
+# 	trait="trait_communal"
+# 	trait="trait_wasteful"
 		
-	origin = "origin_swp_twilight_of_the_republic"
+# 	origin = "origin_swp_twilight_of_the_republic"
 	
-	planet_name="NAME_Coruscant_P5"
-	planet_class="pc_ecumenopolis"
-	city_graphical_culture="republic_01"
-	system_name="NAME_Coruscant"
-	initializer="canon_coruscant_system_initializer"
-	graphical_culture="imperial_01"
+# 	planet_name="NAME_Coruscant_P5"
+# 	planet_class="pc_ecumenopolis"
+# 	city_graphical_culture="republic_01"
+# 	system_name="NAME_Coruscant"
+# 	initializer="canon_coruscant_system_initializer"
+# 	graphical_culture="imperial_01"
 	
-	empire_flag={
-		icon = { category="starwars" file="GalacticRepublic.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor2052" "customcolor2052" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name = {
-			first_name = PRESCRIPTED_ruler_first_name_GalacticRepublic
-			second_name = PRESCRIPTED_ruler_second_name_GalacticRepublic
-		}	
-		portrait="human"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="republic_room"
-}
-
-
-#####################################
-# Empire & Allies
-#####################################
-
-# Eriadu Authority
-EriaduAuthority = {
-	name_list="SWP_Human4"
-	ship_prefix="PRESCRIPTED_ship_prefix_EriaduAuthority"
-	species_name="PRESCRIPTED_species_name_EriaduAuthority"
-	species_plural="PRESCRIPTED_species_plural_EriaduAuthority"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_EriaduAuthority"
-	species_bio="PRESCRIPTED_species_bio_EriaduAuthority"
-	portrait="human"
-	name="EMPIRE_DESIGN_EriaduAuthority"
-	adjective="PRESCRIPTED_adjective_EriaduAuthority"
-
-	authority="auth_dictatorial"
-	civics={ "civic_distinguished_admiralty" "civic_cutthroat_politics" }
-	government="gov_constitutional_dictatorship"
-
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_xenophobe"
-
-	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-
-	origin = "origin_swp_imperial_loyalist"
-
-	flags={ custom_start_screen eriadu_authority imperial_tech human_sw init_spawned }
-	#weapon="blue"
-	planet_name="NAME_Eriadu_P4"
-	planet_class="pc_ecumenopolis"
-	system_name="NAME_Eriadu"
-	initializer="canon_eriadu_system_initializer"
-	graphical_culture="imperial_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="EriaduAuthority.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor1878" "customcolor1878" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_EriaduAuthority
-			second_name = PRESCRIPTED_ruler_second_name_EriaduAuthority
-		}
-		portrait="garoche_tarkin_male_01"
-		texture=0
-		attachment=26
-		clothes=6
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="eriadu_room"
-}
-
-# Ciutric Hegemony
-CiutricHegemony = {
-	name_list="SWP_Human4"
-	ship_prefix="PRESCRIPTED_ship_prefix_CiutricHegemony"
-	species_name="PRESCRIPTED_species_name_CiutricHegemony"
-	species_plural="PRESCRIPTED_species_plural_CiutricHegemony"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_CiutricHegemony"
-	species_bio="PRESCRIPTED_species_bio_CiutricHegemony"
-	portrait="human"
-	name="EMPIRE_DESIGN_CiutricHegemony"
-	adjective="PRESCRIPTED_adjective_CiutricHegemony"
-
-	authority="auth_dictatorial"
-	civics={ "civic_technocracy" "civic_nationalistic_zeal" }
-	government="gov_constitutional_dictatorship"
-
-	ethic="ethic_militarist"
-	ethic="ethic_fanatic_materialist"
- 	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-
-	origin = "origin_swp_imperial_loyalist"
-
-	flags={ custom_start_screen ciutric_hegemony imperial_tech human_sw init_spawned }
-	#weapon="red" 
-	planet_name="NAME_Ciutric_P4"
-	planet_class="pc_tropical"
-	system_name="NAME_Ciutric"
-	initializer="canon_ciutric_system_initializer"
-	graphical_culture="imperial_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="CuitricHegemony.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor1870" "customcolor1870" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_CiutricHegemony
-			second_name = PRESCRIPTED_ruler_second_name_CiutricHegemony
-		}
-		portrait="pensar_luc_male_01"
-		texture=0
-		attachment=103
-		clothes=11
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="ciutric_room"
-}
-
-#####################################
-# Rebel Alliance Founders
-#####################################
-
-
-# Kingdom of Alderaan
-KingdomofAlderaan = {
-	name_list="Rebel"
-	ship_prefix="PRESCRIPTED_ship_prefix_KingdomofAlderaan"
-	species_name="PRESCRIPTED_species_name_KingdomofAlderaan"
-	species_plural="PRESCRIPTED_species_plural_KingdomofAlderaan"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_KingdomofAlderaan"
-	species_bio="PRESCRIPTED_species_bio_KingdomofAlderaan"
-	portrait="human"
-	name="EMPIRE_DESIGN_KingdomofAlderaan"
-	adjective="PRESCRIPTED_adjective_KingdomofAlderaan"
-
-	authority="auth_oligarchic"
-	civics={ "civic_rebel_sympathy" "civic_house_organa" }
-	government="gov_resistance_movement"
-
-	ethic="ethic_xenophile"
-	ethic="ethic_pacifist"
-	ethic="ethic_egalitarian"
-	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-
-	origin = "origin_swp_restoration"
-
-	flags={ custom_start_screen kingdom_of_alderaan rebel_tech human_sw init_spawned }
-	#weapon="red"
-	planet_name="NAME_Alderaan_P2"
-	planet_class="pc_continental"
-	system_name="NAME_Alderaan"
-	initializer="canon_alderaan_system_initializer"
-	graphical_culture="rebel_01"
-	city_graphical_culture="rebel_01"
-	empire_flag={
-		icon = { category="starwars" file="KingdomofAlderaan.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "light_green" "light_green" "null" "null" }
-	}
-	ruler={
-		gender=female
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_KingdomofAlderaan
-			second_name = PRESCRIPTED_ruler_second_name_KingdomofAlderaan
-		}
-		portrait="breha_organa_female_01"
-		texture=0
-		attachment=1
-		clothes=10
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="kingdom_of_alderaan_room"
-}
-
-# Mon Cala Monarchy
-MonCalaMonarchy = {
-	name_list="Calamari"
-	ship_prefix="PRESCRIPTED_ship_prefix_MonCalaMonarchy"
-	species_name="PRESCRIPTED_species_name_MonCalaMonarchy"
-	species_plural="PRESCRIPTED_species_plural_MonCalaMonarchy"
-	species_class="MON"
-	species_adjective="PRESCRIPTED_species_adjective_MonCalaMonarchy"
-	species_bio="PRESCRIPTED_species_bio_MonCalaMonarchy"
-	portrait="mon_calamari"
-	name="EMPIRE_DESIGN_MonCalaMonarchy"
-	adjective="PRESCRIPTED_adjective_MonCalaMonarchy"
-
-	authority="auth_monarchy"
-	civics={ "civic_calamari_dynasty" "civic_master_shipbuilders" }
-	government="gov_representative_monarchy"
-
-	ethic="ethic_egalitarian"
-	ethic="ethic_materialist"
-	ethic="ethic_xenophile"
-	trait="trait_intelligent"
-	trait="trait_quick_learners"
-	trait="trait_slow_breeders"
-
-	origin = "origin_swp_restoration"
-
-	flags={ custom_start_screen mon_cala_monarchy rebel_tech init_spawned }
-	#weapon="red"
-	planet_name="NAME_Calamari_P2"
-	planet_class="pc_ocean"
-	system_name="NAME_Calamari"
-	initializer="canon_calamari_system_initializer"
-	graphical_culture="rebel_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="MonCalMonarchy.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor853" "customcolor853" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_MonCalaMonarchy
-			second_name = PRESCRIPTED_ruler_second_name_MonCalaMonarchy
-		}
-		portrait="lee_char"
-		texture=0
-		attachment=0
-		clothes=13
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="mon_cala_monarchy_room"
-}
-
-# Bothan Council
-BothanCouncil = {
-	name_list="Bothan"
-	ship_prefix="PRESCRIPTED_ship_prefix_BothanCouncil"
-	species_name="PRESCRIPTED_species_name_BothanCouncil"
-	species_plural="PRESCRIPTED_species_plural_BothanCouncil"
-	species_class="BOT"
-	species_adjective="PRESCRIPTED_species_adjective_BothanCouncil"
-	species_bio="PRESCRIPTED_species_bio_BothanCouncil"
-	portrait="bothan"
-	name="EMPIRE_DESIGN_BothanCouncil"
-	adjective="PRESCRIPTED_adjective_BothanCouncil"
-
-	authority="auth_democratic"
-	civics={ "civic_bothan_spies" "civic_environmentalist" }
-	government="gov_bothan_council"
-
-	ethic="ethic_egalitarian"
-	ethic="ethic_pacifist"
-	ethic="ethic_xenophile"
-	trait="trait_intelligent"
-	trait="trait_communal"
-	trait="trait_fleeting"
-
-	origin = "origin_swp_restoration"
-
-	flags={ custom_start_screen bothan_council rebel_tech init_spawned }
-	#weapon="red"
-	planet_name="NAME_Both_P3"
-	planet_class="pc_continental"
-	system_name="NAME_Both"
-	initializer="canon_both_system_initializer"
-	graphical_culture="rebel_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="BothanCouncil.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor1704" "customcolor1704" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_BothanCouncil
-			second_name = PRESCRIPTED_ruler_second_name_BothanCouncil
-		}
-		portrait="borsk_feylya"
-		texture=0
-		attachment=0
-		clothes=14
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="bothan_council_room"
-}
-
-# Ryloth Protectorate
-RylothProtectorate = {
-	name_list="Twilek"
-	ship_prefix="PRESCRIPTED_ship_prefix_RylothProtectorate"
-	species_name="PRESCRIPTED_species_name_RylothProtectorate"
-	species_plural="PRESCRIPTED_species_plural_RylothProtectorate"
-	species_class="TWI"
-	species_adjective="PRESCRIPTED_species_adjective_RylothProtectorate"
-	species_bio="PRESCRIPTED_species_bio_RylothProtectorate"
-	portrait="twilek"
-	name="EMPIRE_DESIGN_RylothProtectorate"
-	adjective="PRESCRIPTED_adjective_RylothProtectorate"
-
-	authority="auth_democratic"
-	civics={ "civic_twilek_rebels" "civic_beacon_of_liberty" }
-	government="gov_free_ryloth"
-
-	ethic="ethic_egalitarian"
-	ethic="ethic_spiritualist"
-	ethic="ethic_xenophile"
-	trait="trait_communal"
-	trait="trait_nomadic"
-	trait="trait_traditional"
-	trait="trait_deviants"
-
-	origin = "origin_swp_restoration"
-
-	flags={ custom_start_screen ryloth_protectorate rebel_tech init_spawned }
-	#weapon="red"
-	planet_name="NAME_Ryloth_P2"
-	planet_class="pc_arid"
-	system_name="NAME_Ryloth"
-	initializer="canon_ryloth_system_initializer"
-	graphical_culture="rebel_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="RylothProtectorate.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor1408" "customcolor1408" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_RylothProtectorate
-			second_name = PRESCRIPTED_ruler_second_name_RylothProtectorate
-		}
-		portrait="cham_syndulla_male_01"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="ryloth_protectorate_room"
-}
-
-# Verpine Enclave
-VerpineEnclave = {
-	name_list="Verpine"
-	ship_prefix="PRESCRIPTED_ship_prefix_VerpineEnclave"
-	species_name="PRESCRIPTED_species_name_VerpineEnclave"
-	species_plural="PRESCRIPTED_species_plural_VerpineEnclave"
-	species_class="VER"
-	species_adjective="PRESCRIPTED_species_adjective_VerpineEnclave"
-	species_bio="PRESCRIPTED_species_bio_VerpineEnclave"
-	portrait="verpine"
-	name="EMPIRE_DESIGN_VerpineEnclave"
-	adjective="PRESCRIPTED_adjective_VerpineEnclave"
-
-	authority="auth_democratic"
-	civics={ "civic_technocracy" "civic_functional_architecture" }
-	government="gov_verpine_consensus_democracy"
-
-	ethic="ethic_fanatic_materialist"
-	ethic="ethic_pacifist"
-	trait="trait_natural_engineers"
-	trait="trait_rapid_breeders"
-	trait="trait_weak"
-
-	origin = "origin_swp_restoration"
-
-	flags={ custom_start_screen verpine_enclave rebel_tech init_spawned }
-	#weapon="red"
-	planet_name="NAME_Roche_P1"
-	planet_class="pc_polis_massa"
-	system_name="NAME_Roche"
-	initializer="canon_roche_system_initializer"
-	graphical_culture="rebel_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="VerpineEnclave.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor764" "customcolor764" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name="PRESCRIPTED_ruler_name_VerpineEnclave"
-		portrait="verpine"
-		texture=1
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="verpine_enclave_room"
-}
-
-#####################################
-# Seperatists
-#####################################
-
-
-# ConfederacyOfIndependentSystems
-ConfederacyOfIndependentSystems = {
-	name="EMPIRE_DESIGN_ConfederacyOfIndependentSystems"
-	name_list="CIS_Confederacy"
-	portrait="human"
-	adjective="PRESCRIPTED_adjective_ConfederacyOfIndependentSystems"
-	ship_prefix="PRESCRIPTED_ship_prefix_ConfederacyOfIndependentSystems"
-	species_name = "PRESCRIPTED_species_name_ConfederacyOfIndependentSystems"
-	species_plural = "PRESCRIPTED_species_plural_ConfederacyOfIndependentSystems"
-	species_class = "HUM"
-	species_adjective = "PRESCRIPTED_species_adjective_ConfederacyOfIndependentSystems"
-	species_bio="PRESCRIPTED_species_bio_ConfederacyOfIndependentSystems"
-	
-
-	flags={ custom_start_screen confederacy_of_independent_systems cis_tech human_sw init_spawned }
-	
-	authority="auth_confederacy_of_independent_systems"
-	government="gov_confederacy_of_independent_systems_phase_01"
-	civics={ "civic_dawn_of_the_cis" "civic_corporate_benefactors" "civic_cis_militarization" "civic_the_confederate_senate"}
-
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-
-	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-		
-	origin = "origin_swp_confederacy_cis"
-	
-	planet_name="NAME_Raxus_P5"
-	planet_class="pc_ecumenopolis"
-	graphical_culture="cis_01"
-	city_graphical_culture="cis_01"
-	system_name="NAME_Raxus"
-	initializer="canon_raxus_system_initializer"
-	
-	empire_flag={
-		icon = { category="starwars" file="ConfederacyOfIndependentSystems.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor1583" "customcolor1583" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name = {
-			first_name = PRESCRIPTED_ruler_first_name_ConfederacyOfIndependentSystems
-			second_name = PRESCRIPTED_ruler_second_name_ConfederacyOfIndependentSystems
-		}	
-		portrait="human"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	origin = "origin_swp_confed_remnant"
-}
-
-
-
-
-# Trade Federation
-TradeFederation = {
-	name_list="Neimoidian"
-	ship_prefix="PRESCRIPTED_ship_prefix_TradeFederation"
-	species_name="PRESCRIPTED_species_name_TradeFederation"
-	species_plural="PRESCRIPTED_species_plural_TradeFederation"
-	species_class="NEI"
-	species_adjective="PRESCRIPTED_species_adjective_TradeFederation"
-	species_bio="PRESCRIPTED_species_bio_TradeFederation"
-	portrait="neimoidian"
-	name="EMPIRE_DESIGN_TradeFederation"
-	adjective="PRESCRIPTED_adjective_TradeFederation"
-
-	authority="auth_corporate"
-	playable = has_megacorp
-	civics={ "civic_trade_federation" "civic_trading_posts" }
-	government="gov_trade_league"
-
-	ethic="ethic_fanatic_materialist"
-	ethic="ethic_militarist"
-	trait="trait_thrifty"
-	trait="trait_communal"
-	trait="trait_weak"
-
-	origin = "origin_swp_confed_remnant"
-
-	flags={ custom_start_screen trade_federation cis_tech neimoidian_sw init_spawned }
-	#weapon="red"
-	planet_name="NAME_Neimodia_P3"
-	planet_class="pc_continental"
-	system_name="NAME_Neimodia"
-	initializer="canon_neimoidia_system_initializer"
-	graphical_culture="cis_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="TradeFederation.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor557" "customcolor557" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_TradeFederation
-			second_name = PRESCRIPTED_ruler_second_name_TradeFederation
-		}
-		portrait="neimoidian"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="trade_federation_room"
-}
-# Trade Federation - No DLC
-TradeFederation2 = {
-	name_list="Neimoidian"
-	ship_prefix="PRESCRIPTED_ship_prefix_TradeFederation"
-	species_name="PRESCRIPTED_species_name_TradeFederation"
-	species_plural="PRESCRIPTED_species_plural_TradeFederation"
-	species_class="NEI"
-	species_adjective="PRESCRIPTED_species_adjective_TradeFederation"
-	species_bio="PRESCRIPTED_species_bio_TradeFederation"
-	portrait="neimoidian"
-	name="EMPIRE_DESIGN_TradeFederation"
-	adjective="PRESCRIPTED_adjective_TradeFederation"
-
-	authority="auth_oligarchic"
-	playable = has_not_megacorp
-	civics={ "civic_trade_federation" "civic_corporate_dominion" }
-	government="gov_trade_league"
-
-	ethic="ethic_fanatic_materialist"
-	ethic="ethic_militarist"
-	trait="trait_thrifty"
-	trait="trait_communal"
-	trait="trait_weak"
-
-	origin = "origin_swp_confed_remnant"
-
-	flags={ custom_start_screen trade_federation cis_tech neimoidian_sw init_spawned }
-	#weapon="red"
-	planet_name="NAME_Neimodia_P3"
-	planet_class="pc_continental"
-	system_name="NAME_Neimodia"
-	initializer="canon_neimoidia_system_initializer"
-	graphical_culture="cis_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="TradeFederation.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor557" "customcolor557" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_TradeFederation
-			second_name = PRESCRIPTED_ruler_second_name_TradeFederation
-		}
-		portrait="neimoidian"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="trade_federation_room"
-}
-
-# Intergalactic Banking Clan
-IntergalacticBankingClan = {
-	name_list="Muun"
-	ship_prefix="PRESCRIPTED_ship_prefix_IntergalacticBankingClan"
-	species_name="PRESCRIPTED_species_name_IntergalacticBankingClan"
-	species_plural="PRESCRIPTED_species_plural_IntergalacticBankingClan"
-	species_class="MUN"
-	species_adjective="PRESCRIPTED_species_adjective_IntergalacticBankingClan"
-	species_bio="PRESCRIPTED_species_bio_IntergalacticBankingClan"
-	portrait="muun"
-	name="EMPIRE_DESIGN_IntergalacticBankingClan"
-	adjective="PRESCRIPTED_adjective_IntergalacticBankingClan"
-
-	authority="auth_corporate"
-	playable = has_megacorp
-	civics={ "civic_banking_clan" "civic_franchising" }
-	government="gov_megacorporation"
-
-	ethic="ethic_fanatic_materialist"
-	ethic="ethic_egalitarian"
-	trait="trait_natural_physicists"
-	trait="trait_thrifty"
-	trait="trait_weak"
-
-	origin = "origin_swp_confed_remnant"
-
-	flags={ custom_start_screen banking_clan cis_tech init_spawned }
-	#weapon="red"
-	planet_name="NAME_Muunilinst_P3"
-	planet_class="pc_continental"
-	system_name="NAME_Muunilinst"
-	initializer="canon_muunilinst_system_initializer"
-	graphical_culture="cis_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="InterGalacticBankingClan.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor1698" "customcolor1698" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name="PRESCRIPTED_ruler_name_IntergalacticBankingClan"
-		portrait="muun"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="banking_clan_room"
-}
-# Intergalactic Banking Clan - No DLC
-IntergalacticBankingClan2 = {
-	name_list="Muun"
-	ship_prefix="PRESCRIPTED_ship_prefix_IntergalacticBankingClan"
-	species_name="PRESCRIPTED_species_name_IntergalacticBankingClan"
-	species_plural="PRESCRIPTED_species_plural_IntergalacticBankingClan"
-	species_class="MUN"
-	species_adjective="PRESCRIPTED_species_adjective_IntergalacticBankingClan"
-	species_bio="PRESCRIPTED_species_bio_IntergalacticBankingClan"
-	portrait="muun"
-	name="EMPIRE_DESIGN_IntergalacticBankingClan"
-	adjective="PRESCRIPTED_adjective_IntergalacticBankingClan"
-
-	authority="auth_oligarchic"
-	playable = has_not_megacorp
-	civics={ "civic_banking_clan" "civic_corporate_dominion" }
-	government="gov_executive_committee"
-
-	ethic="ethic_fanatic_materialist"
-	ethic="ethic_egalitarian"
-	trait="trait_natural_physicists"
-	trait="trait_thrifty"
-	trait="trait_weak"
-
-	origin = "origin_swp_confed_remnant"
-
-	flags={ custom_start_screen banking_clan cis_tech init_spawned }
-	#weapon="red"
-	planet_name="NAME_Muunilinst_P3"
-	planet_class="pc_continental"
-	system_name="NAME_Muunilinst"
-	initializer="canon_muunilinst_system_initializer"
-	graphical_culture="cis_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="InterGalacticBankingClan.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor1698" "customcolor1698" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name="PRESCRIPTED_ruler_name_IntergalacticBankingClan"
-		portrait="muun"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="banking_clan_room"
-}
-# Tion Hegemony
-TionHegemony = {
-	name_list="SWP_Human2"
-	ship_prefix="PRESCRIPTED_ship_prefix_TionHegemony"
-	species_name="PRESCRIPTED_species_name_TionHegemony"
-	species_plural="PRESCRIPTED_species_plural_TionHegemony"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_TionHegemony"
-	species_bio="PRESCRIPTED_species_bio_TionHegemony"
-	portrait="human"
-	name="EMPIRE_DESIGN_TionHegemony"
-	adjective="PRESCRIPTED_adjective_TionHegemony"
-
-	authority="auth_dictatorial"
-	civics={ "civic_clone_wars_loser" "civic_distinguished_admiralty" }
-	government="gov_military_dictatorship"
-
-	ethic="ethic_fanatic_authoritarian"
-	ethic="ethic_militarist"
-
-	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-
-	origin = "origin_swp_confed_remnant"
-
-	flags={ custom_start_screen tion_hegemony cis_tech human_sw init_spawned }
-	#weapon="red"
-	planet_name="NAME_Desevro_P2"
-	planet_class="pc_ecumenopolis"
-	system_name="NAME_Desevro"
-	initializer="canon_desev_system_initializer"
-	graphical_culture="cis_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="TionHegemony.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor932" "customcolor932" "null" "null" }
-	}
-	ruler={
-		gender=female
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_TionHegemony
-			second_name = PRESCRIPTED_ruler_second_name_TionHegemony
-		}
-		portrait="human"
-		texture=0
-		attachment=0
-		clothes=8
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="tion_hegemony_room"
-}
-
-# Commerce Guild
-CommerceGuild = {
-	name_list="Gossam"
-	ship_prefix="PRESCRIPTED_ship_prefix_CommerceGuild"
-	species_name="PRESCRIPTED_species_name_CommerceGuild"
-	species_plural="PRESCRIPTED_species_plural_CommerceGuild"
-	species_class="GOS"
-	species_adjective="PRESCRIPTED_species_adjective_CommerceGuild"
-	species_bio="PRESCRIPTED_species_bio_CommerceGuild"
-	portrait="gossam"
-	name="EMPIRE_DESIGN_CommerceGuild"
-	adjective="PRESCRIPTED_adjective_CommerceGuild"
-
-	authority="auth_oligarchic"
-	civics={ "civic_technocracy" "civic_mining_guilds" }
-	government="gov_science_directorate"
-
-	ethic="ethic_fanatic_materialist"
-	ethic="ethic_authoritarian"
-	trait="trait_thrifty"
-
-	origin = "origin_swp_confed_remnant"
-
-	flags={ custom_start_screen commerce_guild cis_tech init_spawned }
-	#weapon="red"
-	planet_name="NAME_Castell_P3"
-	planet_class="pc_continental"
-	system_name="NAME_Castell"
-	initializer="canon_castell_system_initializer"
-	graphical_culture="cis_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="CommerceGuild.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor309" "customcolor309" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_CommerceGuild
-			second_name = PRESCRIPTED_ruler_second_name_CommerceGuild
-		}
-		portrait="gossam"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="commerce_guild_room"
-}
-
-
-# Corporate Alliance
-CorporateAlliance = {
-	name_list="Koorivar"
-	ship_prefix="PRESCRIPTED_ship_prefix_CorporateAlliance"
-	species_name="PRESCRIPTED_species_name_CorporateAlliance"
-	species_plural="PRESCRIPTED_species_plural_CorporateAlliance"
-	species_class="KOO"
-	species_adjective="PRESCRIPTED_species_adjective_CorporateAlliance"
-	species_bio="PRESCRIPTED_species_bio_CorporateAlliance"
-	portrait="koorivar"
-	name="EMPIRE_DESIGN_CorporateAlliance"
-	adjective="PRESCRIPTED_adjective_CorporateAlliance"
-
-	authority="auth_corporate"
-	playable = has_megacorp
-	civics={ "civic_private_military_companies" "civic_naval_contractors" }
-	government="gov_megacorporation"
-
-	ethic="ethic_authoritarian"
-	ethic="ethic_materialist"
-	ethic="ethic_militarist"
-	trait="trait_thrifty"
-
-	origin = "origin_swp_confed_remnant"
-
-	flags={ custom_start_screen corporate_alliance cis_tech init_spawned }
-	#weapon="red"
-	planet_name="NAME_Bomis_Koori_P4"
-	planet_class="pc_ecumenopolis"
-	system_name="NAME_Bomis_Koori"
-	initializer="canon_bomis_koori_system_initializer"
-	graphical_culture="cis_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="CorporateAlliance.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor2009" "customcolor2009" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_CorporateAlliance
-			second_name = PRESCRIPTED_ruler_second_name_CorporateAlliance
-		}
-		portrait="koorivar"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="corporate_alliance_room"
-}
-# Corporate Alliance - No DLC
-CorporateAlliance2 = {
-	name_list="Koorivar"
-	ship_prefix="PRESCRIPTED_ship_prefix_CorporateAlliance"
-	species_name="PRESCRIPTED_species_name_CorporateAlliance"
-	species_plural="PRESCRIPTED_species_plural_CorporateAlliance"
-	species_class="KOO"
-	species_adjective="PRESCRIPTED_species_adjective_CorporateAlliance"
-	species_bio="PRESCRIPTED_species_bio_CorporateAlliance"
-	portrait="koorivar"
-	name="EMPIRE_DESIGN_CorporateAlliance"
-	adjective="PRESCRIPTED_adjective_CorporateAlliance"
-
-	authority="auth_oligarchic"
-	playable = has_not_megacorp
-	civics={ "civic_corporate_dominion" "civic_naval_tradition" }
-	government="gov_megacorporation"
-
-	ethic="ethic_authoritarian"
-	ethic="ethic_materialist"
-	ethic="ethic_militarist"
-	trait="trait_thrifty"
-
-	origin = "origin_swp_confed_remnant"
-
-	flags={ custom_start_screen corporate_alliance cis_tech init_spawned }
-	#weapon="red"
-	planet_name="NAME_Bomis_Koori_P4"
-	planet_class="pc_ecumenopolis"
-	system_name="NAME_Bomis_Koori"
-	initializer="canon_bomis_koori_system_initializer"
-	graphical_culture="cis_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="CorporateAlliance.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor2009" "customcolor2009" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_CorporateAlliance
-			second_name = PRESCRIPTED_ruler_second_name_CorporateAlliance
-		}
-		portrait="koorivar"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="corporate_alliance_room"
-}
-
-#####################################
-# Criminals
-#####################################
-
-# Hutt Cartel
-HuttCartel = {
-	name_list="Hutt"
-	ship_prefix="PRESCRIPTED_ship_prefix_HuttCartel"
-	species_name="PRESCRIPTED_species_name_HuttCartel"
-	species_plural="PRESCRIPTED_species_plural_HuttCartel"
-	species_class="HUT"
-	species_adjective="PRESCRIPTED_species_adjective_HuttCartel"
-	species_bio="PRESCRIPTED_species_bio_HuttCartel"
-	portrait="hutt"
-	name="EMPIRE_DESIGN_HuttCartel"
-	adjective="PRESCRIPTED_adjective_HuttCartel"
-
-	authority="auth_oligarchic"
-	playable = has_megacorp
-	civics={ "civic_hutt_cartel" "civic_hutt_elite" }
-	government="gov_hutt_cartel"
-
-	ethic="ethic_fanatic_materialist"
-	ethic="ethic_authoritarian"
-	trait="trait_venerable"
-	trait="trait_slow_breeders"
-	trait="trait_decadent"
-
-	origin = "origin_swp_hutt_cartel"
-
-	flags={ custom_start_screen hutt_cartel hutt_tech init_spawned }
-	#weapon="yellow"
-	planet_name="NAME_Ytoub_P3"
-	planet_class="pc_tropical"
-	system_name="NAME_Ytoub"
-	initializer="canon_ytoub_system_initializer"
-	graphical_culture="hutt_01"
-	city_graphical_culture="hutt_01"
-	empire_flag={
-		icon = { category="starwars" file="HuttCartel.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor905" "customcolor905" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_HuttCartel
-			second_name = PRESCRIPTED_ruler_second_name_HuttCartel
-		}
-		portrait="jabba_male_01"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="hutt_cartel_room"
-}
-# Hutt Cartel - No DLC
-HuttCartel2 = {
-	name_list="Hutt"
-	ship_prefix="PRESCRIPTED_ship_prefix_HuttCartel"
-	species_name="PRESCRIPTED_species_name_HuttCartel"
-	species_plural="PRESCRIPTED_species_plural_HuttCartel"
-	species_class="HUT"
-	species_adjective="PRESCRIPTED_species_adjective_HuttCartel"
-	species_bio="PRESCRIPTED_species_bio_HuttCartel"
-	portrait="hutt"
-	name="EMPIRE_DESIGN_HuttCartel"
-	adjective="PRESCRIPTED_adjective_HuttCartel"
-
-	authority="auth_oligarchic"
-	playable = has_not_megacorp
-	civics={ "civic_hutt_cartel" "civic_hutt_elite" }
-	government="gov_hutt_cartel"
-
-	ethic="ethic_fanatic_materialist"
-	ethic="ethic_authoritarian"
-	trait="trait_venerable"
-	trait="trait_slow_breeders"
-	trait="trait_decadent"
-
-	origin = "origin_swp_hutt_cartel"
-
-	flags={ custom_start_screen hutt_cartel hutt_tech init_spawned }
-	#weapon="yellow"
-	planet_name="NAME_Ytoub_P3"
-	planet_class="pc_tropical"
-	system_name="NAME_Ytoub"
-	initializer="canon_ytoub_system_initializer"
-	graphical_culture="hutt_01"
-	city_graphical_culture="hutt_01"
-	empire_flag={
-		icon = { category="starwars" file="HuttCartel.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor905" "customcolor905" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_HuttCartel
-			second_name = PRESCRIPTED_ruler_second_name_HuttCartel
-		}
-		portrait="jabba_male_01"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="hutt_cartel_room"
-}
-
-# Black Sun Organization
-BlackSunOrganization = {
-	name_list="Falleen"
-	ship_prefix="PRESCRIPTED_ship_prefix_BlackSunOrganization"
-	species_name="PRESCRIPTED_species_name_BlackSunOrganization"
-	species_plural="PRESCRIPTED_species_plural_BlackSunOrganization"
-	species_class="FAL"
-	species_adjective="PRESCRIPTED_species_adjective_BlackSunOrganization"
-	species_bio="PRESCRIPTED_species_bio_BlackSunOrganization"
-	portrait="falleen"
-	name="EMPIRE_DESIGN_BlackSunOrganization"
-	adjective="PRESCRIPTED_adjective_BlackSunOrganization"
-
-	authority="auth_corporate"
-	playable = has_megacorp
-	civics={ "civic_black_sun" "civic_criminal_heritage" }
-	government="gov_criminal_syndicate"
-	#government = gov_black_sun # TODO - Harain
-
-	ethic="ethic_fanatic_materialist"
-	ethic="ethic_authoritarian"
-	trait = "trait_ingenious"
-	trait = "trait_talented"
-	trait = "trait_deviants"
-
-	origin = "origin_swp_underworld"
-
-	flags={ custom_start_screen black_sun_organization falleen_sw hutt_tech init_spawned }
-	#weapon="yellow"
-	planet_name="NAME_Ord_Mantell_P2"
-	planet_class="pc_continental"
-	system_name="NAME_Ord_Mantell"
-	initializer="canon_ord_mantell_system_initializer"
-	graphical_culture="misc_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="BlackSun.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor1792" "customcolor1792" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_BlackSunOrganization
-			second_name = PRESCRIPTED_ruler_second_name_BlackSunOrganization
-		}
-		portrait="ziton_moj_01"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="black_sun_organization_room"
-}
-# Black Sun Organization - No DLC
-BlackSunOrganization2 = {
-	name_list="Falleen"
-	ship_prefix="PRESCRIPTED_ship_prefix_BlackSunOrganization"
-	species_name="PRESCRIPTED_species_name_BlackSunOrganization"
-	species_plural="PRESCRIPTED_species_plural_BlackSunOrganization"
-	species_class="FAL"
-	species_adjective="PRESCRIPTED_species_adjective_BlackSunOrganization"
-	species_bio="PRESCRIPTED_species_bio_BlackSunOrganization"
-	portrait="falleen"
-	name="EMPIRE_DESIGN_BlackSunOrganization"
-	adjective="PRESCRIPTED_adjective_BlackSunOrganization"
-
-	authority="auth_oligarchic"
-	playable = has_not_megacorp
-	civics={ "civic_black_sun" "civic_corporate_dominion" }
-	government="gov_executive_committee"
-
-	ethic="ethic_fanatic_materialist"
-	ethic="ethic_authoritarian"
-	trait = "trait_ingenious"
-	trait = "trait_talented"
-	trait = "trait_deviants"
-
-	origin = "origin_swp_underworld"
-
-	flags={ custom_start_screen black_sun_organization falleen_sw hutt_tech init_spawned }
-	#weapon="yellow"
-	planet_name="NAME_Ord_Mantell_P2"
-	planet_class="pc_continental"
-	system_name="NAME_Ord_Mantell"
-	initializer="canon_ord_mantell_system_initializer"
-	graphical_culture="misc_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="BlackSun.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor1792" "customcolor1792" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_BlackSunOrganization
-			second_name = PRESCRIPTED_ruler_second_name_BlackSunOrganization
-		}
-		portrait="ziton_moj_01"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="black_sun_organization_room"
-}
-
-#####################################
-# Unique Empires
-#####################################
-
-# Mandalorian Clans
-MandalorianClans = {
-	name = "EMPIRE_DESIGN_MandalorianClans"
-	adjective = "PRESCRIPTED_adjective_MandalorianClans"
-	ship_prefix = "PRESCRIPTED_ship_prefix_MandalorianClans"
-	species = {
-		class = "MAN"
-		portrait = "mandalorian"
-		name = "PRESCRIPTED_species_name_MandalorianClans"
-		plural = "PRESCRIPTED_species_plural_MandalorianClans"
-		adjective = "PRESCRIPTED_species_adjective_MandalorianClans"
-		name_list = "Mandalorian"
-		trait = "trait_strong"
-		trait = "trait_traditional"
-		trait = "trait_talented"
-		trait = "trait_solitary"
-	}
-
-	authority = "auth_dictatorial"
-	civics = { "civic_mandalorian" "civic_warrior_culture" }
-	government = "gov_mandalorian"
-
-	ethic = "ethic_fanatic_militarist"
-	ethic = "ethic_authoritarian"
-
-	origin = "origin_swp_mandalorian"
-
-	flags = { custom_start_screen mandalorian_clans mando_tech init_spawned }
-
-	planet_name = "NAME_Mandolore_P5"
-	planet_class = "pc_desert"
-	system_name = "NAME_Mandolore"
-	initializer = "canon_mandalore_system_initializer"
-	graphical_culture = "mando_01"
-	city_graphical_culture = "mando_01"
-
-	empire_flag={
-		icon = { category="starwars" file="Mandalorian.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor1401" "customcolor1401" "null" "null" }
-	}
-	ruler={
-		gender = female
-		name = "PRESCRIPTED_ruler_name_MandalorianClans"
-		portrait = "bo_katan_kryze"
-		texture = 0
-		attachment = 0
-		clothes = 0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="mandalorian_room"
-}
-
-# Corporate Sector Authority
-CorporateSectorAuthority = {
-	name_list="SWP_CSA"
-	ship_prefix="PRESCRIPTED_ship_prefix_CorporateSectorAuthority"
-	species_name="PRESCRIPTED_species_name_CorporateSectorAuthority"
-	species_plural="PRESCRIPTED_species_plural_CorporateSectorAuthority"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_CorporateSectorAuthority"
-	species_bio="PRESCRIPTED_species_bio_CorporateSectorAuthority"
-	portrait="human"
-	name="EMPIRE_DESIGN_CorporateSectorAuthority"
-	adjective="PRESCRIPTED_adjective_CorporateSectorAuthority"
-
-	authority="auth_corporate"
-	playable = has_megacorp
-	civics={ "civic_corporate_sector" "civic_csa_police_state" }
-	government="gov_corporate_sector"
-
-	ethic="ethic_authoritarian"
-	ethic="ethic_materialist"
-	ethic="ethic_xenophobe"
-	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-
-	origin = "origin_swp_corporate_sector"
-
-	flags={ custom_start_screen corporate_sector_authority hutt_tech human_sw init_spawned }
-	#weapon="red"
-	planet_name="NAME_Etti_P4"
-	planet_class="pc_continental"
-	system_name="NAME_Etti"
-	initializer="canon_etti_system_initializer"
-	graphical_culture="csa_01"
-	city_graphical_culture="csa_01"
-	empire_flag={
-		icon = { category="starwars" file="CSA.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor2020" "customcolor2020" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_CorporateSectorAuthority
-			second_name = PRESCRIPTED_ruler_second_name_CorporateSectorAuthority
-		}
-		portrait="mirkovig_hirken_male_01"
-		texture=0
-		attachment=117
-		clothes=12
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="corporate_sector_room"
-}
-
-# Corellian Security
-CorellianSecurity = {
-	name_list="Corellian"
-	ship_prefix="PRESCRIPTED_ship_prefix_CorellianSecurity"
-	species_name="PRESCRIPTED_species_name_CorellianSecurity"
-	species_plural="PRESCRIPTED_species_plural_CorellianSecurity"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_CorellianSecurity"
-	species_bio="PRESCRIPTED_species_bio_CorellianSecurity"
-	portrait="human"
-	name="EMPIRE_DESIGN_CorellianSecurity"
-	adjective="PRESCRIPTED_adjective_CorellianSecurity"
-
-	authority="auth_democratic"
-	civics={ "civic_corellian" "civic_free_haven" }
-	government="gov_corsec"
-
-	ethic="ethic_egalitarian"
-	ethic="ethic_materialist"
-	ethic="ethic_xenophile"
-	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-
-	origin = "origin_swp_corsec"
-
-	flags={ custom_start_screen corellian_security rebel_tech human_sw init_spawned }
-	#weapon="red"
-	planet_name="NAME_Corellia_P1"
-	planet_class="pc_continental"
-	system_name="NAME_Corellia"
-	initializer="canon_corellia_system_initializer"
-	graphical_culture="corellian_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "CorSec.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor1456" "customcolor1456" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_CorellianSecurity
-			second_name = PRESCRIPTED_ruler_second_name_CorellianSecurity
-		}
-		portrait="human"
-		texture=2
-		attachment=2
-		clothes=4
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="corellian_security_room"
-}
-
-# Chiss Ascendancy
-ChissAscendancy = {
-	name_list="Chiss"
-	ship_prefix="PRESCRIPTED_ship_prefix_ChissAscendancy"
-	species_name="PRESCRIPTED_species_name_ChissAscendancy"
-	species_plural="PRESCRIPTED_species_plural_ChissAscendancy"
-	species_class="CHS"
-	species_adjective="PRESCRIPTED_species_adjective_ChissAscendancy"
-	species_bio="PRESCRIPTED_species_bio_ChissAscendancy"
-	portrait="chiss"
-	name="EMPIRE_DESIGN_ChissAscendancy"
-	adjective="PRESCRIPTED_adjective_ChissAscendancy"
-
-	authority="auth_oligarchic"
-	civics={ "civic_chiss_houses" "civic_aristocratic_elite" }
-	government="gov_aristocra"
-
-	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_xenophobe"
-	trait="trait_intelligent"
-	trait="trait_talented"
-	trait="trait_solitary"
-
-	origin = "origin_swp_ascendancy"
-
-	flags={ custom_start_screen chiss_ascendancy chiss_tech init_spawned can_settle_unknown_regions }
-	#weapon="maser"
-	planet_name="NAME_Csilla_P2"
-	planet_class="pc_arctic"
-	system_name="NAME_Csilla"
-	initializer="canon_csilla_system_initializer"
-	graphical_culture="chiss_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "ChissAscendancy.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor777" "customcolor777" "null" "null" }
-	}
-	ruler={
-		gender=female
-		name="PRESCRIPTED_ruler_name_ChissAscendancy"
-		portrait="chiss"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="chiss_ascendancy_room"
-}
-
-# Nest of Nests
-# TheColony = {
-#	name_list="Killik"
-#	ship_prefix="PRESCRIPTED_ship_prefix_TheColony"
-#	species_name="PRESCRIPTED_species_name_TheColony"
-#	species_plural="PRESCRIPTED_species_plural_TheColony"
-#	species_class="KIL"
-#	species_adjective="PRESCRIPTED_species_adjective_TheColony"
-#	species_bio="PRESCRIPTED_species_bio_TheColony"
-#	portrait="killik"
-#	name="EMPIRE_DESIGN_TheColony"
-#	adjective="PRESCRIPTED_adjective_TheColony"
-
-#	authority="auth_hive_mind"
-# 	playable = has_utopia
-#	civics={ "civic_hive_subsumed_will" "civic_hive_one_mind" }
-#	government="gov_hive_mind"
-
-#	ethic="ethic_gestalt_consciousness"
-#	trait="trait_hive_mind"
-#	trait="trait_very_strong"
-#	trait="trait_slow_breeders"
-
-#	origin = "origin_swp_killik"
-
-#	flags={ custom_start_screen killik_colony init_spawned can_settle_unknown_regions }
-#	#weapon="yellow"
-#	planet_name="NAME_Yoggoy_P3"
-#	planet_class="pc_continental"
-#	system_name="NAME_Yoggoy"
-#	initializer="canon_yoggoy_system_initializer"
-#	graphical_culture="misc_01"
-#	city_graphical_culture="mammalian_01"
-#	empire_flag={
-#		icon = { category="starwars" file="KillikColony.dds" }
-#		background = { category="backgrounds" file="00_solid.dds" }
-#		colors = { "customcolor1758" "customcolor1758" "null" "null" }
-#	}
-#	ruler={
-#		gender=male
-#		name={
-#			first_name = PRESCRIPTED_ruler_first_name_TheColony
-#			second_name = PRESCRIPTED_ruler_second_name_TheColony
-#		}
-#		portrait="killik"
-#		texture=0
-#		attachment=0
-#		clothes=0
-#		leader_class = official
-#	}
-#	spawn_enabled=always
-#	room="personality_hive_mind_room"
+# 	empire_flag={
+# 		icon = { category="starwars" file="GalacticRepublic.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor2052" "customcolor2052" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name = {
+# 			first_name = PRESCRIPTED_ruler_first_name_GalacticRepublic
+# 			second_name = PRESCRIPTED_ruler_second_name_GalacticRepublic
+# 		}	
+# 		portrait="human"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="republic_room"
 # }
 
-# Hapes Consortium
-HapesConsortium = {
-	name_list="Hapan"
-	ship_prefix="PRESCRIPTED_ship_prefix_HapesConsortium"
-	species_name="PRESCRIPTED_species_name_HapesConsortium"
-	species_plural="PRESCRIPTED_species_plural_HapesConsortium"
-	species_class="HAP"
-	species_adjective="PRESCRIPTED_species_adjective_HapesConsortium"
-	species_bio="PRESCRIPTED_species_bio_HapesConsortium"
-	portrait="hapan"
-	name="EMPIRE_DESIGN_HapesConsortium"
-	adjective="PRESCRIPTED_adjective_HapesConsortium"
-
-	authority="auth_imperial"
-	civics={ "civic_hapes_consortium" "civic_philosopher_king" } #"civic_efficient_bureaucracy"
-	government="gov_hapes_consortium"
-
-	ethic="ethic_spiritualist"
-	ethic="ethic_militarist"
-	ethic="ethic_xenophobe"
-	trait="trait_hapan_beauty"
-	trait="trait_traditional"
-
-	origin = "origin_swp_hapes"
-
-	flags={ custom_start_screen hapes_consortium hapan_tech init_spawned }
-	#weapon="purple"
-	planet_name="NAME_Hapes_P2"
-	planet_class="pc_gaia"
-	system_name="NAME_Hapes"
-	initializer="canon_hapes_system_initializer"
-	graphical_culture="hapes_01"
-	city_graphical_culture="hapes_01"
-	empire_flag={
-		icon = { category="starwars" file = "HapesConsortium.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor790" "customcolor790" "null" "null" }
-	}
-	ruler={
-		gender=female
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_HapesConsortium
-			second_name = PRESCRIPTED_ruler_second_name_HapesConsortium
-		}
-		portrait="hapan"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="hapes_consortium_room"
-}
-
-#####################################
-# Galactic Contender
-#####################################
-
-# Arkanian Dominion
-ArkanianDominion = {
-	name_list="Arkanian"
-	ship_prefix="PRESCRIPTED_ship_prefix_ArkanianDominion"
-	species_name="PRESCRIPTED_species_name_ArkanianDominion"
-	species_plural="PRESCRIPTED_species_plural_ArkanianDominion"
-	species_class="ARK"
-	species_adjective="PRESCRIPTED_species_adjective_ArkanianDominion"
-	species_bio="PRESCRIPTED_species_bio_ArkanianDominion"
-	portrait="arkanian"
-	name="EMPIRE_DESIGN_ArkanianDominion"
-	adjective="PRESCRIPTED_adjective_ArkanianDominion"
-
-	authority="auth_dictatorial"
-	civics={ "civic_genetic_experiments" "civic_technocracy" }
-	government="gov_technocratic_dictatorship"
-
-	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_materialist"
-	#ethic="ethic_xenophobe"
-	trait="trait_intelligent"
-	trait="trait_quick_learners"
-	trait="trait_wasteful"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen arkanian_dominion hutt_tech init_spawned }
-	#weapon="blue"
-	planet_name="NAME_Perave_P3"
-	planet_class="pc_arctic"
-	system_name="NAME_Perave"
-	initializer="canon_perave_system_initializer"
-	graphical_culture="misc_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "ArkanianDominion.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor582" "customcolor582" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_ArkanianDominion
-			second_name = PRESCRIPTED_ruler_second_name_ArkanianDominion
-		}
-		portrait="arkanian"
-		texture=1
-		attachment=3
-		clothes=4
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="arkanian_dominion_room"
-}
-
-# Bakuran Senate
-BakuranSenate = {
-	name_list="SWP_Human1"
-	ship_prefix="PRESCRIPTED_ship_prefix_BakuranSenate"
-	species_name="PRESCRIPTED_species_name_BakuranSenate"
-	species_plural="PRESCRIPTED_species_plural_BakuranSenate"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_BakuranSenate"
-	species_bio="PRESCRIPTED_species_bio_BakuranSenate"
-	portrait="human"
-	name="EMPIRE_DESIGN_BakuranSenate"
-	adjective="PRESCRIPTED_adjective_BakuranSenate"
-
-	authority="auth_democratic"
-	civics={ "civic_droid_uprising" "civic_parliamentary_system" }
-	government="gov_direct_democracy"
-
-	ethic="ethic_egalitarian"
-	ethic="ethic_pacifist"
-	ethic="ethic_xenophobe"
-	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen bakuran_senate hutt_tech human_sw init_spawned }
-	#weapon="red"
-	planet_name="NAME_Bakura_P3"
-	planet_class="pc_continental"
-	system_name="NAME_Bakura"
-	initializer="canon_bakura_system_initializer"
-	graphical_culture="misc_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "BakuranSenate.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor507" "customcolor507" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_BakuranSenate
-			second_name = PRESCRIPTED_ruler_second_name_BakuranSenate
-		}
-		portrait="human"
-		texture=0
-		attachment=0
-		clothes=1
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="bakuran_senate_room"
-}
-
-# Centrality
-TheCentrality = {
-	name_list="SWP_Human3"
-	ship_prefix="PRESCRIPTED_ship_prefix_TheCentrality"
-	species_name="PRESCRIPTED_species_name_TheCentrality"
-	species_plural="PRESCRIPTED_species_plural_TheCentrality"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_TheCentrality"
-	species_bio="PRESCRIPTED_species_bio_TheCentrality"
-	portrait="human"
-	name="EMPIRE_DESIGN_TheCentrality"
-	adjective="PRESCRIPTED_adjective_TheCentrality"
-
-	authority="auth_democratic"
-	civics={ "civic_idealistic_foundation" "civic_beacon_of_liberty" }
-	government="gov_moral_democracy"
-
-	ethic="ethic_egalitarian"
-	ethic="ethic_pacifist"
-	ethic="ethic_xenophile"
-	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen the_centrality rebel_tech human_sw init_spawned }
-	#weapon="red"
-	planet_name="NAME_Erilnar_P1"
-	planet_class="pc_continental"
-	system_name="NAME_Erilnar"
-	initializer="canon_erilnar_system_initializer"
-	graphical_culture="misc_03"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "TheCentrality.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor471" "customcolor471" "null" "null" }
- 	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_TheCentrality
-			second_name = PRESCRIPTED_ruler_second_name_TheCentrality
-		}
-		portrait="human"
-		texture=3
-		attachment=3
-		clothes=3
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="the_centrality_room"
-}
-
-# Chalactan Council
-ChalactanCouncil = {
-	name_list="Chalactan"
-	ship_prefix="PRESCRIPTED_ship_prefix_ChalactanCouncil"
-	species_name="PRESCRIPTED_species_name_ChalactanCouncil"
-	species_plural="PRESCRIPTED_species_plural_ChalactanCouncil"
-	species_class="CHA"
-	species_adjective="PRESCRIPTED_species_adjective_ChalactanCouncil"
-	species_bio="PRESCRIPTED_species_bio_ChalactanCouncil"
-	portrait="chalactan"
-	name="EMPIRE_DESIGN_ChalactanCouncil"
-	adjective="PRESCRIPTED_adjective_ChalactanCouncil"
-
-	authority="auth_democratic"
-	civics={ "civic_idealistic_foundation" "civic_efficient_bureaucracy" }
-	government="gov_moral_democracy"
-
-	ethic="ethic_egalitarian"
-	ethic="ethic_pacifist"
-	ethic="ethic_spiritualist"
-	trait="trait_conservational"
-	trait="trait_traditional"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen chalactan_council rebel_tech init_spawned }
-	#weapon="red"
-	planet_name="NAME_Chalacta_P1"
-	planet_class="pc_alpine"
-	system_name="NAME_Chalacta"
-	initializer="canon_chalacta_system_initializer"
-	graphical_culture="misc_03"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "ChalactanCouncil.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor44" "customcolor44" "null" "null" }
-	}
-	ruler={
-		gender=female
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_ChalactanCouncil
-			second_name = PRESCRIPTED_ruler_second_name_ChalactanCouncil
-		}
-		portrait="chalactan"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="chalactan_council_room"
-}
-
-# Council of Elders
-CouncilofElders = {
-	name_list="Cerean"
-	ship_prefix="PRESCRIPTED_ship_prefix_CouncilofElders"
-	species_name="PRESCRIPTED_species_name_CouncilofElders"
-	species_plural="PRESCRIPTED_species_plural_CouncilofElders"
-	species_class="CER"
-	species_adjective="PRESCRIPTED_species_adjective_CouncilofElders"
-	species_bio="PRESCRIPTED_species_bio_CouncilofElders"
-	portrait="cerean"
-	name="EMPIRE_DESIGN_CouncilofElders"
-	adjective="PRESCRIPTED_adjective_CouncilofElders"
-
-	authority="auth_oligarchic"
-	civics={ "civic_exalted_priesthood" "civic_agrarian_idyll" }
-	government="gov_theocratic_republic"
-
-	ethic="ethic_fanatic_pacifist"
-	ethic="ethic_spiritualist"
-	trait="trait_conservational"
-	trait="trait_agrarian"
-	trait="trait_sedentary"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen cerean_council rebel_tech init_spawned }
-	#weapon="blue"
-	planet_name="NAME_Cerea_P4"
-	planet_class="pc_continental"
-	system_name="NAME_Cerea"
-	initializer="canon_cerea_system_initializer"
-	graphical_culture="misc_03"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "CouncilOfElders.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor201" "customcolor201" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_CouncilofElders
-			second_name = PRESCRIPTED_ruler_second_name_CouncilofElders
-		}
-		portrait="cerean"
-		texture=0
-		attachment=0
-		clothes=4
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="cerean_council_room"
-}
-
-# Dorin Commonwealth
-DorinCommonwealth = {
-	name_list="Kel_Dor"
-	ship_prefix="PRESCRIPTED_ship_prefix_DorinCommonwealth"
-	species_name="PRESCRIPTED_species_name_DorinCommonwealth"
-	species_plural="PRESCRIPTED_species_plural_DorinCommonwealth"
-	species_class="KEL"
-	species_adjective="PRESCRIPTED_species_adjective_DorinCommonwealth"
-	species_bio="PRESCRIPTED_species_bio_DorinCommonwealth"
-	portrait="kel_dor"
-	name="EMPIRE_DESIGN_DorinCommonwealth"
-	adjective="PRESCRIPTED_adjective_DorinCommonwealth"
-
-	authority="auth_democratic"
-	civics={ "civic_idealistic_foundation" "civic_parliamentary_system" }
-	government="gov_moral_democracy"
-
-	ethic="ethic_egalitarian"
-	ethic="ethic_pacifist"
-	ethic="ethic_xenophile"
-	trait="trait_conformists"
-	trait="trait_communal"
-	trait="trait_sedentary"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen dorin_commonwealth rebel_tech init_spawned }
-	#weapon="blue"
-	planet_name="NAME_Dorin_P2"
-	planet_class="pc_continental"
-	system_name="NAME_Dorin"
-	initializer="canon_dorin_system_initializer"
-	graphical_culture="misc_03"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "DorinCommonwealth.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor763" "customcolor763" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_DorinCommonwealth
-			second_name = PRESCRIPTED_ruler_second_name_DorinCommonwealth
-		}
-		portrait="kel_dor"
-		texture=0
-		attachment=0
-		clothes=5
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="dorin_commonwealth_room"
-}
-
-# Echani Command
-EchaniCommand = {
-	name_list="Echani"
-	ship_prefix="PRESCRIPTED_ship_prefix_EchaniCommand"
-	species_name="PRESCRIPTED_species_name_EchaniCommand"
-	species_plural="PRESCRIPTED_species_plural_EchaniCommand"
-	species_class="ECH"
-	species_adjective="PRESCRIPTED_species_adjective_EchaniCommand"
-	species_bio="PRESCRIPTED_species_bio_EchaniCommand"
-	portrait="echani"
-	name="EMPIRE_DESIGN_EchaniCommand"
-	adjective="PRESCRIPTED_adjective_EchaniCommand"
-
-	authority="auth_oligarchic"
-	civics={ "civic_citizen_service" "civic_warrior_culture" }
-	government="gov_citizen_stratocracy"
-
-	ethic="ethic_spiritualist"
-	ethic="ethic_militarist"
-	ethic="ethic_xenophile"
-	trait="trait_strong"
-	trait="trait_echani"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen echani_command hutt_tech_command init_spawned }
-	#weapon="blue"
-	planet_name="NAME_Eshan_P1"
-	planet_class="pc_continental"
-	system_name="NAME_Eshan"
-	initializer="canon_eshan_system_initializer"
-	graphical_culture="misc_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "EchaniCommand.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor874" "customcolor874" "null" "null" }
-	}
-	ruler={
-		gender=female
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_EchaniCommand
-			second_name = PRESCRIPTED_ruler_second_name_EchaniCommand
-		}
-		portrait="echani"
-		texture=1
-		attachment=3
-		clothes=2
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="echani_command_room"
-}
-
-# Greater Javin
-GreaterJavin = {
-	name_list="SWP_Human1"
-	ship_prefix="PRESCRIPTED_ship_prefix_GreaterJavin"
-	species_name="PRESCRIPTED_species_name_GreaterJavin"
-	species_plural="PRESCRIPTED_species_plural_GreaterJavin"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_GreaterJavin"
-	species_bio="PRESCRIPTED_species_bio_GreaterJavin"
-	portrait="human"
-	name="EMPIRE_DESIGN_GreaterJavin"
-	adjective="PRESCRIPTED_adjective_GreaterJavin"
-
-	authority="auth_democratic"
-	civics={ "civic_technocracy" "civic_meritocracy" }
-	government="gov_rational_consensus"
-
-	ethic="ethic_egalitarian"
-	ethic="ethic_fanatic_materialist"
-
-	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen greater_javin hutt_tech human_sw init_spawned }
-	#weapon="blue"
-	planet_name="NAME_Javin_P1"
-	planet_class="pc_desert"
-	system_name="NAME_Javin"
-	initializer="canon_javin_system_initializer"
-	graphical_culture="misc_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "GreaterJavin.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor716" "customcolor716" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_GreaterJavin
-			second_name = PRESCRIPTED_ruler_second_name_GreaterJavin
-		}
-		portrait="human"
-		texture=1
-		attachment=4
-		clothes=4
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="greater_javin_room"
-}
-
-# Juvex Sector
-JuvexSector = {
-	name_list="SWP_Human2"
-	ship_prefix="PRESCRIPTED_ship_prefix_JuvexSector"
-	species_name="PRESCRIPTED_species_name_JuvexSector"
-	species_plural="PRESCRIPTED_species_plural_JuvexSector"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_JuvexSector"
-	species_bio="PRESCRIPTED_species_bio_JuvexSector"
-	portrait="human"
-	name="EMPIRE_DESIGN_JuvexSector"
-	adjective="PRESCRIPTED_adjective_JuvexSector"
-
-	authority="auth_oligarchic"
-	civics={ "civic_slaver_guilds" "civic_shadow_council" }
-	government="gov_military_junta"
-
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen juvex_sector cis_tech human_sw init_spawned }
-	#weapon="red"
-	planet_name="NAME_Juvex_P2"
-	planet_class="pc_continental"
-	system_name="NAME_Juvex"
-	initializer="canon_juvex_system_initializer"
-	graphical_culture="misc_02"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "JuvexSector.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor1179" "customcolor1179" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_JuvexSector
-			second_name = PRESCRIPTED_ruler_second_name_JuvexSector
-		}
-		portrait="human"
-		texture=1
-		attachment=2
-		clothes=5
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="juvex_sector_room"
-}
-
-# Kingdom of Onderon
-KingdomofOnderon = {
-	name_list="SWP_Human3"
-	ship_prefix="PRESCRIPTED_ship_prefix_KingdomofOnderon"
-	species_name="PRESCRIPTED_species_name_KingdomofOnderon"
-	species_plural="PRESCRIPTED_species_plural_KingdomofOnderon"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_KingdomofOnderon"
-	species_bio="PRESCRIPTED_species_bio_KingdomofOnderon"
-	portrait="human"
-	name="EMPIRE_DESIGN_KingdomofOnderon"
-	adjective="PRESCRIPTED_adjective_KingdomofOnderon"
-
-	authority="auth_imperial"
-	civics={ "civic_survival_skills" "civic_philosopher_king" }
-	government="gov_enlightened_monarchy"
-
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_xenophobe"
-	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-
-	origin = "origin_swnd_onderon"
-
-	flags={ custom_start_screen kingdom_of_onderon rebel_tech human_sw init_spawned }
-	#weapon="red"
-	planet_name="NAME_Japrael_P2"
-	planet_class="pc_tropical"
-	system_name="NAME_Japrael"
-	initializer="canon_japrael_system_initializer"
-	graphical_culture="misc_03"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "KingdomOfOnderon.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "dark_purple" "dark_purple" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_KingdomofOnderon
-			second_name = PRESCRIPTED_ruler_second_name_KingdomofOnderon
-		}
-		portrait="human"
-		texture=0
-		attachment=0
-		clothes=3
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="onderon_room"
-}
-
-# Kingdom of Zeltros
-KingdomofZeltros = {
-	name_list="Zeltron"
-	ship_prefix="PRESCRIPTED_ship_prefix_KingdomofZeltros"
-	species_name="PRESCRIPTED_species_name_KingdomofZeltros"
-	species_plural="PRESCRIPTED_species_plural_KingdomofZeltros"
-	species_class="ZEL"
-	species_adjective="PRESCRIPTED_species_adjective_KingdomofZeltros"
-	species_bio="PRESCRIPTED_species_bio_KingdomofZeltros"
-	portrait="zeltron"
-	name="EMPIRE_DESIGN_KingdomofZeltros"
-	adjective="PRESCRIPTED_adjective_KingdomofZeltros"
-
-	authority="auth_monarchy"
-	civics={ "civic_technocracy" "civic_free_haven" }
-	government="gov_representative_democracy"
-
-	# ethic="ethic_authoritarian"
-	ethic="ethic_egalitarian"
-	ethic="ethic_fanatic_materialist"
-	trait="trait_zeltron_beauty"
-	trait="trait_zeltron_empathy"
-	# trait="trait_limited_telepathy"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen kingdom_of_zeltros rebel_tech init_spawned }
-	#weapon="purple"
-	planet_name="NAME_Zel_P3"
-	planet_class="pc_continental"
-	system_name="NAME_Zel"
-	initializer="canon_zel_system_initializer"
-	graphical_culture="misc_03"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "KingdomOfZeltros.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor1045" "customcolor1045" "null" "null" }
-	}
-	ruler={
-		gender=female
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_KingdomofZeltros
-			second_name = PRESCRIPTED_ruler_second_name_KingdomofZeltros
-		}
-		portrait="zeltron"
-		texture=0
-		attachment=0
-		clothes=2
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="zeltros_room"
-}
-
-# Pantoran Assembly
-PantoranAssembly = {
-	name_list="Pantoran"
-	ship_prefix="PRESCRIPTED_ship_prefix_PantoranAssembly"
-	species_name="PRESCRIPTED_species_name_PantoranAssembly"
-	species_plural="PRESCRIPTED_species_plural_PantoranAssembly"
-	species_class="PAN"
-	species_adjective="PRESCRIPTED_species_adjective_PantoranAssembly"
-	species_bio="PRESCRIPTED_species_bio_PantoranAssembly"
-	portrait="pantoran"
-	name="EMPIRE_DESIGN_PantoranAssembly"
-	adjective="PRESCRIPTED_adjective_PantoranAssembly"
-
-	authority="auth_democratic"
-	civics={ "civic_meritocracy" "civic_parliamentary_system" }
-	government="gov_moral_democracy"
-
-	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_xenophile"
-	trait="trait_resilient"
-	trait="trait_traditional"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen pantoran_assembly rebel_tech init_spawned }
-	#weapon="blue"
-	planet_name="NAME_Pantora_P1_1"
-	planet_class="pc_tropical"
-	system_name="NAME_Pantora"
-	initializer="canon_pantora_system_initializer"
-	graphical_culture="misc_03"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "PantoranAssembly.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor1398" "customcolor1398" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_PantoranAssembly
-			second_name = PRESCRIPTED_ruler_second_name_PantoranAssembly
-		}
-		portrait="papanoida_male_01"
-		texture=0
-		attachment=0
-		clothes=9
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="pantoran_assembly_room"
-}
-
-
-# Rodian Clans
-RodianClans = {
-	name_list="Rodian"
-	ship_prefix="PRESCRIPTED_ship_prefix_RodianClans"
-	species_name="PRESCRIPTED_species_name_RodianClans"
-	species_plural="PRESCRIPTED_species_plural_RodianClans"
-	species_class="ROD"
-	species_adjective="PRESCRIPTED_species_adjective_RodianClans"
-	species_bio="PRESCRIPTED_species_bio_RodianClans"
-	portrait="rodian"
-	name="EMPIRE_DESIGN_RodianClans"
-	adjective="PRESCRIPTED_adjective_RodianClans"
-
-	authority="auth_dictatorial"
-	civics={ "civic_rodian_scouts" "civic_cutthroat_politics" }
-	government="gov_constitutional_dictatorship"
-
-	ethic="ethic_authoritarian"
-	ethic="ethic_materialist"
-	ethic="ethic_xenophile"
-	trait="trait_rapid_breeders"
-	trait="trait_nomadic"
-	trait="trait_fleeting"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen rodian_clans hutt_tech init_spawned }
-	#weapon="red"
-	planet_name="NAME_Tyrius_P2"
-	planet_class="pc_tropical"
-	system_name="NAME_Tyrius"
-	initializer="canon_tyrius_system_initializer"
-	graphical_culture="misc_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "RodianClans.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor1467" "customcolor1467" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_RodianClans
-			second_name = PRESCRIPTED_ruler_second_name_RodianClans
-		}
-		portrait="rodian"
-		texture=0
-		attachment=0
-		clothes=1
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="rodian_clans_room"
-}
-
-
-# Taanab Authority
-TaanabAuthority = {
-	name_list="SWP_Human3"
-	ship_prefix="PRESCRIPTED_ship_prefix_TaanabAuthority"
-	species_name="PRESCRIPTED_species_name_TaanabAuthority"
-	species_plural="PRESCRIPTED_species_plural_TaanabAuthority"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_TaanabAuthority"
-	species_bio="PRESCRIPTED_species_bio_TaanabAuthority"
-	portrait="human"
-	name="EMPIRE_DESIGN_TaanabAuthority"
-	adjective="PRESCRIPTED_adjective_TaanabAuthority"
-
-	authority="auth_democratic"
-	civics={ "civic_idealistic_foundation" "civic_meritocracy" }
-	government="gov_direct_democracy"
-
-	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_materialist"
-	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen taanab_authority rebel_tech human_sw init_spawned }
-	#weapon="blue"
-	planet_name="NAME_Taanab_P2"
-	planet_class="pc_continental"
-	system_name="NAME_Taanab"
-	initializer="canon_taanab_system_initializer"
-	graphical_culture="misc_03"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "TaanabAuthority.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor1625" "customcolor1625" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_TaanabAuthority
-			second_name = PRESCRIPTED_ruler_second_name_TaanabAuthority
-		}
-		portrait="human"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="taanab_authority_room"
-}
-
-
-# Trandoshan Tribes
-TrandoshanTribes = {
-	name_list="Trandoshan"
-	ship_prefix="PRESCRIPTED_ship_prefix_TrandoshanTribes"
-	species_name="PRESCRIPTED_species_name_TrandoshanTribes"
-	species_plural="PRESCRIPTED_species_plural_TrandoshanTribes"
-	species_class="TRA"
-	species_adjective="PRESCRIPTED_species_adjective_TrandoshanTribes"
-	species_bio="PRESCRIPTED_species_bio_TrandoshanTribes"
-	portrait="trandoshan"
-	name="EMPIRE_DESIGN_TrandoshanTribes"
-	adjective="PRESCRIPTED_adjective_TrandoshanTribes"
-
-	authority="auth_imperial"
-	civics={ "civic_trandoshan_tribes" "civic_slaver_guilds" }
-	government="gov_trandoshan_tribes"
-
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_xenophobe"
-	trait="trait_very_strong"
-	trait="trait_enduring"
-	trait="trait_slow_breeders"
-	trait="trait_solitary"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen trandoshan_tribes hutt_tech init_spawned }
-	#weapon="yellow"
-	planet_name="NAME_Kashyyyk_P4"
-	planet_class="pc_tropical"
-	system_name="NAME_Kashyyyk"
-	initializer="canon_kashyyyk_system_initializer"
-	graphical_culture="misc_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "TrandoshanTribes.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "green" "green" "null" "null" } #"customcolor1501" "customcolor1501"
-	}
-	ruler={
-		gender=male
-		name="PRESCRIPTED_ruler_name_TrandoshanTribes"
-		portrait="trandoshan"
-		texture=0
-		attachment=0
-		clothes=7
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="trandoshan_tribes_room"
-}
-
-
-# Utapauan Committee
-UtapauanCommittee = {
-	name_list="Pauan"
-	ship_prefix="PRESCRIPTED_ship_prefix_UtapauanCommittee"
-	species_name="PRESCRIPTED_species_name_UtapauanCommittee"
-	species_plural="PRESCRIPTED_species_plural_UtapauanCommittee"
-	species_class="PAU"
-	species_adjective="PRESCRIPTED_species_adjective_UtapauanCommittee"
-	species_bio="PRESCRIPTED_species_bio_UtapauanCommittee"
-	portrait="pauan"
-	name="EMPIRE_DESIGN_UtapauanCommittee"
-	adjective="PRESCRIPTED_adjective_UtapauanCommittee"
-
-	authority="auth_oligarchic"
-	civics={ "civic_inwards_perfection" "civic_functional_architecture" }
-	government="gov_executive_committee"
-
-	ethic="ethic_egalitarian"
-	ethic="ethic_xenophobe"
-	ethic="ethic_pacifist"
-	trait="trait_venerable"
-	trait="trait_sedentary"
-	trait="trait_slow_learners"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen utapauan_committee rebel_tech init_spawned }
-	#weapon="red"
-	planet_name="NAME_Utapau_P4"
-	planet_class="pc_savannah"
-	system_name="NAME_Utapau"
-	initializer="canon_utapau_system_initializer"
-	graphical_culture="misc_03"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "UtapauanCommittee.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor236" "customcolor236" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_UtapauanCommittee
-			second_name = PRESCRIPTED_ruler_second_name_UtapauanCommittee
-		}
-		portrait="pauan"
-		texture=0
-		attachment=0
-		clothes=0
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="utapauan_room"
-}
-
-# Zabrak Council
-ZabrakCouncil = {
-	name_list="Zabrak"
-	ship_prefix="PRESCRIPTED_ship_prefix_ZabrakCouncil"
-	species_name="PRESCRIPTED_species_name_ZabrakCouncil"
-	species_plural="PRESCRIPTED_species_plural_ZabrakCouncil"
-	species_class="ZAB"
-	species_adjective="PRESCRIPTED_species_adjective_ZabrakCouncil"
-	species_bio="PRESCRIPTED_species_bio_ZabrakCouncil"
-	portrait="zabrak"
-	name="EMPIRE_DESIGN_ZabrakCouncil"
-	adjective="PRESCRIPTED_adjective_ZabrakCouncil"
-
-	authority="auth_oligarchic"
-	civics={ "civic_exalted_priesthood" "civic_warrior_culture" }
-	government="gov_holy_tribunal"
-
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
-	trait="trait_adaptive"
-	trait="trait_strong"
-	trait="trait_deviants"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen zabrak_council hutt_tech init_spawned }
-	#weapon="yellow"
-	planet_name="NAME_Iridonia_AP3"
-	planet_class="pc_arid"
-	system_name="NAME_Iridonia"
-	initializer="canon_iridonia_system_initializer"
-	graphical_culture="misc_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "ZabrakCouncil.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor651" "customcolor651" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_ZabrakCouncil
-			second_name = PRESCRIPTED_ruler_second_name_ZabrakCouncil
-		}
-		portrait="zabrak"
-		texture=0
-		attachment=0
-		clothes=1
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="zabrak_council_room"
-}
-
-# Zygerrian Slave State
-ZygerrianSlaveState = {
-	name_list="Zygerrian"
-	ship_prefix="PRESCRIPTED_ship_prefix_ZygerrianSlaveState"
-	species_name="PRESCRIPTED_species_name_ZygerrianSlaveState"
-	species_plural="PRESCRIPTED_species_plural_ZygerrianSlaveState"
-	species_class="ZYG"
-	species_adjective="PRESCRIPTED_species_adjective_ZygerrianSlaveState"
-	species_bio="PRESCRIPTED_species_bio_ZygerrianSlaveState"
-	portrait="zygerrian"
-	name="EMPIRE_DESIGN_ZygerrianSlaveState"
-	adjective="PRESCRIPTED_adjective_ZygerrianSlaveState"
-
-	authority="auth_imperial"
-	civics={ "civic_slaver_guilds" "civic_feudal_realm" }
-	government="gov_feudal_empire"
-
-	ethic="ethic_fanatic_authoritarian"
-	ethic="ethic_materialist"
-	trait="trait_rapid_breeders"
-	trait="trait_quick_learners"
-	trait="trait_decadent"
-
-	origin = "origin_swp_default"
-
-	flags={ custom_start_screen zygerrian_slave_state cis_tech init_spawned }
-	#weapon="yellow"
-	planet_name="NAME_Zygerria_P3"
-	planet_class="pc_arid"
-	system_name="NAME_Zygerria"
-	initializer="canon_zygerria_system_initializer"
-	graphical_culture="misc_02"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file = "ZygerrianSlaveState.dds" }
-		background = { category="backgrounds" file = "00_solid.dds" }
-		colors = { "customcolor1009" "customcolor1009" "null" "null" }
-	}
-	ruler={
-		gender=female
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_ZygerrianSlaveState
-			second_name = PRESCRIPTED_ruler_second_name_ZygerrianSlaveState
-		}
-		portrait="zygerrian_female_05"
-		texture=0
-		attachment=0
-		clothes=6
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="zygerrian_room"
-}
+
+# #####################################
+# # Empire & Allies
+# #####################################
+
+# # Eriadu Authority
+# EriaduAuthority = {
+# 	name_list="SWP_Human4"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_EriaduAuthority"
+# 	species_name="PRESCRIPTED_species_name_EriaduAuthority"
+# 	species_plural="PRESCRIPTED_species_plural_EriaduAuthority"
+# 	species_class="HUM"
+# 	species_adjective="PRESCRIPTED_species_adjective_EriaduAuthority"
+# 	species_bio="PRESCRIPTED_species_bio_EriaduAuthority"
+# 	portrait="human"
+# 	name="EMPIRE_DESIGN_EriaduAuthority"
+# 	adjective="PRESCRIPTED_adjective_EriaduAuthority"
+
+# 	authority="auth_dictatorial"
+# 	civics={ "civic_distinguished_admiralty" "civic_cutthroat_politics" }
+# 	government="gov_constitutional_dictatorship"
+
+# 	ethic="ethic_authoritarian"
+# 	ethic="ethic_militarist"
+# 	ethic="ethic_xenophobe"
+
+# 	trait="trait_nomadic"
+# 	trait="trait_communal"
+# 	trait="trait_wasteful"
+
+# 	origin = "origin_swp_imperial_loyalist"
+
+# 	flags={ custom_start_screen eriadu_authority imperial_tech human_sw init_spawned }
+# 	#weapon="blue"
+# 	planet_name="NAME_Eriadu_P4"
+# 	planet_class="pc_ecumenopolis"
+# 	system_name="NAME_Eriadu"
+# 	initializer="canon_eriadu_system_initializer"
+# 	graphical_culture="imperial_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="EriaduAuthority.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor1878" "customcolor1878" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_EriaduAuthority
+# 			second_name = PRESCRIPTED_ruler_second_name_EriaduAuthority
+# 		}
+# 		portrait="garoche_tarkin_male_01"
+# 		texture=0
+# 		attachment=26
+# 		clothes=6
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="eriadu_room"
+# }
+
+# # Ciutric Hegemony
+# CiutricHegemony = {
+# 	name_list="SWP_Human4"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_CiutricHegemony"
+# 	species_name="PRESCRIPTED_species_name_CiutricHegemony"
+# 	species_plural="PRESCRIPTED_species_plural_CiutricHegemony"
+# 	species_class="HUM"
+# 	species_adjective="PRESCRIPTED_species_adjective_CiutricHegemony"
+# 	species_bio="PRESCRIPTED_species_bio_CiutricHegemony"
+# 	portrait="human"
+# 	name="EMPIRE_DESIGN_CiutricHegemony"
+# 	adjective="PRESCRIPTED_adjective_CiutricHegemony"
+
+# 	authority="auth_dictatorial"
+# 	civics={ "civic_technocracy" "civic_nationalistic_zeal" }
+# 	government="gov_constitutional_dictatorship"
+
+# 	ethic="ethic_militarist"
+# 	ethic="ethic_fanatic_materialist"
+#  	trait="trait_nomadic"
+# 	trait="trait_communal"
+# 	trait="trait_wasteful"
+
+# 	origin = "origin_swp_imperial_loyalist"
+
+# 	flags={ custom_start_screen ciutric_hegemony imperial_tech human_sw init_spawned }
+# 	#weapon="red" 
+# 	planet_name="NAME_Ciutric_P4"
+# 	planet_class="pc_tropical"
+# 	system_name="NAME_Ciutric"
+# 	initializer="canon_ciutric_system_initializer"
+# 	graphical_culture="imperial_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="CuitricHegemony.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor1870" "customcolor1870" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_CiutricHegemony
+# 			second_name = PRESCRIPTED_ruler_second_name_CiutricHegemony
+# 		}
+# 		portrait="pensar_luc_male_01"
+# 		texture=0
+# 		attachment=103
+# 		clothes=11
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="ciutric_room"
+# }
+
+# #####################################
+# # Rebel Alliance Founders
+# #####################################
+
+
+# # Kingdom of Alderaan
+# KingdomofAlderaan = {
+# 	name_list="Rebel"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_KingdomofAlderaan"
+# 	species_name="PRESCRIPTED_species_name_KingdomofAlderaan"
+# 	species_plural="PRESCRIPTED_species_plural_KingdomofAlderaan"
+# 	species_class="HUM"
+# 	species_adjective="PRESCRIPTED_species_adjective_KingdomofAlderaan"
+# 	species_bio="PRESCRIPTED_species_bio_KingdomofAlderaan"
+# 	portrait="human"
+# 	name="EMPIRE_DESIGN_KingdomofAlderaan"
+# 	adjective="PRESCRIPTED_adjective_KingdomofAlderaan"
+
+# 	authority="auth_oligarchic"
+# 	civics={ "civic_rebel_sympathy" "civic_house_organa" }
+# 	government="gov_resistance_movement"
+
+# 	ethic="ethic_xenophile"
+# 	ethic="ethic_pacifist"
+# 	ethic="ethic_egalitarian"
+# 	trait="trait_nomadic"
+# 	trait="trait_communal"
+# 	trait="trait_wasteful"
+
+# 	origin = "origin_swp_restoration"
+
+# 	flags={ custom_start_screen kingdom_of_alderaan rebel_tech human_sw init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Alderaan_P2"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Alderaan"
+# 	initializer="canon_alderaan_system_initializer"
+# 	graphical_culture="rebel_01"
+# 	city_graphical_culture="rebel_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="KingdomofAlderaan.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "light_green" "light_green" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=female
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_KingdomofAlderaan
+# 			second_name = PRESCRIPTED_ruler_second_name_KingdomofAlderaan
+# 		}
+# 		portrait="breha_organa_female_01"
+# 		texture=0
+# 		attachment=1
+# 		clothes=10
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="kingdom_of_alderaan_room"
+# }
+
+# # Mon Cala Monarchy
+# MonCalaMonarchy = {
+# 	name_list="Calamari"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_MonCalaMonarchy"
+# 	species_name="PRESCRIPTED_species_name_MonCalaMonarchy"
+# 	species_plural="PRESCRIPTED_species_plural_MonCalaMonarchy"
+# 	species_class="MON"
+# 	species_adjective="PRESCRIPTED_species_adjective_MonCalaMonarchy"
+# 	species_bio="PRESCRIPTED_species_bio_MonCalaMonarchy"
+# 	portrait="mon_calamari"
+# 	name="EMPIRE_DESIGN_MonCalaMonarchy"
+# 	adjective="PRESCRIPTED_adjective_MonCalaMonarchy"
+
+# 	authority="auth_monarchy"
+# 	civics={ "civic_calamari_dynasty" "civic_master_shipbuilders" }
+# 	government="gov_representative_monarchy"
+
+# 	ethic="ethic_egalitarian"
+# 	ethic="ethic_materialist"
+# 	ethic="ethic_xenophile"
+# 	trait="trait_intelligent"
+# 	trait="trait_quick_learners"
+# 	trait="trait_slow_breeders"
+
+# 	origin = "origin_swp_restoration"
+
+# 	flags={ custom_start_screen mon_cala_monarchy rebel_tech init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Calamari_P2"
+# 	planet_class="pc_ocean"
+# 	system_name="NAME_Calamari"
+# 	initializer="canon_calamari_system_initializer"
+# 	graphical_culture="rebel_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="MonCalMonarchy.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor853" "customcolor853" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_MonCalaMonarchy
+# 			second_name = PRESCRIPTED_ruler_second_name_MonCalaMonarchy
+# 		}
+# 		portrait="lee_char"
+# 		texture=0
+# 		attachment=0
+# 		clothes=13
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="mon_cala_monarchy_room"
+# }
+
+# # Bothan Council
+# BothanCouncil = {
+# 	name_list="Bothan"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_BothanCouncil"
+# 	species_name="PRESCRIPTED_species_name_BothanCouncil"
+# 	species_plural="PRESCRIPTED_species_plural_BothanCouncil"
+# 	species_class="BOT"
+# 	species_adjective="PRESCRIPTED_species_adjective_BothanCouncil"
+# 	species_bio="PRESCRIPTED_species_bio_BothanCouncil"
+# 	portrait="bothan"
+# 	name="EMPIRE_DESIGN_BothanCouncil"
+# 	adjective="PRESCRIPTED_adjective_BothanCouncil"
+
+# 	authority="auth_democratic"
+# 	civics={ "civic_bothan_spies" "civic_environmentalist" }
+# 	government="gov_bothan_council"
+
+# 	ethic="ethic_egalitarian"
+# 	ethic="ethic_pacifist"
+# 	ethic="ethic_xenophile"
+# 	trait="trait_intelligent"
+# 	trait="trait_communal"
+# 	trait="trait_fleeting"
+
+# 	origin = "origin_swp_restoration"
+
+# 	flags={ custom_start_screen bothan_council rebel_tech init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Both_P3"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Both"
+# 	initializer="canon_both_system_initializer"
+# 	graphical_culture="rebel_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="BothanCouncil.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor1704" "customcolor1704" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_BothanCouncil
+# 			second_name = PRESCRIPTED_ruler_second_name_BothanCouncil
+# 		}
+# 		portrait="borsk_feylya"
+# 		texture=0
+# 		attachment=0
+# 		clothes=14
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="bothan_council_room"
+# }
+
+# # Ryloth Protectorate
+# RylothProtectorate = {
+# 	name_list="Twilek"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_RylothProtectorate"
+# 	species_name="PRESCRIPTED_species_name_RylothProtectorate"
+# 	species_plural="PRESCRIPTED_species_plural_RylothProtectorate"
+# 	species_class="TWI"
+# 	species_adjective="PRESCRIPTED_species_adjective_RylothProtectorate"
+# 	species_bio="PRESCRIPTED_species_bio_RylothProtectorate"
+# 	portrait="twilek"
+# 	name="EMPIRE_DESIGN_RylothProtectorate"
+# 	adjective="PRESCRIPTED_adjective_RylothProtectorate"
+
+# 	authority="auth_democratic"
+# 	civics={ "civic_twilek_rebels" "civic_beacon_of_liberty" }
+# 	government="gov_free_ryloth"
+
+# 	ethic="ethic_egalitarian"
+# 	ethic="ethic_spiritualist"
+# 	ethic="ethic_xenophile"
+# 	trait="trait_communal"
+# 	trait="trait_nomadic"
+# 	trait="trait_traditional"
+# 	trait="trait_deviants"
+
+# 	origin = "origin_swp_restoration"
+
+# 	flags={ custom_start_screen ryloth_protectorate rebel_tech init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Ryloth_P2"
+# 	planet_class="pc_arid"
+# 	system_name="NAME_Ryloth"
+# 	initializer="canon_ryloth_system_initializer"
+# 	graphical_culture="rebel_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="RylothProtectorate.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor1408" "customcolor1408" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_RylothProtectorate
+# 			second_name = PRESCRIPTED_ruler_second_name_RylothProtectorate
+# 		}
+# 		portrait="cham_syndulla_male_01"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="ryloth_protectorate_room"
+# }
+
+# # Verpine Enclave
+# VerpineEnclave = {
+# 	name_list="Verpine"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_VerpineEnclave"
+# 	species_name="PRESCRIPTED_species_name_VerpineEnclave"
+# 	species_plural="PRESCRIPTED_species_plural_VerpineEnclave"
+# 	species_class="VER"
+# 	species_adjective="PRESCRIPTED_species_adjective_VerpineEnclave"
+# 	species_bio="PRESCRIPTED_species_bio_VerpineEnclave"
+# 	portrait="verpine"
+# 	name="EMPIRE_DESIGN_VerpineEnclave"
+# 	adjective="PRESCRIPTED_adjective_VerpineEnclave"
+
+# 	authority="auth_democratic"
+# 	civics={ "civic_technocracy" "civic_functional_architecture" }
+# 	government="gov_verpine_consensus_democracy"
+
+# 	ethic="ethic_fanatic_materialist"
+# 	ethic="ethic_pacifist"
+# 	trait="trait_natural_engineers"
+# 	trait="trait_rapid_breeders"
+# 	trait="trait_weak"
+
+# 	origin = "origin_swp_restoration"
+
+# 	flags={ custom_start_screen verpine_enclave rebel_tech init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Roche_P1"
+# 	planet_class="pc_polis_massa"
+# 	system_name="NAME_Roche"
+# 	initializer="canon_roche_system_initializer"
+# 	graphical_culture="rebel_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="VerpineEnclave.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor764" "customcolor764" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name="PRESCRIPTED_ruler_name_VerpineEnclave"
+# 		portrait="verpine"
+# 		texture=1
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="verpine_enclave_room"
+# }
+
+# #####################################
+# # Seperatists
+# #####################################
+
+
+# # ConfederacyOfIndependentSystems
+# ConfederacyOfIndependentSystems = {
+# 	name="EMPIRE_DESIGN_ConfederacyOfIndependentSystems"
+# 	name_list="CIS_Confederacy"
+# 	portrait="human"
+# 	adjective="PRESCRIPTED_adjective_ConfederacyOfIndependentSystems"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_ConfederacyOfIndependentSystems"
+# 	species_name = "PRESCRIPTED_species_name_ConfederacyOfIndependentSystems"
+# 	species_plural = "PRESCRIPTED_species_plural_ConfederacyOfIndependentSystems"
+# 	species_class = "HUM"
+# 	species_adjective = "PRESCRIPTED_species_adjective_ConfederacyOfIndependentSystems"
+# 	species_bio="PRESCRIPTED_species_bio_ConfederacyOfIndependentSystems"
+	
+
+# 	flags={ custom_start_screen confederacy_of_independent_systems cis_tech human_sw init_spawned }
+	
+# 	authority="auth_confederacy_of_independent_systems"
+# 	government="gov_confederacy_of_independent_systems_phase_01"
+# 	civics={ "civic_dawn_of_the_cis" "civic_corporate_benefactors" "civic_cis_militarization" "civic_the_confederate_senate"}
+
+# 	ethic="ethic_authoritarian"
+# 	ethic="ethic_militarist"
+# 	ethic="ethic_materialist"
+
+# 	trait="trait_nomadic"
+# 	trait="trait_communal"
+# 	trait="trait_wasteful"
+		
+# 	origin = "origin_swp_confederacy_cis"
+	
+# 	planet_name="NAME_Raxus_P5"
+# 	planet_class="pc_ecumenopolis"
+# 	graphical_culture="cis_01"
+# 	city_graphical_culture="cis_01"
+# 	system_name="NAME_Raxus"
+# 	initializer="canon_raxus_system_initializer"
+	
+# 	empire_flag={
+# 		icon = { category="starwars" file="ConfederacyOfIndependentSystems.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor1583" "customcolor1583" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name = {
+# 			first_name = PRESCRIPTED_ruler_first_name_ConfederacyOfIndependentSystems
+# 			second_name = PRESCRIPTED_ruler_second_name_ConfederacyOfIndependentSystems
+# 		}	
+# 		portrait="human"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	origin = "origin_swp_confed_remnant"
+# }
+
+
+
+
+# # Trade Federation
+# TradeFederation = {
+# 	name_list="Neimoidian"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_TradeFederation"
+# 	species_name="PRESCRIPTED_species_name_TradeFederation"
+# 	species_plural="PRESCRIPTED_species_plural_TradeFederation"
+# 	species_class="NEI"
+# 	species_adjective="PRESCRIPTED_species_adjective_TradeFederation"
+# 	species_bio="PRESCRIPTED_species_bio_TradeFederation"
+# 	portrait="neimoidian"
+# 	name="EMPIRE_DESIGN_TradeFederation"
+# 	adjective="PRESCRIPTED_adjective_TradeFederation"
+
+# 	authority="auth_corporate"
+# 	playable = has_megacorp
+# 	civics={ "civic_trade_federation" "civic_trading_posts" }
+# 	government="gov_trade_league"
+
+# 	ethic="ethic_fanatic_materialist"
+# 	ethic="ethic_militarist"
+# 	trait="trait_thrifty"
+# 	trait="trait_communal"
+# 	trait="trait_weak"
+
+# 	origin = "origin_swp_confed_remnant"
+
+# 	flags={ custom_start_screen trade_federation cis_tech neimoidian_sw init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Neimodia_P3"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Neimodia"
+# 	initializer="canon_neimoidia_system_initializer"
+# 	graphical_culture="cis_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="TradeFederation.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor557" "customcolor557" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_TradeFederation
+# 			second_name = PRESCRIPTED_ruler_second_name_TradeFederation
+# 		}
+# 		portrait="neimoidian"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="trade_federation_room"
+# }
+# # Trade Federation - No DLC
+# TradeFederation2 = {
+# 	name_list="Neimoidian"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_TradeFederation"
+# 	species_name="PRESCRIPTED_species_name_TradeFederation"
+# 	species_plural="PRESCRIPTED_species_plural_TradeFederation"
+# 	species_class="NEI"
+# 	species_adjective="PRESCRIPTED_species_adjective_TradeFederation"
+# 	species_bio="PRESCRIPTED_species_bio_TradeFederation"
+# 	portrait="neimoidian"
+# 	name="EMPIRE_DESIGN_TradeFederation"
+# 	adjective="PRESCRIPTED_adjective_TradeFederation"
+
+# 	authority="auth_oligarchic"
+# 	playable = has_not_megacorp
+# 	civics={ "civic_trade_federation" "civic_corporate_dominion" }
+# 	government="gov_trade_league"
+
+# 	ethic="ethic_fanatic_materialist"
+# 	ethic="ethic_militarist"
+# 	trait="trait_thrifty"
+# 	trait="trait_communal"
+# 	trait="trait_weak"
+
+# 	origin = "origin_swp_confed_remnant"
+
+# 	flags={ custom_start_screen trade_federation cis_tech neimoidian_sw init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Neimodia_P3"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Neimodia"
+# 	initializer="canon_neimoidia_system_initializer"
+# 	graphical_culture="cis_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="TradeFederation.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor557" "customcolor557" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_TradeFederation
+# 			second_name = PRESCRIPTED_ruler_second_name_TradeFederation
+# 		}
+# 		portrait="neimoidian"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="trade_federation_room"
+# }
+
+# # Intergalactic Banking Clan
+# IntergalacticBankingClan = {
+# 	name_list="Muun"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_IntergalacticBankingClan"
+# 	species_name="PRESCRIPTED_species_name_IntergalacticBankingClan"
+# 	species_plural="PRESCRIPTED_species_plural_IntergalacticBankingClan"
+# 	species_class="MUN"
+# 	species_adjective="PRESCRIPTED_species_adjective_IntergalacticBankingClan"
+# 	species_bio="PRESCRIPTED_species_bio_IntergalacticBankingClan"
+# 	portrait="muun"
+# 	name="EMPIRE_DESIGN_IntergalacticBankingClan"
+# 	adjective="PRESCRIPTED_adjective_IntergalacticBankingClan"
+
+# 	authority="auth_corporate"
+# 	playable = has_megacorp
+# 	civics={ "civic_banking_clan" "civic_franchising" }
+# 	government="gov_megacorporation"
+
+# 	ethic="ethic_fanatic_materialist"
+# 	ethic="ethic_egalitarian"
+# 	trait="trait_natural_physicists"
+# 	trait="trait_thrifty"
+# 	trait="trait_weak"
+
+# 	origin = "origin_swp_confed_remnant"
+
+# 	flags={ custom_start_screen banking_clan cis_tech init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Muunilinst_P3"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Muunilinst"
+# 	initializer="canon_muunilinst_system_initializer"
+# 	graphical_culture="cis_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="InterGalacticBankingClan.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor1698" "customcolor1698" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name="PRESCRIPTED_ruler_name_IntergalacticBankingClan"
+# 		portrait="muun"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="banking_clan_room"
+# }
+# # Intergalactic Banking Clan - No DLC
+# IntergalacticBankingClan2 = {
+# 	name_list="Muun"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_IntergalacticBankingClan"
+# 	species_name="PRESCRIPTED_species_name_IntergalacticBankingClan"
+# 	species_plural="PRESCRIPTED_species_plural_IntergalacticBankingClan"
+# 	species_class="MUN"
+# 	species_adjective="PRESCRIPTED_species_adjective_IntergalacticBankingClan"
+# 	species_bio="PRESCRIPTED_species_bio_IntergalacticBankingClan"
+# 	portrait="muun"
+# 	name="EMPIRE_DESIGN_IntergalacticBankingClan"
+# 	adjective="PRESCRIPTED_adjective_IntergalacticBankingClan"
+
+# 	authority="auth_oligarchic"
+# 	playable = has_not_megacorp
+# 	civics={ "civic_banking_clan" "civic_corporate_dominion" }
+# 	government="gov_executive_committee"
+
+# 	ethic="ethic_fanatic_materialist"
+# 	ethic="ethic_egalitarian"
+# 	trait="trait_natural_physicists"
+# 	trait="trait_thrifty"
+# 	trait="trait_weak"
+
+# 	origin = "origin_swp_confed_remnant"
+
+# 	flags={ custom_start_screen banking_clan cis_tech init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Muunilinst_P3"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Muunilinst"
+# 	initializer="canon_muunilinst_system_initializer"
+# 	graphical_culture="cis_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="InterGalacticBankingClan.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor1698" "customcolor1698" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name="PRESCRIPTED_ruler_name_IntergalacticBankingClan"
+# 		portrait="muun"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="banking_clan_room"
+# }
+# # Tion Hegemony
+# TionHegemony = {
+# 	name_list="SWP_Human2"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_TionHegemony"
+# 	species_name="PRESCRIPTED_species_name_TionHegemony"
+# 	species_plural="PRESCRIPTED_species_plural_TionHegemony"
+# 	species_class="HUM"
+# 	species_adjective="PRESCRIPTED_species_adjective_TionHegemony"
+# 	species_bio="PRESCRIPTED_species_bio_TionHegemony"
+# 	portrait="human"
+# 	name="EMPIRE_DESIGN_TionHegemony"
+# 	adjective="PRESCRIPTED_adjective_TionHegemony"
+
+# 	authority="auth_dictatorial"
+# 	civics={ "civic_clone_wars_loser" "civic_distinguished_admiralty" }
+# 	government="gov_military_dictatorship"
+
+# 	ethic="ethic_fanatic_authoritarian"
+# 	ethic="ethic_militarist"
+
+# 	trait="trait_nomadic"
+# 	trait="trait_communal"
+# 	trait="trait_wasteful"
+
+# 	origin = "origin_swp_confed_remnant"
+
+# 	flags={ custom_start_screen tion_hegemony cis_tech human_sw init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Desevro_P2"
+# 	planet_class="pc_ecumenopolis"
+# 	system_name="NAME_Desevro"
+# 	initializer="canon_desev_system_initializer"
+# 	graphical_culture="cis_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="TionHegemony.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor932" "customcolor932" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=female
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_TionHegemony
+# 			second_name = PRESCRIPTED_ruler_second_name_TionHegemony
+# 		}
+# 		portrait="human"
+# 		texture=0
+# 		attachment=0
+# 		clothes=8
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="tion_hegemony_room"
+# }
+
+# # Commerce Guild
+# CommerceGuild = {
+# 	name_list="Gossam"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_CommerceGuild"
+# 	species_name="PRESCRIPTED_species_name_CommerceGuild"
+# 	species_plural="PRESCRIPTED_species_plural_CommerceGuild"
+# 	species_class="GOS"
+# 	species_adjective="PRESCRIPTED_species_adjective_CommerceGuild"
+# 	species_bio="PRESCRIPTED_species_bio_CommerceGuild"
+# 	portrait="gossam"
+# 	name="EMPIRE_DESIGN_CommerceGuild"
+# 	adjective="PRESCRIPTED_adjective_CommerceGuild"
+
+# 	authority="auth_oligarchic"
+# 	civics={ "civic_technocracy" "civic_mining_guilds" }
+# 	government="gov_science_directorate"
+
+# 	ethic="ethic_fanatic_materialist"
+# 	ethic="ethic_authoritarian"
+# 	trait="trait_thrifty"
+
+# 	origin = "origin_swp_confed_remnant"
+
+# 	flags={ custom_start_screen commerce_guild cis_tech init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Castell_P3"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Castell"
+# 	initializer="canon_castell_system_initializer"
+# 	graphical_culture="cis_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="CommerceGuild.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor309" "customcolor309" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_CommerceGuild
+# 			second_name = PRESCRIPTED_ruler_second_name_CommerceGuild
+# 		}
+# 		portrait="gossam"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="commerce_guild_room"
+# }
+
+
+# # Corporate Alliance
+# CorporateAlliance = {
+# 	name_list="Koorivar"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_CorporateAlliance"
+# 	species_name="PRESCRIPTED_species_name_CorporateAlliance"
+# 	species_plural="PRESCRIPTED_species_plural_CorporateAlliance"
+# 	species_class="KOO"
+# 	species_adjective="PRESCRIPTED_species_adjective_CorporateAlliance"
+# 	species_bio="PRESCRIPTED_species_bio_CorporateAlliance"
+# 	portrait="koorivar"
+# 	name="EMPIRE_DESIGN_CorporateAlliance"
+# 	adjective="PRESCRIPTED_adjective_CorporateAlliance"
+
+# 	authority="auth_corporate"
+# 	playable = has_megacorp
+# 	civics={ "civic_private_military_companies" "civic_naval_contractors" }
+# 	government="gov_megacorporation"
+
+# 	ethic="ethic_authoritarian"
+# 	ethic="ethic_materialist"
+# 	ethic="ethic_militarist"
+# 	trait="trait_thrifty"
+
+# 	origin = "origin_swp_confed_remnant"
+
+# 	flags={ custom_start_screen corporate_alliance cis_tech init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Bomis_Koori_P4"
+# 	planet_class="pc_ecumenopolis"
+# 	system_name="NAME_Bomis_Koori"
+# 	initializer="canon_bomis_koori_system_initializer"
+# 	graphical_culture="cis_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="CorporateAlliance.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor2009" "customcolor2009" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_CorporateAlliance
+# 			second_name = PRESCRIPTED_ruler_second_name_CorporateAlliance
+# 		}
+# 		portrait="koorivar"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="corporate_alliance_room"
+# }
+# # Corporate Alliance - No DLC
+# CorporateAlliance2 = {
+# 	name_list="Koorivar"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_CorporateAlliance"
+# 	species_name="PRESCRIPTED_species_name_CorporateAlliance"
+# 	species_plural="PRESCRIPTED_species_plural_CorporateAlliance"
+# 	species_class="KOO"
+# 	species_adjective="PRESCRIPTED_species_adjective_CorporateAlliance"
+# 	species_bio="PRESCRIPTED_species_bio_CorporateAlliance"
+# 	portrait="koorivar"
+# 	name="EMPIRE_DESIGN_CorporateAlliance"
+# 	adjective="PRESCRIPTED_adjective_CorporateAlliance"
+
+# 	authority="auth_oligarchic"
+# 	playable = has_not_megacorp
+# 	civics={ "civic_corporate_dominion" "civic_naval_tradition" }
+# 	government="gov_megacorporation"
+
+# 	ethic="ethic_authoritarian"
+# 	ethic="ethic_materialist"
+# 	ethic="ethic_militarist"
+# 	trait="trait_thrifty"
+
+# 	origin = "origin_swp_confed_remnant"
+
+# 	flags={ custom_start_screen corporate_alliance cis_tech init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Bomis_Koori_P4"
+# 	planet_class="pc_ecumenopolis"
+# 	system_name="NAME_Bomis_Koori"
+# 	initializer="canon_bomis_koori_system_initializer"
+# 	graphical_culture="cis_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="CorporateAlliance.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor2009" "customcolor2009" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_CorporateAlliance
+# 			second_name = PRESCRIPTED_ruler_second_name_CorporateAlliance
+# 		}
+# 		portrait="koorivar"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="corporate_alliance_room"
+# }
+
+# #####################################
+# # Criminals
+# #####################################
+
+# # Hutt Cartel
+# HuttCartel = {
+# 	name_list="Hutt"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_HuttCartel"
+# 	species_name="PRESCRIPTED_species_name_HuttCartel"
+# 	species_plural="PRESCRIPTED_species_plural_HuttCartel"
+# 	species_class="HUT"
+# 	species_adjective="PRESCRIPTED_species_adjective_HuttCartel"
+# 	species_bio="PRESCRIPTED_species_bio_HuttCartel"
+# 	portrait="hutt"
+# 	name="EMPIRE_DESIGN_HuttCartel"
+# 	adjective="PRESCRIPTED_adjective_HuttCartel"
+
+# 	authority="auth_oligarchic"
+# 	playable = has_megacorp
+# 	civics={ "civic_hutt_cartel" "civic_hutt_elite" }
+# 	government="gov_hutt_cartel"
+
+# 	ethic="ethic_fanatic_materialist"
+# 	ethic="ethic_authoritarian"
+# 	trait="trait_venerable"
+# 	trait="trait_slow_breeders"
+# 	trait="trait_decadent"
+
+# 	origin = "origin_swp_hutt_cartel"
+
+# 	flags={ custom_start_screen hutt_cartel hutt_tech init_spawned }
+# 	#weapon="yellow"
+# 	planet_name="NAME_Ytoub_P3"
+# 	planet_class="pc_tropical"
+# 	system_name="NAME_Ytoub"
+# 	initializer="canon_ytoub_system_initializer"
+# 	graphical_culture="hutt_01"
+# 	city_graphical_culture="hutt_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="HuttCartel.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor905" "customcolor905" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_HuttCartel
+# 			second_name = PRESCRIPTED_ruler_second_name_HuttCartel
+# 		}
+# 		portrait="jabba_male_01"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="hutt_cartel_room"
+# }
+# # Hutt Cartel - No DLC
+# HuttCartel2 = {
+# 	name_list="Hutt"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_HuttCartel"
+# 	species_name="PRESCRIPTED_species_name_HuttCartel"
+# 	species_plural="PRESCRIPTED_species_plural_HuttCartel"
+# 	species_class="HUT"
+# 	species_adjective="PRESCRIPTED_species_adjective_HuttCartel"
+# 	species_bio="PRESCRIPTED_species_bio_HuttCartel"
+# 	portrait="hutt"
+# 	name="EMPIRE_DESIGN_HuttCartel"
+# 	adjective="PRESCRIPTED_adjective_HuttCartel"
+
+# 	authority="auth_oligarchic"
+# 	playable = has_not_megacorp
+# 	civics={ "civic_hutt_cartel" "civic_hutt_elite" }
+# 	government="gov_hutt_cartel"
+
+# 	ethic="ethic_fanatic_materialist"
+# 	ethic="ethic_authoritarian"
+# 	trait="trait_venerable"
+# 	trait="trait_slow_breeders"
+# 	trait="trait_decadent"
+
+# 	origin = "origin_swp_hutt_cartel"
+
+# 	flags={ custom_start_screen hutt_cartel hutt_tech init_spawned }
+# 	#weapon="yellow"
+# 	planet_name="NAME_Ytoub_P3"
+# 	planet_class="pc_tropical"
+# 	system_name="NAME_Ytoub"
+# 	initializer="canon_ytoub_system_initializer"
+# 	graphical_culture="hutt_01"
+# 	city_graphical_culture="hutt_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="HuttCartel.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor905" "customcolor905" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_HuttCartel
+# 			second_name = PRESCRIPTED_ruler_second_name_HuttCartel
+# 		}
+# 		portrait="jabba_male_01"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="hutt_cartel_room"
+# }
+
+# # Black Sun Organization
+# BlackSunOrganization = {
+# 	name_list="Falleen"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_BlackSunOrganization"
+# 	species_name="PRESCRIPTED_species_name_BlackSunOrganization"
+# 	species_plural="PRESCRIPTED_species_plural_BlackSunOrganization"
+# 	species_class="FAL"
+# 	species_adjective="PRESCRIPTED_species_adjective_BlackSunOrganization"
+# 	species_bio="PRESCRIPTED_species_bio_BlackSunOrganization"
+# 	portrait="falleen"
+# 	name="EMPIRE_DESIGN_BlackSunOrganization"
+# 	adjective="PRESCRIPTED_adjective_BlackSunOrganization"
+
+# 	authority="auth_corporate"
+# 	playable = has_megacorp
+# 	civics={ "civic_black_sun" "civic_criminal_heritage" }
+# 	government="gov_criminal_syndicate"
+# 	#government = gov_black_sun # TODO - Harain
+
+# 	ethic="ethic_fanatic_materialist"
+# 	ethic="ethic_authoritarian"
+# 	trait = "trait_ingenious"
+# 	trait = "trait_talented"
+# 	trait = "trait_deviants"
+
+# 	origin = "origin_swp_underworld"
+
+# 	flags={ custom_start_screen black_sun_organization falleen_sw hutt_tech init_spawned }
+# 	#weapon="yellow"
+# 	planet_name="NAME_Ord_Mantell_P2"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Ord_Mantell"
+# 	initializer="canon_ord_mantell_system_initializer"
+# 	graphical_culture="misc_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="BlackSun.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor1792" "customcolor1792" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_BlackSunOrganization
+# 			second_name = PRESCRIPTED_ruler_second_name_BlackSunOrganization
+# 		}
+# 		portrait="ziton_moj_01"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="black_sun_organization_room"
+# }
+# # Black Sun Organization - No DLC
+# BlackSunOrganization2 = {
+# 	name_list="Falleen"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_BlackSunOrganization"
+# 	species_name="PRESCRIPTED_species_name_BlackSunOrganization"
+# 	species_plural="PRESCRIPTED_species_plural_BlackSunOrganization"
+# 	species_class="FAL"
+# 	species_adjective="PRESCRIPTED_species_adjective_BlackSunOrganization"
+# 	species_bio="PRESCRIPTED_species_bio_BlackSunOrganization"
+# 	portrait="falleen"
+# 	name="EMPIRE_DESIGN_BlackSunOrganization"
+# 	adjective="PRESCRIPTED_adjective_BlackSunOrganization"
+
+# 	authority="auth_oligarchic"
+# 	playable = has_not_megacorp
+# 	civics={ "civic_black_sun" "civic_corporate_dominion" }
+# 	government="gov_executive_committee"
+
+# 	ethic="ethic_fanatic_materialist"
+# 	ethic="ethic_authoritarian"
+# 	trait = "trait_ingenious"
+# 	trait = "trait_talented"
+# 	trait = "trait_deviants"
+
+# 	origin = "origin_swp_underworld"
+
+# 	flags={ custom_start_screen black_sun_organization falleen_sw hutt_tech init_spawned }
+# 	#weapon="yellow"
+# 	planet_name="NAME_Ord_Mantell_P2"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Ord_Mantell"
+# 	initializer="canon_ord_mantell_system_initializer"
+# 	graphical_culture="misc_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="BlackSun.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor1792" "customcolor1792" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_BlackSunOrganization
+# 			second_name = PRESCRIPTED_ruler_second_name_BlackSunOrganization
+# 		}
+# 		portrait="ziton_moj_01"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="black_sun_organization_room"
+# }
+
+# #####################################
+# # Unique Empires
+# #####################################
+
+# # Mandalorian Clans
+# MandalorianClans = {
+# 	name = "EMPIRE_DESIGN_MandalorianClans"
+# 	adjective = "PRESCRIPTED_adjective_MandalorianClans"
+# 	ship_prefix = "PRESCRIPTED_ship_prefix_MandalorianClans"
+# 	species = {
+# 		class = "MAN"
+# 		portrait = "mandalorian"
+# 		name = "PRESCRIPTED_species_name_MandalorianClans"
+# 		plural = "PRESCRIPTED_species_plural_MandalorianClans"
+# 		adjective = "PRESCRIPTED_species_adjective_MandalorianClans"
+# 		name_list = "Mandalorian"
+# 		trait = "trait_strong"
+# 		trait = "trait_traditional"
+# 		trait = "trait_talented"
+# 		trait = "trait_solitary"
+# 	}
+
+# 	authority = "auth_dictatorial"
+# 	civics = { "civic_mandalorian" "civic_warrior_culture" }
+# 	government = "gov_mandalorian"
+
+# 	ethic = "ethic_fanatic_militarist"
+# 	ethic = "ethic_authoritarian"
+
+# 	origin = "origin_swp_mandalorian"
+
+# 	flags = { custom_start_screen mandalorian_clans mando_tech init_spawned }
+
+# 	planet_name = "NAME_Mandolore_P5"
+# 	planet_class = "pc_desert"
+# 	system_name = "NAME_Mandolore"
+# 	initializer = "canon_mandalore_system_initializer"
+# 	graphical_culture = "mando_01"
+# 	city_graphical_culture = "mando_01"
+
+# 	empire_flag={
+# 		icon = { category="starwars" file="Mandalorian.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor1401" "customcolor1401" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender = female
+# 		name = "PRESCRIPTED_ruler_name_MandalorianClans"
+# 		portrait = "bo_katan_kryze"
+# 		texture = 0
+# 		attachment = 0
+# 		clothes = 0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="mandalorian_room"
+# }
+
+# # Corporate Sector Authority
+# CorporateSectorAuthority = {
+# 	name_list="SWP_CSA"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_CorporateSectorAuthority"
+# 	species_name="PRESCRIPTED_species_name_CorporateSectorAuthority"
+# 	species_plural="PRESCRIPTED_species_plural_CorporateSectorAuthority"
+# 	species_class="HUM"
+# 	species_adjective="PRESCRIPTED_species_adjective_CorporateSectorAuthority"
+# 	species_bio="PRESCRIPTED_species_bio_CorporateSectorAuthority"
+# 	portrait="human"
+# 	name="EMPIRE_DESIGN_CorporateSectorAuthority"
+# 	adjective="PRESCRIPTED_adjective_CorporateSectorAuthority"
+
+# 	authority="auth_corporate"
+# 	playable = has_megacorp
+# 	civics={ "civic_corporate_sector" "civic_csa_police_state" }
+# 	government="gov_corporate_sector"
+
+# 	ethic="ethic_authoritarian"
+# 	ethic="ethic_materialist"
+# 	ethic="ethic_xenophobe"
+# 	trait="trait_nomadic"
+# 	trait="trait_communal"
+# 	trait="trait_wasteful"
+
+# 	origin = "origin_swp_corporate_sector"
+
+# 	flags={ custom_start_screen corporate_sector_authority hutt_tech human_sw init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Etti_P4"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Etti"
+# 	initializer="canon_etti_system_initializer"
+# 	graphical_culture="csa_01"
+# 	city_graphical_culture="csa_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file="CSA.dds" }
+# 		background = { category="backgrounds" file="00_solid.dds" }
+# 		colors = { "customcolor2020" "customcolor2020" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_CorporateSectorAuthority
+# 			second_name = PRESCRIPTED_ruler_second_name_CorporateSectorAuthority
+# 		}
+# 		portrait="mirkovig_hirken_male_01"
+# 		texture=0
+# 		attachment=117
+# 		clothes=12
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="corporate_sector_room"
+# }
+
+# # Corellian Security
+# CorellianSecurity = {
+# 	name_list="Corellian"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_CorellianSecurity"
+# 	species_name="PRESCRIPTED_species_name_CorellianSecurity"
+# 	species_plural="PRESCRIPTED_species_plural_CorellianSecurity"
+# 	species_class="HUM"
+# 	species_adjective="PRESCRIPTED_species_adjective_CorellianSecurity"
+# 	species_bio="PRESCRIPTED_species_bio_CorellianSecurity"
+# 	portrait="human"
+# 	name="EMPIRE_DESIGN_CorellianSecurity"
+# 	adjective="PRESCRIPTED_adjective_CorellianSecurity"
+
+# 	authority="auth_democratic"
+# 	civics={ "civic_corellian" "civic_free_haven" }
+# 	government="gov_corsec"
+
+# 	ethic="ethic_egalitarian"
+# 	ethic="ethic_materialist"
+# 	ethic="ethic_xenophile"
+# 	trait="trait_nomadic"
+# 	trait="trait_communal"
+# 	trait="trait_wasteful"
+
+# 	origin = "origin_swp_corsec"
+
+# 	flags={ custom_start_screen corellian_security rebel_tech human_sw init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Corellia_P1"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Corellia"
+# 	initializer="canon_corellia_system_initializer"
+# 	graphical_culture="corellian_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "CorSec.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor1456" "customcolor1456" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_CorellianSecurity
+# 			second_name = PRESCRIPTED_ruler_second_name_CorellianSecurity
+# 		}
+# 		portrait="human"
+# 		texture=2
+# 		attachment=2
+# 		clothes=4
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="corellian_security_room"
+# }
+
+# # Chiss Ascendancy
+# ChissAscendancy = {
+# 	name_list="Chiss"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_ChissAscendancy"
+# 	species_name="PRESCRIPTED_species_name_ChissAscendancy"
+# 	species_plural="PRESCRIPTED_species_plural_ChissAscendancy"
+# 	species_class="CHS"
+# 	species_adjective="PRESCRIPTED_species_adjective_ChissAscendancy"
+# 	species_bio="PRESCRIPTED_species_bio_ChissAscendancy"
+# 	portrait="chiss"
+# 	name="EMPIRE_DESIGN_ChissAscendancy"
+# 	adjective="PRESCRIPTED_adjective_ChissAscendancy"
+
+# 	authority="auth_oligarchic"
+# 	civics={ "civic_chiss_houses" "civic_aristocratic_elite" }
+# 	government="gov_aristocra"
+
+# 	ethic="ethic_authoritarian"
+# 	ethic="ethic_fanatic_xenophobe"
+# 	trait="trait_intelligent"
+# 	trait="trait_talented"
+# 	trait="trait_solitary"
+
+# 	origin = "origin_swp_ascendancy"
+
+# 	flags={ custom_start_screen chiss_ascendancy chiss_tech init_spawned can_settle_unknown_regions }
+# 	#weapon="maser"
+# 	planet_name="NAME_Csilla_P2"
+# 	planet_class="pc_arctic"
+# 	system_name="NAME_Csilla"
+# 	initializer="canon_csilla_system_initializer"
+# 	graphical_culture="chiss_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "ChissAscendancy.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor777" "customcolor777" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=female
+# 		name="PRESCRIPTED_ruler_name_ChissAscendancy"
+# 		portrait="chiss"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="chiss_ascendancy_room"
+# }
+
+# # Nest of Nests
+# # TheColony = {
+# #	name_list="Killik"
+# #	ship_prefix="PRESCRIPTED_ship_prefix_TheColony"
+# #	species_name="PRESCRIPTED_species_name_TheColony"
+# #	species_plural="PRESCRIPTED_species_plural_TheColony"
+# #	species_class="KIL"
+# #	species_adjective="PRESCRIPTED_species_adjective_TheColony"
+# #	species_bio="PRESCRIPTED_species_bio_TheColony"
+# #	portrait="killik"
+# #	name="EMPIRE_DESIGN_TheColony"
+# #	adjective="PRESCRIPTED_adjective_TheColony"
+
+# #	authority="auth_hive_mind"
+# # 	playable = has_utopia
+# #	civics={ "civic_hive_subsumed_will" "civic_hive_one_mind" }
+# #	government="gov_hive_mind"
+
+# #	ethic="ethic_gestalt_consciousness"
+# #	trait="trait_hive_mind"
+# #	trait="trait_very_strong"
+# #	trait="trait_slow_breeders"
+
+# #	origin = "origin_swp_killik"
+
+# #	flags={ custom_start_screen killik_colony init_spawned can_settle_unknown_regions }
+# #	#weapon="yellow"
+# #	planet_name="NAME_Yoggoy_P3"
+# #	planet_class="pc_continental"
+# #	system_name="NAME_Yoggoy"
+# #	initializer="canon_yoggoy_system_initializer"
+# #	graphical_culture="misc_01"
+# #	city_graphical_culture="mammalian_01"
+# #	empire_flag={
+# #		icon = { category="starwars" file="KillikColony.dds" }
+# #		background = { category="backgrounds" file="00_solid.dds" }
+# #		colors = { "customcolor1758" "customcolor1758" "null" "null" }
+# #	}
+# #	ruler={
+# #		gender=male
+# #		name={
+# #			first_name = PRESCRIPTED_ruler_first_name_TheColony
+# #			second_name = PRESCRIPTED_ruler_second_name_TheColony
+# #		}
+# #		portrait="killik"
+# #		texture=0
+# #		attachment=0
+# #		clothes=0
+# #		leader_class = official
+# #	}
+# #	spawn_enabled=always
+# #	room="personality_hive_mind_room"
+# # }
+
+# # Hapes Consortium
+# HapesConsortium = {
+# 	name_list="Hapan"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_HapesConsortium"
+# 	species_name="PRESCRIPTED_species_name_HapesConsortium"
+# 	species_plural="PRESCRIPTED_species_plural_HapesConsortium"
+# 	species_class="HAP"
+# 	species_adjective="PRESCRIPTED_species_adjective_HapesConsortium"
+# 	species_bio="PRESCRIPTED_species_bio_HapesConsortium"
+# 	portrait="hapan"
+# 	name="EMPIRE_DESIGN_HapesConsortium"
+# 	adjective="PRESCRIPTED_adjective_HapesConsortium"
+
+# 	authority="auth_imperial"
+# 	civics={ "civic_hapes_consortium" "civic_philosopher_king" } #"civic_efficient_bureaucracy"
+# 	government="gov_hapes_consortium"
+
+# 	ethic="ethic_spiritualist"
+# 	ethic="ethic_militarist"
+# 	ethic="ethic_xenophobe"
+# 	trait="trait_hapan_beauty"
+# 	trait="trait_traditional"
+
+# 	origin = "origin_swp_hapes"
+
+# 	flags={ custom_start_screen hapes_consortium hapan_tech init_spawned }
+# 	#weapon="purple"
+# 	planet_name="NAME_Hapes_P2"
+# 	planet_class="pc_gaia"
+# 	system_name="NAME_Hapes"
+# 	initializer="canon_hapes_system_initializer"
+# 	graphical_culture="hapes_01"
+# 	city_graphical_culture="hapes_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "HapesConsortium.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor790" "customcolor790" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=female
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_HapesConsortium
+# 			second_name = PRESCRIPTED_ruler_second_name_HapesConsortium
+# 		}
+# 		portrait="hapan"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="hapes_consortium_room"
+# }
+
+# #####################################
+# # Galactic Contender
+# #####################################
+
+# # Arkanian Dominion
+# ArkanianDominion = {
+# 	name_list="Arkanian"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_ArkanianDominion"
+# 	species_name="PRESCRIPTED_species_name_ArkanianDominion"
+# 	species_plural="PRESCRIPTED_species_plural_ArkanianDominion"
+# 	species_class="ARK"
+# 	species_adjective="PRESCRIPTED_species_adjective_ArkanianDominion"
+# 	species_bio="PRESCRIPTED_species_bio_ArkanianDominion"
+# 	portrait="arkanian"
+# 	name="EMPIRE_DESIGN_ArkanianDominion"
+# 	adjective="PRESCRIPTED_adjective_ArkanianDominion"
+
+# 	authority="auth_dictatorial"
+# 	civics={ "civic_genetic_experiments" "civic_technocracy" }
+# 	government="gov_technocratic_dictatorship"
+
+# 	ethic="ethic_authoritarian"
+# 	ethic="ethic_fanatic_materialist"
+# 	#ethic="ethic_xenophobe"
+# 	trait="trait_intelligent"
+# 	trait="trait_quick_learners"
+# 	trait="trait_wasteful"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen arkanian_dominion hutt_tech init_spawned }
+# 	#weapon="blue"
+# 	planet_name="NAME_Perave_P3"
+# 	planet_class="pc_arctic"
+# 	system_name="NAME_Perave"
+# 	initializer="canon_perave_system_initializer"
+# 	graphical_culture="misc_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "ArkanianDominion.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor582" "customcolor582" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_ArkanianDominion
+# 			second_name = PRESCRIPTED_ruler_second_name_ArkanianDominion
+# 		}
+# 		portrait="arkanian"
+# 		texture=1
+# 		attachment=3
+# 		clothes=4
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="arkanian_dominion_room"
+# }
+
+# # Bakuran Senate
+# BakuranSenate = {
+# 	name_list="SWP_Human1"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_BakuranSenate"
+# 	species_name="PRESCRIPTED_species_name_BakuranSenate"
+# 	species_plural="PRESCRIPTED_species_plural_BakuranSenate"
+# 	species_class="HUM"
+# 	species_adjective="PRESCRIPTED_species_adjective_BakuranSenate"
+# 	species_bio="PRESCRIPTED_species_bio_BakuranSenate"
+# 	portrait="human"
+# 	name="EMPIRE_DESIGN_BakuranSenate"
+# 	adjective="PRESCRIPTED_adjective_BakuranSenate"
+
+# 	authority="auth_democratic"
+# 	civics={ "civic_droid_uprising" "civic_parliamentary_system" }
+# 	government="gov_direct_democracy"
+
+# 	ethic="ethic_egalitarian"
+# 	ethic="ethic_pacifist"
+# 	ethic="ethic_xenophobe"
+# 	trait="trait_nomadic"
+# 	trait="trait_communal"
+# 	trait="trait_wasteful"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen bakuran_senate hutt_tech human_sw init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Bakura_P3"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Bakura"
+# 	initializer="canon_bakura_system_initializer"
+# 	graphical_culture="misc_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "BakuranSenate.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor507" "customcolor507" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_BakuranSenate
+# 			second_name = PRESCRIPTED_ruler_second_name_BakuranSenate
+# 		}
+# 		portrait="human"
+# 		texture=0
+# 		attachment=0
+# 		clothes=1
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="bakuran_senate_room"
+# }
+
+# # Centrality
+# TheCentrality = {
+# 	name_list="SWP_Human3"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_TheCentrality"
+# 	species_name="PRESCRIPTED_species_name_TheCentrality"
+# 	species_plural="PRESCRIPTED_species_plural_TheCentrality"
+# 	species_class="HUM"
+# 	species_adjective="PRESCRIPTED_species_adjective_TheCentrality"
+# 	species_bio="PRESCRIPTED_species_bio_TheCentrality"
+# 	portrait="human"
+# 	name="EMPIRE_DESIGN_TheCentrality"
+# 	adjective="PRESCRIPTED_adjective_TheCentrality"
+
+# 	authority="auth_democratic"
+# 	civics={ "civic_idealistic_foundation" "civic_beacon_of_liberty" }
+# 	government="gov_moral_democracy"
+
+# 	ethic="ethic_egalitarian"
+# 	ethic="ethic_pacifist"
+# 	ethic="ethic_xenophile"
+# 	trait="trait_nomadic"
+# 	trait="trait_communal"
+# 	trait="trait_wasteful"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen the_centrality rebel_tech human_sw init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Erilnar_P1"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Erilnar"
+# 	initializer="canon_erilnar_system_initializer"
+# 	graphical_culture="misc_03"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "TheCentrality.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor471" "customcolor471" "null" "null" }
+#  	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_TheCentrality
+# 			second_name = PRESCRIPTED_ruler_second_name_TheCentrality
+# 		}
+# 		portrait="human"
+# 		texture=3
+# 		attachment=3
+# 		clothes=3
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="the_centrality_room"
+# }
+
+# # Chalactan Council
+# ChalactanCouncil = {
+# 	name_list="Chalactan"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_ChalactanCouncil"
+# 	species_name="PRESCRIPTED_species_name_ChalactanCouncil"
+# 	species_plural="PRESCRIPTED_species_plural_ChalactanCouncil"
+# 	species_class="CHA"
+# 	species_adjective="PRESCRIPTED_species_adjective_ChalactanCouncil"
+# 	species_bio="PRESCRIPTED_species_bio_ChalactanCouncil"
+# 	portrait="chalactan"
+# 	name="EMPIRE_DESIGN_ChalactanCouncil"
+# 	adjective="PRESCRIPTED_adjective_ChalactanCouncil"
+
+# 	authority="auth_democratic"
+# 	civics={ "civic_idealistic_foundation" "civic_efficient_bureaucracy" }
+# 	government="gov_moral_democracy"
+
+# 	ethic="ethic_egalitarian"
+# 	ethic="ethic_pacifist"
+# 	ethic="ethic_spiritualist"
+# 	trait="trait_conservational"
+# 	trait="trait_traditional"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen chalactan_council rebel_tech init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Chalacta_P1"
+# 	planet_class="pc_alpine"
+# 	system_name="NAME_Chalacta"
+# 	initializer="canon_chalacta_system_initializer"
+# 	graphical_culture="misc_03"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "ChalactanCouncil.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor44" "customcolor44" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=female
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_ChalactanCouncil
+# 			second_name = PRESCRIPTED_ruler_second_name_ChalactanCouncil
+# 		}
+# 		portrait="chalactan"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="chalactan_council_room"
+# }
+
+# # Council of Elders
+# CouncilofElders = {
+# 	name_list="Cerean"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_CouncilofElders"
+# 	species_name="PRESCRIPTED_species_name_CouncilofElders"
+# 	species_plural="PRESCRIPTED_species_plural_CouncilofElders"
+# 	species_class="CER"
+# 	species_adjective="PRESCRIPTED_species_adjective_CouncilofElders"
+# 	species_bio="PRESCRIPTED_species_bio_CouncilofElders"
+# 	portrait="cerean"
+# 	name="EMPIRE_DESIGN_CouncilofElders"
+# 	adjective="PRESCRIPTED_adjective_CouncilofElders"
+
+# 	authority="auth_oligarchic"
+# 	civics={ "civic_exalted_priesthood" "civic_agrarian_idyll" }
+# 	government="gov_theocratic_republic"
+
+# 	ethic="ethic_fanatic_pacifist"
+# 	ethic="ethic_spiritualist"
+# 	trait="trait_conservational"
+# 	trait="trait_agrarian"
+# 	trait="trait_sedentary"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen cerean_council rebel_tech init_spawned }
+# 	#weapon="blue"
+# 	planet_name="NAME_Cerea_P4"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Cerea"
+# 	initializer="canon_cerea_system_initializer"
+# 	graphical_culture="misc_03"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "CouncilOfElders.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor201" "customcolor201" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_CouncilofElders
+# 			second_name = PRESCRIPTED_ruler_second_name_CouncilofElders
+# 		}
+# 		portrait="cerean"
+# 		texture=0
+# 		attachment=0
+# 		clothes=4
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="cerean_council_room"
+# }
+
+# # Dorin Commonwealth
+# DorinCommonwealth = {
+# 	name_list="Kel_Dor"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_DorinCommonwealth"
+# 	species_name="PRESCRIPTED_species_name_DorinCommonwealth"
+# 	species_plural="PRESCRIPTED_species_plural_DorinCommonwealth"
+# 	species_class="KEL"
+# 	species_adjective="PRESCRIPTED_species_adjective_DorinCommonwealth"
+# 	species_bio="PRESCRIPTED_species_bio_DorinCommonwealth"
+# 	portrait="kel_dor"
+# 	name="EMPIRE_DESIGN_DorinCommonwealth"
+# 	adjective="PRESCRIPTED_adjective_DorinCommonwealth"
+
+# 	authority="auth_democratic"
+# 	civics={ "civic_idealistic_foundation" "civic_parliamentary_system" }
+# 	government="gov_moral_democracy"
+
+# 	ethic="ethic_egalitarian"
+# 	ethic="ethic_pacifist"
+# 	ethic="ethic_xenophile"
+# 	trait="trait_conformists"
+# 	trait="trait_communal"
+# 	trait="trait_sedentary"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen dorin_commonwealth rebel_tech init_spawned }
+# 	#weapon="blue"
+# 	planet_name="NAME_Dorin_P2"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Dorin"
+# 	initializer="canon_dorin_system_initializer"
+# 	graphical_culture="misc_03"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "DorinCommonwealth.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor763" "customcolor763" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_DorinCommonwealth
+# 			second_name = PRESCRIPTED_ruler_second_name_DorinCommonwealth
+# 		}
+# 		portrait="kel_dor"
+# 		texture=0
+# 		attachment=0
+# 		clothes=5
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="dorin_commonwealth_room"
+# }
+
+# # Echani Command
+# EchaniCommand = {
+# 	name_list="Echani"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_EchaniCommand"
+# 	species_name="PRESCRIPTED_species_name_EchaniCommand"
+# 	species_plural="PRESCRIPTED_species_plural_EchaniCommand"
+# 	species_class="ECH"
+# 	species_adjective="PRESCRIPTED_species_adjective_EchaniCommand"
+# 	species_bio="PRESCRIPTED_species_bio_EchaniCommand"
+# 	portrait="echani"
+# 	name="EMPIRE_DESIGN_EchaniCommand"
+# 	adjective="PRESCRIPTED_adjective_EchaniCommand"
+
+# 	authority="auth_oligarchic"
+# 	civics={ "civic_citizen_service" "civic_warrior_culture" }
+# 	government="gov_citizen_stratocracy"
+
+# 	ethic="ethic_spiritualist"
+# 	ethic="ethic_militarist"
+# 	ethic="ethic_xenophile"
+# 	trait="trait_strong"
+# 	trait="trait_echani"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen echani_command hutt_tech_command init_spawned }
+# 	#weapon="blue"
+# 	planet_name="NAME_Eshan_P1"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Eshan"
+# 	initializer="canon_eshan_system_initializer"
+# 	graphical_culture="misc_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "EchaniCommand.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor874" "customcolor874" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=female
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_EchaniCommand
+# 			second_name = PRESCRIPTED_ruler_second_name_EchaniCommand
+# 		}
+# 		portrait="echani"
+# 		texture=1
+# 		attachment=3
+# 		clothes=2
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="echani_command_room"
+# }
+
+# # Greater Javin
+# GreaterJavin = {
+# 	name_list="SWP_Human1"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_GreaterJavin"
+# 	species_name="PRESCRIPTED_species_name_GreaterJavin"
+# 	species_plural="PRESCRIPTED_species_plural_GreaterJavin"
+# 	species_class="HUM"
+# 	species_adjective="PRESCRIPTED_species_adjective_GreaterJavin"
+# 	species_bio="PRESCRIPTED_species_bio_GreaterJavin"
+# 	portrait="human"
+# 	name="EMPIRE_DESIGN_GreaterJavin"
+# 	adjective="PRESCRIPTED_adjective_GreaterJavin"
+
+# 	authority="auth_democratic"
+# 	civics={ "civic_technocracy" "civic_meritocracy" }
+# 	government="gov_rational_consensus"
+
+# 	ethic="ethic_egalitarian"
+# 	ethic="ethic_fanatic_materialist"
+
+# 	trait="trait_nomadic"
+# 	trait="trait_communal"
+# 	trait="trait_wasteful"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen greater_javin hutt_tech human_sw init_spawned }
+# 	#weapon="blue"
+# 	planet_name="NAME_Javin_P1"
+# 	planet_class="pc_desert"
+# 	system_name="NAME_Javin"
+# 	initializer="canon_javin_system_initializer"
+# 	graphical_culture="misc_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "GreaterJavin.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor716" "customcolor716" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_GreaterJavin
+# 			second_name = PRESCRIPTED_ruler_second_name_GreaterJavin
+# 		}
+# 		portrait="human"
+# 		texture=1
+# 		attachment=4
+# 		clothes=4
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="greater_javin_room"
+# }
+
+# # Juvex Sector
+# JuvexSector = {
+# 	name_list="SWP_Human2"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_JuvexSector"
+# 	species_name="PRESCRIPTED_species_name_JuvexSector"
+# 	species_plural="PRESCRIPTED_species_plural_JuvexSector"
+# 	species_class="HUM"
+# 	species_adjective="PRESCRIPTED_species_adjective_JuvexSector"
+# 	species_bio="PRESCRIPTED_species_bio_JuvexSector"
+# 	portrait="human"
+# 	name="EMPIRE_DESIGN_JuvexSector"
+# 	adjective="PRESCRIPTED_adjective_JuvexSector"
+
+# 	authority="auth_oligarchic"
+# 	civics={ "civic_slaver_guilds" "civic_shadow_council" }
+# 	government="gov_military_junta"
+
+# 	ethic="ethic_authoritarian"
+# 	ethic="ethic_militarist"
+# 	ethic="ethic_materialist"
+# 	trait="trait_nomadic"
+# 	trait="trait_communal"
+# 	trait="trait_wasteful"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen juvex_sector cis_tech human_sw init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Juvex_P2"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Juvex"
+# 	initializer="canon_juvex_system_initializer"
+# 	graphical_culture="misc_02"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "JuvexSector.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor1179" "customcolor1179" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_JuvexSector
+# 			second_name = PRESCRIPTED_ruler_second_name_JuvexSector
+# 		}
+# 		portrait="human"
+# 		texture=1
+# 		attachment=2
+# 		clothes=5
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="juvex_sector_room"
+# }
+
+# # Kingdom of Onderon
+# KingdomofOnderon = {
+# 	name_list="SWP_Human3"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_KingdomofOnderon"
+# 	species_name="PRESCRIPTED_species_name_KingdomofOnderon"
+# 	species_plural="PRESCRIPTED_species_plural_KingdomofOnderon"
+# 	species_class="HUM"
+# 	species_adjective="PRESCRIPTED_species_adjective_KingdomofOnderon"
+# 	species_bio="PRESCRIPTED_species_bio_KingdomofOnderon"
+# 	portrait="human"
+# 	name="EMPIRE_DESIGN_KingdomofOnderon"
+# 	adjective="PRESCRIPTED_adjective_KingdomofOnderon"
+
+# 	authority="auth_imperial"
+# 	civics={ "civic_survival_skills" "civic_philosopher_king" }
+# 	government="gov_enlightened_monarchy"
+
+# 	ethic="ethic_authoritarian"
+# 	ethic="ethic_militarist"
+# 	ethic="ethic_xenophobe"
+# 	trait="trait_nomadic"
+# 	trait="trait_communal"
+# 	trait="trait_wasteful"
+
+# 	origin = "origin_swnd_onderon"
+
+# 	flags={ custom_start_screen kingdom_of_onderon rebel_tech human_sw init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Japrael_P2"
+# 	planet_class="pc_tropical"
+# 	system_name="NAME_Japrael"
+# 	initializer="canon_japrael_system_initializer"
+# 	graphical_culture="misc_03"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "KingdomOfOnderon.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "dark_purple" "dark_purple" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_KingdomofOnderon
+# 			second_name = PRESCRIPTED_ruler_second_name_KingdomofOnderon
+# 		}
+# 		portrait="human"
+# 		texture=0
+# 		attachment=0
+# 		clothes=3
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="onderon_room"
+# }
+
+# # Kingdom of Zeltros
+# KingdomofZeltros = {
+# 	name_list="Zeltron"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_KingdomofZeltros"
+# 	species_name="PRESCRIPTED_species_name_KingdomofZeltros"
+# 	species_plural="PRESCRIPTED_species_plural_KingdomofZeltros"
+# 	species_class="ZEL"
+# 	species_adjective="PRESCRIPTED_species_adjective_KingdomofZeltros"
+# 	species_bio="PRESCRIPTED_species_bio_KingdomofZeltros"
+# 	portrait="zeltron"
+# 	name="EMPIRE_DESIGN_KingdomofZeltros"
+# 	adjective="PRESCRIPTED_adjective_KingdomofZeltros"
+
+# 	authority="auth_monarchy"
+# 	civics={ "civic_technocracy" "civic_free_haven" }
+# 	government="gov_representative_democracy"
+
+# 	# ethic="ethic_authoritarian"
+# 	ethic="ethic_egalitarian"
+# 	ethic="ethic_fanatic_materialist"
+# 	trait="trait_zeltron_beauty"
+# 	trait="trait_zeltron_empathy"
+# 	# trait="trait_limited_telepathy"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen kingdom_of_zeltros rebel_tech init_spawned }
+# 	#weapon="purple"
+# 	planet_name="NAME_Zel_P3"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Zel"
+# 	initializer="canon_zel_system_initializer"
+# 	graphical_culture="misc_03"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "KingdomOfZeltros.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor1045" "customcolor1045" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=female
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_KingdomofZeltros
+# 			second_name = PRESCRIPTED_ruler_second_name_KingdomofZeltros
+# 		}
+# 		portrait="zeltron"
+# 		texture=0
+# 		attachment=0
+# 		clothes=2
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="zeltros_room"
+# }
+
+# # Pantoran Assembly
+# PantoranAssembly = {
+# 	name_list="Pantoran"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_PantoranAssembly"
+# 	species_name="PRESCRIPTED_species_name_PantoranAssembly"
+# 	species_plural="PRESCRIPTED_species_plural_PantoranAssembly"
+# 	species_class="PAN"
+# 	species_adjective="PRESCRIPTED_species_adjective_PantoranAssembly"
+# 	species_bio="PRESCRIPTED_species_bio_PantoranAssembly"
+# 	portrait="pantoran"
+# 	name="EMPIRE_DESIGN_PantoranAssembly"
+# 	adjective="PRESCRIPTED_adjective_PantoranAssembly"
+
+# 	authority="auth_democratic"
+# 	civics={ "civic_meritocracy" "civic_parliamentary_system" }
+# 	government="gov_moral_democracy"
+
+# 	ethic="ethic_fanatic_egalitarian"
+# 	ethic="ethic_xenophile"
+# 	trait="trait_resilient"
+# 	trait="trait_traditional"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen pantoran_assembly rebel_tech init_spawned }
+# 	#weapon="blue"
+# 	planet_name="NAME_Pantora_P1_1"
+# 	planet_class="pc_tropical"
+# 	system_name="NAME_Pantora"
+# 	initializer="canon_pantora_system_initializer"
+# 	graphical_culture="misc_03"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "PantoranAssembly.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor1398" "customcolor1398" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_PantoranAssembly
+# 			second_name = PRESCRIPTED_ruler_second_name_PantoranAssembly
+# 		}
+# 		portrait="papanoida_male_01"
+# 		texture=0
+# 		attachment=0
+# 		clothes=9
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="pantoran_assembly_room"
+# }
+
+
+# # Rodian Clans
+# RodianClans = {
+# 	name_list="Rodian"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_RodianClans"
+# 	species_name="PRESCRIPTED_species_name_RodianClans"
+# 	species_plural="PRESCRIPTED_species_plural_RodianClans"
+# 	species_class="ROD"
+# 	species_adjective="PRESCRIPTED_species_adjective_RodianClans"
+# 	species_bio="PRESCRIPTED_species_bio_RodianClans"
+# 	portrait="rodian"
+# 	name="EMPIRE_DESIGN_RodianClans"
+# 	adjective="PRESCRIPTED_adjective_RodianClans"
+
+# 	authority="auth_dictatorial"
+# 	civics={ "civic_rodian_scouts" "civic_cutthroat_politics" }
+# 	government="gov_constitutional_dictatorship"
+
+# 	ethic="ethic_authoritarian"
+# 	ethic="ethic_materialist"
+# 	ethic="ethic_xenophile"
+# 	trait="trait_rapid_breeders"
+# 	trait="trait_nomadic"
+# 	trait="trait_fleeting"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen rodian_clans hutt_tech init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Tyrius_P2"
+# 	planet_class="pc_tropical"
+# 	system_name="NAME_Tyrius"
+# 	initializer="canon_tyrius_system_initializer"
+# 	graphical_culture="misc_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "RodianClans.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor1467" "customcolor1467" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_RodianClans
+# 			second_name = PRESCRIPTED_ruler_second_name_RodianClans
+# 		}
+# 		portrait="rodian"
+# 		texture=0
+# 		attachment=0
+# 		clothes=1
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="rodian_clans_room"
+# }
+
+
+# # Taanab Authority
+# TaanabAuthority = {
+# 	name_list="SWP_Human3"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_TaanabAuthority"
+# 	species_name="PRESCRIPTED_species_name_TaanabAuthority"
+# 	species_plural="PRESCRIPTED_species_plural_TaanabAuthority"
+# 	species_class="HUM"
+# 	species_adjective="PRESCRIPTED_species_adjective_TaanabAuthority"
+# 	species_bio="PRESCRIPTED_species_bio_TaanabAuthority"
+# 	portrait="human"
+# 	name="EMPIRE_DESIGN_TaanabAuthority"
+# 	adjective="PRESCRIPTED_adjective_TaanabAuthority"
+
+# 	authority="auth_democratic"
+# 	civics={ "civic_idealistic_foundation" "civic_meritocracy" }
+# 	government="gov_direct_democracy"
+
+# 	ethic="ethic_fanatic_egalitarian"
+# 	ethic="ethic_materialist"
+# 	trait="trait_nomadic"
+# 	trait="trait_communal"
+# 	trait="trait_wasteful"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen taanab_authority rebel_tech human_sw init_spawned }
+# 	#weapon="blue"
+# 	planet_name="NAME_Taanab_P2"
+# 	planet_class="pc_continental"
+# 	system_name="NAME_Taanab"
+# 	initializer="canon_taanab_system_initializer"
+# 	graphical_culture="misc_03"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "TaanabAuthority.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor1625" "customcolor1625" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_TaanabAuthority
+# 			second_name = PRESCRIPTED_ruler_second_name_TaanabAuthority
+# 		}
+# 		portrait="human"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="taanab_authority_room"
+# }
+
+
+# # Trandoshan Tribes
+# TrandoshanTribes = {
+# 	name_list="Trandoshan"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_TrandoshanTribes"
+# 	species_name="PRESCRIPTED_species_name_TrandoshanTribes"
+# 	species_plural="PRESCRIPTED_species_plural_TrandoshanTribes"
+# 	species_class="TRA"
+# 	species_adjective="PRESCRIPTED_species_adjective_TrandoshanTribes"
+# 	species_bio="PRESCRIPTED_species_bio_TrandoshanTribes"
+# 	portrait="trandoshan"
+# 	name="EMPIRE_DESIGN_TrandoshanTribes"
+# 	adjective="PRESCRIPTED_adjective_TrandoshanTribes"
+
+# 	authority="auth_imperial"
+# 	civics={ "civic_trandoshan_tribes" "civic_slaver_guilds" }
+# 	government="gov_trandoshan_tribes"
+
+# 	ethic="ethic_authoritarian"
+# 	ethic="ethic_militarist"
+# 	ethic="ethic_xenophobe"
+# 	trait="trait_very_strong"
+# 	trait="trait_enduring"
+# 	trait="trait_slow_breeders"
+# 	trait="trait_solitary"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen trandoshan_tribes hutt_tech init_spawned }
+# 	#weapon="yellow"
+# 	planet_name="NAME_Kashyyyk_P4"
+# 	planet_class="pc_tropical"
+# 	system_name="NAME_Kashyyyk"
+# 	initializer="canon_kashyyyk_system_initializer"
+# 	graphical_culture="misc_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "TrandoshanTribes.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "green" "green" "null" "null" } #"customcolor1501" "customcolor1501"
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name="PRESCRIPTED_ruler_name_TrandoshanTribes"
+# 		portrait="trandoshan"
+# 		texture=0
+# 		attachment=0
+# 		clothes=7
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="trandoshan_tribes_room"
+# }
+
+
+# # Utapauan Committee
+# UtapauanCommittee = {
+# 	name_list="Pauan"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_UtapauanCommittee"
+# 	species_name="PRESCRIPTED_species_name_UtapauanCommittee"
+# 	species_plural="PRESCRIPTED_species_plural_UtapauanCommittee"
+# 	species_class="PAU"
+# 	species_adjective="PRESCRIPTED_species_adjective_UtapauanCommittee"
+# 	species_bio="PRESCRIPTED_species_bio_UtapauanCommittee"
+# 	portrait="pauan"
+# 	name="EMPIRE_DESIGN_UtapauanCommittee"
+# 	adjective="PRESCRIPTED_adjective_UtapauanCommittee"
+
+# 	authority="auth_oligarchic"
+# 	civics={ "civic_inwards_perfection" "civic_functional_architecture" }
+# 	government="gov_executive_committee"
+
+# 	ethic="ethic_egalitarian"
+# 	ethic="ethic_xenophobe"
+# 	ethic="ethic_pacifist"
+# 	trait="trait_venerable"
+# 	trait="trait_sedentary"
+# 	trait="trait_slow_learners"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen utapauan_committee rebel_tech init_spawned }
+# 	#weapon="red"
+# 	planet_name="NAME_Utapau_P4"
+# 	planet_class="pc_savannah"
+# 	system_name="NAME_Utapau"
+# 	initializer="canon_utapau_system_initializer"
+# 	graphical_culture="misc_03"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "UtapauanCommittee.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor236" "customcolor236" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_UtapauanCommittee
+# 			second_name = PRESCRIPTED_ruler_second_name_UtapauanCommittee
+# 		}
+# 		portrait="pauan"
+# 		texture=0
+# 		attachment=0
+# 		clothes=0
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="utapauan_room"
+# }
+
+# # Zabrak Council
+# ZabrakCouncil = {
+# 	name_list="Zabrak"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_ZabrakCouncil"
+# 	species_name="PRESCRIPTED_species_name_ZabrakCouncil"
+# 	species_plural="PRESCRIPTED_species_plural_ZabrakCouncil"
+# 	species_class="ZAB"
+# 	species_adjective="PRESCRIPTED_species_adjective_ZabrakCouncil"
+# 	species_bio="PRESCRIPTED_species_bio_ZabrakCouncil"
+# 	portrait="zabrak"
+# 	name="EMPIRE_DESIGN_ZabrakCouncil"
+# 	adjective="PRESCRIPTED_adjective_ZabrakCouncil"
+
+# 	authority="auth_oligarchic"
+# 	civics={ "civic_exalted_priesthood" "civic_warrior_culture" }
+# 	government="gov_holy_tribunal"
+
+# 	ethic="ethic_authoritarian"
+# 	ethic="ethic_militarist"
+# 	ethic="ethic_spiritualist"
+# 	trait="trait_adaptive"
+# 	trait="trait_strong"
+# 	trait="trait_deviants"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen zabrak_council hutt_tech init_spawned }
+# 	#weapon="yellow"
+# 	planet_name="NAME_Iridonia_AP3"
+# 	planet_class="pc_arid"
+# 	system_name="NAME_Iridonia"
+# 	initializer="canon_iridonia_system_initializer"
+# 	graphical_culture="misc_01"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "ZabrakCouncil.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor651" "customcolor651" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=male
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_ZabrakCouncil
+# 			second_name = PRESCRIPTED_ruler_second_name_ZabrakCouncil
+# 		}
+# 		portrait="zabrak"
+# 		texture=0
+# 		attachment=0
+# 		clothes=1
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="zabrak_council_room"
+# }
+
+# # Zygerrian Slave State
+# ZygerrianSlaveState = {
+# 	name_list="Zygerrian"
+# 	ship_prefix="PRESCRIPTED_ship_prefix_ZygerrianSlaveState"
+# 	species_name="PRESCRIPTED_species_name_ZygerrianSlaveState"
+# 	species_plural="PRESCRIPTED_species_plural_ZygerrianSlaveState"
+# 	species_class="ZYG"
+# 	species_adjective="PRESCRIPTED_species_adjective_ZygerrianSlaveState"
+# 	species_bio="PRESCRIPTED_species_bio_ZygerrianSlaveState"
+# 	portrait="zygerrian"
+# 	name="EMPIRE_DESIGN_ZygerrianSlaveState"
+# 	adjective="PRESCRIPTED_adjective_ZygerrianSlaveState"
+
+# 	authority="auth_imperial"
+# 	civics={ "civic_slaver_guilds" "civic_feudal_realm" }
+# 	government="gov_feudal_empire"
+
+# 	ethic="ethic_fanatic_authoritarian"
+# 	ethic="ethic_materialist"
+# 	trait="trait_rapid_breeders"
+# 	trait="trait_quick_learners"
+# 	trait="trait_decadent"
+
+# 	origin = "origin_swp_default"
+
+# 	flags={ custom_start_screen zygerrian_slave_state cis_tech init_spawned }
+# 	#weapon="yellow"
+# 	planet_name="NAME_Zygerria_P3"
+# 	planet_class="pc_arid"
+# 	system_name="NAME_Zygerria"
+# 	initializer="canon_zygerria_system_initializer"
+# 	graphical_culture="misc_02"
+# 	city_graphical_culture="mammalian_01"
+# 	empire_flag={
+# 		icon = { category="starwars" file = "ZygerrianSlaveState.dds" }
+# 		background = { category="backgrounds" file = "00_solid.dds" }
+# 		colors = { "customcolor1009" "customcolor1009" "null" "null" }
+# 	}
+# 	ruler={
+# 		gender=female
+# 		name={
+# 			first_name = PRESCRIPTED_ruler_first_name_ZygerrianSlaveState
+# 			second_name = PRESCRIPTED_ruler_second_name_ZygerrianSlaveState
+# 		}
+# 		portrait="zygerrian_female_05"
+# 		texture=0
+# 		attachment=0
+# 		clothes=6
+# 		leader_class = official
+# 	}
+# 	spawn_enabled=always
+# 	room="zygerrian_room"
+# }
