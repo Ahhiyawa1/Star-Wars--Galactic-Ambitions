@@ -5,6 +5,7 @@
 on_game_start = {
 	events = {
 		swnd_start.1
+		swnd_start.1666
 		swnd_start.7 	# Set Starbases
 		# swnd_start.10	# set homeworlds - deprecated
 		swnd_start.90	# Populate planets that couldn't be in inits
