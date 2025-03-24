@@ -1,0 +1,845 @@
+﻿SWP_Human3 = {
+	randomized = no
+	ship_names = {
+		generic = {
+			SWP_HUMAN3_SHIP_mystic SWP_HUMAN3_SHIP_naiad SWP_HUMAN3_SHIP_nautilus SWP_HUMAN3_SHIP_nebula SWP_HUMAN3_SHIP_nimble SWP_HUMAN3_SHIP_north_star SWP_HUMAN3_SHIP_nymph SWP_HUMAN3_SHIP_obdurate SWP_HUMAN3_SHIP_ocean SWP_HUMAN3_SHIP_onward SWP_HUMAN3_SHIP_oracle SWP_HUMAN3_SHIP_paradox SWP_HUMAN3_SHIP_paragon SWP_HUMAN3_SHIP_pearl SWP_HUMAN3_SHIP_peregrine SWP_HUMAN3_SHIP_perseverance SWP_HUMAN3_SHIP_marksman SWP_HUMAN3_SHIP_rifleman SWP_HUMAN3_SHIP_sniper SWP_HUMAN3_SHIP_trident SWP_HUMAN3_SHIP_trumpet SWP_HUMAN3_SHIP_truncheon SWP_HUMAN3_SHIP_typhoon SWP_HUMAN3_SHIP_undaunted SWP_HUMAN3_SHIP_venture SWP_HUMAN3_SHIP_versatile SWP_HUMAN3_SHIP_vigorous SWP_HUMAN3_SHIP_viper SWP_HUMAN3_SHIP_vivacious SWP_HUMAN3_SHIP_winger SWP_HUMAN3_SHIP_wizard SWP_HUMAN3_SHIP_wyvern SWP_HUMAN3_SHIP_wolfhound SWP_HUMAN3_SHIP_devastator SWP_HUMAN3_SHIP_warhammer SWP_HUMAN3_SHIP_retribution SWP_HUMAN3_SHIP_senator SWP_HUMAN3_SHIP_tornado SWP_HUMAN3_SHIP_infinity SWP_HUMAN3_SHIP_usurper SWP_HUMAN3_SHIP_utmost SWP_HUMAN3_SHIP_valorous SWP_HUMAN3_SHIP_whirlwind SWP_HUMAN3_SHIP_athena SWP_HUMAN3_SHIP_artemis SWP_HUMAN3_SHIP_vigilance SWP_HUMAN3_SHIP_decimator SWP_HUMAN3_SHIP_indomitable SWP_HUMAN3_SHIP_goliath SWP_HUMAN3_SHIP_sentinel SWP_HUMAN3_SHIP_brilliant SWP_HUMAN3_SHIP_blazer SWP_HUMAN3_SHIP_audacity SWP_HUMAN3_SHIP_gallant SWP_HUMAN3_SHIP_nova SWP_HUMAN3_SHIP_shadow SWP_HUMAN3_SHIP_allegiance SWP_HUMAN3_SHIP_challenger SWP_HUMAN3_SHIP_fearless SWP_HUMAN3_SHIP_protector SWP_HUMAN3_SHIP_guardian SWP_HUMAN3_SHIP_victorious SWP_HUMAN3_SHIP_courageous SWP_HUMAN3_SHIP_defiance SWP_HUMAN3_SHIP_valorous SWP_HUMAN3_SHIP_azrael SWP_HUMAN3_SHIP_adamantine SWP_HUMAN3_SHIP_aralanni SWP_HUMAN3_SHIP_ardent_iv SWP_HUMAN3_SHIP_armistice SWP_HUMAN3_SHIP_avengeance SWP_HUMAN3_SHIP_ballista SWP_HUMAN3_SHIP_bloodstripe SWP_HUMAN3_SHIP_borealis SWP_HUMAN3_SHIP_caelus SWP_HUMAN3_SHIP_caravan SWP_HUMAN3_SHIP_chaf_envoy SWP_HUMAN3_SHIP_commenor SWP_HUMAN3_SHIP_corbantis SWP_HUMAN3_SHIP_corellia SWP_HUMAN3_SHIP_courteous SWP_HUMAN3_SHIP_dauntless SWP_HUMAN3_SHIP_defiant SWP_HUMAN3_SHIP_deliverance SWP_HUMAN3_SHIP_derapha SWP_HUMAN3_SHIP_devout SWP_HUMAN3_SHIP_empirical SWP_HUMAN3_SHIP_empyrean SWP_HUMAN3_SHIP_era_daimanos SWP_HUMAN3_SHIP_eye_of_the_storm SWP_HUMAN3_SHIP_farstar SWP_HUMAN3_SHIP_fastblast SWP_HUMAN3_SHIP_galaaron SWP_HUMAN3_SHIP_garrote SWP_HUMAN3_SHIP_gilagimar SWP_HUMAN3_SHIP_halleck SWP_HUMAN3_SHIP_hunter SWP_HUMAN3_SHIP_intractable SWP_HUMAN3_SHIP_ithor_lady SWP_HUMAN3_SHIP_justice_crusader SWP_HUMAN3_SHIP_kana_s_steel SWP_HUMAN3_SHIP_lathir SWP_HUMAN3_SHIP_liberty SWP_HUMAN3_SHIP_lillibanca SWP_HUMAN3_SHIP_maelstrom SWP_HUMAN3_SHIP_malachite_scent SWP_HUMAN3_SHIP_mercy SWP_HUMAN3_SHIP_myrkos SWP_HUMAN3_SHIP_nebula_chaser SWP_HUMAN3_SHIP_nova SWP_HUMAN3_SHIP_nova_viper SWP_HUMAN3_SHIP_obedience SWP_HUMAN3_SHIP_olemp SWP_HUMAN3_SHIP_pegasus SWP_HUMAN3_SHIP_perspicacity SWP_HUMAN3_SHIP_phalanx SWP_HUMAN3_SHIP_plooriod_bodkin SWP_HUMAN3_SHIP_predominance SWP_HUMAN3_SHIP_prosperity SWP_HUMAN3_SHIP_purity SWP_HUMAN3_SHIP_recalcitrant SWP_HUMAN3_SHIP_red_nova SWP_HUMAN3_SHIP_redma SWP_HUMAN3_SHIP_reliable SWP_HUMAN3_SHIP_reliant SWP_HUMAN3_SHIP_reluctant SWP_HUMAN3_SHIP_republic SWP_HUMAN3_SHIP_republic_s_return SWP_HUMAN3_SHIP_resolve SWP_HUMAN3_SHIP_respectable SWP_HUMAN3_SHIP_revenge SWP_HUMAN3_SHIP_shadowblade SWP_HUMAN3_SHIP_spritespray SWP_HUMAN3_SHIP_star_dream SWP_HUMAN3_SHIP_stark_wing SWP_HUMAN3_SHIP_starveil SWP_HUMAN3_SHIP_undying SWP_HUMAN3_SHIP_vaathkree SWP_HUMAN3_SHIP_vainglorious SWP_HUMAN3_SHIP_valiant SWP_HUMAN3_SHIP_valor SWP_HUMAN3_SHIP_vanquisher SWP_HUMAN3_SHIP_vinsor SWP_HUMAN3_SHIP_visseon SWP_HUMAN3_SHIP_wennis SWP_HUMAN3_SHIP_yavin_s_glory SWP_HUMAN3_SHIP_moldy_crow SWP_HUMAN3_SHIP_raven_s_claw SWP_HUMAN3_SHIP_agile SWP_HUMAN3_SHIP_archer SWP_HUMAN3_SHIP_arrow SWP_HUMAN3_SHIP_bruiser SWP_HUMAN3_SHIP_cherub SWP_HUMAN3_SHIP_chimera SWP_HUMAN3_SHIP_claymore SWP_HUMAN3_SHIP_broadsword SWP_HUMAN3_SHIP_battleaxe SWP_HUMAN3_SHIP_crossbow SWP_HUMAN3_SHIP_cutlass SWP_HUMAN3_SHIP_deterrent SWP_HUMAN3_SHIP_errant SWP_HUMAN3_SHIP_faithful SWP_HUMAN3_SHIP_fierce SWP_HUMAN3_SHIP_gladius SWP_HUMAN3_SHIP_longbow SWP_HUMAN3_SHIP_grappler SWP_HUMAN3_SHIP_hammer SWP_HUMAN3_SHIP_vampire SWP_HUMAN3_SHIP_velox SWP_HUMAN3_SHIP_venator SWP_HUMAN3_SHIP_vendetta SWP_HUMAN3_SHIP_venerable SWP_HUMAN3_SHIP_venomous SWP_HUMAN3_SHIP_taciturn SWP_HUMAN3_SHIP_supreme SWP_HUMAN3_SHIP_success SWP_HUMAN3_SHIP_shredder SWP_HUMAN3_SHIP_seraph SWP_HUMAN3_SHIP_serpent SWP_HUMAN3_SHIP_spitfire SWP_HUMAN3_SHIP_stalker SWP_HUMAN3_SHIP_stratagem SWP_HUMAN3_SHIP_scimitar SWP_HUMAN3_SHIP_scorcher SWP_HUMAN3_SHIP_scourge SWP_HUMAN3_SHIP_scythe SWP_HUMAN3_SHIP_revenant SWP_HUMAN3_SHIP_redoubtable SWP_HUMAN3_SHIP_raptor SWP_HUMAN3_SHIP_reaver SWP_HUMAN3_SHIP_prodigal SWP_HUMAN3_SHIP_rapier SWP_HUMAN3_SHIP_prudent SWP_HUMAN3_SHIP_persistent SWP_HUMAN3_SHIP_peerless SWP_HUMAN3_SHIP_myrmidon SWP_HUMAN3_SHIP_indignant SWP_HUMAN3_SHIP_javelin SWP_HUMAN3_SHIP_knight SWP_HUMAN3_SHIP_starwolf SWP_HUMAN3_SHIP_bonaventure SWP_HUMAN3_SHIP_adventure SWP_HUMAN3_SHIP_boxer SWP_HUMAN3_SHIP_buccaneer SWP_HUMAN3_SHIP_cavalier SWP_HUMAN3_SHIP_celestial SWP_HUMAN3_SHIP_chariot SWP_HUMAN3_SHIP_comet SWP_HUMAN3_SHIP_crucible SWP_HUMAN3_SHIP_cyclone SWP_HUMAN3_SHIP_decisive SWP_HUMAN3_SHIP_dexterous SWP_HUMAN3_SHIP_diadem SWP_HUMAN3_SHIP_earnest SWP_HUMAN3_SHIP_eclipse SWP_HUMAN3_SHIP_forger SWP_HUMAN3_SHIP_fortune SWP_HUMAN3_SHIP_gauntlet SWP_HUMAN3_SHIP_griffin SWP_HUMAN3_SHIP_horizon SWP_HUMAN3_SHIP_hotspur SWP_HUMAN3_SHIP_hurricane SWP_HUMAN3_SHIP_hussar SWP_HUMAN3_SHIP_jubilant SWP_HUMAN3_SHIP_lancer SWP_HUMAN3_SHIP_lightning SWP_HUMAN3_SHIP_magic SWP_HUMAN3_SHIP_mediator SWP_HUMAN3_SHIP_mermaid SWP_HUMAN3_SHIP_meteor SWP_HUMAN3_SHIP_minstrel SWP_HUMAN3_SHIP_miranda SWP_HUMAN3_SHIP_mustang SWP_HUMAN3_SHIP_sharpshooter SWP_HUMAN3_SHIP_cyclops SWP_HUMAN3_SHIP_centaur SWP_HUMAN3_SHIP_adversary SWP_HUMAN3_SHIP_assassin SWP_HUMAN3_SHIP_dagger SWP_HUMAN3_SHIP_daring SWP_HUMAN3_SHIP_duty SWP_HUMAN3_SHIP_havoc SWP_HUMAN3_SHIP_hero SWP_HUMAN3_SHIP_hunter SWP_HUMAN3_SHIP_justice SWP_HUMAN3_SHIP_impeccable SWP_HUMAN3_SHIP_interceptor SWP_HUMAN3_SHIP_infernal SWP_HUMAN3_SHIP_loyal SWP_HUMAN3_SHIP_matchless SWP_HUMAN3_SHIP_mauler SWP_HUMAN3_SHIP_mayhem SWP_HUMAN3_SHIP_malice SWP_HUMAN3_SHIP_menace SWP_HUMAN3_SHIP_merciless SWP_HUMAN3_SHIP_mischief SWP_HUMAN3_SHIP_monarch SWP_HUMAN3_SHIP_patriot SWP_HUMAN3_SHIP_predator SWP_HUMAN3_SHIP_powerful SWP_HUMAN3_SHIP_punisher SWP_HUMAN3_SHIP_ravager SWP_HUMAN3_SHIP_reaper SWP_HUMAN3_SHIP_savage SWP_HUMAN3_SHIP_spiteful SWP_HUMAN3_SHIP_templar SWP_HUMAN3_SHIP_terminator SWP_HUMAN3_SHIP_terror SWP_HUMAN3_SHIP_thrasher SWP_HUMAN3_SHIP_minotaur SWP_HUMAN3_SHIP_manticore SWP_HUMAN3_SHIP_interdictor SWP_HUMAN3_SHIP_intruder SWP_HUMAN3_SHIP_hydra SWP_HUMAN3_SHIP_enfield SWP_HUMAN3_SHIP_harasser SWP_HUMAN3_SHIP_unbeaten SWP_HUMAN3_SHIP_werewolf SWP_HUMAN3_SHIP_zealous SWP_HUMAN3_SHIP_petulant SWP_HUMAN3_SHIP_phantom SWP_HUMAN3_SHIP_phoenix SWP_HUMAN3_SHIP_pike SWP_HUMAN3_SHIP_pursuer SWP_HUMAN3_SHIP_raider SWP_HUMAN3_SHIP_rainbow SWP_HUMAN3_SHIP_rapid SWP_HUMAN3_SHIP_redemption SWP_HUMAN3_SHIP_relentless SWP_HUMAN3_SHIP_rigorous SWP_HUMAN3_SHIP_robust SWP_HUMAN3_SHIP_sabre SWP_HUMAN3_SHIP_salvation SWP_HUMAN3_SHIP_sanguine SWP_HUMAN3_SHIP_scarab SWP_HUMAN3_SHIP_scepter SWP_HUMAN3_SHIP_sea_witch SWP_HUMAN3_SHIP_siren SWP_HUMAN3_SHIP_sorceress SWP_HUMAN3_SHIP_spearhead SWP_HUMAN3_SHIP_specter SWP_HUMAN3_SHIP_spirit SWP_HUMAN3_SHIP_splendid SWP_HUMAN3_SHIP_stallion SWP_HUMAN3_SHIP_stalwart SWP_HUMAN3_SHIP_steadfast SWP_HUMAN3_SHIP_strenuous SWP_HUMAN3_SHIP_superb SWP_HUMAN3_SHIP_supernova SWP_HUMAN3_SHIP_surprise SWP_HUMAN3_SHIP_swiftsure SWP_HUMAN3_SHIP_talent SWP_HUMAN3_SHIP_talisman SWP_HUMAN3_SHIP_talon SWP_HUMAN3_SHIP_taurus SWP_HUMAN3_SHIP_tenacious SWP_HUMAN3_SHIP_thunder_child SWP_HUMAN3_SHIP_thunderous SWP_HUMAN3_SHIP_tireless SWP_HUMAN3_SHIP_trenchant SWP_HUMAN3_SHIP_righteous SWP_HUMAN3_SHIP_acheron SWP_HUMAN3_SHIP_achilles SWP_HUMAN3_SHIP_agamemnon SWP_HUMAN3_SHIP_amphion SWP_HUMAN3_SHIP_aquilon SWP_HUMAN3_SHIP_argonaut SWP_HUMAN3_SHIP_argus SWP_HUMAN3_SHIP_ariel SWP_HUMAN3_SHIP_aurora SWP_HUMAN3_SHIP_avernus SWP_HUMAN3_SHIP_bacchus SWP_HUMAN3_SHIP_bucephalus SWP_HUMAN3_SHIP_calliope SWP_HUMAN3_SHIP_calypso SWP_HUMAN3_SHIP_castor SWP_HUMAN3_SHIP_charybdis SWP_HUMAN3_SHIP_circe SWP_HUMAN3_SHIP_cleopatra SWP_HUMAN3_SHIP_constantine SWP_HUMAN3_SHIP_cordelia SWP_HUMAN3_SHIP_cyrus SWP_HUMAN3_SHIP_damocles SWP_HUMAN3_SHIP_daedalus SWP_HUMAN3_SHIP_darius SWP_HUMAN3_SHIP_diomede SWP_HUMAN3_SHIP_dryad SWP_HUMAN3_SHIP_electra SWP_HUMAN3_SHIP_endymion SWP_HUMAN3_SHIP_erebus SWP_HUMAN3_SHIP_fenris SWP_HUMAN3_SHIP_freya SWP_HUMAN3_SHIP_gilgamesh SWP_HUMAN3_SHIP_gorgon SWP_HUMAN3_SHIP_halcyon SWP_HUMAN3_SHIP_hecate SWP_HUMAN3_SHIP_hector SWP_HUMAN3_SHIP_hesperus SWP_HUMAN3_SHIP_janus SWP_HUMAN3_SHIP_jason SWP_HUMAN3_SHIP_juno SWP_HUMAN3_SHIP_jupiter SWP_HUMAN3_SHIP_lancelot SWP_HUMAN3_SHIP_lazarus SWP_HUMAN3_SHIP_leander SWP_HUMAN3_SHIP_leonidas SWP_HUMAN3_SHIP_lysander SWP_HUMAN3_SHIP_maenad SWP_HUMAN3_SHIP_mars SWP_HUMAN3_SHIP_medea SWP_HUMAN3_SHIP_medusa SWP_HUMAN3_SHIP_menestheus SWP_HUMAN3_SHIP_mercury SWP_HUMAN3_SHIP_merlin SWP_HUMAN3_SHIP_minerva SWP_HUMAN3_SHIP_minos SWP_HUMAN3_SHIP_neptune SWP_HUMAN3_SHIP_nessus SWP_HUMAN3_SHIP_nestor SWP_HUMAN3_SHIP_nimrod SWP_HUMAN3_SHIP_niobe SWP_HUMAN3_SHIP_oberon SWP_HUMAN3_SHIP_odin SWP_HUMAN3_SHIP_ophelia SWP_HUMAN3_SHIP_orestes SWP_HUMAN3_SHIP_orpheus SWP_HUMAN3_SHIP_osiris SWP_HUMAN3_SHIP_pandora SWP_HUMAN3_SHIP_penelope SWP_HUMAN3_SHIP_persephone SWP_HUMAN3_SHIP_perseus SWP_HUMAN3_SHIP_phoebe SWP_HUMAN3_SHIP_pluto SWP_HUMAN3_SHIP_poseidon SWP_HUMAN3_SHIP_proteus SWP_HUMAN3_SHIP_pylades SWP_HUMAN3_SHIP_serapis SWP_HUMAN3_SHIP_stygian SWP_HUMAN3_SHIP_tantalus SWP_HUMAN3_SHIP_telemachus SWP_HUMAN3_SHIP_theseus SWP_HUMAN3_SHIP_thor SWP_HUMAN3_SHIP_trajan SWP_HUMAN3_SHIP_triton SWP_HUMAN3_SHIP_venus SWP_HUMAN3_SHIP_adamant SWP_HUMAN3_SHIP_ardent SWP_HUMAN3_SHIP_assail SWP_HUMAN3_SHIP_austere SWP_HUMAN3_SHIP_archon SWP_HUMAN3_SHIP_adroit SWP_HUMAN3_SHIP_aegis SWP_HUMAN3_SHIP_anchor SWP_HUMAN3_SHIP_corsair SWP_HUMAN3_SHIP_banshee SWP_HUMAN3_SHIP_enchantress SWP_HUMAN3_SHIP_eradicator SWP_HUMAN3_SHIP_tormentor SWP_HUMAN3_SHIP_legion SWP_HUMAN3_SHIP_reprisal SWP_HUMAN3_SHIP_aggressor SWP_HUMAN3_SHIP_assault SWP_HUMAN3_SHIP_eviscerator SWP_HUMAN3_SHIP_imperator SWP_HUMAN3_SHIP_excellence SWP_HUMAN3_SHIP_unrivalled SWP_HUMAN3_SHIP_warlord SWP_HUMAN3_SHIP_vengeance SWP_HUMAN3_SHIP_triumphant SWP_HUMAN3_SHIP_nemesis SWP_HUMAN3_SHIP_avenger SWP_HUMAN3_SHIP_champion SWP_HUMAN3_SHIP_conqueror SWP_HUMAN3_SHIP_crusader SWP_HUMAN3_SHIP_glory SWP_HUMAN3_SHIP_immortal SWP_HUMAN3_SHIP_judicator SWP_HUMAN3_SHIP_vanguard SWP_HUMAN3_SHIP_renown SWP_HUMAN3_SHIP_demolisher SWP_HUMAN3_SHIP_dragon SWP_HUMAN3_SHIP_executor SWP_HUMAN3_SHIP_furious SWP_HUMAN3_SHIP_gladiator SWP_HUMAN3_SHIP_magnificent SWP_HUMAN3_SHIP_ogre SWP_HUMAN3_SHIP_onslaught SWP_HUMAN3_SHIP_revenge SWP_HUMAN3_SHIP_vanquisher SWP_HUMAN3_SHIP_vehement SWP_HUMAN3_SHIP_basilisk SWP_HUMAN3_SHIP_tempest SWP_HUMAN3_SHIP_overlord SWP_HUMAN3_SHIP_warrior SWP_HUMAN3_SHIP_titan SWP_HUMAN3_SHIP_colossus SWP_HUMAN3_SHIP_prometheus SWP_HUMAN3_SHIP_nike SWP_HUMAN3_SHIP_paladin SWP_HUMAN3_SHIP_sovereign SWP_HUMAN3_SHIP_repulse SWP_HUMAN3_SHIP_majestic SWP_HUMAN3_SHIP_avatar SWP_HUMAN3_SHIP_behemoth SWP_HUMAN3_SHIP_centurion SWP_HUMAN3_SHIP_citadel SWP_HUMAN3_SHIP_katana SWP_HUMAN3_SHIP_kraken SWP_HUMAN3_SHIP_cerberus SWP_HUMAN3_SHIP_valkyrie
+		}
+		swp_bellator = {
+			SWP_HUMAN3_SHIP_dreadnought SWP_HUMAN3_SHIP_harbinger SWP_HUMAN3_SHIP_juggernaut SWP_HUMAN3_SHIP_leviathan SWP_HUMAN3_SHIP_hyperion SWP_HUMAN3_SHIP_galatea SWP_HUMAN3_SHIP_ambush SWP_HUMAN3_SHIP_vindicator
+		}
+		science = {
+			SWP_HUMAN3_SHIP_crescent SWP_HUMAN3_SHIP_diligent SWP_HUMAN3_SHIP_zephyr SWP_HUMAN3_SHIP_enigma SWP_HUMAN3_SHIP_conquistador SWP_HUMAN3_SHIP_scylla SWP_HUMAN3_SHIP_arbiter SWP_HUMAN3_SHIP_asperity SWP_HUMAN3_SHIP_eminence SWP_HUMAN3_SHIP_astute SWP_HUMAN3_SHIP_alacrity SWP_HUMAN3_SHIP_satyr SWP_HUMAN3_SHIP_prospero SWP_HUMAN3_SHIP_untiring SWP_HUMAN3_SHIP_zenith SWP_HUMAN3_SHIP_torch SWP_HUMAN3_SHIP_remembrance SWP_HUMAN3_SHIP_pilgrim SWP_HUMAN3_SHIP_trailblazer SWP_HUMAN3_SHIP_vagabond SWP_HUMAN3_SHIP_wayfarer SWP_HUMAN3_SHIP_ambassador SWP_HUMAN3_SHIP_emissary SWP_HUMAN3_SHIP_nomad SWP_HUMAN3_SHIP_pathfinder SWP_HUMAN3_SHIP_wanderer SWP_HUMAN3_SHIP_traveler
+		}
+		colonizer = {
+			SWP_HUMAN3_SHIP_godspeed SWP_HUMAN3_SHIP_prophecy SWP_HUMAN3_SHIP_manifest_destiny SWP_HUMAN3_SHIP_virtue SWP_HUMAN3_SHIP_potential SWP_HUMAN3_SHIP_expansion SWP_HUMAN3_SHIP_pioneer_spirit SWP_HUMAN3_SHIP_prosperity SWP_HUMAN3_SHIP_summit SWP_HUMAN3_SHIP_pinnacle SWP_HUMAN3_SHIP_seeder SWP_HUMAN3_SHIP_harvest SWP_HUMAN3_SHIP_demeter SWP_HUMAN3_SHIP_isis SWP_HUMAN3_SHIP_ceres SWP_HUMAN3_SHIP_exodus SWP_HUMAN3_SHIP_foundation SWP_HUMAN3_SHIP_scion SWP_HUMAN3_SHIP_progeny SWP_HUMAN3_SHIP_obligation SWP_HUMAN3_SHIP_purpose SWP_HUMAN3_SHIP_provider SWP_HUMAN3_SHIP_shining_city SWP_HUMAN3_SHIP_acquirer SWP_HUMAN3_SHIP_cultivator SWP_HUMAN3_SHIP_dawn_of_civilization SWP_HUMAN3_SHIP_purity SWP_HUMAN3_SHIP_community SWP_HUMAN3_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			SWP_HUMAN3_SHIP_godspeed SWP_HUMAN3_SHIP_prophecy SWP_HUMAN3_SHIP_manifest_destiny SWP_HUMAN3_SHIP_virtue SWP_HUMAN3_SHIP_potential SWP_HUMAN3_SHIP_expansion SWP_HUMAN3_SHIP_pioneer_spirit SWP_HUMAN3_SHIP_prosperity SWP_HUMAN3_SHIP_summit SWP_HUMAN3_SHIP_pinnacle SWP_HUMAN3_SHIP_seeder SWP_HUMAN3_SHIP_harvest SWP_HUMAN3_SHIP_isis SWP_HUMAN3_SHIP_ceres SWP_HUMAN3_SHIP_exodus SWP_HUMAN3_SHIP_foundation SWP_HUMAN3_SHIP_scion SWP_HUMAN3_SHIP_progeny SWP_HUMAN3_SHIP_obligation SWP_HUMAN3_SHIP_purpose SWP_HUMAN3_SHIP_provider SWP_HUMAN3_SHIP_shining_city SWP_HUMAN3_SHIP_acquirer SWP_HUMAN3_SHIP_cultivator SWP_HUMAN3_SHIP_dawn_of_civilization SWP_HUMAN3_SHIP_purity SWP_HUMAN3_SHIP_community SWP_HUMAN3_SHIP_brotherhood
+		}
+		constructor = {
+			SWP_HUMAN3_SHIP_industry SWP_HUMAN3_SHIP_assiduity SWP_HUMAN3_SHIP_effort SWP_HUMAN3_SHIP_laborer SWP_HUMAN3_SHIP_builder SWP_HUMAN3_SHIP_craftsman SWP_HUMAN3_SHIP_hard_hat SWP_HUMAN3_SHIP_progress SWP_HUMAN3_SHIP_engineer SWP_HUMAN3_SHIP_promise SWP_HUMAN3_SHIP_service SWP_HUMAN3_SHIP_shelter SWP_HUMAN3_SHIP_beast SWP_HUMAN3_SHIP_creator SWP_HUMAN3_SHIP_developer SWP_HUMAN3_SHIP_forger SWP_HUMAN3_SHIP_foundry SWP_HUMAN3_SHIP_factory SWP_HUMAN3_SHIP_anvil SWP_HUMAN3_SHIP_pillar SWP_HUMAN3_SHIP_architect SWP_HUMAN3_SHIP_accommodator SWP_HUMAN3_SHIP_ptah SWP_HUMAN3_SHIP_ilmarinen SWP_HUMAN3_SHIP_creidhne SWP_HUMAN3_SHIP_gobannus SWP_HUMAN3_SHIP_luchtaine SWP_HUMAN3_SHIP_goibniu SWP_HUMAN3_SHIP_vishvakarman SWP_HUMAN3_SHIP_tvastar SWP_HUMAN3_SHIP_ikenga SWP_HUMAN3_SHIP_qaynan SWP_HUMAN3_SHIP_ucuetis SWP_HUMAN3_SHIP_ogoun
+		}
+		transport = {
+			SWP_HUMAN3_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			SWP_HUMAN3_SHIP_spacegun_victory SWP_HUMAN3_SHIP_spacegun_success SWP_HUMAN3_SHIP_spacegun_supremacy SWP_HUMAN3_SHIP_spacegun_superior SWP_HUMAN3_SHIP_spacegun_adventure SWP_HUMAN3_SHIP_spacegun_ascendancy SWP_HUMAN3_SHIP_spacegun_paramount SWP_HUMAN3_SHIP_spacegun_preponderous SWP_HUMAN3_SHIP_spacegun_exemplary SWP_HUMAN3_SHIP_spacegun_eximious SWP_HUMAN3_SHIP_spacegun_pertinacity SWP_HUMAN3_SHIP_spacegun_acclaim SWP_HUMAN3_SHIP_spacegun_honor SWP_HUMAN3_SHIP_spacegun_renown SWP_HUMAN3_SHIP_spacegun_glory SWP_HUMAN3_SHIP_spacegun_superb SWP_HUMAN3_SHIP_spacegun_magnificence SWP_HUMAN3_SHIP_spacegun_majestic SWP_HUMAN3_SHIP_spacegun_splendor SWP_HUMAN3_SHIP_spacegun_paradigm SWP_HUMAN3_SHIP_spacegun_flawless SWP_HUMAN3_SHIP_spacegun_consummate SWP_HUMAN3_SHIP_spacegun_merit SWP_HUMAN3_SHIP_spacegun_perfection SWP_HUMAN3_SHIP_spacegun_virtue SWP_HUMAN3_SHIP_spacegun_advantage SWP_HUMAN3_SHIP_spacegun_rectitude SWP_HUMAN3_SHIP_spacegun_incorruptible SWP_HUMAN3_SHIP_spacegun_integrity SWP_HUMAN3_SHIP_spacegun_justice SWP_HUMAN3_SHIP_spacegun_probity SWP_HUMAN3_SHIP_spacegun_prudence SWP_HUMAN3_SHIP_spacegun_purity SWP_HUMAN3_SHIP_spacegun_resolute SWP_HUMAN3_SHIP_spacegun_dignity SWP_HUMAN3_SHIP_spacegun_distinction SWP_HUMAN3_SHIP_spacegun_excellence SWP_HUMAN3_SHIP_spacegun_faithful SWP_HUMAN3_SHIP_spacegun_discipline SWP_HUMAN3_SHIP_spacegun_steadfast SWP_HUMAN3_SHIP_spacegun_recompense SWP_HUMAN3_SHIP_spacegun_requiem SWP_HUMAN3_SHIP_spacegun_courage SWP_HUMAN3_SHIP_spacegun_valor SWP_HUMAN3_SHIP_spacegun_gallant SWP_HUMAN3_SHIP_spacegun_daring SWP_HUMAN3_SHIP_spacegun_constancy SWP_HUMAN3_SHIP_spacegun_perseverence SWP_HUMAN3_SHIP_spacegun_tenacity SWP_HUMAN3_SHIP_spacegun_sedulity SWP_HUMAN3_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			SWP_HUMAN3_SHIP_spacegun_victory SWP_HUMAN3_SHIP_spacegun_success SWP_HUMAN3_SHIP_spacegun_supremacy SWP_HUMAN3_SHIP_spacegun_superior SWP_HUMAN3_SHIP_spacegun_adventure SWP_HUMAN3_SHIP_spacegun_ascendancy SWP_HUMAN3_SHIP_spacegun_paramount SWP_HUMAN3_SHIP_spacegun_preponderous SWP_HUMAN3_SHIP_spacegun_exemplary SWP_HUMAN3_SHIP_spacegun_eximious SWP_HUMAN3_SHIP_spacegun_pertinacity SWP_HUMAN3_SHIP_spacegun_acclaim SWP_HUMAN3_SHIP_spacegun_honor SWP_HUMAN3_SHIP_spacegun_renown SWP_HUMAN3_SHIP_spacegun_glory SWP_HUMAN3_SHIP_spacegun_superb SWP_HUMAN3_SHIP_spacegun_magnificence SWP_HUMAN3_SHIP_spacegun_majestic SWP_HUMAN3_SHIP_spacegun_splendor SWP_HUMAN3_SHIP_spacegun_paradigm SWP_HUMAN3_SHIP_spacegun_flawless SWP_HUMAN3_SHIP_spacegun_consummate SWP_HUMAN3_SHIP_spacegun_merit SWP_HUMAN3_SHIP_spacegun_perfection SWP_HUMAN3_SHIP_spacegun_virtue SWP_HUMAN3_SHIP_spacegun_advantage SWP_HUMAN3_SHIP_spacegun_rectitude SWP_HUMAN3_SHIP_spacegun_incorruptible SWP_HUMAN3_SHIP_spacegun_integrity SWP_HUMAN3_SHIP_spacegun_justice SWP_HUMAN3_SHIP_spacegun_probity SWP_HUMAN3_SHIP_spacegun_prudence SWP_HUMAN3_SHIP_spacegun_purity SWP_HUMAN3_SHIP_spacegun_resolute SWP_HUMAN3_SHIP_spacegun_dignity SWP_HUMAN3_SHIP_spacegun_distinction SWP_HUMAN3_SHIP_spacegun_excellence SWP_HUMAN3_SHIP_spacegun_faithful SWP_HUMAN3_SHIP_spacegun_discipline SWP_HUMAN3_SHIP_spacegun_steadfast SWP_HUMAN3_SHIP_spacegun_recompense SWP_HUMAN3_SHIP_spacegun_requiem SWP_HUMAN3_SHIP_spacegun_courage SWP_HUMAN3_SHIP_spacegun_valor SWP_HUMAN3_SHIP_spacegun_gallant SWP_HUMAN3_SHIP_spacegun_daring SWP_HUMAN3_SHIP_spacegun_constancy SWP_HUMAN3_SHIP_spacegun_perseverence SWP_HUMAN3_SHIP_spacegun_tenacity SWP_HUMAN3_SHIP_spacegun_sedulity SWP_HUMAN3_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			SWP_HUMAN3_SHIP_spacegun_victory SWP_HUMAN3_SHIP_spacegun_success SWP_HUMAN3_SHIP_spacegun_supremacy SWP_HUMAN3_SHIP_spacegun_superior SWP_HUMAN3_SHIP_spacegun_adventure SWP_HUMAN3_SHIP_spacegun_ascendancy SWP_HUMAN3_SHIP_spacegun_paramount SWP_HUMAN3_SHIP_spacegun_preponderous SWP_HUMAN3_SHIP_spacegun_exemplary SWP_HUMAN3_SHIP_spacegun_eximious SWP_HUMAN3_SHIP_spacegun_pertinacity SWP_HUMAN3_SHIP_spacegun_acclaim SWP_HUMAN3_SHIP_spacegun_honor SWP_HUMAN3_SHIP_spacegun_renown SWP_HUMAN3_SHIP_spacegun_glory SWP_HUMAN3_SHIP_spacegun_superb SWP_HUMAN3_SHIP_spacegun_magnificence SWP_HUMAN3_SHIP_spacegun_majestic SWP_HUMAN3_SHIP_spacegun_splendor SWP_HUMAN3_SHIP_spacegun_paradigm SWP_HUMAN3_SHIP_spacegun_flawless SWP_HUMAN3_SHIP_spacegun_consummate SWP_HUMAN3_SHIP_spacegun_merit SWP_HUMAN3_SHIP_spacegun_perfection SWP_HUMAN3_SHIP_spacegun_virtue SWP_HUMAN3_SHIP_spacegun_advantage SWP_HUMAN3_SHIP_spacegun_rectitude SWP_HUMAN3_SHIP_spacegun_incorruptible SWP_HUMAN3_SHIP_spacegun_integrity SWP_HUMAN3_SHIP_spacegun_justice SWP_HUMAN3_SHIP_spacegun_probity SWP_HUMAN3_SHIP_spacegun_prudence SWP_HUMAN3_SHIP_spacegun_purity SWP_HUMAN3_SHIP_spacegun_resolute SWP_HUMAN3_SHIP_spacegun_dignity SWP_HUMAN3_SHIP_spacegun_distinction SWP_HUMAN3_SHIP_spacegun_excellence SWP_HUMAN3_SHIP_spacegun_faithful SWP_HUMAN3_SHIP_spacegun_discipline SWP_HUMAN3_SHIP_spacegun_steadfast SWP_HUMAN3_SHIP_spacegun_recompense SWP_HUMAN3_SHIP_spacegun_requiem SWP_HUMAN3_SHIP_spacegun_courage SWP_HUMAN3_SHIP_spacegun_valor SWP_HUMAN3_SHIP_spacegun_gallant SWP_HUMAN3_SHIP_spacegun_daring SWP_HUMAN3_SHIP_spacegun_constancy SWP_HUMAN3_SHIP_spacegun_perseverence SWP_HUMAN3_SHIP_spacegun_tenacity SWP_HUMAN3_SHIP_spacegun_sedulity SWP_HUMAN3_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			SWP_HUMAN3_SHIP_citadel SWP_HUMAN3_SHIP_albacore SWP_HUMAN3_SHIP_gateway SWP_HUMAN3_SHIP_vincent SWP_HUMAN3_SHIP_babylon SWP_HUMAN3_SHIP_caernavon SWP_HUMAN3_SHIP_acre SWP_HUMAN3_SHIP_pembroke SWP_HUMAN3_SHIP_acheron SWP_HUMAN3_SHIP_spithead SWP_HUMAN3_SHIP_halifax SWP_HUMAN3_SHIP_victoria SWP_HUMAN3_SHIP_chatham SWP_HUMAN3_SHIP_anchorage SWP_HUMAN3_SHIP_scapa_flow SWP_HUMAN3_SHIP_hampton_roads SWP_HUMAN3_SHIP_brooklyn SWP_HUMAN3_SHIP_norfolk SWP_HUMAN3_SHIP_newport SWP_HUMAN3_SHIP_guam SWP_HUMAN3_SHIP_pensacola SWP_HUMAN3_SHIP_vesuvius SWP_HUMAN3_SHIP_mckinley SWP_HUMAN3_SHIP_everest SWP_HUMAN3_SHIP_kilimanjaro SWP_HUMAN3_SHIP_aconcagua SWP_HUMAN3_SHIP_elbrus SWP_HUMAN3_SHIP_st__helens SWP_HUMAN3_SHIP_fuji SWP_HUMAN3_SHIP_olympus SWP_HUMAN3_SHIP_sinai SWP_HUMAN3_SHIP_ambrose SWP_HUMAN3_SHIP_bermuda SWP_HUMAN3_SHIP_farpoint SWP_HUMAN3_SHIP_blue_star SWP_HUMAN3_SHIP_olympus_mons SWP_HUMAN3_SHIP_tharsis SWP_HUMAN3_SHIP_syrtis SWP_HUMAN3_SHIP_blackham SWP_HUMAN3_SHIP_fletcher SWP_HUMAN3_SHIP_perry SWP_HUMAN3_SHIP_butakov SWP_HUMAN3_SHIP_morris SWP_HUMAN3_SHIP_moorsom SWP_HUMAN3_SHIP_hart SWP_HUMAN3_SHIP_hargood SWP_HUMAN3_SHIP_spruance SWP_HUMAN3_SHIP_tanaka SWP_HUMAN3_SHIP_halsey SWP_HUMAN3_SHIP_turner SWP_HUMAN3_SHIP_doria SWP_HUMAN3_SHIP_tirpitz SWP_HUMAN3_SHIP_cunningham SWP_HUMAN3_SHIP_jellicoe SWP_HUMAN3_SHIP_hipper SWP_HUMAN3_SHIP_beatty SWP_HUMAN3_SHIP_potemkin SWP_HUMAN3_SHIP_durham SWP_HUMAN3_SHIP_codrington SWP_HUMAN3_SHIP_milne SWP_HUMAN3_SHIP_laforey SWP_HUMAN3_SHIP_tyler SWP_HUMAN3_SHIP_hawke SWP_HUMAN3_SHIP_yonai SWP_HUMAN3_SHIP_pound SWP_HUMAN3_SHIP_king SWP_HUMAN3_SHIP_crutchley SWP_HUMAN3_SHIP_mountbatten SWP_HUMAN3_SHIP_kountouriotis SWP_HUMAN3_SHIP_kuznetsov SWP_HUMAN3_SHIP_essen SWP_HUMAN3_SHIP_kornilov SWP_HUMAN3_SHIP_suffren SWP_HUMAN3_SHIP_treville SWP_HUMAN3_SHIP_villeneuve SWP_HUMAN3_SHIP_grasse SWP_HUMAN3_SHIP_byng SWP_HUMAN3_SHIP_lezo
+		}
+		ion_cannon = {
+			SWP_HUMAN3_SHIP_bombard SWP_HUMAN3_SHIP_ballista SWP_HUMAN3_SHIP_catapult SWP_HUMAN3_SHIP_harpoon SWP_HUMAN3_SHIP_polybolos SWP_HUMAN3_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			SWP_HUMAN3_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			SWP_HUMAN3_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			SWP_HUMAN3_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			SWP_HUMAN3_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			SWP_HUMAN3_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			SWP_HUMAN3_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			SWP_HUMAN3_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			SWP_HUMAN3_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			SWP_HUMAN3_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			SWP_HUMAN3_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			SWP_HUMAN3_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			SWP_HUMAN3_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			SWP_HUMAN3_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			SWP_HUMAN3_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			SWP_HUMAN3_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			SWP_HUMAN3_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = SWP_HUMAN3_FLEET_armada_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = SWP_HUMAN3_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = SWP_HUMAN3_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = SWP_HUMAN3_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = SWP_HUMAN3_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = SWP_HUMAN3_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = SWP_HUMAN3_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = SWP_HUMAN3_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = SWP_HUMAN3_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				SWP_HUMAN3_ARMY_sarc_a__gladiators_ SWP_HUMAN3_ARMY_sarc_b__widowmakers_ SWP_HUMAN3_ARMY_sarc_c__immortals_ SWP_HUMAN3_ARMY_sarc_d__berserkers_ SWP_HUMAN3_ARMY_sarc_e__assassins_ SWP_HUMAN3_ARMY_sarc_f__reapers_ SWP_HUMAN3_ARMY_sarc_g__nighthawks_ SWP_HUMAN3_ARMY_sarc_h__desperados_ SWP_HUMAN3_ARMY_sarc_i__grey_knights_ SWP_HUMAN3_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = SWP_HUMAN3_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = SWP_HUMAN3_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = SWP_HUMAN3_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = SWP_HUMAN3_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = SWP_HUMAN3_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = SWP_HUMAN3_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = SWP_HUMAN3_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = SWP_HUMAN3_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = SWP_HUMAN3_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = SWP_HUMAN3_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = SWP_HUMAN3_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = SWP_HUMAN3_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = SWP_HUMAN3_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = SWP_HUMAN3_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = SWP_HUMAN3_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = SWP_HUMAN3_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = SWP_HUMAN3_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = SWP_HUMAN3_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = SWP_HUMAN3_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = SWP_HUMAN3_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = SWP_HUMAN3_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = SWP_HUMAN3_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = SWP_HUMAN3_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+
+			first_names_male = {
+				SWP_HUMAN3_CHR_bail SWP_HUMAN3_CHR_ylenic SWP_HUMAN3_CHR_kel SWP_HUMAN3_CHR_gunn SWP_HUMAN3_CHR_gregory SWP_HUMAN3_CHR_abraxis SWP_HUMAN3_CHR_jonas SWP_HUMAN3_CHR_xerda SWP_HUMAN3_CHR_carth SWP_HUMAN3_CHR_kir SWP_HUMAN3_CHR_mebba SWP_HUMAN3_CHR_dagos SWP_HUMAN3_CHR_adam SWP_HUMAN3_CHR_kyle SWP_HUMAN3_CHR_forren SWP_HUMAN3_CHR_malcolm SWP_HUMAN3_CHR_jeho SWP_HUMAN3_CHR_lee SWP_HUMAN3_CHR_griggs SWP_HUMAN3_CHR_milo SWP_HUMAN3_CHR_aeron SWP_HUMAN3_CHR_byrec SWP_HUMAN3_CHR_strata SWP_HUMAN3_CHR_lancer SWP_HUMAN3_CHR_zeak SWP_HUMAN3_CHR_niuk SWP_HUMAN3_CHR_lavidean SWP_HUMAN3_CHR_tanizandar SWP_HUMAN3_CHR_japla SWP_HUMAN3_CHR_aran SWP_HUMAN3_CHR_rail SWP_HUMAN3_CHR_zeven SWP_HUMAN3_CHR_yakown SWP_HUMAN3_CHR_sibar SWP_HUMAN3_CHR_sair SWP_HUMAN3_CHR_klai SWP_HUMAN3_CHR_jonas SWP_HUMAN3_CHR_imay SWP_HUMAN3_CHR_traest SWP_HUMAN3_CHR_simo SWP_HUMAN3_CHR_carth SWP_HUMAN3_CHR_riyan SWP_HUMAN3_CHR_magnus SWP_HUMAN3_CHR_boceta SWP_HUMAN3_CHR_agnook SWP_HUMAN3_CHR_silus SWP_HUMAN3_CHR_rowan SWP_HUMAN3_CHR_coren SWP_HUMAN3_CHR_jett SWP_HUMAN3_CHR_linth SWP_HUMAN3_CHR_annor SWP_HUMAN3_CHR_ulas SWP_HUMAN3_CHR_fenn SWP_HUMAN3_CHR_tal SWP_HUMAN3_CHR_plo SWP_HUMAN3_CHR_torin SWP_HUMAN3_CHR_imay SWP_HUMAN3_CHR_boone SWP_HUMAN3_CHR_davith SWP_HUMAN3_CHR_jorgen SWP_HUMAN3_CHR_bertos SWP_HUMAN3_CHR_ress SWP_HUMAN3_CHR_malius SWP_HUMAN3_CHR_kale SWP_HUMAN3_CHR_cregan SWP_HUMAN3_CHR_galen SWP_HUMAN3_CHR_zekk SWP_HUMAN3_CHR_jinn_tu SWP_HUMAN3_CHR_jaryn SWP_HUMAN3_CHR_gentti SWP_HUMAN3_CHR_yu_sien SWP_HUMAN3_CHR_akela SWP_HUMAN3_CHR_arslan SWP_HUMAN3_CHR_sidias SWP_HUMAN3_CHR_haken SWP_HUMAN3_CHR_biran SWP_HUMAN3_CHR_vidown SWP_HUMAN3_CHR_ares SWP_HUMAN3_CHR_ithan SWP_HUMAN3_CHR_cul_utaan SWP_HUMAN3_CHR_thoja SWP_HUMAN3_CHR_cron SWP_HUMAN3_CHR_mossi SWP_HUMAN3_CHR_abric SWP_HUMAN3_CHR_darg SWP_HUMAN3_CHR_gaman SWP_HUMAN3_CHR_naiad SWP_HUMAN3_CHR_herub SWP_HUMAN3_CHR_marius SWP_HUMAN3_CHR_torkin SWP_HUMAN3_CHR_caton SWP_HUMAN3_CHR_kane SWP_HUMAN3_CHR_versita SWP_HUMAN3_CHR_cric SWP_HUMAN3_CHR_foxdi SWP_HUMAN3_CHR_montacca SWP_HUMAN3_CHR_jospi SWP_HUMAN3_CHR_baz SWP_HUMAN3_CHR_kam SWP_HUMAN3_CHR_erek SWP_HUMAN3_CHR_arslan SWP_HUMAN3_CHR_lerak SWP_HUMAN3_CHR_morla SWP_HUMAN3_CHR_baxter SWP_HUMAN3_CHR_talan SWP_HUMAN3_CHR_thion SWP_HUMAN3_CHR_kannon SWP_HUMAN3_CHR_corsair SWP_HUMAN3_CHR_caster SWP_HUMAN3_CHR_elden SWP_HUMAN3_CHR_faelgrom SWP_HUMAN3_CHR_jack SWP_HUMAN3_CHR_raltharan SWP_HUMAN3_CHR_flash SWP_HUMAN3_CHR_waseem SWP_HUMAN3_CHR_bendak SWP_HUMAN3_CHR_kaz SWP_HUMAN3_CHR_montileu SWP_HUMAN3_CHR_gonoga SWP_HUMAN3_CHR_silus SWP_HUMAN3_CHR_galven SWP_HUMAN3_CHR_vincenzo SWP_HUMAN3_CHR_ric SWP_HUMAN3_CHR_rebar SWP_HUMAN3_CHR_jebediah SWP_HUMAN3_CHR_aramil SWP_HUMAN3_CHR_abraxis SWP_HUMAN3_CHR_delmi SWP_HUMAN3_CHR_caalin SWP_HUMAN3_CHR_rassth SWP_HUMAN3_CHR_adorn SWP_HUMAN3_CHR_cyrus SWP_HUMAN3_CHR_zhar_khan SWP_HUMAN3_CHR_adam SWP_HUMAN3_CHR_predor SWP_HUMAN3_CHR_tarlson SWP_HUMAN3_CHR_boaz SWP_HUMAN3_CHR_bradley SWP_HUMAN3_CHR_gunn SWP_HUMAN3_CHR_raltharan SWP_HUMAN3_CHR_zerrid SWP_HUMAN3_CHR_bobecc SWP_HUMAN3_CHR_jelantos SWP_HUMAN3_CHR_jephego SWP_HUMAN3_CHR_svante SWP_HUMAN3_CHR_tesvalo SWP_HUMAN3_CHR_aeon SWP_HUMAN3_CHR_dekar SWP_HUMAN3_CHR_jean_francois SWP_HUMAN3_CHR_elen SWP_HUMAN3_CHR_han SWP_HUMAN3_CHR_owen SWP_HUMAN3_CHR_biggs SWP_HUMAN3_CHR_rune SWP_HUMAN3_CHR_lott SWP_HUMAN3_CHR_daultay SWP_HUMAN3_CHR_lok SWP_HUMAN3_CHR_mar SWP_HUMAN3_CHR_gilramos SWP_HUMAN3_CHR_siv SWP_HUMAN3_CHR_zill SWP_HUMAN3_CHR_hath SWP_HUMAN3_CHR_aruteous SWP_HUMAN3_CHR_jull SWP_HUMAN3_CHR_sil SWP_HUMAN3_CHR_hallion SWP_HUMAN3_CHR_gap SWP_HUMAN3_CHR_palfa SWP_HUMAN3_CHR_sib SWP_HUMAN3_CHR_aito SWP_HUMAN3_CHR_sentepeth SWP_HUMAN3_CHR_kund SWP_HUMAN3_CHR_harro SWP_HUMAN3_CHR_hask SWP_HUMAN3_CHR_paw SWP_HUMAN3_CHR_brehg SWP_HUMAN3_CHR_reya SWP_HUMAN3_CHR_gode SWP_HUMAN3_CHR_nap SWP_HUMAN3_CHR_lufa SWP_HUMAN3_CHR_yee SWP_HUMAN3_CHR_geph SWP_HUMAN3_CHR_lik SWP_HUMAN3_CHR_gunaray SWP_HUMAN3_CHR_igren SWP_HUMAN3_CHR_dif SWP_HUMAN3_CHR_klewer SWP_HUMAN3_CHR_kuto SWP_HUMAN3_CHR_smeer SWP_HUMAN3_CHR_helb SWP_HUMAN3_CHR_toat SWP_HUMAN3_CHR_teek SWP_HUMAN3_CHR_jeek SWP_HUMAN3_CHR_orrin SWP_HUMAN3_CHR_veor SWP_HUMAN3_CHR_dak_on SWP_HUMAN3_CHR_nozabuiba SWP_HUMAN3_CHR_gama SWP_HUMAN3_CHR_budmle SWP_HUMAN3_CHR_proh_ven SWP_HUMAN3_CHR_salitt SWP_HUMAN3_CHR_vigro SWP_HUMAN3_CHR_rers SWP_HUMAN3_CHR_desson SWP_HUMAN3_CHR_cathan SWP_HUMAN3_CHR_dru SWP_HUMAN3_CHR_tunjas SWP_HUMAN3_CHR_borlo SWP_HUMAN3_CHR_krett SWP_HUMAN3_CHR_ablund SWP_HUMAN3_CHR_aach SWP_HUMAN3_CHR_aagon SWP_HUMAN3_CHR_aalto SWP_HUMAN3_CHR_aambler SWP_HUMAN3_CHR_abadaner SWP_HUMAN3_CHR_aban SWP_HUMAN3_CHR_abbus_kelo SWP_HUMAN3_CHR_acan SWP_HUMAN3_CHR_ace SWP_HUMAN3_CHR_adame SWP_HUMAN3_CHR_adar SWP_HUMAN3_CHR_arvel SWP_HUMAN3_CHR_addi_shon SWP_HUMAN3_CHR_addle SWP_HUMAN3_CHR_adelhard SWP_HUMAN3_CHR_aden SWP_HUMAN3_CHR_adon_larr SWP_HUMAN3_CHR_adraas SWP_HUMAN3_CHR_adrenas SWP_HUMAN3_CHR_adrick SWP_HUMAN3_CHR_adun SWP_HUMAN3_CHR_aeron SWP_HUMAN3_CHR_agareth SWP_HUMAN3_CHR_aggadeen SWP_HUMAN3_CHR_alric SWP_HUMAN3_CHR_airten SWP_HUMAN3_CHR_agrippa SWP_HUMAN3_CHR_ajaan SWP_HUMAN3_CHR_ajolin SWP_HUMAN3_CHR_akaste_vel SWP_HUMAN3_CHR_akobi SWP_HUMAN3_CHR_alain SWP_HUMAN3_CHR_alaric SWP_HUMAN3_CHR_albathius SWP_HUMAN3_CHR_alde SWP_HUMAN3_CHR_alec SWP_HUMAN3_CHR_alekam SWP_HUMAN3_CHR_alethios SWP_HUMAN3_CHR_alger SWP_HUMAN3_CHR_algrunar SWP_HUMAN3_CHR_ali_alann SWP_HUMAN3_CHR_alif SWP_HUMAN3_CHR_alim_gen SWP_HUMAN3_CHR_alin SWP_HUMAN3_CHR_alix SWP_HUMAN3_CHR_alkhara SWP_HUMAN3_CHR_allia SWP_HUMAN3_CHR_almak SWP_HUMAN3_CHR_almec SWP_HUMAN3_CHR_alon SWP_HUMAN3_CHR_alozen SWP_HUMAN3_CHR_alph SWP_HUMAN3_CHR_altaca SWP_HUMAN3_CHR_althon SWP_HUMAN3_CHR_alwynn SWP_HUMAN3_CHR_amberson SWP_HUMAN3_CHR_ament SWP_HUMAN3_CHR_amis SWP_HUMAN3_CHR_ammon SWP_HUMAN3_CHR_amzartho SWP_HUMAN3_CHR_anabar SWP_HUMAN3_CHR_anager SWP_HUMAN3_CHR_anarine SWP_HUMAN3_CHR_anathemos SWP_HUMAN3_CHR_andan SWP_HUMAN3_CHR_anders SWP_HUMAN3_CHR_ando SWP_HUMAN3_CHR_andra SWP_HUMAN3_CHR_andrew SWP_HUMAN3_CHR_andrid SWP_HUMAN3_CHR_andrik SWP_HUMAN3_CHR_andru SWP_HUMAN3_CHR_ar_al SWP_HUMAN3_CHR_angber SWP_HUMAN3_CHR_angral SWP_HUMAN3_CHR_anlen SWP_HUMAN3_CHR_anod SWP_HUMAN3_CHR_anselm SWP_HUMAN3_CHR_anskow SWP_HUMAN3_CHR_anson SWP_HUMAN3_CHR_adem SWP_HUMAN3_CHR_antone SWP_HUMAN3_CHR_antonin SWP_HUMAN3_CHR_anuli SWP_HUMAN3_CHR_appleton SWP_HUMAN3_CHR_arac SWP_HUMAN3_CHR_arakkus SWP_HUMAN3_CHR_aramis SWP_HUMAN3_CHR_arana SWP_HUMAN3_CHR_armen SWP_HUMAN3_CHR_arastide SWP_HUMAN3_CHR_arber SWP_HUMAN3_CHR_arcann SWP_HUMAN3_CHR_ardan SWP_HUMAN3_CHR_ardax SWP_HUMAN3_CHR_ardiff SWP_HUMAN3_CHR_ardle SWP_HUMAN3_CHR_ardmore SWP_HUMAN3_CHR_ardot SWP_HUMAN3_CHR_ardran SWP_HUMAN3_CHR_avinoam SWP_HUMAN3_CHR_ars SWP_HUMAN3_CHR_argona SWP_HUMAN3_CHR_argor SWP_HUMAN3_CHR_argos SWP_HUMAN3_CHR_arias SWP_HUMAN3_CHR_ariavos SWP_HUMAN3_CHR_arigo SWP_HUMAN3_CHR_aris SWP_HUMAN3_CHR_arkan SWP_HUMAN3_CHR_arkeld SWP_HUMAN3_CHR_arl SWP_HUMAN3_CHR_arljack SWP_HUMAN3_CHR_arlo SWP_HUMAN3_CHR_arlos SWP_HUMAN3_CHR_armatan SWP_HUMAN3_CHR_armitage SWP_HUMAN3_CHR_arnama SWP_HUMAN3_CHR_arnet SWP_HUMAN3_CHR_arno SWP_HUMAN3_CHR_arnothian SWP_HUMAN3_CHR_arnth SWP_HUMAN3_CHR_arnus SWP_HUMAN3_CHR_arrad SWP_HUMAN3_CHR_arratan SWP_HUMAN3_CHR_arrax SWP_HUMAN3_CHR_arric SWP_HUMAN3_CHR_artano SWP_HUMAN3_CHR_artok SWP_HUMAN3_CHR_arturo SWP_HUMAN3_CHR_arzanon SWP_HUMAN3_CHR_ash SWP_HUMAN3_CHR_ashaad SWP_HUMAN3_CHR_asirr SWP_HUMAN3_CHR_atali SWP_HUMAN3_CHR_atar SWP_HUMAN3_CHR_atmino SWP_HUMAN3_CHR_atren SWP_HUMAN3_CHR_augatta SWP_HUMAN3_CHR_avan SWP_HUMAN3_CHR_avanj SWP_HUMAN3_CHR_avarik SWP_HUMAN3_CHR_averdon SWP_HUMAN3_CHR_averen SWP_HUMAN3_CHR_averon SWP_HUMAN3_CHR_avers SWP_HUMAN3_CHR_aves SWP_HUMAN3_CHR_aviso SWP_HUMAN3_CHR_avrun SWP_HUMAN3_CHR_azkul SWP_HUMAN3_CHR_azrakel SWP_HUMAN3_CHR_ace SWP_HUMAN3_CHR_b_arin SWP_HUMAN3_CHR_bail SWP_HUMAN3_CHR_beel SWP_HUMAN3_CHR_bix SWP_HUMAN3_CHR_blix SWP_HUMAN3_CHR_boz SWP_HUMAN3_CHR_braedon SWP_HUMAN3_CHR_bryn SWP_HUMAN3_CHR_brixus SWP_HUMAN3_CHR_cal SWP_HUMAN3_CHR_cassian SWP_HUMAN3_CHR_chik SWP_HUMAN3_CHR_cinto SWP_HUMAN3_CHR_cumberlayne SWP_HUMAN3_CHR_darrus SWP_HUMAN3_CHR_djinn SWP_HUMAN3_CHR_druth SWP_HUMAN3_CHR_det SWP_HUMAN3_CHR_ethan SWP_HUMAN3_CHR_galiir SWP_HUMAN3_CHR_gez SWP_HUMAN3_CHR_haemon SWP_HUMAN3_CHR_jae SWP_HUMAN3_CHR_jagged SWP_HUMAN3_CHR_jess SWP_HUMAN3_CHR_jesper SWP_HUMAN3_CHR_jon SWP_HUMAN3_CHR_gathal SWP_HUMAN3_CHR_gideon SWP_HUMAN3_CHR_jefand SWP_HUMAN3_CHR_kel SWP_HUMAN3_CHR_koffi SWP_HUMAN3_CHR_lazlo SWP_HUMAN3_CHR_laetin SWP_HUMAN3_CHR_lesk SWP_HUMAN3_CHR_maxiron SWP_HUMAN3_CHR_neet SWP_HUMAN3_CHR_osak SWP_HUMAN3_CHR_pabel SWP_HUMAN3_CHR_paddy SWP_HUMAN3_CHR_peita SWP_HUMAN3_CHR_peema SWP_HUMAN3_CHR_pellas SWP_HUMAN3_CHR_prewb SWP_HUMAN3_CHR_raymus SWP_HUMAN3_CHR_raar SWP_HUMAN3_CHR_rage SWP_HUMAN3_CHR_rel SWP_HUMAN3_CHR_reez SWP_HUMAN3_CHR_ras SWP_HUMAN3_CHR_rixes SWP_HUMAN3_CHR_ruceba SWP_HUMAN3_CHR_seraph SWP_HUMAN3_CHR_sim SWP_HUMAN3_CHR_sio SWP_HUMAN3_CHR_y_ull SWP_HUMAN3_CHR_tavion SWP_HUMAN3_CHR_tavid SWP_HUMAN3_CHR_tendis SWP_HUMAN3_CHR_tev SWP_HUMAN3_CHR_tiberus SWP_HUMAN3_CHR_toob SWP_HUMAN3_CHR_tor SWP_HUMAN3_CHR_turon SWP_HUMAN3_CHR_villis SWP_HUMAN3_CHR_wain SWP_HUMAN3_CHR_wedge SWP_HUMAN3_CHR_wes SWP_HUMAN3_CHR_zeen SWP_HUMAN3_CHR_baboo SWP_HUMAN3_CHR_bachenkall SWP_HUMAN3_CHR_bafor SWP_HUMAN3_CHR_bagitt SWP_HUMAN3_CHR_bailey SWP_HUMAN3_CHR_bailie SWP_HUMAN3_CHR_bairn SWP_HUMAN3_CHR_bala_tik SWP_HUMAN3_CHR_balankin SWP_HUMAN3_CHR_balaro SWP_HUMAN3_CHR_balcomb SWP_HUMAN3_CHR_baldwin SWP_HUMAN3_CHR_baldy SWP_HUMAN3_CHR_balek SWP_HUMAN3_CHR_balisk SWP_HUMAN3_CHR_balkin SWP_HUMAN3_CHR_balko SWP_HUMAN3_CHR_ballala SWP_HUMAN3_CHR_ballard SWP_HUMAN3_CHR_ballax SWP_HUMAN3_CHR_bendodi SWP_HUMAN3_CHR_balog SWP_HUMAN3_CHR_balto SWP_HUMAN3_CHR_bams SWP_HUMAN3_CHR_bandor SWP_HUMAN3_CHR_boss SWP_HUMAN3_CHR_banley SWP_HUMAN3_CHR_banna SWP_HUMAN3_CHR_bannos SWP_HUMAN3_CHR_bant SWP_HUMAN3_CHR_banz SWP_HUMAN3_CHR_baradis SWP_HUMAN3_CHR_barak SWP_HUMAN3_CHR_baramak SWP_HUMAN3_CHR_barcel SWP_HUMAN3_CHR_bardo SWP_HUMAN3_CHR_barduun SWP_HUMAN3_CHR_barev SWP_HUMAN3_CHR_barich SWP_HUMAN3_CHR_barik SWP_HUMAN3_CHR_barkale SWP_HUMAN3_CHR_barksy SWP_HUMAN3_CHR_barleos SWP_HUMAN3_CHR_barlow SWP_HUMAN3_CHR_barney SWP_HUMAN3_CHR_barnley SWP_HUMAN3_CHR_baro SWP_HUMAN3_CHR_barry SWP_HUMAN3_CHR_barstead SWP_HUMAN3_CHR_bartam SWP_HUMAN3_CHR_barth SWP_HUMAN3_CHR_barthis SWP_HUMAN3_CHR_bas SWP_HUMAN3_CHR_bas_ton SWP_HUMAN3_CHR_bascome SWP_HUMAN3_CHR_basile SWP_HUMAN3_CHR_basso SWP_HUMAN3_CHR_bastian SWP_HUMAN3_CHR_bathens SWP_HUMAN3_CHR_batono SWP_HUMAN3_CHR_bator SWP_HUMAN3_CHR_billal SWP_HUMAN3_CHR_battz SWP_HUMAN3_CHR_baxton SWP_HUMAN3_CHR_baysden SWP_HUMAN3_CHR_baz SWP_HUMAN3_CHR_be SWP_HUMAN3_CHR_beau SWP_HUMAN3_CHR_beckar SWP_HUMAN3_CHR_becker SWP_HUMAN3_CHR_beckman SWP_HUMAN3_CHR_bedareux SWP_HUMAN3_CHR_bedoch SWP_HUMAN3_CHR_beebe SWP_HUMAN3_CHR_beez SWP_HUMAN3_CHR_beldiss SWP_HUMAN3_CHR_belkan SWP_HUMAN3_CHR_beller SWP_HUMAN3_CHR_bellis SWP_HUMAN3_CHR_belos SWP_HUMAN3_CHR_byzal SWP_HUMAN3_CHR_bzorn SWP_HUMAN3_CHR_biggs SWP_HUMAN3_CHR_bels SWP_HUMAN3_CHR_bemos SWP_HUMAN3_CHR_benay SWP_HUMAN3_CHR_benjo SWP_HUMAN3_CHR_benkin SWP_HUMAN3_CHR_benn SWP_HUMAN3_CHR_benni SWP_HUMAN3_CHR_benok SWP_HUMAN3_CHR_benthar SWP_HUMAN3_CHR_benton SWP_HUMAN3_CHR_bentro SWP_HUMAN3_CHR_boar SWP_HUMAN3_CHR_benx SWP_HUMAN3_CHR_bequesh SWP_HUMAN3_CHR_berandis SWP_HUMAN3_CHR_berethon SWP_HUMAN3_CHR_bergan SWP_HUMAN3_CHR_berix SWP_HUMAN3_CHR_bernie SWP_HUMAN3_CHR_bertrum SWP_HUMAN3_CHR_berusal SWP_HUMAN3_CHR_bewil SWP_HUMAN3_CHR_bex SWP_HUMAN3_CHR_billan SWP_HUMAN3_CHR_biril SWP_HUMAN3_CHR_birket SWP_HUMAN3_CHR_birok SWP_HUMAN3_CHR_black SWP_HUMAN3_CHR_blagotine SWP_HUMAN3_CHR_blaide SWP_HUMAN3_CHR_blainekie SWP_HUMAN3_CHR_bledsoe SWP_HUMAN3_CHR_bleeker SWP_HUMAN3_CHR_blleen SWP_HUMAN3_CHR_bloodory SWP_HUMAN3_CHR_bloodworthy SWP_HUMAN3_CHR_blount SWP_HUMAN3_CHR_blyes SWP_HUMAN3_CHR_boakie SWP_HUMAN3_CHR_boaz SWP_HUMAN3_CHR_bob SWP_HUMAN3_CHR_bol SWP_HUMAN3_CHR_bon SWP_HUMAN3_CHR_bonze SWP_HUMAN3_CHR_boonan SWP_HUMAN3_CHR_boran SWP_HUMAN3_CHR_boraso SWP_HUMAN3_CHR_borgin SWP_HUMAN3_CHR_borm SWP_HUMAN3_CHR_bornae SWP_HUMAN3_CHR_bort SWP_HUMAN3_CHR_bortrek SWP_HUMAN3_CHR_boshek SWP_HUMAN3_CHR_bourom SWP_HUMAN3_CHR_bouyard SWP_HUMAN3_CHR_braden SWP_HUMAN3_CHR_brady SWP_HUMAN3_CHR_bragan SWP_HUMAN3_CHR_braynor SWP_HUMAN3_CHR_brayso SWP_HUMAN3_CHR_breckon SWP_HUMAN3_CHR_breehld SWP_HUMAN3_CHR_brinn SWP_HUMAN3_CHR_brinnie SWP_HUMAN3_CHR_brint SWP_HUMAN3_CHR_brinton SWP_HUMAN3_CHR_brogon SWP_HUMAN3_CHR_brohmer SWP_HUMAN3_CHR_brolis SWP_HUMAN3_CHR_broll SWP_HUMAN3_CHR_brom SWP_HUMAN3_CHR_brooser SWP_HUMAN3_CHR_brothic SWP_HUMAN3_CHR_brovto SWP_HUMAN3_CHR_broysc SWP_HUMAN3_CHR_bruan SWP_HUMAN3_CHR_brucce SWP_HUMAN3_CHR_bruckman SWP_HUMAN3_CHR_bryint SWP_HUMAN3_CHR_brylin SWP_HUMAN3_CHR_bry SWP_HUMAN3_CHR_brysonbular SWP_HUMAN3_CHR_bulger SWP_HUMAN3_CHR_bun_delbur SWP_HUMAN3_CHR_burne SWP_HUMAN3_CHR_burque SWP_HUMAN3_CHR_burr SWP_HUMAN3_CHR_bursk SWP_HUMAN3_CHR_bursthed SWP_HUMAN3_CHR_byrga SWP_HUMAN3_CHR_byten SWP_HUMAN3_CHR_trey SWP_HUMAN3_CHR_lando SWP_HUMAN3_CHR_caaldra SWP_HUMAN3_CHR_cabaril SWP_HUMAN3_CHR_cabbel SWP_HUMAN3_CHR_caeleb SWP_HUMAN3_CHR_caerbellak SWP_HUMAN3_CHR_cafian SWP_HUMAN3_CHR_cag SWP_HUMAN3_CHR_cagaran SWP_HUMAN3_CHR_cam SWP_HUMAN3_CHR_camaran SWP_HUMAN3_CHR_camas SWP_HUMAN3_CHR_cardacs SWP_HUMAN3_CHR_cardy SWP_HUMAN3_CHR_careem SWP_HUMAN3_CHR_cargeloch SWP_HUMAN3_CHR_carhart SWP_HUMAN3_CHR_calron SWP_HUMAN3_CHR_calson SWP_HUMAN3_CHR_calum SWP_HUMAN3_CHR_calypho SWP_HUMAN3_CHR_cal SWP_HUMAN3_CHR_caladane SWP_HUMAN3_CHR_calaverous SWP_HUMAN3_CHR_carli SWP_HUMAN3_CHR_carlon SWP_HUMAN3_CHR_carlton SWP_HUMAN3_CHR_carn SWP_HUMAN3_CHR_carner SWP_HUMAN3_CHR_carness SWP_HUMAN3_CHR_carnor SWP_HUMAN3_CHR_carns SWP_HUMAN3_CHR_callef SWP_HUMAN3_CHR_callen SWP_HUMAN3_CHR_callow SWP_HUMAN3_CHR_calders SWP_HUMAN3_CHR_caleb SWP_HUMAN3_CHR_calo SWP_HUMAN3_CHR_calphayus SWP_HUMAN3_CHR_cathers SWP_HUMAN3_CHR_caton SWP_HUMAN3_CHR_cauley SWP_HUMAN3_CHR_cav SWP_HUMAN3_CHR_cav_saran SWP_HUMAN3_CHR_cavin SWP_HUMAN3_CHR_cryle SWP_HUMAN3_CHR_cavwol SWP_HUMAN3_CHR_cawelyn SWP_HUMAN3_CHR_cecius SWP_HUMAN3_CHR_cede SWP_HUMAN3_CHR_cemma SWP_HUMAN3_CHR_ceoloe SWP_HUMAN3_CHR_cerasi SWP_HUMAN3_CHR_cerik SWP_HUMAN3_CHR_charny SWP_HUMAN3_CHR_charol SWP_HUMAN3_CHR_charpp SWP_HUMAN3_CHR_charnoq SWP_HUMAN3_CHR_charnso SWP_HUMAN3_CHR_cestus SWP_HUMAN3_CHR_ch_arb SWP_HUMAN3_CHR_ch_gally SWP_HUMAN3_CHR_ch_lessan SWP_HUMAN3_CHR_cha SWP_HUMAN3_CHR_chael SWP_HUMAN3_CHR_challer SWP_HUMAN3_CHR_chambe SWP_HUMAN3_CHR_crlyn SWP_HUMAN3_CHR_chang SWP_HUMAN3_CHR_chappral SWP_HUMAN3_CHR_chef SWP_HUMAN3_CHR_chentu SWP_HUMAN3_CHR_chell SWP_HUMAN3_CHR_chessiq SWP_HUMAN3_CHR_chet SWP_HUMAN3_CHR_chiann SWP_HUMAN3_CHR_chicora SWP_HUMAN3_CHR_chatty SWP_HUMAN3_CHR_chayloss SWP_HUMAN3_CHR_chedaki SWP_HUMAN3_CHR_chiraneau SWP_HUMAN3_CHR_chiron SWP_HUMAN3_CHR_chorlen SWP_HUMAN3_CHR_chornarov SWP_HUMAN3_CHR_cody SWP_HUMAN3_CHR_clorr SWP_HUMAN3_CHR_clovis SWP_HUMAN3_CHR_clydno SWP_HUMAN3_CHR_clynn SWP_HUMAN3_CHR_cnorec SWP_HUMAN3_CHR_coburn SWP_HUMAN3_CHR_cobus SWP_HUMAN3_CHR_cogon SWP_HUMAN3_CHR_colin SWP_HUMAN3_CHR_collus SWP_HUMAN3_CHR_colsan SWP_HUMAN3_CHR_colten SWP_HUMAN3_CHR_colton SWP_HUMAN3_CHR_combo SWP_HUMAN3_CHR_conar SWP_HUMAN3_CHR_coorta SWP_HUMAN3_CHR_corin SWP_HUMAN3_CHR_coris SWP_HUMAN3_CHR_corlac SWP_HUMAN3_CHR_corso SWP_HUMAN3_CHR_corvan SWP_HUMAN3_CHR_corvin SWP_HUMAN3_CHR_corvis SWP_HUMAN3_CHR_corwin SWP_HUMAN3_CHR_corwyth SWP_HUMAN3_CHR_cote SWP_HUMAN3_CHR_cothron SWP_HUMAN3_CHR_cotin SWP_HUMAN3_CHR_coy SWP_HUMAN3_CHR_cravel SWP_HUMAN3_CHR_cravus SWP_HUMAN3_CHR_creb SWP_HUMAN3_CHR_creeve SWP_HUMAN3_CHR_corlis SWP_HUMAN3_CHR_crest SWP_HUMAN3_CHR_crimpler SWP_HUMAN3_CHR_crimson SWP_HUMAN3_CHR_crin SWP_HUMAN3_CHR_crion SWP_HUMAN3_CHR_criss SWP_HUMAN3_CHR_cristoff SWP_HUMAN3_CHR_crix SWP_HUMAN3_CHR_cronal SWP_HUMAN3_CHR_cronnin SWP_HUMAN3_CHR_cronus SWP_HUMAN3_CHR_d_ashewl SWP_HUMAN3_CHR_d_krn SWP_HUMAN3_CHR_d_lew SWP_HUMAN3_CHR_d_vox SWP_HUMAN3_CHR_d_vrosh SWP_HUMAN3_CHR_daal SWP_HUMAN3_CHR_dado SWP_HUMAN3_CHR_daek SWP_HUMAN3_CHR_dael SWP_HUMAN3_CHR_dahar SWP_HUMAN3_CHR_dahm SWP_HUMAN3_CHR_daiman SWP_HUMAN3_CHR_dainsom SWP_HUMAN3_CHR_daiv SWP_HUMAN3_CHR_dak SWP_HUMAN3_CHR_dakron SWP_HUMAN3_CHR_daksh SWP_HUMAN3_CHR_dalton SWP_HUMAN3_CHR_damarcus SWP_HUMAN3_CHR_damaris SWP_HUMAN3_CHR_damarus SWP_HUMAN3_CHR_dao SWP_HUMAN3_CHR_dapp SWP_HUMAN3_CHR_daquinn SWP_HUMAN3_CHR_dar SWP_HUMAN3_CHR_eesh SWP_HUMAN3_CHR_darda SWP_HUMAN3_CHR_dardan SWP_HUMAN3_CHR_dareb_ SWP_HUMAN3_CHR_dareg SWP_HUMAN3_CHR_darek SWP_HUMAN3_CHR_daren SWP_HUMAN3_CHR_dargus SWP_HUMAN3_CHR_daggath SWP_HUMAN3_CHR_darnov SWP_HUMAN3_CHR_daro SWP_HUMAN3_CHR_darok SWP_HUMAN3_CHR_darone SWP_HUMAN3_CHR_darr SWP_HUMAN3_CHR_darrik SWP_HUMAN3_CHR_darrok SWP_HUMAN3_CHR_darrst SWP_HUMAN3_CHR_darsin SWP_HUMAN3_CHR_darthyn SWP_HUMAN3_CHR_daruula SWP_HUMAN3_CHR_dash SWP_HUMAN3_CHR_datoo SWP_HUMAN3_CHR_dauren SWP_HUMAN3_CHR_davis SWP_HUMAN3_CHR_davon SWP_HUMAN3_CHR_davonn SWP_HUMAN3_CHR_davos SWP_HUMAN3_CHR_davrill SWP_HUMAN3_CHR_davrin SWP_HUMAN3_CHR_davu SWP_HUMAN3_CHR_dayja SWP_HUMAN3_CHR_daz SWP_HUMAN3_CHR_ramsis SWP_HUMAN3_CHR_bren SWP_HUMAN3_CHR_tan SWP_HUMAN3_CHR_jan SWP_HUMAN3_CHR_porro SWP_HUMAN3_CHR_cin SWP_HUMAN3_CHR_garven SWP_HUMAN3_CHR_cornelius SWP_HUMAN3_CHR_galen SWP_HUMAN3_CHR_dannl SWP_HUMAN3_CHR_ecclessis SWP_HUMAN3_CHR_debbikin SWP_HUMAN3_CHR_debeli SWP_HUMAN3_CHR_deegan SWP_HUMAN3_CHR_deerian SWP_HUMAN3_CHR_deevis SWP_HUMAN3_CHR_defain SWP_HUMAN3_CHR_deflaros SWP_HUMAN3_CHR_degoren SWP_HUMAN3_CHR_dehno SWP_HUMAN3_CHR_dekay SWP_HUMAN3_CHR_delevar SWP_HUMAN3_CHR_delfaros SWP_HUMAN3_CHR_dellin SWP_HUMAN3_CHR_dellocon SWP_HUMAN3_CHR_delpho SWP_HUMAN3_CHR_delquis SWP_HUMAN3_CHR_delsa SWP_HUMAN3_CHR_delund SWP_HUMAN3_CHR_delurin SWP_HUMAN3_CHR_demtri SWP_HUMAN3_CHR_den SWP_HUMAN3_CHR_denbar SWP_HUMAN3_CHR_dender SWP_HUMAN3_CHR_dendro SWP_HUMAN3_CHR_dendu SWP_HUMAN3_CHR_denetrus SWP_HUMAN3_CHR_denev SWP_HUMAN3_CHR_dengar SWP_HUMAN3_CHR_dengril SWP_HUMAN3_CHR_denid SWP_HUMAN3_CHR_denimoor SWP_HUMAN3_CHR_denin SWP_HUMAN3_CHR_denna SWP_HUMAN3_CHR_denner SWP_HUMAN3_CHR_dennik SWP_HUMAN3_CHR_deppo SWP_HUMAN3_CHR_derdram SWP_HUMAN3_CHR_derec SWP_HUMAN3_CHR_derish SWP_HUMAN3_CHR_derliff SWP_HUMAN3_CHR_dermeg SWP_HUMAN3_CHR_dermian SWP_HUMAN3_CHR_dern SWP_HUMAN3_CHR_dernas SWP_HUMAN3_CHR_derral SWP_HUMAN3_CHR_derrin SWP_HUMAN3_CHR_dervis SWP_HUMAN3_CHR_desanne SWP_HUMAN3_CHR_devoris SWP_HUMAN3_CHR_devotek SWP_HUMAN3_CHR_devron SWP_HUMAN3_CHR_devry SWP_HUMAN3_CHR_devsh SWP_HUMAN3_CHR_dewolf SWP_HUMAN3_CHR_dex SWP_HUMAN3_CHR_dezsetes SWP_HUMAN3_CHR_dhaiv SWP_HUMAN3_CHR_dhal SWP_HUMAN3_CHR_dindau SWP_HUMAN3_CHR_dindo SWP_HUMAN3_CHR_ding SWP_HUMAN3_CHR_dinge SWP_HUMAN3_CHR_dobbatek SWP_HUMAN3_CHR_dobberty SWP_HUMAN3_CHR_dobbs SWP_HUMAN3_CHR_dolan SWP_HUMAN3_CHR_dolgis SWP_HUMAN3_CHR_dolmen SWP_HUMAN3_CHR_dolo SWP_HUMAN3_CHR_dominaire SWP_HUMAN3_CHR_domm SWP_HUMAN3_CHR_donovan SWP_HUMAN3_CHR_donovarr SWP_HUMAN3_CHR_donsull SWP_HUMAN3_CHR_dorel_kan SWP_HUMAN3_CHR_dorgat SWP_HUMAN3_CHR_dorian SWP_HUMAN3_CHR_dorja SWP_HUMAN3_CHR_dorn SWP_HUMAN3_CHR_dorotsech SWP_HUMAN3_CHR_dorrick SWP_HUMAN3_CHR_dortho SWP_HUMAN3_CHR_downey SWP_HUMAN3_CHR_draado SWP_HUMAN3_CHR_draahg SWP_HUMAN3_CHR_dracen SWP_HUMAN3_CHR_drage SWP_HUMAN3_CHR_dragen SWP_HUMAN3_CHR_drake SWP_HUMAN3_CHR_drayk SWP_HUMAN3_CHR_drazin SWP_HUMAN3_CHR_drek SWP_HUMAN3_CHR_duno SWP_HUMAN3_CHR_dree SWP_HUMAN3_CHR_dreed SWP_HUMAN3_CHR_drefin SWP_HUMAN3_CHR_dregg SWP_HUMAN3_CHR_drelosyn SWP_HUMAN3_CHR_drexel SWP_HUMAN3_CHR_dreyf SWP_HUMAN3_CHR_drezzel SWP_HUMAN3_CHR_drizan SWP_HUMAN3_CHR_dro SWP_HUMAN3_CHR_droman SWP_HUMAN3_CHR_dromath SWP_HUMAN3_CHR_drowl SWP_HUMAN3_CHR_drufeys SWP_HUMAN3_CHR_drummond SWP_HUMAN3_CHR_dubeh SWP_HUMAN3_CHR_dunari SWP_HUMAN3_CHR_dunaub SWP_HUMAN3_CHR_deadeye SWP_HUMAN3_CHR_duncan SWP_HUMAN3_CHR_durhant SWP_HUMAN3_CHR_durmat SWP_HUMAN3_CHR_durpin SWP_HUMAN3_CHR_durrei SWP_HUMAN3_CHR_dyshotto SWP_HUMAN3_CHR_dzoun SWP_HUMAN3_CHR_eagle SWP_HUMAN3_CHR_eanjer SWP_HUMAN3_CHR_earl SWP_HUMAN3_CHR_earsh SWP_HUMAN3_CHR_eben SWP_HUMAN3_CHR_eddon SWP_HUMAN3_CHR_edease SWP_HUMAN3_CHR_edern SWP_HUMAN3_CHR_edgar SWP_HUMAN3_CHR_edikar SWP_HUMAN3_CHR_egoreg SWP_HUMAN3_CHR_egron SWP_HUMAN3_CHR_eistern SWP_HUMAN3_CHR_ejai SWP_HUMAN3_CHR_eker SWP_HUMAN3_CHR_ekh SWP_HUMAN3_CHR_ekisp SWP_HUMAN3_CHR_ekov SWP_HUMAN3_CHR_elarles SWP_HUMAN3_CHR_eriquel SWP_HUMAN3_CHR_eris SWP_HUMAN3_CHR_erl SWP_HUMAN3_CHR_erloi SWP_HUMAN3_CHR_esano SWP_HUMAN3_CHR_escalion SWP_HUMAN3_CHR_ezil SWP_HUMAN3_CHR_ezrim SWP_HUMAN3_CHR_ezra SWP_HUMAN3_CHR_ein SWP_HUMAN3_CHR_eislo SWP_HUMAN3_CHR_jake SWP_HUMAN3_CHR_jango SWP_HUMAN3_CHR_eli SWP_HUMAN3_CHR_eliasb SWP_HUMAN3_CHR_eligyn SWP_HUMAN3_CHR_elior SWP_HUMAN3_CHR_elis SWP_HUMAN3_CHR_elizhis SWP_HUMAN3_CHR_elkin SWP_HUMAN3_CHR_ellsworth SWP_HUMAN3_CHR_elmel SWP_HUMAN3_CHR_elmyo SWP_HUMAN3_CHR_elrodelsar SWP_HUMAN3_CHR_elsek SWP_HUMAN3_CHR_emil SWP_HUMAN3_CHR_emir SWP_HUMAN3_CHR_emmens SWP_HUMAN3_CHR_endicott SWP_HUMAN3_CHR_enfield SWP_HUMAN3_CHR_enger SWP_HUMAN3_CHR_engret SWP_HUMAN3_CHR_emmett SWP_HUMAN3_CHR_emory SWP_HUMAN3_CHR_eoaq SWP_HUMAN3_CHR_eph SWP_HUMAN3_CHR_erdan SWP_HUMAN3_CHR_erelut SWP_HUMAN3_CHR_ergast SWP_HUMAN3_CHR_ergel SWP_HUMAN3_CHR_ergeron SWP_HUMAN3_CHR_eric SWP_HUMAN3_CHR_erik SWP_HUMAN3_CHR_estopatrin SWP_HUMAN3_CHR_esture SWP_HUMAN3_CHR_estus SWP_HUMAN3_CHR_eth SWP_HUMAN3_CHR_ethen SWP_HUMAN3_CHR_etnam SWP_HUMAN3_CHR_etta SWP_HUMAN3_CHR_evad SWP_HUMAN3_CHR_evan SWP_HUMAN3_CHR_evax SWP_HUMAN3_CHR_evlen SWP_HUMAN3_CHR_evran SWP_HUMAN3_CHR_evun SWP_HUMAN3_CHR_evvin SWP_HUMAN3_CHR_ewane SWP_HUMAN3_CHR_exar SWP_HUMAN3_CHR_eyvind SWP_HUMAN3_CHR_falltower SWP_HUMAN3_CHR_falrey SWP_HUMAN3_CHR_falsta SWP_HUMAN3_CHR_falch SWP_HUMAN3_CHR_falco SWP_HUMAN3_CHR_faarl SWP_HUMAN3_CHR_fable SWP_HUMAN3_CHR_faedral SWP_HUMAN3_CHR_far SWP_HUMAN3_CHR_faradin SWP_HUMAN3_CHR_faraire SWP_HUMAN3_CHR_fardi SWP_HUMAN3_CHR_farn SWP_HUMAN3_CHR_farng SWP_HUMAN3_CHR_farnis SWP_HUMAN3_CHR_farsal SWP_HUMAN3_CHR_farseam SWP_HUMAN3_CHR_fatulaine SWP_HUMAN3_CHR_fauler SWP_HUMAN3_CHR_feldon SWP_HUMAN3_CHR_feldron SWP_HUMAN3_CHR_feleea SWP_HUMAN3_CHR_fenn SWP_HUMAN3_CHR_fenris SWP_HUMAN3_CHR_fenson SWP_HUMAN3_CHR_feras SWP_HUMAN3_CHR_ferav SWP_HUMAN3_CHR_ferdoin SWP_HUMAN3_CHR_fermin SWP_HUMAN3_CHR_ferob SWP_HUMAN3_CHR_ferren SWP_HUMAN3_CHR_ferrid SWP_HUMAN3_CHR_ferrig SWP_HUMAN3_CHR_ferrin SWP_HUMAN3_CHR_ferron SWP_HUMAN3_CHR_ferrus SWP_HUMAN3_CHR_falesh SWP_HUMAN3_CHR_falk SWP_HUMAN3_CHR_fardi SWP_HUMAN3_CHR_fassio SWP_HUMAN3_CHR_fatulaine SWP_HUMAN3_CHR_dannl SWP_HUMAN3_CHR_februs SWP_HUMAN3_CHR_janus SWP_HUMAN3_CHR_fixer SWP_HUMAN3_CHR_florn SWP_HUMAN3_CHR_grizz SWP_HUMAN3_CHR_frobb SWP_HUMAN3_CHR_fruun
+			}
+			first_names_female = {
+				SWP_HUMAN3_CHR_charratha SWP_HUMAN3_CHR_edaara SWP_HUMAN3_CHR_bella SWP_HUMAN3_CHR_callista SWP_HUMAN3_CHR_mara SWP_HUMAN3_CHR_seena SWP_HUMAN3_CHR_areta SWP_HUMAN3_CHR_cord SWP_HUMAN3_CHR_cyrinity SWP_HUMAN3_CHR_nile SWP_HUMAN3_CHR_kiyfi SWP_HUMAN3_CHR_yasmyn SWP_HUMAN3_CHR_satra SWP_HUMAN3_CHR_shehish SWP_HUMAN3_CHR_sarna SWP_HUMAN3_CHR_krava SWP_HUMAN3_CHR_roxis SWP_HUMAN3_CHR_jessa SWP_HUMAN3_CHR_aqua SWP_HUMAN3_CHR_maryna SWP_HUMAN3_CHR_essaj SWP_HUMAN3_CHR_looriw SWP_HUMAN3_CHR_teeana SWP_HUMAN3_CHR_raena SWP_HUMAN3_CHR_yula SWP_HUMAN3_CHR_vifi SWP_HUMAN3_CHR_vania SWP_HUMAN3_CHR_jeanida SWP_HUMAN3_CHR_aerena SWP_HUMAN3_CHR_nataya SWP_HUMAN3_CHR_bernarda SWP_HUMAN3_CHR_geela SWP_HUMAN3_CHR_lya SWP_HUMAN3_CHR_sirra SWP_HUMAN3_CHR_teris SWP_HUMAN3_CHR_terral SWP_HUMAN3_CHR_nile SWP_HUMAN3_CHR_riema SWP_HUMAN3_CHR_erri SWP_HUMAN3_CHR_shanna SWP_HUMAN3_CHR_lyra SWP_HUMAN3_CHR_pranda SWP_HUMAN3_CHR_luna SWP_HUMAN3_CHR_cally SWP_HUMAN3_CHR_viqi SWP_HUMAN3_CHR_hadriel SWP_HUMAN3_CHR_lora SWP_HUMAN3_CHR_selena SWP_HUMAN3_CHR_zana SWP_HUMAN3_CHR_tuija SWP_HUMAN3_CHR_railin SWP_HUMAN3_CHR_odona SWP_HUMAN3_CHR_shyon SWP_HUMAN3_CHR_walas SWP_HUMAN3_CHR_rylla SWP_HUMAN3_CHR_gara SWP_HUMAN3_CHR_delos SWP_HUMAN3_CHR_loretta SWP_HUMAN3_CHR_luhon SWP_HUMAN3_CHR_delinia SWP_HUMAN3_CHR_aama SWP_HUMAN3_CHR_shorya SWP_HUMAN3_CHR_melfina SWP_HUMAN3_CHR_davessi SWP_HUMAN3_CHR_larana SWP_HUMAN3_CHR_galatea SWP_HUMAN3_CHR_nola SWP_HUMAN3_CHR_syna SWP_HUMAN3_CHR_jauhzmynn SWP_HUMAN3_CHR_anen SWP_HUMAN3_CHR_orona SWP_HUMAN3_CHR_yana SWP_HUMAN3_CHR_zoras SWP_HUMAN3_CHR_ree SWP_HUMAN3_CHR_grace SWP_HUMAN3_CHR_tantema SWP_HUMAN3_CHR_myn SWP_HUMAN3_CHR_una SWP_HUMAN3_CHR_dalharil SWP_HUMAN3_CHR_losa SWP_HUMAN3_CHR_sovi SWP_HUMAN3_CHR_elaiza SWP_HUMAN3_CHR_vucora SWP_HUMAN3_CHR_ava SWP_HUMAN3_CHR_joi SWP_HUMAN3_CHR_stryka SWP_HUMAN3_CHR_tantema SWP_HUMAN3_CHR_shandra SWP_HUMAN3_CHR_kely SWP_HUMAN3_CHR_caileta SWP_HUMAN3_CHR_taia SWP_HUMAN3_CHR_siala SWP_HUMAN3_CHR_reki SWP_HUMAN3_CHR_maydla SWP_HUMAN3_CHR_bot SWP_HUMAN3_CHR_kiandra SWP_HUMAN3_CHR_xilaren SWP_HUMAN3_CHR_zulara SWP_HUMAN3_CHR_ren SWP_HUMAN3_CHR_karissa SWP_HUMAN3_CHR_roxis SWP_HUMAN3_CHR_haruko SWP_HUMAN3_CHR_jenna SWP_HUMAN3_CHR_liana SWP_HUMAN3_CHR_rale SWP_HUMAN3_CHR_megara SWP_HUMAN3_CHR_aria SWP_HUMAN3_CHR_akiva SWP_HUMAN3_CHR_nalah SWP_HUMAN3_CHR_erlem SWP_HUMAN3_CHR_nali SWP_HUMAN3_CHR_fallah SWP_HUMAN3_CHR_kotrana SWP_HUMAN3_CHR_aayla SWP_HUMAN3_CHR_kalira SWP_HUMAN3_CHR_arani SWP_HUMAN3_CHR_fama SWP_HUMAN3_CHR_lyyr SWP_HUMAN3_CHR_arcas SWP_HUMAN3_CHR_rane SWP_HUMAN3_CHR_nayru SWP_HUMAN3_CHR_zylas SWP_HUMAN3_CHR_vexa SWP_HUMAN3_CHR_kana SWP_HUMAN3_CHR_beru
+			}
+			second_names = {
+				SWP_HUMAN3_CHR_elysar SWP_HUMAN3_CHR_tisa SWP_HUMAN3_CHR_wahia SWP_HUMAN3_CHR_wezz SWP_HUMAN3_CHR_unic SWP_HUMAN3_CHR_tiovata SWP_HUMAN3_CHR_nakcohh SWP_HUMAN3_CHR_vitaan SWP_HUMAN3_CHR_mefrid SWP_HUMAN3_CHR_daklan SWP_HUMAN3_CHR_kenzee SWP_HUMAN3_CHR_joben SWP_HUMAN3_CHR_thegas SWP_HUMAN3_CHR_moryne SWP_HUMAN3_CHR_holgor SWP_HUMAN3_CHR_ijaaz SWP_HUMAN3_CHR_tromans SWP_HUMAN3_CHR_sprax SWP_HUMAN3_CHR_knesos SWP_HUMAN3_CHR_magnus SWP_HUMAN3_CHR_lasek SWP_HUMAN3_CHR_artis SWP_HUMAN3_CHR_pax SWP_HUMAN3_CHR_corso SWP_HUMAN3_CHR_fallon SWP_HUMAN3_CHR_gundo SWP_HUMAN3_CHR_ruana SWP_HUMAN3_CHR_fremlin SWP_HUMAN3_CHR_thont SWP_HUMAN3_CHR_creel SWP_HUMAN3_CHR_rar SWP_HUMAN3_CHR_dusat SWP_HUMAN3_CHR_kessler SWP_HUMAN3_CHR_shaia SWP_HUMAN3_CHR_el_theriam SWP_HUMAN3_CHR_vanmeer SWP_HUMAN3_CHR_vrieska SWP_HUMAN3_CHR_calway SWP_HUMAN3_CHR_yamaguchi SWP_HUMAN3_CHR_riggers SWP_HUMAN3_CHR_brower SWP_HUMAN3_CHR_fash SWP_HUMAN3_CHR_nalto SWP_HUMAN3_CHR_stryder SWP_HUMAN3_CHR_dubreas SWP_HUMAN3_CHR_colsan SWP_HUMAN3_CHR_terrek SWP_HUMAN3_CHR_solon SWP_HUMAN3_CHR_merquise SWP_HUMAN3_CHR_varn SWP_HUMAN3_CHR_basai SWP_HUMAN3_CHR_froud SWP_HUMAN3_CHR_addacess SWP_HUMAN3_CHR_elysar SWP_HUMAN3_CHR_durgen SWP_HUMAN3_CHR_slahlvo SWP_HUMAN3_CHR_remex SWP_HUMAN3_CHR_madowki SWP_HUMAN3_CHR_hayes SWP_HUMAN3_CHR_ne SWP_HUMAN3_CHR_dago SWP_HUMAN3_CHR_greenback SWP_HUMAN3_CHR_stithta SWP_HUMAN3_CHR_ker SWP_HUMAN3_CHR_driet SWP_HUMAN3_CHR_klakk SWP_HUMAN3_CHR_reed SWP_HUMAN3_CHR_lefex SWP_HUMAN3_CHR_minn SWP_HUMAN3_CHR_irokini SWP_HUMAN3_CHR_roye SWP_HUMAN3_CHR_danakar SWP_HUMAN3_CHR_forin SWP_HUMAN3_CHR_glopio SWP_HUMAN3_CHR_shenuri SWP_HUMAN3_CHR_corcer SWP_HUMAN3_CHR_ordo SWP_HUMAN3_CHR_wan SWP_HUMAN3_CHR_tagratt SWP_HUMAN3_CHR_golladio SWP_HUMAN3_CHR_adramcsia SWP_HUMAN3_CHR_jetberg SWP_HUMAN3_CHR_noth SWP_HUMAN3_CHR_taske SWP_HUMAN3_CHR_komo SWP_HUMAN3_CHR_styles SWP_HUMAN3_CHR_angavel SWP_HUMAN3_CHR_tyrnith SWP_HUMAN3_CHR_yavoog SWP_HUMAN3_CHR_kelbier SWP_HUMAN3_CHR_racto SWP_HUMAN3_CHR_degor SWP_HUMAN3_CHR_tisa SWP_HUMAN3_CHR_magre SWP_HUMAN3_CHR_soylon SWP_HUMAN3_CHR_lerann SWP_HUMAN3_CHR_chro SWP_HUMAN3_CHR_finn SWP_HUMAN3_CHR_blackmoor SWP_HUMAN3_CHR_hwang SWP_HUMAN3_CHR_vekarr SWP_HUMAN3_CHR_thegas SWP_HUMAN3_CHR_amon SWP_HUMAN3_CHR_thiddex SWP_HUMAN3_CHR_durgen SWP_HUMAN3_CHR_selkayim SWP_HUMAN3_CHR_gilder SWP_HUMAN3_CHR_dhuramav SWP_HUMAN3_CHR_kodd SWP_HUMAN3_CHR_morin SWP_HUMAN3_CHR_kobylarz SWP_HUMAN3_CHR_tade SWP_HUMAN3_CHR_solman SWP_HUMAN3_CHR_bintaghr SWP_HUMAN3_CHR_marclonus SWP_HUMAN3_CHR_precore SWP_HUMAN3_CHR_solborne SWP_HUMAN3_CHR_bailer SWP_HUMAN3_CHR_katarn SWP_HUMAN3_CHR_anjek SWP_HUMAN3_CHR_dalgas SWP_HUMAN3_CHR_kast SWP_HUMAN3_CHR_airerith SWP_HUMAN3_CHR_halo SWP_HUMAN3_CHR_tade SWP_HUMAN3_CHR_clash SWP_HUMAN3_CHR_jalba SWP_HUMAN3_CHR_benn SWP_HUMAN3_CHR_haruhana SWP_HUMAN3_CHR_roice SWP_HUMAN3_CHR_lokar SWP_HUMAN3_CHR_korpil SWP_HUMAN3_CHR_turon SWP_HUMAN3_CHR_cavi SWP_HUMAN3_CHR_deece SWP_HUMAN3_CHR_braitano SWP_HUMAN3_CHR_garnik SWP_HUMAN3_CHR_tyandas SWP_HUMAN3_CHR_ka_taramas SWP_HUMAN3_CHR_nuwest SWP_HUMAN3_CHR_forte SWP_HUMAN3_CHR_noshey SWP_HUMAN3_CHR_gyyll SWP_HUMAN3_CHR_tallon SWP_HUMAN3_CHR_lionne SWP_HUMAN3_CHR_adras SWP_HUMAN3_CHR_fremlin SWP_HUMAN3_CHR_peoly SWP_HUMAN3_CHR_damiel SWP_HUMAN3_CHR_chup_pau SWP_HUMAN3_CHR_drayven SWP_HUMAN3_CHR_zaposug SWP_HUMAN3_CHR_bela_trepada SWP_HUMAN3_CHR_defelice SWP_HUMAN3_CHR_monsula SWP_HUMAN3_CHR_baralein SWP_HUMAN3_CHR_denive SWP_HUMAN3_CHR_hodrren SWP_HUMAN3_CHR_xergo SWP_HUMAN3_CHR_sarat SWP_HUMAN3_CHR_vercet SWP_HUMAN3_CHR_ossaki SWP_HUMAN3_CHR_kappa SWP_HUMAN3_CHR_zerga SWP_HUMAN3_CHR_kopos SWP_HUMAN3_CHR_aldrecht SWP_HUMAN3_CHR_bohme SWP_HUMAN3_CHR_tull SWP_HUMAN3_CHR_eldrel SWP_HUMAN3_CHR_marh SWP_HUMAN3_CHR_darksword SWP_HUMAN3_CHR_krandor SWP_HUMAN3_CHR_montag SWP_HUMAN3_CHR_dimodan SWP_HUMAN3_CHR_starfallen SWP_HUMAN3_CHR_artis SWP_HUMAN3_CHR_fett SWP_HUMAN3_CHR_mohebbi SWP_HUMAN3_CHR_runalian SWP_HUMAN3_CHR_binette SWP_HUMAN3_CHR_laurent SWP_HUMAN3_CHR_mavr SWP_HUMAN3_CHR_ryra SWP_HUMAN3_CHR_truden SWP_HUMAN3_CHR_solo SWP_HUMAN3_CHR_lars SWP_HUMAN3_CHR_amedda SWP_HUMAN3_CHR_amidala SWP_HUMAN3_CHR_andrell SWP_HUMAN3_CHR_annon SWP_HUMAN3_CHR_antilles SWP_HUMAN3_CHR_atanna SWP_HUMAN3_CHR_baab SWP_HUMAN3_CHR_barc SWP_HUMAN3_CHR_bonteri SWP_HUMAN3_CHR_breemu SWP_HUMAN3_CHR_bremack SWP_HUMAN3_CHR_bronk SWP_HUMAN3_CHR_burtoni SWP_HUMAN3_CHR_cadaman SWP_HUMAN3_CHR_callen SWP_HUMAN3_CHR_clovis SWP_HUMAN3_CHR_ledwellow SWP_HUMAN3_CHR_dio SWP_HUMAN3_CHR_organa
+			}
+			regnal_first_names_male = {
+				SWP_HUMAN3_CHR_kam SWP_HUMAN3_CHR_erek SWP_HUMAN3_CHR_arslan SWP_HUMAN3_CHR_lerak SWP_HUMAN3_CHR_morla SWP_HUMAN3_CHR_mas SWP_HUMAN3_CHR_wain SWP_HUMAN3_CHR_bail SWP_HUMAN3_CHR_gabrial SWP_HUMAN3_CHR_dewell SWP_HUMAN3_CHR_tanner SWP_HUMAN3_CHR_vi SWP_HUMAN3_CHR_rush SWP_HUMAN3_CHR_danry
+			}
+			regnal_first_names_female = {
+				SWP_HUMAN3_CHR_callista SWP_HUMAN3_CHR_mara SWP_HUMAN3_CHR_seena SWP_HUMAN3_CHR_areta SWP_HUMAN3_CHR_padm_ SWP_HUMAN3_CHR_fema SWP_HUMAN3_CHR_mina SWP_HUMAN3_CHR_bana SWP_HUMAN3_CHR_tyreca SWP_HUMAN3_CHR_halle SWP_HUMAN3_CHR_lexi SWP_HUMAN3_CHR_leia SWP_HUMAN3_CHR_alyssa SWP_HUMAN3_CHR_leanna SWP_HUMAN3_CHR_arya
+			}
+			regnal_second_names = {
+				SWP_HUMAN3_CHR_amedda SWP_HUMAN3_CHR_amidala SWP_HUMAN3_CHR_andrell SWP_HUMAN3_CHR_annon SWP_HUMAN3_CHR_antilles SWP_HUMAN3_CHR_atanna SWP_HUMAN3_CHR_baab SWP_HUMAN3_CHR_barc SWP_HUMAN3_CHR_bonteri SWP_HUMAN3_CHR_breemu SWP_HUMAN3_CHR_bremack SWP_HUMAN3_CHR_bronk SWP_HUMAN3_CHR_burtoni SWP_HUMAN3_CHR_cadaman SWP_HUMAN3_CHR_callen SWP_HUMAN3_CHR_clovis SWP_HUMAN3_CHR_ledwellow SWP_HUMAN3_CHR_dio SWP_HUMAN3_CHR_panteer SWP_HUMAN3_CHR_alde SWP_HUMAN3_CHR_organa SWP_HUMAN3_CHR_frayus SWP_HUMAN3_CHR_cortess SWP_HUMAN3_CHR_killesa
+			}
+		}
+	}
+}

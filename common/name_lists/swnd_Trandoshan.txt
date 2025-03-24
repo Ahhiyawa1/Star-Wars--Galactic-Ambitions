@@ -1,0 +1,847 @@
+﻿Trandoshan = {
+	randomized = no
+	ship_names = {
+		generic = {
+			TRANDOSHAN_SHIP_making_a_killing TRANDOSHAN_SHIP_smokeswimmer TRANDOSHAN_SHIP_red_eclipse TRANDOSHAN_SHIP_halo TRANDOSHAN_SHIP_dangerous_game TRANDOSHAN_SHIP_basic_instinct TRANDOSHAN_SHIP_animal_cunning TRANDOSHAN_SHIP_predator TRANDOSHAN_SHIP_apex TRANDOSHAN_SHIP_chaser TRANDOSHAN_SHIP_stalker TRANDOSHAN_SHIP_falconer TRANDOSHAN_SHIP_skinner TRANDOSHAN_SHIP_cold_blooded TRANDOSHAN_SHIP_bold_blood TRANDOSHAN_SHIP_old_blood TRANDOSHAN_SHIP_young_blood TRANDOSHAN_SHIP_huntzard TRANDOSHAN_SHIP_pursuer TRANDOSHAN_SHIP_sportzard TRANDOSHAN_SHIP_trapper TRANDOSHAN_SHIP_ferreter TRANDOSHAN_SHIP_pursuant TRANDOSHAN_SHIP_courser TRANDOSHAN_SHIP_wookhound TRANDOSHAN_SHIP_hound_s_tooth TRANDOSHAN_SHIP_gun_hound TRANDOSHAN_SHIP_hounder TRANDOSHAN_SHIP_stalking_hound TRANDOSHAN_SHIP_carnivore TRANDOSHAN_SHIP_beast_of_prey TRANDOSHAN_SHIP_meat_eater TRANDOSHAN_SHIP_wook_eater TRANDOSHAN_SHIP_cannibal TRANDOSHAN_SHIP_carnivorous TRANDOSHAN_SHIP_flesh_eater TRANDOSHAN_SHIP_hunger TRANDOSHAN_SHIP_omnivore TRANDOSHAN_SHIP_rapacious TRANDOSHAN_SHIP_the_undying TRANDOSHAN_SHIP_grave_of_kephess TRANDOSHAN_SHIP_empty_grave TRANDOSHAN_SHIP_scorebreaker TRANDOSHAN_SHIP_high_score TRANDOSHAN_SHIP_low_cunning TRANDOSHAN_SHIP_unsporting TRANDOSHAN_SHIP_spoilsport TRANDOSHAN_SHIP_spoiler TRANDOSHAN_SHIP_beater TRANDOSHAN_SHIP_body_corporate TRANDOSHAN_SHIP_breaker TRANDOSHAN_SHIP_abayment TRANDOSHAN_SHIP_cubber TRANDOSHAN_SHIP_clubber TRANDOSHAN_SHIP_blackfeather TRANDOSHAN_SHIP_blackscale TRANDOSHAN_SHIP_bloodscar TRANDOSHAN_SHIP_gone_to_ground TRANDOSHAN_SHIP_heeler TRANDOSHAN_SHIP_overrun TRANDOSHAN_SHIP_point_rider TRANDOSHAN_SHIP_riot TRANDOSHAN_SHIP_rut TRANDOSHAN_SHIP_trench_feeder TRANDOSHAN_SHIP_big_game TRANDOSHAN_SHIP_trophy_taker TRANDOSHAN_SHIP_mandible TRANDOSHAN_SHIP_coagulator TRANDOSHAN_SHIP_bleeder TRANDOSHAN_SHIP_easy_kill TRANDOSHAN_SHIP_tough_shot TRANDOSHAN_SHIP_jagannath_s_watch TRANDOSHAN_SHIP_herald_of_jagannath TRANDOSHAN_SHIP_avatar TRANDOSHAN_SHIP_blood_score TRANDOSHAN_SHIP_settled_score TRANDOSHAN_SHIP_mock_hunt TRANDOSHAN_SHIP_t_doshok_crusade TRANDOSHAN_SHIP_crimson_nest TRANDOSHAN_SHIP_cruel_intention TRANDOSHAN_SHIP_dangerous_liason TRANDOSHAN_SHIP_forked_tongue TRANDOSHAN_SHIP_white_claw TRANDOSHAN_SHIP_diamond_back TRANDOSHAN_SHIP_scalebound TRANDOSHAN_SHIP_wild_thing TRANDOSHAN_SHIP_fatal_attraction TRANDOSHAN_SHIP_body_heat TRANDOSHAN_SHIP_illicit_desire TRANDOSHAN_SHIP_hate_story TRANDOSHAN_SHIP_body_of_influence TRANDOSHAN_SHIP_object_of_obsession TRANDOSHAN_SHIP_indecent_behavior TRANDOSHAN_SHIP_deadlock TRANDOSHAN_SHIP_berserker TRANDOSHAN_SHIP_goddess_of_the_hunt TRANDOSHAN_SHIP_innocent TRANDOSHAN_SHIP_pleasure_or_pain TRANDOSHAN_SHIP_kiss_of_the_beast TRANDOSHAN_SHIP_fatal_charm TRANDOSHAN_SHIP_fatal_bond TRANDOSHAN_SHIP_silver_tongue TRANDOSHAN_SHIP_fatal_past TRANDOSHAN_SHIP_gross_misconduct TRANDOSHAN_SHIP_verdant_letter TRANDOSHAN_SHIP_wicked_mind TRANDOSHAN_SHIP_powerplay TRANDOSHAN_SHIP_privacy_invasion TRANDOSHAN_SHIP_mutual_hunt TRANDOSHAN_SHIP_glass_cage TRANDOSHAN_SHIP_mind_game TRANDOSHAN_SHIP_payback TRANDOSHAN_SHIP_playmaker TRANDOSHAN_SHIP_rainmaker TRANDOSHAN_SHIP_dangerous_touch TRANDOSHAN_SHIP_nightmare_visage TRANDOSHAN_SHIP_cold_sweat TRANDOSHAN_SHIP_light_sleeper TRANDOSHAN_SHIP_stepper TRANDOSHAN_SHIP_bitter_moon TRANDOSHAN_SHIP_fatal_exposure TRANDOSHAN_SHIP_wild_hunt TRANDOSHAN_SHIP_hatched_king TRANDOSHAN_SHIP_nightmare TRANDOSHAN_SHIP_deforester TRANDOSHAN_SHIP_jungler TRANDOSHAN_SHIP_incisor TRANDOSHAN_SHIP_clapperclaw TRANDOSHAN_SHIP_retractile TRANDOSHAN_SHIP_ungula TRANDOSHAN_SHIP_sable_spur TRANDOSHAN_SHIP_scent_of_war TRANDOSHAN_SHIP_fear_scent TRANDOSHAN_SHIP_serrator TRANDOSHAN_SHIP_abductor TRANDOSHAN_SHIP_quadrator TRANDOSHAN_SHIP_komodus TRANDOSHAN_SHIP_draco TRANDOSHAN_SHIP_reflexive_blood TRANDOSHAN_SHIP_chameleon TRANDOSHAN_SHIP_diapsid TRANDOSHAN_SHIP_varanid TRANDOSHAN_SHIP_basilisk TRANDOSHAN_SHIP_third_eye TRANDOSHAN_SHIP_serpent TRANDOSHAN_SHIP_ultraviolent_spectrum TRANDOSHAN_SHIP_tokay TRANDOSHAN_SHIP_ambusher TRANDOSHAN_SHIP_disruptor TRANDOSHAN_SHIP_horncrest TRANDOSHAN_SHIP_skink TRANDOSHAN_SHIP_saurien TRANDOSHAN_SHIP_tassotasso TRANDOSHAN_SHIP_sacrificial_arm TRANDOSHAN_SHIP_fighting_chance TRANDOSHAN_SHIP_memento TRANDOSHAN_SHIP_scalper TRANDOSHAN_SHIP_glasser TRANDOSHAN_SHIP_ragged_spread TRANDOSHAN_SHIP_raghorn TRANDOSHAN_SHIP_poacher TRANDOSHAN_SHIP_highball TRANDOSHAN_SHIP_backtrail TRANDOSHAN_SHIP_break_point TRANDOSHAN_SHIP_inside_spread TRANDOSHAN_SHIP_iron_sight TRANDOSHAN_SHIP_jump_hound TRANDOSHAN_SHIP_baiter TRANDOSHAN_SHIP_coffin_blind TRANDOSHAN_SHIP_locator TRANDOSHAN_SHIP_pecking_order TRANDOSHAN_SHIP_dewclaw TRANDOSHAN_SHIP_trophy_hunter TRANDOSHAN_SHIP_outfitter TRANDOSHAN_SHIP_varmind TRANDOSHAN_SHIP_palmation TRANDOSHAN_SHIP_exotic TRANDOSHAN_SHIP_wrangler TRANDOSHAN_SHIP_powder_horn TRANDOSHAN_SHIP_good_blood TRANDOSHAN_SHIP_trepanner TRANDOSHAN_SHIP_huntress TRANDOSHAN_SHIP_tropic_queen TRANDOSHAN_SHIP_chieftan_s_due TRANDOSHAN_SHIP_memory_of_hsskhor TRANDOSHAN_SHIP_life_credit TRANDOSHAN_SHIP_bloodletter TRANDOSHAN_SHIP_clutch_mother TRANDOSHAN_SHIP_clutch_brother TRANDOSHAN_SHIP_leaf_of_nakkis TRANDOSHAN_SHIP_nussik TRANDOSHAN_SHIP_shko_yagu TRANDOSHAN_SHIP_scale_of_honor TRANDOSHAN_SHIP_scalesister TRANDOSHAN_SHIP_ashkrik TRANDOSHAN_SHIP_byager
+		}
+		swp_bellator = {
+			TRANDOSHAN_SHIP_red_eclipse TRANDOSHAN_SHIP_carnivore TRANDOSHAN_SHIP_cruel_intention TRANDOSHAN_SHIP_wild_thing TRANDOSHAN_SHIP_basilisk TRANDOSHAN_SHIP_scalper
+		}
+		science = {
+			TRANDOSHAN_SHIP_crescent TRANDOSHAN_SHIP_expedition TRANDOSHAN_SHIP_zephyr TRANDOSHAN_SHIP_enigma TRANDOSHAN_SHIP_explorer TRANDOSHAN_SHIP_pathfinder TRANDOSHAN_SHIP_windfinder TRANDOSHAN_SHIP_lizard_of_vision TRANDOSHAN_SHIP_scent_hound TRANDOSHAN_SHIP_astute TRANDOSHAN_SHIP_alacrity TRANDOSHAN_SHIP_dogged TRANDOSHAN_SHIP_finder TRANDOSHAN_SHIP_greenscale TRANDOSHAN_SHIP_coldspur TRANDOSHAN_SHIP_tracker TRANDOSHAN_SHIP_night_traveller TRANDOSHAN_SHIP_scoremaker TRANDOSHAN_SHIP_trailblazer TRANDOSHAN_SHIP_even_score TRANDOSHAN_SHIP_scorefinder TRANDOSHAN_SHIP_sojourner TRANDOSHAN_SHIP_gamefinder TRANDOSHAN_SHIP_gamesman TRANDOSHAN_SHIP_sight_of_splendor TRANDOSHAN_SHIP_doshan_quest TRANDOSHAN_SHIP_wayfarer TRANDOSHAN_SHIP_outrunner TRANDOSHAN_SHIP_lucumba
+		}
+		colonizer = {
+			TRANDOSHAN_SHIP_exploiter TRANDOSHAN_SHIP_prophecy TRANDOSHAN_SHIP_destiny_of_dosha TRANDOSHAN_SHIP_virtuous_score TRANDOSHAN_SHIP_settled_score TRANDOSHAN_SHIP_hatchling TRANDOSHAN_SHIP_dawn_nest TRANDOSHAN_SHIP_pioneer_spirit TRANDOSHAN_SHIP_trailking TRANDOSHAN_SHIP_summit TRANDOSHAN_SHIP_pinnacle TRANDOSHAN_SHIP_seeder TRANDOSHAN_SHIP_harvest TRANDOSHAN_SHIP_demeter TRANDOSHAN_SHIP_isis TRANDOSHAN_SHIP_ceres TRANDOSHAN_SHIP_exodus TRANDOSHAN_SHIP_foundation TRANDOSHAN_SHIP_scion TRANDOSHAN_SHIP_progeny TRANDOSHAN_SHIP_obligation TRANDOSHAN_SHIP_purpose TRANDOSHAN_SHIP_provider TRANDOSHAN_SHIP_shining_city TRANDOSHAN_SHIP_acquirer TRANDOSHAN_SHIP_cultivator TRANDOSHAN_SHIP_quarry
+		}
+		sponsored_colonizer = {
+			TRANDOSHAN_SHIP_exploiter TRANDOSHAN_SHIP_prophecy TRANDOSHAN_SHIP_destiny_of_dosha TRANDOSHAN_SHIP_virtuous_score TRANDOSHAN_SHIP_settled_score TRANDOSHAN_SHIP_hatchling TRANDOSHAN_SHIP_dawn_nest TRANDOSHAN_SHIP_pioneer_spirit TRANDOSHAN_SHIP_trailking TRANDOSHAN_SHIP_summit TRANDOSHAN_SHIP_pinnacle TRANDOSHAN_SHIP_seeder TRANDOSHAN_SHIP_harvest TRANDOSHAN_SHIP_demeter TRANDOSHAN_SHIP_isis TRANDOSHAN_SHIP_ceres TRANDOSHAN_SHIP_exodus TRANDOSHAN_SHIP_foundation TRANDOSHAN_SHIP_scion TRANDOSHAN_SHIP_progeny TRANDOSHAN_SHIP_obligation TRANDOSHAN_SHIP_purpose TRANDOSHAN_SHIP_provider TRANDOSHAN_SHIP_shining_city TRANDOSHAN_SHIP_acquirer TRANDOSHAN_SHIP_cultivator TRANDOSHAN_SHIP_quarry
+		}
+		constructor = {
+			TRANDOSHAN_SHIP_skinner TRANDOSHAN_SHIP_scalper TRANDOSHAN_SHIP_butcher TRANDOSHAN_SHIP_fletcher TRANDOSHAN_SHIP_bowyer TRANDOSHAN_SHIP_tanner TRANDOSHAN_SHIP_carver TRANDOSHAN_SHIP_cordwain TRANDOSHAN_SHIP_tender TRANDOSHAN_SHIP_promise TRANDOSHAN_SHIP_service TRANDOSHAN_SHIP_shelter TRANDOSHAN_SHIP_beast TRANDOSHAN_SHIP_beast_of_burden TRANDOSHAN_SHIP_packmule TRANDOSHAN_SHIP_lowe TRANDOSHAN_SHIP_madle TRANDOSHAN_SHIP_sham_ba TRANDOSHAN_SHIP_anvil TRANDOSHAN_SHIP_lu_mi_lowe TRANDOSHAN_SHIP_architect TRANDOSHAN_SHIP_accommodator TRANDOSHAN_SHIP_tallyer TRANDOSHAN_SHIP_accounter
+		}
+		transport = {
+			TRANDOSHAN_SHIP_expedition_transport
+		}
+		military_station_golan1 = {
+			TRANDOSHAN_SHIP_spacegun_victory TRANDOSHAN_SHIP_spacegun_success TRANDOSHAN_SHIP_spacegun_supremacy TRANDOSHAN_SHIP_spacegun_superior TRANDOSHAN_SHIP_spacegun_adventure TRANDOSHAN_SHIP_spacegun_ascendancy TRANDOSHAN_SHIP_spacegun_paramount TRANDOSHAN_SHIP_spacegun_preponderous TRANDOSHAN_SHIP_spacegun_exemplary TRANDOSHAN_SHIP_spacegun_eximious TRANDOSHAN_SHIP_spacegun_pertinacity TRANDOSHAN_SHIP_spacegun_acclaim TRANDOSHAN_SHIP_spacegun_honor TRANDOSHAN_SHIP_spacegun_renown TRANDOSHAN_SHIP_spacegun_glory TRANDOSHAN_SHIP_spacegun_superb TRANDOSHAN_SHIP_spacegun_magnificence TRANDOSHAN_SHIP_spacegun_majestic TRANDOSHAN_SHIP_spacegun_splendor TRANDOSHAN_SHIP_spacegun_paradigm TRANDOSHAN_SHIP_spacegun_flawless TRANDOSHAN_SHIP_spacegun_consummate TRANDOSHAN_SHIP_spacegun_merit TRANDOSHAN_SHIP_spacegun_perfection TRANDOSHAN_SHIP_spacegun_virtue TRANDOSHAN_SHIP_spacegun_advantage TRANDOSHAN_SHIP_spacegun_rectitude TRANDOSHAN_SHIP_spacegun_incorruptible TRANDOSHAN_SHIP_spacegun_integrity TRANDOSHAN_SHIP_spacegun_justice TRANDOSHAN_SHIP_spacegun_probity TRANDOSHAN_SHIP_spacegun_prudence TRANDOSHAN_SHIP_spacegun_purity TRANDOSHAN_SHIP_spacegun_resolute TRANDOSHAN_SHIP_spacegun_dignity TRANDOSHAN_SHIP_spacegun_distinction TRANDOSHAN_SHIP_spacegun_excellence TRANDOSHAN_SHIP_spacegun_faithful TRANDOSHAN_SHIP_spacegun_discipline TRANDOSHAN_SHIP_spacegun_steadfast TRANDOSHAN_SHIP_spacegun_recompense TRANDOSHAN_SHIP_spacegun_requiem TRANDOSHAN_SHIP_spacegun_courage TRANDOSHAN_SHIP_spacegun_valor TRANDOSHAN_SHIP_spacegun_gallant TRANDOSHAN_SHIP_spacegun_daring TRANDOSHAN_SHIP_spacegun_constancy TRANDOSHAN_SHIP_spacegun_perseverence TRANDOSHAN_SHIP_spacegun_tenacity TRANDOSHAN_SHIP_spacegun_sedulity TRANDOSHAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			TRANDOSHAN_SHIP_spacegun_victory TRANDOSHAN_SHIP_spacegun_success TRANDOSHAN_SHIP_spacegun_supremacy TRANDOSHAN_SHIP_spacegun_superior TRANDOSHAN_SHIP_spacegun_adventure TRANDOSHAN_SHIP_spacegun_ascendancy TRANDOSHAN_SHIP_spacegun_paramount TRANDOSHAN_SHIP_spacegun_preponderous TRANDOSHAN_SHIP_spacegun_exemplary TRANDOSHAN_SHIP_spacegun_eximious TRANDOSHAN_SHIP_spacegun_pertinacity TRANDOSHAN_SHIP_spacegun_acclaim TRANDOSHAN_SHIP_spacegun_honor TRANDOSHAN_SHIP_spacegun_renown TRANDOSHAN_SHIP_spacegun_glory TRANDOSHAN_SHIP_spacegun_superb TRANDOSHAN_SHIP_spacegun_magnificence TRANDOSHAN_SHIP_spacegun_majestic TRANDOSHAN_SHIP_spacegun_splendor TRANDOSHAN_SHIP_spacegun_paradigm TRANDOSHAN_SHIP_spacegun_flawless TRANDOSHAN_SHIP_spacegun_consummate TRANDOSHAN_SHIP_spacegun_merit TRANDOSHAN_SHIP_spacegun_perfection TRANDOSHAN_SHIP_spacegun_virtue TRANDOSHAN_SHIP_spacegun_advantage TRANDOSHAN_SHIP_spacegun_rectitude TRANDOSHAN_SHIP_spacegun_incorruptible TRANDOSHAN_SHIP_spacegun_integrity TRANDOSHAN_SHIP_spacegun_justice TRANDOSHAN_SHIP_spacegun_probity TRANDOSHAN_SHIP_spacegun_prudence TRANDOSHAN_SHIP_spacegun_purity TRANDOSHAN_SHIP_spacegun_resolute TRANDOSHAN_SHIP_spacegun_dignity TRANDOSHAN_SHIP_spacegun_distinction TRANDOSHAN_SHIP_spacegun_excellence TRANDOSHAN_SHIP_spacegun_faithful TRANDOSHAN_SHIP_spacegun_discipline TRANDOSHAN_SHIP_spacegun_steadfast TRANDOSHAN_SHIP_spacegun_recompense TRANDOSHAN_SHIP_spacegun_requiem TRANDOSHAN_SHIP_spacegun_courage TRANDOSHAN_SHIP_spacegun_valor TRANDOSHAN_SHIP_spacegun_gallant TRANDOSHAN_SHIP_spacegun_daring TRANDOSHAN_SHIP_spacegun_constancy TRANDOSHAN_SHIP_spacegun_perseverence TRANDOSHAN_SHIP_spacegun_tenacity TRANDOSHAN_SHIP_spacegun_sedulity TRANDOSHAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			TRANDOSHAN_SHIP_spacegun_victory TRANDOSHAN_SHIP_spacegun_success TRANDOSHAN_SHIP_spacegun_supremacy TRANDOSHAN_SHIP_spacegun_superior TRANDOSHAN_SHIP_spacegun_adventure TRANDOSHAN_SHIP_spacegun_ascendancy TRANDOSHAN_SHIP_spacegun_paramount TRANDOSHAN_SHIP_spacegun_preponderous TRANDOSHAN_SHIP_spacegun_exemplary TRANDOSHAN_SHIP_spacegun_eximious TRANDOSHAN_SHIP_spacegun_pertinacity TRANDOSHAN_SHIP_spacegun_acclaim TRANDOSHAN_SHIP_spacegun_honor TRANDOSHAN_SHIP_spacegun_renown TRANDOSHAN_SHIP_spacegun_glory TRANDOSHAN_SHIP_spacegun_superb TRANDOSHAN_SHIP_spacegun_magnificence TRANDOSHAN_SHIP_spacegun_majestic TRANDOSHAN_SHIP_spacegun_splendor TRANDOSHAN_SHIP_spacegun_paradigm TRANDOSHAN_SHIP_spacegun_flawless TRANDOSHAN_SHIP_spacegun_consummate TRANDOSHAN_SHIP_spacegun_merit TRANDOSHAN_SHIP_spacegun_perfection TRANDOSHAN_SHIP_spacegun_virtue TRANDOSHAN_SHIP_spacegun_advantage TRANDOSHAN_SHIP_spacegun_rectitude TRANDOSHAN_SHIP_spacegun_incorruptible TRANDOSHAN_SHIP_spacegun_integrity TRANDOSHAN_SHIP_spacegun_justice TRANDOSHAN_SHIP_spacegun_probity TRANDOSHAN_SHIP_spacegun_prudence TRANDOSHAN_SHIP_spacegun_purity TRANDOSHAN_SHIP_spacegun_resolute TRANDOSHAN_SHIP_spacegun_dignity TRANDOSHAN_SHIP_spacegun_distinction TRANDOSHAN_SHIP_spacegun_excellence TRANDOSHAN_SHIP_spacegun_faithful TRANDOSHAN_SHIP_spacegun_discipline TRANDOSHAN_SHIP_spacegun_steadfast TRANDOSHAN_SHIP_spacegun_recompense TRANDOSHAN_SHIP_spacegun_requiem TRANDOSHAN_SHIP_spacegun_courage TRANDOSHAN_SHIP_spacegun_valor TRANDOSHAN_SHIP_spacegun_gallant TRANDOSHAN_SHIP_spacegun_daring TRANDOSHAN_SHIP_spacegun_constancy TRANDOSHAN_SHIP_spacegun_perseverence TRANDOSHAN_SHIP_spacegun_tenacity TRANDOSHAN_SHIP_spacegun_sedulity TRANDOSHAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			TRANDOSHAN_SHIP_forak TRANDOSHAN_SHIP_hsskhor TRANDOSHAN_SHIP_lorpfan TRANDOSHAN_SHIP_varic TRANDOSHAN_SHIP_friend_of_czerka TRANDOSHAN_SHIP_doshan TRANDOSHAN_SHIP_mittoblade TRANDOSHAN_SHIP_waymancy_hollow TRANDOSHAN_SHIP_arakka TRANDOSHAN_SHIP_durkteel TRANDOSHAN_SHIP_kastolar TRANDOSHAN_SHIP_archenar TRANDOSHAN_SHIP_rakhuun TRANDOSHAN_SHIP_anchor TRANDOSHAN_SHIP_jabba_flow TRANDOSHAN_SHIP_randon_roads TRANDOSHAN_SHIP_tholatin TRANDOSHAN_SHIP_quas TRANDOSHAN_SHIP_killam TRANDOSHAN_SHIP_night_road TRANDOSHAN_SHIP_nytaranor TRANDOSHAN_SHIP_pizilis TRANDOSHAN_SHIP_terr_skiar TRANDOSHAN_SHIP_rorgam TRANDOSHAN_SHIP_kilimanchamble TRANDOSHAN_SHIP_messert TRANDOSHAN_SHIP_kdoshrr TRANDOSHAN_SHIP_score_list TRANDOSHAN_SHIP_ota TRANDOSHAN_SHIP_bissilirus TRANDOSHAN_SHIP_genian TRANDOSHAN_SHIP_deysum TRANDOSHAN_SHIP_ciacgekke TRANDOSHAN_SHIP_old_apsolon TRANDOSHAN_SHIP_knight_star TRANDOSHAN_SHIP_uogo_mons TRANDOSHAN_SHIP_new_apsolon TRANDOSHAN_SHIP_nova_dosha TRANDOSHAN_SHIP_lexrul TRANDOSHAN_SHIP_celegia TRANDOSHAN_SHIP_uyter TRANDOSHAN_SHIP_venal TRANDOSHAN_SHIP_vidass TRANDOSHAN_SHIP_nazzriss TRANDOSHAN_SHIP_vaugazz
+		}
+		ion_cannon = {
+			TRANDOSHAN_SHIP_bombard TRANDOSHAN_SHIP_ballista TRANDOSHAN_SHIP_catapult TRANDOSHAN_SHIP_harpoon TRANDOSHAN_SHIP_polybolos TRANDOSHAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			TRANDOSHAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			TRANDOSHAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			TRANDOSHAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			TRANDOSHAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			TRANDOSHAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			TRANDOSHAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			TRANDOSHAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			TRANDOSHAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			TRANDOSHAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			TRANDOSHAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			TRANDOSHAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			TRANDOSHAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			TRANDOSHAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			TRANDOSHAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			TRANDOSHAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			TRANDOSHAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			TRANDOSHAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			TRANDOSHAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			TRANDOSHAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			TRANDOSHAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			TRANDOSHAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			TRANDOSHAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			TRANDOSHAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			TRANDOSHAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			TRANDOSHAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			TRANDOSHAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			TRANDOSHAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			TRANDOSHAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			TRANDOSHAN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			TRANDOSHAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			TRANDOSHAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			TRANDOSHAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			TRANDOSHAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			TRANDOSHAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			TRANDOSHAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			TRANDOSHAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			TRANDOSHAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			TRANDOSHAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			TRANDOSHAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			TRANDOSHAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			TRANDOSHAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			TRANDOSHAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			TRANDOSHAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			TRANDOSHAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			TRANDOSHAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			TRANDOSHAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			TRANDOSHAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			TRANDOSHAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			TRANDOSHAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			TRANDOSHAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			TRANDOSHAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			TRANDOSHAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			TRANDOSHAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		random_names = {
+			TRANDOSHAN_FLEET_hunt_fleet_acklay TRANDOSHAN_FLEET_hunt_fleet_rancor TRANDOSHAN_FLEET_hunt_fleet_nexu TRANDOSHAN_FLEET_hunt_fleet_vornskyr TRANDOSHAN_FLEET_hunt_fleet_terentatek TRANDOSHAN_FLEET_hunt_fleet_balyeg TRANDOSHAN_FLEET_hunt_fleet_blixus TRANDOSHAN_FLEET_hunt_fleet_rathtar TRANDOSHAN_FLEET_hunt_fleet_sarlacc TRANDOSHAN_FLEET_hunt_fleet_doashim TRANDOSHAN_FLEET_hunt_fleet_evarrian TRANDOSHAN_FLEET_hunt_fleet_gorgodon TRANDOSHAN_FLEET_hunt_fleet_gorog TRANDOSHAN_FLEET_hunt_fleet_gutkurr TRANDOSHAN_FLEET_hunt_fleet_lylek TRANDOSHAN_FLEET_hunt_fleet_jaggalor TRANDOSHAN_FLEET_hunt_fleet_krakana TRANDOSHAN_FLEET_hunt_fleet_saberjowl TRANDOSHAN_FLEET_hunt_fleet_taozin TRANDOSHAN_FLEET_hunt_fleet_svaper TRANDOSHAN_FLEET_hunt_fleet_silooth TRANDOSHAN_FLEET_hunt_fleet_krastenane TRANDOSHAN_FLEET_hunt_fleet_vaapad TRANDOSHAN_FLEET_hunt_fleet_veermok TRANDOSHAN_FLEET_hunt_fleet_verminoth TRANDOSHAN_FLEET_hunt_fleet_gundark TRANDOSHAN_FLEET_hunt_fleet_fyrnock TRANDOSHAN_FLEET_hunt_fleet_clawfish
+		}
+		sequential_name = TRANDOSHAN_FLEET_hunt_fleet_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = TRANDOSHAN_ARMY_hunter_brigade_ORD
+		}
+		assault_army = {
+			sequential_name = TRANDOSHAN_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = TRANDOSHAN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = TRANDOSHAN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = TRANDOSHAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = TRANDOSHAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = TRANDOSHAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = TRANDOSHAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				TRANDOSHAN_ARMY_sarc_a__gladiators_ TRANDOSHAN_ARMY_sarc_b__widowmakers_ TRANDOSHAN_ARMY_sarc_c__immortals_ TRANDOSHAN_ARMY_sarc_d__berserkers_ TRANDOSHAN_ARMY_sarc_e__assassins_ TRANDOSHAN_ARMY_sarc_f__reapers_ TRANDOSHAN_ARMY_sarc_g__nighthawks_ TRANDOSHAN_ARMY_sarc_h__desperados_ TRANDOSHAN_ARMY_sarc_i__grey_knights_ TRANDOSHAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = TRANDOSHAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = TRANDOSHAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = TRANDOSHAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = TRANDOSHAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = TRANDOSHAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = TRANDOSHAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = TRANDOSHAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = TRANDOSHAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = TRANDOSHAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = TRANDOSHAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = TRANDOSHAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = TRANDOSHAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = TRANDOSHAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = TRANDOSHAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = TRANDOSHAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = TRANDOSHAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = TRANDOSHAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = TRANDOSHAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = TRANDOSHAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = TRANDOSHAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = TRANDOSHAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = TRANDOSHAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = TRANDOSHAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = TRANDOSHAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = TRANDOSHAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = TRANDOSHAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = TRANDOSHAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = TRANDOSHAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = TRANDOSHAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = TRANDOSHAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = TRANDOSHAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = TRANDOSHAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = TRANDOSHAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = TRANDOSHAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = TRANDOSHAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = TRANDOSHAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = TRANDOSHAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = TRANDOSHAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = TRANDOSHAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = TRANDOSHAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = TRANDOSHAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = TRANDOSHAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = TRANDOSHAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = TRANDOSHAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = TRANDOSHAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = TRANDOSHAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = TRANDOSHAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = TRANDOSHAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = TRANDOSHAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = TRANDOSHAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = TRANDOSHAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = TRANDOSHAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = TRANDOSHAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = TRANDOSHAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = TRANDOSHAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = TRANDOSHAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = TRANDOSHAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = TRANDOSHAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = TRANDOSHAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = TRANDOSHAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = TRANDOSHAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = TRANDOSHAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = TRANDOSHAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = TRANDOSHAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = TRANDOSHAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = TRANDOSHAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = TRANDOSHAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = TRANDOSHAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = TRANDOSHAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = TRANDOSHAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = TRANDOSHAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = TRANDOSHAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = TRANDOSHAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = TRANDOSHAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = TRANDOSHAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = TRANDOSHAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = TRANDOSHAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = TRANDOSHAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = TRANDOSHAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = TRANDOSHAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = TRANDOSHAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = TRANDOSHAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = TRANDOSHAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = TRANDOSHAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = TRANDOSHAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = TRANDOSHAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = TRANDOSHAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = TRANDOSHAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = TRANDOSHAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = TRANDOSHAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = TRANDOSHAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = TRANDOSHAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = TRANDOSHAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = TRANDOSHAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = TRANDOSHAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = TRANDOSHAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = TRANDOSHAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = TRANDOSHAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = TRANDOSHAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = TRANDOSHAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = TRANDOSHAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = TRANDOSHAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = TRANDOSHAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = TRANDOSHAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = TRANDOSHAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = TRANDOSHAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = TRANDOSHAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = TRANDOSHAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = TRANDOSHAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = TRANDOSHAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = TRANDOSHAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = TRANDOSHAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = TRANDOSHAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = TRANDOSHAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = TRANDOSHAN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = TRANDOSHAN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = TRANDOSHAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = TRANDOSHAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = TRANDOSHAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = TRANDOSHAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = TRANDOSHAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = TRANDOSHAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = TRANDOSHAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = TRANDOSHAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = TRANDOSHAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = TRANDOSHAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = TRANDOSHAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = TRANDOSHAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = TRANDOSHAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = TRANDOSHAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = TRANDOSHAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = TRANDOSHAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = TRANDOSHAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				TRANDOSHAN_CHR_agnuk TRANDOSHAN_CHR_cradossk TRANDOSHAN_CHR_sssvrek TRANDOSHAN_CHR_ess_al TRANDOSHAN_CHR_aqzow TRANDOSHAN_CHR_woff TRANDOSHAN_CHR_goll TRANDOSHAN_CHR_gwhirrye TRANDOSHAN_CHR_barthis TRANDOSHAN_CHR_beshk TRANDOSHAN_CHR_bhanak TRANDOSHAN_CHR_ronko TRANDOSHAN_CHR_daktar TRANDOSHAN_CHR_cyssc TRANDOSHAN_CHR_hssissk TRANDOSHAN_CHR_toggi TRANDOSHAN_CHR_borantok TRANDOSHAN_CHR_borkus TRANDOSHAN_CHR_boruush TRANDOSHAN_CHR_boshaz TRANDOSHAN_CHR_brask TRANDOSHAN_CHR_brek TRANDOSHAN_CHR_drassk TRANDOSHAN_CHR_qyzen TRANDOSHAN_CHR_byrek TRANDOSHAN_CHR_cahhmakt TRANDOSHAN_CHR_charsk TRANDOSHAN_CHR_corrsk TRANDOSHAN_CHR_crovessk TRANDOSHAN_CHR_currsk TRANDOSHAN_CHR_dakar TRANDOSHAN_CHR_dar TRANDOSHAN_CHR_drenn TRANDOSHAN_CHR_drossk TRANDOSHAN_CHR_dussk TRANDOSHAN_CHR_dure TRANDOSHAN_CHR_frissk TRANDOSHAN_CHR_frossk TRANDOSHAN_CHR_kruss TRANDOSHAN_CHR_gahseelik TRANDOSHAN_CHR_garnak TRANDOSHAN_CHR_gilas TRANDOSHAN_CHR_hrodius TRANDOSHAN_CHR_gorssk TRANDOSHAN_CHR_gorsst TRANDOSHAN_CHR_grahssk TRANDOSHAN_CHR_greelossk TRANDOSHAN_CHR_grrandash TRANDOSHAN_CHR_grug TRANDOSHAN_CHR_hissyphus TRANDOSHAN_CHR_hokker TRANDOSHAN_CHR_horssk TRANDOSHAN_CHR_hss_kas TRANDOSHAN_CHR_hressk TRANDOSHAN_CHR_huusk TRANDOSHAN_CHR_hurssk TRANDOSHAN_CHR_jakrann TRANDOSHAN_CHR_jessk TRANDOSHAN_CHR_kasif TRANDOSHAN_CHR_oosk TRANDOSHAN_CHR_keerak TRANDOSHAN_CHR_kephess TRANDOSHAN_CHR_kessk TRANDOSHAN_CHR_klesk TRANDOSHAN_CHR_kootan TRANDOSHAN_CHR_korq TRANDOSHAN_CHR_korrkoressk TRANDOSHAN_CHR_kressis TRANDOSHAN_CHR_korussk TRANDOSHAN_CHR_krussk TRANDOSHAN_CHR_lyssk TRANDOSHAN_CHR_maltok TRANDOSHAN_CHR_naxs TRANDOSHAN_CHR_mrash TRANDOSHAN_CHR_mundokk TRANDOSHAN_CHR_narrik TRANDOSHAN_CHR_nokk TRANDOSHAN_CHR_nssktkslis TRANDOSHAN_CHR_nukss TRANDOSHAN_CHR_passk TRANDOSHAN_CHR_pekt TRANDOSHAN_CHR_possak TRANDOSHAN_CHR_pressk TRANDOSHAN_CHR_proach TRANDOSHAN_CHR_q_elliss TRANDOSHAN_CHR_rarsk TRANDOSHAN_CHR_traggissk TRANDOSHAN_CHR_rhosk TRANDOSHAN_CHR_rosssuk TRANDOSHAN_CHR_ryssk TRANDOSHAN_CHR_sarkh TRANDOSHAN_CHR_seevor TRANDOSHAN_CHR_shekra TRANDOSHAN_CHR_skarsk TRANDOSHAN_CHR_skeesk TRANDOSHAN_CHR_skikkesk TRANDOSHAN_CHR_skreek TRANDOSHAN_CHR_skrisst TRANDOSHAN_CHR_slyssk TRANDOSHAN_CHR_sosska TRANDOSHAN_CHR_ssalash TRANDOSHAN_CHR_ssevrek TRANDOSHAN_CHR_ssiksik TRANDOSHAN_CHR_sskal TRANDOSHAN_CHR_sskeer TRANDOSHAN_CHR_lek TRANDOSHAN_CHR_t_doshok TRANDOSHAN_CHR_zug TRANDOSHAN_CHR_thrassk TRANDOSHAN_CHR_lar_omx TRANDOSHAN_CHR_tray_essek TRANDOSHAN_CHR_trex TRANDOSHAN_CHR_tsserk TRANDOSHAN_CHR_tsskoat TRANDOSHAN_CHR_tusskrek TRANDOSHAN_CHR_tyrok TRANDOSHAN_CHR_hrthek TRANDOSHAN_CHR_reneget TRANDOSHAN_CHR_vossk TRANDOSHAN_CHR_vrissk TRANDOSHAN_CHR_vultar TRANDOSHAN_CHR_vurrsk TRANDOSHAN_CHR_xirossk TRANDOSHAN_CHR_yarroq TRANDOSHAN_CHR_yrssk
+			}
+			first_names_female = {
+				TRANDOSHAN_CHR_lisot TRANDOSHAN_CHR_stima TRANDOSHAN_CHR_boshaza TRANDOSHAN_CHR_braska TRANDOSHAN_CHR_clargod TRANDOSHAN_CHR_cyri TRANDOSHAN_CHR_dara TRANDOSHAN_CHR_frisska TRANDOSHAN_CHR_gha TRANDOSHAN_CHR_gruunelda TRANDOSHAN_CHR_vanvi TRANDOSHAN_CHR_hresska TRANDOSHAN_CHR_shada TRANDOSHAN_CHR_davjana TRANDOSHAN_CHR_jesska TRANDOSHAN_CHR_johuna TRANDOSHAN_CHR_juuus TRANDOSHAN_CHR_katrip TRANDOSHAN_CHR_keela TRANDOSHAN_CHR_braska TRANDOSHAN_CHR_qyzenra TRANDOSHAN_CHR_khrask TRANDOSHAN_CHR_khreenk TRANDOSHAN_CHR_kisskk TRANDOSHAN_CHR_kressisa TRANDOSHAN_CHR_krusskila TRANDOSHAN_CHR_krylla TRANDOSHAN_CHR_lesnor TRANDOSHAN_CHR_lissarkh TRANDOSHAN_CHR_mssikss TRANDOSHAN_CHR_myssith TRANDOSHAN_CHR_narj TRANDOSHAN_CHR_nim_ri TRANDOSHAN_CHR_noka TRANDOSHAN_CHR_nala TRANDOSHAN_CHR_q_ellissoa TRANDOSHAN_CHR_raikhssa TRANDOSHAN_CHR_raptiss TRANDOSHAN_CHR_rysska TRANDOSHAN_CHR_sish TRANDOSHAN_CHR_shekra TRANDOSHAN_CHR_traga TRANDOSHAN_CHR_sosska TRANDOSHAN_CHR_sounac TRANDOSHAN_CHR_strigge TRANDOSHAN_CHR_leki TRANDOSHAN_CHR_stydge TRANDOSHAN_CHR_zugga TRANDOSHAN_CHR_thrasska TRANDOSHAN_CHR_trizz_ma TRANDOSHAN_CHR_trossilik TRANDOSHAN_CHR_trossilish TRANDOSHAN_CHR_tysheyk TRANDOSHAN_CHR_tsserka TRANDOSHAN_CHR_ulissa TRANDOSHAN_CHR_babwa TRANDOSHAN_CHR_vressag TRANDOSHAN_CHR_vrriska TRANDOSHAN_CHR_vultra TRANDOSHAN_CHR_xydge TRANDOSHAN_CHR_yadfre TRANDOSHAN_CHR_ysith TRANDOSHAN_CHR_kesska TRANDOSHAN_CHR_kleska TRANDOSHAN_CHR_kootana TRANDOSHAN_CHR_korqa TRANDOSHAN_CHR_xeniss TRANDOSHAN_CHR_kressisa TRANDOSHAN_CHR_korusska TRANDOSHAN_CHR_krusska TRANDOSHAN_CHR_lysska TRANDOSHAN_CHR_maltoka TRANDOSHAN_CHR_naxsa TRANDOSHAN_CHR_mrasha TRANDOSHAN_CHR_mundokka TRANDOSHAN_CHR_narrika TRANDOSHAN_CHR_nokka TRANDOSHAN_CHR_tailsaka TRANDOSHAN_CHR_nukssa TRANDOSHAN_CHR_passka TRANDOSHAN_CHR_pekta TRANDOSHAN_CHR_possaka TRANDOSHAN_CHR_presska TRANDOSHAN_CHR_proacha TRANDOSHAN_CHR_q_ellissa TRANDOSHAN_CHR_rarska TRANDOSHAN_CHR_traggisska TRANDOSHAN_CHR_rhoska TRANDOSHAN_CHR_rosssuka TRANDOSHAN_CHR_rysska TRANDOSHAN_CHR_sarkha TRANDOSHAN_CHR_seevora TRANDOSHAN_CHR_tisi TRANDOSHAN_CHR_skarska TRANDOSHAN_CHR_skeeska TRANDOSHAN_CHR_skikkeska TRANDOSHAN_CHR_skreeka TRANDOSHAN_CHR_skrissta TRANDOSHAN_CHR_slysska TRANDOSHAN_CHR_sissta TRANDOSHAN_CHR_ssalasha TRANDOSHAN_CHR_ssevreka TRANDOSHAN_CHR_ssiksika TRANDOSHAN_CHR_sskala TRANDOSHAN_CHR_sskeera TRANDOSHAN_CHR_leka TRANDOSHAN_CHR_t_doshoka TRANDOSHAN_CHR_zuga TRANDOSHAN_CHR_thrasska TRANDOSHAN_CHR_lar_omxa TRANDOSHAN_CHR_tray_esseka TRANDOSHAN_CHR_trexa TRANDOSHAN_CHR_tsserka TRANDOSHAN_CHR_tsskoata TRANDOSHAN_CHR_tusskreka TRANDOSHAN_CHR_tyroka TRANDOSHAN_CHR_hrtheka TRANDOSHAN_CHR_renegeta TRANDOSHAN_CHR_vosska TRANDOSHAN_CHR_vrisska TRANDOSHAN_CHR_vultara TRANDOSHAN_CHR_vurrska TRANDOSHAN_CHR_xirosska TRANDOSHAN_CHR_yarroqa TRANDOSHAN_CHR_yrsska
+			}
+			second_names = {
+				TRANDOSHAN_CHR_al TRANDOSHAN_CHR_ardella TRANDOSHAN_CHR_b_tar TRANDOSHAN_CHR_bardok TRANDOSHAN_CHR_baric TRANDOSHAN_CHR_belangus TRANDOSHAN_CHR_bist TRANDOSHAN_CHR_bloodmoon TRANDOSHAN_CHR_blackscale TRANDOSHAN_CHR_bloodscale TRANDOSHAN_CHR_bloodscar TRANDOSHAN_CHR_blackscar TRANDOSHAN_CHR_bok TRANDOSHAN_CHR_veneb TRANDOSHAN_CHR_fess TRANDOSHAN_CHR_revessa TRANDOSHAN_CHR_hassk TRANDOSHAN_CHR_eso TRANDOSHAN_CHR_gaal TRANDOSHAN_CHR_gaar TRANDOSHAN_CHR_nachkt TRANDOSHAN_CHR_goort TRANDOSHAN_CHR_goragg TRANDOSHAN_CHR_gusepp TRANDOSHAN_CHR_hessen TRANDOSHAN_CHR_hotne TRANDOSHAN_CHR_hsskhor TRANDOSHAN_CHR_igosko TRANDOSHAN_CHR_jhcor TRANDOSHAN_CHR_kassa TRANDOSHAN_CHR_kilon TRANDOSHAN_CHR_klallor TRANDOSHAN_CHR_koorst TRANDOSHAN_CHR_krood TRANDOSHAN_CHR_morrng TRANDOSHAN_CHR_wasskah TRANDOSHAN_CHR_nakaron TRANDOSHAN_CHR_nross TRANDOSHAN_CHR_rokh TRANDOSHAN_CHR_tassik TRANDOSHAN_CHR_trussk TRANDOSHAN_CHR_val_voz TRANDOSHAN_CHR_vause TRANDOSHAN_CHR_verkoss TRANDOSHAN_CHR_venomor TRANDOSHAN_CHR_wertsnik TRANDOSHAN_CHR_ziss_t
+			}
+			regnal_first_names_male = {
+				TRANDOSHAN_CHR_cradossk TRANDOSHAN_CHR_qyzen TRANDOSHAN_CHR_gorak TRANDOSHAN_CHR_gorsst TRANDOSHAN_CHR_hadocrassk TRANDOSHAN_CHR_karniss TRANDOSHAN_CHR_karssk TRANDOSHAN_CHR_kephess TRANDOSHAN_CHR_korussk TRANDOSHAN_CHR_kras_dokh TRANDOSHAN_CHR_krix TRANDOSHAN_CHR_krussk TRANDOSHAN_CHR_passikk TRANDOSHAN_CHR_traggissk TRANDOSHAN_CHR_slyssk TRANDOSHAN_CHR_thrassk TRANDOSHAN_CHR_vossk TRANDOSHAN_CHR_yarroq
+			}
+			regnal_first_names_female = {
+				TRANDOSHAN_CHR_brasska TRANDOSHAN_CHR_hresska TRANDOSHAN_CHR_kressisa TRANDOSHAN_CHR_mrsskala TRANDOSHAN_CHR_narj TRANDOSHAN_CHR_raikhssa TRANDOSHAN_CHR_traga TRANDOSHAN_CHR_kephessa TRANDOSHAN_CHR_korusska TRANDOSHAN_CHR_davjana TRANDOSHAN_CHR_thrasska TRANDOSHAN_CHR_krusska TRANDOSHAN_CHR_q_elissa TRANDOSHAN_CHR_traggisska TRANDOSHAN_CHR_slysska TRANDOSHAN_CHR_thrasska TRANDOSHAN_CHR_vosska TRANDOSHAN_CHR_lissarkh
+			}
+			regnal_second_names = {
+				TRANDOSHAN_CHR_fess TRANDOSHAN_CHR_veneb TRANDOSHAN_CHR_hsskhor TRANDOSHAN_CHR_kaogar TRANDOSHAN_CHR_lo_taren TRANDOSHAN_CHR_myssith TRANDOSHAN_CHR_narask TRANDOSHAN_CHR_reosss TRANDOSHAN_CHR_ssoh TRANDOSHAN_CHR_ssurussk TRANDOSHAN_CHR_verkoss TRANDOSHAN_CHR_venomor
+			}
+		}
+	}
+}

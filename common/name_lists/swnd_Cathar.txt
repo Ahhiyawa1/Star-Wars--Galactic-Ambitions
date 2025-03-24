@@ -1,0 +1,841 @@
+﻿Cathar = {
+	randomized = no
+	ship_names = {
+		generic = {
+			CATHAR_SHIP_mystic CATHAR_SHIP_naiad CATHAR_SHIP_nautilus CATHAR_SHIP_nebula CATHAR_SHIP_nimble CATHAR_SHIP_north_star CATHAR_SHIP_nymph CATHAR_SHIP_obdurate CATHAR_SHIP_ocean CATHAR_SHIP_onward CATHAR_SHIP_oracle CATHAR_SHIP_paradox CATHAR_SHIP_paragon CATHAR_SHIP_pearl CATHAR_SHIP_peregrine CATHAR_SHIP_perseverance CATHAR_SHIP_marksman CATHAR_SHIP_rifleman CATHAR_SHIP_sniper CATHAR_SHIP_trident CATHAR_SHIP_trumpet CATHAR_SHIP_truncheon CATHAR_SHIP_typhoon CATHAR_SHIP_undaunted CATHAR_SHIP_venture CATHAR_SHIP_versatile CATHAR_SHIP_vigorous CATHAR_SHIP_viper CATHAR_SHIP_vivacious CATHAR_SHIP_winger CATHAR_SHIP_wizard CATHAR_SHIP_wyvern CATHAR_SHIP_wolfhound CATHAR_SHIP_devastator CATHAR_SHIP_warhammer CATHAR_SHIP_retribution CATHAR_SHIP_senator CATHAR_SHIP_tornado CATHAR_SHIP_infinity CATHAR_SHIP_usurper CATHAR_SHIP_utmost CATHAR_SHIP_valorous CATHAR_SHIP_whirlwind CATHAR_SHIP_athena CATHAR_SHIP_artemis CATHAR_SHIP_vigilance CATHAR_SHIP_decimator CATHAR_SHIP_indomitable CATHAR_SHIP_goliath CATHAR_SHIP_sentinel CATHAR_SHIP_brilliant CATHAR_SHIP_blazer CATHAR_SHIP_audacity CATHAR_SHIP_gallant CATHAR_SHIP_nova CATHAR_SHIP_shadow CATHAR_SHIP_allegiance CATHAR_SHIP_challenger CATHAR_SHIP_fearless CATHAR_SHIP_protector CATHAR_SHIP_guardian CATHAR_SHIP_victorious CATHAR_SHIP_courageous CATHAR_SHIP_defiance CATHAR_SHIP_valorous CATHAR_SHIP_azrael CATHAR_SHIP_adamantine CATHAR_SHIP_aralanni CATHAR_SHIP_ardent_iv CATHAR_SHIP_armistice CATHAR_SHIP_avengeance CATHAR_SHIP_ballista CATHAR_SHIP_bloodstripe CATHAR_SHIP_borealis CATHAR_SHIP_caelus CATHAR_SHIP_caravan CATHAR_SHIP_chaf_envoy CATHAR_SHIP_commenor CATHAR_SHIP_corbantis CATHAR_SHIP_corellia CATHAR_SHIP_courteous CATHAR_SHIP_dauntless CATHAR_SHIP_defiant CATHAR_SHIP_deliverance CATHAR_SHIP_derapha CATHAR_SHIP_devout CATHAR_SHIP_empirical CATHAR_SHIP_empyrean CATHAR_SHIP_era_daimanos CATHAR_SHIP_eye_of_the_storm CATHAR_SHIP_farstar CATHAR_SHIP_fastblast CATHAR_SHIP_galaaron CATHAR_SHIP_garrote CATHAR_SHIP_gilagimar CATHAR_SHIP_halleck CATHAR_SHIP_hunter CATHAR_SHIP_intractable CATHAR_SHIP_ithor_lady CATHAR_SHIP_justice_crusader CATHAR_SHIP_kana_s_steel CATHAR_SHIP_lathir CATHAR_SHIP_liberty CATHAR_SHIP_lillibanca CATHAR_SHIP_maelstrom CATHAR_SHIP_malachite_scent CATHAR_SHIP_mercy CATHAR_SHIP_myrkos CATHAR_SHIP_nebula_chaser CATHAR_SHIP_nova CATHAR_SHIP_nova_viper CATHAR_SHIP_obedience CATHAR_SHIP_olemp CATHAR_SHIP_pegasus CATHAR_SHIP_perspicacity CATHAR_SHIP_phalanx CATHAR_SHIP_plooriod_bodkin CATHAR_SHIP_predominance CATHAR_SHIP_prosperity CATHAR_SHIP_purity CATHAR_SHIP_recalcitrant CATHAR_SHIP_red_nova CATHAR_SHIP_redma CATHAR_SHIP_reliable CATHAR_SHIP_reliant CATHAR_SHIP_reluctant CATHAR_SHIP_republic CATHAR_SHIP_republic_s_return CATHAR_SHIP_resolve CATHAR_SHIP_respectable CATHAR_SHIP_revenge CATHAR_SHIP_shadowblade CATHAR_SHIP_spritespray CATHAR_SHIP_star_dream CATHAR_SHIP_stark_wing CATHAR_SHIP_starveil CATHAR_SHIP_undying CATHAR_SHIP_vaathkree CATHAR_SHIP_vainglorious CATHAR_SHIP_valiant CATHAR_SHIP_valor CATHAR_SHIP_vanquisher CATHAR_SHIP_vinsor CATHAR_SHIP_visseon CATHAR_SHIP_wennis CATHAR_SHIP_yavin_s_glory CATHAR_SHIP_moldy_crow CATHAR_SHIP_raven_s_claw CATHAR_SHIP_agile CATHAR_SHIP_archer CATHAR_SHIP_arrow CATHAR_SHIP_bruiser CATHAR_SHIP_cherub CATHAR_SHIP_chimera CATHAR_SHIP_claymore CATHAR_SHIP_broadsword CATHAR_SHIP_battleaxe CATHAR_SHIP_crossbow CATHAR_SHIP_cutlass CATHAR_SHIP_deterrent CATHAR_SHIP_errant CATHAR_SHIP_faithful CATHAR_SHIP_fierce CATHAR_SHIP_gladius CATHAR_SHIP_longbow CATHAR_SHIP_grappler CATHAR_SHIP_hammer CATHAR_SHIP_vampire CATHAR_SHIP_velox CATHAR_SHIP_venator CATHAR_SHIP_vendetta CATHAR_SHIP_venerable CATHAR_SHIP_venomous CATHAR_SHIP_taciturn CATHAR_SHIP_supreme CATHAR_SHIP_success CATHAR_SHIP_shredder CATHAR_SHIP_seraph CATHAR_SHIP_serpent CATHAR_SHIP_spitfire CATHAR_SHIP_stalker CATHAR_SHIP_stratagem CATHAR_SHIP_scimitar CATHAR_SHIP_scorcher CATHAR_SHIP_scourge CATHAR_SHIP_scythe CATHAR_SHIP_revenant CATHAR_SHIP_redoubtable CATHAR_SHIP_raptor CATHAR_SHIP_reaver CATHAR_SHIP_prodigal CATHAR_SHIP_rapier CATHAR_SHIP_prudent CATHAR_SHIP_persistent CATHAR_SHIP_peerless CATHAR_SHIP_myrmidon CATHAR_SHIP_indignant CATHAR_SHIP_javelin CATHAR_SHIP_knight CATHAR_SHIP_starwolf CATHAR_SHIP_bonaventure CATHAR_SHIP_adventure CATHAR_SHIP_boxer CATHAR_SHIP_buccaneer CATHAR_SHIP_cavalier CATHAR_SHIP_celestial CATHAR_SHIP_chariot CATHAR_SHIP_comet CATHAR_SHIP_crucible CATHAR_SHIP_cyclone CATHAR_SHIP_decisive CATHAR_SHIP_dexterous CATHAR_SHIP_diadem CATHAR_SHIP_earnest CATHAR_SHIP_eclipse CATHAR_SHIP_forger CATHAR_SHIP_fortune CATHAR_SHIP_gauntlet CATHAR_SHIP_griffin CATHAR_SHIP_horizon CATHAR_SHIP_hotspur CATHAR_SHIP_hurricane CATHAR_SHIP_hussar CATHAR_SHIP_jubilant CATHAR_SHIP_lancer CATHAR_SHIP_lightning CATHAR_SHIP_magic CATHAR_SHIP_mediator CATHAR_SHIP_mermaid CATHAR_SHIP_meteor CATHAR_SHIP_minstrel CATHAR_SHIP_miranda CATHAR_SHIP_mustang CATHAR_SHIP_sharpshooter CATHAR_SHIP_cyclops CATHAR_SHIP_centaur CATHAR_SHIP_adversary CATHAR_SHIP_assassin CATHAR_SHIP_dagger CATHAR_SHIP_daring CATHAR_SHIP_duty CATHAR_SHIP_havoc CATHAR_SHIP_hero CATHAR_SHIP_hunter CATHAR_SHIP_justice CATHAR_SHIP_impeccable CATHAR_SHIP_interceptor CATHAR_SHIP_infernal CATHAR_SHIP_loyal CATHAR_SHIP_matchless CATHAR_SHIP_mauler CATHAR_SHIP_mayhem CATHAR_SHIP_malice CATHAR_SHIP_menace CATHAR_SHIP_merciless CATHAR_SHIP_mischief CATHAR_SHIP_monarch CATHAR_SHIP_patriot CATHAR_SHIP_predator CATHAR_SHIP_powerful CATHAR_SHIP_punisher CATHAR_SHIP_ravager CATHAR_SHIP_reaper CATHAR_SHIP_savage CATHAR_SHIP_spiteful CATHAR_SHIP_templar CATHAR_SHIP_terminator CATHAR_SHIP_terror CATHAR_SHIP_thrasher CATHAR_SHIP_minotaur CATHAR_SHIP_manticore CATHAR_SHIP_interdictor CATHAR_SHIP_intruder CATHAR_SHIP_hydra CATHAR_SHIP_enfield CATHAR_SHIP_harasser CATHAR_SHIP_unbeaten CATHAR_SHIP_werewolf CATHAR_SHIP_zealous CATHAR_SHIP_petulant CATHAR_SHIP_phantom CATHAR_SHIP_phoenix CATHAR_SHIP_pike CATHAR_SHIP_pursuer CATHAR_SHIP_raider CATHAR_SHIP_rainbow CATHAR_SHIP_rapid CATHAR_SHIP_redemption CATHAR_SHIP_relentless CATHAR_SHIP_rigorous CATHAR_SHIP_robust CATHAR_SHIP_sabre CATHAR_SHIP_salvation CATHAR_SHIP_sanguine CATHAR_SHIP_scarab CATHAR_SHIP_scepter CATHAR_SHIP_sea_witch CATHAR_SHIP_siren CATHAR_SHIP_sorceress CATHAR_SHIP_spearhead CATHAR_SHIP_specter CATHAR_SHIP_spirit CATHAR_SHIP_splendid CATHAR_SHIP_stallion CATHAR_SHIP_stalwart CATHAR_SHIP_steadfast CATHAR_SHIP_strenuous CATHAR_SHIP_superb CATHAR_SHIP_supernova CATHAR_SHIP_surprise CATHAR_SHIP_swiftsure CATHAR_SHIP_talent CATHAR_SHIP_talisman CATHAR_SHIP_talon CATHAR_SHIP_taurus CATHAR_SHIP_tenacious CATHAR_SHIP_thunder_child CATHAR_SHIP_thunderous CATHAR_SHIP_tireless CATHAR_SHIP_trenchant CATHAR_SHIP_righteous CATHAR_SHIP_acheron CATHAR_SHIP_achilles CATHAR_SHIP_agamemnon CATHAR_SHIP_amphion CATHAR_SHIP_aquilon CATHAR_SHIP_argonaut CATHAR_SHIP_argus CATHAR_SHIP_ariel CATHAR_SHIP_aurora CATHAR_SHIP_avernus CATHAR_SHIP_bacchus CATHAR_SHIP_bucephalus CATHAR_SHIP_calliope CATHAR_SHIP_calypso CATHAR_SHIP_castor CATHAR_SHIP_charybdis CATHAR_SHIP_circe CATHAR_SHIP_cleopatra CATHAR_SHIP_constantine CATHAR_SHIP_cordelia CATHAR_SHIP_cyrus CATHAR_SHIP_damocles CATHAR_SHIP_daedalus CATHAR_SHIP_darius CATHAR_SHIP_diomede CATHAR_SHIP_dryad CATHAR_SHIP_electra CATHAR_SHIP_endymion CATHAR_SHIP_erebus CATHAR_SHIP_fenris CATHAR_SHIP_freya CATHAR_SHIP_gilgamesh CATHAR_SHIP_gorgon CATHAR_SHIP_halcyon CATHAR_SHIP_hecate CATHAR_SHIP_hector CATHAR_SHIP_hesperus CATHAR_SHIP_janus CATHAR_SHIP_jason CATHAR_SHIP_juno CATHAR_SHIP_jupiter CATHAR_SHIP_lancelot CATHAR_SHIP_lazarus CATHAR_SHIP_leander CATHAR_SHIP_leonidas CATHAR_SHIP_lysander CATHAR_SHIP_maenad CATHAR_SHIP_mars CATHAR_SHIP_medea CATHAR_SHIP_medusa CATHAR_SHIP_menestheus CATHAR_SHIP_mercury CATHAR_SHIP_merlin CATHAR_SHIP_minerva CATHAR_SHIP_minos CATHAR_SHIP_neptune CATHAR_SHIP_nessus CATHAR_SHIP_nestor CATHAR_SHIP_nimrod CATHAR_SHIP_niobe CATHAR_SHIP_oberon CATHAR_SHIP_odin CATHAR_SHIP_ophelia CATHAR_SHIP_orestes CATHAR_SHIP_orpheus CATHAR_SHIP_osiris CATHAR_SHIP_pandora CATHAR_SHIP_penelope CATHAR_SHIP_persephone CATHAR_SHIP_perseus CATHAR_SHIP_phoebe CATHAR_SHIP_pluto CATHAR_SHIP_poseidon CATHAR_SHIP_proteus CATHAR_SHIP_pylades CATHAR_SHIP_serapis CATHAR_SHIP_stygian CATHAR_SHIP_tantalus CATHAR_SHIP_telemachus CATHAR_SHIP_theseus CATHAR_SHIP_thor CATHAR_SHIP_trajan CATHAR_SHIP_triton CATHAR_SHIP_venus CATHAR_SHIP_adamant CATHAR_SHIP_ardent CATHAR_SHIP_assail CATHAR_SHIP_austere CATHAR_SHIP_archon CATHAR_SHIP_adroit CATHAR_SHIP_aegis CATHAR_SHIP_anchor CATHAR_SHIP_corsair CATHAR_SHIP_banshee CATHAR_SHIP_enchantress CATHAR_SHIP_eradicator CATHAR_SHIP_tormentor CATHAR_SHIP_legion CATHAR_SHIP_reprisal CATHAR_SHIP_aggressor CATHAR_SHIP_assault CATHAR_SHIP_eviscerator CATHAR_SHIP_imperator CATHAR_SHIP_excellence CATHAR_SHIP_unrivalled CATHAR_SHIP_warlord CATHAR_SHIP_vengeance CATHAR_SHIP_triumphant CATHAR_SHIP_nemesis CATHAR_SHIP_avenger CATHAR_SHIP_champion CATHAR_SHIP_conqueror CATHAR_SHIP_crusader CATHAR_SHIP_glory CATHAR_SHIP_immortal CATHAR_SHIP_judicator CATHAR_SHIP_vanguard CATHAR_SHIP_renown CATHAR_SHIP_demolisher CATHAR_SHIP_dragon CATHAR_SHIP_executor CATHAR_SHIP_furious CATHAR_SHIP_gladiator CATHAR_SHIP_magnificent CATHAR_SHIP_ogre CATHAR_SHIP_onslaught CATHAR_SHIP_revenge CATHAR_SHIP_vanquisher CATHAR_SHIP_vehement CATHAR_SHIP_basilisk CATHAR_SHIP_tempest CATHAR_SHIP_overlord CATHAR_SHIP_warrior CATHAR_SHIP_titan CATHAR_SHIP_colossus CATHAR_SHIP_prometheus CATHAR_SHIP_nike CATHAR_SHIP_paladin CATHAR_SHIP_sovereign CATHAR_SHIP_repulse CATHAR_SHIP_majestic CATHAR_SHIP_avatar CATHAR_SHIP_behemoth CATHAR_SHIP_centurion CATHAR_SHIP_citadel CATHAR_SHIP_katana CATHAR_SHIP_kraken CATHAR_SHIP_cerberus CATHAR_SHIP_valkyrie
+		}
+		swp_bellator = {
+			CATHAR_SHIP_dreadnought CATHAR_SHIP_harbinger CATHAR_SHIP_juggernaut CATHAR_SHIP_leviathan CATHAR_SHIP_hyperion CATHAR_SHIP_galatea CATHAR_SHIP_ambush CATHAR_SHIP_vindicator
+		}
+		science = {
+			CATHAR_SHIP_crescent CATHAR_SHIP_diligent CATHAR_SHIP_zephyr CATHAR_SHIP_enigma CATHAR_SHIP_conquistador CATHAR_SHIP_scylla CATHAR_SHIP_arbiter CATHAR_SHIP_asperity CATHAR_SHIP_eminence CATHAR_SHIP_astute CATHAR_SHIP_alacrity CATHAR_SHIP_satyr CATHAR_SHIP_prospero CATHAR_SHIP_untiring CATHAR_SHIP_zenith CATHAR_SHIP_torch CATHAR_SHIP_remembrance CATHAR_SHIP_pilgrim CATHAR_SHIP_trailblazer CATHAR_SHIP_vagabond CATHAR_SHIP_wayfarer CATHAR_SHIP_ambassador CATHAR_SHIP_emissary CATHAR_SHIP_nomad CATHAR_SHIP_pathfinder CATHAR_SHIP_wanderer CATHAR_SHIP_traveler
+		}
+		colonizer = {
+			CATHAR_SHIP_godspeed CATHAR_SHIP_prophecy CATHAR_SHIP_manifest_destiny CATHAR_SHIP_virtue CATHAR_SHIP_potential CATHAR_SHIP_expansion CATHAR_SHIP_pioneer_spirit CATHAR_SHIP_prosperity CATHAR_SHIP_summit CATHAR_SHIP_pinnacle CATHAR_SHIP_seeder CATHAR_SHIP_harvest CATHAR_SHIP_demeter CATHAR_SHIP_isis CATHAR_SHIP_ceres CATHAR_SHIP_exodus CATHAR_SHIP_foundation CATHAR_SHIP_scion CATHAR_SHIP_progeny CATHAR_SHIP_obligation CATHAR_SHIP_purpose CATHAR_SHIP_provider CATHAR_SHIP_shining_city CATHAR_SHIP_acquirer CATHAR_SHIP_cultivator CATHAR_SHIP_dawn_of_civilization CATHAR_SHIP_purity CATHAR_SHIP_community CATHAR_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			CATHAR_SHIP_godspeed CATHAR_SHIP_prophecy CATHAR_SHIP_manifest_destiny CATHAR_SHIP_virtue CATHAR_SHIP_potential CATHAR_SHIP_expansion CATHAR_SHIP_pioneer_spirit CATHAR_SHIP_prosperity CATHAR_SHIP_summit CATHAR_SHIP_pinnacle CATHAR_SHIP_seeder CATHAR_SHIP_harvest CATHAR_SHIP_isis CATHAR_SHIP_ceres CATHAR_SHIP_exodus CATHAR_SHIP_foundation CATHAR_SHIP_scion CATHAR_SHIP_progeny CATHAR_SHIP_obligation CATHAR_SHIP_purpose CATHAR_SHIP_provider CATHAR_SHIP_shining_city CATHAR_SHIP_acquirer CATHAR_SHIP_cultivator CATHAR_SHIP_dawn_of_civilization CATHAR_SHIP_purity CATHAR_SHIP_community CATHAR_SHIP_brotherhood
+		}
+		constructor = {
+			CATHAR_SHIP_industry CATHAR_SHIP_assiduity CATHAR_SHIP_effort CATHAR_SHIP_laborer CATHAR_SHIP_builder CATHAR_SHIP_craftsman CATHAR_SHIP_hard_hat CATHAR_SHIP_progress CATHAR_SHIP_engineer CATHAR_SHIP_promise CATHAR_SHIP_service CATHAR_SHIP_shelter CATHAR_SHIP_beast CATHAR_SHIP_creator CATHAR_SHIP_developer CATHAR_SHIP_forger CATHAR_SHIP_foundry CATHAR_SHIP_factory CATHAR_SHIP_anvil CATHAR_SHIP_pillar CATHAR_SHIP_architect CATHAR_SHIP_accommodator CATHAR_SHIP_ptah CATHAR_SHIP_ilmarinen CATHAR_SHIP_creidhne CATHAR_SHIP_gobannus CATHAR_SHIP_luchtaine CATHAR_SHIP_goibniu CATHAR_SHIP_vishvakarman CATHAR_SHIP_tvastar CATHAR_SHIP_ikenga CATHAR_SHIP_qaynan CATHAR_SHIP_ucuetis CATHAR_SHIP_ogoun
+		}
+		transport = {
+			CATHAR_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			CATHAR_SHIP_spacegun_victory CATHAR_SHIP_spacegun_success CATHAR_SHIP_spacegun_supremacy CATHAR_SHIP_spacegun_superior CATHAR_SHIP_spacegun_adventure CATHAR_SHIP_spacegun_ascendancy CATHAR_SHIP_spacegun_paramount CATHAR_SHIP_spacegun_preponderous CATHAR_SHIP_spacegun_exemplary CATHAR_SHIP_spacegun_eximious CATHAR_SHIP_spacegun_pertinacity CATHAR_SHIP_spacegun_acclaim CATHAR_SHIP_spacegun_honor CATHAR_SHIP_spacegun_renown CATHAR_SHIP_spacegun_glory CATHAR_SHIP_spacegun_superb CATHAR_SHIP_spacegun_magnificence CATHAR_SHIP_spacegun_majestic CATHAR_SHIP_spacegun_splendor CATHAR_SHIP_spacegun_paradigm CATHAR_SHIP_spacegun_flawless CATHAR_SHIP_spacegun_consummate CATHAR_SHIP_spacegun_merit CATHAR_SHIP_spacegun_perfection CATHAR_SHIP_spacegun_virtue CATHAR_SHIP_spacegun_advantage CATHAR_SHIP_spacegun_rectitude CATHAR_SHIP_spacegun_incorruptible CATHAR_SHIP_spacegun_integrity CATHAR_SHIP_spacegun_justice CATHAR_SHIP_spacegun_probity CATHAR_SHIP_spacegun_prudence CATHAR_SHIP_spacegun_purity CATHAR_SHIP_spacegun_resolute CATHAR_SHIP_spacegun_dignity CATHAR_SHIP_spacegun_distinction CATHAR_SHIP_spacegun_excellence CATHAR_SHIP_spacegun_faithful CATHAR_SHIP_spacegun_discipline CATHAR_SHIP_spacegun_steadfast CATHAR_SHIP_spacegun_recompense CATHAR_SHIP_spacegun_requiem CATHAR_SHIP_spacegun_courage CATHAR_SHIP_spacegun_valor CATHAR_SHIP_spacegun_gallant CATHAR_SHIP_spacegun_daring CATHAR_SHIP_spacegun_constancy CATHAR_SHIP_spacegun_perseverence CATHAR_SHIP_spacegun_tenacity CATHAR_SHIP_spacegun_sedulity CATHAR_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			CATHAR_SHIP_spacegun_victory CATHAR_SHIP_spacegun_success CATHAR_SHIP_spacegun_supremacy CATHAR_SHIP_spacegun_superior CATHAR_SHIP_spacegun_adventure CATHAR_SHIP_spacegun_ascendancy CATHAR_SHIP_spacegun_paramount CATHAR_SHIP_spacegun_preponderous CATHAR_SHIP_spacegun_exemplary CATHAR_SHIP_spacegun_eximious CATHAR_SHIP_spacegun_pertinacity CATHAR_SHIP_spacegun_acclaim CATHAR_SHIP_spacegun_honor CATHAR_SHIP_spacegun_renown CATHAR_SHIP_spacegun_glory CATHAR_SHIP_spacegun_superb CATHAR_SHIP_spacegun_magnificence CATHAR_SHIP_spacegun_majestic CATHAR_SHIP_spacegun_splendor CATHAR_SHIP_spacegun_paradigm CATHAR_SHIP_spacegun_flawless CATHAR_SHIP_spacegun_consummate CATHAR_SHIP_spacegun_merit CATHAR_SHIP_spacegun_perfection CATHAR_SHIP_spacegun_virtue CATHAR_SHIP_spacegun_advantage CATHAR_SHIP_spacegun_rectitude CATHAR_SHIP_spacegun_incorruptible CATHAR_SHIP_spacegun_integrity CATHAR_SHIP_spacegun_justice CATHAR_SHIP_spacegun_probity CATHAR_SHIP_spacegun_prudence CATHAR_SHIP_spacegun_purity CATHAR_SHIP_spacegun_resolute CATHAR_SHIP_spacegun_dignity CATHAR_SHIP_spacegun_distinction CATHAR_SHIP_spacegun_excellence CATHAR_SHIP_spacegun_faithful CATHAR_SHIP_spacegun_discipline CATHAR_SHIP_spacegun_steadfast CATHAR_SHIP_spacegun_recompense CATHAR_SHIP_spacegun_requiem CATHAR_SHIP_spacegun_courage CATHAR_SHIP_spacegun_valor CATHAR_SHIP_spacegun_gallant CATHAR_SHIP_spacegun_daring CATHAR_SHIP_spacegun_constancy CATHAR_SHIP_spacegun_perseverence CATHAR_SHIP_spacegun_tenacity CATHAR_SHIP_spacegun_sedulity CATHAR_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			CATHAR_SHIP_spacegun_victory CATHAR_SHIP_spacegun_success CATHAR_SHIP_spacegun_supremacy CATHAR_SHIP_spacegun_superior CATHAR_SHIP_spacegun_adventure CATHAR_SHIP_spacegun_ascendancy CATHAR_SHIP_spacegun_paramount CATHAR_SHIP_spacegun_preponderous CATHAR_SHIP_spacegun_exemplary CATHAR_SHIP_spacegun_eximious CATHAR_SHIP_spacegun_pertinacity CATHAR_SHIP_spacegun_acclaim CATHAR_SHIP_spacegun_honor CATHAR_SHIP_spacegun_renown CATHAR_SHIP_spacegun_glory CATHAR_SHIP_spacegun_superb CATHAR_SHIP_spacegun_magnificence CATHAR_SHIP_spacegun_majestic CATHAR_SHIP_spacegun_splendor CATHAR_SHIP_spacegun_paradigm CATHAR_SHIP_spacegun_flawless CATHAR_SHIP_spacegun_consummate CATHAR_SHIP_spacegun_merit CATHAR_SHIP_spacegun_perfection CATHAR_SHIP_spacegun_virtue CATHAR_SHIP_spacegun_advantage CATHAR_SHIP_spacegun_rectitude CATHAR_SHIP_spacegun_incorruptible CATHAR_SHIP_spacegun_integrity CATHAR_SHIP_spacegun_justice CATHAR_SHIP_spacegun_probity CATHAR_SHIP_spacegun_prudence CATHAR_SHIP_spacegun_purity CATHAR_SHIP_spacegun_resolute CATHAR_SHIP_spacegun_dignity CATHAR_SHIP_spacegun_distinction CATHAR_SHIP_spacegun_excellence CATHAR_SHIP_spacegun_faithful CATHAR_SHIP_spacegun_discipline CATHAR_SHIP_spacegun_steadfast CATHAR_SHIP_spacegun_recompense CATHAR_SHIP_spacegun_requiem CATHAR_SHIP_spacegun_courage CATHAR_SHIP_spacegun_valor CATHAR_SHIP_spacegun_gallant CATHAR_SHIP_spacegun_daring CATHAR_SHIP_spacegun_constancy CATHAR_SHIP_spacegun_perseverence CATHAR_SHIP_spacegun_tenacity CATHAR_SHIP_spacegun_sedulity CATHAR_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			CATHAR_SHIP_citadel CATHAR_SHIP_albacore CATHAR_SHIP_gateway CATHAR_SHIP_vincent CATHAR_SHIP_babylon CATHAR_SHIP_caernavon CATHAR_SHIP_acre CATHAR_SHIP_pembroke CATHAR_SHIP_acheron CATHAR_SHIP_spithead CATHAR_SHIP_halifax CATHAR_SHIP_victoria CATHAR_SHIP_chatham CATHAR_SHIP_anchorage CATHAR_SHIP_scapa_flow CATHAR_SHIP_hampton_roads CATHAR_SHIP_brooklyn CATHAR_SHIP_norfolk CATHAR_SHIP_newport CATHAR_SHIP_guam CATHAR_SHIP_pensacola CATHAR_SHIP_vesuvius CATHAR_SHIP_mckinley CATHAR_SHIP_everest CATHAR_SHIP_kilimanjaro CATHAR_SHIP_aconcagua CATHAR_SHIP_elbrus CATHAR_SHIP_st__helens CATHAR_SHIP_fuji CATHAR_SHIP_olympus CATHAR_SHIP_sinai CATHAR_SHIP_ambrose CATHAR_SHIP_bermuda CATHAR_SHIP_farpoint CATHAR_SHIP_blue_star CATHAR_SHIP_olympus_mons CATHAR_SHIP_tharsis CATHAR_SHIP_syrtis CATHAR_SHIP_blackham CATHAR_SHIP_fletcher CATHAR_SHIP_perry CATHAR_SHIP_butakov CATHAR_SHIP_morris CATHAR_SHIP_moorsom CATHAR_SHIP_hart CATHAR_SHIP_hargood CATHAR_SHIP_spruance CATHAR_SHIP_tanaka CATHAR_SHIP_halsey CATHAR_SHIP_turner CATHAR_SHIP_doria CATHAR_SHIP_tirpitz CATHAR_SHIP_cunningham CATHAR_SHIP_jellicoe CATHAR_SHIP_hipper CATHAR_SHIP_beatty CATHAR_SHIP_potemkin CATHAR_SHIP_durham CATHAR_SHIP_codrington CATHAR_SHIP_milne CATHAR_SHIP_laforey CATHAR_SHIP_tyler CATHAR_SHIP_hawke CATHAR_SHIP_yonai CATHAR_SHIP_pound CATHAR_SHIP_king CATHAR_SHIP_crutchley CATHAR_SHIP_mountbatten CATHAR_SHIP_kountouriotis CATHAR_SHIP_kuznetsov CATHAR_SHIP_essen CATHAR_SHIP_kornilov CATHAR_SHIP_suffren CATHAR_SHIP_treville CATHAR_SHIP_villeneuve CATHAR_SHIP_grasse CATHAR_SHIP_byng CATHAR_SHIP_lezo
+		}
+		ion_cannon = {
+			CATHAR_SHIP_bombard CATHAR_SHIP_ballista CATHAR_SHIP_catapult CATHAR_SHIP_harpoon CATHAR_SHIP_polybolos CATHAR_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			CATHAR_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			CATHAR_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			CATHAR_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			CATHAR_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			CATHAR_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			CATHAR_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			CATHAR_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			CATHAR_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			CATHAR_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			CATHAR_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			CATHAR_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			CATHAR_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			CATHAR_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			CATHAR_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			CATHAR_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			CATHAR_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			CATHAR_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			CATHAR_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			CATHAR_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			CATHAR_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			CATHAR_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			CATHAR_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			CATHAR_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			CATHAR_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			CATHAR_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			CATHAR_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			CATHAR_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			CATHAR_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			CATHAR_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			CATHAR_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			CATHAR_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			CATHAR_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			CATHAR_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			CATHAR_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			CATHAR_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			CATHAR_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			CATHAR_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			CATHAR_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			CATHAR_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			CATHAR_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			CATHAR_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			CATHAR_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			CATHAR_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			CATHAR_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			CATHAR_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			CATHAR_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			CATHAR_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			CATHAR_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			CATHAR_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			CATHAR_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			CATHAR_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			CATHAR_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			CATHAR_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			CATHAR_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			CATHAR_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			CATHAR_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			CATHAR_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			CATHAR_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			CATHAR_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			CATHAR_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			CATHAR_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			CATHAR_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			CATHAR_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			CATHAR_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			CATHAR_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			CATHAR_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			CATHAR_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			CATHAR_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			CATHAR_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			CATHAR_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			CATHAR_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			CATHAR_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			CATHAR_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			CATHAR_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			CATHAR_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			CATHAR_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			CATHAR_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			CATHAR_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			CATHAR_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			CATHAR_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			CATHAR_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			CATHAR_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			CATHAR_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			CATHAR_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			CATHAR_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			CATHAR_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			CATHAR_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			CATHAR_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			CATHAR_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			CATHAR_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			CATHAR_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			CATHAR_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			CATHAR_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			CATHAR_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = CATHAR_FLEET_fleet_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = CATHAR_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = CATHAR_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = CATHAR_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = CATHAR_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = CATHAR_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = CATHAR_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = CATHAR_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = CATHAR_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				CATHAR_ARMY_sarc_a__gladiators_ CATHAR_ARMY_sarc_b__widowmakers_ CATHAR_ARMY_sarc_c__immortals_ CATHAR_ARMY_sarc_d__berserkers_ CATHAR_ARMY_sarc_e__assassins_ CATHAR_ARMY_sarc_f__reapers_ CATHAR_ARMY_sarc_g__nighthawks_ CATHAR_ARMY_sarc_h__desperados_ CATHAR_ARMY_sarc_i__grey_knights_ CATHAR_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = CATHAR_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = CATHAR_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = CATHAR_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = CATHAR_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = CATHAR_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = CATHAR_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = CATHAR_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = CATHAR_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = CATHAR_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = CATHAR_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = CATHAR_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = CATHAR_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = CATHAR_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = CATHAR_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = CATHAR_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = CATHAR_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = CATHAR_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = CATHAR_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = CATHAR_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = CATHAR_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = CATHAR_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = CATHAR_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = CATHAR_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = CATHAR_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = CATHAR_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = CATHAR_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = CATHAR_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = CATHAR_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = CATHAR_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = CATHAR_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = CATHAR_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = CATHAR_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = CATHAR_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = CATHAR_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = CATHAR_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = CATHAR_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = CATHAR_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = CATHAR_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = CATHAR_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = CATHAR_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = CATHAR_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = CATHAR_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = CATHAR_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = CATHAR_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = CATHAR_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = CATHAR_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = CATHAR_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = CATHAR_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = CATHAR_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = CATHAR_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = CATHAR_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = CATHAR_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = CATHAR_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = CATHAR_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = CATHAR_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = CATHAR_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = CATHAR_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = CATHAR_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = CATHAR_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = CATHAR_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = CATHAR_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = CATHAR_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = CATHAR_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = CATHAR_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = CATHAR_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = CATHAR_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = CATHAR_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = CATHAR_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = CATHAR_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = CATHAR_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = CATHAR_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = CATHAR_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = CATHAR_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = CATHAR_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = CATHAR_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = CATHAR_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = CATHAR_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = CATHAR_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = CATHAR_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = CATHAR_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = CATHAR_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = CATHAR_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = CATHAR_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = CATHAR_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = CATHAR_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = CATHAR_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = CATHAR_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = CATHAR_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = CATHAR_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = CATHAR_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = CATHAR_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = CATHAR_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = CATHAR_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = CATHAR_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = CATHAR_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = CATHAR_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = CATHAR_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = CATHAR_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = CATHAR_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = CATHAR_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = CATHAR_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = CATHAR_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = CATHAR_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = CATHAR_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = CATHAR_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = CATHAR_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = CATHAR_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = CATHAR_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = CATHAR_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = CATHAR_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = CATHAR_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = CATHAR_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = CATHAR_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = CATHAR_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = CATHAR_ARMY_hapan_royal_guard_ORD
+		}
+		fortification_1 = {
+			sequential_name = CATHAR_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = CATHAR_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = CATHAR_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = CATHAR_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = CATHAR_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = CATHAR_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = CATHAR_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = CATHAR_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = CATHAR_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = CATHAR_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = CATHAR_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = CATHAR_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = CATHAR_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = CATHAR_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = CATHAR_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = CATHAR_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = CATHAR_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				CATHAR_CHR_bail CATHAR_CHR_ylenic CATHAR_CHR_kel CATHAR_CHR_gunn CATHAR_CHR_gregory CATHAR_CHR_abraxis CATHAR_CHR_jonas CATHAR_CHR_xerda CATHAR_CHR_carth CATHAR_CHR_kir CATHAR_CHR_mebba CATHAR_CHR_dagos CATHAR_CHR_adam CATHAR_CHR_kyle CATHAR_CHR_forren CATHAR_CHR_malcolm CATHAR_CHR_jeho CATHAR_CHR_lee CATHAR_CHR_griggs CATHAR_CHR_milo CATHAR_CHR_aeron CATHAR_CHR_byrec CATHAR_CHR_strata CATHAR_CHR_lancer CATHAR_CHR_zeak CATHAR_CHR_niuk CATHAR_CHR_lavidean CATHAR_CHR_tanizandar CATHAR_CHR_japla CATHAR_CHR_aran CATHAR_CHR_rail CATHAR_CHR_zeven CATHAR_CHR_yakown CATHAR_CHR_sibar CATHAR_CHR_sair CATHAR_CHR_klai CATHAR_CHR_jonas CATHAR_CHR_imay CATHAR_CHR_traest CATHAR_CHR_simo CATHAR_CHR_carth CATHAR_CHR_riyan CATHAR_CHR_magnus CATHAR_CHR_boceta CATHAR_CHR_agnook CATHAR_CHR_silus CATHAR_CHR_rowan CATHAR_CHR_coren CATHAR_CHR_jett CATHAR_CHR_linth CATHAR_CHR_annor CATHAR_CHR_ulas CATHAR_CHR_fenn CATHAR_CHR_tal CATHAR_CHR_plo CATHAR_CHR_torin CATHAR_CHR_imay CATHAR_CHR_boone CATHAR_CHR_davith CATHAR_CHR_jorgen CATHAR_CHR_bertos CATHAR_CHR_ress CATHAR_CHR_malius CATHAR_CHR_kale CATHAR_CHR_cregan CATHAR_CHR_galen CATHAR_CHR_zekk CATHAR_CHR_jinn_tu CATHAR_CHR_jaryn CATHAR_CHR_gentti CATHAR_CHR_yu_sien CATHAR_CHR_akela CATHAR_CHR_arslan CATHAR_CHR_sidias CATHAR_CHR_haken CATHAR_CHR_biran CATHAR_CHR_vidown CATHAR_CHR_ares CATHAR_CHR_ithan CATHAR_CHR_cul_utaan CATHAR_CHR_thoja CATHAR_CHR_cron CATHAR_CHR_mossi CATHAR_CHR_abric CATHAR_CHR_darg CATHAR_CHR_gaman CATHAR_CHR_naiad CATHAR_CHR_herub CATHAR_CHR_marius CATHAR_CHR_torkin CATHAR_CHR_caton CATHAR_CHR_kane CATHAR_CHR_versita CATHAR_CHR_cric CATHAR_CHR_foxdi CATHAR_CHR_montacca CATHAR_CHR_jospi CATHAR_CHR_baz CATHAR_CHR_kam CATHAR_CHR_erek CATHAR_CHR_arslan CATHAR_CHR_lerak CATHAR_CHR_morla CATHAR_CHR_baxter CATHAR_CHR_talan CATHAR_CHR_thion CATHAR_CHR_kannon CATHAR_CHR_corsair CATHAR_CHR_caster CATHAR_CHR_elden CATHAR_CHR_faelgrom CATHAR_CHR_jack CATHAR_CHR_raltharan CATHAR_CHR_flash CATHAR_CHR_waseem CATHAR_CHR_bendak CATHAR_CHR_kaz CATHAR_CHR_montileu CATHAR_CHR_gonoga CATHAR_CHR_silus CATHAR_CHR_galven CATHAR_CHR_vincenzo CATHAR_CHR_ric CATHAR_CHR_rebar CATHAR_CHR_jebediah CATHAR_CHR_aramil CATHAR_CHR_abraxis CATHAR_CHR_delmi CATHAR_CHR_caalin CATHAR_CHR_rassth CATHAR_CHR_adorn CATHAR_CHR_cyrus CATHAR_CHR_zhar_khan CATHAR_CHR_adam CATHAR_CHR_predor CATHAR_CHR_tarlson CATHAR_CHR_boaz CATHAR_CHR_bradley CATHAR_CHR_gunn CATHAR_CHR_raltharan CATHAR_CHR_zerrid CATHAR_CHR_bobecc CATHAR_CHR_jelantos CATHAR_CHR_jephego CATHAR_CHR_svante CATHAR_CHR_tesvalo CATHAR_CHR_aeon CATHAR_CHR_dekar CATHAR_CHR_jean_francois CATHAR_CHR_elen CATHAR_CHR_han CATHAR_CHR_owen CATHAR_CHR_biggs
+			}
+			first_names_female = {
+				CATHAR_CHR_charratha CATHAR_CHR_edaara CATHAR_CHR_bella CATHAR_CHR_callista CATHAR_CHR_mara CATHAR_CHR_seena CATHAR_CHR_areta CATHAR_CHR_cord CATHAR_CHR_cyrinity CATHAR_CHR_nile CATHAR_CHR_kiyfi CATHAR_CHR_yasmyn CATHAR_CHR_satra CATHAR_CHR_shehish CATHAR_CHR_sarna CATHAR_CHR_krava CATHAR_CHR_roxis CATHAR_CHR_jessa CATHAR_CHR_aqua CATHAR_CHR_maryna CATHAR_CHR_essaj CATHAR_CHR_looriw CATHAR_CHR_teeana CATHAR_CHR_raena CATHAR_CHR_yula CATHAR_CHR_vifi CATHAR_CHR_vania CATHAR_CHR_jeanida CATHAR_CHR_aerena CATHAR_CHR_nataya CATHAR_CHR_bernarda CATHAR_CHR_geela CATHAR_CHR_lya CATHAR_CHR_sirra CATHAR_CHR_teris CATHAR_CHR_terral CATHAR_CHR_nile CATHAR_CHR_riema CATHAR_CHR_erri CATHAR_CHR_shanna CATHAR_CHR_lyra CATHAR_CHR_pranda CATHAR_CHR_luna CATHAR_CHR_cally CATHAR_CHR_viqi CATHAR_CHR_hadriel CATHAR_CHR_lora CATHAR_CHR_selena CATHAR_CHR_zana CATHAR_CHR_tuija CATHAR_CHR_railin CATHAR_CHR_odona CATHAR_CHR_shyon CATHAR_CHR_walas CATHAR_CHR_rylla CATHAR_CHR_gara CATHAR_CHR_delos CATHAR_CHR_loretta CATHAR_CHR_luhon CATHAR_CHR_delinia CATHAR_CHR_aama CATHAR_CHR_shorya CATHAR_CHR_melfina CATHAR_CHR_davessi CATHAR_CHR_larana CATHAR_CHR_galatea CATHAR_CHR_nola CATHAR_CHR_syna CATHAR_CHR_jauhzmynn CATHAR_CHR_anen CATHAR_CHR_orona CATHAR_CHR_yana CATHAR_CHR_zoras CATHAR_CHR_ree CATHAR_CHR_grace CATHAR_CHR_tantema CATHAR_CHR_myn CATHAR_CHR_una CATHAR_CHR_dalharil CATHAR_CHR_losa CATHAR_CHR_sovi CATHAR_CHR_elaiza CATHAR_CHR_vucora CATHAR_CHR_ava CATHAR_CHR_joi CATHAR_CHR_stryka CATHAR_CHR_tantema CATHAR_CHR_shandra CATHAR_CHR_kely CATHAR_CHR_caileta CATHAR_CHR_taia CATHAR_CHR_siala CATHAR_CHR_reki CATHAR_CHR_maydla CATHAR_CHR_bot CATHAR_CHR_kiandra CATHAR_CHR_xilaren CATHAR_CHR_zulara CATHAR_CHR_ren CATHAR_CHR_karissa CATHAR_CHR_roxis CATHAR_CHR_haruko CATHAR_CHR_jenna CATHAR_CHR_liana CATHAR_CHR_rale CATHAR_CHR_megara CATHAR_CHR_aria CATHAR_CHR_akiva CATHAR_CHR_nalah CATHAR_CHR_erlem CATHAR_CHR_nali CATHAR_CHR_fallah CATHAR_CHR_kotrana CATHAR_CHR_aayla CATHAR_CHR_kalira CATHAR_CHR_arani CATHAR_CHR_fama CATHAR_CHR_lyyr CATHAR_CHR_arcas CATHAR_CHR_rane CATHAR_CHR_nayru CATHAR_CHR_zylas CATHAR_CHR_vexa CATHAR_CHR_kana CATHAR_CHR_beru
+			}
+			second_names = {
+				CATHAR_CHR_elysar CATHAR_CHR_tisa CATHAR_CHR_wahia CATHAR_CHR_wezz CATHAR_CHR_unic CATHAR_CHR_tiovata CATHAR_CHR_nakcohh CATHAR_CHR_vitaan CATHAR_CHR_mefrid CATHAR_CHR_daklan CATHAR_CHR_kenzee CATHAR_CHR_joben CATHAR_CHR_thegas CATHAR_CHR_moryne CATHAR_CHR_holgor CATHAR_CHR_ijaaz CATHAR_CHR_tromans CATHAR_CHR_sprax CATHAR_CHR_knesos CATHAR_CHR_magnus CATHAR_CHR_lasek CATHAR_CHR_artis CATHAR_CHR_pax CATHAR_CHR_corso CATHAR_CHR_fallon CATHAR_CHR_gundo CATHAR_CHR_ruana CATHAR_CHR_fremlin CATHAR_CHR_thont CATHAR_CHR_creel CATHAR_CHR_rar CATHAR_CHR_dusat CATHAR_CHR_kessler CATHAR_CHR_shaia CATHAR_CHR_el_theriam CATHAR_CHR_vanmeer CATHAR_CHR_vrieska CATHAR_CHR_calway CATHAR_CHR_yamaguchi CATHAR_CHR_riggers CATHAR_CHR_brower CATHAR_CHR_fash CATHAR_CHR_nalto CATHAR_CHR_stryder CATHAR_CHR_dubreas CATHAR_CHR_colsan CATHAR_CHR_terrek CATHAR_CHR_solon CATHAR_CHR_merquise CATHAR_CHR_varn CATHAR_CHR_basai CATHAR_CHR_froud CATHAR_CHR_addacess CATHAR_CHR_elysar CATHAR_CHR_durgen CATHAR_CHR_slahlvo CATHAR_CHR_remex CATHAR_CHR_madowki CATHAR_CHR_hayes CATHAR_CHR_ne CATHAR_CHR_dago CATHAR_CHR_greenback CATHAR_CHR_stithta CATHAR_CHR_ker CATHAR_CHR_driet CATHAR_CHR_klakk CATHAR_CHR_reed CATHAR_CHR_lefex CATHAR_CHR_minn CATHAR_CHR_irokini CATHAR_CHR_roye CATHAR_CHR_danakar CATHAR_CHR_forin CATHAR_CHR_glopio CATHAR_CHR_shenuri CATHAR_CHR_corcer CATHAR_CHR_ordo CATHAR_CHR_wan CATHAR_CHR_tagratt CATHAR_CHR_golladio CATHAR_CHR_adramcsia CATHAR_CHR_jetberg CATHAR_CHR_noth CATHAR_CHR_taske CATHAR_CHR_komo CATHAR_CHR_styles CATHAR_CHR_angavel CATHAR_CHR_tyrnith CATHAR_CHR_yavoog CATHAR_CHR_kelbier CATHAR_CHR_racto CATHAR_CHR_degor CATHAR_CHR_tisa CATHAR_CHR_magre CATHAR_CHR_soylon CATHAR_CHR_lerann CATHAR_CHR_chro CATHAR_CHR_finn CATHAR_CHR_blackmoor CATHAR_CHR_hwang CATHAR_CHR_vekarr CATHAR_CHR_thegas CATHAR_CHR_amon CATHAR_CHR_thiddex CATHAR_CHR_durgen CATHAR_CHR_selkayim CATHAR_CHR_gilder CATHAR_CHR_dhuramav CATHAR_CHR_kodd CATHAR_CHR_morin CATHAR_CHR_kobylarz CATHAR_CHR_tade CATHAR_CHR_solman CATHAR_CHR_bintaghr CATHAR_CHR_marclonus CATHAR_CHR_precore CATHAR_CHR_solborne CATHAR_CHR_bailer CATHAR_CHR_katarn CATHAR_CHR_anjek CATHAR_CHR_dalgas CATHAR_CHR_kast CATHAR_CHR_airerith CATHAR_CHR_halo CATHAR_CHR_tade CATHAR_CHR_clash CATHAR_CHR_jalba CATHAR_CHR_benn CATHAR_CHR_haruhana CATHAR_CHR_roice CATHAR_CHR_lokar CATHAR_CHR_korpil CATHAR_CHR_turon CATHAR_CHR_cavi CATHAR_CHR_deece CATHAR_CHR_braitano CATHAR_CHR_garnik CATHAR_CHR_tyandas CATHAR_CHR_ka_taramas CATHAR_CHR_nuwest CATHAR_CHR_forte CATHAR_CHR_noshey CATHAR_CHR_gyyll CATHAR_CHR_tallon CATHAR_CHR_lionne CATHAR_CHR_adras CATHAR_CHR_fremlin CATHAR_CHR_peoly CATHAR_CHR_damiel CATHAR_CHR_chup_pau CATHAR_CHR_drayven CATHAR_CHR_zaposug CATHAR_CHR_bela_trepada CATHAR_CHR_defelice CATHAR_CHR_monsula CATHAR_CHR_baralein CATHAR_CHR_denive CATHAR_CHR_hodrren CATHAR_CHR_xergo CATHAR_CHR_sarat CATHAR_CHR_vercet CATHAR_CHR_ossaki CATHAR_CHR_kappa CATHAR_CHR_zerga CATHAR_CHR_kopos CATHAR_CHR_aldrecht CATHAR_CHR_bohme CATHAR_CHR_tull CATHAR_CHR_eldrel CATHAR_CHR_marh CATHAR_CHR_darksword CATHAR_CHR_krandor CATHAR_CHR_montag CATHAR_CHR_dimodan CATHAR_CHR_starfallen CATHAR_CHR_artis CATHAR_CHR_fett CATHAR_CHR_mohebbi CATHAR_CHR_runalian CATHAR_CHR_binette CATHAR_CHR_laurent CATHAR_CHR_mavr CATHAR_CHR_ryra CATHAR_CHR_truden CATHAR_CHR_solo CATHAR_CHR_lars CATHAR_CHR_amedda CATHAR_CHR_amidala CATHAR_CHR_andrell CATHAR_CHR_annon CATHAR_CHR_antilles CATHAR_CHR_atanna CATHAR_CHR_baab CATHAR_CHR_barc CATHAR_CHR_bonteri CATHAR_CHR_breemu CATHAR_CHR_bremack CATHAR_CHR_bronk CATHAR_CHR_burtoni CATHAR_CHR_cadaman CATHAR_CHR_callen CATHAR_CHR_clovis CATHAR_CHR_ledwellow CATHAR_CHR_dio CATHAR_CHR_organa
+			}
+			regnal_first_names_male = {
+				CATHAR_CHR_kam CATHAR_CHR_erek CATHAR_CHR_arslan CATHAR_CHR_lerak CATHAR_CHR_morla CATHAR_CHR_mas CATHAR_CHR_wain CATHAR_CHR_bail CATHAR_CHR_gabrial CATHAR_CHR_dewell CATHAR_CHR_tanner CATHAR_CHR_vi CATHAR_CHR_rush CATHAR_CHR_danry
+			}
+			regnal_first_names_female = {
+				CATHAR_CHR_callista CATHAR_CHR_mara CATHAR_CHR_seena CATHAR_CHR_areta CATHAR_CHR_padm_ CATHAR_CHR_fema CATHAR_CHR_mina CATHAR_CHR_bana CATHAR_CHR_tyreca CATHAR_CHR_halle CATHAR_CHR_lexi CATHAR_CHR_leia CATHAR_CHR_alyssa CATHAR_CHR_leanna CATHAR_CHR_arya
+			}
+			regnal_second_names = {
+				CATHAR_CHR_amedda CATHAR_CHR_amidala CATHAR_CHR_andrell CATHAR_CHR_annon CATHAR_CHR_antilles CATHAR_CHR_atanna CATHAR_CHR_baab CATHAR_CHR_barc CATHAR_CHR_bonteri CATHAR_CHR_breemu CATHAR_CHR_bremack CATHAR_CHR_bronk CATHAR_CHR_burtoni CATHAR_CHR_cadaman CATHAR_CHR_callen CATHAR_CHR_clovis CATHAR_CHR_ledwellow CATHAR_CHR_dio CATHAR_CHR_panteer CATHAR_CHR_alde CATHAR_CHR_organa CATHAR_CHR_frayus CATHAR_CHR_cortess CATHAR_CHR_killesa
+			}
+		}
+	}
+}

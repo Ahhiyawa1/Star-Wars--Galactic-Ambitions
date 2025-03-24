@@ -1,0 +1,4402 @@
+namespace = swnd_start
+event = {
+	id = swnd_start.1
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		every_country = {
+			if = { limit = { has_country_flag = init_spawned }
+				country_event = { id = swnd_start.60 days = 1 }
+				country_event = { id = swnd_start.5 } # Set country names and adjectives
+			}
+			country_event = { id = swnd_start.3 }# Set Starting System Surveyed + Kill Unwanted Countries In Each Map
+		}
+		random_country = { limit = { has_country_flag = black_sun_organization }
+			country_event = { id = swnd_start.124 days = 2 } # special case for Falleen because Black Sun can be a player - homeworld issue
+		}
+		event_target:global_event_country = {
+			country_event = { id = swp_habitability.100 }
+		}
+	}
+}
+
+# Start of Game Technology Event - Canon Maps
+country_event = {
+	id = swnd_start.6
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		is_canon_map = yes
+		is_ttce_map = yes
+	}
+
+	immediate = {
+		every_country = {
+			if = {
+				limit = { is_country_type = default }
+				switch = {
+					trigger = has_country_flag
+					# republic
+					galactic_republic = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
+					eriadu_authority = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					ciutric_hegemony = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					
+					# Rebel
+					senate_loyalists = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
+					rebel_alliance = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
+					kingdom_of_alderaan = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					mon_cala_monarchy = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
+					verpine_enclave = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					bothan_council = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					chalactan_council = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					cathar_principality = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					ryloth_protectorate = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+	
+					# Criminal
+					hutt_cartel = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
+					black_sun_organization = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+	
+					# Important
+					mandalorian_clans = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
+					corporate_sector_authority = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
+					corellian_security = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
+					hapes_consortium = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
+					chiss_ascendancy = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
+	
+					# Cis
+					confederate_remnant = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
+					banking_clan = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					tion_hegemony = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
+					trade_federation = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					commerce_guild = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					corporate_alliance = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+	
+					# Other
+					the_centrality = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					greater_javin = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					bakuran_senate = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					pantoran_assembly = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					juvex_sector = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					zygerrian_slave_state = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					trandoshan_tribes = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					echani_command = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					arkanian_dominion = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					trianii_territory = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					rodian_clans = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					zabrak_council = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					cerean_council = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					kingdom_of_zeltros = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					kingdom_of_onderon = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					utapauan_committee = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					killik_colony = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					taanab_authority = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+					#senex_sector = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
+				}
+			}
+		}
+	}
+}
+
+
+# Set Canon Homeworlds - Harain: no longer used but leaving here as reference
+event = {
+	id = swnd_start.10
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			is_canon_map = yes
+			is_ttce_map = yes
+			is_sandbox_map = yes
+		}
+	}
+	immediate = {
+		every_galaxy_species = {
+			switch = {
+				trigger = is_species_class
+				HUM = { set_homeworld = { planet_flag = "planet_coruscant" planet_type = "normal" } }
+				HUT = { set_homeworld = { planet_flag = "planet_nal_hutta" planet_type = "forest" } }
+				MON = { set_homeworld = { planet_flag = "planet_dac" planet_type = "ocean" } }
+				# SNI = { set_homeworld = { planet_flag = "planet_cadomai_prime" planet_type = "cold" } }
+				TWI = { set_homeworld = { planet_flag = "planet_ryloth" planet_type = "forest" } }
+				VUL = { set_homeworld = { planet_flag = "planet_vulpter" planet_type = "dead" } }
+				MUN = { set_homeworld = { planet_flag = "planet_scipio" planet_type = "cold" } }
+				PAN = { set_homeworld = { planet_flag = "moon_pantora" planet_type = "forest" } }
+				SKA = { set_homeworld = { planet_flag = "planet_skako_minor" planet_type = "forest" } }
+				AQR = { set_homeworld = { planet_flag = "planet_velusia" planet_type = "ocean" } }
+				CAA = { set_homeworld = { planet_flag = "planet_caamas" planet_type = "forest" } }
+				MAW = { set_homeworld = { planet_flag = "planet_mawan" planet_type = "forest" } }
+				DRL = { set_homeworld = { planet_flag = "planet_drall" planet_type = "normal" } }
+				SEL = { set_homeworld = { planet_flag = "planet_selonia" planet_type = "ocean" } }
+				DUR = { set_homeworld = { planet_flag = "planet_duro" planet_type = "forest" } }
+				ROD = { set_homeworld = { planet_flag = "planet_rodia" planet_type = "forest" } }
+				NEI = { set_homeworld = { planet_flag = "planet_neimoidia" planet_type = "normal" } }
+				DEV = { set_homeworld = { planet_flag = "planet_devaron" planet_type = "forest" } }
+				# SIN = { set_homeworld = { planet_flag = "planet_" planet_type = "" } } # Mileva - we don't have it - no info about the planet type
+				KAL = { set_homeworld = { planet_flag = "planet_roche" planet_type = "space" } }
+				PAU = { set_homeworld = { planet_flag = "planet_utapau" planet_type = "normal" } }
+				UTA = { set_homeworld = { planet_flag = "planet_utapau" planet_type = "normal" } }
+				SLU = { set_homeworld = { planet_flag = "planet_sluis_van" planet_type = "normal" } }
+				#MUS
+				SUL = { set_homeworld = { planet_flag = "planet_sullust" planet_type = "geothermal" } }
+				BOT = { set_homeworld = { planet_flag = "planet_bothawui" planet_type = "normal" } }
+				OMW = { set_homeworld = { planet_flag = "planet_omwat" planet_type = "forest" } }
+				BIT = { set_homeworld = { planet_flag = "planet_bith" planet_type = "forest" } }
+				GRA = { set_homeworld = { planet_flag = "planet_kinyen" planet_type = "normal" } }
+				TIS = { set_homeworld = { planet_flag = "planet_tisssharl" planet_type = "forest" } }
+				ZYG = { set_homeworld = { planet_flag = "planet_zygerria" planet_type = "dry" } }
+				#VRK
+				AQL = { set_homeworld = { planet_flag = "planet_ando" planet_type = "forest" } }
+				MIR = { set_homeworld = { planet_flag = "planet_mirial" planet_type = "cold" } }
+				QUE = { set_homeworld = { planet_flag = "planet_quermia" planet_type = "ocean" } }
+				BRG = { set_homeworld = { planet_flag = "planet_brigia" planet_type = "dry" } }
+				# GAL = { set_homeworld = { planet_flag = "planet_gala" planet_type = "normal" } }
+				QUA = { set_homeworld = { planet_flag = "planet_dac" planet_type = "ocean" } }
+				WEE = { set_homeworld = { planet_flag = "planet_sriluur" planet_type = "dry" } }
+				SYM = { set_homeworld = { planet_flag = "planet_sy_myrth" planet_type = "city" } }
+				GAM = { set_homeworld = { planet_flag = "planet_gamorr" planet_type = "forest" } }
+				ZAB = { set_homeworld = { planet_flag = "planet_iridonia" planet_type = "geothermal" } }
+				MEE = { set_homeworld = { planet_flag = "planet_bandomeer" planet_type = "normal" } }
+				MAN = { set_homeworld = { planet_flag = "planet_mandalore" planet_type = "dry" } }
+				NGH = { set_homeworld = { planet_flag = "planet_honoghr" planet_type = "forest" } }
+				# BRL = { set_homeworld = { planet_flag = "planet_baroli" planet_type = "forest" } }
+				KEL = { set_homeworld = { planet_flag = "planet_dorin" planet_type = "cold" } }
+				TYN = { set_homeworld = { planet_flag = "planet_tynna" planet_type = "cold" } }
+				UMB = { set_homeworld = { planet_flag = "planet_umbara" planet_type = "forest" } }
+				CAT = { set_homeworld = { planet_flag = "planet_cathar" planet_type = "dry" } }
+				MLK = { set_homeworld = { planet_flag = "planet_alpheridies" planet_type = "cold" } }
+				GIV = { set_homeworld = { planet_flag = "planet_yagdhul" planet_type = "geothermal" } }
+				VRA = { set_homeworld = { planet_flag = "planet_thyferra" planet_type = "forest" } }
+				WRO = { set_homeworld = { planet_flag = "planet_wroona" planet_type = "normal" } }
+				HAP = { set_homeworld = { planet_flag = "planet_hapes" planet_type = "gaia" } }
+				TOY = { set_homeworld = { planet_flag = "planet_toydaria" planet_type = "forest" } }
+				KLA = { set_homeworld = { planet_flag = "planet_klatooine" planet_type = "dry" } }
+				CER = { set_homeworld = { planet_flag = "planet_cerea" planet_type = "normal" } }
+				KOO = { set_homeworld = { planet_flag = "planet_kooriva" planet_type = "forest" } }
+				#DUG
+				#GNG
+				NAU = { set_homeworld = { planet_flag = "planet_glee_anselm" planet_type = "ocean" } }
+				ITH = { set_homeworld = { planet_flag = "planet_ithor" planet_type = "forest" } }
+				VER = { set_homeworld = { planet_flag = "planet_roche" planet_type = "space" } }
+				TRA = { set_homeworld = { planet_flag = "planet_trandosha" planet_type = "forest" } }
+				WOO = { set_homeworld = { planet_flag = "planet_kashyyyk" planet_type = "forest" } }
+				CHA = { set_homeworld = { planet_flag = "planet_chalacta" planet_type = "normal" } }
+				DRE = { set_homeworld = { planet_flag = "planet_dressel" planet_type = "normal" } }
+				#SSI
+				#PWE
+				CHS = { set_homeworld = { planet_flag = "planet_csilla" planet_type = "cold" } }
+				KAM = { set_homeworld = { planet_flag = "planet_kamino" planet_type = "ocean" } }
+				JEF = { set_homeworld = { planet_flag = "planet_botajef" planet_type = "normal" } }
+				TGR = { set_homeworld = { planet_flag = "planet_shili" planet_type = "normal" } }
+				KOR = { set_homeworld = { planet_flag = "planet_haruun_kal" planet_type = "forest" } }
+				KIF = { set_homeworld = { planet_flag = "planet_kiffu" planet_type = "dry" } }
+				ARK = { set_homeworld = { planet_flag = "planet_arkania" planet_type = "cold" } }
+				#GRE
+				#LAS
+				ZEL = { set_homeworld = { planet_flag = "planet_zeltros" planet_type = "normal" } }
+				#BDT
+				BSR = { set_homeworld = { planet_flag = "planet_balosar" planet_type = "dead" } }
+				ECH = { set_homeworld = { planet_flag = "planet_eshan" planet_type = "normal" } }
+				THY = { set_homeworld = { planet_flag = "planet_thyrsus" planet_type = "dry" } }
+				#ARC
+				#NIM = { set_homeworld = { planet_flag = "planet_nimban" planet_type = "dry" } } # disabled dec 2024
+				FAL = { set_homeworld = { planet_flag = "planet_falleen" planet_type = "forest" } }
+				# SAR = { set_homeworld = { planet_flag = "planet_sarkhai" planet_type = "normal" } }
+				VOS = { set_homeworld = { planet_flag = "planet_voss" planet_type = "normal" } }
+				TAL = { set_homeworld = { planet_flag = "planet_alzoc_iii" planet_type = "cold" } }
+				FER = { set_homeworld = { planet_flag = "planet_ferro" planet_type = "normal" } }
+				#GAN
+				# FIR = { set_homeworld = { planet_flag = "planet_firrerre" planet_type = "normal" } }
+				ORE = { set_homeworld = { planet_flag = "planet_oreen" planet_type = "normal" } }
+				EWO = { set_homeworld = { planet_flag = "planet_endor" planet_type = "forest" } }
+				KIL = { set_homeworld = { planet_flag = "planet_alderaan" planet_type = "normal" } }
+				#RAK
+				ALT = { set_homeworld = { planet_flag = "planet_altiria_anarris" planet_type = "normal" } }
+				ANA = { set_homeworld = { planet_flag = "planet_altiria_anarris" planet_type = "normal" } }
+				# PER = { set_homeworld = { planet_flag = "planet_peroenia" planet_type = "cold" } }
+				# SHO = { set_homeworld = { planet_flag = "planet_shor" planet_type = "normal" } }
+				RED = { set_homeworld = { planet_flag = "planet_of_the_red_nebula" planet_type = "dry" } }
+				YAM = { set_homeworld = { planet_flag = "planet_huk" planet_type = "forest" } }
+				KLH = { set_homeworld = { planet_flag = "planet_kalee" planet_type = "normal" } }
+				OCS = { set_homeworld = { planet_flag = "planet_ocsin" planet_type = "normal" } }
+				TII = { set_homeworld = { planet_flag = "planet_trian" planet_type = "forest" } }
+				SAK = { set_homeworld = { planet_flag = "planet_sakiya" planet_type = "forest" } }
+				#UGN
+				JAW = { set_homeworld = { planet_flag = "planet_tatooine" planet_type = "dry" } }
+				TUS = { set_homeworld = { planet_flag = "planet_tatooine" planet_type = "dry" } }
+				FEL = { set_homeworld = { planet_flag = "planet_felucia" planet_type = "forest" } }
+				# ARU = { set_homeworld = { planet_flag = "planet_aruza" planet_type = "normal" } }
+				ILO = { set_homeworld = { planet_flag = "planet_ilos" planet_type = "normal" } }
+				# KES = { set_homeworld = { planet_flag = "planet_kesh" planet_type = "normal" } }
+				#MUR
+				#TOC
+				# LUT = { set_homeworld = { planet_flag = "planet_lutrillia" planet_type = "dry" } }
+				# CLW = { set_homeworld = { planet_flag = "planet_zolan" planet_type = "cold" } }
+				# IST = { set_homeworld = { planet_flag = "planet_tibrin" planet_type = "ocean" } }
+				# ETT = { set_homeworld = { planet_flag = "planet_etti_iv" planet_type = "normal" } }
+				SIT = { set_homeworld = { planet_flag = "planet_korriban" planet_type = "cold" } }
+				GOS = { set_homeworld = { planet_flag = "planet_castell" planet_type = "city" } }
+				# VNG = { set_homeworld = { planet_flag = "planet_" planet_type = "" } }
+				GEO = { set_homeworld = { planet_flag = "planet_geonosis" planet_type = "dry" } }
+				# ORT = { et_homeworld = { planet_flag = "planet_ord_trasi" planet_type = "dry" } }
+				# ROT = { set_homeworld = { planet_flag = "planet_rothana" planet_type = "cold" } }
+				# FED = { set_homeworld = { planet_flag = "planet_fedalle" planet_type = "normal" } }
+				#RANDOM_SW
+				#PRE_RANDOM_SW
+				GUN = { set_homeworld = { planet_flag = "planet_naboo" planet_type = "normal" } }
+				RKG = { set_homeworld = { planet_flag = "planet_taris" planet_type = "city" } }
+			}
+		}
+	}
+}
+
+# generate start fleets
+country_event = {
+	id = swnd_start.2
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		#log = "[This.GetName] from [This.Capital.GetName]"
+		### Set tech group
+		if = {
+			limit = {
+				NOT = {
+					has_start_weapon_techs = yes
+				}
+			}
+			give_start_techs = yes
+		}
+		### Set starfighter group
+		if = {
+			limit = {
+				is_country_type = default
+				has_start_fighter_techs = no
+			}
+			switch = {
+				trigger = graphical_culture
+				imperial_01 = {
+					give_technology = {
+						tech = tech_republic_fighters_1
+						message = no
+					}
+				}
+				rebel_01 = {
+					give_technology = {
+						tech = tech_rebel_fighters_1
+						message = no
+					}
+				}
+				hutt_01 = {
+					give_technology = {
+						tech = tech_hutt_fighters_1
+						message = no
+					}
+				}
+				mando_01 = {
+					give_technology = {
+						tech = tech_mando_fighters_1
+						message = no
+					}
+				}
+				corellian_01 = {
+					give_technology = {
+						tech = tech_rebel_fighters_1
+						message = no
+					}
+				}
+				cis_01 = {
+					give_technology = {
+						tech = tech_cis_fighters_1
+						message = no
+					}
+				}
+				csa_01 = {
+					give_technology = {
+						tech = tech_hutt_fighters_1
+						message = no
+					}
+				}
+				hapes_01 = {
+					give_technology = {
+						tech = tech_hapan_fighters_1
+						message = no
+					}
+				}
+				misc_01 = {
+					give_technology = {
+						tech = tech_hutt_fighters_1
+						message = no
+					}
+				}
+				misc_02 = {
+					give_technology = {
+						tech = tech_cis_fighters_1
+						message = no
+					}
+				}
+				misc_03 = {
+					give_technology = {
+						tech = tech_rebel_fighters_1
+						message = no
+					}
+				}
+				misc_04 = {
+					give_technology = {
+						tech = tech_republic_fighters_1
+						message = no
+					}
+				}
+				chiss_01 = {
+					give_technology = {
+						tech = tech_chiss_fighters_1
+						message = no
+					}
+				}
+			}
+		}
+		### Give Arkanian gene tech
+		if = {
+			limit = {
+				has_country_flag = arkanian_dominion
+			}
+			give_technology = {
+				tech = tech_gene_tailoring
+				message = no
+			}
+		}
+		### Give CIS factions battle droids tech
+		if = {
+			limit = {
+				OR = {
+					has_country_flag = confederate_remnant
+					has_country_flag = corporate_alliance
+					has_country_flag = commerce_guild
+					has_country_flag = tion_hegemony
+					has_country_flag = trade_federation
+					has_country_flag = banking_clan
+					has_country_flag = sluis_sector_vassal
+					has_country_flag = terminus_sector_vassal
+				}
+			}
+			give_technology = {
+				tech = tech_battle_droids
+				message = no
+			}
+		}
+		### Deleting starting player ships
+		every_controlled_ship = {
+			limit = {
+				is_ship_class = shipclass_military
+				owner = {
+					is_ai = no
+				}
+			}
+			fleet = {
+				if = {
+					limit = {
+						exists = leader
+					}
+					leader = {
+						unassign_leader = this
+					}
+				}
+				set_name = "DISBAND ME"
+				delete_fleet = {
+					target = this
+					destroy_template = yes
+				}
+			}
+			delete_ship = this
+		}
+		### Things for canon maps
+		if = {
+			limit = {
+				is_canon_map = yes
+				is_ttce_map = yes
+				has_country_flag = init_spawned
+			}
+			else = {
+				change_variable = {
+					which = fleets_count
+					value = 1
+				}
+			}
+			set_global_flag = republic_era
+			## Create canon map fleets
+			spawn_canon_starting_fleets = yes
+			## Things only for AI
+			if = {
+				limit = { is_ai = yes }
+				spawn_ai_civilian_ships = yes
+			}
+		}
+		### Things for non-canon maps
+		else_if = {
+			limit = {
+				is_canon_map = no
+				has_country_flag = init_spawned
+			}
+			# Create non-canon maps fleets
+			if = {
+				limit = {
+					is_country_type = default
+					OR = {
+						has_existing_ship_design = swp_cr90_corvette
+						has_existing_ship_design = swp_jehaveyir_corvette
+						has_existing_ship_design = swp_lupus_corvette
+						has_existing_ship_design = swp_early_asdroni_corvette
+					}
+				}
+				create_fleet = {
+					effect = {
+						set_owner = root
+						set_location = root.capital_scope.star
+						while = {
+							count = 5
+							create_generic_corvette = yes
+							set_location = {
+								target = root.capital_scope.star
+								distance = 80
+								angle = random
+							}
+						}
+					}
+				}
+			}
+			## Things only for AI
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				# scientists	#This creates 3 extra scientists, not needed anymore.  1 is generated from science ship creation below and 1 from Chriskar's ship location fix
+#				while = {
+#					count = 3
+#					create_leader = {
+#						class = scientist
+#						species = owner_main_species
+#						name = random
+#						skill = 1
+#					}
+#				}
+				# science ship
+				while = {
+					count = 1
+					create_fleet = {
+						effect = {
+							set_owner = root
+							create_ship = {
+								name = random
+								random_existing_design = science
+								prefix = no
+							}
+							set_fleet_stance = evasive
+							set_location = root.capital_scope.star
+							owner = {
+								create_leader = {
+									class = scientist
+									sub_type = survey
+									name = random
+									species = owner_main_species
+								}
+							}
+							set_leader = last_created_leader
+						}
+					}
+				}
+				# construction ship
+				while = {
+					count = 1
+					create_fleet = {
+						effect = {
+							set_owner = root
+							create_ship = {
+								name = random
+								design = last_created_design
+								random_existing_design = constructor
+								prefix = no
+							}
+							set_fleet_stance = evasive
+							set_location = root.capital_scope.star
+						}
+					}
+				}
+			}
+		}
+		give_technology = {
+			tech = tech_ai_update_dummy_tech
+			message = no
+		}
+		if = {
+			limit = {
+				is_country_type = default
+				is_ai = no
+
+			}
+			set_default_starting_resources = yes
+		}
+		if = {
+			limit = {
+				is_country_type = default
+				is_ai = yes
+			}
+			set_ai_canon_starting_resources = yes
+		}
+	}
+}
+
+# Set Starting System Surveyed + Kill Unwanted Countries In Each Map
+country_event = {
+	id = swnd_start.3
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		if = {
+			limit = {
+				is_country_type = default
+				NOR = {
+					has_country_flag = canon_map
+					has_country_flag = sandbox_map
+				}
+				is_ai = yes
+			}
+			erase_invalid_spawn_system = yes
+			# country_event = { id = swnd_start.12 }
+		}
+		if = {
+			limit = {
+				has_country_flag = init_spawned
+			}
+			country_event = {
+				id = swnd_start.4
+			}
+		}
+		every_owned_planet = {
+			limit = {
+				is_capital = no
+				OR = {
+					has_global_flag = swp_random_map
+					has_global_flag = non_canon_map_spawned
+				}
+			}
+			remove_all_buildings = yes
+			remove_all_districts = yes
+			destroy_colony = yes
+		}
+		#Stop First Contact popups
+		if = {
+			limit = {
+				has_country_flag = init_spawned
+				count_relation = {
+					count > 0
+				}
+			}
+			set_country_flag = Story7
+			set_country_flag = has_encountered_other_empire
+			set_country_flag = StoryFirst
+			set_country_flag = first_alien_life
+			set_country_flag = encountered_first_primitive
+			every_relation = {
+				limit = {
+					has_country_flag = init_spawned
+				}
+				set_country_flag = Story7
+				set_country_flag = has_encountered_other_empire
+				set_country_flag = StoryFirst
+				set_country_flag = first_alien_life
+				set_country_flag = encountered_first_primitive
+			}
+		}
+	}
+}
+
+# Set country names and adjectives
+country_event = {
+	id = swnd_start.5
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		switch = {
+			trigger = has_country_flag
+			galactic_republic = {
+				set_name = "NAME_galactic_republic"
+				set_adjective = "NAME_adjective_GalacticRepublic"
+			}
+			rebel_alliance = {
+				set_name = "NAME_Rebel_Alliance"
+				set_adjective = "Rebel Alliance"
+			}
+			eriadu_authority = {
+				set_name = "NAME_eriadu_authority"
+				set_adjective = "NAME_adjective_EriaduAuthority"
+			}
+			ciutric_hegemony = {
+				set_name = "NAME_ciutric_hegemony"
+				set_adjective = "NAME_adjective_CiutricHegemony"
+			}
+			senate_loyalists = {
+				set_name = "NAME_dantari_territories"
+				set_adjective = "NAME_adjective_DantariTerritories"
+			}
+			kingdom_of_alderaan = {
+				set_name = "NAME_kingdom_of_alderaan"
+				set_adjective = "NAME_adjective_KingdomofAlderaan"
+			}
+			mon_cala_monarchy = {
+				set_name = "NAME_mon_cala_monarchy"
+				set_adjective = "NAME_adjective_MonCalaMonarchy"
+			}
+			bothan_council = {
+				set_name = "NAME_bothan_council"
+				set_adjective = "NAME_adjective_BothanCouncil"
+			}
+			ryloth_protectorate = {
+				set_name = "NAME_ryloth_protectorate"
+				set_adjective = "NAME_adjective_RylothProtectorate"
+			}
+			verpine_enclave = {
+				set_name = "NAME_verpine_enclave"
+				set_adjective = "NAME_adjective_VerpineEnclave"
+			}
+			confederate_remnant = {
+				set_name = "NAME_confederate_remnant"
+				set_adjective = "NAME_adjective_ConfederateRemnant"
+			}
+			trade_federation = {
+				set_name = "NAME_trade_federation"
+				set_adjective = "NAME_adjective_TradeFederation"
+			}
+			banking_clan = {
+				set_name = "NAME_banking_clan"
+				set_adjective = "NAME_adjective_IntergalacticBankingClan"
+			}
+			tion_hegemony = {
+				set_name = "NAME_tion_hegemony"
+				set_adjective = "NAME_adjective_TionHegemony"
+			}
+			commerce_guild = {
+				set_name = "NAME_commerce_guild"
+				set_adjective = "NAME_adjective_CommerceGuild"
+			}
+			corporate_alliance = {
+				set_name = "NAME_corporate_alliance"
+				set_adjective = "NAME_adjective_CorporateAlliance"
+			}
+			hutt_cartel = {
+				set_name = "NAME_hutt_cartel"
+				set_adjective = "NAME_adjective_HuttCartel"
+			}
+			black_sun_organization = {
+				set_name = "NAME_black_sun_organization"
+				set_adjective = "NAME_adjective_BlackSunOrganization"
+			}
+			mandalorian_clans = {
+				set_name = "NAME_mandalorian_clans"
+				set_adjective = "NAME_adjective_MandalorianClans"
+			}
+			corporate_sector_authority = {
+				set_name = "NAME_corporate_sector_authority"
+				set_adjective = "NAME_adjective_CorporateSectorAuthority"
+			}
+			corellian_security = {
+				set_name = "NAME_corellian_security"
+				set_adjective = "NAME_adjective_CorellianSecurity"
+			}
+			chiss_ascendancy = {
+				set_name = "NAME_chiss_ascendancy"
+				set_adjective = "NAME_adjective_ChissAscendancy"
+			}
+			killik_colony = {
+				set_adjective = "NAME_adjective_TheColony"
+			}
+			hapes_consortium = {
+				set_adjective = "NAME_adjective_HapesConsortium"
+			}
+			arkanian_dominion = {
+				set_name = "NAME_arkanian_dominion"
+				set_adjective = "NAME_adjective_ArkanianDominion"
+			}
+			bakuran_senate = {
+				set_name = "NAME_bakuran_senate"
+				set_adjective = "NAME_adjective_BakuranSenate"
+			}
+			cathar_principality = {
+				set_name = "NAME_cathar_principality"
+				set_adjective = "NAME_adjective_CatharPrincipality"
+			}
+			the_centrality = {
+				set_name = "NAME_the_centrality"
+				set_adjective = "NAME_adjective_TheCentrality"
+			}
+			chalactan_council = {
+				set_name = "NAME_chalactan_council"
+				set_adjective = "NAME_adjective_ChalactanCouncil"
+			}
+			cerean_council = {
+				set_name = "NAME_cerean_council"
+				set_adjective = "NAME_adjective_CouncilofElders"
+			}
+			dorin_commonwealth = {
+				set_name = "NAME_dorin_commonwealth"
+				set_adjective = "NAME_adjective_DorinCommonwealth"
+			}
+			echani_command = {
+				set_name = "NAME_echani_command"
+				set_adjective = "NAME_adjective_EchaniCommand"
+			}
+			greater_javin = {
+				set_name = "NAME_greater_javin"
+				set_adjective = "NAME_adjective_GreaterJavin"
+			}
+			juvex_sector = {
+				set_name = "NAME_juvex_sector"
+				set_adjective = "NAME_adjective_JuvexSector"
+			}
+			kingdom_of_onderon = {
+				set_name = "NAME_kingdom_of_onderon"
+				set_adjective = "NAME_adjective_KingdomofOnderon"
+			}
+			kingdom_of_zeltros = {
+				set_name = "NAME_kingdom_of_zeltros"
+				set_adjective = "NAME_adjective_KingdomofZeltros"
+			}
+			senex_sector = {
+				set_name = "NAME_senex_sector"
+				set_adjective = "NAME_adjective_SenexSector"
+			}
+			pantoran_assembly = {
+				set_name = "NAME_pantoran_assembly"
+				set_adjective = "NAME_adjective_PantoranAssembly"
+			}
+			rodian_clans = {
+				set_name = "NAME_rodian_clans"
+				set_adjective = "NAME_adjective_RodianClans"
+			}
+			taanab_authority = {
+				set_name = "NAME_taanab_authority"
+				set_adjective = "NAME_adjective_TaanabAuthority"
+			}
+			trandoshan_tribes = {
+				set_name = "NAME_trandoshan_tribes"
+				set_adjective = "NAME_adjective_TrandoshanTribes"
+			}
+			trianii_territory = {
+				set_name = "NAME_trianii_territory"
+				set_adjective = "NAME_adjective_TrianiiTerritory"
+			}
+			utapauan_committee = {
+				set_name = "NAME_utapauan_committee"
+				set_adjective = "NAME_adjective_UtapauanCommittee"
+			}
+			zabrak_council = {
+				set_name = "NAME_zabrak_council"
+				set_adjective = "NAME_adjective_ZabrakCouncil"
+			}
+			zygerrian_slave_state = {
+				set_name = "NAME_zygerrian_slave_state"
+				set_adjective = "NAME_adjective_ZygerrianSlaveState"
+			}
+		}
+	}
+}
+
+#Set and Fix Hyperlanes
+#Set Starbases
+event = {
+	id = swnd_start.7
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		every_system = {
+			if = {
+				limit = {
+					has_global_flag = swp_random_map
+				}
+				every_system = {
+					if = {
+						limit = {
+							has_hyperlane_to = PREV
+							distance = {
+								source = PREV
+								min_distance >= 100
+							}
+						}
+						remove_hyperlane = {
+							from = prev
+							to = this
+						}
+					}
+					if = {
+						limit = {
+							has_star_flag = random_map_galactic_center
+							has_hyperlane_to = PREV
+						}
+						remove_hyperlane = {
+							from = prev
+							to = this
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						exists = starbase
+					}
+					OR = {
+						has_star_flag = canon_map
+						has_star_flag = sandbox_map
+					}
+				}
+				if = {
+					# Galactic Republic
+					limit = {
+						has_star_flag = republic_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:galactic_republic
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = republic_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:galactic_republic
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = republic_start_system
+						has_star_flag = canon_map_shipyard_system
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:galactic_republic
+						module = trading_hub
+					}
+				}
+				# Rebel Alliance
+				else_if = {
+					limit = {
+						has_star_flag = alliance_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:alliance_start_system
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = alliance_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:rebel_alliance_empire
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = alliance_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:rebel_alliance_empire
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = alliance_start_system
+						has_star_flag = canon_map_shipyard_system
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:rebel_alliance_empire
+						module = trading_hub
+					}
+				}
+				#Dantooine
+				else_if = {
+					limit = {
+						has_star_flag = rebel_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:senate_loyalists
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = dantooine_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:senate_loyalists
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = rebel_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:senate_loyalists
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = rebel_start_system
+						has_star_flag = canon_map_shipyard_system
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:senate_loyalists
+						module = trading_hub
+					}
+				}
+				#Kingdom of Alderaan
+				else_if = {
+					limit = {
+						has_star_flag = alderaan_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:kingdom_of_alderaan
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = alderaan_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:kingdom_of_alderaan
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = alderaan_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:kingdom_of_alderaan
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = alderaan_start_system
+						has_star_flag = canon_map_shipyard_system
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:kingdom_of_alderaan
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Hutts
+					limit = {
+						has_star_flag = hutt_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:hutt_cartel
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = hutt_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:hutt_cartel
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = hutt_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:hutt_cartel
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = hutt_start_system
+						has_star_flag = canon_map_shipyard_system
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:hutt_cartel
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# CSA
+					limit = {
+						exists = event_target:corporate_sector_authority
+						has_star_flag = csa_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:corporate_sector_authority
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = csa_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:corporate_sector_authority
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						exists = event_target:corporate_sector_authority
+						has_star_flag = csa_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:corporate_sector_authority
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						exists = event_target:corporate_sector_authority
+						has_star_flag = csa_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:corporate_sector_authority
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# CIS Systems
+					limit = {
+						has_star_flag = cis_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:confederate_remnant
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = cis_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:confederate_remnant
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = cis_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:confederate_remnant
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = cis_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:confederate_remnant
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Terminus Sector Systems
+					limit = {
+						has_star_flag = terminus_sector_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+						exists = event_target:terminus_sector_vassal
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:terminus_sector_vassal
+					}
+				}
+				else_if = {
+					limit = {
+						exists = event_target:terminus_sector_vassal
+						has_star_flag = terminus_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:terminus_sector_vassal
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = terminus_sector_system
+						has_star_flag = canon_map_shipyard_system
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:terminus_sector_vassal
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = terminus_sector_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:terminus_sector_vassal
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Sluis Sector Systems
+					limit = {
+						has_star_flag = sluis_sector_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:sluis_sector_vassal
+					}
+				}
+				else_if = {
+					limit = {
+						exists = event_target:sluis_sector_vassal
+						has_star_flag = sluis_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:sluis_sector_vassal
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = sluis_sector_system
+						has_star_flag = canon_map_shipyard_system
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:sluis_sector_vassal
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = sluis_sector_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:sluis_sector_vassal
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Mandalorian Systems
+					limit = {
+						has_star_flag = mandalorian_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:mandalorian_clans
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = mandalorian_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:mandalorian_clans
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = mandalorian_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:mandalorian_clans
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = mandalorian_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:mandalorian_clans
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Corellia
+					limit = {
+						has_star_flag = corellian_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:corellian_security
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = corellian_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:corellian_security
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = corellian_start_system
+						has_star_flag = canon_map_shipyard_system
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:corellian_security
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = corellian_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:corellian_security
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Bothan
+					limit = {
+						has_star_flag = bothan_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:bothan_council
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = bothan_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:bothan_council
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = bothan_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:bothan_council
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = bothan_start_system
+						has_star_flag = canon_map_shipyard_system
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:bothan_council
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Black Sun
+					limit = {
+						has_star_flag = black_sun_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:black_sun_organization
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = black_sun_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:black_sun_organization
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = black_sun_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:black_sun_organization
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = black_sun_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:black_sun_organization
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Arkanian Dominion
+					limit = {
+						has_star_flag = arkanian_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:arkanian_dominion
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = arkanian_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:arkanian_dominion
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = arkanian_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:arkanian_dominion
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = arkanian_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:arkanian_dominion
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Echani
+					limit = {
+						exists = event_target:echani_command
+						has_star_flag = echani_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:echani_command
+					}
+				}
+				else_if = {
+					limit = {
+						exists = event_target:echani_command
+						has_star_flag = echani_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:echani_command
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						exists = event_target:echani_command
+						has_star_flag = echani_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:echani_command
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = echani_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:echani_command
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Hapes
+					limit = {
+						has_star_flag = hapan_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+						event_target:hapes_consortium = {
+							is_ai = yes
+						}
+					}
+					create_starbase = {
+						size = starbase_starfortress
+						owner = event_target:hapes_consortium
+						module = shipyard
+						module = trading_hub
+						module = missile_battery
+						module = gun_battery
+						module = hangar_bay
+						module = module_orbital_defense
+						#effect = {
+						#	set_fallen_empire_starfortress_buildings = yes
+						#}
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = hapan_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+						event_target:hapes_consortium = {
+							is_ai = no
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:hapes_consortium
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = hapan_start_system
+						has_star_flag = canon_map_shipyard_system
+						event_target:hapes_consortium = {
+							is_ai = yes
+						}
+					}
+					create_starbase = {
+						size = starbase_citadel
+						owner = event_target:hapes_consortium
+						module = shipyard
+						module = trading_hub
+						module = missile_battery
+						module = gun_battery
+						module = hangar_bay
+						module = module_orbital_defense
+						#effect = {
+						#	set_fallen_empire_citadel_buildings = yes
+						#}
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = hapan_homeworld
+						event_target:hapes_consortium = {
+							is_ai = no
+						}
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:hapes_consortium
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = hapan_start_system
+						has_star_flag = canon_map_shipyard_system
+						event_target:hapes_consortium = {
+							is_ai = no
+						}
+					}
+					create_starbase = {
+						size = starbase_citadel
+						owner = event_target:hapes_consortium
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = hapan_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:hapes_consortium
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Banking clan
+					limit = {
+						has_star_flag = banking_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:banking_clan
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = banking_clan_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:banking_clan
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = banking_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:banking_clan
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = banking_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:banking_clan
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Tion Hegemony
+					limit = {
+						has_star_flag = tion_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:tion_hegemony
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = tion_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:tion_hegemony
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = tion_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:tion_hegemony
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = tion_start_system
+						has_star_flag = canon_map_shipyard_system
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:tion_hegemony
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Centrality
+					limit = {
+						exists = event_target:the_centrality
+						has_star_flag = centrality_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:the_centrality
+					}
+				}
+				else_if = {
+					limit = {
+						exists = event_target:the_centrality
+						has_star_flag = centrality_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:the_centrality
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						exists = event_target:the_centrality
+						has_star_flag = centrality_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:the_centrality
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = centrality_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:the_centrality
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Greater Javin
+					limit = {
+						exists = event_target:greater_javin
+						has_star_flag = javin_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:greater_javin
+					}
+				}
+				else_if = {
+					limit = {
+						exists = event_target:greater_javin
+						has_star_flag = javin_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:greater_javin
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						exists = event_target:greater_javin
+						has_star_flag = javin_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:greater_javin
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = javin_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:greater_javin
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Juvex Sector
+					limit = {
+						has_star_flag = juvex_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:juvex_sector
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = juvex_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:juvex_sector
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = juvex_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:juvex_sector
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = juvex_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:juvex_sector
+						module = trading_hub
+					}
+				}
+				# else_if = {
+				# 	# Senex
+				# 	limit = {
+				# 		exists = event_target:senex_sector
+				# 		has_star_flag = senex_start_system
+				# 		has_global_flag = canon_map_spawned
+				# 		NOR = {
+				# 			has_star_flag = canon_map_shipyard_system
+				# 			has_star_flag = starport_start
+				# 		}
+				# 	}
+				# 	create_starbase = {
+				# 		size = starbase_outpost
+				# 		owner = event_target:senex_sector
+				# 	}
+				# }
+				# else_if = {
+				# 	limit = {
+				# 		exists = event_target:senex_sector
+				# 		has_star_flag = senex_homeworld
+				# 	}
+				# 	create_starbase = {
+				# 		size = starbase_starport
+				# 		owner = event_target:senex_sector
+				# 		module = shipyard
+				# 		module = trading_hub
+				# 	}
+				# }
+				# else_if = {
+				# 	limit = {
+				# 		exists = event_target:senex_sector
+				# 		has_star_flag = senex_start_system
+				# 		has_star_flag = starport_start
+				# 		NOT = { has_global_flag = non_canon_map_spawned }
+				# 	}
+				# 	create_starbase = {
+				# 		size = starbase_starport
+				# 		owner = event_target:senex_sector
+				# 		module = trading_hub
+				# 	}
+				# }
+				# else_if = {
+				# 	limit = {
+				# 		exists = event_target:senex_sector
+				# 		has_star_flag = senex_start_system
+				# 		has_star_flag = canon_map_shipyard_system
+				# 	}
+				# 	create_starbase = {
+				# 		size = starbase_starport
+				# 		owner = event_target:senex_sector
+				# 		module = trading_hub
+				# 	}
+				# }
+				else_if = {
+					# Trade Federation
+					limit = {
+						has_star_flag = trade_fed_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:trade_federation
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = trade_federation_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:trade_federation
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = trade_fed_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:trade_federation
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = trade_fed_start_system
+						has_star_flag = canon_map_shipyard_system
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:trade_federation
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Bakuran
+					limit = {
+						has_star_flag = bakuran_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:bakuran_senate
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = bakuran_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:bakuran_senate
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = bakuran_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:bakuran_senate
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Zygerria
+					limit = {
+						has_star_flag = zygerrian_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:zygerrian_slave_state
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = zygerrian_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:zygerrian_slave_state
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = zygerrian_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:zygerrian_slave_state
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = zygerrian_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:zygerrian_slave_state
+						module = trading_hub
+					}
+				}
+				else_if = { # Rodians
+					limit = {
+						has_star_flag = rodian_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:rodian_clans
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = rodian_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:rodian_clans
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = rodian_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:rodian_clans
+						module = trading_hub
+					}
+				}
+				else_if = { # Zabrak
+					limit = {
+						has_star_flag = zabrak_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:zabrak_council
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = zabrak_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:zabrak_council
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = zabrak_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:zabrak_council
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Taanab
+					limit = {
+						exists = event_target:taanab_authority
+						has_star_flag = taanab_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:taanab_authority
+					}
+				}
+				else_if = {
+					limit = {
+						exists = event_target:taanab_authority
+						has_star_flag = taanab_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:taanab_authority
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						exists = event_target:taanab_authority
+						has_star_flag = taanab_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:taanab_authority
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = taanab_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:taanab_authority
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Trandosha
+					limit = {
+						has_star_flag = trandoshan_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:trandoshan_tribes
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = trandoshan_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:trandoshan_tribes
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = trandoshan_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:trandoshan_tribes
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = trandoshan_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:trandoshan_tribes
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Ryloth
+					limit = {
+						has_star_flag = ryloth_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:ryloth_protectorate
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = twilek_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:ryloth_protectorate
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = ryloth_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:ryloth_protectorate
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Zeltron
+					limit = {
+						has_star_flag = zeltron_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:kingdom_of_zeltros
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = zeltron_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:kingdom_of_zeltros
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = zeltron_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:kingdom_of_zeltros
+						module = trading_hub
+					}
+				}
+				else_if = { # Onderon
+					limit = {
+						has_star_flag = onderon_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:kingdom_of_onderon
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = onderonian_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:kingdom_of_onderon
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = onderon_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:kingdom_of_onderon
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Mon Calamari
+					limit = {
+						has_star_flag = calamari_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:mon_cala_monarchy
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = calamari_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:mon_cala_monarchy
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = calamari_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:mon_cala_monarchy
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = calamari_start_system
+						has_star_flag = canon_map_shipyard_system
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:mon_cala_monarchy
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Dorin
+					limit = {
+						has_star_flag = dorin_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:dorin_commonwealth
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = kel_dor_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:dorin_commonwealth
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = dorin_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:dorin_commonwealth
+						module = trading_hub
+					}
+				}
+				else_if = { # Utapau
+					limit = {
+						has_star_flag = utapau_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:utapauan_committee
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = utapau_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:utapauan_committee
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = utapau_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:utapauan_committee
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Pantoran
+					limit = {
+						has_star_flag = pantoran_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:pantoran_assembly
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = pantoran_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:pantoran_assembly
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = pantoran_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:pantoran_assembly
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Commerce
+					limit = {
+						has_star_flag = commerce_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:commerce_guild
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = commerce_guild_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:commerce_guild
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = commerce_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:commerce_guild
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Ciutric
+					limit = {
+						exists = event_target:ciutric_hegemony
+						has_star_flag = ciutric_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:ciutric_hegemony
+					}
+				}
+				else_if = {
+					limit = {
+						exists = event_target:ciutric_hegemony
+						has_star_flag = ciutric_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:ciutric_hegemony
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = ciutric_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:ciutric_hegemony
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = ciutric_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:ciutric_hegemony
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Chalactan Council
+					limit = {
+						has_star_flag = chalactan_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:chalactan_council
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = chalactan_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:chalactan_council
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = chalactan_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:chalactan_council
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = chalactan_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:chalactan_council
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Eriadu
+					limit = {
+						has_star_flag = eriadu_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:eriadu_authority
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = eriadu_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:eriadu_authority
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = eriadu_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:eriadu_authority
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = eriadu_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:eriadu_authority
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Corporate Alliance
+					limit = {
+						exists = event_target:corporate_alliance
+						has_star_flag = koorivar_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:corporate_alliance
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = corporate_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:corporate_alliance
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = koorivar_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:corporate_alliance
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = koorivar_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:corporate_alliance
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Cerean
+					limit = {
+						has_star_flag = cerean_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:cerean_council
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = cerean_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:cerean_council
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = cerean_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:cerean_council
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = cerean_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:cerean_council
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Verpine
+					limit = {
+						has_star_flag = verpine_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:verpine_enclave
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = verpine_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:verpine_enclave
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = verpine_start_system
+						has_star_flag = canon_map_shipyard_system
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:verpine_enclave
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# Killik
+					limit = {
+						has_star_flag = killik_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+						event_target:killik_colony = {
+							is_ai = no
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:killik_colony
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = killik_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+						event_target:killik_colony = {
+							is_ai = yes
+						}
+					}
+					create_starbase = {
+						size = starbase_starfortress
+						owner = event_target:killik_colony
+						module = shipyard
+						module = trading_hub
+						module = missile_battery
+						module = gun_battery
+						module = hangar_bay
+						module = module_orbital_defense
+						#effect = {
+						#	set_fallen_empire_starfortress_buildings = yes
+						#}
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = killik_homeworld
+						event_target:killik_colony = {
+							is_ai = no
+						}
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:killik_colony
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = killik_start_system
+						has_star_flag = canon_map_shipyard_system
+						event_target:killik_colony = {
+							is_ai = no
+						}
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:killik_colony
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = killik_start_system
+						has_star_flag = canon_map_shipyard_system
+						event_target:killik_colony = {
+							is_ai = yes
+						}
+					}
+					create_starbase = {
+						size = starbase_citadel
+						owner = event_target:killik_colony
+						module = shipyard
+						module = trading_hub
+						module = missile_battery
+						module = gun_battery
+						module = hangar_bay
+						module = module_orbital_defense
+						#effect = {
+						#	set_fallen_empire_citadel_buildings = yes
+						#}
+					}
+				}
+				else_if = {
+					# Chiss
+					limit = {
+						has_star_flag = chiss_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+						event_target:chiss_ascendancy = {
+							is_ai = yes
+						}
+					}
+					create_starbase = {
+						size = starbase_starfortress
+						owner = event_target:chiss_ascendancy
+						module = shipyard
+						module = trading_hub
+						module = missile_battery
+						module = gun_battery
+						module = hangar_bay
+						module = module_orbital_defense
+						#effect = {
+						#	set_fallen_empire_starfortress_buildings = yes
+						#}
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = chiss_start_system
+						has_global_flag = canon_map_spawned
+						NOR = {
+							has_star_flag = canon_map_shipyard_system
+							has_star_flag = starport_start
+						}
+						event_target:chiss_ascendancy = {
+							is_ai = no
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:chiss_ascendancy
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = chiss_homeworld
+						exists = event_target:killik_colony 
+						event_target:killik_colony = {
+							is_ai = no
+						}
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:chiss_ascendancy
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = chiss_start_system
+						has_star_flag = starport_start
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:chiss_ascendancy
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = chiss_start_system
+						has_star_flag = canon_map_shipyard_system
+						event_target:chiss_ascendancy = {
+							is_ai = yes
+						}
+					}
+					create_starbase = {
+						size = starbase_citadel
+						owner = event_target:chiss_ascendancy
+						module = shipyard
+						module = trading_hub
+						module = missile_battery
+						module = gun_battery
+						module = hangar_bay
+						module = module_orbital_defense
+						#effect = {
+						#	set_fallen_empire_citadel_buildings = yes
+						#}
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = chiss_start_system
+						has_star_flag = canon_map_shipyard_system
+						event_target:chiss_ascendancy = {
+							is_ai = no
+						}
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:chiss_ascendancy
+						module = shipyard
+						module = trading_hub
+					}
+				}
+			}
+		}
+	}
+}
+
+# Set Starting Mining Stations - on_press_begin
+country_event = {
+	id = swnd_start.35
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		is_country_type = default
+	}
+	immediate = {
+		every_country = {
+			limit = { is_country_type = default }
+			every_planet_within_border = {
+				limit = {
+					OR = { has_deposit_for = shipclass_mining_station has_deposit_for = shipclass_research_station }
+					has_mining_station = no
+					has_research_station = no
+					is_colonizable = no
+				}
+				if = {
+					limit = {
+						has_deposit_for = shipclass_mining_station
+						OR = {
+							has_resource = { type = minerals amount > 0 }
+							has_resource = { type = energy amount > 0 }
+							has_resource = { type = tibanna_gas amount > 0 }
+						}
+					}
+					create_mining_station = { owner = PREV }
+				}
+				else = {
+					create_research_station = { owner = PREV }
+				}
+			}
+		}
+	}
+}
+
+#Starting Deposits Fix
+country_event = {
+	id = swnd_start.36
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		is_country_type = default
+	}
+	immediate = {
+		switch = {
+			trigger = has_country_flag
+			galactic_republic = {
+				random_planet_within_border = {
+					limit = {
+						has_planet_flag = planet_coruscant
+					}
+					add_deposit = d_ruined_jedi_temple
+					add_deposit = d_the_underworld
+					add_deposit = d_queen_core
+					add_deposit = d_galactic_senate
+					add_deposit = d_coco_town
+					add_deposit = d_uscru_district
+					add_deposit = d_500_republica
+					add_deposit = d_federal_district
+					add_deposit = d_the_works
+					add_deposit = d_grand_medical_facility
+				}
+			}
+			zabrak_council = {
+				random_planet_within_border = {
+					limit = {
+						has_planet_flag = planet_iridonia
+					}
+					#add_deposit = d_core_properties
+					add_deposit = d_abandoned_hydroponic
+					add_deposit = d_local_power_source
+					add_deposit = d_tempestous_mountain
+					add_deposit = d_geothermal_vent
+					add_deposit = d_geothermal_vent
+					add_deposit = d_rich_mountain
+					add_deposit = d_rich_mountain
+					add_deposit = d_ore_rich_caverns
+				}
+			}
+			verpine_enclave = {
+				random_planet_within_border = {
+					limit = {
+						has_planet_flag = planet_roche
+					}
+					add_deposit = d_nickel_one
+				}
+			}
+			hutt_cartel = {
+				random_planet_within_border = {
+					limit = {
+						has_planet_flag = planet_nar_shaddaa
+					}
+					add_deposit = d_undercity_nar_shaddaa
+				}
+			}
+			trianii_territory = {
+				random_planet_within_border = {
+					limit = {
+						has_planet_flag = planet_trian
+					}
+					reroll_deposits = yes
+					clear_blockers = yes
+				}
+			}
+			tion_hegemony = {
+				random_planet_within_border = {
+					limit = {
+						has_planet_flag = planet_desevro
+					}
+					reroll_deposits = yes
+				}
+			}
+			ciutric_hegemony = {
+				random_planet_within_border = {
+					limit = {
+						has_planet_flag = planet_ciutric_iv
+					}
+					reroll_deposits = yes
+					clear_blockers = yes
+				}
+			}
+			eriadu_authority = {
+				random_planet_within_border = {
+					limit = {
+						has_planet_flag = planet_eriadu
+					}
+					reroll_deposits = yes
+				}
+			}
+			corporate_alliance = {
+				random_planet_within_border = {
+					limit = {
+						has_planet_flag = planet_bomis_koori_iv
+					}
+					reroll_deposits = yes
+				}
+			}
+			commerce_guild = {
+				random_planet_within_border = {
+					limit = {
+						has_planet_flag = planet_castell
+					}
+					reroll_deposits = yes
+				}
+			}
+		}
+	}
+}
+
+#Set Homesystem Survey
+country_event = {
+	id = swnd_start.4
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		### comms
+		if = {
+			limit = {
+				has_global_flag = canon_map_spawned
+				NOT = { has_global_flag = non_canon_map_spawned }
+				NOT = { has_country_flag = rebel_alliance }
+			}
+			#Set Contacts
+			establish_galactic_republic_communication = yes
+			establish_senate_loyalists_communication = yes
+			establish_kingdom_of_alderaan_communication = yes
+			establish_hutt_communication = yes
+			#
+			establish_mando_communication = yes
+			establish_corp_sector_communication = yes
+			establish_corellia_communication = yes
+			establish_bothan_communication = yes
+			establish_cis_communication = yes
+			#
+			establish_juvex_communication = yes
+			#establish_senex_communication = yes
+			establish_echani_communication = yes
+			establish_trade_federation_communication = yes
+			establish_tion_hegemony_communication = yes
+			#
+			establish_banking_clan_communication = yes
+			establish_arkanian_dominion_communication = yes
+			establish_taanab_authority_communication = yes
+			establish_trandoshan_communication = yes
+			establish_black_sun_communication = yes
+			#
+			establish_kingdom_of_zeltros_communication = yes
+			establish_kingdom_of_zeltros_communication = yes
+			establish_mon_cala_monrachy_communication = yes
+			establish_dorin_commonwealth_communication = yes
+			establish_commerce_guild_communication = yes
+			#
+			establish_ciutric_hegemony_communication = yes
+			establish_chalactan_council_communication = yes
+			establish_eriadu_communication = yes
+			establish_corperate_alliance_communication = yes
+			#
+			establish_fondor_sector_communication = yes
+			establish_naboo_sector_communication = yes
+			establish_ryloth_protectorate_communication = yes
+			establish_verpine_enclave_communication = yes
+			#
+			establish_the_centrality_communication = yes
+			establish_cerean_council_communication = yes
+			establish_greater_javin_communication = yes
+			establish_pantoran_assembly_communication = yes
+			establish_rodian_clans_communication = yes
+		}
+		#Set Homesystem Survey
+		every_owned_planet = {
+			solar_system = {
+				every_system_planet = {
+					set_surveyed = {
+						surveyed = yes
+						surveyor = ROOT
+					}
+				}
+			}
+		}
+	}
+}
+
+#Fallen Empire Bits
+country_event = {
+	id = swnd_start.66
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		is_canon_map = yes
+		is_ttce_map = yes
+	}
+	immediate = {
+		if = {
+			limit = {
+				is_swp_fallen_empire = yes
+				is_ai = yes
+			}
+			set_country_type = fallen_empire
+			add_modifier = {
+				modifier = "em_fallen_empire"
+			}
+			every_owned_planet = {
+				generate_fallen_empire_start_buildings = yes
+			}
+			capital_scope = {
+				if = {
+					limit = {
+						owner = {
+							has_country_flag = chiss_ascendancy
+						}
+					}
+					generate_fallen_empire_start_fleets_chiss = yes
+				}
+				else_if = {
+					limit = {
+						owner = {
+							has_country_flag = hapes_consortium
+						}
+					}
+					generate_fallen_empire_start_fleets_hapan = yes
+				}
+				else_if = {
+					limit = {
+						owner = {
+							has_country_flag = killik_colony
+						}
+					}
+					generate_fallen_empire_start_fleets_killik = yes
+				}
+			}
+			if = {
+				limit = {
+					resource_stockpile_compare = {
+						resource = minerals
+						value < 1
+					}
+					resource_stockpile_compare = {
+						resource = energy
+						value < 1
+					}
+				}
+				set_fallen_starting_resources = yes
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					is_country_type = fallen_empire
+				}
+			}
+			remove_modifier = "em_fallen_empire"
+		}
+	}
+}
+
+#Silly upgrade fix
+country_event = {
+	id = swnd_start.99
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		this = {
+			give_technology = {
+				tech = tech_ai_update_dummy_tech
+				message = no
+			}
+		}
+	}
+}
+
+# If robots are unlocked, create built species
+country_event = {
+	id = swnd_start.56
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_built_species = no
+		has_technology = tech_robotic_workers
+	}
+	immediate = {
+		create_built_sw_robot_species = yes
+	}
+}
+
+#Fix unemployment
+country_event = {
+	id = swnd_start.60
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		is_country_type = default
+	}
+	immediate = {
+		every_owned_planet = {
+			check_planet_employment = yes
+		}
+	}
+}
+
+#Kill Excess Homeworld Pops for Players - wip Harain
+country_event = {
+	id = swnd_start.37
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		# if = { limit = { is_ai = no }
+		# 	every_owned_planet = {
+		# 		every_owned_pop = { limit = { NOT = { has_pop_flag = init_spawn } }
+		# 			kill_pop = yes
+		# 		}
+		# 		check_planet_employment = yes
+		# 	}
+		# }
+	}
+}
+
+#test check event
+event = {
+	id = swnd_start.38
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		every_country = {
+			log = "[This.GetRealName]"
+		}
+	}
+}
+
+# Planets into Empire
+event = {
+	id = swnd_start.100
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		# Foless into Fondor Sector - removed
+		# random_galaxy_planet = {
+		# 	limit = {
+		# 		has_planet_flag = planet_foless
+		# 		has_global_flag = canon_map_spawned
+		# 	}
+		# 	set_owner = event_target:fondor_sector_vassal
+		# 	generate_ecu_ruined_buildings = yes
+		# 	generate_owner_pops = { AMOUNT = 8 }
+		# }
+		# Tentrix into Naboo Sector
+		random_galaxy_planet = {
+			limit = {
+				has_planet_flag = planet_tentrix
+				has_global_flag = canon_map_spawned
+			}
+			set_owner = event_target:naboo_sector_vassal
+			generate_colony_buildings = yes
+			generate_owner_pops = { AMOUNT = 8 }
+		}
+		# Alassa Major into Naboo Sector
+		random_galaxy_planet = {
+			limit = {
+				has_planet_flag = planet_alassa_major
+				has_global_flag = canon_map_spawned
+			}
+			set_owner = event_target:naboo_sector_vassal
+			generate_colony_buildings = yes
+			generate_owner_pops = { AMOUNT = 8 }
+		}
+		# Atravis into Terminus Sector
+		random_galaxy_planet = {
+			limit = {
+				has_planet_flag = planet_atravis
+				has_global_flag = canon_map_spawned
+			}
+			set_owner = event_target:terminus_sector_vassal
+			generate_colony_buildings = yes
+			generate_misc_pops = { AMOUNT = 5 } 
+			generate_misc_pops = { AMOUNT = 3 }
+		}
+		# Axxila into Ciutric
+		random_galaxy_planet = {
+			limit = {
+				has_planet_flag = planet_axxila
+				has_global_flag = canon_map_spawned
+			}
+			set_owner = event_target:ciutric_hegemony
+			generate_ecu_buildings = yes
+			generate_owner_pops = { AMOUNT = 2 }
+			while = { count = 3 generate_misc_pops = { AMOUNT = 5 } }
+			generate_misc_pops = { AMOUNT = 3 }
+		}
+	}
+}
+
+# Spawning Skavenblight, Huge Canon Map
+event = {
+	id = swnd_start.110
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_global_flag = huge_canon_map_spawned
+	}
+	immediate = {
+		random_system = {
+			limit = {
+				NOR = {
+					has_star_flag = canon_map
+					is_inside_border = event_target:galactic_republic
+					is_inside_border = event_target:eriadu_authority
+					is_inside_border = event_target:senate_loyalists
+					is_inside_border = event_target:kingdom_of_alderaan
+					is_inside_border = event_target:mon_cala_monarchy
+					is_inside_border = event_target:bothan_council
+					is_inside_border = event_target:ryloth_protectorate
+					is_inside_border = event_target:confederate_remnant
+					is_inside_border = event_target:trade_federation
+					is_inside_border = event_target:banking_clan
+					is_inside_border = event_target:tion_hegemony
+					is_inside_border = event_target:commerce_guild
+					is_inside_border = event_target:hutt_cartel
+					is_inside_border = event_target:black_sun_organization
+					is_inside_border = event_target:mandalorian_clans
+					is_inside_border = event_target:corellian_security
+					is_inside_border = event_target:chiss_ascendancy
+					is_inside_border = event_target:hapes_consortium
+					is_inside_border = event_target:arkanian_dominion
+					is_inside_border = event_target:bakuran_senate
+					is_inside_border = event_target:cerean_council
+					is_inside_border = event_target:dorin_commonwealth
+					is_inside_border = event_target:juvex_sector
+					is_inside_border = event_target:kingdom_of_onderon
+					is_inside_border = event_target:kingdom_of_zeltros
+					is_inside_border = event_target:pantoran_assembly
+					is_inside_border = event_target:rodian_clans
+					is_inside_border = event_target:trandoshan_tribes
+					is_inside_border = event_target:utapauan_committee
+					is_inside_border = event_target:zabrak_council
+					is_inside_border = event_target:ciutric_hegemony
+					is_inside_border = event_target:verpine_enclave
+					is_inside_border = event_target:corporate_alliance
+					is_inside_border = event_target:corporate_sector_authority
+					is_inside_border = event_target:killik_colony
+					is_inside_border = event_target:cathar_principality
+					is_inside_border = event_target:the_centrality
+					is_inside_border = event_target:chalactan_council
+					is_inside_border = event_target:echani_command
+					is_inside_border = event_target:greater_javin
+					#is_inside_border = event_target:senex_sector
+					is_inside_border = event_target:taanab_authority
+					is_inside_border = event_target:trianii_territory
+					is_inside_border = event_target:zygerrian_slave_state
+					is_inside_border = event_target:fondor_sector_vassal
+					is_inside_border = event_target:naboo_sector_vassal
+					is_inside_border = event_target:terminus_sector_vassal
+					is_inside_border = event_target:sluis_sector_vassal
+				}
+			}
+			save_event_target_as = skavenblight_spawn
+		}
+		event_target:skavenblight_spawn = {
+			spawn_system = {
+				min_distance = 5
+				max_distance = 5
+				max_jumps = 0
+				initializer = "ptra_system_initializer"
+			}
+			if = { limit = { last_created_system = { NOT = { has_hyperlane_to = prev } } }
+				add_hyperlane = { from = this to = last_created_system }
+			}
+		}
+	}
+}
+
+# Spawning Skavenblight, Large Canon Map
+event = {
+	id = swnd_start.111
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_global_flag = large_canon_map_spawned
+	}
+	immediate = {
+		random_system = {
+			limit = {
+				NOR = {
+					has_star_flag = canon_map
+					is_inside_border = event_target:galactic_republic
+					is_inside_border = event_target:eriadu_authority
+					is_inside_border = event_target:senate_loyalists
+					is_inside_border = event_target:kingdom_of_alderaan
+					is_inside_border = event_target:mon_cala_monarchy
+					is_inside_border = event_target:bothan_council
+					is_inside_border = event_target:ryloth_protectorate
+					is_inside_border = event_target:confederate_remnant
+					is_inside_border = event_target:trade_federation
+					is_inside_border = event_target:banking_clan
+					is_inside_border = event_target:tion_hegemony
+					is_inside_border = event_target:commerce_guild
+					is_inside_border = event_target:hutt_cartel
+					is_inside_border = event_target:black_sun_organization
+					is_inside_border = event_target:mandalorian_clans
+					is_inside_border = event_target:corellian_security
+					is_inside_border = event_target:chiss_ascendancy
+					is_inside_border = event_target:hapes_consortium
+					is_inside_border = event_target:arkanian_dominion
+					is_inside_border = event_target:bakuran_senate
+					is_inside_border = event_target:cerean_council
+					is_inside_border = event_target:dorin_commonwealth
+					is_inside_border = event_target:juvex_sector
+					is_inside_border = event_target:kingdom_of_onderon
+					is_inside_border = event_target:kingdom_of_zeltros
+					is_inside_border = event_target:pantoran_assembly
+					is_inside_border = event_target:rodian_clans
+					is_inside_border = event_target:trandoshan_tribes
+					is_inside_border = event_target:utapauan_committee
+					is_inside_border = event_target:zabrak_council
+					is_inside_border = event_target:ciutric_hegemony
+					is_inside_border = event_target:verpine_enclave
+					is_inside_border = event_target:corporate_alliance
+					is_inside_border = event_target:corporate_sector_authority
+					is_inside_border = event_target:killik_colony
+					is_inside_border = event_target:cathar_principality
+					is_inside_border = event_target:the_centrality
+					is_inside_border = event_target:chalactan_council
+					is_inside_border = event_target:echani_command
+					is_inside_border = event_target:greater_javin
+					#is_inside_border = event_target:senex_sector
+					is_inside_border = event_target:taanab_authority
+					is_inside_border = event_target:zygerrian_slave_state
+					is_inside_border = event_target:fondor_sector_vassal
+					is_inside_border = event_target:naboo_sector_vassal
+					is_inside_border = event_target:terminus_sector_vassal
+					is_inside_border = event_target:sluis_sector_vassal
+				}
+			}
+			save_event_target_as = skavenblight_spawn
+		}
+		event_target:skavenblight_spawn = {
+			spawn_system = {
+				min_distance = 5
+				max_distance = 5
+				max_jumps = 0
+				initializer = "ptra_system_initializer"
+			}
+			if = { limit = { last_created_system = { NOT = { has_hyperlane_to = prev } } }
+				add_hyperlane = { from = this to = last_created_system }
+			}
+		}
+	}
+}
+
+# Spawning Skavenblight, Medium Canon Map
+event = {
+	id = swnd_start.112
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_global_flag = medium_canon_map_spawned
+	}
+	immediate = {
+		random_system = {
+			limit = {
+				NOR = {
+					has_star_flag = canon_map
+					is_inside_border = event_target:galactic_republic
+					is_inside_border = event_target:eriadu_authority
+					is_inside_border = event_target:senate_loyalists
+					is_inside_border = event_target:kingdom_of_alderaan
+					is_inside_border = event_target:mon_cala_monarchy
+					is_inside_border = event_target:bothan_council
+					is_inside_border = event_target:ryloth_protectorate
+					is_inside_border = event_target:confederate_remnant
+					is_inside_border = event_target:trade_federation
+					is_inside_border = event_target:banking_clan
+					is_inside_border = event_target:tion_hegemony
+					is_inside_border = event_target:commerce_guild
+					is_inside_border = event_target:hutt_cartel
+					is_inside_border = event_target:black_sun_organization
+					is_inside_border = event_target:mandalorian_clans
+					is_inside_border = event_target:corellian_security
+					is_inside_border = event_target:chiss_ascendancy
+					is_inside_border = event_target:hapes_consortium
+					is_inside_border = event_target:arkanian_dominion
+					is_inside_border = event_target:bakuran_senate
+					is_inside_border = event_target:cerean_council
+					is_inside_border = event_target:dorin_commonwealth
+					is_inside_border = event_target:juvex_sector
+					is_inside_border = event_target:kingdom_of_onderon
+					is_inside_border = event_target:kingdom_of_zeltros
+					is_inside_border = event_target:pantoran_assembly
+					is_inside_border = event_target:rodian_clans
+					is_inside_border = event_target:trandoshan_tribes
+					is_inside_border = event_target:utapauan_committee
+					is_inside_border = event_target:zabrak_council
+					is_inside_border = event_target:ciutric_hegemony
+					is_inside_border = event_target:verpine_enclave
+					is_inside_border = event_target:corporate_alliance
+					is_inside_border = event_target:cathar_principality
+					is_inside_border = event_target:chalactan_council
+					is_inside_border = event_target:greater_javin
+					is_inside_border = event_target:taanab_authority
+					is_inside_border = event_target:zygerrian_slave_state
+					is_inside_border = event_target:fondor_sector_vassal
+					is_inside_border = event_target:naboo_sector_vassal
+					is_inside_border = event_target:terminus_sector_vassal
+					is_inside_border = event_target:sluis_sector_vassal
+				}
+			}
+			save_event_target_as = skavenblight_spawn
+		}
+		event_target:skavenblight_spawn = {
+			spawn_system = {
+				min_distance = 5
+				max_distance = 5
+				max_jumps = 0
+				initializer = "ptra_system_initializer"
+			}
+			if = { limit = { last_created_system = { NOT = { has_hyperlane_to = prev } } }
+				add_hyperlane = { from = this to = last_created_system }
+			}
+		}
+	}
+}
+
+# Spawning Skavenblight, Small Canon Map
+event = {
+	id = swnd_start.113
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_global_flag = small_canon_map_spawned
+	}
+	immediate = {
+		random_system = {
+			limit = {
+				NOR = {
+					has_star_flag = canon_map
+					is_inside_border = event_target:galactic_republic
+					is_inside_border = event_target:eriadu_authority
+					is_inside_border = event_target:senate_loyalists
+					is_inside_border = event_target:kingdom_of_alderaan
+					is_inside_border = event_target:mon_cala_monarchy
+					is_inside_border = event_target:bothan_council
+					is_inside_border = event_target:ryloth_protectorate
+					is_inside_border = event_target:confederate_remnant
+					is_inside_border = event_target:trade_federation
+					is_inside_border = event_target:banking_clan
+					is_inside_border = event_target:tion_hegemony
+					is_inside_border = event_target:commerce_guild
+					is_inside_border = event_target:hutt_cartel
+					is_inside_border = event_target:black_sun_organization
+					is_inside_border = event_target:mandalorian_clans
+					is_inside_border = event_target:corellian_security
+					is_inside_border = event_target:chiss_ascendancy
+					is_inside_border = event_target:hapes_consortium
+					is_inside_border = event_target:arkanian_dominion
+					is_inside_border = event_target:bakuran_senate
+					is_inside_border = event_target:cerean_council
+					is_inside_border = event_target:dorin_commonwealth
+					is_inside_border = event_target:juvex_sector
+					is_inside_border = event_target:kingdom_of_onderon
+					is_inside_border = event_target:kingdom_of_zeltros
+					is_inside_border = event_target:pantoran_assembly
+					is_inside_border = event_target:rodian_clans
+					is_inside_border = event_target:trandoshan_tribes
+					is_inside_border = event_target:utapauan_committee
+					is_inside_border = event_target:zabrak_council
+					is_inside_border = event_target:fondor_sector_vassal
+					is_inside_border = event_target:naboo_sector_vassal
+					is_inside_border = event_target:sluis_sector_vassal
+				}
+			}
+			save_event_target_as = skavenblight_spawn
+		}
+		event_target:skavenblight_spawn = {
+			spawn_system = {
+				min_distance = 5
+				max_distance = 5
+				max_jumps = 0
+				initializer = "ptra_system_initializer"
+			}
+			if = {
+				limit = {
+					last_created_system = {
+						NOT = {
+							has_hyperlane_to = prev
+						}
+					}
+				}
+				add_hyperlane = {
+					from = this
+					to = last_created_system
+				}
+			}
+		}
+	}
+}
+
+# Spawning Skavenblight, Sandbox
+event = {
+	id = swnd_start.114
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_global_flag = non_canon_map_spawned
+	}
+	immediate = {
+		random_system = { limit = { NOT = { has_star_flag = canon_map } }
+			save_event_target_as = skavenblight_spawn
+		}
+		event_target:skavenblight_spawn = {
+			spawn_system = {
+				min_distance = 5
+				max_distance = 5
+				max_jumps = 0
+				initializer = "ptra_system_initializer"
+			}
+			if = { limit = { last_created_system = { NOT = { has_hyperlane_to = prev } } }
+				add_hyperlane = { from = this to = last_created_system }
+			}
+			#else = {
+			#	add_extra_hyperlane_to_spawned_system_effect = yes
+			#}
+		}
+	}
+}
+
+# Populate planets that couldn't be in inits
+# kashyyyk and kashyyyk_minor
+event = {
+	id = swnd_start.90
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		if = {
+			limit = {
+				exists = event_target:trandoshan_tribes
+				NOT = { has_global_flag = non_canon_map_spawned }
+			}
+			event_target:planet_kashyyyk = {
+				set_owner = event_target:trandoshan_tribes
+				generate_kashyyyk_buildings = yes
+				generate_owner_pops = { AMOUNT = 2 }
+				create_wookiee_species = yes
+				generate_pops = { SPECIES = "event_target:wookiee_species" AMOUNT = 8 }
+			}
+			# event_target:planet_kashyyyk_minor = {
+			# 	set_owner = event_target:trandoshan_tribes
+			# 	generate_minor_buildings = yes
+			# 	generate_owner_pops = yes
+			# 	generate_pops = { SPECIES = "event_target:wookiee_species" AMOUNT = 5 }
+			# }
+			# clear_global_event_target = planet_kashyyyk_minor
+		}
+		if = {
+			limit = {
+				exists = event_target:rebel_alliance_country
+			}
+			event_target:planet_yavin_4 = {
+				generate_pops = { SPECIES = "event_target:wookiee_species" AMOUNT = 2 }
+			}
+		}
+	}
+}
+
+# Ecumenopolis gets pops/ buildings, canon map
+event = {
+	id = swnd_start.120
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		# Coruscant
+		random_galaxy_planet = {
+			limit = {
+				is_planet_class = pc_ecumenopolis
+				has_global_flag = canon_map_spawned
+				has_planet_flag = planet_coruscant
+			}
+			generate_coruscant_buildings = yes
+			while = { count = 6 generate_misc_pops = { AMOUNT = 3 } }
+		}
+		# Eriadu
+		random_galaxy_planet = {
+			limit = {
+				is_planet_class = pc_ecumenopolis
+				has_global_flag = canon_map_spawned
+				has_planet_flag = planet_eriadu
+			}
+			generate_eriadu_buildings = yes
+			generate_misc_pops = { AMOUNT = 3 }
+		}
+		# Desevro/ Tion
+		random_galaxy_planet = {
+			limit = {
+				is_planet_class = pc_ecumenopolis
+				has_global_flag = canon_map_spawned
+				has_planet_flag = planet_desevro
+			}
+			generate_desevro_buildings = yes
+			# generate_pops = { SPECIES = "event_target:sy_myrthian" AMOUNT = 1 }
+			generate_misc_pops = { AMOUNT = 3 }
+			while = { count = 2 generate_misc_pops = { AMOUNT = 5 } }
+		}
+		
+		# Bomis Koori/ Corporate
+		random_galaxy_planet = {
+			limit = {
+				is_planet_class = pc_ecumenopolis
+				has_global_flag = canon_map_spawned
+				has_planet_flag = planet_bomis_koori_iv
+			}
+			generate_bomis_koori_iv_buildings = yes
+			# generate_owner_pops = { AMOUNT = 22 }
+		}
+	}
+}
+
+# Ecumenopolis --> ruined Ecumenopolis on Sandbox
+event = {
+	id = swnd_start.121
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		# Coruscant
+		random_galaxy_planet = {
+			limit = {
+				is_planet_class = pc_ecumenopolis
+				has_global_flag = non_canon_map_spawned
+				has_planet_flag = planet_coruscant
+			}
+			change_pc = pc_ecumenopolis_ruined
+			set_planet_entity = {
+				entity = ecumenopolis_coruscant_planet_01_entity
+			}
+			generate_coruscant_ruined_buildings = yes
+			# generate_owner_pops = { AMOUNT = 22 }
+		}
+		# Eriadu
+		random_galaxy_planet = {
+			limit = {
+				is_planet_class = pc_ecumenopolis
+				has_global_flag = non_canon_map_spawned
+				has_planet_flag = planet_eriadu
+			}
+			change_pc = pc_ecumenopolis_ruined
+			set_planet_entity = {
+				entity = ecumenopolis_planet_02_entity
+			}
+			generate_eriadu_ruined_buildings = yes
+			# generate_owner_pops = { AMOUNT = 22 }
+		}
+		# Desevro/ Tion
+		random_galaxy_planet = {
+			limit = {
+				is_planet_class = pc_ecumenopolis
+				has_global_flag = non_canon_map_spawned
+				has_planet_flag = planet_desevro
+			}
+			change_pc = pc_ecumenopolis_ruined
+			set_planet_entity = {
+				entity = ecumenopolis_planet_01_entity
+			}
+			generate_eriadu_ruined_buildings = yes
+			# generate_owner_pops = { AMOUNT = 22 }
+		}
+		
+		# Bomis Koori/ Corporate
+		random_galaxy_planet = {
+			limit = {
+				is_planet_class = pc_ecumenopolis
+				has_global_flag = non_canon_map_spawned
+				has_planet_flag = planet_bomis_koori_iv
+			}
+			change_pc = pc_ecumenopolis_ruined
+			set_planet_entity = {
+				entity = ecumenopolis_planet_02_entity
+			}
+			generate_bomis_koori_iv_ruined_buildings = yes
+			# generate_owner_pops = { AMOUNT = 22 }
+		}
+	}
+}
+
+# Deposit Blocker removed on changed Ecus
+event = {
+	id = swnd_start.122
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		# Coruscant
+		event_target:galactic_republic = {
+			random_planet_within_border = {
+				limit = {
+					has_planet_flag = planet_coruscant
+					is_planet_class = pc_ecumenopolis_ruined
+				}
+				remove_deposit = d_city_ruins
+				remove_deposit = d_slums
+				remove_deposit = d_ecumenopolis_slums
+			}
+		}
+		# Eriadu
+		event_target:eriadu_authority = {
+			random_planet_within_border = {
+				limit = {
+					has_planet_flag = planet_eriadu
+					is_planet_class = pc_ecumenopolis_ruined
+				}
+				remove_deposit = d_city_ruins
+				remove_deposit = d_slums
+				remove_deposit = d_ecumenopolis_slums
+			}
+		}
+		# Desevro/ Tion
+		event_target:tion_hegemony = {
+			random_planet_within_border = {
+				limit = {
+					has_planet_flag = planet_desevro
+					is_planet_class = pc_ecumenopolis_ruined
+				}
+				remove_deposit = d_city_ruins
+				remove_deposit = d_slums
+				remove_deposit = d_ecumenopolis_slums
+			}
+		}
+		
+		# Bomis Koori/ Corporate
+		if = {
+			limit = { exists = event_target:corporate_alliance }
+			event_target:corporate_alliance = {
+				random_planet_within_border = {
+					limit = {
+						has_planet_flag = planet_bomis_koori_iv
+						is_planet_class = pc_ecumenopolis_ruined
+					}
+					remove_deposit = d_city_ruins
+					remove_deposit = d_slums
+					remove_deposit = d_ecumenopolis_slums
+				}
+			}
+		}
+	}
+}
+
+# special case for Falleen species because Black Sun can be a player - homeworld issue
+country_event = {
+	id = swnd_start.124
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		random_galaxy_species = { limit = { is_same_species_class = event_target:falleen_species }
+			log = "[prev.GetRealName]: swnd_start.124 - Falleen planet set as Falleen species homeworld"
+			set_species_homeworld = event_target:planet_falleen
+		}
+	}
+}
+
+# Add pops to planets (those that didn't have a homeworld on inits yet)
+event = {
+	id = swnd_start.125
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		# hate doing it like this, but can't find a better way - Harain
+		# needs_3_misc_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_3_misc_pops }
+			generate_misc_pops = { AMOUNT = 3 } remove_planet_flag = needs_3_misc_pops }
+		# needs_5_misc_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_5_misc_pops }
+			generate_misc_pops = { AMOUNT = 5 } remove_planet_flag = needs_5_misc_pops }
+		# needs_6_misc_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_6_misc_pops }
+			while = { count = 2 generate_misc_pops = { AMOUNT = 3 } } remove_planet_flag = needs_6_misc_pops }
+		# needs_10_misc_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_10_misc_pops }
+			while = { count = 2 generate_misc_pops = { AMOUNT = 5 } } remove_planet_flag = needs_10_misc_pops }
+		# needs_18_misc_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_18_misc_pops }
+			while = { count = 3 generate_misc_pops = { AMOUNT = 5 } } generate_misc_pops = { AMOUNT = 3 } remove_planet_flag = needs_18_misc_pops }
+		# needs_3_rodian_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_3_rodian_pops }
+			generate_pops = { SPECIES = "event_target:rodian_species" AMOUNT = 3 } remove_planet_flag = needs_3_rodian_pops }
+		# needs_4_selonian_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_4_selonian_pops }
+			generate_pops = { SPECIES = "event_target:selonian_species" AMOUNT = 4 } remove_planet_flag = needs_4_selonian_pops }
+		# needs_4_drall_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_4_drall_pops }
+			generate_pops = { SPECIES = "event_target:drall_species" AMOUNT = 4 } remove_planet_flag = needs_4_drall_pops }
+		# needs_4_weequay_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_4_weequay_pops }
+			generate_pops = { SPECIES = "event_target:weequay_species" AMOUNT = 4 } remove_planet_flag = needs_4_weequay_pops }
+		# needs_8_talz_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_8_talz_pops }
+			generate_pops = { SPECIES = "event_target:talz_species" AMOUNT = 8 } remove_planet_flag = needs_8_talz_pops }
+		# needs_4_sakiyan_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_4_sakiyan_pops }
+			generate_pops = { SPECIES = "event_target:sakiyan_species" AMOUNT = 4 } remove_planet_flag = needs_4_sakiyan_pops }
+		# needs_3_ithorian_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_3_ithorian_pops }
+			generate_pops = { SPECIES = "event_target:ithorian_species" AMOUNT = 3 } remove_planet_flag = needs_3_ithorian_pops }
+		# needs_8_bith_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_8_bith_pops }
+			generate_pops = { SPECIES = "event_target:bith_species" AMOUNT = 8 } remove_planet_flag = needs_8_bith_pops }
+		# needs_2_twilek_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_2_twilek_pops }
+			generate_pops = { SPECIES = "event_target:twilek_species" AMOUNT = 2 } remove_planet_flag = needs_2_twilek_pops }
+		# needs_4_human_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_4_human_pops }
+			generate_pops = { SPECIES = "event_target:human_species" AMOUNT = 4 } remove_planet_flag = needs_4_human_pops }
+		# needs_7_human_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_7_human_pops }
+			generate_pops = { SPECIES = "event_target:human_species" AMOUNT = 7 } remove_planet_flag = needs_7_human_pops }
+		# needs_12_human_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_12_human_pops }
+			generate_pops = { SPECIES = "event_target:human_species" AMOUNT = 12 } remove_planet_flag = needs_12_human_pops }
+		# needs_6_wookiee_pops
+		every_galaxy_planet = { limit = { has_planet_flag = needs_6_wookiee_pops }
+			generate_pops = { SPECIES = "event_target:wookiee_species" AMOUNT = 6 } remove_planet_flag = needs_6_wookiee_pops }
+	}
+}
+
+# Fixed Ship location, by Chriskar, 3.7 update by Dal
+country_event = {
+	id = swnd_start.130
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	immediate = {
+		create_leader = {
+			class = scientist
+			species = owner_main_species
+			effect = { save_event_target_as = scienceship_leader }
+		}
+		every_controlled_ship = { limit = { OR = { is_ship_size = science is_ship_size = constructor } }
+			if = { limit = { is_ship_size = science }
+				fleet = { delete_fleet = { target = this kill_leader = no } }
+			}
+			else = {
+				destroy_ship = this
+			}
+		}
+		# science
+		create_fleet = {
+			effect = {
+				set_owner = prev
+				create_ship = { name = random random_existing_design = science }
+				set_fleet_stance = evasive
+				set_location = prev.capital_scope.star
+				if = { limit = { NOT = { exists = event_target:scienceship_leader } }
+					FROM = { create_leader = { name = random species = owner_main_species class = scientist skill = 1 } }
+					last_created_leader = { save_event_target_as = scienceship_leader }
+				}
+				set_leader = event_target:scienceship_leader
+			}
+		}
+
+		#constructor
+		create_fleet = {
+			effect = {
+				set_owner = prev
+				create_ship = { name = random random_existing_design = constructor }
+				set_fleet_stance = evasive
+				set_location = prev.capital_star
+			}
+		}
+	}
+}
+
+# Galactic Empire/Eriadu Authority species not slaves on first monthly pulse
+event = {
+	id = swnd_start.140
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = canon_map_spawned
+	}
+
+	immediate = {
+		every_country = {
+			limit = {
+				is_ai = no
+				OR = {
+					has_country_flag = galactic_empire
+					has_country_flag = eriadu_authority
+				}
+			}
+			every_owned_species = {
+				limit = {
+					is_sapient = yes
+					has_citizenship_type = { type = citizenship_slavery country = prev }
+				}
+				set_citizenship_type = { type = citizenship_limited country = prev }
+			}
+		}
+	}
+}
+
+# Spawn relays along trade routes
+country_event = {
+	id = swnd_start.150
+	fire_only_once = yes
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		xeno_compatibility_enabled = yes # Repurposed game setup option
+		NOT = { has_global_flag = trade_relays_spawned }
+	}
+	immediate = {
+		every_system = {
+			limit = {
+				OR = {
+					#Major trade routes
+					has_modifier = sy_perlemian_trade_route
+					has_modifier = sy_corellian_run
+					has_modifier = sy_corellian_trade_spine
+					has_modifier = sy_hydian_way
+					has_modifier = sy_rimma_trade_route
+					
+					#Minor trade routes
+					has_modifier = sy_koros_trunk_line
+					has_modifier = sy_namadii_corridor
+					has_modifier = sy_metellos_trade_route
+					has_modifier = sy_salin_corridor
+					has_modifier = sy_ootmian_pabol
+					has_modifier = sy_gamor_run
+					has_modifier = sy_triellus_trade_route
+					has_modifier = sy_shag_pabol
+					has_modifier = sy_kessel_run
+					has_modifier = sy_celanon_spur
+					has_modifier = sy_entralla_route
+					has_modifier = sy_harrin_trade_corridor
+				}
+			}
+			add_hyperroute_relay = yes
+		}
+		set_global_flag = trade_relays_spawned
+	}
+}
+
+### From LOTOR with permission; code by Harain, modified by Bosmeri
+# Fix Double Species (if exists) and homeworlds
+country_event = {
+	id = swnd_start.160
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_regular_empire = yes
+	}
+
+	immediate = {
+		random_owned_pop = { limit = { is_same_species_class = root.owner_main_species }
+			modify_species = { species = this base = none effect = { save_event_target_as = temp_species } }
+		}
+		if = { limit = { exists = event_target:temp_species event_target:temp_species = { is_same_species_class = root.owner_main_species } }
+			change_dominant_species = { species = event_target:temp_species change_all = yes }
+			# log = "[Root.GetName]:lotor_on_start.14 - duplicate species fixed"
+		}
+		if = { limit = { species = { is_exact_same_species = event_target:human_species } }
+			species = { set_species_homeworld = event_target:planet_coruscant }
+		}
+		else = {
+			capital_scope = { save_event_target_as = temp_capital }
+			species = { set_species_homeworld = event_target:temp_capital }
+		}
+	}
+}
+
+# Modify human species with normal habitability trait - FIRE LAST
+country_event = {
+	id = swnd_start.161
+	hide_window = yes
+	is_triggered_only = yes
+	
+#	trigger = {
+#		NOT = {
+#			has_global_flag = swnd_hw_fix
+#		}
+#	}
+
+	immediate = {
+		if = { limit = { exists = event_target:human_species }
+			modify_species = {
+				species = event_target:human_species
+				base = none
+				remove_trait = trait_pc_ecumenopolis_preference
+				add_trait = trait_pc_continental_preference
+				add_traits_at_start_of_list = yes
+				ideal_planet_class = pc_continental
+				effect = { save_event_target_as = temp_species }
+			}
+			if = { limit = { event_target:temp_species = { is_same_species_class = root.owner_main_species } }
+				change_dominant_species = { species = event_target:temp_species change_all = yes }
+				# log = "[Root.GetName]:lotor_on_start.14 - duplicate species fixed"
+			}
+			#set_global_flag = swnd_hw_fix
+		}
+
+		if = { limit = { exists = event_target:hapan_species }
+		modify_species = {
+			species = event_target:hapan_species 
+			base = none
+			remove_trait = trait_pc_gaia_preference
+			add_trait = trait_pc_continental_preference
+			add_traits_at_start_of_list = yes
+			ideal_planet_class = pc_continental
+			effect = { save_event_target_as = temp_species }
+		}
+		if = { limit = { event_target:temp_species = { is_same_species_class = root.owner_main_species } }
+			change_dominant_species = { species = event_target:temp_species change_all = yes }
+			# log = "[Root.GetName]:lotor_on_start.14 - duplicate species fixed"
+		}
+		#set_global_flag = swnd_hw_fix
+		}
+	}
+}
+
+# Initialize Global variables on the Galactic Core (global_event_target:gcenter)
+event = {
+	id = swnd_start.162
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		event_target:gcenter = {
+			#GCW modifier variables
+			set_variable_to_random_value = { which = gcw_reb_economy min = 90 max = 110 rounded = yes } #Initialize variable with +/- 10 starting value, whole number
+			divide_variable = { which = gcw_reb_economy value = 100 } #Divide initialized variable by 100, giving us a multiplier (1.0 = 100%)
+			set_variable_to_random_value = { which = gcw_reb_technology min = 90 max = 110 rounded = yes }
+			divide_variable = { which = gcw_reb_technology value = 100 }
+			set_variable_to_random_value = { which = gcw_reb_popularity min = 90 max = 110 rounded = yes }
+			divide_variable = { which = gcw_reb_popularity value = 100 }
+			set_variable_to_random_value = { which = gcw_reb_navy_supply min = 90 max = 110 rounded = yes }
+			divide_variable = { which = gcw_reb_navy_supply value = 100 }
+			set_variable_to_random_value = { which = gcw_reb_navy_upkeep min = 90 max = 110 rounded = yes }
+			divide_variable = { which = gcw_reb_navy_upkeep value = 100 }
+			set_variable_to_random_value = { which = gcw_reb_influence min = 90 max = 110 rounded = yes }
+			divide_variable = { which = gcw_reb_influence value = 100 }
+			set_variable_to_random_value = { which = gcw_reb_unity min = 90 max = 110 rounded = yes }
+			divide_variable = { which = gcw_reb_unity value = 100 }
+			
+			set_variable_to_random_value = { which = gcw_xenophobia min = 90 max = 110 rounded = yes }
+			divide_variable = { which = gcw_xenophobia value = 100 }
+			set_variable_to_random_value = { which = gcw_smuggling min = 90 max = 110 rounded = yes }
+			divide_variable = { which = gcw_smuggling value = 100 }
+			
+			set_variable_to_random_value = { which = gcw_imp_morale min = 90 max = 110 rounded = yes }
+			divide_variable = { which = gcw_imp_morale value = 100 }
+			set_variable_to_random_value = { which = gcw_imp_disruption min = 90 max = 110 rounded = yes }
+			divide_variable = { which = gcw_imp_disruption value = 100 }
+			
+			#GCW resource variables. These track how much resources are "up for grabs". 
+			set_variable = { which = gcw_stolen_energy value = 0 }
+			set_variable = { which = gcw_stolen_minerals value = 0 }
+			set_variable = { which = gcw_stolen_food value = 0 }
+			set_variable = { which = gcw_stolen_fuel value = 0 }
+			set_variable = { which = gcw_stolen_tibanna value = 0 }
+			set_variable = { which = gcw_stolen_components value = 0 }
+			set_variable = { which = gcw_stolen_ammo value = 0 }
+			set_variable = { which = gcw_stolen_agrocite value = 0 }
+			set_variable = { which = gcw_stolen_kyber value = 0 }
+		}
+	}
+}

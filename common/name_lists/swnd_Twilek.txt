@@ -1,0 +1,844 @@
+﻿Twilek = {
+	randomized = no
+	ship_names = {
+		generic = {
+			TWILEK_SHIP_aconit TWILEK_SHIP_admirable TWILEK_SHIP_eagle TWILEK_SHIP_seeded_death TWILEK_SHIP_dawn_racer TWILEK_SHIP_twilight_song TWILEK_SHIP_revane TWILEK_SHIP_amaranth TWILEK_SHIP_ambitieux TWILEK_SHIP_voidanaute TWILEK_SHIP_ariane TWILEK_SHIP_armide TWILEK_SHIP_armature TWILEK_SHIP_roanmanches TWILEK_SHIP_astrolabe TWILEK_SHIP_audacious TWILEK_SHIP_ecole TWILEK_SHIP_capricious TWILEK_SHIP_bladefish TWILEK_SHIP_eastern_star TWILEK_SHIP_lightning TWILEK_SHIP_trairial TWILEK_SHIP_glorious TWILEK_SHIP_egality TWILEK_SHIP_fraternity TWILEK_SHIP_liberty TWILEK_SHIP_gracious TWILEK_SHIP_indomitable TWILEK_SHIP_unyielding TWILEK_SHIP_blood_raptor TWILEK_SHIP_star_delight TWILEK_SHIP_white_maw TWILEK_SHIP_hadiyan_kiss TWILEK_SHIP_house_of_nine TWILEK_SHIP_shikaakwa TWILEK_SHIP_bakko TWILEK_SHIP_daegen_lok TWILEK_SHIP_bakko TWILEK_SHIP_left_fist TWILEK_SHIP_joy_of_miwy TWILEK_SHIP_mala TWILEK_SHIP_fang_of_secura TWILEK_SHIP_aayala TWILEK_SHIP_ertay TWILEK_SHIP_ruyn_s_end TWILEK_SHIP_death_mark TWILEK_SHIP_twin_sun TWILEK_SHIP_lady_vida TWILEK_SHIP_alask_anoon TWILEK_SHIP_byt TWILEK_SHIP_cazne TWILEK_SHIP_chom_darap TWILEK_SHIP_dinek TWILEK_SHIP_firith TWILEK_SHIP_glie TWILEK_SHIP_guzerre TWILEK_SHIP_jela TWILEK_SHIP_karawn_jer TWILEK_SHIP_kopecz TWILEK_SHIP_nuro TWILEK_SHIP_silais_rol TWILEK_SHIP_siolo_chee TWILEK_SHIP_tal_tol TWILEK_SHIP_tott_yuned TWILEK_SHIP_ann_aola TWILEK_SHIP_ayy_chee TWILEK_SHIP_daesha TWILEK_SHIP_gida TWILEK_SHIP_giza TWILEK_SHIP_chee_seela TWILEK_SHIP_shakka TWILEK_SHIP_xiaan TWILEK_SHIP_sinya_seku TWILEK_SHIP_freetaa TWILEK_SHIP_freykaa TWILEK_SHIP_komad TWILEK_SHIP_mobok TWILEK_SHIP_nilim TWILEK_SHIP_olgkru TWILEK_SHIP_passik TWILEK_SHIP_tar_tarkona TWILEK_SHIP_valla_ven TWILEK_SHIP_ziveri TWILEK_SHIP_wachamio TWILEK_SHIP_dancer TWILEK_SHIP_water_keeper TWILEK_SHIP_wind_master TWILEK_SHIP_waker_s_dance TWILEK_SHIP_lyaer_tsa TWILEK_SHIP_star_of_kala_unn TWILEK_SHIP_swilja TWILEK_SHIP_protocol_of_war TWILEK_SHIP_oo_rha TWILEK_SHIP_lyaer_tsa TWILEK_SHIP_longest_night TWILEK_SHIP_ko_lek TWILEK_SHIP_keysdhi TWILEK_SHIP_jasshi_rr TWILEK_SHIP_fan_master TWILEK_SHIP_dirge_of_valaunt TWILEK_SHIP_lyek TWILEK_SHIP_bright_land TWILEK_SHIP_nightland TWILEK_SHIP_death_wind TWILEK_SHIP_skull_of_forrth TWILEK_SHIP_newar TWILEK_SHIP_gutkurr TWILEK_SHIP_doashim TWILEK_SHIP_rycrit TWILEK_SHIP_bashka TWILEK_SHIP_joreikna TWILEK_SHIP_kala_din TWILEK_SHIP_leb_reen TWILEK_SHIP_lessu TWILEK_SHIP_lohema TWILEK_SHIP_nabat TWILEK_SHIP_resdin TWILEK_SHIP_rhovari TWILEK_SHIP_roancu TWILEK_SHIP_sal_kaasa TWILEK_SHIP_deathseed TWILEK_SHIP_chir_daki TWILEK_SHIP_line_of_termination TWILEK_SHIP_ka_ira TWILEK_SHIP_surkouf TWILEK_SHIP_redoubtable TWILEK_SHIP_regulus TWILEK_SHIP_mar_ryat TWILEK_SHIP_tassard TWILEK_SHIP_ton_re TWILEK_SHIP_zallas TWILEK_SHIP_nisus TWILEK_SHIP_farmagnole TWILEK_SHIP_tuquesne TWILEK_SHIP_truix TWILEK_SHIP_tyrannicide TWILEK_SHIP_duskrunner TWILEK_SHIP_budding_ruin TWILEK_SHIP_chainbreaker TWILEK_SHIP_direbloom TWILEK_SHIP_manumission TWILEK_SHIP_emancipator TWILEK_SHIP_desaix TWILEK_SHIP_busseau TWILEK_SHIP_deliverer TWILEK_SHIP_redeemer TWILEK_SHIP_savior TWILEK_SHIP_rescuer TWILEK_SHIP_liberator TWILEK_SHIP_domicide TWILEK_SHIP_twiville TWILEK_SHIP_larouche TWILEK_SHIP_paxhan TWILEK_SHIP_partisan TWILEK_SHIP_radical TWILEK_SHIP_resistance TWILEK_SHIP_masseza TWILEK_SHIP_chamlemange TWILEK_SHIP_tauban TWILEK_SHIP_fantastic TWILEK_SHIP_rylyon TWILEK_SHIP_casanuma TWILEK_SHIP_triumphant TWILEK_SHIP_mistral TWILEK_SHIP_combatant TWILEK_SHIP_talysse TWILEK_SHIP_rhyselys TWILEK_SHIP_vorraine TWILEK_SHIP_polemic TWILEK_SHIP_revolutionary TWILEK_SHIP_guillotine TWILEK_SHIP_kilikki TWILEK_SHIP_unshackled TWILEK_SHIP_torpor TWILEK_SHIP_vorpal TWILEK_SHIP_messiah TWILEK_SHIP_bright_blaze TWILEK_SHIP_du_chayala TWILEK_SHIP_saresheau TWILEK_SHIP_richelekku TWILEK_SHIP_constitution TWILEK_SHIP_villenova TWILEK_SHIP_lekkuesne TWILEK_SHIP_forbuna TWILEK_SHIP_avenger TWILEK_SHIP_vengeance TWILEK_SHIP_tamborbane TWILEK_SHIP_kalikori TWILEK_SHIP_tulara TWILEK_SHIP_amaxine TWILEK_SHIP_cham_du_ryloth TWILEK_SHIP_maquisard
+		}
+		swp_bellator = {
+			TWILEK_SHIP_amaxine TWILEK_SHIP_cham_du_rhyloth TWILEK_SHIP_tyrannicide TWILEK_SHIP_nuro TWILEK_SHIP_egality TWILEK_SHIP_fraternity TWILEK_SHIP_liberty
+		}
+		science = {
+			TWILEK_SHIP_crescent TWILEK_SHIP_diligent TWILEK_SHIP_zephyr TWILEK_SHIP_enigma TWILEK_SHIP_astrolabe TWILEK_SHIP_zelada TWILEK_SHIP_arbiter TWILEK_SHIP_asperity TWILEK_SHIP_eminence TWILEK_SHIP_astute TWILEK_SHIP_alacrity TWILEK_SHIP_luroon TWILEK_SHIP_shadefinder TWILEK_SHIP_untiring TWILEK_SHIP_zenith TWILEK_SHIP_torch TWILEK_SHIP_remembrance TWILEK_SHIP_pilgrim TWILEK_SHIP_trailblazer TWILEK_SHIP_vagabond TWILEK_SHIP_wayfarer TWILEK_SHIP_ambassador TWILEK_SHIP_emissary TWILEK_SHIP_nomad TWILEK_SHIP_pathfinder TWILEK_SHIP_wanderer TWILEK_SHIP_traveler TWILEK_SHIP_twilight
+		}
+		colonizer = {
+			TWILEK_SHIP_godspeed TWILEK_SHIP_prophecy TWILEK_SHIP_syndullan_dream TWILEK_SHIP_virtue TWILEK_SHIP_seed_of_twilight TWILEK_SHIP_expansion TWILEK_SHIP_saresh_spirit TWILEK_SHIP_prosperity TWILEK_SHIP_summit TWILEK_SHIP_pinnacle TWILEK_SHIP_memory_of_sal_kaasa
+		}
+		sponsored_colonizer = {
+			TWILEK_SHIP_godspeed TWILEK_SHIP_prophecy TWILEK_SHIP_syndullan_dream TWILEK_SHIP_virtue TWILEK_SHIP_seed_of_twilight TWILEK_SHIP_expansion TWILEK_SHIP_saresh_spirit TWILEK_SHIP_prosperity TWILEK_SHIP_summit TWILEK_SHIP_pinnacle TWILEK_SHIP_memory_of_sal_kaasa
+		}
+		constructor = {
+			TWILEK_SHIP_hard_ryll TWILEK_SHIP_lek_sweat TWILEK_SHIP_cavorter TWILEK_SHIP_freedman TWILEK_SHIP_fair_wage TWILEK_SHIP_twiletariat TWILEK_SHIP_self_emancipation TWILEK_SHIP_progress TWILEK_SHIP_nova_dream TWILEK_SHIP_promise TWILEK_SHIP_volunteer
+		}
+		transport = {
+			TWILEK_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			TWILEK_SHIP_spacegun_victory TWILEK_SHIP_spacegun_success TWILEK_SHIP_spacegun_supremacy TWILEK_SHIP_spacegun_superior TWILEK_SHIP_spacegun_adventure TWILEK_SHIP_spacegun_ascendancy TWILEK_SHIP_spacegun_paramount TWILEK_SHIP_spacegun_preponderous TWILEK_SHIP_spacegun_exemplary TWILEK_SHIP_spacegun_eximious TWILEK_SHIP_spacegun_pertinacity TWILEK_SHIP_spacegun_acclaim TWILEK_SHIP_spacegun_honor TWILEK_SHIP_spacegun_renown TWILEK_SHIP_spacegun_glory TWILEK_SHIP_spacegun_superb TWILEK_SHIP_spacegun_magnificence TWILEK_SHIP_spacegun_majestic TWILEK_SHIP_spacegun_splendor TWILEK_SHIP_spacegun_paradigm TWILEK_SHIP_spacegun_flawless TWILEK_SHIP_spacegun_consummate TWILEK_SHIP_spacegun_merit TWILEK_SHIP_spacegun_perfection TWILEK_SHIP_spacegun_virtue TWILEK_SHIP_spacegun_advantage TWILEK_SHIP_spacegun_rectitude TWILEK_SHIP_spacegun_incorruptible TWILEK_SHIP_spacegun_integrity TWILEK_SHIP_spacegun_justice TWILEK_SHIP_spacegun_probity TWILEK_SHIP_spacegun_prudence TWILEK_SHIP_spacegun_purity TWILEK_SHIP_spacegun_resolute TWILEK_SHIP_spacegun_dignity TWILEK_SHIP_spacegun_distinction TWILEK_SHIP_spacegun_excellence TWILEK_SHIP_spacegun_faithful TWILEK_SHIP_spacegun_discipline TWILEK_SHIP_spacegun_steadfast TWILEK_SHIP_spacegun_recompense TWILEK_SHIP_spacegun_requiem TWILEK_SHIP_spacegun_courage TWILEK_SHIP_spacegun_valor TWILEK_SHIP_spacegun_gallant TWILEK_SHIP_spacegun_daring TWILEK_SHIP_spacegun_constancy TWILEK_SHIP_spacegun_perseverence TWILEK_SHIP_spacegun_tenacity TWILEK_SHIP_spacegun_sedulity TWILEK_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			TWILEK_SHIP_spacegun_victory TWILEK_SHIP_spacegun_success TWILEK_SHIP_spacegun_supremacy TWILEK_SHIP_spacegun_superior TWILEK_SHIP_spacegun_adventure TWILEK_SHIP_spacegun_ascendancy TWILEK_SHIP_spacegun_paramount TWILEK_SHIP_spacegun_preponderous TWILEK_SHIP_spacegun_exemplary TWILEK_SHIP_spacegun_eximious TWILEK_SHIP_spacegun_pertinacity TWILEK_SHIP_spacegun_acclaim TWILEK_SHIP_spacegun_honor TWILEK_SHIP_spacegun_renown TWILEK_SHIP_spacegun_glory TWILEK_SHIP_spacegun_superb TWILEK_SHIP_spacegun_magnificence TWILEK_SHIP_spacegun_majestic TWILEK_SHIP_spacegun_splendor TWILEK_SHIP_spacegun_paradigm TWILEK_SHIP_spacegun_flawless TWILEK_SHIP_spacegun_consummate TWILEK_SHIP_spacegun_merit TWILEK_SHIP_spacegun_perfection TWILEK_SHIP_spacegun_virtue TWILEK_SHIP_spacegun_advantage TWILEK_SHIP_spacegun_rectitude TWILEK_SHIP_spacegun_incorruptible TWILEK_SHIP_spacegun_integrity TWILEK_SHIP_spacegun_justice TWILEK_SHIP_spacegun_probity TWILEK_SHIP_spacegun_prudence TWILEK_SHIP_spacegun_purity TWILEK_SHIP_spacegun_resolute TWILEK_SHIP_spacegun_dignity TWILEK_SHIP_spacegun_distinction TWILEK_SHIP_spacegun_excellence TWILEK_SHIP_spacegun_faithful TWILEK_SHIP_spacegun_discipline TWILEK_SHIP_spacegun_steadfast TWILEK_SHIP_spacegun_recompense TWILEK_SHIP_spacegun_requiem TWILEK_SHIP_spacegun_courage TWILEK_SHIP_spacegun_valor TWILEK_SHIP_spacegun_gallant TWILEK_SHIP_spacegun_daring TWILEK_SHIP_spacegun_constancy TWILEK_SHIP_spacegun_perseverence TWILEK_SHIP_spacegun_tenacity TWILEK_SHIP_spacegun_sedulity TWILEK_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			TWILEK_SHIP_spacegun_victory TWILEK_SHIP_spacegun_success TWILEK_SHIP_spacegun_supremacy TWILEK_SHIP_spacegun_superior TWILEK_SHIP_spacegun_adventure TWILEK_SHIP_spacegun_ascendancy TWILEK_SHIP_spacegun_paramount TWILEK_SHIP_spacegun_preponderous TWILEK_SHIP_spacegun_exemplary TWILEK_SHIP_spacegun_eximious TWILEK_SHIP_spacegun_pertinacity TWILEK_SHIP_spacegun_acclaim TWILEK_SHIP_spacegun_honor TWILEK_SHIP_spacegun_renown TWILEK_SHIP_spacegun_glory TWILEK_SHIP_spacegun_superb TWILEK_SHIP_spacegun_magnificence TWILEK_SHIP_spacegun_majestic TWILEK_SHIP_spacegun_splendor TWILEK_SHIP_spacegun_paradigm TWILEK_SHIP_spacegun_flawless TWILEK_SHIP_spacegun_consummate TWILEK_SHIP_spacegun_merit TWILEK_SHIP_spacegun_perfection TWILEK_SHIP_spacegun_virtue TWILEK_SHIP_spacegun_advantage TWILEK_SHIP_spacegun_rectitude TWILEK_SHIP_spacegun_incorruptible TWILEK_SHIP_spacegun_integrity TWILEK_SHIP_spacegun_justice TWILEK_SHIP_spacegun_probity TWILEK_SHIP_spacegun_prudence TWILEK_SHIP_spacegun_purity TWILEK_SHIP_spacegun_resolute TWILEK_SHIP_spacegun_dignity TWILEK_SHIP_spacegun_distinction TWILEK_SHIP_spacegun_excellence TWILEK_SHIP_spacegun_faithful TWILEK_SHIP_spacegun_discipline TWILEK_SHIP_spacegun_steadfast TWILEK_SHIP_spacegun_recompense TWILEK_SHIP_spacegun_requiem TWILEK_SHIP_spacegun_courage TWILEK_SHIP_spacegun_valor TWILEK_SHIP_spacegun_gallant TWILEK_SHIP_spacegun_daring TWILEK_SHIP_spacegun_constancy TWILEK_SHIP_spacegun_perseverence TWILEK_SHIP_spacegun_tenacity TWILEK_SHIP_spacegun_sedulity TWILEK_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			TWILEK_SHIP_cazne TWILEK_SHIP_cotan TWILEK_SHIP_darap TWILEK_SHIP_firith TWILEK_SHIP_hid TWILEK_SHIP_kala_uun TWILEK_SHIP_bashka TWILEK_SHIP_joreikna TWILEK_SHIP_kala_din TWILEK_SHIP_leb_reen TWILEK_SHIP_lessu TWILEK_SHIP_lohema TWILEK_SHIP_nabat TWILEK_SHIP_resdin TWILEK_SHIP_rhovari TWILEK_SHIP_roancu TWILEK_SHIP_sal_kaasa
+		}
+		ion_cannon = {
+			TWILEK_SHIP_bombard TWILEK_SHIP_ballista TWILEK_SHIP_catapult TWILEK_SHIP_harpoon TWILEK_SHIP_polybolos TWILEK_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			TWILEK_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			TWILEK_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			TWILEK_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			TWILEK_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			TWILEK_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			TWILEK_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			TWILEK_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			TWILEK_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			TWILEK_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			TWILEK_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			TWILEK_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			TWILEK_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			TWILEK_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			TWILEK_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			TWILEK_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			TWILEK_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			TWILEK_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			TWILEK_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			TWILEK_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			TWILEK_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			TWILEK_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			TWILEK_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			TWILEK_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			TWILEK_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			TWILEK_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			TWILEK_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			TWILEK_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			TWILEK_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			TWILEK_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			TWILEK_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			TWILEK_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			TWILEK_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			TWILEK_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			TWILEK_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			TWILEK_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			TWILEK_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			TWILEK_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			TWILEK_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			TWILEK_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			TWILEK_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			TWILEK_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			TWILEK_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			TWILEK_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			TWILEK_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			TWILEK_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			TWILEK_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			TWILEK_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			TWILEK_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			TWILEK_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			TWILEK_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			TWILEK_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			TWILEK_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			TWILEK_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			TWILEK_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			TWILEK_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			TWILEK_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			TWILEK_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			TWILEK_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			TWILEK_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			TWILEK_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			TWILEK_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			TWILEK_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			TWILEK_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			TWILEK_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			TWILEK_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			TWILEK_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			TWILEK_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			TWILEK_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			TWILEK_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			TWILEK_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			TWILEK_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			TWILEK_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			TWILEK_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			TWILEK_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			TWILEK_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			TWILEK_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			TWILEK_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			TWILEK_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			TWILEK_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			TWILEK_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			TWILEK_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			TWILEK_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			TWILEK_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			TWILEK_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			TWILEK_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			TWILEK_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			TWILEK_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			TWILEK_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			TWILEK_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			TWILEK_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			TWILEK_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			TWILEK_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			TWILEK_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			TWILEK_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = TWILEK_FLEET_free_flotilla_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = TWILEK_ARMY_planetary_maquis_ORD
+		}
+		assault_army = {
+			sequential_name = TWILEK_ARMY_martyrs_brigade_ORD
+		}
+		slave_army = {
+			sequential_name = TWILEK_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = TWILEK_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = TWILEK_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = TWILEK_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = TWILEK_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = TWILEK_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				TWILEK_ARMY_sarc_a__gladiators_ TWILEK_ARMY_sarc_b__widowmakers_ TWILEK_ARMY_sarc_c__immortals_ TWILEK_ARMY_sarc_d__berserkers_ TWILEK_ARMY_sarc_e__assassins_ TWILEK_ARMY_sarc_f__reapers_ TWILEK_ARMY_sarc_g__nighthawks_ TWILEK_ARMY_sarc_h__desperados_ TWILEK_ARMY_sarc_i__grey_knights_ TWILEK_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = TWILEK_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = TWILEK_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = TWILEK_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = TWILEK_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = TWILEK_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = TWILEK_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = TWILEK_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = TWILEK_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = TWILEK_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = TWILEK_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = TWILEK_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = TWILEK_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = TWILEK_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = TWILEK_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = TWILEK_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = TWILEK_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = TWILEK_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = TWILEK_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = TWILEK_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = TWILEK_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = TWILEK_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = TWILEK_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = TWILEK_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = TWILEK_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = TWILEK_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = TWILEK_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = TWILEK_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = TWILEK_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = TWILEK_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = TWILEK_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = TWILEK_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = TWILEK_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = TWILEK_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = TWILEK_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = TWILEK_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = TWILEK_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = TWILEK_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = TWILEK_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = TWILEK_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = TWILEK_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = TWILEK_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = TWILEK_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = TWILEK_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = TWILEK_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = TWILEK_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = TWILEK_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = TWILEK_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = TWILEK_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = TWILEK_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = TWILEK_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = TWILEK_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = TWILEK_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = TWILEK_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = TWILEK_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = TWILEK_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = TWILEK_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = TWILEK_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = TWILEK_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = TWILEK_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = TWILEK_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = TWILEK_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = TWILEK_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = TWILEK_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = TWILEK_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = TWILEK_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = TWILEK_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = TWILEK_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = TWILEK_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = TWILEK_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = TWILEK_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = TWILEK_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = TWILEK_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = TWILEK_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = TWILEK_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = TWILEK_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = TWILEK_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = TWILEK_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = TWILEK_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = TWILEK_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = TWILEK_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = TWILEK_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = TWILEK_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = TWILEK_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = TWILEK_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = TWILEK_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = TWILEK_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = TWILEK_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = TWILEK_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = TWILEK_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = TWILEK_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = TWILEK_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = TWILEK_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = TWILEK_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = TWILEK_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = TWILEK_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = TWILEK_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = TWILEK_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = TWILEK_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = TWILEK_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = TWILEK_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = TWILEK_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = TWILEK_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = TWILEK_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = TWILEK_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = TWILEK_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = TWILEK_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = TWILEK_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = TWILEK_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = TWILEK_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = TWILEK_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = TWILEK_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = TWILEK_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = TWILEK_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = TWILEK_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = TWILEK_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = TWILEK_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = TWILEK_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = TWILEK_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = TWILEK_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = TWILEK_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = TWILEK_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = TWILEK_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = TWILEK_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = TWILEK_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = TWILEK_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = TWILEK_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = TWILEK_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = TWILEK_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = TWILEK_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = TWILEK_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = TWILEK_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = TWILEK_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = TWILEK_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		full_names = {
+			first_names_male = {
+				TWILEK_CHR_cham TWILEK_CHR_deon TWILEK_CHR_adi_son TWILEK_CHR_adon_aris TWILEK_CHR_ahrnell TWILEK_CHR_ka_van TWILEK_CHR_alem TWILEK_CHR_hotho TWILEK_CHR_anoon_olan TWILEK_CHR_kandon TWILEK_CHR_esm TWILEK_CHR_warvog TWILEK_CHR_artruk TWILEK_CHR_arvakke TWILEK_CHR_boc TWILEK_CHR_tekku TWILEK_CHR_b_ura TWILEK_CHR_preens TWILEK_CHR_tempal TWILEK_CHR_badmil TWILEK_CHR_bakishan TWILEK_CHR_bakko TWILEK_CHR_dor TWILEK_CHR_udo TWILEK_CHR_arrud TWILEK_CHR_manion TWILEK_CHR_hril TWILEK_CHR_batza TWILEK_CHR_olee TWILEK_CHR_beejinz TWILEK_CHR_roshal TWILEK_CHR_guldus TWILEK_CHR_ru_up TWILEK_CHR_rond TWILEK_CHR_nej_a TWILEK_CHR_bik TWILEK_CHR_bilber TWILEK_CHR_triggo TWILEK_CHR_jano TWILEK_CHR_bizu TWILEK_CHR_gelune TWILEK_CHR_jer TWILEK_CHR_mourne TWILEK_CHR_nawara TWILEK_CHR_skawn TWILEK_CHR_tae TWILEK_CHR_borvo TWILEK_CHR_branak TWILEK_CHR_brazzer TWILEK_CHR_charth TWILEK_CHR_bril_nilim TWILEK_CHR_bro_orvta TWILEK_CHR_numen TWILEK_CHR_hekken TWILEK_CHR_greggo TWILEK_CHR_tul TWILEK_CHR_cahill TWILEK_CHR_chabak TWILEK_CHR_nar_chan TWILEK_CHR_hab TWILEK_CHR_vokara TWILEK_CHR_chedd TWILEK_CHR_choi_olan TWILEK_CHR_tru_eb TWILEK_CHR_leb TWILEK_CHR_pratari TWILEK_CHR_con_varra TWILEK_CHR_crost TWILEK_CHR_d_lak TWILEK_CHR_vasil TWILEK_CHR_phylo TWILEK_CHR_mynor TWILEK_CHR_andi TWILEK_CHR_danison TWILEK_CHR_dardama TWILEK_CHR_sav TWILEK_CHR_larith TWILEK_CHR_dekk_lar TWILEK_CHR_dendim TWILEK_CHR_qoen TWILEK_CHR_jan TWILEK_CHR_by_t TWILEK_CHR_valdos TWILEK_CHR_nars TWILEK_CHR_dok_madd TWILEK_CHR_orgadomo TWILEK_CHR_has TWILEK_CHR_tott TWILEK_CHR_dorv_tilsta TWILEK_CHR_jor TWILEK_CHR_druan TWILEK_CHR_jiv TWILEK_CHR_elam_shak TWILEK_CHR_koh_shak TWILEK_CHR_troa_shak TWILEK_CHR_wrou_shak TWILEK_CHR_eshgo TWILEK_CHR_estat TWILEK_CHR_frome TWILEK_CHR_jart TWILEK_CHR_fallanji TWILEK_CHR_feb_noota TWILEK_CHR_elav TWILEK_CHR_kh_aris TWILEK_CHR_rh_ajah TWILEK_CHR_tol TWILEK_CHR_for_ali TWILEK_CHR_newar TWILEK_CHR_bib TWILEK_CHR_kep TWILEK_CHR_komad TWILEK_CHR_ob TWILEK_CHR_tal TWILEK_CHR_ga_ram TWILEK_CHR_gadsle TWILEK_CHR_galron TWILEK_CHR_slar_dan TWILEK_CHR_gele_ren TWILEK_CHR_lobb TWILEK_CHR_tardon TWILEK_CHR_oolak TWILEK_CHR_gar TWILEK_CHR_khom TWILEK_CHR_guunta TWILEK_CHR_guzerre TWILEK_CHR_hado TWILEK_CHR_halno_an TWILEK_CHR_halrii TWILEK_CHR_dole TWILEK_CHR_haronn TWILEK_CHR_hassla_tak TWILEK_CHR_gedrpm TWILEK_CHR_xosad TWILEK_CHR_jor TWILEK_CHR_hedon TWILEK_CHR_izzat TWILEK_CHR_deesra TWILEK_CHR_ados TWILEK_CHR_moko TWILEK_CHR_jefris TWILEK_CHR_jela_han TWILEK_CHR_jollo TWILEK_CHR_jorol TWILEK_CHR_kardash TWILEK_CHR_k_kur TWILEK_CHR_chom_frey TWILEK_CHR_kabat TWILEK_CHR_kailur TWILEK_CHR_reess TWILEK_CHR_ganda TWILEK_CHR_karlo TWILEK_CHR_kas_im TWILEK_CHR_fir TWILEK_CHR_kelthan TWILEK_CHR_keylan TWILEK_CHR_kesler TWILEK_CHR_khwir TWILEK_CHR_vekis TWILEK_CHR_kopecz TWILEK_CHR_krayy TWILEK_CHR_larus TWILEK_CHR_jek TWILEK_CHR_lo_tar TWILEK_CHR_kinash TWILEK_CHR_zan TWILEK_CHR_garak TWILEK_CHR_siolo TWILEK_CHR_marlo TWILEK_CHR_jundo TWILEK_CHR_mirru TWILEK_CHR_chee TWILEK_CHR_cel TWILEK_CHR_nallok TWILEK_CHR_padda TWILEK_CHR_kor TWILEK_CHR_protarius TWILEK_CHR_volnos TWILEK_CHR_san TWILEK_CHR_ra TWILEK_CHR_gunn_han TWILEK_CHR_sol_aa TWILEK_CHR_bib TWILEK_CHR_cham TWILEK_CHR_vanel
+			}
+			first_names_female = {
+				TWILEK_CHR_hera TWILEK_CHR_numa TWILEK_CHR_oola TWILEK_CHR_gi_a TWILEK_CHR_aayu TWILEK_CHR_alauni TWILEK_CHR_allia TWILEK_CHR_naytha TWILEK_CHR_an_kwee TWILEK_CHR_anakaret TWILEK_CHR_anglu TWILEK_CHR_boshti TWILEK_CHR_anj_a TWILEK_CHR_vora TWILEK_CHR_anri TWILEK_CHR_aquillia TWILEK_CHR_arruna TWILEK_CHR_nowk TWILEK_CHR_vederiat TWILEK_CHR_zoriss TWILEK_CHR_yvana TWILEK_CHR_yuthura TWILEK_CHR_trella TWILEK_CHR_ara TWILEK_CHR_barra TWILEK_CHR_carh_la TWILEK_CHR_beena TWILEK_CHR_bengara TWILEK_CHR_berri TWILEK_CHR_aola TWILEK_CHR_mala TWILEK_CHR_jessa TWILEK_CHR_hahnee TWILEK_CHR_calia TWILEK_CHR_d_yra TWILEK_CHR_caranna TWILEK_CHR_carina TWILEK_CHR_cera TWILEK_CHR_cha_ba TWILEK_CHR_ardana TWILEK_CHR_cosdra TWILEK_CHR_tivva TWILEK_CHR_vette TWILEK_CHR_eleena TWILEK_CHR_daeshara_cor TWILEK_CHR_dahna TWILEK_CHR_dahnis TWILEK_CHR_yu TWILEK_CHR_sari TWILEK_CHR_daru_da TWILEK_CHR_leontyne TWILEK_CHR_d_yra TWILEK_CHR_di_hal_uma TWILEK_CHR_dianthy TWILEK_CHR_diida TWILEK_CHR_arali TWILEK_CHR_tuulaa TWILEK_CHR_tee_ubo TWILEK_CHR_drua TWILEK_CHR_dya_tamm TWILEK_CHR_edvaalda TWILEK_CHR_eelie TWILEK_CHR_elia TWILEK_CHR_cesi TWILEK_CHR_anzya TWILEK_CHR_elar TWILEK_CHR_elina TWILEK_CHR_finn TWILEK_CHR_jonra TWILEK_CHR_karin TWILEK_CHR_fellil TWILEK_CHR_fend_allomin TWILEK_CHR_swilja TWILEK_CHR_b_inka TWILEK_CHR_vi TWILEK_CHR_marinda TWILEK_CHR_hellene TWILEK_CHR_henni TWILEK_CHR_morgen TWILEK_CHR_iania TWILEK_CHR_idalssa TWILEK_CHR_bur_n TWILEK_CHR_inaldra TWILEK_CHR_inun TWILEK_CHR_izel TWILEK_CHR_issa_or TWILEK_CHR_invesa TWILEK_CHR_ja_inn TWILEK_CHR_jacynith TWILEK_CHR_jalla TWILEK_CHR_janiah TWILEK_CHR_miwy TWILEK_CHR_nyn TWILEK_CHR_kalar_naa TWILEK_CHR_erin TWILEK_CHR_kar_wa TWILEK_CHR_kariya TWILEK_CHR_kenna TWILEK_CHR_arta TWILEK_CHR_trea TWILEK_CHR_liana TWILEK_CHR_prengahl TWILEK_CHR_saya TWILEK_CHR_pala TWILEK_CHR_c_ar TWILEK_CHR_bow TWILEK_CHR_amada TWILEK_CHR_shaeeah TWILEK_CHR_suu TWILEK_CHR_lena TWILEK_CHR_cruva TWILEK_CHR_faa_i TWILEK_CHR_letta TWILEK_CHR_bina TWILEK_CHR_lliandri TWILEK_CHR_lora TWILEK_CHR_gida TWILEK_CHR_luta TWILEK_CHR_borna TWILEK_CHR_ma_ya TWILEK_CHR_mal_aa TWILEK_CHR_koyi TWILEK_CHR_mazi TWILEK_CHR_lyn_me TWILEK_CHR_meeva TWILEK_CHR_lunae TWILEK_CHR_romi TWILEK_CHR_masha TWILEK_CHR_ral_rai TWILEK_CHR_myahh TWILEK_CHR_n_vara TWILEK_CHR_j_virgo TWILEK_CHR_ylla TWILEK_CHR_naria TWILEK_CHR_trezya TWILEK_CHR_yraka TWILEK_CHR_nic_ala TWILEK_CHR_nima_tar TWILEK_CHR_nolaa TWILEK_CHR_sia TWILEK_CHR_numa TWILEK_CHR_okuvim TWILEK_CHR_kahfr TWILEK_CHR_oola TWILEK_CHR_oskara TWILEK_CHR_netula TWILEK_CHR_dia TWILEK_CHR_diala TWILEK_CHR_vel TWILEK_CHR_pharen TWILEK_CHR_kuvuta TWILEK_CHR_portani TWILEK_CHR_ramana TWILEK_CHR_ramna TWILEK_CHR_amille TWILEK_CHR_sotna TWILEK_CHR_samala TWILEK_CHR_taya TWILEK_CHR_rooshan TWILEK_CHR_kora TWILEK_CHR_tasha TWILEK_CHR_rypka TWILEK_CHR_samara TWILEK_CHR_sarannah TWILEK_CHR_rianna TWILEK_CHR_seer_aa TWILEK_CHR_lyna TWILEK_CHR_blancia TWILEK_CHR_sha_lia TWILEK_CHR_sheani TWILEK_CHR_sinya TWILEK_CHR_sumari TWILEK_CHR_sura TWILEK_CHR_mira TWILEK_CHR_tal_dira TWILEK_CHR_vadria TWILEK_CHR_ranna TWILEK_CHR_nolaa TWILEK_CHR_tavri TWILEK_CHR_teer_aa TWILEK_CHR_mirri TWILEK_CHR_thoha_lynda TWILEK_CHR_tivva TWILEK_CHR_tronda TWILEK_CHR_tsar_alla TWILEK_CHR_eela TWILEK_CHR_voyla TWILEK_CHR_zaerdra TWILEK_CHR_zinny TWILEK_CHR_nerra
+			}
+			second_names = {
+				TWILEK_CHR_syndulla TWILEK_CHR_aarlaa TWILEK_CHR_aip TWILEK_CHR_reesus TWILEK_CHR_allaran TWILEK_CHR_alutana TWILEK_CHR_anilee TWILEK_CHR_anjek TWILEK_CHR_ark TWILEK_CHR_arkhee TWILEK_CHR_arkon TWILEK_CHR_aseca TWILEK_CHR_asil TWILEK_CHR_ayon TWILEK_CHR_b_an TWILEK_CHR_b_oola TWILEK_CHR_b_uncho TWILEK_CHR_bafka TWILEK_CHR_bailer TWILEK_CHR_balse TWILEK_CHR_ban TWILEK_CHR_bare_ah TWILEK_CHR_barnett TWILEK_CHR_barotta TWILEK_CHR_barsoomu TWILEK_CHR_basca TWILEK_CHR_bast TWILEK_CHR_bastra TWILEK_CHR_beasco TWILEK_CHR_bek TWILEK_CHR_bemm TWILEK_CHR_benpo TWILEK_CHR_berrin TWILEK_CHR_bert_lo TWILEK_CHR_binz TWILEK_CHR_bix TWILEK_CHR_blankuna TWILEK_CHR_blen TWILEK_CHR_bo_den TWILEK_CHR_bolook TWILEK_CHR_bonduna TWILEK_CHR_boon TWILEK_CHR_brethen TWILEK_CHR_brock TWILEK_CHR_brol_trop TWILEK_CHR_brudd TWILEK_CHR_bulba TWILEK_CHR_calisse TWILEK_CHR_chanzor TWILEK_CHR_cheib_kalla TWILEK_CHR_childar TWILEK_CHR_cholakk TWILEK_CHR_chura TWILEK_CHR_cinn TWILEK_CHR_daru TWILEK_CHR_d_ukal TWILEK_CHR_daan TWILEK_CHR_dac TWILEK_CHR_dae TWILEK_CHR_dakar TWILEK_CHR_danzer TWILEK_CHR_darnell TWILEK_CHR_de TWILEK_CHR_saresh TWILEK_CHR_denfa TWILEK_CHR_dervul TWILEK_CHR_dez TWILEK_CHR_dil TWILEK_CHR_distombe TWILEK_CHR_dofine TWILEK_CHR_dojah TWILEK_CHR_dokura TWILEK_CHR_doneeta TWILEK_CHR_doole TWILEK_CHR_dromol TWILEK_CHR_durael TWILEK_CHR_durren TWILEK_CHR_eirriss TWILEK_CHR_ekull TWILEK_CHR_endran TWILEK_CHR_ertay TWILEK_CHR_essor TWILEK_CHR_eubarus TWILEK_CHR_evonnus TWILEK_CHR_eyan TWILEK_CHR_fabel TWILEK_CHR_far TWILEK_CHR_feen TWILEK_CHR_feshin TWILEK_CHR_fortuna TWILEK_CHR_forrod TWILEK_CHR_forrth TWILEK_CHR_freykaa TWILEK_CHR_futrad TWILEK_CHR_gan TWILEK_CHR_ti_gardi TWILEK_CHR_garrulan TWILEK_CHR_gerido TWILEK_CHR_golor TWILEK_CHR_goyl TWILEK_CHR_gratius TWILEK_CHR_grelt TWILEK_CHR_grollo TWILEK_CHR_gwin TWILEK_CHR_ha_laa TWILEK_CHR_happ TWILEK_CHR_henzen TWILEK_CHR_hix TWILEK_CHR_lakhasa TWILEK_CHR_hosem TWILEK_CHR_idrall TWILEK_CHR_ikle TWILEK_CHR_istee TWILEK_CHR_luur_jada TWILEK_CHR_jarrde TWILEK_CHR_josen TWILEK_CHR_kaa TWILEK_CHR_kablo TWILEK_CHR_kairn TWILEK_CHR_kaitoova TWILEK_CHR_kaldo TWILEK_CHR_kashal TWILEK_CHR_kiyanu TWILEK_CHR_kleidun TWILEK_CHR_kobbeth TWILEK_CHR_kor TWILEK_CHR_korkresh TWILEK_CHR_koy_tiffin TWILEK_CHR_kroh_dalla TWILEK_CHR_ksi TWILEK_CHR_kwi_teksa TWILEK_CHR_l_andara TWILEK_CHR_last TWILEK_CHR_name TWILEK_CHR_lawquane TWILEK_CHR_lethax TWILEK_CHR_lock TWILEK_CHR_lom TWILEK_CHR_loren TWILEK_CHR_los TWILEK_CHR_lu_bratnik TWILEK_CHR_luroon TWILEK_CHR_lys TWILEK_CHR_madroo TWILEK_CHR_ur_manka TWILEK_CHR_marclonus TWILEK_CHR_maateil TWILEK_CHR_mogra_daal TWILEK_CHR_moola TWILEK_CHR_n_ero TWILEK_CHR_n_yen TWILEK_CHR_nall TWILEK_CHR_nalooma TWILEK_CHR_ne_dago TWILEK_CHR_norrin TWILEK_CHR_nymbis TWILEK_CHR_oladi TWILEK_CHR_olan TWILEK_CHR_oo_rha TWILEK_CHR_ot_ona TWILEK_CHR_orin TWILEK_CHR_orias TWILEK_CHR_pahn TWILEK_CHR_passik TWILEK_CHR_pastar TWILEK_CHR_phan TWILEK_CHR_pindi TWILEK_CHR_piv TWILEK_CHR_podura TWILEK_CHR_pudundruh TWILEK_CHR_quis TWILEK_CHR_rach_talik TWILEK_CHR_rackus TWILEK_CHR_rai_sodan TWILEK_CHR_raloch TWILEK_CHR_rinn TWILEK_CHR_rol_waran TWILEK_CHR_rugel TWILEK_CHR_ryo TWILEK_CHR_saren TWILEK_CHR_saresh TWILEK_CHR_sekla TWILEK_CHR_shan_dira TWILEK_CHR_sienn_rha TWILEK_CHR_soolami TWILEK_CHR_surool TWILEK_CHR_syndulla TWILEK_CHR_t_rani TWILEK_CHR_talosi TWILEK_CHR_tander TWILEK_CHR_tannon TWILEK_CHR_tao_ven TWILEK_CHR_tara TWILEK_CHR_tarak TWILEK_CHR_tarkona TWILEK_CHR_trell TWILEK_CHR_tualin TWILEK_CHR_un_la_na TWILEK_CHR_utrila TWILEK_CHR_valotta TWILEK_CHR_var_soonta TWILEK_CHR_var TWILEK_CHR_vaturha TWILEK_CHR_veila TWILEK_CHR_velus TWILEK_CHR_ven TWILEK_CHR_ver_zremp TWILEK_CHR_veila TWILEK_CHR_yunin
+			}
+			regnal_first_names_male = {
+				TWILEK_CHR_cham TWILEK_CHR_deon TWILEK_CHR_adi_son TWILEK_CHR_adon_aris TWILEK_CHR_ahrnell TWILEK_CHR_ka_van TWILEK_CHR_alem TWILEK_CHR_hotho TWILEK_CHR_anoon_olan TWILEK_CHR_kandon TWILEK_CHR_esm TWILEK_CHR_warvog TWILEK_CHR_artruk TWILEK_CHR_arvakke TWILEK_CHR_boc TWILEK_CHR_tekku TWILEK_CHR_b_ura TWILEK_CHR_preens TWILEK_CHR_tempal TWILEK_CHR_badmil TWILEK_CHR_bakishan TWILEK_CHR_bakko TWILEK_CHR_dor TWILEK_CHR_udo TWILEK_CHR_arrud TWILEK_CHR_manion TWILEK_CHR_hril TWILEK_CHR_batza TWILEK_CHR_olee TWILEK_CHR_beejinz TWILEK_CHR_roshal TWILEK_CHR_guldus TWILEK_CHR_ru_up TWILEK_CHR_rond TWILEK_CHR_nej_a TWILEK_CHR_bik TWILEK_CHR_bilber TWILEK_CHR_triggo TWILEK_CHR_jano TWILEK_CHR_bizu TWILEK_CHR_gelune TWILEK_CHR_jer TWILEK_CHR_mourne TWILEK_CHR_nawara TWILEK_CHR_skawn TWILEK_CHR_tae TWILEK_CHR_borvo TWILEK_CHR_branak TWILEK_CHR_brazzer TWILEK_CHR_charth TWILEK_CHR_bril_nilim TWILEK_CHR_bro_orvta TWILEK_CHR_numen TWILEK_CHR_hekken TWILEK_CHR_greggo TWILEK_CHR_tul TWILEK_CHR_cahill TWILEK_CHR_chabak TWILEK_CHR_nar_chan TWILEK_CHR_hab TWILEK_CHR_vokara TWILEK_CHR_chedd TWILEK_CHR_choi_olan TWILEK_CHR_tru_eb TWILEK_CHR_leb TWILEK_CHR_pratari TWILEK_CHR_con_varra TWILEK_CHR_crost TWILEK_CHR_d_lak TWILEK_CHR_vasil TWILEK_CHR_phylo TWILEK_CHR_mynor TWILEK_CHR_andi TWILEK_CHR_danison TWILEK_CHR_dardama TWILEK_CHR_sav TWILEK_CHR_larith TWILEK_CHR_dekk_lar TWILEK_CHR_dendim TWILEK_CHR_qoen TWILEK_CHR_jan TWILEK_CHR_by_t TWILEK_CHR_valdos TWILEK_CHR_nars TWILEK_CHR_dok_madd TWILEK_CHR_orgadomo TWILEK_CHR_has TWILEK_CHR_tott TWILEK_CHR_dorv_tilsta TWILEK_CHR_jor TWILEK_CHR_druan TWILEK_CHR_jiv TWILEK_CHR_elam_shak TWILEK_CHR_koh_shak TWILEK_CHR_troa_shak TWILEK_CHR_wrou_shak TWILEK_CHR_eshgo TWILEK_CHR_estat TWILEK_CHR_frome TWILEK_CHR_jart TWILEK_CHR_fallanji TWILEK_CHR_feb_noota TWILEK_CHR_elav TWILEK_CHR_kh_aris TWILEK_CHR_rh_ajah TWILEK_CHR_tol TWILEK_CHR_for_ali TWILEK_CHR_newar TWILEK_CHR_bib TWILEK_CHR_kep TWILEK_CHR_komad TWILEK_CHR_ob TWILEK_CHR_tal TWILEK_CHR_ga_ram TWILEK_CHR_gadsle TWILEK_CHR_galron TWILEK_CHR_slar_dan TWILEK_CHR_gele_ren TWILEK_CHR_lobb TWILEK_CHR_tardon TWILEK_CHR_oolak TWILEK_CHR_gar TWILEK_CHR_khom TWILEK_CHR_guunta TWILEK_CHR_guzerre TWILEK_CHR_hado TWILEK_CHR_halno_an TWILEK_CHR_halrii TWILEK_CHR_dole TWILEK_CHR_haronn TWILEK_CHR_hassla_tak TWILEK_CHR_gedrpm TWILEK_CHR_xosad TWILEK_CHR_jor TWILEK_CHR_hedon TWILEK_CHR_izzat TWILEK_CHR_deesra TWILEK_CHR_ados TWILEK_CHR_moko TWILEK_CHR_jefris TWILEK_CHR_jela_han TWILEK_CHR_jollo TWILEK_CHR_jorol TWILEK_CHR_kardash TWILEK_CHR_k_kur TWILEK_CHR_chom_frey TWILEK_CHR_kabat TWILEK_CHR_kailur TWILEK_CHR_reess TWILEK_CHR_ganda TWILEK_CHR_karlo TWILEK_CHR_kas_im TWILEK_CHR_fir TWILEK_CHR_kelthan TWILEK_CHR_keylan TWILEK_CHR_kesler TWILEK_CHR_khwir TWILEK_CHR_vekis TWILEK_CHR_kopecz TWILEK_CHR_krayy TWILEK_CHR_larus TWILEK_CHR_jek TWILEK_CHR_lo_tar TWILEK_CHR_kinash TWILEK_CHR_zan TWILEK_CHR_garak TWILEK_CHR_siolo TWILEK_CHR_marlo TWILEK_CHR_jundo TWILEK_CHR_mirru TWILEK_CHR_chee TWILEK_CHR_cel TWILEK_CHR_nallok TWILEK_CHR_padda TWILEK_CHR_kor TWILEK_CHR_protarius TWILEK_CHR_volnos TWILEK_CHR_san TWILEK_CHR_ra TWILEK_CHR_gunn_han TWILEK_CHR_sol_aa TWILEK_CHR_bib TWILEK_CHR_cham TWILEK_CHR_vanel
+			}
+			regnal_first_names_female = {
+				TWILEK_CHR_hera TWILEK_CHR_numa TWILEK_CHR_oola TWILEK_CHR_gi_a TWILEK_CHR_aayu TWILEK_CHR_alauni TWILEK_CHR_allia TWILEK_CHR_naytha TWILEK_CHR_an_kwee TWILEK_CHR_anakaret TWILEK_CHR_anglu TWILEK_CHR_boshti TWILEK_CHR_anj_a TWILEK_CHR_vora TWILEK_CHR_anri TWILEK_CHR_aquillia TWILEK_CHR_arruna TWILEK_CHR_nowk TWILEK_CHR_vederiat TWILEK_CHR_zoriss TWILEK_CHR_yvana TWILEK_CHR_yuthura TWILEK_CHR_trella TWILEK_CHR_ara TWILEK_CHR_barra TWILEK_CHR_carh_la TWILEK_CHR_beena TWILEK_CHR_bengara TWILEK_CHR_berri TWILEK_CHR_aola TWILEK_CHR_mala TWILEK_CHR_jessa TWILEK_CHR_hahnee TWILEK_CHR_calia TWILEK_CHR_d_yra TWILEK_CHR_caranna TWILEK_CHR_carina TWILEK_CHR_cera TWILEK_CHR_cha_ba TWILEK_CHR_ardana TWILEK_CHR_cosdra TWILEK_CHR_tivva TWILEK_CHR_vette TWILEK_CHR_eleena TWILEK_CHR_daeshara_cor TWILEK_CHR_dahna TWILEK_CHR_dahnis TWILEK_CHR_yu TWILEK_CHR_sari TWILEK_CHR_daru_da TWILEK_CHR_leontyne TWILEK_CHR_d_yra TWILEK_CHR_di_hal_uma TWILEK_CHR_dianthy TWILEK_CHR_diida TWILEK_CHR_arali TWILEK_CHR_tuulaa TWILEK_CHR_tee_ubo TWILEK_CHR_drua TWILEK_CHR_dya_tamm TWILEK_CHR_edvaalda TWILEK_CHR_eelie TWILEK_CHR_elia TWILEK_CHR_cesi TWILEK_CHR_anzya TWILEK_CHR_elar TWILEK_CHR_elina TWILEK_CHR_finn TWILEK_CHR_jonra TWILEK_CHR_karin TWILEK_CHR_fellil TWILEK_CHR_fend_allomin TWILEK_CHR_swilja TWILEK_CHR_b_inka TWILEK_CHR_vi TWILEK_CHR_marinda TWILEK_CHR_hellene TWILEK_CHR_henni TWILEK_CHR_morgen TWILEK_CHR_iania TWILEK_CHR_idalssa TWILEK_CHR_bur_n TWILEK_CHR_inaldra TWILEK_CHR_inun TWILEK_CHR_izel TWILEK_CHR_issa_or TWILEK_CHR_invesa TWILEK_CHR_ja_inn TWILEK_CHR_jacynith TWILEK_CHR_jalla TWILEK_CHR_janiah TWILEK_CHR_miwy TWILEK_CHR_nyn TWILEK_CHR_kalar_naa TWILEK_CHR_erin TWILEK_CHR_kar_wa TWILEK_CHR_kariya TWILEK_CHR_kenna TWILEK_CHR_arta TWILEK_CHR_trea TWILEK_CHR_liana TWILEK_CHR_prengahl TWILEK_CHR_saya TWILEK_CHR_pala TWILEK_CHR_c_ar TWILEK_CHR_bow TWILEK_CHR_amada TWILEK_CHR_shaeeah TWILEK_CHR_suu TWILEK_CHR_lena TWILEK_CHR_cruva TWILEK_CHR_faa_i TWILEK_CHR_letta TWILEK_CHR_bina TWILEK_CHR_lliandri TWILEK_CHR_lora TWILEK_CHR_gida TWILEK_CHR_luta TWILEK_CHR_borna TWILEK_CHR_ma_ya TWILEK_CHR_mal_aa TWILEK_CHR_koyi TWILEK_CHR_mazi TWILEK_CHR_lyn_me TWILEK_CHR_meeva TWILEK_CHR_lunae TWILEK_CHR_romi TWILEK_CHR_masha TWILEK_CHR_ral_rai TWILEK_CHR_myahh TWILEK_CHR_n_vara TWILEK_CHR_j_virgo TWILEK_CHR_ylla TWILEK_CHR_naria TWILEK_CHR_trezya TWILEK_CHR_yraka TWILEK_CHR_nic_ala TWILEK_CHR_nima_tar TWILEK_CHR_nolaa TWILEK_CHR_sia TWILEK_CHR_numa TWILEK_CHR_okuvim TWILEK_CHR_kahfr TWILEK_CHR_oola TWILEK_CHR_oskara TWILEK_CHR_netula TWILEK_CHR_dia TWILEK_CHR_diala TWILEK_CHR_vel TWILEK_CHR_pharen TWILEK_CHR_kuvuta TWILEK_CHR_portani TWILEK_CHR_ramana TWILEK_CHR_ramna TWILEK_CHR_amille TWILEK_CHR_sotna TWILEK_CHR_samala TWILEK_CHR_taya TWILEK_CHR_rooshan TWILEK_CHR_kora TWILEK_CHR_tasha TWILEK_CHR_rypka TWILEK_CHR_samara TWILEK_CHR_sarannah TWILEK_CHR_rianna TWILEK_CHR_seer_aa TWILEK_CHR_lyna TWILEK_CHR_blancia TWILEK_CHR_sha_lia TWILEK_CHR_sheani TWILEK_CHR_sinya TWILEK_CHR_sumari TWILEK_CHR_sura TWILEK_CHR_mira TWILEK_CHR_tal_dira TWILEK_CHR_vadria TWILEK_CHR_ranna TWILEK_CHR_nolaa TWILEK_CHR_tavri TWILEK_CHR_teer_aa TWILEK_CHR_mirri TWILEK_CHR_thoha_lynda TWILEK_CHR_tivva TWILEK_CHR_tronda TWILEK_CHR_tsar_alla TWILEK_CHR_eela TWILEK_CHR_voyla TWILEK_CHR_zaerdra TWILEK_CHR_zinny TWILEK_CHR_nerra
+			}
+			regnal_second_names = {
+				TWILEK_CHR_syndulla TWILEK_CHR_aarlaa TWILEK_CHR_aip TWILEK_CHR_reesus TWILEK_CHR_allaran TWILEK_CHR_alutana TWILEK_CHR_anilee TWILEK_CHR_anjek TWILEK_CHR_ark TWILEK_CHR_arkhee TWILEK_CHR_arkon TWILEK_CHR_aseca TWILEK_CHR_asil TWILEK_CHR_ayon TWILEK_CHR_b_an TWILEK_CHR_b_oola TWILEK_CHR_b_uncho TWILEK_CHR_bafka TWILEK_CHR_bailer TWILEK_CHR_balse TWILEK_CHR_ban TWILEK_CHR_bare_ah TWILEK_CHR_barnett TWILEK_CHR_barotta TWILEK_CHR_barsoomu TWILEK_CHR_basca TWILEK_CHR_bast TWILEK_CHR_bastra TWILEK_CHR_beasco TWILEK_CHR_bek TWILEK_CHR_bemm TWILEK_CHR_benpo TWILEK_CHR_berrin TWILEK_CHR_bert_lo TWILEK_CHR_binz TWILEK_CHR_bix TWILEK_CHR_blankuna TWILEK_CHR_blen TWILEK_CHR_bo_den TWILEK_CHR_bolook TWILEK_CHR_bonduna TWILEK_CHR_boon TWILEK_CHR_brethen TWILEK_CHR_brock TWILEK_CHR_brol_trop TWILEK_CHR_brudd TWILEK_CHR_bulba TWILEK_CHR_calisse TWILEK_CHR_chanzor TWILEK_CHR_cheib_kalla TWILEK_CHR_childar TWILEK_CHR_cholakk TWILEK_CHR_chura TWILEK_CHR_cinn TWILEK_CHR_daru TWILEK_CHR_d_ukal TWILEK_CHR_daan TWILEK_CHR_dac TWILEK_CHR_dae TWILEK_CHR_dakar TWILEK_CHR_danzer TWILEK_CHR_darnell TWILEK_CHR_de TWILEK_CHR_saresh TWILEK_CHR_denfa TWILEK_CHR_dervul TWILEK_CHR_dez TWILEK_CHR_dil TWILEK_CHR_distombe TWILEK_CHR_dofine TWILEK_CHR_dojah TWILEK_CHR_dokura TWILEK_CHR_doneeta TWILEK_CHR_doole TWILEK_CHR_dromol TWILEK_CHR_durael TWILEK_CHR_durren TWILEK_CHR_eirriss TWILEK_CHR_ekull TWILEK_CHR_endran TWILEK_CHR_ertay TWILEK_CHR_essor TWILEK_CHR_eubarus TWILEK_CHR_evonnus TWILEK_CHR_eyan TWILEK_CHR_fabel TWILEK_CHR_far TWILEK_CHR_feen TWILEK_CHR_feshin TWILEK_CHR_fortuna TWILEK_CHR_forrod TWILEK_CHR_forrth TWILEK_CHR_freykaa TWILEK_CHR_futrad TWILEK_CHR_gan TWILEK_CHR_ti_gardi TWILEK_CHR_garrulan TWILEK_CHR_gerido TWILEK_CHR_golor TWILEK_CHR_goyl TWILEK_CHR_gratius TWILEK_CHR_grelt TWILEK_CHR_grollo TWILEK_CHR_gwin TWILEK_CHR_ha_laa TWILEK_CHR_happ TWILEK_CHR_henzen TWILEK_CHR_hix TWILEK_CHR_lakhasa TWILEK_CHR_hosem TWILEK_CHR_idrall TWILEK_CHR_ikle TWILEK_CHR_istee TWILEK_CHR_luur_jada TWILEK_CHR_jarrde TWILEK_CHR_josen TWILEK_CHR_kaa TWILEK_CHR_kablo TWILEK_CHR_kairn TWILEK_CHR_kaitoova TWILEK_CHR_kaldo TWILEK_CHR_kashal TWILEK_CHR_kiyanu TWILEK_CHR_kleidun TWILEK_CHR_kobbeth TWILEK_CHR_kor TWILEK_CHR_korkresh TWILEK_CHR_koy_tiffin TWILEK_CHR_kroh_dalla TWILEK_CHR_ksi TWILEK_CHR_kwi_teksa TWILEK_CHR_l_andara TWILEK_CHR_last TWILEK_CHR_name TWILEK_CHR_lawquane TWILEK_CHR_lethax TWILEK_CHR_lock TWILEK_CHR_lom TWILEK_CHR_loren TWILEK_CHR_los TWILEK_CHR_lu_bratnik TWILEK_CHR_luroon TWILEK_CHR_lys TWILEK_CHR_madroo TWILEK_CHR_ur_manka TWILEK_CHR_marclonus TWILEK_CHR_maateil TWILEK_CHR_mogra_daal TWILEK_CHR_moola TWILEK_CHR_n_ero TWILEK_CHR_n_yen TWILEK_CHR_nall TWILEK_CHR_nalooma TWILEK_CHR_ne_dago TWILEK_CHR_norrin TWILEK_CHR_nymbis TWILEK_CHR_oladi TWILEK_CHR_olan TWILEK_CHR_oo_rha TWILEK_CHR_ot_ona TWILEK_CHR_orin TWILEK_CHR_orias TWILEK_CHR_pahn TWILEK_CHR_passik TWILEK_CHR_pastar TWILEK_CHR_phan TWILEK_CHR_pindi TWILEK_CHR_piv TWILEK_CHR_podura TWILEK_CHR_pudundruh TWILEK_CHR_quis TWILEK_CHR_rach_talik TWILEK_CHR_rackus TWILEK_CHR_rai_sodan TWILEK_CHR_raloch TWILEK_CHR_rinn TWILEK_CHR_rol_waran TWILEK_CHR_rugel TWILEK_CHR_ryo TWILEK_CHR_saren TWILEK_CHR_saresh TWILEK_CHR_sekla TWILEK_CHR_shan_dira TWILEK_CHR_sienn_rha TWILEK_CHR_soolami TWILEK_CHR_surool TWILEK_CHR_syndulla TWILEK_CHR_t_rani TWILEK_CHR_talosi TWILEK_CHR_tander TWILEK_CHR_tannon TWILEK_CHR_tao_ven TWILEK_CHR_tara TWILEK_CHR_tarak TWILEK_CHR_tarkona TWILEK_CHR_trell TWILEK_CHR_tualin TWILEK_CHR_un_la_na TWILEK_CHR_utrila TWILEK_CHR_valotta TWILEK_CHR_var_soonta TWILEK_CHR_var TWILEK_CHR_vaturha TWILEK_CHR_veila TWILEK_CHR_velus TWILEK_CHR_ven TWILEK_CHR_ver_zremp TWILEK_CHR_veila TWILEK_CHR_yunin
+			}
+		}
+	}
+}

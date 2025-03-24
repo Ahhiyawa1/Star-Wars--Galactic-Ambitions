@@ -1,0 +1,903 @@
+#################################
+# 			Vanilla 			#
+#################################
+###
+### Civ Ships
+###
+science = {
+	max_speed = 640
+	acceleration = 0.46
+	rotation_speed = 0.85
+	max_hitpoints = 500
+	fleet_slot_size = 1
+	graphical_culture = {
+		"imperial_01"
+		"republic_01"
+		"rebel_01"
+		"hutt_01"
+		"mando_01"
+		"corellian_01"
+		"cis_01"
+		"csa_01"
+		"hapes_01"
+		"misc_01"
+		"misc_02"
+		"misc_03"
+		"misc_04"
+		"chiss_01"
+		"plantoid_01"
+		"mammalian_01"
+		"reptilian_01"
+		"avian_01"
+		"molluscoid_01"
+		"fungoid_01"
+		"arthropoid_01"
+		"humanoid_01"
+		"lithoid_01"
+		"plantoid_01"
+		"ancient_drone_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.25
+	}
+	icon = ship_size_science
+	base_buildtime = 60
+	components_add_to_cost = no
+	enable_default_design = yes
+	is_designable = no
+	is_civilian = yes
+	valid_target_aggressive_stance = no
+	auto_upgrade = yes
+	prerequisites = {
+		"tech_space_exploration"
+	}
+	class = shipclass_science_ship
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_sensor"
+	section_slots = {
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+	resources = {
+		category = ships
+		cost = {
+			alloys = 100
+			hyperfuel = 10
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+	potential_country = {
+		NOR = {
+			is_country_type = enclave_mercenary
+			is_country_type = mando_clan
+		}
+	}
+	#potential_construction = {
+	#	is_scope_type = starbase
+	#}
+	ai_ship_data = {
+		min = value:desired_science_ships
+		system_mult = value:desired_science_ships_system_mult
+		max = 4
+	}
+}
+
+constructor = {
+	max_speed = 640
+	acceleration = 0.46
+	rotation_speed = 0.85
+	max_hitpoints = 500
+	fleet_slot_size = 1
+	graphical_culture = {
+		"imperial_01"
+		"republic_01"
+		"rebel_01"
+		"hutt_01"
+		"mando_01"
+		"corellian_01"
+		"cis_01"
+		"csa_01"
+		"hapes_01"
+		"misc_01"
+		"misc_02"
+		"misc_03"
+		"misc_04"
+		"chiss_01"
+		"plantoid_01"
+		"mammalian_01"
+		"reptilian_01"
+		"avian_01"
+		"molluscoid_01"
+		"fungoid_01"
+		"arthropoid_01"
+		"humanoid_01"
+		"lithoid_01"
+		"plantoid_01"
+		"ancient_drone_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.25
+	}
+	icon = ship_size_constructor
+	base_buildtime = 60
+	components_add_to_cost = no
+	enable_default_design = yes
+	is_designable = no
+	is_civilian = yes
+	valid_target_aggressive_stance = no
+	auto_upgrade = yes
+	prerequisites = {
+		"tech_space_construction"
+	}
+	class = shipclass_constructor
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_sensor"
+	section_slots = {
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+	resources = {
+		category = ships
+		cost = {
+			alloys = 100
+			hyperfuel = 10
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+	potential_country = {
+		NOT = {
+			is_country_type = mando_clan
+		}
+	}
+	#potential_construction = {
+	#	is_scope_type = starbase
+	#}
+	ai_ship_data = {
+		min = value:desired_constructors_min
+		system_mult = 0.15
+		max = value:desired_constructors_max
+	}
+}
+
+transport = {
+	formation_priority = 10
+	max_speed = 640
+	acceleration = 0.91
+	rotation_speed = 0.85
+	collision_radius = 3
+	max_hitpoints = 500
+	graphical_culture = {
+		"imperial_01"
+		"republic_01"
+		"rebel_01"
+		"hutt_01"
+		"mando_01"
+		"corellian_01"
+		"cis_01"
+		"csa_01"
+		"hapes_01"
+		"misc_01"
+		"misc_02"
+		"misc_03"
+		"misc_04"
+		"chiss_01"
+		"plantoid_01"
+		"mammalian_01"
+		"reptilian_01"
+		"avian_01"
+		"molluscoid_01"
+		"fungoid_01"
+		"arthropoid_01"
+		"humanoid_01"
+		"lithoid_01"
+		"plantoid_01"
+		"ancient_drone_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.25
+	}
+	icon = ship_size_transport
+	base_buildtime = 0
+	components_add_to_cost = no
+	enable_default_design = yes
+	is_designable = no
+	auto_upgrade = yes
+	combat_disengage_chance = 0.5
+	class = shipclass_transport
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_sensor"
+	num_target_locators = 2
+	section_slots = {
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	#potential_construction = {
+	#	is_scope_type = starbase
+	#}
+}
+
+colonizer = {
+	max_speed = 624
+	acceleration = 0.46
+	rotation_speed = 0.8
+	max_hitpoints = 1000
+	fleet_slot_size = 1
+	graphical_culture = {
+		"imperial_01"
+		"republic_01"
+		"rebel_01"
+		"hutt_01"
+		"mando_01"
+		"corellian_01"
+		"cis_01"
+		"csa_01"
+		"hapes_01"
+		"misc_01"
+		"misc_02"
+		"misc_03"
+		"misc_04"
+		"chiss_01"
+		"plantoid_01"
+		"mammalian_01"
+		"reptilian_01"
+		"avian_01"
+		"molluscoid_01"
+		"fungoid_01"
+		"arthropoid_01"
+		"humanoid_01"
+		"lithoid_01"
+		"plantoid_01"
+		"ancient_drone_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.25
+	}
+	icon = ship_size_colonizer
+	base_buildtime = 360
+	components_add_to_cost = no
+	enable_default_design = yes
+	is_designable = no
+	is_civilian = yes
+	valid_target_aggressive_stance = no
+	auto_upgrade = yes
+	prerequisites = {
+		"tech_colonization_1"
+	}
+	class = shipclass_colonizer
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_sensor"
+	section_slots = {
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+	resources = {
+		category = colonies
+		cost = {
+			trigger = {
+				from = {
+					is_lithoid_empire = no
+					is_robot_empire = no
+					is_hive_empire = no
+				}
+			}
+			alloys = 400
+			food = 400
+			consumer_goods = 400
+		}
+		cost = {
+			trigger = {
+				from = {
+					is_lithoid_empire = yes
+					is_robot_empire = no
+					is_hive_empire = no
+				}
+			}
+			alloys = 400
+			food = 400
+			consumer_goods = 400
+		}
+		cost = {
+			trigger = {
+				from = {
+					is_robot_empire = yes
+				}
+			}
+			alloys = 800
+		}
+		cost = {
+			trigger = {
+				from = {
+					is_hive_empire = yes
+					is_lithoid_empire = no
+				}
+			}
+			alloys = 400
+			food = 1000
+		}
+		cost = {
+			trigger = {
+				from = {
+					is_lithoid_empire = yes
+					is_hive_empire = yes
+				}
+			}
+			alloys = 400
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+	#potential_construction = {
+	#	is_scope_type = starbase
+	#}
+	ai_ship_data = {
+		min = value:desired_colonizers
+	}
+}
+
+sponsored_colonizer = {
+	max_speed = 624
+	acceleration = 0.46
+	rotation_speed = 0.8
+	max_hitpoints = 1000
+	fleet_slot_size = 1
+	graphical_culture = {
+		"imperial_01"
+		"republic_01"
+		"rebel_01"
+		"hutt_01"
+		"mando_01"
+		"corellian_01"
+		"cis_01"
+		"csa_01"
+		"hapes_01"
+		"misc_01"
+		"misc_02"
+		"misc_03"
+		"misc_04"
+		"chiss_01"
+		"plantoid_01"
+		"mammalian_01"
+		"reptilian_01"
+		"avian_01"
+		"molluscoid_01"
+		"fungoid_01"
+		"arthropoid_01"
+		"humanoid_01"
+		"lithoid_01"
+		"plantoid_01"
+		"ancient_drone_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.25
+	}
+	icon = ship_size_colonizer
+	base_buildtime = 360
+	components_add_to_cost = no
+	enable_default_design = yes
+	is_designable = no
+	is_civilian = yes
+	valid_target_aggressive_stance = no
+	auto_upgrade = yes
+	prerequisites = {
+		"tech_colonization_1"
+	}
+	class = shipclass_colonizer
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_sensor"
+	section_slots = {
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+	resources = {
+		category = colonies
+		cost = {
+			energy = 1500
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+	potential_country = {
+		OR = {
+			has_civic = civic_corporate_dominion
+			has_civic = civic_private_prospectors
+		}
+	}
+	#potential_construction = {
+	#	is_scope_type = starbase
+	#}
+	ai_ship_data = {
+		min = value:desired_colonizers
+	}
+}
+
+lithoid_colonizer = {
+	entity = lithoid_01_meteor_colonyship_entity
+	max_speed = 624
+	acceleration = 0.46
+	rotation_speed = 0.8
+	max_hitpoints = 1000
+	fleet_slot_size = 1
+	graphical_culture = {
+		"imperial_01"
+		"republic_01"
+		"rebel_01"
+		"hutt_01"
+		"mando_01"
+		"corellian_01"
+		"cis_01"
+		"csa_01"
+		"hapes_01"
+		"misc_01"
+		"misc_02"
+		"misc_03"
+		"misc_04"
+		"chiss_01"
+		"plantoid_01"
+		"mammalian_01"
+		"reptilian_01"
+		"avian_01"
+		"molluscoid_01"
+		"fungoid_01"
+		"arthropoid_01"
+		"humanoid_01"
+		"lithoid_01"
+		"plantoid_01"
+		"ancient_drone_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.25
+	}
+	icon = ship_size_colonizer
+	base_buildtime = 360
+	components_add_to_cost = no
+	enable_default_design = yes
+	is_designable = no
+	is_civilian = yes
+	valid_target_aggressive_stance = no
+	auto_upgrade = yes
+	prerequisites = {
+		"tech_colonization_1"
+	}
+	class = shipclass_colonizer
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_sensor"
+	section_slots = {
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+	resources = {
+		category = colonies
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 0
+		}
+	}
+	potential_country = {
+		has_origin = origin_lithoid
+	}
+	#potential_construction = {
+	#	is_scope_type = starbase
+	#}
+	ai_ship_data = {
+		min = value:desired_colonizers
+	}
+}
+
+###
+### Old Vanilla
+###
+corvette = {
+	formation_priority = 10
+	max_speed = 640
+	acceleration = 0.91
+	rotation_speed = 0.85
+	collision_radius = 3
+	max_hitpoints = 300
+	size_multiplier = 1
+	fleet_slot_size = 1
+	graphical_culture = {
+		"plantoid_01"
+		"mammalian_01"
+		"reptilian_01"
+		"avian_01"
+		"molluscoid_01"
+		"fungoid_01"
+		"arthropoid_01"
+		"humanoid_01"
+		"lithoid_01"
+		"plantoid_01"
+		"ancient_drone_01"
+	}
+	modifier = {
+		ship_evasion_mult = 0
+	}
+	icon_frame = 2
+	base_buildtime = 60
+	is_designable = no
+	is_space_station = no
+	is_listed = no
+	default_behavior = charge_default
+	prerequisites = {
+		"tech_vanilla_ships"
+	}
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+frigate = {
+	formation_priority = @frigate_formation_priority
+	entity = corvette_entity
+	max_speed = @speed_default
+	acceleration = 0.25
+	rotation_speed = 0.1
+	collision_radius = @frigate_collision_radius
+	max_hitpoints = @frigate_hp
+	modifier = {
+		ship_evasion_add = @frigate_evasion
+		ship_piracy_suppression_add = 10
+	}
+	size_multiplier = 1
+	hull_scale = 1.25
+	fleet_slot_size = 1
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 2
+	is_designable = no
+	is_space_station = no
+	is_listed = no
+	icon = ship_size_military_1_torpedo
+	base_buildtime = @frigate_build_time
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+	enable_3dview_in_ship_browser = yes #if yes, ship design will have a 3d view in the ship browser
+	use_shipnames_from = corvette
+
+	default_behavior = torpedo
+	ship_roles = { explosive artillery }
+
+	prerequisites = { "tech_vanilla_ships" }
+
+	combat_disengage_chance = 1.00
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
+}
+
+destroyer = {
+	formation_priority = 20
+	max_speed = 624
+	acceleration = 0.91
+	rotation_speed = 0.8
+	collision_radius = 5
+	max_hitpoints = 800
+	size_multiplier = 2
+	fleet_slot_size = 2
+	graphical_culture = {
+		"plantoid_01"
+		"mammalian_01"
+		"reptilian_01"
+		"avian_01"
+		"molluscoid_01"
+		"fungoid_01"
+		"arthropoid_01"
+		"humanoid_01"
+		"lithoid_01"
+		"plantoid_01"
+		"ancient_drone_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.1
+	}
+	icon_frame = 3
+	base_buildtime = 120
+	is_designable = no
+	is_space_station = no
+	is_listed = no
+	default_behavior = charge_default
+	prerequisites = {
+		"tech_vanilla_ships"
+	}
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+cruiser = {
+	formation_priority = 20
+	max_speed = 608
+	acceleration = 0.91
+	rotation_speed = 0.75
+	collision_radius = 5
+	max_hitpoints = 1800
+	size_multiplier = 4
+	fleet_slot_size = 2
+	graphical_culture = {
+		"plantoid_01"
+		"mammalian_01"
+		"reptilian_01"
+		"avian_01"
+		"molluscoid_01"
+		"fungoid_01"
+		"arthropoid_01"
+		"humanoid_01"
+		"lithoid_01"
+		"plantoid_01"
+		"ancient_drone_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.1
+	}
+	icon_frame = 4
+	base_buildtime = 240
+	is_designable = no
+	is_space_station = no
+	is_listed = no
+	default_behavior = charge_default
+	prerequisites = {
+		"tech_vanilla_ships"
+	}
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+battleship = {
+	formation_priority = 20
+	max_speed = 592
+	acceleration = 0.91
+	rotation_speed = 0.7
+	collision_radius = 5
+	max_hitpoints = 3000
+	size_multiplier = 8
+	fleet_slot_size = 2
+	graphical_culture = {
+		"plantoid_01"
+		"mammalian_01"
+		"reptilian_01"
+		"avian_01"
+		"molluscoid_01"
+		"fungoid_01"
+		"arthropoid_01"
+		"humanoid_01"
+		"lithoid_01"
+		"plantoid_01"
+		"ancient_drone_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.1
+	}
+	icon_frame = 5
+	base_buildtime = 480
+	is_designable = no
+	is_space_station = no
+	is_listed = no
+	default_behavior = charge_default
+	prerequisites = {
+		"tech_vanilla_ships"
+	}
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+titan = {
+	formation_priority = 20
+	max_speed = 576
+	acceleration = 0.91
+	rotation_speed = 0.65
+	collision_radius = 7
+	max_hitpoints = 10000
+	size_multiplier = 32
+	fleet_slot_size = 3
+	graphical_culture = {
+		"plantoid_01"
+		"mammalian_01"
+		"reptilian_01"
+		"avian_01"
+		"molluscoid_01"
+		"fungoid_01"
+		"arthropoid_01"
+		"humanoid_01"
+		"lithoid_01"
+		"plantoid_01"
+		"ancient_drone_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.15
+	}
+	icon_frame = 6
+	base_buildtime = 1800
+	is_designable = no
+	is_space_station = no
+	is_listed = no
+	default_behavior = charge_default
+	prerequisites = {
+		"tech_vanilla_ships"
+	}
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+juggernaut = {
+	formation_priority = 30
+	max_speed = 544
+	acceleration = 0.91
+	rotation_speed = 0.55
+	collision_radius = 10
+	max_hitpoints = 30000
+	size_multiplier = 32
+	fleet_slot_size = 5
+	graphical_culture = {
+		"plantoid_01"
+		"mammalian_01"
+		"reptilian_01"
+		"avian_01"
+		"molluscoid_01"
+		"fungoid_01"
+		"arthropoid_01"
+		"humanoid_01"
+		"lithoid_01"
+		"plantoid_01"
+		"ancient_drone_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.3
+	}
+	icon_frame = 13
+	base_buildtime = 3600
+	is_designable = no
+	is_space_station = no
+	is_listed = no
+	default_behavior = charge_default
+	prerequisites = {
+		"tech_vanilla_ships"
+	}
+	combat_disengage_chance = 0.3
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}

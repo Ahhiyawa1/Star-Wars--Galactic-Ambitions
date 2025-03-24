@@ -1,0 +1,847 @@
+﻿Corellian = {
+	randomized = no
+	ship_names = {
+		generic = {
+			CORELLIAN_SHIP_peregrine CORELLIAN_SHIP_spirit_of_coronet CORELLIAN_SHIP_independence CORELLIAN_SHIP_sovereign CORELLIAN_SHIP_bel_ibis CORELLIAN_SHIP_sal_solo CORELLIAN_SHIP_kolene CORELLIAN_SHIP_tyrena CORELLIAN_SHIP_valorum CORELLIAN_SHIP_cutlass CORELLIAN_SHIP_vigilant CORELLIAN_SHIP_sentry CORELLIAN_SHIP_custode CORELLIAN_SHIP_monitor CORELLIAN_SHIP_defender CORELLIAN_SHIP_lillibanca CORELLIAN_SHIP_bloodstripe CORELLIAN_SHIP_determination CORELLIAN_SHIP_gus_talon CORELLIAN_SHIP_gus_treta CORELLIAN_SHIP_fire_of_drall CORELLIAN_SHIP_bond_of_talus CORELLIAN_SHIP_tralus_resplendent CORELLIAN_SHIP_selonian_queen CORELLIAN_SHIP_glory_of_corellia CORELLIAN_SHIP_crollia CORELLIAN_SHIP_soronia CORELLIAN_SHIP_rayless CORELLIAN_SHIP_lantern CORELLIAN_SHIP_razorcat CORELLIAN_SHIP_trifecta CORELLIAN_SHIP_corell CORELLIAN_SHIP_brotherhood CORELLIAN_SHIP_kith CORELLIAN_SHIP_kin CORELLIAN_SHIP_elder_brother CORELLIAN_SHIP_middle_child CORELLIAN_SHIP_grass_snake CORELLIAN_SHIP_sand_panther CORELLIAN_SHIP_kor_vella CORELLIAN_SHIP_tyrena CORELLIAN_SHIP_doaba_guerfel CORELLIAN_SHIP_bela_vistal CORELLIAN_SHIP_founder CORELLIAN_SHIP_rabaan CORELLIAN_SHIP_socorro CORELLIAN_SHIP_trulalis CORELLIAN_SHIP_trigalis CORELLIAN_SHIP_meridian CORELLIAN_SHIP_contemplanys CORELLIAN_SHIP_hermi CORELLIAN_SHIP_nomad CORELLIAN_SHIP_king_berethron CORELLIAN_SHIP_diktat CORELLIAN_SHIP_senator_fordox CORELLIAN_SHIP_merricope CORELLIAN_SHIP_thomree CORELLIAN_SHIP_gallamby CORELLIAN_SHIP_beruss CORELLIAN_SHIP_sanctuary CORELLIAN_SHIP_governor_marcha CORELLIAN_SHIP_vreni CORELLIAN_SHIP_hunchuzuc CORELLIAN_SHIP_agrilat CORELLIAN_SHIP_denendre CORELLIAN_SHIP_dregan CORELLIAN_SHIP_bindreg CORELLIAN_SHIP_kenalpa CORELLIAN_SHIP_blackfish CORELLIAN_SHIP_bageraset CORELLIAN_SHIP_blethyline CORELLIAN_SHIP_canoid CORELLIAN_SHIP_carrion_spat CORELLIAN_SHIP_banshee CORELLIAN_SHIP_sea_ray CORELLIAN_SHIP_slice_hound CORELLIAN_SHIP_dire_cat CORELLIAN_SHIP_durni CORELLIAN_SHIP_gronda CORELLIAN_SHIP_gubbur CORELLIAN_SHIP_gulginaw CORELLIAN_SHIP_gurrcat CORELLIAN_SHIP_krevol CORELLIAN_SHIP_jaggalor CORELLIAN_SHIP_krahbu CORELLIAN_SHIP_murra CORELLIAN_SHIP_paledor CORELLIAN_SHIP_pulsar_skate CORELLIAN_SHIP_raptor CORELLIAN_SHIP_razor_cat CORELLIAN_SHIP_sharnaff CORELLIAN_SHIP_slopewing CORELLIAN_SHIP_tabage CORELLIAN_SHIP_tarkaline CORELLIAN_SHIP_vrelt CORELLIAN_SHIP_wonat CORELLIAN_SHIP_gallant CORELLIAN_SHIP_recluse CORELLIAN_SHIP_liberty CORELLIAN_SHIP_righteous CORELLIAN_SHIP_universal CORELLIAN_SHIP_beneficence CORELLIAN_SHIP_autark CORELLIAN_SHIP_autonomy CORELLIAN_SHIP_autonomous CORELLIAN_SHIP_home_rule CORELLIAN_SHIP_daring CORELLIAN_SHIP_valorant CORELLIAN_SHIP_void_sister CORELLIAN_SHIP_center_bound CORELLIAN_SHIP_fire_of_the_free CORELLIAN_SHIP_agency CORELLIAN_SHIP_free_will CORELLIAN_SHIP_settler CORELLIAN_SHIP_trekker CORELLIAN_SHIP_pioneer CORELLIAN_SHIP_expedition CORELLIAN_SHIP_firebolt CORELLIAN_SHIP_ardent CORELLIAN_SHIP_chief CORELLIAN_SHIP_constitution CORELLIAN_SHIP_dextrous CORELLIAN_SHIP_freedom CORELLIAN_SHIP_gladiator CORELLIAN_SHIP_monsoon CORELLIAN_SHIP_zimitz CORELLIAN_SHIP_patriot CORELLIAN_SHIP_port_royal CORELLIAN_SHIP_providence CORELLIAN_SHIP_starwolf CORELLIAN_SHIP_squall CORELLIAN_SHIP_stockade CORELLIAN_SHIP_rampart CORELLIAN_SHIP_loyal CORELLIAN_SHIP_invincible CORELLIAN_SHIP_spearhead CORELLIAN_SHIP_impeccable CORELLIAN_SHIP_pathfinder CORELLIAN_SHIP_red_cloud CORELLIAN_SHIP_victorious CORELLIAN_SHIP_arko CORELLIAN_SHIP_defiant CORELLIAN_SHIP_valiant CORELLIAN_SHIP_antares CORELLIAN_SHIP_resolute CORELLIAN_SHIP_beckoner CORELLIAN_SHIP_steadfast CORELLIAN_SHIP_stardust CORELLIAN_SHIP_insurrection CORELLIAN_SHIP_freedom_fighter CORELLIAN_SHIP_neebray CORELLIAN_SHIP_supernova CORELLIAN_SHIP_golden_age CORELLIAN_SHIP_jonash CORELLIAN_SHIP_prince_admiral CORELLIAN_SHIP_cape_alsaka CORELLIAN_SHIP_korol CORELLIAN_SHIP_star_stallion CORELLIAN_SHIP_buccaneer CORELLIAN_SHIP_freehold CORELLIAN_SHIP_equality CORELLIAN_SHIP_frontier CORELLIAN_SHIP_homestead CORELLIAN_SHIP_newcomer CORELLIAN_SHIP_trailblazer CORELLIAN_SHIP_halcyon CORELLIAN_SHIP_longspur CORELLIAN_SHIP_itinerant CORELLIAN_SHIP_wayfarer CORELLIAN_SHIP_wanderer CORELLIAN_SHIP_roamer CORELLIAN_SHIP_farstrike CORELLIAN_SHIP_brawler CORELLIAN_SHIP_brazen CORELLIAN_SHIP_representative CORELLIAN_SHIP_threkin CORELLIAN_SHIP_jaina_the_elder CORELLIAN_SHIP_jaina_the_younger CORELLIAN_SHIP_free_reign CORELLIAN_SHIP_free_hand CORELLIAN_SHIP_liberality CORELLIAN_SHIP_corell_first CORELLIAN_SHIP_lawbringer CORELLIAN_SHIP_demos CORELLIAN_SHIP_tolerance CORELLIAN_SHIP_prudence CORELLIAN_SHIP_prudential CORELLIAN_SHIP_forbearance CORELLIAN_SHIP_magnanimity CORELLIAN_SHIP_permissive CORELLIAN_SHIP_fortitude CORELLIAN_SHIP_perseverance CORELLIAN_SHIP_torrent CORELLIAN_SHIP_freebird CORELLIAN_SHIP_novaflame CORELLIAN_SHIP_starhawk CORELLIAN_SHIP_starbird CORELLIAN_SHIP_ramos CORELLIAN_SHIP_bedoch CORELLIAN_SHIP_redick CORELLIAN_SHIP_green_council CORELLIAN_SHIP_berethon CORELLIAN_SHIP_cerulian CORELLIAN_SHIP_korin CORELLIAN_SHIP_redris CORELLIAN_SHIP_krahnn CORELLIAN_SHIP_qella_tak CORELLIAN_SHIP_thunder_dragon CORELLIAN_SHIP_redick CORELLIAN_SHIP_seldin CORELLIAN_SHIP_taradon CORELLIAN_SHIP_saving_grace CORELLIAN_SHIP_diligent CORELLIAN_SHIP_emerald_lance CORELLIAN_SHIP_nova_whisper CORELLIAN_SHIP_saxan_s_pride CORELLIAN_SHIP_silaban CORELLIAN_SHIP_deliverance CORELLIAN_SHIP_pride_of_the_rim CORELLIAN_SHIP_retribution CORELLIAN_SHIP_sundered_heart CORELLIAN_SHIP_farstar CORELLIAN_SHIP_liberator CORELLIAN_SHIP_agara CORELLIAN_SHIP_amber_star CORELLIAN_SHIP_ast_ria CORELLIAN_SHIP_stin CORELLIAN_SHIP_athega CORELLIAN_SHIP_aurora CORELLIAN_SHIP_badlands CORELLIAN_SHIP_beacon CORELLIAN_SHIP_bilbringi CORELLIAN_SHIP_birkby CORELLIAN_SHIP_bixby CORELLIAN_SHIP_blackmist CORELLIAN_SHIP_blazen CORELLIAN_SHIP_borealis CORELLIAN_SHIP_burke CORELLIAN_SHIP_candor CORELLIAN_SHIP_charger CORELLIAN_SHIP_clavier CORELLIAN_SHIP_claw CORELLIAN_SHIP_coen CORELLIAN_SHIP_constrictor CORELLIAN_SHIP_controller CORELLIAN_SHIP_crescent CORELLIAN_SHIP_cularin CORELLIAN_SHIP_cutlass CORELLIAN_SHIP_dar_es CORELLIAN_SHIP_dinko CORELLIAN_SHIP_emancipator CORELLIAN_SHIP_eridain CORELLIAN_SHIP_ession_strike CORELLIAN_SHIP_ethar CORELLIAN_SHIP_fa_loh_sui CORELLIAN_SHIP_falcon CORELLIAN_SHIP_fang CORELLIAN_SHIP_farrelly CORELLIAN_SHIP_filve CORELLIAN_SHIP_firestorm CORELLIAN_SHIP_gaaltura_v CORELLIAN_SHIP_galaxy_chance CORELLIAN_SHIP_gallant CORELLIAN_SHIP_geedon CORELLIAN_SHIP_glaser CORELLIAN_SHIP_glazer CORELLIAN_SHIP_godar CORELLIAN_SHIP_grappler CORELLIAN_SHIP_habatok CORELLIAN_SHIP_halifax CORELLIAN_SHIP_howlrunner CORELLIAN_SHIP_hyko CORELLIAN_SHIP_intrepid CORELLIAN_SHIP_indefatigable CORELLIAN_SHIP_jaina_s_light CORELLIAN_SHIP_janson CORELLIAN_SHIP_javelin CORELLIAN_SHIP_judicator CORELLIAN_SHIP_keeper CORELLIAN_SHIP_kern_s_pride CORELLIAN_SHIP_korolev CORELLIAN_SHIP_lance CORELLIAN_SHIP_last_hope CORELLIAN_SHIP_lauhu CORELLIAN_SHIP_lialic_ii CORELLIAN_SHIP_liberator CORELLIAN_SHIP_libra CORELLIAN_SHIP_magua CORELLIAN_SHIP_mahan CORELLIAN_SHIP_manx CORELLIAN_SHIP_mar_duun CORELLIAN_SHIP_masanya CORELLIAN_SHIP_neelian CORELLIAN_SHIP_novaflare CORELLIAN_SHIP_olrac_etnom CORELLIAN_SHIP_oramac CORELLIAN_SHIP_petor CORELLIAN_SHIP_phazer_one CORELLIAN_SHIP_phazer_two CORELLIAN_SHIP_pushti CORELLIAN_SHIP_qiluiy CORELLIAN_SHIP_ram_s_head CORELLIAN_SHIP_rancor_s_tooth CORELLIAN_SHIP_ranger CORELLIAN_SHIP_ranolfo CORELLIAN_SHIP_razor CORELLIAN_SHIP_old_red CORELLIAN_SHIP_red_tooth CORELLIAN_SHIP_renthal_s_fist CORELLIAN_SHIP_ritam CORELLIAN_SHIP_sable_three CORELLIAN_SHIP_safonne_s_sword CORELLIAN_SHIP_saki CORELLIAN_SHIP_scarlet_thranta CORELLIAN_SHIP_shredder CORELLIAN_SHIP_shurik CORELLIAN_SHIP_silaban CORELLIAN_SHIP_smokeswimmer CORELLIAN_SHIP_sonnel CORELLIAN_SHIP_spartzen CORELLIAN_SHIP_stallion CORELLIAN_SHIP_starfall CORELLIAN_SHIP_starlight_wanderer CORELLIAN_SHIP_stellar_damsel CORELLIAN_SHIP_storm CORELLIAN_SHIP_stormstrike CORELLIAN_SHIP_striker CORELLIAN_SHIP_sundog CORELLIAN_SHIP_talon CORELLIAN_SHIP_tarnta_s_fang CORELLIAN_SHIP_thaere_runner CORELLIAN_SHIP_thrasher CORELLIAN_SHIP_thunder CORELLIAN_SHIP_thunderstrike CORELLIAN_SHIP_tiger_one CORELLIAN_SHIP_triumph CORELLIAN_SHIP_valiant CORELLIAN_SHIP_typhoon CORELLIAN_SHIP_ullet CORELLIAN_SHIP_vigilant CORELLIAN_SHIP_viper CORELLIAN_SHIP_vop_hui CORELLIAN_SHIP_vorknkx CORELLIAN_SHIP_warrior CORELLIAN_SHIP_windswept CORELLIAN_SHIP_wolf_pack CORELLIAN_SHIP_zahtjav CORELLIAN_SHIP_andronikos
+		}
+		swp_bellator = {
+			CORELLIAN_SHIP_valorum CORELLIAN_SHIP_peregrine CORELLIAN_SHIP_bloodstripe CORELLIAN_SHIP_king_berethron CORELLIAN_SHIP_starfall CORELLIAN_SHIP_home_rule CORELLIAN_SHIP_halcyon
+		}
+		science = {
+			CORELLIAN_SHIP_memory CORELLIAN_SHIP_memento CORELLIAN_SHIP_trade_wind CORELLIAN_SHIP_wanderlust CORELLIAN_SHIP_seeker CORELLIAN_SHIP_skyrunner CORELLIAN_SHIP_boundless CORELLIAN_SHIP_curiosity CORELLIAN_SHIP_trailblazer CORELLIAN_SHIP_far_reach CORELLIAN_SHIP_vagabond CORELLIAN_SHIP_visitor CORELLIAN_SHIP_correl_torch CORELLIAN_SHIP_corsuca_light CORELLIAN_SHIP_roamer
+		}
+		colonizer = {
+			CORELLIAN_SHIP_wagoneer CORELLIAN_SHIP_corellian_trail CORELLIAN_SHIP_forder CORELLIAN_SHIP_pioneer CORELLIAN_SHIP_cortrekker CORELLIAN_SHIP_nova_coronet CORELLIAN_SHIP_golden_roamer CORELLIAN_SHIP_fresh_start CORELLIAN_SHIP_new_hope CORELLIAN_SHIP_prosperity CORELLIAN_SHIP_settler_three CORELLIAN_SHIP_bushwacker
+		}
+		sponsored_colonizer = {
+			CORELLIAN_SHIP_wagoneer CORELLIAN_SHIP_corellian_trail CORELLIAN_SHIP_forder CORELLIAN_SHIP_pioneer CORELLIAN_SHIP_cortrekker CORELLIAN_SHIP_nova_coronet CORELLIAN_SHIP_golden_roamer CORELLIAN_SHIP_fresh_start CORELLIAN_SHIP_new_hope CORELLIAN_SHIP_prosperity CORELLIAN_SHIP_settler_three CORELLIAN_SHIP_bushwacker
+		}
+		constructor = {
+			CORELLIAN_SHIP_industry CORELLIAN_SHIP_assiduity CORELLIAN_SHIP_effort CORELLIAN_SHIP_laborer CORELLIAN_SHIP_builder CORELLIAN_SHIP_craftsman CORELLIAN_SHIP_corellian_grit CORELLIAN_SHIP_progress CORELLIAN_SHIP_sweat_and_tears CORELLIAN_SHIP_spirit_of_drall CORELLIAN_SHIP_selonian_temerity CORELLIAN_SHIP_creator CORELLIAN_SHIP_developer CORELLIAN_SHIP_forger CORELLIAN_SHIP_foundry CORELLIAN_SHIP_star_seed CORELLIAN_SHIP_attendant CORELLIAN_SHIP_groundshaker CORELLIAN_SHIP_utility_ship_four
+		}
+		transport = {
+			CORELLIAN_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			CORELLIAN_SHIP_spacegun_victory CORELLIAN_SHIP_spacegun_success CORELLIAN_SHIP_spacegun_supremacy CORELLIAN_SHIP_spacegun_superior CORELLIAN_SHIP_spacegun_adventure CORELLIAN_SHIP_spacegun_ascendancy CORELLIAN_SHIP_spacegun_paramount CORELLIAN_SHIP_spacegun_preponderous CORELLIAN_SHIP_spacegun_exemplary CORELLIAN_SHIP_spacegun_eximious CORELLIAN_SHIP_spacegun_pertinacity CORELLIAN_SHIP_spacegun_acclaim CORELLIAN_SHIP_spacegun_honor CORELLIAN_SHIP_spacegun_renown CORELLIAN_SHIP_spacegun_glory CORELLIAN_SHIP_spacegun_superb CORELLIAN_SHIP_spacegun_magnificence CORELLIAN_SHIP_spacegun_majestic CORELLIAN_SHIP_spacegun_splendor CORELLIAN_SHIP_spacegun_paradigm CORELLIAN_SHIP_spacegun_flawless CORELLIAN_SHIP_spacegun_consummate CORELLIAN_SHIP_spacegun_merit CORELLIAN_SHIP_spacegun_perfection CORELLIAN_SHIP_spacegun_virtue CORELLIAN_SHIP_spacegun_advantage CORELLIAN_SHIP_spacegun_rectitude CORELLIAN_SHIP_spacegun_incorruptible CORELLIAN_SHIP_spacegun_integrity CORELLIAN_SHIP_spacegun_justice CORELLIAN_SHIP_spacegun_probity CORELLIAN_SHIP_spacegun_prudence CORELLIAN_SHIP_spacegun_purity CORELLIAN_SHIP_spacegun_resolute CORELLIAN_SHIP_spacegun_dignity CORELLIAN_SHIP_spacegun_distinction CORELLIAN_SHIP_spacegun_excellence CORELLIAN_SHIP_spacegun_faithful CORELLIAN_SHIP_spacegun_discipline CORELLIAN_SHIP_spacegun_steadfast CORELLIAN_SHIP_spacegun_recompense CORELLIAN_SHIP_spacegun_requiem CORELLIAN_SHIP_spacegun_courage CORELLIAN_SHIP_spacegun_valor CORELLIAN_SHIP_spacegun_gallant CORELLIAN_SHIP_spacegun_daring CORELLIAN_SHIP_spacegun_constancy CORELLIAN_SHIP_spacegun_perseverence CORELLIAN_SHIP_spacegun_tenacity CORELLIAN_SHIP_spacegun_sedulity CORELLIAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			CORELLIAN_SHIP_spacegun_victory CORELLIAN_SHIP_spacegun_success CORELLIAN_SHIP_spacegun_supremacy CORELLIAN_SHIP_spacegun_superior CORELLIAN_SHIP_spacegun_adventure CORELLIAN_SHIP_spacegun_ascendancy CORELLIAN_SHIP_spacegun_paramount CORELLIAN_SHIP_spacegun_preponderous CORELLIAN_SHIP_spacegun_exemplary CORELLIAN_SHIP_spacegun_eximious CORELLIAN_SHIP_spacegun_pertinacity CORELLIAN_SHIP_spacegun_acclaim CORELLIAN_SHIP_spacegun_honor CORELLIAN_SHIP_spacegun_renown CORELLIAN_SHIP_spacegun_glory CORELLIAN_SHIP_spacegun_superb CORELLIAN_SHIP_spacegun_magnificence CORELLIAN_SHIP_spacegun_majestic CORELLIAN_SHIP_spacegun_splendor CORELLIAN_SHIP_spacegun_paradigm CORELLIAN_SHIP_spacegun_flawless CORELLIAN_SHIP_spacegun_consummate CORELLIAN_SHIP_spacegun_merit CORELLIAN_SHIP_spacegun_perfection CORELLIAN_SHIP_spacegun_virtue CORELLIAN_SHIP_spacegun_advantage CORELLIAN_SHIP_spacegun_rectitude CORELLIAN_SHIP_spacegun_incorruptible CORELLIAN_SHIP_spacegun_integrity CORELLIAN_SHIP_spacegun_justice CORELLIAN_SHIP_spacegun_probity CORELLIAN_SHIP_spacegun_prudence CORELLIAN_SHIP_spacegun_purity CORELLIAN_SHIP_spacegun_resolute CORELLIAN_SHIP_spacegun_dignity CORELLIAN_SHIP_spacegun_distinction CORELLIAN_SHIP_spacegun_excellence CORELLIAN_SHIP_spacegun_faithful CORELLIAN_SHIP_spacegun_discipline CORELLIAN_SHIP_spacegun_steadfast CORELLIAN_SHIP_spacegun_recompense CORELLIAN_SHIP_spacegun_requiem CORELLIAN_SHIP_spacegun_courage CORELLIAN_SHIP_spacegun_valor CORELLIAN_SHIP_spacegun_gallant CORELLIAN_SHIP_spacegun_daring CORELLIAN_SHIP_spacegun_constancy CORELLIAN_SHIP_spacegun_perseverence CORELLIAN_SHIP_spacegun_tenacity CORELLIAN_SHIP_spacegun_sedulity CORELLIAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			CORELLIAN_SHIP_spacegun_victory CORELLIAN_SHIP_spacegun_success CORELLIAN_SHIP_spacegun_supremacy CORELLIAN_SHIP_spacegun_superior CORELLIAN_SHIP_spacegun_adventure CORELLIAN_SHIP_spacegun_ascendancy CORELLIAN_SHIP_spacegun_paramount CORELLIAN_SHIP_spacegun_preponderous CORELLIAN_SHIP_spacegun_exemplary CORELLIAN_SHIP_spacegun_eximious CORELLIAN_SHIP_spacegun_pertinacity CORELLIAN_SHIP_spacegun_acclaim CORELLIAN_SHIP_spacegun_honor CORELLIAN_SHIP_spacegun_renown CORELLIAN_SHIP_spacegun_glory CORELLIAN_SHIP_spacegun_superb CORELLIAN_SHIP_spacegun_magnificence CORELLIAN_SHIP_spacegun_majestic CORELLIAN_SHIP_spacegun_splendor CORELLIAN_SHIP_spacegun_paradigm CORELLIAN_SHIP_spacegun_flawless CORELLIAN_SHIP_spacegun_consummate CORELLIAN_SHIP_spacegun_merit CORELLIAN_SHIP_spacegun_perfection CORELLIAN_SHIP_spacegun_virtue CORELLIAN_SHIP_spacegun_advantage CORELLIAN_SHIP_spacegun_rectitude CORELLIAN_SHIP_spacegun_incorruptible CORELLIAN_SHIP_spacegun_integrity CORELLIAN_SHIP_spacegun_justice CORELLIAN_SHIP_spacegun_probity CORELLIAN_SHIP_spacegun_prudence CORELLIAN_SHIP_spacegun_purity CORELLIAN_SHIP_spacegun_resolute CORELLIAN_SHIP_spacegun_dignity CORELLIAN_SHIP_spacegun_distinction CORELLIAN_SHIP_spacegun_excellence CORELLIAN_SHIP_spacegun_faithful CORELLIAN_SHIP_spacegun_discipline CORELLIAN_SHIP_spacegun_steadfast CORELLIAN_SHIP_spacegun_recompense CORELLIAN_SHIP_spacegun_requiem CORELLIAN_SHIP_spacegun_courage CORELLIAN_SHIP_spacegun_valor CORELLIAN_SHIP_spacegun_gallant CORELLIAN_SHIP_spacegun_daring CORELLIAN_SHIP_spacegun_constancy CORELLIAN_SHIP_spacegun_perseverence CORELLIAN_SHIP_spacegun_tenacity CORELLIAN_SHIP_spacegun_sedulity CORELLIAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			CORELLIAN_SHIP_citadel CORELLIAN_SHIP_gateway CORELLIAN_SHIP_riverland CORELLIAN_SHIP_agrilat CORELLIAN_SHIP_bela_vistal CORELLIAN_SHIP_vreni CORELLIAN_SHIP_thaos CORELLIAN_SHIP_gold_beach CORELLIAN_SHIP_dregin_s_pike CORELLIAN_SHIP_suntir CORELLIAN_SHIP_coronet CORELLIAN_SHIP_tyrena CORELLIAN_SHIP_kor_vella CORELLIAN_SHIP_denendre CORELLIAN_SHIP_bindreg CORELLIAN_SHIP_rhaler_s_bastion CORELLIAN_SHIP_doaba CORELLIAN_SHIP_guerfel CORELLIAN_SHIP_mount_malal CORELLIAN_SHIP_blastfield CORELLIAN_SHIP_axial_park CORELLIAN_SHIP_labor_valley CORELLIAN_SHIP_incorporation_islands CORELLIAN_SHIP_centerpoint CORELLIAN_SHIP_goldoa CORELLIAN_SHIP_faramar CORELLIAN_SHIP_kankaura CORELLIAN_SHIP_dreamland
+		}
+		ion_cannon = {
+			CORELLIAN_SHIP_bombard CORELLIAN_SHIP_ballista CORELLIAN_SHIP_catapult CORELLIAN_SHIP_harpoon CORELLIAN_SHIP_polybolos CORELLIAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			CORELLIAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			CORELLIAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			CORELLIAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			CORELLIAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			CORELLIAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			CORELLIAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			CORELLIAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			CORELLIAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			CORELLIAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			CORELLIAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			CORELLIAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			CORELLIAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			CORELLIAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			CORELLIAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			CORELLIAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			CORELLIAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			CORELLIAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			CORELLIAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			CORELLIAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			CORELLIAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			CORELLIAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			CORELLIAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			CORELLIAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			CORELLIAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			CORELLIAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			CORELLIAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			CORELLIAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			CORELLIAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			CORELLIAN_SHIP_CLASS_imperial_escort
+		}
+		swp_quasar_frigate = {
+			CORELLIAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			CORELLIAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			CORELLIAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			CORELLIAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			CORELLIAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			CORELLIAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			CORELLIAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			CORELLIAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			CORELLIAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			CORELLIAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			CORELLIAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			CORELLIAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			CORELLIAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			CORELLIAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			CORELLIAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			CORELLIAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			CORELLIAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			CORELLIAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			CORELLIAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			CORELLIAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			CORELLIAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			CORELLIAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			CORELLIAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			CORELLIAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			CORELLIAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			CORELLIAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			CORELLIAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			CORELLIAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			CORELLIAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			CORELLIAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			CORELLIAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			CORELLIAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			CORELLIAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			CORELLIAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			CORELLIAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			CORELLIAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			CORELLIAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			CORELLIAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			CORELLIAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			CORELLIAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			CORELLIAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			CORELLIAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			CORELLIAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			CORELLIAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			CORELLIAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			CORELLIAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			CORELLIAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			CORELLIAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			CORELLIAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			CORELLIAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			CORELLIAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			CORELLIAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			CORELLIAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			CORELLIAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			CORELLIAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			CORELLIAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			CORELLIAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			CORELLIAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			CORELLIAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			CORELLIAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			CORELLIAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			CORELLIAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			CORELLIAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			CORELLIAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			CORELLIAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		random_names = {
+			CORELLIAN_FLEET_battle_group_corellia CORELLIAN_FLEET_battle_group_talus CORELLIAN_FLEET_battle_group_tralus CORELLIAN_FLEET_battle_group_drall CORELLIAN_FLEET_battle_group_selonia
+		}
+		sequential_name = CORELLIAN_FLEET_corsec_squadron_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = CORELLIAN_ARMY_corsec_detachment_ORD
+		}
+		assault_army = {
+			sequential_name = CORELLIAN_ARMY_volunteer_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = CORELLIAN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = CORELLIAN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = CORELLIAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = CORELLIAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = CORELLIAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = CORELLIAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				CORELLIAN_ARMY_sarc_a__gladiators_ CORELLIAN_ARMY_sarc_b__widowmakers_ CORELLIAN_ARMY_sarc_c__immortals_ CORELLIAN_ARMY_sarc_d__berserkers_ CORELLIAN_ARMY_sarc_e__assassins_ CORELLIAN_ARMY_sarc_f__reapers_ CORELLIAN_ARMY_sarc_g__nighthawks_ CORELLIAN_ARMY_sarc_h__desperados_ CORELLIAN_ARMY_sarc_i__grey_knights_ CORELLIAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = CORELLIAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = CORELLIAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = CORELLIAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = CORELLIAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = CORELLIAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = CORELLIAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = CORELLIAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = CORELLIAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = CORELLIAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = CORELLIAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = CORELLIAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = CORELLIAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = CORELLIAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = CORELLIAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = CORELLIAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = CORELLIAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = CORELLIAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = CORELLIAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = CORELLIAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = CORELLIAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = CORELLIAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = CORELLIAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = CORELLIAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = CORELLIAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = CORELLIAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = CORELLIAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = CORELLIAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = CORELLIAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = CORELLIAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = CORELLIAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = CORELLIAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = CORELLIAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = CORELLIAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = CORELLIAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = CORELLIAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = CORELLIAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = CORELLIAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = CORELLIAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = CORELLIAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = CORELLIAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = CORELLIAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = CORELLIAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = CORELLIAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = CORELLIAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = CORELLIAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = CORELLIAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = CORELLIAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = CORELLIAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = CORELLIAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = CORELLIAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = CORELLIAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = CORELLIAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = CORELLIAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = CORELLIAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = CORELLIAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = CORELLIAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = CORELLIAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = CORELLIAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = CORELLIAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = CORELLIAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = CORELLIAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = CORELLIAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = CORELLIAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = CORELLIAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = CORELLIAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = CORELLIAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = CORELLIAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = CORELLIAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = CORELLIAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = CORELLIAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = CORELLIAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = CORELLIAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = CORELLIAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = CORELLIAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = CORELLIAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = CORELLIAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = CORELLIAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = CORELLIAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = CORELLIAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = CORELLIAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = CORELLIAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = CORELLIAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = CORELLIAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = CORELLIAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = CORELLIAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = CORELLIAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = CORELLIAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = CORELLIAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = CORELLIAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = CORELLIAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = CORELLIAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = CORELLIAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = CORELLIAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = CORELLIAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = CORELLIAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = CORELLIAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = CORELLIAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = CORELLIAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = CORELLIAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = CORELLIAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = CORELLIAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = CORELLIAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = CORELLIAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = CORELLIAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = CORELLIAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = CORELLIAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = CORELLIAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = CORELLIAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = CORELLIAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = CORELLIAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = CORELLIAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = CORELLIAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = CORELLIAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = CORELLIAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = CORELLIAN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = CORELLIAN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = CORELLIAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = CORELLIAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = CORELLIAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = CORELLIAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = CORELLIAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = CORELLIAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = CORELLIAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = CORELLIAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = CORELLIAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = CORELLIAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = CORELLIAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = CORELLIAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = CORELLIAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = CORELLIAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = CORELLIAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = CORELLIAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = CORELLIAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				CORELLIAN_CHR_thrackan CORELLIAN_CHR_aiden CORELLIAN_CHR_wedge CORELLIAN_CHR_dur CORELLIAN_CHR_keiran CORELLIAN_CHR_com CORELLIAN_CHR_shor CORELLIAN_CHR_dupas CORELLIAN_CHR_zekka CORELLIAN_CHR_daclif CORELLIAN_CHR_crix CORELLIAN_CHR_kirtan CORELLIAN_CHR_corran CORELLIAN_CHR_gil CORELLIAN_CHR_diric CORELLIAN_CHR_doman CORELLIAN_CHR_aidel CORELLIAN_CHR_saz CORELLIAN_CHR_jonash CORELLIAN_CHR_threkin CORELLIAN_CHR_randil CORELLIAN_CHR_den CORELLIAN_CHR_han CORELLIAN_CHR_korol CORELLIAN_CHR_jacen CORELLIAN_CHR_karl CORELLIAN_CHR_mathieu CORELLIAN_CHR_tettsel CORELLIAN_CHR_jagged CORELLIAN_CHR_bayle CORELLIAN_CHR_tormax CORELLIAN_CHR_seb CORELLIAN_CHR_jareck CORELLIAN_CHR_jurnel CORELLIAN_CHR_vol CORELLIAN_CHR_conil CORELLIAN_CHR_tekil CORELLIAN_CHR_shi CORELLIAN_CHR_myron CORELLIAN_CHR_jab CORELLIAN_CHR_garm CORELLIAN_CHR_odair CORELLIAN_CHR_draykken CORELLIAN_CHR_hraykken CORELLIAN_CHR_doman CORELLIAN_CHR_hiram CORELLIAN_CHR_anson CORELLIAN_CHR_crev CORELLIAN_CHR_natt CORELLIAN_CHR_sunny CORELLIAN_CHR_dev CORELLIAN_CHR_grov CORELLIAN_CHR_ezra CORELLIAN_CHR_ront CORELLIAN_CHR_jerem CORELLIAN_CHR_monti CORELLIAN_CHR_cole CORELLIAN_CHR_jorj CORELLIAN_CHR_lanius CORELLIAN_CHR_jonah CORELLIAN_CHR_jesseb CORELLIAN_CHR_lon CORELLIAN_CHR_banyon CORELLIAN_CHR_abagga CORELLIAN_CHR_bobor CORELLIAN_CHR_macz CORELLIAN_CHR_cubber CORELLIAN_CHR_waroon CORELLIAN_CHR_sal CORELLIAN_CHR_darvis CORELLIAN_CHR_skerrick CORELLIAN_CHR_davrin CORELLIAN_CHR_deegan CORELLIAN_CHR_deflaros CORELLIAN_CHR_sann CORELLIAN_CHR_rothgar CORELLIAN_CHR_dex CORELLIAN_CHR_didjoa CORELLIAN_CHR_doman CORELLIAN_CHR_myn CORELLIAN_CHR_valon CORELLIAN_CHR_chelch CORELLIAN_CHR_yustavan CORELLIAN_CHR_tev CORELLIAN_CHR_ivr CORELLIAN_CHR_atlan CORELLIAN_CHR_rik CORELLIAN_CHR_voba CORELLIAN_CHR_shol CORELLIAN_CHR_thale CORELLIAN_CHR_darv CORELLIAN_CHR_erno CORELLIAN_CHR_falco CORELLIAN_CHR_barr CORELLIAN_CHR_harlon CORELLIAN_CHR_annor CORELLIAN_CHR_dannl CORELLIAN_CHR_chak CORELLIAN_CHR_davin CORELLIAN_CHR_soontir CORELLIAN_CHR_todr CORELLIAN_CHR_almark CORELLIAN_CHR_ilim CORELLIAN_CHR_ecclessis CORELLIAN_CHR_salovan CORELLIAN_CHR_mich CORELLIAN_CHR_com CORELLIAN_CHR_jace CORELLIAN_CHR_crale CORELLIAN_CHR_zorajas CORELLIAN_CHR_jaylon CORELLIAN_CHR_dur CORELLIAN_CHR_nov CORELLIAN_CHR_gerrol CORELLIAN_CHR_markus CORELLIAN_CHR_pharnis CORELLIAN_CHR_ellias CORELLIAN_CHR_scolex CORELLIAN_CHR_de_hoff CORELLIAN_CHR_mramo CORELLIAN_CHR_elias CORELLIAN_CHR_neeja CORELLIAN_CHR_kenth CORELLIAN_CHR_pol CORELLIAN_CHR_viktor CORELLIAN_CHR_janzel CORELLIAN_CHR_hendrick CORELLIAN_CHR_rodin CORELLIAN_CHR_enneth CORELLIAN_CHR_braganti CORELLIAN_CHR_helfin CORELLIAN_CHR_jenos CORELLIAN_CHR_ilyamo CORELLIAN_CHR_gol CORELLIAN_CHR_falan CORELLIAN_CHR_dinnik CORELLIAN_CHR_irek CORELLIAN_CHR_bran CORELLIAN_CHR_jabi CORELLIAN_CHR_jakir CORELLIAN_CHR_mack CORELLIAN_CHR_wildis CORELLIAN_CHR_tomi CORELLIAN_CHR_talan CORELLIAN_CHR_joz CORELLIAN_CHR_heff CORELLIAN_CHR_kal CORELLIAN_CHR_jori CORELLIAN_CHR_joth CORELLIAN_CHR_cohden CORELLIAN_CHR_ben CORELLIAN_CHR_dorvin CORELLIAN_CHR_craddock CORELLIAN_CHR_saul CORELLIAN_CHR_joth CORELLIAN_CHR_denell CORELLIAN_CHR_van CORELLIAN_CHR_lex CORELLIAN_CHR_erel CORELLIAN_CHR_kett CORELLIAN_CHR_shoan CORELLIAN_CHR_tan CORELLIAN_CHR_nevis CORELLIAN_CHR_bidlo CORELLIAN_CHR_pel CORELLIAN_CHR_dael CORELLIAN_CHR_aram CORELLIAN_CHR_yade CORELLIAN_CHR_crix CORELLIAN_CHR_zuld CORELLIAN_CHR_yanus CORELLIAN_CHR_barid CORELLIAN_CHR_dayvid CORELLIAN_CHR_tosk CORELLIAN_CHR_hurn CORELLIAN_CHR_derremd CORELLIAN_CHR_janqual CORELLIAN_CHR_stax CORELLIAN_CHR_fenig CORELLIAN_CHR_bek CORELLIAN_CHR_romas CORELLIAN_CHR_nozzo CORELLIAN_CHR_kaj CORELLIAN_CHR_jasper CORELLIAN_CHR_aalos CORELLIAN_CHR_galidon CORELLIAN_CHR_jace CORELLIAN_CHR_jav CORELLIAN_CHR_lorn CORELLIAN_CHR_gilad CORELLIAN_CHR_kazic CORELLIAN_CHR_malik CORELLIAN_CHR_petro CORELLIAN_CHR_phaeris CORELLIAN_CHR_keekrim CORELLIAN_CHR_ilir CORELLIAN_CHR_dubrank CORELLIAN_CHR_mat CORELLIAN_CHR_rallo CORELLIAN_CHR_custo CORELLIAN_CHR_tait CORELLIAN_CHR_ubis CORELLIAN_CHR_dash CORELLIAN_CHR_rosh CORELLIAN_CHR_palejo CORELLIAN_CHR_andronikos CORELLIAN_CHR_jerris CORELLIAN_CHR_rion CORELLIAN_CHR_thaddeus CORELLIAN_CHR_barit CORELLIAN_CHR_cyru CORELLIAN_CHR_jornel CORELLIAN_CHR_newin CORELLIAN_CHR_pech CORELLIAN_CHR_sevik CORELLIAN_CHR_finn CORELLIAN_CHR_hershel CORELLIAN_CHR_hasadar CORELLIAN_CHR_sherro CORELLIAN_CHR_silas CORELLIAN_CHR_tennet CORELLIAN_CHR_jarred CORELLIAN_CHR_han CORELLIAN_CHR_korol CORELLIAN_CHR_chun CORELLIAN_CHR_keevy CORELLIAN_CHR_raan CORELLIAN_CHR_jord CORELLIAN_CHR_sarvel CORELLIAN_CHR_galvain CORELLIAN_CHR_denjax CORELLIAN_CHR_booster CORELLIAN_CHR_probus CORELLIAN_CHR_pavik CORELLIAN_CHR_renn CORELLIAN_CHR_zekka CORELLIAN_CHR_mill CORELLIAN_CHR_garv CORELLIAN_CHR_harval CORELLIAN_CHR_fynn CORELLIAN_CHR_hugo CORELLIAN_CHR_saz CORELLIAN_CHR_tam CORELLIAN_CHR_denetrius CORELLIAN_CHR_vinro CORELLIAN_CHR_wex CORELLIAN_CHR_jos CORELLIAN_CHR_fliry CORELLIAN_CHR_halden CORELLIAN_CHR_emmin CORELLIAN_CHR_attico CORELLIAN_CHR_edbr CORELLIAN_CHR_brimon
+			}
+			first_names_female = {
+				CORELLIAN_CHR_genna CORELLIAN_CHR_fyric CORELLIAN_CHR_iella CORELLIAN_CHR_sena CORELLIAN_CHR_irenez CORELLIAN_CHR_dani CORELLIAN_CHR_jaina CORELLIAN_CHR_danielle CORELLIAN_CHR_tiion CORELLIAN_CHR_allana CORELLIAN_CHR_ania CORELLIAN_CHR_dalla CORELLIAN_CHR_mirax CORELLIAN_CHR_wynssa CORELLIAN_CHR_tira CORELLIAN_CHR_corinna CORELLIAN_CHR_kandria CORELLIAN_CHR_tess CORELLIAN_CHR_vora CORELLIAN_CHR_annissya CORELLIAN_CHR_myri CORELLIAN_CHR_syal CORELLIAN_CHR_zena CORELLIAN_CHR_elga CORELLIAN_CHR_frei CORELLIAN_CHR_camelle CORELLIAN_CHR_deli CORELLIAN_CHR_roxi CORELLIAN_CHR_elsen CORELLIAN_CHR_deena CORELLIAN_CHR_areta CORELLIAN_CHR_sulen CORELLIAN_CHR_bey CORELLIAN_CHR_annali CORELLIAN_CHR_dova CORELLIAN_CHR_brusela CORELLIAN_CHR_anni CORELLIAN_CHR_chai CORELLIAN_CHR_kimmi CORELLIAN_CHR_cora CORELLIAN_CHR_vella CORELLIAN_CHR_josta CORELLIAN_CHR_viera CORELLIAN_CHR_zindra CORELLIAN_CHR_coril CORELLIAN_CHR_dayana CORELLIAN_CHR_destha CORELLIAN_CHR_yama CORELLIAN_CHR_atlanna CORELLIAN_CHR_coraline CORELLIAN_CHR_trins CORELLIAN_CHR_shandy CORELLIAN_CHR_karin CORELLIAN_CHR_ajai CORELLIAN_CHR_naz CORELLIAN_CHR_maris CORELLIAN_CHR_bant_ena CORELLIAN_CHR_fianna CORELLIAN_CHR_teraeza CORELLIAN_CHR_cilyn CORELLIAN_CHR_jes CORELLIAN_CHR_gixsa CORELLIAN_CHR_ta_mara CORELLIAN_CHR_mara CORELLIAN_CHR_tag CORELLIAN_CHR_gallura CORELLIAN_CHR_bleys CORELLIAN_CHR_kylaena CORELLIAN_CHR_hethra CORELLIAN_CHR_hirka CORELLIAN_CHR_sola CORELLIAN_CHR_nola CORELLIAN_CHR_iris CORELLIAN_CHR_brali CORELLIAN_CHR_relva CORELLIAN_CHR_jasha CORELLIAN_CHR_jenna CORELLIAN_CHR_renga CORELLIAN_CHR_nyche CORELLIAN_CHR_waria CORELLIAN_CHR_erin CORELLIAN_CHR_kalifa CORELLIAN_CHR_vara CORELLIAN_CHR_karena CORELLIAN_CHR_kess CORELLIAN_CHR_ala CORELLIAN_CHR_kiza CORELLIAN_CHR_adele CORELLIAN_CHR_vani CORELLIAN_CHR_kym CORELLIAN_CHR_shandria CORELLIAN_CHR_laudica CORELLIAN_CHR_lilith CORELLIAN_CHR_brandy CORELLIAN_CHR_veega CORELLIAN_CHR_lanah CORELLIAN_CHR_vinya CORELLIAN_CHR_meloria CORELLIAN_CHR_shyla CORELLIAN_CHR_navah CORELLIAN_CHR_nevhra CORELLIAN_CHR_ballia CORELLIAN_CHR_lilea CORELLIAN_CHR_sia CORELLIAN_CHR_mindra CORELLIAN_CHR_kryss CORELLIAN_CHR_esa CORELLIAN_CHR_faye CORELLIAN_CHR_rhea CORELLIAN_CHR_rica CORELLIAN_CHR_adea CORELLIAN_CHR_chertyl CORELLIAN_CHR_sapra CORELLIAN_CHR_vega CORELLIAN_CHR_seyda CORELLIAN_CHR_falthina CORELLIAN_CHR_sheelya CORELLIAN_CHR_nifera CORELLIAN_CHR_dalla CORELLIAN_CHR_syrin CORELLIAN_CHR_bria CORELLIAN_CHR_sera CORELLIAN_CHR_siolle CORELLIAN_CHR_syla CORELLIAN_CHR_zayna CORELLIAN_CHR_brindy CORELLIAN_CHR_arada CORELLIAN_CHR_saza CORELLIAN_CHR_milinae CORELLIAN_CHR_trilinae CORELLIAN_CHR_shaedra CORELLIAN_CHR_ecile CORELLIAN_CHR_orpa CORELLIAN_CHR_vralla CORELLIAN_CHR_vye CORELLIAN_CHR_alana CORELLIAN_CHR_teniel CORELLIAN_CHR_demmi CORELLIAN_CHR_erris CORELLIAN_CHR_jannitha
+			}
+			second_names = {
+				CORELLIAN_CHR_hoclaw CORELLIAN_CHR_saxan CORELLIAN_CHR_antilles CORELLIAN_CHR_gejjen CORELLIAN_CHR_delpin CORELLIAN_CHR_bedoch CORELLIAN_CHR_halcyon CORELLIAN_CHR_horn CORELLIAN_CHR_fordox CORELLIAN_CHR_merricope CORELLIAN_CHR_thomree CORELLIAN_CHR_thyne CORELLIAN_CHR_gallamby CORELLIAN_CHR_madine CORELLIAN_CHR_fel CORELLIAN_CHR_starflare CORELLIAN_CHR_loor CORELLIAN_CHR_horn CORELLIAN_CHR_bastra CORELLIAN_CHR_wessiri CORELLIAN_CHR_beruss CORELLIAN_CHR_micamberlecto CORELLIAN_CHR_terrik CORELLIAN_CHR_leikvold CORELLIAN_CHR_midanyl CORELLIAN_CHR_tyrson CORELLIAN_CHR_faytonni CORELLIAN_CHR_horm CORELLIAN_CHR_kieran CORELLIAN_CHR_sal CORELLIAN_CHR_sal_solo CORELLIAN_CHR_solo CORELLIAN_CHR_a_daasha CORELLIAN_CHR_alder CORELLIAN_CHR_ancher CORELLIAN_CHR_anjek CORELLIAN_CHR_anker CORELLIAN_CHR_anyell CORELLIAN_CHR_arbo CORELLIAN_CHR_archan CORELLIAN_CHR_ardellian CORELLIAN_CHR_arkos CORELLIAN_CHR_arned CORELLIAN_CHR_arrant CORELLIAN_CHR_aycen CORELLIAN_CHR_bakarn CORELLIAN_CHR_barad CORELLIAN_CHR_barje CORELLIAN_CHR_barl CORELLIAN_CHR_barthis CORELLIAN_CHR_bata CORELLIAN_CHR_beech CORELLIAN_CHR_beetilles CORELLIAN_CHR_behar CORELLIAN_CHR_bel_iblis CORELLIAN_CHR_bel_opis CORELLIAN_CHR_bell CORELLIAN_CHR_belos CORELLIAN_CHR_bender CORELLIAN_CHR_beruss CORELLIAN_CHR_bilure CORELLIAN_CHR_bish CORELLIAN_CHR_bissa CORELLIAN_CHR_blancken CORELLIAN_CHR_bombassa CORELLIAN_CHR_bordo CORELLIAN_CHR_boshek CORELLIAN_CHR_bounder CORELLIAN_CHR_bratt CORELLIAN_CHR_breeger CORELLIAN_CHR_bricker CORELLIAN_CHR_brigger CORELLIAN_CHR_bruckman CORELLIAN_CHR_buroy CORELLIAN_CHR_burr_naxis CORELLIAN_CHR_byrnloo CORELLIAN_CHR_cadmir CORELLIAN_CHR_calay CORELLIAN_CHR_cantarus CORELLIAN_CHR_capstan CORELLIAN_CHR_car_das CORELLIAN_CHR_carr CORELLIAN_CHR_carter CORELLIAN_CHR_chyler CORELLIAN_CHR_convorr CORELLIAN_CHR_cope CORELLIAN_CHR_corse CORELLIAN_CHR_cracken CORELLIAN_CHR_craddok CORELLIAN_CHR_creel CORELLIAN_CHR_crisk CORELLIAN_CHR_cynthisa CORELLIAN_CHR_daine CORELLIAN_CHR_dak CORELLIAN_CHR_dakron CORELLIAN_CHR_darriovof_iii CORELLIAN_CHR_darriovof_ii CORELLIAN_CHR_darriovof_iv CORELLIAN_CHR_das CORELLIAN_CHR_daskmin CORELLIAN_CHR_dekker CORELLIAN_CHR_deng CORELLIAN_CHR_devlin CORELLIAN_CHR_donos CORELLIAN_CHR_dotyk CORELLIAN_CHR_draav CORELLIAN_CHR_drass CORELLIAN_CHR_dravvad CORELLIAN_CHR_dreezian CORELLIAN_CHR_driscull CORELLIAN_CHR_dubreas CORELLIAN_CHR_duey CORELLIAN_CHR_durron CORELLIAN_CHR_dustrunner CORELLIAN_CHR_dynes CORELLIAN_CHR_eldon CORELLIAN_CHR_evnar CORELLIAN_CHR_faldrin CORELLIAN_CHR_fanaso CORELLIAN_CHR_fane CORELLIAN_CHR_fash CORELLIAN_CHR_faytonni CORELLIAN_CHR_featherlight CORELLIAN_CHR_feleema CORELLIAN_CHR_felyood CORELLIAN_CHR_ferasi CORELLIAN_CHR_varangi CORELLIAN_CHR_ferd CORELLIAN_CHR_fhernan CORELLIAN_CHR_fische CORELLIAN_CHR_flenn CORELLIAN_CHR_forno CORELLIAN_CHR_forte CORELLIAN_CHR_furloti CORELLIAN_CHR_gadren CORELLIAN_CHR_gara CORELLIAN_CHR_garamin CORELLIAN_CHR_geissler CORELLIAN_CHR_gejjen CORELLIAN_CHR_hun CORELLIAN_CHR_glider CORELLIAN_CHR_gistang CORELLIAN_CHR_gleasry CORELLIAN_CHR_gorlin CORELLIAN_CHR_grath CORELLIAN_CHR_greenley CORELLIAN_CHR_fulfel CORELLIAN_CHR_gurah CORELLIAN_CHR_halbert CORELLIAN_CHR_hamber CORELLIAN_CHR_hamner CORELLIAN_CHR_handerin CORELLIAN_CHR_harand CORELLIAN_CHR_haley CORELLIAN_CHR_hel CORELLIAN_CHR_helot CORELLIAN_CHR_hieks CORELLIAN_CHR_higron CORELLIAN_CHR_holkin CORELLIAN_CHR_hooge CORELLIAN_CHR_hus CORELLIAN_CHR_huutar CORELLIAN_CHR_idanian CORELLIAN_CHR_inacc CORELLIAN_CHR_indervin CORELLIAN_CHR_iniro CORELLIAN_CHR_innik CORELLIAN_CHR_isken CORELLIAN_CHR_jace CORELLIAN_CHR_jasper CORELLIAN_CHR_jiklip CORELLIAN_CHR_jinsin CORELLIAN_CHR_jixton CORELLIAN_CHR_joben CORELLIAN_CHR_jodhul CORELLIAN_CHR_jofer CORELLIAN_CHR_johnair CORELLIAN_CHR_jorek CORELLIAN_CHR_junus CORELLIAN_CHR_k_reye CORELLIAN_CHR_kahob CORELLIAN_CHR_kantt CORELLIAN_CHR_kanu CORELLIAN_CHR_karath CORELLIAN_CHR_karathas CORELLIAN_CHR_katrane CORELLIAN_CHR_keer CORELLIAN_CHR_kel_vannon CORELLIAN_CHR_van_kellen CORELLIAN_CHR_kener CORELLIAN_CHR_kersos CORELLIAN_CHR_kieran CORELLIAN_CHR_kilian CORELLIAN_CHR_kimbo CORELLIAN_CHR_kirin CORELLIAN_CHR_kitt CORELLIAN_CHR_konya CORELLIAN_CHR_korr CORELLIAN_CHR_krast CORELLIAN_CHR_kwerve CORELLIAN_CHR_kwinn CORELLIAN_CHR_l_hnnar CORELLIAN_CHR_lerann CORELLIAN_CHR_levare CORELLIAN_CHR_locke CORELLIAN_CHR_loren CORELLIAN_CHR_loroan CORELLIAN_CHR_m_rak CORELLIAN_CHR_madish CORELLIAN_CHR_malo CORELLIAN_CHR_mar_shayal CORELLIAN_CHR_maysor CORELLIAN_CHR_mccallok CORELLIAN_CHR_king CORELLIAN_CHR_melikan CORELLIAN_CHR_merricope CORELLIAN_CHR_midanyl CORELLIAN_CHR_millano CORELLIAN_CHR_moeda CORELLIAN_CHR_montis CORELLIAN_CHR_mor CORELLIAN_CHR_mullawny CORELLIAN_CHR_nabon CORELLIAN_CHR_nataal CORELLIAN_CHR_navander CORELLIAN_CHR_naytaan CORELLIAN_CHR_nedmak CORELLIAN_CHR_nimbi CORELLIAN_CHR_noaddo CORELLIAN_CHR_noorg CORELLIAN_CHR_norrin CORELLIAN_CHR_okanor CORELLIAN_CHR_p_teska CORELLIAN_CHR_paol CORELLIAN_CHR_parna CORELLIAN_CHR_patrell CORELLIAN_CHR_pavan CORELLIAN_CHR_pax CORELLIAN_CHR_pellaeon CORELLIAN_CHR_pendre CORELLIAN_CHR_pendron CORELLIAN_CHR_pon CORELLIAN_CHR_post CORELLIAN_CHR_qennto CORELLIAN_CHR_rai CORELLIAN_CHR_ramak CORELLIAN_CHR_reendorr CORELLIAN_CHR_rendar CORELLIAN_CHR_reshad CORELLIAN_CHR_rez CORELLIAN_CHR_rite CORELLIAN_CHR_rojo CORELLIAN_CHR_ross CORELLIAN_CHR_rydel CORELLIAN_CHR_saiy CORELLIAN_CHR_salpivo CORELLIAN_CHR_sarkee CORELLIAN_CHR_sassich CORELLIAN_CHR_sau CORELLIAN_CHR_savas CORELLIAN_CHR_saxan CORELLIAN_CHR_seedel CORELLIAN_CHR_seki CORELLIAN_CHR_seldin CORELLIAN_CHR_sepen CORELLIAN_CHR_shae CORELLIAN_CHR_shallo CORELLIAN_CHR_sharest CORELLIAN_CHR_shelby CORELLIAN_CHR_shu CORELLIAN_CHR_sionaro CORELLIAN_CHR_sirrah CORELLIAN_CHR_sistek CORELLIAN_CHR_spart CORELLIAN_CHR_stasheff CORELLIAN_CHR_stokk CORELLIAN_CHR_suul CORELLIAN_CHR_swan CORELLIAN_CHR_swift CORELLIAN_CHR_tal_oldra CORELLIAN_CHR_tark CORELLIAN_CHR_teppler CORELLIAN_CHR_terrik CORELLIAN_CHR_tharen CORELLIAN_CHR_thrakus CORELLIAN_CHR_thyne CORELLIAN_CHR_timmer CORELLIAN_CHR_tinta CORELLIAN_CHR_tipper CORELLIAN_CHR_tomas CORELLIAN_CHR_tommick CORELLIAN_CHR_torbul CORELLIAN_CHR_tors CORELLIAN_CHR_torve CORELLIAN_CHR_tredahl CORELLIAN_CHR_treece CORELLIAN_CHR_truchong CORELLIAN_CHR_tumu CORELLIAN_CHR_turhaya CORELLIAN_CHR_tyrson CORELLIAN_CHR_uliss CORELLIAN_CHR_ulbert CORELLIAN_CHR_undea CORELLIAN_CHR_untaire CORELLIAN_CHR_valouri CORELLIAN_CHR_verenar CORELLIAN_CHR_vergesso CORELLIAN_CHR_vidian CORELLIAN_CHR_vinram CORELLIAN_CHR_vio CORELLIAN_CHR_vitale CORELLIAN_CHR_vondar CORELLIAN_CHR_vorr CORELLIAN_CHR_vorru CORELLIAN_CHR_walden CORELLIAN_CHR_waray CORELLIAN_CHR_wes CORELLIAN_CHR_wred CORELLIAN_CHR_wyum CORELLIAN_CHR_xoczuko CORELLIAN_CHR_yamagh CORELLIAN_CHR_yarar
+			}
+			regnal_first_names_male = {
+				CORELLIAN_CHR_com CORELLIAN_CHR_berethron CORELLIAN_CHR_dupas CORELLIAN_CHR_doman CORELLIAN_CHR_korol CORELLIAN_CHR_threkim CORELLIAN_CHR_randil CORELLIAN_CHR_anakin CORELLIAN_CHR_den CORELLIAN_CHR_han CORELLIAN_CHR_jacen CORELLIAN_CHR_myn CORELLIAN_CHR_neeja CORELLIAN_CHR_kenth CORELLIAN_CHR_corran CORELLIAN_CHR_hal CORELLIAN_CHR_rostek CORELLIAN_CHR_hundi CORELLIAN_CHR_crix CORELLIAN_CHR_dash CORELLIAN_CHR_rosh CORELLIAN_CHR_aidel CORELLIAN_CHR_jos CORELLIAN_CHR_fliry
+			}
+			regnal_first_names_female = {
+				CORELLIAN_CHR_fyric CORELLIAN_CHR_shyla CORELLIAN_CHR_danielle CORELLIAN_CHR_tiion CORELLIAN_CHR_allana CORELLIAN_CHR_ania CORELLIAN_CHR_dalla CORELLIAN_CHR_mirax CORELLIAN_CHR_jes CORELLIAN_CHR_scerra CORELLIAN_CHR_jakir CORELLIAN_CHR_jax CORELLIAN_CHR_nyche CORELLIAN_CHR_bria
+			}
+			regnal_second_names = {
+				CORELLIAN_CHR_fordox CORELLIAN_CHR_merricope CORELLIAN_CHR_thomree CORELLIAN_CHR_fel CORELLIAN_CHR_beruss CORELLIAN_CHR_micamberlecto CORELLIAN_CHR_saxan CORELLIAN_CHR_horm CORELLIAN_CHR_kieran CORELLIAN_CHR_sal CORELLIAN_CHR_bel_iblis CORELLIAN_CHR_darriovof_iii CORELLIAN_CHR_darriovof_iv CORELLIAN_CHR_halcyon CORELLIAN_CHR_hamner CORELLIAN_CHR_horn CORELLIAN_CHR_terrik CORELLIAN_CHR_tharen CORELLIAN_CHR_madine CORELLIAN_CHR_vorru
+			}
+		}
+	}
+}

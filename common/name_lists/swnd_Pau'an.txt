@@ -1,0 +1,844 @@
+﻿Pauan = {
+	randomized = no
+	ship_names = {
+		generic = {
+			PAUAN_SHIP_mystic PAUAN_SHIP_naiad PAUAN_SHIP_nautilus PAUAN_SHIP_nebula PAUAN_SHIP_nimble PAUAN_SHIP_north_star PAUAN_SHIP_nymph PAUAN_SHIP_obdurate PAUAN_SHIP_ocean PAUAN_SHIP_onward PAUAN_SHIP_oracle PAUAN_SHIP_paradox PAUAN_SHIP_paragon PAUAN_SHIP_pearl PAUAN_SHIP_peregrine PAUAN_SHIP_perseverance PAUAN_SHIP_marksman PAUAN_SHIP_rifleman PAUAN_SHIP_sniper PAUAN_SHIP_trident PAUAN_SHIP_trumpet PAUAN_SHIP_truncheon PAUAN_SHIP_typhoon PAUAN_SHIP_undaunted PAUAN_SHIP_venture PAUAN_SHIP_versatile PAUAN_SHIP_vigorous PAUAN_SHIP_viper PAUAN_SHIP_vivacious PAUAN_SHIP_winger PAUAN_SHIP_wizard PAUAN_SHIP_wyvern PAUAN_SHIP_wolfhound PAUAN_SHIP_devastator PAUAN_SHIP_warhammer PAUAN_SHIP_retribution PAUAN_SHIP_senator PAUAN_SHIP_tornado PAUAN_SHIP_infinity PAUAN_SHIP_usurper PAUAN_SHIP_utmost PAUAN_SHIP_valorous PAUAN_SHIP_whirlwind PAUAN_SHIP_athena PAUAN_SHIP_artemis PAUAN_SHIP_vigilance PAUAN_SHIP_decimator PAUAN_SHIP_indomitable PAUAN_SHIP_goliath PAUAN_SHIP_sentinel PAUAN_SHIP_brilliant PAUAN_SHIP_blazer PAUAN_SHIP_audacity PAUAN_SHIP_gallant PAUAN_SHIP_nova PAUAN_SHIP_shadow PAUAN_SHIP_allegiance PAUAN_SHIP_challenger PAUAN_SHIP_fearless PAUAN_SHIP_protector PAUAN_SHIP_guardian PAUAN_SHIP_victorious PAUAN_SHIP_courageous PAUAN_SHIP_defiance PAUAN_SHIP_valorous PAUAN_SHIP_azrael PAUAN_SHIP_adamantine PAUAN_SHIP_aralanni PAUAN_SHIP_ardent_iv PAUAN_SHIP_armistice PAUAN_SHIP_avengeance PAUAN_SHIP_ballista PAUAN_SHIP_bloodstripe PAUAN_SHIP_borealis PAUAN_SHIP_caelus PAUAN_SHIP_caravan PAUAN_SHIP_chaf_envoy PAUAN_SHIP_commenor PAUAN_SHIP_corbantis PAUAN_SHIP_corellia PAUAN_SHIP_courteous PAUAN_SHIP_dauntless PAUAN_SHIP_defiant PAUAN_SHIP_deliverance PAUAN_SHIP_derapha PAUAN_SHIP_devout PAUAN_SHIP_empirical PAUAN_SHIP_empyrean PAUAN_SHIP_era_daimanos PAUAN_SHIP_eye_of_the_storm PAUAN_SHIP_farstar PAUAN_SHIP_fastblast PAUAN_SHIP_galaaron PAUAN_SHIP_garrote PAUAN_SHIP_gilagimar PAUAN_SHIP_halleck PAUAN_SHIP_hunter PAUAN_SHIP_intractable PAUAN_SHIP_ithor_lady PAUAN_SHIP_justice_crusader PAUAN_SHIP_kana_s_steel PAUAN_SHIP_lathir PAUAN_SHIP_liberty PAUAN_SHIP_lillibanca PAUAN_SHIP_maelstrom PAUAN_SHIP_malachite_scent PAUAN_SHIP_mercy PAUAN_SHIP_myrkos PAUAN_SHIP_nebula_chaser PAUAN_SHIP_nova PAUAN_SHIP_nova_viper PAUAN_SHIP_obedience PAUAN_SHIP_olemp PAUAN_SHIP_pegasus PAUAN_SHIP_perspicacity PAUAN_SHIP_phalanx PAUAN_SHIP_plooriod_bodkin PAUAN_SHIP_predominance PAUAN_SHIP_prosperity PAUAN_SHIP_purity PAUAN_SHIP_recalcitrant PAUAN_SHIP_red_nova PAUAN_SHIP_redma PAUAN_SHIP_reliable PAUAN_SHIP_reliant PAUAN_SHIP_reluctant PAUAN_SHIP_republic PAUAN_SHIP_republic_s_return PAUAN_SHIP_resolve PAUAN_SHIP_respectable PAUAN_SHIP_revenge PAUAN_SHIP_shadowblade PAUAN_SHIP_spritespray PAUAN_SHIP_star_dream PAUAN_SHIP_stark_wing PAUAN_SHIP_starveil PAUAN_SHIP_undying PAUAN_SHIP_vaathkree PAUAN_SHIP_vainglorious PAUAN_SHIP_valiant PAUAN_SHIP_valor PAUAN_SHIP_vanquisher PAUAN_SHIP_vinsor PAUAN_SHIP_visseon PAUAN_SHIP_wennis PAUAN_SHIP_yavin_s_glory PAUAN_SHIP_moldy_crow PAUAN_SHIP_raven_s_claw PAUAN_SHIP_agile PAUAN_SHIP_archer PAUAN_SHIP_arrow PAUAN_SHIP_bruiser PAUAN_SHIP_cherub PAUAN_SHIP_chimera PAUAN_SHIP_claymore PAUAN_SHIP_broadsword PAUAN_SHIP_battleaxe PAUAN_SHIP_crossbow PAUAN_SHIP_cutlass PAUAN_SHIP_deterrent PAUAN_SHIP_errant PAUAN_SHIP_faithful PAUAN_SHIP_fierce PAUAN_SHIP_gladius PAUAN_SHIP_longbow PAUAN_SHIP_grappler PAUAN_SHIP_hammer PAUAN_SHIP_vampire PAUAN_SHIP_velox PAUAN_SHIP_venator PAUAN_SHIP_vendetta PAUAN_SHIP_venerable PAUAN_SHIP_venomous PAUAN_SHIP_taciturn PAUAN_SHIP_supreme PAUAN_SHIP_success PAUAN_SHIP_shredder PAUAN_SHIP_seraph PAUAN_SHIP_serpent PAUAN_SHIP_spitfire PAUAN_SHIP_stalker PAUAN_SHIP_stratagem PAUAN_SHIP_scimitar PAUAN_SHIP_scorcher PAUAN_SHIP_scourge PAUAN_SHIP_scythe PAUAN_SHIP_revenant PAUAN_SHIP_redoubtable PAUAN_SHIP_raptor PAUAN_SHIP_reaver PAUAN_SHIP_prodigal PAUAN_SHIP_rapier PAUAN_SHIP_prudent PAUAN_SHIP_persistent PAUAN_SHIP_peerless PAUAN_SHIP_myrmidon PAUAN_SHIP_indignant PAUAN_SHIP_javelin PAUAN_SHIP_knight PAUAN_SHIP_starwolf PAUAN_SHIP_bonaventure PAUAN_SHIP_adventure PAUAN_SHIP_boxer PAUAN_SHIP_buccaneer PAUAN_SHIP_cavalier PAUAN_SHIP_celestial PAUAN_SHIP_chariot PAUAN_SHIP_comet PAUAN_SHIP_crucible PAUAN_SHIP_cyclone PAUAN_SHIP_decisive PAUAN_SHIP_dexterous PAUAN_SHIP_diadem PAUAN_SHIP_earnest PAUAN_SHIP_eclipse PAUAN_SHIP_forger PAUAN_SHIP_fortune PAUAN_SHIP_gauntlet PAUAN_SHIP_griffin PAUAN_SHIP_horizon PAUAN_SHIP_hotspur PAUAN_SHIP_hurricane PAUAN_SHIP_hussar PAUAN_SHIP_jubilant PAUAN_SHIP_lancer PAUAN_SHIP_lightning PAUAN_SHIP_magic PAUAN_SHIP_mediator PAUAN_SHIP_mermaid PAUAN_SHIP_meteor PAUAN_SHIP_minstrel PAUAN_SHIP_miranda PAUAN_SHIP_mustang PAUAN_SHIP_sharpshooter PAUAN_SHIP_cyclops PAUAN_SHIP_centaur PAUAN_SHIP_adversary PAUAN_SHIP_assassin PAUAN_SHIP_dagger PAUAN_SHIP_daring PAUAN_SHIP_duty PAUAN_SHIP_havoc PAUAN_SHIP_hero PAUAN_SHIP_hunter PAUAN_SHIP_justice PAUAN_SHIP_impeccable PAUAN_SHIP_interceptor PAUAN_SHIP_infernal PAUAN_SHIP_loyal PAUAN_SHIP_matchless PAUAN_SHIP_mauler PAUAN_SHIP_mayhem PAUAN_SHIP_malice PAUAN_SHIP_menace PAUAN_SHIP_merciless PAUAN_SHIP_mischief PAUAN_SHIP_monarch PAUAN_SHIP_patriot PAUAN_SHIP_predator PAUAN_SHIP_powerful PAUAN_SHIP_punisher PAUAN_SHIP_ravager PAUAN_SHIP_reaper PAUAN_SHIP_savage PAUAN_SHIP_spiteful PAUAN_SHIP_templar PAUAN_SHIP_terminator PAUAN_SHIP_terror PAUAN_SHIP_thrasher PAUAN_SHIP_minotaur PAUAN_SHIP_manticore PAUAN_SHIP_interdictor PAUAN_SHIP_intruder PAUAN_SHIP_hydra PAUAN_SHIP_enfield PAUAN_SHIP_harasser PAUAN_SHIP_unbeaten PAUAN_SHIP_werewolf PAUAN_SHIP_zealous PAUAN_SHIP_petulant PAUAN_SHIP_phantom PAUAN_SHIP_phoenix PAUAN_SHIP_pike PAUAN_SHIP_pursuer PAUAN_SHIP_raider PAUAN_SHIP_rainbow PAUAN_SHIP_rapid PAUAN_SHIP_redemption PAUAN_SHIP_relentless PAUAN_SHIP_rigorous PAUAN_SHIP_robust PAUAN_SHIP_sabre PAUAN_SHIP_salvation PAUAN_SHIP_sanguine PAUAN_SHIP_scarab PAUAN_SHIP_scepter PAUAN_SHIP_sea_witch PAUAN_SHIP_siren PAUAN_SHIP_sorceress PAUAN_SHIP_spearhead PAUAN_SHIP_specter PAUAN_SHIP_spirit PAUAN_SHIP_splendid PAUAN_SHIP_stallion PAUAN_SHIP_stalwart PAUAN_SHIP_steadfast PAUAN_SHIP_strenuous PAUAN_SHIP_superb PAUAN_SHIP_supernova PAUAN_SHIP_surprise PAUAN_SHIP_swiftsure PAUAN_SHIP_talent PAUAN_SHIP_talisman PAUAN_SHIP_talon PAUAN_SHIP_taurus PAUAN_SHIP_tenacious PAUAN_SHIP_thunder_child PAUAN_SHIP_thunderous PAUAN_SHIP_tireless PAUAN_SHIP_trenchant PAUAN_SHIP_righteous PAUAN_SHIP_acheron PAUAN_SHIP_achilles PAUAN_SHIP_agamemnon PAUAN_SHIP_amphion PAUAN_SHIP_aquilon PAUAN_SHIP_argonaut PAUAN_SHIP_argus PAUAN_SHIP_ariel PAUAN_SHIP_aurora PAUAN_SHIP_avernus PAUAN_SHIP_bacchus PAUAN_SHIP_bucephalus PAUAN_SHIP_calliope PAUAN_SHIP_calypso PAUAN_SHIP_castor PAUAN_SHIP_charybdis PAUAN_SHIP_circe PAUAN_SHIP_cleopatra PAUAN_SHIP_constantine PAUAN_SHIP_cordelia PAUAN_SHIP_cyrus PAUAN_SHIP_damocles PAUAN_SHIP_daedalus PAUAN_SHIP_darius PAUAN_SHIP_diomede PAUAN_SHIP_dryad PAUAN_SHIP_electra PAUAN_SHIP_endymion PAUAN_SHIP_erebus PAUAN_SHIP_fenris PAUAN_SHIP_freya PAUAN_SHIP_gilgamesh PAUAN_SHIP_gorgon PAUAN_SHIP_halcyon PAUAN_SHIP_hecate PAUAN_SHIP_hector PAUAN_SHIP_hesperus PAUAN_SHIP_janus PAUAN_SHIP_jason PAUAN_SHIP_juno PAUAN_SHIP_jupiter PAUAN_SHIP_lancelot PAUAN_SHIP_lazarus PAUAN_SHIP_leander PAUAN_SHIP_leonidas PAUAN_SHIP_lysander PAUAN_SHIP_maenad PAUAN_SHIP_mars PAUAN_SHIP_medea PAUAN_SHIP_medusa PAUAN_SHIP_menestheus PAUAN_SHIP_mercury PAUAN_SHIP_merlin PAUAN_SHIP_minerva PAUAN_SHIP_minos PAUAN_SHIP_neptune PAUAN_SHIP_nessus PAUAN_SHIP_nestor PAUAN_SHIP_nimrod PAUAN_SHIP_niobe PAUAN_SHIP_oberon PAUAN_SHIP_odin PAUAN_SHIP_ophelia PAUAN_SHIP_orestes PAUAN_SHIP_orpheus PAUAN_SHIP_osiris PAUAN_SHIP_pandora PAUAN_SHIP_penelope PAUAN_SHIP_persephone PAUAN_SHIP_perseus PAUAN_SHIP_phoebe PAUAN_SHIP_pluto PAUAN_SHIP_poseidon PAUAN_SHIP_proteus PAUAN_SHIP_pylades PAUAN_SHIP_serapis PAUAN_SHIP_stygian PAUAN_SHIP_tantalus PAUAN_SHIP_telemachus PAUAN_SHIP_theseus PAUAN_SHIP_thor PAUAN_SHIP_trajan PAUAN_SHIP_triton PAUAN_SHIP_venus PAUAN_SHIP_adamant PAUAN_SHIP_ardent PAUAN_SHIP_assail PAUAN_SHIP_austere PAUAN_SHIP_archon PAUAN_SHIP_adroit PAUAN_SHIP_aegis PAUAN_SHIP_anchor PAUAN_SHIP_corsair PAUAN_SHIP_banshee PAUAN_SHIP_enchantress PAUAN_SHIP_eradicator PAUAN_SHIP_tormentor PAUAN_SHIP_legion PAUAN_SHIP_reprisal PAUAN_SHIP_aggressor PAUAN_SHIP_assault PAUAN_SHIP_eviscerator PAUAN_SHIP_imperator PAUAN_SHIP_excellence PAUAN_SHIP_unrivalled PAUAN_SHIP_warlord PAUAN_SHIP_vengeance PAUAN_SHIP_triumphant PAUAN_SHIP_nemesis PAUAN_SHIP_avenger PAUAN_SHIP_champion PAUAN_SHIP_conqueror PAUAN_SHIP_crusader PAUAN_SHIP_glory PAUAN_SHIP_immortal PAUAN_SHIP_judicator PAUAN_SHIP_vanguard PAUAN_SHIP_renown PAUAN_SHIP_demolisher PAUAN_SHIP_dragon PAUAN_SHIP_executor PAUAN_SHIP_furious PAUAN_SHIP_gladiator PAUAN_SHIP_magnificent PAUAN_SHIP_ogre PAUAN_SHIP_onslaught PAUAN_SHIP_revenge PAUAN_SHIP_vanquisher PAUAN_SHIP_vehement PAUAN_SHIP_basilisk PAUAN_SHIP_tempest PAUAN_SHIP_overlord PAUAN_SHIP_warrior PAUAN_SHIP_titan PAUAN_SHIP_colossus PAUAN_SHIP_prometheus PAUAN_SHIP_nike PAUAN_SHIP_paladin PAUAN_SHIP_sovereign PAUAN_SHIP_repulse PAUAN_SHIP_majestic PAUAN_SHIP_avatar PAUAN_SHIP_behemoth PAUAN_SHIP_centurion PAUAN_SHIP_citadel PAUAN_SHIP_katana PAUAN_SHIP_kraken PAUAN_SHIP_cerberus PAUAN_SHIP_valkyrie
+		}
+		swp_bellator = {
+			PAUAN_SHIP_dreadnought PAUAN_SHIP_harbinger PAUAN_SHIP_juggernaut PAUAN_SHIP_leviathan PAUAN_SHIP_hyperion PAUAN_SHIP_galatea PAUAN_SHIP_ambush PAUAN_SHIP_vindicator
+		}
+		science = {
+			PAUAN_SHIP_crescent PAUAN_SHIP_diligent PAUAN_SHIP_zephyr PAUAN_SHIP_enigma PAUAN_SHIP_conquistador PAUAN_SHIP_scylla PAUAN_SHIP_arbiter PAUAN_SHIP_asperity PAUAN_SHIP_eminence PAUAN_SHIP_astute PAUAN_SHIP_alacrity PAUAN_SHIP_satyr PAUAN_SHIP_prospero PAUAN_SHIP_untiring PAUAN_SHIP_zenith PAUAN_SHIP_torch PAUAN_SHIP_remembrance PAUAN_SHIP_pilgrim PAUAN_SHIP_trailblazer PAUAN_SHIP_vagabond PAUAN_SHIP_wayfarer PAUAN_SHIP_ambassador PAUAN_SHIP_emissary PAUAN_SHIP_nomad PAUAN_SHIP_pathfinder PAUAN_SHIP_wanderer PAUAN_SHIP_traveler
+		}
+		colonizer = {
+			PAUAN_SHIP_godspeed PAUAN_SHIP_prophecy PAUAN_SHIP_manifest_destiny PAUAN_SHIP_virtue PAUAN_SHIP_potential PAUAN_SHIP_expansion PAUAN_SHIP_pioneer_spirit PAUAN_SHIP_prosperity PAUAN_SHIP_summit PAUAN_SHIP_pinnacle PAUAN_SHIP_seeder PAUAN_SHIP_harvest PAUAN_SHIP_demeter PAUAN_SHIP_isis PAUAN_SHIP_ceres PAUAN_SHIP_exodus PAUAN_SHIP_foundation PAUAN_SHIP_scion PAUAN_SHIP_progeny PAUAN_SHIP_obligation PAUAN_SHIP_purpose PAUAN_SHIP_provider PAUAN_SHIP_shining_city PAUAN_SHIP_acquirer PAUAN_SHIP_cultivator PAUAN_SHIP_dawn_of_civilization PAUAN_SHIP_purity PAUAN_SHIP_community PAUAN_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			PAUAN_SHIP_godspeed PAUAN_SHIP_prophecy PAUAN_SHIP_manifest_destiny PAUAN_SHIP_virtue PAUAN_SHIP_potential PAUAN_SHIP_expansion PAUAN_SHIP_pioneer_spirit PAUAN_SHIP_prosperity PAUAN_SHIP_summit PAUAN_SHIP_pinnacle PAUAN_SHIP_seeder PAUAN_SHIP_harvest PAUAN_SHIP_isis PAUAN_SHIP_ceres PAUAN_SHIP_exodus PAUAN_SHIP_foundation PAUAN_SHIP_scion PAUAN_SHIP_progeny PAUAN_SHIP_obligation PAUAN_SHIP_purpose PAUAN_SHIP_provider PAUAN_SHIP_shining_city PAUAN_SHIP_acquirer PAUAN_SHIP_cultivator PAUAN_SHIP_dawn_of_civilization PAUAN_SHIP_purity PAUAN_SHIP_community PAUAN_SHIP_brotherhood
+		}
+		constructor = {
+			PAUAN_SHIP_industry PAUAN_SHIP_assiduity PAUAN_SHIP_effort PAUAN_SHIP_laborer PAUAN_SHIP_builder PAUAN_SHIP_craftsman PAUAN_SHIP_hard_hat PAUAN_SHIP_progress PAUAN_SHIP_engineer PAUAN_SHIP_promise PAUAN_SHIP_service PAUAN_SHIP_shelter PAUAN_SHIP_beast PAUAN_SHIP_creator PAUAN_SHIP_developer PAUAN_SHIP_forger PAUAN_SHIP_foundry PAUAN_SHIP_factory PAUAN_SHIP_anvil PAUAN_SHIP_pillar PAUAN_SHIP_architect PAUAN_SHIP_accommodator PAUAN_SHIP_ptah PAUAN_SHIP_ilmarinen PAUAN_SHIP_creidhne PAUAN_SHIP_gobannus PAUAN_SHIP_luchtaine PAUAN_SHIP_goibniu PAUAN_SHIP_vishvakarman PAUAN_SHIP_tvastar PAUAN_SHIP_ikenga PAUAN_SHIP_qaynan PAUAN_SHIP_ucuetis PAUAN_SHIP_ogoun
+		}
+		transport = {
+			PAUAN_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			PAUAN_SHIP_spacegun_victory PAUAN_SHIP_spacegun_success PAUAN_SHIP_spacegun_supremacy PAUAN_SHIP_spacegun_superior PAUAN_SHIP_spacegun_adventure PAUAN_SHIP_spacegun_ascendancy PAUAN_SHIP_spacegun_paramount PAUAN_SHIP_spacegun_preponderous PAUAN_SHIP_spacegun_exemplary PAUAN_SHIP_spacegun_eximious PAUAN_SHIP_spacegun_pertinacity PAUAN_SHIP_spacegun_acclaim PAUAN_SHIP_spacegun_honor PAUAN_SHIP_spacegun_renown PAUAN_SHIP_spacegun_glory PAUAN_SHIP_spacegun_superb PAUAN_SHIP_spacegun_magnificence PAUAN_SHIP_spacegun_majestic PAUAN_SHIP_spacegun_splendor PAUAN_SHIP_spacegun_paradigm PAUAN_SHIP_spacegun_flawless PAUAN_SHIP_spacegun_consummate PAUAN_SHIP_spacegun_merit PAUAN_SHIP_spacegun_perfection PAUAN_SHIP_spacegun_virtue PAUAN_SHIP_spacegun_advantage PAUAN_SHIP_spacegun_rectitude PAUAN_SHIP_spacegun_incorruptible PAUAN_SHIP_spacegun_integrity PAUAN_SHIP_spacegun_justice PAUAN_SHIP_spacegun_probity PAUAN_SHIP_spacegun_prudence PAUAN_SHIP_spacegun_purity PAUAN_SHIP_spacegun_resolute PAUAN_SHIP_spacegun_dignity PAUAN_SHIP_spacegun_distinction PAUAN_SHIP_spacegun_excellence PAUAN_SHIP_spacegun_faithful PAUAN_SHIP_spacegun_discipline PAUAN_SHIP_spacegun_steadfast PAUAN_SHIP_spacegun_recompense PAUAN_SHIP_spacegun_requiem PAUAN_SHIP_spacegun_courage PAUAN_SHIP_spacegun_valor PAUAN_SHIP_spacegun_gallant PAUAN_SHIP_spacegun_daring PAUAN_SHIP_spacegun_constancy PAUAN_SHIP_spacegun_perseverence PAUAN_SHIP_spacegun_tenacity PAUAN_SHIP_spacegun_sedulity PAUAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			PAUAN_SHIP_spacegun_victory PAUAN_SHIP_spacegun_success PAUAN_SHIP_spacegun_supremacy PAUAN_SHIP_spacegun_superior PAUAN_SHIP_spacegun_adventure PAUAN_SHIP_spacegun_ascendancy PAUAN_SHIP_spacegun_paramount PAUAN_SHIP_spacegun_preponderous PAUAN_SHIP_spacegun_exemplary PAUAN_SHIP_spacegun_eximious PAUAN_SHIP_spacegun_pertinacity PAUAN_SHIP_spacegun_acclaim PAUAN_SHIP_spacegun_honor PAUAN_SHIP_spacegun_renown PAUAN_SHIP_spacegun_glory PAUAN_SHIP_spacegun_superb PAUAN_SHIP_spacegun_magnificence PAUAN_SHIP_spacegun_majestic PAUAN_SHIP_spacegun_splendor PAUAN_SHIP_spacegun_paradigm PAUAN_SHIP_spacegun_flawless PAUAN_SHIP_spacegun_consummate PAUAN_SHIP_spacegun_merit PAUAN_SHIP_spacegun_perfection PAUAN_SHIP_spacegun_virtue PAUAN_SHIP_spacegun_advantage PAUAN_SHIP_spacegun_rectitude PAUAN_SHIP_spacegun_incorruptible PAUAN_SHIP_spacegun_integrity PAUAN_SHIP_spacegun_justice PAUAN_SHIP_spacegun_probity PAUAN_SHIP_spacegun_prudence PAUAN_SHIP_spacegun_purity PAUAN_SHIP_spacegun_resolute PAUAN_SHIP_spacegun_dignity PAUAN_SHIP_spacegun_distinction PAUAN_SHIP_spacegun_excellence PAUAN_SHIP_spacegun_faithful PAUAN_SHIP_spacegun_discipline PAUAN_SHIP_spacegun_steadfast PAUAN_SHIP_spacegun_recompense PAUAN_SHIP_spacegun_requiem PAUAN_SHIP_spacegun_courage PAUAN_SHIP_spacegun_valor PAUAN_SHIP_spacegun_gallant PAUAN_SHIP_spacegun_daring PAUAN_SHIP_spacegun_constancy PAUAN_SHIP_spacegun_perseverence PAUAN_SHIP_spacegun_tenacity PAUAN_SHIP_spacegun_sedulity PAUAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			PAUAN_SHIP_spacegun_victory PAUAN_SHIP_spacegun_success PAUAN_SHIP_spacegun_supremacy PAUAN_SHIP_spacegun_superior PAUAN_SHIP_spacegun_adventure PAUAN_SHIP_spacegun_ascendancy PAUAN_SHIP_spacegun_paramount PAUAN_SHIP_spacegun_preponderous PAUAN_SHIP_spacegun_exemplary PAUAN_SHIP_spacegun_eximious PAUAN_SHIP_spacegun_pertinacity PAUAN_SHIP_spacegun_acclaim PAUAN_SHIP_spacegun_honor PAUAN_SHIP_spacegun_renown PAUAN_SHIP_spacegun_glory PAUAN_SHIP_spacegun_superb PAUAN_SHIP_spacegun_magnificence PAUAN_SHIP_spacegun_majestic PAUAN_SHIP_spacegun_splendor PAUAN_SHIP_spacegun_paradigm PAUAN_SHIP_spacegun_flawless PAUAN_SHIP_spacegun_consummate PAUAN_SHIP_spacegun_merit PAUAN_SHIP_spacegun_perfection PAUAN_SHIP_spacegun_virtue PAUAN_SHIP_spacegun_advantage PAUAN_SHIP_spacegun_rectitude PAUAN_SHIP_spacegun_incorruptible PAUAN_SHIP_spacegun_integrity PAUAN_SHIP_spacegun_justice PAUAN_SHIP_spacegun_probity PAUAN_SHIP_spacegun_prudence PAUAN_SHIP_spacegun_purity PAUAN_SHIP_spacegun_resolute PAUAN_SHIP_spacegun_dignity PAUAN_SHIP_spacegun_distinction PAUAN_SHIP_spacegun_excellence PAUAN_SHIP_spacegun_faithful PAUAN_SHIP_spacegun_discipline PAUAN_SHIP_spacegun_steadfast PAUAN_SHIP_spacegun_recompense PAUAN_SHIP_spacegun_requiem PAUAN_SHIP_spacegun_courage PAUAN_SHIP_spacegun_valor PAUAN_SHIP_spacegun_gallant PAUAN_SHIP_spacegun_daring PAUAN_SHIP_spacegun_constancy PAUAN_SHIP_spacegun_perseverence PAUAN_SHIP_spacegun_tenacity PAUAN_SHIP_spacegun_sedulity PAUAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			PAUAN_SHIP_citadel PAUAN_SHIP_albacore PAUAN_SHIP_gateway PAUAN_SHIP_vincent PAUAN_SHIP_babylon PAUAN_SHIP_caernavon PAUAN_SHIP_acre PAUAN_SHIP_pembroke PAUAN_SHIP_acheron PAUAN_SHIP_spithead PAUAN_SHIP_halifax PAUAN_SHIP_victoria PAUAN_SHIP_chatham PAUAN_SHIP_anchorage PAUAN_SHIP_scapa_flow PAUAN_SHIP_hampton_roads PAUAN_SHIP_brooklyn PAUAN_SHIP_norfolk PAUAN_SHIP_newport PAUAN_SHIP_guam PAUAN_SHIP_pensacola PAUAN_SHIP_vesuvius PAUAN_SHIP_mckinley PAUAN_SHIP_everest PAUAN_SHIP_kilimanjaro PAUAN_SHIP_aconcagua PAUAN_SHIP_elbrus PAUAN_SHIP_st__helens PAUAN_SHIP_fuji PAUAN_SHIP_olympus PAUAN_SHIP_sinai PAUAN_SHIP_ambrose PAUAN_SHIP_bermuda PAUAN_SHIP_farpoint PAUAN_SHIP_blue_star PAUAN_SHIP_olympus_mons PAUAN_SHIP_tharsis PAUAN_SHIP_syrtis PAUAN_SHIP_blackham PAUAN_SHIP_fletcher PAUAN_SHIP_perry PAUAN_SHIP_butakov PAUAN_SHIP_morris PAUAN_SHIP_moorsom PAUAN_SHIP_hart PAUAN_SHIP_hargood PAUAN_SHIP_spruance PAUAN_SHIP_tanaka PAUAN_SHIP_halsey PAUAN_SHIP_turner PAUAN_SHIP_doria PAUAN_SHIP_tirpitz PAUAN_SHIP_cunningham PAUAN_SHIP_jellicoe PAUAN_SHIP_hipper PAUAN_SHIP_beatty PAUAN_SHIP_potemkin PAUAN_SHIP_durham PAUAN_SHIP_codrington PAUAN_SHIP_milne PAUAN_SHIP_laforey PAUAN_SHIP_tyler PAUAN_SHIP_hawke PAUAN_SHIP_yonai PAUAN_SHIP_pound PAUAN_SHIP_king PAUAN_SHIP_crutchley PAUAN_SHIP_mountbatten PAUAN_SHIP_kountouriotis PAUAN_SHIP_kuznetsov PAUAN_SHIP_essen PAUAN_SHIP_kornilov PAUAN_SHIP_suffren PAUAN_SHIP_treville PAUAN_SHIP_villeneuve PAUAN_SHIP_grasse PAUAN_SHIP_byng PAUAN_SHIP_lezo
+		}
+		ion_cannon = {
+			PAUAN_SHIP_bombard PAUAN_SHIP_ballista PAUAN_SHIP_catapult PAUAN_SHIP_harpoon PAUAN_SHIP_polybolos PAUAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			PAUAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			PAUAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			PAUAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			PAUAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			PAUAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			PAUAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			PAUAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			PAUAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			PAUAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			PAUAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			PAUAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			PAUAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			PAUAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			PAUAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			PAUAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			PAUAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			PAUAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			PAUAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			PAUAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			PAUAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			PAUAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			PAUAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			PAUAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			PAUAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			PAUAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			PAUAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			PAUAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			PAUAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			PAUAN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			PAUAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			PAUAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			PAUAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			PAUAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			PAUAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			PAUAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			PAUAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			PAUAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			PAUAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			PAUAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			PAUAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			PAUAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			PAUAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			PAUAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			PAUAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			PAUAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			PAUAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			PAUAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			PAUAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			PAUAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			PAUAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			PAUAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			PAUAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			PAUAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			PAUAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			PAUAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			PAUAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			PAUAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			PAUAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			PAUAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			PAUAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			PAUAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			PAUAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			PAUAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			PAUAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			PAUAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			PAUAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			PAUAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			PAUAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			PAUAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			PAUAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			PAUAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			PAUAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			PAUAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			PAUAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			PAUAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			PAUAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			PAUAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			PAUAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			PAUAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			PAUAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			PAUAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			PAUAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			PAUAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			PAUAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			PAUAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			PAUAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			PAUAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			PAUAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			PAUAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			PAUAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			PAUAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			PAUAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			PAUAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			PAUAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = PAUAN_FLEET_flotilla_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = PAUAN_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = PAUAN_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = PAUAN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = PAUAN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = PAUAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = PAUAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = PAUAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = PAUAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				PAUAN_ARMY_sarc_a__gladiators_ PAUAN_ARMY_sarc_b__widowmakers_ PAUAN_ARMY_sarc_c__immortals_ PAUAN_ARMY_sarc_d__berserkers_ PAUAN_ARMY_sarc_e__assassins_ PAUAN_ARMY_sarc_f__reapers_ PAUAN_ARMY_sarc_g__nighthawks_ PAUAN_ARMY_sarc_h__desperados_ PAUAN_ARMY_sarc_i__grey_knights_ PAUAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = PAUAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = PAUAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = PAUAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = PAUAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = PAUAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = PAUAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = PAUAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = PAUAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = PAUAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = PAUAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = PAUAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = PAUAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = PAUAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = PAUAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = PAUAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = PAUAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = PAUAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = PAUAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = PAUAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = PAUAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = PAUAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = PAUAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = PAUAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = PAUAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = PAUAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = PAUAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = PAUAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = PAUAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = PAUAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = PAUAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = PAUAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = PAUAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = PAUAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = PAUAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = PAUAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = PAUAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = PAUAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = PAUAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = PAUAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = PAUAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = PAUAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = PAUAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = PAUAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = PAUAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = PAUAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = PAUAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = PAUAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = PAUAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = PAUAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = PAUAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = PAUAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = PAUAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = PAUAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = PAUAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = PAUAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = PAUAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = PAUAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = PAUAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = PAUAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = PAUAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = PAUAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = PAUAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = PAUAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = PAUAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = PAUAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = PAUAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = PAUAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = PAUAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = PAUAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = PAUAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = PAUAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = PAUAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = PAUAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = PAUAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = PAUAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = PAUAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = PAUAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = PAUAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = PAUAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = PAUAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = PAUAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = PAUAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = PAUAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = PAUAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = PAUAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = PAUAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = PAUAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = PAUAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = PAUAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = PAUAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = PAUAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = PAUAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = PAUAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = PAUAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = PAUAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = PAUAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = PAUAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = PAUAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = PAUAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = PAUAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = PAUAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = PAUAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = PAUAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = PAUAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = PAUAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = PAUAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = PAUAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = PAUAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = PAUAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = PAUAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = PAUAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = PAUAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = PAUAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = PAUAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = PAUAN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = PAUAN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = PAUAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = PAUAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = PAUAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = PAUAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = PAUAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = PAUAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = PAUAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = PAUAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = PAUAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = PAUAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = PAUAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = PAUAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = PAUAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = PAUAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = PAUAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = PAUAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = PAUAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				PAUAN_CHR_bail PAUAN_CHR_ylenic PAUAN_CHR_kel PAUAN_CHR_gunn PAUAN_CHR_gregory PAUAN_CHR_abraxis PAUAN_CHR_jonas PAUAN_CHR_xerda PAUAN_CHR_carth PAUAN_CHR_kir PAUAN_CHR_mebba PAUAN_CHR_dagos PAUAN_CHR_adam PAUAN_CHR_kyle PAUAN_CHR_forren PAUAN_CHR_malcolm PAUAN_CHR_jeho PAUAN_CHR_lee PAUAN_CHR_griggs PAUAN_CHR_milo PAUAN_CHR_aeron PAUAN_CHR_byrec PAUAN_CHR_strata PAUAN_CHR_lancer PAUAN_CHR_zeak PAUAN_CHR_niuk PAUAN_CHR_lavidean PAUAN_CHR_tanizandar PAUAN_CHR_japla PAUAN_CHR_aran PAUAN_CHR_rail PAUAN_CHR_zeven PAUAN_CHR_yakown PAUAN_CHR_sibar PAUAN_CHR_sair PAUAN_CHR_klai PAUAN_CHR_jonas PAUAN_CHR_imay PAUAN_CHR_traest PAUAN_CHR_simo PAUAN_CHR_carth PAUAN_CHR_riyan PAUAN_CHR_magnus PAUAN_CHR_boceta PAUAN_CHR_agnook PAUAN_CHR_silus PAUAN_CHR_rowan PAUAN_CHR_coren PAUAN_CHR_jett PAUAN_CHR_linth PAUAN_CHR_annor PAUAN_CHR_ulas PAUAN_CHR_fenn PAUAN_CHR_tal PAUAN_CHR_plo PAUAN_CHR_torin PAUAN_CHR_imay PAUAN_CHR_boone PAUAN_CHR_davith PAUAN_CHR_jorgen PAUAN_CHR_bertos PAUAN_CHR_ress PAUAN_CHR_malius PAUAN_CHR_kale PAUAN_CHR_cregan PAUAN_CHR_galen PAUAN_CHR_zekk PAUAN_CHR_jinn_tu PAUAN_CHR_jaryn PAUAN_CHR_gentti PAUAN_CHR_yu_sien PAUAN_CHR_akela PAUAN_CHR_arslan PAUAN_CHR_sidias PAUAN_CHR_haken PAUAN_CHR_biran PAUAN_CHR_vidown PAUAN_CHR_ares PAUAN_CHR_ithan PAUAN_CHR_cul_utaan PAUAN_CHR_thoja PAUAN_CHR_cron PAUAN_CHR_mossi PAUAN_CHR_abric PAUAN_CHR_darg PAUAN_CHR_gaman PAUAN_CHR_naiad PAUAN_CHR_herub PAUAN_CHR_marius PAUAN_CHR_torkin PAUAN_CHR_caton PAUAN_CHR_kane PAUAN_CHR_versita PAUAN_CHR_cric PAUAN_CHR_foxdi PAUAN_CHR_montacca PAUAN_CHR_jospi PAUAN_CHR_baz PAUAN_CHR_kam PAUAN_CHR_erek PAUAN_CHR_arslan PAUAN_CHR_lerak PAUAN_CHR_morla PAUAN_CHR_baxter PAUAN_CHR_talan PAUAN_CHR_thion PAUAN_CHR_kannon PAUAN_CHR_corsair PAUAN_CHR_caster PAUAN_CHR_elden PAUAN_CHR_faelgrom PAUAN_CHR_jack PAUAN_CHR_raltharan PAUAN_CHR_flash PAUAN_CHR_waseem PAUAN_CHR_bendak PAUAN_CHR_kaz PAUAN_CHR_montileu PAUAN_CHR_gonoga PAUAN_CHR_silus PAUAN_CHR_galven PAUAN_CHR_vincenzo PAUAN_CHR_ric PAUAN_CHR_rebar PAUAN_CHR_jebediah PAUAN_CHR_aramil PAUAN_CHR_abraxis PAUAN_CHR_delmi PAUAN_CHR_caalin PAUAN_CHR_rassth PAUAN_CHR_adorn PAUAN_CHR_cyrus PAUAN_CHR_zhar_khan PAUAN_CHR_adam PAUAN_CHR_predor PAUAN_CHR_tarlson PAUAN_CHR_boaz PAUAN_CHR_bradley PAUAN_CHR_gunn PAUAN_CHR_raltharan PAUAN_CHR_zerrid PAUAN_CHR_bobecc PAUAN_CHR_jelantos PAUAN_CHR_jephego PAUAN_CHR_svante PAUAN_CHR_tesvalo PAUAN_CHR_aeon PAUAN_CHR_dekar PAUAN_CHR_jean_francois PAUAN_CHR_elen PAUAN_CHR_han PAUAN_CHR_owen PAUAN_CHR_biggs PAUAN_CHR_rune PAUAN_CHR_lott PAUAN_CHR_daultay PAUAN_CHR_lok PAUAN_CHR_mar PAUAN_CHR_gilramos PAUAN_CHR_siv PAUAN_CHR_zill PAUAN_CHR_hath PAUAN_CHR_aruteous PAUAN_CHR_jull PAUAN_CHR_sil PAUAN_CHR_hallion PAUAN_CHR_gap PAUAN_CHR_palfa PAUAN_CHR_sib PAUAN_CHR_aito PAUAN_CHR_sentepeth PAUAN_CHR_kund PAUAN_CHR_harro PAUAN_CHR_hask PAUAN_CHR_paw PAUAN_CHR_brehg PAUAN_CHR_reya PAUAN_CHR_gode PAUAN_CHR_nap PAUAN_CHR_lufa PAUAN_CHR_yee PAUAN_CHR_geph PAUAN_CHR_lik PAUAN_CHR_gunaray PAUAN_CHR_igren PAUAN_CHR_dif PAUAN_CHR_klewer PAUAN_CHR_kuto PAUAN_CHR_smeer PAUAN_CHR_helb PAUAN_CHR_toat PAUAN_CHR_teek PAUAN_CHR_jeek PAUAN_CHR_orrin PAUAN_CHR_veor PAUAN_CHR_dak_on PAUAN_CHR_nozabuiba PAUAN_CHR_gama PAUAN_CHR_budmle PAUAN_CHR_proh_ven PAUAN_CHR_salitt PAUAN_CHR_vigro PAUAN_CHR_rers PAUAN_CHR_desson PAUAN_CHR_cathan PAUAN_CHR_dru PAUAN_CHR_tunjas PAUAN_CHR_borlo PAUAN_CHR_krett PAUAN_CHR_ablund PAUAN_CHR_aach PAUAN_CHR_aagon PAUAN_CHR_aalto PAUAN_CHR_aambler PAUAN_CHR_abadaner PAUAN_CHR_aban PAUAN_CHR_abbus_kelo PAUAN_CHR_acan PAUAN_CHR_ace PAUAN_CHR_adame PAUAN_CHR_adar PAUAN_CHR_arvel PAUAN_CHR_addi_shon PAUAN_CHR_addle PAUAN_CHR_adelhard PAUAN_CHR_aden PAUAN_CHR_adon_larr PAUAN_CHR_adraas PAUAN_CHR_adrenas PAUAN_CHR_adrick PAUAN_CHR_adun PAUAN_CHR_aeron PAUAN_CHR_agareth PAUAN_CHR_aggadeen PAUAN_CHR_alric PAUAN_CHR_airten PAUAN_CHR_agrippa PAUAN_CHR_ajaan PAUAN_CHR_ajolin PAUAN_CHR_akaste_vel PAUAN_CHR_akobi PAUAN_CHR_alain PAUAN_CHR_alaric PAUAN_CHR_albathius PAUAN_CHR_alde PAUAN_CHR_alec PAUAN_CHR_alekam PAUAN_CHR_alethios PAUAN_CHR_alger PAUAN_CHR_algrunar PAUAN_CHR_ali_alann PAUAN_CHR_alif PAUAN_CHR_alim_gen PAUAN_CHR_alin PAUAN_CHR_alix PAUAN_CHR_alkhara PAUAN_CHR_allia PAUAN_CHR_almak PAUAN_CHR_almec PAUAN_CHR_alon PAUAN_CHR_alozen PAUAN_CHR_alph PAUAN_CHR_altaca PAUAN_CHR_althon PAUAN_CHR_alwynn PAUAN_CHR_amberson PAUAN_CHR_ament PAUAN_CHR_amis PAUAN_CHR_ammon PAUAN_CHR_amzartho PAUAN_CHR_anabar PAUAN_CHR_anager PAUAN_CHR_anarine PAUAN_CHR_anathemos PAUAN_CHR_andan PAUAN_CHR_anders PAUAN_CHR_ando PAUAN_CHR_andra PAUAN_CHR_andrew PAUAN_CHR_andrid PAUAN_CHR_andrik PAUAN_CHR_andru PAUAN_CHR_ar_al PAUAN_CHR_angber PAUAN_CHR_angral PAUAN_CHR_anlen PAUAN_CHR_anod PAUAN_CHR_anselm PAUAN_CHR_anskow PAUAN_CHR_anson PAUAN_CHR_adem PAUAN_CHR_antone PAUAN_CHR_antonin PAUAN_CHR_anuli PAUAN_CHR_appleton PAUAN_CHR_arac PAUAN_CHR_arakkus PAUAN_CHR_aramis PAUAN_CHR_arana PAUAN_CHR_armen PAUAN_CHR_arastide PAUAN_CHR_arber PAUAN_CHR_arcann PAUAN_CHR_ardan PAUAN_CHR_ardax PAUAN_CHR_ardiff PAUAN_CHR_ardle PAUAN_CHR_ardmore PAUAN_CHR_ardot PAUAN_CHR_ardran PAUAN_CHR_avinoam PAUAN_CHR_ars PAUAN_CHR_argona PAUAN_CHR_argor PAUAN_CHR_argos PAUAN_CHR_arias PAUAN_CHR_ariavos PAUAN_CHR_arigo PAUAN_CHR_aris PAUAN_CHR_arkan PAUAN_CHR_arkeld PAUAN_CHR_arl PAUAN_CHR_arljack PAUAN_CHR_arlo PAUAN_CHR_arlos PAUAN_CHR_armatan PAUAN_CHR_armitage PAUAN_CHR_arnama PAUAN_CHR_arnet PAUAN_CHR_arno PAUAN_CHR_arnothian PAUAN_CHR_arnth PAUAN_CHR_arnus PAUAN_CHR_arrad PAUAN_CHR_arratan PAUAN_CHR_arrax PAUAN_CHR_arric PAUAN_CHR_artano PAUAN_CHR_artok PAUAN_CHR_arturo PAUAN_CHR_arzanon PAUAN_CHR_ash PAUAN_CHR_ashaad PAUAN_CHR_asirr PAUAN_CHR_atali PAUAN_CHR_atar PAUAN_CHR_atmino PAUAN_CHR_atren PAUAN_CHR_augatta PAUAN_CHR_avan PAUAN_CHR_avanj PAUAN_CHR_avarik PAUAN_CHR_averdon PAUAN_CHR_averen PAUAN_CHR_averon PAUAN_CHR_avers PAUAN_CHR_aves PAUAN_CHR_aviso PAUAN_CHR_avrun PAUAN_CHR_azkul PAUAN_CHR_azrakel PAUAN_CHR_ace PAUAN_CHR_b_arin PAUAN_CHR_bail PAUAN_CHR_beel PAUAN_CHR_bix PAUAN_CHR_blix PAUAN_CHR_boz PAUAN_CHR_braedon PAUAN_CHR_bryn PAUAN_CHR_brixus PAUAN_CHR_cal PAUAN_CHR_cassian PAUAN_CHR_chik PAUAN_CHR_cinto PAUAN_CHR_cumberlayne PAUAN_CHR_darrus PAUAN_CHR_djinn PAUAN_CHR_druth PAUAN_CHR_det PAUAN_CHR_ethan PAUAN_CHR_galiir PAUAN_CHR_gez PAUAN_CHR_haemon PAUAN_CHR_jae PAUAN_CHR_jagged PAUAN_CHR_jess PAUAN_CHR_jesper PAUAN_CHR_jon PAUAN_CHR_gathal PAUAN_CHR_gideon PAUAN_CHR_jefand PAUAN_CHR_kel PAUAN_CHR_koffi PAUAN_CHR_lazlo PAUAN_CHR_laetin PAUAN_CHR_lesk PAUAN_CHR_maxiron PAUAN_CHR_neet PAUAN_CHR_osak PAUAN_CHR_pabel PAUAN_CHR_paddy PAUAN_CHR_peita PAUAN_CHR_peema PAUAN_CHR_pellas PAUAN_CHR_prewb PAUAN_CHR_raymus PAUAN_CHR_raar PAUAN_CHR_rage PAUAN_CHR_rel PAUAN_CHR_reez PAUAN_CHR_ras PAUAN_CHR_rixes PAUAN_CHR_ruceba PAUAN_CHR_seraph PAUAN_CHR_sim PAUAN_CHR_sio PAUAN_CHR_y_ull PAUAN_CHR_tavion PAUAN_CHR_tavid PAUAN_CHR_tendis PAUAN_CHR_tev PAUAN_CHR_tiberus PAUAN_CHR_toob PAUAN_CHR_tor PAUAN_CHR_turon PAUAN_CHR_villis PAUAN_CHR_wain PAUAN_CHR_wedge PAUAN_CHR_wes PAUAN_CHR_zeen PAUAN_CHR_baboo PAUAN_CHR_bachenkall PAUAN_CHR_bafor PAUAN_CHR_bagitt PAUAN_CHR_bailey PAUAN_CHR_bailie PAUAN_CHR_bairn PAUAN_CHR_bala_tik PAUAN_CHR_balankin PAUAN_CHR_balaro PAUAN_CHR_balcomb PAUAN_CHR_baldwin PAUAN_CHR_baldy PAUAN_CHR_balek PAUAN_CHR_balisk PAUAN_CHR_balkin PAUAN_CHR_balko PAUAN_CHR_ballala PAUAN_CHR_ballard PAUAN_CHR_ballax PAUAN_CHR_bendodi PAUAN_CHR_balog PAUAN_CHR_balto PAUAN_CHR_bams PAUAN_CHR_bandor PAUAN_CHR_boss PAUAN_CHR_banley PAUAN_CHR_banna PAUAN_CHR_bannos PAUAN_CHR_bant PAUAN_CHR_banz PAUAN_CHR_baradis PAUAN_CHR_barak PAUAN_CHR_baramak PAUAN_CHR_barcel PAUAN_CHR_bardo PAUAN_CHR_barduun PAUAN_CHR_barev PAUAN_CHR_barich PAUAN_CHR_barik PAUAN_CHR_barkale PAUAN_CHR_barksy PAUAN_CHR_barleos PAUAN_CHR_barlow PAUAN_CHR_barney PAUAN_CHR_barnley PAUAN_CHR_baro PAUAN_CHR_barry PAUAN_CHR_barstead PAUAN_CHR_bartam PAUAN_CHR_barth PAUAN_CHR_barthis PAUAN_CHR_bas PAUAN_CHR_bas_ton PAUAN_CHR_bascome PAUAN_CHR_basile PAUAN_CHR_basso PAUAN_CHR_bastian PAUAN_CHR_bathens PAUAN_CHR_batono PAUAN_CHR_bator PAUAN_CHR_billal PAUAN_CHR_battz PAUAN_CHR_baxton PAUAN_CHR_baysden PAUAN_CHR_baz PAUAN_CHR_be PAUAN_CHR_beau PAUAN_CHR_beckar PAUAN_CHR_becker PAUAN_CHR_beckman PAUAN_CHR_bedareux PAUAN_CHR_bedoch PAUAN_CHR_beebe PAUAN_CHR_beez PAUAN_CHR_beldiss PAUAN_CHR_belkan PAUAN_CHR_beller PAUAN_CHR_bellis PAUAN_CHR_belos PAUAN_CHR_byzal PAUAN_CHR_bzorn PAUAN_CHR_biggs PAUAN_CHR_bels PAUAN_CHR_bemos PAUAN_CHR_benay PAUAN_CHR_benjo PAUAN_CHR_benkin PAUAN_CHR_benn PAUAN_CHR_benni PAUAN_CHR_benok PAUAN_CHR_benthar PAUAN_CHR_benton PAUAN_CHR_bentro PAUAN_CHR_boar PAUAN_CHR_benx PAUAN_CHR_bequesh PAUAN_CHR_berandis PAUAN_CHR_berethon PAUAN_CHR_bergan PAUAN_CHR_berix PAUAN_CHR_bernie PAUAN_CHR_bertrum PAUAN_CHR_berusal PAUAN_CHR_bewil PAUAN_CHR_bex PAUAN_CHR_billan PAUAN_CHR_biril PAUAN_CHR_birket PAUAN_CHR_birok PAUAN_CHR_black PAUAN_CHR_blagotine PAUAN_CHR_blaide PAUAN_CHR_blainekie PAUAN_CHR_bledsoe PAUAN_CHR_bleeker PAUAN_CHR_blleen PAUAN_CHR_bloodory PAUAN_CHR_bloodworthy PAUAN_CHR_blount PAUAN_CHR_blyes PAUAN_CHR_boakie PAUAN_CHR_boaz PAUAN_CHR_bob PAUAN_CHR_bol PAUAN_CHR_bon PAUAN_CHR_bonze PAUAN_CHR_boonan PAUAN_CHR_boran PAUAN_CHR_boraso PAUAN_CHR_borgin PAUAN_CHR_borm PAUAN_CHR_bornae PAUAN_CHR_bort PAUAN_CHR_bortrek PAUAN_CHR_boshek PAUAN_CHR_bourom PAUAN_CHR_bouyard PAUAN_CHR_braden PAUAN_CHR_brady PAUAN_CHR_bragan PAUAN_CHR_braynor PAUAN_CHR_brayso PAUAN_CHR_breckon PAUAN_CHR_breehld PAUAN_CHR_brinn PAUAN_CHR_brinnie PAUAN_CHR_brint PAUAN_CHR_brinton PAUAN_CHR_brogon PAUAN_CHR_brohmer PAUAN_CHR_brolis PAUAN_CHR_broll PAUAN_CHR_brom PAUAN_CHR_brooser PAUAN_CHR_brothic PAUAN_CHR_brovto PAUAN_CHR_broysc PAUAN_CHR_bruan PAUAN_CHR_brucce PAUAN_CHR_bruckman PAUAN_CHR_bryint PAUAN_CHR_brylin PAUAN_CHR_bry PAUAN_CHR_brysonbular PAUAN_CHR_bulger PAUAN_CHR_bun_delbur PAUAN_CHR_burne PAUAN_CHR_burque PAUAN_CHR_burr PAUAN_CHR_bursk PAUAN_CHR_bursthed PAUAN_CHR_byrga PAUAN_CHR_byten PAUAN_CHR_trey PAUAN_CHR_lando PAUAN_CHR_caaldra PAUAN_CHR_cabaril PAUAN_CHR_cabbel PAUAN_CHR_caeleb PAUAN_CHR_caerbellak PAUAN_CHR_cafian PAUAN_CHR_cag PAUAN_CHR_cagaran PAUAN_CHR_cam PAUAN_CHR_camaran PAUAN_CHR_camas PAUAN_CHR_cardacs PAUAN_CHR_cardy PAUAN_CHR_careem PAUAN_CHR_cargeloch PAUAN_CHR_carhart PAUAN_CHR_calron PAUAN_CHR_calson PAUAN_CHR_calum PAUAN_CHR_calypho PAUAN_CHR_cal PAUAN_CHR_caladane PAUAN_CHR_calaverous PAUAN_CHR_carli PAUAN_CHR_carlon PAUAN_CHR_carlton PAUAN_CHR_carn PAUAN_CHR_carner PAUAN_CHR_carness PAUAN_CHR_carnor PAUAN_CHR_carns PAUAN_CHR_callef PAUAN_CHR_callen PAUAN_CHR_callow PAUAN_CHR_calders PAUAN_CHR_caleb PAUAN_CHR_calo PAUAN_CHR_calphayus PAUAN_CHR_cathers PAUAN_CHR_caton PAUAN_CHR_cauley PAUAN_CHR_cav PAUAN_CHR_cav_saran PAUAN_CHR_cavin PAUAN_CHR_cryle PAUAN_CHR_cavwol PAUAN_CHR_cawelyn PAUAN_CHR_cecius PAUAN_CHR_cede PAUAN_CHR_cemma PAUAN_CHR_ceoloe PAUAN_CHR_cerasi PAUAN_CHR_cerik PAUAN_CHR_charny PAUAN_CHR_charol PAUAN_CHR_charpp PAUAN_CHR_charnoq PAUAN_CHR_charnso PAUAN_CHR_cestus PAUAN_CHR_ch_arb PAUAN_CHR_ch_gally PAUAN_CHR_ch_lessan PAUAN_CHR_cha PAUAN_CHR_chael PAUAN_CHR_challer PAUAN_CHR_chambe PAUAN_CHR_crlyn PAUAN_CHR_chang PAUAN_CHR_chappral PAUAN_CHR_chef PAUAN_CHR_chentu PAUAN_CHR_chell PAUAN_CHR_chessiq PAUAN_CHR_chet PAUAN_CHR_chiann PAUAN_CHR_chicora PAUAN_CHR_chatty PAUAN_CHR_chayloss PAUAN_CHR_chedaki PAUAN_CHR_chiraneau PAUAN_CHR_chiron PAUAN_CHR_chorlen PAUAN_CHR_chornarov PAUAN_CHR_cody PAUAN_CHR_clorr PAUAN_CHR_clovis PAUAN_CHR_clydno PAUAN_CHR_clynn PAUAN_CHR_cnorec PAUAN_CHR_coburn PAUAN_CHR_cobus PAUAN_CHR_cogon PAUAN_CHR_colin PAUAN_CHR_collus PAUAN_CHR_colsan PAUAN_CHR_colten PAUAN_CHR_colton PAUAN_CHR_combo PAUAN_CHR_conar PAUAN_CHR_coorta PAUAN_CHR_corin PAUAN_CHR_coris PAUAN_CHR_corlac PAUAN_CHR_corso PAUAN_CHR_corvan PAUAN_CHR_corvin PAUAN_CHR_corvis PAUAN_CHR_corwin PAUAN_CHR_corwyth PAUAN_CHR_cote PAUAN_CHR_cothron PAUAN_CHR_cotin PAUAN_CHR_coy PAUAN_CHR_cravel PAUAN_CHR_cravus PAUAN_CHR_creb PAUAN_CHR_creeve PAUAN_CHR_corlis PAUAN_CHR_crest PAUAN_CHR_crimpler PAUAN_CHR_crimson PAUAN_CHR_crin PAUAN_CHR_crion PAUAN_CHR_criss PAUAN_CHR_cristoff PAUAN_CHR_crix PAUAN_CHR_cronal PAUAN_CHR_cronnin PAUAN_CHR_cronus PAUAN_CHR_d_ashewl PAUAN_CHR_d_krn PAUAN_CHR_d_lew PAUAN_CHR_d_vox PAUAN_CHR_d_vrosh PAUAN_CHR_daal PAUAN_CHR_dado PAUAN_CHR_daek PAUAN_CHR_dael PAUAN_CHR_dahar PAUAN_CHR_dahm PAUAN_CHR_daiman PAUAN_CHR_dainsom PAUAN_CHR_daiv PAUAN_CHR_dak PAUAN_CHR_dakron PAUAN_CHR_daksh PAUAN_CHR_dalton PAUAN_CHR_damarcus PAUAN_CHR_damaris PAUAN_CHR_damarus PAUAN_CHR_dao PAUAN_CHR_dapp PAUAN_CHR_daquinn PAUAN_CHR_dar PAUAN_CHR_eesh PAUAN_CHR_darda PAUAN_CHR_dardan PAUAN_CHR_dareb_ PAUAN_CHR_dareg PAUAN_CHR_darek PAUAN_CHR_daren PAUAN_CHR_dargus PAUAN_CHR_daggath PAUAN_CHR_darnov PAUAN_CHR_daro PAUAN_CHR_darok PAUAN_CHR_darone PAUAN_CHR_darr PAUAN_CHR_darrik PAUAN_CHR_darrok PAUAN_CHR_darrst PAUAN_CHR_darsin PAUAN_CHR_darthyn PAUAN_CHR_daruula PAUAN_CHR_dash PAUAN_CHR_datoo PAUAN_CHR_dauren PAUAN_CHR_davis PAUAN_CHR_davon PAUAN_CHR_davonn PAUAN_CHR_davos PAUAN_CHR_davrill PAUAN_CHR_davrin PAUAN_CHR_davu PAUAN_CHR_dayja PAUAN_CHR_daz PAUAN_CHR_ramsis PAUAN_CHR_bren PAUAN_CHR_tan PAUAN_CHR_jan PAUAN_CHR_porro PAUAN_CHR_cin PAUAN_CHR_garven PAUAN_CHR_cornelius PAUAN_CHR_galen PAUAN_CHR_dannl PAUAN_CHR_ecclessis PAUAN_CHR_debbikin PAUAN_CHR_debeli PAUAN_CHR_deegan PAUAN_CHR_deerian PAUAN_CHR_deevis PAUAN_CHR_defain PAUAN_CHR_deflaros PAUAN_CHR_degoren PAUAN_CHR_dehno PAUAN_CHR_dekay PAUAN_CHR_delevar PAUAN_CHR_delfaros PAUAN_CHR_dellin PAUAN_CHR_dellocon PAUAN_CHR_delpho PAUAN_CHR_delquis PAUAN_CHR_delsa PAUAN_CHR_delund PAUAN_CHR_delurin PAUAN_CHR_demtri PAUAN_CHR_den PAUAN_CHR_denbar PAUAN_CHR_dender PAUAN_CHR_dendro PAUAN_CHR_dendu PAUAN_CHR_denetrus PAUAN_CHR_denev PAUAN_CHR_dengar PAUAN_CHR_dengril PAUAN_CHR_denid PAUAN_CHR_denimoor PAUAN_CHR_denin PAUAN_CHR_denna PAUAN_CHR_denner PAUAN_CHR_dennik PAUAN_CHR_deppo PAUAN_CHR_derdram PAUAN_CHR_derec PAUAN_CHR_derish PAUAN_CHR_derliff PAUAN_CHR_dermeg PAUAN_CHR_dermian PAUAN_CHR_dern PAUAN_CHR_dernas PAUAN_CHR_derral PAUAN_CHR_derrin PAUAN_CHR_dervis PAUAN_CHR_desanne PAUAN_CHR_devoris PAUAN_CHR_devotek PAUAN_CHR_devron PAUAN_CHR_devry PAUAN_CHR_devsh PAUAN_CHR_dewolf PAUAN_CHR_dex PAUAN_CHR_dezsetes PAUAN_CHR_dhaiv PAUAN_CHR_dhal PAUAN_CHR_dindau PAUAN_CHR_dindo PAUAN_CHR_ding PAUAN_CHR_dinge PAUAN_CHR_dobbatek PAUAN_CHR_dobberty PAUAN_CHR_dobbs PAUAN_CHR_dolan PAUAN_CHR_dolgis PAUAN_CHR_dolmen PAUAN_CHR_dolo PAUAN_CHR_dominaire PAUAN_CHR_domm PAUAN_CHR_donovan PAUAN_CHR_donovarr PAUAN_CHR_donsull PAUAN_CHR_dorel_kan PAUAN_CHR_dorgat PAUAN_CHR_dorian PAUAN_CHR_dorja PAUAN_CHR_dorn PAUAN_CHR_dorotsech PAUAN_CHR_dorrick PAUAN_CHR_dortho PAUAN_CHR_downey PAUAN_CHR_draado PAUAN_CHR_draahg PAUAN_CHR_dracen PAUAN_CHR_drage PAUAN_CHR_dragen PAUAN_CHR_drake PAUAN_CHR_drayk PAUAN_CHR_drazin PAUAN_CHR_drek PAUAN_CHR_duno PAUAN_CHR_dree PAUAN_CHR_dreed PAUAN_CHR_drefin PAUAN_CHR_dregg PAUAN_CHR_drelosyn PAUAN_CHR_drexel PAUAN_CHR_dreyf PAUAN_CHR_drezzel PAUAN_CHR_drizan PAUAN_CHR_dro PAUAN_CHR_droman PAUAN_CHR_dromath PAUAN_CHR_drowl PAUAN_CHR_drufeys PAUAN_CHR_drummond PAUAN_CHR_dubeh PAUAN_CHR_dunari PAUAN_CHR_dunaub PAUAN_CHR_deadeye PAUAN_CHR_duncan PAUAN_CHR_durhant PAUAN_CHR_durmat PAUAN_CHR_durpin PAUAN_CHR_durrei PAUAN_CHR_dyshotto PAUAN_CHR_dzoun PAUAN_CHR_eagle PAUAN_CHR_eanjer PAUAN_CHR_earl PAUAN_CHR_earsh PAUAN_CHR_eben PAUAN_CHR_eddon PAUAN_CHR_edease PAUAN_CHR_edern PAUAN_CHR_edgar PAUAN_CHR_edikar PAUAN_CHR_egoreg PAUAN_CHR_egron PAUAN_CHR_eistern PAUAN_CHR_ejai PAUAN_CHR_eker PAUAN_CHR_ekh PAUAN_CHR_ekisp PAUAN_CHR_ekov PAUAN_CHR_elarles PAUAN_CHR_eriquel PAUAN_CHR_eris PAUAN_CHR_erl PAUAN_CHR_erloi PAUAN_CHR_esano PAUAN_CHR_escalion PAUAN_CHR_ezil PAUAN_CHR_ezrim PAUAN_CHR_ezra PAUAN_CHR_ein PAUAN_CHR_eislo PAUAN_CHR_jake PAUAN_CHR_jango PAUAN_CHR_eli PAUAN_CHR_eliasb PAUAN_CHR_eligyn PAUAN_CHR_elior PAUAN_CHR_elis PAUAN_CHR_elizhis PAUAN_CHR_elkin PAUAN_CHR_ellsworth PAUAN_CHR_elmel PAUAN_CHR_elmyo PAUAN_CHR_elrodelsar PAUAN_CHR_elsek PAUAN_CHR_emil PAUAN_CHR_emir PAUAN_CHR_emmens PAUAN_CHR_endicott PAUAN_CHR_enfield PAUAN_CHR_enger PAUAN_CHR_engret PAUAN_CHR_emmett PAUAN_CHR_emory PAUAN_CHR_eoaq PAUAN_CHR_eph PAUAN_CHR_erdan PAUAN_CHR_erelut PAUAN_CHR_ergast PAUAN_CHR_ergel PAUAN_CHR_ergeron PAUAN_CHR_eric PAUAN_CHR_erik PAUAN_CHR_estopatrin PAUAN_CHR_esture PAUAN_CHR_estus PAUAN_CHR_eth PAUAN_CHR_ethen PAUAN_CHR_etnam PAUAN_CHR_etta PAUAN_CHR_evad PAUAN_CHR_evan PAUAN_CHR_evax PAUAN_CHR_evlen PAUAN_CHR_evran PAUAN_CHR_evun PAUAN_CHR_evvin PAUAN_CHR_ewane PAUAN_CHR_exar PAUAN_CHR_eyvind PAUAN_CHR_falltower PAUAN_CHR_falrey PAUAN_CHR_falsta PAUAN_CHR_falch PAUAN_CHR_falco PAUAN_CHR_faarl PAUAN_CHR_fable PAUAN_CHR_faedral PAUAN_CHR_far PAUAN_CHR_faradin PAUAN_CHR_faraire PAUAN_CHR_fardi PAUAN_CHR_farn PAUAN_CHR_farng PAUAN_CHR_farnis PAUAN_CHR_farsal PAUAN_CHR_farseam PAUAN_CHR_fatulaine PAUAN_CHR_fauler PAUAN_CHR_feldon PAUAN_CHR_feldron PAUAN_CHR_feleea PAUAN_CHR_fenn PAUAN_CHR_fenris PAUAN_CHR_fenson PAUAN_CHR_feras PAUAN_CHR_ferav PAUAN_CHR_ferdoin PAUAN_CHR_fermin PAUAN_CHR_ferob PAUAN_CHR_ferren PAUAN_CHR_ferrid PAUAN_CHR_ferrig PAUAN_CHR_ferrin PAUAN_CHR_ferron PAUAN_CHR_ferrus PAUAN_CHR_falesh PAUAN_CHR_falk PAUAN_CHR_fardi PAUAN_CHR_fassio PAUAN_CHR_fatulaine PAUAN_CHR_dannl PAUAN_CHR_februs PAUAN_CHR_janus PAUAN_CHR_fixer PAUAN_CHR_florn PAUAN_CHR_grizz PAUAN_CHR_frobb PAUAN_CHR_fruun
+			}
+			first_names_female = {
+				PAUAN_CHR_charratha PAUAN_CHR_edaara PAUAN_CHR_bella PAUAN_CHR_callista PAUAN_CHR_mara PAUAN_CHR_seena PAUAN_CHR_areta PAUAN_CHR_cord PAUAN_CHR_cyrinity PAUAN_CHR_nile PAUAN_CHR_kiyfi PAUAN_CHR_yasmyn PAUAN_CHR_satra PAUAN_CHR_shehish PAUAN_CHR_sarna PAUAN_CHR_krava PAUAN_CHR_roxis PAUAN_CHR_jessa PAUAN_CHR_aqua PAUAN_CHR_maryna PAUAN_CHR_essaj PAUAN_CHR_looriw PAUAN_CHR_teeana PAUAN_CHR_raena PAUAN_CHR_yula PAUAN_CHR_vifi PAUAN_CHR_vania PAUAN_CHR_jeanida PAUAN_CHR_aerena PAUAN_CHR_nataya PAUAN_CHR_bernarda PAUAN_CHR_geela PAUAN_CHR_lya PAUAN_CHR_sirra PAUAN_CHR_teris PAUAN_CHR_terral PAUAN_CHR_nile PAUAN_CHR_riema PAUAN_CHR_erri PAUAN_CHR_shanna PAUAN_CHR_lyra PAUAN_CHR_pranda PAUAN_CHR_luna PAUAN_CHR_cally PAUAN_CHR_viqi PAUAN_CHR_hadriel PAUAN_CHR_lora PAUAN_CHR_selena PAUAN_CHR_zana PAUAN_CHR_tuija PAUAN_CHR_railin PAUAN_CHR_odona PAUAN_CHR_shyon PAUAN_CHR_walas PAUAN_CHR_rylla PAUAN_CHR_gara PAUAN_CHR_delos PAUAN_CHR_loretta PAUAN_CHR_luhon PAUAN_CHR_delinia PAUAN_CHR_aama PAUAN_CHR_shorya PAUAN_CHR_melfina PAUAN_CHR_davessi PAUAN_CHR_larana PAUAN_CHR_galatea PAUAN_CHR_nola PAUAN_CHR_syna PAUAN_CHR_jauhzmynn PAUAN_CHR_anen PAUAN_CHR_orona PAUAN_CHR_yana PAUAN_CHR_zoras PAUAN_CHR_ree PAUAN_CHR_grace PAUAN_CHR_tantema PAUAN_CHR_myn PAUAN_CHR_una PAUAN_CHR_dalharil PAUAN_CHR_losa PAUAN_CHR_sovi PAUAN_CHR_elaiza PAUAN_CHR_vucora PAUAN_CHR_ava PAUAN_CHR_joi PAUAN_CHR_stryka PAUAN_CHR_tantema PAUAN_CHR_shandra PAUAN_CHR_kely PAUAN_CHR_caileta PAUAN_CHR_taia PAUAN_CHR_siala PAUAN_CHR_reki PAUAN_CHR_maydla PAUAN_CHR_bot PAUAN_CHR_kiandra PAUAN_CHR_xilaren PAUAN_CHR_zulara PAUAN_CHR_ren PAUAN_CHR_karissa PAUAN_CHR_roxis PAUAN_CHR_haruko PAUAN_CHR_jenna PAUAN_CHR_liana PAUAN_CHR_rale PAUAN_CHR_megara PAUAN_CHR_aria PAUAN_CHR_akiva PAUAN_CHR_nalah PAUAN_CHR_erlem PAUAN_CHR_nali PAUAN_CHR_fallah PAUAN_CHR_kotrana PAUAN_CHR_aayla PAUAN_CHR_kalira PAUAN_CHR_arani PAUAN_CHR_fama PAUAN_CHR_lyyr PAUAN_CHR_arcas PAUAN_CHR_rane PAUAN_CHR_nayru PAUAN_CHR_zylas PAUAN_CHR_vexa PAUAN_CHR_kana PAUAN_CHR_beru
+			}
+			second_names = {
+				PAUAN_CHR_elysar PAUAN_CHR_tisa PAUAN_CHR_wahia PAUAN_CHR_wezz PAUAN_CHR_unic PAUAN_CHR_tiovata PAUAN_CHR_nakcohh PAUAN_CHR_vitaan PAUAN_CHR_mefrid PAUAN_CHR_daklan PAUAN_CHR_kenzee PAUAN_CHR_joben PAUAN_CHR_thegas PAUAN_CHR_moryne PAUAN_CHR_holgor PAUAN_CHR_ijaaz PAUAN_CHR_tromans PAUAN_CHR_sprax PAUAN_CHR_knesos PAUAN_CHR_magnus PAUAN_CHR_lasek PAUAN_CHR_artis PAUAN_CHR_pax PAUAN_CHR_corso PAUAN_CHR_fallon PAUAN_CHR_gundo PAUAN_CHR_ruana PAUAN_CHR_fremlin PAUAN_CHR_thont PAUAN_CHR_creel PAUAN_CHR_rar PAUAN_CHR_dusat PAUAN_CHR_kessler PAUAN_CHR_shaia PAUAN_CHR_el_theriam PAUAN_CHR_vanmeer PAUAN_CHR_vrieska PAUAN_CHR_calway PAUAN_CHR_yamaguchi PAUAN_CHR_riggers PAUAN_CHR_brower PAUAN_CHR_fash PAUAN_CHR_nalto PAUAN_CHR_stryder PAUAN_CHR_dubreas PAUAN_CHR_colsan PAUAN_CHR_terrek PAUAN_CHR_solon PAUAN_CHR_merquise PAUAN_CHR_varn PAUAN_CHR_basai PAUAN_CHR_froud PAUAN_CHR_addacess PAUAN_CHR_elysar PAUAN_CHR_durgen PAUAN_CHR_slahlvo PAUAN_CHR_remex PAUAN_CHR_madowki PAUAN_CHR_hayes PAUAN_CHR_ne PAUAN_CHR_dago PAUAN_CHR_greenback PAUAN_CHR_stithta PAUAN_CHR_ker PAUAN_CHR_driet PAUAN_CHR_klakk PAUAN_CHR_reed PAUAN_CHR_lefex PAUAN_CHR_minn PAUAN_CHR_irokini PAUAN_CHR_roye PAUAN_CHR_danakar PAUAN_CHR_forin PAUAN_CHR_glopio PAUAN_CHR_shenuri PAUAN_CHR_corcer PAUAN_CHR_ordo PAUAN_CHR_wan PAUAN_CHR_tagratt PAUAN_CHR_golladio PAUAN_CHR_adramcsia PAUAN_CHR_jetberg PAUAN_CHR_noth PAUAN_CHR_taske PAUAN_CHR_komo PAUAN_CHR_styles PAUAN_CHR_angavel PAUAN_CHR_tyrnith PAUAN_CHR_yavoog PAUAN_CHR_kelbier PAUAN_CHR_racto PAUAN_CHR_degor PAUAN_CHR_tisa PAUAN_CHR_magre PAUAN_CHR_soylon PAUAN_CHR_lerann PAUAN_CHR_chro PAUAN_CHR_finn PAUAN_CHR_blackmoor PAUAN_CHR_hwang PAUAN_CHR_vekarr PAUAN_CHR_thegas PAUAN_CHR_amon PAUAN_CHR_thiddex PAUAN_CHR_durgen PAUAN_CHR_selkayim PAUAN_CHR_gilder PAUAN_CHR_dhuramav PAUAN_CHR_kodd PAUAN_CHR_morin PAUAN_CHR_kobylarz PAUAN_CHR_tade PAUAN_CHR_solman PAUAN_CHR_bintaghr PAUAN_CHR_marclonus PAUAN_CHR_precore PAUAN_CHR_solborne PAUAN_CHR_bailer PAUAN_CHR_katarn PAUAN_CHR_anjek PAUAN_CHR_dalgas PAUAN_CHR_kast PAUAN_CHR_airerith PAUAN_CHR_halo PAUAN_CHR_tade PAUAN_CHR_clash PAUAN_CHR_jalba PAUAN_CHR_benn PAUAN_CHR_haruhana PAUAN_CHR_roice PAUAN_CHR_lokar PAUAN_CHR_korpil PAUAN_CHR_turon PAUAN_CHR_cavi PAUAN_CHR_deece PAUAN_CHR_braitano PAUAN_CHR_garnik PAUAN_CHR_tyandas PAUAN_CHR_ka_taramas PAUAN_CHR_nuwest PAUAN_CHR_forte PAUAN_CHR_noshey PAUAN_CHR_gyyll PAUAN_CHR_tallon PAUAN_CHR_lionne PAUAN_CHR_adras PAUAN_CHR_fremlin PAUAN_CHR_peoly PAUAN_CHR_damiel PAUAN_CHR_chup_pau PAUAN_CHR_drayven PAUAN_CHR_zaposug PAUAN_CHR_bela_trepada PAUAN_CHR_defelice PAUAN_CHR_monsula PAUAN_CHR_baralein PAUAN_CHR_denive PAUAN_CHR_hodrren PAUAN_CHR_xergo PAUAN_CHR_sarat PAUAN_CHR_vercet PAUAN_CHR_ossaki PAUAN_CHR_kappa PAUAN_CHR_zerga PAUAN_CHR_kopos PAUAN_CHR_aldrecht PAUAN_CHR_bohme PAUAN_CHR_tull PAUAN_CHR_eldrel PAUAN_CHR_marh PAUAN_CHR_darksword PAUAN_CHR_krandor PAUAN_CHR_montag PAUAN_CHR_dimodan PAUAN_CHR_starfallen PAUAN_CHR_artis PAUAN_CHR_fett PAUAN_CHR_mohebbi PAUAN_CHR_runalian PAUAN_CHR_binette PAUAN_CHR_laurent PAUAN_CHR_mavr PAUAN_CHR_ryra PAUAN_CHR_truden PAUAN_CHR_solo PAUAN_CHR_lars PAUAN_CHR_amedda PAUAN_CHR_amidala PAUAN_CHR_andrell PAUAN_CHR_annon PAUAN_CHR_antilles PAUAN_CHR_atanna PAUAN_CHR_baab PAUAN_CHR_barc PAUAN_CHR_bonteri PAUAN_CHR_breemu PAUAN_CHR_bremack PAUAN_CHR_bronk PAUAN_CHR_burtoni PAUAN_CHR_cadaman PAUAN_CHR_callen PAUAN_CHR_clovis PAUAN_CHR_ledwellow PAUAN_CHR_dio PAUAN_CHR_organa
+			}
+			regnal_first_names_male = {
+				PAUAN_CHR_kam PAUAN_CHR_erek PAUAN_CHR_arslan PAUAN_CHR_lerak PAUAN_CHR_morla PAUAN_CHR_mas PAUAN_CHR_wain PAUAN_CHR_bail PAUAN_CHR_gabrial PAUAN_CHR_dewell PAUAN_CHR_tanner PAUAN_CHR_vi PAUAN_CHR_rush PAUAN_CHR_danry
+			}
+			regnal_first_names_female = {
+				PAUAN_CHR_callista PAUAN_CHR_mara PAUAN_CHR_seena PAUAN_CHR_areta PAUAN_CHR_padm_ PAUAN_CHR_fema PAUAN_CHR_mina PAUAN_CHR_bana PAUAN_CHR_tyreca PAUAN_CHR_halle PAUAN_CHR_lexi PAUAN_CHR_leia PAUAN_CHR_alyssa PAUAN_CHR_leanna PAUAN_CHR_arya
+			}
+			regnal_second_names = {
+				PAUAN_CHR_amedda PAUAN_CHR_amidala PAUAN_CHR_andrell PAUAN_CHR_annon PAUAN_CHR_antilles PAUAN_CHR_atanna PAUAN_CHR_baab PAUAN_CHR_barc PAUAN_CHR_bonteri PAUAN_CHR_breemu PAUAN_CHR_bremack PAUAN_CHR_bronk PAUAN_CHR_burtoni PAUAN_CHR_cadaman PAUAN_CHR_callen PAUAN_CHR_clovis PAUAN_CHR_ledwellow PAUAN_CHR_dio PAUAN_CHR_panteer PAUAN_CHR_alde PAUAN_CHR_organa PAUAN_CHR_frayus PAUAN_CHR_cortess PAUAN_CHR_killesa
+			}
+		}
+	}
+}

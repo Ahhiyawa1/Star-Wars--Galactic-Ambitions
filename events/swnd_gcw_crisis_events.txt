@@ -1,0 +1,252 @@
+#####################################
+#
+# 	Galactic Civil War
+# 	Star Wars: New Dawn
+# 	by Elratie/ Bane
+#
+#####################################
+
+
+# Event for giving Menace/ Galactic Emperor to the Empire
+country_event = {
+	id = swnd_galactic_cw.2
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		set_galactic_emperor = yes
+		save_event_target_as = gal_emperor
+		give_technology = { tech = tech_galactic_emperor message = no }
+		every_country = { limit = { is_ai = no }
+			country_event = { id = swnd_galactic_cw.3 }
+		}
+	}
+}
+
+# Information for Players explaining Gal Emp and Crisis Perk
+country_event = {
+	id = swnd_galactic_cw.3
+	title = "swnd_galactic_cw.3.name"
+	desc = "swnd_galactic_cw.3.desc"
+	picture = GFX_evt_senate_building
+	is_triggered_only = yes
+	option = {
+		name = swnd_galactic_cw.3.a
+	}
+}
+
+# On choosing New Order Perk (Crisis Level 1, Special Project)
+country_event = {
+	id = swnd_galactic_cw.10
+	title = "swnd_galactic_cw.10.name"
+	desc = "swnd_galactic_cw.10.desc"
+	picture = GFX_evt_enlist_today
+	#show_sound = event_death_cult
+	is_triggered_only = yes
+	option = {
+		name = swnd_galactic_cw.10.a
+		begin_event_chain = {
+			event_chain = galactic_new_order_chain
+			target = root
+		}
+		add_event_chain_counter = {
+			event_chain = "galactic_new_order_chain"
+			counter = "crisis_level_reached"
+			amount = 1
+		}
+		enable_special_project = {
+			name = "NEW_ORDER_SPECIAL_PROJECT_1"
+			owner = ROOT
+		}
+		custom_tooltip = new_crisis_perks_tt
+	}
+}
+
+# New Order Special Project 1 Completed - Crisis Level 2 Unlocked
+country_event = {
+	id = swnd_galactic_cw.11
+	title = "swnd_galactic_cw.11.name"
+	desc = "swnd_galactic_cw.11.desc"
+	picture = GFX_evt_new_order
+	#show_sound = event_necrophage
+	is_triggered_only = yes
+	option = {
+		name = swnd_galactic_cw.11.a
+	}
+	after = {
+		custom_tooltip = can_advance_crisis_progression
+	}
+}
+
+# On reaching Crisis Level 2
+country_event = {
+	id = swnd_galactic_cw.12
+	title = "swnd_galactic_cw.12.name"
+	desc = "swnd_galactic_cw.12.desc"
+	picture = GFX_evt_ilum_mining
+	#show_sound = event_death_cult
+	is_triggered_only = yes
+	option = {
+		name = swnd_galactic_cw.12.a
+		root = {
+			enable_special_project = { name = "NEW_ORDER_SPECIAL_PROJECT_2" owner = ROOT }
+		}
+		custom_tooltip = new_crisis_perks_tt
+	}
+}
+
+#New Order Special Project 2 Completed - Crisis Level 3 Unlocked
+country_event = {
+	id = swnd_galactic_cw.13
+	title = "swnd_galactic_cw.13.name"
+	desc = "swnd_galactic_cw.13.desc"
+	picture = GFX_evt_ilum_mined
+	#show_sound = event_necrophage
+	is_triggered_only = yes
+	option = {
+		name = swnd_galactic_cw.13.a
+	}
+	after = {
+		custom_tooltip = can_advance_crisis_progression
+	}
+}
+
+# On reaching Crisis Level 3
+country_event = {
+	id = swnd_galactic_cw.14
+	title = "swnd_galactic_cw.14.name"
+	desc = "swnd_galactic_cw.14.desc"
+	picture = GFX_evt_dark_force_inq
+	#show_sound = event_death_cult
+	is_triggered_only = yes
+	option = {
+		name = swnd_galactic_cw.14.a
+		root = {
+			enable_special_project = { name = "NEW_ORDER_SPECIAL_PROJECT_3" owner = ROOT }
+		}
+		custom_tooltip = new_crisis_perks_tt
+	}
+}
+
+# Crisis Special Project 3 Completed - Crisis Level 4 Unlocked
+country_event = {
+	id = swnd_galactic_cw.15
+	title = "swnd_galactic_cw.15.name"
+	desc = "swnd_galactic_cw.15.desc"
+	picture = GFX_evt_isb_agents
+	#show_sound = event_necrophage
+	is_triggered_only = yes
+	option = {
+		name = swnd_galactic_cw.15.a
+	}
+	after = {
+		custom_tooltip = can_advance_crisis_progression
+	}
+}
+
+# On reaching Crisis Level 4
+country_event = {
+	id = swnd_galactic_cw.16
+	title = "swnd_galactic_cw.16.name"
+	desc = "swnd_galactic_cw.16.desc"
+	picture = GFX_evt_mon_mothma_ro
+	#show_sound = event_death_cult
+	is_triggered_only = yes
+	option = {
+		name = swnd_galactic_cw.16.a
+		root = {
+			enable_special_project = { name = "NEW_ORDER_SPECIAL_PROJECT_4" owner = ROOT }
+		}
+		custom_tooltip = new_crisis_perks_tt
+		# Rebel Alliance Spawn on Yavin IV
+		hidden_effect = {
+			country_event = { id = swnd_gcw_rebellion.30 days = 4 }
+		}
+	}
+}
+
+# Crisis Special Project 4 Completed - Crisis Level 5 Unlocked
+country_event = {
+	id = swnd_galactic_cw.17
+	title = "swnd_galactic_cw.17.name"
+	desc = "swnd_galactic_cw.17.desc"
+	picture = GFX_evt_ds_rogue_one_jedha
+	show_sound = event_necrophage
+	is_triggered_only = yes
+	option = {
+		name = swnd_galactic_cw.17.a
+	}
+	after = {
+		custom_tooltip = can_advance_crisis_progression_final
+	}
+}
+
+################
+#Tech events for unlocked crisis level
+###############
+#Level 2
+country_event = {
+	id = swnd_galactic_cw.20
+	title = "swnd_galactic_cw.20.name"
+	desc = "swnd_galactic_cw.20.desc"
+	picture = GFX_meg_deathstar_1
+	is_triggered_only = yes
+	immediate = {
+		if = { limit = { NOT = { has_technology = tech_mega_engineering } }
+			add_research_option = tech_mega_engineering
+		}
+	}
+	option = {
+		name = swnd_galactic_cw.20.a
+	}
+}
+
+#Level 3
+country_event = {
+	id = swnd_galactic_cw.21
+	title = "swnd_galactic_cw.21.name"
+	desc = "swnd_galactic_cw.21.desc"
+	picture = GFX_meg_deathstar_1
+	is_triggered_only = yes
+	immediate = {
+		if = { limit = { NOT = { has_technology = tech_deathstar_construction } }
+			add_research_option = tech_deathstar_construction
+		}
+	}
+	option = {
+		name = swnd_galactic_cw.21.a
+	}
+}
+
+#Level 4
+country_event = {
+	id = swnd_galactic_cw.22
+	title = "swnd_galactic_cw.22.name"
+	desc = "swnd_galactic_cw.22.desc"
+	picture = GFX_meg_deathstar_1
+	is_triggered_only = yes
+	immediate = {
+		if = { limit = { NOT = { has_technology = tech_deathstar_logistics } }
+			add_research_option = tech_deathstar_logistics
+		}
+	}
+	option = {
+		name = swnd_galactic_cw.22.a
+	}
+}
+
+#Level 5
+country_event = {
+	id = swnd_galactic_cw.23
+	title = "swnd_galactic_cw.23.name"
+	desc = "swnd_galactic_cw.23.desc"
+	picture = GFX_meg_deathstar_1
+	is_triggered_only = yes
+	immediate = {
+		if = { limit = { NOT = { has_technology = tech_deathstar_energy } }
+			add_research_option = tech_deathstar_energy
+		}
+	}
+	option = {
+		name = swnd_galactic_cw.23.a
+	}
+}

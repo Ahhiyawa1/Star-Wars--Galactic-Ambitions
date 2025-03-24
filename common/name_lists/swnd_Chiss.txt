@@ -1,0 +1,837 @@
+﻿Chiss = {
+	randomized = no
+	ship_names = {
+		generic = {
+			CHISS_SHIP_bogo_rai CHISS_SHIP_cam_co CHISS_SHIP_chaf CHISS_SHIP_cormit CHISS_SHIP_cardas_ferasi CHISS_SHIP_repplic CHISS_SHIP_jamiron CHISS_SHIP_kinoss CHISS_SHIP_cressus CHISS_SHIP_klasse_ephemora CHISS_SHIP_mobus CHISS_SHIP_naporar CHISS_SHIP_noris CHISS_SHIP_vaagari CHISS_SHIP_ornfra CHISS_SHIP_schesa CHISS_SHIP_psfavri CHISS_SHIP_rhigar CHISS_SHIP_asdroni CHISS_SHIP_rata CHISS_SHIP_sarvchi CHISS_SHIP_sharb CHISS_SHIP_shihon CHISS_SHIP_sposia CHISS_SHIP_thrago CHISS_SHIP_utegetu CHISS_SHIP_csaplar CHISS_SHIP_inrokini CHISS_SHIP_brask_oto CHISS_SHIP_duuvhal CHISS_SHIP_immobiliser CHISS_SHIP_enforcer CHISS_SHIP_demolisher CHISS_SHIP_rand_ecliptic CHISS_SHIP_clawcraft CHISS_SHIP_nssis CHISS_SHIP_vanquard CHISS_SHIP_victory CHISS_SHIP_harrow CHISS_SHIP_anya_kary CHISS_SHIP_dominator CHISS_SHIP_allegiance CHISS_SHIP_dauntless CHISS_SHIP_draklor CHISS_SHIP_nartissteu CHISS_SHIP_carrak CHISS_SHIP_sluis_van CHISS_SHIP_revenant CHISS_SHIP_talon CHISS_SHIP_shockwave CHISS_SHIP_praetor CHISS_SHIP_procurator CHISS_SHIP_arc_hammer CHISS_SHIP_vengeance CHISS_SHIP_mandator CHISS_SHIP_sovereign CHISS_SHIP_garqi CHISS_SHIP_ithor CHISS_SHIP_kalarba CHISS_SHIP_braxant_bonecrusher CHISS_SHIP_constrainer CHISS_SHIP_rampart CHISS_SHIP_sentinel CHISS_SHIP_tempest CHISS_SHIP_accuser CHISS_SHIP_adamant CHISS_SHIP_adarga CHISS_SHIP_admonitor CHISS_SHIP_adjudicator CHISS_SHIP_agonizer CHISS_SHIP_allecto CHISS_SHIP_assassin CHISS_SHIP_avarice CHISS_SHIP_avenger CHISS_SHIP_badi_dea CHISS_SHIP_basilisk CHISS_SHIP_bellicose CHISS_SHIP_chimaera CHISS_SHIP_colosses CHISS_SHIP_crusader CHISS_SHIP_conqueror CHISS_SHIP_conquest CHISS_SHIP_courageous CHISS_SHIP_crynyd CHISS_SHIP_death_s_head CHISS_SHIP_devastator CHISS_SHIP_direption CHISS_SHIP_emancipator CHISS_SHIP_emperor_s_revenge CHISS_SHIP_emperor_s_will CHISS_SHIP_engager CHISS_SHIP_entor CHISS_SHIP_freedom CHISS_SHIP_firestorm CHISS_SHIP_gauntlet CHISS_SHIP_garret CHISS_SHIP_glory CHISS_SHIP_gnisnal CHISS_SHIP_gorgon CHISS_SHIP_grey_wolf CHISS_SHIP_hammer CHISS_SHIP_hydra CHISS_SHIP_inflexible CHISS_SHIP_intrpid CHISS_SHIP_immortal CHISS_SHIP_imperator CHISS_SHIP_inexorable CHISS_SHIP_interrogator CHISS_SHIP_invincible CHISS_SHIP_iron_fist CHISS_SHIP_judicator CHISS_SHIP_kreiger CHISS_SHIP_leonides CHISS_SHIP_majestic CHISS_SHIP_malice CHISS_SHIP_manticore CHISS_SHIP_monarch CHISS_SHIP_moonshadow CHISS_SHIP_nemesis CHISS_SHIP_nihil CHISS_SHIP_nitsa CHISS_SHIP_peremptory CHISS_SHIP_predator CHISS_SHIP_pulsar CHISS_SHIP_punisher CHISS_SHIP_rage CHISS_SHIP_rebel_dream CHISS_SHIP_reckoning CHISS_SHIP_red_gauntlet CHISS_SHIP_redoubtable CHISS_SHIP_relentless CHISS_SHIP_reliance CHISS_SHIP_render CHISS_SHIP_resolution CHISS_SHIP_retribution CHISS_SHIP_reyna CHISS_SHIP_riesa CHISS_SHIP_skyhook CHISS_SHIP_stalker CHISS_SHIP_steadfast CHISS_SHIP_stormhawk CHISS_SHIP_thunderflare CHISS_SHIP_thunderer CHISS_SHIP_tiger CHISS_SHIP_tormentor CHISS_SHIP_triumph CHISS_SHIP_tyrant CHISS_SHIP_ultima CHISS_SHIP_vanguard CHISS_SHIP_vendetta CHISS_SHIP_vengeance CHISS_SHIP_virulence CHISS_SHIP_warrior CHISS_SHIP_whirlwind CHISS_SHIP_wolf_s_claw CHISS_SHIP_relentless CHISS_SHIP_rigorous CHISS_SHIP_robust CHISS_SHIP_sabre CHISS_SHIP_salvation CHISS_SHIP_sanguine CHISS_SHIP_scarab CHISS_SHIP_scepter CHISS_SHIP_sea_witch CHISS_SHIP_siren CHISS_SHIP_sorceress CHISS_SHIP_spearhead CHISS_SHIP_specter CHISS_SHIP_spirit CHISS_SHIP_splendid CHISS_SHIP_stallion CHISS_SHIP_stalwart CHISS_SHIP_steadfast CHISS_SHIP_strenuous CHISS_SHIP_superb CHISS_SHIP_supernova CHISS_SHIP_surprise CHISS_SHIP_swiftsure CHISS_SHIP_talent CHISS_SHIP_talisman CHISS_SHIP_talon CHISS_SHIP_taurus CHISS_SHIP_tenacious CHISS_SHIP_thunder_child CHISS_SHIP_thunderous CHISS_SHIP_tireless CHISS_SHIP_trenchant CHISS_SHIP_righteous CHISS_SHIP_acheron CHISS_SHIP_achilles CHISS_SHIP_agamemnon CHISS_SHIP_amphion CHISS_SHIP_aquilon CHISS_SHIP_argonaut CHISS_SHIP_argus CHISS_SHIP_ariel CHISS_SHIP_aurora CHISS_SHIP_avernus CHISS_SHIP_bacchus CHISS_SHIP_bucephalus CHISS_SHIP_calliope CHISS_SHIP_calypso CHISS_SHIP_castor CHISS_SHIP_charybdis CHISS_SHIP_circe CHISS_SHIP_cleopatra CHISS_SHIP_constantine CHISS_SHIP_cordelia CHISS_SHIP_cyrus CHISS_SHIP_damocles CHISS_SHIP_daedalus CHISS_SHIP_darius CHISS_SHIP_diomede CHISS_SHIP_dryad CHISS_SHIP_electra CHISS_SHIP_endymion CHISS_SHIP_erebus CHISS_SHIP_fenris CHISS_SHIP_freya CHISS_SHIP_gilgamesh CHISS_SHIP_gorgon CHISS_SHIP_halcyon CHISS_SHIP_hecate CHISS_SHIP_hector CHISS_SHIP_hesperus CHISS_SHIP_janus CHISS_SHIP_jason CHISS_SHIP_juno CHISS_SHIP_jupiter CHISS_SHIP_lancelot CHISS_SHIP_lazarus CHISS_SHIP_leander CHISS_SHIP_leonidas CHISS_SHIP_lysander CHISS_SHIP_maenad CHISS_SHIP_mars CHISS_SHIP_medea CHISS_SHIP_medusa CHISS_SHIP_menestheus CHISS_SHIP_mercury CHISS_SHIP_merlin CHISS_SHIP_minerva CHISS_SHIP_minos CHISS_SHIP_neptune CHISS_SHIP_nessus CHISS_SHIP_nestor CHISS_SHIP_nimrod CHISS_SHIP_niobe CHISS_SHIP_oberon CHISS_SHIP_odin CHISS_SHIP_ophelia CHISS_SHIP_orestes CHISS_SHIP_orpheus CHISS_SHIP_osiris CHISS_SHIP_pandora CHISS_SHIP_penelope CHISS_SHIP_persephone CHISS_SHIP_perseus CHISS_SHIP_phoebe CHISS_SHIP_pluto CHISS_SHIP_poseidon CHISS_SHIP_proteus CHISS_SHIP_pylades CHISS_SHIP_serapis CHISS_SHIP_stygian CHISS_SHIP_tantalus CHISS_SHIP_telemachus CHISS_SHIP_theseus CHISS_SHIP_thor CHISS_SHIP_trajan CHISS_SHIP_triton CHISS_SHIP_venus CHISS_SHIP_adamant CHISS_SHIP_ardent CHISS_SHIP_assail CHISS_SHIP_austere CHISS_SHIP_archon CHISS_SHIP_adroit CHISS_SHIP_aegis CHISS_SHIP_anchor CHISS_SHIP_corsair CHISS_SHIP_banshee CHISS_SHIP_enchantress CHISS_SHIP_eradicator CHISS_SHIP_tormentor CHISS_SHIP_legion CHISS_SHIP_reprisal CHISS_SHIP_aggressor CHISS_SHIP_assault CHISS_SHIP_eviscerator CHISS_SHIP_imperator CHISS_SHIP_excellence CHISS_SHIP_unrivalled CHISS_SHIP_warlord CHISS_SHIP_vengeance CHISS_SHIP_triumphant CHISS_SHIP_nemesis CHISS_SHIP_avenger CHISS_SHIP_champion CHISS_SHIP_conqueror CHISS_SHIP_crusader CHISS_SHIP_glory CHISS_SHIP_immortal CHISS_SHIP_judicator CHISS_SHIP_vanguard CHISS_SHIP_renown CHISS_SHIP_demolisher CHISS_SHIP_dragon CHISS_SHIP_executor CHISS_SHIP_furious CHISS_SHIP_gladiator CHISS_SHIP_magnificent CHISS_SHIP_ogre CHISS_SHIP_onslaught CHISS_SHIP_revenge CHISS_SHIP_vanquisher CHISS_SHIP_vehement CHISS_SHIP_basilisk CHISS_SHIP_tempest CHISS_SHIP_overlord CHISS_SHIP_warrior CHISS_SHIP_titan CHISS_SHIP_colossus CHISS_SHIP_prometheus CHISS_SHIP_nike CHISS_SHIP_paladin CHISS_SHIP_sovereign CHISS_SHIP_repulse CHISS_SHIP_majestic CHISS_SHIP_avatar CHISS_SHIP_behemoth CHISS_SHIP_centurion CHISS_SHIP_citadel CHISS_SHIP_katana CHISS_SHIP_kraken CHISS_SHIP_cerberus CHISS_SHIP_valkyrie
+		}
+		science = {
+			CHISS_SHIP_crescent CHISS_SHIP_diligent CHISS_SHIP_zephyr CHISS_SHIP_enigma CHISS_SHIP_conquistador CHISS_SHIP_scylla CHISS_SHIP_arbiter CHISS_SHIP_asperity CHISS_SHIP_eminence CHISS_SHIP_astute CHISS_SHIP_alacrity CHISS_SHIP_satyr CHISS_SHIP_prospero CHISS_SHIP_untiring CHISS_SHIP_zenith CHISS_SHIP_torch CHISS_SHIP_remembrance CHISS_SHIP_pilgrim CHISS_SHIP_trailblazer CHISS_SHIP_vagabond CHISS_SHIP_wayfarer CHISS_SHIP_ambassador CHISS_SHIP_emissary CHISS_SHIP_nomad CHISS_SHIP_pathfinder CHISS_SHIP_wanderer CHISS_SHIP_traveler
+		}
+		colonizer = {
+			CHISS_SHIP_godspeed CHISS_SHIP_prophecy CHISS_SHIP_manifest_destiny CHISS_SHIP_virtue CHISS_SHIP_potential CHISS_SHIP_expansion CHISS_SHIP_pioneer_spirit CHISS_SHIP_prosperity CHISS_SHIP_summit CHISS_SHIP_pinnacle CHISS_SHIP_seeder CHISS_SHIP_harvest CHISS_SHIP_demeter CHISS_SHIP_isis CHISS_SHIP_ceres CHISS_SHIP_exodus CHISS_SHIP_foundation CHISS_SHIP_scion CHISS_SHIP_progeny CHISS_SHIP_obligation CHISS_SHIP_purpose CHISS_SHIP_provider CHISS_SHIP_shining_city CHISS_SHIP_acquirer CHISS_SHIP_cultivator CHISS_SHIP_dawn_of_civilization CHISS_SHIP_purity CHISS_SHIP_community CHISS_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			CHISS_SHIP_godspeed CHISS_SHIP_prophecy CHISS_SHIP_manifest_destiny CHISS_SHIP_virtue CHISS_SHIP_potential CHISS_SHIP_expansion CHISS_SHIP_pioneer_spirit CHISS_SHIP_prosperity CHISS_SHIP_summit CHISS_SHIP_pinnacle CHISS_SHIP_seeder CHISS_SHIP_harvest CHISS_SHIP_isis CHISS_SHIP_ceres CHISS_SHIP_exodus CHISS_SHIP_foundation CHISS_SHIP_scion CHISS_SHIP_progeny CHISS_SHIP_obligation CHISS_SHIP_purpose CHISS_SHIP_provider CHISS_SHIP_shining_city CHISS_SHIP_acquirer CHISS_SHIP_cultivator CHISS_SHIP_dawn_of_civilization CHISS_SHIP_purity CHISS_SHIP_community CHISS_SHIP_brotherhood
+		}
+		constructor = {
+			CHISS_SHIP_industry CHISS_SHIP_assiduity CHISS_SHIP_effort CHISS_SHIP_laborer CHISS_SHIP_builder CHISS_SHIP_craftsman CHISS_SHIP_hard_hat CHISS_SHIP_progress CHISS_SHIP_engineer CHISS_SHIP_promise CHISS_SHIP_service CHISS_SHIP_shelter CHISS_SHIP_beast CHISS_SHIP_creator CHISS_SHIP_developer CHISS_SHIP_forger CHISS_SHIP_foundry CHISS_SHIP_factory CHISS_SHIP_anvil CHISS_SHIP_pillar CHISS_SHIP_architect CHISS_SHIP_accommodator CHISS_SHIP_ptah CHISS_SHIP_ilmarinen CHISS_SHIP_creidhne CHISS_SHIP_gobannus CHISS_SHIP_luchtaine CHISS_SHIP_goibniu CHISS_SHIP_vishvakarman CHISS_SHIP_tvastar CHISS_SHIP_ikenga CHISS_SHIP_qaynan CHISS_SHIP_ucuetis CHISS_SHIP_ogoun
+		}
+		transport = {
+			CHISS_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			CHISS_SHIP_spacegun_victory CHISS_SHIP_spacegun_success CHISS_SHIP_spacegun_supremacy CHISS_SHIP_spacegun_superior CHISS_SHIP_spacegun_adventure CHISS_SHIP_spacegun_ascendancy CHISS_SHIP_spacegun_paramount CHISS_SHIP_spacegun_preponderous CHISS_SHIP_spacegun_exemplary CHISS_SHIP_spacegun_eximious CHISS_SHIP_spacegun_pertinacity CHISS_SHIP_spacegun_acclaim CHISS_SHIP_spacegun_honor CHISS_SHIP_spacegun_renown CHISS_SHIP_spacegun_glory CHISS_SHIP_spacegun_superb CHISS_SHIP_spacegun_magnificence CHISS_SHIP_spacegun_majestic CHISS_SHIP_spacegun_splendor CHISS_SHIP_spacegun_paradigm CHISS_SHIP_spacegun_flawless CHISS_SHIP_spacegun_consummate CHISS_SHIP_spacegun_merit CHISS_SHIP_spacegun_perfection CHISS_SHIP_spacegun_virtue CHISS_SHIP_spacegun_advantage CHISS_SHIP_spacegun_rectitude CHISS_SHIP_spacegun_incorruptible CHISS_SHIP_spacegun_integrity CHISS_SHIP_spacegun_justice CHISS_SHIP_spacegun_probity CHISS_SHIP_spacegun_prudence CHISS_SHIP_spacegun_purity CHISS_SHIP_spacegun_resolute CHISS_SHIP_spacegun_dignity CHISS_SHIP_spacegun_distinction CHISS_SHIP_spacegun_excellence CHISS_SHIP_spacegun_faithful CHISS_SHIP_spacegun_discipline CHISS_SHIP_spacegun_steadfast CHISS_SHIP_spacegun_recompense CHISS_SHIP_spacegun_requiem CHISS_SHIP_spacegun_courage CHISS_SHIP_spacegun_valor CHISS_SHIP_spacegun_gallant CHISS_SHIP_spacegun_daring CHISS_SHIP_spacegun_constancy CHISS_SHIP_spacegun_perseverence CHISS_SHIP_spacegun_tenacity CHISS_SHIP_spacegun_sedulity CHISS_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			CHISS_SHIP_spacegun_victory CHISS_SHIP_spacegun_success CHISS_SHIP_spacegun_supremacy CHISS_SHIP_spacegun_superior CHISS_SHIP_spacegun_adventure CHISS_SHIP_spacegun_ascendancy CHISS_SHIP_spacegun_paramount CHISS_SHIP_spacegun_preponderous CHISS_SHIP_spacegun_exemplary CHISS_SHIP_spacegun_eximious CHISS_SHIP_spacegun_pertinacity CHISS_SHIP_spacegun_acclaim CHISS_SHIP_spacegun_honor CHISS_SHIP_spacegun_renown CHISS_SHIP_spacegun_glory CHISS_SHIP_spacegun_superb CHISS_SHIP_spacegun_magnificence CHISS_SHIP_spacegun_majestic CHISS_SHIP_spacegun_splendor CHISS_SHIP_spacegun_paradigm CHISS_SHIP_spacegun_flawless CHISS_SHIP_spacegun_consummate CHISS_SHIP_spacegun_merit CHISS_SHIP_spacegun_perfection CHISS_SHIP_spacegun_virtue CHISS_SHIP_spacegun_advantage CHISS_SHIP_spacegun_rectitude CHISS_SHIP_spacegun_incorruptible CHISS_SHIP_spacegun_integrity CHISS_SHIP_spacegun_justice CHISS_SHIP_spacegun_probity CHISS_SHIP_spacegun_prudence CHISS_SHIP_spacegun_purity CHISS_SHIP_spacegun_resolute CHISS_SHIP_spacegun_dignity CHISS_SHIP_spacegun_distinction CHISS_SHIP_spacegun_excellence CHISS_SHIP_spacegun_faithful CHISS_SHIP_spacegun_discipline CHISS_SHIP_spacegun_steadfast CHISS_SHIP_spacegun_recompense CHISS_SHIP_spacegun_requiem CHISS_SHIP_spacegun_courage CHISS_SHIP_spacegun_valor CHISS_SHIP_spacegun_gallant CHISS_SHIP_spacegun_daring CHISS_SHIP_spacegun_constancy CHISS_SHIP_spacegun_perseverence CHISS_SHIP_spacegun_tenacity CHISS_SHIP_spacegun_sedulity CHISS_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			CHISS_SHIP_spacegun_victory CHISS_SHIP_spacegun_success CHISS_SHIP_spacegun_supremacy CHISS_SHIP_spacegun_superior CHISS_SHIP_spacegun_adventure CHISS_SHIP_spacegun_ascendancy CHISS_SHIP_spacegun_paramount CHISS_SHIP_spacegun_preponderous CHISS_SHIP_spacegun_exemplary CHISS_SHIP_spacegun_eximious CHISS_SHIP_spacegun_pertinacity CHISS_SHIP_spacegun_acclaim CHISS_SHIP_spacegun_honor CHISS_SHIP_spacegun_renown CHISS_SHIP_spacegun_glory CHISS_SHIP_spacegun_superb CHISS_SHIP_spacegun_magnificence CHISS_SHIP_spacegun_majestic CHISS_SHIP_spacegun_splendor CHISS_SHIP_spacegun_paradigm CHISS_SHIP_spacegun_flawless CHISS_SHIP_spacegun_consummate CHISS_SHIP_spacegun_merit CHISS_SHIP_spacegun_perfection CHISS_SHIP_spacegun_virtue CHISS_SHIP_spacegun_advantage CHISS_SHIP_spacegun_rectitude CHISS_SHIP_spacegun_incorruptible CHISS_SHIP_spacegun_integrity CHISS_SHIP_spacegun_justice CHISS_SHIP_spacegun_probity CHISS_SHIP_spacegun_prudence CHISS_SHIP_spacegun_purity CHISS_SHIP_spacegun_resolute CHISS_SHIP_spacegun_dignity CHISS_SHIP_spacegun_distinction CHISS_SHIP_spacegun_excellence CHISS_SHIP_spacegun_faithful CHISS_SHIP_spacegun_discipline CHISS_SHIP_spacegun_steadfast CHISS_SHIP_spacegun_recompense CHISS_SHIP_spacegun_requiem CHISS_SHIP_spacegun_courage CHISS_SHIP_spacegun_valor CHISS_SHIP_spacegun_gallant CHISS_SHIP_spacegun_daring CHISS_SHIP_spacegun_constancy CHISS_SHIP_spacegun_perseverence CHISS_SHIP_spacegun_tenacity CHISS_SHIP_spacegun_sedulity CHISS_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			CHISS_SHIP_citadel CHISS_SHIP_albacore CHISS_SHIP_gateway CHISS_SHIP_vincent CHISS_SHIP_babylon CHISS_SHIP_caernavon CHISS_SHIP_acre CHISS_SHIP_pembroke CHISS_SHIP_acheron CHISS_SHIP_spithead CHISS_SHIP_halifax CHISS_SHIP_victoria CHISS_SHIP_chatham CHISS_SHIP_anchorage CHISS_SHIP_scapa_flow CHISS_SHIP_hampton_roads CHISS_SHIP_brooklyn CHISS_SHIP_norfolk CHISS_SHIP_newport CHISS_SHIP_guam CHISS_SHIP_pensacola CHISS_SHIP_vesuvius CHISS_SHIP_mckinley CHISS_SHIP_everest CHISS_SHIP_kilimanjaro CHISS_SHIP_aconcagua CHISS_SHIP_elbrus CHISS_SHIP_st__helens CHISS_SHIP_fuji CHISS_SHIP_olympus CHISS_SHIP_sinai CHISS_SHIP_ambrose CHISS_SHIP_bermuda CHISS_SHIP_farpoint CHISS_SHIP_blue_star CHISS_SHIP_olympus_mons CHISS_SHIP_tharsis CHISS_SHIP_syrtis CHISS_SHIP_blackham CHISS_SHIP_fletcher CHISS_SHIP_perry CHISS_SHIP_butakov CHISS_SHIP_morris CHISS_SHIP_moorsom CHISS_SHIP_hart CHISS_SHIP_hargood CHISS_SHIP_spruance CHISS_SHIP_tanaka CHISS_SHIP_halsey CHISS_SHIP_turner CHISS_SHIP_doria CHISS_SHIP_tirpitz CHISS_SHIP_cunningham CHISS_SHIP_jellicoe CHISS_SHIP_hipper CHISS_SHIP_beatty CHISS_SHIP_potemkin CHISS_SHIP_durham CHISS_SHIP_codrington CHISS_SHIP_milne CHISS_SHIP_laforey CHISS_SHIP_tyler CHISS_SHIP_hawke CHISS_SHIP_yonai CHISS_SHIP_pound CHISS_SHIP_king CHISS_SHIP_crutchley CHISS_SHIP_mountbatten CHISS_SHIP_kountouriotis CHISS_SHIP_kuznetsov CHISS_SHIP_essen CHISS_SHIP_kornilov CHISS_SHIP_suffren CHISS_SHIP_treville CHISS_SHIP_villeneuve CHISS_SHIP_grasse CHISS_SHIP_byng CHISS_SHIP_lezo
+		}
+		ion_cannon = {
+			CHISS_SHIP_bombard CHISS_SHIP_ballista CHISS_SHIP_catapult CHISS_SHIP_harpoon CHISS_SHIP_polybolos CHISS_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			CHISS_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			CHISS_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			CHISS_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			CHISS_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			CHISS_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			CHISS_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			CHISS_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			CHISS_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			CHISS_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			CHISS_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			CHISS_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			CHISS_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			CHISS_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			CHISS_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			CHISS_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			CHISS_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			CHISS_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			CHISS_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			CHISS_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			CHISS_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			CHISS_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			CHISS_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			CHISS_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			CHISS_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			CHISS_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			CHISS_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			CHISS_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			CHISS_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			CHISS_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			CHISS_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			CHISS_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			CHISS_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			CHISS_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			CHISS_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			CHISS_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			CHISS_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			CHISS_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			CHISS_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			CHISS_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			CHISS_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			CHISS_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			CHISS_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			CHISS_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			CHISS_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			CHISS_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			CHISS_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			CHISS_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			CHISS_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			CHISS_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			CHISS_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			CHISS_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			CHISS_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			CHISS_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			CHISS_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			CHISS_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			CHISS_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			CHISS_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			CHISS_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			CHISS_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			CHISS_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			CHISS_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			CHISS_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			CHISS_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			CHISS_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			CHISS_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			CHISS_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			CHISS_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			CHISS_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			CHISS_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			CHISS_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			CHISS_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			CHISS_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			CHISS_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			CHISS_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			CHISS_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			CHISS_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			CHISS_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			CHISS_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			CHISS_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			CHISS_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			CHISS_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			CHISS_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			CHISS_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			CHISS_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			CHISS_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			CHISS_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			CHISS_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			CHISS_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			CHISS_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			CHISS_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			CHISS_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			CHISS_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			CHISS_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			CHISS_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			CHISS_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			CHISS_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			CHISS_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			CHISS_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			CHISS_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			CHISS_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			CHISS_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			CHISS_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			CHISS_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			CHISS_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			CHISS_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			CHISS_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			CHISS_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			CHISS_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			CHISS_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			CHISS_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			CHISS_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			CHISS_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			CHISS_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			CHISS_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = CHISS_FLEET_defense_force_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = CHISS_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = CHISS_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = CHISS_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = CHISS_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = CHISS_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = CHISS_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = CHISS_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = CHISS_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				CHISS_ARMY_sarc_a__gladiators_ CHISS_ARMY_sarc_b__widowmakers_ CHISS_ARMY_sarc_c__immortals_ CHISS_ARMY_sarc_d__berserkers_ CHISS_ARMY_sarc_e__assassins_ CHISS_ARMY_sarc_f__reapers_ CHISS_ARMY_sarc_g__nighthawks_ CHISS_ARMY_sarc_h__desperados_ CHISS_ARMY_sarc_i__grey_knights_ CHISS_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = CHISS_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = CHISS_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = CHISS_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = CHISS_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = CHISS_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = CHISS_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = CHISS_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = CHISS_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = CHISS_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = CHISS_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = CHISS_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = CHISS_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = CHISS_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = CHISS_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = CHISS_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = CHISS_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = CHISS_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = CHISS_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = CHISS_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = CHISS_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = CHISS_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = CHISS_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = CHISS_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = CHISS_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = CHISS_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = CHISS_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = CHISS_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = CHISS_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = CHISS_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = CHISS_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = CHISS_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = CHISS_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = CHISS_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = CHISS_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = CHISS_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = CHISS_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = CHISS_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = CHISS_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = CHISS_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = CHISS_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = CHISS_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = CHISS_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = CHISS_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = CHISS_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = CHISS_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = CHISS_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = CHISS_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = CHISS_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = CHISS_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = CHISS_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = CHISS_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = CHISS_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = CHISS_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = CHISS_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = CHISS_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = CHISS_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = CHISS_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = CHISS_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = CHISS_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = CHISS_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = CHISS_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = CHISS_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = CHISS_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = CHISS_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = CHISS_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = CHISS_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = CHISS_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = CHISS_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = CHISS_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = CHISS_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = CHISS_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = CHISS_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = CHISS_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = CHISS_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = CHISS_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = CHISS_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = CHISS_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = CHISS_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = CHISS_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = CHISS_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = CHISS_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = CHISS_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = CHISS_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = CHISS_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = CHISS_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = CHISS_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = CHISS_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = CHISS_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = CHISS_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = CHISS_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = CHISS_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = CHISS_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = CHISS_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = CHISS_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = CHISS_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = CHISS_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = CHISS_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = CHISS_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = CHISS_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = CHISS_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = CHISS_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = CHISS_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = CHISS_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = CHISS_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = CHISS_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = CHISS_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = CHISS_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = CHISS_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = CHISS_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = CHISS_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = CHISS_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = CHISS_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = CHISS_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = CHISS_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = CHISS_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = CHISS_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = CHISS_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = CHISS_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = CHISS_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = CHISS_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = CHISS_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = CHISS_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = CHISS_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = CHISS_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = CHISS_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = CHISS_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = CHISS_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = CHISS_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = CHISS_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = CHISS_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = CHISS_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = CHISS_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = CHISS_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			full_names_male = {
+				CHISS_CHR_prard_orm_nuruodo CHISS_CHR_prard_raw_nuruodo CHISS_CHR_prard_shi_nuruodo CHISS_CHR_prard_itel_nuruodo CHISS_CHR_prard_ras_nuruodo CHISS_CHR_prard_urama_nuruodo CHISS_CHR_prard_ten_nuruodo CHISS_CHR_brask_orm_nuruodo CHISS_CHR_brask_raw_nuruodo CHISS_CHR_brask_shi_nuruodo CHISS_CHR_brask_itel_nuruodo CHISS_CHR_brask_ras_nuruodo CHISS_CHR_brask_urama_nuruodo CHISS_CHR_brask_ten_nuruodo CHISS_CHR_brast_orm_nuruodo CHISS_CHR_brast_raw_nuruodo CHISS_CHR_brast_shi_nuruodo CHISS_CHR_brast_itel_nuruodo CHISS_CHR_brast_ras_nuruodo CHISS_CHR_brast_urama_nuruodo CHISS_CHR_brast_ten_nuruodo CHISS_CHR_chaf_orm_nuruodo CHISS_CHR_chaf_raw_nuruodo CHISS_CHR_chaf_shi_nuruodo CHISS_CHR_chaf_itel_nuruodo CHISS_CHR_chaf_ras_nuruodo CHISS_CHR_chaf_urama_nuruodo CHISS_CHR_chaf_ten_nuruodo CHISS_CHR_kres_orm_nuruodo CHISS_CHR_kres_raw_nuruodo CHISS_CHR_kres_shi_nuruodo CHISS_CHR_kres_itel_nuruodo CHISS_CHR_kres_ras_nuruodo CHISS_CHR_kres_urama_nuruodo CHISS_CHR_kres_ten_nuruodo CHISS_CHR_mitth_orm_nuruodo CHISS_CHR_mitth_raw_nuruodo CHISS_CHR_mitth_shi_nuruodo CHISS_CHR_mitth_itel_nuruodo CHISS_CHR_mitth_ras_nuruodo CHISS_CHR_mitth_urama_nuruodo CHISS_CHR_mitth_ten_nuruodo CHISS_CHR_ina_orm CHISS_CHR__nuruodo CHISS_CHR_ina_raw_nuruodo CHISS_CHR_ina_shi_nuruodo CHISS_CHR_ina_itel_nuruodo CHISS_CHR_ina_ras_nuruodo CHISS_CHR_ina_urama_nuruodo CHISS_CHR_ina_ten_nuruodo CHISS_CHR_hess_orm_nuruodo CHISS_CHR_hess_raw_nuruodo CHISS_CHR_hess_shi_nuruodo CHISS_CHR_hess_itel_nuruodo CHISS_CHR_hess_ras_nuruodo CHISS_CHR_hess_urama_nuruodo CHISS_CHR_hess_ten_nuruodo CHISS_CHR_kthira_orm_nuruodo CHISS_CHR_kthira_raw_nuruodo CHISS_CHR_kthira_shi_nuruodo CHISS_CHR_kthira_itel_nuruodo CHISS_CHR_kthira_ras_nuruodo CHISS_CHR_kthira_urama_nuruodo CHISS_CHR_kthira_ten_nuruodo CHISS_CHR_kung_orm_nuruodo CHISS_CHR_kung_raw_nuruodo CHISS_CHR_kung_shi_nuruodo CHISS_CHR_kung_itel_nuruodo CHISS_CHR_kung_ras_nuruodo CHISS_CHR_kung_urama_nuruodo CHISS_CHR_kung_ten_nuruodo CHISS_CHR_sev_orm_nuruodo CHISS_CHR_sev_raw_nuruodo CHISS_CHR_sev_shi_nuruodo CHISS_CHR_sev_itel_nuruodo CHISS_CHR_sev_ras_nuruodo CHISS_CHR_sev_urama_nuruodo CHISS_CHR_sev_ten_nuruodo CHISS_CHR_ath_orm_nuruodo CHISS_CHR_ath_raw_nuruodo CHISS_CHR_ath_shi_nuruodo CHISS_CHR_ath_itel_nuruodo CHISS_CHR_ath_ras_nuruodo CHISS_CHR_ath_urama_nuruodo CHISS_CHR_ath_ten_nuruodo CHISS_CHR_prard_orm_cspalla CHISS_CHR_prard_raw_cspalla CHISS_CHR_prard_shi_cspalla CHISS_CHR_prard_itel_cspalla CHISS_CHR_prard_ras_cspalla CHISS_CHR_prard_urama_cspalla CHISS_CHR_prard_ten_cspalla CHISS_CHR_brask_orm_cspalla CHISS_CHR_brask_raw_cspalla CHISS_CHR_brask_shi_cspalla CHISS_CHR_brask_itel_cspalla CHISS_CHR_brask_ras_cspalla CHISS_CHR_brask_urama_cspalla CHISS_CHR_brask_ten_cspalla CHISS_CHR_brast_orm_cspalla CHISS_CHR_brast_raw_cspalla CHISS_CHR_brast_shi_cspalla CHISS_CHR_brast_itel_cspalla CHISS_CHR_brast_ras_cspalla CHISS_CHR_brast_urama_cspalla CHISS_CHR_brast_ten_cspalla CHISS_CHR_chaf_orm_cspalla CHISS_CHR_chaf_raw_cspalla CHISS_CHR_chaf_shi_cspalla CHISS_CHR_chaf_itel_cspalla CHISS_CHR_chaf_ras_cspalla CHISS_CHR_chaf_urama_cspalla CHISS_CHR_chaf_ten_cspalla CHISS_CHR_kres_orm_cspalla CHISS_CHR_kres_raw_cspalla CHISS_CHR_kres_shi_cspalla CHISS_CHR_kres_itel_cspalla CHISS_CHR_kres_ras_cspalla CHISS_CHR_kres_urama_cspalla CHISS_CHR_kres_ten_cspalla CHISS_CHR_mitth_orm_cspalla CHISS_CHR_mitth_raw_cspalla CHISS_CHR_mitth_shi_cspalla CHISS_CHR_mitth_itel_cspalla CHISS_CHR_mitth_ras_cspalla CHISS_CHR_mitth_urama_cspalla CHISS_CHR_mitth_ten_cspalla CHISS_CHR_ina_orm CHISS_CHR__cspalla CHISS_CHR_ina_raw_cspalla CHISS_CHR_ina_shi_cspalla CHISS_CHR_ina_itel_cspalla CHISS_CHR_ina_ras_cspalla CHISS_CHR_ina_urama_cspalla CHISS_CHR_ina_ten_cspalla CHISS_CHR_hess_orm_cspalla CHISS_CHR_hess_raw_cspalla CHISS_CHR_hess_shi_cspalla CHISS_CHR_hess_itel_cspalla CHISS_CHR_hess_ras_cspalla CHISS_CHR_hess_urama_cspalla CHISS_CHR_hess_ten_cspalla CHISS_CHR_kthira_orm_cspalla CHISS_CHR_kthira_raw_cspalla CHISS_CHR_kthira_shi_cspalla CHISS_CHR_kthira_itel_cspalla CHISS_CHR_kthira_ras_cspalla CHISS_CHR_kthira_urama_cspalla CHISS_CHR_kthira_ten_cspalla CHISS_CHR_kung_orm_cspalla CHISS_CHR_kung_raw_cspalla CHISS_CHR_kung_shi_cspalla CHISS_CHR_kung_itel_cspalla CHISS_CHR_kung_ras_cspalla CHISS_CHR_kung_urama_cspalla CHISS_CHR_kung_ten_cspalla CHISS_CHR_sev_orm_cspalla CHISS_CHR_sev_raw_cspalla CHISS_CHR_sev_shi_cspalla CHISS_CHR_sev_itel_cspalla CHISS_CHR_sev_ras_cspalla CHISS_CHR_sev_urama_cspalla CHISS_CHR_sev_ten_cspalla CHISS_CHR_ath_orm_cspalla CHISS_CHR_ath_raw_cspalla CHISS_CHR_ath_shi_cspalla CHISS_CHR_ath_itel_cspalla CHISS_CHR_ath_ras_cspalla CHISS_CHR_ath_urama_cspalla CHISS_CHR_ath_ten_cspalla CHISS_CHR_prard_orm_sabosen CHISS_CHR_prard_raw_sabosen CHISS_CHR_prard_shi_sabosen CHISS_CHR_prard_itel_sabosen CHISS_CHR_prard_ras_sabosen CHISS_CHR_prard_urama_sabosen CHISS_CHR_prard_ten_sabosen CHISS_CHR_brask_orm_sabosen CHISS_CHR_brask_raw_sabosen CHISS_CHR_brask_shi_sabosen CHISS_CHR_brask_itel_sabosen CHISS_CHR_brask_ras_sabosen CHISS_CHR_brask_urama_sabosen CHISS_CHR_brask_ten_sabosen CHISS_CHR_brast_orm_sabosen CHISS_CHR_brast_raw_sabosen CHISS_CHR_brast_shi_sabosen CHISS_CHR_brast_itel_sabosen CHISS_CHR_brast_ras_sabosen CHISS_CHR_brast_urama_sabosen CHISS_CHR_brast_ten_sabosen CHISS_CHR_chaf_orm_sabosen CHISS_CHR_chaf_raw_sabosen CHISS_CHR_chaf_shi_sabosen CHISS_CHR_chaf_itel_sabosen CHISS_CHR_chaf_ras_sabosen CHISS_CHR_chaf_urama_sabosen CHISS_CHR_chaf_ten_sabosen CHISS_CHR_kres_orm_sabosen CHISS_CHR_kres_raw_sabosen CHISS_CHR_kres_shi_sabosen CHISS_CHR_kres_itel_sabosen CHISS_CHR_kres_ras_sabosen CHISS_CHR_kres_urama_sabosen CHISS_CHR_kres_ten_sabosen CHISS_CHR_mitth_orm_sabosen CHISS_CHR_mitth_raw_sabosen CHISS_CHR_mitth_shi_sabosen CHISS_CHR_mitth_itel_sabosen CHISS_CHR_mitth_ras_sabosen CHISS_CHR_mitth_urama_sabosen CHISS_CHR_mitth_ten_sabosen CHISS_CHR_ina_orm CHISS_CHR__sabosen CHISS_CHR_ina_raw_sabosen CHISS_CHR_ina_shi_sabosen CHISS_CHR_ina_itel_sabosen CHISS_CHR_ina_ras_sabosen CHISS_CHR_ina_urama_sabosen CHISS_CHR_ina_ten_sabosen CHISS_CHR_hess_orm_sabosen CHISS_CHR_hess_raw_sabosen CHISS_CHR_hess_shi_sabosen CHISS_CHR_hess_itel_sabosen CHISS_CHR_hess_ras_sabosen CHISS_CHR_hess_urama_sabosen CHISS_CHR_hess_ten_sabosen CHISS_CHR_kthira_orm_sabosen CHISS_CHR_kthira_raw_sabosen CHISS_CHR_kthira_shi_sabosen CHISS_CHR_kthira_itel_sabosen CHISS_CHR_kthira_ras_sabosen CHISS_CHR_kthira_urama_sabosen CHISS_CHR_kthira_ten_sabosen CHISS_CHR_kung_orm_sabosen CHISS_CHR_kung_raw_sabosen CHISS_CHR_kung_shi_sabosen CHISS_CHR_kung_itel_sabosen CHISS_CHR_kung_ras_sabosen CHISS_CHR_kung_urama_sabosen CHISS_CHR_kung_ten_sabosen CHISS_CHR_sev_orm_sabosen CHISS_CHR_sev_raw_sabosen CHISS_CHR_sev_shi_sabosen CHISS_CHR_sev_itel_sabosen CHISS_CHR_sev_ras_sabosen CHISS_CHR_sev_urama_sabosen CHISS_CHR_sev_ten_sabosen CHISS_CHR_ath_orm_sabosen CHISS_CHR_ath_raw_sabosen CHISS_CHR_ath_shi_sabosen CHISS_CHR_ath_itel_sabosen CHISS_CHR_ath_ras_sabosen CHISS_CHR_ath_urama_sabosen CHISS_CHR_ath_ten_sabosen CHISS_CHR_prard_orm_inrokini CHISS_CHR_prard_raw_inrokini CHISS_CHR_prard_shi_inrokini CHISS_CHR_prard_itel_inrokini CHISS_CHR_prard_ras_inrokini CHISS_CHR_prard_urama_inrokini CHISS_CHR_prard_ten_inrokini CHISS_CHR_brask_orm_inrokini CHISS_CHR_brask_raw_inrokini CHISS_CHR_brask_shi_inrokini CHISS_CHR_brask_itel_inrokini CHISS_CHR_brask_ras_inrokini CHISS_CHR_brask_urama_inrokini CHISS_CHR_brask_ten_inrokini CHISS_CHR_brast_orm_inrokini CHISS_CHR_brast_raw_inrokini CHISS_CHR_brast_shi_inrokini CHISS_CHR_brast_itel_inrokini CHISS_CHR_brast_ras_inrokini CHISS_CHR_brast_urama_inrokini CHISS_CHR_brast_ten_inrokini CHISS_CHR_chaf_orm_inrokini CHISS_CHR_chaf_raw_inrokini CHISS_CHR_chaf_shi_inrokini CHISS_CHR_chaf_itel_inrokini CHISS_CHR_chaf_ras_inrokini CHISS_CHR_chaf_urama_inrokini CHISS_CHR_chaf_ten_inrokini CHISS_CHR_kres_orm_inrokini CHISS_CHR_kres_raw_inrokini CHISS_CHR_kres_shi_inrokini CHISS_CHR_kres_itel_inrokini CHISS_CHR_kres_ras_inrokini CHISS_CHR_kres_urama_inrokini CHISS_CHR_kres_ten_inrokini CHISS_CHR_mitth_orm_inrokini CHISS_CHR_mitth_raw_inrokini CHISS_CHR_mitth_shi_inrokini CHISS_CHR_mitth_itel_inrokini CHISS_CHR_mitth_ras_inrokini CHISS_CHR_mitth_urama_inrokini CHISS_CHR_mitth_ten_inrokini CHISS_CHR_ina_orm CHISS_CHR__inrokini CHISS_CHR_ina_raw_inrokini CHISS_CHR_ina_shi_inrokini CHISS_CHR_ina_itel_inrokini CHISS_CHR_ina_ras_inrokini CHISS_CHR_ina_urama_inrokini CHISS_CHR_ina_ten_inrokini CHISS_CHR_hess_orm_inrokini CHISS_CHR_hess_raw_inrokini CHISS_CHR_hess_shi_inrokini CHISS_CHR_hess_itel_inrokini CHISS_CHR_hess_ras_inrokini CHISS_CHR_hess_urama_inrokini CHISS_CHR_hess_ten_inrokini CHISS_CHR_kthira_orm_inrokini CHISS_CHR_kthira_raw_inrokini CHISS_CHR_kthira_shi_inrokini CHISS_CHR_kthira_itel_inrokini CHISS_CHR_kthira_ras_inrokini CHISS_CHR_kthira_urama_inrokini CHISS_CHR_kthira_ten_inrokini CHISS_CHR_kung_orm_inrokini CHISS_CHR_kung_raw_inrokini CHISS_CHR_kung_shi_inrokini CHISS_CHR_kung_itel_inrokini CHISS_CHR_kung_ras_inrokini CHISS_CHR_kung_urama_inrokini CHISS_CHR_kung_ten_inrokini CHISS_CHR_sev_orm_inrokini CHISS_CHR_sev_raw_inrokini CHISS_CHR_sev_shi_inrokini CHISS_CHR_sev_itel_inrokini CHISS_CHR_sev_ras_inrokini CHISS_CHR_sev_urama_inrokini CHISS_CHR_sev_ten_inrokini CHISS_CHR_ath_orm_inrokini CHISS_CHR_ath_raw_inrokini CHISS_CHR_ath_shi_inrokini CHISS_CHR_ath_itel_inrokini CHISS_CHR_ath_ras_inrokini CHISS_CHR_ath_urama_inrokini CHISS_CHR_ath_ten_inrokini CHISS_CHR_prard_orm_kleoni CHISS_CHR_prard_raw_kleoni CHISS_CHR_prard_shi_kleoni CHISS_CHR_prard_itel_kleoni CHISS_CHR_prard_ras_kleoni CHISS_CHR_prard_urama_kleoni CHISS_CHR_prard_ten_kleoni CHISS_CHR_brask_orm_kleoni CHISS_CHR_brask_raw_kleoni CHISS_CHR_brask_shi_kleoni CHISS_CHR_brask_itel_kleoni CHISS_CHR_brask_ras_kleoni CHISS_CHR_brask_urama_kleoni CHISS_CHR_brask_ten_kleoni CHISS_CHR_brast_orm_kleoni CHISS_CHR_brast_raw_kleoni CHISS_CHR_brast_shi_kleoni CHISS_CHR_brast_itel_kleoni CHISS_CHR_brast_ras_kleoni CHISS_CHR_brast_urama_kleoni CHISS_CHR_brast_ten_kleoni CHISS_CHR_chaf_orm_kleoni CHISS_CHR_chaf_raw_kleoni CHISS_CHR_chaf_shi_kleoni CHISS_CHR_chaf_itel_kleoni CHISS_CHR_chaf_ras_kleoni CHISS_CHR_chaf_urama_kleoni CHISS_CHR_chaf_ten_kleoni CHISS_CHR_kres_orm_kleoni CHISS_CHR_kres_raw_kleoni CHISS_CHR_kres_shi_kleoni CHISS_CHR_kres_itel_kleoni CHISS_CHR_kres_ras_kleoni CHISS_CHR_kres_urama_kleoni CHISS_CHR_kres_ten_kleoni CHISS_CHR_mitth_orm_kleoni CHISS_CHR_mitth_raw_kleoni CHISS_CHR_mitth_shi_kleoni CHISS_CHR_mitth_itel_kleoni CHISS_CHR_mitth_ras_kleoni CHISS_CHR_mitth_urama_kleoni CHISS_CHR_mitth_ten_kleoni CHISS_CHR_ina_orm CHISS_CHR__kleoni CHISS_CHR_ina_raw_kleoni CHISS_CHR_ina_shi_kleoni CHISS_CHR_ina_itel_kleoni CHISS_CHR_ina_ras_kleoni CHISS_CHR_ina_urama_kleoni CHISS_CHR_ina_ten_kleoni CHISS_CHR_hess_orm_kleoni CHISS_CHR_hess_raw_kleoni CHISS_CHR_hess_shi_kleoni CHISS_CHR_hess_itel_kleoni CHISS_CHR_hess_ras_kleoni CHISS_CHR_hess_urama_kleoni CHISS_CHR_hess_ten_kleoni CHISS_CHR_kthira_orm_kleoni CHISS_CHR_kthira_raw_kleoni CHISS_CHR_kthira_shi_kleoni CHISS_CHR_kthira_itel_kleoni CHISS_CHR_kthira_ras_kleoni CHISS_CHR_kthira_urama_kleoni CHISS_CHR_kthira_ten_kleoni CHISS_CHR_kung_orm_kleoni CHISS_CHR_kung_raw_kleoni CHISS_CHR_kung_shi_kleoni CHISS_CHR_kung_itel_kleoni CHISS_CHR_kung_ras_kleoni CHISS_CHR_kung_urama_kleoni CHISS_CHR_kung_ten_kleoni CHISS_CHR_sev_orm_kleoni CHISS_CHR_sev_raw_kleoni CHISS_CHR_sev_shi_kleoni CHISS_CHR_sev_itel_kleoni CHISS_CHR_sev_ras_kleoni CHISS_CHR_sev_urama_kleoni CHISS_CHR_sev_ten_kleoni CHISS_CHR_ath_orm_kleoni CHISS_CHR_ath_raw_kleoni CHISS_CHR_ath_shi_kleoni CHISS_CHR_ath_itel_kleoni CHISS_CHR_ath_ras_kleoni CHISS_CHR_ath_urama_kleoni CHISS_CHR_ath_ten_kleoni CHISS_CHR_prard_orm_bintrano CHISS_CHR_prard_raw_bintrano CHISS_CHR_prard_shi_bintrano CHISS_CHR_prard_itel_bintrano CHISS_CHR_prard_ras_bintrano CHISS_CHR_prard_urama_bintrano CHISS_CHR_prard_ten_bintrano CHISS_CHR_brask_orm_bintrano CHISS_CHR_brask_raw_bintrano CHISS_CHR_brask_shi_bintrano CHISS_CHR_brask_itel_bintrano CHISS_CHR_brask_ras_bintrano CHISS_CHR_brask_urama_bintrano CHISS_CHR_brask_ten_bintrano CHISS_CHR_brast_orm_bintrano CHISS_CHR_brast_raw_bintrano CHISS_CHR_brast_shi_bintrano CHISS_CHR_brast_itel_bintrano CHISS_CHR_brast_ras_bintrano CHISS_CHR_brast_urama_bintrano CHISS_CHR_brast_ten_bintrano CHISS_CHR_chaf_orm_bintrano CHISS_CHR_chaf_raw_bintrano CHISS_CHR_chaf_shi_bintrano CHISS_CHR_chaf_itel_bintrano CHISS_CHR_chaf_ras_bintrano CHISS_CHR_chaf_urama_bintrano CHISS_CHR_chaf_ten_bintrano CHISS_CHR_kres_orm_bintrano CHISS_CHR_kres_raw_bintrano CHISS_CHR_kres_shi_bintrano CHISS_CHR_kres_itel_bintrano CHISS_CHR_kres_ras_bintrano CHISS_CHR_kres_urama_bintrano CHISS_CHR_kres_ten_bintrano CHISS_CHR_mitth_orm_bintrano CHISS_CHR_mitth_raw_bintrano CHISS_CHR_mitth_shi_bintrano CHISS_CHR_mitth_itel_bintrano CHISS_CHR_mitth_ras_bintrano CHISS_CHR_mitth_urama_bintrano CHISS_CHR_mitth_ten_bintrano CHISS_CHR_ina_orm CHISS_CHR__bintrano CHISS_CHR_ina_raw_bintrano CHISS_CHR_ina_shi_bintrano CHISS_CHR_ina_itel_bintrano CHISS_CHR_ina_ras_bintrano CHISS_CHR_ina_urama_bintrano CHISS_CHR_ina_ten_bintrano CHISS_CHR_hess_orm_bintrano CHISS_CHR_hess_raw_bintrano CHISS_CHR_hess_shi_bintrano CHISS_CHR_hess_itel_bintrano CHISS_CHR_hess_ras_bintrano CHISS_CHR_hess_urama_bintrano CHISS_CHR_hess_ten_bintrano CHISS_CHR_kthira_orm_bintrano CHISS_CHR_kthira_raw_bintrano CHISS_CHR_kthira_shi_bintrano CHISS_CHR_kthira_itel_bintrano CHISS_CHR_kthira_ras_bintrano CHISS_CHR_kthira_urama_bintrano CHISS_CHR_kthira_ten_bintrano CHISS_CHR_kung_orm_bintrano CHISS_CHR_kung_raw_bintrano CHISS_CHR_kung_shi_bintrano CHISS_CHR_kung_itel_bintrano CHISS_CHR_kung_ras_bintrano CHISS_CHR_kung_urama_bintrano CHISS_CHR_kung_ten_bintrano CHISS_CHR_sev_orm_bintrano CHISS_CHR_sev_raw_bintrano CHISS_CHR_sev_shi_bintrano CHISS_CHR_sev_itel_bintrano CHISS_CHR_sev_ras_bintrano CHISS_CHR_sev_urama_bintrano CHISS_CHR_sev_ten_bintrano CHISS_CHR_ath_orm_bintrano CHISS_CHR_ath_raw_bintrano CHISS_CHR_ath_shi_bintrano CHISS_CHR_ath_itel_bintrano CHISS_CHR_ath_ras_bintrano CHISS_CHR_ath_urama_bintrano CHISS_CHR_ath_ten_bintrano CHISS_CHR_prard_orm_barku CHISS_CHR_prard_raw_barku CHISS_CHR_prard_shi_barku CHISS_CHR_prard_itel_barku CHISS_CHR_prard_ras_barku CHISS_CHR_prard_urama_barku CHISS_CHR_prard_ten_barku CHISS_CHR_brask_orm_barku CHISS_CHR_brask_raw_barku CHISS_CHR_brask_shi_barku CHISS_CHR_brask_itel_barku CHISS_CHR_brask_ras_barku CHISS_CHR_brask_urama_barku CHISS_CHR_brask_ten_barku CHISS_CHR_brast_orm_barku CHISS_CHR_brast_raw_barku CHISS_CHR_brast_shi_barku CHISS_CHR_brast_itel_barku CHISS_CHR_brast_ras_barku CHISS_CHR_brast_urama_barku CHISS_CHR_brast_ten_barku CHISS_CHR_chaf_orm_barku CHISS_CHR_chaf_raw_barku CHISS_CHR_chaf_shi_barku CHISS_CHR_chaf_itel_barku CHISS_CHR_chaf_ras_barku CHISS_CHR_chaf_urama_barku CHISS_CHR_chaf_ten_barku CHISS_CHR_kres_orm_barku CHISS_CHR_kres_raw_barku CHISS_CHR_kres_shi_barku CHISS_CHR_kres_itel_barku CHISS_CHR_kres_ras_barku CHISS_CHR_kres_urama_barku CHISS_CHR_kres_ten_barku CHISS_CHR_mitth_orm_barku CHISS_CHR_mitth_raw_barku CHISS_CHR_mitth_shi_barku CHISS_CHR_mitth_itel_barku CHISS_CHR_mitth_ras_barku CHISS_CHR_mitth_urama_barku CHISS_CHR_mitth_ten_barku CHISS_CHR_ina_orm CHISS_CHR__barku CHISS_CHR_ina_raw_barku CHISS_CHR_ina_shi_barku CHISS_CHR_ina_itel_barku CHISS_CHR_ina_ras_barku CHISS_CHR_ina_urama_barku CHISS_CHR_ina_ten_barku CHISS_CHR_hess_orm_barku CHISS_CHR_hess_raw_barku CHISS_CHR_hess_shi_barku CHISS_CHR_hess_itel_barku CHISS_CHR_hess_ras_barku CHISS_CHR_hess_urama_barku CHISS_CHR_hess_ten_barku CHISS_CHR_kthira_orm_barku CHISS_CHR_kthira_raw_barku CHISS_CHR_kthira_shi_barku CHISS_CHR_kthira_itel_barku CHISS_CHR_kthira_ras_barku CHISS_CHR_kthira_urama_barku CHISS_CHR_kthira_ten_barku CHISS_CHR_kung_orm_barku CHISS_CHR_kung_raw_barku CHISS_CHR_kung_shi_barku CHISS_CHR_kung_itel_barku CHISS_CHR_kung_ras_barku CHISS_CHR_kung_urama_barku CHISS_CHR_kung_ten_barku CHISS_CHR_sev_orm_barku CHISS_CHR_sev_raw_barku CHISS_CHR_sev_shi_barku CHISS_CHR_sev_itel_barku CHISS_CHR_sev_ras_barku CHISS_CHR_sev_urama_barku CHISS_CHR_sev_ten_barku CHISS_CHR_ath_orm_barku CHISS_CHR_ath_raw_barku CHISS_CHR_ath_shi_barku CHISS_CHR_ath_itel_barku CHISS_CHR_ath_ras_barku CHISS_CHR_ath_urama_barku CHISS_CHR_ath_ten_barku CHISS_CHR_prard_orm_aklaio CHISS_CHR_prard_raw_aklaio CHISS_CHR_prard_shi_aklaio CHISS_CHR_prard_itel_aklaio CHISS_CHR_prard_ras_aklaio CHISS_CHR_prard_urama_aklaio CHISS_CHR_prard_ten_aklaio CHISS_CHR_brask_orm_aklaio CHISS_CHR_brask_raw_aklaio CHISS_CHR_brask_shi_aklaio CHISS_CHR_brask_itel_aklaio CHISS_CHR_brask_ras_aklaio CHISS_CHR_brask_urama_aklaio CHISS_CHR_brask_ten_aklaio CHISS_CHR_brast_orm_aklaio CHISS_CHR_brast_raw_aklaio CHISS_CHR_brast_shi_aklaio CHISS_CHR_brast_itel_aklaio CHISS_CHR_brast_ras_aklaio CHISS_CHR_brast_urama_aklaio CHISS_CHR_brast_ten_aklaio CHISS_CHR_chaf_orm_aklaio CHISS_CHR_chaf_raw_aklaio CHISS_CHR_chaf_shi_aklaio CHISS_CHR_chaf_itel_aklaio CHISS_CHR_chaf_ras_aklaio CHISS_CHR_chaf_urama_aklaio CHISS_CHR_chaf_ten_aklaio CHISS_CHR_kres_orm_aklaio CHISS_CHR_kres_raw_aklaio CHISS_CHR_kres_shi_aklaio CHISS_CHR_kres_itel_aklaio CHISS_CHR_kres_ras_aklaio CHISS_CHR_kres_urama_aklaio CHISS_CHR_kres_ten_aklaio CHISS_CHR_mitth_orm_aklaio CHISS_CHR_mitth_raw_aklaio CHISS_CHR_mitth_shi_aklaio CHISS_CHR_mitth_itel_aklaio CHISS_CHR_mitth_ras_aklaio CHISS_CHR_mitth_urama_aklaio CHISS_CHR_mitth_ten_aklaio CHISS_CHR_ina_orm CHISS_CHR__aklaio CHISS_CHR_ina_raw_aklaio CHISS_CHR_ina_shi_aklaio CHISS_CHR_ina_itel_aklaio CHISS_CHR_ina_ras_aklaio CHISS_CHR_ina_urama_aklaio CHISS_CHR_ina_ten_aklaio CHISS_CHR_hess_orm_aklaio CHISS_CHR_hess_raw_aklaio CHISS_CHR_hess_shi_aklaio CHISS_CHR_hess_itel_aklaio CHISS_CHR_hess_ras_aklaio CHISS_CHR_hess_urama_aklaio CHISS_CHR_hess_ten_aklaio CHISS_CHR_kthira_orm_aklaio CHISS_CHR_kthira_raw_aklaio CHISS_CHR_kthira_shi_aklaio CHISS_CHR_kthira_itel_aklaio CHISS_CHR_kthira_ras_aklaio CHISS_CHR_kthira_urama_aklaio CHISS_CHR_kthira_ten_aklaio CHISS_CHR_kung_orm_aklaio CHISS_CHR_kung_raw_aklaio CHISS_CHR_kung_shi_aklaio CHISS_CHR_kung_itel_aklaio CHISS_CHR_kung_ras_aklaio CHISS_CHR_kung_urama_aklaio CHISS_CHR_kung_ten_aklaio CHISS_CHR_sev_orm_aklaio CHISS_CHR_sev_raw_aklaio CHISS_CHR_sev_shi_aklaio CHISS_CHR_sev_itel_aklaio CHISS_CHR_sev_ras_aklaio CHISS_CHR_sev_urama_aklaio CHISS_CHR_sev_ten_aklaio CHISS_CHR_ath_orm_aklaio CHISS_CHR_ath_raw_aklaio CHISS_CHR_ath_shi_aklaio CHISS_CHR_ath_itel_aklaio CHISS_CHR_ath_ras_aklaio CHISS_CHR_ath_urama_aklaio CHISS_CHR_ath_ten_aklaio CHISS_CHR_prard_orm_iflar CHISS_CHR_prard_raw_iflar CHISS_CHR_prard_shi_iflar CHISS_CHR_prard_itel_iflar CHISS_CHR_prard_ras_iflar CHISS_CHR_prard_urama_iflar CHISS_CHR_prard_ten_iflar CHISS_CHR_brask_orm_iflar CHISS_CHR_brask_raw_iflar CHISS_CHR_brask_shi_iflar CHISS_CHR_brask_itel_iflar CHISS_CHR_brask_ras_iflar CHISS_CHR_brask_urama_iflar CHISS_CHR_brask_ten_iflar CHISS_CHR_brast_orm_iflar CHISS_CHR_brast_raw_iflar CHISS_CHR_brast_shi_iflar CHISS_CHR_brast_itel_iflar CHISS_CHR_brast_ras_iflar CHISS_CHR_brast_urama_iflar CHISS_CHR_brast_ten_iflar CHISS_CHR_chaf_orm_iflar CHISS_CHR_chaf_raw_iflar CHISS_CHR_chaf_shi_iflar CHISS_CHR_chaf_itel_iflar CHISS_CHR_chaf_ras_iflar CHISS_CHR_chaf_urama_iflar CHISS_CHR_chaf_ten_iflar CHISS_CHR_kres_orm_iflar CHISS_CHR_kres_raw_iflar CHISS_CHR_kres_shi_iflar CHISS_CHR_kres_itel_iflar CHISS_CHR_kres_ras_iflar CHISS_CHR_kres_urama_iflar CHISS_CHR_kres_ten_iflar CHISS_CHR_mitth_orm_iflar CHISS_CHR_mitth_raw_iflar CHISS_CHR_mitth_shi_iflar CHISS_CHR_mitth_itel_iflar CHISS_CHR_mitth_ras_iflar CHISS_CHR_mitth_urama_iflar CHISS_CHR_mitth_ten_iflar CHISS_CHR_ina_orm CHISS_CHR__iflar CHISS_CHR_ina_raw_iflar CHISS_CHR_ina_shi_iflar CHISS_CHR_ina_itel_iflar CHISS_CHR_ina_ras_iflar CHISS_CHR_ina_urama_iflar CHISS_CHR_ina_ten_iflar CHISS_CHR_hess_orm_iflar CHISS_CHR_hess_raw_iflar CHISS_CHR_hess_shi_iflar CHISS_CHR_hess_itel_iflar CHISS_CHR_hess_ras_iflar CHISS_CHR_hess_urama_iflar CHISS_CHR_hess_ten_iflar CHISS_CHR_kthira_orm_iflar CHISS_CHR_kthira_raw_iflar CHISS_CHR_kthira_shi_iflar CHISS_CHR_kthira_itel_iflar CHISS_CHR_kthira_ras_iflar CHISS_CHR_kthira_urama_iflar CHISS_CHR_kthira_ten_iflar CHISS_CHR_kung_orm_iflar CHISS_CHR_kung_raw_iflar CHISS_CHR_kung_shi_iflar CHISS_CHR_kung_itel_iflar CHISS_CHR_kung_ras_iflar CHISS_CHR_kung_urama_iflar CHISS_CHR_kung_ten_iflar CHISS_CHR_sev_orm_iflar CHISS_CHR_sev_raw_iflar CHISS_CHR_sev_shi_iflar CHISS_CHR_sev_itel_iflar CHISS_CHR_sev_ras_iflar CHISS_CHR_sev_urama_iflar CHISS_CHR_sev_ten_iflar CHISS_CHR_ath_orm_iflar CHISS_CHR_ath_raw_iflar CHISS_CHR_ath_shi_iflar CHISS_CHR_ath_itel_iflar CHISS_CHR_ath_ras_iflar CHISS_CHR_ath_urama_iflar CHISS_CHR_ath_ten_iflar CHISS_CHR_prard_orm_tarthi CHISS_CHR_prard_raw_tarthi CHISS_CHR_prard_shi_tarthi CHISS_CHR_prard_itel_tarthi CHISS_CHR_prard_ras_tarthi CHISS_CHR_prard_urama_tarthi CHISS_CHR_prard_ten_tarthi CHISS_CHR_brask_orm_tarthi CHISS_CHR_brask_raw_tarthi CHISS_CHR_brask_shi_tarthi CHISS_CHR_brask_itel_tarthi CHISS_CHR_brask_ras_tarthi CHISS_CHR_brask_urama_tarthi CHISS_CHR_brask_ten_tarthi CHISS_CHR_brast_orm_tarthi CHISS_CHR_brast_raw_tarthi CHISS_CHR_brast_shi_tarthi CHISS_CHR_brast_itel_tarthi CHISS_CHR_brast_ras_tarthi CHISS_CHR_brast_urama_tarthi CHISS_CHR_brast_ten_tarthi CHISS_CHR_chaf_orm_tarthi CHISS_CHR_chaf_raw_tarthi CHISS_CHR_chaf_shi_tarthi CHISS_CHR_chaf_itel_tarthi CHISS_CHR_chaf_ras_tarthi CHISS_CHR_chaf_urama_tarthi CHISS_CHR_chaf_ten_tarthi CHISS_CHR_kres_orm_tarthi CHISS_CHR_kres_raw_tarthi CHISS_CHR_kres_shi_tarthi CHISS_CHR_kres_itel_tarthi CHISS_CHR_kres_ras_tarthi CHISS_CHR_kres_urama_tarthi CHISS_CHR_kres_ten_tarthi CHISS_CHR_mitth_orm_tarthi CHISS_CHR_mitth_raw_tarthi CHISS_CHR_mitth_shi_tarthi CHISS_CHR_mitth_itel_tarthi CHISS_CHR_mitth_ras_tarthi CHISS_CHR_mitth_urama_tarthi CHISS_CHR_mitth_ten_tarthi CHISS_CHR_ina_orm CHISS_CHR__tarthi CHISS_CHR_ina_raw_tarthi CHISS_CHR_ina_shi_tarthi CHISS_CHR_ina_itel_tarthi CHISS_CHR_ina_ras_tarthi CHISS_CHR_ina_urama_tarthi CHISS_CHR_ina_ten_tarthi CHISS_CHR_hess_orm_tarthi CHISS_CHR_hess_raw_tarthi CHISS_CHR_hess_shi_tarthi CHISS_CHR_hess_itel_tarthi CHISS_CHR_hess_ras_tarthi CHISS_CHR_hess_urama_tarthi CHISS_CHR_hess_ten_tarthi CHISS_CHR_kthira_orm_tarthi CHISS_CHR_kthira_raw_tarthi CHISS_CHR_kthira_shi_tarthi CHISS_CHR_kthira_itel_tarthi CHISS_CHR_kthira_ras_tarthi CHISS_CHR_kthira_urama_tarthi CHISS_CHR_kthira_ten_tarthi CHISS_CHR_kung_orm_tarthi CHISS_CHR_kung_raw_tarthi CHISS_CHR_kung_shi_tarthi CHISS_CHR_kung_itel_tarthi CHISS_CHR_kung_ras_tarthi CHISS_CHR_kung_urama_tarthi CHISS_CHR_kung_ten_tarthi CHISS_CHR_sev_orm_tarthi CHISS_CHR_sev_raw_tarthi CHISS_CHR_sev_shi_tarthi CHISS_CHR_sev_itel_tarthi CHISS_CHR_sev_ras_tarthi CHISS_CHR_sev_urama_tarthi CHISS_CHR_sev_ten_tarthi CHISS_CHR_ath_orm_tarthi CHISS_CHR_ath_raw_tarthi CHISS_CHR_ath_shi_tarthi CHISS_CHR_ath_itel_tarthi CHISS_CHR_ath_ras_tarthi CHISS_CHR_ath_urama_tarthi CHISS_CHR_ath_ten_tarthi CHISS_CHR_prard_orm_idahten CHISS_CHR_prard_raw_idahten CHISS_CHR_prard_shi_idahten CHISS_CHR_prard_itel_idahten CHISS_CHR_prard_ras_idahten CHISS_CHR_prard_urama_idahten CHISS_CHR_prard_ten_idahten CHISS_CHR_brask_orm_idahten CHISS_CHR_brask_raw_idahten CHISS_CHR_brask_shi_idahten CHISS_CHR_brask_itel_idahten CHISS_CHR_brask_ras_idahten CHISS_CHR_brask_urama_idahten CHISS_CHR_brask_ten_idahten CHISS_CHR_brast_orm_idahten CHISS_CHR_brast_raw_idahten CHISS_CHR_brast_shi_idahten CHISS_CHR_brast_itel_idahten CHISS_CHR_brast_ras_idahten CHISS_CHR_brast_urama_idahten CHISS_CHR_brast_ten_idahten CHISS_CHR_chaf_orm_idahten CHISS_CHR_chaf_raw_idahten CHISS_CHR_chaf_shi_idahten CHISS_CHR_chaf_itel_idahten CHISS_CHR_chaf_ras_idahten CHISS_CHR_chaf_urama_idahten CHISS_CHR_chaf_ten_idahten CHISS_CHR_kres_orm_idahten CHISS_CHR_kres_raw_idahten CHISS_CHR_kres_shi_idahten CHISS_CHR_kres_itel_idahten CHISS_CHR_kres_ras_idahten CHISS_CHR_kres_urama_idahten CHISS_CHR_kres_ten_idahten CHISS_CHR_mitth_orm_idahten CHISS_CHR_mitth_raw_idahten CHISS_CHR_mitth_shi_idahten CHISS_CHR_mitth_itel_idahten CHISS_CHR_mitth_ras_idahten CHISS_CHR_mitth_urama_idahten CHISS_CHR_mitth_ten_idahten CHISS_CHR_ina_orm CHISS_CHR__idahten CHISS_CHR_ina_raw_idahten CHISS_CHR_ina_shi_idahten CHISS_CHR_ina_itel_idahten CHISS_CHR_ina_ras_idahten CHISS_CHR_ina_urama_idahten CHISS_CHR_ina_ten_idahten CHISS_CHR_hess_orm_idahten CHISS_CHR_hess_raw_idahten CHISS_CHR_hess_shi_idahten CHISS_CHR_hess_itel_idahten CHISS_CHR_hess_ras_idahten CHISS_CHR_hess_urama_idahten CHISS_CHR_hess_ten_idahten CHISS_CHR_kthira_orm_idahten CHISS_CHR_kthira_raw_idahten CHISS_CHR_kthira_shi_idahten CHISS_CHR_kthira_itel_idahten CHISS_CHR_kthira_ras_idahten CHISS_CHR_kthira_urama_idahten CHISS_CHR_kthira_ten_idahten CHISS_CHR_kung_orm_idahten CHISS_CHR_kung_raw_idahten CHISS_CHR_kung_shi_idahten CHISS_CHR_kung_itel_idahten CHISS_CHR_kung_ras_idahten CHISS_CHR_kung_urama_idahten CHISS_CHR_kung_ten_idahten CHISS_CHR_sev_orm_idahten CHISS_CHR_sev_raw_idahten CHISS_CHR_sev_shi_idahten CHISS_CHR_sev_itel_idahten CHISS_CHR_sev_ras_idahten CHISS_CHR_sev_urama_idahten CHISS_CHR_sev_ten_idahten CHISS_CHR_ath_orm_idahten CHISS_CHR_ath_raw_idahten CHISS_CHR_ath_shi_idahten CHISS_CHR_ath_itel_idahten CHISS_CHR_ath_ras_idahten CHISS_CHR_ath_urama_idahten CHISS_CHR_ath_ten_idahten CHISS_CHR_prard_orm_safis CHISS_CHR_prard_raw_safis CHISS_CHR_prard_shi_safis CHISS_CHR_prard_itel_safis CHISS_CHR_prard_ras_safis CHISS_CHR_prard_urama_safis CHISS_CHR_prard_ten_safis CHISS_CHR_brask_orm_safis CHISS_CHR_brask_raw_safis CHISS_CHR_brask_shi_safis CHISS_CHR_brask_itel_safis CHISS_CHR_brask_ras_safis CHISS_CHR_brask_urama_safis CHISS_CHR_brask_ten_safis CHISS_CHR_brast_orm_safis CHISS_CHR_brast_raw_safis CHISS_CHR_brast_shi_safis CHISS_CHR_brast_itel_safis CHISS_CHR_brast_ras_safis CHISS_CHR_brast_urama_safis CHISS_CHR_brast_ten_safis CHISS_CHR_chaf_orm_safis CHISS_CHR_chaf_raw_safis CHISS_CHR_chaf_shi_safis CHISS_CHR_chaf_itel_safis CHISS_CHR_chaf_ras_safis CHISS_CHR_chaf_urama_safis CHISS_CHR_chaf_ten_safis CHISS_CHR_kres_orm_safis CHISS_CHR_kres_raw_safis CHISS_CHR_kres_shi_safis CHISS_CHR_kres_itel_safis CHISS_CHR_kres_ras_safis CHISS_CHR_kres_urama_safis CHISS_CHR_kres_ten_safis CHISS_CHR_mitth_orm_safis CHISS_CHR_mitth_raw_safis CHISS_CHR_mitth_shi_safis CHISS_CHR_mitth_itel_safis CHISS_CHR_mitth_ras_safis CHISS_CHR_mitth_urama_safis CHISS_CHR_mitth_ten_safis CHISS_CHR_ina_orm CHISS_CHR__safis CHISS_CHR_ina_raw_safis CHISS_CHR_ina_shi_safis CHISS_CHR_ina_itel_safis CHISS_CHR_ina_ras_safis CHISS_CHR_ina_urama_safis CHISS_CHR_ina_ten_safis CHISS_CHR_hess_orm_safis CHISS_CHR_hess_raw_safis CHISS_CHR_hess_shi_safis CHISS_CHR_hess_itel_safis CHISS_CHR_hess_ras_safis CHISS_CHR_hess_urama_safis CHISS_CHR_hess_ten_safis CHISS_CHR_kthira_orm_safis CHISS_CHR_kthira_raw_safis CHISS_CHR_kthira_shi_safis CHISS_CHR_kthira_itel_safis CHISS_CHR_kthira_ras_safis CHISS_CHR_kthira_urama_safis CHISS_CHR_kthira_ten_safis CHISS_CHR_kung_orm_safis CHISS_CHR_kung_raw_safis CHISS_CHR_kung_shi_safis CHISS_CHR_kung_itel_safis CHISS_CHR_kung_ras_safis CHISS_CHR_kung_urama_safis CHISS_CHR_kung_ten_safis CHISS_CHR_sev_orm_safis CHISS_CHR_sev_raw_safis CHISS_CHR_sev_shi_safis CHISS_CHR_sev_itel_safis CHISS_CHR_sev_ras_safis CHISS_CHR_sev_urama_safis CHISS_CHR_sev_ten_safis CHISS_CHR_ath_orm_safis CHISS_CHR_ath_raw_safis CHISS_CHR_ath_shi_safis CHISS_CHR_ath_itel_safis CHISS_CHR_ath_ras_safis CHISS_CHR_ath_urama_safis CHISS_CHR_ath_ten_safis CHISS_CHR_prard_orm_ktarloo CHISS_CHR_prard_raw_ktarloo CHISS_CHR_prard_shi_ktarloo CHISS_CHR_prard_itel_ktarloo CHISS_CHR_prard_ras_ktarloo CHISS_CHR_prard_urama_ktarloo CHISS_CHR_prard_ten_ktarloo CHISS_CHR_brask_orm_ktarloo CHISS_CHR_brask_raw_ktarloo CHISS_CHR_brask_shi_ktarloo CHISS_CHR_brask_itel_ktarloo CHISS_CHR_brask_ras_ktarloo CHISS_CHR_brask_urama_ktarloo CHISS_CHR_brask_ten_ktarloo CHISS_CHR_brast_orm_ktarloo CHISS_CHR_brast_raw_ktarloo CHISS_CHR_brast_shi_ktarloo CHISS_CHR_brast_itel_ktarloo CHISS_CHR_brast_ras_ktarloo CHISS_CHR_brast_urama_ktarloo CHISS_CHR_brast_ten_ktarloo CHISS_CHR_chaf_orm_ktarloo CHISS_CHR_chaf_raw_ktarloo CHISS_CHR_chaf_shi_ktarloo CHISS_CHR_chaf_itel_ktarloo CHISS_CHR_chaf_ras_ktarloo CHISS_CHR_chaf_urama_ktarloo CHISS_CHR_chaf_ten_ktarloo CHISS_CHR_kres_orm_ktarloo CHISS_CHR_kres_raw_ktarloo CHISS_CHR_kres_shi_ktarloo CHISS_CHR_kres_itel_ktarloo CHISS_CHR_kres_ras_ktarloo CHISS_CHR_kres_urama_ktarloo CHISS_CHR_kres_ten_ktarloo CHISS_CHR_mitth_orm_ktarloo CHISS_CHR_mitth_raw_ktarloo CHISS_CHR_mitth_shi_ktarloo CHISS_CHR_mitth_itel_ktarloo CHISS_CHR_mitth_ras_ktarloo CHISS_CHR_mitth_urama_ktarloo CHISS_CHR_mitth_ten_ktarloo CHISS_CHR_ina_orm CHISS_CHR__ktarloo CHISS_CHR_ina_raw_ktarloo CHISS_CHR_ina_shi_ktarloo CHISS_CHR_ina_itel_ktarloo CHISS_CHR_ina_ras_ktarloo CHISS_CHR_ina_urama_ktarloo CHISS_CHR_ina_ten_ktarloo CHISS_CHR_hess_orm_ktarloo CHISS_CHR_hess_raw_ktarloo CHISS_CHR_hess_shi_ktarloo CHISS_CHR_hess_itel_ktarloo CHISS_CHR_hess_ras_ktarloo CHISS_CHR_hess_urama_ktarloo CHISS_CHR_hess_ten_ktarloo CHISS_CHR_kthira_orm_ktarloo CHISS_CHR_kthira_raw_ktarloo CHISS_CHR_kthira_shi_ktarloo CHISS_CHR_kthira_itel_ktarloo CHISS_CHR_kthira_ras_ktarloo CHISS_CHR_kthira_urama_ktarloo CHISS_CHR_kthira_ten_ktarloo CHISS_CHR_kung_orm_ktarloo CHISS_CHR_kung_raw_ktarloo CHISS_CHR_kung_shi_ktarloo CHISS_CHR_kung_itel_ktarloo CHISS_CHR_kung_ras_ktarloo CHISS_CHR_kung_urama_ktarloo CHISS_CHR_kung_ten_ktarloo CHISS_CHR_sev_orm_ktarloo CHISS_CHR_sev_raw_ktarloo CHISS_CHR_sev_shi_ktarloo CHISS_CHR_sev_itel_ktarloo CHISS_CHR_sev_ras_ktarloo CHISS_CHR_sev_urama_ktarloo CHISS_CHR_sev_ten_ktarloo CHISS_CHR_ath_orm_ktarloo CHISS_CHR_ath_raw_ktarloo CHISS_CHR_ath_shi_ktarloo CHISS_CHR_ath_itel_ktarloo CHISS_CHR_ath_ras_ktarloo CHISS_CHR_ath_urama_ktarloo CHISS_CHR_ath_ten_ktarloo CHISS_CHR_prard_orm_loro CHISS_CHR_prard_raw_loro CHISS_CHR_prard_shi_loro CHISS_CHR_prard_itel_loro CHISS_CHR_prard_ras_loro CHISS_CHR_prard_urama_loro CHISS_CHR_prard_ten_loro CHISS_CHR_brask_orm_loro CHISS_CHR_brask_raw_loro CHISS_CHR_brask_shi_loro CHISS_CHR_brask_itel_loro CHISS_CHR_brask_ras_loro CHISS_CHR_brask_urama_loro CHISS_CHR_brask_ten_loro CHISS_CHR_brast_orm_loro CHISS_CHR_brast_raw_loro CHISS_CHR_brast_shi_loro CHISS_CHR_brast_itel_loro CHISS_CHR_brast_ras_loro CHISS_CHR_brast_urama_loro CHISS_CHR_brast_ten_loro CHISS_CHR_chaf_orm_loro CHISS_CHR_chaf_raw_loro CHISS_CHR_chaf_shi_loro CHISS_CHR_chaf_itel_loro CHISS_CHR_chaf_ras_loro CHISS_CHR_chaf_urama_loro CHISS_CHR_chaf_ten_loro CHISS_CHR_kres_orm_loro CHISS_CHR_kres_raw_loro CHISS_CHR_kres_shi_loro CHISS_CHR_kres_itel_loro CHISS_CHR_kres_ras_loro CHISS_CHR_kres_urama_loro CHISS_CHR_kres_ten_loro CHISS_CHR_mitth_orm_loro CHISS_CHR_mitth_raw_loro CHISS_CHR_mitth_shi_loro CHISS_CHR_mitth_itel_loro CHISS_CHR_mitth_ras_loro CHISS_CHR_mitth_urama_loro CHISS_CHR_mitth_ten_loro CHISS_CHR_ina_orm CHISS_CHR__loro CHISS_CHR_ina_raw_loro CHISS_CHR_ina_shi_loro CHISS_CHR_ina_itel_loro CHISS_CHR_ina_ras_loro CHISS_CHR_ina_urama_loro CHISS_CHR_ina_ten_loro CHISS_CHR_hess_orm_loro CHISS_CHR_hess_raw_loro CHISS_CHR_hess_shi_loro CHISS_CHR_hess_itel_loro CHISS_CHR_hess_ras_loro CHISS_CHR_hess_urama_loro CHISS_CHR_hess_ten_loro CHISS_CHR_kthira_orm_loro CHISS_CHR_kthira_raw_loro CHISS_CHR_kthira_shi_loro CHISS_CHR_kthira_itel_loro CHISS_CHR_kthira_ras_loro CHISS_CHR_kthira_urama_loro CHISS_CHR_kthira_ten_loro CHISS_CHR_kung_orm_loro CHISS_CHR_kung_raw_loro CHISS_CHR_kung_shi_loro CHISS_CHR_kung_itel_loro CHISS_CHR_kung_ras_loro CHISS_CHR_kung_urama_loro CHISS_CHR_kung_ten_loro CHISS_CHR_sev_orm_loro CHISS_CHR_sev_raw_loro CHISS_CHR_sev_shi_loro CHISS_CHR_sev_itel_loro CHISS_CHR_sev_ras_loro CHISS_CHR_sev_urama_loro CHISS_CHR_sev_ten_loro CHISS_CHR_ath_orm_loro CHISS_CHR_ath_raw_loro CHISS_CHR_ath_shi_loro CHISS_CHR_ath_itel_loro CHISS_CHR_ath_ras_loro CHISS_CHR_ath_urama_loro CHISS_CHR_ath_ten_loro CHISS_CHR_prard_orm_tarthi CHISS_CHR_prard_raw_tarthi CHISS_CHR_prard_shi_tarthi CHISS_CHR_prard_itel_tarthi CHISS_CHR_prard_ras_tarthi CHISS_CHR_prard_urama_tarthi CHISS_CHR_prard_ten_tarthi CHISS_CHR_brask_orm_tarthi CHISS_CHR_brask_raw_tarthi CHISS_CHR_brask_shi_tarthi CHISS_CHR_brask_itel_tarthi CHISS_CHR_brask_ras_tarthi CHISS_CHR_brask_urama_tarthi CHISS_CHR_brask_ten_tarthi CHISS_CHR_brast_orm_tarthi CHISS_CHR_brast_raw_tarthi CHISS_CHR_brast_shi_tarthi CHISS_CHR_brast_itel_tarthi CHISS_CHR_brast_ras_tarthi CHISS_CHR_brast_urama_tarthi CHISS_CHR_brast_ten_tarthi CHISS_CHR_chaf_orm_tarthi CHISS_CHR_chaf_raw_tarthi CHISS_CHR_chaf_shi_tarthi CHISS_CHR_chaf_itel_tarthi CHISS_CHR_chaf_ras_tarthi CHISS_CHR_chaf_urama_tarthi CHISS_CHR_chaf_ten_tarthi CHISS_CHR_kres_orm_tarthi CHISS_CHR_kres_raw_tarthi CHISS_CHR_kres_shi_tarthi CHISS_CHR_kres_itel_tarthi CHISS_CHR_kres_ras_tarthi CHISS_CHR_kres_urama_tarthi CHISS_CHR_kres_ten_tarthi CHISS_CHR_mitth_orm_tarthi CHISS_CHR_mitth_raw_tarthi CHISS_CHR_mitth_shi_tarthi CHISS_CHR_mitth_itel_tarthi CHISS_CHR_mitth_ras_tarthi CHISS_CHR_mitth_urama_tarthi CHISS_CHR_mitth_ten_tarthi CHISS_CHR_ina_orm CHISS_CHR__tarthi CHISS_CHR_ina_raw_tarthi CHISS_CHR_ina_shi_tarthi CHISS_CHR_ina_itel_tarthi CHISS_CHR_ina_ras_tarthi CHISS_CHR_ina_urama_tarthi CHISS_CHR_ina_ten_tarthi CHISS_CHR_hess_orm_tarthi CHISS_CHR_hess_raw_tarthi CHISS_CHR_hess_shi_tarthi CHISS_CHR_hess_itel_tarthi CHISS_CHR_hess_ras_tarthi CHISS_CHR_hess_urama_tarthi CHISS_CHR_hess_ten_tarthi CHISS_CHR_kthira_orm_tarthi CHISS_CHR_kthira_raw_tarthi CHISS_CHR_kthira_shi_tarthi CHISS_CHR_kthira_itel_tarthi CHISS_CHR_kthira_ras_tarthi CHISS_CHR_kthira_urama_tarthi CHISS_CHR_kthira_ten_tarthi CHISS_CHR_kung_orm_tarthi CHISS_CHR_kung_raw_tarthi CHISS_CHR_kung_shi_tarthi CHISS_CHR_kung_itel_tarthi CHISS_CHR_kung_ras_tarthi CHISS_CHR_kung_urama_tarthi CHISS_CHR_kung_ten_tarthi CHISS_CHR_sev_orm_tarthi CHISS_CHR_sev_raw_tarthi CHISS_CHR_sev_shi_tarthi CHISS_CHR_sev_itel_tarthi CHISS_CHR_sev_ras_tarthi CHISS_CHR_sev_urama_tarthi CHISS_CHR_sev_ten_tarthi CHISS_CHR_ath_orm_tarthi CHISS_CHR_ath_raw_tarthi CHISS_CHR_ath_shi_tarthi CHISS_CHR_ath_itel_tarthi CHISS_CHR_ath_ras_tarthi CHISS_CHR_ath_urama_tarthi CHISS_CHR_ath_ten_tarthi CHISS_CHR_prard_orm_terro CHISS_CHR_prard_raw_terro CHISS_CHR_prard_shi_terro CHISS_CHR_prard_itel_terro CHISS_CHR_prard_ras_terro CHISS_CHR_prard_urama_terro CHISS_CHR_prard_ten_terro CHISS_CHR_brask_orm_terro CHISS_CHR_brask_raw_terro CHISS_CHR_brask_shi_terro CHISS_CHR_brask_itel_terro CHISS_CHR_brask_ras_terro CHISS_CHR_brask_urama_terro CHISS_CHR_brask_ten_terro CHISS_CHR_brast_orm_terro CHISS_CHR_brast_raw_terro CHISS_CHR_brast_shi_terro CHISS_CHR_brast_itel_terro CHISS_CHR_brast_ras_terro CHISS_CHR_brast_urama_terro CHISS_CHR_brast_ten_terro CHISS_CHR_chaf_orm_terro CHISS_CHR_chaf_raw_terro CHISS_CHR_chaf_shi_terro CHISS_CHR_chaf_itel_terro CHISS_CHR_chaf_ras_terro CHISS_CHR_chaf_urama_terro CHISS_CHR_chaf_ten_terro CHISS_CHR_kres_orm_terro CHISS_CHR_kres_raw_terro CHISS_CHR_kres_shi_terro CHISS_CHR_kres_itel_terro CHISS_CHR_kres_ras_terro CHISS_CHR_kres_urama_terro CHISS_CHR_kres_ten_terro CHISS_CHR_mitth_orm_terro CHISS_CHR_mitth_raw_terro CHISS_CHR_mitth_shi_terro CHISS_CHR_mitth_itel_terro CHISS_CHR_mitth_ras_terro CHISS_CHR_mitth_urama_terro CHISS_CHR_mitth_ten_terro CHISS_CHR_ina_orm CHISS_CHR__terro CHISS_CHR_ina_raw_terro CHISS_CHR_ina_shi_terro CHISS_CHR_ina_itel_terro CHISS_CHR_ina_ras_terro CHISS_CHR_ina_urama_terro CHISS_CHR_ina_ten_terro CHISS_CHR_hess_orm_terro CHISS_CHR_hess_raw_terro CHISS_CHR_hess_shi_terro CHISS_CHR_hess_itel_terro CHISS_CHR_hess_ras_terro CHISS_CHR_hess_urama_terro CHISS_CHR_hess_ten_terro CHISS_CHR_kthira_orm_terro CHISS_CHR_kthira_raw_terro CHISS_CHR_kthira_shi_terro CHISS_CHR_kthira_itel_terro CHISS_CHR_kthira_ras_terro CHISS_CHR_kthira_urama_terro CHISS_CHR_kthira_ten_terro CHISS_CHR_kung_orm_terro CHISS_CHR_kung_raw_terro CHISS_CHR_kung_shi_terro CHISS_CHR_kung_itel_terro CHISS_CHR_kung_ras_terro CHISS_CHR_kung_urama_terro CHISS_CHR_kung_ten_terro CHISS_CHR_sev_orm_terro CHISS_CHR_sev_raw_terro CHISS_CHR_sev_shi_terro CHISS_CHR_sev_itel_terro CHISS_CHR_sev_ras_terro CHISS_CHR_sev_urama_terro CHISS_CHR_sev_ten_terro CHISS_CHR_ath_orm_terro CHISS_CHR_ath_raw_terro CHISS_CHR_ath_shi_terro CHISS_CHR_ath_itel_terro CHISS_CHR_ath_ras_terro CHISS_CHR_ath_urama_terro CHISS_CHR_ath_ten_terro
+			}
+			full_names_female = {
+				CHISS_CHR_prard_hankyr_nuruodo CHISS_CHR_prard_ard_nuruodo CHISS_CHR_prard_irolia_nuruodo CHISS_CHR_prard_eere_nuruodo CHISS_CHR_prard_alan_nuruodo CHISS_CHR_prard_ran_nuruodo CHISS_CHR_brask_hankyr_nuruodo CHISS_CHR_brask_ard_nuruodo CHISS_CHR_brask_irolia_nuruodo CHISS_CHR_brask_eere_nuruodo CHISS_CHR_brask_alan_nuruodo CHISS_CHR_brask_ran_nuruodo CHISS_CHR_brast_hankyr_nuruodo CHISS_CHR_brast_ard_nuruodo CHISS_CHR_brast_irolia_nuruodo CHISS_CHR_brast_eere_nuruodo CHISS_CHR_brast_alan_nuruodo CHISS_CHR_brast_ran_nuruodo CHISS_CHR_chaf_hankyr_nuruodo CHISS_CHR_chaf_arr_nuruodo CHISS_CHR_chaf_irolia_nuruodo CHISS_CHR_chaf_eere_nuruodo CHISS_CHR_chaf_alan_nuruodo CHISS_CHR_chaf_ran_nuruodo CHISS_CHR_kres_hankyr_nuruodo CHISS_CHR_kres_ard_nuruodo CHISS_CHR_kres_irolia_nuruodo CHISS_CHR_kres_eere_nuruodo CHISS_CHR_kres_alan_nuruodo CHISS_CHR_kres_ran_nuruodo CHISS_CHR_mitth_ankyr_nuruodo CHISS_CHR_mitth_ard_nuruodo CHISS_CHR_mitth_irolia_nuruodo CHISS_CHR_mitth_eere_nuruodo CHISS_CHR_mitth_alan_nuruodo CHISS_CHR_mitth_ran_nuruodo CHISS_CHR_ina_hankyr_nuruodo CHISS_CHR_ina_ard_nuruodo CHISS_CHR_ina_irolia_nuruodo CHISS_CHR_ina_eere_nuruodo CHISS_CHR_ina_alan_nuruodo CHISS_CHR_ina_ran_nuruodo CHISS_CHR_hess_hankyr_nuruodo CHISS_CHR_hess_ard_nuruodo CHISS_CHR_hess_irolia_nuruodo CHISS_CHR_hess_eere_nuruodo CHISS_CHR_hess_alan_nuruodo CHISS_CHR_hess_ran_nuruodo CHISS_CHR_kthira_hankyr_nuruodo CHISS_CHR_kthira_ard_nuruodo CHISS_CHR_kthira_irolia_nuruodo CHISS_CHR_kthira_eere_nuruodo CHISS_CHR_kthira_alan_nuruodo CHISS_CHR_kthira_ran_nuruodo CHISS_CHR_kung_hankyr_nuruodo CHISS_CHR_kung_ard_nuruodo CHISS_CHR_kung_irolia_nuruodo CHISS_CHR_kung_eere_nuruodo CHISS_CHR_kung_alan_nuruodo CHISS_CHR_kung_ran_nuruodo CHISS_CHR_sev_hankyr_nuruodo CHISS_CHR_sev_ard_nuruodo CHISS_CHR_sev_irolia_nuruodo CHISS_CHR_sev_eere_nuruodo CHISS_CHR_sev_alan_nuruodo CHISS_CHR_sev_ran_nuruodo CHISS_CHR_ath_hankyr_nuruodo CHISS_CHR_ath_ard_nuruodo CHISS_CHR_ath_irolia_nuruodo CHISS_CHR_ath_eere_nuruodo CHISS_CHR_ath_alan_nuruodo CHISS_CHR_ath_ran_nuruodo CHISS_CHR_prard_hankyr_cspalla CHISS_CHR_prard_ard_cspalla CHISS_CHR_prard_irolia_cspalla CHISS_CHR_prard_eere_cspalla CHISS_CHR_prard_alan_cspalla CHISS_CHR_prard_ran_cspalla CHISS_CHR_brask_hankyr_cspalla CHISS_CHR_brask_ard_cspalla CHISS_CHR_brask_irolia_cspalla CHISS_CHR_brask_eere_cspalla CHISS_CHR_brask_alan_cspalla CHISS_CHR_brask_ran_cspalla CHISS_CHR_brast_hankyr_cspalla CHISS_CHR_brast_ard_cspalla CHISS_CHR_brast_irolia_cspalla CHISS_CHR_brast_eere_cspalla CHISS_CHR_brast_alan_cspalla CHISS_CHR_brast_ran_cspalla CHISS_CHR_chaf_hankyr_cspalla CHISS_CHR_chaf_arr_cspalla CHISS_CHR_chaf_irolia_cspalla CHISS_CHR_chaf_eere_cspalla CHISS_CHR_chaf_alan_cspalla CHISS_CHR_chaf_ran_cspalla CHISS_CHR_kres_hankyr_cspalla CHISS_CHR_kres_ard_cspalla CHISS_CHR_kres_irolia_cspalla CHISS_CHR_kres_eere_cspalla CHISS_CHR_kres_alan_cspalla CHISS_CHR_kres_ran_cspalla CHISS_CHR_mitth_ankyr_cspalla CHISS_CHR_mitth_ard_cspalla CHISS_CHR_mitth_irolia_cspalla CHISS_CHR_mitth_eere_cspalla CHISS_CHR_mitth_alan_cspalla CHISS_CHR_mitth_ran_cspalla CHISS_CHR_ina_hankyr_cspalla CHISS_CHR_ina_ard_cspalla CHISS_CHR_ina_irolia_cspalla CHISS_CHR_ina_eere_cspalla CHISS_CHR_ina_alan_cspalla CHISS_CHR_ina_ran_cspalla CHISS_CHR_hess_hankyr_cspalla CHISS_CHR_hess_ard_cspalla CHISS_CHR_hess_irolia_cspalla CHISS_CHR_hess_eere_cspalla CHISS_CHR_hess_alan_cspalla CHISS_CHR_hess_ran_cspalla CHISS_CHR_kthira_hankyr_cspalla CHISS_CHR_kthira_ard_cspalla CHISS_CHR_kthira_irolia_cspalla CHISS_CHR_kthira_eere_cspalla CHISS_CHR_kthira_alan_cspalla CHISS_CHR_kthira_ran_cspalla CHISS_CHR_kung_hankyr_cspalla CHISS_CHR_kung_ard_cspalla CHISS_CHR_kung_irolia_cspalla CHISS_CHR_kung_eere_cspalla CHISS_CHR_kung_alan_cspalla CHISS_CHR_kung_ran_cspalla CHISS_CHR_sev_hankyr_cspalla CHISS_CHR_sev_ard_cspalla CHISS_CHR_sev_irolia_cspalla CHISS_CHR_sev_eere_cspalla CHISS_CHR_sev_alan_cspalla CHISS_CHR_sev_ran_cspalla CHISS_CHR_ath_hankyr_cspalla CHISS_CHR_ath_ard_cspalla CHISS_CHR_ath_irolia_cspalla CHISS_CHR_ath_eere_cspalla CHISS_CHR_ath_alan_cspalla CHISS_CHR_ath_ran_cspalla CHISS_CHR_prard_hankyr_sabosen CHISS_CHR_prard_ard_sabosen CHISS_CHR_prard_irolia_sabosen CHISS_CHR_prard_eere_sabosen CHISS_CHR_prard_alan_sabosen CHISS_CHR_prard_ran_sabosen CHISS_CHR_brask_hankyr_sabosen CHISS_CHR_brask_ard_sabosen CHISS_CHR_brask_irolia_sabosen CHISS_CHR_brask_eere_sabosen CHISS_CHR_brask_alan_sabosen CHISS_CHR_brask_ran_sabosen CHISS_CHR_brast_hankyr_sabosen CHISS_CHR_brast_ard_sabosen CHISS_CHR_brast_irolia_sabosen CHISS_CHR_brast_eere_sabosen CHISS_CHR_brast_alan_sabosen CHISS_CHR_brast_ran_sabosen CHISS_CHR_chaf_hankyr_sabosen CHISS_CHR_chaf_arr_sabosen CHISS_CHR_chaf_irolia_sabosen CHISS_CHR_chaf_eere_sabosen CHISS_CHR_chaf_alan_sabosen CHISS_CHR_chaf_ran_sabosen CHISS_CHR_kres_hankyr_sabosen CHISS_CHR_kres_ard_sabosen CHISS_CHR_kres_irolia_sabosen CHISS_CHR_kres_eere_sabosen CHISS_CHR_kres_alan_sabosen CHISS_CHR_kres_ran_sabosen CHISS_CHR_mitth_ankyr_sabosen CHISS_CHR_mitth_ard_sabosen CHISS_CHR_mitth_irolia_sabosen CHISS_CHR_mitth_eere_sabosen CHISS_CHR_mitth_alan_sabosen CHISS_CHR_mitth_ran_sabosen CHISS_CHR_ina_hankyr_sabosen CHISS_CHR_ina_ard_sabosen CHISS_CHR_ina_irolia_sabosen CHISS_CHR_ina_eere_sabosen CHISS_CHR_ina_alan_sabosen CHISS_CHR_ina_ran_sabosen CHISS_CHR_hess_hankyr_sabosen CHISS_CHR_hess_ard_sabosen CHISS_CHR_hess_irolia_sabosen CHISS_CHR_hess_eere_sabosen CHISS_CHR_hess_alan_sabosen CHISS_CHR_hess_ran_sabosen CHISS_CHR_kthira_hankyr_sabosen CHISS_CHR_kthira_ard_sabosen CHISS_CHR_kthira_irolia_sabosen CHISS_CHR_kthira_eere_sabosen CHISS_CHR_kthira_alan_sabosen CHISS_CHR_kthira_ran_sabosen CHISS_CHR_kung_hankyr_sabosen CHISS_CHR_kung_ard_sabosen CHISS_CHR_kung_irolia_sabosen CHISS_CHR_kung_eere_sabosen CHISS_CHR_kung_alan_sabosen CHISS_CHR_kung_ran_sabosen CHISS_CHR_sev_hankyr_sabosen CHISS_CHR_sev_ard_sabosen CHISS_CHR_sev_irolia_sabosen CHISS_CHR_sev_eere_sabosen CHISS_CHR_sev_alan_sabosen CHISS_CHR_sev_ran_sabosen CHISS_CHR_ath_hankyr_sabosen CHISS_CHR_ath_ard_sabosen CHISS_CHR_ath_irolia_sabosen CHISS_CHR_ath_eere_sabosen CHISS_CHR_ath_alan_sabosen CHISS_CHR_ath_ran_sabosen CHISS_CHR_prard_hankyr_inrokini CHISS_CHR_prard_ard_inrokini CHISS_CHR_prard_irolia_inrokini CHISS_CHR_prard_eere_inrokini CHISS_CHR_prard_alan_inrokini CHISS_CHR_prard_ran_inrokini CHISS_CHR_brask_hankyr_inrokini CHISS_CHR_brask_ard_inrokini CHISS_CHR_brask_irolia_inrokini CHISS_CHR_brask_eere_inrokini CHISS_CHR_brask_alan_inrokini CHISS_CHR_brask_ran_inrokini CHISS_CHR_brast_hankyr_inrokini CHISS_CHR_brast_ard_inrokini CHISS_CHR_brast_irolia_inrokini CHISS_CHR_brast_eere_inrokini CHISS_CHR_brast_alan_inrokini CHISS_CHR_brast_ran_inrokini CHISS_CHR_chaf_hankyr_inrokini CHISS_CHR_chaf_arr_inrokini CHISS_CHR_chaf_irolia_inrokini CHISS_CHR_chaf_eere_inrokini CHISS_CHR_chaf_alan_inrokini CHISS_CHR_chaf_ran_inrokini CHISS_CHR_kres_hankyr_inrokini CHISS_CHR_kres_ard_inrokini CHISS_CHR_kres_irolia_inrokini CHISS_CHR_kres_eere_inrokini CHISS_CHR_kres_alan_inrokini CHISS_CHR_kres_ran_inrokini CHISS_CHR_mitth_ankyr_inrokini CHISS_CHR_mitth_ard_inrokini CHISS_CHR_mitth_irolia_inrokini CHISS_CHR_mitth_eere_inrokini CHISS_CHR_mitth_alan_inrokini CHISS_CHR_mitth_ran_inrokini CHISS_CHR_ina_hankyr_inrokini CHISS_CHR_ina_ard_inrokini CHISS_CHR_ina_irolia_inrokini CHISS_CHR_ina_eere_inrokini CHISS_CHR_ina_alan_inrokini CHISS_CHR_ina_ran_inrokini CHISS_CHR_hess_hankyr_inrokini CHISS_CHR_hess_ard_inrokini CHISS_CHR_hess_irolia_inrokini CHISS_CHR_hess_eere_inrokini CHISS_CHR_hess_alan_inrokini CHISS_CHR_hess_ran_inrokini CHISS_CHR_kthira_hankyr_inrokini CHISS_CHR_kthira_ard_inrokini CHISS_CHR_kthira_irolia_inrokini CHISS_CHR_kthira_eere_inrokini CHISS_CHR_kthira_alan_inrokini CHISS_CHR_kthira_ran_inrokini CHISS_CHR_kung_hankyr_inrokini CHISS_CHR_kung_ard_inrokini CHISS_CHR_kung_irolia_inrokini CHISS_CHR_kung_eere_inrokini CHISS_CHR_kung_alan_inrokini CHISS_CHR_kung_ran_inrokini CHISS_CHR_sev_hankyr_inrokini CHISS_CHR_sev_ard_inrokini CHISS_CHR_sev_irolia_inrokini CHISS_CHR_sev_eere_inrokini CHISS_CHR_sev_alan_inrokini CHISS_CHR_sev_ran_inrokini CHISS_CHR_ath_hankyr_inrokini CHISS_CHR_ath_ard_inrokini CHISS_CHR_ath_irolia_inrokini CHISS_CHR_ath_eere_inrokini CHISS_CHR_ath_alan_inrokini CHISS_CHR_ath_ran_inrokini CHISS_CHR_prard_hankyr_kleoni CHISS_CHR_prard_ard_kleoni CHISS_CHR_prard_irolia_kleoni CHISS_CHR_prard_eere_kleoni CHISS_CHR_prard_alan_kleoni CHISS_CHR_prard_ran_kleoni CHISS_CHR_brask_hankyr_kleoni CHISS_CHR_brask_ard_kleoni CHISS_CHR_brask_irolia_kleoni CHISS_CHR_brask_eere_kleoni CHISS_CHR_brask_alan_kleoni CHISS_CHR_brask_ran_kleoni CHISS_CHR_brast_hankyr_kleoni CHISS_CHR_brast_ard_kleoni CHISS_CHR_brast_irolia_kleoni CHISS_CHR_brast_eere_kleoni CHISS_CHR_brast_alan_kleoni CHISS_CHR_brast_ran_kleoni CHISS_CHR_chaf_hankyr_kleoni CHISS_CHR_chaf_arr_kleoni CHISS_CHR_chaf_irolia_kleoni CHISS_CHR_chaf_eere_kleoni CHISS_CHR_chaf_alan_kleoni CHISS_CHR_chaf_ran_kleoni CHISS_CHR_kres_hankyr_kleoni CHISS_CHR_kres_ard_kleoni CHISS_CHR_kres_irolia_kleoni CHISS_CHR_kres_eere_kleoni CHISS_CHR_kres_alan_kleoni CHISS_CHR_kres_ran_kleoni CHISS_CHR_mitth_ankyr_kleoni CHISS_CHR_mitth_ard_kleoni CHISS_CHR_mitth_irolia_kleoni CHISS_CHR_mitth_eere_kleoni CHISS_CHR_mitth_alan_kleoni CHISS_CHR_mitth_ran_kleoni CHISS_CHR_ina_hankyr_kleoni CHISS_CHR_ina_ard_kleoni CHISS_CHR_ina_irolia_kleoni CHISS_CHR_ina_eere_kleoni CHISS_CHR_ina_alan_kleoni CHISS_CHR_ina_ran_kleoni CHISS_CHR_hess_hankyr_kleoni CHISS_CHR_hess_ard_kleoni CHISS_CHR_hess_irolia_kleoni CHISS_CHR_hess_eere_kleoni CHISS_CHR_hess_alan_kleoni CHISS_CHR_hess_ran_kleoni CHISS_CHR_kthira_hankyr_kleoni CHISS_CHR_kthira_ard_kleoni CHISS_CHR_kthira_irolia_kleoni CHISS_CHR_kthira_eere_kleoni CHISS_CHR_kthira_alan_kleoni CHISS_CHR_kthira_ran_kleoni CHISS_CHR_kung_hankyr_kleoni CHISS_CHR_kung_ard_kleoni CHISS_CHR_kung_irolia_kleoni CHISS_CHR_kung_eere_kleoni CHISS_CHR_kung_alan_kleoni CHISS_CHR_kung_ran_kleoni CHISS_CHR_sev_hankyr_kleoni CHISS_CHR_sev_ard_kleoni CHISS_CHR_sev_irolia_kleoni CHISS_CHR_sev_eere_kleoni CHISS_CHR_sev_alan_kleoni CHISS_CHR_sev_ran_kleoni CHISS_CHR_ath_hankyr_kleoni CHISS_CHR_ath_ard_kleoni CHISS_CHR_ath_irolia_kleoni CHISS_CHR_ath_eere_kleoni CHISS_CHR_ath_alan_kleoni CHISS_CHR_ath_ran_kleoni CHISS_CHR_prard_hankyr_bintrano CHISS_CHR_prard_ard_bintrano CHISS_CHR_prard_irolia_bintrano CHISS_CHR_prard_eere_bintrano CHISS_CHR_prard_alan_bintrano CHISS_CHR_prard_ran_bintrano CHISS_CHR_brask_hankyr_bintrano CHISS_CHR_brask_ard_bintrano CHISS_CHR_brask_irolia_bintrano CHISS_CHR_brask_eere_bintrano CHISS_CHR_brask_alan_bintrano CHISS_CHR_brask_ran_bintrano CHISS_CHR_brast_hankyr_bintrano CHISS_CHR_brast_ard_bintrano CHISS_CHR_brast_irolia_bintrano CHISS_CHR_brast_eere_bintrano CHISS_CHR_brast_alan_bintrano CHISS_CHR_brast_ran_bintrano CHISS_CHR_chaf_hankyr_bintrano CHISS_CHR_chaf_arr_bintrano CHISS_CHR_chaf_irolia_bintrano CHISS_CHR_chaf_eere_bintrano CHISS_CHR_chaf_alan_bintrano CHISS_CHR_chaf_ran_bintrano CHISS_CHR_kres_hankyr_bintrano CHISS_CHR_kres_ard_bintrano CHISS_CHR_kres_irolia_bintrano CHISS_CHR_kres_eere_bintrano CHISS_CHR_kres_alan_bintrano CHISS_CHR_kres_ran_bintrano CHISS_CHR_mitth_ankyr_bintrano CHISS_CHR_mitth_ard_bintrano CHISS_CHR_mitth_irolia_bintrano CHISS_CHR_mitth_eere_bintrano CHISS_CHR_mitth_alan_bintrano CHISS_CHR_mitth_ran_bintrano CHISS_CHR_ina_hankyr_bintrano CHISS_CHR_ina_ard_bintrano CHISS_CHR_ina_irolia_bintrano CHISS_CHR_ina_eere_bintrano CHISS_CHR_ina_alan_bintrano CHISS_CHR_ina_ran_bintrano CHISS_CHR_hess_hankyr_bintrano CHISS_CHR_hess_ard_bintrano CHISS_CHR_hess_irolia_bintrano CHISS_CHR_hess_eere_bintrano CHISS_CHR_hess_alan_bintrano CHISS_CHR_hess_ran_bintrano CHISS_CHR_kthira_hankyr_bintrano CHISS_CHR_kthira_ard_bintrano CHISS_CHR_kthira_irolia_bintrano CHISS_CHR_kthira_eere_bintrano CHISS_CHR_kthira_alan_bintrano CHISS_CHR_kthira_ran_bintrano CHISS_CHR_kung_hankyr_bintrano CHISS_CHR_kung_ard_bintrano CHISS_CHR_kung_irolia_bintrano CHISS_CHR_kung_eere_bintrano CHISS_CHR_kung_alan_bintrano CHISS_CHR_kung_ran_bintrano CHISS_CHR_sev_hankyr_bintrano CHISS_CHR_sev_ard_bintrano CHISS_CHR_sev_irolia_bintrano CHISS_CHR_sev_eere_bintrano CHISS_CHR_sev_alan_bintrano CHISS_CHR_sev_ran_bintrano CHISS_CHR_ath_hankyr_bintrano CHISS_CHR_ath_ard_bintrano CHISS_CHR_ath_irolia_bintrano CHISS_CHR_ath_eere_bintrano CHISS_CHR_ath_alan_bintrano CHISS_CHR_ath_ran_bintrano CHISS_CHR_prard_hankyr_barku CHISS_CHR_prard_ard_barku CHISS_CHR_prard_irolia_barku CHISS_CHR_prard_eere_barku CHISS_CHR_prard_alan_barku CHISS_CHR_prard_ran_barku CHISS_CHR_brask_hankyr_barku CHISS_CHR_brask_ard_barku CHISS_CHR_brask_irolia_barku CHISS_CHR_brask_eere_barku CHISS_CHR_brask_alan_barku CHISS_CHR_brask_ran_barku CHISS_CHR_brast_hankyr_barku CHISS_CHR_brast_ard_barku CHISS_CHR_brast_irolia_barku CHISS_CHR_brast_eere_barku CHISS_CHR_brast_alan_barku CHISS_CHR_brast_ran_barku CHISS_CHR_chaf_hankyr_barku CHISS_CHR_chaf_arr_barku CHISS_CHR_chaf_irolia_barku CHISS_CHR_chaf_eere_barku CHISS_CHR_chaf_alan_barku CHISS_CHR_chaf_ran_barku CHISS_CHR_kres_hankyr_barku CHISS_CHR_kres_ard_barku CHISS_CHR_kres_irolia_barku CHISS_CHR_kres_eere_barku CHISS_CHR_kres_alan_barku CHISS_CHR_kres_ran_barku CHISS_CHR_mitth_ankyr_barku CHISS_CHR_mitth_ard_barku CHISS_CHR_mitth_irolia_barku CHISS_CHR_mitth_eere_barku CHISS_CHR_mitth_alan_barku CHISS_CHR_mitth_ran_barku CHISS_CHR_ina_hankyr_barku CHISS_CHR_ina_ard_barku CHISS_CHR_ina_irolia_barku CHISS_CHR_ina_eere_barku CHISS_CHR_ina_alan_barku CHISS_CHR_ina_ran_barku CHISS_CHR_hess_hankyr_barku CHISS_CHR_hess_ard_barku CHISS_CHR_hess_irolia_barku CHISS_CHR_hess_eere_barku CHISS_CHR_hess_alan_barku CHISS_CHR_hess_ran_barku CHISS_CHR_kthira_hankyr_barku CHISS_CHR_kthira_ard_barku CHISS_CHR_kthira_irolia_barku CHISS_CHR_kthira_eere_barku CHISS_CHR_kthira_alan_barku CHISS_CHR_kthira_ran_barku CHISS_CHR_kung_hankyr_barku CHISS_CHR_kung_ard_barku CHISS_CHR_kung_irolia_barku CHISS_CHR_kung_eere_barku CHISS_CHR_kung_alan_barku CHISS_CHR_kung_ran_barku CHISS_CHR_sev_hankyr_barku CHISS_CHR_sev_ard_barku CHISS_CHR_sev_irolia_barku CHISS_CHR_sev_eere_barku CHISS_CHR_sev_alan_barku CHISS_CHR_sev_ran_barku CHISS_CHR_ath_hankyr_barku CHISS_CHR_ath_ard_barku CHISS_CHR_ath_irolia_barku CHISS_CHR_ath_eere_barku CHISS_CHR_ath_alan_barku CHISS_CHR_ath_ran_barku CHISS_CHR_prard_hankyr_aklaio CHISS_CHR_prard_ard_aklaio CHISS_CHR_prard_irolia_aklaio CHISS_CHR_prard_eere_aklaio CHISS_CHR_prard_alan_aklaio CHISS_CHR_prard_ran_aklaio CHISS_CHR_brask_hankyr_aklaio CHISS_CHR_brask_ard_aklaio CHISS_CHR_brask_irolia_aklaio CHISS_CHR_brask_eere_aklaio CHISS_CHR_brask_alan_aklaio CHISS_CHR_brask_ran_aklaio CHISS_CHR_brast_hankyr_aklaio CHISS_CHR_brast_ard_aklaio CHISS_CHR_brast_irolia_aklaio CHISS_CHR_brast_eere_aklaio CHISS_CHR_brast_alan_aklaio CHISS_CHR_brast_ran_aklaio CHISS_CHR_chaf_hankyr_aklaio CHISS_CHR_chaf_arr_aklaio CHISS_CHR_chaf_irolia_aklaio CHISS_CHR_chaf_eere_aklaio CHISS_CHR_chaf_alan_aklaio CHISS_CHR_chaf_ran_aklaio CHISS_CHR_kres_hankyr_aklaio CHISS_CHR_kres_ard_aklaio CHISS_CHR_kres_irolia_aklaio CHISS_CHR_kres_eere_aklaio CHISS_CHR_kres_alan_aklaio CHISS_CHR_kres_ran_aklaio CHISS_CHR_mitth_ankyr_aklaio CHISS_CHR_mitth_ard_aklaio CHISS_CHR_mitth_irolia_aklaio CHISS_CHR_mitth_eere_aklaio CHISS_CHR_mitth_alan_aklaio CHISS_CHR_mitth_ran_aklaio CHISS_CHR_ina_hankyr_aklaio CHISS_CHR_ina_ard_aklaio CHISS_CHR_ina_irolia_aklaio CHISS_CHR_ina_eere_aklaio CHISS_CHR_ina_alan_aklaio CHISS_CHR_ina_ran_aklaio CHISS_CHR_hess_hankyr_aklaio CHISS_CHR_hess_ard_aklaio CHISS_CHR_hess_irolia_aklaio CHISS_CHR_hess_eere_aklaio CHISS_CHR_hess_alan_aklaio CHISS_CHR_hess_ran_aklaio CHISS_CHR_kthira_hankyr_aklaio CHISS_CHR_kthira_ard_aklaio CHISS_CHR_kthira_irolia_aklaio CHISS_CHR_kthira_eere_aklaio CHISS_CHR_kthira_alan_aklaio CHISS_CHR_kthira_ran_aklaio CHISS_CHR_kung_hankyr_aklaio CHISS_CHR_kung_ard_aklaio CHISS_CHR_kung_irolia_aklaio CHISS_CHR_kung_eere_aklaio CHISS_CHR_kung_alan_aklaio CHISS_CHR_kung_ran_aklaio CHISS_CHR_sev_hankyr_aklaio CHISS_CHR_sev_ard_aklaio CHISS_CHR_sev_irolia_aklaio CHISS_CHR_sev_eere_aklaio CHISS_CHR_sev_alan_aklaio CHISS_CHR_sev_ran_aklaio CHISS_CHR_ath_hankyr_aklaio CHISS_CHR_ath_ard_aklaio CHISS_CHR_ath_irolia_aklaio CHISS_CHR_ath_eere_aklaio CHISS_CHR_ath_alan_aklaio CHISS_CHR_ath_ran_aklaio CHISS_CHR_prard_hankyr_iflar CHISS_CHR_prard_ard_iflar CHISS_CHR_prard_irolia_iflar CHISS_CHR_prard_eere_iflar CHISS_CHR_prard_alan_iflar CHISS_CHR_prard_ran_iflar CHISS_CHR_brask_hankyr_iflar CHISS_CHR_brask_ard_iflar CHISS_CHR_brask_irolia_iflar CHISS_CHR_brask_eere_iflar CHISS_CHR_brask_alan_iflar CHISS_CHR_brask_ran_iflar CHISS_CHR_brast_hankyr_iflar CHISS_CHR_brast_ard_iflar CHISS_CHR_brast_irolia_iflar CHISS_CHR_brast_eere_iflar CHISS_CHR_brast_alan_iflar CHISS_CHR_brast_ran_iflar CHISS_CHR_chaf_hankyr_iflar CHISS_CHR_chaf_arr_iflar CHISS_CHR_chaf_irolia_iflar CHISS_CHR_chaf_eere_iflar CHISS_CHR_chaf_alan_iflar CHISS_CHR_chaf_ran_iflar CHISS_CHR_kres_hankyr_iflar CHISS_CHR_kres_ard_iflar CHISS_CHR_kres_irolia_iflar CHISS_CHR_kres_eere_iflar CHISS_CHR_kres_alan_iflar CHISS_CHR_kres_ran_iflar CHISS_CHR_mitth_ankyr_iflar CHISS_CHR_mitth_ard_iflar CHISS_CHR_mitth_irolia_iflar CHISS_CHR_mitth_eere_iflar CHISS_CHR_mitth_alan_iflar CHISS_CHR_mitth_ran_iflar CHISS_CHR_ina_hankyr_iflar CHISS_CHR_ina_ard_iflar CHISS_CHR_ina_irolia_iflar CHISS_CHR_ina_eere_iflar CHISS_CHR_ina_alan_iflar CHISS_CHR_ina_ran_iflar CHISS_CHR_hess_hankyr_iflar CHISS_CHR_hess_ard_iflar CHISS_CHR_hess_irolia_iflar CHISS_CHR_hess_eere_iflar CHISS_CHR_hess_alan_iflar CHISS_CHR_hess_ran_iflar CHISS_CHR_kthira_hankyr_iflar CHISS_CHR_kthira_ard_iflar CHISS_CHR_kthira_irolia_iflar CHISS_CHR_kthira_eere_iflar CHISS_CHR_kthira_alan_iflar CHISS_CHR_kthira_ran_iflar CHISS_CHR_kung_hankyr_iflar CHISS_CHR_kung_ard_iflar CHISS_CHR_kung_irolia_iflar CHISS_CHR_kung_eere_iflar CHISS_CHR_kung_alan_iflar CHISS_CHR_kung_ran_iflar CHISS_CHR_sev_hankyr_iflar CHISS_CHR_sev_ard_iflar CHISS_CHR_sev_irolia_iflar CHISS_CHR_sev_eere_iflar CHISS_CHR_sev_alan_iflar CHISS_CHR_sev_ran_iflar CHISS_CHR_ath_hankyr_iflar CHISS_CHR_ath_ard_iflar CHISS_CHR_ath_irolia_iflar CHISS_CHR_ath_eere_iflar CHISS_CHR_ath_alan_iflar CHISS_CHR_ath_ran_iflar CHISS_CHR_prard_hankyr_tarthi CHISS_CHR_prard_ard_tarthi CHISS_CHR_prard_irolia_tarthi CHISS_CHR_prard_eere_tarthi CHISS_CHR_prard_alan_tarthi CHISS_CHR_prard_ran_tarthi CHISS_CHR_brask_hankyr_tarthi CHISS_CHR_brask_ard_tarthi CHISS_CHR_brask_irolia_tarthi CHISS_CHR_brask_eere_tarthi CHISS_CHR_brask_alan_tarthi CHISS_CHR_brask_ran_tarthi CHISS_CHR_brast_hankyr_tarthi CHISS_CHR_brast_ard_tarthi CHISS_CHR_brast_irolia_tarthi CHISS_CHR_brast_eere_tarthi CHISS_CHR_brast_alan_tarthi CHISS_CHR_brast_ran_tarthi CHISS_CHR_chaf_hankyr_tarthi CHISS_CHR_chaf_arr_tarthi CHISS_CHR_chaf_irolia_tarthi CHISS_CHR_chaf_eere_tarthi CHISS_CHR_chaf_alan_tarthi CHISS_CHR_chaf_ran_tarthi CHISS_CHR_kres_hankyr_tarthi CHISS_CHR_kres_ard_tarthi CHISS_CHR_kres_irolia_tarthi CHISS_CHR_kres_eere_tarthi CHISS_CHR_kres_alan_tarthi CHISS_CHR_kres_ran_tarthi CHISS_CHR_mitth_ankyr_tarthi CHISS_CHR_mitth_ard_tarthi CHISS_CHR_mitth_irolia_tarthi CHISS_CHR_mitth_eere_tarthi CHISS_CHR_mitth_alan_tarthi CHISS_CHR_mitth_ran_tarthi CHISS_CHR_ina_hankyr_tarthi CHISS_CHR_ina_ard_tarthi CHISS_CHR_ina_irolia_tarthi CHISS_CHR_ina_eere_tarthi CHISS_CHR_ina_alan_tarthi CHISS_CHR_ina_ran_tarthi CHISS_CHR_hess_hankyr_tarthi CHISS_CHR_hess_ard_tarthi CHISS_CHR_hess_irolia_tarthi CHISS_CHR_hess_eere_tarthi CHISS_CHR_hess_alan_tarthi CHISS_CHR_hess_ran_tarthi CHISS_CHR_kthira_hankyr_tarthi CHISS_CHR_kthira_ard_tarthi CHISS_CHR_kthira_irolia_tarthi CHISS_CHR_kthira_eere_tarthi CHISS_CHR_kthira_alan_tarthi CHISS_CHR_kthira_ran_tarthi CHISS_CHR_kung_hankyr_tarthi CHISS_CHR_kung_ard_tarthi CHISS_CHR_kung_irolia_tarthi CHISS_CHR_kung_eere_tarthi CHISS_CHR_kung_alan_tarthi CHISS_CHR_kung_ran_tarthi CHISS_CHR_sev_hankyr_tarthi CHISS_CHR_sev_ard_tarthi CHISS_CHR_sev_irolia_tarthi CHISS_CHR_sev_eere_tarthi CHISS_CHR_sev_alan_tarthi CHISS_CHR_sev_ran_tarthi CHISS_CHR_ath_hankyr_tarthi CHISS_CHR_ath_ard_tarthi CHISS_CHR_ath_irolia_tarthi CHISS_CHR_ath_eere_tarthi CHISS_CHR_ath_alan_tarthi CHISS_CHR_ath_ran_tarthi CHISS_CHR_prard_hankyr_idahten CHISS_CHR_prard_ard_idahten CHISS_CHR_prard_irolia_idahten CHISS_CHR_prard_eere_idahten CHISS_CHR_prard_alan_idahten CHISS_CHR_prard_ran_idahten CHISS_CHR_brask_hankyr_idahten CHISS_CHR_brask_ard_idahten CHISS_CHR_brask_irolia_idahten CHISS_CHR_brask_eere_idahten CHISS_CHR_brask_alan_idahten CHISS_CHR_brask_ran_idahten CHISS_CHR_brast_hankyr_idahten CHISS_CHR_brast_ard_idahten CHISS_CHR_brast_irolia_idahten CHISS_CHR_brast_eere_idahten CHISS_CHR_brast_alan_idahten CHISS_CHR_brast_ran_idahten CHISS_CHR_chaf_hankyr_idahten CHISS_CHR_chaf_arr_idahten CHISS_CHR_chaf_irolia_idahten CHISS_CHR_chaf_eere_idahten CHISS_CHR_chaf_alan_idahten CHISS_CHR_chaf_ran_idahten CHISS_CHR_kres_hankyr_idahten CHISS_CHR_kres_ard_idahten CHISS_CHR_kres_irolia_idahten CHISS_CHR_kres_eere_idahten CHISS_CHR_kres_alan_idahten CHISS_CHR_kres_ran_idahten CHISS_CHR_mitth_ankyr_idahten CHISS_CHR_mitth_ard_idahten CHISS_CHR_mitth_irolia_idahten CHISS_CHR_mitth_eere_idahten CHISS_CHR_mitth_alan_idahten CHISS_CHR_mitth_ran_idahten CHISS_CHR_ina_hankyr_idahten CHISS_CHR_ina_ard_idahten CHISS_CHR_ina_irolia_idahten CHISS_CHR_ina_eere_idahten CHISS_CHR_ina_alan_idahten CHISS_CHR_ina_ran_idahten CHISS_CHR_hess_hankyr_idahten CHISS_CHR_hess_ard_idahten CHISS_CHR_hess_irolia_idahten CHISS_CHR_hess_eere_idahten CHISS_CHR_hess_alan_idahten CHISS_CHR_hess_ran_idahten CHISS_CHR_kthira_hankyr_idahten CHISS_CHR_kthira_ard_idahten CHISS_CHR_kthira_irolia_idahten CHISS_CHR_kthira_eere_idahten CHISS_CHR_kthira_alan_idahten CHISS_CHR_kthira_ran_idahten CHISS_CHR_kung_hankyr_idahten CHISS_CHR_kung_ard_idahten CHISS_CHR_kung_irolia_idahten CHISS_CHR_kung_eere_idahten CHISS_CHR_kung_alan_idahten CHISS_CHR_kung_ran_idahten CHISS_CHR_sev_hankyr_idahten CHISS_CHR_sev_ard_idahten CHISS_CHR_sev_irolia_idahten CHISS_CHR_sev_eere_idahten CHISS_CHR_sev_alan_idahten CHISS_CHR_sev_ran_idahten CHISS_CHR_ath_hankyr_idahten CHISS_CHR_ath_ard_idahten CHISS_CHR_ath_irolia_idahten CHISS_CHR_ath_eere_idahten CHISS_CHR_ath_alan_idahten CHISS_CHR_ath_ran_idahten CHISS_CHR_prard_hankyr_safis CHISS_CHR_prard_ard_safis CHISS_CHR_prard_irolia_safis CHISS_CHR_prard_eere_safis CHISS_CHR_prard_alan_safis CHISS_CHR_prard_ran_safis CHISS_CHR_brask_hankyr_safis CHISS_CHR_brask_ard_safis CHISS_CHR_brask_irolia_safis CHISS_CHR_brask_eere_safis CHISS_CHR_brask_alan_safis CHISS_CHR_brask_ran_safis CHISS_CHR_brast_hankyr_safis CHISS_CHR_brast_ard_safis CHISS_CHR_brast_irolia_safis CHISS_CHR_brast_eere_safis CHISS_CHR_brast_alan_safis CHISS_CHR_brast_ran_safis CHISS_CHR_chaf_hankyr_safis CHISS_CHR_chaf_arr_safis CHISS_CHR_chaf_irolia_safis CHISS_CHR_chaf_eere_safis CHISS_CHR_chaf_alan_safis CHISS_CHR_chaf_ran_safis CHISS_CHR_kres_hankyr_safis CHISS_CHR_kres_ard_safis CHISS_CHR_kres_irolia_safis CHISS_CHR_kres_eere_safis CHISS_CHR_kres_alan_safis CHISS_CHR_kres_ran_safis CHISS_CHR_mitth_ankyr_safis CHISS_CHR_mitth_ard_safis CHISS_CHR_mitth_irolia_safis CHISS_CHR_mitth_eere_safis CHISS_CHR_mitth_alan_safis CHISS_CHR_mitth_ran_safis CHISS_CHR_ina_hankyr_safis CHISS_CHR_ina_ard_safis CHISS_CHR_ina_irolia_safis CHISS_CHR_ina_eere_safis CHISS_CHR_ina_alan_safis CHISS_CHR_ina_ran_safis CHISS_CHR_hess_hankyr_safis CHISS_CHR_hess_ard_safis CHISS_CHR_hess_irolia_safis CHISS_CHR_hess_eere_safis CHISS_CHR_hess_alan_safis CHISS_CHR_hess_ran_safis CHISS_CHR_kthira_hankyr_safis CHISS_CHR_kthira_ard_safis CHISS_CHR_kthira_irolia_safis CHISS_CHR_kthira_eere_safis CHISS_CHR_kthira_alan_safis CHISS_CHR_kthira_ran_safis CHISS_CHR_kung_hankyr_safis CHISS_CHR_kung_ard_safis CHISS_CHR_kung_irolia_safis CHISS_CHR_kung_eere_safis CHISS_CHR_kung_alan_safis CHISS_CHR_kung_ran_safis CHISS_CHR_sev_hankyr_safis CHISS_CHR_sev_ard_safis CHISS_CHR_sev_irolia_safis CHISS_CHR_sev_eere_safis CHISS_CHR_sev_alan_safis CHISS_CHR_sev_ran_safis CHISS_CHR_ath_hankyr_safis CHISS_CHR_ath_ard_safis CHISS_CHR_ath_irolia_safis CHISS_CHR_ath_eere_safis CHISS_CHR_ath_alan_safis CHISS_CHR_ath_ran_safis CHISS_CHR_prard_hankyr_ktarloo CHISS_CHR_prard_ard_ktarloo CHISS_CHR_prard_irolia_ktarloo CHISS_CHR_prard_eere_ktarloo CHISS_CHR_prard_alan_ktarloo CHISS_CHR_prard_ran_ktarloo CHISS_CHR_brask_hankyr_ktarloo CHISS_CHR_brask_ard_ktarloo CHISS_CHR_brask_irolia_ktarloo CHISS_CHR_brask_eere_ktarloo CHISS_CHR_brask_alan_ktarloo CHISS_CHR_brask_ran_ktarloo CHISS_CHR_brast_hankyr_ktarloo CHISS_CHR_brast_ard_ktarloo CHISS_CHR_brast_irolia_ktarloo CHISS_CHR_brast_eere_ktarloo CHISS_CHR_brast_alan_ktarloo CHISS_CHR_brast_ran_ktarloo CHISS_CHR_chaf_hankyr_ktarloo CHISS_CHR_chaf_arr_ktarloo CHISS_CHR_chaf_irolia_ktarloo CHISS_CHR_chaf_eere_ktarloo CHISS_CHR_chaf_alan_ktarloo CHISS_CHR_chaf_ran_ktarloo CHISS_CHR_kres_hankyr_ktarloo CHISS_CHR_kres_ard_ktarloo CHISS_CHR_kres_irolia_ktarloo CHISS_CHR_kres_eere_ktarloo CHISS_CHR_kres_alan_ktarloo CHISS_CHR_kres_ran_ktarloo CHISS_CHR_mitth_ankyr_ktarloo CHISS_CHR_mitth_ard_ktarloo CHISS_CHR_mitth_irolia_ktarloo CHISS_CHR_mitth_eere_ktarloo CHISS_CHR_mitth_alan_ktarloo CHISS_CHR_mitth_ran_ktarloo CHISS_CHR_ina_hankyr_ktarloo CHISS_CHR_ina_ard_ktarloo CHISS_CHR_ina_irolia_ktarloo CHISS_CHR_ina_eere_ktarloo CHISS_CHR_ina_alan_ktarloo CHISS_CHR_ina_ran_ktarloo CHISS_CHR_hess_hankyr_ktarloo CHISS_CHR_hess_ard_ktarloo CHISS_CHR_hess_irolia_ktarloo CHISS_CHR_hess_eere_ktarloo CHISS_CHR_hess_alan_ktarloo CHISS_CHR_hess_ran_ktarloo CHISS_CHR_kthira_hankyr_ktarloo CHISS_CHR_kthira_ard_ktarloo CHISS_CHR_kthira_irolia_ktarloo CHISS_CHR_kthira_eere_ktarloo CHISS_CHR_kthira_alan_ktarloo CHISS_CHR_kthira_ran_ktarloo CHISS_CHR_kung_hankyr_ktarloo CHISS_CHR_kung_ard_ktarloo CHISS_CHR_kung_irolia_ktarloo CHISS_CHR_kung_eere_ktarloo CHISS_CHR_kung_alan_ktarloo CHISS_CHR_kung_ran_ktarloo CHISS_CHR_sev_hankyr_ktarloo CHISS_CHR_sev_ard_ktarloo CHISS_CHR_sev_irolia_ktarloo CHISS_CHR_sev_eere_ktarloo CHISS_CHR_sev_alan_ktarloo CHISS_CHR_sev_ran_ktarloo CHISS_CHR_ath_hankyr_ktarloo CHISS_CHR_ath_ard_ktarloo CHISS_CHR_ath_irolia_ktarloo CHISS_CHR_ath_eere_ktarloo CHISS_CHR_ath_alan_ktarloo CHISS_CHR_ath_ran_ktarloo CHISS_CHR_prard_hankyr_loro CHISS_CHR_prard_ard_loro CHISS_CHR_prard_irolia_loro CHISS_CHR_prard_eere_loro CHISS_CHR_prard_alan_loro CHISS_CHR_prard_ran_loro CHISS_CHR_brask_hankyr_loro CHISS_CHR_brask_ard_loro CHISS_CHR_brask_irolia_loro CHISS_CHR_brask_eere_loro CHISS_CHR_brask_alan_loro CHISS_CHR_brask_ran_loro CHISS_CHR_brast_hankyr_loro CHISS_CHR_brast_ard_loro CHISS_CHR_brast_irolia_loro CHISS_CHR_brast_eere_loro CHISS_CHR_brast_alan_loro CHISS_CHR_brast_ran_loro CHISS_CHR_chaf_hankyr_loro CHISS_CHR_chaf_arr_loro CHISS_CHR_chaf_irolia_loro CHISS_CHR_chaf_eere_loro CHISS_CHR_chaf_alan_loro CHISS_CHR_chaf_ran_loro CHISS_CHR_kres_hankyr_loro CHISS_CHR_kres_ard_loro CHISS_CHR_kres_irolia_loro CHISS_CHR_kres_eere_loro CHISS_CHR_kres_alan_loro CHISS_CHR_kres_ran_loro CHISS_CHR_mitth_ankyr_loro CHISS_CHR_mitth_ard_loro CHISS_CHR_mitth_irolia_loro CHISS_CHR_mitth_eere_loro CHISS_CHR_mitth_alan_loro CHISS_CHR_mitth_ran_loro CHISS_CHR_ina_hankyr_loro CHISS_CHR_ina_ard_loro CHISS_CHR_ina_irolia_loro CHISS_CHR_ina_eere_loro CHISS_CHR_ina_alan_loro CHISS_CHR_ina_ran_loro CHISS_CHR_hess_hankyr_loro CHISS_CHR_hess_ard_loro CHISS_CHR_hess_irolia_loro CHISS_CHR_hess_eere_loro CHISS_CHR_hess_alan_loro CHISS_CHR_hess_ran_loro CHISS_CHR_kthira_hankyr_loro CHISS_CHR_kthira_ard_loro CHISS_CHR_kthira_irolia_loro CHISS_CHR_kthira_eere_loro CHISS_CHR_kthira_alan_loro CHISS_CHR_kthira_ran_loro CHISS_CHR_kung_hankyr_loro CHISS_CHR_kung_ard_loro CHISS_CHR_kung_irolia_loro CHISS_CHR_kung_eere_loro CHISS_CHR_kung_alan_loro CHISS_CHR_kung_ran_loro CHISS_CHR_sev_hankyr_loro CHISS_CHR_sev_ard_loro CHISS_CHR_sev_irolia_loro CHISS_CHR_sev_eere_loro CHISS_CHR_sev_alan_loro CHISS_CHR_sev_ran_loro CHISS_CHR_ath_hankyr_loro CHISS_CHR_ath_ard_loro CHISS_CHR_ath_irolia_loro CHISS_CHR_ath_eere_loro CHISS_CHR_ath_alan_loro CHISS_CHR_ath_ran_loro CHISS_CHR_prard_hankyr_tarthi CHISS_CHR_prard_ard_tarthi CHISS_CHR_prard_irolia_tarthi CHISS_CHR_prard_eere_tarthi CHISS_CHR_prard_alan_tarthi CHISS_CHR_prard_ran_tarthi CHISS_CHR_brask_hankyr_tarthi CHISS_CHR_brask_ard_tarthi CHISS_CHR_brask_irolia_tarthi CHISS_CHR_brask_eere_tarthi CHISS_CHR_brask_alan_tarthi CHISS_CHR_brask_ran_tarthi CHISS_CHR_brast_hankyr_tarthi CHISS_CHR_brast_ard_tarthi CHISS_CHR_brast_irolia_tarthi CHISS_CHR_brast_eere_tarthi CHISS_CHR_brast_alan_tarthi CHISS_CHR_brast_ran_tarthi CHISS_CHR_chaf_hankyr_tarthi CHISS_CHR_chaf_arr_tarthi CHISS_CHR_chaf_irolia_tarthi CHISS_CHR_chaf_eere_tarthi CHISS_CHR_chaf_alan_tarthi CHISS_CHR_chaf_ran_tarthi CHISS_CHR_kres_hankyr_tarthi CHISS_CHR_kres_ard_tarthi CHISS_CHR_kres_irolia_tarthi CHISS_CHR_kres_eere_tarthi CHISS_CHR_kres_alan_tarthi CHISS_CHR_kres_ran_tarthi CHISS_CHR_mitth_ankyr_tarthi CHISS_CHR_mitth_ard_tarthi CHISS_CHR_mitth_irolia_tarthi CHISS_CHR_mitth_eere_tarthi CHISS_CHR_mitth_alan_tarthi CHISS_CHR_mitth_ran_tarthi CHISS_CHR_ina_hankyr_tarthi CHISS_CHR_ina_ard_tarthi CHISS_CHR_ina_irolia_tarthi CHISS_CHR_ina_eere_tarthi CHISS_CHR_ina_alan_tarthi CHISS_CHR_ina_ran_tarthi CHISS_CHR_hess_hankyr_tarthi CHISS_CHR_hess_ard_tarthi CHISS_CHR_hess_irolia_tarthi CHISS_CHR_hess_eere_tarthi CHISS_CHR_hess_alan_tarthi CHISS_CHR_hess_ran_tarthi CHISS_CHR_kthira_hankyr_tarthi CHISS_CHR_kthira_ard_tarthi CHISS_CHR_kthira_irolia_tarthi CHISS_CHR_kthira_eere_tarthi CHISS_CHR_kthira_alan_tarthi CHISS_CHR_kthira_ran_tarthi CHISS_CHR_kung_hankyr_tarthi CHISS_CHR_kung_ard_tarthi CHISS_CHR_kung_irolia_tarthi CHISS_CHR_kung_eere_tarthi CHISS_CHR_kung_alan_tarthi CHISS_CHR_kung_ran_tarthi CHISS_CHR_sev_hankyr_tarthi CHISS_CHR_sev_ard_tarthi CHISS_CHR_sev_irolia_tarthi CHISS_CHR_sev_eere_tarthi CHISS_CHR_sev_alan_tarthi CHISS_CHR_sev_ran_tarthi CHISS_CHR_ath_hankyr_tarthi CHISS_CHR_ath_ard_tarthi CHISS_CHR_ath_irolia_tarthi CHISS_CHR_ath_eere_tarthi CHISS_CHR_ath_alan_tarthi CHISS_CHR_ath_ran_tarthi CHISS_CHR_prard_hankyr_terro CHISS_CHR_prard_ard_terro CHISS_CHR_prard_irolia_terro CHISS_CHR_prard_eere_terro CHISS_CHR_prard_alan_terro CHISS_CHR_prard_ran_terro CHISS_CHR_brask_hankyr_terro CHISS_CHR_brask_ard_terro CHISS_CHR_brask_irolia_terro CHISS_CHR_brask_eere_terro CHISS_CHR_brask_alan_terro CHISS_CHR_brask_ran_terro CHISS_CHR_brast_hankyr_terro CHISS_CHR_brast_ard_terro CHISS_CHR_brast_irolia_terro CHISS_CHR_brast_eere_terro CHISS_CHR_brast_alan_terro CHISS_CHR_brast_ran_terro CHISS_CHR_chaf_hankyr_terro CHISS_CHR_chaf_arr_terro CHISS_CHR_chaf_irolia_terro CHISS_CHR_chaf_eere_terro CHISS_CHR_chaf_alan_terro CHISS_CHR_chaf_ran_terro CHISS_CHR_kres_hankyr_terro CHISS_CHR_kres_ard_terro CHISS_CHR_kres_irolia_terro CHISS_CHR_kres_eere_terro CHISS_CHR_kres_alan_terro CHISS_CHR_kres_ran_terro CHISS_CHR_mitth_ankyr_terro CHISS_CHR_mitth_ard_terro CHISS_CHR_mitth_irolia_terro CHISS_CHR_mitth_eere_terro CHISS_CHR_mitth_alan_terro CHISS_CHR_mitth_ran_terro CHISS_CHR_ina_hankyr_terro CHISS_CHR_ina_ard_terro CHISS_CHR_ina_irolia_terro CHISS_CHR_ina_eere_terro CHISS_CHR_ina_alan_terro CHISS_CHR_ina_ran_terro CHISS_CHR_hess_hankyr_terro CHISS_CHR_hess_ard_terro CHISS_CHR_hess_irolia_terro CHISS_CHR_hess_eere_terro CHISS_CHR_hess_alan_terro CHISS_CHR_hess_ran_terro CHISS_CHR_kthira_hankyr_terro CHISS_CHR_kthira_ard_terro CHISS_CHR_kthira_irolia_terro CHISS_CHR_kthira_eere_terro CHISS_CHR_kthira_alan_terro CHISS_CHR_kthira_ran_terro CHISS_CHR_kung_hankyr_terro CHISS_CHR_kung_ard_terro CHISS_CHR_kung_irolia_terro CHISS_CHR_kung_eere_terro CHISS_CHR_kung_alan_terro CHISS_CHR_kung_ran_terro CHISS_CHR_sev_hankyr_terro CHISS_CHR_sev_ard_terro CHISS_CHR_sev_irolia_terro CHISS_CHR_sev_eere_terro CHISS_CHR_sev_alan_terro CHISS_CHR_sev_ran_terro CHISS_CHR_ath_hankyr_terro CHISS_CHR_ath_ard_terro CHISS_CHR_ath_irolia_terro CHISS_CHR_ath_eere_terro CHISS_CHR_ath_alan_terro CHISS_CHR_ath_ran_terro
+			}
+			regnal_first_names_male = {
+				CHISS_CHR_prard_orm_nuruodo CHISS_CHR_prard_raw_nuruodo CHISS_CHR_prard_shi_nuruodo CHISS_CHR_prard_itel_nuruodo CHISS_CHR_prard_ras_nuruodo CHISS_CHR_prard_urama_nuruodo CHISS_CHR_prard_ten_nuruodo CHISS_CHR_brask_orm_nuruodo CHISS_CHR_brask_raw_nuruodo CHISS_CHR_brask_shi_nuruodo CHISS_CHR_brask_itel_nuruodo CHISS_CHR_brask_ras_nuruodo CHISS_CHR_brask_urama_nuruodo CHISS_CHR_brask_ten_nuruodo CHISS_CHR_brast_orm_nuruodo CHISS_CHR_brast_raw_nuruodo CHISS_CHR_brast_shi_nuruodo CHISS_CHR_brast_itel_nuruodo CHISS_CHR_brast_ras_nuruodo CHISS_CHR_brast_urama_nuruodo CHISS_CHR_brast_ten_nuruodo CHISS_CHR_chaf_orm_nuruodo CHISS_CHR_chaf_raw_nuruodo CHISS_CHR_chaf_shi_nuruodo CHISS_CHR_chaf_itel_nuruodo CHISS_CHR_chaf_ras_nuruodo CHISS_CHR_chaf_urama_nuruodo CHISS_CHR_chaf_ten_nuruodo CHISS_CHR_kres_orm_nuruodo CHISS_CHR_kres_raw_nuruodo CHISS_CHR_kres_shi_nuruodo CHISS_CHR_kres_itel_nuruodo CHISS_CHR_kres_ras_nuruodo CHISS_CHR_kres_urama_nuruodo CHISS_CHR_kres_ten_nuruodo CHISS_CHR_mitth_orm_nuruodo CHISS_CHR_mitth_raw_nuruodo CHISS_CHR_mitth_shi_nuruodo CHISS_CHR_mitth_itel_nuruodo CHISS_CHR_mitth_ras_nuruodo CHISS_CHR_mitth_urama_nuruodo CHISS_CHR_mitth_ten_nuruodo CHISS_CHR_ina_orm CHISS_CHR__nuruodo CHISS_CHR_ina_raw_nuruodo CHISS_CHR_ina_shi_nuruodo CHISS_CHR_ina_itel_nuruodo CHISS_CHR_ina_ras_nuruodo CHISS_CHR_ina_urama_nuruodo CHISS_CHR_ina_ten_nuruodo CHISS_CHR_hess_orm_nuruodo CHISS_CHR_hess_raw_nuruodo CHISS_CHR_hess_shi_nuruodo CHISS_CHR_hess_itel_nuruodo CHISS_CHR_hess_ras_nuruodo CHISS_CHR_hess_urama_nuruodo CHISS_CHR_hess_ten_nuruodo CHISS_CHR_kthira_orm_nuruodo CHISS_CHR_kthira_raw_nuruodo CHISS_CHR_kthira_shi_nuruodo CHISS_CHR_kthira_itel_nuruodo CHISS_CHR_kthira_ras_nuruodo CHISS_CHR_kthira_urama_nuruodo CHISS_CHR_kthira_ten_nuruodo CHISS_CHR_kung_orm_nuruodo CHISS_CHR_kung_raw_nuruodo CHISS_CHR_kung_shi_nuruodo CHISS_CHR_kung_itel_nuruodo CHISS_CHR_kung_ras_nuruodo CHISS_CHR_kung_urama_nuruodo CHISS_CHR_kung_ten_nuruodo CHISS_CHR_sev_orm_nuruodo CHISS_CHR_sev_raw_nuruodo CHISS_CHR_sev_shi_nuruodo CHISS_CHR_sev_itel_nuruodo CHISS_CHR_sev_ras_nuruodo CHISS_CHR_sev_urama_nuruodo CHISS_CHR_sev_ten_nuruodo CHISS_CHR_ath_orm_nuruodo CHISS_CHR_ath_raw_nuruodo CHISS_CHR_ath_shi_nuruodo CHISS_CHR_ath_itel_nuruodo CHISS_CHR_ath_ras_nuruodo CHISS_CHR_ath_urama_nuruodo 
+			}
+			regnal_first_names_female = {
+				CHISS_CHR_prard_hankyr_nuruodo CHISS_CHR_prard_ard_nuruodo CHISS_CHR_prard_irolia_nuruodo CHISS_CHR_prard_eere_nuruodo CHISS_CHR_prard_alan_nuruodo CHISS_CHR_prard_ran_nuruodo CHISS_CHR_brask_hankyr_nuruodo CHISS_CHR_brask_ard_nuruodo CHISS_CHR_brask_irolia_nuruodo CHISS_CHR_brask_eere_nuruodo CHISS_CHR_brask_alan_nuruodo CHISS_CHR_brask_ran_nuruodo CHISS_CHR_brast_hankyr_nuruodo CHISS_CHR_brast_ard_nuruodo CHISS_CHR_brast_irolia_nuruodo CHISS_CHR_brast_eere_nuruodo CHISS_CHR_brast_alan_nuruodo CHISS_CHR_brast_ran_nuruodo CHISS_CHR_chaf_hankyr_nuruodo CHISS_CHR_chaf_arr_nuruodo CHISS_CHR_chaf_irolia_nuruodo CHISS_CHR_chaf_eere_nuruodo CHISS_CHR_chaf_alan_nuruodo CHISS_CHR_chaf_ran_nuruodo CHISS_CHR_kres_hankyr_nuruodo CHISS_CHR_kres_ard_nuruodo CHISS_CHR_kres_irolia_nuruodo CHISS_CHR_kres_eere_nuruodo CHISS_CHR_kres_alan_nuruodo CHISS_CHR_kres_ran_nuruodo CHISS_CHR_mitth_ankyr_nuruodo CHISS_CHR_mitth_ard_nuruodo CHISS_CHR_mitth_irolia_nuruodo CHISS_CHR_mitth_eere_nuruodo CHISS_CHR_mitth_alan_nuruodo CHISS_CHR_mitth_ran_nuruodo CHISS_CHR_ina_hankyr_nuruodo CHISS_CHR_ina_ard_nuruodo CHISS_CHR_ina_irolia_nuruodo CHISS_CHR_ina_eere_nuruodo CHISS_CHR_ina_alan_nuruodo CHISS_CHR_ina_ran_nuruodo CHISS_CHR_hess_hankyr_nuruodo CHISS_CHR_hess_ard_nuruodo CHISS_CHR_hess_irolia_nuruodo CHISS_CHR_hess_eere_nuruodo CHISS_CHR_hess_alan_nuruodo CHISS_CHR_hess_ran_nuruodo CHISS_CHR_kthira_hankyr_nuruodo CHISS_CHR_kthira_ard_nuruodo CHISS_CHR_kthira_irolia_nuruodo CHISS_CHR_kthira_eere_nuruodo CHISS_CHR_kthira_alan_nuruodo CHISS_CHR_kthira_ran_nuruodo CHISS_CHR_kung_hankyr_nuruodo CHISS_CHR_kung_ard_nuruodo CHISS_CHR_kung_irolia_nuruodo CHISS_CHR_kung_eere_nuruodo CHISS_CHR_kung_alan_nuruodo CHISS_CHR_kung_ran_nuruodo CHISS_CHR_sev_hankyr_nuruodo CHISS_CHR_sev_ard_nuruodo CHISS_CHR_sev_irolia_nuruodo CHISS_CHR_sev_eere_nuruodo CHISS_CHR_sev_alan_nuruodo CHISS_CHR_sev_ran_nuruodo CHISS_CHR_ath_hankyr_nuruodo CHISS_CHR_ath_ard_nuruodo CHISS_CHR_ath_irolia_nuruodo CHISS_CHR_ath_eere_nuruodo CHISS_CHR_ath_alan_nuruodo CHISS_CHR_ath_ran_nuruodo CHISS_CHR_prard_hankyr_cspalla CHISS_CHR_prard_ard_cspalla CHISS_CHR_prard_irolia_cspalla CHISS_CHR_prard_eere_cspalla CHISS_CHR_prard_alan_cspalla CHISS_CHR_prard_ran_cspalla CHISS_CHR_brask_hankyr_cspalla CHISS_CHR_brask_ard_cspalla CHISS_CHR_brask_irolia_cspalla CHISS_CHR_brask_eere_cspalla CHISS_CHR_brask_alan_cspalla CHISS_CHR_brask_ran_cspalla CHISS_CHR_brast_hankyr_cspalla CHISS_CHR_brast_ard_cspalla CHISS_CHR_brast_irolia_cspalla CHISS_CHR_brast_eere_cspalla CHISS_CHR_brast_alan_cspalla CHISS_CHR_brast_ran_cspalla
+			}
+			use_full_regnal_name_female = yes
+			use_full_regnal_name_male = yes
+		}
+	}
+}

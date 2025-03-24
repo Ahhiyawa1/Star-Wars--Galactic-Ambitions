@@ -1,0 +1,1107 @@
+# Used to remove schism members of the First Galactic Empire federation
+# from the potential ongoing war declared before the schism
+# ! use in country scope !
+remove_from_ge_war = {
+	if = {
+		limit = {
+			any_war = {
+				any_war_participant = {
+					is_galactic_republic = yes
+				}
+			}
+		}
+		random_war = {
+			limit = {
+				any_war_participant = {
+					is_galactic_republic = yes
+				}
+			}
+			remove_war_participant = prev
+		}
+	}
+}
+
+toggle_modifier = {
+	if = {
+		limit = {
+			has_modifier = $modifier$
+		}
+		remove_modifier = $modifier$
+	}
+	else = {
+		add_modifier = {
+			modifier = $modifier$
+			days = $days|-1$
+		}
+	}
+}
+
+variable_random_increment = {
+	random_list = {
+		30 = {
+			variable_random_increment_case = {
+				variable = $variable$
+				initial_value = $value$
+				offset = -5
+			}
+		}
+		25 = {
+			variable_random_increment_case = {
+				variable = $variable$
+				initial_value = $value$
+				offset = -2
+			}
+		}
+		18 = {
+			variable_random_increment_case = {
+				variable = $variable$
+				initial_value = $value$
+				offset = 0
+			}
+		}
+		10 = {
+			variable_random_increment_case = {
+				variable = $variable$
+				initial_value = $value$
+				offset = 5
+			}
+		}
+		8 = {
+			variable_random_increment_case = {
+				variable = $variable$
+				initial_value = $value$
+				offset = 10
+			}
+		}
+	}
+}
+
+variable_random_increment_case = {
+	change_variable = {
+		which = $variable$
+		value = @\[ $initial_value$ + $offset$ ]
+	}
+}
+
+## use in ship scope with prevprevprev = bombarded planet scope
+planetary_defense_damage_ship = {
+	if = {
+		limit = {
+			prevprevprev = {
+				check_variable = {
+					which = ship_damage
+					value >= $corvette_min_ship_damage_value|100$
+				}
+			}
+			is_ship_size_corvette = yes
+		}
+		destroy_ship = this
+	}
+	else_if = {
+		limit = {
+			prevprevprev = {
+				check_variable = {
+					which = ship_damage
+					value >= $frigate_min_ship_damage_value|150$
+				}
+			}
+			is_ship_size_frigate = yes
+		}
+		destroy_ship = this
+	}
+	else_if = {
+		limit = {
+			prevprevprev = {
+				check_variable = {
+					which = ship_damage
+					value >= $cruiser_min_ship_damage_value|200$
+				}
+			}
+			is_ship_size_cruiser = yes
+		}
+		destroy_ship = this
+	}
+	else_if = {
+		limit = {
+			prevprevprev = {
+				check_variable = {
+					which = ship_damage
+					value >= $heavy_cruiser_min_ship_damage_value|250$
+				}
+			}
+			is_ship_size_heavy_cruiser = yes
+		}
+		destroy_ship = this
+	}
+}
+
+
+generate_asteroid_deposits = {
+	random_list = {
+		20 = {
+			add_deposit = d_asteroid_food
+		}
+		20 = {
+			add_deposit = d_asteroid_energy
+		}
+		20 = {
+			add_deposit = d_asteroid_minerals
+		}
+		10 = {
+			add_deposit = d_asteroid_cavern
+		}
+		10 = {
+			add_deposit = d_asteroid_trade
+		}
+		5 = {
+			add_deposit = d_bacta_materials
+		}
+		5 = {
+			add_deposit = d_spice_deposit
+		}
+		4 = {
+			add_deposit = d_arcane_replicator
+		}
+		2 = {
+			add_deposit = d_ancient_temple
+		}
+		2 = {
+			add_deposit = d_abandoned_workshop
+		}
+		2 = {
+			add_deposit = d_abandoned_lab
+		}
+	}
+}
+
+site_ordu_aspectu_random_events = {
+	random_list = {
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.100
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.101
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.102
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.103
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.104
+			}
+		}
+	}
+}
+
+site_dromund_expedition_random_events = {
+	random_list = {
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.200
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.201
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.202
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.203
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.204
+			}
+		}
+	}
+}
+
+site_sith_cruiser_random_events = {
+	random_list = {
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.300
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.301
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.302
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.303
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.304
+			}
+		}
+	}
+}
+
+site_republic_cruiser_random_events = {
+	random_list = {
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.400
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.401
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.402
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.403
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.404
+			}
+		}
+	}
+}
+
+site_mandalore_mask_random_events = {
+	random_list = {
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.500
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.501
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.502
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.503
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.504
+			}
+		}
+	}
+}
+
+site_asteroid_foundry_random_events = {
+	random_list = {
+		25 = {
+			fleet_event = {
+				id = swp_digsite_random.600
+			}
+		}
+		25 = {
+			fleet_event = {
+				id = swp_digsite_random.601
+			}
+		}
+		25 = {
+			fleet_event = {
+				id = swp_digsite_random.602
+			}
+		}
+		25 = {
+			fleet_event = {
+				id = swp_digsite_random.603
+			}
+		}
+	}
+}
+
+site_cis_outpost_random_events = {
+	random_list = {
+		33 = {
+			fleet_event = {
+				id = swp_digsite_random.700
+			}
+		}
+		33 = {
+			fleet_event = {
+				id = swp_digsite_random.701
+			}
+		}
+		33 = {
+			fleet_event = {
+				id = swp_digsite_random.702
+			}
+		}
+	}
+}
+
+site_ziost_tomb_random_events = {
+	random_list = {
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.800
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.801
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.802
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.803
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.804
+			}
+		}
+	}
+}
+
+site_katana_dreadnought_random_events = {
+	random_list = {
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.900
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.901
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.902
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.903
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.904
+			}
+		}
+	}
+}
+
+site_korriban_tombs_random_events = {
+	random_list = {
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.1000
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.1001
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.1002
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.1003
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.1004
+			}
+		}
+	}
+}
+
+site_ocean_holocron_random_events = {
+	random_list = {
+		33 = {
+			fleet_event = {
+				id = swp_digsite_random.1100
+			}
+		}
+		33 = {
+			fleet_event = {
+				id = swp_digsite_random.1101
+			}
+		}
+		33 = {
+			fleet_event = {
+				id = swp_digsite_random.1102
+			}
+		}
+	}
+}
+
+site_forest_holocron_random_events = {
+	random_list = {
+		33 = {
+			fleet_event = {
+				id = swp_digsite_random.1200
+			}
+		}
+		33 = {
+			fleet_event = {
+				id = swp_digsite_random.1201
+			}
+		}
+		33 = {
+			fleet_event = {
+				id = swp_digsite_random.1202
+			}
+		}
+	}
+}
+
+site_hammer_station_random_events = {
+	random_list = {
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.1300
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.1301
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.1302
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.1303
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.1304
+			}
+		}
+		20 = {
+			fleet_event = {
+				id = swp_digsite_random.1305
+			}
+		}
+	}
+}
+
+site_spice_freighter_random_events = {
+	random_list = {
+		25 = {
+			fleet_event = {
+				id = swp_digsite_random.1400
+			}
+		}
+		25 = {
+			fleet_event = {
+				id = swp_digsite_random.1401
+			}
+		}
+		25 = {
+			fleet_event = {
+				id = swp_digsite_random.1402
+			}
+		}
+		25 = {
+			fleet_event = {
+				id = swp_digsite_random.1403
+			}
+		}
+	}
+}
+
+site_sapling_random_events = {
+	random_list = {
+		33 = {
+			fleet_event = {
+				id = swp_digsite_random.1800
+			}
+		}
+		33 = {
+			fleet_event = {
+				id = swp_digsite_random.1801
+			}
+		}
+		33 = {
+			fleet_event = {
+				id = swp_digsite_random.1802
+			}
+		}
+	}
+}
+
+site_darksaber_random_events = {
+	random_list = {
+		10 = { site_laser_grid_trap = yes }
+		10 = { site_guardian_droids_trap = yes }
+		10 = { site_collapsed_roof = yes }
+		10 = { fleet_event = { id = ancrel.8040 } }
+		10 = { fleet_event = { id = ancrel.8045 } }
+		10 = { fleet_event = { id = ancrel.8055 } }
+		10 = { fleet_event = { id = ancrel.8060 } }
+		10 = {
+			fleet_event = { id = ancrel.8070 }
+			modifier = {
+				factor = 2
+				leader = { has_trait = leader_trait_percussive_maintainer }
+			}
+		}
+		5 = { fleet_event = { id = ancrel.8075 } } # Scientist vanishes
+		10 = { fleet_event = { id = ancrel.8090 } }
+		10 = { fleet_event = { id = ancrel.8091 } }
+		10 = { fleet_event = { id = ancrel.8092 } }
+		5 = { fleet_event = { id = swnd_digsite_random.1 } }
+		5 = { fleet_event = { id = swnd_digsite_random.2 } }
+		5 = { fleet_event = { id = swnd_digsite_random.3 } }
+	}
+}
+
+set_appropriate_vassal_status = {
+	if = {
+		limit = {
+			from = {
+				has_country_flag = galactic_empire
+			}
+		}
+		set_subject_of = {
+			who = from
+			subject_type = imperial_sector
+		}
+	}
+	if = {
+		limit = {
+			OR = {
+				is_subject_type = imperial_sector
+				is_subject_type = imperial_sector_human
+			}
+			from = {
+				NOT = {
+					has_country_flag = galactic_empire
+				}
+			}
+		}
+		set_subject_of = {
+			who = from
+			subject_type = vassal
+		}
+	}
+}
+
+remove_all_claims = {
+	every_system = {
+		limit = {
+			root = {
+				has_claim = prev
+			}
+		}
+		remove_claims = {
+			who = prev
+		}
+	}
+}
+
+create_nihilus_country = {
+	if = {
+		limit = {
+			NOT = {
+				exists = event_target:nihilus_country
+			}
+		}
+		create_country = {
+			name = "Nihilus"
+			type = nihilus_type
+			flag = {
+				icon = {
+					category = "zoological"
+					file = "flag_zoological_1.dds"
+				}
+				background = {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors = {
+					"black"
+					"black"
+					"null"
+					"null"
+				}
+			}
+		}
+		last_created_country = {
+			save_global_event_target_as = nihilus_country
+			set_country_flag = nihilus_country
+		}
+	}
+}
+
+generate_homeworld_starbase = {
+	solar_system = {
+		create_starbase = {
+			size = starbase_starport
+			owner = $OWNER|last_created_country$
+			module = trading_hub
+			building = crew_quarters
+		}
+	}
+}
+
+
+#### Imported from LOTOR; original code by The24thDS
+# Creates pops on a planet and shows a tooltip
+# @param {number} AMOUNT - how many pops you want
+# @param {event_target.tag} SPECIES - the pop's species
+# @scope {planet} This - the planet you want the pops on
+## Use in planet scope
+create_pops_with_tooltip_effect = {
+	hidden_effect = {
+		while = {
+			count = $AMOUNT|1$
+			create_pop = {
+				species = event_target:$SPECIES$
+			}
+		}
+	}
+	custom_tooltip_with_params = {
+		description = CREATE_POPS_TOOLTIP
+		description_parameters = {
+			AMOUNT = $AMOUNT|1$
+			SPECIES = $SPECIES$
+			PLANET = "This"
+		}
+	}
+}
+
+save_in_array_slot_1 = {
+	$SELECTOR|this$ = {
+		save_event_target_as = $ARRAY_NAME|option$_1
+	}
+}
+
+save_in_array_slot_2 = {
+	$SELECTOR|this$ = {
+		limit = {
+			NOT = { is_same_value = event_target:$ARRAY_NAME|option$_1 }
+		}
+		save_event_target_as = $ARRAY_NAME|option$_2
+	}
+}
+
+save_in_array_slot_3 = {
+	$SELECTOR|this$ = {
+		limit = {
+			NOR = {
+				is_same_value = event_target:$ARRAY_NAME|option$_1
+				is_same_value = event_target:$ARRAY_NAME|option$_2
+			}
+		}
+		save_event_target_as = $ARRAY_NAME|option$_3
+	}
+}
+
+save_in_array_slot_4 = {
+	$SELECTOR|this$ = {
+		limit = {
+			NOR = {
+				is_same_value = event_target:$ARRAY_NAME|option$_1
+				is_same_value = event_target:$ARRAY_NAME|option$_2
+				is_same_value = event_target:$ARRAY_NAME|option$_3
+			}
+		}
+		save_event_target_as = $ARRAY_NAME|option$_4
+	}
+}
+
+save_in_array_slot_5 = {
+	$SELECTOR|this$ = {
+		limit = {
+			NOR = {
+				is_same_value = event_target:$ARRAY_NAME|option$_1
+				is_same_value = event_target:$ARRAY_NAME|option$_2
+				is_same_value = event_target:$ARRAY_NAME|option$_3
+				is_same_value = event_target:$ARRAY_NAME|option$_4
+			}
+		}
+		save_event_target_as = $ARRAY_NAME|option$_5
+	}
+}
+
+save_in_array_slot_6 = {
+	$SELECTOR|this$ = {
+		limit = {
+			NOR = {
+				is_same_value = event_target:$ARRAY_NAME|option$_1
+				is_same_value = event_target:$ARRAY_NAME|option$_2
+				is_same_value = event_target:$ARRAY_NAME|option$_3
+				is_same_value = event_target:$ARRAY_NAME|option$_4
+				is_same_value = event_target:$ARRAY_NAME|option$_5
+			}
+		}
+		save_event_target_as = $ARRAY_NAME|option$_6
+	}
+}
+
+spawn_ai_civilian_ships = {
+	# scientists     #This creates 3 extra scientists, not needed anymore.  1 is generated from science ship creation below and 1 from Chriskar's ship location fix
+#	while = {
+#		count = 3
+#		create_leader = {
+#			class = scientist
+#			species = owner_main_species
+#			name = random
+#			skill = 1
+#		}
+#	}
+	# science ship
+	while = {
+		count = 1
+		create_fleet = {
+			effect = {
+				set_owner = root
+				create_ship = {
+					name = random
+					random_existing_design = science
+					prefix = no
+				}
+				set_fleet_stance = evasive
+				set_location = root.capital_scope.star
+				owner = {
+					create_leader = {
+						class = scientist
+						sub_type = survey
+						name = random
+						species = owner_main_species
+					}
+				}
+				set_leader = last_created_leader
+			}
+		}
+	}
+	# construction ship
+	while = {
+		count = 1
+		create_fleet = {
+			effect = {
+				set_owner = root
+				create_ship = {
+					name = random
+					design = last_created_design
+					random_existing_design = constructor
+					prefix = no
+				}
+				set_fleet_stance = evasive
+				set_location = root.capital_scope.star
+			}
+		}
+	}
+}
+
+spawn_canon_starting_fleets = {
+	if = {
+		limit = {
+			is_country_type = default
+			is_swp_fallen_empire = no
+			OR = {
+				has_existing_ship_design = swp_cr90_corvette
+				has_existing_ship_design = swp_jehaveyir_corvette
+				has_existing_ship_design = swp_lupus_corvette
+				has_existing_ship_design = swp_early_asdroni_corvette
+			}
+		}
+
+		# Spawn Generic Fleet
+		if = {
+			limit = { 
+				NOR = {
+					is_galactic_republic = yes
+					is_cis_remnant = yes
+				}
+			}
+			create_fleet = {
+				effect = {
+					set_owner = root
+					set_location = root.capital_scope.star
+					while = {
+						count = 6
+						create_generic_corvette = yes
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+					while = {
+						count = 4
+						create_generic_frigate = yes
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+					while = {
+						count = 1
+						create_generic_destroyer = yes
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+				}
+			}
+		}
+		# Spawn Imperial Fleet
+		if = {
+			limit = { is_galactic_republic = yes }
+			# 1st imperial fleet
+			create_fleet = {
+				effect = {
+					set_owner = root
+					set_location = root.capital_scope.star
+					while = {
+						count = 6
+						create_generic_corvette = yes
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+					while = {
+						count = 4
+						create_generic_frigate = yes
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+					while = {
+						count = 1
+						create_generic_destroyer = yes
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+				}
+			}
+			# 2nd imperial fleet
+			create_fleet = {
+				effect = {
+					set_owner = root
+					set_location = root.capital_scope.star
+					while = {
+						count = 6
+						create_generic_corvette = yes
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+					while = {
+						count = 4
+						create_generic_frigate = yes
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+					while = {
+						count = 1
+						create_generic_destroyer = yes
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+				}
+			}
+		}
+		# Spawn CIS Fleet
+		if = {
+			limit = { is_cis_remnant = yes }
+			# 1st cis remnant fleet
+			create_fleet = {
+				effect = {
+					set_owner = root
+					set_location = root.capital_scope.star
+					while = {
+						count = 4
+						create_generic_corvette = yes
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+					while = {
+						count = 2
+						create_generic_frigate = yes
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+					while = {
+						count = 1
+						create_generic_destroyer = yes
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+					owner = { create_clone_wars_admiral = yes }
+					set_leader = last_created_leader
+				}
+			}
+			# 2nd cis remnant fleet
+			create_fleet = {
+				effect = {
+					set_owner = root
+					set_location = root.capital_scope.star
+					while = {
+						count = 4
+						create_generic_corvette = yes
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+					while = {
+						count = 2
+						create_generic_frigate = yes
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+					while = {
+						count = 2
+						create_ship = {
+							name = random
+							random_existing_design = swp_munificent_heavy_cruiser
+							prefix = no
+							graphical_culture = root
+						}
+						set_location = {
+							target = root.capital_scope.star
+							distance = 80
+							angle = random
+						}
+					}
+					owner = { create_clone_wars_admiral = yes }
+					set_leader = last_created_leader
+				}
+			}
+		}
+	}
+}
+
+reset_special_armies_count = { # Adapted from Harain's code in LOTOR
+	log = "\\[This.GetRealName]: reset_special_armies_count"
+	# log = "\\[This.GetRealName] before: jedi_army_count = \\[This.jedi_army_count] / sith_army_count = \\[This.sith_army_count]"
+	if = { limit = { is_variable_set = mando_protectors_count } set_variable = { which = mando_protectors_count value = 1 } }
+	potential_country = {
+		limit = {
+			owner = {
+				has_technology = tech_weapon_group_man
+				has_country_flag = mandalorian_clans
+				OR = {
+					has_country_flag = fenn_rau_protectors
+					has_country_flag = fenn_shysa_protectors
+				}
+			}
+		}
+		if = { limit = { has_army_type = mando_protectors prev = { is_variable_set = mando_protectors_count } }
+			prev = { change_variable = { which = mando_protectors_count value = 3 } }
+			# log = " \\[This.GetName] +3 = \\[Prev.jedi_army_count]"
+		}
+		# else_if = { limit = { has_building = building_sith_temple_1 prev = { is_variable_set = sith_army_count } }
+		# 	prev = { change_variable = { which = sith_army_count value = 3 } }
+		# 	# log = " \\[This.GetName] +3 = \\[Prev.sith_army_count]"
+		# }
+		# else_if = { limit = { has_building = building_jedi_temple_2 prev = { is_variable_set = jedi_army_count } }
+		# 	prev = { change_variable = { which = jedi_army_count value = 5 } }
+		# 	# log = " \\[This.GetName] +5 = \\[Prev.jedi_army_count]"
+		# }
+		# else_if = { limit = { has_building = building_sith_temple_2 prev = { is_variable_set = sith_army_count } }
+		# 	prev = { change_variable = { which = sith_army_count value = 5 } }
+		# 	# log = " \\[This.GetName] +5 = \\[Prev.sith_army_count]"
+		# }
+		# if = { limit = { has_deposit = d_coruscant_palace_of_the_jedi prev = { is_variable_set = jedi_army_count } }
+		# 	prev = { change_variable = { which = jedi_army_count value = 6 } }
+		# 	# log = " \\[This.GetName] palace +6 = \\[Prev.jedi_army_count]"
+		# }
+	}
+	if = { limit = { is_variable_set = mando_protectors_count } subtract_variable = { which = mando_protectors_count value = 1 } }
+	#if = { limit = { is_variable_set = sith_army_count } subtract_variable = { which = sith_army_count value = 1 } }
+	# log = "  \\[This.GetRealName] from buildings: jedi_army_count = \\[This.jedi_army_count] / sith_army_count = \\[This.sith_army_count]"
+	every_owned_army = {
+		switch = {
+			trigger = army_type
+			mando_protectors = { prev = { subtract_variable = { which = mando_protectors_count value = 1 } } }
+			#jedi_consular_army = { prev = { subtract_variable = { which = jedi_army_count value = 1 } } }
+			#sith_warrior_army = { prev = { subtract_variable = { which = sith_army_count value = 1 } } }
+			#sith_inquisitor_army = { prev = { subtract_variable = { which = sith_army_count value = 1 } } }
+		}
+	}
+	# log = "  \\[This.GetRealName] after soldiers: jedi_army_count = \\[This.jedi_army_count] / sith_army_count = \\[This.sith_army_count]"
+}

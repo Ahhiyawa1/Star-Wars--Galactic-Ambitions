@@ -1,0 +1,844 @@
+﻿Jawa = {
+	randomized = no
+	ship_names = {
+		generic = {
+			JAWA_SHIP_mystic JAWA_SHIP_naiad JAWA_SHIP_nautilus JAWA_SHIP_nebula JAWA_SHIP_nimble JAWA_SHIP_north_star JAWA_SHIP_nymph JAWA_SHIP_obdurate JAWA_SHIP_ocean JAWA_SHIP_onward JAWA_SHIP_oracle JAWA_SHIP_paradox JAWA_SHIP_paragon JAWA_SHIP_pearl JAWA_SHIP_peregrine JAWA_SHIP_perseverance JAWA_SHIP_marksman JAWA_SHIP_rifleman JAWA_SHIP_sniper JAWA_SHIP_trident JAWA_SHIP_trumpet JAWA_SHIP_truncheon JAWA_SHIP_typhoon JAWA_SHIP_undaunted JAWA_SHIP_venture JAWA_SHIP_versatile JAWA_SHIP_vigorous JAWA_SHIP_viper JAWA_SHIP_vivacious JAWA_SHIP_winger JAWA_SHIP_wizard JAWA_SHIP_wyvern JAWA_SHIP_wolfhound JAWA_SHIP_devastator JAWA_SHIP_warhammer JAWA_SHIP_retribution JAWA_SHIP_senator JAWA_SHIP_tornado JAWA_SHIP_infinity JAWA_SHIP_usurper JAWA_SHIP_utmost JAWA_SHIP_valorous JAWA_SHIP_whirlwind JAWA_SHIP_athena JAWA_SHIP_artemis JAWA_SHIP_vigilance JAWA_SHIP_decimator JAWA_SHIP_indomitable JAWA_SHIP_goliath JAWA_SHIP_sentinel JAWA_SHIP_brilliant JAWA_SHIP_blazer JAWA_SHIP_audacity JAWA_SHIP_gallant JAWA_SHIP_nova JAWA_SHIP_shadow JAWA_SHIP_allegiance JAWA_SHIP_challenger JAWA_SHIP_fearless JAWA_SHIP_protector JAWA_SHIP_guardian JAWA_SHIP_victorious JAWA_SHIP_courageous JAWA_SHIP_defiance JAWA_SHIP_valorous JAWA_SHIP_azrael JAWA_SHIP_adamantine JAWA_SHIP_aralanni JAWA_SHIP_ardent_iv JAWA_SHIP_armistice JAWA_SHIP_avengeance JAWA_SHIP_ballista JAWA_SHIP_bloodstripe JAWA_SHIP_borealis JAWA_SHIP_caelus JAWA_SHIP_caravan JAWA_SHIP_chaf_envoy JAWA_SHIP_commenor JAWA_SHIP_corbantis JAWA_SHIP_corellia JAWA_SHIP_courteous JAWA_SHIP_dauntless JAWA_SHIP_defiant JAWA_SHIP_deliverance JAWA_SHIP_derapha JAWA_SHIP_devout JAWA_SHIP_empirical JAWA_SHIP_empyrean JAWA_SHIP_era_daimanos JAWA_SHIP_eye_of_the_storm JAWA_SHIP_farstar JAWA_SHIP_fastblast JAWA_SHIP_galaaron JAWA_SHIP_garrote JAWA_SHIP_gilagimar JAWA_SHIP_halleck JAWA_SHIP_hunter JAWA_SHIP_intractable JAWA_SHIP_ithor_lady JAWA_SHIP_justice_crusader JAWA_SHIP_kana_s_steel JAWA_SHIP_lathir JAWA_SHIP_liberty JAWA_SHIP_lillibanca JAWA_SHIP_maelstrom JAWA_SHIP_malachite_scent JAWA_SHIP_mercy JAWA_SHIP_myrkos JAWA_SHIP_nebula_chaser JAWA_SHIP_nova JAWA_SHIP_nova_viper JAWA_SHIP_obedience JAWA_SHIP_olemp JAWA_SHIP_pegasus JAWA_SHIP_perspicacity JAWA_SHIP_phalanx JAWA_SHIP_plooriod_bodkin JAWA_SHIP_predominance JAWA_SHIP_prosperity JAWA_SHIP_purity JAWA_SHIP_recalcitrant JAWA_SHIP_red_nova JAWA_SHIP_redma JAWA_SHIP_reliable JAWA_SHIP_reliant JAWA_SHIP_reluctant JAWA_SHIP_republic JAWA_SHIP_republic_s_return JAWA_SHIP_resolve JAWA_SHIP_respectable JAWA_SHIP_revenge JAWA_SHIP_shadowblade JAWA_SHIP_spritespray JAWA_SHIP_star_dream JAWA_SHIP_stark_wing JAWA_SHIP_starveil JAWA_SHIP_undying JAWA_SHIP_vaathkree JAWA_SHIP_vainglorious JAWA_SHIP_valiant JAWA_SHIP_valor JAWA_SHIP_vanquisher JAWA_SHIP_vinsor JAWA_SHIP_visseon JAWA_SHIP_wennis JAWA_SHIP_yavin_s_glory JAWA_SHIP_moldy_crow JAWA_SHIP_raven_s_claw JAWA_SHIP_agile JAWA_SHIP_archer JAWA_SHIP_arrow JAWA_SHIP_bruiser JAWA_SHIP_cherub JAWA_SHIP_chimera JAWA_SHIP_claymore JAWA_SHIP_broadsword JAWA_SHIP_battleaxe JAWA_SHIP_crossbow JAWA_SHIP_cutlass JAWA_SHIP_deterrent JAWA_SHIP_errant JAWA_SHIP_faithful JAWA_SHIP_fierce JAWA_SHIP_gladius JAWA_SHIP_longbow JAWA_SHIP_grappler JAWA_SHIP_hammer JAWA_SHIP_vampire JAWA_SHIP_velox JAWA_SHIP_venator JAWA_SHIP_vendetta JAWA_SHIP_venerable JAWA_SHIP_venomous JAWA_SHIP_taciturn JAWA_SHIP_supreme JAWA_SHIP_success JAWA_SHIP_shredder JAWA_SHIP_seraph JAWA_SHIP_serpent JAWA_SHIP_spitfire JAWA_SHIP_stalker JAWA_SHIP_stratagem JAWA_SHIP_scimitar JAWA_SHIP_scorcher JAWA_SHIP_scourge JAWA_SHIP_scythe JAWA_SHIP_revenant JAWA_SHIP_redoubtable JAWA_SHIP_raptor JAWA_SHIP_reaver JAWA_SHIP_prodigal JAWA_SHIP_rapier JAWA_SHIP_prudent JAWA_SHIP_persistent JAWA_SHIP_peerless JAWA_SHIP_myrmidon JAWA_SHIP_indignant JAWA_SHIP_javelin JAWA_SHIP_knight JAWA_SHIP_starwolf JAWA_SHIP_bonaventure JAWA_SHIP_adventure JAWA_SHIP_boxer JAWA_SHIP_buccaneer JAWA_SHIP_cavalier JAWA_SHIP_celestial JAWA_SHIP_chariot JAWA_SHIP_comet JAWA_SHIP_crucible JAWA_SHIP_cyclone JAWA_SHIP_decisive JAWA_SHIP_dexterous JAWA_SHIP_diadem JAWA_SHIP_earnest JAWA_SHIP_eclipse JAWA_SHIP_forger JAWA_SHIP_fortune JAWA_SHIP_gauntlet JAWA_SHIP_griffin JAWA_SHIP_horizon JAWA_SHIP_hotspur JAWA_SHIP_hurricane JAWA_SHIP_hussar JAWA_SHIP_jubilant JAWA_SHIP_lancer JAWA_SHIP_lightning JAWA_SHIP_magic JAWA_SHIP_mediator JAWA_SHIP_mermaid JAWA_SHIP_meteor JAWA_SHIP_minstrel JAWA_SHIP_miranda JAWA_SHIP_mustang JAWA_SHIP_sharpshooter JAWA_SHIP_cyclops JAWA_SHIP_centaur JAWA_SHIP_adversary JAWA_SHIP_assassin JAWA_SHIP_dagger JAWA_SHIP_daring JAWA_SHIP_duty JAWA_SHIP_havoc JAWA_SHIP_hero JAWA_SHIP_hunter JAWA_SHIP_justice JAWA_SHIP_impeccable JAWA_SHIP_interceptor JAWA_SHIP_infernal JAWA_SHIP_loyal JAWA_SHIP_matchless JAWA_SHIP_mauler JAWA_SHIP_mayhem JAWA_SHIP_malice JAWA_SHIP_menace JAWA_SHIP_merciless JAWA_SHIP_mischief JAWA_SHIP_monarch JAWA_SHIP_patriot JAWA_SHIP_predator JAWA_SHIP_powerful JAWA_SHIP_punisher JAWA_SHIP_ravager JAWA_SHIP_reaper JAWA_SHIP_savage JAWA_SHIP_spiteful JAWA_SHIP_templar JAWA_SHIP_terminator JAWA_SHIP_terror JAWA_SHIP_thrasher JAWA_SHIP_minotaur JAWA_SHIP_manticore JAWA_SHIP_interdictor JAWA_SHIP_intruder JAWA_SHIP_hydra JAWA_SHIP_enfield JAWA_SHIP_harasser JAWA_SHIP_unbeaten JAWA_SHIP_werewolf JAWA_SHIP_zealous JAWA_SHIP_petulant JAWA_SHIP_phantom JAWA_SHIP_phoenix JAWA_SHIP_pike JAWA_SHIP_pursuer JAWA_SHIP_raider JAWA_SHIP_rainbow JAWA_SHIP_rapid JAWA_SHIP_redemption JAWA_SHIP_relentless JAWA_SHIP_rigorous JAWA_SHIP_robust JAWA_SHIP_sabre JAWA_SHIP_salvation JAWA_SHIP_sanguine JAWA_SHIP_scarab JAWA_SHIP_scepter JAWA_SHIP_sea_witch JAWA_SHIP_siren JAWA_SHIP_sorceress JAWA_SHIP_spearhead JAWA_SHIP_specter JAWA_SHIP_spirit JAWA_SHIP_splendid JAWA_SHIP_stallion JAWA_SHIP_stalwart JAWA_SHIP_steadfast JAWA_SHIP_strenuous JAWA_SHIP_superb JAWA_SHIP_supernova JAWA_SHIP_surprise JAWA_SHIP_swiftsure JAWA_SHIP_talent JAWA_SHIP_talisman JAWA_SHIP_talon JAWA_SHIP_taurus JAWA_SHIP_tenacious JAWA_SHIP_thunder_child JAWA_SHIP_thunderous JAWA_SHIP_tireless JAWA_SHIP_trenchant JAWA_SHIP_righteous JAWA_SHIP_acheron JAWA_SHIP_achilles JAWA_SHIP_agamemnon JAWA_SHIP_amphion JAWA_SHIP_aquilon JAWA_SHIP_argonaut JAWA_SHIP_argus JAWA_SHIP_ariel JAWA_SHIP_aurora JAWA_SHIP_avernus JAWA_SHIP_bacchus JAWA_SHIP_bucephalus JAWA_SHIP_calliope JAWA_SHIP_calypso JAWA_SHIP_castor JAWA_SHIP_charybdis JAWA_SHIP_circe JAWA_SHIP_cleopatra JAWA_SHIP_constantine JAWA_SHIP_cordelia JAWA_SHIP_cyrus JAWA_SHIP_damocles JAWA_SHIP_daedalus JAWA_SHIP_darius JAWA_SHIP_diomede JAWA_SHIP_dryad JAWA_SHIP_electra JAWA_SHIP_endymion JAWA_SHIP_erebus JAWA_SHIP_fenris JAWA_SHIP_freya JAWA_SHIP_gilgamesh JAWA_SHIP_gorgon JAWA_SHIP_halcyon JAWA_SHIP_hecate JAWA_SHIP_hector JAWA_SHIP_hesperus JAWA_SHIP_janus JAWA_SHIP_jason JAWA_SHIP_juno JAWA_SHIP_jupiter JAWA_SHIP_lancelot JAWA_SHIP_lazarus JAWA_SHIP_leander JAWA_SHIP_leonidas JAWA_SHIP_lysander JAWA_SHIP_maenad JAWA_SHIP_mars JAWA_SHIP_medea JAWA_SHIP_medusa JAWA_SHIP_menestheus JAWA_SHIP_mercury JAWA_SHIP_merlin JAWA_SHIP_minerva JAWA_SHIP_minos JAWA_SHIP_neptune JAWA_SHIP_nessus JAWA_SHIP_nestor JAWA_SHIP_nimrod JAWA_SHIP_niobe JAWA_SHIP_oberon JAWA_SHIP_odin JAWA_SHIP_ophelia JAWA_SHIP_orestes JAWA_SHIP_orpheus JAWA_SHIP_osiris JAWA_SHIP_pandora JAWA_SHIP_penelope JAWA_SHIP_persephone JAWA_SHIP_perseus JAWA_SHIP_phoebe JAWA_SHIP_pluto JAWA_SHIP_poseidon JAWA_SHIP_proteus JAWA_SHIP_pylades JAWA_SHIP_serapis JAWA_SHIP_stygian JAWA_SHIP_tantalus JAWA_SHIP_telemachus JAWA_SHIP_theseus JAWA_SHIP_thor JAWA_SHIP_trajan JAWA_SHIP_triton JAWA_SHIP_venus JAWA_SHIP_adamant JAWA_SHIP_ardent JAWA_SHIP_assail JAWA_SHIP_austere JAWA_SHIP_archon JAWA_SHIP_adroit JAWA_SHIP_aegis JAWA_SHIP_anchor JAWA_SHIP_corsair JAWA_SHIP_banshee JAWA_SHIP_enchantress JAWA_SHIP_eradicator JAWA_SHIP_tormentor JAWA_SHIP_legion JAWA_SHIP_reprisal JAWA_SHIP_aggressor JAWA_SHIP_assault JAWA_SHIP_eviscerator JAWA_SHIP_imperator JAWA_SHIP_excellence JAWA_SHIP_unrivalled JAWA_SHIP_warlord JAWA_SHIP_vengeance JAWA_SHIP_triumphant JAWA_SHIP_nemesis JAWA_SHIP_avenger JAWA_SHIP_champion JAWA_SHIP_conqueror JAWA_SHIP_crusader JAWA_SHIP_glory JAWA_SHIP_immortal JAWA_SHIP_judicator JAWA_SHIP_vanguard JAWA_SHIP_renown JAWA_SHIP_demolisher JAWA_SHIP_dragon JAWA_SHIP_executor JAWA_SHIP_furious JAWA_SHIP_gladiator JAWA_SHIP_magnificent JAWA_SHIP_ogre JAWA_SHIP_onslaught JAWA_SHIP_revenge JAWA_SHIP_vanquisher JAWA_SHIP_vehement JAWA_SHIP_basilisk JAWA_SHIP_tempest JAWA_SHIP_overlord JAWA_SHIP_warrior JAWA_SHIP_titan JAWA_SHIP_colossus JAWA_SHIP_prometheus JAWA_SHIP_nike JAWA_SHIP_paladin JAWA_SHIP_sovereign JAWA_SHIP_repulse JAWA_SHIP_majestic JAWA_SHIP_avatar JAWA_SHIP_behemoth JAWA_SHIP_centurion JAWA_SHIP_citadel JAWA_SHIP_katana JAWA_SHIP_kraken JAWA_SHIP_cerberus JAWA_SHIP_valkyrie
+		}
+		swp_bellator = {
+			JAWA_SHIP_dreadnought JAWA_SHIP_harbinger JAWA_SHIP_juggernaut JAWA_SHIP_leviathan JAWA_SHIP_hyperion JAWA_SHIP_galatea JAWA_SHIP_ambush JAWA_SHIP_vindicator
+		}
+		science = {
+			JAWA_SHIP_crescent JAWA_SHIP_diligent JAWA_SHIP_zephyr JAWA_SHIP_enigma JAWA_SHIP_conquistador JAWA_SHIP_scylla JAWA_SHIP_arbiter JAWA_SHIP_asperity JAWA_SHIP_eminence JAWA_SHIP_astute JAWA_SHIP_alacrity JAWA_SHIP_satyr JAWA_SHIP_prospero JAWA_SHIP_untiring JAWA_SHIP_zenith JAWA_SHIP_torch JAWA_SHIP_remembrance JAWA_SHIP_pilgrim JAWA_SHIP_trailblazer JAWA_SHIP_vagabond JAWA_SHIP_wayfarer JAWA_SHIP_ambassador JAWA_SHIP_emissary JAWA_SHIP_nomad JAWA_SHIP_pathfinder JAWA_SHIP_wanderer JAWA_SHIP_traveler
+		}
+		colonizer = {
+			JAWA_SHIP_godspeed JAWA_SHIP_prophecy JAWA_SHIP_manifest_destiny JAWA_SHIP_virtue JAWA_SHIP_potential JAWA_SHIP_expansion JAWA_SHIP_pioneer_spirit JAWA_SHIP_prosperity JAWA_SHIP_summit JAWA_SHIP_pinnacle JAWA_SHIP_seeder JAWA_SHIP_harvest JAWA_SHIP_demeter JAWA_SHIP_isis JAWA_SHIP_ceres JAWA_SHIP_exodus JAWA_SHIP_foundation JAWA_SHIP_scion JAWA_SHIP_progeny JAWA_SHIP_obligation JAWA_SHIP_purpose JAWA_SHIP_provider JAWA_SHIP_shining_city JAWA_SHIP_acquirer JAWA_SHIP_cultivator JAWA_SHIP_dawn_of_civilization JAWA_SHIP_purity JAWA_SHIP_community JAWA_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			JAWA_SHIP_godspeed JAWA_SHIP_prophecy JAWA_SHIP_manifest_destiny JAWA_SHIP_virtue JAWA_SHIP_potential JAWA_SHIP_expansion JAWA_SHIP_pioneer_spirit JAWA_SHIP_prosperity JAWA_SHIP_summit JAWA_SHIP_pinnacle JAWA_SHIP_seeder JAWA_SHIP_harvest JAWA_SHIP_isis JAWA_SHIP_ceres JAWA_SHIP_exodus JAWA_SHIP_foundation JAWA_SHIP_scion JAWA_SHIP_progeny JAWA_SHIP_obligation JAWA_SHIP_purpose JAWA_SHIP_provider JAWA_SHIP_shining_city JAWA_SHIP_acquirer JAWA_SHIP_cultivator JAWA_SHIP_dawn_of_civilization JAWA_SHIP_purity JAWA_SHIP_community JAWA_SHIP_brotherhood
+		}
+		constructor = {
+			JAWA_SHIP_industry JAWA_SHIP_assiduity JAWA_SHIP_effort JAWA_SHIP_laborer JAWA_SHIP_builder JAWA_SHIP_craftsman JAWA_SHIP_hard_hat JAWA_SHIP_progress JAWA_SHIP_engineer JAWA_SHIP_promise JAWA_SHIP_service JAWA_SHIP_shelter JAWA_SHIP_beast JAWA_SHIP_creator JAWA_SHIP_developer JAWA_SHIP_forger JAWA_SHIP_foundry JAWA_SHIP_factory JAWA_SHIP_anvil JAWA_SHIP_pillar JAWA_SHIP_architect JAWA_SHIP_accommodator JAWA_SHIP_ptah JAWA_SHIP_ilmarinen JAWA_SHIP_creidhne JAWA_SHIP_gobannus JAWA_SHIP_luchtaine JAWA_SHIP_goibniu JAWA_SHIP_vishvakarman JAWA_SHIP_tvastar JAWA_SHIP_ikenga JAWA_SHIP_qaynan JAWA_SHIP_ucuetis JAWA_SHIP_ogoun
+		}
+		transport = {
+			JAWA_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			JAWA_SHIP_spacegun_victory JAWA_SHIP_spacegun_success JAWA_SHIP_spacegun_supremacy JAWA_SHIP_spacegun_superior JAWA_SHIP_spacegun_adventure JAWA_SHIP_spacegun_ascendancy JAWA_SHIP_spacegun_paramount JAWA_SHIP_spacegun_preponderous JAWA_SHIP_spacegun_exemplary JAWA_SHIP_spacegun_eximious JAWA_SHIP_spacegun_pertinacity JAWA_SHIP_spacegun_acclaim JAWA_SHIP_spacegun_honor JAWA_SHIP_spacegun_renown JAWA_SHIP_spacegun_glory JAWA_SHIP_spacegun_superb JAWA_SHIP_spacegun_magnificence JAWA_SHIP_spacegun_majestic JAWA_SHIP_spacegun_splendor JAWA_SHIP_spacegun_paradigm JAWA_SHIP_spacegun_flawless JAWA_SHIP_spacegun_consummate JAWA_SHIP_spacegun_merit JAWA_SHIP_spacegun_perfection JAWA_SHIP_spacegun_virtue JAWA_SHIP_spacegun_advantage JAWA_SHIP_spacegun_rectitude JAWA_SHIP_spacegun_incorruptible JAWA_SHIP_spacegun_integrity JAWA_SHIP_spacegun_justice JAWA_SHIP_spacegun_probity JAWA_SHIP_spacegun_prudence JAWA_SHIP_spacegun_purity JAWA_SHIP_spacegun_resolute JAWA_SHIP_spacegun_dignity JAWA_SHIP_spacegun_distinction JAWA_SHIP_spacegun_excellence JAWA_SHIP_spacegun_faithful JAWA_SHIP_spacegun_discipline JAWA_SHIP_spacegun_steadfast JAWA_SHIP_spacegun_recompense JAWA_SHIP_spacegun_requiem JAWA_SHIP_spacegun_courage JAWA_SHIP_spacegun_valor JAWA_SHIP_spacegun_gallant JAWA_SHIP_spacegun_daring JAWA_SHIP_spacegun_constancy JAWA_SHIP_spacegun_perseverence JAWA_SHIP_spacegun_tenacity JAWA_SHIP_spacegun_sedulity JAWA_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			JAWA_SHIP_spacegun_victory JAWA_SHIP_spacegun_success JAWA_SHIP_spacegun_supremacy JAWA_SHIP_spacegun_superior JAWA_SHIP_spacegun_adventure JAWA_SHIP_spacegun_ascendancy JAWA_SHIP_spacegun_paramount JAWA_SHIP_spacegun_preponderous JAWA_SHIP_spacegun_exemplary JAWA_SHIP_spacegun_eximious JAWA_SHIP_spacegun_pertinacity JAWA_SHIP_spacegun_acclaim JAWA_SHIP_spacegun_honor JAWA_SHIP_spacegun_renown JAWA_SHIP_spacegun_glory JAWA_SHIP_spacegun_superb JAWA_SHIP_spacegun_magnificence JAWA_SHIP_spacegun_majestic JAWA_SHIP_spacegun_splendor JAWA_SHIP_spacegun_paradigm JAWA_SHIP_spacegun_flawless JAWA_SHIP_spacegun_consummate JAWA_SHIP_spacegun_merit JAWA_SHIP_spacegun_perfection JAWA_SHIP_spacegun_virtue JAWA_SHIP_spacegun_advantage JAWA_SHIP_spacegun_rectitude JAWA_SHIP_spacegun_incorruptible JAWA_SHIP_spacegun_integrity JAWA_SHIP_spacegun_justice JAWA_SHIP_spacegun_probity JAWA_SHIP_spacegun_prudence JAWA_SHIP_spacegun_purity JAWA_SHIP_spacegun_resolute JAWA_SHIP_spacegun_dignity JAWA_SHIP_spacegun_distinction JAWA_SHIP_spacegun_excellence JAWA_SHIP_spacegun_faithful JAWA_SHIP_spacegun_discipline JAWA_SHIP_spacegun_steadfast JAWA_SHIP_spacegun_recompense JAWA_SHIP_spacegun_requiem JAWA_SHIP_spacegun_courage JAWA_SHIP_spacegun_valor JAWA_SHIP_spacegun_gallant JAWA_SHIP_spacegun_daring JAWA_SHIP_spacegun_constancy JAWA_SHIP_spacegun_perseverence JAWA_SHIP_spacegun_tenacity JAWA_SHIP_spacegun_sedulity JAWA_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			JAWA_SHIP_spacegun_victory JAWA_SHIP_spacegun_success JAWA_SHIP_spacegun_supremacy JAWA_SHIP_spacegun_superior JAWA_SHIP_spacegun_adventure JAWA_SHIP_spacegun_ascendancy JAWA_SHIP_spacegun_paramount JAWA_SHIP_spacegun_preponderous JAWA_SHIP_spacegun_exemplary JAWA_SHIP_spacegun_eximious JAWA_SHIP_spacegun_pertinacity JAWA_SHIP_spacegun_acclaim JAWA_SHIP_spacegun_honor JAWA_SHIP_spacegun_renown JAWA_SHIP_spacegun_glory JAWA_SHIP_spacegun_superb JAWA_SHIP_spacegun_magnificence JAWA_SHIP_spacegun_majestic JAWA_SHIP_spacegun_splendor JAWA_SHIP_spacegun_paradigm JAWA_SHIP_spacegun_flawless JAWA_SHIP_spacegun_consummate JAWA_SHIP_spacegun_merit JAWA_SHIP_spacegun_perfection JAWA_SHIP_spacegun_virtue JAWA_SHIP_spacegun_advantage JAWA_SHIP_spacegun_rectitude JAWA_SHIP_spacegun_incorruptible JAWA_SHIP_spacegun_integrity JAWA_SHIP_spacegun_justice JAWA_SHIP_spacegun_probity JAWA_SHIP_spacegun_prudence JAWA_SHIP_spacegun_purity JAWA_SHIP_spacegun_resolute JAWA_SHIP_spacegun_dignity JAWA_SHIP_spacegun_distinction JAWA_SHIP_spacegun_excellence JAWA_SHIP_spacegun_faithful JAWA_SHIP_spacegun_discipline JAWA_SHIP_spacegun_steadfast JAWA_SHIP_spacegun_recompense JAWA_SHIP_spacegun_requiem JAWA_SHIP_spacegun_courage JAWA_SHIP_spacegun_valor JAWA_SHIP_spacegun_gallant JAWA_SHIP_spacegun_daring JAWA_SHIP_spacegun_constancy JAWA_SHIP_spacegun_perseverence JAWA_SHIP_spacegun_tenacity JAWA_SHIP_spacegun_sedulity JAWA_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			JAWA_SHIP_citadel JAWA_SHIP_albacore JAWA_SHIP_gateway JAWA_SHIP_vincent JAWA_SHIP_babylon JAWA_SHIP_caernavon JAWA_SHIP_acre JAWA_SHIP_pembroke JAWA_SHIP_acheron JAWA_SHIP_spithead JAWA_SHIP_halifax JAWA_SHIP_victoria JAWA_SHIP_chatham JAWA_SHIP_anchorage JAWA_SHIP_scapa_flow JAWA_SHIP_hampton_roads JAWA_SHIP_brooklyn JAWA_SHIP_norfolk JAWA_SHIP_newport JAWA_SHIP_guam JAWA_SHIP_pensacola JAWA_SHIP_vesuvius JAWA_SHIP_mckinley JAWA_SHIP_everest JAWA_SHIP_kilimanjaro JAWA_SHIP_aconcagua JAWA_SHIP_elbrus JAWA_SHIP_st__helens JAWA_SHIP_fuji JAWA_SHIP_olympus JAWA_SHIP_sinai JAWA_SHIP_ambrose JAWA_SHIP_bermuda JAWA_SHIP_farpoint JAWA_SHIP_blue_star JAWA_SHIP_olympus_mons JAWA_SHIP_tharsis JAWA_SHIP_syrtis JAWA_SHIP_blackham JAWA_SHIP_fletcher JAWA_SHIP_perry JAWA_SHIP_butakov JAWA_SHIP_morris JAWA_SHIP_moorsom JAWA_SHIP_hart JAWA_SHIP_hargood JAWA_SHIP_spruance JAWA_SHIP_tanaka JAWA_SHIP_halsey JAWA_SHIP_turner JAWA_SHIP_doria JAWA_SHIP_tirpitz JAWA_SHIP_cunningham JAWA_SHIP_jellicoe JAWA_SHIP_hipper JAWA_SHIP_beatty JAWA_SHIP_potemkin JAWA_SHIP_durham JAWA_SHIP_codrington JAWA_SHIP_milne JAWA_SHIP_laforey JAWA_SHIP_tyler JAWA_SHIP_hawke JAWA_SHIP_yonai JAWA_SHIP_pound JAWA_SHIP_king JAWA_SHIP_crutchley JAWA_SHIP_mountbatten JAWA_SHIP_kountouriotis JAWA_SHIP_kuznetsov JAWA_SHIP_essen JAWA_SHIP_kornilov JAWA_SHIP_suffren JAWA_SHIP_treville JAWA_SHIP_villeneuve JAWA_SHIP_grasse JAWA_SHIP_byng JAWA_SHIP_lezo
+		}
+		ion_cannon = {
+			JAWA_SHIP_bombard JAWA_SHIP_ballista JAWA_SHIP_catapult JAWA_SHIP_harpoon JAWA_SHIP_polybolos JAWA_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			JAWA_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			JAWA_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			JAWA_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			JAWA_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			JAWA_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			JAWA_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			JAWA_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			JAWA_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			JAWA_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			JAWA_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			JAWA_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			JAWA_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			JAWA_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			JAWA_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			JAWA_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			JAWA_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			JAWA_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			JAWA_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			JAWA_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			JAWA_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			JAWA_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			JAWA_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			JAWA_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			JAWA_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			JAWA_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			JAWA_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			JAWA_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			JAWA_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			JAWA_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			JAWA_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			JAWA_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			JAWA_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			JAWA_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			JAWA_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			JAWA_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			JAWA_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			JAWA_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			JAWA_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			JAWA_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			JAWA_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			JAWA_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			JAWA_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			JAWA_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			JAWA_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			JAWA_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			JAWA_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			JAWA_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			JAWA_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			JAWA_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			JAWA_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			JAWA_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			JAWA_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			JAWA_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			JAWA_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			JAWA_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			JAWA_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			JAWA_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			JAWA_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			JAWA_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			JAWA_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			JAWA_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			JAWA_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			JAWA_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			JAWA_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			JAWA_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			JAWA_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			JAWA_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			JAWA_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			JAWA_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			JAWA_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			JAWA_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			JAWA_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			JAWA_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			JAWA_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			JAWA_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			JAWA_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			JAWA_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			JAWA_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			JAWA_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			JAWA_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			JAWA_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			JAWA_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			JAWA_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			JAWA_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			JAWA_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			JAWA_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			JAWA_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			JAWA_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			JAWA_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			JAWA_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			JAWA_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			JAWA_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			JAWA_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			JAWA_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			JAWA_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			JAWA_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			JAWA_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			JAWA_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			JAWA_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			JAWA_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			JAWA_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			JAWA_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			JAWA_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			JAWA_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			JAWA_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			JAWA_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			JAWA_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			JAWA_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			JAWA_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			JAWA_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			JAWA_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			JAWA_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			JAWA_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			JAWA_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = JAWA_FLEET_armada_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = JAWA_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = JAWA_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = JAWA_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = JAWA_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = JAWA_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = JAWA_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = JAWA_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = JAWA_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				JAWA_ARMY_sarc_a__gladiators_ JAWA_ARMY_sarc_b__widowmakers_ JAWA_ARMY_sarc_c__immortals_ JAWA_ARMY_sarc_d__berserkers_ JAWA_ARMY_sarc_e__assassins_ JAWA_ARMY_sarc_f__reapers_ JAWA_ARMY_sarc_g__nighthawks_ JAWA_ARMY_sarc_h__desperados_ JAWA_ARMY_sarc_i__grey_knights_ JAWA_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = JAWA_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = JAWA_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = JAWA_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = JAWA_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = JAWA_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = JAWA_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = JAWA_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = JAWA_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = JAWA_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = JAWA_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = JAWA_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = JAWA_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = JAWA_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = JAWA_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = JAWA_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = JAWA_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = JAWA_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = JAWA_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = JAWA_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = JAWA_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = JAWA_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = JAWA_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = JAWA_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = JAWA_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = JAWA_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = JAWA_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = JAWA_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = JAWA_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = JAWA_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = JAWA_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = JAWA_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = JAWA_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = JAWA_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = JAWA_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = JAWA_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = JAWA_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = JAWA_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = JAWA_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = JAWA_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = JAWA_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = JAWA_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = JAWA_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = JAWA_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = JAWA_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = JAWA_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = JAWA_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = JAWA_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = JAWA_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = JAWA_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = JAWA_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = JAWA_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = JAWA_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = JAWA_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = JAWA_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = JAWA_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = JAWA_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = JAWA_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = JAWA_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = JAWA_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = JAWA_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = JAWA_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = JAWA_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = JAWA_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = JAWA_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = JAWA_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = JAWA_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = JAWA_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = JAWA_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = JAWA_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = JAWA_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = JAWA_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = JAWA_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = JAWA_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = JAWA_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = JAWA_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = JAWA_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = JAWA_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = JAWA_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = JAWA_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = JAWA_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = JAWA_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = JAWA_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = JAWA_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = JAWA_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = JAWA_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = JAWA_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = JAWA_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = JAWA_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = JAWA_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = JAWA_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = JAWA_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = JAWA_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = JAWA_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = JAWA_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = JAWA_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = JAWA_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = JAWA_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = JAWA_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = JAWA_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = JAWA_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = JAWA_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = JAWA_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = JAWA_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = JAWA_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = JAWA_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = JAWA_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = JAWA_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = JAWA_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = JAWA_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = JAWA_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = JAWA_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = JAWA_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = JAWA_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = JAWA_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = JAWA_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = JAWA_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = JAWA_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = JAWA_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = JAWA_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = JAWA_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = JAWA_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = JAWA_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = JAWA_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = JAWA_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = JAWA_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = JAWA_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = JAWA_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = JAWA_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = JAWA_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = JAWA_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = JAWA_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = JAWA_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = JAWA_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				JAWA_CHR_akial JAWA_CHR_akkik JAWA_CHR_aktik JAWA_CHR_atetu JAWA_CHR_biguh JAWA_CHR_biktha JAWA_CHR_bleb_blek JAWA_CHR_blizz JAWA_CHR_brrik JAWA_CHR_charl JAWA_CHR_ch_hedt JAWA_CHR_daroe JAWA_CHR_dathcha JAWA_CHR_deja JAWA_CHR_eet JAWA_CHR_efa JAWA_CHR_empideera JAWA_CHR_enjikket JAWA_CHR_ezjenk JAWA_CHR_hadiir JAWA_CHR_het JAWA_CHR_hibli JAWA_CHR_hrar JAWA_CHR_iasa JAWA_CHR_izink JAWA_CHR_iziz JAWA_CHR_izzar JAWA_CHR_jeelvic JAWA_CHR_jek JAWA_CHR_jengus JAWA_CHR_jik_tal JAWA_CHR_jiktha JAWA_CHR_ji_ni JAWA_CHR_jreely JAWA_CHR_kalit JAWA_CHR_kekit JAWA_CHR_keth_keth JAWA_CHR_kezzit JAWA_CHR_kiatha JAWA_CHR_kikkit JAWA_CHR_kiottja JAWA_CHR_kitit JAWA_CHR_kitpth JAWA_CHR_klepti JAWA_CHR_klikk JAWA_CHR_krikit JAWA_CHR_lonai JAWA_CHR_maliiki JAWA_CHR_meerko JAWA_CHR_meso JAWA_CHR_miktha JAWA_CHR_mnek JAWA_CHR_nbat JAWA_CHR_nebit JAWA_CHR_niktha JAWA_CHR_nolar JAWA_CHR_pachwenko JAWA_CHR_panaw JAWA_CHR_pitkth JAWA_CHR_pliktu JAWA_CHR_prnthik JAWA_CHR_renishi JAWA_CHR_ribbo JAWA_CHR_r_kik JAWA_CHR_rkok JAWA_CHR_snipp JAWA_CHR_squig JAWA_CHR_tatakoz JAWA_CHR_tteek JAWA_CHR_tek JAWA_CHR_teokuk JAWA_CHR_thedit JAWA_CHR_thint JAWA_CHR_tiatha JAWA_CHR_tikkit JAWA_CHR_tili_tili JAWA_CHR_tteel JAWA_CHR_ttekket JAWA_CHR_tweetu JAWA_CHR_ukchet JAWA_CHR_uutkik JAWA_CHR_veek JAWA_CHR_wassak JAWA_CHR_wimateeka JAWA_CHR_wittin JAWA_CHR_wrex JAWA_CHR_yeelhoy JAWA_CHR_zubwen JAWA_CHR_abluikth JAWA_CHR_blazz JAWA_CHR_chith JAWA_CHR_dekkemiw JAWA_CHR_hekk JAWA_CHR_ikchak JAWA_CHR_krak_chih JAWA_CHR_krek_koek_kix JAWA_CHR_obloniit JAWA_CHR_ok_katki JAWA_CHR_okkent JAWA_CHR_snik JAWA_CHR_snikk JAWA_CHR_sqer JAWA_CHR_squt JAWA_CHR_tebuisseot JAWA_CHR_thut JAWA_CHR_tsakchapta JAWA_CHR_tseezz JAWA_CHR_tseh JAWA_CHR_ttent JAWA_CHR_valadt JAWA_CHR_vax JAWA_CHR_vikinzatk JAWA_CHR_vukchit JAWA_CHR_wepp JAWA_CHR_zittjil
+			}
+			first_names_female = {
+				JAWA_CHR_aguilae JAWA_CHR_aved JAWA_CHR_herat JAWA_CHR_khea JAWA_CHR_lelek JAWA_CHR_maz JAWA_CHR_abut JAWA_CHR_agiy JAWA_CHR_ales JAWA_CHR_anigeed JAWA_CHR_apifeh JAWA_CHR_apoevee JAWA_CHR_aree JAWA_CHR_atipi JAWA_CHR_beremam JAWA_CHR_bhagad JAWA_CHR_bhohudee JAWA_CHR_bitipuc JAWA_CHR_blafatad JAWA_CHR_blamibas JAWA_CHR_bliisim JAWA_CHR_blivota JAWA_CHR_dafum JAWA_CHR_dhali JAWA_CHR_dheke JAWA_CHR_dhihel JAWA_CHR_dhikac JAWA_CHR_d_ner JAWA_CHR_d_nidul JAWA_CHR_ebelek JAWA_CHR_efali JAWA_CHR_ejemakth JAWA_CHR_evi JAWA_CHR_fiiy JAWA_CHR_hurewi JAWA_CHR_imik JAWA_CHR_kabeos JAWA_CHR_kakeget JAWA_CHR_k_edi JAWA_CHR_khuran JAWA_CHR_k_iduvu JAWA_CHR_kkeqia JAWA_CHR_kkequ JAWA_CHR_klenuheekth JAWA_CHR_knawe JAWA_CHR_k_ura JAWA_CHR_liikin JAWA_CHR_lirum JAWA_CHR_loese JAWA_CHR_mazaza JAWA_CHR_mehilah JAWA_CHR_m_erira JAWA_CHR_mibel JAWA_CHR_najin JAWA_CHR_negumin JAWA_CHR_ney JAWA_CHR_nipufuc JAWA_CHR_nkun JAWA_CHR_nuqi JAWA_CHR_oheegi JAWA_CHR_pabal JAWA_CHR_pada JAWA_CHR_paka JAWA_CHR_plekem JAWA_CHR_q_ikey JAWA_CHR_q_ivu JAWA_CHR_qoejiid JAWA_CHR_rhaden JAWA_CHR_rhilelad JAWA_CHR_rine JAWA_CHR_ripem JAWA_CHR_rwalis JAWA_CHR_rwiladat JAWA_CHR_safee JAWA_CHR_sebeni JAWA_CHR_setek JAWA_CHR_shadasis JAWA_CHR_siahak JAWA_CHR_sife JAWA_CHR_sniveh JAWA_CHR_thabiih JAWA_CHR_thay JAWA_CHR_thurac JAWA_CHR_ugezil JAWA_CHR_usa JAWA_CHR_usoqahs JAWA_CHR_vamo JAWA_CHR_vewevoe JAWA_CHR_wapuk JAWA_CHR_whebeoh JAWA_CHR_whelut JAWA_CHR_whifatas JAWA_CHR_wutunam
+			}
+			second_names = {
+				JAWA_CHR_b_ay JAWA_CHR_bet_ario JAWA_CHR_d_nec JAWA_CHR_fe_li JAWA_CHR_johs JAWA_CHR_kkak JAWA_CHR_kkek JAWA_CHR_laloo JAWA_CHR_luun JAWA_CHR_nkik JAWA_CHR_nkul JAWA_CHR_ptaa JAWA_CHR_qua_lu JAWA_CHR_sil JAWA_CHR_sstena JAWA_CHR_tlek JAWA_CHR_toomb JAWA_CHR_ajudakth JAWA_CHR_b_ahu JAWA_CHR_b_azirol JAWA_CHR_behas JAWA_CHR_b_in JAWA_CHR_d_nivii JAWA_CHR_evekt JAWA_CHR_k_eoz JAWA_CHR_k_igok JAWA_CHR_kkariakth JAWA_CHR_kruisik JAWA_CHR_m_az JAWA_CHR_m_ikth JAWA_CHR_m_imodam JAWA_CHR_ptikth JAWA_CHR_q_adaren JAWA_CHR_q_arul JAWA_CHR_q_ecoju JAWA_CHR_soz JAWA_CHR_thetay JAWA_CHR_tluiqagim JAWA_CHR_tlunaki JAWA_CHR_tuked
+			}
+			regnal_first_names_male = {
+				JAWA_CHR_akial JAWA_CHR_akkik JAWA_CHR_aktik JAWA_CHR_atetu JAWA_CHR_biguh JAWA_CHR_biktha JAWA_CHR_bleb_blek JAWA_CHR_blizz JAWA_CHR_brrik JAWA_CHR_charl JAWA_CHR_ch_hedt JAWA_CHR_daroe JAWA_CHR_dathcha JAWA_CHR_deja JAWA_CHR_eet JAWA_CHR_efa JAWA_CHR_empideera JAWA_CHR_enjikket JAWA_CHR_ezjenk JAWA_CHR_hadiir JAWA_CHR_het JAWA_CHR_hibli JAWA_CHR_hrar JAWA_CHR_iasa JAWA_CHR_izink JAWA_CHR_iziz JAWA_CHR_izzar JAWA_CHR_jeelvic JAWA_CHR_jek JAWA_CHR_jengus JAWA_CHR_jik_tal JAWA_CHR_jiktha JAWA_CHR_ji_ni JAWA_CHR_jreely JAWA_CHR_kalit JAWA_CHR_kekit JAWA_CHR_keth_keth JAWA_CHR_kezzit JAWA_CHR_kiatha JAWA_CHR_kikkit JAWA_CHR_kiottja JAWA_CHR_kitit JAWA_CHR_kitpth JAWA_CHR_klepti JAWA_CHR_klikk JAWA_CHR_krikit JAWA_CHR_lonai JAWA_CHR_maliiki JAWA_CHR_meerko JAWA_CHR_meso JAWA_CHR_miktha JAWA_CHR_mnek JAWA_CHR_nbat JAWA_CHR_nebit JAWA_CHR_niktha JAWA_CHR_nolar JAWA_CHR_pachwenko JAWA_CHR_panaw JAWA_CHR_pitkth JAWA_CHR_pliktu JAWA_CHR_prnthik JAWA_CHR_renishi JAWA_CHR_ribbo JAWA_CHR_r_kik JAWA_CHR_rkok JAWA_CHR_snipp JAWA_CHR_squig JAWA_CHR_tatakoz JAWA_CHR_tteek JAWA_CHR_tek JAWA_CHR_teokuk JAWA_CHR_thedit JAWA_CHR_thint JAWA_CHR_tiatha JAWA_CHR_tikkit JAWA_CHR_tili_tili JAWA_CHR_tteel JAWA_CHR_ttekket JAWA_CHR_tweetu JAWA_CHR_ukchet JAWA_CHR_uutkik JAWA_CHR_veek JAWA_CHR_wassak JAWA_CHR_wimateeka JAWA_CHR_wittin JAWA_CHR_wrex JAWA_CHR_yeelhoy JAWA_CHR_zubwen JAWA_CHR_abluikth JAWA_CHR_blazz JAWA_CHR_chith JAWA_CHR_dekkemiw JAWA_CHR_hekk JAWA_CHR_ikchak JAWA_CHR_krak_chih JAWA_CHR_krek_koek_kix JAWA_CHR_obloniit JAWA_CHR_ok_katki JAWA_CHR_okkent JAWA_CHR_snik JAWA_CHR_snikk JAWA_CHR_sqer JAWA_CHR_squt JAWA_CHR_tebuisseot JAWA_CHR_thut JAWA_CHR_tsakchapta JAWA_CHR_tseezz JAWA_CHR_tseh JAWA_CHR_ttent JAWA_CHR_valadt JAWA_CHR_vax JAWA_CHR_vikinzatk JAWA_CHR_vukchit JAWA_CHR_wepp JAWA_CHR_zittjil
+			}
+			regnal_first_names_female = {
+				JAWA_CHR_aguilae JAWA_CHR_aved JAWA_CHR_herat JAWA_CHR_khea JAWA_CHR_lelek JAWA_CHR_maz JAWA_CHR_abut JAWA_CHR_agiy JAWA_CHR_ales JAWA_CHR_anigeed JAWA_CHR_apifeh JAWA_CHR_apoevee JAWA_CHR_aree JAWA_CHR_atipi JAWA_CHR_beremam JAWA_CHR_bhagad JAWA_CHR_bhohudee JAWA_CHR_bitipuc JAWA_CHR_blafatad JAWA_CHR_blamibas JAWA_CHR_bliisim JAWA_CHR_blivota JAWA_CHR_dafum JAWA_CHR_dhali JAWA_CHR_dheke JAWA_CHR_dhihel JAWA_CHR_dhikac JAWA_CHR_d_ner JAWA_CHR_d_nidul JAWA_CHR_ebelek JAWA_CHR_efali JAWA_CHR_ejemakth JAWA_CHR_evi JAWA_CHR_fiiy JAWA_CHR_hurewi JAWA_CHR_imik JAWA_CHR_kabeos JAWA_CHR_kakeget JAWA_CHR_k_edi JAWA_CHR_khuran JAWA_CHR_k_iduvu JAWA_CHR_kkeqia JAWA_CHR_kkequ JAWA_CHR_klenuheekth JAWA_CHR_knawe JAWA_CHR_k_ura JAWA_CHR_liikin JAWA_CHR_lirum JAWA_CHR_loese JAWA_CHR_mazaza JAWA_CHR_mehilah JAWA_CHR_m_erira JAWA_CHR_mibel JAWA_CHR_najin JAWA_CHR_negumin JAWA_CHR_ney JAWA_CHR_nipufuc JAWA_CHR_nkun JAWA_CHR_nuqi JAWA_CHR_oheegi JAWA_CHR_pabal JAWA_CHR_pada JAWA_CHR_paka JAWA_CHR_plekem JAWA_CHR_q_ikey JAWA_CHR_q_ivu JAWA_CHR_qoejiid JAWA_CHR_rhaden JAWA_CHR_rhilelad JAWA_CHR_rine JAWA_CHR_ripem JAWA_CHR_rwalis JAWA_CHR_rwiladat JAWA_CHR_safee JAWA_CHR_sebeni JAWA_CHR_setek JAWA_CHR_shadasis JAWA_CHR_siahak JAWA_CHR_sife JAWA_CHR_sniveh JAWA_CHR_thabiih JAWA_CHR_thay JAWA_CHR_thurac JAWA_CHR_ugezil JAWA_CHR_usa JAWA_CHR_usoqahs JAWA_CHR_vamo JAWA_CHR_vewevoe JAWA_CHR_wapuk JAWA_CHR_whebeoh JAWA_CHR_whelut JAWA_CHR_whifatas JAWA_CHR_wutunam
+			}
+			regnal_second_names = {
+				JAWA_CHR_b_ay JAWA_CHR_bet_ario JAWA_CHR_d_nec JAWA_CHR_fe_li JAWA_CHR_johs JAWA_CHR_kkak JAWA_CHR_kkek JAWA_CHR_laloo JAWA_CHR_luun JAWA_CHR_nkik JAWA_CHR_nkul JAWA_CHR_ptaa JAWA_CHR_qua_lu JAWA_CHR_sil JAWA_CHR_sstena JAWA_CHR_tlek JAWA_CHR_toomb JAWA_CHR_ajudakth JAWA_CHR_b_ahu JAWA_CHR_b_azirol JAWA_CHR_behas JAWA_CHR_b_in JAWA_CHR_d_nivii JAWA_CHR_evekt JAWA_CHR_k_eoz JAWA_CHR_k_igok JAWA_CHR_kkariakth JAWA_CHR_kruisik JAWA_CHR_m_az JAWA_CHR_m_ikth JAWA_CHR_m_imodam JAWA_CHR_ptikth JAWA_CHR_q_adaren JAWA_CHR_q_arul JAWA_CHR_q_ecoju JAWA_CHR_soz JAWA_CHR_thetay JAWA_CHR_tluiqagim JAWA_CHR_tlunaki JAWA_CHR_tuked
+			}
+		}
+	}
+}

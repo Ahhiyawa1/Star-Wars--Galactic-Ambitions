@@ -1,0 +1,844 @@
+﻿Hutt = {
+	ship_names = {
+		generic = {
+			HUTT_SHIP_sleemo HUTT_SHIP_pride_of_ylesia HUTT_SHIP_krayt_fang HUTT_SHIP_blackmist HUTT_SHIP_hymns_bane HUTT_SHIP_hims_bane HUTT_SHIP_bedwana_wanga HUTT_SHIP_dragon_pearl HUTT_SHIP_false_sun HUTT_SHIP_glorious_chariot HUTT_SHIP_golden_opportunity HUTT_SHIP_limping_lady HUTT_SHIP_lorda_doma_toma HUTT_SHIP_luminous_star HUTT_SHIP_moulee_rah_patogga HUTT_SHIP_nemphas HUTT_SHIP_quicksilver HUTT_SHIP_dalliance HUTT_SHIP_summer_fling HUTT_SHIP_rightful_dominion HUTT_SHIP_poya_jeedai HUTT_SHIP_spirit_of_jabba HUTT_SHIP_star_jewel HUTT_SHIP_starmaster HUTT_SHIP_rasoni HUTT_SHIP_ajnilrem HUTT_SHIP_bridge_bane HUTT_SHIP_kat_s_kiss HUTT_SHIP_emeterion HUTT_SHIP_harlot HUTT_SHIP_harem HUTT_SHIP_obeeta HUTT_SHIP_corsuca_pearl HUTT_SHIP_ghost_story HUTT_SHIP_gilded_fleece HUTT_SHIP_spicerunner HUTT_SHIP_nal_hutta_queen HUTT_SHIP_bright_gem HUTT_SHIP_o_toole HUTT_SHIP_legbreaker HUTT_SHIP_vo_granee_droi HUTT_SHIP_voidraker HUTT_SHIP_y_tobba HUTT_SHIP_ylesian_dream HUTT_SHIP_zorba_express HUTT_SHIP_khetanna HUTT_SHIP_carkoon HUTT_SHIP_shellcrusher HUTT_SHIP_ne_ganna HUTT_SHIP_m_yoose HUTT_SHIP_debt_collector HUTT_SHIP_femme_fatale HUTT_SHIP_tail_cutter HUTT_SHIP_strongarm HUTT_SHIP_thon_medong HUTT_SHIP_deadhand HUTT_SHIP_gutter_runner HUTT_SHIP_mayday HUTT_SHIP_red_rain HUTT_SHIP_ruin_of_tion HUTT_SHIP_ximbane HUTT_SHIP_rancor HUTT_SHIP_voidcharger HUTT_SHIP_decadence HUTT_SHIP_vagabond HUTT_SHIP_blood_bond HUTT_SHIP_indentured HUTT_SHIP_tele_ding HUTT_SHIP_black_book HUTT_SHIP_gauntlet HUTT_SHIP_cutthroat HUTT_SHIP_cutpursse HUTT_SHIP_hotspur HUTT_SHIP_whipping_boy HUTT_SHIP_tiure_s_torch HUTT_SHIP_fortiure_s_fury HUTT_SHIP_scoundrel HUTT_SHIP_gristle HUTT_SHIP_false_grit HUTT_SHIP_viscera HUTT_SHIP_mirage HUTT_SHIP_holdout HUTT_SHIP_minstrel HUTT_SHIP_opal_star HUTT_SHIP_spiced_prince HUTT_SHIP_sharpshooter HUTT_SHIP_spiceshiner HUTT_SHIP_kneecapper HUTT_SHIP_hostile_takeover HUTT_SHIP_glitterhide HUTT_SHIP_gleaming_grub HUTT_SHIP_defender_of_evnoa HUTT_SHIP_champion_of_varl HUTT_SHIP_havoc HUTT_SHIP_golden_eye HUTT_SHIP_luxury_s_throne HUTT_SHIP_opulence HUTT_SHIP_impeccable HUTT_SHIP_besadic_splendor HUTT_SHIP_splendiferous HUTT_SHIP_gilded_dragon HUTT_SHIP_fortune_s_folly HUTT_SHIP_vice HUTT_SHIP_sinner HUTT_SHIP_malice HUTT_SHIP_gambler_s_luck HUTT_SHIP_bettor_s_fallacy HUTT_SHIP_lord_luck HUTT_SHIP_lady_luck HUTT_SHIP_lucky_lady HUTT_SHIP_dice_runner HUTT_SHIP_laquered_lord HUTT_SHIP_punisher HUTT_SHIP_corsuca_king HUTT_SHIP_kingpin HUTT_SHIP_kyber_queen HUTT_SHIP_spiteful HUTT_SHIP_memory_of_makeb HUTT_SHIP_hot_hand HUTT_SHIP_breakeven HUTT_SHIP_double_or_nothing HUTT_SHIP_trump_card HUTT_SHIP_royal_flush HUTT_SHIP_final_wager HUTT_SHIP_resplendant HUTT_SHIP_idol HUTT_SHIP_jewel_of_klatooine HUTT_SHIP_noble_savage HUTT_SHIP_gilded_cage HUTT_SHIP_starstruck HUTT_SHIP_evoci_sacrifice HUTT_SHIP_petulant HUTT_SHIP_graven_mistress HUTT_SHIP_laughing_maw HUTT_SHIP_pike HUTT_SHIP_pursuer HUTT_SHIP_jester HUTT_SHIP_joker HUTT_SHIP_dealer_s_choice HUTT_SHIP_oddsmaker HUTT_SHIP_easy_money HUTT_SHIP_oddsmaker HUTT_SHIP_jackpot HUTT_SHIP_pure_sabacc HUTT_SHIP_glutton HUTT_SHIP_queenpin HUTT_SHIP_scarab HUTT_SHIP_scepter HUTT_SHIP_sea_witch HUTT_SHIP_siren HUTT_SHIP_high_hand HUTT_SHIP_low_hand HUTT_SHIP_side_pot HUTT_SHIP_bingo HUTT_SHIP_kraytslayer HUTT_SHIP_idiot_s_array HUTT_SHIP_big_blind HUTT_SHIP_straight_flush HUTT_SHIP_two_pair HUTT_SHIP_naked_bluff HUTT_SHIP_supernova HUTT_SHIP_splashed_pot HUTT_SHIP_last_hand HUTT_SHIP_joker HUTT_SHIP_talisman HUTT_SHIP_talon HUTT_SHIP_fool_s_gold HUTT_SHIP_ante HUTT_SHIP_card_shark HUTT_SHIP_ringer HUTT_SHIP_high_roller HUTT_SHIP_payout HUTT_SHIP_pit_boss HUTT_SHIP_casanova HUTT_SHIP_bastard_son HUTT_SHIP_indulgent HUTT_SHIP_spice_den HUTT_SHIP_small_blind HUTT_SHIP_face_card HUTT_SHIP_house_s_edge HUTT_SHIP_oddstaker HUTT_SHIP_exalted_two HUTT_SHIP_star_nymph HUTT_SHIP_jewelmonger HUTT_SHIP_carousel HUTT_SHIP_penny_slot HUTT_SHIP_player_s_club HUTT_SHIP_chalker HUTT_SHIP_dead_heat HUTT_SHIP_dime_line HUTT_SHIP_underdog HUTT_SHIP_double_chance HUTT_SHIP_chancer HUTT_SHIP_last_chancer HUTT_SHIP_cash_out HUTT_SHIP_even_money HUTT_SHIP_exacta HUTT_SHIP_fixed_odds HUTT_SHIP_flat_bet HUTT_SHIP_handicapper HUTT_SHIP_joint_favorite HUTT_SHIP_martingale HUTT_SHIP_matched_bet HUTT_SHIP_odds_on HUTT_SHIP_darkhorse HUTT_SHIP_parlay HUTT_SHIP_round_robin HUTT_SHIP_runner HUTT_SHIP_sharp_credits HUTT_SHIP_moneyline HUTT_SHIP_halftime HUTT_SHIP_frogdog HUTT_SHIP_rotworm HUTT_SHIP_pure_pazaak HUTT_SHIP_tiebreaker HUTT_SHIP_prizefighter HUTT_SHIP_crusierweight HUTT_SHIP_featherweight HUTT_SHIP_glass_jaw HUTT_SHIP_haymaker HUTT_SHIP_knockout HUTT_SHIP_tap_out HUTT_SHIP_promoter HUTT_SHIP_southpaw HUTT_SHIP_sucker_punch HUTT_SHIP_uppercut HUTT_SHIP_pit_fighter HUTT_SHIP_gladiator HUTT_SHIP_huttista HUTT_SHIP_trafficker HUTT_SHIP_sweetener HUTT_SHIP_silver_age HUTT_SHIP_carbonite_kiss HUTT_SHIP_marlo_s_goodbye HUTT_SHIP_fable_of_beldorion HUTT_SHIP_junket HUTT_SHIP_tryst HUTT_SHIP_long_shot HUTT_SHIP_pincher HUTT_SHIP_nest_egg HUTT_SHIP_irontail HUTT_SHIP_longtail HUTT_SHIP_doom_of_desevro HUTT_SHIP_deadringer HUTT_SHIP_tontine HUTT_SHIP_blood_kyber HUTT_SHIP_rum_runner HUTT_SHIP_glitrider HUTT_SHIP_guilty_one HUTT_SHIP_innocent_party HUTT_SHIP_bystander HUTT_SHIP_kessel_king HUTT_SHIP_huttrekker HUTT_SHIP_insatiable HUTT_SHIP_rapacious HUTT_SHIP_ravenous HUTT_SHIP_desire HUTT_SHIP_wallower HUTT_SHIP_free_reign HUTT_SHIP_blank_check HUTT_SHIP_dirty_trick HUTT_SHIP_trickster HUTT_SHIP_eccentric HUTT_SHIP_cunning_ruse HUTT_SHIP_duplicity HUTT_SHIP_swindler HUTT_SHIP_double_cross HUTT_SHIP_enchantress HUTT_SHIP_seductress HUTT_SHIP_elder HUTT_SHIP_ancestor HUTT_SHIP_reprisal HUTT_SHIP_aggressor HUTT_SHIP_skinner HUTT_SHIP_backfire HUTT_SHIP_blind_eye HUTT_SHIP_our_lady_bacta HUTT_SHIP_harlot HUTT_SHIP_warlord HUTT_SHIP_warboss HUTT_SHIP_vendetta HUTT_SHIP_gastro_god HUTT_SHIP_spineless HUTT_SHIP_magnanimous HUTT_SHIP_midden HUTT_SHIP_cannibal HUTT_SHIP_price_of_civilization HUTT_SHIP_tributary HUTT_SHIP_tribute_taker HUTT_SHIP_palanquin HUTT_SHIP_throne_bearer HUTT_SHIP_supplicant HUTT_SHIP_petty_tyrant HUTT_SHIP_executor HUTT_SHIP_prize_fighter HUTT_SHIP_useful_fool HUTT_SHIP_magnificent HUTT_SHIP_demimondaine HUTT_SHIP_hustler HUTT_SHIP_wanton HUTT_SHIP_courtesan_s_wink HUTT_SHIP_trollop HUTT_SHIP_basilisk HUTT_SHIP_temptress HUTT_SHIP_overlord HUTT_SHIP_coquettish_smile HUTT_SHIP_flirtation HUTT_SHIP_death_s_mistress HUTT_SHIP_paramour HUTT_SHIP_jealous_love HUTT_SHIP_sultana HUTT_SHIP_concubine HUTT_SHIP_doxy HUTT_SHIP_true_appetite HUTT_SHIP_unsated HUTT_SHIP_passion_s_end HUTT_SHIP_lovechild HUTT_SHIP_wedlock HUTT_SHIP_whoreson HUTT_SHIP_illegitimate HUTT_SHIP_adulterer HUTT_SHIP_dealer HUTT_SHIP_i_ll_have_another HUTT_SHIP_genuine_risk HUTT_SHIP_drunkard HUTT_SHIP_exulation
+		}
+		science = {
+			HUTT_SHIP_spirit_of_nal_hutta HUTT_SHIP_glorious_jewel HUTT_SHIP_dunelizard HUTT_SHIP_enigma HUTT_SHIP_emissary HUTT_SHIP_questor HUTT_SHIP_herald_of_hutta HUTT_SHIP_invisible_string HUTT_SHIP_eminence HUTT_SHIP_pupeteer HUTT_SHIP_alacrity HUTT_SHIP_grasper HUTT_SHIP_exalted_one HUTT_SHIP_shell_finder HUTT_SHIP_zenith HUTT_SHIP_torch HUTT_SHIP_seeker HUTT_SHIP_pilgrim HUTT_SHIP_signal_of_virtue HUTT_SHIP_vagabond HUTT_SHIP_wayfarer HUTT_SHIP_ambassador HUTT_SHIP_emissary HUTT_SHIP_crier HUTT_SHIP_pathfinder HUTT_SHIP_wanderer HUTT_SHIP_bemoaner
+		}
+		colonizer = {
+			HUTT_SHIP_varlspeed HUTT_SHIP_easy_money HUTT_SHIP_huttese_destiny HUTT_SHIP_jabba_s_virtue HUTT_SHIP_potential HUTT_SHIP_last_laugh HUTT_SHIP_rightful_place HUTT_SHIP_prosperity HUTT_SHIP_summit HUTT_SHIP_pinnacle HUTT_SHIP_seeder HUTT_SHIP_harvest HUTT_SHIP_demeter HUTT_SHIP_isis HUTT_SHIP_ceres HUTT_SHIP_exodus HUTT_SHIP_foundation HUTT_SHIP_scion HUTT_SHIP_progeny HUTT_SHIP_own_good HUTT_SHIP_beneficent HUTT_SHIP_princeling HUTT_SHIP_shining_city HUTT_SHIP_acquirer HUTT_SHIP_inheritor HUTT_SHIP_civilizer HUTT_SHIP_tonta_tonka HUTT_SHIP_chuba_gusha HUTT_SHIP_replacer
+		}
+		sponsored_colonizer = {
+			HUTT_SHIP_varlspeed HUTT_SHIP_easy_money HUTT_SHIP_huttese_destiny HUTT_SHIP_jabba_s_virtue HUTT_SHIP_potential HUTT_SHIP_last_laugh HUTT_SHIP_rightful_place HUTT_SHIP_prosperity HUTT_SHIP_summit HUTT_SHIP_pinnacle HUTT_SHIP_seeder HUTT_SHIP_harvest HUTT_SHIP_demeter HUTT_SHIP_isis HUTT_SHIP_ceres HUTT_SHIP_exodus HUTT_SHIP_foundation HUTT_SHIP_scion HUTT_SHIP_progeny HUTT_SHIP_own_good HUTT_SHIP_beneficent HUTT_SHIP_princeling HUTT_SHIP_shining_city HUTT_SHIP_acquirer HUTT_SHIP_inheritor HUTT_SHIP_civilizer HUTT_SHIP_tonta_tonka HUTT_SHIP_chuba_gusha HUTT_SHIP_replacer
+		}
+		constructor = {
+			HUTT_SHIP_helot HUTT_SHIP_indentured HUTT_SHIP_servant HUTT_SHIP_laborer HUTT_SHIP_servitor HUTT_SHIP_craftsman HUTT_SHIP_supplicant HUTT_SHIP_peasant HUTT_SHIP_subordinate HUTT_SHIP_serf HUTT_SHIP_menial HUTT_SHIP_vassal HUTT_SHIP_drudge HUTT_SHIP_maid HUTT_SHIP_grinder HUTT_SHIP_toiler HUTT_SHIP_foundry HUTT_SHIP_cretin HUTT_SHIP_peon HUTT_SHIP_cottier HUTT_SHIP_hired_hand HUTT_SHIP_workman HUTT_SHIP_binder HUTT_SHIP_taskmaster HUTT_SHIP_overseer HUTT_SHIP_foreman HUTT_SHIP_supervisor HUTT_SHIP_callous HUTT_SHIP_beggar HUTT_SHIP_migrant HUTT_SHIP_tinkerer HUTT_SHIP_domestic HUTT_SHIP_butler HUTT_SHIP_retainer
+		}
+		transport = {
+			HUTT_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			HUTT_SHIP_spacegun_victory HUTT_SHIP_spacegun_success HUTT_SHIP_spacegun_supremacy HUTT_SHIP_spacegun_superior HUTT_SHIP_spacegun_adventure HUTT_SHIP_spacegun_ascendancy HUTT_SHIP_spacegun_paramount HUTT_SHIP_spacegun_preponderous HUTT_SHIP_spacegun_exemplary HUTT_SHIP_spacegun_eximious HUTT_SHIP_spacegun_pertinacity HUTT_SHIP_spacegun_acclaim HUTT_SHIP_spacegun_honor HUTT_SHIP_spacegun_renown HUTT_SHIP_spacegun_glory HUTT_SHIP_spacegun_superb HUTT_SHIP_spacegun_magnificence HUTT_SHIP_spacegun_majestic HUTT_SHIP_spacegun_splendor HUTT_SHIP_spacegun_paradigm HUTT_SHIP_spacegun_flawless HUTT_SHIP_spacegun_consummate HUTT_SHIP_spacegun_merit HUTT_SHIP_spacegun_perfection HUTT_SHIP_spacegun_virtue HUTT_SHIP_spacegun_advantage HUTT_SHIP_spacegun_rectitude HUTT_SHIP_spacegun_incorruptible HUTT_SHIP_spacegun_integrity HUTT_SHIP_spacegun_justice HUTT_SHIP_spacegun_probity HUTT_SHIP_spacegun_prudence HUTT_SHIP_spacegun_purity HUTT_SHIP_spacegun_resolute HUTT_SHIP_spacegun_dignity HUTT_SHIP_spacegun_distinction HUTT_SHIP_spacegun_excellence HUTT_SHIP_spacegun_faithful HUTT_SHIP_spacegun_discipline HUTT_SHIP_spacegun_steadfast HUTT_SHIP_spacegun_recompense HUTT_SHIP_spacegun_requiem HUTT_SHIP_spacegun_courage HUTT_SHIP_spacegun_valor HUTT_SHIP_spacegun_gallant HUTT_SHIP_spacegun_daring HUTT_SHIP_spacegun_constancy HUTT_SHIP_spacegun_perseverence HUTT_SHIP_spacegun_tenacity HUTT_SHIP_spacegun_sedulity HUTT_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			HUTT_SHIP_spacegun_victory HUTT_SHIP_spacegun_success HUTT_SHIP_spacegun_supremacy HUTT_SHIP_spacegun_superior HUTT_SHIP_spacegun_adventure HUTT_SHIP_spacegun_ascendancy HUTT_SHIP_spacegun_paramount HUTT_SHIP_spacegun_preponderous HUTT_SHIP_spacegun_exemplary HUTT_SHIP_spacegun_eximious HUTT_SHIP_spacegun_pertinacity HUTT_SHIP_spacegun_acclaim HUTT_SHIP_spacegun_honor HUTT_SHIP_spacegun_renown HUTT_SHIP_spacegun_glory HUTT_SHIP_spacegun_superb HUTT_SHIP_spacegun_magnificence HUTT_SHIP_spacegun_majestic HUTT_SHIP_spacegun_splendor HUTT_SHIP_spacegun_paradigm HUTT_SHIP_spacegun_flawless HUTT_SHIP_spacegun_consummate HUTT_SHIP_spacegun_merit HUTT_SHIP_spacegun_perfection HUTT_SHIP_spacegun_virtue HUTT_SHIP_spacegun_advantage HUTT_SHIP_spacegun_rectitude HUTT_SHIP_spacegun_incorruptible HUTT_SHIP_spacegun_integrity HUTT_SHIP_spacegun_justice HUTT_SHIP_spacegun_probity HUTT_SHIP_spacegun_prudence HUTT_SHIP_spacegun_purity HUTT_SHIP_spacegun_resolute HUTT_SHIP_spacegun_dignity HUTT_SHIP_spacegun_distinction HUTT_SHIP_spacegun_excellence HUTT_SHIP_spacegun_faithful HUTT_SHIP_spacegun_discipline HUTT_SHIP_spacegun_steadfast HUTT_SHIP_spacegun_recompense HUTT_SHIP_spacegun_requiem HUTT_SHIP_spacegun_courage HUTT_SHIP_spacegun_valor HUTT_SHIP_spacegun_gallant HUTT_SHIP_spacegun_daring HUTT_SHIP_spacegun_constancy HUTT_SHIP_spacegun_perseverence HUTT_SHIP_spacegun_tenacity HUTT_SHIP_spacegun_sedulity HUTT_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			HUTT_SHIP_spacegun_victory HUTT_SHIP_spacegun_success HUTT_SHIP_spacegun_supremacy HUTT_SHIP_spacegun_superior HUTT_SHIP_spacegun_adventure HUTT_SHIP_spacegun_ascendancy HUTT_SHIP_spacegun_paramount HUTT_SHIP_spacegun_preponderous HUTT_SHIP_spacegun_exemplary HUTT_SHIP_spacegun_eximious HUTT_SHIP_spacegun_pertinacity HUTT_SHIP_spacegun_acclaim HUTT_SHIP_spacegun_honor HUTT_SHIP_spacegun_renown HUTT_SHIP_spacegun_glory HUTT_SHIP_spacegun_superb HUTT_SHIP_spacegun_magnificence HUTT_SHIP_spacegun_majestic HUTT_SHIP_spacegun_splendor HUTT_SHIP_spacegun_paradigm HUTT_SHIP_spacegun_flawless HUTT_SHIP_spacegun_consummate HUTT_SHIP_spacegun_merit HUTT_SHIP_spacegun_perfection HUTT_SHIP_spacegun_virtue HUTT_SHIP_spacegun_advantage HUTT_SHIP_spacegun_rectitude HUTT_SHIP_spacegun_incorruptible HUTT_SHIP_spacegun_integrity HUTT_SHIP_spacegun_justice HUTT_SHIP_spacegun_probity HUTT_SHIP_spacegun_prudence HUTT_SHIP_spacegun_purity HUTT_SHIP_spacegun_resolute HUTT_SHIP_spacegun_dignity HUTT_SHIP_spacegun_distinction HUTT_SHIP_spacegun_excellence HUTT_SHIP_spacegun_faithful HUTT_SHIP_spacegun_discipline HUTT_SHIP_spacegun_steadfast HUTT_SHIP_spacegun_recompense HUTT_SHIP_spacegun_requiem HUTT_SHIP_spacegun_courage HUTT_SHIP_spacegun_valor HUTT_SHIP_spacegun_gallant HUTT_SHIP_spacegun_daring HUTT_SHIP_spacegun_constancy HUTT_SHIP_spacegun_perseverence HUTT_SHIP_spacegun_tenacity HUTT_SHIP_spacegun_sedulity HUTT_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			HUTT_SHIP_citadel HUTT_SHIP_albacore HUTT_SHIP_gateway HUTT_SHIP_vincent HUTT_SHIP_babylon HUTT_SHIP_caernavon HUTT_SHIP_acre HUTT_SHIP_pembroke HUTT_SHIP_acheron HUTT_SHIP_spithead HUTT_SHIP_halifax HUTT_SHIP_victoria HUTT_SHIP_chatham HUTT_SHIP_anchorage HUTT_SHIP_scapa_flow HUTT_SHIP_hampton_roads HUTT_SHIP_brooklyn HUTT_SHIP_norfolk HUTT_SHIP_newport HUTT_SHIP_guam HUTT_SHIP_pensacola HUTT_SHIP_vesuvius HUTT_SHIP_mckinley HUTT_SHIP_everest HUTT_SHIP_kilimanjaro HUTT_SHIP_aconcagua HUTT_SHIP_elbrus HUTT_SHIP_st__helens HUTT_SHIP_fuji HUTT_SHIP_olympus HUTT_SHIP_sinai HUTT_SHIP_ambrose HUTT_SHIP_bermuda HUTT_SHIP_farpoint HUTT_SHIP_blue_star HUTT_SHIP_olympus_mons HUTT_SHIP_tharsis HUTT_SHIP_syrtis HUTT_SHIP_blackham HUTT_SHIP_fletcher HUTT_SHIP_perry HUTT_SHIP_butakov HUTT_SHIP_morris HUTT_SHIP_moorsom HUTT_SHIP_hart HUTT_SHIP_hargood HUTT_SHIP_spruance HUTT_SHIP_tanaka HUTT_SHIP_halsey HUTT_SHIP_turner HUTT_SHIP_doria HUTT_SHIP_tirpitz HUTT_SHIP_cunningham HUTT_SHIP_jellicoe HUTT_SHIP_hipper HUTT_SHIP_beatty HUTT_SHIP_potemkin HUTT_SHIP_durham HUTT_SHIP_codrington HUTT_SHIP_milne HUTT_SHIP_laforey HUTT_SHIP_tyler HUTT_SHIP_hawke HUTT_SHIP_yonai HUTT_SHIP_pound HUTT_SHIP_king HUTT_SHIP_crutchley HUTT_SHIP_mountbatten HUTT_SHIP_kountouriotis HUTT_SHIP_kuznetsov HUTT_SHIP_essen HUTT_SHIP_kornilov HUTT_SHIP_suffren HUTT_SHIP_treville HUTT_SHIP_villeneuve HUTT_SHIP_grasse HUTT_SHIP_byng HUTT_SHIP_lezo
+		}
+		ion_cannon = {
+			HUTT_SHIP_bombard HUTT_SHIP_ballista HUTT_SHIP_catapult HUTT_SHIP_harpoon HUTT_SHIP_polybolos HUTT_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			HUTT_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			HUTT_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			HUTT_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			HUTT_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			HUTT_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			HUTT_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			HUTT_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			HUTT_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			HUTT_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			HUTT_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			HUTT_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			HUTT_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			HUTT_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			HUTT_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			HUTT_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			HUTT_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			HUTT_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			HUTT_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			HUTT_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			HUTT_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			HUTT_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			HUTT_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			HUTT_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			HUTT_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			HUTT_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			HUTT_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			HUTT_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			HUTT_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			HUTT_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			HUTT_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			HUTT_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			HUTT_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			HUTT_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			HUTT_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			HUTT_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			HUTT_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			HUTT_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			HUTT_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			HUTT_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			HUTT_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			HUTT_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			HUTT_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			HUTT_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			HUTT_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			HUTT_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			HUTT_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			HUTT_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			HUTT_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			HUTT_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			HUTT_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			HUTT_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			HUTT_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			HUTT_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			HUTT_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			HUTT_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			HUTT_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			HUTT_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			HUTT_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			HUTT_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			HUTT_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			HUTT_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			HUTT_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			HUTT_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			HUTT_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			HUTT_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			HUTT_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			HUTT_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			HUTT_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			HUTT_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			HUTT_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			HUTT_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			HUTT_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			HUTT_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			HUTT_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			HUTT_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			HUTT_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			HUTT_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			HUTT_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			HUTT_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			HUTT_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			HUTT_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			HUTT_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			HUTT_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			HUTT_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			HUTT_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			HUTT_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			HUTT_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			HUTT_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			HUTT_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			HUTT_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			HUTT_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			HUTT_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			HUTT_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			HUTT_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			HUTT_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			HUTT_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			HUTT_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			HUTT_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			HUTT_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			HUTT_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			HUTT_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			HUTT_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			HUTT_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			HUTT_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			HUTT_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			HUTT_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			HUTT_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			HUTT_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			HUTT_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			HUTT_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			HUTT_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			HUTT_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			HUTT_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			HUTT_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		random_names = {
+			HUTT_FLEET_golden_armada HUTT_FLEET_dragon_pearl_armada HUTT_FLEET_opal_armada HUTT_FLEET_corsuca_armada HUTT_FLEET_emerald_armada HUTT_FLEET_sapphire_armada HUTT_FLEET_ruby_armada HUTT_FLEET_kyber_armada HUTT_FLEET_diamond_armada HUTT_FLEET_sunstone_armada HUTT_FLEET_amethyst_armada HUTT_FLEET_star_crystal_armada HUTT_FLEET_garnet_armada HUTT_FLEET_sunblaze_armada HUTT_FLEET_silver_armada HUTT_FLEET_fire_gem_armada
+			HUTT_FLEET_varl_defense_fleet HUTT_FLEET_defender_of_varl HUTT_FLEET_hutta_defense_fleet HUTT_FLEET_sriluur_defense_fleet HUTT_FLEET_klatooinian_defense_fleet HUTT_FLEET_guardians_of_evona HUTT_FLEET_guardians_of_ardos HUTT_FLEET_magnificent_fleet HUTT_FLEET_pride_of_boonta HUTT_FLEET_defender_of_nal_hutta HUTT_FLEET_xims_bane HUTT_FLEET_pride_of_ylesia
+		}
+		sequential_name = HUTT_FLEET_armada_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = HUTT_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = HUTT_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = HUTT_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = HUTT_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = HUTT_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = HUTT_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = HUTT_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = HUTT_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				HUTT_ARMY_sarc_a__gladiators_ HUTT_ARMY_sarc_b__widowmakers_ HUTT_ARMY_sarc_c__immortals_ HUTT_ARMY_sarc_d__berserkers_ HUTT_ARMY_sarc_e__assassins_ HUTT_ARMY_sarc_f__reapers_ HUTT_ARMY_sarc_g__nighthawks_ HUTT_ARMY_sarc_h__desperados_ HUTT_ARMY_sarc_i__grey_knights_ HUTT_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = HUTT_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = HUTT_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = HUTT_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = HUTT_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = HUTT_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = HUTT_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = HUTT_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = HUTT_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = HUTT_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = HUTT_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = HUTT_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = HUTT_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = HUTT_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = HUTT_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = HUTT_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = HUTT_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = HUTT_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = HUTT_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = HUTT_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = HUTT_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = HUTT_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = HUTT_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = HUTT_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = HUTT_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = HUTT_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = HUTT_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = HUTT_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = HUTT_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = HUTT_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = HUTT_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = HUTT_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = HUTT_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = HUTT_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = HUTT_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = HUTT_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = HUTT_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = HUTT_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = HUTT_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = HUTT_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = HUTT_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = HUTT_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = HUTT_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = HUTT_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = HUTT_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = HUTT_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = HUTT_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = HUTT_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = HUTT_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = HUTT_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = HUTT_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = HUTT_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = HUTT_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = HUTT_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = HUTT_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = HUTT_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = HUTT_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = HUTT_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = HUTT_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = HUTT_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = HUTT_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = HUTT_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = HUTT_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = HUTT_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = HUTT_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = HUTT_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = HUTT_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = HUTT_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = HUTT_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = HUTT_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = HUTT_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = HUTT_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = HUTT_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = HUTT_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = HUTT_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = HUTT_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = HUTT_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = HUTT_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = HUTT_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = HUTT_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = HUTT_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = HUTT_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = HUTT_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = HUTT_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = HUTT_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = HUTT_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = HUTT_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = HUTT_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = HUTT_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = HUTT_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = HUTT_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = HUTT_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = HUTT_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = HUTT_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = HUTT_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = HUTT_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = HUTT_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = HUTT_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = HUTT_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = HUTT_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = HUTT_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = HUTT_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = HUTT_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = HUTT_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = HUTT_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = HUTT_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = HUTT_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = HUTT_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = HUTT_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = HUTT_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = HUTT_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = HUTT_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = HUTT_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = HUTT_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = HUTT_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = HUTT_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = HUTT_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = HUTT_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = HUTT_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = HUTT_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = HUTT_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = HUTT_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = HUTT_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = HUTT_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = HUTT_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = HUTT_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = HUTT_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = HUTT_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = HUTT_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = HUTT_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = HUTT_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = HUTT_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = HUTT_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = HUTT_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				HUTT_CHR_aarrba HUTT_CHR_aboglor HUTT_CHR_aggaba HUTT_CHR_ajuur HUTT_CHR_alorig HUTT_CHR_amdra HUTT_CHR_ardustagg HUTT_CHR_arok HUTT_CHR_aruk HUTT_CHR_azzim HUTT_CHR_bakuush HUTT_CHR_bagglosch HUTT_CHR_bana HUTT_CHR_barabbula HUTT_CHR_bareesh HUTT_CHR_bargos HUTT_CHR_barrga HUTT_CHR_basuda HUTT_CHR_beeda HUTT_CHR_beldorion HUTT_CHR_belhata HUTT_CHR_bhanogg HUTT_CHR_blatta HUTT_CHR_blotus HUTT_CHR_blurvol HUTT_CHR_bo_dum HUTT_CHR_bochaba HUTT_CHR_bogga HUTT_CHR_bolbol HUTT_CHR_boonda HUTT_CHR_boonta HUTT_CHR_boorka HUTT_CHR_borvo HUTT_CHR_brebu HUTT_CHR_brinojja HUTT_CHR_broagussa HUTT_CHR_broga HUTT_CHR_brolla HUTT_CHR_bronvu HUTT_CHR_brossar HUTT_CHR_budhila HUTT_CHR_bwahl HUTT_CHR_bweppios HUTT_CHR_chijjun HUTT_CHR_corpo HUTT_CHR_corugg HUTT_CHR_cunnon HUTT_CHR_dalla HUTT_CHR_damrosch HUTT_CHR_darga HUTT_CHR_direus_pei HUTT_CHR_dojundo HUTT_CHR_dorosii HUTT_CHR_draskha HUTT_CHR_dreddon HUTT_CHR_dreyba HUTT_CHR_dribba HUTT_CHR_dribso HUTT_CHR_dromo HUTT_CHR_droog HUTT_CHR_drooga HUTT_CHR_durga HUTT_CHR_duurga HUTT_CHR_duuurga HUTT_CHR_ebor HUTT_CHR_embra HUTT_CHR_encaasa HUTT_CHR_ethogg HUTT_CHR_fa_athra HUTT_CHR_filba HUTT_CHR_gamdro HUTT_CHR_ganis HUTT_CHR_garblaque HUTT_CHR_gardulla HUTT_CHR_gargonn HUTT_CHR_garma HUTT_CHR_gebbu HUTT_CHR_gheeta HUTT_CHR_ghetmar HUTT_CHR_giradda HUTT_CHR_glabonsch HUTT_CHR_glosch HUTT_CHR_glorga HUTT_CHR_glorim HUTT_CHR_glorzo HUTT_CHR_godoba HUTT_CHR_golga HUTT_CHR_gorbu HUTT_CHR_gorbus HUTT_CHR_gorga HUTT_CHR_gorgo HUTT_CHR_gorr HUTT_CHR_graag HUTT_CHR_graata HUTT_CHR_graballa HUTT_CHR_grakkus HUTT_CHR_grappa HUTT_CHR_grejic HUTT_CHR_grelb HUTT_CHR_grodo HUTT_CHR_groodo HUTT_CHR_groola HUTT_CHR_grubba HUTT_CHR_gularg HUTT_CHR_guttu HUTT_CHR_herogga HUTT_CHR_hunvar HUTT_CHR_huska HUTT_CHR_ingoda HUTT_CHR_jabba HUTT_CHR_jax HUTT_CHR_jeelta HUTT_CHR_jelasi HUTT_CHR_jemba HUTT_CHR_jiliac HUTT_CHR_jobwah HUTT_CHR_jocoro HUTT_CHR_jolla HUTT_CHR_jorsooda HUTT_CHR_jurga HUTT_CHR_juvard HUTT_CHR_ka_pa HUTT_CHR_kabbura HUTT_CHR_kalna HUTT_CHR_kaltho HUTT_CHR_karagga HUTT_CHR_kata HUTT_CHR_khobisho HUTT_CHR_kibbick HUTT_CHR_kladak HUTT_CHR_korrda HUTT_CHR_kossak HUTT_CHR_kukul HUTT_CHR_kurka HUTT_CHR_kutuab HUTT_CHR_lagra HUTT_CHR_leero HUTT_CHR_leurm HUTT_CHR_lippi HUTT_CHR_lokaibus HUTT_CHR_lonvarpa HUTT_CHR_lungru HUTT_CHR_mageye HUTT_CHR_malta HUTT_CHR_manju HUTT_CHR_mardoc HUTT_CHR_marlo HUTT_CHR_mika HUTT_CHR_mondo_mod HUTT_CHR_moosh HUTT_CHR_morbiss HUTT_CHR_orbo HUTT_CHR_morgra HUTT_CHR_moshudda HUTT_CHR_moska HUTT_CHR_motta HUTT_CHR_narbuj HUTT_CHR_nashi HUTT_CHR_nawnam HUTT_CHR_noako HUTT_CHR_noggox HUTT_CHR_noh HUTT_CHR_norbo HUTT_CHR_nooga HUTT_CHR_nuboocha HUTT_CHR_nullada HUTT_CHR_nuubsal HUTT_CHR_nyarla HUTT_CHR_offra HUTT_CHR_omeesh HUTT_CHR_ooroz HUTT_CHR_orko HUTT_CHR_orta HUTT_CHR_oruba HUTT_CHR_parella HUTT_CHR_pazda HUTT_CHR_pizza HUTT_CHR_plorbaas HUTT_CHR_popara HUTT_CHR_portho HUTT_CHR_prall HUTT_CHR_prebda HUTT_CHR_prodoranya HUTT_CHR_progga HUTT_CHR_puullo HUTT_CHR_qibbu HUTT_CHR_qiltakka HUTT_CHR_quaffug HUTT_CHR_randa HUTT_CHR_rask HUTT_CHR_raskurro HUTT_CHR_ribba HUTT_CHR_riboga HUTT_CHR_rigorra HUTT_CHR_rokko HUTT_CHR_rotta HUTT_CHR_shala HUTT_CHR_shebba HUTT_CHR_shettora HUTT_CHR_shiltu HUTT_CHR_shizu HUTT_CHR_shuma HUTT_CHR_sibarra HUTT_CHR_skeedo HUTT_CHR_smada HUTT_CHR_smebba HUTT_CHR_soergg HUTT_CHR_sonnos HUTT_CHR_spadda HUTT_CHR_splugorra HUTT_CHR_subo HUTT_CHR_suuda HUTT_CHR_suudaa HUTT_CHR_szajin HUTT_CHR_tagoonta HUTT_CHR_tagta HUTT_CHR_tanda HUTT_CHR_teemo HUTT_CHR_teubbo HUTT_CHR_thakba HUTT_CHR_tiranga HUTT_CHR_tirello HUTT_CHR_tobba HUTT_CHR_toborro HUTT_CHR_toobu HUTT_CHR_tooga HUTT_CHR_torga HUTT_CHR_torphus HUTT_CHR_torpo HUTT_CHR_troonol HUTT_CHR_truugo HUTT_CHR_tuwas HUTT_CHR_ungo HUTT_CHR_urdruua HUTT_CHR_uta HUTT_CHR_vago HUTT_CHR_vedo HUTT_CHR_velrugha HUTT_CHR_vogga HUTT_CHR_voontara HUTT_CHR_voras HUTT_CHR_voromuzz HUTT_CHR_walla HUTT_CHR_wallanooga HUTT_CHR_whuddle HUTT_CHR_wolga HUTT_CHR_wordro HUTT_CHR_wunda HUTT_CHR_yanth HUTT_CHR_yantuh HUTT_CHR_ybann HUTT_CHR_yenchara HUTT_CHR_zavval HUTT_CHR_zax HUTT_CHR_zier HUTT_CHR_zirchros HUTT_CHR_ziro HUTT_CHR_zobara HUTT_CHR_zochaeb HUTT_CHR_zodoh HUTT_CHR_zonnos HUTT_CHR_zorba
+			}
+			first_names_female = {
+				HUTT_CHR_abogla HUTT_CHR_aestaith HUTT_CHR_ahemait HUTT_CHR_alorga HUTT_CHR_anachro HUTT_CHR_arronda HUTT_CHR_astella HUTT_CHR_bel HUTT_CHR_birthia HUTT_CHR_blith HUTT_CHR_blobella HUTT_CHR_blolba HUTT_CHR_blubba HUTT_CHR_blulla HUTT_CHR_blursa HUTT_CHR_borga HUTT_CHR_celathe HUTT_CHR_chungrirg HUTT_CHR_churabba HUTT_CHR_daagri HUTT_CHR_decca HUTT_CHR_dinabu HUTT_CHR_draba HUTT_CHR_drixo HUTT_CHR_emesu HUTT_CHR_emeu HUTT_CHR_gardulla HUTT_CHR_gajjuzz HUTT_CHR_holdoeth HUTT_CHR_idde HUTT_CHR_iddurpom HUTT_CHR_jassi HUTT_CHR_jatheel HUTT_CHR_jiliac HUTT_CHR_jool HUTT_CHR_jussi HUTT_CHR_khuskha HUTT_CHR_kistilb HUTT_CHR_klim HUTT_CHR_krova HUTT_CHR_kualajjaeb HUTT_CHR_kumac HUTT_CHR_loewnerrbihl HUTT_CHR_lolduntee HUTT_CHR_mama HUTT_CHR_mennac HUTT_CHR_mioshu HUTT_CHR_moongroess HUTT_CHR_morpalta HUTT_CHR_natja HUTT_CHR_neggoh HUTT_CHR_niima HUTT_CHR_ooalah HUTT_CHR_othe HUTT_CHR_paggra HUTT_CHR_parla HUTT_CHR_plemess HUTT_CHR_pluumbuanya HUTT_CHR_prello HUTT_CHR_proki HUTT_CHR_pugriorzihl HUTT_CHR_puki HUTT_CHR_qileffinn HUTT_CHR_qunjess HUTT_CHR_rabdaakeh HUTT_CHR_rarpe HUTT_CHR_renyaisch HUTT_CHR_rooppi HUTT_CHR_rotta HUTT_CHR_rotundha HUTT_CHR_saggla HUTT_CHR_saphfiri HUTT_CHR_sassallo HUTT_CHR_shalera HUTT_CHR_shenda HUTT_CHR_sherrbis HUTT_CHR_shuma HUTT_CHR_skilnoo HUTT_CHR_skoda HUTT_CHR_skolnirchra HUTT_CHR_smessoohl HUTT_CHR_sorge HUTT_CHR_sutha HUTT_CHR_suudaa HUTT_CHR_taggla HUTT_CHR_tanda HUTT_CHR_tassaa HUTT_CHR_tatja HUTT_CHR_tawarit HUTT_CHR_ualtitith HUTT_CHR_uardusch HUTT_CHR_uddliah HUTT_CHR_ughaelle HUTT_CHR_vuuwoo HUTT_CHR_wappa HUTT_CHR_whomri HUTT_CHR_worrbona HUTT_CHR_velbelia HUTT_CHR_yerdetin HUTT_CHR_wurkeskiss HUTT_CHR_yotjo HUTT_CHR_yush HUTT_CHR_zeli HUTT_CHR_zietta HUTT_CHR_zinoobah HUTT_CHR_zooltah
+			}
+			second_names = {
+				HUTT_CHR_besadii HUTT_CHR_besadii_aora HUTT_CHR_besadii_aarrpo HUTT_CHR_besadii_ar_durv HUTT_CHR_besadii_diori HUTT_CHR_besadii_oggurobb HUTT_CHR_besadii_shad_ruu HUTT_CHR_besadii_tai HUTT_CHR_besadii_tiure HUTT_CHR_besadii_torill HUTT_CHR_desilijic HUTT_CHR_desilijic_aora HUTT_CHR_desilijic_aarrpo HUTT_CHR_desilijic_ar_durv HUTT_CHR_desilijic_ebelt HUTT_CHR_desilijic_oggurobb HUTT_CHR_desilijic_preor HUTT_CHR_desilijic_kalshi HUTT_CHR_desilijic_shad_ruu HUTT_CHR_desilijic_tai HUTT_CHR_desilijic_tiron HUTT_CHR_desilijic_tiure HUTT_CHR_desilijic_torill HUTT_CHR_fenn_ak HUTT_CHR_fenn_ak_aora HUTT_CHR_fenn_ak_aarrpo HUTT_CHR_fenn_ak_ar_durv HUTT_CHR_fenn_ak_oggurobb HUTT_CHR_fenn_ak_shad_ruu HUTT_CHR_fenn_ak_tai HUTT_CHR_fenn_ak_tiure HUTT_CHR_fenn_ak_torill HUTT_CHR_hestilic HUTT_CHR_hestilic_amura HUTT_CHR_hestilic_aora HUTT_CHR_hestilic_aarrpo HUTT_CHR_hestilic_ar_durv HUTT_CHR_hestilic_oggurobb HUTT_CHR_hestilic_shad_ruu HUTT_CHR_hestilic_tai HUTT_CHR_hestilic_tiure HUTT_CHR_hestilic_torill HUTT_CHR_illip HUTT_CHR_illip_aora HUTT_CHR_illip_aarrpo HUTT_CHR_illip_ar_durv HUTT_CHR_illip_oggurobb HUTT_CHR_illip_shad_ruu HUTT_CHR_illip_tai HUTT_CHR_illip_tiure HUTT_CHR_illip_torill HUTT_CHR_inijic HUTT_CHR_inijic_aora HUTT_CHR_inijic_aarrpo HUTT_CHR_inijic_ar_durv HUTT_CHR_inijic_oggurobb HUTT_CHR_inijic_shad_ruu HUTT_CHR_inijic_tai HUTT_CHR_inijic_tiure HUTT_CHR_inijic_torill HUTT_CHR_vanderijar HUTT_CHR_kaltemmic HUTT_CHR_masrii HUTT_CHR_urdosh HUTT_CHR_qunaalac HUTT_CHR_jiramma HUTT_CHR_jiramma_baco HUTT_CHR_jiramma_mionne HUTT_CHR_gejalli HUTT_CHR_gejalli_thokka HUTT_CHR_anjiliac HUTT_CHR_anjiliac_atirue HUTT_CHR_anjiliac_chiera HUTT_CHR_anjiliac_diresto HUTT_CHR_anjiliac_priare HUTT_CHR_dalo HUTT_CHR_dunk HUTT_CHR_fa_athra HUTT_CHR_nem_ro HUTT_CHR_nokko HUTT_CHR_nokko_vimmas HUTT_CHR_gorensla HUTT_CHR_thok HUTT_CHR_jallissi HUTT_CHR_jallissi_gral HUTT_CHR_vermilic HUTT_CHR_vermilic_scaiti HUTT_CHR_vosadii HUTT_CHR_vosadii_bezhin
+			}
+			regnal_first_names_male = {
+				HUTT_CHR_aarrba HUTT_CHR_aboglor HUTT_CHR_aggaba HUTT_CHR_ajuur HUTT_CHR_alorig HUTT_CHR_amdra HUTT_CHR_ardustagg HUTT_CHR_arok HUTT_CHR_aruk HUTT_CHR_azzim HUTT_CHR_bakuush HUTT_CHR_bagglosch HUTT_CHR_bana HUTT_CHR_barabbula HUTT_CHR_bareesh HUTT_CHR_bargos HUTT_CHR_barrga HUTT_CHR_basuda HUTT_CHR_beeda HUTT_CHR_beldorion HUTT_CHR_belhata HUTT_CHR_bhanogg HUTT_CHR_blatta HUTT_CHR_blotus HUTT_CHR_blurvol HUTT_CHR_bo_dum HUTT_CHR_bochaba HUTT_CHR_bogga HUTT_CHR_bolbol HUTT_CHR_boonda HUTT_CHR_boonta HUTT_CHR_boorka HUTT_CHR_borvo HUTT_CHR_brebu HUTT_CHR_brinojja HUTT_CHR_broagussa HUTT_CHR_broga HUTT_CHR_brolla HUTT_CHR_bronvu HUTT_CHR_brossar HUTT_CHR_budhila HUTT_CHR_bwahl HUTT_CHR_bweppios HUTT_CHR_chijjun HUTT_CHR_corpo HUTT_CHR_corugg HUTT_CHR_cunnon HUTT_CHR_dalla HUTT_CHR_damrosch HUTT_CHR_darga HUTT_CHR_direus_pei HUTT_CHR_dojundo HUTT_CHR_dorosii HUTT_CHR_draskha HUTT_CHR_dreddon HUTT_CHR_dreyba HUTT_CHR_dribba HUTT_CHR_dribso HUTT_CHR_dromo HUTT_CHR_droog HUTT_CHR_drooga HUTT_CHR_durga HUTT_CHR_duurga HUTT_CHR_duuurga HUTT_CHR_ebor HUTT_CHR_embra HUTT_CHR_encaasa HUTT_CHR_ethogg HUTT_CHR_fa_athra HUTT_CHR_filba HUTT_CHR_gamdro HUTT_CHR_ganis HUTT_CHR_garblaque HUTT_CHR_gardulla HUTT_CHR_gargonn HUTT_CHR_garma HUTT_CHR_gebbu HUTT_CHR_gheeta HUTT_CHR_ghetmar HUTT_CHR_giradda HUTT_CHR_glabonsch HUTT_CHR_glosch HUTT_CHR_glorga HUTT_CHR_glorim HUTT_CHR_glorzo HUTT_CHR_godoba HUTT_CHR_golga HUTT_CHR_gorbu HUTT_CHR_gorbus HUTT_CHR_gorga HUTT_CHR_gorgo HUTT_CHR_gorr HUTT_CHR_graag HUTT_CHR_graata HUTT_CHR_graballa HUTT_CHR_grakkus HUTT_CHR_grappa HUTT_CHR_grejic HUTT_CHR_grelb HUTT_CHR_grodo HUTT_CHR_groodo HUTT_CHR_groola HUTT_CHR_grubba HUTT_CHR_gularg HUTT_CHR_guttu HUTT_CHR_herogga HUTT_CHR_hunvar HUTT_CHR_huska HUTT_CHR_ingoda HUTT_CHR_jabba HUTT_CHR_jax HUTT_CHR_jeelta HUTT_CHR_jelasi HUTT_CHR_jemba HUTT_CHR_jiliac HUTT_CHR_jobwah HUTT_CHR_jocoro HUTT_CHR_jolla HUTT_CHR_jorsooda HUTT_CHR_jurga HUTT_CHR_juvard HUTT_CHR_ka_pa HUTT_CHR_kabbura HUTT_CHR_kalna HUTT_CHR_kaltho HUTT_CHR_karagga HUTT_CHR_kata HUTT_CHR_khobisho HUTT_CHR_kibbick HUTT_CHR_kladak HUTT_CHR_korrda HUTT_CHR_kossak HUTT_CHR_kukul HUTT_CHR_kurka HUTT_CHR_kutuab HUTT_CHR_lagra HUTT_CHR_leero HUTT_CHR_leurm HUTT_CHR_lippi HUTT_CHR_lokaibus HUTT_CHR_lonvarpa HUTT_CHR_lungru HUTT_CHR_mageye HUTT_CHR_malta HUTT_CHR_manju HUTT_CHR_mardoc HUTT_CHR_marlo HUTT_CHR_mika HUTT_CHR_mondo_mod HUTT_CHR_moosh HUTT_CHR_morbiss HUTT_CHR_orbo HUTT_CHR_morgra HUTT_CHR_moshudda HUTT_CHR_moska HUTT_CHR_motta HUTT_CHR_narbuj HUTT_CHR_nashi HUTT_CHR_nawnam HUTT_CHR_noako HUTT_CHR_noggox HUTT_CHR_noh HUTT_CHR_norbo HUTT_CHR_nooga HUTT_CHR_nuboocha HUTT_CHR_nullada HUTT_CHR_nuubsal HUTT_CHR_nyarla HUTT_CHR_offra HUTT_CHR_omeesh HUTT_CHR_ooroz HUTT_CHR_orko HUTT_CHR_orta HUTT_CHR_oruba HUTT_CHR_parella HUTT_CHR_pazda HUTT_CHR_pizza HUTT_CHR_plorbaas HUTT_CHR_popara HUTT_CHR_portho HUTT_CHR_prall HUTT_CHR_prebda HUTT_CHR_prodoranya HUTT_CHR_progga HUTT_CHR_puullo HUTT_CHR_qibbu HUTT_CHR_qiltakka HUTT_CHR_quaffug HUTT_CHR_randa HUTT_CHR_rask HUTT_CHR_raskurro HUTT_CHR_ribba HUTT_CHR_riboga HUTT_CHR_rigorra HUTT_CHR_rokko HUTT_CHR_rotta HUTT_CHR_shala HUTT_CHR_shebba HUTT_CHR_shettora HUTT_CHR_shiltu HUTT_CHR_shizu HUTT_CHR_shuma HUTT_CHR_sibarra HUTT_CHR_skeedo HUTT_CHR_smada HUTT_CHR_smebba HUTT_CHR_soergg HUTT_CHR_sonnos HUTT_CHR_spadda HUTT_CHR_splugorra HUTT_CHR_subo HUTT_CHR_suuda HUTT_CHR_suudaa HUTT_CHR_szajin HUTT_CHR_tagoonta HUTT_CHR_tagta HUTT_CHR_tanda HUTT_CHR_teemo HUTT_CHR_teubbo HUTT_CHR_thakba HUTT_CHR_tiranga HUTT_CHR_tirello HUTT_CHR_tobba HUTT_CHR_toborro HUTT_CHR_toobu HUTT_CHR_tooga HUTT_CHR_torga HUTT_CHR_torphus HUTT_CHR_torpo HUTT_CHR_troonol HUTT_CHR_truugo HUTT_CHR_tuwas HUTT_CHR_ungo HUTT_CHR_urdruua HUTT_CHR_uta HUTT_CHR_vago HUTT_CHR_vedo HUTT_CHR_velrugha HUTT_CHR_vogga HUTT_CHR_voontara HUTT_CHR_voras HUTT_CHR_voromuzz HUTT_CHR_walla HUTT_CHR_wallanooga HUTT_CHR_whuddle HUTT_CHR_wolga HUTT_CHR_wordro HUTT_CHR_wunda HUTT_CHR_yanth HUTT_CHR_yantuh HUTT_CHR_ybann HUTT_CHR_yenchara HUTT_CHR_zavval HUTT_CHR_zax HUTT_CHR_zier HUTT_CHR_zirchros HUTT_CHR_ziro HUTT_CHR_zobara HUTT_CHR_zochaeb HUTT_CHR_zodoh HUTT_CHR_zonnos HUTT_CHR_zorba
+			}
+			regnal_first_names_female = {
+				HUTT_CHR_abogla HUTT_CHR_aestaith HUTT_CHR_ahemait HUTT_CHR_alorga HUTT_CHR_anachro HUTT_CHR_arronda HUTT_CHR_astella HUTT_CHR_bel HUTT_CHR_birthia HUTT_CHR_blith HUTT_CHR_blobella HUTT_CHR_blolba HUTT_CHR_blubba HUTT_CHR_blulla HUTT_CHR_blursa HUTT_CHR_borga HUTT_CHR_celathe HUTT_CHR_chungrirg HUTT_CHR_churabba HUTT_CHR_daagri HUTT_CHR_decca HUTT_CHR_dinabu HUTT_CHR_draba HUTT_CHR_drixo HUTT_CHR_emesu HUTT_CHR_emeu HUTT_CHR_gardulla HUTT_CHR_gajjuzz HUTT_CHR_holdoeth HUTT_CHR_idde HUTT_CHR_iddurpom HUTT_CHR_jassi HUTT_CHR_jatheel HUTT_CHR_jiliac HUTT_CHR_jool HUTT_CHR_jussi HUTT_CHR_khuskha HUTT_CHR_kistilb HUTT_CHR_klim HUTT_CHR_krova HUTT_CHR_kualajjaeb HUTT_CHR_kumac HUTT_CHR_loewnerrbihl HUTT_CHR_lolduntee HUTT_CHR_mama HUTT_CHR_mennac HUTT_CHR_mioshu HUTT_CHR_moongroess HUTT_CHR_morpalta HUTT_CHR_natja HUTT_CHR_neggoh HUTT_CHR_niima HUTT_CHR_ooalah HUTT_CHR_othe HUTT_CHR_paggra HUTT_CHR_parla HUTT_CHR_plemess HUTT_CHR_pluumbuanya HUTT_CHR_prello HUTT_CHR_proki HUTT_CHR_pugriorzihl HUTT_CHR_puki HUTT_CHR_qileffinn HUTT_CHR_qunjess HUTT_CHR_rabdaakeh HUTT_CHR_rarpe HUTT_CHR_renyaisch HUTT_CHR_rooppi HUTT_CHR_rotta HUTT_CHR_rotundha HUTT_CHR_saggla HUTT_CHR_saphfiri HUTT_CHR_sassallo HUTT_CHR_shalera HUTT_CHR_shenda HUTT_CHR_sherrbis HUTT_CHR_shuma HUTT_CHR_skilnoo HUTT_CHR_skoda HUTT_CHR_skolnirchra HUTT_CHR_smessoohl HUTT_CHR_sorge HUTT_CHR_sutha HUTT_CHR_suudaa HUTT_CHR_taggla HUTT_CHR_tanda HUTT_CHR_tassaa HUTT_CHR_tatja HUTT_CHR_tawarit HUTT_CHR_ualtitith HUTT_CHR_uardusch HUTT_CHR_uddliah HUTT_CHR_ughaelle HUTT_CHR_vuuwoo HUTT_CHR_wappa HUTT_CHR_whomri HUTT_CHR_worrbona HUTT_CHR_velbelia HUTT_CHR_yerdetin HUTT_CHR_wurkeskiss HUTT_CHR_yotjo HUTT_CHR_yush HUTT_CHR_zeli HUTT_CHR_zietta HUTT_CHR_zinoobah HUTT_CHR_zooltah
+			}
+			regnal_second_names = {
+				HUTT_CHR_besadii HUTT_CHR_besadii_aora HUTT_CHR_besadii_aarrpo HUTT_CHR_besadii_ar_durv HUTT_CHR_besadii_diori HUTT_CHR_besadii_oggurobb HUTT_CHR_besadii_shad_ruu HUTT_CHR_besadii_tai HUTT_CHR_besadii_tiure HUTT_CHR_besadii_torill HUTT_CHR_desilijic HUTT_CHR_desilijic_aora HUTT_CHR_desilijic_aarrpo HUTT_CHR_desilijic_ar_durv HUTT_CHR_desilijic_ebelt HUTT_CHR_desilijic_oggurobb HUTT_CHR_desilijic_preor HUTT_CHR_desilijic_kalshi HUTT_CHR_desilijic_shad_ruu HUTT_CHR_desilijic_tai HUTT_CHR_desilijic_tiron HUTT_CHR_desilijic_tiure HUTT_CHR_desilijic_torill HUTT_CHR_fenn_ak HUTT_CHR_fenn_ak_aora HUTT_CHR_fenn_ak_aarrpo HUTT_CHR_fenn_ak_ar_durv HUTT_CHR_fenn_ak_oggurobb HUTT_CHR_fenn_ak_shad_ruu HUTT_CHR_fenn_ak_tai HUTT_CHR_fenn_ak_tiure HUTT_CHR_fenn_ak_torill HUTT_CHR_hestilic HUTT_CHR_hestilic_amura HUTT_CHR_hestilic_aora HUTT_CHR_hestilic_aarrpo HUTT_CHR_hestilic_ar_durv HUTT_CHR_hestilic_oggurobb HUTT_CHR_hestilic_shad_ruu HUTT_CHR_hestilic_tai HUTT_CHR_hestilic_tiure HUTT_CHR_hestilic_torill HUTT_CHR_illip HUTT_CHR_illip_aora HUTT_CHR_illip_aarrpo HUTT_CHR_illip_ar_durv HUTT_CHR_illip_oggurobb HUTT_CHR_illip_shad_ruu HUTT_CHR_illip_tai HUTT_CHR_illip_tiure HUTT_CHR_illip_torill HUTT_CHR_inijic HUTT_CHR_inijic_aora HUTT_CHR_inijic_aarrpo HUTT_CHR_inijic_ar_durv HUTT_CHR_inijic_oggurobb HUTT_CHR_inijic_shad_ruu HUTT_CHR_inijic_tai HUTT_CHR_inijic_tiure HUTT_CHR_inijic_torill HUTT_CHR_vanderijar HUTT_CHR_kaltemmic HUTT_CHR_masrii HUTT_CHR_urdosh HUTT_CHR_qunaalac HUTT_CHR_jiramma HUTT_CHR_jiramma_baco HUTT_CHR_jiramma_mionne HUTT_CHR_gejalli HUTT_CHR_gejalli_thokka HUTT_CHR_anjiliac HUTT_CHR_anjiliac_atirue HUTT_CHR_anjiliac_chiera HUTT_CHR_anjiliac_diresto HUTT_CHR_anjiliac_priare HUTT_CHR_dalo HUTT_CHR_dunk HUTT_CHR_fa_athra HUTT_CHR_nem_ro HUTT_CHR_nokko HUTT_CHR_nokko_vimmas HUTT_CHR_gorensla HUTT_CHR_thok HUTT_CHR_jallissi HUTT_CHR_jallissi_gral HUTT_CHR_vermilic HUTT_CHR_vermilic_scaiti HUTT_CHR_vosadii HUTT_CHR_vosadii_bezhin
+			}
+		}
+	}
+}

@@ -1,0 +1,378 @@
+# Graphical culture is connected to the looks used for ships and cities
+# Setting fallback will allow the game to try and use another culture if the asset is missing
+# Culture is scripted for species classes, see "common/species_classes/" and "graphical_culture = xxx"
+#gfxculture avian_01
+
+imperial_01 = {
+	ship_color = no
+	fallback = mammalian_01
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 0.0 0.5 }
+		cam_light_2_dir = { -0.5 0.2 0.0 }
+		cam_light_3_dir = { 0.5 -1.0 0.0 }
+		
+		intensity_near = 0.3
+		intensity_far = 0.7
+		near_value = 300
+		far_value = 700
+		rim_start_near = 0.5
+		rim_stop_near = 0.99
+		rim_start_far = 0.4
+		rim_stop_far = 0.99
+		#rim_start_far = 1.5
+		#rim_stop_far = 2.0
+		ambient_near = 0.1
+		ambient_far = 1.0
+	}
+}
+
+republic_01 = {
+	ship_color = no
+	fallback = imperial_01
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 -0.2 0.1 }
+		cam_light_2_dir = { -0.4 0.0 0.0 }
+		cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		#cam_light_1_dir = { 0.8	0.0 0.2 }
+		#cam_light_2_dir = { -0.8 0.0 0.0 }
+		#cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		intensity_near = 1.0
+		intensity_far = 5.0
+		near_value = 700
+		far_value = 4000
+		rim_start_near = 0.2
+		rim_stop_near = 0.99
+		rim_start_far = 0.3
+		rim_stop_far = 0.99
+		ambient_near = 0.1
+		ambient_far = 50.0
+	}
+}
+
+
+rebel_01 = {
+	ship_color = no
+	fallback = imperial_01
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 -0.2 0.1 }
+		cam_light_2_dir = { -0.4 0.0 0.0 }
+		cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		#cam_light_1_dir = { 0.8	0.0 0.2 }
+		#cam_light_2_dir = { -0.8 0.0 0.0 }
+		#cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		intensity_near = 1.0
+		intensity_far = 5.0
+		near_value = 700
+		far_value = 4000
+		rim_start_near = 0.2
+		rim_stop_near = 0.99
+		rim_start_far = 0.3
+		rim_stop_far = 0.99
+		ambient_near = 0.1
+		ambient_far = 50.0
+	}
+}
+
+hutt_01 = {
+	ship_color = no
+	fallback = imperial_01
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 -0.2 0.1 }
+		cam_light_2_dir = { -0.4 0.0 0.0 }
+		cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		#cam_light_1_dir = { 0.8	0.0 0.2 }
+		#cam_light_2_dir = { -0.8 0.0 0.0 }
+		#cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		intensity_near = 1.0
+		intensity_far = 5.0
+		near_value = 700
+		far_value = 4000
+		rim_start_near = 0.2
+		rim_stop_near = 0.99
+		rim_start_far = 0.3
+		rim_stop_far = 0.99
+		ambient_near = 0.1
+		ambient_far = 50.0
+	}
+}
+
+mando_01 = {
+	ship_color = no
+	fallback = imperial_01
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 -0.2 0.1 }
+		cam_light_2_dir = { -0.4 0.0 0.0 }
+		cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		#cam_light_1_dir = { 0.8	0.0 0.2 }
+		#cam_light_2_dir = { -0.8 0.0 0.0 }
+		#cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		intensity_near = 1.0
+		intensity_far = 5.0
+		near_value = 700
+		far_value = 4000
+		rim_start_near = 0.2
+		rim_stop_near = 0.99
+		rim_start_far = 0.3
+		rim_stop_far = 0.99
+		ambient_near = 0.1
+		ambient_far = 50.0
+	}
+}
+
+corellian_01 = {
+	ship_color = no
+	fallback = imperial_01
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 -0.2 0.1 }
+		cam_light_2_dir = { -0.4 0.0 0.0 }
+		cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		#cam_light_1_dir = { 0.8	0.0 0.2 }
+		#cam_light_2_dir = { -0.8 0.0 0.0 }
+		#cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		intensity_near = 1.0
+		intensity_far = 5.0
+		near_value = 700
+		far_value = 4000
+		rim_start_near = 0.2
+		rim_stop_near = 0.99
+		rim_start_far = 0.3
+		rim_stop_far = 0.99
+		ambient_near = 0.1
+		ambient_far = 50.0
+	}
+}
+
+cis_01 = {
+	ship_color = no
+	fallback = imperial_01
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 -0.2 0.1 }
+		cam_light_2_dir = { -0.4 0.0 0.0 }
+		cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		#cam_light_1_dir = { 0.8	0.0 0.2 }
+		#cam_light_2_dir = { -0.8 0.0 0.0 }
+		#cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		intensity_near = 1.0
+		intensity_far = 5.0
+		near_value = 700
+		far_value = 4000
+		rim_start_near = 0.2
+		rim_stop_near = 0.99
+		rim_start_far = 0.3
+		rim_stop_far = 0.99
+		ambient_near = 0.1
+		ambient_far = 50.0
+	}
+}
+
+csa_01 = {
+	ship_color = no
+	fallback = imperial_01
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 -0.2 0.1 }
+		cam_light_2_dir = { -0.4 0.0 0.0 }
+		cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		#cam_light_1_dir = { 0.8	0.0 0.2 }
+		#cam_light_2_dir = { -0.8 0.0 0.0 }
+		#cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		intensity_near = 1.0
+		intensity_far = 5.0
+		near_value = 700
+		far_value = 4000
+		rim_start_near = 0.2
+		rim_stop_near = 0.99
+		rim_start_far = 0.3
+		rim_stop_far = 0.99
+		ambient_near = 0.1
+		ambient_far = 50.0
+	}
+}
+
+hapes_01 = {
+	ship_color = no
+	fallback = 
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 -0.2 0.1 }
+		cam_light_2_dir = { -0.4 0.0 0.0 }
+		cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		#cam_light_1_dir = { 0.8	0.0 0.2 }
+		#cam_light_2_dir = { -0.8 0.0 0.0 }
+		#cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		intensity_near = 1.0
+		intensity_far = 5.0
+		near_value = 700
+		far_value = 4000
+		rim_start_near = 0.2
+		rim_stop_near = 0.99
+		rim_start_far = 0.3
+		rim_stop_far = 0.99
+		ambient_near = 0.1
+		ambient_far = 50.0
+	}
+}
+
+misc_01 = {
+	ship_color = no
+	fallback = corellian_01
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 -0.2 0.1 }
+		cam_light_2_dir = { -0.4 0.0 0.0 }
+		cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		#cam_light_1_dir = { 0.8	0.0 0.2 }
+		#cam_light_2_dir = { -0.8 0.0 0.0 }
+		#cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		intensity_near = 1.0
+		intensity_far = 5.0
+		near_value = 700
+		far_value = 4000
+		rim_start_near = 0.2
+		rim_stop_near = 0.99
+		rim_start_far = 0.3
+		rim_stop_far = 0.99
+		ambient_near = 0.1
+		ambient_far = 50.0
+	}
+}
+
+misc_02 = {
+	ship_color = no
+	fallback = cis_01
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 -0.2 0.1 }
+		cam_light_2_dir = { -0.4 0.0 0.0 }
+		cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		#cam_light_1_dir = { 0.8	0.0 0.2 }
+		#cam_light_2_dir = { -0.8 0.0 0.0 }
+		#cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		intensity_near = 1.0
+		intensity_far = 5.0
+		near_value = 700
+		far_value = 4000
+		rim_start_near = 0.2
+		rim_stop_near = 0.99
+		rim_start_far = 0.3
+		rim_stop_far = 0.99
+		ambient_near = 0.1
+		ambient_far = 50.0
+	}
+}
+
+misc_03 = {
+	ship_color = no
+	fallback = rebel_01
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 -0.2 0.1 }
+		cam_light_2_dir = { -0.4 0.0 0.0 }
+		cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		#cam_light_1_dir = { 0.8	0.0 0.2 }
+		#cam_light_2_dir = { -0.8 0.0 0.0 }
+		#cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		intensity_near = 1.0
+		intensity_far = 5.0
+		near_value = 700
+		far_value = 4000
+		rim_start_near = 0.2
+		rim_stop_near = 0.99
+		rim_start_far = 0.3
+		rim_stop_far = 0.99
+		ambient_near = 0.1
+		ambient_far = 50.0
+	}
+}
+
+misc_04 = {
+	ship_color = no
+	fallback = 
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 -0.2 0.1 }
+		cam_light_2_dir = { -0.4 0.0 0.0 }
+		cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		#cam_light_1_dir = { 0.8	0.0 0.2 }
+		#cam_light_2_dir = { -0.8 0.0 0.0 }
+		#cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		intensity_near = 1.0
+		intensity_far = 5.0
+		near_value = 700
+		far_value = 4000
+		rim_start_near = 0.2
+		rim_stop_near = 0.99
+		rim_start_far = 0.3
+		rim_stop_far = 0.99
+		ambient_near = 0.1
+		ambient_far = 50.0
+	}
+}
+
+chiss_01 = {
+	ship_color = no
+	fallback = imperial_01
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 -0.2 0.1 }
+		cam_light_2_dir = { -0.4 0.0 0.0 }
+		cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		#cam_light_1_dir = { 0.8	0.0 0.2 }
+		#cam_light_2_dir = { -0.8 0.0 0.0 }
+		#cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		intensity_near = 1.0
+		intensity_far = 5.0
+		near_value = 700
+		far_value = 4000
+		rim_start_near = 0.2
+		rim_stop_near = 0.99
+		rim_start_far = 0.3
+		rim_stop_far = 0.99
+		ambient_near = 0.1
+		ambient_far = 50.0
+	}
+}
+
+yuuzhan_01 = {
+	ship_color = no
+	fallback = imperial_01
+	ship_lighting = {
+		cam_light_1_dir = { 0.5 -0.2 0.1 }
+		cam_light_2_dir = { -0.4 0.0 0.0 }
+		cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		#cam_light_1_dir = { 0.8	0.0 0.2 }
+		#cam_light_2_dir = { -0.8 0.0 0.0 }
+		#cam_light_3_dir = { 0.4 -1.0 0.0 }
+		
+		intensity_near = 1.0
+		intensity_far = 5.0
+		near_value = 700
+		far_value = 4000
+		rim_start_near = 0.2
+		rim_stop_near = 0.99
+		rim_start_far = 0.3
+		rim_stop_far = 0.99
+		ambient_near = 0.1
+		ambient_far = 50.0
+	}
+}

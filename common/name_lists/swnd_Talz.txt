@@ -1,0 +1,844 @@
+﻿Talz = {
+	randomized = no
+	ship_names = {
+		generic = {
+			TALZ_SHIP_mystic TALZ_SHIP_naiad TALZ_SHIP_nautilus TALZ_SHIP_nebula TALZ_SHIP_nimble TALZ_SHIP_north_star TALZ_SHIP_nymph TALZ_SHIP_obdurate TALZ_SHIP_ocean TALZ_SHIP_onward TALZ_SHIP_oracle TALZ_SHIP_paradox TALZ_SHIP_paragon TALZ_SHIP_pearl TALZ_SHIP_peregrine TALZ_SHIP_perseverance TALZ_SHIP_marksman TALZ_SHIP_rifleman TALZ_SHIP_sniper TALZ_SHIP_trident TALZ_SHIP_trumpet TALZ_SHIP_truncheon TALZ_SHIP_typhoon TALZ_SHIP_undaunted TALZ_SHIP_venture TALZ_SHIP_versatile TALZ_SHIP_vigorous TALZ_SHIP_viper TALZ_SHIP_vivacious TALZ_SHIP_winger TALZ_SHIP_wizard TALZ_SHIP_wyvern TALZ_SHIP_wolfhound TALZ_SHIP_devastator TALZ_SHIP_warhammer TALZ_SHIP_retribution TALZ_SHIP_senator TALZ_SHIP_tornado TALZ_SHIP_infinity TALZ_SHIP_usurper TALZ_SHIP_utmost TALZ_SHIP_valorous TALZ_SHIP_whirlwind TALZ_SHIP_athena TALZ_SHIP_artemis TALZ_SHIP_vigilance TALZ_SHIP_decimator TALZ_SHIP_indomitable TALZ_SHIP_goliath TALZ_SHIP_sentinel TALZ_SHIP_brilliant TALZ_SHIP_blazer TALZ_SHIP_audacity TALZ_SHIP_gallant TALZ_SHIP_nova TALZ_SHIP_shadow TALZ_SHIP_allegiance TALZ_SHIP_challenger TALZ_SHIP_fearless TALZ_SHIP_protector TALZ_SHIP_guardian TALZ_SHIP_victorious TALZ_SHIP_courageous TALZ_SHIP_defiance TALZ_SHIP_valorous TALZ_SHIP_azrael TALZ_SHIP_adamantine TALZ_SHIP_aralanni TALZ_SHIP_ardent_iv TALZ_SHIP_armistice TALZ_SHIP_avengeance TALZ_SHIP_ballista TALZ_SHIP_bloodstripe TALZ_SHIP_borealis TALZ_SHIP_caelus TALZ_SHIP_caravan TALZ_SHIP_chaf_envoy TALZ_SHIP_commenor TALZ_SHIP_corbantis TALZ_SHIP_corellia TALZ_SHIP_courteous TALZ_SHIP_dauntless TALZ_SHIP_defiant TALZ_SHIP_deliverance TALZ_SHIP_derapha TALZ_SHIP_devout TALZ_SHIP_empirical TALZ_SHIP_empyrean TALZ_SHIP_era_daimanos TALZ_SHIP_eye_of_the_storm TALZ_SHIP_farstar TALZ_SHIP_fastblast TALZ_SHIP_galaaron TALZ_SHIP_garrote TALZ_SHIP_gilagimar TALZ_SHIP_halleck TALZ_SHIP_hunter TALZ_SHIP_intractable TALZ_SHIP_ithor_lady TALZ_SHIP_justice_crusader TALZ_SHIP_kana_s_steel TALZ_SHIP_lathir TALZ_SHIP_liberty TALZ_SHIP_lillibanca TALZ_SHIP_maelstrom TALZ_SHIP_malachite_scent TALZ_SHIP_mercy TALZ_SHIP_myrkos TALZ_SHIP_nebula_chaser TALZ_SHIP_nova TALZ_SHIP_nova_viper TALZ_SHIP_obedience TALZ_SHIP_olemp TALZ_SHIP_pegasus TALZ_SHIP_perspicacity TALZ_SHIP_phalanx TALZ_SHIP_plooriod_bodkin TALZ_SHIP_predominance TALZ_SHIP_prosperity TALZ_SHIP_purity TALZ_SHIP_recalcitrant TALZ_SHIP_red_nova TALZ_SHIP_redma TALZ_SHIP_reliable TALZ_SHIP_reliant TALZ_SHIP_reluctant TALZ_SHIP_republic TALZ_SHIP_republic_s_return TALZ_SHIP_resolve TALZ_SHIP_respectable TALZ_SHIP_revenge TALZ_SHIP_shadowblade TALZ_SHIP_spritespray TALZ_SHIP_star_dream TALZ_SHIP_stark_wing TALZ_SHIP_starveil TALZ_SHIP_undying TALZ_SHIP_vaathkree TALZ_SHIP_vainglorious TALZ_SHIP_valiant TALZ_SHIP_valor TALZ_SHIP_vanquisher TALZ_SHIP_vinsor TALZ_SHIP_visseon TALZ_SHIP_wennis TALZ_SHIP_yavin_s_glory TALZ_SHIP_moldy_crow TALZ_SHIP_raven_s_claw TALZ_SHIP_agile TALZ_SHIP_archer TALZ_SHIP_arrow TALZ_SHIP_bruiser TALZ_SHIP_cherub TALZ_SHIP_chimera TALZ_SHIP_claymore TALZ_SHIP_broadsword TALZ_SHIP_battleaxe TALZ_SHIP_crossbow TALZ_SHIP_cutlass TALZ_SHIP_deterrent TALZ_SHIP_errant TALZ_SHIP_faithful TALZ_SHIP_fierce TALZ_SHIP_gladius TALZ_SHIP_longbow TALZ_SHIP_grappler TALZ_SHIP_hammer TALZ_SHIP_vampire TALZ_SHIP_velox TALZ_SHIP_venator TALZ_SHIP_vendetta TALZ_SHIP_venerable TALZ_SHIP_venomous TALZ_SHIP_taciturn TALZ_SHIP_supreme TALZ_SHIP_success TALZ_SHIP_shredder TALZ_SHIP_seraph TALZ_SHIP_serpent TALZ_SHIP_spitfire TALZ_SHIP_stalker TALZ_SHIP_stratagem TALZ_SHIP_scimitar TALZ_SHIP_scorcher TALZ_SHIP_scourge TALZ_SHIP_scythe TALZ_SHIP_revenant TALZ_SHIP_redoubtable TALZ_SHIP_raptor TALZ_SHIP_reaver TALZ_SHIP_prodigal TALZ_SHIP_rapier TALZ_SHIP_prudent TALZ_SHIP_persistent TALZ_SHIP_peerless TALZ_SHIP_myrmidon TALZ_SHIP_indignant TALZ_SHIP_javelin TALZ_SHIP_knight TALZ_SHIP_starwolf TALZ_SHIP_bonaventure TALZ_SHIP_adventure TALZ_SHIP_boxer TALZ_SHIP_buccaneer TALZ_SHIP_cavalier TALZ_SHIP_celestial TALZ_SHIP_chariot TALZ_SHIP_comet TALZ_SHIP_crucible TALZ_SHIP_cyclone TALZ_SHIP_decisive TALZ_SHIP_dexterous TALZ_SHIP_diadem TALZ_SHIP_earnest TALZ_SHIP_eclipse TALZ_SHIP_forger TALZ_SHIP_fortune TALZ_SHIP_gauntlet TALZ_SHIP_griffin TALZ_SHIP_horizon TALZ_SHIP_hotspur TALZ_SHIP_hurricane TALZ_SHIP_hussar TALZ_SHIP_jubilant TALZ_SHIP_lancer TALZ_SHIP_lightning TALZ_SHIP_magic TALZ_SHIP_mediator TALZ_SHIP_mermaid TALZ_SHIP_meteor TALZ_SHIP_minstrel TALZ_SHIP_miranda TALZ_SHIP_mustang TALZ_SHIP_sharpshooter TALZ_SHIP_cyclops TALZ_SHIP_centaur TALZ_SHIP_adversary TALZ_SHIP_assassin TALZ_SHIP_dagger TALZ_SHIP_daring TALZ_SHIP_duty TALZ_SHIP_havoc TALZ_SHIP_hero TALZ_SHIP_hunter TALZ_SHIP_justice TALZ_SHIP_impeccable TALZ_SHIP_interceptor TALZ_SHIP_infernal TALZ_SHIP_loyal TALZ_SHIP_matchless TALZ_SHIP_mauler TALZ_SHIP_mayhem TALZ_SHIP_malice TALZ_SHIP_menace TALZ_SHIP_merciless TALZ_SHIP_mischief TALZ_SHIP_monarch TALZ_SHIP_patriot TALZ_SHIP_predator TALZ_SHIP_powerful TALZ_SHIP_punisher TALZ_SHIP_ravager TALZ_SHIP_reaper TALZ_SHIP_savage TALZ_SHIP_spiteful TALZ_SHIP_templar TALZ_SHIP_terminator TALZ_SHIP_terror TALZ_SHIP_thrasher TALZ_SHIP_minotaur TALZ_SHIP_manticore TALZ_SHIP_interdictor TALZ_SHIP_intruder TALZ_SHIP_hydra TALZ_SHIP_enfield TALZ_SHIP_harasser TALZ_SHIP_unbeaten TALZ_SHIP_werewolf TALZ_SHIP_zealous TALZ_SHIP_petulant TALZ_SHIP_phantom TALZ_SHIP_phoenix TALZ_SHIP_pike TALZ_SHIP_pursuer TALZ_SHIP_raider TALZ_SHIP_rainbow TALZ_SHIP_rapid TALZ_SHIP_redemption TALZ_SHIP_relentless TALZ_SHIP_rigorous TALZ_SHIP_robust TALZ_SHIP_sabre TALZ_SHIP_salvation TALZ_SHIP_sanguine TALZ_SHIP_scarab TALZ_SHIP_scepter TALZ_SHIP_sea_witch TALZ_SHIP_siren TALZ_SHIP_sorceress TALZ_SHIP_spearhead TALZ_SHIP_specter TALZ_SHIP_spirit TALZ_SHIP_splendid TALZ_SHIP_stallion TALZ_SHIP_stalwart TALZ_SHIP_steadfast TALZ_SHIP_strenuous TALZ_SHIP_superb TALZ_SHIP_supernova TALZ_SHIP_surprise TALZ_SHIP_swiftsure TALZ_SHIP_talent TALZ_SHIP_talisman TALZ_SHIP_talon TALZ_SHIP_taurus TALZ_SHIP_tenacious TALZ_SHIP_thunder_child TALZ_SHIP_thunderous TALZ_SHIP_tireless TALZ_SHIP_trenchant TALZ_SHIP_righteous TALZ_SHIP_acheron TALZ_SHIP_achilles TALZ_SHIP_agamemnon TALZ_SHIP_amphion TALZ_SHIP_aquilon TALZ_SHIP_argonaut TALZ_SHIP_argus TALZ_SHIP_ariel TALZ_SHIP_aurora TALZ_SHIP_avernus TALZ_SHIP_bacchus TALZ_SHIP_bucephalus TALZ_SHIP_calliope TALZ_SHIP_calypso TALZ_SHIP_castor TALZ_SHIP_charybdis TALZ_SHIP_circe TALZ_SHIP_cleopatra TALZ_SHIP_constantine TALZ_SHIP_cordelia TALZ_SHIP_cyrus TALZ_SHIP_damocles TALZ_SHIP_daedalus TALZ_SHIP_darius TALZ_SHIP_diomede TALZ_SHIP_dryad TALZ_SHIP_electra TALZ_SHIP_endymion TALZ_SHIP_erebus TALZ_SHIP_fenris TALZ_SHIP_freya TALZ_SHIP_gilgamesh TALZ_SHIP_gorgon TALZ_SHIP_halcyon TALZ_SHIP_hecate TALZ_SHIP_hector TALZ_SHIP_hesperus TALZ_SHIP_janus TALZ_SHIP_jason TALZ_SHIP_juno TALZ_SHIP_jupiter TALZ_SHIP_lancelot TALZ_SHIP_lazarus TALZ_SHIP_leander TALZ_SHIP_leonidas TALZ_SHIP_lysander TALZ_SHIP_maenad TALZ_SHIP_mars TALZ_SHIP_medea TALZ_SHIP_medusa TALZ_SHIP_menestheus TALZ_SHIP_mercury TALZ_SHIP_merlin TALZ_SHIP_minerva TALZ_SHIP_minos TALZ_SHIP_neptune TALZ_SHIP_nessus TALZ_SHIP_nestor TALZ_SHIP_nimrod TALZ_SHIP_niobe TALZ_SHIP_oberon TALZ_SHIP_odin TALZ_SHIP_ophelia TALZ_SHIP_orestes TALZ_SHIP_orpheus TALZ_SHIP_osiris TALZ_SHIP_pandora TALZ_SHIP_penelope TALZ_SHIP_persephone TALZ_SHIP_perseus TALZ_SHIP_phoebe TALZ_SHIP_pluto TALZ_SHIP_poseidon TALZ_SHIP_proteus TALZ_SHIP_pylades TALZ_SHIP_serapis TALZ_SHIP_stygian TALZ_SHIP_tantalus TALZ_SHIP_telemachus TALZ_SHIP_theseus TALZ_SHIP_thor TALZ_SHIP_trajan TALZ_SHIP_triton TALZ_SHIP_venus TALZ_SHIP_adamant TALZ_SHIP_ardent TALZ_SHIP_assail TALZ_SHIP_austere TALZ_SHIP_archon TALZ_SHIP_adroit TALZ_SHIP_aegis TALZ_SHIP_anchor TALZ_SHIP_corsair TALZ_SHIP_banshee TALZ_SHIP_enchantress TALZ_SHIP_eradicator TALZ_SHIP_tormentor TALZ_SHIP_legion TALZ_SHIP_reprisal TALZ_SHIP_aggressor TALZ_SHIP_assault TALZ_SHIP_eviscerator TALZ_SHIP_imperator TALZ_SHIP_excellence TALZ_SHIP_unrivalled TALZ_SHIP_warlord TALZ_SHIP_vengeance TALZ_SHIP_triumphant TALZ_SHIP_nemesis TALZ_SHIP_avenger TALZ_SHIP_champion TALZ_SHIP_conqueror TALZ_SHIP_crusader TALZ_SHIP_glory TALZ_SHIP_immortal TALZ_SHIP_judicator TALZ_SHIP_vanguard TALZ_SHIP_renown TALZ_SHIP_demolisher TALZ_SHIP_dragon TALZ_SHIP_executor TALZ_SHIP_furious TALZ_SHIP_gladiator TALZ_SHIP_magnificent TALZ_SHIP_ogre TALZ_SHIP_onslaught TALZ_SHIP_revenge TALZ_SHIP_vanquisher TALZ_SHIP_vehement TALZ_SHIP_basilisk TALZ_SHIP_tempest TALZ_SHIP_overlord TALZ_SHIP_warrior TALZ_SHIP_titan TALZ_SHIP_colossus TALZ_SHIP_prometheus TALZ_SHIP_nike TALZ_SHIP_paladin TALZ_SHIP_sovereign TALZ_SHIP_repulse TALZ_SHIP_majestic TALZ_SHIP_avatar TALZ_SHIP_behemoth TALZ_SHIP_centurion TALZ_SHIP_citadel TALZ_SHIP_katana TALZ_SHIP_kraken TALZ_SHIP_cerberus TALZ_SHIP_valkyrie
+		}
+		swp_bellator = {
+			TALZ_SHIP_dreadnought TALZ_SHIP_harbinger TALZ_SHIP_juggernaut TALZ_SHIP_leviathan TALZ_SHIP_hyperion TALZ_SHIP_galatea TALZ_SHIP_ambush TALZ_SHIP_vindicator
+		}
+		science = {
+			TALZ_SHIP_crescent TALZ_SHIP_diligent TALZ_SHIP_zephyr TALZ_SHIP_enigma TALZ_SHIP_conquistador TALZ_SHIP_scylla TALZ_SHIP_arbiter TALZ_SHIP_asperity TALZ_SHIP_eminence TALZ_SHIP_astute TALZ_SHIP_alacrity TALZ_SHIP_satyr TALZ_SHIP_prospero TALZ_SHIP_untiring TALZ_SHIP_zenith TALZ_SHIP_torch TALZ_SHIP_remembrance TALZ_SHIP_pilgrim TALZ_SHIP_trailblazer TALZ_SHIP_vagabond TALZ_SHIP_wayfarer TALZ_SHIP_ambassador TALZ_SHIP_emissary TALZ_SHIP_nomad TALZ_SHIP_pathfinder TALZ_SHIP_wanderer TALZ_SHIP_traveler
+		}
+		colonizer = {
+			TALZ_SHIP_godspeed TALZ_SHIP_prophecy TALZ_SHIP_manifest_destiny TALZ_SHIP_virtue TALZ_SHIP_potential TALZ_SHIP_expansion TALZ_SHIP_pioneer_spirit TALZ_SHIP_prosperity TALZ_SHIP_summit TALZ_SHIP_pinnacle TALZ_SHIP_seeder TALZ_SHIP_harvest TALZ_SHIP_demeter TALZ_SHIP_isis TALZ_SHIP_ceres TALZ_SHIP_exodus TALZ_SHIP_foundation TALZ_SHIP_scion TALZ_SHIP_progeny TALZ_SHIP_obligation TALZ_SHIP_purpose TALZ_SHIP_provider TALZ_SHIP_shining_city TALZ_SHIP_acquirer TALZ_SHIP_cultivator TALZ_SHIP_dawn_of_civilization TALZ_SHIP_purity TALZ_SHIP_community TALZ_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			TALZ_SHIP_godspeed TALZ_SHIP_prophecy TALZ_SHIP_manifest_destiny TALZ_SHIP_virtue TALZ_SHIP_potential TALZ_SHIP_expansion TALZ_SHIP_pioneer_spirit TALZ_SHIP_prosperity TALZ_SHIP_summit TALZ_SHIP_pinnacle TALZ_SHIP_seeder TALZ_SHIP_harvest TALZ_SHIP_isis TALZ_SHIP_ceres TALZ_SHIP_exodus TALZ_SHIP_foundation TALZ_SHIP_scion TALZ_SHIP_progeny TALZ_SHIP_obligation TALZ_SHIP_purpose TALZ_SHIP_provider TALZ_SHIP_shining_city TALZ_SHIP_acquirer TALZ_SHIP_cultivator TALZ_SHIP_dawn_of_civilization TALZ_SHIP_purity TALZ_SHIP_community TALZ_SHIP_brotherhood
+		}
+		constructor = {
+			TALZ_SHIP_industry TALZ_SHIP_assiduity TALZ_SHIP_effort TALZ_SHIP_laborer TALZ_SHIP_builder TALZ_SHIP_craftsman TALZ_SHIP_hard_hat TALZ_SHIP_progress TALZ_SHIP_engineer TALZ_SHIP_promise TALZ_SHIP_service TALZ_SHIP_shelter TALZ_SHIP_beast TALZ_SHIP_creator TALZ_SHIP_developer TALZ_SHIP_forger TALZ_SHIP_foundry TALZ_SHIP_factory TALZ_SHIP_anvil TALZ_SHIP_pillar TALZ_SHIP_architect TALZ_SHIP_accommodator TALZ_SHIP_ptah TALZ_SHIP_ilmarinen TALZ_SHIP_creidhne TALZ_SHIP_gobannus TALZ_SHIP_luchtaine TALZ_SHIP_goibniu TALZ_SHIP_vishvakarman TALZ_SHIP_tvastar TALZ_SHIP_ikenga TALZ_SHIP_qaynan TALZ_SHIP_ucuetis TALZ_SHIP_ogoun
+		}
+		transport = {
+			TALZ_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			TALZ_SHIP_spacegun_victory TALZ_SHIP_spacegun_success TALZ_SHIP_spacegun_supremacy TALZ_SHIP_spacegun_superior TALZ_SHIP_spacegun_adventure TALZ_SHIP_spacegun_ascendancy TALZ_SHIP_spacegun_paramount TALZ_SHIP_spacegun_preponderous TALZ_SHIP_spacegun_exemplary TALZ_SHIP_spacegun_eximious TALZ_SHIP_spacegun_pertinacity TALZ_SHIP_spacegun_acclaim TALZ_SHIP_spacegun_honor TALZ_SHIP_spacegun_renown TALZ_SHIP_spacegun_glory TALZ_SHIP_spacegun_superb TALZ_SHIP_spacegun_magnificence TALZ_SHIP_spacegun_majestic TALZ_SHIP_spacegun_splendor TALZ_SHIP_spacegun_paradigm TALZ_SHIP_spacegun_flawless TALZ_SHIP_spacegun_consummate TALZ_SHIP_spacegun_merit TALZ_SHIP_spacegun_perfection TALZ_SHIP_spacegun_virtue TALZ_SHIP_spacegun_advantage TALZ_SHIP_spacegun_rectitude TALZ_SHIP_spacegun_incorruptible TALZ_SHIP_spacegun_integrity TALZ_SHIP_spacegun_justice TALZ_SHIP_spacegun_probity TALZ_SHIP_spacegun_prudence TALZ_SHIP_spacegun_purity TALZ_SHIP_spacegun_resolute TALZ_SHIP_spacegun_dignity TALZ_SHIP_spacegun_distinction TALZ_SHIP_spacegun_excellence TALZ_SHIP_spacegun_faithful TALZ_SHIP_spacegun_discipline TALZ_SHIP_spacegun_steadfast TALZ_SHIP_spacegun_recompense TALZ_SHIP_spacegun_requiem TALZ_SHIP_spacegun_courage TALZ_SHIP_spacegun_valor TALZ_SHIP_spacegun_gallant TALZ_SHIP_spacegun_daring TALZ_SHIP_spacegun_constancy TALZ_SHIP_spacegun_perseverence TALZ_SHIP_spacegun_tenacity TALZ_SHIP_spacegun_sedulity TALZ_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			TALZ_SHIP_spacegun_victory TALZ_SHIP_spacegun_success TALZ_SHIP_spacegun_supremacy TALZ_SHIP_spacegun_superior TALZ_SHIP_spacegun_adventure TALZ_SHIP_spacegun_ascendancy TALZ_SHIP_spacegun_paramount TALZ_SHIP_spacegun_preponderous TALZ_SHIP_spacegun_exemplary TALZ_SHIP_spacegun_eximious TALZ_SHIP_spacegun_pertinacity TALZ_SHIP_spacegun_acclaim TALZ_SHIP_spacegun_honor TALZ_SHIP_spacegun_renown TALZ_SHIP_spacegun_glory TALZ_SHIP_spacegun_superb TALZ_SHIP_spacegun_magnificence TALZ_SHIP_spacegun_majestic TALZ_SHIP_spacegun_splendor TALZ_SHIP_spacegun_paradigm TALZ_SHIP_spacegun_flawless TALZ_SHIP_spacegun_consummate TALZ_SHIP_spacegun_merit TALZ_SHIP_spacegun_perfection TALZ_SHIP_spacegun_virtue TALZ_SHIP_spacegun_advantage TALZ_SHIP_spacegun_rectitude TALZ_SHIP_spacegun_incorruptible TALZ_SHIP_spacegun_integrity TALZ_SHIP_spacegun_justice TALZ_SHIP_spacegun_probity TALZ_SHIP_spacegun_prudence TALZ_SHIP_spacegun_purity TALZ_SHIP_spacegun_resolute TALZ_SHIP_spacegun_dignity TALZ_SHIP_spacegun_distinction TALZ_SHIP_spacegun_excellence TALZ_SHIP_spacegun_faithful TALZ_SHIP_spacegun_discipline TALZ_SHIP_spacegun_steadfast TALZ_SHIP_spacegun_recompense TALZ_SHIP_spacegun_requiem TALZ_SHIP_spacegun_courage TALZ_SHIP_spacegun_valor TALZ_SHIP_spacegun_gallant TALZ_SHIP_spacegun_daring TALZ_SHIP_spacegun_constancy TALZ_SHIP_spacegun_perseverence TALZ_SHIP_spacegun_tenacity TALZ_SHIP_spacegun_sedulity TALZ_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			TALZ_SHIP_spacegun_victory TALZ_SHIP_spacegun_success TALZ_SHIP_spacegun_supremacy TALZ_SHIP_spacegun_superior TALZ_SHIP_spacegun_adventure TALZ_SHIP_spacegun_ascendancy TALZ_SHIP_spacegun_paramount TALZ_SHIP_spacegun_preponderous TALZ_SHIP_spacegun_exemplary TALZ_SHIP_spacegun_eximious TALZ_SHIP_spacegun_pertinacity TALZ_SHIP_spacegun_acclaim TALZ_SHIP_spacegun_honor TALZ_SHIP_spacegun_renown TALZ_SHIP_spacegun_glory TALZ_SHIP_spacegun_superb TALZ_SHIP_spacegun_magnificence TALZ_SHIP_spacegun_majestic TALZ_SHIP_spacegun_splendor TALZ_SHIP_spacegun_paradigm TALZ_SHIP_spacegun_flawless TALZ_SHIP_spacegun_consummate TALZ_SHIP_spacegun_merit TALZ_SHIP_spacegun_perfection TALZ_SHIP_spacegun_virtue TALZ_SHIP_spacegun_advantage TALZ_SHIP_spacegun_rectitude TALZ_SHIP_spacegun_incorruptible TALZ_SHIP_spacegun_integrity TALZ_SHIP_spacegun_justice TALZ_SHIP_spacegun_probity TALZ_SHIP_spacegun_prudence TALZ_SHIP_spacegun_purity TALZ_SHIP_spacegun_resolute TALZ_SHIP_spacegun_dignity TALZ_SHIP_spacegun_distinction TALZ_SHIP_spacegun_excellence TALZ_SHIP_spacegun_faithful TALZ_SHIP_spacegun_discipline TALZ_SHIP_spacegun_steadfast TALZ_SHIP_spacegun_recompense TALZ_SHIP_spacegun_requiem TALZ_SHIP_spacegun_courage TALZ_SHIP_spacegun_valor TALZ_SHIP_spacegun_gallant TALZ_SHIP_spacegun_daring TALZ_SHIP_spacegun_constancy TALZ_SHIP_spacegun_perseverence TALZ_SHIP_spacegun_tenacity TALZ_SHIP_spacegun_sedulity TALZ_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			TALZ_SHIP_citadel TALZ_SHIP_albacore TALZ_SHIP_gateway TALZ_SHIP_vincent TALZ_SHIP_babylon TALZ_SHIP_caernavon TALZ_SHIP_acre TALZ_SHIP_pembroke TALZ_SHIP_acheron TALZ_SHIP_spithead TALZ_SHIP_halifax TALZ_SHIP_victoria TALZ_SHIP_chatham TALZ_SHIP_anchorage TALZ_SHIP_scapa_flow TALZ_SHIP_hampton_roads TALZ_SHIP_brooklyn TALZ_SHIP_norfolk TALZ_SHIP_newport TALZ_SHIP_guam TALZ_SHIP_pensacola TALZ_SHIP_vesuvius TALZ_SHIP_mckinley TALZ_SHIP_everest TALZ_SHIP_kilimanjaro TALZ_SHIP_aconcagua TALZ_SHIP_elbrus TALZ_SHIP_st__helens TALZ_SHIP_fuji TALZ_SHIP_olympus TALZ_SHIP_sinai TALZ_SHIP_ambrose TALZ_SHIP_bermuda TALZ_SHIP_farpoint TALZ_SHIP_blue_star TALZ_SHIP_olympus_mons TALZ_SHIP_tharsis TALZ_SHIP_syrtis TALZ_SHIP_blackham TALZ_SHIP_fletcher TALZ_SHIP_perry TALZ_SHIP_butakov TALZ_SHIP_morris TALZ_SHIP_moorsom TALZ_SHIP_hart TALZ_SHIP_hargood TALZ_SHIP_spruance TALZ_SHIP_tanaka TALZ_SHIP_halsey TALZ_SHIP_turner TALZ_SHIP_doria TALZ_SHIP_tirpitz TALZ_SHIP_cunningham TALZ_SHIP_jellicoe TALZ_SHIP_hipper TALZ_SHIP_beatty TALZ_SHIP_potemkin TALZ_SHIP_durham TALZ_SHIP_codrington TALZ_SHIP_milne TALZ_SHIP_laforey TALZ_SHIP_tyler TALZ_SHIP_hawke TALZ_SHIP_yonai TALZ_SHIP_pound TALZ_SHIP_king TALZ_SHIP_crutchley TALZ_SHIP_mountbatten TALZ_SHIP_kountouriotis TALZ_SHIP_kuznetsov TALZ_SHIP_essen TALZ_SHIP_kornilov TALZ_SHIP_suffren TALZ_SHIP_treville TALZ_SHIP_villeneuve TALZ_SHIP_grasse TALZ_SHIP_byng TALZ_SHIP_lezo
+		}
+		ion_cannon = {
+			TALZ_SHIP_bombard TALZ_SHIP_ballista TALZ_SHIP_catapult TALZ_SHIP_harpoon TALZ_SHIP_polybolos TALZ_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			TALZ_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			TALZ_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			TALZ_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			TALZ_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			TALZ_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			TALZ_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			TALZ_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			TALZ_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			TALZ_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			TALZ_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			TALZ_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			TALZ_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			TALZ_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			TALZ_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			TALZ_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			TALZ_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			TALZ_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			TALZ_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			TALZ_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			TALZ_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			TALZ_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			TALZ_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			TALZ_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			TALZ_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			TALZ_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			TALZ_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			TALZ_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			TALZ_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			TALZ_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			TALZ_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			TALZ_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			TALZ_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			TALZ_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			TALZ_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			TALZ_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			TALZ_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			TALZ_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			TALZ_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			TALZ_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			TALZ_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			TALZ_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			TALZ_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			TALZ_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			TALZ_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			TALZ_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			TALZ_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			TALZ_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			TALZ_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			TALZ_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			TALZ_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			TALZ_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			TALZ_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			TALZ_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			TALZ_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			TALZ_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			TALZ_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			TALZ_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			TALZ_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			TALZ_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			TALZ_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			TALZ_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			TALZ_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			TALZ_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			TALZ_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			TALZ_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			TALZ_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			TALZ_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			TALZ_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			TALZ_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			TALZ_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			TALZ_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			TALZ_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			TALZ_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			TALZ_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			TALZ_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			TALZ_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			TALZ_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			TALZ_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			TALZ_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			TALZ_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			TALZ_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			TALZ_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			TALZ_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			TALZ_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			TALZ_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			TALZ_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			TALZ_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			TALZ_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			TALZ_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			TALZ_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			TALZ_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			TALZ_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			TALZ_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			TALZ_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			TALZ_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			TALZ_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			TALZ_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			TALZ_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			TALZ_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			TALZ_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			TALZ_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			TALZ_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			TALZ_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			TALZ_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			TALZ_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			TALZ_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			TALZ_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			TALZ_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			TALZ_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			TALZ_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			TALZ_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			TALZ_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			TALZ_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			TALZ_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = TALZ_FLEET_flotilla_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = TALZ_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = TALZ_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = TALZ_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = TALZ_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = TALZ_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = TALZ_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = TALZ_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = TALZ_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				TALZ_ARMY_sarc_a__gladiators_ TALZ_ARMY_sarc_b__widowmakers_ TALZ_ARMY_sarc_c__immortals_ TALZ_ARMY_sarc_d__berserkers_ TALZ_ARMY_sarc_e__assassins_ TALZ_ARMY_sarc_f__reapers_ TALZ_ARMY_sarc_g__nighthawks_ TALZ_ARMY_sarc_h__desperados_ TALZ_ARMY_sarc_i__grey_knights_ TALZ_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = TALZ_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = TALZ_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = TALZ_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = TALZ_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = TALZ_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = TALZ_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = TALZ_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = TALZ_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = TALZ_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = TALZ_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = TALZ_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = TALZ_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = TALZ_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = TALZ_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = TALZ_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = TALZ_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = TALZ_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = TALZ_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = TALZ_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = TALZ_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = TALZ_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = TALZ_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = TALZ_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = TALZ_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = TALZ_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = TALZ_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = TALZ_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = TALZ_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = TALZ_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = TALZ_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = TALZ_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = TALZ_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = TALZ_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = TALZ_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = TALZ_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = TALZ_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = TALZ_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = TALZ_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = TALZ_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = TALZ_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = TALZ_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = TALZ_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = TALZ_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = TALZ_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = TALZ_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = TALZ_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = TALZ_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = TALZ_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = TALZ_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = TALZ_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = TALZ_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = TALZ_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = TALZ_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = TALZ_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = TALZ_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = TALZ_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = TALZ_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = TALZ_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = TALZ_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = TALZ_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = TALZ_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = TALZ_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = TALZ_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = TALZ_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = TALZ_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = TALZ_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = TALZ_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = TALZ_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = TALZ_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = TALZ_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = TALZ_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = TALZ_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = TALZ_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = TALZ_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = TALZ_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = TALZ_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = TALZ_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = TALZ_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = TALZ_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = TALZ_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = TALZ_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = TALZ_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = TALZ_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = TALZ_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = TALZ_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = TALZ_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = TALZ_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = TALZ_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = TALZ_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = TALZ_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = TALZ_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = TALZ_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = TALZ_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = TALZ_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = TALZ_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = TALZ_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = TALZ_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = TALZ_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = TALZ_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = TALZ_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = TALZ_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = TALZ_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = TALZ_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = TALZ_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = TALZ_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = TALZ_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = TALZ_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = TALZ_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = TALZ_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = TALZ_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = TALZ_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = TALZ_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = TALZ_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = TALZ_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = TALZ_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = TALZ_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = TALZ_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = TALZ_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = TALZ_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = TALZ_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = TALZ_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = TALZ_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = TALZ_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = TALZ_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = TALZ_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = TALZ_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = TALZ_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = TALZ_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = TALZ_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = TALZ_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = TALZ_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = TALZ_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = TALZ_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				TALZ_CHR_bail TALZ_CHR_ylenic TALZ_CHR_kel TALZ_CHR_gunn TALZ_CHR_gregory TALZ_CHR_abraxis TALZ_CHR_jonas TALZ_CHR_xerda TALZ_CHR_carth TALZ_CHR_kir TALZ_CHR_mebba TALZ_CHR_dagos TALZ_CHR_adam TALZ_CHR_kyle TALZ_CHR_forren TALZ_CHR_malcolm TALZ_CHR_jeho TALZ_CHR_lee TALZ_CHR_griggs TALZ_CHR_milo TALZ_CHR_aeron TALZ_CHR_byrec TALZ_CHR_strata TALZ_CHR_lancer TALZ_CHR_zeak TALZ_CHR_niuk TALZ_CHR_lavidean TALZ_CHR_tanizandar TALZ_CHR_japla TALZ_CHR_aran TALZ_CHR_rail TALZ_CHR_zeven TALZ_CHR_yakown TALZ_CHR_sibar TALZ_CHR_sair TALZ_CHR_klai TALZ_CHR_jonas TALZ_CHR_imay TALZ_CHR_traest TALZ_CHR_simo TALZ_CHR_carth TALZ_CHR_riyan TALZ_CHR_magnus TALZ_CHR_boceta TALZ_CHR_agnook TALZ_CHR_silus TALZ_CHR_rowan TALZ_CHR_coren TALZ_CHR_jett TALZ_CHR_linth TALZ_CHR_annor TALZ_CHR_ulas TALZ_CHR_fenn TALZ_CHR_tal TALZ_CHR_plo TALZ_CHR_torin TALZ_CHR_imay TALZ_CHR_boone TALZ_CHR_davith TALZ_CHR_jorgen TALZ_CHR_bertos TALZ_CHR_ress TALZ_CHR_malius TALZ_CHR_kale TALZ_CHR_cregan TALZ_CHR_galen TALZ_CHR_zekk TALZ_CHR_jinn_tu TALZ_CHR_jaryn TALZ_CHR_gentti TALZ_CHR_yu_sien TALZ_CHR_akela TALZ_CHR_arslan TALZ_CHR_sidias TALZ_CHR_haken TALZ_CHR_biran TALZ_CHR_vidown TALZ_CHR_ares TALZ_CHR_ithan TALZ_CHR_cul_utaan TALZ_CHR_thoja TALZ_CHR_cron TALZ_CHR_mossi TALZ_CHR_abric TALZ_CHR_darg TALZ_CHR_gaman TALZ_CHR_naiad TALZ_CHR_herub TALZ_CHR_marius TALZ_CHR_torkin TALZ_CHR_caton TALZ_CHR_kane TALZ_CHR_versita TALZ_CHR_cric TALZ_CHR_foxdi TALZ_CHR_montacca TALZ_CHR_jospi TALZ_CHR_baz TALZ_CHR_kam TALZ_CHR_erek TALZ_CHR_arslan TALZ_CHR_lerak TALZ_CHR_morla TALZ_CHR_baxter TALZ_CHR_talan TALZ_CHR_thion TALZ_CHR_kannon TALZ_CHR_corsair TALZ_CHR_caster TALZ_CHR_elden TALZ_CHR_faelgrom TALZ_CHR_jack TALZ_CHR_raltharan TALZ_CHR_flash TALZ_CHR_waseem TALZ_CHR_bendak TALZ_CHR_kaz TALZ_CHR_montileu TALZ_CHR_gonoga TALZ_CHR_silus TALZ_CHR_galven TALZ_CHR_vincenzo TALZ_CHR_ric TALZ_CHR_rebar TALZ_CHR_jebediah TALZ_CHR_aramil TALZ_CHR_abraxis TALZ_CHR_delmi TALZ_CHR_caalin TALZ_CHR_rassth TALZ_CHR_adorn TALZ_CHR_cyrus TALZ_CHR_zhar_khan TALZ_CHR_adam TALZ_CHR_predor TALZ_CHR_tarlson TALZ_CHR_boaz TALZ_CHR_bradley TALZ_CHR_gunn TALZ_CHR_raltharan TALZ_CHR_zerrid TALZ_CHR_bobecc TALZ_CHR_jelantos TALZ_CHR_jephego TALZ_CHR_svante TALZ_CHR_tesvalo TALZ_CHR_aeon TALZ_CHR_dekar TALZ_CHR_jean_francois TALZ_CHR_elen TALZ_CHR_han TALZ_CHR_owen TALZ_CHR_biggs TALZ_CHR_rune TALZ_CHR_lott TALZ_CHR_daultay TALZ_CHR_lok TALZ_CHR_mar TALZ_CHR_gilramos TALZ_CHR_siv TALZ_CHR_zill TALZ_CHR_hath TALZ_CHR_aruteous TALZ_CHR_jull TALZ_CHR_sil TALZ_CHR_hallion TALZ_CHR_gap TALZ_CHR_palfa TALZ_CHR_sib TALZ_CHR_aito TALZ_CHR_sentepeth TALZ_CHR_kund TALZ_CHR_harro TALZ_CHR_hask TALZ_CHR_paw TALZ_CHR_brehg TALZ_CHR_reya TALZ_CHR_gode TALZ_CHR_nap TALZ_CHR_lufa TALZ_CHR_yee TALZ_CHR_geph TALZ_CHR_lik TALZ_CHR_gunaray TALZ_CHR_igren TALZ_CHR_dif TALZ_CHR_klewer TALZ_CHR_kuto TALZ_CHR_smeer TALZ_CHR_helb TALZ_CHR_toat TALZ_CHR_teek TALZ_CHR_jeek TALZ_CHR_orrin TALZ_CHR_veor TALZ_CHR_dak_on TALZ_CHR_nozabuiba TALZ_CHR_gama TALZ_CHR_budmle TALZ_CHR_proh_ven TALZ_CHR_salitt TALZ_CHR_vigro TALZ_CHR_rers TALZ_CHR_desson TALZ_CHR_cathan TALZ_CHR_dru TALZ_CHR_tunjas TALZ_CHR_borlo TALZ_CHR_krett TALZ_CHR_ablund TALZ_CHR_aach TALZ_CHR_aagon TALZ_CHR_aalto TALZ_CHR_aambler TALZ_CHR_abadaner TALZ_CHR_aban TALZ_CHR_abbus_kelo TALZ_CHR_acan TALZ_CHR_ace TALZ_CHR_adame TALZ_CHR_adar TALZ_CHR_arvel TALZ_CHR_addi_shon TALZ_CHR_addle TALZ_CHR_adelhard TALZ_CHR_aden TALZ_CHR_adon_larr TALZ_CHR_adraas TALZ_CHR_adrenas TALZ_CHR_adrick TALZ_CHR_adun TALZ_CHR_aeron TALZ_CHR_agareth TALZ_CHR_aggadeen TALZ_CHR_alric TALZ_CHR_airten TALZ_CHR_agrippa TALZ_CHR_ajaan TALZ_CHR_ajolin TALZ_CHR_akaste_vel TALZ_CHR_akobi TALZ_CHR_alain TALZ_CHR_alaric TALZ_CHR_albathius TALZ_CHR_alde TALZ_CHR_alec TALZ_CHR_alekam TALZ_CHR_alethios TALZ_CHR_alger TALZ_CHR_algrunar TALZ_CHR_ali_alann TALZ_CHR_alif TALZ_CHR_alim_gen TALZ_CHR_alin TALZ_CHR_alix TALZ_CHR_alkhara TALZ_CHR_allia TALZ_CHR_almak TALZ_CHR_almec TALZ_CHR_alon TALZ_CHR_alozen TALZ_CHR_alph TALZ_CHR_altaca TALZ_CHR_althon TALZ_CHR_alwynn TALZ_CHR_amberson TALZ_CHR_ament TALZ_CHR_amis TALZ_CHR_ammon TALZ_CHR_amzartho TALZ_CHR_anabar TALZ_CHR_anager TALZ_CHR_anarine TALZ_CHR_anathemos TALZ_CHR_andan TALZ_CHR_anders TALZ_CHR_ando TALZ_CHR_andra TALZ_CHR_andrew TALZ_CHR_andrid TALZ_CHR_andrik TALZ_CHR_andru TALZ_CHR_ar_al TALZ_CHR_angber TALZ_CHR_angral TALZ_CHR_anlen TALZ_CHR_anod TALZ_CHR_anselm TALZ_CHR_anskow TALZ_CHR_anson TALZ_CHR_adem TALZ_CHR_antone TALZ_CHR_antonin TALZ_CHR_anuli TALZ_CHR_appleton TALZ_CHR_arac TALZ_CHR_arakkus TALZ_CHR_aramis TALZ_CHR_arana TALZ_CHR_armen TALZ_CHR_arastide TALZ_CHR_arber TALZ_CHR_arcann TALZ_CHR_ardan TALZ_CHR_ardax TALZ_CHR_ardiff TALZ_CHR_ardle TALZ_CHR_ardmore TALZ_CHR_ardot TALZ_CHR_ardran TALZ_CHR_avinoam TALZ_CHR_ars TALZ_CHR_argona TALZ_CHR_argor TALZ_CHR_argos TALZ_CHR_arias TALZ_CHR_ariavos TALZ_CHR_arigo TALZ_CHR_aris TALZ_CHR_arkan TALZ_CHR_arkeld TALZ_CHR_arl TALZ_CHR_arljack TALZ_CHR_arlo TALZ_CHR_arlos TALZ_CHR_armatan TALZ_CHR_armitage TALZ_CHR_arnama TALZ_CHR_arnet TALZ_CHR_arno TALZ_CHR_arnothian TALZ_CHR_arnth TALZ_CHR_arnus TALZ_CHR_arrad TALZ_CHR_arratan TALZ_CHR_arrax TALZ_CHR_arric TALZ_CHR_artano TALZ_CHR_artok TALZ_CHR_arturo TALZ_CHR_arzanon TALZ_CHR_ash TALZ_CHR_ashaad TALZ_CHR_asirr TALZ_CHR_atali TALZ_CHR_atar TALZ_CHR_atmino TALZ_CHR_atren TALZ_CHR_augatta TALZ_CHR_avan TALZ_CHR_avanj TALZ_CHR_avarik TALZ_CHR_averdon TALZ_CHR_averen TALZ_CHR_averon TALZ_CHR_avers TALZ_CHR_aves TALZ_CHR_aviso TALZ_CHR_avrun TALZ_CHR_azkul TALZ_CHR_azrakel TALZ_CHR_ace TALZ_CHR_b_arin TALZ_CHR_bail TALZ_CHR_beel TALZ_CHR_bix TALZ_CHR_blix TALZ_CHR_boz TALZ_CHR_braedon TALZ_CHR_bryn TALZ_CHR_brixus TALZ_CHR_cal TALZ_CHR_cassian TALZ_CHR_chik TALZ_CHR_cinto TALZ_CHR_cumberlayne TALZ_CHR_darrus TALZ_CHR_djinn TALZ_CHR_druth TALZ_CHR_det TALZ_CHR_ethan TALZ_CHR_galiir TALZ_CHR_gez TALZ_CHR_haemon TALZ_CHR_jae TALZ_CHR_jagged TALZ_CHR_jess TALZ_CHR_jesper TALZ_CHR_jon TALZ_CHR_gathal TALZ_CHR_gideon TALZ_CHR_jefand TALZ_CHR_kel TALZ_CHR_koffi TALZ_CHR_lazlo TALZ_CHR_laetin TALZ_CHR_lesk TALZ_CHR_maxiron TALZ_CHR_neet TALZ_CHR_osak TALZ_CHR_pabel TALZ_CHR_paddy TALZ_CHR_peita TALZ_CHR_peema TALZ_CHR_pellas TALZ_CHR_prewb TALZ_CHR_raymus TALZ_CHR_raar TALZ_CHR_rage TALZ_CHR_rel TALZ_CHR_reez TALZ_CHR_ras TALZ_CHR_rixes TALZ_CHR_ruceba TALZ_CHR_seraph TALZ_CHR_sim TALZ_CHR_sio TALZ_CHR_y_ull TALZ_CHR_tavion TALZ_CHR_tavid TALZ_CHR_tendis TALZ_CHR_tev TALZ_CHR_tiberus TALZ_CHR_toob TALZ_CHR_tor TALZ_CHR_turon TALZ_CHR_villis TALZ_CHR_wain TALZ_CHR_wedge TALZ_CHR_wes TALZ_CHR_zeen TALZ_CHR_baboo TALZ_CHR_bachenkall TALZ_CHR_bafor TALZ_CHR_bagitt TALZ_CHR_bailey TALZ_CHR_bailie TALZ_CHR_bairn TALZ_CHR_bala_tik TALZ_CHR_balankin TALZ_CHR_balaro TALZ_CHR_balcomb TALZ_CHR_baldwin TALZ_CHR_baldy TALZ_CHR_balek TALZ_CHR_balisk TALZ_CHR_balkin TALZ_CHR_balko TALZ_CHR_ballala TALZ_CHR_ballard TALZ_CHR_ballax TALZ_CHR_bendodi TALZ_CHR_balog TALZ_CHR_balto TALZ_CHR_bams TALZ_CHR_bandor TALZ_CHR_boss TALZ_CHR_banley TALZ_CHR_banna TALZ_CHR_bannos TALZ_CHR_bant TALZ_CHR_banz TALZ_CHR_baradis TALZ_CHR_barak TALZ_CHR_baramak TALZ_CHR_barcel TALZ_CHR_bardo TALZ_CHR_barduun TALZ_CHR_barev TALZ_CHR_barich TALZ_CHR_barik TALZ_CHR_barkale TALZ_CHR_barksy TALZ_CHR_barleos TALZ_CHR_barlow TALZ_CHR_barney TALZ_CHR_barnley TALZ_CHR_baro TALZ_CHR_barry TALZ_CHR_barstead TALZ_CHR_bartam TALZ_CHR_barth TALZ_CHR_barthis TALZ_CHR_bas TALZ_CHR_bas_ton TALZ_CHR_bascome TALZ_CHR_basile TALZ_CHR_basso TALZ_CHR_bastian TALZ_CHR_bathens TALZ_CHR_batono TALZ_CHR_bator TALZ_CHR_billal TALZ_CHR_battz TALZ_CHR_baxton TALZ_CHR_baysden TALZ_CHR_baz TALZ_CHR_be TALZ_CHR_beau TALZ_CHR_beckar TALZ_CHR_becker TALZ_CHR_beckman TALZ_CHR_bedareux TALZ_CHR_bedoch TALZ_CHR_beebe TALZ_CHR_beez TALZ_CHR_beldiss TALZ_CHR_belkan TALZ_CHR_beller TALZ_CHR_bellis TALZ_CHR_belos TALZ_CHR_byzal TALZ_CHR_bzorn TALZ_CHR_biggs TALZ_CHR_bels TALZ_CHR_bemos TALZ_CHR_benay TALZ_CHR_benjo TALZ_CHR_benkin TALZ_CHR_benn TALZ_CHR_benni TALZ_CHR_benok TALZ_CHR_benthar TALZ_CHR_benton TALZ_CHR_bentro TALZ_CHR_boar TALZ_CHR_benx TALZ_CHR_bequesh TALZ_CHR_berandis TALZ_CHR_berethon TALZ_CHR_bergan TALZ_CHR_berix TALZ_CHR_bernie TALZ_CHR_bertrum TALZ_CHR_berusal TALZ_CHR_bewil TALZ_CHR_bex TALZ_CHR_billan TALZ_CHR_biril TALZ_CHR_birket TALZ_CHR_birok TALZ_CHR_black TALZ_CHR_blagotine TALZ_CHR_blaide TALZ_CHR_blainekie TALZ_CHR_bledsoe TALZ_CHR_bleeker TALZ_CHR_blleen TALZ_CHR_bloodory TALZ_CHR_bloodworthy TALZ_CHR_blount TALZ_CHR_blyes TALZ_CHR_boakie TALZ_CHR_boaz TALZ_CHR_bob TALZ_CHR_bol TALZ_CHR_bon TALZ_CHR_bonze TALZ_CHR_boonan TALZ_CHR_boran TALZ_CHR_boraso TALZ_CHR_borgin TALZ_CHR_borm TALZ_CHR_bornae TALZ_CHR_bort TALZ_CHR_bortrek TALZ_CHR_boshek TALZ_CHR_bourom TALZ_CHR_bouyard TALZ_CHR_braden TALZ_CHR_brady TALZ_CHR_bragan TALZ_CHR_braynor TALZ_CHR_brayso TALZ_CHR_breckon TALZ_CHR_breehld TALZ_CHR_brinn TALZ_CHR_brinnie TALZ_CHR_brint TALZ_CHR_brinton TALZ_CHR_brogon TALZ_CHR_brohmer TALZ_CHR_brolis TALZ_CHR_broll TALZ_CHR_brom TALZ_CHR_brooser TALZ_CHR_brothic TALZ_CHR_brovto TALZ_CHR_broysc TALZ_CHR_bruan TALZ_CHR_brucce TALZ_CHR_bruckman TALZ_CHR_bryint TALZ_CHR_brylin TALZ_CHR_bry TALZ_CHR_brysonbular TALZ_CHR_bulger TALZ_CHR_bun_delbur TALZ_CHR_burne TALZ_CHR_burque TALZ_CHR_burr TALZ_CHR_bursk TALZ_CHR_bursthed TALZ_CHR_byrga TALZ_CHR_byten TALZ_CHR_trey TALZ_CHR_lando TALZ_CHR_caaldra TALZ_CHR_cabaril TALZ_CHR_cabbel TALZ_CHR_caeleb TALZ_CHR_caerbellak TALZ_CHR_cafian TALZ_CHR_cag TALZ_CHR_cagaran TALZ_CHR_cam TALZ_CHR_camaran TALZ_CHR_camas TALZ_CHR_cardacs TALZ_CHR_cardy TALZ_CHR_careem TALZ_CHR_cargeloch TALZ_CHR_carhart TALZ_CHR_calron TALZ_CHR_calson TALZ_CHR_calum TALZ_CHR_calypho TALZ_CHR_cal TALZ_CHR_caladane TALZ_CHR_calaverous TALZ_CHR_carli TALZ_CHR_carlon TALZ_CHR_carlton TALZ_CHR_carn TALZ_CHR_carner TALZ_CHR_carness TALZ_CHR_carnor TALZ_CHR_carns TALZ_CHR_callef TALZ_CHR_callen TALZ_CHR_callow TALZ_CHR_calders TALZ_CHR_caleb TALZ_CHR_calo TALZ_CHR_calphayus TALZ_CHR_cathers TALZ_CHR_caton TALZ_CHR_cauley TALZ_CHR_cav TALZ_CHR_cav_saran TALZ_CHR_cavin TALZ_CHR_cryle TALZ_CHR_cavwol TALZ_CHR_cawelyn TALZ_CHR_cecius TALZ_CHR_cede TALZ_CHR_cemma TALZ_CHR_ceoloe TALZ_CHR_cerasi TALZ_CHR_cerik TALZ_CHR_charny TALZ_CHR_charol TALZ_CHR_charpp TALZ_CHR_charnoq TALZ_CHR_charnso TALZ_CHR_cestus TALZ_CHR_ch_arb TALZ_CHR_ch_gally TALZ_CHR_ch_lessan TALZ_CHR_cha TALZ_CHR_chael TALZ_CHR_challer TALZ_CHR_chambe TALZ_CHR_crlyn TALZ_CHR_chang TALZ_CHR_chappral TALZ_CHR_chef TALZ_CHR_chentu TALZ_CHR_chell TALZ_CHR_chessiq TALZ_CHR_chet TALZ_CHR_chiann TALZ_CHR_chicora TALZ_CHR_chatty TALZ_CHR_chayloss TALZ_CHR_chedaki TALZ_CHR_chiraneau TALZ_CHR_chiron TALZ_CHR_chorlen TALZ_CHR_chornarov TALZ_CHR_cody TALZ_CHR_clorr TALZ_CHR_clovis TALZ_CHR_clydno TALZ_CHR_clynn TALZ_CHR_cnorec TALZ_CHR_coburn TALZ_CHR_cobus TALZ_CHR_cogon TALZ_CHR_colin TALZ_CHR_collus TALZ_CHR_colsan TALZ_CHR_colten TALZ_CHR_colton TALZ_CHR_combo TALZ_CHR_conar TALZ_CHR_coorta TALZ_CHR_corin TALZ_CHR_coris TALZ_CHR_corlac TALZ_CHR_corso TALZ_CHR_corvan TALZ_CHR_corvin TALZ_CHR_corvis TALZ_CHR_corwin TALZ_CHR_corwyth TALZ_CHR_cote TALZ_CHR_cothron TALZ_CHR_cotin TALZ_CHR_coy TALZ_CHR_cravel TALZ_CHR_cravus TALZ_CHR_creb TALZ_CHR_creeve TALZ_CHR_corlis TALZ_CHR_crest TALZ_CHR_crimpler TALZ_CHR_crimson TALZ_CHR_crin TALZ_CHR_crion TALZ_CHR_criss TALZ_CHR_cristoff TALZ_CHR_crix TALZ_CHR_cronal TALZ_CHR_cronnin TALZ_CHR_cronus TALZ_CHR_d_ashewl TALZ_CHR_d_krn TALZ_CHR_d_lew TALZ_CHR_d_vox TALZ_CHR_d_vrosh TALZ_CHR_daal TALZ_CHR_dado TALZ_CHR_daek TALZ_CHR_dael TALZ_CHR_dahar TALZ_CHR_dahm TALZ_CHR_daiman TALZ_CHR_dainsom TALZ_CHR_daiv TALZ_CHR_dak TALZ_CHR_dakron TALZ_CHR_daksh TALZ_CHR_dalton TALZ_CHR_damarcus TALZ_CHR_damaris TALZ_CHR_damarus TALZ_CHR_dao TALZ_CHR_dapp TALZ_CHR_daquinn TALZ_CHR_dar TALZ_CHR_eesh TALZ_CHR_darda TALZ_CHR_dardan TALZ_CHR_dareb_ TALZ_CHR_dareg TALZ_CHR_darek TALZ_CHR_daren TALZ_CHR_dargus TALZ_CHR_daggath TALZ_CHR_darnov TALZ_CHR_daro TALZ_CHR_darok TALZ_CHR_darone TALZ_CHR_darr TALZ_CHR_darrik TALZ_CHR_darrok TALZ_CHR_darrst TALZ_CHR_darsin TALZ_CHR_darthyn TALZ_CHR_daruula TALZ_CHR_dash TALZ_CHR_datoo TALZ_CHR_dauren TALZ_CHR_davis TALZ_CHR_davon TALZ_CHR_davonn TALZ_CHR_davos TALZ_CHR_davrill TALZ_CHR_davrin TALZ_CHR_davu TALZ_CHR_dayja TALZ_CHR_daz TALZ_CHR_ramsis TALZ_CHR_bren TALZ_CHR_tan TALZ_CHR_jan TALZ_CHR_porro TALZ_CHR_cin TALZ_CHR_garven TALZ_CHR_cornelius TALZ_CHR_galen TALZ_CHR_dannl TALZ_CHR_ecclessis TALZ_CHR_debbikin TALZ_CHR_debeli TALZ_CHR_deegan TALZ_CHR_deerian TALZ_CHR_deevis TALZ_CHR_defain TALZ_CHR_deflaros TALZ_CHR_degoren TALZ_CHR_dehno TALZ_CHR_dekay TALZ_CHR_delevar TALZ_CHR_delfaros TALZ_CHR_dellin TALZ_CHR_dellocon TALZ_CHR_delpho TALZ_CHR_delquis TALZ_CHR_delsa TALZ_CHR_delund TALZ_CHR_delurin TALZ_CHR_demtri TALZ_CHR_den TALZ_CHR_denbar TALZ_CHR_dender TALZ_CHR_dendro TALZ_CHR_dendu TALZ_CHR_denetrus TALZ_CHR_denev TALZ_CHR_dengar TALZ_CHR_dengril TALZ_CHR_denid TALZ_CHR_denimoor TALZ_CHR_denin TALZ_CHR_denna TALZ_CHR_denner TALZ_CHR_dennik TALZ_CHR_deppo TALZ_CHR_derdram TALZ_CHR_derec TALZ_CHR_derish TALZ_CHR_derliff TALZ_CHR_dermeg TALZ_CHR_dermian TALZ_CHR_dern TALZ_CHR_dernas TALZ_CHR_derral TALZ_CHR_derrin TALZ_CHR_dervis TALZ_CHR_desanne TALZ_CHR_devoris TALZ_CHR_devotek TALZ_CHR_devron TALZ_CHR_devry TALZ_CHR_devsh TALZ_CHR_dewolf TALZ_CHR_dex TALZ_CHR_dezsetes TALZ_CHR_dhaiv TALZ_CHR_dhal TALZ_CHR_dindau TALZ_CHR_dindo TALZ_CHR_ding TALZ_CHR_dinge TALZ_CHR_dobbatek TALZ_CHR_dobberty TALZ_CHR_dobbs TALZ_CHR_dolan TALZ_CHR_dolgis TALZ_CHR_dolmen TALZ_CHR_dolo TALZ_CHR_dominaire TALZ_CHR_domm TALZ_CHR_donovan TALZ_CHR_donovarr TALZ_CHR_donsull TALZ_CHR_dorel_kan TALZ_CHR_dorgat TALZ_CHR_dorian TALZ_CHR_dorja TALZ_CHR_dorn TALZ_CHR_dorotsech TALZ_CHR_dorrick TALZ_CHR_dortho TALZ_CHR_downey TALZ_CHR_draado TALZ_CHR_draahg TALZ_CHR_dracen TALZ_CHR_drage TALZ_CHR_dragen TALZ_CHR_drake TALZ_CHR_drayk TALZ_CHR_drazin TALZ_CHR_drek TALZ_CHR_duno TALZ_CHR_dree TALZ_CHR_dreed TALZ_CHR_drefin TALZ_CHR_dregg TALZ_CHR_drelosyn TALZ_CHR_drexel TALZ_CHR_dreyf TALZ_CHR_drezzel TALZ_CHR_drizan TALZ_CHR_dro TALZ_CHR_droman TALZ_CHR_dromath TALZ_CHR_drowl TALZ_CHR_drufeys TALZ_CHR_drummond TALZ_CHR_dubeh TALZ_CHR_dunari TALZ_CHR_dunaub TALZ_CHR_deadeye TALZ_CHR_duncan TALZ_CHR_durhant TALZ_CHR_durmat TALZ_CHR_durpin TALZ_CHR_durrei TALZ_CHR_dyshotto TALZ_CHR_dzoun TALZ_CHR_eagle TALZ_CHR_eanjer TALZ_CHR_earl TALZ_CHR_earsh TALZ_CHR_eben TALZ_CHR_eddon TALZ_CHR_edease TALZ_CHR_edern TALZ_CHR_edgar TALZ_CHR_edikar TALZ_CHR_egoreg TALZ_CHR_egron TALZ_CHR_eistern TALZ_CHR_ejai TALZ_CHR_eker TALZ_CHR_ekh TALZ_CHR_ekisp TALZ_CHR_ekov TALZ_CHR_elarles TALZ_CHR_eriquel TALZ_CHR_eris TALZ_CHR_erl TALZ_CHR_erloi TALZ_CHR_esano TALZ_CHR_escalion TALZ_CHR_ezil TALZ_CHR_ezrim TALZ_CHR_ezra TALZ_CHR_ein TALZ_CHR_eislo TALZ_CHR_jake TALZ_CHR_jango TALZ_CHR_eli TALZ_CHR_eliasb TALZ_CHR_eligyn TALZ_CHR_elior TALZ_CHR_elis TALZ_CHR_elizhis TALZ_CHR_elkin TALZ_CHR_ellsworth TALZ_CHR_elmel TALZ_CHR_elmyo TALZ_CHR_elrodelsar TALZ_CHR_elsek TALZ_CHR_emil TALZ_CHR_emir TALZ_CHR_emmens TALZ_CHR_endicott TALZ_CHR_enfield TALZ_CHR_enger TALZ_CHR_engret TALZ_CHR_emmett TALZ_CHR_emory TALZ_CHR_eoaq TALZ_CHR_eph TALZ_CHR_erdan TALZ_CHR_erelut TALZ_CHR_ergast TALZ_CHR_ergel TALZ_CHR_ergeron TALZ_CHR_eric TALZ_CHR_erik TALZ_CHR_estopatrin TALZ_CHR_esture TALZ_CHR_estus TALZ_CHR_eth TALZ_CHR_ethen TALZ_CHR_etnam TALZ_CHR_etta TALZ_CHR_evad TALZ_CHR_evan TALZ_CHR_evax TALZ_CHR_evlen TALZ_CHR_evran TALZ_CHR_evun TALZ_CHR_evvin TALZ_CHR_ewane TALZ_CHR_exar TALZ_CHR_eyvind TALZ_CHR_falltower TALZ_CHR_falrey TALZ_CHR_falsta TALZ_CHR_falch TALZ_CHR_falco TALZ_CHR_faarl TALZ_CHR_fable TALZ_CHR_faedral TALZ_CHR_far TALZ_CHR_faradin TALZ_CHR_faraire TALZ_CHR_fardi TALZ_CHR_farn TALZ_CHR_farng TALZ_CHR_farnis TALZ_CHR_farsal TALZ_CHR_farseam TALZ_CHR_fatulaine TALZ_CHR_fauler TALZ_CHR_feldon TALZ_CHR_feldron TALZ_CHR_feleea TALZ_CHR_fenn TALZ_CHR_fenris TALZ_CHR_fenson TALZ_CHR_feras TALZ_CHR_ferav TALZ_CHR_ferdoin TALZ_CHR_fermin TALZ_CHR_ferob TALZ_CHR_ferren TALZ_CHR_ferrid TALZ_CHR_ferrig TALZ_CHR_ferrin TALZ_CHR_ferron TALZ_CHR_ferrus TALZ_CHR_falesh TALZ_CHR_falk TALZ_CHR_fardi TALZ_CHR_fassio TALZ_CHR_fatulaine TALZ_CHR_dannl TALZ_CHR_februs TALZ_CHR_janus TALZ_CHR_fixer TALZ_CHR_florn TALZ_CHR_grizz TALZ_CHR_frobb TALZ_CHR_fruun
+			}
+			first_names_female = {
+				TALZ_CHR_charratha TALZ_CHR_edaara TALZ_CHR_bella TALZ_CHR_callista TALZ_CHR_mara TALZ_CHR_seena TALZ_CHR_areta TALZ_CHR_cord TALZ_CHR_cyrinity TALZ_CHR_nile TALZ_CHR_kiyfi TALZ_CHR_yasmyn TALZ_CHR_satra TALZ_CHR_shehish TALZ_CHR_sarna TALZ_CHR_krava TALZ_CHR_roxis TALZ_CHR_jessa TALZ_CHR_aqua TALZ_CHR_maryna TALZ_CHR_essaj TALZ_CHR_looriw TALZ_CHR_teeana TALZ_CHR_raena TALZ_CHR_yula TALZ_CHR_vifi TALZ_CHR_vania TALZ_CHR_jeanida TALZ_CHR_aerena TALZ_CHR_nataya TALZ_CHR_bernarda TALZ_CHR_geela TALZ_CHR_lya TALZ_CHR_sirra TALZ_CHR_teris TALZ_CHR_terral TALZ_CHR_nile TALZ_CHR_riema TALZ_CHR_erri TALZ_CHR_shanna TALZ_CHR_lyra TALZ_CHR_pranda TALZ_CHR_luna TALZ_CHR_cally TALZ_CHR_viqi TALZ_CHR_hadriel TALZ_CHR_lora TALZ_CHR_selena TALZ_CHR_zana TALZ_CHR_tuija TALZ_CHR_railin TALZ_CHR_odona TALZ_CHR_shyon TALZ_CHR_walas TALZ_CHR_rylla TALZ_CHR_gara TALZ_CHR_delos TALZ_CHR_loretta TALZ_CHR_luhon TALZ_CHR_delinia TALZ_CHR_aama TALZ_CHR_shorya TALZ_CHR_melfina TALZ_CHR_davessi TALZ_CHR_larana TALZ_CHR_galatea TALZ_CHR_nola TALZ_CHR_syna TALZ_CHR_jauhzmynn TALZ_CHR_anen TALZ_CHR_orona TALZ_CHR_yana TALZ_CHR_zoras TALZ_CHR_ree TALZ_CHR_grace TALZ_CHR_tantema TALZ_CHR_myn TALZ_CHR_una TALZ_CHR_dalharil TALZ_CHR_losa TALZ_CHR_sovi TALZ_CHR_elaiza TALZ_CHR_vucora TALZ_CHR_ava TALZ_CHR_joi TALZ_CHR_stryka TALZ_CHR_tantema TALZ_CHR_shandra TALZ_CHR_kely TALZ_CHR_caileta TALZ_CHR_taia TALZ_CHR_siala TALZ_CHR_reki TALZ_CHR_maydla TALZ_CHR_bot TALZ_CHR_kiandra TALZ_CHR_xilaren TALZ_CHR_zulara TALZ_CHR_ren TALZ_CHR_karissa TALZ_CHR_roxis TALZ_CHR_haruko TALZ_CHR_jenna TALZ_CHR_liana TALZ_CHR_rale TALZ_CHR_megara TALZ_CHR_aria TALZ_CHR_akiva TALZ_CHR_nalah TALZ_CHR_erlem TALZ_CHR_nali TALZ_CHR_fallah TALZ_CHR_kotrana TALZ_CHR_aayla TALZ_CHR_kalira TALZ_CHR_arani TALZ_CHR_fama TALZ_CHR_lyyr TALZ_CHR_arcas TALZ_CHR_rane TALZ_CHR_nayru TALZ_CHR_zylas TALZ_CHR_vexa TALZ_CHR_kana TALZ_CHR_beru
+			}
+			second_names = {
+				TALZ_CHR_elysar TALZ_CHR_tisa TALZ_CHR_wahia TALZ_CHR_wezz TALZ_CHR_unic TALZ_CHR_tiovata TALZ_CHR_nakcohh TALZ_CHR_vitaan TALZ_CHR_mefrid TALZ_CHR_daklan TALZ_CHR_kenzee TALZ_CHR_joben TALZ_CHR_thegas TALZ_CHR_moryne TALZ_CHR_holgor TALZ_CHR_ijaaz TALZ_CHR_tromans TALZ_CHR_sprax TALZ_CHR_knesos TALZ_CHR_magnus TALZ_CHR_lasek TALZ_CHR_artis TALZ_CHR_pax TALZ_CHR_corso TALZ_CHR_fallon TALZ_CHR_gundo TALZ_CHR_ruana TALZ_CHR_fremlin TALZ_CHR_thont TALZ_CHR_creel TALZ_CHR_rar TALZ_CHR_dusat TALZ_CHR_kessler TALZ_CHR_shaia TALZ_CHR_el_theriam TALZ_CHR_vanmeer TALZ_CHR_vrieska TALZ_CHR_calway TALZ_CHR_yamaguchi TALZ_CHR_riggers TALZ_CHR_brower TALZ_CHR_fash TALZ_CHR_nalto TALZ_CHR_stryder TALZ_CHR_dubreas TALZ_CHR_colsan TALZ_CHR_terrek TALZ_CHR_solon TALZ_CHR_merquise TALZ_CHR_varn TALZ_CHR_basai TALZ_CHR_froud TALZ_CHR_addacess TALZ_CHR_elysar TALZ_CHR_durgen TALZ_CHR_slahlvo TALZ_CHR_remex TALZ_CHR_madowki TALZ_CHR_hayes TALZ_CHR_ne TALZ_CHR_dago TALZ_CHR_greenback TALZ_CHR_stithta TALZ_CHR_ker TALZ_CHR_driet TALZ_CHR_klakk TALZ_CHR_reed TALZ_CHR_lefex TALZ_CHR_minn TALZ_CHR_irokini TALZ_CHR_roye TALZ_CHR_danakar TALZ_CHR_forin TALZ_CHR_glopio TALZ_CHR_shenuri TALZ_CHR_corcer TALZ_CHR_ordo TALZ_CHR_wan TALZ_CHR_tagratt TALZ_CHR_golladio TALZ_CHR_adramcsia TALZ_CHR_jetberg TALZ_CHR_noth TALZ_CHR_taske TALZ_CHR_komo TALZ_CHR_styles TALZ_CHR_angavel TALZ_CHR_tyrnith TALZ_CHR_yavoog TALZ_CHR_kelbier TALZ_CHR_racto TALZ_CHR_degor TALZ_CHR_tisa TALZ_CHR_magre TALZ_CHR_soylon TALZ_CHR_lerann TALZ_CHR_chro TALZ_CHR_finn TALZ_CHR_blackmoor TALZ_CHR_hwang TALZ_CHR_vekarr TALZ_CHR_thegas TALZ_CHR_amon TALZ_CHR_thiddex TALZ_CHR_durgen TALZ_CHR_selkayim TALZ_CHR_gilder TALZ_CHR_dhuramav TALZ_CHR_kodd TALZ_CHR_morin TALZ_CHR_kobylarz TALZ_CHR_tade TALZ_CHR_solman TALZ_CHR_bintaghr TALZ_CHR_marclonus TALZ_CHR_precore TALZ_CHR_solborne TALZ_CHR_bailer TALZ_CHR_katarn TALZ_CHR_anjek TALZ_CHR_dalgas TALZ_CHR_kast TALZ_CHR_airerith TALZ_CHR_halo TALZ_CHR_tade TALZ_CHR_clash TALZ_CHR_jalba TALZ_CHR_benn TALZ_CHR_haruhana TALZ_CHR_roice TALZ_CHR_lokar TALZ_CHR_korpil TALZ_CHR_turon TALZ_CHR_cavi TALZ_CHR_deece TALZ_CHR_braitano TALZ_CHR_garnik TALZ_CHR_tyandas TALZ_CHR_ka_taramas TALZ_CHR_nuwest TALZ_CHR_forte TALZ_CHR_noshey TALZ_CHR_gyyll TALZ_CHR_tallon TALZ_CHR_lionne TALZ_CHR_adras TALZ_CHR_fremlin TALZ_CHR_peoly TALZ_CHR_damiel TALZ_CHR_chup_pau TALZ_CHR_drayven TALZ_CHR_zaposug TALZ_CHR_bela_trepada TALZ_CHR_defelice TALZ_CHR_monsula TALZ_CHR_baralein TALZ_CHR_denive TALZ_CHR_hodrren TALZ_CHR_xergo TALZ_CHR_sarat TALZ_CHR_vercet TALZ_CHR_ossaki TALZ_CHR_kappa TALZ_CHR_zerga TALZ_CHR_kopos TALZ_CHR_aldrecht TALZ_CHR_bohme TALZ_CHR_tull TALZ_CHR_eldrel TALZ_CHR_marh TALZ_CHR_darksword TALZ_CHR_krandor TALZ_CHR_montag TALZ_CHR_dimodan TALZ_CHR_starfallen TALZ_CHR_artis TALZ_CHR_fett TALZ_CHR_mohebbi TALZ_CHR_runalian TALZ_CHR_binette TALZ_CHR_laurent TALZ_CHR_mavr TALZ_CHR_ryra TALZ_CHR_truden TALZ_CHR_solo TALZ_CHR_lars TALZ_CHR_amedda TALZ_CHR_amidala TALZ_CHR_andrell TALZ_CHR_annon TALZ_CHR_antilles TALZ_CHR_atanna TALZ_CHR_baab TALZ_CHR_barc TALZ_CHR_bonteri TALZ_CHR_breemu TALZ_CHR_bremack TALZ_CHR_bronk TALZ_CHR_burtoni TALZ_CHR_cadaman TALZ_CHR_callen TALZ_CHR_clovis TALZ_CHR_ledwellow TALZ_CHR_dio TALZ_CHR_organa
+			}
+			regnal_first_names_male = {
+				TALZ_CHR_kam TALZ_CHR_erek TALZ_CHR_arslan TALZ_CHR_lerak TALZ_CHR_morla TALZ_CHR_mas TALZ_CHR_wain TALZ_CHR_bail TALZ_CHR_gabrial TALZ_CHR_dewell TALZ_CHR_tanner TALZ_CHR_vi TALZ_CHR_rush TALZ_CHR_danry
+			}
+			regnal_first_names_female = {
+				TALZ_CHR_callista TALZ_CHR_mara TALZ_CHR_seena TALZ_CHR_areta TALZ_CHR_padm_ TALZ_CHR_fema TALZ_CHR_mina TALZ_CHR_bana TALZ_CHR_tyreca TALZ_CHR_halle TALZ_CHR_lexi TALZ_CHR_leia TALZ_CHR_alyssa TALZ_CHR_leanna TALZ_CHR_arya
+			}
+			regnal_second_names = {
+				TALZ_CHR_amedda TALZ_CHR_amidala TALZ_CHR_andrell TALZ_CHR_annon TALZ_CHR_antilles TALZ_CHR_atanna TALZ_CHR_baab TALZ_CHR_barc TALZ_CHR_bonteri TALZ_CHR_breemu TALZ_CHR_bremack TALZ_CHR_bronk TALZ_CHR_burtoni TALZ_CHR_cadaman TALZ_CHR_callen TALZ_CHR_clovis TALZ_CHR_ledwellow TALZ_CHR_dio TALZ_CHR_panteer TALZ_CHR_alde TALZ_CHR_organa TALZ_CHR_frayus TALZ_CHR_cortess TALZ_CHR_killesa
+			}
+		}
+	}
+}

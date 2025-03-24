@@ -1,0 +1,192 @@
+##############################
+# 	Giving Strikecraft tech	 #
+##############################
+# gives fighter tech 2
+namespace = swnd_strikecraft
+country_event = {
+	id = swnd_strikecraft.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		last_increased_tech = tech_strike_craft_1
+	}
+	immediate = {
+		switch = {
+			trigger = has_country_flag
+			imperial_tech = {
+				give_technology = {
+					tech = tech_imperial_fighters_2
+					message = no
+				}
+			}
+			republic_tech = {
+				give_technology = {
+					tech = tech_imperial_fighters_2
+					message = no
+				}
+			}
+			rebel_tech = {
+				give_technology = {
+					tech = tech_rebel_fighters_2
+					message = no
+				}
+			}
+			cis_tech = {
+				give_technology = {
+					tech = tech_cis_fighters_2
+					message = no
+				}
+			}
+			hutt_tech = {
+				give_technology = {
+					tech = tech_hutt_fighters_2
+					message = no
+				}
+			}
+			mando_tech = {
+				give_technology = {
+					tech = tech_mando_fighters_2
+					message = no
+				}
+			}
+			chiss_tech = {
+				give_technology = {
+					tech = tech_chiss_fighters_2
+					message = no
+				}
+			}
+			hapan_tech = {
+				give_technology = {
+					tech = tech_hapan_fighters_2
+					message = no
+				}
+			}
+		}
+	}
+}
+
+# gives Fighter tech 3
+country_event = {
+	id = swnd_strikecraft.2
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		last_increased_tech = tech_strike_craft_2
+	}
+	immediate = {
+		switch = {
+			trigger = has_country_flag
+			imperial_tech = {
+				give_technology = {
+					tech = tech_imperial_fighters_3
+					message = no
+				}
+			}
+			republic_tech = {
+				give_technology = {
+					tech = tech_imperial_fighters_3
+					message = no
+				}
+			}
+			rebel_tech = {
+				give_technology = {
+					tech = tech_rebel_fighters_3
+					message = no
+				}
+			}
+			cis_tech = {
+				give_technology = {
+					tech = tech_cis_fighters_3
+					message = no
+				}
+			}
+			hutt_tech = {
+				give_technology = {
+					tech = tech_hutt_fighters_3
+					message = no
+				}
+			}
+			mando_tech = {
+				give_technology = {
+					tech = tech_mando_fighters_3
+					message = no
+				}
+			}
+			chiss_tech = {
+				give_technology = {
+					tech = tech_chiss_fighters_3
+					message = no
+				}
+			}
+			hapan_tech = {
+				give_technology = {
+					tech = tech_hapan_fighters_3
+					message = no
+				}
+			}
+		}
+	}
+}
+
+# gives Fighter tech 4
+country_event = {
+	id = swnd_strikecraft.3
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		last_increased_tech = tech_strike_craft_3
+	}
+	immediate = {
+		switch = {
+			trigger = has_country_flag
+			imperial_tech = {
+				give_technology = {
+					tech = tech_imperial_fighters_4
+					message = no
+				}
+			}
+			republic_tech = {
+				give_technology = {
+					tech = tech_imperial_fighters_4
+					message = no
+				}
+			}
+			rebel_tech = {
+				give_technology = {
+					tech = tech_rebel_fighters_4
+					message = no
+				}
+			}
+			cis_tech = {
+				give_technology = {
+					tech = tech_cis_fighters_4
+					message = no
+				}
+			}
+			hutt_tech = {
+				give_technology = {
+					tech = tech_hutt_fighters_4
+					message = no
+				}
+			}
+			mando_tech = {
+				give_technology = {
+					tech = tech_mando_fighters_4
+					message = no
+				}
+			}
+			chiss_tech = {
+				give_technology = {
+					tech = tech_chiss_fighters_4
+					message = no
+				}
+			}
+			hapan_tech = {
+				give_technology = {
+					tech = tech_hapan_fighters_4
+					message = no
+				}
+			}
+		}
+	}
+}

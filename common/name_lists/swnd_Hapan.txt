@@ -1,0 +1,845 @@
+﻿Hapan = {
+	randomized = no
+	ship_names = {
+		generic = {
+			HAPAN_SHIP_consort HAPAN_SHIP_paladin HAPAN_SHIP_halberd HAPAN_SHIP_chalice HAPAN_SHIP_vow_eternal HAPAN_SHIP_gorget HAPAN_SHIP_pauldron HAPAN_SHIP_glory HAPAN_SHIP_bannerlady HAPAN_SHIP_indenturer HAPAN_SHIP_abbess HAPAN_SHIP_bannersworn HAPAN_SHIP_claymore HAPAN_SHIP_lancer HAPAN_SHIP_yeowoman HAPAN_SHIP_armswoman HAPAN_SHIP_shield_maiden HAPAN_SHIP_in_her_majesty_s_service HAPAN_SHIP_virtuous HAPAN_SHIP_cannonness HAPAN_SHIP_trumpeter HAPAN_SHIP_fencer HAPAN_SHIP_champion HAPAN_SHIP_queen_mother_s_revenge HAPAN_SHIP_isoldant HAPAN_SHIP_mistrunner HAPAN_SHIP_huntress HAPAN_SHIP_gallant HAPAN_SHIP_courser HAPAN_SHIP_stallion HAPAN_SHIP_crusader HAPAN_SHIP_righteous HAPAN_SHIP_knight_errant HAPAN_SHIP_windfavored HAPAN_SHIP_windfinder HAPAN_SHIP_navigator HAPAN_SHIP_stalwart HAPAN_SHIP_steadfast HAPAN_SHIP_implacable HAPAN_SHIP_paragon HAPAN_SHIP_lady_in_waiting HAPAN_SHIP_paramour HAPAN_SHIP_queensman HAPAN_SHIP_retainer HAPAN_SHIP_charger HAPAN_SHIP_liegeman HAPAN_SHIP_maiden HAPAN_SHIP_amazon HAPAN_SHIP_valkyrie HAPAN_SHIP_leal_duty HAPAN_SHIP_baroness HAPAN_SHIP_our_blessed_lady_of_kavan HAPAN_SHIP_resplendant HAPAN_SHIP_commandment HAPAN_SHIP_eternal_reign HAPAN_SHIP_clarion HAPAN_SHIP_wellfarer HAPAN_SHIP_savior HAPAN_SHIP_armitage HAPAN_SHIP_seeker HAPAN_SHIP_ereneda HAPAN_SHIP_squire HAPAN_SHIP_herald HAPAN_SHIP_magnamity HAPAN_SHIP_fogcutter HAPAN_SHIP_gloom_watcher HAPAN_SHIP_warden HAPAN_SHIP_footman HAPAN_SHIP_triumphant HAPAN_SHIP_cavalier HAPAN_SHIP_hussar HAPAN_SHIP_thunderer HAPAN_SHIP_bright_lance HAPAN_SHIP_shield_of_cheruba HAPAN_SHIP_daughter_of_lorell HAPAN_SHIP_terror_of_terephon HAPAN_SHIP_beneficent HAPAN_SHIP_magnanimous HAPAN_SHIP_heir_of_command HAPAN_SHIP_princess HAPAN_SHIP_duchess HAPAN_SHIP_monarch HAPAN_SHIP_aristocrat HAPAN_SHIP_tsarina HAPAN_SHIP_poleaxe HAPAN_SHIP_castellan HAPAN_SHIP_limitless HAPAN_SHIP_paraphet HAPAN_SHIP_unto_the_rampart HAPAN_SHIP_full_tilt HAPAN_SHIP_equerry HAPAN_SHIP_praetorian HAPAN_SHIP_fidelity HAPAN_SHIP_allegiant HAPAN_SHIP_obedient HAPAN_SHIP_jouster HAPAN_SHIP_white_knight HAPAN_SHIP_rainbow_chevalier HAPAN_SHIP_equestrian HAPAN_SHIP_sister_trung HAPAN_SHIP_allaya HAPAN_SHIP_kalenfire HAPAN_SHIP_chume HAPAN_SHIP_song_of_war HAPAN_SHIP_daphoros HAPAN_SHIP_deserving_gem HAPAN_SHIP_dragon_queen HAPAN_SHIP_jeweled_delight HAPAN_SHIP_kendall HAPAN_SHIP_loyal_dragon HAPAN_SHIP_lucky_dragon HAPAN_SHIP_lady_worby HAPAN_SHIP_rock_drake HAPAN_SHIP_star_home HAPAN_SHIP_starsprite HAPAN_SHIP_thunder_wraith HAPAN_SHIP_alophon HAPAN_SHIP_remela HAPAN_SHIP_beknighted HAPAN_SHIP_relic HAPAN_SHIP_invincible HAPAN_SHIP_sea_drake HAPAN_SHIP_talon HAPAN_SHIP_scaleheart HAPAN_SHIP_dragoness HAPAN_SHIP_faithful HAPAN_SHIP_gale_serpent HAPAN_SHIP_gatekeeper HAPAN_SHIP_maiden_blade HAPAN_SHIP_royal_oak HAPAN_SHIP_warspite HAPAN_SHIP_vampire HAPAN_SHIP_indefatigable HAPAN_SHIP_intrepid HAPAN_SHIP_valiant HAPAN_SHIP_defiant HAPAN_SHIP_vanguard HAPAN_SHIP_ark_royal HAPAN_SHIP_battleaxe HAPAN_SHIP_venerable HAPAN_SHIP_majestic HAPAN_SHIP_leviathan HAPAN_SHIP_magnificent HAPAN_SHIP_audacious HAPAN_SHIP_duke_of_cheruba HAPAN_SHIP_prince_of_lorelli HAPAN_SHIP_hotspur HAPAN_SHIP_royal_soverign HAPAN_SHIP_resolution HAPAN_SHIP_repulse HAPAN_SHIP_centurion HAPAN_SHIP_princess_calfa HAPAN_SHIP_victorious HAPAN_SHIP_formidable HAPAN_SHIP_bulwark HAPAN_SHIP_commonwealth HAPAN_SHIP_swiftsure HAPAN_SHIP_triumph HAPAN_SHIP_lord_gallinore HAPAN_SHIP_superb HAPAN_SHIP_temerity HAPAN_SHIP_our_lady_of_baldavia HAPAN_SHIP_royal_remit HAPAN_SHIP_iron_duchess HAPAN_SHIP_valorous HAPAN_SHIP_princess_royal HAPAN_SHIP_repulsor HAPAN_SHIP_renown HAPAN_SHIP_courageous HAPAN_SHIP_glorious HAPAN_SHIP_furious HAPAN_SHIP_black_prince HAPAN_SHIP_triumph HAPAN_SHIP_superb HAPAN_SHIP_scorpiox HAPAN_SHIP_heror HAPAN_SHIP_monitor HAPAN_SHIP_silverine HAPAN_SHIP_katahdin HAPAN_SHIP_polybellum HAPAN_SHIP_surprise HAPAN_SHIP_witch_of_rynmar HAPAN_SHIP_dauntless HAPAN_SHIP_endeavour HAPAN_SHIP_providence HAPAN_SHIP_void_ranger HAPAN_SHIP_gladiator HAPAN_SHIP_vagabond HAPAN_SHIP_warlock HAPAN_SHIP_viperous HAPAN_SHIP_null_tiger HAPAN_SHIP_makepeace HAPAN_SHIP_daring HAPAN_SHIP_peremptory HAPAN_SHIP_absolution HAPAN_SHIP_advocator HAPAN_SHIP_campaigner HAPAN_SHIP_upholder HAPAN_SHIP_preeminent HAPAN_SHIP_accolade HAPAN_SHIP_eminence HAPAN_SHIP_exultant HAPAN_SHIP_hapan_delight HAPAN_SHIP_grandeur HAPAN_SHIP_radiant HAPAN_SHIP_brilliance
+		}
+		swp_bellator = {
+			HAPAN_SHIP_iron_duchess HAPAN_SHIP_ark_royal HAPAN_SHIP_black_prince HAPAN_SHIP_song_of_war HAPAN_SHIP_dragon_queen HAPAN_SHIP_queen_mother_s_revenge HAPAN_SHIP_our_blessed_lady_of_kavan
+		}
+		science = {
+			HAPAN_SHIP_mist_taken HAPAN_SHIP_stormcloud HAPAN_SHIP_fogdriver HAPAN_SHIP_hazebreaker HAPAN_SHIP_fogcutter HAPAN_SHIP_murkpiercer HAPAN_SHIP_gloomsnapper HAPAN_SHIP_hapan_nova HAPAN_SHIP_challenger HAPAN_SHIP_zarbatross HAPAN_SHIP_endeavour HAPAN_SHIP_planetoid HAPAN_SHIP_northern_star HAPAN_SHIP_untiring HAPAN_SHIP_zenith HAPAN_SHIP_gentlewoman HAPAN_SHIP_cottage HAPAN_SHIP_seabreeze HAPAN_SHIP_squall HAPAN_SHIP_tempest HAPAN_SHIP_typhoon HAPAN_SHIP_cyclone HAPAN_SHIP_brief_gale HAPAN_SHIP_windgust HAPAN_SHIP_breezefinder HAPAN_SHIP_hurricane HAPAN_SHIP_solarstorm
+		}
+		colonizer = {
+			HAPAN_SHIP_queen_s_blessing HAPAN_SHIP_queen_s_man HAPAN_SHIP_royal_destiny HAPAN_SHIP_silver_swan HAPAN_SHIP_western_driver HAPAN_SHIP_novastar HAPAN_SHIP_corsair_spirit HAPAN_SHIP_stranded_goose HAPAN_SHIP_blue_rose HAPAN_SHIP_dancing_dragon HAPAN_SHIP_evening_star HAPAN_SHIP_crown_s_grace HAPAN_SHIP_golden_future HAPAN_SHIP_good_queen HAPAN_SHIP_duster HAPAN_SHIP_wind_s_favor HAPAN_SHIP_tipsy_drake HAPAN_SHIP_twice_removed HAPAN_SHIP_progeny HAPAN_SHIP_prodigal_daughter HAPAN_SHIP_consort_of_courage HAPAN_SHIP_wayland HAPAN_SHIP_shining_city HAPAN_SHIP_plum_blossom HAPAN_SHIP_white_ring HAPAN_SHIP_wayfarer HAPAN_SHIP_osran_gar HAPAN_SHIP_sisterhood
+		}
+		sponsored_colonizer = {
+			HAPAN_SHIP_queen_s_blessing HAPAN_SHIP_queen_s_man HAPAN_SHIP_royal_destiny HAPAN_SHIP_silver_swan HAPAN_SHIP_western_driver HAPAN_SHIP_novastar HAPAN_SHIP_corsair_spirit HAPAN_SHIP_stranded_goose HAPAN_SHIP_blue_rose HAPAN_SHIP_dancing_dragon HAPAN_SHIP_evening_star HAPAN_SHIP_crown_s_grace HAPAN_SHIP_golden_future HAPAN_SHIP_good_queen HAPAN_SHIP_duster HAPAN_SHIP_wind_s_favor HAPAN_SHIP_tipsy_drake HAPAN_SHIP_twice_removed HAPAN_SHIP_progeny HAPAN_SHIP_prodigal_daughter HAPAN_SHIP_consort_of_courage HAPAN_SHIP_wayland HAPAN_SHIP_shining_city HAPAN_SHIP_plum_blossom HAPAN_SHIP_white_ring HAPAN_SHIP_wayfarer HAPAN_SHIP_osran_gar HAPAN_SHIP_sisterhood
+		}
+		constructor = {
+			HAPAN_SHIP_royal_architect HAPAN_SHIP_steelmason HAPAN_SHIP_studious HAPAN_SHIP_dutiful HAPAN_SHIP_requisite HAPAN_SHIP_craftsman HAPAN_SHIP_guildmaster HAPAN_SHIP_mistress_queen HAPAN_SHIP_engineer HAPAN_SHIP_tradeswoman HAPAN_SHIP_artisan HAPAN_SHIP_stellarwright HAPAN_SHIP_voidsmith HAPAN_SHIP_voidmaker HAPAN_SHIP_developer HAPAN_SHIP_starbuilder HAPAN_SHIP_journeywoman HAPAN_SHIP_overseer HAPAN_SHIP_forewoman HAPAN_SHIP_charterer HAPAN_SHIP_architect HAPAN_SHIP_accommodator
+		}
+		transport = {
+			HAPAN_SHIP_royal_dropship
+		}
+		military_station_golan1 = {
+			HAPAN_SHIP_spacegun_victory HAPAN_SHIP_spacegun_success HAPAN_SHIP_spacegun_supremacy HAPAN_SHIP_spacegun_superior HAPAN_SHIP_spacegun_adventure HAPAN_SHIP_spacegun_ascendancy HAPAN_SHIP_spacegun_paramount HAPAN_SHIP_spacegun_preponderous HAPAN_SHIP_spacegun_exemplary HAPAN_SHIP_spacegun_eximious HAPAN_SHIP_spacegun_pertinacity HAPAN_SHIP_spacegun_acclaim HAPAN_SHIP_spacegun_honor HAPAN_SHIP_spacegun_renown HAPAN_SHIP_spacegun_glory HAPAN_SHIP_spacegun_superb HAPAN_SHIP_spacegun_magnificence HAPAN_SHIP_spacegun_majestic HAPAN_SHIP_spacegun_splendor HAPAN_SHIP_spacegun_paradigm HAPAN_SHIP_spacegun_flawless HAPAN_SHIP_spacegun_consummate HAPAN_SHIP_spacegun_merit HAPAN_SHIP_spacegun_perfection HAPAN_SHIP_spacegun_virtue HAPAN_SHIP_spacegun_advantage HAPAN_SHIP_spacegun_rectitude HAPAN_SHIP_spacegun_incorruptible HAPAN_SHIP_spacegun_integrity HAPAN_SHIP_spacegun_justice HAPAN_SHIP_spacegun_probity HAPAN_SHIP_spacegun_prudence HAPAN_SHIP_spacegun_purity HAPAN_SHIP_spacegun_resolute HAPAN_SHIP_spacegun_dignity HAPAN_SHIP_spacegun_distinction HAPAN_SHIP_spacegun_excellence HAPAN_SHIP_spacegun_faithful HAPAN_SHIP_spacegun_discipline HAPAN_SHIP_spacegun_steadfast HAPAN_SHIP_spacegun_recompense HAPAN_SHIP_spacegun_requiem HAPAN_SHIP_spacegun_courage HAPAN_SHIP_spacegun_valor HAPAN_SHIP_spacegun_gallant HAPAN_SHIP_spacegun_daring HAPAN_SHIP_spacegun_constancy HAPAN_SHIP_spacegun_perseverence HAPAN_SHIP_spacegun_tenacity HAPAN_SHIP_spacegun_sedulity HAPAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			HAPAN_SHIP_spacegun_victory HAPAN_SHIP_spacegun_success HAPAN_SHIP_spacegun_supremacy HAPAN_SHIP_spacegun_superior HAPAN_SHIP_spacegun_adventure HAPAN_SHIP_spacegun_ascendancy HAPAN_SHIP_spacegun_paramount HAPAN_SHIP_spacegun_preponderous HAPAN_SHIP_spacegun_exemplary HAPAN_SHIP_spacegun_eximious HAPAN_SHIP_spacegun_pertinacity HAPAN_SHIP_spacegun_acclaim HAPAN_SHIP_spacegun_honor HAPAN_SHIP_spacegun_renown HAPAN_SHIP_spacegun_glory HAPAN_SHIP_spacegun_superb HAPAN_SHIP_spacegun_magnificence HAPAN_SHIP_spacegun_majestic HAPAN_SHIP_spacegun_splendor HAPAN_SHIP_spacegun_paradigm HAPAN_SHIP_spacegun_flawless HAPAN_SHIP_spacegun_consummate HAPAN_SHIP_spacegun_merit HAPAN_SHIP_spacegun_perfection HAPAN_SHIP_spacegun_virtue HAPAN_SHIP_spacegun_advantage HAPAN_SHIP_spacegun_rectitude HAPAN_SHIP_spacegun_incorruptible HAPAN_SHIP_spacegun_integrity HAPAN_SHIP_spacegun_justice HAPAN_SHIP_spacegun_probity HAPAN_SHIP_spacegun_prudence HAPAN_SHIP_spacegun_purity HAPAN_SHIP_spacegun_resolute HAPAN_SHIP_spacegun_dignity HAPAN_SHIP_spacegun_distinction HAPAN_SHIP_spacegun_excellence HAPAN_SHIP_spacegun_faithful HAPAN_SHIP_spacegun_discipline HAPAN_SHIP_spacegun_steadfast HAPAN_SHIP_spacegun_recompense HAPAN_SHIP_spacegun_requiem HAPAN_SHIP_spacegun_courage HAPAN_SHIP_spacegun_valor HAPAN_SHIP_spacegun_gallant HAPAN_SHIP_spacegun_daring HAPAN_SHIP_spacegun_constancy HAPAN_SHIP_spacegun_perseverence HAPAN_SHIP_spacegun_tenacity HAPAN_SHIP_spacegun_sedulity HAPAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			HAPAN_SHIP_spacegun_victory HAPAN_SHIP_spacegun_success HAPAN_SHIP_spacegun_supremacy HAPAN_SHIP_spacegun_superior HAPAN_SHIP_spacegun_adventure HAPAN_SHIP_spacegun_ascendancy HAPAN_SHIP_spacegun_paramount HAPAN_SHIP_spacegun_preponderous HAPAN_SHIP_spacegun_exemplary HAPAN_SHIP_spacegun_eximious HAPAN_SHIP_spacegun_pertinacity HAPAN_SHIP_spacegun_acclaim HAPAN_SHIP_spacegun_honor HAPAN_SHIP_spacegun_renown HAPAN_SHIP_spacegun_glory HAPAN_SHIP_spacegun_superb HAPAN_SHIP_spacegun_magnificence HAPAN_SHIP_spacegun_majestic HAPAN_SHIP_spacegun_splendor HAPAN_SHIP_spacegun_paradigm HAPAN_SHIP_spacegun_flawless HAPAN_SHIP_spacegun_consummate HAPAN_SHIP_spacegun_merit HAPAN_SHIP_spacegun_perfection HAPAN_SHIP_spacegun_virtue HAPAN_SHIP_spacegun_advantage HAPAN_SHIP_spacegun_rectitude HAPAN_SHIP_spacegun_incorruptible HAPAN_SHIP_spacegun_integrity HAPAN_SHIP_spacegun_justice HAPAN_SHIP_spacegun_probity HAPAN_SHIP_spacegun_prudence HAPAN_SHIP_spacegun_purity HAPAN_SHIP_spacegun_resolute HAPAN_SHIP_spacegun_dignity HAPAN_SHIP_spacegun_distinction HAPAN_SHIP_spacegun_excellence HAPAN_SHIP_spacegun_faithful HAPAN_SHIP_spacegun_discipline HAPAN_SHIP_spacegun_steadfast HAPAN_SHIP_spacegun_recompense HAPAN_SHIP_spacegun_requiem HAPAN_SHIP_spacegun_courage HAPAN_SHIP_spacegun_valor HAPAN_SHIP_spacegun_gallant HAPAN_SHIP_spacegun_daring HAPAN_SHIP_spacegun_constancy HAPAN_SHIP_spacegun_perseverence HAPAN_SHIP_spacegun_tenacity HAPAN_SHIP_spacegun_sedulity HAPAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			HAPAN_SHIP_sargon HAPAN_SHIP_modus HAPAN_SHIP_vergill HAPAN_SHIP_maires HAPAN_SHIP_lovola HAPAN_SHIP_ket HAPAN_SHIP_daruvvia HAPAN_SHIP_lorell_yards HAPAN_SHIP_divora HAPAN_SHIP_jodaka HAPAN_SHIP_stalisinek HAPAN_SHIP_nantuker HAPAN_SHIP_k_farri HAPAN_SHIP_calfa HAPAN_SHIP_dreena HAPAN_SHIP_reboam HAPAN_SHIP_shedu_watch HAPAN_SHIP_roqoo HAPAN_SHIP_terephon HAPAN_SHIP_zalori HAPAN_SHIP_rainboh HAPAN_SHIP_rynmar HAPAN_SHIP_orelon HAPAN_SHIP_febrini HAPAN_SHIP_zadaria HAPAN_SHIP_phelope HAPAN_SHIP_ediorun HAPAN_SHIP_tumani HAPAN_SHIP_tinta HAPAN_SHIP_rbollea HAPAN_SHIP_carlania HAPAN_SHIP_arabanth HAPAN_SHIP_ult HAPAN_SHIP_hartera HAPAN_SHIP_lemmi HAPAN_SHIP_thrakia HAPAN_SHIP_lovaria HAPAN_SHIP_selab HAPAN_SHIP_archais HAPAN_SHIP_lalym_ash HAPAN_SHIP_milinar HAPAN_SHIP_theselon HAPAN_SHIP_baldavia HAPAN_SHIP_gallin_s_seat HAPAN_SHIP_novi HAPAN_SHIP_fanica HAPAN_SHIP_sivoria HAPAN_SHIP_talcharaim
+		}
+		ion_cannon = {
+			HAPAN_SHIP_bombard HAPAN_SHIP_ballista HAPAN_SHIP_catapult HAPAN_SHIP_harpoon HAPAN_SHIP_polybolos HAPAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			HAPAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			HAPAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			HAPAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			HAPAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			HAPAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			HAPAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			HAPAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			HAPAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			HAPAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			HAPAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			HAPAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			HAPAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			HAPAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			HAPAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			HAPAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			HAPAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			HAPAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			HAPAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			HAPAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			HAPAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			HAPAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			HAPAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			HAPAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			HAPAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			HAPAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			HAPAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			HAPAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			HAPAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			HAPAN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			HAPAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			HAPAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			HAPAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			HAPAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			HAPAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			HAPAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			HAPAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			HAPAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			HAPAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			HAPAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			HAPAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			HAPAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			HAPAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			HAPAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			HAPAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			HAPAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			HAPAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			HAPAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			HAPAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			HAPAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			HAPAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			HAPAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			HAPAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			HAPAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			HAPAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			HAPAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			HAPAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			HAPAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			HAPAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			HAPAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			HAPAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			HAPAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			HAPAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			HAPAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			HAPAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			HAPAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			HAPAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			HAPAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			HAPAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			HAPAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			HAPAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			HAPAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			HAPAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			HAPAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			HAPAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			HAPAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			HAPAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			HAPAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			HAPAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			HAPAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			HAPAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			HAPAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			HAPAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			HAPAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			HAPAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			HAPAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			HAPAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			HAPAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			HAPAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			HAPAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			HAPAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			HAPAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			HAPAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			HAPAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			HAPAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = HAPAN_FLEET_royal_navy_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = HAPAN_ARMY_royal_guard_ORD
+		}
+		assault_army = {
+			sequential_name = HAPAN_ARMY_voidstream_grenadiers_ORD
+		}
+		slave_army = {
+			sequential_name = HAPAN_ARMY_queen_s_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = HAPAN_ARMY_clone_rifles_ORD
+		}
+		robotic_army = {
+			sequential_name = HAPAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = HAPAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = HAPAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = HAPAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				HAPAN_ARMY_sarc_a__gladiators_ HAPAN_ARMY_sarc_b__widowmakers_ HAPAN_ARMY_sarc_c__immortals_ HAPAN_ARMY_sarc_d__berserkers_ HAPAN_ARMY_sarc_e__assassins_ HAPAN_ARMY_sarc_f__reapers_ HAPAN_ARMY_sarc_g__nighthawks_ HAPAN_ARMY_sarc_h__desperados_ HAPAN_ARMY_sarc_i__grey_knights_ HAPAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = HAPAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = HAPAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = HAPAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = HAPAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = HAPAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = HAPAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = HAPAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = HAPAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = HAPAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = HAPAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = HAPAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = HAPAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = HAPAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = HAPAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = HAPAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = HAPAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = HAPAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = HAPAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = HAPAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = HAPAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = HAPAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = HAPAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = HAPAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = HAPAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = HAPAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = HAPAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = HAPAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = HAPAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = HAPAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = HAPAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = HAPAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = HAPAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = HAPAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = HAPAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = HAPAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = HAPAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = HAPAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = HAPAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = HAPAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = HAPAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = HAPAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = HAPAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = HAPAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = HAPAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = HAPAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = HAPAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = HAPAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = HAPAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = HAPAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = HAPAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = HAPAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = HAPAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = HAPAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = HAPAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = HAPAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = HAPAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = HAPAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = HAPAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = HAPAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = HAPAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = HAPAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = HAPAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = HAPAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = HAPAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = HAPAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = HAPAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = HAPAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = HAPAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = HAPAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = HAPAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = HAPAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = HAPAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = HAPAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = HAPAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = HAPAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = HAPAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = HAPAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = HAPAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = HAPAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = HAPAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = HAPAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = HAPAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = HAPAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = HAPAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = HAPAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = HAPAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = HAPAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = HAPAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = HAPAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = HAPAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = HAPAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = HAPAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = HAPAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = HAPAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = HAPAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = HAPAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = HAPAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = HAPAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = HAPAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = HAPAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = HAPAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = HAPAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = HAPAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = HAPAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = HAPAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = HAPAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = HAPAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = HAPAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = HAPAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = HAPAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = HAPAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = HAPAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = HAPAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = HAPAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = HAPAN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = HAPAN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = HAPAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = HAPAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = HAPAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = HAPAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = HAPAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = HAPAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = HAPAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = HAPAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = HAPAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = HAPAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = HAPAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = HAPAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = HAPAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = HAPAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = HAPAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = HAPAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = HAPAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			weight = 40
+			first_names_male = {
+				HAPAN_CHR_prince_brok HAPAN_CHR_lord_isolder HAPAN_CHR_baron_benwick HAPAN_CHR_duke_vonce HAPAN_CHR_prince_droekle HAPAN_CHR_lord_mirana HAPAN_CHR_baron_trisdin HAPAN_CHR_duke_aleson HAPAN_CHR_prince_kalen HAPAN_CHR_lord_harravan HAPAN_CHR_baron_sinsor HAPAN_CHR_duke_livette HAPAN_CHR_prince_lol HAPAN_CHR_lord_seth HAPAN_CHR_baron_beed HAPAN_CHR_duke_ubris HAPAN_CHR_prince_vivil HAPAN_CHR_lord_haemon HAPAN_CHR_baron_bryn HAPAN_CHR_prince_gaereth HAPAN_CHR_lord_bandor HAPAN_CHR_baron_banley HAPAN_CHR_duke_cardacs HAPAN_CHR_prince_cerik HAPAN_CHR_lord_cristov HAPAN_CHR_baron_coris HAPAN_CHR_duke_falk HAPAN_CHR_prince_daek HAPAN_CHR_lord_devdera HAPAN_CHR_baron_omatrev HAPAN_CHR_duke_jamidan HAPAN_CHR_prince_sagzac HAPAN_CHR_lord_jartok HAPAN_CHR_baron_roncarl HAPAN_CHR_duke_huschar HAPAN_CHR_prince_guyger HAPAN_CHR_lord_maxjar HAPAN_CHR_baron_irel HAPAN_CHR_duke_leotyol HAPAN_CHR_prince_tyrol HAPAN_CHR_lord_coltrev HAPAN_CHR_baron_robenn HAPAN_CHR_prince_mattrim HAPAN_CHR_lord_matton HAPAN_CHR_baron_lan HAPAN_CHR_duke_nigel HAPAN_CHR_prince_tyrevan HAPAN_CHR_lord_garrity HAPAN_CHR_baron_bryke HAPAN_CHR_duke_osgriff HAPAN_CHR_prince_kriswill HAPAN_CHR_lord_perrin HAPAN_CHR_baron_rand HAPAN_CHR_duke_tamlin HAPAN_CHR_prince_gallad HAPAN_CHR_lord_demandred HAPAN_CHR_baron_tigraine HAPAN_CHR_duke_taringail HAPAN_CHR_prince_gawyn HAPAN_CHR_lord_henre HAPAN_CHR_baron_eamon HAPAN_CHR_duke_alwyn HAPAN_CHR_prince_rodel HAPAN_CHR_lord_pedron HAPAN_CHR_baron_dain HAPAN_CHR_prince_byar HAPAN_CHR_lord_tham HAPAN_CHR_baron_abel HAPAN_CHR_duke_allin HAPAN_CHR_prince_valbert HAPAN_CHR_lord_eazil HAPAN_CHR_baron_avin HAPAN_CHR_duke_ewin
+			}
+			first_names_female = {
+				HAPAN_CHR_ducha_allana HAPAN_CHR_duch_da_alyssia HAPAN_CHR_countess_astarta HAPAN_CHR_lady_beyele HAPAN_CHR_baroness_chelik HAPAN_CHR_duchess_beyele HAPAN_CHR_ducha_moreem HAPAN_CHR_lady_chell HAPAN_CHR_countess_yliri HAPAN_CHR_lady_elliar HAPAN_CHR_baroness_ithila HAPAN_CHR_viscountess_hesha HAPAN_CHR_ducha_meala HAPAN_CHR_duch_da_lalu HAPAN_CHR_countess_roh HAPAN_CHR_lady_secciah HAPAN_CHR_baroness_skela HAPAN_CHR_viscountess_tika HAPAN_CHR_lady_ta_a HAPAN_CHR_duch_da_taryn HAPAN_CHR_duch_da_trista HAPAN_CHR_ducha_nyana HAPAN_CHR_duch_da_nisain HAPAN_CHR_countess_afara HAPAN_CHR_lady_lelaine HAPAN_CHR_baroness_teire HAPAN_CHR_duchess_desandre HAPAN_CHR_ducha_meilwyn HAPAN_CHR_duch_da_ashmanali HAPAN_CHR_countess_ballair HAPAN_CHR_lady_jala HAPAN_CHR_baroness_gelarna HAPAN_CHR_viscountess_zenaira HAPAN_CHR_ducha_janya HAPAN_CHR_duch_da_tarna HAPAN_CHR_countess_andaya HAPAN_CHR_lady_careane HAPAN_CHR_baroness_valera HAPAN_CHR_viscountess_liandra HAPAN_CHR_ducha_rina HAPAN_CHR_duch_da_escarla HAPAN_CHR_duch_da_faeldra HAPAN_CHR_ducha_bera HAPAN_CHR_duch_da_eldrith HAPAN_CHR_countess_tessia HAPAN_CHR_lady_marasa HAPAN_CHR_baroness_vayelle HAPAN_CHR_duchess_moria HAPAN_CHR_ducha_gerra HAPAN_CHR_duch_da_lairain HAPAN_CHR_countess_serenia HAPAN_CHR_lady_theondrimetta HAPAN_CHR_baroness_sedora HAPAN_CHR_viscountess_myriam HAPAN_CHR_ducha_danella HAPAN_CHR_duch_da_ajala HAPAN_CHR_countess_velaine HAPAN_CHR_lady_sheria HAPAN_CHR_baroness_erian HAPAN_CHR_viscountess_silviana HAPAN_CHR_ducha_brenva HAPAN_CHR_duch_da_mitsora HAPAN_CHR_duch_da_anaya HAPAN_CHR_duchess_zomanda HAPAN_CHR_lady_rafela HAPAN_CHR_countess_nirelle HAPAN_CHR_lady_copan HAPAN_CHR_baroness_mindretta HAPAN_CHR_duchess_kat HAPAN_CHR_ducha_morerain HAPAN_CHR_duch_da_nyaneva HAPAN_CHR_countess_kailista HAPAN_CHR_lady_juliox
+			}
+			second_names = {
+				HAPAN_CHR_algray HAPAN_CHR_aros HAPAN_CHR_espara HAPAN_CHR_consta HAPAN_CHR_fioro HAPAN_CHR_galney HAPAN_CHR_gheer HAPAN_CHR_gray HAPAN_CHR_khal HAPAN_CHR_lovett HAPAN_CHR_luvalle HAPAN_CHR_maluri HAPAN_CHR_miilarta HAPAN_CHR_morwan HAPAN_CHR_requud HAPAN_CHR_thane HAPAN_CHR_zel HAPAN_CHR_charubah HAPAN_CHR_firecam HAPAN_CHR_kadrim HAPAN_CHR_locke
+			}
+			regnal_first_names_male = {
+				HAPAN_CHR_kam HAPAN_CHR_erek HAPAN_CHR_arslan HAPAN_CHR_lerak HAPAN_CHR_morla HAPAN_CHR_mas HAPAN_CHR_wain HAPAN_CHR_bail HAPAN_CHR_gabrial HAPAN_CHR_dewell HAPAN_CHR_tanner HAPAN_CHR_vi HAPAN_CHR_rush HAPAN_CHR_danry
+			}
+			regnal_first_names_female = {
+				HAPAN_CHR_callista HAPAN_CHR_mara HAPAN_CHR_seena HAPAN_CHR_areta HAPAN_CHR_padm_ HAPAN_CHR_fema HAPAN_CHR_mina HAPAN_CHR_bana HAPAN_CHR_tyreca HAPAN_CHR_halle HAPAN_CHR_lexi HAPAN_CHR_leia HAPAN_CHR_alyssa HAPAN_CHR_leanna HAPAN_CHR_arya
+			}
+			regnal_second_names = {
+				HAPAN_CHR_algray HAPAN_CHR_galney HAPAN_CHR_drakarian HAPAN_CHR_requud HAPAN_CHR_djo
+			}
+		}
+	}
+}

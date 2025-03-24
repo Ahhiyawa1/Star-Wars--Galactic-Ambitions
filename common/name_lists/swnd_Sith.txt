@@ -1,0 +1,869 @@
+﻿Sith = {
+	randomized = no
+	ship_names = {
+		generic = {
+			SITH_SHIP_red_engine SITH_SHIP_shyrak SITH_SHIP_tukata SITH_SHIP_vix_tra SITH_SHIP_zash SITH_SHIP_hereditary SITH_SHIP_inquisitor SITH_SHIP_juggernaut SITH_SHIP_assassin SITH_SHIP_caltrop SITH_SHIP_reaver SITH_SHIP_reaper SITH_SHIP_blood_eagle SITH_SHIP_lord_of_hate SITH_SHIP_khem_val SITH_SHIP_gathering_dark SITH_SHIP_veshikk SITH_SHIP_aloysius SITH_SHIP_thanaton SITH_SHIP_ludo_kressh SITH_SHIP_horak_mul SITH_SHIP_dor_galran SITH_SHIP_supremacy SITH_SHIP_conflagration SITH_SHIP_enchantress SITH_SHIP_sarcophagus SITH_SHIP_occultant SITH_SHIP_immolator SITH_SHIP_pestilence SITH_SHIP_pureblood SITH_SHIP_purifier SITH_SHIP_defiler SITH_SHIP_mortis SITH_SHIP_leper SITH_SHIP_first_heretic SITH_SHIP_apotheisis SITH_SHIP_neophyte SITH_SHIP_hexid SITH_SHIP_kancras SITH_SHIP_mellichae SITH_SHIP_shadow SITH_SHIP_raxxus SITH_SHIP_simi SITH_SHIP_val SITH_SHIP_plagueis SITH_SHIP_gen_dai_reward SITH_SHIP_eradicator SITH_SHIP_lokess SITH_SHIP_nathema SITH_SHIP_ovair SITH_SHIP_baras SITH_SHIP_ziroxin SITH_SHIP_ambria_s_fury SITH_SHIP_ascendant_spear SITH_SHIP_black_talon SITH_SHIP_carnage SITH_SHIP_darkness SITH_SHIP_deference SITH_SHIP_dominator SITH_SHIP_doombringer SITH_SHIP_harrower SITH_SHIP_dread_master SITH_SHIP_dromo SITH_SHIP_eclipse SITH_SHIP_enforcer SITH_SHIP_euphony SITH_SHIP_exemplar SITH_SHIP_extempus SITH_SHIP_fatality SITH_SHIP_firelance SITH_SHIP_fortress SITH_SHIP_fuliginous SITH_SHIP_immeren SITH_SHIP_indignation SITH_SHIP_javelin SITH_SHIP_khyphe SITH_SHIP_king_s_ransom SITH_SHIP_lindworm SITH_SHIP_malgus SITH_SHIP_marr SITH_SHIP_oppressor SITH_SHIP_overlord SITH_SHIP_terminus SITH_SHIP_paramount SITH_SHIP_red_reaper SITH_SHIP_red_shrike SITH_SHIP_regnant SITH_SHIP_scream_of_ragnos SITH_SHIP_steadfast SITH_SHIP_sting SITH_SHIP_storm_fire SITH_SHIP_tears_of_taris SITH_SHIP_tenebrous SITH_SHIP_tyrant SITH_SHIP_undying SITH_SHIP_valor SITH_SHIP_valor_prevails SITH_SHIP_vengean SITH_SHIP_vigilance SITH_SHIP_vivicar SITH_SHIP_voidstar SITH_SHIP_warhammer SITH_SHIP_white_nova SITH_SHIP_ziost_shadow SITH_SHIP_overseer SITH_SHIP_executioner SITH_SHIP_subjugator SITH_SHIP_atrius SITH_SHIP_desolus SITH_SHIP_attrius SITH_SHIP_andeddu SITH_SHIP_caldoth SITH_SHIP_nymbis SITH_SHIP_crassus SITH_SHIP_bane SITH_SHIP_malak SITH_SHIP_maul SITH_SHIP_nadd SITH_SHIP_nihilus SITH_SHIP_na_daz SITH_SHIP_sakia SITH_SHIP_zannah SITH_SHIP_broodica SITH_SHIP_cognus SITH_SHIP_gravid SITH_SHIP_vectivus SITH_SHIP_venamis SITH_SHIP_krall SITH_SHIP_noctyss SITH_SHIP_phobos SITH_SHIP_sanguis SITH_SHIP_vacuus SITH_SHIP_skyre SITH_SHIP_tanis SITH_SHIP_wrend SITH_SHIP_sion SITH_SHIP_bandon SITH_SHIP_glovoc SITH_SHIP_eradicus SITH_SHIP_daiman SITH_SHIP_xelian SITH_SHIP_odion SITH_SHIP_malakite SITH_SHIP_voren SITH_SHIP_acharon SITH_SHIP_achelon SITH_SHIP_acina SITH_SHIP_anathel SITH_SHIP_andru SITH_SHIP_angral SITH_SHIP_arctis SITH_SHIP_arho SITH_SHIP_arkous SITH_SHIP_arrid SITH_SHIP_aruk SITH_SHIP_atroph SITH_SHIP_atroxa SITH_SHIP_azamin SITH_SHIP_betton SITH_SHIP_caba SITH_SHIP_charnus SITH_SHIP_chratis SITH_SHIP_decimus SITH_SHIP_ekkage SITH_SHIP_drear SITH_SHIP_enraj SITH_SHIP_fastus SITH_SHIP_gorgos SITH_SHIP_hadra SITH_SHIP_igrol SITH_SHIP_ikoral SITH_SHIP_iratus SITH_SHIP_jadus SITH_SHIP_jaga SITH_SHIP_kallous SITH_SHIP_karrid SITH_SHIP_krovos SITH_SHIP_lachris SITH_SHIP_lokess SITH_SHIP_malora SITH_SHIP_mekhis SITH_SHIP_minax SITH_SHIP_mortis SITH_SHIP_nacheria SITH_SHIP_nurin SITH_SHIP_nostrem SITH_SHIP_nox SITH_SHIP_nyriss SITH_SHIP_ordrem SITH_SHIP_ouzal SITH_SHIP_qalar SITH_SHIP_perash SITH_SHIP_ravage SITH_SHIP_rictus SITH_SHIP_sajar SITH_SHIP_savik SITH_SHIP_scabrous SITH_SHIP_serevin SITH_SHIP_shaar SITH_SHIP_shattra SITH_SHIP_silthar SITH_SHIP_skotia SITH_SHIP_soverus SITH_SHIP_synar SITH_SHIP_synn SITH_SHIP_tormen SITH_SHIP_vax SITH_SHIP_venemal SITH_SHIP_vengean SITH_SHIP_vich SITH_SHIP_victun SITH_SHIP_viktus SITH_SHIP_vilus SITH_SHIP_vowrawn SITH_SHIP_xarion SITH_SHIP_xedrix SITH_SHIP_zash SITH_SHIP_zavakon SITH_SHIP_zhorrid SITH_SHIP_ruin SITH_SHIP_rivan SITH_SHIP_malus SITH_SHIP_tyranus SITH_SHIP_guile SITH_SHIP_vitus SITH_SHIP_karnage SITH_SHIP_simi SITH_SHIP_kaox_krul SITH_SHIP_kas_im SITH_SHIP_lator SITH_SHIP_qordis SITH_SHIP_kopecz SITH_SHIP_nightfall SITH_SHIP_nyras SITH_SHIP_valcyn SITH_SHIP_fury SITH_SHIP_rage SITH_SHIP_nightfall SITH_SHIP_eye_of_horak SITH_SHIP_dathka_graush SITH_SHIP_seed_of_rage SITH_SHIP_shadow_crown SITH_SHIP_sword_of_khashyun SITH_SHIP_muur SITH_SHIP_new_omen SITH_SHIP_yaru_korsin SITH_SHIP_varner_hilts SITH_SHIP_king_adas
+		}
+		swp_bellator = {
+			SITH_SHIP_keshtah SITH_SHIP_korriban SITH_SHIP_dromund SITH_SHIP_ziost SITH_SHIP_athiss SITH_SHIP_malachor SITH_SHIP_exegol SITH_SHIP_lehon SITH_SHIP_moraband
+		}
+		science = {
+			SITH_SHIP_vizier SITH_SHIP_alchemist SITH_SHIP_sorcerer SITH_SHIP_magi SITH_SHIP_prophet SITH_SHIP_emperor_s_hand SITH_SHIP_hand_of_the_empress SITH_SHIP_forbidden SITH_SHIP_craver SITH_SHIP_dark_art SITH_SHIP_night_sparrow SITH_SHIP_seeker SITH_SHIP_untiring SITH_SHIP_sable_engine SITH_SHIP_acolyte SITH_SHIP_neophyte SITH_SHIP_damnation
+		}
+		colonizer = {
+			SITH_SHIP_seed_of_rage SITH_SHIP_seed_of_anger SITH_SHIP_seed_of_hatred SITH_SHIP_seed_of_fear SITH_SHIP_seed_of_doubt SITH_SHIP_seed_of_power SITH_SHIP_seed_of_destiny SITH_SHIP_seed_of_fury SITH_SHIP_seed_of_odium SITH_SHIP_seed_of_acrimony SITH_SHIP_seed_of_frenzy SITH_SHIP_seed_of_woe
+		}
+		sponsored_colonizer = {
+			SITH_SHIP_seed_of_rage SITH_SHIP_seed_of_anger SITH_SHIP_seed_of_hatred SITH_SHIP_seed_of_fear SITH_SHIP_seed_of_doubt SITH_SHIP_seed_of_power SITH_SHIP_seed_of_destiny SITH_SHIP_seed_of_fury SITH_SHIP_seed_of_odium SITH_SHIP_seed_of_acrimony SITH_SHIP_seed_of_frenzy SITH_SHIP_seed_of_woe
+		}
+		constructor = {
+			SITH_SHIP_servant SITH_SHIP_servant_three SITH_SHIP_helot SITH_SHIP_subjugated SITH_SHIP_useful SITH_SHIP_alchemist SITH_SHIP_factorial SITH_SHIP_beast_within SITH_SHIP_slow_boil SITH_SHIP_eternal_service SITH_SHIP_attendant SITH_SHIP_steward SITH_SHIP_menial SITH_SHIP_auxiliary SITH_SHIP_keeper
+		}
+		transport = {
+			SITH_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			SITH_SHIP_spacegun_victory SITH_SHIP_spacegun_success SITH_SHIP_spacegun_supremacy SITH_SHIP_spacegun_superior SITH_SHIP_spacegun_adventure SITH_SHIP_spacegun_ascendancy SITH_SHIP_spacegun_paramount SITH_SHIP_spacegun_preponderous SITH_SHIP_spacegun_exemplary SITH_SHIP_spacegun_eximious SITH_SHIP_spacegun_pertinacity SITH_SHIP_spacegun_acclaim SITH_SHIP_spacegun_honor SITH_SHIP_spacegun_renown SITH_SHIP_spacegun_glory SITH_SHIP_spacegun_superb SITH_SHIP_spacegun_magnificence SITH_SHIP_spacegun_majestic SITH_SHIP_spacegun_splendor SITH_SHIP_spacegun_paradigm SITH_SHIP_spacegun_flawless SITH_SHIP_spacegun_consummate SITH_SHIP_spacegun_merit SITH_SHIP_spacegun_perfection SITH_SHIP_spacegun_virtue SITH_SHIP_spacegun_advantage SITH_SHIP_spacegun_rectitude SITH_SHIP_spacegun_incorruptible SITH_SHIP_spacegun_integrity SITH_SHIP_spacegun_justice SITH_SHIP_spacegun_probity SITH_SHIP_spacegun_prudence SITH_SHIP_spacegun_purity SITH_SHIP_spacegun_resolute SITH_SHIP_spacegun_dignity SITH_SHIP_spacegun_distinction SITH_SHIP_spacegun_excellence SITH_SHIP_spacegun_faithful SITH_SHIP_spacegun_discipline SITH_SHIP_spacegun_steadfast SITH_SHIP_spacegun_recompense SITH_SHIP_spacegun_requiem SITH_SHIP_spacegun_courage SITH_SHIP_spacegun_valor SITH_SHIP_spacegun_gallant SITH_SHIP_spacegun_daring SITH_SHIP_spacegun_constancy SITH_SHIP_spacegun_perseverence SITH_SHIP_spacegun_tenacity SITH_SHIP_spacegun_sedulity SITH_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			SITH_SHIP_spacegun_victory SITH_SHIP_spacegun_success SITH_SHIP_spacegun_supremacy SITH_SHIP_spacegun_superior SITH_SHIP_spacegun_adventure SITH_SHIP_spacegun_ascendancy SITH_SHIP_spacegun_paramount SITH_SHIP_spacegun_preponderous SITH_SHIP_spacegun_exemplary SITH_SHIP_spacegun_eximious SITH_SHIP_spacegun_pertinacity SITH_SHIP_spacegun_acclaim SITH_SHIP_spacegun_honor SITH_SHIP_spacegun_renown SITH_SHIP_spacegun_glory SITH_SHIP_spacegun_superb SITH_SHIP_spacegun_magnificence SITH_SHIP_spacegun_majestic SITH_SHIP_spacegun_splendor SITH_SHIP_spacegun_paradigm SITH_SHIP_spacegun_flawless SITH_SHIP_spacegun_consummate SITH_SHIP_spacegun_merit SITH_SHIP_spacegun_perfection SITH_SHIP_spacegun_virtue SITH_SHIP_spacegun_advantage SITH_SHIP_spacegun_rectitude SITH_SHIP_spacegun_incorruptible SITH_SHIP_spacegun_integrity SITH_SHIP_spacegun_justice SITH_SHIP_spacegun_probity SITH_SHIP_spacegun_prudence SITH_SHIP_spacegun_purity SITH_SHIP_spacegun_resolute SITH_SHIP_spacegun_dignity SITH_SHIP_spacegun_distinction SITH_SHIP_spacegun_excellence SITH_SHIP_spacegun_faithful SITH_SHIP_spacegun_discipline SITH_SHIP_spacegun_steadfast SITH_SHIP_spacegun_recompense SITH_SHIP_spacegun_requiem SITH_SHIP_spacegun_courage SITH_SHIP_spacegun_valor SITH_SHIP_spacegun_gallant SITH_SHIP_spacegun_daring SITH_SHIP_spacegun_constancy SITH_SHIP_spacegun_perseverence SITH_SHIP_spacegun_tenacity SITH_SHIP_spacegun_sedulity SITH_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			SITH_SHIP_spacegun_victory SITH_SHIP_spacegun_success SITH_SHIP_spacegun_supremacy SITH_SHIP_spacegun_superior SITH_SHIP_spacegun_adventure SITH_SHIP_spacegun_ascendancy SITH_SHIP_spacegun_paramount SITH_SHIP_spacegun_preponderous SITH_SHIP_spacegun_exemplary SITH_SHIP_spacegun_eximious SITH_SHIP_spacegun_pertinacity SITH_SHIP_spacegun_acclaim SITH_SHIP_spacegun_honor SITH_SHIP_spacegun_renown SITH_SHIP_spacegun_glory SITH_SHIP_spacegun_superb SITH_SHIP_spacegun_magnificence SITH_SHIP_spacegun_majestic SITH_SHIP_spacegun_splendor SITH_SHIP_spacegun_paradigm SITH_SHIP_spacegun_flawless SITH_SHIP_spacegun_consummate SITH_SHIP_spacegun_merit SITH_SHIP_spacegun_perfection SITH_SHIP_spacegun_virtue SITH_SHIP_spacegun_advantage SITH_SHIP_spacegun_rectitude SITH_SHIP_spacegun_incorruptible SITH_SHIP_spacegun_integrity SITH_SHIP_spacegun_justice SITH_SHIP_spacegun_probity SITH_SHIP_spacegun_prudence SITH_SHIP_spacegun_purity SITH_SHIP_spacegun_resolute SITH_SHIP_spacegun_dignity SITH_SHIP_spacegun_distinction SITH_SHIP_spacegun_excellence SITH_SHIP_spacegun_faithful SITH_SHIP_spacegun_discipline SITH_SHIP_spacegun_steadfast SITH_SHIP_spacegun_recompense SITH_SHIP_spacegun_requiem SITH_SHIP_spacegun_courage SITH_SHIP_spacegun_valor SITH_SHIP_spacegun_gallant SITH_SHIP_spacegun_daring SITH_SHIP_spacegun_constancy SITH_SHIP_spacegun_perseverence SITH_SHIP_spacegun_tenacity SITH_SHIP_spacegun_sedulity SITH_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			SITH_SHIP_ziost SITH_SHIP_korriban SITH_SHIP_vanahame SITH_SHIP_dromund_kaas SITH_SHIP_dxun SITH_SHIP_ashas_ree SITH_SHIP_athiss SITH_SHIP_begeren SITH_SHIP_bosthirda SITH_SHIP_ch_hodos SITH_SHIP_drezzi SITH_SHIP_droumnd_fels SITH_SHIP_dromund_ixin SITH_SHIP_dromund_tyne SITH_SHIP_dromund_kalakar SITH_SHIP_hallion SITH_SHIP_jaguada SITH_SHIP_kalakar SITH_SHIP_kalsunor SITH_SHIP_khar_delba SITH_SHIP_korriz SITH_SHIP_nfolgai SITH_SHIP_nicht_ka SITH_SHIP_rhelg SITH_SHIP_upekzar SITH_SHIP_abregado_rae SITH_SHIP_aefao SITH_SHIP_almania SITH_SHIP_almas SITH_SHIP_alpheridies SITH_SHIP_altarrn SITH_SHIP_alvorine SITH_SHIP_alzar SITH_SHIP_amarin SITH_SHIP_ambria SITH_SHIP_anantapar SITH_SHIP_anarak SITH_SHIP_anaxes SITH_SHIP_ando SITH_SHIP_byss SITH_SHIP_daalang SITH_SHIP_darkknell SITH_SHIP_dathomir SITH_SHIP_exegol SITH_SHIP_empress_teta SITH_SHIP_gentes SITH_SHIP_herdessa SITH_SHIP_kesh SITH_SHIP_kril_dor SITH_SHIP_lehon SITH_SHIP_phaseera SITH_SHIP_puloorn SITH_SHIP_quermia SITH_SHIP_randon SITH_SHIP_rekkiad SITH_SHIP_roon SITH_SHIP_ruusan SITH_SHIP_sanrafsix SITH_SHIP_sarrassia SITH_SHIP_skarpos SITH_SHIP_vjun SITH_SHIP_volik SITH_SHIP_orreg SITH_SHIP_ryav SITH_SHIP_purple_dunes SITH_SHIP_elvaarnos SITH_SHIP_roston SITH_SHIP_kithar SITH_SHIP_telmath SITH_SHIP_cham SITH_SHIP_glorim SITH_SHIP_eorm SITH_SHIP_sessal_spire SITH_SHIP_wyldar SITH_SHIP_rees SITH_SHIP_tahv SITH_SHIP_sharv SITH_SHIP_zandi SITH_SHIP_berav SITH_SHIP_takara
+		}
+		ion_cannon = {
+			SITH_SHIP_bombard SITH_SHIP_ballista SITH_SHIP_catapult SITH_SHIP_harpoon SITH_SHIP_polybolos SITH_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			SITH_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			SITH_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			SITH_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			SITH_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			SITH_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			SITH_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			SITH_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			SITH_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			SITH_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			SITH_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			SITH_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			SITH_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			SITH_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			SITH_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			SITH_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			SITH_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			SITH_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			SITH_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			SITH_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			SITH_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			SITH_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			SITH_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			SITH_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			SITH_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			SITH_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			SITH_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			SITH_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			SITH_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			SITH_SHIP_CLASS_imperial_escort
+		}
+		swp_quasar_frigate = {
+			SITH_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			SITH_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			SITH_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			SITH_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			SITH_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			SITH_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			SITH_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			SITH_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			SITH_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			SITH_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			SITH_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			SITH_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			SITH_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			SITH_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			SITH_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			SITH_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			SITH_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			SITH_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			SITH_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			SITH_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			SITH_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			SITH_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			SITH_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			SITH_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			SITH_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			SITH_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			SITH_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			SITH_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			SITH_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			SITH_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			SITH_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			SITH_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			SITH_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			SITH_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			SITH_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			SITH_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			SITH_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			SITH_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			SITH_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			SITH_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			SITH_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			SITH_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			SITH_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			SITH_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			SITH_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			SITH_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			SITH_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			SITH_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			SITH_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			SITH_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			SITH_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			SITH_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			SITH_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			SITH_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			SITH_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			SITH_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			SITH_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			SITH_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			SITH_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			SITH_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			SITH_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			SITH_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			SITH_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			SITH_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			SITH_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			SITH_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			SITH_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			SITH_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			SITH_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			SITH_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			SITH_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			SITH_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			SITH_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			SITH_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			SITH_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			SITH_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			SITH_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			SITH_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			SITH_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			SITH_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			SITH_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			SITH_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			SITH_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			SITH_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			SITH_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		random_names = {
+			SITH_FLEET_1st__tulak__battle_group SITH_FLEET_2nd__ajunta__battle_group SITH_FLEET_3rd__ragnos__battle_group SITH_FLEET_4th__sadow__battle_group SITH_FLEET_5th__exar__battle_group SITH_FLEET_6th__malgus__battle_group SITH_FLEET_7th__marr__battle_group SITH_FLEET_8th__bane__battle_group SITH_FLEET_9th__traya__battle_group SITH_FLEET_10th__tyranus__battle_group SITH_FLEET_11th__kressh__battle_group SITH_FLEET_12th__sorzus__battle_group SITH_FLEET_13th__karness__battle_group
+		}
+		sequential_name = SITH_FLEET_sith_expeditionary_force_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = SITH_ARMY_sithsworn_guard_ORD
+		}
+		assault_army = {
+			sequential_name = SITH_ARMY_devastator_battalion_ORD
+		}
+		slave_army = {
+			sequential_name = SITH_ARMY_branded_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = SITH_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = SITH_ARMY_wardroid_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = SITH_ARMY_wardroid_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = SITH_ARMY_juggernauts_ORD
+		}
+		xenomorph_army = {
+			sequential_name = SITH_ARMY_sithspawn_detachment_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				SITH_ARMY_sarc_a__gladiators_ SITH_ARMY_sarc_b__widowmakers_ SITH_ARMY_sarc_c__immortals_ SITH_ARMY_sarc_d__berserkers_ SITH_ARMY_sarc_e__assassins_ SITH_ARMY_sarc_f__reapers_ SITH_ARMY_sarc_g__nighthawks_ SITH_ARMY_sarc_h__desperados_ SITH_ARMY_sarc_i__grey_knights_ SITH_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = SITH_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = SITH_ARMY_sith_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = SITH_ARMY_wardroid_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = SITH_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = SITH_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = SITH_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = SITH_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = SITH_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = SITH_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = SITH_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = SITH_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = SITH_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = SITH_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = SITH_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = SITH_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = SITH_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = SITH_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = SITH_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = SITH_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = SITH_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = SITH_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = SITH_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = SITH_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = SITH_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = SITH_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = SITH_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = SITH_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = SITH_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = SITH_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = SITH_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = SITH_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = SITH_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = SITH_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = SITH_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = SITH_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = SITH_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = SITH_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = SITH_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = SITH_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = SITH_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = SITH_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = SITH_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = SITH_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = SITH_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = SITH_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = SITH_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = SITH_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = SITH_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = SITH_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = SITH_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = SITH_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = SITH_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = SITH_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = SITH_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = SITH_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = SITH_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = SITH_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = SITH_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = SITH_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = SITH_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = SITH_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = SITH_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = SITH_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = SITH_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = SITH_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = SITH_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = SITH_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = SITH_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = SITH_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = SITH_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = SITH_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = SITH_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = SITH_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = SITH_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = SITH_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = SITH_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = SITH_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = SITH_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = SITH_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = SITH_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = SITH_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = SITH_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = SITH_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = SITH_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = SITH_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = SITH_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = SITH_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = SITH_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = SITH_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = SITH_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = SITH_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = SITH_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = SITH_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = SITH_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = SITH_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = SITH_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = SITH_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = SITH_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = SITH_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = SITH_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = SITH_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = SITH_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = SITH_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = SITH_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = SITH_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = SITH_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = SITH_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = SITH_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = SITH_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = SITH_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = SITH_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = SITH_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = SITH_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = SITH_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = SITH_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = SITH_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = SITH_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = SITH_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = SITH_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = SITH_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = SITH_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = SITH_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = SITH_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = SITH_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = SITH_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = SITH_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = SITH_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = SITH_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = SITH_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = SITH_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = SITH_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = SITH_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = SITH_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		names1 = {
+			weight = 70
+			first_names_male = {
+				SITH_CHR_lord SITH_CHR_dread_lord SITH_CHR_inquisitor SITH_CHR_battlelord SITH_CHR_master SITH_CHR_alchemist SITH_CHR_dark_lord SITH_CHR_darth SITH_CHR_grand_consort SITH_CHR_high_lord SITH_CHR_prophet SITH_CHR_seer SITH_CHR_overlord SITH_CHR_overseer
+			}
+			first_names_female = {
+				SITH_CHR_lady SITH_CHR_dread_lady SITH_CHR_inquisitor SITH_CHR_mistress SITH_CHR_alchemist SITH_CHR_dark_lady SITH_CHR_darth SITH_CHR_grand_consort SITH_CHR_high_lady SITH_CHR_prophetess SITH_CHR_seer SITH_CHR_overlord SITH_CHR_overseer
+			}
+			second_names = {
+				SITH_CHR_abaron SITH_CHR_adas SITH_CHR_alarii SITH_CHR_althe SITH_CHR_arkous SITH_CHR_arosh SITH_CHR_avarok SITH_CHR_avorr SITH_CHR_bensyn SITH_CHR_breesh SITH_CHR_carnus SITH_CHR_carnor SITH_CHR_chane SITH_CHR_chaskar SITH_CHR_cherkolotar SITH_CHR_cyrsip SITH_CHR_cytharat SITH_CHR_dakhan SITH_CHR_shar SITH_CHR_davorak SITH_CHR_desora SITH_CHR_xynso SITH_CHR_doruk SITH_CHR_dramath SITH_CHR_taliav SITH_CHR_engdo SITH_CHR_fa_ann SITH_CHR_fentis SITH_CHR_brach SITH_CHR_gal_ram SITH_CHR_galall SITH_CHR_baous SITH_CHR_gapuois SITH_CHR_graush SITH_CHR_dathka SITH_CHR_hakagram SITH_CHR_hestus SITH_CHR_horak_muli SITH_CHR_igrol SITH_CHR_ikoral SITH_CHR_ishla SITH_CHR_izar SITH_CHR_jhael SITH_CHR_fahren SITH_CHR_jaj SITH_CHR_jekhop SITH_CHR_jinatte SITH_CHR_yshaar SITH_CHR_kael SITH_CHR_kaur SITH_CHR_za_heen SITH_CHR_kahesh SITH_CHR_kantale SITH_CHR_sylen SITH_CHR_kempar SITH_CHR_keryha SITH_CHR_valik SITH_CHR_kodank SITH_CHR_komok SITH_CHR_kressh SITH_CHR_exal SITH_CHR_elcho SITH_CHR_ludo SITH_CHR_vodal SITH_CHR_domoru SITH_CHR_krev SITH_CHR_krovos SITH_CHR_kurse SITH_CHR_kyyrah SITH_CHR_ladra SITH_CHR_garahe SITH_CHR_lesi SITH_CHR_lorus SITH_CHR_loun SITH_CHR_luthro SITH_CHR_majzon SITH_CHR_maraad SITH_CHR_materrus SITH_CHR_mathieren SITH_CHR_myrox SITH_CHR_minax SITH_CHR_nyriss SITH_CHR_ogun SITH_CHR_orazio SITH_CHR_auux SITH_CHR_paladius SITH_CHR_paolen SITH_CHR_praven SITH_CHR_r_hoteb SITH_CHR_marka SITH_CHR_rasche SITH_CHR_raspir SITH_CHR_rath SITH_CHR_sek_nos SITH_CHR_rath SITH_CHR_thok SITH_CHR_rhexa SITH_CHR_naga SITH_CHR_sathel SITH_CHR_saviel SITH_CHR_scourge SITH_CHR_seake SITH_CHR_sek_nos SITH_CHR_miarta SITH_CHR_serevin SITH_CHR_serrod SITH_CHR_shaar SITH_CHR_simus SITH_CHR_soverus SITH_CHR_synar SITH_CHR_tanzu SITH_CHR_tetsu SITH_CHR_karnak SITH_CHR_andreaus SITH_CHR_thos SITH_CHR_torius SITH_CHR_tormen SITH_CHR_trok SITH_CHR_twintan SITH_CHR_vex SITH_CHR_dantos SITH_CHR_vincine SITH_CHR_vindican SITH_CHR_vindis SITH_CHR_vodd SITH_CHR_vowrawn SITH_CHR_ravilan SITH_CHR_wroth SITH_CHR_wroth_the_elder SITH_CHR_wroth_the_younger SITH_CHR_xiang SITH_CHR_saveel SITH_CHR_yacommsa SITH_CHR_yarri SITH_CHR_silas SITH_CHR_yun_weah SITH_CHR_zavrasha
+			}
+			regnal_first_names_male = {
+				SITH_CHR_lord SITH_CHR_dread_lord SITH_CHR_inquisitor SITH_CHR_battlelord SITH_CHR_master SITH_CHR_alchemist SITH_CHR_dark_lord SITH_CHR_darth SITH_CHR_grand_consort SITH_CHR_high_lord SITH_CHR_prophet SITH_CHR_seer SITH_CHR_overlord SITH_CHR_overseer
+			}
+			regnal_first_names_female = {
+				SITH_CHR_lady SITH_CHR_dread_lady SITH_CHR_inquisitor SITH_CHR_mistress SITH_CHR_alchemist SITH_CHR_dark_lady SITH_CHR_darth SITH_CHR_grand_consort SITH_CHR_high_lady SITH_CHR_prophetess SITH_CHR_seer SITH_CHR_overlord SITH_CHR_overseer
+			}
+			regnal_second_names = {
+				SITH_CHR_abaron SITH_CHR_adas SITH_CHR_alarii SITH_CHR_althe SITH_CHR_arkous SITH_CHR_arosh SITH_CHR_avarok SITH_CHR_avorr SITH_CHR_bensyn SITH_CHR_breesh SITH_CHR_carnus SITH_CHR_carnor SITH_CHR_chane SITH_CHR_chaskar SITH_CHR_cherkolotar SITH_CHR_cyrsip SITH_CHR_cytharat SITH_CHR_dakhan SITH_CHR_shar SITH_CHR_davorak SITH_CHR_desora SITH_CHR_xynso SITH_CHR_doruk SITH_CHR_dramath SITH_CHR_taliav SITH_CHR_engdo SITH_CHR_fa_ann SITH_CHR_fentis SITH_CHR_brach SITH_CHR_gal_ram SITH_CHR_galall SITH_CHR_baous SITH_CHR_gapuois SITH_CHR_graush SITH_CHR_dathka SITH_CHR_hakagram SITH_CHR_hestus SITH_CHR_horak_muli SITH_CHR_igrol SITH_CHR_ikoral SITH_CHR_ishla SITH_CHR_izar SITH_CHR_jhael SITH_CHR_fahren SITH_CHR_jaj SITH_CHR_jekhop SITH_CHR_jinatte SITH_CHR_yshaar SITH_CHR_kael SITH_CHR_kaur SITH_CHR_za_heen SITH_CHR_kahesh SITH_CHR_kantale SITH_CHR_sylen SITH_CHR_kempar SITH_CHR_keryha SITH_CHR_valik SITH_CHR_kodank SITH_CHR_komok SITH_CHR_kressh SITH_CHR_exal SITH_CHR_elcho SITH_CHR_ludo SITH_CHR_vodal SITH_CHR_domoru SITH_CHR_krev SITH_CHR_krovos SITH_CHR_kurse SITH_CHR_kyyrah SITH_CHR_ladra SITH_CHR_garahe SITH_CHR_lesi SITH_CHR_lorus SITH_CHR_loun SITH_CHR_luthro SITH_CHR_majzon SITH_CHR_maraad SITH_CHR_materrus SITH_CHR_mathieren SITH_CHR_myrox SITH_CHR_minax SITH_CHR_nyriss SITH_CHR_ogun SITH_CHR_orazio SITH_CHR_auux SITH_CHR_paladius SITH_CHR_paolen SITH_CHR_praven SITH_CHR_r_hoteb SITH_CHR_marka SITH_CHR_rasche SITH_CHR_raspir SITH_CHR_rath SITH_CHR_sek_nos SITH_CHR_rath SITH_CHR_thok SITH_CHR_rhexa SITH_CHR_naga SITH_CHR_sathel SITH_CHR_saviel SITH_CHR_scourge SITH_CHR_seake SITH_CHR_sek_nos SITH_CHR_miarta SITH_CHR_serevin SITH_CHR_serrod SITH_CHR_shaar SITH_CHR_simus SITH_CHR_soverus SITH_CHR_synar SITH_CHR_tanzu SITH_CHR_tetsu SITH_CHR_karnak SITH_CHR_andreaus SITH_CHR_thos SITH_CHR_torius SITH_CHR_tormen SITH_CHR_trok SITH_CHR_twintan SITH_CHR_vex SITH_CHR_dantos SITH_CHR_vincine SITH_CHR_vindican SITH_CHR_vindis SITH_CHR_vodd SITH_CHR_vowrawn SITH_CHR_ravilan SITH_CHR_wroth SITH_CHR_wroth_the_elder SITH_CHR_wroth_the_younger SITH_CHR_xiang SITH_CHR_saveel SITH_CHR_yacommsa SITH_CHR_yarri SITH_CHR_silas SITH_CHR_yun_weah SITH_CHR_zavrasha
+			}
+		}
+		names2 = {
+			weight = 5
+			first_names_male = {
+				SITH_CHR_apprentice SITH_CHR_acolyte SITH_CHR_neophyte
+			}
+			first_names_female = {
+				SITH_CHR_apprentice SITH_CHR_acolyte SITH_CHR_neophyte
+			}
+			second_names = {
+				SITH_CHR_abaron SITH_CHR_adas SITH_CHR_alarii SITH_CHR_althe SITH_CHR_arkous SITH_CHR_arosh SITH_CHR_avarok SITH_CHR_avorr SITH_CHR_bensyn SITH_CHR_breesh SITH_CHR_chane SITH_CHR_chaskar SITH_CHR_cherkolotar SITH_CHR_cyrsip SITH_CHR_cytharat SITH_CHR_dakhan SITH_CHR_shar SITH_CHR_davorak SITH_CHR_desora SITH_CHR_xynso SITH_CHR_doruk SITH_CHR_dramath SITH_CHR_taliav SITH_CHR_engdo SITH_CHR_fa_ann SITH_CHR_fentis SITH_CHR_brach SITH_CHR_gal_ram SITH_CHR_galall SITH_CHR_baous SITH_CHR_gapuois SITH_CHR_graush SITH_CHR_dathka SITH_CHR_hakagram SITH_CHR_hestus SITH_CHR_horak_muli SITH_CHR_igrol SITH_CHR_ikoral SITH_CHR_ishla SITH_CHR_izar SITH_CHR_jhael SITH_CHR_fahren SITH_CHR_jaj SITH_CHR_jekhop SITH_CHR_jinatte SITH_CHR_yshaar SITH_CHR_kael SITH_CHR_kaur SITH_CHR_za_heen SITH_CHR_kahesh SITH_CHR_kantale SITH_CHR_sylen SITH_CHR_kempar SITH_CHR_keryha SITH_CHR_valik SITH_CHR_kodank SITH_CHR_komok SITH_CHR_kressh SITH_CHR_exal SITH_CHR_elcho SITH_CHR_ludo SITH_CHR_vodal SITH_CHR_domoru SITH_CHR_krev SITH_CHR_krovos SITH_CHR_kurse SITH_CHR_kyyrah SITH_CHR_ladra SITH_CHR_garahe SITH_CHR_lesi SITH_CHR_lorus SITH_CHR_loun SITH_CHR_luthro SITH_CHR_majzon SITH_CHR_maraad SITH_CHR_materrus SITH_CHR_mathieren SITH_CHR_minax SITH_CHR_nyriss SITH_CHR_ogun SITH_CHR_orazio SITH_CHR_auux SITH_CHR_paladius SITH_CHR_paolen SITH_CHR_praven SITH_CHR_r_hoteb SITH_CHR_marka SITH_CHR_rasche SITH_CHR_raspir SITH_CHR_rath SITH_CHR_sek_nos SITH_CHR_rath SITH_CHR_thok SITH_CHR_rhexa SITH_CHR_naga SITH_CHR_sathel SITH_CHR_saviel SITH_CHR_scourge SITH_CHR_seake SITH_CHR_sek_nos SITH_CHR_miarta SITH_CHR_serevin SITH_CHR_serrod SITH_CHR_shaar SITH_CHR_simus SITH_CHR_soverus SITH_CHR_synar SITH_CHR_tanzu SITH_CHR_tetsu SITH_CHR_karnak SITH_CHR_andreaus SITH_CHR_thos SITH_CHR_torius SITH_CHR_tormen SITH_CHR_trok SITH_CHR_twintan SITH_CHR_vex SITH_CHR_dantos SITH_CHR_vincine SITH_CHR_vindican SITH_CHR_vindis SITH_CHR_vodd SITH_CHR_vowrawn SITH_CHR_ravilan SITH_CHR_wroth SITH_CHR_wroth_the_elder SITH_CHR_wroth_the_younger SITH_CHR_xiang SITH_CHR_saveel SITH_CHR_yacommsa SITH_CHR_yarri SITH_CHR_silas SITH_CHR_yun_weah SITH_CHR_zavrasha
+			}
+			regnal_first_names_male = {
+				SITH_CHR_apprentice SITH_CHR_acolyte SITH_CHR_neophyte
+			}
+			regnal_first_names_female = {
+				SITH_CHR_apprentice SITH_CHR_acolyte SITH_CHR_neophyte
+			}
+			regnal_second_names = {
+				SITH_CHR_abaron SITH_CHR_adas SITH_CHR_alarii SITH_CHR_althe SITH_CHR_arkous SITH_CHR_arosh SITH_CHR_avarok SITH_CHR_avorr SITH_CHR_bensyn SITH_CHR_breesh SITH_CHR_chane SITH_CHR_chaskar SITH_CHR_cherkolotar SITH_CHR_cyrsip SITH_CHR_cytharat SITH_CHR_dakhan SITH_CHR_shar SITH_CHR_davorak SITH_CHR_desora SITH_CHR_xynso SITH_CHR_doruk SITH_CHR_dramath SITH_CHR_taliav SITH_CHR_engdo SITH_CHR_fa_ann SITH_CHR_fentis SITH_CHR_brach SITH_CHR_gal_ram SITH_CHR_galall SITH_CHR_baous SITH_CHR_gapuois SITH_CHR_graush SITH_CHR_dathka SITH_CHR_hakagram SITH_CHR_hestus SITH_CHR_horak_muli SITH_CHR_igrol SITH_CHR_ikoral SITH_CHR_ishla SITH_CHR_izar SITH_CHR_jhael SITH_CHR_fahren SITH_CHR_jaj SITH_CHR_jekhop SITH_CHR_jinatte SITH_CHR_yshaar SITH_CHR_kael SITH_CHR_kaur SITH_CHR_za_heen SITH_CHR_kahesh SITH_CHR_kantale SITH_CHR_sylen SITH_CHR_kempar SITH_CHR_keryha SITH_CHR_valik SITH_CHR_kodank SITH_CHR_komok SITH_CHR_kressh SITH_CHR_exal SITH_CHR_elcho SITH_CHR_ludo SITH_CHR_vodal SITH_CHR_domoru SITH_CHR_krev SITH_CHR_krovos SITH_CHR_kurse SITH_CHR_kyyrah SITH_CHR_ladra SITH_CHR_garahe SITH_CHR_lesi SITH_CHR_lorus SITH_CHR_loun SITH_CHR_luthro SITH_CHR_majzon SITH_CHR_maraad SITH_CHR_materrus SITH_CHR_mathieren SITH_CHR_minax SITH_CHR_nyriss SITH_CHR_ogun SITH_CHR_orazio SITH_CHR_auux SITH_CHR_paladius SITH_CHR_paolen SITH_CHR_praven SITH_CHR_r_hoteb SITH_CHR_marka SITH_CHR_rasche SITH_CHR_raspir SITH_CHR_rath SITH_CHR_sek_nos SITH_CHR_rath SITH_CHR_thok SITH_CHR_rhexa SITH_CHR_naga SITH_CHR_sathel SITH_CHR_saviel SITH_CHR_scourge SITH_CHR_seake SITH_CHR_sek_nos SITH_CHR_miarta SITH_CHR_serevin SITH_CHR_serrod SITH_CHR_shaar SITH_CHR_simus SITH_CHR_soverus SITH_CHR_synar SITH_CHR_tanzu SITH_CHR_tetsu SITH_CHR_karnak SITH_CHR_andreaus SITH_CHR_thos SITH_CHR_torius SITH_CHR_tormen SITH_CHR_trok SITH_CHR_twintan SITH_CHR_vex SITH_CHR_dantos SITH_CHR_vincine SITH_CHR_vindican SITH_CHR_vindis SITH_CHR_vodd SITH_CHR_vowrawn SITH_CHR_ravilan SITH_CHR_wroth SITH_CHR_wroth_the_elder SITH_CHR_wroth_the_younger SITH_CHR_xiang SITH_CHR_saveel SITH_CHR_yacommsa SITH_CHR_yarri SITH_CHR_silas SITH_CHR_yun_weah SITH_CHR_zavrasha
+			}
+		}
+	}
+}

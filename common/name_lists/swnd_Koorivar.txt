@@ -1,0 +1,844 @@
+﻿Koorivar = {
+	randomized = no
+	ship_names = {
+		generic = {
+			KOORIVAR_SHIP_dutyfree KOORIVAR_SHIP_escrow KOORIVAR_SHIP_free_lance KOORIVAR_SHIP_sellsail KOORIVAR_SHIP_jackpot KOORIVAR_SHIP_writeoff KOORIVAR_SHIP_double_jeopardy KOORIVAR_SHIP_incarcerator KOORIVAR_SHIP_bondsman KOORIVAR_SHIP_reclaimer KOORIVAR_SHIP_claimant KOORIVAR_SHIP_repossessor KOORIVAR_SHIP_final_notice KOORIVAR_SHIP_balancer KOORIVAR_SHIP_scale_of_war KOORIVAR_SHIP_prevailing_wind KOORIVAR_SHIP_exigent_circumstance KOORIVAR_SHIP_force_majeure KOORIVAR_SHIP_liable KOORIVAR_SHIP_obligator KOORIVAR_SHIP_obligor KOORIVAR_SHIP_malfeasance KOORIVAR_SHIP_natural_hedge KOORIVAR_SHIP_derivative KOORIVAR_SHIP_exposure KOORIVAR_SHIP_repudiator KOORIVAR_SHIP_externality KOORIVAR_SHIP_high_water KOORIVAR_SHIP_transactor KOORIVAR_SHIP_in_breach KOORIVAR_SHIP_legally_bound KOORIVAR_SHIP_invoidable KOORIVAR_SHIP_unimpeachable KOORIVAR_SHIP_uninfringible KOORIVAR_SHIP_contractor KOORIVAR_SHIP_warrant KOORIVAR_SHIP_due_consideration KOORIVAR_SHIP_concession KOORIVAR_SHIP_malefactor KOORIVAR_SHIP_undue_influence KOORIVAR_SHIP_inspector KOORIVAR_SHIP_enigma KOORIVAR_SHIP_equity KOORIVAR_SHIP_debtor KOORIVAR_SHIP_syndicator KOORIVAR_SHIP_hostile_takeover KOORIVAR_SHIP_poison_pill KOORIVAR_SHIP_master KOORIVAR_SHIP_maximal KOORIVAR_SHIP_maximus KOORIVAR_SHIP_narrow_margin KOORIVAR_SHIP_vulture KOORIVAR_SHIP_acquirer KOORIVAR_SHIP_treasure_trove KOORIVAR_SHIP_no_luck_required KOORIVAR_SHIP_northstar KOORIVAR_SHIP_venture KOORIVAR_SHIP_silent_partner KOORIVAR_SHIP_liquidator KOORIVAR_SHIP_dalliance KOORIVAR_SHIP_expropriator KOORIVAR_SHIP_overruler KOORIVAR_SHIP_nullifier KOORIVAR_SHIP_void_dragon KOORIVAR_SHIP_annuller KOORIVAR_SHIP_negator KOORIVAR_SHIP_deracinator KOORIVAR_SHIP_incinerator KOORIVAR_SHIP_caveat KOORIVAR_SHIP_severance KOORIVAR_SHIP_bottom_line KOORIVAR_SHIP_recompense KOORIVAR_SHIP_compensator KOORIVAR_SHIP_discharger KOORIVAR_SHIP_debtor_s_fetters KOORIVAR_SHIP_fetterer KOORIVAR_SHIP_founder KOORIVAR_SHIP_firegem KOORIVAR_SHIP_in_the_red KOORIVAR_SHIP_fletcher KOORIVAR_SHIP_corswain KOORIVAR_SHIP_redhorn KOORIVAR_SHIP_greythorn KOORIVAR_SHIP_bombast KOORIVAR_SHIP_bravado KOORIVAR_SHIP_breacher KOORIVAR_SHIP_backer KOORIVAR_SHIP_accountant KOORIVAR_SHIP_actuizer KOORIVAR_SHIP_acompli KOORIVAR_SHIP_avarice KOORIVAR_SHIP_artifice KOORIVAR_SHIP_hidden_hand KOORIVAR_SHIP_akimbo KOORIVAR_SHIP_fusilier KOORIVAR_SHIP_matron KOORIVAR_SHIP_hooded_blade KOORIVAR_SHIP_murkhana KOORIVAR_SHIP_bomis_koori KOORIVAR_SHIP_moorja KOORIVAR_SHIP_general_dassyne KOORIVAR_SHIP_general_terrus KOORIVAR_SHIP_valorum_s_folly KOORIVAR_SHIP_magistrate KOORIVAR_SHIP_starbright KOORIVAR_SHIP_battle_of_fakir KOORIVAR_SHIP_shark KOORIVAR_SHIP_commander_merai KOORIVAR_SHIP_persuader KOORIVAR_SHIP_enforcer KOORIVAR_SHIP_memory_of_ukio KOORIVAR_SHIP_instinction KOORIVAR_SHIP_tumult KOORIVAR_SHIP_shimmerbird KOORIVAR_SHIP_crainum KOORIVAR_SHIP_cerebrum KOORIVAR_SHIP_auric_horn KOORIVAR_SHIP_silver_point KOORIVAR_SHIP_corsuca_spike KOORIVAR_SHIP_antler KOORIVAR_SHIP_prong_of_war KOORIVAR_SHIP_razorhorn KOORIVAR_SHIP_cornet KOORIVAR_SHIP_magisterial KOORIVAR_SHIP_cuspis KOORIVAR_SHIP_incisor KOORIVAR_SHIP_tocsin KOORIVAR_SHIP_batterer KOORIVAR_SHIP_memento_of_kooriva KOORIVAR_SHIP_fantail KOORIVAR_SHIP_sarapin KOORIVAR_SHIP_denaria_kee KOORIVAR_SHIP_admiral_trench KOORIVAR_SHIP_vibroblade KOORIVAR_SHIP_vibroknife KOORIVAR_SHIP_vibroax KOORIVAR_SHIP_voe_atell KOORIVAR_SHIP_pummeler KOORIVAR_SHIP_fire_of_teller KOORIVAR_SHIP_parsec_predator KOORIVAR_SHIP_amita_fonti KOORIVAR_SHIP_voice_of_industry KOORIVAR_SHIP_senior_creditor KOORIVAR_SHIP_collector KOORIVAR_SHIP_negotiator KOORIVAR_SHIP_merchant_queen KOORIVAR_SHIP_trade_monarch KOORIVAR_SHIP_impairment KOORIVAR_SHIP_rightful_claim KOORIVAR_SHIP_watchdog KOORIVAR_SHIP_expiator KOORIVAR_SHIP_justifier KOORIVAR_SHIP_repatriator KOORIVAR_SHIP_insistent KOORIVAR_SHIP_munificus KOORIVAR_SHIP_bounty KOORIVAR_SHIP_obligant KOORIVAR_SHIP_king_commerce KOORIVAR_SHIP_arbitrage KOORIVAR_SHIP_chartist KOORIVAR_SHIP_leverage KOORIVAR_SHIP_liquidity KOORIVAR_SHIP_optionality KOORIVAR_SHIP_short_sell KOORIVAR_SHIP_commercial_imperative KOORIVAR_SHIP_intercessor KOORIVAR_SHIP_creditor_rex KOORIVAR_SHIP_hoarder KOORIVAR_SHIP_corporate_raider KOORIVAR_SHIP_aggressive_acquisition KOORIVAR_SHIP_aurodium_standard KOORIVAR_SHIP_aurodium_dream KOORIVAR_SHIP_bullion_prince KOORIVAR_SHIP_kilobar KOORIVAR_SHIP_speculative_position KOORIVAR_SHIP_aurodium_splendor KOORIVAR_SHIP_aurodium_age KOORIVAR_SHIP_largesse KOORIVAR_SHIP_restitution KOORIVAR_SHIP_reparation KOORIVAR_SHIP_probable_cause KOORIVAR_SHIP_null_and_void KOORIVAR_SHIP_retainer KOORIVAR_SHIP_face_value KOORIVAR_SHIP_warranty KOORIVAR_SHIP_pure_alpha KOORIVAR_SHIP_excess_return KOORIVAR_SHIP_accreditor KOORIVAR_SHIP_activist KOORIVAR_SHIP_intangible KOORIVAR_SHIP_assurance KOORIVAR_SHIP_auditor KOORIVAR_SHIP_judgement KOORIVAR_SHIP_cease_and_desist KOORIVAR_SHIP_kaebol KOORIVAR_SHIP_clawback KOORIVAR_SHIP_buyout KOORIVAR_SHIP_payout KOORIVAR_SHIP_payoff KOORIVAR_SHIP_dividend KOORIVAR_SHIP_compliant KOORIVAR_SHIP_controller KOORIVAR_SHIP_firewall KOORIVAR_SHIP_indemnifier KOORIVAR_SHIP_duty_of_candor KOORIVAR_SHIP_fiduciary_duty KOORIVAR_SHIP_facilitator KOORIVAR_SHIP_tsarbanes_toxley KOORIVAR_SHIP_aurodium_handcuff KOORIVAR_SHIP_highwater KOORIVAR_SHIP_inside_warrior KOORIVAR_SHIP_veiretsu KOORIVAR_SHIP_mark_to_market KOORIVAR_SHIP_moral_salience KOORIVAR_SHIP_notional KOORIVAR_SHIP_outside_director KOORIVAR_SHIP_premium_option KOORIVAR_SHIP_pay_to_win KOORIVAR_SHIP_proxy KOORIVAR_SHIP_reputation KOORIVAR_SHIP_exchanger KOORIVAR_SHIP_aurodium_parachute KOORIVAR_SHIP_self_interest KOORIVAR_SHIP_stakeholder KOORIVAR_SHIP_succession KOORIVAR_SHIP_total_return KOORIVAR_SHIP_tranche KOORIVAR_SHIP_ultra_vires KOORIVAR_SHIP_uncontested KOORIVAR_SHIP_elastic KOORIVAR_SHIP_due_diligence KOORIVAR_SHIP_fungible KOORIVAR_SHIP_perfect_storm KOORIVAR_SHIP_high_yield KOORIVAR_SHIP_vengeance_of_antar KOORIVAR_SHIP_speculator KOORIVAR_SHIP_market_correction KOORIVAR_SHIP_selloff KOORIVAR_SHIP_horned_king KOORIVAR_SHIP_armor_of_horns KOORIVAR_SHIP_blackspike KOORIVAR_SHIP_marrowspike
+		}
+		swp_subjugator = {
+			KOORIVAR_SHIP_restitution KOORIVAR_SHIP_reparation KOORIVAR_SHIP_free_lance KOORIVAR_SHIP_stakeholder KOORIVAR_SHIP_high_yield KOORIVAR_SHIP_clawback KOORIVAR_SHIP_leverage
+		}
+		science = {
+			KOORIVAR_SHIP_lone_trekker KOORIVAR_SHIP_prudent KOORIVAR_SHIP_vergent KOORIVAR_SHIP_valorant KOORIVAR_SHIP_shai_malud KOORIVAR_SHIP_nightrunner KOORIVAR_SHIP_starsnake KOORIVAR_SHIP_volumex KOORIVAR_SHIP_eminent KOORIVAR_SHIP_azerin KOORIVAR_SHIP_aurodium_dream KOORIVAR_SHIP_iota KOORIVAR_SHIP_mutrobo KOORIVAR_SHIP_rover KOORIVAR_SHIP_revolt KOORIVAR_SHIP_purposeful KOORIVAR_SHIP_remembrance KOORIVAR_SHIP_farstar KOORIVAR_SHIP_entrepot KOORIVAR_SHIP_exclave
+		}
+		colonizer = {
+			KOORIVAR_SHIP_reclaimer KOORIVAR_SHIP_reclamation KOORIVAR_SHIP_hornblower KOORIVAR_SHIP_voidcaller KOORIVAR_SHIP_fruitful KOORIVAR_SHIP_expander KOORIVAR_SHIP_nomad KOORIVAR_SHIP_adoption KOORIVAR_SHIP_urgent KOORIVAR_SHIP_ahspanshen KOORIVAR_SHIP_seeda KOORIVAR_SHIP_parasilla KOORIVAR_SHIP_journey KOORIVAR_SHIP_farcaller KOORIVAR_SHIP_grasper KOORIVAR_SHIP_scion_of_koorivar KOORIVAR_SHIP_merchant KOORIVAR_SHIP_convoy KOORIVAR_SHIP_perseverance KOORIVAR_SHIP_seed_capital KOORIVAR_SHIP_startup KOORIVAR_SHIP_acquisition KOORIVAR_SHIP_cultivation KOORIVAR_SHIP_hornqueen KOORIVAR_SHIP_far_horn
+		}
+		sponsored_colonizer = {
+			KOORIVAR_SHIP_reclaimer KOORIVAR_SHIP_reclamation KOORIVAR_SHIP_hornblower KOORIVAR_SHIP_voidcaller KOORIVAR_SHIP_fruitful KOORIVAR_SHIP_expander KOORIVAR_SHIP_nomad KOORIVAR_SHIP_adoption KOORIVAR_SHIP_urgent KOORIVAR_SHIP_ahspanshen KOORIVAR_SHIP_seeda KOORIVAR_SHIP_parasilla KOORIVAR_SHIP_journey KOORIVAR_SHIP_farcaller KOORIVAR_SHIP_grasper KOORIVAR_SHIP_scion_of_koorivar KOORIVAR_SHIP_merchant KOORIVAR_SHIP_convoy KOORIVAR_SHIP_perseverance KOORIVAR_SHIP_seed_capital KOORIVAR_SHIP_startup KOORIVAR_SHIP_acquisition KOORIVAR_SHIP_cultivation KOORIVAR_SHIP_hornqueen KOORIVAR_SHIP_far_horn
+		}
+		constructor = {
+			KOORIVAR_SHIP_marginal KOORIVAR_SHIP_returner KOORIVAR_SHIP_wager KOORIVAR_SHIP_menial KOORIVAR_SHIP_servile KOORIVAR_SHIP_serf KOORIVAR_SHIP_fair_wage KOORIVAR_SHIP_fabricar KOORIVAR_SHIP_iterator KOORIVAR_SHIP_servitor KOORIVAR_SHIP_erector KOORIVAR_SHIP_architectron KOORIVAR_SHIP_creator KOORIVAR_SHIP_warren KOORIVAR_SHIP_burrower KOORIVAR_SHIP_hewer KOORIVAR_SHIP_ogl KOORIVAR_SHIP_depositor KOORIVAR_SHIP_morning_sweat
+		}
+		transport = {
+			KOORIVAR_SHIP_ground_force_lander
+		}
+		military_station_golan1 = {
+			KOORIVAR_SHIP_spacegun_victory KOORIVAR_SHIP_spacegun_success KOORIVAR_SHIP_spacegun_supremacy KOORIVAR_SHIP_spacegun_superior KOORIVAR_SHIP_spacegun_adventure KOORIVAR_SHIP_spacegun_ascendancy KOORIVAR_SHIP_spacegun_paramount KOORIVAR_SHIP_spacegun_preponderous KOORIVAR_SHIP_spacegun_exemplary KOORIVAR_SHIP_spacegun_eximious KOORIVAR_SHIP_spacegun_pertinacity KOORIVAR_SHIP_spacegun_acclaim KOORIVAR_SHIP_spacegun_honor KOORIVAR_SHIP_spacegun_renown KOORIVAR_SHIP_spacegun_glory KOORIVAR_SHIP_spacegun_superb KOORIVAR_SHIP_spacegun_magnificence KOORIVAR_SHIP_spacegun_majestic KOORIVAR_SHIP_spacegun_splendor KOORIVAR_SHIP_spacegun_paradigm KOORIVAR_SHIP_spacegun_flawless KOORIVAR_SHIP_spacegun_consummate KOORIVAR_SHIP_spacegun_merit KOORIVAR_SHIP_spacegun_perfection KOORIVAR_SHIP_spacegun_virtue KOORIVAR_SHIP_spacegun_advantage KOORIVAR_SHIP_spacegun_rectitude KOORIVAR_SHIP_spacegun_incorruptible KOORIVAR_SHIP_spacegun_integrity KOORIVAR_SHIP_spacegun_justice KOORIVAR_SHIP_spacegun_probity KOORIVAR_SHIP_spacegun_prudence KOORIVAR_SHIP_spacegun_purity KOORIVAR_SHIP_spacegun_resolute KOORIVAR_SHIP_spacegun_dignity KOORIVAR_SHIP_spacegun_distinction KOORIVAR_SHIP_spacegun_excellence KOORIVAR_SHIP_spacegun_faithful KOORIVAR_SHIP_spacegun_discipline KOORIVAR_SHIP_spacegun_steadfast KOORIVAR_SHIP_spacegun_recompense KOORIVAR_SHIP_spacegun_requiem KOORIVAR_SHIP_spacegun_courage KOORIVAR_SHIP_spacegun_valor KOORIVAR_SHIP_spacegun_gallant KOORIVAR_SHIP_spacegun_daring KOORIVAR_SHIP_spacegun_constancy KOORIVAR_SHIP_spacegun_perseverence KOORIVAR_SHIP_spacegun_tenacity KOORIVAR_SHIP_spacegun_sedulity KOORIVAR_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			KOORIVAR_SHIP_spacegun_victory KOORIVAR_SHIP_spacegun_success KOORIVAR_SHIP_spacegun_supremacy KOORIVAR_SHIP_spacegun_superior KOORIVAR_SHIP_spacegun_adventure KOORIVAR_SHIP_spacegun_ascendancy KOORIVAR_SHIP_spacegun_paramount KOORIVAR_SHIP_spacegun_preponderous KOORIVAR_SHIP_spacegun_exemplary KOORIVAR_SHIP_spacegun_eximious KOORIVAR_SHIP_spacegun_pertinacity KOORIVAR_SHIP_spacegun_acclaim KOORIVAR_SHIP_spacegun_honor KOORIVAR_SHIP_spacegun_renown KOORIVAR_SHIP_spacegun_glory KOORIVAR_SHIP_spacegun_superb KOORIVAR_SHIP_spacegun_magnificence KOORIVAR_SHIP_spacegun_majestic KOORIVAR_SHIP_spacegun_splendor KOORIVAR_SHIP_spacegun_paradigm KOORIVAR_SHIP_spacegun_flawless KOORIVAR_SHIP_spacegun_consummate KOORIVAR_SHIP_spacegun_merit KOORIVAR_SHIP_spacegun_perfection KOORIVAR_SHIP_spacegun_virtue KOORIVAR_SHIP_spacegun_advantage KOORIVAR_SHIP_spacegun_rectitude KOORIVAR_SHIP_spacegun_incorruptible KOORIVAR_SHIP_spacegun_integrity KOORIVAR_SHIP_spacegun_justice KOORIVAR_SHIP_spacegun_probity KOORIVAR_SHIP_spacegun_prudence KOORIVAR_SHIP_spacegun_purity KOORIVAR_SHIP_spacegun_resolute KOORIVAR_SHIP_spacegun_dignity KOORIVAR_SHIP_spacegun_distinction KOORIVAR_SHIP_spacegun_excellence KOORIVAR_SHIP_spacegun_faithful KOORIVAR_SHIP_spacegun_discipline KOORIVAR_SHIP_spacegun_steadfast KOORIVAR_SHIP_spacegun_recompense KOORIVAR_SHIP_spacegun_requiem KOORIVAR_SHIP_spacegun_courage KOORIVAR_SHIP_spacegun_valor KOORIVAR_SHIP_spacegun_gallant KOORIVAR_SHIP_spacegun_daring KOORIVAR_SHIP_spacegun_constancy KOORIVAR_SHIP_spacegun_perseverence KOORIVAR_SHIP_spacegun_tenacity KOORIVAR_SHIP_spacegun_sedulity KOORIVAR_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			KOORIVAR_SHIP_spacegun_victory KOORIVAR_SHIP_spacegun_success KOORIVAR_SHIP_spacegun_supremacy KOORIVAR_SHIP_spacegun_superior KOORIVAR_SHIP_spacegun_adventure KOORIVAR_SHIP_spacegun_ascendancy KOORIVAR_SHIP_spacegun_paramount KOORIVAR_SHIP_spacegun_preponderous KOORIVAR_SHIP_spacegun_exemplary KOORIVAR_SHIP_spacegun_eximious KOORIVAR_SHIP_spacegun_pertinacity KOORIVAR_SHIP_spacegun_acclaim KOORIVAR_SHIP_spacegun_honor KOORIVAR_SHIP_spacegun_renown KOORIVAR_SHIP_spacegun_glory KOORIVAR_SHIP_spacegun_superb KOORIVAR_SHIP_spacegun_magnificence KOORIVAR_SHIP_spacegun_majestic KOORIVAR_SHIP_spacegun_splendor KOORIVAR_SHIP_spacegun_paradigm KOORIVAR_SHIP_spacegun_flawless KOORIVAR_SHIP_spacegun_consummate KOORIVAR_SHIP_spacegun_merit KOORIVAR_SHIP_spacegun_perfection KOORIVAR_SHIP_spacegun_virtue KOORIVAR_SHIP_spacegun_advantage KOORIVAR_SHIP_spacegun_rectitude KOORIVAR_SHIP_spacegun_incorruptible KOORIVAR_SHIP_spacegun_integrity KOORIVAR_SHIP_spacegun_justice KOORIVAR_SHIP_spacegun_probity KOORIVAR_SHIP_spacegun_prudence KOORIVAR_SHIP_spacegun_purity KOORIVAR_SHIP_spacegun_resolute KOORIVAR_SHIP_spacegun_dignity KOORIVAR_SHIP_spacegun_distinction KOORIVAR_SHIP_spacegun_excellence KOORIVAR_SHIP_spacegun_faithful KOORIVAR_SHIP_spacegun_discipline KOORIVAR_SHIP_spacegun_steadfast KOORIVAR_SHIP_spacegun_recompense KOORIVAR_SHIP_spacegun_requiem KOORIVAR_SHIP_spacegun_courage KOORIVAR_SHIP_spacegun_valor KOORIVAR_SHIP_spacegun_gallant KOORIVAR_SHIP_spacegun_daring KOORIVAR_SHIP_spacegun_constancy KOORIVAR_SHIP_spacegun_perseverence KOORIVAR_SHIP_spacegun_tenacity KOORIVAR_SHIP_spacegun_sedulity KOORIVAR_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			KOORIVAR_SHIP_citadel KOORIVAR_SHIP_albacore KOORIVAR_SHIP_gateway KOORIVAR_SHIP_vincent KOORIVAR_SHIP_babylon KOORIVAR_SHIP_caernavon KOORIVAR_SHIP_acre KOORIVAR_SHIP_pembroke KOORIVAR_SHIP_acheron KOORIVAR_SHIP_spithead KOORIVAR_SHIP_halifax KOORIVAR_SHIP_victoria KOORIVAR_SHIP_chatham KOORIVAR_SHIP_anchorage KOORIVAR_SHIP_scapa_flow KOORIVAR_SHIP_hampton_roads KOORIVAR_SHIP_brooklyn KOORIVAR_SHIP_norfolk KOORIVAR_SHIP_newport KOORIVAR_SHIP_guam KOORIVAR_SHIP_pensacola KOORIVAR_SHIP_vesuvius KOORIVAR_SHIP_mckinley KOORIVAR_SHIP_everest KOORIVAR_SHIP_kilimanjaro KOORIVAR_SHIP_aconcagua KOORIVAR_SHIP_elbrus KOORIVAR_SHIP_st__helens KOORIVAR_SHIP_fuji KOORIVAR_SHIP_olympus KOORIVAR_SHIP_sinai KOORIVAR_SHIP_ambrose KOORIVAR_SHIP_bermuda KOORIVAR_SHIP_farpoint KOORIVAR_SHIP_blue_star KOORIVAR_SHIP_olympus_mons KOORIVAR_SHIP_tharsis KOORIVAR_SHIP_syrtis KOORIVAR_SHIP_blackham KOORIVAR_SHIP_fletcher KOORIVAR_SHIP_perry KOORIVAR_SHIP_butakov KOORIVAR_SHIP_morris KOORIVAR_SHIP_moorsom KOORIVAR_SHIP_hart KOORIVAR_SHIP_hargood KOORIVAR_SHIP_spruance KOORIVAR_SHIP_tanaka KOORIVAR_SHIP_halsey KOORIVAR_SHIP_turner KOORIVAR_SHIP_doria KOORIVAR_SHIP_tirpitz KOORIVAR_SHIP_cunningham KOORIVAR_SHIP_jellicoe KOORIVAR_SHIP_hipper KOORIVAR_SHIP_beatty KOORIVAR_SHIP_potemkin KOORIVAR_SHIP_durham KOORIVAR_SHIP_codrington KOORIVAR_SHIP_milne KOORIVAR_SHIP_laforey KOORIVAR_SHIP_tyler KOORIVAR_SHIP_hawke KOORIVAR_SHIP_yonai KOORIVAR_SHIP_pound KOORIVAR_SHIP_king KOORIVAR_SHIP_crutchley KOORIVAR_SHIP_mountbatten KOORIVAR_SHIP_kountouriotis KOORIVAR_SHIP_kuznetsov KOORIVAR_SHIP_essen KOORIVAR_SHIP_kornilov KOORIVAR_SHIP_suffren KOORIVAR_SHIP_treville KOORIVAR_SHIP_villeneuve KOORIVAR_SHIP_grasse KOORIVAR_SHIP_byng KOORIVAR_SHIP_lezo
+		}
+		ion_cannon = {
+			KOORIVAR_SHIP_bombard KOORIVAR_SHIP_ballista KOORIVAR_SHIP_catapult KOORIVAR_SHIP_harpoon KOORIVAR_SHIP_polybolos KOORIVAR_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			KOORIVAR_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			KOORIVAR_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			KOORIVAR_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			KOORIVAR_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			KOORIVAR_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			KOORIVAR_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			KOORIVAR_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			KOORIVAR_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			KOORIVAR_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			KOORIVAR_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			KOORIVAR_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			KOORIVAR_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			KOORIVAR_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			KOORIVAR_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			KOORIVAR_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			KOORIVAR_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			KOORIVAR_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			KOORIVAR_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			KOORIVAR_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			KOORIVAR_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			KOORIVAR_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			KOORIVAR_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			KOORIVAR_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			KOORIVAR_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			KOORIVAR_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			KOORIVAR_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			KOORIVAR_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			KOORIVAR_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			KOORIVAR_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			KOORIVAR_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			KOORIVAR_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			KOORIVAR_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			KOORIVAR_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			KOORIVAR_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			KOORIVAR_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			KOORIVAR_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			KOORIVAR_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			KOORIVAR_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			KOORIVAR_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			KOORIVAR_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			KOORIVAR_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			KOORIVAR_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			KOORIVAR_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			KOORIVAR_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			KOORIVAR_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			KOORIVAR_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			KOORIVAR_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			KOORIVAR_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			KOORIVAR_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			KOORIVAR_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			KOORIVAR_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			KOORIVAR_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			KOORIVAR_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			KOORIVAR_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			KOORIVAR_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			KOORIVAR_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			KOORIVAR_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			KOORIVAR_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			KOORIVAR_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			KOORIVAR_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			KOORIVAR_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			KOORIVAR_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			KOORIVAR_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			KOORIVAR_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			KOORIVAR_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			KOORIVAR_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			KOORIVAR_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			KOORIVAR_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			KOORIVAR_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			KOORIVAR_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			KOORIVAR_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			KOORIVAR_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			KOORIVAR_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			KOORIVAR_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			KOORIVAR_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			KOORIVAR_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			KOORIVAR_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			KOORIVAR_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			KOORIVAR_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			KOORIVAR_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			KOORIVAR_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			KOORIVAR_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			KOORIVAR_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			KOORIVAR_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			KOORIVAR_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			KOORIVAR_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			KOORIVAR_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			KOORIVAR_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			KOORIVAR_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			KOORIVAR_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			KOORIVAR_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			KOORIVAR_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			KOORIVAR_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			KOORIVAR_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = KOORIVAR_FLEET_enforcer_group_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = KOORIVAR_ARMY_koorivian_guard_ORD
+		}
+		assault_army = {
+			sequential_name = KOORIVAR_ARMY_expeditionary_fusiliers_ORD
+		}
+		slave_army = {
+			sequential_name = KOORIVAR_ARMY_supervised_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = KOORIVAR_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = KOORIVAR_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = KOORIVAR_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = KOORIVAR_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = KOORIVAR_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				KOORIVAR_ARMY_sarc_a_fusiliers KOORIVAR_ARMY_sarc_b_fusiliers KOORIVAR_ARMY_sarc_c_fusiliers KOORIVAR_ARMY_sarc_d_fusiliers KOORIVAR_ARMY_sarc_e_fusiliers KOORIVAR_ARMY_sarc_f_fusiliers KOORIVAR_ARMY_sarc_g_fusiliers KOORIVAR_ARMY_sarc_h_fusiliers KOORIVAR_ARMY_sarc_i_fusiliers KOORIVAR_ARMY_sarc_j_fusiliers
+			}
+			sequential_name = KOORIVAR_ARMY_fusiliers_ORD
+		}
+		occupation_army = {
+			sequential_name = KOORIVAR_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = KOORIVAR_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = KOORIVAR_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = KOORIVAR_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = KOORIVAR_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = KOORIVAR_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = KOORIVAR_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = KOORIVAR_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = KOORIVAR_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = KOORIVAR_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = KOORIVAR_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = KOORIVAR_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = KOORIVAR_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = KOORIVAR_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = KOORIVAR_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = KOORIVAR_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = KOORIVAR_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = KOORIVAR_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = KOORIVAR_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = KOORIVAR_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = KOORIVAR_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = KOORIVAR_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = KOORIVAR_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = KOORIVAR_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = KOORIVAR_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = KOORIVAR_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = KOORIVAR_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = KOORIVAR_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = KOORIVAR_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = KOORIVAR_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = KOORIVAR_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = KOORIVAR_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = KOORIVAR_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = KOORIVAR_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = KOORIVAR_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = KOORIVAR_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = KOORIVAR_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = KOORIVAR_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = KOORIVAR_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = KOORIVAR_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = KOORIVAR_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = KOORIVAR_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = KOORIVAR_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = KOORIVAR_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = KOORIVAR_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = KOORIVAR_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = KOORIVAR_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = KOORIVAR_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = KOORIVAR_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = KOORIVAR_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = KOORIVAR_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = KOORIVAR_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = KOORIVAR_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = KOORIVAR_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = KOORIVAR_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = KOORIVAR_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = KOORIVAR_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = KOORIVAR_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = KOORIVAR_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = KOORIVAR_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = KOORIVAR_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = KOORIVAR_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = KOORIVAR_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = KOORIVAR_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = KOORIVAR_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = KOORIVAR_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = KOORIVAR_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = KOORIVAR_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = KOORIVAR_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = KOORIVAR_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = KOORIVAR_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = KOORIVAR_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = KOORIVAR_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = KOORIVAR_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = KOORIVAR_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = KOORIVAR_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = KOORIVAR_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = KOORIVAR_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = KOORIVAR_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = KOORIVAR_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = KOORIVAR_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = KOORIVAR_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = KOORIVAR_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = KOORIVAR_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = KOORIVAR_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = KOORIVAR_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = KOORIVAR_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = KOORIVAR_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = KOORIVAR_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = KOORIVAR_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = KOORIVAR_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = KOORIVAR_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = KOORIVAR_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = KOORIVAR_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = KOORIVAR_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = KOORIVAR_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = KOORIVAR_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = KOORIVAR_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = KOORIVAR_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = KOORIVAR_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = KOORIVAR_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = KOORIVAR_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = KOORIVAR_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = KOORIVAR_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = KOORIVAR_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = KOORIVAR_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = KOORIVAR_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = KOORIVAR_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = KOORIVAR_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = KOORIVAR_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = KOORIVAR_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = KOORIVAR_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = KOORIVAR_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = KOORIVAR_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = KOORIVAR_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = KOORIVAR_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = KOORIVAR_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = KOORIVAR_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = KOORIVAR_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = KOORIVAR_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = KOORIVAR_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = KOORIVAR_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = KOORIVAR_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = KOORIVAR_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = KOORIVAR_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = KOORIVAR_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = KOORIVAR_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = KOORIVAR_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = KOORIVAR_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = KOORIVAR_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = KOORIVAR_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = KOORIVAR_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				KOORIVAR_CHR_shand KOORIVAR_CHR_terrem KOORIVAR_CHR_menas KOORIVAR_CHR_passel KOORIVAR_CHR_bioto KOORIVAR_CHR_cala KOORIVAR_CHR_oro KOORIVAR_CHR_masel KOORIVAR_CHR_terrus KOORIVAR_CHR_tuten KOORIVAR_CHR_sheb KOORIVAR_CHR_aypo KOORIVAR_CHR_abdied KOORIVAR_CHR_adel KOORIVAR_CHR_abned KOORIVAR_CHR_adram KOORIVAR_CHR_adramsu KOORIVAR_CHR_adim KOORIVAR_CHR_ammai KOORIVAR_CHR_adimin KOORIVAR_CHR_aldai KOORIVAR_CHR_adridas KOORIVAR_CHR_adabu KOORIVAR_CHR_adir KOORIVAR_CHR_amozi KOORIVAR_CHR_adiom KOORIVAR_CHR_azaya KOORIVAR_CHR_ashel KOORIVAR_CHR_adiel KOORIVAR_CHR_babab KOORIVAR_CHR_badon KOORIVAR_CHR_bahadul KOORIVAR_CHR_bahmam KOORIVAR_CHR_bahral KOORIVAR_CHR_bassel KOORIVAR_CHR_budim KOORIVAR_CHR_cano KOORIVAR_CHR_chayid KOORIVAR_CHR_dano KOORIVAR_CHR_doder KOORIVAR_CHR_efrayi KOORIVAR_CHR_eiyaho KOORIVAR_CHR_eder KOORIVAR_CHR_edaalo KOORIVAR_CHR_eldauim KOORIVAR_CHR_fudel KOORIVAR_CHR_fedish KOORIVAR_CHR_dag KOORIVAR_CHR_dadid KOORIVAR_CHR_dedaliah KOORIVAR_CHR_orshom KOORIVAR_CHR_gedom KOORIVAR_CHR_gedel KOORIVAR_CHR_kudil KOORIVAR_CHR_lemual KOORIVAR_CHR_ledi KOORIVAR_CHR_mababam KOORIVAR_CHR_menabem KOORIVAR_CHR_mebabe KOORIVAR_CHR_mendal KOORIVAR_CHR_bordecaii KOORIVAR_CHR_soshe KOORIVAR_CHR_nashe KOORIVAR_CHR_batan KOORIVAR_CHR_detanaiel KOORIVAR_CHR_boach KOORIVAR_CHR_shoam KOORIVAR_CHR_shineas KOORIVAR_CHR_redae KOORIVAR_CHR_reuden KOORIVAR_CHR_salo KOORIVAR_CHR_shoul KOORIVAR_CHR_sdimion KOORIVAR_CHR_somo KOORIVAR_CHR_slumel KOORIVAR_CHR_smaryahu KOORIVAR_CHR_sheur KOORIVAR_CHR_shada KOORIVAR_CHR_todro KOORIVAR_CHR_todiyah KOORIVAR_CHR_tdi KOORIVAR_CHR_udi KOORIVAR_CHR_daakod KOORIVAR_CHR_ededel KOORIVAR_CHR_yebiel KOORIVAR_CHR_yebibyah KOORIVAR_CHR_yebet KOORIVAR_CHR_jadeth KOORIVAR_CHR_yedoua KOORIVAR_CHR_yeduda KOORIVAR_CHR_yedudel KOORIVAR_CHR_yebayau KOORIVAR_CHR_yibtad KOORIVAR_CHR_yebtab KOORIVAR_CHR_yibael KOORIVAR_CHR_yiddada KOORIVAR_CHR_yidal KOORIVAR_CHR_yiduul KOORIVAR_CHR_yoad KOORIVAR_CHR_yoel KOORIVAR_CHR_yodaan KOORIVAR_CHR_yod_bod KOORIVAR_CHR_yobah KOORIVAR_CHR_bodam KOORIVAR_CHR_ye_ed KOORIVAR_CHR_zibulun KOORIVAR_CHR_zelib KOORIVAR_CHR_zubel KOORIVAR_CHR_zuddya
+			}
+			first_names_female = {
+				KOORIVAR_CHR_leosa KOORIVAR_CHR_sariyah KOORIVAR_CHR_denaria KOORIVAR_CHR_makarial KOORIVAR_CHR_basella KOORIVAR_CHR_dibella KOORIVAR_CHR_sadah KOORIVAR_CHR_sadina KOORIVAR_CHR_lalde KOORIVAR_CHR_adena KOORIVAR_CHR_adidai KOORIVAR_CHR_adida KOORIVAR_CHR_baya KOORIVAR_CHR_didiha KOORIVAR_CHR_seina KOORIVAR_CHR_sunah KOORIVAR_CHR_dhanai KOORIVAR_CHR_dasa KOORIVAR_CHR_mahdha KOORIVAR_CHR_haba KOORIVAR_CHR_dhaya KOORIVAR_CHR_boballa KOORIVAR_CHR_dohsa KOORIVAR_CHR_esdel KOORIVAR_CHR_deida KOORIVAR_CHR_beida KOORIVAR_CHR_selleh KOORIVAR_CHR_senana KOORIVAR_CHR_disse KOORIVAR_CHR_gildoa KOORIVAR_CHR_gunaha KOORIVAR_CHR_gadia KOORIVAR_CHR_hadaddah KOORIVAR_CHR_leaada KOORIVAR_CHR_lieda KOORIVAR_CHR_madla KOORIVAR_CHR_malba KOORIVAR_CHR_mabola KOORIVAR_CHR_maseh KOORIVAR_CHR_mabona KOORIVAR_CHR_mabilba KOORIVAR_CHR_mabal KOORIVAR_CHR_mebudhah KOORIVAR_CHR_mibiam KOORIVAR_CHR_mibyam KOORIVAR_CHR_nabalah KOORIVAR_CHR_nedamah KOORIVAR_CHR_puahda KOORIVAR_CHR_pebibah KOORIVAR_CHR_rabel KOORIVAR_CHR_ribiah KOORIVAR_CHR_rhoba KOORIVAR_CHR_roda KOORIVAR_CHR_sabah KOORIVAR_CHR_sadah KOORIVAR_CHR_shobanah KOORIVAR_CHR_shulamib KOORIVAR_CHR_simballa KOORIVAR_CHR_tada KOORIVAR_CHR_tediah KOORIVAR_CHR_tibah KOORIVAR_CHR_tobah KOORIVAR_CHR_tibborah KOORIVAR_CHR_tsibbe KOORIVAR_CHR_tsibba KOORIVAR_CHR_tsibiah KOORIVAR_CHR_yaebla KOORIVAR_CHR_yabbah KOORIVAR_CHR_yebuidth KOORIVAR_CHR_isbah KOORIVAR_CHR_yobanah KOORIVAR_CHR_yobah KOORIVAR_CHR_zeba KOORIVAR_CHR_zibba KOORIVAR_CHR_zaba
+			}
+			second_names = {
+				KOORIVAR_CHR_essil KOORIVAR_CHR_jesond KOORIVAR_CHR_neyrr KOORIVAR_CHR_vantare KOORIVAR_CHR_argente KOORIVAR_CHR_bracchia KOORIVAR_CHR_budan KOORIVAR_CHR_kee KOORIVAR_CHR_dassyne KOORIVAR_CHR_gravin KOORIVAR_CHR_valaad
+			}
+			regnal_first_names_male = {
+				KOORIVAR_CHR_shand KOORIVAR_CHR_terrem KOORIVAR_CHR_menas KOORIVAR_CHR_passel KOORIVAR_CHR_bioto KOORIVAR_CHR_cala KOORIVAR_CHR_oro KOORIVAR_CHR_masel KOORIVAR_CHR_terrus KOORIVAR_CHR_tuten KOORIVAR_CHR_sheb KOORIVAR_CHR_aypo KOORIVAR_CHR_abdied KOORIVAR_CHR_adel KOORIVAR_CHR_abned KOORIVAR_CHR_adram KOORIVAR_CHR_adramsu KOORIVAR_CHR_adim KOORIVAR_CHR_ammai KOORIVAR_CHR_adimin KOORIVAR_CHR_aldai KOORIVAR_CHR_adridas KOORIVAR_CHR_adabu KOORIVAR_CHR_adir KOORIVAR_CHR_amozi KOORIVAR_CHR_adiom KOORIVAR_CHR_azaya KOORIVAR_CHR_ashel KOORIVAR_CHR_adiel KOORIVAR_CHR_babab KOORIVAR_CHR_badon KOORIVAR_CHR_bahadul KOORIVAR_CHR_bahmam KOORIVAR_CHR_bahral KOORIVAR_CHR_bassel KOORIVAR_CHR_budim KOORIVAR_CHR_cano KOORIVAR_CHR_chayid KOORIVAR_CHR_dano KOORIVAR_CHR_doder KOORIVAR_CHR_efrayi KOORIVAR_CHR_eiyaho KOORIVAR_CHR_eder KOORIVAR_CHR_edaalo KOORIVAR_CHR_eldauim KOORIVAR_CHR_fudel KOORIVAR_CHR_fedish KOORIVAR_CHR_dag KOORIVAR_CHR_dadid KOORIVAR_CHR_dedaliah KOORIVAR_CHR_orshom KOORIVAR_CHR_gedom KOORIVAR_CHR_gedel KOORIVAR_CHR_kudil KOORIVAR_CHR_lemual KOORIVAR_CHR_ledi KOORIVAR_CHR_mababam KOORIVAR_CHR_menabem KOORIVAR_CHR_mebabe KOORIVAR_CHR_mendal KOORIVAR_CHR_bordecaii KOORIVAR_CHR_soshe KOORIVAR_CHR_nashe KOORIVAR_CHR_batan KOORIVAR_CHR_detanaiel KOORIVAR_CHR_boach KOORIVAR_CHR_shoam KOORIVAR_CHR_shineas KOORIVAR_CHR_redae KOORIVAR_CHR_reuden KOORIVAR_CHR_salo KOORIVAR_CHR_shoul KOORIVAR_CHR_sdimion KOORIVAR_CHR_somo KOORIVAR_CHR_slumel KOORIVAR_CHR_smaryahu KOORIVAR_CHR_sheur KOORIVAR_CHR_shada KOORIVAR_CHR_todro KOORIVAR_CHR_todiyah KOORIVAR_CHR_tdi KOORIVAR_CHR_udi KOORIVAR_CHR_daakod KOORIVAR_CHR_ededel KOORIVAR_CHR_yebiel KOORIVAR_CHR_yebibyah KOORIVAR_CHR_yebet KOORIVAR_CHR_jadeth KOORIVAR_CHR_yedoua KOORIVAR_CHR_yeduda KOORIVAR_CHR_yedudel KOORIVAR_CHR_yebayau KOORIVAR_CHR_yibtad KOORIVAR_CHR_yebtab KOORIVAR_CHR_yibael KOORIVAR_CHR_yiddada KOORIVAR_CHR_yidal KOORIVAR_CHR_yiduul KOORIVAR_CHR_yoad KOORIVAR_CHR_yoel KOORIVAR_CHR_yodaan KOORIVAR_CHR_yod_bod KOORIVAR_CHR_yobah KOORIVAR_CHR_bodam KOORIVAR_CHR_ye_ed KOORIVAR_CHR_zibulun KOORIVAR_CHR_zelib KOORIVAR_CHR_zubel KOORIVAR_CHR_zuddya
+			}
+			regnal_first_names_female = {
+				KOORIVAR_CHR_leosa KOORIVAR_CHR_sariyah KOORIVAR_CHR_denaria KOORIVAR_CHR_makarial KOORIVAR_CHR_basella KOORIVAR_CHR_dibella KOORIVAR_CHR_sadah KOORIVAR_CHR_sadina KOORIVAR_CHR_lalde KOORIVAR_CHR_adena KOORIVAR_CHR_adidai KOORIVAR_CHR_adida KOORIVAR_CHR_baya KOORIVAR_CHR_didiha KOORIVAR_CHR_seina KOORIVAR_CHR_sunah KOORIVAR_CHR_dhanai KOORIVAR_CHR_dasa KOORIVAR_CHR_mahdha KOORIVAR_CHR_haba KOORIVAR_CHR_dhaya KOORIVAR_CHR_boballa KOORIVAR_CHR_dohsa KOORIVAR_CHR_esdel KOORIVAR_CHR_deida KOORIVAR_CHR_beida KOORIVAR_CHR_selleh KOORIVAR_CHR_senana KOORIVAR_CHR_disse KOORIVAR_CHR_gildoa KOORIVAR_CHR_gunaha KOORIVAR_CHR_gadia KOORIVAR_CHR_hadaddah KOORIVAR_CHR_leaada KOORIVAR_CHR_lieda KOORIVAR_CHR_madla KOORIVAR_CHR_malba KOORIVAR_CHR_mabola KOORIVAR_CHR_maseh KOORIVAR_CHR_mabona KOORIVAR_CHR_mabilba KOORIVAR_CHR_mabal KOORIVAR_CHR_mebudhah KOORIVAR_CHR_mibiam KOORIVAR_CHR_mibyam KOORIVAR_CHR_nabalah KOORIVAR_CHR_nedamah KOORIVAR_CHR_puahda KOORIVAR_CHR_pebibah KOORIVAR_CHR_rabel KOORIVAR_CHR_ribiah KOORIVAR_CHR_rhoba KOORIVAR_CHR_roda KOORIVAR_CHR_sabah KOORIVAR_CHR_sadah KOORIVAR_CHR_shobanah KOORIVAR_CHR_shulamib KOORIVAR_CHR_simballa KOORIVAR_CHR_tada KOORIVAR_CHR_tediah KOORIVAR_CHR_tibah KOORIVAR_CHR_tobah KOORIVAR_CHR_tibborah KOORIVAR_CHR_tsibbe KOORIVAR_CHR_tsibba KOORIVAR_CHR_tsibiah KOORIVAR_CHR_yaebla KOORIVAR_CHR_yabbah KOORIVAR_CHR_yebuidth KOORIVAR_CHR_isbah KOORIVAR_CHR_yobanah KOORIVAR_CHR_yobah KOORIVAR_CHR_zeba KOORIVAR_CHR_zibba KOORIVAR_CHR_zaba
+			}
+			regnal_second_names = {
+				KOORIVAR_CHR_essil KOORIVAR_CHR_jesond KOORIVAR_CHR_neyrr KOORIVAR_CHR_vantare KOORIVAR_CHR_argente KOORIVAR_CHR_bracchia KOORIVAR_CHR_budan KOORIVAR_CHR_kee KOORIVAR_CHR_dassyne KOORIVAR_CHR_gravin KOORIVAR_CHR_valaad
+			}
+		}
+	}
+}

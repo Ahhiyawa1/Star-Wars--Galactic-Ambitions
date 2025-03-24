@@ -1,0 +1,43 @@
+### Star Wars: Timeline Extension and Content ### 
+
+
+
+############ AUTHORITIES ############
+
+
+## GALACTIC REPUBLIC SPHERE AUTHORITIES ##
+
+
+# Galactic Republic Authority
+auth_galactic_republic = {
+	election_term_years = 10
+	re_election_allowed = no
+	election_type = democratic
+	valid_for_released_vassal = no
+	can_reform = no
+
+	uses_mandates = yes
+
+	ruler_council_position = councilor_ruler_democratic
+
+	country_modifier = {
+		country_influence_produces_mult = -0.25
+		country_war_exhaustion_mult = -0.5
+		country_leader_pool_size = 250
+		max_embassies = 1500
+		subject_tribute_mult = 0.2
+		country_starbase_capacity_add = 30
+		country_naval_cap_add = -0.06
+		country_government_civic_points_add = 3
+		veto_cooldown_mult = -0.10
+		monthly_loyalty = 0.12
+		country_resource_max_minerals_add = 100
+		country_resource_max_energy_add = -500
+	}
+
+	tags = {
+		AUTHORITY_SUCCESSION_TYPE
+		AUTHORITY_DEMOCRATIC_SUCCESSION
+		AUTHORITY_ELECTION_DEMOCRATIC		
+	}
+}

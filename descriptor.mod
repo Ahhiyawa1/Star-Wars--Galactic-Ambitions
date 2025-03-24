@@ -1,0 +1,17 @@
+version="3.17"
+tags={
+	"Total Conversion"
+	"Species"
+	"Sound"
+	"Loading Screen"
+	"Spaceships"
+	"Technologies"
+	"Gameplay"
+	"Buildings"
+	"Galaxy Generation"
+	"Events"
+}
+name="Star Wars: Galactic Ambitions [Work In Progress]"
+picture="thumbnail.png"
+supported_version="v3.14.15926"
+remote_file_id="3448851232"

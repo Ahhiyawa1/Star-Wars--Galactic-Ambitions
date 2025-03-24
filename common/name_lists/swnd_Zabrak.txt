@@ -1,0 +1,847 @@
+﻿Zabrak = {
+	randomized = no
+	ship_names = {
+		generic = {
+			ZABRAK_SHIP_apologia ZABRAK_SHIP_penance ZABRAK_SHIP_flagellant ZABRAK_SHIP_inquisitor ZABRAK_SHIP_crusader ZABRAK_SHIP_benedictive ZABRAK_SHIP_noblesse ZABRAK_SHIP_invoker ZABRAK_SHIP_dedicator ZABRAK_SHIP_orison ZABRAK_SHIP_sacrament ZABRAK_SHIP_beatitude ZABRAK_SHIP_divine_favor ZABRAK_SHIP_divine_light ZABRAK_SHIP_godsent ZABRAK_SHIP_consecrator ZABRAK_SHIP_ecumency ZABRAK_SHIP_epochal ZABRAK_SHIP_dispensation ZABRAK_SHIP_clemency ZABRAK_SHIP_absolution ZABRAK_SHIP_horned_crown ZABRAK_SHIP_fundamental ZABRAK_SHIP_commandment ZABRAK_SHIP_sepulcher ZABRAK_SHIP_catacomb ZABRAK_SHIP_mausoleum ZABRAK_SHIP_good_faith ZABRAK_SHIP_sacrifice ZABRAK_SHIP_sacrificial ZABRAK_SHIP_ritual ZABRAK_SHIP_blooded_force ZABRAK_SHIP_reliquary ZABRAK_SHIP_sunblessed ZABRAK_SHIP_blazecursed ZABRAK_SHIP_possessed ZABRAK_SHIP_occultant ZABRAK_SHIP_exile ZABRAK_SHIP_immolator ZABRAK_SHIP_martyr ZABRAK_SHIP_fetish ZABRAK_SHIP_talisman ZABRAK_SHIP_runelord ZABRAK_SHIP_mortuary ZABRAK_SHIP_sepulchral ZABRAK_SHIP_forsworn ZABRAK_SHIP_soulsworn ZABRAK_SHIP_soulbound ZABRAK_SHIP_faithful ZABRAK_SHIP_redeemer ZABRAK_SHIP_spirit_child ZABRAK_SHIP_lost_son ZABRAK_SHIP_witch_hammer ZABRAK_SHIP_sacrosanct ZABRAK_SHIP_sanctity_of_battle ZABRAK_SHIP_purifier ZABRAK_SHIP_sanctum ZABRAK_SHIP_sanctified ZABRAK_SHIP_initiate ZABRAK_SHIP_balefire ZABRAK_SHIP_godspeed ZABRAK_SHIP_empowerment ZABRAK_SHIP_savior ZABRAK_SHIP_prophet ZABRAK_SHIP_mission ZABRAK_SHIP_monastic ZABRAK_SHIP_doomsayer ZABRAK_SHIP_sojourner ZABRAK_SHIP_blood_horn ZABRAK_SHIP_possessor ZABRAK_SHIP_arcane ZABRAK_SHIP_sorceress ZABRAK_SHIP_witch_hour ZABRAK_SHIP_magos ZABRAK_SHIP_thaumaturge ZABRAK_SHIP_alchemist ZABRAK_SHIP_redemption ZABRAK_SHIP_ascetic ZABRAK_SHIP_sanctification ZABRAK_SHIP_baptismal ZABRAK_SHIP_mortis ZABRAK_SHIP_sigil ZABRAK_SHIP_practitioner ZABRAK_SHIP_convert ZABRAK_SHIP_zealot ZABRAK_SHIP_apostle ZABRAK_SHIP_atonement ZABRAK_SHIP_cauldron ZABRAK_SHIP_apothecary ZABRAK_SHIP_apotheosis ZABRAK_SHIP_totem ZABRAK_SHIP_neophyte ZABRAK_SHIP_baroque ZABRAK_SHIP_diviner ZABRAK_SHIP_soothsayer ZABRAK_SHIP_pilgrim ZABRAK_SHIP_preacher ZABRAK_SHIP_benediction ZABRAK_SHIP_deathbed ZABRAK_SHIP_shaman ZABRAK_SHIP_wisewoman ZABRAK_SHIP_elder ZABRAK_SHIP_puritan ZABRAK_SHIP_dirge ZABRAK_SHIP_hymnos ZABRAK_SHIP_congregant ZABRAK_SHIP_gospel_of_iridonia ZABRAK_SHIP_prayer_for_iridonia ZABRAK_SHIP_shabad ZABRAK_SHIP_altar_of_war ZABRAK_SHIP_liturgy ZABRAK_SHIP_laywarrior ZABRAK_SHIP_divine_wrath ZABRAK_SHIP_obedience ZABRAK_SHIP_purgatory ZABRAK_SHIP_submission ZABRAK_SHIP_eternity_s_end ZABRAK_SHIP_afterlife ZABRAK_SHIP_hellfire ZABRAK_SHIP_underworld ZABRAK_SHIP_conjurer ZABRAK_SHIP_summoner ZABRAK_SHIP_disciple ZABRAK_SHIP_discipline ZABRAK_SHIP_messiah ZABRAK_SHIP_enlightened ZABRAK_SHIP_purity ZABRAK_SHIP_pious ZABRAK_SHIP_feldrona ZABRAK_SHIP_bao_dur ZABRAK_SHIP_koon_odan ZABRAK_SHIP_confession ZABRAK_SHIP_abthane ZABRAK_SHIP_chalice_of_the_faithful ZABRAK_SHIP_chosen ZABRAK_SHIP_communion ZABRAK_SHIP_providence ZABRAK_SHIP_exegesis ZABRAK_SHIP_moxsha ZABRAK_SHIP_orthodox_rex ZABRAK_SHIP_revelation ZABRAK_SHIP_righteous ZABRAK_SHIP_supplicant ZABRAK_SHIP_tithe_taker ZABRAK_SHIP_crusader_s_due ZABRAK_SHIP_penitent_throne ZABRAK_SHIP_golem ZABRAK_SHIP_almighty ZABRAK_SHIP_judgement ZABRAK_SHIP_tribulation ZABRAK_SHIP_resurrected ZABRAK_SHIP_undying ZABRAK_SHIP_paradise ZABRAK_SHIP_ordination ZABRAK_SHIP_divine_right ZABRAK_SHIP_charisma ZABRAK_SHIP_affirmation ZABRAK_SHIP_kataphatic ZABRAK_SHIP_mystic ZABRAK_SHIP_silent_choir ZABRAK_SHIP_dogma ZABRAK_SHIP_transcendent ZABRAK_SHIP_epiphany ZABRAK_SHIP_essence ZABRAK_SHIP_arduous ZABRAK_SHIP_blessed ZABRAK_SHIP_kosmogonia ZABRAK_SHIP_pronouncer ZABRAK_SHIP_eternal_reward ZABRAK_SHIP_denunciator ZABRAK_SHIP_exorcist ZABRAK_SHIP_illuminator ZABRAK_SHIP_chastisement ZABRAK_SHIP_absolver ZABRAK_SHIP_twin_promise ZABRAK_SHIP_awakener ZABRAK_SHIP_guru ZABRAK_SHIP_inner_peace ZABRAK_SHIP_involution ZABRAK_SHIP_trial_of_koana ZABRAK_SHIP_meditator ZABRAK_SHIP_mind_s_eye ZABRAK_SHIP_vision_of_revival ZABRAK_SHIP_theosis ZABRAK_SHIP_transcendental ZABRAK_SHIP_incarnation ZABRAK_SHIP_kao_cen ZABRAK_SHIP_purgation_s_fire ZABRAK_SHIP_anointed_edge ZABRAK_SHIP_devotional ZABRAK_SHIP_godhead ZABRAK_SHIP_aurodium_gate ZABRAK_SHIP_mark_of_the_horn ZABRAK_SHIP_oblator ZABRAK_SHIP_enraptured ZABRAK_SHIP_enthraller ZABRAK_SHIP_quadlemma ZABRAK_SHIP_crown_of_horns ZABRAK_SHIP_henshin ZABRAK_SHIP_admiral_numinn ZABRAK_SHIP_corin_tok ZABRAK_SHIP_vikto ZABRAK_SHIP_crimson_litany ZABRAK_SHIP_castigator
+		}
+		swp_bellator = {
+			ZABRAK_SHIP_crown_of_horns ZABRAK_SHIP_harbinger ZABRAK_SHIP_aurodium_gate ZABRAK_SHIP_mind_s_eye ZABRAK_SHIP_bao_dur ZABRAK_SHIP_messiah ZABRAK_SHIP_redemption ZABRAK_SHIP_witch_hammer ZABRAK_SHIP_pennance ZABRAK_SHIP_devotee ZABRAK_SHIP_nightbrother
+		}
+		science = {
+			ZABRAK_SHIP_pilgrim ZABRAK_SHIP_jihaval ZABRAK_SHIP_mission ZABRAK_SHIP_fervent ZABRAK_SHIP_crier ZABRAK_SHIP_witness ZABRAK_SHIP_abiding_supplicant ZABRAK_SHIP_good_shepherd ZABRAK_SHIP_god_driven ZABRAK_SHIP_graven ZABRAK_SHIP_alacrity ZABRAK_SHIP_satyr ZABRAK_SHIP_prospero ZABRAK_SHIP_untiring ZABRAK_SHIP_zenith ZABRAK_SHIP_sacred_torch ZABRAK_SHIP_remembrance
+		}
+		colonizer = {
+			ZABRAK_SHIP_godspeed ZABRAK_SHIP_novaflower ZABRAK_SHIP_zabrak_destiny ZABRAK_SHIP_iridon ZABRAK_SHIP_hornsprout ZABRAK_SHIP_aurodium_city ZABRAK_SHIP_pioneer_blessing ZABRAK_SHIP_sacred_journey ZABRAK_SHIP_martyr_tears ZABRAK_SHIP_promised_land ZABRAK_SHIP_gospel ZABRAK_SHIP_hajjar ZABRAK_SHIP_divine_wind ZABRAK_SHIP_breath_of_iridonia ZABRAK_SHIP_good_word
+		}
+		sponsored_colonizer = {
+			ZABRAK_SHIP_godspeed ZABRAK_SHIP_novaflower ZABRAK_SHIP_zabrak_destiny ZABRAK_SHIP_iridon ZABRAK_SHIP_hornsprout ZABRAK_SHIP_aurodium_city ZABRAK_SHIP_pioneer_blessing ZABRAK_SHIP_sacred_journey ZABRAK_SHIP_martyr_tears ZABRAK_SHIP_promised_land ZABRAK_SHIP_gospel ZABRAK_SHIP_hajjar ZABRAK_SHIP_divine_wind ZABRAK_SHIP_breath_of_iridonia ZABRAK_SHIP_good_word
+		}
+		constructor = {
+			ZABRAK_SHIP_engraver ZABRAK_SHIP_illuminator ZABRAK_SHIP_benevolent ZABRAK_SHIP_divine_labor ZABRAK_SHIP_inspired ZABRAK_SHIP_divine_instrument ZABRAK_SHIP_ruminator ZABRAK_SHIP_penumbral ZABRAK_SHIP_inscriber ZABRAK_SHIP_manuscriptor ZABRAK_SHIP_channeler ZABRAK_SHIP_blessed_hand
+		}
+		transport = {
+			ZABRAK_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			ZABRAK_SHIP_spacegun_victory ZABRAK_SHIP_spacegun_success ZABRAK_SHIP_spacegun_supremacy ZABRAK_SHIP_spacegun_superior ZABRAK_SHIP_spacegun_adventure ZABRAK_SHIP_spacegun_ascendancy ZABRAK_SHIP_spacegun_paramount ZABRAK_SHIP_spacegun_preponderous ZABRAK_SHIP_spacegun_exemplary ZABRAK_SHIP_spacegun_eximious ZABRAK_SHIP_spacegun_pertinacity ZABRAK_SHIP_spacegun_acclaim ZABRAK_SHIP_spacegun_honor ZABRAK_SHIP_spacegun_renown ZABRAK_SHIP_spacegun_glory ZABRAK_SHIP_spacegun_superb ZABRAK_SHIP_spacegun_magnificence ZABRAK_SHIP_spacegun_majestic ZABRAK_SHIP_spacegun_splendor ZABRAK_SHIP_spacegun_paradigm ZABRAK_SHIP_spacegun_flawless ZABRAK_SHIP_spacegun_consummate ZABRAK_SHIP_spacegun_merit ZABRAK_SHIP_spacegun_perfection ZABRAK_SHIP_spacegun_virtue ZABRAK_SHIP_spacegun_advantage ZABRAK_SHIP_spacegun_rectitude ZABRAK_SHIP_spacegun_incorruptible ZABRAK_SHIP_spacegun_integrity ZABRAK_SHIP_spacegun_justice ZABRAK_SHIP_spacegun_probity ZABRAK_SHIP_spacegun_prudence ZABRAK_SHIP_spacegun_purity ZABRAK_SHIP_spacegun_resolute ZABRAK_SHIP_spacegun_dignity ZABRAK_SHIP_spacegun_distinction ZABRAK_SHIP_spacegun_excellence ZABRAK_SHIP_spacegun_faithful ZABRAK_SHIP_spacegun_discipline ZABRAK_SHIP_spacegun_steadfast ZABRAK_SHIP_spacegun_recompense ZABRAK_SHIP_spacegun_requiem ZABRAK_SHIP_spacegun_courage ZABRAK_SHIP_spacegun_valor ZABRAK_SHIP_spacegun_gallant ZABRAK_SHIP_spacegun_daring ZABRAK_SHIP_spacegun_constancy ZABRAK_SHIP_spacegun_perseverence ZABRAK_SHIP_spacegun_tenacity ZABRAK_SHIP_spacegun_sedulity ZABRAK_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			ZABRAK_SHIP_spacegun_victory ZABRAK_SHIP_spacegun_success ZABRAK_SHIP_spacegun_supremacy ZABRAK_SHIP_spacegun_superior ZABRAK_SHIP_spacegun_adventure ZABRAK_SHIP_spacegun_ascendancy ZABRAK_SHIP_spacegun_paramount ZABRAK_SHIP_spacegun_preponderous ZABRAK_SHIP_spacegun_exemplary ZABRAK_SHIP_spacegun_eximious ZABRAK_SHIP_spacegun_pertinacity ZABRAK_SHIP_spacegun_acclaim ZABRAK_SHIP_spacegun_honor ZABRAK_SHIP_spacegun_renown ZABRAK_SHIP_spacegun_glory ZABRAK_SHIP_spacegun_superb ZABRAK_SHIP_spacegun_magnificence ZABRAK_SHIP_spacegun_majestic ZABRAK_SHIP_spacegun_splendor ZABRAK_SHIP_spacegun_paradigm ZABRAK_SHIP_spacegun_flawless ZABRAK_SHIP_spacegun_consummate ZABRAK_SHIP_spacegun_merit ZABRAK_SHIP_spacegun_perfection ZABRAK_SHIP_spacegun_virtue ZABRAK_SHIP_spacegun_advantage ZABRAK_SHIP_spacegun_rectitude ZABRAK_SHIP_spacegun_incorruptible ZABRAK_SHIP_spacegun_integrity ZABRAK_SHIP_spacegun_justice ZABRAK_SHIP_spacegun_probity ZABRAK_SHIP_spacegun_prudence ZABRAK_SHIP_spacegun_purity ZABRAK_SHIP_spacegun_resolute ZABRAK_SHIP_spacegun_dignity ZABRAK_SHIP_spacegun_distinction ZABRAK_SHIP_spacegun_excellence ZABRAK_SHIP_spacegun_faithful ZABRAK_SHIP_spacegun_discipline ZABRAK_SHIP_spacegun_steadfast ZABRAK_SHIP_spacegun_recompense ZABRAK_SHIP_spacegun_requiem ZABRAK_SHIP_spacegun_courage ZABRAK_SHIP_spacegun_valor ZABRAK_SHIP_spacegun_gallant ZABRAK_SHIP_spacegun_daring ZABRAK_SHIP_spacegun_constancy ZABRAK_SHIP_spacegun_perseverence ZABRAK_SHIP_spacegun_tenacity ZABRAK_SHIP_spacegun_sedulity ZABRAK_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			ZABRAK_SHIP_spacegun_victory ZABRAK_SHIP_spacegun_success ZABRAK_SHIP_spacegun_supremacy ZABRAK_SHIP_spacegun_superior ZABRAK_SHIP_spacegun_adventure ZABRAK_SHIP_spacegun_ascendancy ZABRAK_SHIP_spacegun_paramount ZABRAK_SHIP_spacegun_preponderous ZABRAK_SHIP_spacegun_exemplary ZABRAK_SHIP_spacegun_eximious ZABRAK_SHIP_spacegun_pertinacity ZABRAK_SHIP_spacegun_acclaim ZABRAK_SHIP_spacegun_honor ZABRAK_SHIP_spacegun_renown ZABRAK_SHIP_spacegun_glory ZABRAK_SHIP_spacegun_superb ZABRAK_SHIP_spacegun_magnificence ZABRAK_SHIP_spacegun_majestic ZABRAK_SHIP_spacegun_splendor ZABRAK_SHIP_spacegun_paradigm ZABRAK_SHIP_spacegun_flawless ZABRAK_SHIP_spacegun_consummate ZABRAK_SHIP_spacegun_merit ZABRAK_SHIP_spacegun_perfection ZABRAK_SHIP_spacegun_virtue ZABRAK_SHIP_spacegun_advantage ZABRAK_SHIP_spacegun_rectitude ZABRAK_SHIP_spacegun_incorruptible ZABRAK_SHIP_spacegun_integrity ZABRAK_SHIP_spacegun_justice ZABRAK_SHIP_spacegun_probity ZABRAK_SHIP_spacegun_prudence ZABRAK_SHIP_spacegun_purity ZABRAK_SHIP_spacegun_resolute ZABRAK_SHIP_spacegun_dignity ZABRAK_SHIP_spacegun_distinction ZABRAK_SHIP_spacegun_excellence ZABRAK_SHIP_spacegun_faithful ZABRAK_SHIP_spacegun_discipline ZABRAK_SHIP_spacegun_steadfast ZABRAK_SHIP_spacegun_recompense ZABRAK_SHIP_spacegun_requiem ZABRAK_SHIP_spacegun_courage ZABRAK_SHIP_spacegun_valor ZABRAK_SHIP_spacegun_gallant ZABRAK_SHIP_spacegun_daring ZABRAK_SHIP_spacegun_constancy ZABRAK_SHIP_spacegun_perseverence ZABRAK_SHIP_spacegun_tenacity ZABRAK_SHIP_spacegun_sedulity ZABRAK_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			ZABRAK_SHIP_aldo_spachian ZABRAK_SHIP_ceraxian ZABRAK_SHIP_corphelion ZABRAK_SHIP_cularin ZABRAK_SHIP_kiara ZABRAK_SHIP_kinro ZABRAK_SHIP_nalzin ZABRAK_SHIP_rainbow ZABRAK_SHIP_stroketcy ZABRAK_SHIP_telaris ZABRAK_SHIP_aniras ZABRAK_SHIP_belgaroth ZABRAK_SHIP_cerberon ZABRAK_SHIP_guaviar ZABRAK_SHIP_kuliquo ZABRAK_SHIP_lost_soul ZABRAK_SHIP_norvon ZABRAK_SHIP_shosho ZABRAK_SHIP_thrugii ZABRAK_SHIP_vergesso ZABRAK_SHIP_voxx
+		}
+		ion_cannon = {
+			ZABRAK_SHIP_bombard ZABRAK_SHIP_ballista ZABRAK_SHIP_catapult ZABRAK_SHIP_harpoon ZABRAK_SHIP_polybolos ZABRAK_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			ZABRAK_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			ZABRAK_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			ZABRAK_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			ZABRAK_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			ZABRAK_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			ZABRAK_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			ZABRAK_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			ZABRAK_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			ZABRAK_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			ZABRAK_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			ZABRAK_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			ZABRAK_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			ZABRAK_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			ZABRAK_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			ZABRAK_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			ZABRAK_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			ZABRAK_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			ZABRAK_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			ZABRAK_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			ZABRAK_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			ZABRAK_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			ZABRAK_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			ZABRAK_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			ZABRAK_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			ZABRAK_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			ZABRAK_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			ZABRAK_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			ZABRAK_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			ZABRAK_SHIP_CLASS_imperial_escort
+		}
+		swp_quasar_frigate = {
+			ZABRAK_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			ZABRAK_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			ZABRAK_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			ZABRAK_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			ZABRAK_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			ZABRAK_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			ZABRAK_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			ZABRAK_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			ZABRAK_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			ZABRAK_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			ZABRAK_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			ZABRAK_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			ZABRAK_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			ZABRAK_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			ZABRAK_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			ZABRAK_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			ZABRAK_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			ZABRAK_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			ZABRAK_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			ZABRAK_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			ZABRAK_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			ZABRAK_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			ZABRAK_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			ZABRAK_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			ZABRAK_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			ZABRAK_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			ZABRAK_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			ZABRAK_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			ZABRAK_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			ZABRAK_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			ZABRAK_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			ZABRAK_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			ZABRAK_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			ZABRAK_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			ZABRAK_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			ZABRAK_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			ZABRAK_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			ZABRAK_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			ZABRAK_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			ZABRAK_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			ZABRAK_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			ZABRAK_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			ZABRAK_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			ZABRAK_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			ZABRAK_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			ZABRAK_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			ZABRAK_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			ZABRAK_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			ZABRAK_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			ZABRAK_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			ZABRAK_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			ZABRAK_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			ZABRAK_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			ZABRAK_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			ZABRAK_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			ZABRAK_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			ZABRAK_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			ZABRAK_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			ZABRAK_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			ZABRAK_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			ZABRAK_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			ZABRAK_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			ZABRAK_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			ZABRAK_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			ZABRAK_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		random_names = {
+			ZABRAK_FLEET_vortexal_watch ZABRAK_FLEET_iridonian_home_guard ZABRAK_FLEET_star_sea_flotilla ZABRAK_FLEET_spinward_armada
+		}
+		sequential_name = ZABRAK_FLEET_task_force_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = ZABRAK_ARMY_watcher_battalion_ORD
+		}
+		assault_army = {
+			sequential_name = ZABRAK_ARMY_crusader_force_ORD
+		}
+		slave_army = {
+			sequential_name = ZABRAK_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = ZABRAK_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = ZABRAK_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = ZABRAK_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = ZABRAK_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = ZABRAK_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				ZABRAK_ARMY_sarc_a__gladiators_ ZABRAK_ARMY_sarc_b__widowmakers_ ZABRAK_ARMY_sarc_c__immortals_ ZABRAK_ARMY_sarc_d__berserkers_ ZABRAK_ARMY_sarc_e__assassins_ ZABRAK_ARMY_sarc_f__reapers_ ZABRAK_ARMY_sarc_g__nighthawks_ ZABRAK_ARMY_sarc_h__desperados_ ZABRAK_ARMY_sarc_i__grey_knights_ ZABRAK_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = ZABRAK_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = ZABRAK_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = ZABRAK_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = ZABRAK_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = ZABRAK_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = ZABRAK_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = ZABRAK_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = ZABRAK_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = ZABRAK_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = ZABRAK_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = ZABRAK_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = ZABRAK_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = ZABRAK_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = ZABRAK_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = ZABRAK_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = ZABRAK_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = ZABRAK_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = ZABRAK_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = ZABRAK_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = ZABRAK_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = ZABRAK_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = ZABRAK_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = ZABRAK_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = ZABRAK_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = ZABRAK_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = ZABRAK_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = ZABRAK_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = ZABRAK_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = ZABRAK_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = ZABRAK_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = ZABRAK_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = ZABRAK_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = ZABRAK_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = ZABRAK_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = ZABRAK_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = ZABRAK_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = ZABRAK_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = ZABRAK_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = ZABRAK_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = ZABRAK_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = ZABRAK_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = ZABRAK_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = ZABRAK_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = ZABRAK_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = ZABRAK_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = ZABRAK_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = ZABRAK_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = ZABRAK_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = ZABRAK_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = ZABRAK_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = ZABRAK_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = ZABRAK_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = ZABRAK_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = ZABRAK_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = ZABRAK_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = ZABRAK_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = ZABRAK_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = ZABRAK_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = ZABRAK_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = ZABRAK_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = ZABRAK_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = ZABRAK_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = ZABRAK_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = ZABRAK_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = ZABRAK_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = ZABRAK_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = ZABRAK_ARMY_sd_4k_assassin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = ZABRAK_ARMY_ig_series_assassin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = ZABRAK_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = ZABRAK_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = ZABRAK_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = ZABRAK_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = ZABRAK_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = ZABRAK_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = ZABRAK_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = ZABRAK_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = ZABRAK_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = ZABRAK_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = ZABRAK_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = ZABRAK_ARMY_tx_225_assault_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = ZABRAK_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = ZABRAK_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = ZABRAK_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = ZABRAK_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = ZABRAK_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = ZABRAK_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = ZABRAK_ARMY_mptl_artillery_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = ZABRAK_ARMY_hmptl_artillery_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = ZABRAK_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = ZABRAK_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = ZABRAK_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = ZABRAK_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = ZABRAK_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = ZABRAK_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = ZABRAK_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = ZABRAK_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = ZABRAK_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = ZABRAK_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = ZABRAK_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = ZABRAK_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = ZABRAK_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = ZABRAK_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = ZABRAK_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = ZABRAK_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = ZABRAK_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = ZABRAK_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = ZABRAK_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = ZABRAK_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = ZABRAK_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = ZABRAK_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = ZABRAK_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = ZABRAK_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = ZABRAK_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = ZABRAK_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = ZABRAK_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = ZABRAK_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = ZABRAK_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = ZABRAK_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = ZABRAK_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = ZABRAK_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = ZABRAK_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = ZABRAK_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = ZABRAK_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = ZABRAK_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = ZABRAK_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = ZABRAK_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = ZABRAK_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = ZABRAK_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = ZABRAK_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = ZABRAK_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = ZABRAK_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = ZABRAK_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = ZABRAK_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				ZABRAK_CHR_hast ZABRAK_CHR_aeios ZABRAK_CHR_keeth ZABRAK_CHR_odon ZABRAK_CHR_zubain ZABRAK_CHR_arim ZABRAK_CHR_chrone ZABRAK_CHR_po ZABRAK_CHR_bao_dur ZABRAK_CHR_vanto ZABRAK_CHR_fezrik ZABRAK_CHR_bracco ZABRAK_CHR_lo ZABRAK_CHR_bol ZABRAK_CHR_cadomaccus ZABRAK_CHR_charotke ZABRAK_CHR_jomar ZABRAK_CHR_cyrus ZABRAK_CHR_kao_cen ZABRAK_CHR_duqua ZABRAK_CHR_dastid ZABRAK_CHR_denal_zon ZABRAK_CHR_dommu ZABRAK_CHR_aach ZABRAK_CHR_eidolon ZABRAK_CHR_ferrin ZABRAK_CHR_frazznik ZABRAK_CHR_deorko ZABRAK_CHR_girik ZABRAK_CHR_groj ZABRAK_CHR_grollix ZABRAK_CHR_haresh ZABRAK_CHR_pol ZABRAK_CHR_braigin ZABRAK_CHR_jamoh ZABRAK_CHR_ivok ZABRAK_CHR_vuurha ZABRAK_CHR_jiro ZABRAK_CHR_dao ZABRAK_CHR_junker ZABRAK_CHR_juuho ZABRAK_CHR_maa ZABRAK_CHR_jurgan ZABRAK_CHR_drell ZABRAK_CHR_wyll ZABRAK_CHR_lem ZABRAK_CHR_kateo ZABRAK_CHR_kern ZABRAK_CHR_zarien ZABRAK_CHR_klage ZABRAK_CHR_agen ZABRAK_CHR_jaylen ZABRAK_CHR_thon ZABRAK_CHR_nek ZABRAK_CHR_lin ZABRAK_CHR_llokay ZABRAK_CHR_kaz ZABRAK_CHR_hagen ZABRAK_CHR_orth ZABRAK_CHR_dael ZABRAK_CHR_ralen ZABRAK_CHR_serdor ZABRAK_CHR_martonn ZABRAK_CHR_mase ZABRAK_CHR_mennaus ZABRAK_CHR_mogg ZABRAK_CHR_mykka ZABRAK_CHR_daen ZABRAK_CHR_neskett ZABRAK_CHR_oorn ZABRAK_CHR_falner ZABRAK_CHR_oggo ZABRAK_CHR_sar ZABRAK_CHR_ovold ZABRAK_CHR_raf ZABRAK_CHR_reiki ZABRAK_CHR_remilok ZABRAK_CHR_revaak ZABRAK_CHR_dheno ZABRAK_CHR_p_laang ZABRAK_CHR_venik ZABRAK_CHR_sadao ZABRAK_CHR_sanorn ZABRAK_CHR_scopique ZABRAK_CHR_ters ZABRAK_CHR_senu ZABRAK_CHR_nak ZABRAK_CHR_dar ZABRAK_CHR_sirak ZABRAK_CHR_spanios ZABRAK_CHR_pak ZABRAK_CHR_calman ZABRAK_CHR_ta ZABRAK_CHR_corin ZABRAK_CHR_towe ZABRAK_CHR_tryken ZABRAK_CHR_targob ZABRAK_CHR_turbis ZABRAK_CHR_uptin ZABRAK_CHR_bo ZABRAK_CHR_vadlerio ZABRAK_CHR_varus ZABRAK_CHR_vegg ZABRAK_CHR_dantin ZABRAK_CHR_velnine ZABRAK_CHR_venters ZABRAK_CHR_virk ZABRAK_CHR_viscus ZABRAK_CHR_vril ZABRAK_CHR_charo ZABRAK_CHR_wyjus_minn ZABRAK_CHR_zan ZABRAK_CHR_arn_tan ZABRAK_CHR_bo ZABRAK_CHR_zarran
+			}
+			first_names_female = {
+				ZABRAK_CHR_alvania ZABRAK_CHR_anniya ZABRAK_CHR_anstiss ZABRAK_CHR_aveso ZABRAK_CHR_avax ZABRAK_CHR_coret ZABRAK_CHR_raxa ZABRAK_CHR_maris ZABRAK_CHR_triz ZABRAK_CHR_bulga ZABRAK_CHR_vil ZABRAK_CHR_co_overma ZABRAK_CHR_o_choa ZABRAK_CHR_mekus ZABRAK_CHR_elkan ZABRAK_CHR_jas ZABRAK_CHR_eotrisa ZABRAK_CHR_fryoto ZABRAK_CHR_garan ZABRAK_CHR_gith ZABRAK_CHR_hallen ZABRAK_CHR_heljus ZABRAK_CHR_solida ZABRAK_CHR_idonia ZABRAK_CHR_onn ZABRAK_CHR_klaua ZABRAK_CHR_rhalia ZABRAK_CHR_mada ZABRAK_CHR_jolka ZABRAK_CHR_ses ZABRAK_CHR_joella ZABRAK_CHR_jorelle ZABRAK_CHR_drakka ZABRAK_CHR_yevra ZABRAK_CHR_rose ZABRAK_CHR_mai ZABRAK_CHR_mira ZABRAK_CHR_tilian ZABRAK_CHR_jewl_a ZABRAK_CHR_koon ZABRAK_CHR_arane ZABRAK_CHR_iza ZABRAK_CHR_grayda ZABRAK_CHR_kayla ZABRAK_CHR_qista ZABRAK_CHR_quanera ZABRAK_CHR_jabe ZABRAK_CHR_aleas ZABRAK_CHR_xuvi ZABRAK_CHR_ki ZABRAK_CHR_seffi ZABRAK_CHR_kadrian ZABRAK_CHR_seyda ZABRAK_CHR_akaavi ZABRAK_CHR_sugi ZABRAK_CHR_sora ZABRAK_CHR_aelson ZABRAK_CHR_baela ZABRAK_CHR_kass ZABRAK_CHR_zakala ZABRAK_CHR_seema ZABRAK_CHR_kaysil ZABRAK_CHR_vinda ZABRAK_CHR_virne ZABRAK_CHR_tensa ZABRAK_CHR_cie ZABRAK_CHR_tyzen ZABRAK_CHR_yougga ZABRAK_CHR_edrinu ZABRAK_CHR_zo_ssa
+			}
+			second_names = {
+				ZABRAK_CHR_aath ZABRAK_CHR_acaadi ZABRAK_CHR_agar ZABRAK_CHR_anak ZABRAK_CHR_ankonori ZABRAK_CHR_arim ZABRAK_CHR_ars ZABRAK_CHR_banis ZABRAK_CHR_barret ZABRAK_CHR_bazren ZABRAK_CHR_bendledon ZABRAK_CHR_bhan ZABRAK_CHR_binn ZABRAK_CHR_bickell ZABRAK_CHR_brood ZABRAK_CHR_bukk ZABRAK_CHR_burren ZABRAK_CHR_chatak ZABRAK_CHR_chel ZABRAK_CHR_chul ZABRAK_CHR_coria ZABRAK_CHR_crymi ZABRAK_CHR_darach ZABRAK_CHR_dar ZABRAK_CHR_defte ZABRAK_CHR_detera ZABRAK_CHR_donbar ZABRAK_CHR_drin ZABRAK_CHR_eamul ZABRAK_CHR_een ZABRAK_CHR_eldo ZABRAK_CHR_emari ZABRAK_CHR_exteen ZABRAK_CHR_fa_zoll ZABRAK_CHR_feldon ZABRAK_CHR_gaan ZABRAK_CHR_gek ZABRAK_CHR_gonwa ZABRAK_CHR_haus ZABRAK_CHR_hele ZABRAK_CHR_helk ZABRAK_CHR_henshin ZABRAK_CHR_hesk ZABRAK_CHR_hogra ZABRAK_CHR_iria ZABRAK_CHR_itotr ZABRAK_CHR_jantsk ZABRAK_CHR_jik ZABRAK_CHR_jinsari ZABRAK_CHR_jodh ZABRAK_CHR_jopp ZABRAK_CHR_judarrl ZABRAK_CHR_jott ZABRAK_CHR_kaap ZABRAK_CHR_kalta ZABRAK_CHR_kahmf ZABRAK_CHR_kander ZABRAK_CHR_karner ZABRAK_CHR_keikodi ZABRAK_CHR_keloh ZABRAK_CHR_kheev ZABRAK_CHR_kin_ade ZABRAK_CHR_kolar ZABRAK_CHR_koth ZABRAK_CHR_korventine ZABRAK_CHR_kos ZABRAK_CHR_larimhor ZABRAK_CHR_lawsirk ZABRAK_CHR_ledesmar ZABRAK_CHR_lo ZABRAK_CHR_longmyre ZABRAK_CHR_maag ZABRAK_CHR_maanki ZABRAK_CHR_margok ZABRAK_CHR_marrak ZABRAK_CHR_matare ZABRAK_CHR_moravai ZABRAK_CHR_nark ZABRAK_CHR_noth ZABRAK_CHR_numinn ZABRAK_CHR_odan ZABRAK_CHR_oeth ZABRAK_CHR_omant ZABRAK_CHR_onto ZABRAK_CHR_oreida ZABRAK_CHR_paro ZABRAK_CHR_perlis ZABRAK_CHR_parvux ZABRAK_CHR_persid ZABRAK_CHR_raikon ZABRAK_CHR_rann ZABRAK_CHR_raimu ZABRAK_CHR_rey ZABRAK_CHR_ri ZABRAK_CHR_rigel ZABRAK_CHR_rin ZABRAK_CHR_risold ZABRAK_CHR_ruun ZABRAK_CHR_emtri ZABRAK_CHR_samok ZABRAK_CHR_sarguillo ZABRAK_CHR_seeth_tal ZABRAK_CHR_sendon ZABRAK_CHR_selro ZABRAK_CHR_sey ZABRAK_CHR_sibar ZABRAK_CHR_simm ZABRAK_CHR_singe ZABRAK_CHR_spar ZABRAK_CHR_stevus ZABRAK_CHR_suutar ZABRAK_CHR_suz_anz ZABRAK_CHR_wieloag ZABRAK_CHR_t_dai ZABRAK_CHR_tarev ZABRAK_CHR_tas ZABRAK_CHR_tefani ZABRAK_CHR_thatch ZABRAK_CHR_theus ZABRAK_CHR_tigal ZABRAK_CHR_tiwosh ZABRAK_CHR_tod ZABRAK_CHR_tong ZABRAK_CHR_tok ZABRAK_CHR_trad ZABRAK_CHR_travin ZABRAK_CHR_treeg ZABRAK_CHR_tunall ZABRAK_CHR_tystel ZABRAK_CHR_tyuth ZABRAK_CHR_ushallaj ZABRAK_CHR_vanda ZABRAK_CHR_varn ZABRAK_CHR_vello ZABRAK_CHR_vellos ZABRAK_CHR_verwood ZABRAK_CHR_viic ZABRAK_CHR_vikto ZABRAK_CHR_voll ZABRAK_CHR_vos ZABRAK_CHR_vowail ZABRAK_CHR_vrakth ZABRAK_CHR_wieloag ZABRAK_CHR_xebec ZABRAK_CHR_xiukhan ZABRAK_CHR_yant ZABRAK_CHR_yezo ZABRAK_CHR_yolar ZABRAK_CHR_zarran ZABRAK_CHR_zaya ZABRAK_CHR_zhin ZABRAK_CHR_zonn ZABRAK_CHR_zur
+			}
+			regnal_first_names_male = {
+				ZABRAK_CHR_chrone ZABRAK_CHR_bao_dur ZABRAK_CHR_vanto ZABRAK_CHR_kao_cen ZABRAK_CHR_dastid ZABRAK_CHR_veag ZABRAK_CHR_jiro ZABRAK_CHR_zar ZABRAK_CHR_agen ZABRAK_CHR_eeth ZABRAK_CHR_nek ZABRAK_CHR_kaz ZABRAK_CHR_mennaus ZABRAK_CHR_oorn ZABRAK_CHR_reiki ZABRAK_CHR_wolf ZABRAK_CHR_sirak ZABRAK_CHR_corin ZABRAK_CHR_varus ZABRAK_CHR_viscus
+			}
+			regnal_first_names_female = {
+				ZABRAK_CHR_avax ZABRAK_CHR_maris ZABRAK_CHR_gith ZABRAK_CHR_drakka ZABRAK_CHR_jewl_a ZABRAK_CHR_xuvi ZABRAK_CHR_ki ZABRAK_CHR_seffi ZABRAK_CHR_kadrian ZABRAK_CHR_sugi ZABRAK_CHR_kass ZABRAK_CHR_zakala ZABRAK_CHR_kaysil ZABRAK_CHR_zo_ssa
+			}
+			regnal_second_names = {
+				ZABRAK_CHR_bazren ZABRAK_CHR_brood ZABRAK_CHR_darach ZABRAK_CHR_karner ZABRAK_CHR_keikodi ZABRAK_CHR_kolar ZABRAK_CHR_koth ZABRAK_CHR_lawsirk ZABRAK_CHR_margok ZABRAK_CHR_noth ZABRAK_CHR_numinn ZABRAK_CHR_sazen ZABRAK_CHR_tok
+			}
+		}
+	}
+}

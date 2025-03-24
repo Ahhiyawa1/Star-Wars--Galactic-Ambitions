@@ -1,0 +1,110 @@
+# SW New Dawn Event armies
+# From Protectors Event
+mando_protectors = {
+	damage = 2.6
+	health = 2.5
+	morale = 3.4
+	morale_damage = 3.5
+	collateral_damage = 0.1
+	war_exhaustion = 1
+	time = 180
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 0.8
+		}
+		cost = {
+			minerals = 150
+			energy = 75
+			alloys = 60
+			electronics = 5
+		}
+	}
+	icon = GFX_army_type_man_specops_3
+	has_species = no
+	allow = {
+		custom_tooltip = {
+			fail_text = cis_magnaguard_limit_tooltip
+			owner = { NOT = { check_variable = { which = "mando_protectors_count" value = 0 } } }
+		}
+	}
+	on_queued = {
+		owner = { change_variable = { which = "mando_protectors_count" value = -1 } }
+		# owner = { log = "Number of Protector armies available: [This.mando_protectors_count]" }
+	}
+	on_unqueued = {
+		owner = { change_variable = { which = "mando_protectors_count" value = 1 } }
+		# owner = { log = "Number of Protector armies available: [This.mando_protectors_count]" }
+	}
+	potential_country = {
+		owner = {
+			has_technology = tech_weapon_group_man
+			has_country_flag = mandalorian_clans
+			OR = {
+				has_country_flag = fenn_rau_protectors
+				has_country_flag = fenn_shysa_protectors
+			}
+		}
+		# owner = { NOT = { check_variable = { which = "mando_protectors_count" value = 3 } } }
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = 100
+			mando_countrys = yes
+		}
+	}
+}
+
+# From Arc Pulse Generator Relic
+at_dp_arc = {
+	damage = 3.5
+	health = 4
+	morale = 2.5
+	morale_damage = 2.0
+	collateral_damage = 6
+	war_exhaustion = 3
+	time = 300
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 8
+			ammunition = 2
+		}
+		cost = {
+			energy = 250
+			alloys = 200
+			electronics = 80
+			ammunition = 50
+		}
+	}
+	icon = GFX_army_type_gene_warrior
+	has_species = no
+	allow = {
+		always = no
+	}
+
+	potential = {
+		always = no
+	}
+}
+
+# Sandpeople event
+tusken_raiders = {
+	defensive = yes
+	damage = 2.2
+	health = 1.8
+	morale = 3
+	morale_damage = 2
+	collateral_damage = 2
+	icon = GFX_army_type_primitive
+
+	allow = {
+		always = no
+	}
+
+	potential = {
+		always = no
+	}
+}

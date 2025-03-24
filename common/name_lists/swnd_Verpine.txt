@@ -1,0 +1,845 @@
+﻿Verpine = {
+	randomized = no
+	ship_names = {
+		generic = {
+			VERPINE_SHIP_mystic VERPINE_SHIP_naiad VERPINE_SHIP_nautilus VERPINE_SHIP_nebula VERPINE_SHIP_nimble VERPINE_SHIP_north_star VERPINE_SHIP_nymph VERPINE_SHIP_obdurate VERPINE_SHIP_ocean VERPINE_SHIP_onward VERPINE_SHIP_oracle VERPINE_SHIP_paradox VERPINE_SHIP_paragon VERPINE_SHIP_pearl VERPINE_SHIP_peregrine VERPINE_SHIP_perseverance VERPINE_SHIP_marksman VERPINE_SHIP_rifleman VERPINE_SHIP_sniper VERPINE_SHIP_trident VERPINE_SHIP_trumpet VERPINE_SHIP_truncheon VERPINE_SHIP_typhoon VERPINE_SHIP_undaunted VERPINE_SHIP_venture VERPINE_SHIP_versatile VERPINE_SHIP_vigorous VERPINE_SHIP_viper VERPINE_SHIP_vivacious VERPINE_SHIP_winger VERPINE_SHIP_wizard VERPINE_SHIP_wyvern VERPINE_SHIP_wolfhound VERPINE_SHIP_devastator VERPINE_SHIP_warhammer VERPINE_SHIP_retribution VERPINE_SHIP_senator VERPINE_SHIP_tornado VERPINE_SHIP_infinity VERPINE_SHIP_usurper VERPINE_SHIP_utmost VERPINE_SHIP_valorous VERPINE_SHIP_whirlwind VERPINE_SHIP_athena VERPINE_SHIP_artemis VERPINE_SHIP_vigilance VERPINE_SHIP_decimator VERPINE_SHIP_indomitable VERPINE_SHIP_goliath VERPINE_SHIP_sentinel VERPINE_SHIP_brilliant VERPINE_SHIP_blazer VERPINE_SHIP_audacity VERPINE_SHIP_gallant VERPINE_SHIP_nova VERPINE_SHIP_shadow VERPINE_SHIP_allegiance VERPINE_SHIP_challenger VERPINE_SHIP_fearless VERPINE_SHIP_protector VERPINE_SHIP_guardian VERPINE_SHIP_victorious VERPINE_SHIP_courageous VERPINE_SHIP_defiance VERPINE_SHIP_valorous VERPINE_SHIP_azrael VERPINE_SHIP_adamantine VERPINE_SHIP_aralanni VERPINE_SHIP_ardent_iv VERPINE_SHIP_armistice VERPINE_SHIP_avengeance VERPINE_SHIP_ballista VERPINE_SHIP_bloodstripe VERPINE_SHIP_borealis VERPINE_SHIP_caelus VERPINE_SHIP_caravan VERPINE_SHIP_chaf_envoy VERPINE_SHIP_commenor VERPINE_SHIP_corbantis VERPINE_SHIP_corellia VERPINE_SHIP_courteous VERPINE_SHIP_dauntless VERPINE_SHIP_defiant VERPINE_SHIP_deliverance VERPINE_SHIP_derapha VERPINE_SHIP_devout VERPINE_SHIP_empirical VERPINE_SHIP_empyrean VERPINE_SHIP_era_daimanos VERPINE_SHIP_eye_of_the_storm VERPINE_SHIP_farstar VERPINE_SHIP_fastblast VERPINE_SHIP_galaaron VERPINE_SHIP_garrote VERPINE_SHIP_gilagimar VERPINE_SHIP_halleck VERPINE_SHIP_hunter VERPINE_SHIP_intractable VERPINE_SHIP_ithor_lady VERPINE_SHIP_justice_crusader VERPINE_SHIP_kana_s_steel VERPINE_SHIP_lathir VERPINE_SHIP_liberty VERPINE_SHIP_lillibanca VERPINE_SHIP_maelstrom VERPINE_SHIP_malachite_scent VERPINE_SHIP_mercy VERPINE_SHIP_myrkos VERPINE_SHIP_nebula_chaser VERPINE_SHIP_nova VERPINE_SHIP_nova_viper VERPINE_SHIP_obedience VERPINE_SHIP_olemp VERPINE_SHIP_pegasus VERPINE_SHIP_perspicacity VERPINE_SHIP_phalanx VERPINE_SHIP_plooriod_bodkin VERPINE_SHIP_predominance VERPINE_SHIP_prosperity VERPINE_SHIP_purity VERPINE_SHIP_recalcitrant VERPINE_SHIP_red_nova VERPINE_SHIP_redma VERPINE_SHIP_reliable VERPINE_SHIP_reliant VERPINE_SHIP_reluctant VERPINE_SHIP_republic VERPINE_SHIP_republic_s_return VERPINE_SHIP_resolve VERPINE_SHIP_respectable VERPINE_SHIP_revenge VERPINE_SHIP_shadowblade VERPINE_SHIP_spritespray VERPINE_SHIP_star_dream VERPINE_SHIP_stark_wing VERPINE_SHIP_starveil VERPINE_SHIP_undying VERPINE_SHIP_vaathkree VERPINE_SHIP_vainglorious VERPINE_SHIP_valiant VERPINE_SHIP_valor VERPINE_SHIP_vanquisher VERPINE_SHIP_vinsor VERPINE_SHIP_visseon VERPINE_SHIP_wennis VERPINE_SHIP_yavin_s_glory VERPINE_SHIP_moldy_crow VERPINE_SHIP_raven_s_claw VERPINE_SHIP_agile VERPINE_SHIP_archer VERPINE_SHIP_arrow VERPINE_SHIP_bruiser VERPINE_SHIP_cherub VERPINE_SHIP_chimera VERPINE_SHIP_claymore VERPINE_SHIP_broadsword VERPINE_SHIP_battleaxe VERPINE_SHIP_crossbow VERPINE_SHIP_cutlass VERPINE_SHIP_deterrent VERPINE_SHIP_errant VERPINE_SHIP_faithful VERPINE_SHIP_fierce VERPINE_SHIP_gladius VERPINE_SHIP_longbow VERPINE_SHIP_grappler VERPINE_SHIP_hammer VERPINE_SHIP_vampire VERPINE_SHIP_velox VERPINE_SHIP_venator VERPINE_SHIP_vendetta VERPINE_SHIP_venerable VERPINE_SHIP_venomous VERPINE_SHIP_taciturn VERPINE_SHIP_supreme VERPINE_SHIP_success VERPINE_SHIP_shredder VERPINE_SHIP_seraph VERPINE_SHIP_serpent VERPINE_SHIP_spitfire VERPINE_SHIP_stalker VERPINE_SHIP_stratagem VERPINE_SHIP_scimitar VERPINE_SHIP_scorcher VERPINE_SHIP_scourge VERPINE_SHIP_scythe VERPINE_SHIP_revenant VERPINE_SHIP_redoubtable VERPINE_SHIP_raptor VERPINE_SHIP_reaver VERPINE_SHIP_prodigal VERPINE_SHIP_rapier VERPINE_SHIP_prudent VERPINE_SHIP_persistent VERPINE_SHIP_peerless VERPINE_SHIP_myrmidon VERPINE_SHIP_indignant VERPINE_SHIP_javelin VERPINE_SHIP_knight VERPINE_SHIP_starwolf VERPINE_SHIP_bonaventure VERPINE_SHIP_adventure VERPINE_SHIP_boxer VERPINE_SHIP_buccaneer VERPINE_SHIP_cavalier VERPINE_SHIP_celestial VERPINE_SHIP_chariot VERPINE_SHIP_comet VERPINE_SHIP_crucible VERPINE_SHIP_cyclone VERPINE_SHIP_decisive VERPINE_SHIP_dexterous VERPINE_SHIP_diadem VERPINE_SHIP_earnest VERPINE_SHIP_eclipse VERPINE_SHIP_forger VERPINE_SHIP_fortune VERPINE_SHIP_gauntlet VERPINE_SHIP_griffin VERPINE_SHIP_horizon VERPINE_SHIP_hotspur VERPINE_SHIP_hurricane VERPINE_SHIP_hussar VERPINE_SHIP_jubilant VERPINE_SHIP_lancer VERPINE_SHIP_lightning VERPINE_SHIP_magic VERPINE_SHIP_mediator VERPINE_SHIP_mermaid VERPINE_SHIP_meteor VERPINE_SHIP_minstrel VERPINE_SHIP_miranda VERPINE_SHIP_mustang VERPINE_SHIP_sharpshooter VERPINE_SHIP_cyclops VERPINE_SHIP_centaur VERPINE_SHIP_adversary VERPINE_SHIP_assassin VERPINE_SHIP_dagger VERPINE_SHIP_daring VERPINE_SHIP_duty VERPINE_SHIP_havoc VERPINE_SHIP_hero VERPINE_SHIP_hunter VERPINE_SHIP_justice VERPINE_SHIP_impeccable VERPINE_SHIP_interceptor VERPINE_SHIP_infernal VERPINE_SHIP_loyal VERPINE_SHIP_matchless VERPINE_SHIP_mauler VERPINE_SHIP_mayhem VERPINE_SHIP_malice VERPINE_SHIP_menace VERPINE_SHIP_merciless VERPINE_SHIP_mischief VERPINE_SHIP_monarch VERPINE_SHIP_patriot VERPINE_SHIP_predator VERPINE_SHIP_powerful VERPINE_SHIP_punisher VERPINE_SHIP_ravager VERPINE_SHIP_reaper VERPINE_SHIP_savage VERPINE_SHIP_spiteful VERPINE_SHIP_templar VERPINE_SHIP_terminator VERPINE_SHIP_terror VERPINE_SHIP_thrasher VERPINE_SHIP_minotaur VERPINE_SHIP_manticore VERPINE_SHIP_interdictor VERPINE_SHIP_intruder VERPINE_SHIP_hydra VERPINE_SHIP_enfield VERPINE_SHIP_harasser VERPINE_SHIP_unbeaten VERPINE_SHIP_werewolf VERPINE_SHIP_zealous VERPINE_SHIP_petulant VERPINE_SHIP_phantom VERPINE_SHIP_phoenix VERPINE_SHIP_pike VERPINE_SHIP_pursuer VERPINE_SHIP_raider VERPINE_SHIP_rainbow VERPINE_SHIP_rapid VERPINE_SHIP_redemption VERPINE_SHIP_relentless VERPINE_SHIP_rigorous VERPINE_SHIP_robust VERPINE_SHIP_sabre VERPINE_SHIP_salvation VERPINE_SHIP_sanguine VERPINE_SHIP_scarab VERPINE_SHIP_scepter VERPINE_SHIP_sea_witch VERPINE_SHIP_siren VERPINE_SHIP_sorceress VERPINE_SHIP_spearhead VERPINE_SHIP_specter VERPINE_SHIP_spirit VERPINE_SHIP_splendid VERPINE_SHIP_stallion VERPINE_SHIP_stalwart VERPINE_SHIP_steadfast VERPINE_SHIP_strenuous VERPINE_SHIP_superb VERPINE_SHIP_supernova VERPINE_SHIP_surprise VERPINE_SHIP_swiftsure VERPINE_SHIP_talent VERPINE_SHIP_talisman VERPINE_SHIP_talon VERPINE_SHIP_taurus VERPINE_SHIP_tenacious VERPINE_SHIP_thunder_child VERPINE_SHIP_thunderous VERPINE_SHIP_tireless VERPINE_SHIP_trenchant VERPINE_SHIP_righteous VERPINE_SHIP_acheron VERPINE_SHIP_achilles VERPINE_SHIP_agamemnon VERPINE_SHIP_amphion VERPINE_SHIP_aquilon VERPINE_SHIP_argonaut VERPINE_SHIP_argus VERPINE_SHIP_ariel VERPINE_SHIP_aurora VERPINE_SHIP_avernus VERPINE_SHIP_bacchus VERPINE_SHIP_bucephalus VERPINE_SHIP_calliope VERPINE_SHIP_calypso VERPINE_SHIP_castor VERPINE_SHIP_charybdis VERPINE_SHIP_circe VERPINE_SHIP_cleopatra VERPINE_SHIP_constantine VERPINE_SHIP_cordelia VERPINE_SHIP_cyrus VERPINE_SHIP_damocles VERPINE_SHIP_daedalus VERPINE_SHIP_darius VERPINE_SHIP_diomede VERPINE_SHIP_dryad VERPINE_SHIP_electra VERPINE_SHIP_endymion VERPINE_SHIP_erebus VERPINE_SHIP_fenris VERPINE_SHIP_freya VERPINE_SHIP_gilgamesh VERPINE_SHIP_gorgon VERPINE_SHIP_halcyon VERPINE_SHIP_hecate VERPINE_SHIP_hector VERPINE_SHIP_hesperus VERPINE_SHIP_janus VERPINE_SHIP_jason VERPINE_SHIP_juno VERPINE_SHIP_jupiter VERPINE_SHIP_lancelot VERPINE_SHIP_lazarus VERPINE_SHIP_leander VERPINE_SHIP_leonidas VERPINE_SHIP_lysander VERPINE_SHIP_maenad VERPINE_SHIP_mars VERPINE_SHIP_medea VERPINE_SHIP_medusa VERPINE_SHIP_menestheus VERPINE_SHIP_mercury VERPINE_SHIP_merlin VERPINE_SHIP_minerva VERPINE_SHIP_minos VERPINE_SHIP_neptune VERPINE_SHIP_nessus VERPINE_SHIP_nestor VERPINE_SHIP_nimrod VERPINE_SHIP_niobe VERPINE_SHIP_oberon VERPINE_SHIP_odin VERPINE_SHIP_ophelia VERPINE_SHIP_orestes VERPINE_SHIP_orpheus VERPINE_SHIP_osiris VERPINE_SHIP_pandora VERPINE_SHIP_penelope VERPINE_SHIP_persephone VERPINE_SHIP_perseus VERPINE_SHIP_phoebe VERPINE_SHIP_pluto VERPINE_SHIP_poseidon VERPINE_SHIP_proteus VERPINE_SHIP_pylades VERPINE_SHIP_serapis VERPINE_SHIP_stygian VERPINE_SHIP_tantalus VERPINE_SHIP_telemachus VERPINE_SHIP_theseus VERPINE_SHIP_thor VERPINE_SHIP_trajan VERPINE_SHIP_triton VERPINE_SHIP_venus VERPINE_SHIP_adamant VERPINE_SHIP_ardent VERPINE_SHIP_assail VERPINE_SHIP_austere VERPINE_SHIP_archon VERPINE_SHIP_adroit VERPINE_SHIP_aegis VERPINE_SHIP_anchor VERPINE_SHIP_corsair VERPINE_SHIP_banshee VERPINE_SHIP_enchantress VERPINE_SHIP_eradicator VERPINE_SHIP_tormentor VERPINE_SHIP_legion VERPINE_SHIP_reprisal VERPINE_SHIP_aggressor VERPINE_SHIP_assault VERPINE_SHIP_eviscerator VERPINE_SHIP_imperator VERPINE_SHIP_excellence VERPINE_SHIP_unrivalled VERPINE_SHIP_warlord VERPINE_SHIP_vengeance VERPINE_SHIP_triumphant VERPINE_SHIP_nemesis VERPINE_SHIP_avenger VERPINE_SHIP_champion VERPINE_SHIP_conqueror VERPINE_SHIP_crusader VERPINE_SHIP_glory VERPINE_SHIP_immortal VERPINE_SHIP_judicator VERPINE_SHIP_vanguard VERPINE_SHIP_renown VERPINE_SHIP_demolisher VERPINE_SHIP_dragon VERPINE_SHIP_executor VERPINE_SHIP_furious VERPINE_SHIP_gladiator VERPINE_SHIP_magnificent VERPINE_SHIP_ogre VERPINE_SHIP_onslaught VERPINE_SHIP_revenge VERPINE_SHIP_vanquisher VERPINE_SHIP_vehement VERPINE_SHIP_basilisk VERPINE_SHIP_tempest VERPINE_SHIP_overlord VERPINE_SHIP_warrior VERPINE_SHIP_titan VERPINE_SHIP_colossus VERPINE_SHIP_prometheus VERPINE_SHIP_nike VERPINE_SHIP_paladin VERPINE_SHIP_sovereign VERPINE_SHIP_repulse VERPINE_SHIP_majestic VERPINE_SHIP_avatar VERPINE_SHIP_behemoth VERPINE_SHIP_centurion VERPINE_SHIP_citadel VERPINE_SHIP_katana VERPINE_SHIP_kraken VERPINE_SHIP_cerberus VERPINE_SHIP_valkyrie
+		}
+		swp_bellator = {
+			VERPINE_SHIP_dreadnought VERPINE_SHIP_harbinger VERPINE_SHIP_juggernaut VERPINE_SHIP_leviathan VERPINE_SHIP_hyperion VERPINE_SHIP_galatea VERPINE_SHIP_ambush VERPINE_SHIP_vindicator
+		}
+		science = {
+			VERPINE_SHIP_crescent VERPINE_SHIP_diligent VERPINE_SHIP_zephyr VERPINE_SHIP_enigma VERPINE_SHIP_conquistador VERPINE_SHIP_scylla VERPINE_SHIP_arbiter VERPINE_SHIP_asperity VERPINE_SHIP_eminence VERPINE_SHIP_astute VERPINE_SHIP_alacrity VERPINE_SHIP_satyr VERPINE_SHIP_prospero VERPINE_SHIP_untiring VERPINE_SHIP_zenith VERPINE_SHIP_torch VERPINE_SHIP_remembrance VERPINE_SHIP_pilgrim VERPINE_SHIP_trailblazer VERPINE_SHIP_vagabond VERPINE_SHIP_wayfarer VERPINE_SHIP_ambassador VERPINE_SHIP_emissary VERPINE_SHIP_nomad VERPINE_SHIP_pathfinder VERPINE_SHIP_wanderer VERPINE_SHIP_traveler
+		}
+		colonizer = {
+			VERPINE_SHIP_godspeed VERPINE_SHIP_prophecy VERPINE_SHIP_manifest_destiny VERPINE_SHIP_virtue VERPINE_SHIP_potential VERPINE_SHIP_expansion VERPINE_SHIP_pioneer_spirit VERPINE_SHIP_prosperity VERPINE_SHIP_summit VERPINE_SHIP_pinnacle VERPINE_SHIP_seeder VERPINE_SHIP_harvest VERPINE_SHIP_demeter VERPINE_SHIP_isis VERPINE_SHIP_ceres VERPINE_SHIP_exodus VERPINE_SHIP_foundation VERPINE_SHIP_scion VERPINE_SHIP_progeny VERPINE_SHIP_obligation VERPINE_SHIP_purpose VERPINE_SHIP_provider VERPINE_SHIP_shining_city VERPINE_SHIP_acquirer VERPINE_SHIP_cultivator VERPINE_SHIP_dawn_of_civilization VERPINE_SHIP_purity VERPINE_SHIP_community VERPINE_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			VERPINE_SHIP_godspeed VERPINE_SHIP_prophecy VERPINE_SHIP_manifest_destiny VERPINE_SHIP_virtue VERPINE_SHIP_potential VERPINE_SHIP_expansion VERPINE_SHIP_pioneer_spirit VERPINE_SHIP_prosperity VERPINE_SHIP_summit VERPINE_SHIP_pinnacle VERPINE_SHIP_seeder VERPINE_SHIP_harvest VERPINE_SHIP_isis VERPINE_SHIP_ceres VERPINE_SHIP_exodus VERPINE_SHIP_foundation VERPINE_SHIP_scion VERPINE_SHIP_progeny VERPINE_SHIP_obligation VERPINE_SHIP_purpose VERPINE_SHIP_provider VERPINE_SHIP_shining_city VERPINE_SHIP_acquirer VERPINE_SHIP_cultivator VERPINE_SHIP_dawn_of_civilization VERPINE_SHIP_purity VERPINE_SHIP_community VERPINE_SHIP_brotherhood
+		}
+		constructor = {
+			VERPINE_SHIP_industry VERPINE_SHIP_assiduity VERPINE_SHIP_effort VERPINE_SHIP_laborer VERPINE_SHIP_builder VERPINE_SHIP_craftsman VERPINE_SHIP_hard_hat VERPINE_SHIP_progress VERPINE_SHIP_engineer VERPINE_SHIP_promise VERPINE_SHIP_service VERPINE_SHIP_shelter VERPINE_SHIP_beast VERPINE_SHIP_creator VERPINE_SHIP_developer VERPINE_SHIP_forger VERPINE_SHIP_foundry VERPINE_SHIP_factory VERPINE_SHIP_anvil VERPINE_SHIP_pillar VERPINE_SHIP_architect VERPINE_SHIP_accommodator VERPINE_SHIP_ptah VERPINE_SHIP_ilmarinen VERPINE_SHIP_creidhne VERPINE_SHIP_gobannus VERPINE_SHIP_luchtaine VERPINE_SHIP_goibniu VERPINE_SHIP_vishvakarman VERPINE_SHIP_tvastar VERPINE_SHIP_ikenga VERPINE_SHIP_qaynan VERPINE_SHIP_ucuetis VERPINE_SHIP_ogoun
+		}
+		transport = {
+			VERPINE_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			VERPINE_SHIP_spacegun_victory VERPINE_SHIP_spacegun_success VERPINE_SHIP_spacegun_supremacy VERPINE_SHIP_spacegun_superior VERPINE_SHIP_spacegun_adventure VERPINE_SHIP_spacegun_ascendancy VERPINE_SHIP_spacegun_paramount VERPINE_SHIP_spacegun_preponderous VERPINE_SHIP_spacegun_exemplary VERPINE_SHIP_spacegun_eximious VERPINE_SHIP_spacegun_pertinacity VERPINE_SHIP_spacegun_acclaim VERPINE_SHIP_spacegun_honor VERPINE_SHIP_spacegun_renown VERPINE_SHIP_spacegun_glory VERPINE_SHIP_spacegun_superb VERPINE_SHIP_spacegun_magnificence VERPINE_SHIP_spacegun_majestic VERPINE_SHIP_spacegun_splendor VERPINE_SHIP_spacegun_paradigm VERPINE_SHIP_spacegun_flawless VERPINE_SHIP_spacegun_consummate VERPINE_SHIP_spacegun_merit VERPINE_SHIP_spacegun_perfection VERPINE_SHIP_spacegun_virtue VERPINE_SHIP_spacegun_advantage VERPINE_SHIP_spacegun_rectitude VERPINE_SHIP_spacegun_incorruptible VERPINE_SHIP_spacegun_integrity VERPINE_SHIP_spacegun_justice VERPINE_SHIP_spacegun_probity VERPINE_SHIP_spacegun_prudence VERPINE_SHIP_spacegun_purity VERPINE_SHIP_spacegun_resolute VERPINE_SHIP_spacegun_dignity VERPINE_SHIP_spacegun_distinction VERPINE_SHIP_spacegun_excellence VERPINE_SHIP_spacegun_faithful VERPINE_SHIP_spacegun_discipline VERPINE_SHIP_spacegun_steadfast VERPINE_SHIP_spacegun_recompense VERPINE_SHIP_spacegun_requiem VERPINE_SHIP_spacegun_courage VERPINE_SHIP_spacegun_valor VERPINE_SHIP_spacegun_gallant VERPINE_SHIP_spacegun_daring VERPINE_SHIP_spacegun_constancy VERPINE_SHIP_spacegun_perseverence VERPINE_SHIP_spacegun_tenacity VERPINE_SHIP_spacegun_sedulity VERPINE_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			VERPINE_SHIP_spacegun_victory VERPINE_SHIP_spacegun_success VERPINE_SHIP_spacegun_supremacy VERPINE_SHIP_spacegun_superior VERPINE_SHIP_spacegun_adventure VERPINE_SHIP_spacegun_ascendancy VERPINE_SHIP_spacegun_paramount VERPINE_SHIP_spacegun_preponderous VERPINE_SHIP_spacegun_exemplary VERPINE_SHIP_spacegun_eximious VERPINE_SHIP_spacegun_pertinacity VERPINE_SHIP_spacegun_acclaim VERPINE_SHIP_spacegun_honor VERPINE_SHIP_spacegun_renown VERPINE_SHIP_spacegun_glory VERPINE_SHIP_spacegun_superb VERPINE_SHIP_spacegun_magnificence VERPINE_SHIP_spacegun_majestic VERPINE_SHIP_spacegun_splendor VERPINE_SHIP_spacegun_paradigm VERPINE_SHIP_spacegun_flawless VERPINE_SHIP_spacegun_consummate VERPINE_SHIP_spacegun_merit VERPINE_SHIP_spacegun_perfection VERPINE_SHIP_spacegun_virtue VERPINE_SHIP_spacegun_advantage VERPINE_SHIP_spacegun_rectitude VERPINE_SHIP_spacegun_incorruptible VERPINE_SHIP_spacegun_integrity VERPINE_SHIP_spacegun_justice VERPINE_SHIP_spacegun_probity VERPINE_SHIP_spacegun_prudence VERPINE_SHIP_spacegun_purity VERPINE_SHIP_spacegun_resolute VERPINE_SHIP_spacegun_dignity VERPINE_SHIP_spacegun_distinction VERPINE_SHIP_spacegun_excellence VERPINE_SHIP_spacegun_faithful VERPINE_SHIP_spacegun_discipline VERPINE_SHIP_spacegun_steadfast VERPINE_SHIP_spacegun_recompense VERPINE_SHIP_spacegun_requiem VERPINE_SHIP_spacegun_courage VERPINE_SHIP_spacegun_valor VERPINE_SHIP_spacegun_gallant VERPINE_SHIP_spacegun_daring VERPINE_SHIP_spacegun_constancy VERPINE_SHIP_spacegun_perseverence VERPINE_SHIP_spacegun_tenacity VERPINE_SHIP_spacegun_sedulity VERPINE_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			VERPINE_SHIP_spacegun_victory VERPINE_SHIP_spacegun_success VERPINE_SHIP_spacegun_supremacy VERPINE_SHIP_spacegun_superior VERPINE_SHIP_spacegun_adventure VERPINE_SHIP_spacegun_ascendancy VERPINE_SHIP_spacegun_paramount VERPINE_SHIP_spacegun_preponderous VERPINE_SHIP_spacegun_exemplary VERPINE_SHIP_spacegun_eximious VERPINE_SHIP_spacegun_pertinacity VERPINE_SHIP_spacegun_acclaim VERPINE_SHIP_spacegun_honor VERPINE_SHIP_spacegun_renown VERPINE_SHIP_spacegun_glory VERPINE_SHIP_spacegun_superb VERPINE_SHIP_spacegun_magnificence VERPINE_SHIP_spacegun_majestic VERPINE_SHIP_spacegun_splendor VERPINE_SHIP_spacegun_paradigm VERPINE_SHIP_spacegun_flawless VERPINE_SHIP_spacegun_consummate VERPINE_SHIP_spacegun_merit VERPINE_SHIP_spacegun_perfection VERPINE_SHIP_spacegun_virtue VERPINE_SHIP_spacegun_advantage VERPINE_SHIP_spacegun_rectitude VERPINE_SHIP_spacegun_incorruptible VERPINE_SHIP_spacegun_integrity VERPINE_SHIP_spacegun_justice VERPINE_SHIP_spacegun_probity VERPINE_SHIP_spacegun_prudence VERPINE_SHIP_spacegun_purity VERPINE_SHIP_spacegun_resolute VERPINE_SHIP_spacegun_dignity VERPINE_SHIP_spacegun_distinction VERPINE_SHIP_spacegun_excellence VERPINE_SHIP_spacegun_faithful VERPINE_SHIP_spacegun_discipline VERPINE_SHIP_spacegun_steadfast VERPINE_SHIP_spacegun_recompense VERPINE_SHIP_spacegun_requiem VERPINE_SHIP_spacegun_courage VERPINE_SHIP_spacegun_valor VERPINE_SHIP_spacegun_gallant VERPINE_SHIP_spacegun_daring VERPINE_SHIP_spacegun_constancy VERPINE_SHIP_spacegun_perseverence VERPINE_SHIP_spacegun_tenacity VERPINE_SHIP_spacegun_sedulity VERPINE_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			VERPINE_SHIP_citadel VERPINE_SHIP_albacore VERPINE_SHIP_gateway VERPINE_SHIP_vincent VERPINE_SHIP_babylon VERPINE_SHIP_caernavon VERPINE_SHIP_acre VERPINE_SHIP_pembroke VERPINE_SHIP_acheron VERPINE_SHIP_spithead VERPINE_SHIP_halifax VERPINE_SHIP_victoria VERPINE_SHIP_chatham VERPINE_SHIP_anchorage VERPINE_SHIP_scapa_flow VERPINE_SHIP_hampton_roads VERPINE_SHIP_brooklyn VERPINE_SHIP_norfolk VERPINE_SHIP_newport VERPINE_SHIP_guam VERPINE_SHIP_pensacola VERPINE_SHIP_vesuvius VERPINE_SHIP_mckinley VERPINE_SHIP_everest VERPINE_SHIP_kilimanjaro VERPINE_SHIP_aconcagua VERPINE_SHIP_elbrus VERPINE_SHIP_st__helens VERPINE_SHIP_fuji VERPINE_SHIP_olympus VERPINE_SHIP_sinai VERPINE_SHIP_ambrose VERPINE_SHIP_bermuda VERPINE_SHIP_farpoint VERPINE_SHIP_blue_star VERPINE_SHIP_olympus_mons VERPINE_SHIP_tharsis VERPINE_SHIP_syrtis VERPINE_SHIP_blackham VERPINE_SHIP_fletcher VERPINE_SHIP_perry VERPINE_SHIP_butakov VERPINE_SHIP_morris VERPINE_SHIP_moorsom VERPINE_SHIP_hart VERPINE_SHIP_hargood VERPINE_SHIP_spruance VERPINE_SHIP_tanaka VERPINE_SHIP_halsey VERPINE_SHIP_turner VERPINE_SHIP_doria VERPINE_SHIP_tirpitz VERPINE_SHIP_cunningham VERPINE_SHIP_jellicoe VERPINE_SHIP_hipper VERPINE_SHIP_beatty VERPINE_SHIP_potemkin VERPINE_SHIP_durham VERPINE_SHIP_codrington VERPINE_SHIP_milne VERPINE_SHIP_laforey VERPINE_SHIP_tyler VERPINE_SHIP_hawke VERPINE_SHIP_yonai VERPINE_SHIP_pound VERPINE_SHIP_king VERPINE_SHIP_crutchley VERPINE_SHIP_mountbatten VERPINE_SHIP_kountouriotis VERPINE_SHIP_kuznetsov VERPINE_SHIP_essen VERPINE_SHIP_kornilov VERPINE_SHIP_suffren VERPINE_SHIP_treville VERPINE_SHIP_villeneuve VERPINE_SHIP_grasse VERPINE_SHIP_byng VERPINE_SHIP_lezo
+		}
+		ion_cannon = {
+			VERPINE_SHIP_bombard VERPINE_SHIP_ballista VERPINE_SHIP_catapult VERPINE_SHIP_harpoon VERPINE_SHIP_polybolos VERPINE_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			VERPINE_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			VERPINE_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			VERPINE_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			VERPINE_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			VERPINE_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			VERPINE_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			VERPINE_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			VERPINE_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			VERPINE_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			VERPINE_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			VERPINE_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			VERPINE_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			VERPINE_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			VERPINE_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			VERPINE_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			VERPINE_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			VERPINE_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			VERPINE_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			VERPINE_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			VERPINE_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			VERPINE_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			VERPINE_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			VERPINE_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			VERPINE_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			VERPINE_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			VERPINE_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			VERPINE_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			VERPINE_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			VERPINE_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			VERPINE_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			VERPINE_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			VERPINE_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			VERPINE_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			VERPINE_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			VERPINE_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			VERPINE_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			VERPINE_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			VERPINE_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			VERPINE_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			VERPINE_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			VERPINE_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			VERPINE_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			VERPINE_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			VERPINE_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			VERPINE_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			VERPINE_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			VERPINE_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			VERPINE_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			VERPINE_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			VERPINE_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			VERPINE_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			VERPINE_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			VERPINE_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			VERPINE_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			VERPINE_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			VERPINE_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			VERPINE_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			VERPINE_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			VERPINE_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			VERPINE_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			VERPINE_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			VERPINE_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			VERPINE_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			VERPINE_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			VERPINE_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			VERPINE_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			VERPINE_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			VERPINE_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			VERPINE_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			VERPINE_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			VERPINE_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			VERPINE_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			VERPINE_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			VERPINE_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			VERPINE_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			VERPINE_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			VERPINE_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			VERPINE_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			VERPINE_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			VERPINE_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			VERPINE_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			VERPINE_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			VERPINE_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			VERPINE_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			VERPINE_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			VERPINE_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			VERPINE_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			VERPINE_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			VERPINE_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			VERPINE_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			VERPINE_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			VERPINE_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			VERPINE_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			VERPINE_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = VERPINE_FLEET_armada_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = VERPINE_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = VERPINE_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = VERPINE_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = VERPINE_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = VERPINE_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = VERPINE_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = VERPINE_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = VERPINE_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				VERPINE_ARMY_sarc_a__gladiators_ VERPINE_ARMY_sarc_b__widowmakers_ VERPINE_ARMY_sarc_c__immortals_ VERPINE_ARMY_sarc_d__berserkers_ VERPINE_ARMY_sarc_e__assassins_ VERPINE_ARMY_sarc_f__reapers_ VERPINE_ARMY_sarc_g__nighthawks_ VERPINE_ARMY_sarc_h__desperados_ VERPINE_ARMY_sarc_i__grey_knights_ VERPINE_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = VERPINE_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = VERPINE_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = VERPINE_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = VERPINE_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = VERPINE_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = VERPINE_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = VERPINE_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = VERPINE_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = VERPINE_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = VERPINE_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = VERPINE_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = VERPINE_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = VERPINE_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = VERPINE_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = VERPINE_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = VERPINE_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = VERPINE_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = VERPINE_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = VERPINE_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = VERPINE_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = VERPINE_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = VERPINE_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = VERPINE_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = VERPINE_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = VERPINE_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = VERPINE_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = VERPINE_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = VERPINE_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = VERPINE_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = VERPINE_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = VERPINE_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = VERPINE_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = VERPINE_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = VERPINE_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = VERPINE_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = VERPINE_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = VERPINE_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = VERPINE_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = VERPINE_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = VERPINE_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = VERPINE_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = VERPINE_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = VERPINE_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = VERPINE_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = VERPINE_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = VERPINE_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = VERPINE_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = VERPINE_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = VERPINE_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = VERPINE_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = VERPINE_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = VERPINE_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = VERPINE_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = VERPINE_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = VERPINE_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = VERPINE_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = VERPINE_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = VERPINE_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = VERPINE_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = VERPINE_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = VERPINE_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = VERPINE_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = VERPINE_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = VERPINE_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = VERPINE_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = VERPINE_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = VERPINE_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = VERPINE_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = VERPINE_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = VERPINE_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = VERPINE_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = VERPINE_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = VERPINE_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = VERPINE_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = VERPINE_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = VERPINE_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = VERPINE_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = VERPINE_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = VERPINE_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = VERPINE_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = VERPINE_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = VERPINE_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = VERPINE_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = VERPINE_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = VERPINE_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = VERPINE_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = VERPINE_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = VERPINE_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = VERPINE_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = VERPINE_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = VERPINE_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = VERPINE_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = VERPINE_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = VERPINE_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = VERPINE_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = VERPINE_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = VERPINE_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = VERPINE_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = VERPINE_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = VERPINE_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = VERPINE_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = VERPINE_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = VERPINE_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = VERPINE_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = VERPINE_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = VERPINE_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = VERPINE_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = VERPINE_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = VERPINE_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = VERPINE_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = VERPINE_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = VERPINE_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = VERPINE_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = VERPINE_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = VERPINE_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = VERPINE_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = VERPINE_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = VERPINE_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = VERPINE_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = VERPINE_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = VERPINE_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = VERPINE_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = VERPINE_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = VERPINE_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = VERPINE_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = VERPINE_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = VERPINE_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = VERPINE_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = VERPINE_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = VERPINE_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = VERPINE_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = VERPINE_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = VERPINE_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			weight = 40
+			first_names_male = {
+				VERPINE_CHR_bail VERPINE_CHR_ylenic VERPINE_CHR_kel VERPINE_CHR_gunn VERPINE_CHR_gregory VERPINE_CHR_abraxis VERPINE_CHR_jonas VERPINE_CHR_xerda VERPINE_CHR_carth VERPINE_CHR_kir VERPINE_CHR_mebba VERPINE_CHR_dagos VERPINE_CHR_adam VERPINE_CHR_kyle VERPINE_CHR_forren VERPINE_CHR_malcolm VERPINE_CHR_jeho VERPINE_CHR_lee VERPINE_CHR_griggs VERPINE_CHR_milo VERPINE_CHR_aeron VERPINE_CHR_byrec VERPINE_CHR_strata VERPINE_CHR_lancer VERPINE_CHR_zeak VERPINE_CHR_niuk VERPINE_CHR_lavidean VERPINE_CHR_tanizandar VERPINE_CHR_japla VERPINE_CHR_aran VERPINE_CHR_rail VERPINE_CHR_zeven VERPINE_CHR_yakown VERPINE_CHR_sibar VERPINE_CHR_sair VERPINE_CHR_klai VERPINE_CHR_jonas VERPINE_CHR_imay VERPINE_CHR_traest VERPINE_CHR_simo VERPINE_CHR_carth VERPINE_CHR_riyan VERPINE_CHR_magnus VERPINE_CHR_boceta VERPINE_CHR_agnook VERPINE_CHR_silus VERPINE_CHR_rowan VERPINE_CHR_coren VERPINE_CHR_jett VERPINE_CHR_linth VERPINE_CHR_annor VERPINE_CHR_ulas VERPINE_CHR_fenn VERPINE_CHR_tal VERPINE_CHR_plo VERPINE_CHR_torin VERPINE_CHR_imay VERPINE_CHR_boone VERPINE_CHR_davith VERPINE_CHR_jorgen VERPINE_CHR_bertos VERPINE_CHR_ress VERPINE_CHR_malius VERPINE_CHR_kale VERPINE_CHR_cregan VERPINE_CHR_galen VERPINE_CHR_zekk VERPINE_CHR_jinn_tu VERPINE_CHR_jaryn VERPINE_CHR_gentti VERPINE_CHR_yu_sien VERPINE_CHR_akela VERPINE_CHR_arslan VERPINE_CHR_sidias VERPINE_CHR_haken VERPINE_CHR_biran VERPINE_CHR_vidown VERPINE_CHR_ares VERPINE_CHR_ithan VERPINE_CHR_cul_utaan VERPINE_CHR_thoja VERPINE_CHR_cron VERPINE_CHR_mossi VERPINE_CHR_abric VERPINE_CHR_darg VERPINE_CHR_gaman VERPINE_CHR_naiad VERPINE_CHR_herub VERPINE_CHR_marius VERPINE_CHR_torkin VERPINE_CHR_caton VERPINE_CHR_kane VERPINE_CHR_versita VERPINE_CHR_cric VERPINE_CHR_foxdi VERPINE_CHR_montacca VERPINE_CHR_jospi VERPINE_CHR_baz VERPINE_CHR_kam VERPINE_CHR_erek VERPINE_CHR_arslan VERPINE_CHR_lerak VERPINE_CHR_morla VERPINE_CHR_baxter VERPINE_CHR_talan VERPINE_CHR_thion VERPINE_CHR_kannon VERPINE_CHR_corsair VERPINE_CHR_caster VERPINE_CHR_elden VERPINE_CHR_faelgrom VERPINE_CHR_jack VERPINE_CHR_raltharan VERPINE_CHR_flash VERPINE_CHR_waseem VERPINE_CHR_bendak VERPINE_CHR_kaz VERPINE_CHR_montileu VERPINE_CHR_gonoga VERPINE_CHR_silus VERPINE_CHR_galven VERPINE_CHR_vincenzo VERPINE_CHR_ric VERPINE_CHR_rebar VERPINE_CHR_jebediah VERPINE_CHR_aramil VERPINE_CHR_abraxis VERPINE_CHR_delmi VERPINE_CHR_caalin VERPINE_CHR_rassth VERPINE_CHR_adorn VERPINE_CHR_cyrus VERPINE_CHR_zhar_khan VERPINE_CHR_adam VERPINE_CHR_predor VERPINE_CHR_tarlson VERPINE_CHR_boaz VERPINE_CHR_bradley VERPINE_CHR_gunn VERPINE_CHR_raltharan VERPINE_CHR_zerrid VERPINE_CHR_bobecc VERPINE_CHR_jelantos VERPINE_CHR_jephego VERPINE_CHR_svante VERPINE_CHR_tesvalo VERPINE_CHR_aeon VERPINE_CHR_dekar VERPINE_CHR_jean_francois VERPINE_CHR_elen VERPINE_CHR_han VERPINE_CHR_owen VERPINE_CHR_biggs VERPINE_CHR_rune VERPINE_CHR_lott VERPINE_CHR_daultay VERPINE_CHR_lok VERPINE_CHR_mar VERPINE_CHR_gilramos VERPINE_CHR_siv VERPINE_CHR_zill VERPINE_CHR_hath VERPINE_CHR_aruteous VERPINE_CHR_jull VERPINE_CHR_sil VERPINE_CHR_hallion VERPINE_CHR_gap VERPINE_CHR_palfa VERPINE_CHR_sib VERPINE_CHR_aito VERPINE_CHR_sentepeth VERPINE_CHR_kund VERPINE_CHR_harro VERPINE_CHR_hask VERPINE_CHR_paw VERPINE_CHR_brehg VERPINE_CHR_reya VERPINE_CHR_gode VERPINE_CHR_nap VERPINE_CHR_lufa VERPINE_CHR_yee VERPINE_CHR_geph VERPINE_CHR_lik VERPINE_CHR_gunaray VERPINE_CHR_igren VERPINE_CHR_dif VERPINE_CHR_klewer VERPINE_CHR_kuto VERPINE_CHR_smeer VERPINE_CHR_helb VERPINE_CHR_toat VERPINE_CHR_teek VERPINE_CHR_jeek VERPINE_CHR_orrin VERPINE_CHR_veor VERPINE_CHR_dak_on VERPINE_CHR_nozabuiba VERPINE_CHR_gama VERPINE_CHR_budmle VERPINE_CHR_proh_ven VERPINE_CHR_salitt VERPINE_CHR_vigro VERPINE_CHR_rers VERPINE_CHR_desson VERPINE_CHR_cathan VERPINE_CHR_dru VERPINE_CHR_tunjas VERPINE_CHR_borlo VERPINE_CHR_krett VERPINE_CHR_ablund VERPINE_CHR_aach VERPINE_CHR_aagon VERPINE_CHR_aalto VERPINE_CHR_aambler VERPINE_CHR_abadaner VERPINE_CHR_aban VERPINE_CHR_abbus_kelo VERPINE_CHR_acan VERPINE_CHR_ace VERPINE_CHR_adame VERPINE_CHR_adar VERPINE_CHR_arvel VERPINE_CHR_addi_shon VERPINE_CHR_addle VERPINE_CHR_adelhard VERPINE_CHR_aden VERPINE_CHR_adon_larr VERPINE_CHR_adraas VERPINE_CHR_adrenas VERPINE_CHR_adrick VERPINE_CHR_adun VERPINE_CHR_aeron VERPINE_CHR_agareth VERPINE_CHR_aggadeen VERPINE_CHR_alric VERPINE_CHR_airten VERPINE_CHR_agrippa VERPINE_CHR_ajaan VERPINE_CHR_ajolin VERPINE_CHR_akaste_vel VERPINE_CHR_akobi VERPINE_CHR_alain VERPINE_CHR_alaric VERPINE_CHR_albathius VERPINE_CHR_alde VERPINE_CHR_alec VERPINE_CHR_alekam VERPINE_CHR_alethios VERPINE_CHR_alger VERPINE_CHR_algrunar VERPINE_CHR_ali_alann VERPINE_CHR_alif VERPINE_CHR_alim_gen VERPINE_CHR_alin VERPINE_CHR_alix VERPINE_CHR_alkhara VERPINE_CHR_allia VERPINE_CHR_almak VERPINE_CHR_almec VERPINE_CHR_alon VERPINE_CHR_alozen VERPINE_CHR_alph VERPINE_CHR_altaca VERPINE_CHR_althon VERPINE_CHR_alwynn VERPINE_CHR_amberson VERPINE_CHR_ament VERPINE_CHR_amis VERPINE_CHR_ammon VERPINE_CHR_amzartho VERPINE_CHR_anabar VERPINE_CHR_anager VERPINE_CHR_anarine VERPINE_CHR_anathemos VERPINE_CHR_andan VERPINE_CHR_anders VERPINE_CHR_ando VERPINE_CHR_andra VERPINE_CHR_andrew VERPINE_CHR_andrid VERPINE_CHR_andrik VERPINE_CHR_andru VERPINE_CHR_ar_al VERPINE_CHR_angber VERPINE_CHR_angral VERPINE_CHR_anlen VERPINE_CHR_anod VERPINE_CHR_anselm VERPINE_CHR_anskow VERPINE_CHR_anson VERPINE_CHR_adem VERPINE_CHR_antone VERPINE_CHR_antonin VERPINE_CHR_anuli VERPINE_CHR_appleton VERPINE_CHR_arac VERPINE_CHR_arakkus VERPINE_CHR_aramis VERPINE_CHR_arana VERPINE_CHR_armen VERPINE_CHR_arastide VERPINE_CHR_arber VERPINE_CHR_arcann VERPINE_CHR_ardan VERPINE_CHR_ardax VERPINE_CHR_ardiff VERPINE_CHR_ardle VERPINE_CHR_ardmore VERPINE_CHR_ardot VERPINE_CHR_ardran VERPINE_CHR_avinoam VERPINE_CHR_ars VERPINE_CHR_argona VERPINE_CHR_argor VERPINE_CHR_argos VERPINE_CHR_arias VERPINE_CHR_ariavos VERPINE_CHR_arigo VERPINE_CHR_aris VERPINE_CHR_arkan VERPINE_CHR_arkeld VERPINE_CHR_arl VERPINE_CHR_arljack VERPINE_CHR_arlo VERPINE_CHR_arlos VERPINE_CHR_armatan VERPINE_CHR_armitage VERPINE_CHR_arnama VERPINE_CHR_arnet VERPINE_CHR_arno VERPINE_CHR_arnothian VERPINE_CHR_arnth VERPINE_CHR_arnus VERPINE_CHR_arrad VERPINE_CHR_arratan VERPINE_CHR_arrax VERPINE_CHR_arric VERPINE_CHR_artano VERPINE_CHR_artok VERPINE_CHR_arturo VERPINE_CHR_arzanon VERPINE_CHR_ash VERPINE_CHR_ashaad VERPINE_CHR_asirr VERPINE_CHR_atali VERPINE_CHR_atar VERPINE_CHR_atmino VERPINE_CHR_atren VERPINE_CHR_augatta VERPINE_CHR_avan VERPINE_CHR_avanj VERPINE_CHR_avarik VERPINE_CHR_averdon VERPINE_CHR_averen VERPINE_CHR_averon VERPINE_CHR_avers VERPINE_CHR_aves VERPINE_CHR_aviso VERPINE_CHR_avrun VERPINE_CHR_azkul VERPINE_CHR_azrakel VERPINE_CHR_ace VERPINE_CHR_b_arin VERPINE_CHR_bail VERPINE_CHR_beel VERPINE_CHR_bix VERPINE_CHR_blix VERPINE_CHR_boz VERPINE_CHR_braedon VERPINE_CHR_bryn VERPINE_CHR_brixus VERPINE_CHR_cal VERPINE_CHR_cassian VERPINE_CHR_chik VERPINE_CHR_cinto VERPINE_CHR_cumberlayne VERPINE_CHR_darrus VERPINE_CHR_djinn VERPINE_CHR_druth VERPINE_CHR_det VERPINE_CHR_ethan VERPINE_CHR_galiir VERPINE_CHR_gez VERPINE_CHR_haemon VERPINE_CHR_jae VERPINE_CHR_jagged VERPINE_CHR_jess VERPINE_CHR_jesper VERPINE_CHR_jon VERPINE_CHR_gathal VERPINE_CHR_gideon VERPINE_CHR_jefand VERPINE_CHR_kel VERPINE_CHR_koffi VERPINE_CHR_lazlo VERPINE_CHR_laetin VERPINE_CHR_lesk VERPINE_CHR_maxiron VERPINE_CHR_neet VERPINE_CHR_osak VERPINE_CHR_pabel VERPINE_CHR_paddy VERPINE_CHR_peita VERPINE_CHR_peema VERPINE_CHR_pellas VERPINE_CHR_prewb VERPINE_CHR_raymus VERPINE_CHR_raar VERPINE_CHR_rage VERPINE_CHR_rel VERPINE_CHR_reez VERPINE_CHR_ras VERPINE_CHR_rixes VERPINE_CHR_ruceba VERPINE_CHR_seraph VERPINE_CHR_sim VERPINE_CHR_sio VERPINE_CHR_y_ull VERPINE_CHR_tavion VERPINE_CHR_tavid VERPINE_CHR_tendis VERPINE_CHR_tev VERPINE_CHR_tiberus VERPINE_CHR_toob VERPINE_CHR_tor VERPINE_CHR_turon VERPINE_CHR_villis VERPINE_CHR_wain VERPINE_CHR_wedge VERPINE_CHR_wes VERPINE_CHR_zeen VERPINE_CHR_baboo VERPINE_CHR_bachenkall VERPINE_CHR_bafor VERPINE_CHR_bagitt VERPINE_CHR_bailey VERPINE_CHR_bailie VERPINE_CHR_bairn VERPINE_CHR_bala_tik VERPINE_CHR_balankin VERPINE_CHR_balaro VERPINE_CHR_balcomb VERPINE_CHR_baldwin VERPINE_CHR_baldy VERPINE_CHR_balek VERPINE_CHR_balisk VERPINE_CHR_balkin VERPINE_CHR_balko VERPINE_CHR_ballala VERPINE_CHR_ballard VERPINE_CHR_ballax VERPINE_CHR_bendodi VERPINE_CHR_balog VERPINE_CHR_balto VERPINE_CHR_bams VERPINE_CHR_bandor VERPINE_CHR_boss VERPINE_CHR_banley VERPINE_CHR_banna VERPINE_CHR_bannos VERPINE_CHR_bant VERPINE_CHR_banz VERPINE_CHR_baradis VERPINE_CHR_barak VERPINE_CHR_baramak VERPINE_CHR_barcel VERPINE_CHR_bardo VERPINE_CHR_barduun VERPINE_CHR_barev VERPINE_CHR_barich VERPINE_CHR_barik VERPINE_CHR_barkale VERPINE_CHR_barksy VERPINE_CHR_barleos VERPINE_CHR_barlow VERPINE_CHR_barney VERPINE_CHR_barnley VERPINE_CHR_baro VERPINE_CHR_barry VERPINE_CHR_barstead VERPINE_CHR_bartam VERPINE_CHR_barth VERPINE_CHR_barthis VERPINE_CHR_bas VERPINE_CHR_bas_ton VERPINE_CHR_bascome VERPINE_CHR_basile VERPINE_CHR_basso VERPINE_CHR_bastian VERPINE_CHR_bathens VERPINE_CHR_batono VERPINE_CHR_bator VERPINE_CHR_billal VERPINE_CHR_battz VERPINE_CHR_baxton VERPINE_CHR_baysden VERPINE_CHR_baz VERPINE_CHR_be VERPINE_CHR_beau VERPINE_CHR_beckar VERPINE_CHR_becker VERPINE_CHR_beckman VERPINE_CHR_bedareux VERPINE_CHR_bedoch VERPINE_CHR_beebe VERPINE_CHR_beez VERPINE_CHR_beldiss VERPINE_CHR_belkan VERPINE_CHR_beller VERPINE_CHR_bellis VERPINE_CHR_belos VERPINE_CHR_byzal VERPINE_CHR_bzorn VERPINE_CHR_biggs VERPINE_CHR_bels VERPINE_CHR_bemos VERPINE_CHR_benay VERPINE_CHR_benjo VERPINE_CHR_benkin VERPINE_CHR_benn VERPINE_CHR_benni VERPINE_CHR_benok VERPINE_CHR_benthar VERPINE_CHR_benton VERPINE_CHR_bentro VERPINE_CHR_boar VERPINE_CHR_benx VERPINE_CHR_bequesh VERPINE_CHR_berandis VERPINE_CHR_berethon VERPINE_CHR_bergan VERPINE_CHR_berix VERPINE_CHR_bernie VERPINE_CHR_bertrum VERPINE_CHR_berusal VERPINE_CHR_bewil VERPINE_CHR_bex VERPINE_CHR_billan VERPINE_CHR_biril VERPINE_CHR_birket VERPINE_CHR_birok VERPINE_CHR_black VERPINE_CHR_blagotine VERPINE_CHR_blaide VERPINE_CHR_blainekie VERPINE_CHR_bledsoe VERPINE_CHR_bleeker VERPINE_CHR_blleen VERPINE_CHR_bloodory VERPINE_CHR_bloodworthy VERPINE_CHR_blount VERPINE_CHR_blyes VERPINE_CHR_boakie VERPINE_CHR_boaz VERPINE_CHR_bob VERPINE_CHR_bol VERPINE_CHR_bon VERPINE_CHR_bonze VERPINE_CHR_boonan VERPINE_CHR_boran VERPINE_CHR_boraso VERPINE_CHR_borgin VERPINE_CHR_borm VERPINE_CHR_bornae VERPINE_CHR_bort VERPINE_CHR_bortrek VERPINE_CHR_boshek VERPINE_CHR_bourom VERPINE_CHR_bouyard VERPINE_CHR_braden VERPINE_CHR_brady VERPINE_CHR_bragan VERPINE_CHR_braynor VERPINE_CHR_brayso VERPINE_CHR_breckon VERPINE_CHR_breehld VERPINE_CHR_brinn VERPINE_CHR_brinnie VERPINE_CHR_brint VERPINE_CHR_brinton VERPINE_CHR_brogon VERPINE_CHR_brohmer VERPINE_CHR_brolis VERPINE_CHR_broll VERPINE_CHR_brom VERPINE_CHR_brooser VERPINE_CHR_brothic VERPINE_CHR_brovto VERPINE_CHR_broysc VERPINE_CHR_bruan VERPINE_CHR_brucce VERPINE_CHR_bruckman VERPINE_CHR_bryint VERPINE_CHR_brylin VERPINE_CHR_bry VERPINE_CHR_brysonbular VERPINE_CHR_bulger VERPINE_CHR_bun_delbur VERPINE_CHR_burne VERPINE_CHR_burque VERPINE_CHR_burr VERPINE_CHR_bursk VERPINE_CHR_bursthed VERPINE_CHR_byrga VERPINE_CHR_byten VERPINE_CHR_trey VERPINE_CHR_lando VERPINE_CHR_caaldra VERPINE_CHR_cabaril VERPINE_CHR_cabbel VERPINE_CHR_caeleb VERPINE_CHR_caerbellak VERPINE_CHR_cafian VERPINE_CHR_cag VERPINE_CHR_cagaran VERPINE_CHR_cam VERPINE_CHR_camaran VERPINE_CHR_camas VERPINE_CHR_cardacs VERPINE_CHR_cardy VERPINE_CHR_careem VERPINE_CHR_cargeloch VERPINE_CHR_carhart VERPINE_CHR_calron VERPINE_CHR_calson VERPINE_CHR_calum VERPINE_CHR_calypho VERPINE_CHR_cal VERPINE_CHR_caladane VERPINE_CHR_calaverous VERPINE_CHR_carli VERPINE_CHR_carlon VERPINE_CHR_carlton VERPINE_CHR_carn VERPINE_CHR_carner VERPINE_CHR_carness VERPINE_CHR_carnor VERPINE_CHR_carns VERPINE_CHR_callef VERPINE_CHR_callen VERPINE_CHR_callow VERPINE_CHR_calders VERPINE_CHR_caleb VERPINE_CHR_calo VERPINE_CHR_calphayus VERPINE_CHR_cathers VERPINE_CHR_caton VERPINE_CHR_cauley VERPINE_CHR_cav VERPINE_CHR_cav_saran VERPINE_CHR_cavin VERPINE_CHR_cryle VERPINE_CHR_cavwol VERPINE_CHR_cawelyn VERPINE_CHR_cecius VERPINE_CHR_cede VERPINE_CHR_cemma VERPINE_CHR_ceoloe VERPINE_CHR_cerasi VERPINE_CHR_cerik VERPINE_CHR_charny VERPINE_CHR_charol VERPINE_CHR_charpp VERPINE_CHR_charnoq VERPINE_CHR_charnso VERPINE_CHR_cestus VERPINE_CHR_ch_arb VERPINE_CHR_ch_gally VERPINE_CHR_ch_lessan VERPINE_CHR_cha VERPINE_CHR_chael VERPINE_CHR_challer VERPINE_CHR_chambe VERPINE_CHR_crlyn VERPINE_CHR_chang VERPINE_CHR_chappral VERPINE_CHR_chef VERPINE_CHR_chentu VERPINE_CHR_chell VERPINE_CHR_chessiq VERPINE_CHR_chet VERPINE_CHR_chiann VERPINE_CHR_chicora VERPINE_CHR_chatty VERPINE_CHR_chayloss VERPINE_CHR_chedaki VERPINE_CHR_chiraneau VERPINE_CHR_chiron VERPINE_CHR_chorlen VERPINE_CHR_chornarov VERPINE_CHR_cody VERPINE_CHR_clorr VERPINE_CHR_clovis VERPINE_CHR_clydno VERPINE_CHR_clynn VERPINE_CHR_cnorec VERPINE_CHR_coburn VERPINE_CHR_cobus VERPINE_CHR_cogon VERPINE_CHR_colin VERPINE_CHR_collus VERPINE_CHR_colsan VERPINE_CHR_colten VERPINE_CHR_colton VERPINE_CHR_combo VERPINE_CHR_conar VERPINE_CHR_coorta VERPINE_CHR_corin VERPINE_CHR_coris VERPINE_CHR_corlac VERPINE_CHR_corso VERPINE_CHR_corvan VERPINE_CHR_corvin VERPINE_CHR_corvis VERPINE_CHR_corwin VERPINE_CHR_corwyth VERPINE_CHR_cote VERPINE_CHR_cothron VERPINE_CHR_cotin VERPINE_CHR_coy VERPINE_CHR_cravel VERPINE_CHR_cravus VERPINE_CHR_creb VERPINE_CHR_creeve VERPINE_CHR_corlis VERPINE_CHR_crest VERPINE_CHR_crimpler VERPINE_CHR_crimson VERPINE_CHR_crin VERPINE_CHR_crion VERPINE_CHR_criss VERPINE_CHR_cristoff VERPINE_CHR_crix VERPINE_CHR_cronal VERPINE_CHR_cronnin VERPINE_CHR_cronus VERPINE_CHR_d_ashewl VERPINE_CHR_d_krn VERPINE_CHR_d_lew VERPINE_CHR_d_vox VERPINE_CHR_d_vrosh VERPINE_CHR_daal VERPINE_CHR_dado VERPINE_CHR_daek VERPINE_CHR_dael VERPINE_CHR_dahar VERPINE_CHR_dahm VERPINE_CHR_daiman VERPINE_CHR_dainsom VERPINE_CHR_daiv VERPINE_CHR_dak VERPINE_CHR_dakron VERPINE_CHR_daksh VERPINE_CHR_dalton VERPINE_CHR_damarcus VERPINE_CHR_damaris VERPINE_CHR_damarus VERPINE_CHR_dao VERPINE_CHR_dapp VERPINE_CHR_daquinn VERPINE_CHR_dar VERPINE_CHR_eesh VERPINE_CHR_darda VERPINE_CHR_dardan VERPINE_CHR_dareb_ VERPINE_CHR_dareg VERPINE_CHR_darek VERPINE_CHR_daren VERPINE_CHR_dargus VERPINE_CHR_daggath VERPINE_CHR_darnov VERPINE_CHR_daro VERPINE_CHR_darok VERPINE_CHR_darone VERPINE_CHR_darr VERPINE_CHR_darrik VERPINE_CHR_darrok VERPINE_CHR_darrst VERPINE_CHR_darsin VERPINE_CHR_darthyn VERPINE_CHR_daruula VERPINE_CHR_dash VERPINE_CHR_datoo VERPINE_CHR_dauren VERPINE_CHR_davis VERPINE_CHR_davon VERPINE_CHR_davonn VERPINE_CHR_davos VERPINE_CHR_davrill VERPINE_CHR_davrin VERPINE_CHR_davu VERPINE_CHR_dayja VERPINE_CHR_daz VERPINE_CHR_ramsis VERPINE_CHR_bren VERPINE_CHR_tan VERPINE_CHR_jan VERPINE_CHR_porro VERPINE_CHR_cin VERPINE_CHR_garven VERPINE_CHR_cornelius VERPINE_CHR_galen VERPINE_CHR_dannl VERPINE_CHR_ecclessis VERPINE_CHR_debbikin VERPINE_CHR_debeli VERPINE_CHR_deegan VERPINE_CHR_deerian VERPINE_CHR_deevis VERPINE_CHR_defain VERPINE_CHR_deflaros VERPINE_CHR_degoren VERPINE_CHR_dehno VERPINE_CHR_dekay VERPINE_CHR_delevar VERPINE_CHR_delfaros VERPINE_CHR_dellin VERPINE_CHR_dellocon VERPINE_CHR_delpho VERPINE_CHR_delquis VERPINE_CHR_delsa VERPINE_CHR_delund VERPINE_CHR_delurin VERPINE_CHR_demtri VERPINE_CHR_den VERPINE_CHR_denbar VERPINE_CHR_dender VERPINE_CHR_dendro VERPINE_CHR_dendu VERPINE_CHR_denetrus VERPINE_CHR_denev VERPINE_CHR_dengar VERPINE_CHR_dengril VERPINE_CHR_denid VERPINE_CHR_denimoor VERPINE_CHR_denin VERPINE_CHR_denna VERPINE_CHR_denner VERPINE_CHR_dennik VERPINE_CHR_deppo VERPINE_CHR_derdram VERPINE_CHR_derec VERPINE_CHR_derish VERPINE_CHR_derliff VERPINE_CHR_dermeg VERPINE_CHR_dermian VERPINE_CHR_dern VERPINE_CHR_dernas VERPINE_CHR_derral VERPINE_CHR_derrin VERPINE_CHR_dervis VERPINE_CHR_desanne VERPINE_CHR_devoris VERPINE_CHR_devotek VERPINE_CHR_devron VERPINE_CHR_devry VERPINE_CHR_devsh VERPINE_CHR_dewolf VERPINE_CHR_dex VERPINE_CHR_dezsetes VERPINE_CHR_dhaiv VERPINE_CHR_dhal VERPINE_CHR_dindau VERPINE_CHR_dindo VERPINE_CHR_ding VERPINE_CHR_dinge VERPINE_CHR_dobbatek VERPINE_CHR_dobberty VERPINE_CHR_dobbs VERPINE_CHR_dolan VERPINE_CHR_dolgis VERPINE_CHR_dolmen VERPINE_CHR_dolo VERPINE_CHR_dominaire VERPINE_CHR_domm VERPINE_CHR_donovan VERPINE_CHR_donovarr VERPINE_CHR_donsull VERPINE_CHR_dorel_kan VERPINE_CHR_dorgat VERPINE_CHR_dorian VERPINE_CHR_dorja VERPINE_CHR_dorn VERPINE_CHR_dorotsech VERPINE_CHR_dorrick VERPINE_CHR_dortho VERPINE_CHR_downey VERPINE_CHR_draado VERPINE_CHR_draahg VERPINE_CHR_dracen VERPINE_CHR_drage VERPINE_CHR_dragen VERPINE_CHR_drake VERPINE_CHR_drayk VERPINE_CHR_drazin VERPINE_CHR_drek VERPINE_CHR_duno VERPINE_CHR_dree VERPINE_CHR_dreed VERPINE_CHR_drefin VERPINE_CHR_dregg VERPINE_CHR_drelosyn VERPINE_CHR_drexel VERPINE_CHR_dreyf VERPINE_CHR_drezzel VERPINE_CHR_drizan VERPINE_CHR_dro VERPINE_CHR_droman VERPINE_CHR_dromath VERPINE_CHR_drowl VERPINE_CHR_drufeys VERPINE_CHR_drummond VERPINE_CHR_dubeh VERPINE_CHR_dunari VERPINE_CHR_dunaub VERPINE_CHR_deadeye VERPINE_CHR_duncan VERPINE_CHR_durhant VERPINE_CHR_durmat VERPINE_CHR_durpin VERPINE_CHR_durrei VERPINE_CHR_dyshotto VERPINE_CHR_dzoun VERPINE_CHR_eagle VERPINE_CHR_eanjer VERPINE_CHR_earl VERPINE_CHR_earsh VERPINE_CHR_eben VERPINE_CHR_eddon VERPINE_CHR_edease VERPINE_CHR_edern VERPINE_CHR_edgar VERPINE_CHR_edikar VERPINE_CHR_egoreg VERPINE_CHR_egron VERPINE_CHR_eistern VERPINE_CHR_ejai VERPINE_CHR_eker VERPINE_CHR_ekh VERPINE_CHR_ekisp VERPINE_CHR_ekov VERPINE_CHR_elarles VERPINE_CHR_eriquel VERPINE_CHR_eris VERPINE_CHR_erl VERPINE_CHR_erloi VERPINE_CHR_esano VERPINE_CHR_escalion VERPINE_CHR_ezil VERPINE_CHR_ezrim VERPINE_CHR_ezra VERPINE_CHR_ein VERPINE_CHR_eislo VERPINE_CHR_jake VERPINE_CHR_jango VERPINE_CHR_eli VERPINE_CHR_eliasb VERPINE_CHR_eligyn VERPINE_CHR_elior VERPINE_CHR_elis VERPINE_CHR_elizhis VERPINE_CHR_elkin VERPINE_CHR_ellsworth VERPINE_CHR_elmel VERPINE_CHR_elmyo VERPINE_CHR_elrodelsar VERPINE_CHR_elsek VERPINE_CHR_emil VERPINE_CHR_emir VERPINE_CHR_emmens VERPINE_CHR_endicott VERPINE_CHR_enfield VERPINE_CHR_enger VERPINE_CHR_engret VERPINE_CHR_emmett VERPINE_CHR_emory VERPINE_CHR_eoaq VERPINE_CHR_eph VERPINE_CHR_erdan VERPINE_CHR_erelut VERPINE_CHR_ergast VERPINE_CHR_ergel VERPINE_CHR_ergeron VERPINE_CHR_eric VERPINE_CHR_erik VERPINE_CHR_estopatrin VERPINE_CHR_esture VERPINE_CHR_estus VERPINE_CHR_eth VERPINE_CHR_ethen VERPINE_CHR_etnam VERPINE_CHR_etta VERPINE_CHR_evad VERPINE_CHR_evan VERPINE_CHR_evax VERPINE_CHR_evlen VERPINE_CHR_evran VERPINE_CHR_evun VERPINE_CHR_evvin VERPINE_CHR_ewane VERPINE_CHR_exar VERPINE_CHR_eyvind VERPINE_CHR_falltower VERPINE_CHR_falrey VERPINE_CHR_falsta VERPINE_CHR_falch VERPINE_CHR_falco VERPINE_CHR_faarl VERPINE_CHR_fable VERPINE_CHR_faedral VERPINE_CHR_far VERPINE_CHR_faradin VERPINE_CHR_faraire VERPINE_CHR_fardi VERPINE_CHR_farn VERPINE_CHR_farng VERPINE_CHR_farnis VERPINE_CHR_farsal VERPINE_CHR_farseam VERPINE_CHR_fatulaine VERPINE_CHR_fauler VERPINE_CHR_feldon VERPINE_CHR_feldron VERPINE_CHR_feleea VERPINE_CHR_fenn VERPINE_CHR_fenris VERPINE_CHR_fenson VERPINE_CHR_feras VERPINE_CHR_ferav VERPINE_CHR_ferdoin VERPINE_CHR_fermin VERPINE_CHR_ferob VERPINE_CHR_ferren VERPINE_CHR_ferrid VERPINE_CHR_ferrig VERPINE_CHR_ferrin VERPINE_CHR_ferron VERPINE_CHR_ferrus VERPINE_CHR_falesh VERPINE_CHR_falk VERPINE_CHR_fardi VERPINE_CHR_fassio VERPINE_CHR_fatulaine VERPINE_CHR_dannl VERPINE_CHR_februs VERPINE_CHR_janus VERPINE_CHR_fixer VERPINE_CHR_florn VERPINE_CHR_grizz VERPINE_CHR_frobb VERPINE_CHR_fruun
+			}
+			first_names_female = {
+				VERPINE_CHR_charratha VERPINE_CHR_edaara VERPINE_CHR_bella VERPINE_CHR_callista VERPINE_CHR_mara VERPINE_CHR_seena VERPINE_CHR_areta VERPINE_CHR_cord VERPINE_CHR_cyrinity VERPINE_CHR_nile VERPINE_CHR_kiyfi VERPINE_CHR_yasmyn VERPINE_CHR_satra VERPINE_CHR_shehish VERPINE_CHR_sarna VERPINE_CHR_krava VERPINE_CHR_roxis VERPINE_CHR_jessa VERPINE_CHR_aqua VERPINE_CHR_maryna VERPINE_CHR_essaj VERPINE_CHR_looriw VERPINE_CHR_teeana VERPINE_CHR_raena VERPINE_CHR_yula VERPINE_CHR_vifi VERPINE_CHR_vania VERPINE_CHR_jeanida VERPINE_CHR_aerena VERPINE_CHR_nataya VERPINE_CHR_bernarda VERPINE_CHR_geela VERPINE_CHR_lya VERPINE_CHR_sirra VERPINE_CHR_teris VERPINE_CHR_terral VERPINE_CHR_nile VERPINE_CHR_riema VERPINE_CHR_erri VERPINE_CHR_shanna VERPINE_CHR_lyra VERPINE_CHR_pranda VERPINE_CHR_luna VERPINE_CHR_cally VERPINE_CHR_viqi VERPINE_CHR_hadriel VERPINE_CHR_lora VERPINE_CHR_selena VERPINE_CHR_zana VERPINE_CHR_tuija VERPINE_CHR_railin VERPINE_CHR_odona VERPINE_CHR_shyon VERPINE_CHR_walas VERPINE_CHR_rylla VERPINE_CHR_gara VERPINE_CHR_delos VERPINE_CHR_loretta VERPINE_CHR_luhon VERPINE_CHR_delinia VERPINE_CHR_aama VERPINE_CHR_shorya VERPINE_CHR_melfina VERPINE_CHR_davessi VERPINE_CHR_larana VERPINE_CHR_galatea VERPINE_CHR_nola VERPINE_CHR_syna VERPINE_CHR_jauhzmynn VERPINE_CHR_anen VERPINE_CHR_orona VERPINE_CHR_yana VERPINE_CHR_zoras VERPINE_CHR_ree VERPINE_CHR_grace VERPINE_CHR_tantema VERPINE_CHR_myn VERPINE_CHR_una VERPINE_CHR_dalharil VERPINE_CHR_losa VERPINE_CHR_sovi VERPINE_CHR_elaiza VERPINE_CHR_vucora VERPINE_CHR_ava VERPINE_CHR_joi VERPINE_CHR_stryka VERPINE_CHR_tantema VERPINE_CHR_shandra VERPINE_CHR_kely VERPINE_CHR_caileta VERPINE_CHR_taia VERPINE_CHR_siala VERPINE_CHR_reki VERPINE_CHR_maydla VERPINE_CHR_bot VERPINE_CHR_kiandra VERPINE_CHR_xilaren VERPINE_CHR_zulara VERPINE_CHR_ren VERPINE_CHR_karissa VERPINE_CHR_roxis VERPINE_CHR_haruko VERPINE_CHR_jenna VERPINE_CHR_liana VERPINE_CHR_rale VERPINE_CHR_megara VERPINE_CHR_aria VERPINE_CHR_akiva VERPINE_CHR_nalah VERPINE_CHR_erlem VERPINE_CHR_nali VERPINE_CHR_fallah VERPINE_CHR_kotrana VERPINE_CHR_aayla VERPINE_CHR_kalira VERPINE_CHR_arani VERPINE_CHR_fama VERPINE_CHR_lyyr VERPINE_CHR_arcas VERPINE_CHR_rane VERPINE_CHR_nayru VERPINE_CHR_zylas VERPINE_CHR_vexa VERPINE_CHR_kana VERPINE_CHR_beru
+			}
+			second_names = {
+				VERPINE_CHR_elysar VERPINE_CHR_tisa VERPINE_CHR_wahia VERPINE_CHR_wezz VERPINE_CHR_unic VERPINE_CHR_tiovata VERPINE_CHR_nakcohh VERPINE_CHR_vitaan VERPINE_CHR_mefrid VERPINE_CHR_daklan VERPINE_CHR_kenzee VERPINE_CHR_joben VERPINE_CHR_thegas VERPINE_CHR_moryne VERPINE_CHR_holgor VERPINE_CHR_ijaaz VERPINE_CHR_tromans VERPINE_CHR_sprax VERPINE_CHR_knesos VERPINE_CHR_magnus VERPINE_CHR_lasek VERPINE_CHR_artis VERPINE_CHR_pax VERPINE_CHR_corso VERPINE_CHR_fallon VERPINE_CHR_gundo VERPINE_CHR_ruana VERPINE_CHR_fremlin VERPINE_CHR_thont VERPINE_CHR_creel VERPINE_CHR_rar VERPINE_CHR_dusat VERPINE_CHR_kessler VERPINE_CHR_shaia VERPINE_CHR_el_theriam VERPINE_CHR_vanmeer VERPINE_CHR_vrieska VERPINE_CHR_calway VERPINE_CHR_yamaguchi VERPINE_CHR_riggers VERPINE_CHR_brower VERPINE_CHR_fash VERPINE_CHR_nalto VERPINE_CHR_stryder VERPINE_CHR_dubreas VERPINE_CHR_colsan VERPINE_CHR_terrek VERPINE_CHR_solon VERPINE_CHR_merquise VERPINE_CHR_varn VERPINE_CHR_basai VERPINE_CHR_froud VERPINE_CHR_addacess VERPINE_CHR_elysar VERPINE_CHR_durgen VERPINE_CHR_slahlvo VERPINE_CHR_remex VERPINE_CHR_madowki VERPINE_CHR_hayes VERPINE_CHR_ne VERPINE_CHR_dago VERPINE_CHR_greenback VERPINE_CHR_stithta VERPINE_CHR_ker VERPINE_CHR_driet VERPINE_CHR_klakk VERPINE_CHR_reed VERPINE_CHR_lefex VERPINE_CHR_minn VERPINE_CHR_irokini VERPINE_CHR_roye VERPINE_CHR_danakar VERPINE_CHR_forin VERPINE_CHR_glopio VERPINE_CHR_shenuri VERPINE_CHR_corcer VERPINE_CHR_ordo VERPINE_CHR_wan VERPINE_CHR_tagratt VERPINE_CHR_golladio VERPINE_CHR_adramcsia VERPINE_CHR_jetberg VERPINE_CHR_noth VERPINE_CHR_taske VERPINE_CHR_komo VERPINE_CHR_styles VERPINE_CHR_angavel VERPINE_CHR_tyrnith VERPINE_CHR_yavoog VERPINE_CHR_kelbier VERPINE_CHR_racto VERPINE_CHR_degor VERPINE_CHR_tisa VERPINE_CHR_magre VERPINE_CHR_soylon VERPINE_CHR_lerann VERPINE_CHR_chro VERPINE_CHR_finn VERPINE_CHR_blackmoor VERPINE_CHR_hwang VERPINE_CHR_vekarr VERPINE_CHR_thegas VERPINE_CHR_amon VERPINE_CHR_thiddex VERPINE_CHR_durgen VERPINE_CHR_selkayim VERPINE_CHR_gilder VERPINE_CHR_dhuramav VERPINE_CHR_kodd VERPINE_CHR_morin VERPINE_CHR_kobylarz VERPINE_CHR_tade VERPINE_CHR_solman VERPINE_CHR_bintaghr VERPINE_CHR_marclonus VERPINE_CHR_precore VERPINE_CHR_solborne VERPINE_CHR_bailer VERPINE_CHR_katarn VERPINE_CHR_anjek VERPINE_CHR_dalgas VERPINE_CHR_kast VERPINE_CHR_airerith VERPINE_CHR_halo VERPINE_CHR_tade VERPINE_CHR_clash VERPINE_CHR_jalba VERPINE_CHR_benn VERPINE_CHR_haruhana VERPINE_CHR_roice VERPINE_CHR_lokar VERPINE_CHR_korpil VERPINE_CHR_turon VERPINE_CHR_cavi VERPINE_CHR_deece VERPINE_CHR_braitano VERPINE_CHR_garnik VERPINE_CHR_tyandas VERPINE_CHR_ka_taramas VERPINE_CHR_nuwest VERPINE_CHR_forte VERPINE_CHR_noshey VERPINE_CHR_gyyll VERPINE_CHR_tallon VERPINE_CHR_lionne VERPINE_CHR_adras VERPINE_CHR_fremlin VERPINE_CHR_peoly VERPINE_CHR_damiel VERPINE_CHR_chup_pau VERPINE_CHR_drayven VERPINE_CHR_zaposug VERPINE_CHR_bela_trepada VERPINE_CHR_defelice VERPINE_CHR_monsula VERPINE_CHR_baralein VERPINE_CHR_denive VERPINE_CHR_hodrren VERPINE_CHR_xergo VERPINE_CHR_sarat VERPINE_CHR_vercet VERPINE_CHR_ossaki VERPINE_CHR_kappa VERPINE_CHR_zerga VERPINE_CHR_kopos VERPINE_CHR_aldrecht VERPINE_CHR_bohme VERPINE_CHR_tull VERPINE_CHR_eldrel VERPINE_CHR_marh VERPINE_CHR_darksword VERPINE_CHR_krandor VERPINE_CHR_montag VERPINE_CHR_dimodan VERPINE_CHR_starfallen VERPINE_CHR_artis VERPINE_CHR_fett VERPINE_CHR_mohebbi VERPINE_CHR_runalian VERPINE_CHR_binette VERPINE_CHR_laurent VERPINE_CHR_mavr VERPINE_CHR_ryra VERPINE_CHR_truden VERPINE_CHR_solo VERPINE_CHR_lars VERPINE_CHR_amedda VERPINE_CHR_amidala VERPINE_CHR_andrell VERPINE_CHR_annon VERPINE_CHR_antilles VERPINE_CHR_atanna VERPINE_CHR_baab VERPINE_CHR_barc VERPINE_CHR_bonteri VERPINE_CHR_breemu VERPINE_CHR_bremack VERPINE_CHR_bronk VERPINE_CHR_burtoni VERPINE_CHR_cadaman VERPINE_CHR_callen VERPINE_CHR_clovis VERPINE_CHR_ledwellow VERPINE_CHR_dio VERPINE_CHR_organa
+			}
+			regnal_first_names_male = {
+				VERPINE_CHR_kam VERPINE_CHR_erek VERPINE_CHR_arslan VERPINE_CHR_lerak VERPINE_CHR_morla VERPINE_CHR_mas VERPINE_CHR_wain VERPINE_CHR_bail VERPINE_CHR_gabrial VERPINE_CHR_dewell VERPINE_CHR_tanner VERPINE_CHR_vi VERPINE_CHR_rush VERPINE_CHR_danry
+			}
+			regnal_first_names_female = {
+				VERPINE_CHR_callista VERPINE_CHR_mara VERPINE_CHR_seena VERPINE_CHR_areta VERPINE_CHR_padm_ VERPINE_CHR_fema VERPINE_CHR_mina VERPINE_CHR_bana VERPINE_CHR_tyreca VERPINE_CHR_halle VERPINE_CHR_lexi VERPINE_CHR_leia VERPINE_CHR_alyssa VERPINE_CHR_leanna VERPINE_CHR_arya
+			}
+			regnal_second_names = {
+				VERPINE_CHR_amedda VERPINE_CHR_amidala VERPINE_CHR_andrell VERPINE_CHR_annon VERPINE_CHR_antilles VERPINE_CHR_atanna VERPINE_CHR_baab VERPINE_CHR_barc VERPINE_CHR_bonteri VERPINE_CHR_breemu VERPINE_CHR_bremack VERPINE_CHR_bronk VERPINE_CHR_burtoni VERPINE_CHR_cadaman VERPINE_CHR_callen VERPINE_CHR_clovis VERPINE_CHR_ledwellow VERPINE_CHR_dio VERPINE_CHR_panteer VERPINE_CHR_alde VERPINE_CHR_organa VERPINE_CHR_frayus VERPINE_CHR_cortess VERPINE_CHR_killesa
+			}
+		}
+	}
+}

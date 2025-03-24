@@ -1,0 +1,844 @@
+﻿Geonosian = {
+	randomized = no
+	ship_names = {
+		generic = {
+			GEONOSIAN_SHIP_mystic GEONOSIAN_SHIP_naiad GEONOSIAN_SHIP_nautilus GEONOSIAN_SHIP_nebula GEONOSIAN_SHIP_nimble GEONOSIAN_SHIP_north_star GEONOSIAN_SHIP_nymph GEONOSIAN_SHIP_obdurate GEONOSIAN_SHIP_ocean GEONOSIAN_SHIP_onward GEONOSIAN_SHIP_oracle GEONOSIAN_SHIP_paradox GEONOSIAN_SHIP_paragon GEONOSIAN_SHIP_pearl GEONOSIAN_SHIP_peregrine GEONOSIAN_SHIP_perseverance GEONOSIAN_SHIP_marksman GEONOSIAN_SHIP_rifleman GEONOSIAN_SHIP_sniper GEONOSIAN_SHIP_trident GEONOSIAN_SHIP_trumpet GEONOSIAN_SHIP_truncheon GEONOSIAN_SHIP_typhoon GEONOSIAN_SHIP_undaunted GEONOSIAN_SHIP_venture GEONOSIAN_SHIP_versatile GEONOSIAN_SHIP_vigorous GEONOSIAN_SHIP_viper GEONOSIAN_SHIP_vivacious GEONOSIAN_SHIP_winger GEONOSIAN_SHIP_wizard GEONOSIAN_SHIP_wyvern GEONOSIAN_SHIP_wolfhound GEONOSIAN_SHIP_devastator GEONOSIAN_SHIP_warhammer GEONOSIAN_SHIP_retribution GEONOSIAN_SHIP_senator GEONOSIAN_SHIP_tornado GEONOSIAN_SHIP_infinity GEONOSIAN_SHIP_usurper GEONOSIAN_SHIP_utmost GEONOSIAN_SHIP_valorous GEONOSIAN_SHIP_whirlwind GEONOSIAN_SHIP_athena GEONOSIAN_SHIP_artemis GEONOSIAN_SHIP_vigilance GEONOSIAN_SHIP_decimator GEONOSIAN_SHIP_indomitable GEONOSIAN_SHIP_goliath GEONOSIAN_SHIP_sentinel GEONOSIAN_SHIP_brilliant GEONOSIAN_SHIP_blazer GEONOSIAN_SHIP_audacity GEONOSIAN_SHIP_gallant GEONOSIAN_SHIP_nova GEONOSIAN_SHIP_shadow GEONOSIAN_SHIP_allegiance GEONOSIAN_SHIP_challenger GEONOSIAN_SHIP_fearless GEONOSIAN_SHIP_protector GEONOSIAN_SHIP_guardian GEONOSIAN_SHIP_victorious GEONOSIAN_SHIP_courageous GEONOSIAN_SHIP_defiance GEONOSIAN_SHIP_valorous GEONOSIAN_SHIP_azrael GEONOSIAN_SHIP_adamantine GEONOSIAN_SHIP_aralanni GEONOSIAN_SHIP_ardent_iv GEONOSIAN_SHIP_armistice GEONOSIAN_SHIP_avengeance GEONOSIAN_SHIP_ballista GEONOSIAN_SHIP_bloodstripe GEONOSIAN_SHIP_borealis GEONOSIAN_SHIP_caelus GEONOSIAN_SHIP_caravan GEONOSIAN_SHIP_chaf_envoy GEONOSIAN_SHIP_commenor GEONOSIAN_SHIP_corbantis GEONOSIAN_SHIP_corellia GEONOSIAN_SHIP_courteous GEONOSIAN_SHIP_dauntless GEONOSIAN_SHIP_defiant GEONOSIAN_SHIP_deliverance GEONOSIAN_SHIP_derapha GEONOSIAN_SHIP_devout GEONOSIAN_SHIP_empirical GEONOSIAN_SHIP_empyrean GEONOSIAN_SHIP_era_daimanos GEONOSIAN_SHIP_eye_of_the_storm GEONOSIAN_SHIP_farstar GEONOSIAN_SHIP_fastblast GEONOSIAN_SHIP_galaaron GEONOSIAN_SHIP_garrote GEONOSIAN_SHIP_gilagimar GEONOSIAN_SHIP_halleck GEONOSIAN_SHIP_hunter GEONOSIAN_SHIP_intractable GEONOSIAN_SHIP_ithor_lady GEONOSIAN_SHIP_justice_crusader GEONOSIAN_SHIP_kana_s_steel GEONOSIAN_SHIP_lathir GEONOSIAN_SHIP_liberty GEONOSIAN_SHIP_lillibanca GEONOSIAN_SHIP_maelstrom GEONOSIAN_SHIP_malachite_scent GEONOSIAN_SHIP_mercy GEONOSIAN_SHIP_myrkos GEONOSIAN_SHIP_nebula_chaser GEONOSIAN_SHIP_nova GEONOSIAN_SHIP_nova_viper GEONOSIAN_SHIP_obedience GEONOSIAN_SHIP_olemp GEONOSIAN_SHIP_pegasus GEONOSIAN_SHIP_perspicacity GEONOSIAN_SHIP_phalanx GEONOSIAN_SHIP_plooriod_bodkin GEONOSIAN_SHIP_predominance GEONOSIAN_SHIP_prosperity GEONOSIAN_SHIP_purity GEONOSIAN_SHIP_recalcitrant GEONOSIAN_SHIP_red_nova GEONOSIAN_SHIP_redma GEONOSIAN_SHIP_reliable GEONOSIAN_SHIP_reliant GEONOSIAN_SHIP_reluctant GEONOSIAN_SHIP_republic GEONOSIAN_SHIP_republic_s_return GEONOSIAN_SHIP_resolve GEONOSIAN_SHIP_respectable GEONOSIAN_SHIP_revenge GEONOSIAN_SHIP_shadowblade GEONOSIAN_SHIP_spritespray GEONOSIAN_SHIP_star_dream GEONOSIAN_SHIP_stark_wing GEONOSIAN_SHIP_starveil GEONOSIAN_SHIP_undying GEONOSIAN_SHIP_vaathkree GEONOSIAN_SHIP_vainglorious GEONOSIAN_SHIP_valiant GEONOSIAN_SHIP_valor GEONOSIAN_SHIP_vanquisher GEONOSIAN_SHIP_vinsor GEONOSIAN_SHIP_visseon GEONOSIAN_SHIP_wennis GEONOSIAN_SHIP_yavin_s_glory GEONOSIAN_SHIP_moldy_crow GEONOSIAN_SHIP_raven_s_claw GEONOSIAN_SHIP_agile GEONOSIAN_SHIP_archer GEONOSIAN_SHIP_arrow GEONOSIAN_SHIP_bruiser GEONOSIAN_SHIP_cherub GEONOSIAN_SHIP_chimera GEONOSIAN_SHIP_claymore GEONOSIAN_SHIP_broadsword GEONOSIAN_SHIP_battleaxe GEONOSIAN_SHIP_crossbow GEONOSIAN_SHIP_cutlass GEONOSIAN_SHIP_deterrent GEONOSIAN_SHIP_errant GEONOSIAN_SHIP_faithful GEONOSIAN_SHIP_fierce GEONOSIAN_SHIP_gladius GEONOSIAN_SHIP_longbow GEONOSIAN_SHIP_grappler GEONOSIAN_SHIP_hammer GEONOSIAN_SHIP_vampire GEONOSIAN_SHIP_velox GEONOSIAN_SHIP_venator GEONOSIAN_SHIP_vendetta GEONOSIAN_SHIP_venerable GEONOSIAN_SHIP_venomous GEONOSIAN_SHIP_taciturn GEONOSIAN_SHIP_supreme GEONOSIAN_SHIP_success GEONOSIAN_SHIP_shredder GEONOSIAN_SHIP_seraph GEONOSIAN_SHIP_serpent GEONOSIAN_SHIP_spitfire GEONOSIAN_SHIP_stalker GEONOSIAN_SHIP_stratagem GEONOSIAN_SHIP_scimitar GEONOSIAN_SHIP_scorcher GEONOSIAN_SHIP_scourge GEONOSIAN_SHIP_scythe GEONOSIAN_SHIP_revenant GEONOSIAN_SHIP_redoubtable GEONOSIAN_SHIP_raptor GEONOSIAN_SHIP_reaver GEONOSIAN_SHIP_prodigal GEONOSIAN_SHIP_rapier GEONOSIAN_SHIP_prudent GEONOSIAN_SHIP_persistent GEONOSIAN_SHIP_peerless GEONOSIAN_SHIP_myrmidon GEONOSIAN_SHIP_indignant GEONOSIAN_SHIP_javelin GEONOSIAN_SHIP_knight GEONOSIAN_SHIP_starwolf GEONOSIAN_SHIP_bonaventure GEONOSIAN_SHIP_adventure GEONOSIAN_SHIP_boxer GEONOSIAN_SHIP_buccaneer GEONOSIAN_SHIP_cavalier GEONOSIAN_SHIP_celestial GEONOSIAN_SHIP_chariot GEONOSIAN_SHIP_comet GEONOSIAN_SHIP_crucible GEONOSIAN_SHIP_cyclone GEONOSIAN_SHIP_decisive GEONOSIAN_SHIP_dexterous GEONOSIAN_SHIP_diadem GEONOSIAN_SHIP_earnest GEONOSIAN_SHIP_eclipse GEONOSIAN_SHIP_forger GEONOSIAN_SHIP_fortune GEONOSIAN_SHIP_gauntlet GEONOSIAN_SHIP_griffin GEONOSIAN_SHIP_horizon GEONOSIAN_SHIP_hotspur GEONOSIAN_SHIP_hurricane GEONOSIAN_SHIP_hussar GEONOSIAN_SHIP_jubilant GEONOSIAN_SHIP_lancer GEONOSIAN_SHIP_lightning GEONOSIAN_SHIP_magic GEONOSIAN_SHIP_mediator GEONOSIAN_SHIP_mermaid GEONOSIAN_SHIP_meteor GEONOSIAN_SHIP_minstrel GEONOSIAN_SHIP_miranda GEONOSIAN_SHIP_mustang GEONOSIAN_SHIP_sharpshooter GEONOSIAN_SHIP_cyclops GEONOSIAN_SHIP_centaur GEONOSIAN_SHIP_adversary GEONOSIAN_SHIP_assassin GEONOSIAN_SHIP_dagger GEONOSIAN_SHIP_daring GEONOSIAN_SHIP_duty GEONOSIAN_SHIP_havoc GEONOSIAN_SHIP_hero GEONOSIAN_SHIP_hunter GEONOSIAN_SHIP_justice GEONOSIAN_SHIP_impeccable GEONOSIAN_SHIP_interceptor GEONOSIAN_SHIP_infernal GEONOSIAN_SHIP_loyal GEONOSIAN_SHIP_matchless GEONOSIAN_SHIP_mauler GEONOSIAN_SHIP_mayhem GEONOSIAN_SHIP_malice GEONOSIAN_SHIP_menace GEONOSIAN_SHIP_merciless GEONOSIAN_SHIP_mischief GEONOSIAN_SHIP_monarch GEONOSIAN_SHIP_patriot GEONOSIAN_SHIP_predator GEONOSIAN_SHIP_powerful GEONOSIAN_SHIP_punisher GEONOSIAN_SHIP_ravager GEONOSIAN_SHIP_reaper GEONOSIAN_SHIP_savage GEONOSIAN_SHIP_spiteful GEONOSIAN_SHIP_templar GEONOSIAN_SHIP_terminator GEONOSIAN_SHIP_terror GEONOSIAN_SHIP_thrasher GEONOSIAN_SHIP_minotaur GEONOSIAN_SHIP_manticore GEONOSIAN_SHIP_interdictor GEONOSIAN_SHIP_intruder GEONOSIAN_SHIP_hydra GEONOSIAN_SHIP_enfield GEONOSIAN_SHIP_harasser GEONOSIAN_SHIP_unbeaten GEONOSIAN_SHIP_werewolf GEONOSIAN_SHIP_zealous GEONOSIAN_SHIP_petulant GEONOSIAN_SHIP_phantom GEONOSIAN_SHIP_phoenix GEONOSIAN_SHIP_pike GEONOSIAN_SHIP_pursuer GEONOSIAN_SHIP_raider GEONOSIAN_SHIP_rainbow GEONOSIAN_SHIP_rapid GEONOSIAN_SHIP_redemption GEONOSIAN_SHIP_relentless GEONOSIAN_SHIP_rigorous GEONOSIAN_SHIP_robust GEONOSIAN_SHIP_sabre GEONOSIAN_SHIP_salvation GEONOSIAN_SHIP_sanguine GEONOSIAN_SHIP_scarab GEONOSIAN_SHIP_scepter GEONOSIAN_SHIP_sea_witch GEONOSIAN_SHIP_siren GEONOSIAN_SHIP_sorceress GEONOSIAN_SHIP_spearhead GEONOSIAN_SHIP_specter GEONOSIAN_SHIP_spirit GEONOSIAN_SHIP_splendid GEONOSIAN_SHIP_stallion GEONOSIAN_SHIP_stalwart GEONOSIAN_SHIP_steadfast GEONOSIAN_SHIP_strenuous GEONOSIAN_SHIP_superb GEONOSIAN_SHIP_supernova GEONOSIAN_SHIP_surprise GEONOSIAN_SHIP_swiftsure GEONOSIAN_SHIP_talent GEONOSIAN_SHIP_talisman GEONOSIAN_SHIP_talon GEONOSIAN_SHIP_taurus GEONOSIAN_SHIP_tenacious GEONOSIAN_SHIP_thunder_child GEONOSIAN_SHIP_thunderous GEONOSIAN_SHIP_tireless GEONOSIAN_SHIP_trenchant GEONOSIAN_SHIP_righteous GEONOSIAN_SHIP_acheron GEONOSIAN_SHIP_achilles GEONOSIAN_SHIP_agamemnon GEONOSIAN_SHIP_amphion GEONOSIAN_SHIP_aquilon GEONOSIAN_SHIP_argonaut GEONOSIAN_SHIP_argus GEONOSIAN_SHIP_ariel GEONOSIAN_SHIP_aurora GEONOSIAN_SHIP_avernus GEONOSIAN_SHIP_bacchus GEONOSIAN_SHIP_bucephalus GEONOSIAN_SHIP_calliope GEONOSIAN_SHIP_calypso GEONOSIAN_SHIP_castor GEONOSIAN_SHIP_charybdis GEONOSIAN_SHIP_circe GEONOSIAN_SHIP_cleopatra GEONOSIAN_SHIP_constantine GEONOSIAN_SHIP_cordelia GEONOSIAN_SHIP_cyrus GEONOSIAN_SHIP_damocles GEONOSIAN_SHIP_daedalus GEONOSIAN_SHIP_darius GEONOSIAN_SHIP_diomede GEONOSIAN_SHIP_dryad GEONOSIAN_SHIP_electra GEONOSIAN_SHIP_endymion GEONOSIAN_SHIP_erebus GEONOSIAN_SHIP_fenris GEONOSIAN_SHIP_freya GEONOSIAN_SHIP_gilgamesh GEONOSIAN_SHIP_gorgon GEONOSIAN_SHIP_halcyon GEONOSIAN_SHIP_hecate GEONOSIAN_SHIP_hector GEONOSIAN_SHIP_hesperus GEONOSIAN_SHIP_janus GEONOSIAN_SHIP_jason GEONOSIAN_SHIP_juno GEONOSIAN_SHIP_jupiter GEONOSIAN_SHIP_lancelot GEONOSIAN_SHIP_lazarus GEONOSIAN_SHIP_leander GEONOSIAN_SHIP_leonidas GEONOSIAN_SHIP_lysander GEONOSIAN_SHIP_maenad GEONOSIAN_SHIP_mars GEONOSIAN_SHIP_medea GEONOSIAN_SHIP_medusa GEONOSIAN_SHIP_menestheus GEONOSIAN_SHIP_mercury GEONOSIAN_SHIP_merlin GEONOSIAN_SHIP_minerva GEONOSIAN_SHIP_minos GEONOSIAN_SHIP_neptune GEONOSIAN_SHIP_nessus GEONOSIAN_SHIP_nestor GEONOSIAN_SHIP_nimrod GEONOSIAN_SHIP_niobe GEONOSIAN_SHIP_oberon GEONOSIAN_SHIP_odin GEONOSIAN_SHIP_ophelia GEONOSIAN_SHIP_orestes GEONOSIAN_SHIP_orpheus GEONOSIAN_SHIP_osiris GEONOSIAN_SHIP_pandora GEONOSIAN_SHIP_penelope GEONOSIAN_SHIP_persephone GEONOSIAN_SHIP_perseus GEONOSIAN_SHIP_phoebe GEONOSIAN_SHIP_pluto GEONOSIAN_SHIP_poseidon GEONOSIAN_SHIP_proteus GEONOSIAN_SHIP_pylades GEONOSIAN_SHIP_serapis GEONOSIAN_SHIP_stygian GEONOSIAN_SHIP_tantalus GEONOSIAN_SHIP_telemachus GEONOSIAN_SHIP_theseus GEONOSIAN_SHIP_thor GEONOSIAN_SHIP_trajan GEONOSIAN_SHIP_triton GEONOSIAN_SHIP_venus GEONOSIAN_SHIP_adamant GEONOSIAN_SHIP_ardent GEONOSIAN_SHIP_assail GEONOSIAN_SHIP_austere GEONOSIAN_SHIP_archon GEONOSIAN_SHIP_adroit GEONOSIAN_SHIP_aegis GEONOSIAN_SHIP_anchor GEONOSIAN_SHIP_corsair GEONOSIAN_SHIP_banshee GEONOSIAN_SHIP_enchantress GEONOSIAN_SHIP_eradicator GEONOSIAN_SHIP_tormentor GEONOSIAN_SHIP_legion GEONOSIAN_SHIP_reprisal GEONOSIAN_SHIP_aggressor GEONOSIAN_SHIP_assault GEONOSIAN_SHIP_eviscerator GEONOSIAN_SHIP_imperator GEONOSIAN_SHIP_excellence GEONOSIAN_SHIP_unrivalled GEONOSIAN_SHIP_warlord GEONOSIAN_SHIP_vengeance GEONOSIAN_SHIP_triumphant GEONOSIAN_SHIP_nemesis GEONOSIAN_SHIP_avenger GEONOSIAN_SHIP_champion GEONOSIAN_SHIP_conqueror GEONOSIAN_SHIP_crusader GEONOSIAN_SHIP_glory GEONOSIAN_SHIP_immortal GEONOSIAN_SHIP_judicator GEONOSIAN_SHIP_vanguard GEONOSIAN_SHIP_renown GEONOSIAN_SHIP_demolisher GEONOSIAN_SHIP_dragon GEONOSIAN_SHIP_executor GEONOSIAN_SHIP_furious GEONOSIAN_SHIP_gladiator GEONOSIAN_SHIP_magnificent GEONOSIAN_SHIP_ogre GEONOSIAN_SHIP_onslaught GEONOSIAN_SHIP_revenge GEONOSIAN_SHIP_vanquisher GEONOSIAN_SHIP_vehement GEONOSIAN_SHIP_basilisk GEONOSIAN_SHIP_tempest GEONOSIAN_SHIP_overlord GEONOSIAN_SHIP_warrior GEONOSIAN_SHIP_titan GEONOSIAN_SHIP_colossus GEONOSIAN_SHIP_prometheus GEONOSIAN_SHIP_nike GEONOSIAN_SHIP_paladin GEONOSIAN_SHIP_sovereign GEONOSIAN_SHIP_repulse GEONOSIAN_SHIP_majestic GEONOSIAN_SHIP_avatar GEONOSIAN_SHIP_behemoth GEONOSIAN_SHIP_centurion GEONOSIAN_SHIP_citadel GEONOSIAN_SHIP_katana GEONOSIAN_SHIP_kraken GEONOSIAN_SHIP_cerberus GEONOSIAN_SHIP_valkyrie
+		}
+		swp_bellator = {
+			GEONOSIAN_SHIP_dreadnought GEONOSIAN_SHIP_harbinger GEONOSIAN_SHIP_juggernaut GEONOSIAN_SHIP_leviathan GEONOSIAN_SHIP_hyperion GEONOSIAN_SHIP_galatea GEONOSIAN_SHIP_ambush GEONOSIAN_SHIP_vindicator
+		}
+		science = {
+			GEONOSIAN_SHIP_crescent GEONOSIAN_SHIP_diligent GEONOSIAN_SHIP_zephyr GEONOSIAN_SHIP_enigma GEONOSIAN_SHIP_conquistador GEONOSIAN_SHIP_scylla GEONOSIAN_SHIP_arbiter GEONOSIAN_SHIP_asperity GEONOSIAN_SHIP_eminence GEONOSIAN_SHIP_astute GEONOSIAN_SHIP_alacrity GEONOSIAN_SHIP_satyr GEONOSIAN_SHIP_prospero GEONOSIAN_SHIP_untiring GEONOSIAN_SHIP_zenith GEONOSIAN_SHIP_torch GEONOSIAN_SHIP_remembrance GEONOSIAN_SHIP_pilgrim GEONOSIAN_SHIP_trailblazer GEONOSIAN_SHIP_vagabond GEONOSIAN_SHIP_wayfarer GEONOSIAN_SHIP_ambassador GEONOSIAN_SHIP_emissary GEONOSIAN_SHIP_nomad GEONOSIAN_SHIP_pathfinder GEONOSIAN_SHIP_wanderer GEONOSIAN_SHIP_traveler
+		}
+		colonizer = {
+			GEONOSIAN_SHIP_godspeed GEONOSIAN_SHIP_prophecy GEONOSIAN_SHIP_manifest_destiny GEONOSIAN_SHIP_virtue GEONOSIAN_SHIP_potential GEONOSIAN_SHIP_expansion GEONOSIAN_SHIP_pioneer_spirit GEONOSIAN_SHIP_prosperity GEONOSIAN_SHIP_summit GEONOSIAN_SHIP_pinnacle GEONOSIAN_SHIP_seeder GEONOSIAN_SHIP_harvest GEONOSIAN_SHIP_demeter GEONOSIAN_SHIP_isis GEONOSIAN_SHIP_ceres GEONOSIAN_SHIP_exodus GEONOSIAN_SHIP_foundation GEONOSIAN_SHIP_scion GEONOSIAN_SHIP_progeny GEONOSIAN_SHIP_obligation GEONOSIAN_SHIP_purpose GEONOSIAN_SHIP_provider GEONOSIAN_SHIP_shining_city GEONOSIAN_SHIP_acquirer GEONOSIAN_SHIP_cultivator GEONOSIAN_SHIP_dawn_of_civilization GEONOSIAN_SHIP_purity GEONOSIAN_SHIP_community GEONOSIAN_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			GEONOSIAN_SHIP_godspeed GEONOSIAN_SHIP_prophecy GEONOSIAN_SHIP_manifest_destiny GEONOSIAN_SHIP_virtue GEONOSIAN_SHIP_potential GEONOSIAN_SHIP_expansion GEONOSIAN_SHIP_pioneer_spirit GEONOSIAN_SHIP_prosperity GEONOSIAN_SHIP_summit GEONOSIAN_SHIP_pinnacle GEONOSIAN_SHIP_seeder GEONOSIAN_SHIP_harvest GEONOSIAN_SHIP_isis GEONOSIAN_SHIP_ceres GEONOSIAN_SHIP_exodus GEONOSIAN_SHIP_foundation GEONOSIAN_SHIP_scion GEONOSIAN_SHIP_progeny GEONOSIAN_SHIP_obligation GEONOSIAN_SHIP_purpose GEONOSIAN_SHIP_provider GEONOSIAN_SHIP_shining_city GEONOSIAN_SHIP_acquirer GEONOSIAN_SHIP_cultivator GEONOSIAN_SHIP_dawn_of_civilization GEONOSIAN_SHIP_purity GEONOSIAN_SHIP_community GEONOSIAN_SHIP_brotherhood
+		}
+		constructor = {
+			GEONOSIAN_SHIP_industry GEONOSIAN_SHIP_assiduity GEONOSIAN_SHIP_effort GEONOSIAN_SHIP_laborer GEONOSIAN_SHIP_builder GEONOSIAN_SHIP_craftsman GEONOSIAN_SHIP_hard_hat GEONOSIAN_SHIP_progress GEONOSIAN_SHIP_engineer GEONOSIAN_SHIP_promise GEONOSIAN_SHIP_service GEONOSIAN_SHIP_shelter GEONOSIAN_SHIP_beast GEONOSIAN_SHIP_creator GEONOSIAN_SHIP_developer GEONOSIAN_SHIP_forger GEONOSIAN_SHIP_foundry GEONOSIAN_SHIP_factory GEONOSIAN_SHIP_anvil GEONOSIAN_SHIP_pillar GEONOSIAN_SHIP_architect GEONOSIAN_SHIP_accommodator GEONOSIAN_SHIP_ptah GEONOSIAN_SHIP_ilmarinen GEONOSIAN_SHIP_creidhne GEONOSIAN_SHIP_gobannus GEONOSIAN_SHIP_luchtaine GEONOSIAN_SHIP_goibniu GEONOSIAN_SHIP_vishvakarman GEONOSIAN_SHIP_tvastar GEONOSIAN_SHIP_ikenga GEONOSIAN_SHIP_qaynan GEONOSIAN_SHIP_ucuetis GEONOSIAN_SHIP_ogoun
+		}
+		transport = {
+			GEONOSIAN_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			GEONOSIAN_SHIP_spacegun_victory GEONOSIAN_SHIP_spacegun_success GEONOSIAN_SHIP_spacegun_supremacy GEONOSIAN_SHIP_spacegun_superior GEONOSIAN_SHIP_spacegun_adventure GEONOSIAN_SHIP_spacegun_ascendancy GEONOSIAN_SHIP_spacegun_paramount GEONOSIAN_SHIP_spacegun_preponderous GEONOSIAN_SHIP_spacegun_exemplary GEONOSIAN_SHIP_spacegun_eximious GEONOSIAN_SHIP_spacegun_pertinacity GEONOSIAN_SHIP_spacegun_acclaim GEONOSIAN_SHIP_spacegun_honor GEONOSIAN_SHIP_spacegun_renown GEONOSIAN_SHIP_spacegun_glory GEONOSIAN_SHIP_spacegun_superb GEONOSIAN_SHIP_spacegun_magnificence GEONOSIAN_SHIP_spacegun_majestic GEONOSIAN_SHIP_spacegun_splendor GEONOSIAN_SHIP_spacegun_paradigm GEONOSIAN_SHIP_spacegun_flawless GEONOSIAN_SHIP_spacegun_consummate GEONOSIAN_SHIP_spacegun_merit GEONOSIAN_SHIP_spacegun_perfection GEONOSIAN_SHIP_spacegun_virtue GEONOSIAN_SHIP_spacegun_advantage GEONOSIAN_SHIP_spacegun_rectitude GEONOSIAN_SHIP_spacegun_incorruptible GEONOSIAN_SHIP_spacegun_integrity GEONOSIAN_SHIP_spacegun_justice GEONOSIAN_SHIP_spacegun_probity GEONOSIAN_SHIP_spacegun_prudence GEONOSIAN_SHIP_spacegun_purity GEONOSIAN_SHIP_spacegun_resolute GEONOSIAN_SHIP_spacegun_dignity GEONOSIAN_SHIP_spacegun_distinction GEONOSIAN_SHIP_spacegun_excellence GEONOSIAN_SHIP_spacegun_faithful GEONOSIAN_SHIP_spacegun_discipline GEONOSIAN_SHIP_spacegun_steadfast GEONOSIAN_SHIP_spacegun_recompense GEONOSIAN_SHIP_spacegun_requiem GEONOSIAN_SHIP_spacegun_courage GEONOSIAN_SHIP_spacegun_valor GEONOSIAN_SHIP_spacegun_gallant GEONOSIAN_SHIP_spacegun_daring GEONOSIAN_SHIP_spacegun_constancy GEONOSIAN_SHIP_spacegun_perseverence GEONOSIAN_SHIP_spacegun_tenacity GEONOSIAN_SHIP_spacegun_sedulity GEONOSIAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			GEONOSIAN_SHIP_spacegun_victory GEONOSIAN_SHIP_spacegun_success GEONOSIAN_SHIP_spacegun_supremacy GEONOSIAN_SHIP_spacegun_superior GEONOSIAN_SHIP_spacegun_adventure GEONOSIAN_SHIP_spacegun_ascendancy GEONOSIAN_SHIP_spacegun_paramount GEONOSIAN_SHIP_spacegun_preponderous GEONOSIAN_SHIP_spacegun_exemplary GEONOSIAN_SHIP_spacegun_eximious GEONOSIAN_SHIP_spacegun_pertinacity GEONOSIAN_SHIP_spacegun_acclaim GEONOSIAN_SHIP_spacegun_honor GEONOSIAN_SHIP_spacegun_renown GEONOSIAN_SHIP_spacegun_glory GEONOSIAN_SHIP_spacegun_superb GEONOSIAN_SHIP_spacegun_magnificence GEONOSIAN_SHIP_spacegun_majestic GEONOSIAN_SHIP_spacegun_splendor GEONOSIAN_SHIP_spacegun_paradigm GEONOSIAN_SHIP_spacegun_flawless GEONOSIAN_SHIP_spacegun_consummate GEONOSIAN_SHIP_spacegun_merit GEONOSIAN_SHIP_spacegun_perfection GEONOSIAN_SHIP_spacegun_virtue GEONOSIAN_SHIP_spacegun_advantage GEONOSIAN_SHIP_spacegun_rectitude GEONOSIAN_SHIP_spacegun_incorruptible GEONOSIAN_SHIP_spacegun_integrity GEONOSIAN_SHIP_spacegun_justice GEONOSIAN_SHIP_spacegun_probity GEONOSIAN_SHIP_spacegun_prudence GEONOSIAN_SHIP_spacegun_purity GEONOSIAN_SHIP_spacegun_resolute GEONOSIAN_SHIP_spacegun_dignity GEONOSIAN_SHIP_spacegun_distinction GEONOSIAN_SHIP_spacegun_excellence GEONOSIAN_SHIP_spacegun_faithful GEONOSIAN_SHIP_spacegun_discipline GEONOSIAN_SHIP_spacegun_steadfast GEONOSIAN_SHIP_spacegun_recompense GEONOSIAN_SHIP_spacegun_requiem GEONOSIAN_SHIP_spacegun_courage GEONOSIAN_SHIP_spacegun_valor GEONOSIAN_SHIP_spacegun_gallant GEONOSIAN_SHIP_spacegun_daring GEONOSIAN_SHIP_spacegun_constancy GEONOSIAN_SHIP_spacegun_perseverence GEONOSIAN_SHIP_spacegun_tenacity GEONOSIAN_SHIP_spacegun_sedulity GEONOSIAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			GEONOSIAN_SHIP_spacegun_victory GEONOSIAN_SHIP_spacegun_success GEONOSIAN_SHIP_spacegun_supremacy GEONOSIAN_SHIP_spacegun_superior GEONOSIAN_SHIP_spacegun_adventure GEONOSIAN_SHIP_spacegun_ascendancy GEONOSIAN_SHIP_spacegun_paramount GEONOSIAN_SHIP_spacegun_preponderous GEONOSIAN_SHIP_spacegun_exemplary GEONOSIAN_SHIP_spacegun_eximious GEONOSIAN_SHIP_spacegun_pertinacity GEONOSIAN_SHIP_spacegun_acclaim GEONOSIAN_SHIP_spacegun_honor GEONOSIAN_SHIP_spacegun_renown GEONOSIAN_SHIP_spacegun_glory GEONOSIAN_SHIP_spacegun_superb GEONOSIAN_SHIP_spacegun_magnificence GEONOSIAN_SHIP_spacegun_majestic GEONOSIAN_SHIP_spacegun_splendor GEONOSIAN_SHIP_spacegun_paradigm GEONOSIAN_SHIP_spacegun_flawless GEONOSIAN_SHIP_spacegun_consummate GEONOSIAN_SHIP_spacegun_merit GEONOSIAN_SHIP_spacegun_perfection GEONOSIAN_SHIP_spacegun_virtue GEONOSIAN_SHIP_spacegun_advantage GEONOSIAN_SHIP_spacegun_rectitude GEONOSIAN_SHIP_spacegun_incorruptible GEONOSIAN_SHIP_spacegun_integrity GEONOSIAN_SHIP_spacegun_justice GEONOSIAN_SHIP_spacegun_probity GEONOSIAN_SHIP_spacegun_prudence GEONOSIAN_SHIP_spacegun_purity GEONOSIAN_SHIP_spacegun_resolute GEONOSIAN_SHIP_spacegun_dignity GEONOSIAN_SHIP_spacegun_distinction GEONOSIAN_SHIP_spacegun_excellence GEONOSIAN_SHIP_spacegun_faithful GEONOSIAN_SHIP_spacegun_discipline GEONOSIAN_SHIP_spacegun_steadfast GEONOSIAN_SHIP_spacegun_recompense GEONOSIAN_SHIP_spacegun_requiem GEONOSIAN_SHIP_spacegun_courage GEONOSIAN_SHIP_spacegun_valor GEONOSIAN_SHIP_spacegun_gallant GEONOSIAN_SHIP_spacegun_daring GEONOSIAN_SHIP_spacegun_constancy GEONOSIAN_SHIP_spacegun_perseverence GEONOSIAN_SHIP_spacegun_tenacity GEONOSIAN_SHIP_spacegun_sedulity GEONOSIAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			GEONOSIAN_SHIP_citadel GEONOSIAN_SHIP_albacore GEONOSIAN_SHIP_gateway GEONOSIAN_SHIP_vincent GEONOSIAN_SHIP_babylon GEONOSIAN_SHIP_caernavon GEONOSIAN_SHIP_acre GEONOSIAN_SHIP_pembroke GEONOSIAN_SHIP_acheron GEONOSIAN_SHIP_spithead GEONOSIAN_SHIP_halifax GEONOSIAN_SHIP_victoria GEONOSIAN_SHIP_chatham GEONOSIAN_SHIP_anchorage GEONOSIAN_SHIP_scapa_flow GEONOSIAN_SHIP_hampton_roads GEONOSIAN_SHIP_brooklyn GEONOSIAN_SHIP_norfolk GEONOSIAN_SHIP_newport GEONOSIAN_SHIP_guam GEONOSIAN_SHIP_pensacola GEONOSIAN_SHIP_vesuvius GEONOSIAN_SHIP_mckinley GEONOSIAN_SHIP_everest GEONOSIAN_SHIP_kilimanjaro GEONOSIAN_SHIP_aconcagua GEONOSIAN_SHIP_elbrus GEONOSIAN_SHIP_st__helens GEONOSIAN_SHIP_fuji GEONOSIAN_SHIP_olympus GEONOSIAN_SHIP_sinai GEONOSIAN_SHIP_ambrose GEONOSIAN_SHIP_bermuda GEONOSIAN_SHIP_farpoint GEONOSIAN_SHIP_blue_star GEONOSIAN_SHIP_olympus_mons GEONOSIAN_SHIP_tharsis GEONOSIAN_SHIP_syrtis GEONOSIAN_SHIP_blackham GEONOSIAN_SHIP_fletcher GEONOSIAN_SHIP_perry GEONOSIAN_SHIP_butakov GEONOSIAN_SHIP_morris GEONOSIAN_SHIP_moorsom GEONOSIAN_SHIP_hart GEONOSIAN_SHIP_hargood GEONOSIAN_SHIP_spruance GEONOSIAN_SHIP_tanaka GEONOSIAN_SHIP_halsey GEONOSIAN_SHIP_turner GEONOSIAN_SHIP_doria GEONOSIAN_SHIP_tirpitz GEONOSIAN_SHIP_cunningham GEONOSIAN_SHIP_jellicoe GEONOSIAN_SHIP_hipper GEONOSIAN_SHIP_beatty GEONOSIAN_SHIP_potemkin GEONOSIAN_SHIP_durham GEONOSIAN_SHIP_codrington GEONOSIAN_SHIP_milne GEONOSIAN_SHIP_laforey GEONOSIAN_SHIP_tyler GEONOSIAN_SHIP_hawke GEONOSIAN_SHIP_yonai GEONOSIAN_SHIP_pound GEONOSIAN_SHIP_king GEONOSIAN_SHIP_crutchley GEONOSIAN_SHIP_mountbatten GEONOSIAN_SHIP_kountouriotis GEONOSIAN_SHIP_kuznetsov GEONOSIAN_SHIP_essen GEONOSIAN_SHIP_kornilov GEONOSIAN_SHIP_suffren GEONOSIAN_SHIP_treville GEONOSIAN_SHIP_villeneuve GEONOSIAN_SHIP_grasse GEONOSIAN_SHIP_byng GEONOSIAN_SHIP_lezo
+		}
+		ion_cannon = {
+			GEONOSIAN_SHIP_bombard GEONOSIAN_SHIP_ballista GEONOSIAN_SHIP_catapult GEONOSIAN_SHIP_harpoon GEONOSIAN_SHIP_polybolos GEONOSIAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			GEONOSIAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			GEONOSIAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			GEONOSIAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			GEONOSIAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			GEONOSIAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			GEONOSIAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			GEONOSIAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			GEONOSIAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			GEONOSIAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			GEONOSIAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			GEONOSIAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			GEONOSIAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			GEONOSIAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			GEONOSIAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			GEONOSIAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			GEONOSIAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			GEONOSIAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			GEONOSIAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			GEONOSIAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			GEONOSIAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			GEONOSIAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			GEONOSIAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			GEONOSIAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			GEONOSIAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			GEONOSIAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			GEONOSIAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			GEONOSIAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			GEONOSIAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			GEONOSIAN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			GEONOSIAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			GEONOSIAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			GEONOSIAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			GEONOSIAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			GEONOSIAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			GEONOSIAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			GEONOSIAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			GEONOSIAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			GEONOSIAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			GEONOSIAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			GEONOSIAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			GEONOSIAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			GEONOSIAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			GEONOSIAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			GEONOSIAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			GEONOSIAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			GEONOSIAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			GEONOSIAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			GEONOSIAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			GEONOSIAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			GEONOSIAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			GEONOSIAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			GEONOSIAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			GEONOSIAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			GEONOSIAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			GEONOSIAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			GEONOSIAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			GEONOSIAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			GEONOSIAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			GEONOSIAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			GEONOSIAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			GEONOSIAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			GEONOSIAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			GEONOSIAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			GEONOSIAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			GEONOSIAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			GEONOSIAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			GEONOSIAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			GEONOSIAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			GEONOSIAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			GEONOSIAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			GEONOSIAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			GEONOSIAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			GEONOSIAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			GEONOSIAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			GEONOSIAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			GEONOSIAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			GEONOSIAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			GEONOSIAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			GEONOSIAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			GEONOSIAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			GEONOSIAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			GEONOSIAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			GEONOSIAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			GEONOSIAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			GEONOSIAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			GEONOSIAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			GEONOSIAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			GEONOSIAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			GEONOSIAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			GEONOSIAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			GEONOSIAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			GEONOSIAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			GEONOSIAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			GEONOSIAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = GEONOSIAN_FLEET_armada_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = GEONOSIAN_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = GEONOSIAN_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = GEONOSIAN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = GEONOSIAN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = GEONOSIAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = GEONOSIAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = GEONOSIAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = GEONOSIAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				GEONOSIAN_ARMY_sarc_a__gladiators_ GEONOSIAN_ARMY_sarc_b__widowmakers_ GEONOSIAN_ARMY_sarc_c__immortals_ GEONOSIAN_ARMY_sarc_d__berserkers_ GEONOSIAN_ARMY_sarc_e__assassins_ GEONOSIAN_ARMY_sarc_f__reapers_ GEONOSIAN_ARMY_sarc_g__nighthawks_ GEONOSIAN_ARMY_sarc_h__desperados_ GEONOSIAN_ARMY_sarc_i__grey_knights_ GEONOSIAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = GEONOSIAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = GEONOSIAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = GEONOSIAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = GEONOSIAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = GEONOSIAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = GEONOSIAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = GEONOSIAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = GEONOSIAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = GEONOSIAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = GEONOSIAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = GEONOSIAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = GEONOSIAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = GEONOSIAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = GEONOSIAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = GEONOSIAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = GEONOSIAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = GEONOSIAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = GEONOSIAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = GEONOSIAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = GEONOSIAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = GEONOSIAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = GEONOSIAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = GEONOSIAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = GEONOSIAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = GEONOSIAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = GEONOSIAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = GEONOSIAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = GEONOSIAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = GEONOSIAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = GEONOSIAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = GEONOSIAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = GEONOSIAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = GEONOSIAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = GEONOSIAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = GEONOSIAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = GEONOSIAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = GEONOSIAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = GEONOSIAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = GEONOSIAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = GEONOSIAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = GEONOSIAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = GEONOSIAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = GEONOSIAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = GEONOSIAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = GEONOSIAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = GEONOSIAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = GEONOSIAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = GEONOSIAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = GEONOSIAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = GEONOSIAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = GEONOSIAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = GEONOSIAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = GEONOSIAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = GEONOSIAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = GEONOSIAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = GEONOSIAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = GEONOSIAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = GEONOSIAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = GEONOSIAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = GEONOSIAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = GEONOSIAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = GEONOSIAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = GEONOSIAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = GEONOSIAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = GEONOSIAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = GEONOSIAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = GEONOSIAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = GEONOSIAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = GEONOSIAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = GEONOSIAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = GEONOSIAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = GEONOSIAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = GEONOSIAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = GEONOSIAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = GEONOSIAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = GEONOSIAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = GEONOSIAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = GEONOSIAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = GEONOSIAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = GEONOSIAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = GEONOSIAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = GEONOSIAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = GEONOSIAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = GEONOSIAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = GEONOSIAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = GEONOSIAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = GEONOSIAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = GEONOSIAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = GEONOSIAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = GEONOSIAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = GEONOSIAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = GEONOSIAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = GEONOSIAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = GEONOSIAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = GEONOSIAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = GEONOSIAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = GEONOSIAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = GEONOSIAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = GEONOSIAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = GEONOSIAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = GEONOSIAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = GEONOSIAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = GEONOSIAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = GEONOSIAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = GEONOSIAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = GEONOSIAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = GEONOSIAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = GEONOSIAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = GEONOSIAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = GEONOSIAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = GEONOSIAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = GEONOSIAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = GEONOSIAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = GEONOSIAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = GEONOSIAN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = GEONOSIAN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = GEONOSIAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = GEONOSIAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = GEONOSIAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = GEONOSIAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = GEONOSIAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = GEONOSIAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = GEONOSIAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = GEONOSIAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = GEONOSIAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = GEONOSIAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = GEONOSIAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = GEONOSIAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = GEONOSIAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = GEONOSIAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = GEONOSIAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = GEONOSIAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = GEONOSIAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				GEONOSIAN_CHR_bogg GEONOSIAN_CHR_brachtor GEONOSIAN_CHR_brenak GEONOSIAN_CHR_buzz GEONOSIAN_CHR_chopper GEONOSIAN_CHR_deshor GEONOSIAN_CHR_dimmock GEONOSIAN_CHR_gizor GEONOSIAN_CHR_gorgol GEONOSIAN_CHR_hadiss GEONOSIAN_CHR_ikvizi GEONOSIAN_CHR_kyvax GEONOSIAN_CHR_nekra GEONOSIAN_CHR_picador GEONOSIAN_CHR_piddock GEONOSIAN_CHR_poggle GEONOSIAN_CHR_polarin GEONOSIAN_CHR_sivor GEONOSIAN_CHR_sun GEONOSIAN_CHR_tookra GEONOSIAN_CHR_typtus GEONOSIAN_CHR_boggtus GEONOSIAN_CHR_bungax GEONOSIAN_CHR_dellsi GEONOSIAN_CHR_gol GEONOSIAN_CHR_go GEONOSIAN_CHR_holgac GEONOSIAN_CHR_kekzo GEONOSIAN_CHR_korlag GEONOSIAN_CHR_lorko GEONOSIAN_CHR_muzz GEONOSIAN_CHR_oggfas GEONOSIAN_CHR_pellsor GEONOSIAN_CHR_porrock GEONOSIAN_CHR_sazac GEONOSIAN_CHR_sazrivax GEONOSIAN_CHR_seegor GEONOSIAN_CHR_siklator GEONOSIAN_CHR_siridus GEONOSIAN_CHR_siviral GEONOSIAN_CHR_syss GEONOSIAN_CHR_tunzas GEONOSIAN_CHR_tysstle GEONOSIAN_CHR_veorlafor
+			}
+			first_names_female = {
+				GEONOSIAN_CHR_karina GEONOSIAN_CHR_dali GEONOSIAN_CHR_kryssdol GEONOSIAN_CHR_leen GEONOSIAN_CHR_lyplal GEONOSIAN_CHR_tunka
+			}
+			second_names = {
+				GEONOSIAN_CHR_dellso GEONOSIAN_CHR_fac GEONOSIAN_CHR_galard GEONOSIAN_CHR_gehenbar GEONOSIAN_CHR_gogum GEONOSIAN_CHR_golbah GEONOSIAN_CHR_stalgasin GEONOSIAN_CHR_trellik GEONOSIAN_CHR_the_lesser
+			}
+			regnal_first_names_male = {
+				GEONOSIAN_CHR_bogg GEONOSIAN_CHR_brachtor GEONOSIAN_CHR_brenak GEONOSIAN_CHR_buzz GEONOSIAN_CHR_chopper GEONOSIAN_CHR_deshor GEONOSIAN_CHR_dimmock GEONOSIAN_CHR_gizor GEONOSIAN_CHR_gorgol GEONOSIAN_CHR_hadiss GEONOSIAN_CHR_ikvizi GEONOSIAN_CHR_kyvax GEONOSIAN_CHR_nekra GEONOSIAN_CHR_picador GEONOSIAN_CHR_piddock GEONOSIAN_CHR_poggle GEONOSIAN_CHR_polarin GEONOSIAN_CHR_sivor GEONOSIAN_CHR_sun GEONOSIAN_CHR_tookra GEONOSIAN_CHR_typtus GEONOSIAN_CHR_boggtus GEONOSIAN_CHR_bungax GEONOSIAN_CHR_dellsi GEONOSIAN_CHR_gol GEONOSIAN_CHR_go GEONOSIAN_CHR_holgac GEONOSIAN_CHR_kekzo GEONOSIAN_CHR_korlag GEONOSIAN_CHR_lorko GEONOSIAN_CHR_muzz GEONOSIAN_CHR_oggfas GEONOSIAN_CHR_pellsor GEONOSIAN_CHR_porrock GEONOSIAN_CHR_sazac GEONOSIAN_CHR_sazrivax GEONOSIAN_CHR_seegor GEONOSIAN_CHR_siklator GEONOSIAN_CHR_siridus GEONOSIAN_CHR_siviral GEONOSIAN_CHR_syss GEONOSIAN_CHR_tunzas GEONOSIAN_CHR_tysstle GEONOSIAN_CHR_veorlafor
+			}
+			regnal_first_names_female = {
+				GEONOSIAN_CHR_karina GEONOSIAN_CHR_dali GEONOSIAN_CHR_kryssdol GEONOSIAN_CHR_leen GEONOSIAN_CHR_lyplal GEONOSIAN_CHR_tunka
+			}
+			regnal_second_names = {
+				GEONOSIAN_CHR_dellso GEONOSIAN_CHR_fac GEONOSIAN_CHR_galard GEONOSIAN_CHR_gehenbar GEONOSIAN_CHR_gogum GEONOSIAN_CHR_golbah GEONOSIAN_CHR_stalgasin GEONOSIAN_CHR_trellik GEONOSIAN_CHR_the_lesser
+			}
+		}
+	}
+}

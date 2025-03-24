@@ -1,0 +1,697 @@
+# Imperial Generic
+empire_name_parts_list = {
+	key = "imperial_gen"
+	parts = {
+		Empire = 4
+		Imperium = 2
+		Hegemony = 2
+		Autocracy = 2
+		Combine = 1
+		Hierarchy = 2
+	}
+}
+
+empire_name_parts_list = {
+	key = "democratic_gen"
+	parts = {
+		Republic = 3
+		Alliance = 3
+		Commonwealth = 3
+		Confederation = 3
+		Confederacy = 3
+		Union = 3
+		League = 3
+		Mandate = 1
+		Coalition = 1
+		Assembly = 1
+		Council = 1
+		Cooperative = 1
+		State = 1
+		Nation = 1
+		Sovereignty = 1
+		Commonality = 1
+		Concordat = 1
+		Accord = 1
+		Polity = 1
+		Administration = 1
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 3 #100
+			is_swp_starting_empire = no
+			is_pirate = no
+		}
+	}
+	
+	format = "{AofB {<imperial_gen> [This.Capital.System.GetName]}}"
+	noun = "{[This.Capital.System.GetName]}"
+	prefix_format = "{AofBpfx{[This.Capital.System.GetName] <imperial_gen>}}"
+	
+	#Old
+	#lookups = "<imperial_gen> [This.Capital.System.GetName]"
+	#format = "{format.swp_imp_gen.1}"
+	#prefix_format = format_prefix.imp_mil.1 #"[This.Capital.System.GetName] <imperial_gen>"
+	#noun = format.home_system #"[This.Capital.System.GetName]"
+}
+
+### SWP Empire Names
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000000
+			has_country_flag = galactic_republic
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.galactic_republic}"
+	prefix_format = ""
+	noun = "Republic"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = senate_loyalists
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.senate_loyalists}"
+	noun = "Senate"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 15000
+			has_country_flag = rebel_alliance
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.rebel_alliance}"
+	noun = "Rebels"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = hutt_cartel
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.hutt_cartel}"
+	noun = "Cartel"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = mandalorian_clans
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.mandalorian_clans}"
+	noun = "Clans"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = { factor = 0 modifier = { add = 10000 is_country_type = mando_clan } }
+	format = "{format.mando_clan}"
+	lookups = "[This.GetSpeciesName]"
+	noun = "format.species"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = corporate_sector_authority
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.corporate_sector_authority}"
+	noun = "Executive Direx Board"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = corellian_security
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.corellian_security}"
+	noun = "CorSec"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = hapes_consortium
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.hapes_consortium}"
+	noun = "Hapes"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = bothan_council
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.bothan_council}"
+	noun = "Council"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = confederate_remnant
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.confederate_remnant}"
+	noun = "Separatist"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = the_centrality
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.the_centrality}"
+	noun = "Centrality"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = greater_javin
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.greater_javin}"
+	noun = "Javin"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = juvex_sector
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.juvex_sector}"
+	noun = "Juvex"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = senex_sector
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.senex_sector}"
+	noun = "Senex"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = echani_command
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.echani_command}"
+	noun = "Echani"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = trade_federation
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.trade_federation}"
+	noun = "Federation"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = bakuran_senate
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.bakuran_senate}"
+	noun = "Bakura"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = tion_hegemony
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.tion_hegemony}"
+	noun = "Tion"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = zygerrian_slave_state
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.zygerrian_slave_state}"
+	noun = "Zygerrian"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = banking_clan
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.banking_clan}"
+	noun = "Banking Clan"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = kingdom_of_alderaan
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.kingdom_of_alderaan}"
+	noun = "Alderaan"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = arkanian_dominion
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.arkanian_dominion}"
+	noun = "Arkanian"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = cathar_principality
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.cathar_principality}"
+	noun = "Cathar"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = trianii_territory
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.trianii_territory}"
+	noun = "Trianii"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = rodian_clans
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.rodian_clans}"
+	noun = "Rodian"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = zabrak_council
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.zabrak_council}"
+	noun = "Zabrak"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = taanab_authority
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.taanab_authority}"
+	noun = "Taanab"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = trandoshan_tribes
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.trandoshan_tribes}"
+	noun = "Trandosha"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = black_sun_organization
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.black_sun_organization}"
+	noun = "Black Sun"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = ryloth_protectorate
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.ryloth_protectorate}"
+	noun = "Ryloth"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = kingdom_of_zeltros
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.kingdom_of_zeltros}"
+	noun = "Zeltros"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = kingdom_of_onderon
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.kingdom_of_onderon}"
+	noun = "Onderon"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = mon_cala_monarchy
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.mon_cala_monarchy}"
+	noun = "Mon Calamari"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = dorin_commonwealth
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.dorin_commonwealth}"
+	noun = "Dorin"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = utapauan_committee
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.utapauan_committee}"
+	noun = "Utapau"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = pantoran_assembly
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.pantoran_assembly}"
+	noun = "Pantora"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = commerce_guild
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.commerce_guild}"
+	noun = "Commerce Guild"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = ciutric_hegemony
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.ciutric_hegemony}"
+	noun = "Ciutric"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = chalactan_council
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.chalactan_council}"
+	noun = "Chalacta"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = eriadu_authority
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.eriadu_authority}"
+	noun = "Eriadu"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = corporate_alliance
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.corporate_alliance}"
+	noun = "Corporate Alliance"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = cerean_council
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.cerean_council}"
+	noun = "Cerea"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = killik_colony
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.killik_colony}"
+	noun = "Killik Hive"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = verpine_enclave
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.verpine_enclave}"
+	noun = "Verpine"
+	prefix_format = ""
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = chiss_ascendancy
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.chiss_ascendancy}"
+	noun = "Chiss"
+	prefix_format = ""
+}

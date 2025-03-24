@@ -1,0 +1,199 @@
+## Triggers for Star Wars Empires
+
+#################################
+#			Factions			#
+#################################
+# Rebel Faction
+is_rebel_alliance_member = {
+	or = {
+		has_country_flag = galactic_republic
+		has_country_flag = senate_loyalists
+		has_country_flag = kingdom_of_alderaan
+		has_country_flag = rebel_alliance
+		has_country_flag = verpine_enclave
+		has_country_flag = mon_cala_monarchy
+		has_country_flag = bothan_council
+		has_country_flag = ryloth_protectorate
+	}
+}
+
+# Cis Faction
+is_cis_member = {
+	or = {
+		has_country_flag = confederate_remnant
+		has_country_flag = trade_federation
+		has_country_flag = commerce_guild
+		has_country_flag = tion_hegemony
+		has_country_flag = banking_clan
+		has_country_flag = corporate_alliance
+	}
+}
+
+#################################
+#			CW Factions			#
+#################################
+# TGR Faction
+is_galactic_republic_member = {
+	or = {
+		has_country_flag = galactic_republic
+	}
+}
+
+# Federation
+is_part_of_galactic_republic = {
+	OR = {
+	# Galactic Empire isnt in here
+		has_country_flag = dorin_commonwealth
+		has_country_flag = echani_command 
+		has_country_flag = greater_javin
+		has_country_flag = juvex_sector
+		has_country_flag = arkanian_dominion
+		has_country_flag = the_centrality
+		has_country_flag = rodian_clans
+		has_country_flag = pantoran_assembly
+		has_country_flag = senex_sector
+		has_country_flag = kingdom_of_zeltros
+		has_country_flag = chalactan_council
+		has_country_flag = cerean_council
+		has_country_flag = eriadu_authority
+	}
+}
+
+#################################
+#			Empires				#
+#################################
+
+# Republic Loyalist (no Rebel yet)
+is_republic_loyalists = {
+	has_country_flag = senate_loyalists
+}
+
+# Rebel Alliance (no longer Republic Loyalists)
+is_rebel_alliance = {
+	has_country_flag = rebel_alliance
+}
+
+# Galactic Republic
+is_galactic_republic = {
+	has_country_flag = galactic_republic
+}
+
+# Cis Remnant
+is_cis_remnant = {
+	has_country_flag = confederate_remnant
+}
+
+# Hutt Cartel
+is_hutt_cartel = {
+	has_country_flag = hutt_cartel
+}
+
+# Chiss Ascendancy
+is_chiss_ascendancy = {
+	has_country_flag = chiss_ascendancy
+}
+
+# Mandalorian Clans
+is_mandalorian_clans = {
+	has_country_flag = mandalorian_clans
+}
+
+# Corperate Sector Authority
+is_csa = {
+	has_country_flag = corporate_sector_authority
+}
+
+# Nest of Nests
+is_the_colony = {
+	has_country_flag = killik_colony
+}
+
+# Verpines
+is_verpine = {
+	has_country_flag = verpine_enclave
+}
+
+# Black Sun
+is_black_sun = { 
+	has_country_flag = black_sun_organization
+}
+
+#################################
+#			Groups				#
+#################################
+
+# Minor Empires (white ones)
+is_minor = {
+	is_mandalorian_clans = no
+	is_csa = no
+	is_chiss_ascendancy = no
+	is_hutt_cartel = no
+	is_cis_remnant = no
+	is_galactic_republic = no
+	is_rebel_alliance = no
+	is_republic_loyalists = no
+	is_the_colony = no
+}
+
+# Uses a special Institution
+has_special_institution = {
+	OR = {
+		has_country_flag = mandalorian_clans
+		has_country_flag = corporate_sector_authority
+		has_country_flag = hutt_cartel
+		has_country_flag = confederate_remnant
+		has_country_flag = senate_loyalists
+		has_country_flag = rebel_alliance
+		has_country_flag = formable_this_is_the_way
+		has_country_flag = formable_mando_crusader
+		has_country_flag = mandalorians_book_of_boba
+		has_country_flag = saxon_khanate
+	}
+}
+
+# All Starting Empires from Main Menu
+SWP_starting_country = {
+	has_country_flag = custom_start_screen #TODO: should probably be more specififc
+}
+
+# Criminal Empires
+is_criminal_empire = {
+	has_country_flag = hutt_cartel
+	has_country_flag = black_sun_organization
+	has_country_flag = mandalorians_book_of_boba
+}
+
+
+#############################################
+#		 Country Personalities for APs	 	#
+#############################################
+
+# Empires focus on aggresive Expansion
+is_aggressive_empire = {
+	OR = {
+		has_ai_personality = galactic_imperialists
+		has_ai_personality = imperial_loyalists
+		has_ai_personality = freedom_fighters
+		has_ai_personality = mandalorian_warriors
+		has_ai_personality = militant_slavers
+		has_ai_personality = echani_warriors
+		has_ai_personality = militant_isolationists
+	}
+}
+
+# Empires focused on diplomacy and more
+is_diplomatic_empire = {
+	OR = {
+		has_ai_personality = republic_loyalists
+		has_ai_personality = hutt_clans
+		has_ai_personality = mandalorian_pacifists
+		has_ai_personality = greedy_corporatists
+		has_ai_personality = democratic_isolationists
+		has_ai_personality = enigmatic_isolationists
+		has_ai_personality = spiritual_isolationists
+		has_ai_personality = illicit_traders
+		has_ai_personality = inward_idealists
+	}
+}
+
+# Just Fyi not all Empires are here, Cis Faction for example

@@ -1,0 +1,844 @@
+﻿Ewoks = {
+	randomized = no
+	ship_names = {
+		generic = {
+			EWOKS_SHIP_mystic EWOKS_SHIP_naiad EWOKS_SHIP_nautilus EWOKS_SHIP_nebula EWOKS_SHIP_nimble EWOKS_SHIP_north_star EWOKS_SHIP_nymph EWOKS_SHIP_obdurate EWOKS_SHIP_ocean EWOKS_SHIP_onward EWOKS_SHIP_oracle EWOKS_SHIP_paradox EWOKS_SHIP_paragon EWOKS_SHIP_pearl EWOKS_SHIP_peregrine EWOKS_SHIP_perseverance EWOKS_SHIP_marksman EWOKS_SHIP_rifleman EWOKS_SHIP_sniper EWOKS_SHIP_trident EWOKS_SHIP_trumpet EWOKS_SHIP_truncheon EWOKS_SHIP_typhoon EWOKS_SHIP_undaunted EWOKS_SHIP_venture EWOKS_SHIP_versatile EWOKS_SHIP_vigorous EWOKS_SHIP_viper EWOKS_SHIP_vivacious EWOKS_SHIP_winger EWOKS_SHIP_wizard EWOKS_SHIP_wyvern EWOKS_SHIP_wolfhound EWOKS_SHIP_devastator EWOKS_SHIP_warhammer EWOKS_SHIP_retribution EWOKS_SHIP_senator EWOKS_SHIP_tornado EWOKS_SHIP_infinity EWOKS_SHIP_usurper EWOKS_SHIP_utmost EWOKS_SHIP_valorous EWOKS_SHIP_whirlwind EWOKS_SHIP_athena EWOKS_SHIP_artemis EWOKS_SHIP_vigilance EWOKS_SHIP_decimator EWOKS_SHIP_indomitable EWOKS_SHIP_goliath EWOKS_SHIP_sentinel EWOKS_SHIP_brilliant EWOKS_SHIP_blazer EWOKS_SHIP_audacity EWOKS_SHIP_gallant EWOKS_SHIP_nova EWOKS_SHIP_shadow EWOKS_SHIP_allegiance EWOKS_SHIP_challenger EWOKS_SHIP_fearless EWOKS_SHIP_protector EWOKS_SHIP_guardian EWOKS_SHIP_victorious EWOKS_SHIP_courageous EWOKS_SHIP_defiance EWOKS_SHIP_valorous EWOKS_SHIP_azrael EWOKS_SHIP_adamantine EWOKS_SHIP_aralanni EWOKS_SHIP_ardent_iv EWOKS_SHIP_armistice EWOKS_SHIP_avengeance EWOKS_SHIP_ballista EWOKS_SHIP_bloodstripe EWOKS_SHIP_borealis EWOKS_SHIP_caelus EWOKS_SHIP_caravan EWOKS_SHIP_chaf_envoy EWOKS_SHIP_commenor EWOKS_SHIP_corbantis EWOKS_SHIP_corellia EWOKS_SHIP_courteous EWOKS_SHIP_dauntless EWOKS_SHIP_defiant EWOKS_SHIP_deliverance EWOKS_SHIP_derapha EWOKS_SHIP_devout EWOKS_SHIP_empirical EWOKS_SHIP_empyrean EWOKS_SHIP_era_daimanos EWOKS_SHIP_eye_of_the_storm EWOKS_SHIP_farstar EWOKS_SHIP_fastblast EWOKS_SHIP_galaaron EWOKS_SHIP_garrote EWOKS_SHIP_gilagimar EWOKS_SHIP_halleck EWOKS_SHIP_hunter EWOKS_SHIP_intractable EWOKS_SHIP_ithor_lady EWOKS_SHIP_justice_crusader EWOKS_SHIP_kana_s_steel EWOKS_SHIP_lathir EWOKS_SHIP_liberty EWOKS_SHIP_lillibanca EWOKS_SHIP_maelstrom EWOKS_SHIP_malachite_scent EWOKS_SHIP_mercy EWOKS_SHIP_myrkos EWOKS_SHIP_nebula_chaser EWOKS_SHIP_nova EWOKS_SHIP_nova_viper EWOKS_SHIP_obedience EWOKS_SHIP_olemp EWOKS_SHIP_pegasus EWOKS_SHIP_perspicacity EWOKS_SHIP_phalanx EWOKS_SHIP_plooriod_bodkin EWOKS_SHIP_predominance EWOKS_SHIP_prosperity EWOKS_SHIP_purity EWOKS_SHIP_recalcitrant EWOKS_SHIP_red_nova EWOKS_SHIP_redma EWOKS_SHIP_reliable EWOKS_SHIP_reliant EWOKS_SHIP_reluctant EWOKS_SHIP_republic EWOKS_SHIP_republic_s_return EWOKS_SHIP_resolve EWOKS_SHIP_respectable EWOKS_SHIP_revenge EWOKS_SHIP_shadowblade EWOKS_SHIP_spritespray EWOKS_SHIP_star_dream EWOKS_SHIP_stark_wing EWOKS_SHIP_starveil EWOKS_SHIP_undying EWOKS_SHIP_vaathkree EWOKS_SHIP_vainglorious EWOKS_SHIP_valiant EWOKS_SHIP_valor EWOKS_SHIP_vanquisher EWOKS_SHIP_vinsor EWOKS_SHIP_visseon EWOKS_SHIP_wennis EWOKS_SHIP_yavin_s_glory EWOKS_SHIP_moldy_crow EWOKS_SHIP_raven_s_claw EWOKS_SHIP_agile EWOKS_SHIP_archer EWOKS_SHIP_arrow EWOKS_SHIP_bruiser EWOKS_SHIP_cherub EWOKS_SHIP_chimera EWOKS_SHIP_claymore EWOKS_SHIP_broadsword EWOKS_SHIP_battleaxe EWOKS_SHIP_crossbow EWOKS_SHIP_cutlass EWOKS_SHIP_deterrent EWOKS_SHIP_errant EWOKS_SHIP_faithful EWOKS_SHIP_fierce EWOKS_SHIP_gladius EWOKS_SHIP_longbow EWOKS_SHIP_grappler EWOKS_SHIP_hammer EWOKS_SHIP_vampire EWOKS_SHIP_velox EWOKS_SHIP_venator EWOKS_SHIP_vendetta EWOKS_SHIP_venerable EWOKS_SHIP_venomous EWOKS_SHIP_taciturn EWOKS_SHIP_supreme EWOKS_SHIP_success EWOKS_SHIP_shredder EWOKS_SHIP_seraph EWOKS_SHIP_serpent EWOKS_SHIP_spitfire EWOKS_SHIP_stalker EWOKS_SHIP_stratagem EWOKS_SHIP_scimitar EWOKS_SHIP_scorcher EWOKS_SHIP_scourge EWOKS_SHIP_scythe EWOKS_SHIP_revenant EWOKS_SHIP_redoubtable EWOKS_SHIP_raptor EWOKS_SHIP_reaver EWOKS_SHIP_prodigal EWOKS_SHIP_rapier EWOKS_SHIP_prudent EWOKS_SHIP_persistent EWOKS_SHIP_peerless EWOKS_SHIP_myrmidon EWOKS_SHIP_indignant EWOKS_SHIP_javelin EWOKS_SHIP_knight EWOKS_SHIP_starwolf EWOKS_SHIP_bonaventure EWOKS_SHIP_adventure EWOKS_SHIP_boxer EWOKS_SHIP_buccaneer EWOKS_SHIP_cavalier EWOKS_SHIP_celestial EWOKS_SHIP_chariot EWOKS_SHIP_comet EWOKS_SHIP_crucible EWOKS_SHIP_cyclone EWOKS_SHIP_decisive EWOKS_SHIP_dexterous EWOKS_SHIP_diadem EWOKS_SHIP_earnest EWOKS_SHIP_eclipse EWOKS_SHIP_forger EWOKS_SHIP_fortune EWOKS_SHIP_gauntlet EWOKS_SHIP_griffin EWOKS_SHIP_horizon EWOKS_SHIP_hotspur EWOKS_SHIP_hurricane EWOKS_SHIP_hussar EWOKS_SHIP_jubilant EWOKS_SHIP_lancer EWOKS_SHIP_lightning EWOKS_SHIP_magic EWOKS_SHIP_mediator EWOKS_SHIP_mermaid EWOKS_SHIP_meteor EWOKS_SHIP_minstrel EWOKS_SHIP_miranda EWOKS_SHIP_mustang EWOKS_SHIP_sharpshooter EWOKS_SHIP_cyclops EWOKS_SHIP_centaur EWOKS_SHIP_adversary EWOKS_SHIP_assassin EWOKS_SHIP_dagger EWOKS_SHIP_daring EWOKS_SHIP_duty EWOKS_SHIP_havoc EWOKS_SHIP_hero EWOKS_SHIP_hunter EWOKS_SHIP_justice EWOKS_SHIP_impeccable EWOKS_SHIP_interceptor EWOKS_SHIP_infernal EWOKS_SHIP_loyal EWOKS_SHIP_matchless EWOKS_SHIP_mauler EWOKS_SHIP_mayhem EWOKS_SHIP_malice EWOKS_SHIP_menace EWOKS_SHIP_merciless EWOKS_SHIP_mischief EWOKS_SHIP_monarch EWOKS_SHIP_patriot EWOKS_SHIP_predator EWOKS_SHIP_powerful EWOKS_SHIP_punisher EWOKS_SHIP_ravager EWOKS_SHIP_reaper EWOKS_SHIP_savage EWOKS_SHIP_spiteful EWOKS_SHIP_templar EWOKS_SHIP_terminator EWOKS_SHIP_terror EWOKS_SHIP_thrasher EWOKS_SHIP_minotaur EWOKS_SHIP_manticore EWOKS_SHIP_interdictor EWOKS_SHIP_intruder EWOKS_SHIP_hydra EWOKS_SHIP_enfield EWOKS_SHIP_harasser EWOKS_SHIP_unbeaten EWOKS_SHIP_werewolf EWOKS_SHIP_zealous EWOKS_SHIP_petulant EWOKS_SHIP_phantom EWOKS_SHIP_phoenix EWOKS_SHIP_pike EWOKS_SHIP_pursuer EWOKS_SHIP_raider EWOKS_SHIP_rainbow EWOKS_SHIP_rapid EWOKS_SHIP_redemption EWOKS_SHIP_relentless EWOKS_SHIP_rigorous EWOKS_SHIP_robust EWOKS_SHIP_sabre EWOKS_SHIP_salvation EWOKS_SHIP_sanguine EWOKS_SHIP_scarab EWOKS_SHIP_scepter EWOKS_SHIP_sea_witch EWOKS_SHIP_siren EWOKS_SHIP_sorceress EWOKS_SHIP_spearhead EWOKS_SHIP_specter EWOKS_SHIP_spirit EWOKS_SHIP_splendid EWOKS_SHIP_stallion EWOKS_SHIP_stalwart EWOKS_SHIP_steadfast EWOKS_SHIP_strenuous EWOKS_SHIP_superb EWOKS_SHIP_supernova EWOKS_SHIP_surprise EWOKS_SHIP_swiftsure EWOKS_SHIP_talent EWOKS_SHIP_talisman EWOKS_SHIP_talon EWOKS_SHIP_taurus EWOKS_SHIP_tenacious EWOKS_SHIP_thunder_child EWOKS_SHIP_thunderous EWOKS_SHIP_tireless EWOKS_SHIP_trenchant EWOKS_SHIP_righteous EWOKS_SHIP_acheron EWOKS_SHIP_achilles EWOKS_SHIP_agamemnon EWOKS_SHIP_amphion EWOKS_SHIP_aquilon EWOKS_SHIP_argonaut EWOKS_SHIP_argus EWOKS_SHIP_ariel EWOKS_SHIP_aurora EWOKS_SHIP_avernus EWOKS_SHIP_bacchus EWOKS_SHIP_bucephalus EWOKS_SHIP_calliope EWOKS_SHIP_calypso EWOKS_SHIP_castor EWOKS_SHIP_charybdis EWOKS_SHIP_circe EWOKS_SHIP_cleopatra EWOKS_SHIP_constantine EWOKS_SHIP_cordelia EWOKS_SHIP_cyrus EWOKS_SHIP_damocles EWOKS_SHIP_daedalus EWOKS_SHIP_darius EWOKS_SHIP_diomede EWOKS_SHIP_dryad EWOKS_SHIP_electra EWOKS_SHIP_endymion EWOKS_SHIP_erebus EWOKS_SHIP_fenris EWOKS_SHIP_freya EWOKS_SHIP_gilgamesh EWOKS_SHIP_gorgon EWOKS_SHIP_halcyon EWOKS_SHIP_hecate EWOKS_SHIP_hector EWOKS_SHIP_hesperus EWOKS_SHIP_janus EWOKS_SHIP_jason EWOKS_SHIP_juno EWOKS_SHIP_jupiter EWOKS_SHIP_lancelot EWOKS_SHIP_lazarus EWOKS_SHIP_leander EWOKS_SHIP_leonidas EWOKS_SHIP_lysander EWOKS_SHIP_maenad EWOKS_SHIP_mars EWOKS_SHIP_medea EWOKS_SHIP_medusa EWOKS_SHIP_menestheus EWOKS_SHIP_mercury EWOKS_SHIP_merlin EWOKS_SHIP_minerva EWOKS_SHIP_minos EWOKS_SHIP_neptune EWOKS_SHIP_nessus EWOKS_SHIP_nestor EWOKS_SHIP_nimrod EWOKS_SHIP_niobe EWOKS_SHIP_oberon EWOKS_SHIP_odin EWOKS_SHIP_ophelia EWOKS_SHIP_orestes EWOKS_SHIP_orpheus EWOKS_SHIP_osiris EWOKS_SHIP_pandora EWOKS_SHIP_penelope EWOKS_SHIP_persephone EWOKS_SHIP_perseus EWOKS_SHIP_phoebe EWOKS_SHIP_pluto EWOKS_SHIP_poseidon EWOKS_SHIP_proteus EWOKS_SHIP_pylades EWOKS_SHIP_serapis EWOKS_SHIP_stygian EWOKS_SHIP_tantalus EWOKS_SHIP_telemachus EWOKS_SHIP_theseus EWOKS_SHIP_thor EWOKS_SHIP_trajan EWOKS_SHIP_triton EWOKS_SHIP_venus EWOKS_SHIP_adamant EWOKS_SHIP_ardent EWOKS_SHIP_assail EWOKS_SHIP_austere EWOKS_SHIP_archon EWOKS_SHIP_adroit EWOKS_SHIP_aegis EWOKS_SHIP_anchor EWOKS_SHIP_corsair EWOKS_SHIP_banshee EWOKS_SHIP_enchantress EWOKS_SHIP_eradicator EWOKS_SHIP_tormentor EWOKS_SHIP_legion EWOKS_SHIP_reprisal EWOKS_SHIP_aggressor EWOKS_SHIP_assault EWOKS_SHIP_eviscerator EWOKS_SHIP_imperator EWOKS_SHIP_excellence EWOKS_SHIP_unrivalled EWOKS_SHIP_warlord EWOKS_SHIP_vengeance EWOKS_SHIP_triumphant EWOKS_SHIP_nemesis EWOKS_SHIP_avenger EWOKS_SHIP_champion EWOKS_SHIP_conqueror EWOKS_SHIP_crusader EWOKS_SHIP_glory EWOKS_SHIP_immortal EWOKS_SHIP_judicator EWOKS_SHIP_vanguard EWOKS_SHIP_renown EWOKS_SHIP_demolisher EWOKS_SHIP_dragon EWOKS_SHIP_executor EWOKS_SHIP_furious EWOKS_SHIP_gladiator EWOKS_SHIP_magnificent EWOKS_SHIP_ogre EWOKS_SHIP_onslaught EWOKS_SHIP_revenge EWOKS_SHIP_vanquisher EWOKS_SHIP_vehement EWOKS_SHIP_basilisk EWOKS_SHIP_tempest EWOKS_SHIP_overlord EWOKS_SHIP_warrior EWOKS_SHIP_titan EWOKS_SHIP_colossus EWOKS_SHIP_prometheus EWOKS_SHIP_nike EWOKS_SHIP_paladin EWOKS_SHIP_sovereign EWOKS_SHIP_repulse EWOKS_SHIP_majestic EWOKS_SHIP_avatar EWOKS_SHIP_behemoth EWOKS_SHIP_centurion EWOKS_SHIP_citadel EWOKS_SHIP_katana EWOKS_SHIP_kraken EWOKS_SHIP_cerberus EWOKS_SHIP_valkyrie
+		}
+		swp_bellator = {
+			EWOKS_SHIP_dreadnought EWOKS_SHIP_harbinger EWOKS_SHIP_juggernaut EWOKS_SHIP_leviathan EWOKS_SHIP_hyperion EWOKS_SHIP_galatea EWOKS_SHIP_ambush EWOKS_SHIP_vindicator
+		}
+		science = {
+			EWOKS_SHIP_crescent EWOKS_SHIP_diligent EWOKS_SHIP_zephyr EWOKS_SHIP_enigma EWOKS_SHIP_conquistador EWOKS_SHIP_scylla EWOKS_SHIP_arbiter EWOKS_SHIP_asperity EWOKS_SHIP_eminence EWOKS_SHIP_astute EWOKS_SHIP_alacrity EWOKS_SHIP_satyr EWOKS_SHIP_prospero EWOKS_SHIP_untiring EWOKS_SHIP_zenith EWOKS_SHIP_torch EWOKS_SHIP_remembrance EWOKS_SHIP_pilgrim EWOKS_SHIP_trailblazer EWOKS_SHIP_vagabond EWOKS_SHIP_wayfarer EWOKS_SHIP_ambassador EWOKS_SHIP_emissary EWOKS_SHIP_nomad EWOKS_SHIP_pathfinder EWOKS_SHIP_wanderer EWOKS_SHIP_traveler
+		}
+		colonizer = {
+			EWOKS_SHIP_godspeed EWOKS_SHIP_prophecy EWOKS_SHIP_manifest_destiny EWOKS_SHIP_virtue EWOKS_SHIP_potential EWOKS_SHIP_expansion EWOKS_SHIP_pioneer_spirit EWOKS_SHIP_prosperity EWOKS_SHIP_summit EWOKS_SHIP_pinnacle EWOKS_SHIP_seeder EWOKS_SHIP_harvest EWOKS_SHIP_demeter EWOKS_SHIP_isis EWOKS_SHIP_ceres EWOKS_SHIP_exodus EWOKS_SHIP_foundation EWOKS_SHIP_scion EWOKS_SHIP_progeny EWOKS_SHIP_obligation EWOKS_SHIP_purpose EWOKS_SHIP_provider EWOKS_SHIP_shining_city EWOKS_SHIP_acquirer EWOKS_SHIP_cultivator EWOKS_SHIP_dawn_of_civilization EWOKS_SHIP_purity EWOKS_SHIP_community EWOKS_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			EWOKS_SHIP_godspeed EWOKS_SHIP_prophecy EWOKS_SHIP_manifest_destiny EWOKS_SHIP_virtue EWOKS_SHIP_potential EWOKS_SHIP_expansion EWOKS_SHIP_pioneer_spirit EWOKS_SHIP_prosperity EWOKS_SHIP_summit EWOKS_SHIP_pinnacle EWOKS_SHIP_seeder EWOKS_SHIP_harvest EWOKS_SHIP_isis EWOKS_SHIP_ceres EWOKS_SHIP_exodus EWOKS_SHIP_foundation EWOKS_SHIP_scion EWOKS_SHIP_progeny EWOKS_SHIP_obligation EWOKS_SHIP_purpose EWOKS_SHIP_provider EWOKS_SHIP_shining_city EWOKS_SHIP_acquirer EWOKS_SHIP_cultivator EWOKS_SHIP_dawn_of_civilization EWOKS_SHIP_purity EWOKS_SHIP_community EWOKS_SHIP_brotherhood
+		}
+		constructor = {
+			EWOKS_SHIP_industry EWOKS_SHIP_assiduity EWOKS_SHIP_effort EWOKS_SHIP_laborer EWOKS_SHIP_builder EWOKS_SHIP_craftsman EWOKS_SHIP_hard_hat EWOKS_SHIP_progress EWOKS_SHIP_engineer EWOKS_SHIP_promise EWOKS_SHIP_service EWOKS_SHIP_shelter EWOKS_SHIP_beast EWOKS_SHIP_creator EWOKS_SHIP_developer EWOKS_SHIP_forger EWOKS_SHIP_foundry EWOKS_SHIP_factory EWOKS_SHIP_anvil EWOKS_SHIP_pillar EWOKS_SHIP_architect EWOKS_SHIP_accommodator EWOKS_SHIP_ptah EWOKS_SHIP_ilmarinen EWOKS_SHIP_creidhne EWOKS_SHIP_gobannus EWOKS_SHIP_luchtaine EWOKS_SHIP_goibniu EWOKS_SHIP_vishvakarman EWOKS_SHIP_tvastar EWOKS_SHIP_ikenga EWOKS_SHIP_qaynan EWOKS_SHIP_ucuetis EWOKS_SHIP_ogoun
+		}
+		transport = {
+			EWOKS_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			EWOKS_SHIP_spacegun_victory EWOKS_SHIP_spacegun_success EWOKS_SHIP_spacegun_supremacy EWOKS_SHIP_spacegun_superior EWOKS_SHIP_spacegun_adventure EWOKS_SHIP_spacegun_ascendancy EWOKS_SHIP_spacegun_paramount EWOKS_SHIP_spacegun_preponderous EWOKS_SHIP_spacegun_exemplary EWOKS_SHIP_spacegun_eximious EWOKS_SHIP_spacegun_pertinacity EWOKS_SHIP_spacegun_acclaim EWOKS_SHIP_spacegun_honor EWOKS_SHIP_spacegun_renown EWOKS_SHIP_spacegun_glory EWOKS_SHIP_spacegun_superb EWOKS_SHIP_spacegun_magnificence EWOKS_SHIP_spacegun_majestic EWOKS_SHIP_spacegun_splendor EWOKS_SHIP_spacegun_paradigm EWOKS_SHIP_spacegun_flawless EWOKS_SHIP_spacegun_consummate EWOKS_SHIP_spacegun_merit EWOKS_SHIP_spacegun_perfection EWOKS_SHIP_spacegun_virtue EWOKS_SHIP_spacegun_advantage EWOKS_SHIP_spacegun_rectitude EWOKS_SHIP_spacegun_incorruptible EWOKS_SHIP_spacegun_integrity EWOKS_SHIP_spacegun_justice EWOKS_SHIP_spacegun_probity EWOKS_SHIP_spacegun_prudence EWOKS_SHIP_spacegun_purity EWOKS_SHIP_spacegun_resolute EWOKS_SHIP_spacegun_dignity EWOKS_SHIP_spacegun_distinction EWOKS_SHIP_spacegun_excellence EWOKS_SHIP_spacegun_faithful EWOKS_SHIP_spacegun_discipline EWOKS_SHIP_spacegun_steadfast EWOKS_SHIP_spacegun_recompense EWOKS_SHIP_spacegun_requiem EWOKS_SHIP_spacegun_courage EWOKS_SHIP_spacegun_valor EWOKS_SHIP_spacegun_gallant EWOKS_SHIP_spacegun_daring EWOKS_SHIP_spacegun_constancy EWOKS_SHIP_spacegun_perseverence EWOKS_SHIP_spacegun_tenacity EWOKS_SHIP_spacegun_sedulity EWOKS_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			EWOKS_SHIP_spacegun_victory EWOKS_SHIP_spacegun_success EWOKS_SHIP_spacegun_supremacy EWOKS_SHIP_spacegun_superior EWOKS_SHIP_spacegun_adventure EWOKS_SHIP_spacegun_ascendancy EWOKS_SHIP_spacegun_paramount EWOKS_SHIP_spacegun_preponderous EWOKS_SHIP_spacegun_exemplary EWOKS_SHIP_spacegun_eximious EWOKS_SHIP_spacegun_pertinacity EWOKS_SHIP_spacegun_acclaim EWOKS_SHIP_spacegun_honor EWOKS_SHIP_spacegun_renown EWOKS_SHIP_spacegun_glory EWOKS_SHIP_spacegun_superb EWOKS_SHIP_spacegun_magnificence EWOKS_SHIP_spacegun_majestic EWOKS_SHIP_spacegun_splendor EWOKS_SHIP_spacegun_paradigm EWOKS_SHIP_spacegun_flawless EWOKS_SHIP_spacegun_consummate EWOKS_SHIP_spacegun_merit EWOKS_SHIP_spacegun_perfection EWOKS_SHIP_spacegun_virtue EWOKS_SHIP_spacegun_advantage EWOKS_SHIP_spacegun_rectitude EWOKS_SHIP_spacegun_incorruptible EWOKS_SHIP_spacegun_integrity EWOKS_SHIP_spacegun_justice EWOKS_SHIP_spacegun_probity EWOKS_SHIP_spacegun_prudence EWOKS_SHIP_spacegun_purity EWOKS_SHIP_spacegun_resolute EWOKS_SHIP_spacegun_dignity EWOKS_SHIP_spacegun_distinction EWOKS_SHIP_spacegun_excellence EWOKS_SHIP_spacegun_faithful EWOKS_SHIP_spacegun_discipline EWOKS_SHIP_spacegun_steadfast EWOKS_SHIP_spacegun_recompense EWOKS_SHIP_spacegun_requiem EWOKS_SHIP_spacegun_courage EWOKS_SHIP_spacegun_valor EWOKS_SHIP_spacegun_gallant EWOKS_SHIP_spacegun_daring EWOKS_SHIP_spacegun_constancy EWOKS_SHIP_spacegun_perseverence EWOKS_SHIP_spacegun_tenacity EWOKS_SHIP_spacegun_sedulity EWOKS_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			EWOKS_SHIP_spacegun_victory EWOKS_SHIP_spacegun_success EWOKS_SHIP_spacegun_supremacy EWOKS_SHIP_spacegun_superior EWOKS_SHIP_spacegun_adventure EWOKS_SHIP_spacegun_ascendancy EWOKS_SHIP_spacegun_paramount EWOKS_SHIP_spacegun_preponderous EWOKS_SHIP_spacegun_exemplary EWOKS_SHIP_spacegun_eximious EWOKS_SHIP_spacegun_pertinacity EWOKS_SHIP_spacegun_acclaim EWOKS_SHIP_spacegun_honor EWOKS_SHIP_spacegun_renown EWOKS_SHIP_spacegun_glory EWOKS_SHIP_spacegun_superb EWOKS_SHIP_spacegun_magnificence EWOKS_SHIP_spacegun_majestic EWOKS_SHIP_spacegun_splendor EWOKS_SHIP_spacegun_paradigm EWOKS_SHIP_spacegun_flawless EWOKS_SHIP_spacegun_consummate EWOKS_SHIP_spacegun_merit EWOKS_SHIP_spacegun_perfection EWOKS_SHIP_spacegun_virtue EWOKS_SHIP_spacegun_advantage EWOKS_SHIP_spacegun_rectitude EWOKS_SHIP_spacegun_incorruptible EWOKS_SHIP_spacegun_integrity EWOKS_SHIP_spacegun_justice EWOKS_SHIP_spacegun_probity EWOKS_SHIP_spacegun_prudence EWOKS_SHIP_spacegun_purity EWOKS_SHIP_spacegun_resolute EWOKS_SHIP_spacegun_dignity EWOKS_SHIP_spacegun_distinction EWOKS_SHIP_spacegun_excellence EWOKS_SHIP_spacegun_faithful EWOKS_SHIP_spacegun_discipline EWOKS_SHIP_spacegun_steadfast EWOKS_SHIP_spacegun_recompense EWOKS_SHIP_spacegun_requiem EWOKS_SHIP_spacegun_courage EWOKS_SHIP_spacegun_valor EWOKS_SHIP_spacegun_gallant EWOKS_SHIP_spacegun_daring EWOKS_SHIP_spacegun_constancy EWOKS_SHIP_spacegun_perseverence EWOKS_SHIP_spacegun_tenacity EWOKS_SHIP_spacegun_sedulity EWOKS_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			EWOKS_SHIP_citadel EWOKS_SHIP_albacore EWOKS_SHIP_gateway EWOKS_SHIP_vincent EWOKS_SHIP_babylon EWOKS_SHIP_caernavon EWOKS_SHIP_acre EWOKS_SHIP_pembroke EWOKS_SHIP_acheron EWOKS_SHIP_spithead EWOKS_SHIP_halifax EWOKS_SHIP_victoria EWOKS_SHIP_chatham EWOKS_SHIP_anchorage EWOKS_SHIP_scapa_flow EWOKS_SHIP_hampton_roads EWOKS_SHIP_brooklyn EWOKS_SHIP_norfolk EWOKS_SHIP_newport EWOKS_SHIP_guam EWOKS_SHIP_pensacola EWOKS_SHIP_vesuvius EWOKS_SHIP_mckinley EWOKS_SHIP_everest EWOKS_SHIP_kilimanjaro EWOKS_SHIP_aconcagua EWOKS_SHIP_elbrus EWOKS_SHIP_st__helens EWOKS_SHIP_fuji EWOKS_SHIP_olympus EWOKS_SHIP_sinai EWOKS_SHIP_ambrose EWOKS_SHIP_bermuda EWOKS_SHIP_farpoint EWOKS_SHIP_blue_star EWOKS_SHIP_olympus_mons EWOKS_SHIP_tharsis EWOKS_SHIP_syrtis EWOKS_SHIP_blackham EWOKS_SHIP_fletcher EWOKS_SHIP_perry EWOKS_SHIP_butakov EWOKS_SHIP_morris EWOKS_SHIP_moorsom EWOKS_SHIP_hart EWOKS_SHIP_hargood EWOKS_SHIP_spruance EWOKS_SHIP_tanaka EWOKS_SHIP_halsey EWOKS_SHIP_turner EWOKS_SHIP_doria EWOKS_SHIP_tirpitz EWOKS_SHIP_cunningham EWOKS_SHIP_jellicoe EWOKS_SHIP_hipper EWOKS_SHIP_beatty EWOKS_SHIP_potemkin EWOKS_SHIP_durham EWOKS_SHIP_codrington EWOKS_SHIP_milne EWOKS_SHIP_laforey EWOKS_SHIP_tyler EWOKS_SHIP_hawke EWOKS_SHIP_yonai EWOKS_SHIP_pound EWOKS_SHIP_king EWOKS_SHIP_crutchley EWOKS_SHIP_mountbatten EWOKS_SHIP_kountouriotis EWOKS_SHIP_kuznetsov EWOKS_SHIP_essen EWOKS_SHIP_kornilov EWOKS_SHIP_suffren EWOKS_SHIP_treville EWOKS_SHIP_villeneuve EWOKS_SHIP_grasse EWOKS_SHIP_byng EWOKS_SHIP_lezo
+		}
+		ion_cannon = {
+			EWOKS_SHIP_bombard EWOKS_SHIP_ballista EWOKS_SHIP_catapult EWOKS_SHIP_harpoon EWOKS_SHIP_polybolos EWOKS_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			EWOKS_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			EWOKS_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			EWOKS_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			EWOKS_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			EWOKS_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			EWOKS_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			EWOKS_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			EWOKS_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			EWOKS_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			EWOKS_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			EWOKS_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			EWOKS_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			EWOKS_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			EWOKS_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			EWOKS_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			EWOKS_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			EWOKS_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			EWOKS_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			EWOKS_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			EWOKS_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			EWOKS_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			EWOKS_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			EWOKS_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			EWOKS_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			EWOKS_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			EWOKS_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			EWOKS_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			EWOKS_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			EWOKS_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			EWOKS_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			EWOKS_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			EWOKS_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			EWOKS_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			EWOKS_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			EWOKS_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			EWOKS_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			EWOKS_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			EWOKS_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			EWOKS_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			EWOKS_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			EWOKS_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			EWOKS_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			EWOKS_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			EWOKS_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			EWOKS_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			EWOKS_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			EWOKS_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			EWOKS_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			EWOKS_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			EWOKS_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			EWOKS_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			EWOKS_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			EWOKS_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			EWOKS_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			EWOKS_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			EWOKS_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			EWOKS_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			EWOKS_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			EWOKS_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			EWOKS_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			EWOKS_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			EWOKS_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			EWOKS_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			EWOKS_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			EWOKS_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			EWOKS_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			EWOKS_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			EWOKS_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			EWOKS_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			EWOKS_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			EWOKS_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			EWOKS_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			EWOKS_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			EWOKS_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			EWOKS_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			EWOKS_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			EWOKS_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			EWOKS_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			EWOKS_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			EWOKS_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			EWOKS_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			EWOKS_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			EWOKS_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			EWOKS_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			EWOKS_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			EWOKS_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			EWOKS_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			EWOKS_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			EWOKS_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			EWOKS_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			EWOKS_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			EWOKS_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			EWOKS_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			EWOKS_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = EWOKS_FLEET_armada_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = EWOKS_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = EWOKS_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = EWOKS_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = EWOKS_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = EWOKS_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = EWOKS_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = EWOKS_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = EWOKS_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				EWOKS_ARMY_sarc_a__gladiators_ EWOKS_ARMY_sarc_b__widowmakers_ EWOKS_ARMY_sarc_c__immortals_ EWOKS_ARMY_sarc_d__berserkers_ EWOKS_ARMY_sarc_e__assassins_ EWOKS_ARMY_sarc_f__reapers_ EWOKS_ARMY_sarc_g__nighthawks_ EWOKS_ARMY_sarc_h__desperados_ EWOKS_ARMY_sarc_i__grey_knights_ EWOKS_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = EWOKS_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = EWOKS_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = EWOKS_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = EWOKS_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = EWOKS_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = EWOKS_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = EWOKS_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = EWOKS_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = EWOKS_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = EWOKS_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = EWOKS_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = EWOKS_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = EWOKS_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = EWOKS_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = EWOKS_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = EWOKS_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = EWOKS_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = EWOKS_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = EWOKS_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = EWOKS_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = EWOKS_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = EWOKS_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = EWOKS_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = EWOKS_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = EWOKS_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = EWOKS_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = EWOKS_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = EWOKS_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = EWOKS_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = EWOKS_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = EWOKS_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = EWOKS_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = EWOKS_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = EWOKS_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = EWOKS_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = EWOKS_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = EWOKS_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = EWOKS_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = EWOKS_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = EWOKS_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = EWOKS_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = EWOKS_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = EWOKS_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = EWOKS_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = EWOKS_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = EWOKS_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = EWOKS_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = EWOKS_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = EWOKS_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = EWOKS_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = EWOKS_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = EWOKS_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = EWOKS_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = EWOKS_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = EWOKS_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = EWOKS_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = EWOKS_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = EWOKS_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = EWOKS_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = EWOKS_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = EWOKS_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = EWOKS_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = EWOKS_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = EWOKS_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = EWOKS_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = EWOKS_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = EWOKS_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = EWOKS_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = EWOKS_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = EWOKS_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = EWOKS_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = EWOKS_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = EWOKS_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = EWOKS_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = EWOKS_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = EWOKS_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = EWOKS_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = EWOKS_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = EWOKS_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = EWOKS_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = EWOKS_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = EWOKS_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = EWOKS_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = EWOKS_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = EWOKS_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = EWOKS_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = EWOKS_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = EWOKS_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = EWOKS_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = EWOKS_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = EWOKS_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = EWOKS_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = EWOKS_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = EWOKS_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = EWOKS_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = EWOKS_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = EWOKS_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = EWOKS_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = EWOKS_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = EWOKS_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = EWOKS_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = EWOKS_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = EWOKS_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = EWOKS_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = EWOKS_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = EWOKS_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = EWOKS_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = EWOKS_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = EWOKS_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = EWOKS_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = EWOKS_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = EWOKS_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = EWOKS_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = EWOKS_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = EWOKS_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = EWOKS_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = EWOKS_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = EWOKS_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = EWOKS_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = EWOKS_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = EWOKS_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = EWOKS_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = EWOKS_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = EWOKS_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = EWOKS_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = EWOKS_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = EWOKS_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = EWOKS_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = EWOKS_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = EWOKS_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = EWOKS_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = EWOKS_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = EWOKS_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				EWOKS_CHR_arbo EWOKS_CHR_barneeson EWOKS_CHR_benjamin EWOKS_CHR_bert EWOKS_CHR_brethupp EWOKS_CHR_chakka EWOKS_CHR_chirpa EWOKS_CHR_chubbray EWOKS_CHR_chukha_trok EWOKS_CHR_deej EWOKS_CHR_ebab EWOKS_CHR_erpham EWOKS_CHR_fersin EWOKS_CHR_flitchee EWOKS_CHR_graak EWOKS_CHR_grael EWOKS_CHR_greemon EWOKS_CHR_gwig EWOKS_CHR_kazak EWOKS_CHR_kelbe EWOKS_CHR_keoulkeech EWOKS_CHR_kettch EWOKS_CHR_khungata EWOKS_CHR_kolot EWOKS_CHR_kyoopid EWOKS_CHR_lakotup EWOKS_CHR_leektar EWOKS_CHR_logray EWOKS_CHR_lumat EWOKS_CHR_machook EWOKS_CHR_megawok EWOKS_CHR_nanta EWOKS_CHR_neddoo EWOKS_CHR_nho_apakk EWOKS_CHR_nicki EWOKS_CHR_oochee EWOKS_CHR_orbo EWOKS_CHR_paploo EWOKS_CHR_pondo EWOKS_CHR_ponto EWOKS_CHR_rabin EWOKS_CHR_rakra EWOKS_CHR_romba EWOKS_CHR_simon EWOKS_CHR_stemzee EWOKS_CHR_tak EWOKS_CHR_tammala EWOKS_CHR_taras EWOKS_CHR_tarfang EWOKS_CHR_teebo EWOKS_CHR_tippet EWOKS_CHR_tokkat EWOKS_CHR_warok EWOKS_CHR_weechee EWOKS_CHR_wicket EWOKS_CHR_widdle EWOKS_CHR_wijunkee EWOKS_CHR_wiley EWOKS_CHR_wunka EWOKS_CHR_wuta EWOKS_CHR_wystri EWOKS_CHR_zarrak EWOKS_CHR_grelick EWOKS_CHR_kesteeck EWOKS_CHR_kregi EWOKS_CHR_oorpat EWOKS_CHR_ridri EWOKS_CHR_wibik
+			}
+			first_names_female = {
+				EWOKS_CHR_asha EWOKS_CHR_batcheela EWOKS_CHR_bozzie EWOKS_CHR_chesea EWOKS_CHR_chirita EWOKS_CHR_fufu EWOKS_CHR_fufuneek EWOKS_CHR_kaink EWOKS_CHR_kamida EWOKS_CHR_kneesaa EWOKS_CHR_latara EWOKS_CHR_leeni EWOKS_CHR_malani EWOKS_CHR_mookiee EWOKS_CHR_nippet EWOKS_CHR_ra_lee EWOKS_CHR_salina EWOKS_CHR_shodu EWOKS_CHR_treek EWOKS_CHR_winda EWOKS_CHR_wispeth EWOKS_CHR_zephee EWOKS_CHR_apre EWOKS_CHR_arpa EWOKS_CHR_ashee EWOKS_CHR_bani EWOKS_CHR_baagna EWOKS_CHR_berpalla EWOKS_CHR_billi EWOKS_CHR_chepata EWOKS_CHR_chinigree EWOKS_CHR_chirpe EWOKS_CHR_chisa EWOKS_CHR_dagli EWOKS_CHR_dalee EWOKS_CHR_disipra EWOKS_CHR_eda EWOKS_CHR_eka EWOKS_CHR_ellagni EWOKS_CHR_ezzi EWOKS_CHR_fyni EWOKS_CHR_gagra EWOKS_CHR_galaa EWOKS_CHR_gimoogna EWOKS_CHR_glerphi EWOKS_CHR_glestepa EWOKS_CHR_kesi EWOKS_CHR_kirrigla EWOKS_CHR_kniti EWOKS_CHR_lari EWOKS_CHR_larpoo EWOKS_CHR_micki EWOKS_CHR_mirri EWOKS_CHR_neshi EWOKS_CHR_ninali EWOKS_CHR_oosee EWOKS_CHR_pashama EWOKS_CHR_pyzza EWOKS_CHR_rada EWOKS_CHR_raka EWOKS_CHR_ralloory EWOKS_CHR_rari EWOKS_CHR_rarri EWOKS_CHR_reta EWOKS_CHR_tagla EWOKS_CHR_tani EWOKS_CHR_tapoo EWOKS_CHR_terraa EWOKS_CHR_tripi
+			}
+			second_names = {
+				EWOKS_CHR_fahn EWOKS_CHR_gondula EWOKS_CHR_kintaka EWOKS_CHR_panshee EWOKS_CHR_warrick
+			}
+			regnal_first_names_male = {
+				EWOKS_CHR_arbo EWOKS_CHR_barneeson EWOKS_CHR_benjamin EWOKS_CHR_bert EWOKS_CHR_brethupp EWOKS_CHR_chakka EWOKS_CHR_chirpa EWOKS_CHR_chubbray EWOKS_CHR_chukha_trok EWOKS_CHR_deej EWOKS_CHR_ebab EWOKS_CHR_erpham EWOKS_CHR_fersin EWOKS_CHR_flitchee EWOKS_CHR_graak EWOKS_CHR_grael EWOKS_CHR_greemon EWOKS_CHR_gwig EWOKS_CHR_kazak EWOKS_CHR_kelbe EWOKS_CHR_keoulkeech EWOKS_CHR_kettch EWOKS_CHR_khungata EWOKS_CHR_kolot EWOKS_CHR_kyoopid EWOKS_CHR_lakotup EWOKS_CHR_leektar EWOKS_CHR_logray EWOKS_CHR_lumat EWOKS_CHR_machook EWOKS_CHR_megawok EWOKS_CHR_nanta EWOKS_CHR_neddoo EWOKS_CHR_nho_apakk EWOKS_CHR_nicki EWOKS_CHR_oochee EWOKS_CHR_orbo EWOKS_CHR_paploo EWOKS_CHR_pondo EWOKS_CHR_ponto EWOKS_CHR_rabin EWOKS_CHR_rakra EWOKS_CHR_romba EWOKS_CHR_simon EWOKS_CHR_stemzee EWOKS_CHR_tak EWOKS_CHR_tammala EWOKS_CHR_taras EWOKS_CHR_tarfang EWOKS_CHR_teebo EWOKS_CHR_tippet EWOKS_CHR_tokkat EWOKS_CHR_warok EWOKS_CHR_weechee EWOKS_CHR_wicket EWOKS_CHR_widdle EWOKS_CHR_wijunkee EWOKS_CHR_wiley EWOKS_CHR_wunka EWOKS_CHR_wuta EWOKS_CHR_wystri EWOKS_CHR_zarrak EWOKS_CHR_grelick EWOKS_CHR_kesteeck EWOKS_CHR_kregi EWOKS_CHR_oorpat EWOKS_CHR_ridri EWOKS_CHR_wibik
+			}
+			regnal_first_names_female = {
+				EWOKS_CHR_asha EWOKS_CHR_batcheela EWOKS_CHR_bozzie EWOKS_CHR_chesea EWOKS_CHR_chirita EWOKS_CHR_fufu EWOKS_CHR_fufuneek EWOKS_CHR_kaink EWOKS_CHR_kamida EWOKS_CHR_kneesaa EWOKS_CHR_latara EWOKS_CHR_leeni EWOKS_CHR_malani EWOKS_CHR_mookiee EWOKS_CHR_nippet EWOKS_CHR_ra_lee EWOKS_CHR_salina EWOKS_CHR_shodu EWOKS_CHR_treek EWOKS_CHR_winda EWOKS_CHR_wispeth EWOKS_CHR_zephee EWOKS_CHR_apre EWOKS_CHR_arpa EWOKS_CHR_ashee EWOKS_CHR_bani EWOKS_CHR_baagna EWOKS_CHR_berpalla EWOKS_CHR_billi EWOKS_CHR_chepata EWOKS_CHR_chinigree EWOKS_CHR_chirpe EWOKS_CHR_chisa EWOKS_CHR_dagli EWOKS_CHR_dalee EWOKS_CHR_disipra EWOKS_CHR_eda EWOKS_CHR_eka EWOKS_CHR_ellagni EWOKS_CHR_ezzi EWOKS_CHR_fyni EWOKS_CHR_gagra EWOKS_CHR_galaa EWOKS_CHR_gimoogna EWOKS_CHR_glerphi EWOKS_CHR_glestepa EWOKS_CHR_kesi EWOKS_CHR_kirrigla EWOKS_CHR_kniti EWOKS_CHR_lari EWOKS_CHR_larpoo EWOKS_CHR_micki EWOKS_CHR_mirri EWOKS_CHR_neshi EWOKS_CHR_ninali EWOKS_CHR_oosee EWOKS_CHR_pashama EWOKS_CHR_pyzza EWOKS_CHR_rada EWOKS_CHR_raka EWOKS_CHR_ralloory EWOKS_CHR_rari EWOKS_CHR_rarri EWOKS_CHR_reta EWOKS_CHR_tagla EWOKS_CHR_tani EWOKS_CHR_tapoo EWOKS_CHR_terraa EWOKS_CHR_tripi
+			}
+			regnal_second_names = {
+				EWOKS_CHR_fahn EWOKS_CHR_gondula EWOKS_CHR_kintaka EWOKS_CHR_panshee EWOKS_CHR_warrick
+			}
+		}
+	}
+}

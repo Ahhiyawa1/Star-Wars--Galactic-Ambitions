@@ -1,0 +1,61 @@
+#####
+
+### for hero mechanic; original code by Walshicus, adapted to SWND by Bosmeri ###
+has_normal_events = {
+	is_country_type = default
+	#is_assimilator = no
+}
+
+#Adapted from uses_x_weapons
+is_imperial_country = {
+	OR = {
+		has_country_flag = galactic_republic
+		has_country_flag = fondor_sector_vassal
+		has_country_flag = naboo_sector_vassal
+		has_country_flag = eriadu_authority
+		has_country_flag = ciutric_hegemony
+	}
+}
+
+is_alliance_country = {
+	OR = {
+		has_country_flag = senate_loyalists
+		has_country_flag = kingdom_of_alderaan
+		has_country_flag = mon_cala_monarchy
+		has_country_flag = bothan_council
+		has_country_flag = ryloth_protectorate
+		has_country_flag = verpine_enclave
+	}
+}
+
+is_confederate_country = {
+	OR = {
+		has_country_flag = confederate_remnant
+		has_country_flag = terminus_sector_vassal
+		has_country_flag = sluis_sector_vassal
+		has_country_flag = trade_federation
+		has_country_flag = banking_clan
+		has_country_flag = tion_hegemony
+		has_country_flag = commerce_guild
+		has_country_flag = corporate_alliance
+		has_country_flag = juvex_sector
+	}
+}
+
+is_impcom_country = {
+	NOT = { is_country_type = mando_clan }
+	NOR = {
+		has_country_flag = rebel_alliance
+		has_country_flag = hapes_consortium
+		has_country_flag = chiss_ascendancy
+		has_country_flag = killik_colony
+		has_country_flag = mandalorian_clans
+	}
+}
+
+is_cartel_country = {
+	OR = {
+		has_country_flag = black_sun_organization
+		has_country_flag = hutt_cartel
+	}
+}

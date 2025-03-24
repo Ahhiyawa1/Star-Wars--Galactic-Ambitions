@@ -1,0 +1,91 @@
+
+
+# Republic Loyalists
+part = {
+	location = 0
+	localization = "START_SCREEN_SENATE_LOYALISTS"
+
+	trigger = {
+		is_republic_loyalists = yes
+	}
+}
+# Hutt Cartel
+part = {
+	location = 0
+	localization = "START_SCREEN_HUTT_CARTEL"
+
+	trigger = {
+		is_hutt_cartel = yes
+	}
+}
+# CIS Remnant
+part = {
+	location = 0
+	localization = "START_SCREEN_CIS_REMNANT"
+
+	trigger = {
+		is_cis_remnant = yes
+	}
+}
+# Chiss [GetName]
+part = {
+	location = 0
+	localization = "START_SCREEN_CHISS"
+
+	trigger = {
+		is_chiss_ascendancy = yes
+	}
+}
+# Mandalorian
+part = {
+	location = 0
+	localization = "START_SCREEN_MANDALORIAN"
+
+	trigger = {
+		is_mandalorian_clans = yes
+	}
+}
+# CSA
+part = {
+	location = 0
+	localization = "START_SCREEN_CORPORATE_SECTOR"
+
+	trigger = {
+		is_csa = yes
+	}
+}
+
+# The Colony
+part = {
+	location = 0
+	localization = "START_SCREEN_MINOR"
+#	localization = "START_SCREEN_COLONY"
+
+	trigger = {
+		is_the_colony = yes
+	}
+}
+
+# Minor
+part = {
+	location = 0
+	localization = "START_SCREEN_MINOR"
+
+	trigger = {
+		is_minor = yes
+	}
+}
+
+
+
+###### CW ######
+
+# TGR
+part = {
+	location = 0
+	localization = "START_SCREEN_GALACTIC_REPUBLIC"
+
+	trigger = {
+		is_galactic_republic = yes
+	}
+}

@@ -1,0 +1,1454 @@
+imperial_gfx_culture = {
+	OR = {
+		graphical_culture = imperial_01
+		graphical_culture = misc_04
+	}
+}
+
+galactic_republic_gfx_culture = {
+	OR = {
+		graphical_culture = republic_01
+	}
+}
+
+rebel_gfx_culture = {
+	OR = {
+		graphical_culture = rebel_01
+		graphical_culture = misc_03
+	}
+}
+
+hutt_gfx_culture = {
+	graphical_culture = hutt_01
+}
+
+mando_gfx_culture = {
+	graphical_culture = mando_01
+}
+
+corellian_gfx_culture = {
+	OR = {
+		graphical_culture = corellian_01
+		graphical_culture = misc_01
+	}
+}
+
+cis_gfx_culture = {
+	OR = {
+		graphical_culture = cis_01
+		graphical_culture = misc_02
+	}
+}
+
+csa_gfx_culture = {
+	graphical_culture = csa_01
+}
+
+hapes_gfx_culture = {
+	graphical_culture = hapes_01
+}
+
+chiss_gfx_culture = {
+	graphical_culture = chiss_01
+}
+
+other_gfx_culture = {
+	OR = {
+		graphical_culture = imperial_01
+		graphical_culture = republic_01
+		graphical_culture = rebel_01
+		graphical_culture = hutt_01
+		graphical_culture = mando_01
+		graphical_culture = cis_01
+		graphical_culture = corellian_01
+		graphical_culture = csa_01
+		graphical_culture = hapes_01
+		graphical_culture = chiss_01
+		graphical_culture = misc_01
+		graphical_culture = misc_02
+		graphical_culture = misc_03
+		graphical_culture = misc_04
+	}
+}
+
+# Flags
+imperial_countrys = {
+	OR = {
+		has_country_flag = galactic_republic
+		has_country_flag = eriadu_authority
+		has_country_flag = ciutric_hegemony
+		has_country_flag = naboo_sector_vassal
+		has_country_flag = fondor_sector_vassal
+	}
+}
+
+
+
+rebel_countrys = {
+	OR = {
+		has_country_flag = rebel_alliance
+		has_country_flag = senate_loyalists
+		has_country_flag = kingdom_of_alderaan
+		has_country_flag = mon_cala_monarchy
+		has_country_flag = bothan_council
+		has_country_flag = ryloth_protectorate
+		has_country_flag = verpine_enclave
+		has_country_flag = the_centrality
+		has_country_flag = chalactan_council
+		has_country_flag = cerean_council
+		has_country_flag = dorin_commonwealth
+		has_country_flag = kingdom_of_onderon
+		has_country_flag = kingdom_of_zeltros
+		has_country_flag = senex_sector
+		has_country_flag = pantoran_assembly
+		has_country_flag = taanab_authority
+		has_country_flag = trianii_territory
+		has_country_flag = utapauan_committee
+	}
+}
+
+cis_countrys = {
+	OR = {
+		has_country_flag = confederate_remnant
+		has_country_flag = trade_federation
+		has_country_flag = banking_clan
+		has_country_flag = tion_hegemony
+		has_country_flag = commerce_guild
+		has_country_flag = corporate_alliance
+		has_country_flag = juvex_sector
+		has_country_flag = zygerrian_slave_state
+		has_country_flag = sluis_sector_vassal
+		has_country_flag = terminus_sector_vassal
+	}
+}
+
+hutt_countrys = {
+	has_country_flag = hutt_cartel
+}
+
+mando_countrys = {
+	OR = {
+		has_country_flag = mandalorian_clans
+		has_country_flag = formable_this_is_the_way
+		has_country_flag = formable_mando_crusader
+		has_country_flag = mandalorians_book_of_boba
+		has_country_flag = saxon_khanate
+	}
+}
+
+corellia_misc01_countrys = {
+	OR = {
+		has_country_flag = corellian_security
+		has_country_flag = black_sun_organization
+		has_country_flag = arkanian_dominion
+		has_country_flag = bakuran_senate
+		has_country_flag = cathar_principality
+		has_country_flag = echani_command
+		has_country_flag = greater_javin
+		has_country_flag = rodian_clans
+		has_country_flag = trandoshan_tribes
+		has_country_flag = zabrak_council
+	}
+}
+
+csa_countrys = {
+	has_country_flag = corporate_sector_authority
+}
+
+hapan_countrys = {
+	has_country_flag = hapes_consortium
+}
+
+other_countrys = {
+	OR = {
+		# has_country_flag = galactic_empire
+		# has_country_flag = eriadu_authority
+		# has_country_flag = ciutric_hegemony
+		# has_country_flag = naboo_sector_vassal
+		# has_country_flag = fondor_sector_vassal
+
+		# has_country_flag = senate_loyalists
+		# has_country_flag = mon_cala_monarchy
+		# has_country_flag = bothan_council
+		# has_country_flag = ryloth_protectorate
+		# has_country_flag = verpine_enclave
+		# has_country_flag = the_centrality
+		# has_country_flag = chalactan_council
+		# has_country_flag = cerean_council
+		# has_country_flag = dorin_commonwealth
+		# has_country_flag = kingdom_of_onderon
+		# has_country_flag = kingdom_of_zeltros
+		# has_country_flag = senex_sector
+		# has_country_flag = pantoran_assembly
+		# has_country_flag = taanab_authority
+		# has_country_flag = trianii_territory
+		# has_country_flag = utapauan_committee
+
+		# has_country_flag = confederate_remnant
+		# has_country_flag = trade_federation
+		# has_country_flag = banking_clan
+		# has_country_flag = tion_hegemony
+		# has_country_flag = commerce_guild
+		# has_country_flag = corporate_alliance
+		# has_country_flag = juvex_sector
+		# has_country_flag = zygerrian_slave_state
+		# has_country_flag = sluis_sector_vassal
+		# has_country_flag = terminus_sector_vassal
+
+		# has_country_flag = hutt_cartel
+		# has_country_flag = mandalorian_clans
+		# has_country_flag = formable_this_is_the_way
+		# has_country_flag = formable_mando_crusader
+		# has_country_flag = mandalorians_book_of_boba
+		# has_country_flag = saxon_khanate
+
+		# has_country_flag = corellian_security
+		# has_country_flag = black_sun_organization
+		# has_country_flag = arkanian_dominion
+		# has_country_flag = bakuran_senate
+		# has_country_flag = cathar_principality
+		# has_country_flag = echani_command
+		# has_country_flag = greater_javin
+		# has_country_flag = rodian_clans
+		# has_country_flag = trandoshan_tribes
+		# has_country_flag = zabrak_council
+
+		# has_country_flag = corporate_sector_authority
+		# has_country_flag = hapes_consortium
+		has_country_flag = chiss_ascendancy
+		has_country_flag = killik_colony
+	}
+}
+
+#Corvettes
+uses_cr90_cv = {
+	OR = {
+		imperial_gfx_culture = yes
+
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		corellian_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_cr90 }
+}
+
+cr90_ai_country = {
+	OR = {
+		imperial_gfx_culture = yes
+
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		corellian_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+	}
+	has_technology = tech_corvettes
+	NOT = { has_technology = tech_rebellion_era_corvettes }
+}
+
+uses_jehaveyir_cv = {
+	mando_gfx_culture = yes
+	NOT = { has_country_flag = drydock_jehaveyir }
+}
+
+jehaveyir_ai_country = {
+	mando_gfx_culture = yes
+	has_technology = tech_corvettes
+	NOT = { has_technology = tech_rebellion_era_corvettes }
+}
+
+uses_lupus_cv = {
+	cis_gfx_culture = yes
+	NOT = { has_country_flag = drydock_lupus }
+}
+
+lupus_ai_country = {
+	cis_gfx_culture = yes
+	has_technology = tech_corvettes
+	NOT = { has_technology = tech_rebellion_era_corvettes }
+}
+
+uses_early_asdroni_cv = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_Early_Asdroni }
+}
+
+early_asdroni_ai_country = {
+	chiss_gfx_culture = yes
+	has_technology = tech_corvettes
+	NOT = { has_technology = tech_rebellion_era_corvettes }
+}
+
+uses_asdroni_cv = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_Asdroni }
+}
+
+uses_adv_asdroni_cv = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_Adv_Asdroni }
+}
+
+uses_customs_cv = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_customs }
+}
+
+uses_hammerhead_cv = {
+	OR = {
+		rebel_gfx_culture = yes
+		corellian_gfx_culture = yes
+		hapes_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_hammerhead }
+}
+
+uses_scurge_cv = {
+	hutt_gfx_culture = yes
+	NOT = { has_country_flag = drydock_scurge }
+}
+
+uses_krayt_cv = {
+	mando_gfx_culture = yes
+	NOT = { has_country_flag = drydock_krayt }
+}
+
+uses_diamond_cv = {
+	cis_gfx_culture = yes
+	NOT = { has_country_flag = drydock_diamond }
+}
+
+uses_etti_cv = {
+	csa_gfx_culture = yes
+	NOT = { has_country_flag = drydock_etti }
+}
+
+uses_vigil_cv = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_vigil }
+}
+
+uses_dp20_cv = {
+	OR = {
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_dp20 }
+}
+
+uses_raider_cv = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_raider }
+}
+
+uses_dornean_cv = {
+	rebel_gfx_culture = yes
+	NOT = { has_country_flag = drydock_dornean }
+}
+
+uses_crusader_cv = {
+	OR = {
+		mando_gfx_culture = yes
+		hutt_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_crusader }
+}
+
+uses_marauder_cv = {
+	OR = {
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_marauder }
+}
+
+#Frigates
+uses_arquitens_fr = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		corellian_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_aquintens }
+}
+
+arquitens_ai_country = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		corellian_gfx_culture = yes
+	}
+	has_technology = tech_republic_era_support_ships
+	NOT = { has_technology = tech_rebellion_era_frigates }
+}
+
+uses_kiltirin_fr = {
+	mando_gfx_culture = yes
+	NOT = { has_country_flag = drydock_kilitrin }
+}
+
+kiltirin_ai_country = {
+	mando_gfx_culture = yes
+	has_technology = tech_republic_era_support_ships
+	NOT = { has_technology = tech_rebellion_era_frigates }
+}
+
+uses_pelta_fr = {
+	OR = {
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		csa_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_pelta }
+}
+
+pelta_ai_country = {
+	rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		csa_gfx_culture = yes
+	has_technology = tech_republic_era_support_ships
+	NOT = { has_technology = tech_rebellion_era_frigates }
+}
+
+uses_pinnace_fr = {
+	cis_gfx_culture = yes
+	NOT = { has_country_flag = drydock_pinnance }
+}
+
+pinnance_ai_country = {
+	cis_gfx_culture = yes
+	has_technology = tech_republic_era_support_ships
+	NOT = { has_technology = tech_rebellion_era_frigates }
+}
+
+uses_nova_fr = {
+	hapes_gfx_culture = yes
+	NOT = { has_country_flag = drydock_Nova }
+}
+
+nova_ai_country = {
+	hapes_gfx_culture = yes
+	has_technology = tech_republic_era_support_ships
+	NOT = { has_technology = tech_rebellion_era_frigates }
+}
+
+uses_adv_nova_fr = {
+	hapes_gfx_culture = yes
+	NOT = { has_country_flag = drydock_adv_Nova }
+}
+
+uses_vigilance_fr = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_Vigilance }
+}
+
+vigilance_ai_country = {
+	chiss_gfx_culture = yes
+	has_technology = tech_republic_era_support_ships
+	NOT = { has_technology = tech_rebellion_era_frigates }
+}
+
+uses_adv_vigilance_fr = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_adv_vigilance
+	}
+}
+
+uses_neb_fr = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		mando_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_nebulon_b }
+}
+
+uses_neb_b2_fr = {
+	OR = {
+		#imperial_gfx_culture = no
+		rebel_gfx_culture = yes
+		mando_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_nebulon_2 }
+}
+
+uses_cg273_fr = {
+	OR = {
+		hutt_gfx_culture = yes
+		corellian_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_cg273
+	}
+}
+
+uses_kariek_fr = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_kariek }
+}
+
+uses_adv_kariek_fr = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_adv_kariek }
+}
+
+uses_escort_carrier_fr = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_escort_carrier
+	}
+}
+
+uses_quasar_fr = {
+	OR = {
+		rebel_gfx_culture = yes
+		csa_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_quasar
+	}
+}
+
+uses_lancer_fr = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_lancer }
+}
+
+uses_teroch_fr = {
+	mando_gfx_culture = yes
+	NOT = { has_country_flag = drydock_teroch
+	}
+}
+
+uses_neb2_fr = {
+	OR = {
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_nebulon_2 }
+}
+
+uses_velox_fr = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_velox }
+}
+
+uses_mc30c_fr = {
+	rebel_gfx_culture = yes
+	NOT = { has_country_flag = drydock_mc30c }
+}
+
+uses_vengeance_fr = {
+	OR = {
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		cis_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_vengeance }
+}
+
+uses_cc7700_in = {
+	OR = {
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+		chiss_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_cc_7700 }
+}
+
+#Cruiser
+uses_victory2_cr = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		corellian_gfx_culture = yes
+		csa_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_victory_mark2 }
+}
+
+victory2_ai_country = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		corellian_gfx_culture = yes
+		csa_gfx_culture = yes
+	}
+	has_technology = tech_republic_era_support_ships
+	NOT = { has_technology = tech_rote_era_cruisers }
+}
+
+uses_wavecrest_cr = {
+	cis_gfx_culture = yes
+	NOT = { has_country_flag = drydock_wavecrest }
+}
+
+uses_early_battledragon_cr = {
+	hapes_gfx_culture = yes
+	NOT = { has_country_flag = drydock_Early_Battledragon }
+}
+
+early_battledragon_ai_country = {
+	hapes_gfx_culture = yes
+	has_technology = tech_republic_era_support_ships
+	NOT = { has_technology = tech_rote_era_cruisers }
+}
+
+uses_battledragon_cr = {
+	hapes_gfx_culture = yes
+	NOT = { has_country_flag = drydock_Battledragon }
+}
+
+battledragon_ai_country = {
+	hapes_gfx_culture = yes
+	has_technology = tech_republic_era_support_ships
+	NOT = { has_technology = tech_rebellion_era_cruisers }
+}
+
+uses_adv_battledragon_cr = {
+	hapes_gfx_culture = yes
+	NOT = { has_country_flag = drydock_adv_battledragon }
+}
+
+uses_nuruodo_cr = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_Nuruodo }
+}
+
+nuruodo_ai_country = {
+	chiss_gfx_culture = yes
+	has_technology = tech_republic_era_support_ships
+	NOT = { has_technology = tech_rebellion_era_cruisers }
+}
+
+uses_adv_nuruodo_cr = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_adv_nuruodo }
+}
+
+uses_sabaoth_cr = {
+	cis_gfx_culture = yes
+	NOT = { has_country_flag = drydock_sabaoth }
+}
+
+uses_kontos_cr = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		corellian_gfx_culture = yes
+		csa_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_kontos }
+}
+
+uses_mc40_cr = {
+	rebel_gfx_culture = yes
+	NOT = { has_country_flag = drydock_mc40 }
+}
+
+uses_broadside_cr = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		hutt_gfx_culture = yes
+		cis_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_broadside }
+}
+
+uses_protector_cruiser = {
+	mando_gfx_culture = yes
+	NOT = { has_country_flag = drydock_protector }
+}
+
+uses_warlord_cr = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_warlord }
+}
+
+uses_gladiator_cr = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_gladiator }
+}
+
+uses_beviin_cr = {
+	mando_gfx_culture = yes
+	NOT = { has_country_flag = drydock_beviin }
+}
+
+uses_liberator_cruiser = {
+	OR = {
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_liberator }
+}
+
+uses_immobilizer_hi = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_immobilizer418 }
+}
+
+uses_battledragon_hi = {
+	hapes_gfx_culture = yes
+	NOT = { has_country_flag = drydock_int_battledragon }
+}
+
+uses_massias_hi = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_massias }
+}
+
+#Heavy Cruiser
+uses_dreadnought_hc = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		corellian_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_Dreadnought }
+}
+
+dreadnought_ai_country = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		corellian_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+	}
+	has_technology = tech_republic_era_capital_ships
+	NOT = { has_technology = tech_rebellion_era_cruisers }
+}
+
+uses_kyramud_hc = {
+	mando_gfx_culture = yes
+	NOT = { has_country_flag = drydock_kyramud }
+}
+
+uses_munificent_hc = {
+	cis_gfx_culture = yes
+	NOT = { has_country_flag = drydock_munificent }
+}
+
+uses_prosvoli_hc = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_Prosvoli }
+}
+
+prosvoli_ai_country = {
+	chiss_gfx_culture = yes
+	has_technology = tech_republic_era_capital_ships
+	NOT = { has_technology = tech_rebellion_era_cruisers }
+}
+
+uses_adv_prosvoli_hc = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_adv_prosvoli }
+}
+
+uses_acclamator_hc = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_Acclamator }
+}
+
+acclamator_ai_country = {
+	imperial_gfx_culture = yes
+	has_technology = tech_republic_era_capital_ships
+	NOT = { has_technology = tech_rebellion_era_cruisers }
+}
+
+uses_lictor_hc = {
+	mando_gfx_culture = yes
+	NOT = { has_country_flag = drydock_lictor }
+}
+
+uses_bulwark_hc = {
+	cis_gfx_culture = yes
+	NOT = { has_country_flag = drydock_bulwark }
+}
+
+bulwark_ai_country = {
+	cis_gfx_culture = yes
+	has_technology = tech_republic_era_capital_ships
+	NOT = { has_technology = tech_rote_era_cruisers }
+}
+
+uses_vsd1_hc = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_victory1_isd }
+}
+
+uses_assault1_hc = {
+	rebel_gfx_culture = yes
+	NOT = { has_country_flag = drydock_assault_frigate }
+}
+
+uses_bulk_hc = {
+	OR = {
+		hutt_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_bulk_cruiser }
+}
+
+uses_vindicator_hc = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_vindicator }
+}
+
+uses_dauntless_hc = {
+	OR = {
+		rebel_gfx_culture = yes
+		corellian_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_dauntless }
+}
+
+uses_mando_hc = {
+	mando_gfx_culture = yes
+}
+
+uses_captor_hc = {
+	cis_gfx_culture = yes
+	NOT = { has_country_flag = drydock_captor }
+}
+
+uses_auriette_hc = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_auriette }
+}
+
+uses_mc55_hc = {
+	rebel_gfx_culture = yes
+	NOT = { has_country_flag = drydock_mc55 }
+}
+
+uses_afthonia_hc = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_afthonia }
+}
+
+uses_vsd2_hc = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		corellian_gfx_culture = yes
+		csa_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_victory2_isd }
+}
+
+uses_beroya_hc = {
+	OR = {
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_beroya }
+}
+
+uses_assault2_hc = {
+	OR = {
+		rebel_gfx_culture = yes
+		cis_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_assault_frigate2 }
+}
+
+uses_hap_vsd2_hc = {
+	hapes_gfx_culture = yes
+	NOT = { has_country_flag = drydock_hapan_victory2 }
+}
+
+#Star Destroyer
+uses_venator_sd = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_Venator }
+}
+
+venator_ai_country = {
+	imperial_gfx_culture = yes
+	has_technology = tech_republic_era_capital_ships
+	NOT = { has_technology = tech_rote_era_capital_ships }
+}
+
+uses_centurion_sd = {
+	OR = {
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_centurion }
+}
+
+centurion_ai_country = {
+	OR = {
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+	}
+	has_technology = tech_republic_era_capital_ships
+	NOT = { has_technology = tech_rebellion_era_capital_ships }
+}
+
+uses_mc75_sd = {
+	rebel_gfx_culture = yes
+	NOT = { has_country_flag = drydock_mc75 }
+}
+
+mc75_ai_country = {
+	rebel_gfx_culture = yes
+	has_technology = tech_republic_era_capital_ships
+	NOT = { has_technology = tech_rebellion_era_capital_ships }
+}
+
+uses_kandosii_sd = {
+	mando_gfx_culture = yes
+	NOT = { has_country_flag = drydock_kandosii }
+}
+
+uses_corellian_sd = {
+	OR = {
+		corellian_gfx_culture = yes
+		csa_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_Corellian }
+}
+
+corellian_dest_ai_country = {
+	OR = {
+		corellian_gfx_culture = yes
+		csa_gfx_culture = yes
+	}
+	has_technology = tech_republic_era_capital_ships
+	NOT = { has_technology = tech_rebellion_era_capital_ships }
+}
+
+uses_adv_corellian_sd = {
+	OR = {
+		corellian_gfx_culture = yes
+		csa_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_adv_corellian }
+}
+
+uses_providence_sd = {
+	cis_gfx_culture = yes
+	NOT = { has_country_flag = drydock_providence }
+}
+
+uses_syndic_sd = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_Syndic }
+}
+
+syndic_ai_country = {
+	chiss_gfx_culture = yes
+	has_technology = tech_republic_era_capital_ships
+	NOT = { has_technology = tech_rote_era_capital_ships }
+}
+
+uses_adv_syndic_sd = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_adv_syndic }
+}
+
+uses_recuscant_sd = {
+	OR = {
+		hutt_gfx_culture = yes
+		cis_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_recursant }
+}
+
+uses_invincible_sd = {
+	OR = {
+		corellian_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_invincible }
+}
+
+uses_imperial1_sd = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_imperial1 }
+}
+
+uses_hap_imperial1_sd = {
+	hapes_gfx_culture = yes
+	NOT = { has_country_flag = drydock_hapan_imperial1 }
+}
+
+uses_procursator_sd = {
+	graphical_culture = imperial_01
+	NOT = { has_country_flag = drydock_procursator }
+}
+
+uses_mc80a_sd = {
+	rebel_gfx_culture = yes
+	NOT = { has_country_flag = drydock_mc80a }
+}
+
+uses_dh_omni_sd = {
+	cis_gfx_culture = yes
+	NOT = { has_country_flag = drydock_dh_omni }
+}
+
+uses_agressor_sd = {
+	mando_gfx_culture = yes
+	NOT = { has_country_flag = drydock_aggressor }
+}
+
+uses_mc80b_sd = {
+	rebel_gfx_culture = yes
+	NOT = { has_country_flag = drydock_mc80b }
+}
+
+uses_keldabe_sd = {
+	OR = {
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		cis_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_keldabe }
+}
+
+uses_chaf_destroyer = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_chaf }
+}
+
+uses_imperial2_sd = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_imperial2 }
+}
+
+uses_hap_imperial2_sd = {
+	hapes_gfx_culture = yes
+	NOT = { has_country_flag = drydock_hapan_imperial2 }
+}
+
+uses_ascendancy_sd = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_ascendancy }
+}
+
+uses_interdictor_sd = {
+	graphical_culture = imperial_01
+	NOT = { has_country_flag = drydock_interdictor_isd }
+}
+
+uses_allegiance_bc = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_allegiance_bc }
+}
+
+uses_lucrehulk_bc = {
+	OR = {
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+	}
+	NOT = { has_country_flag = drydock_lucrehulk_bc }
+}
+
+uses_phalanx_bc = {
+	chiss_gfx_culture = yes
+	NOT = { has_country_flag = drydock_phalanx_bc }
+}
+
+uses_titan_bc = {
+	imperial_gfx_culture = yes
+	NOT = { has_country_flag = drydock_titan_bc }
+}
+
+uses_home1_bc = {
+	rebel_gfx_culture = yes
+	NOT = { has_country_flag = drydock_home1_bc }
+}
+
+uses_star_home_bc = {
+	hapes_gfx_culture = yes
+	NOT = { has_country_flag = drydock_star_home_bc }
+}
+
+uses_subjugator_dn = {
+	cis_gfx_culture = yes
+}
+
+uses_bellator_dn = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		corellian_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+		chiss_gfx_culture = yes
+	}
+}
+
+uses_solyc_verd_dn = {
+	mando_gfx_culture = yes
+}
+
+uses_executor_dn = {
+	graphical_culture = imperial_01
+}
+
+uses_xq1_stn = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+		chiss_gfx_culture = yes
+	}
+}
+
+uses_xq2_stn = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+		chiss_gfx_culture = yes
+	}
+}
+
+uses_golan1_stn = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+		chiss_gfx_culture = yes
+	}
+}
+
+uses_golan2_stn = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+		chiss_gfx_culture = yes
+	}
+}
+
+uses_golan3_stn = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+		chiss_gfx_culture = yes
+	}
+}
+
+uses_fleetop_stn = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+		chiss_gfx_culture = yes
+	}
+}
+
+uses_listening_stn = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+		chiss_gfx_culture = yes
+	}
+}
+
+uses_minefield_stn = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+		chiss_gfx_culture = yes
+	}
+}
+
+uses_in_minefield_stn = {
+	OR = {
+		imperial_gfx_culture = yes
+
+		rebel_gfx_culture = yes
+		hutt_gfx_culture = yes
+		mando_gfx_culture = yes
+		corellian_gfx_culture = yes
+		cis_gfx_culture = yes
+		csa_gfx_culture = yes
+		hapes_gfx_culture = yes
+		chiss_gfx_culture = yes
+	}
+}
+
+needs_shipyard_0 = {
+	is_scope_type = megastructure
+	OR = {
+		is_megastructure_type = swp_planetary_shipyard_0
+		is_megastructure_type = swp_planetary_shipyard_1
+		is_megastructure_type = swp_planetary_shipyard_2
+		is_megastructure_type = swp_orbital_shipyard_0
+		is_megastructure_type = swp_orbital_shipyard_1
+		is_megastructure_type = swp_orbital_shipyard_2
+		is_megastructure_type = star_forge_1
+		is_megastructure_type = star_forge_2
+	}
+}
+
+needs_shipyard_1 = {
+	is_scope_type = megastructure
+	OR = {
+		is_megastructure_type = swp_planetary_shipyard_1
+		is_megastructure_type = swp_planetary_shipyard_2
+		is_megastructure_type = swp_orbital_shipyard_1
+		is_megastructure_type = swp_orbital_shipyard_2
+		is_megastructure_type = star_forge_1
+		is_megastructure_type = star_forge_2
+	}
+}
+
+is_ship_size_corvette = {
+	OR = {
+		is_ship_size = swp_cr90_corvette
+		is_ship_size = swp_jehaveyir_corvette
+		is_ship_size = swp_lupus_corvette
+		is_ship_size = swp_early_asdroni_corvette
+		is_ship_size = swp_customs_corvette
+		is_ship_size = swp_hammerhead_corvette
+		is_ship_size = swp_scurge_corvette
+		is_ship_size = swp_krayt_corvette
+		is_ship_size = swp_diamond_corvette
+		is_ship_size = swp_etti_corvette
+		is_ship_size = swp_asdroni_corvette
+		is_ship_size = swp_vigil_corvette
+		is_ship_size = swp_dp20_corvette
+		is_ship_size = swp_adv_asdroni_corvette
+		is_ship_size = swp_raider_corvette
+		is_ship_size = swp_dornean_corvette
+		is_ship_size = swp_crusader_corvette
+		is_ship_size = swp_marauder_corvette
+	}
+}
+
+is_ship_size_frigate = {
+	OR = {
+		is_ship_size = swp_arquitens_frigate
+		is_ship_size = swp_kiltirin_frigate
+		is_ship_size = swp_pelta_frigate
+		is_ship_size = swp_pinnance_frigate
+		is_ship_size = swp_nova_frigate
+		is_ship_size = swp_vigilance_frigate
+		is_ship_size = swp_neb_b_frigate
+		is_ship_size = swp_cg273_frigate
+		is_ship_size = swp_kariek_frigate
+		is_ship_size = swp_escort_carrier_frigate
+		is_ship_size = swp_quasar_frigate
+		is_ship_size = swp_lancer_frigate
+		is_ship_size = swp_teroch_frigate
+		is_ship_size = swp_neb_b2_frigate
+		is_ship_size = swp_adv_nova_frigate
+		is_ship_size = swp_adv_vigilance_frigate
+		is_ship_size = swp_velox_frigate
+		is_ship_size = swp_mc30c_frigate
+		is_ship_size = swp_vengeance_frigate
+		is_ship_size = swp_adv_kariek_frigate
+		is_ship_size = swp_cc7700_frigate
+	}
+}
+
+is_ship_size_cruiser = {
+	OR = {
+		is_ship_size = swp_victory2_cruiser
+		is_ship_size = swp_wavecrest_cruiser
+		is_ship_size = swp_early_battledragon_cruiser
+		is_ship_size = swp_nuruodo_cruiser
+		is_ship_size = swp_sabaoth_cruiser
+		is_ship_size = swp_kontos_cruiser
+		is_ship_size = swp_mc40_cruiser
+		is_ship_size = swp_battledragon_cruiser
+		is_ship_size = swp_broadside_cruiser
+		is_ship_size = swp_protector_cruiser
+		is_ship_size = swp_warlord_cruiser
+		is_ship_size = swp_gladiator_cruiser
+		is_ship_size = swp_beviin_cruiser
+		is_ship_size = swp_liberator_cruiser
+		is_ship_size = swp_adv_battledragon_cruiser
+		is_ship_size = swp_adv_nuruodo_cruiser
+		is_ship_size = swp_immobilizer418_cruiser
+		is_ship_size = swp_int_battledragon_cruiser
+		is_ship_size = swp_massias_cruiser
+	}
+}
+
+is_ship_size_heavy_cruiser = {
+	OR = {
+		is_ship_size = swp_dreadnought_heavy_cruiser
+		is_ship_size = swp_kyramud_heavy_cruiser
+		is_ship_size = swp_munificent_heavy_cruiser
+		is_ship_size = swp_prosvoli_heavy_cruiser
+		is_ship_size = swp_acclamator_heavy_cruiser
+		is_ship_size = swp_lictor_heavy_cruiser
+		is_ship_size = swp_bulwark_heavy_cruiser
+		is_ship_size = swp_vsd1_heavy_cruiser
+		is_ship_size = swp_assault1_heavy_cruiser
+		is_ship_size = swp_bulk_heavy_cruiser
+		is_ship_size = swp_vindicator_heavy_cruiser
+		is_ship_size = swp_dauntless_heavy_cruiser
+		is_ship_size = swp_captor_heavy_cruiser
+		is_ship_size = swp_auriette_heavy_cruiser
+		is_ship_size = swp_mc55_heavy_cruiser
+		is_ship_size = swp_afthonia_heavy_cruiser
+		is_ship_size = swp_vsd2_heavy_cruiser
+		is_ship_size = swp_beroya_heavy_cruiser
+		is_ship_size = swp_assault2_heavy_cruiser
+		is_ship_size = swp_hapan_vsd2_heavy_cruiser
+		is_ship_size = swp_adv_prosvoli_heavy_cruiser
+	}
+}
+
+is_ship_size_star_destroyer = {
+	OR = {
+		is_ship_size = swp_venator_star_destroyer
+		is_ship_size = swp_centurion_star_destroyer
+		is_ship_size = swp_mc75_star_cruiser
+		is_ship_size = swp_corellian_destroyer
+		is_ship_size = swp_providence_destroyer
+		is_ship_size = swp_syndic_destroyer
+		is_ship_size = swp_invincible_destroyer
+		is_ship_size = swp_kandosii_destroyer
+		is_ship_size = swp_recusant_destroyer
+		is_ship_size = swp_imperial1_star_destroyer
+		is_ship_size = swp_hapan_imperial1_star_destroyer
+		is_ship_size = swp_procursator_star_destroyer
+		is_ship_size = swp_mc80a_star_cruiser
+		is_ship_size = swp_dh_omni_destroyer
+		is_ship_size = swp_aggressor_destroyer
+		is_ship_size = swp_adv_syndic_destroyer
+		is_ship_size = swp_mc80b_star_cruiser
+		is_ship_size = swp_adv_corellian_destroyer
+		is_ship_size = swp_chaf_destroyer
+		is_ship_size = swp_keldabe_destroyer
+		is_ship_size = swp_imperial2_star_destroyer
+		is_ship_size = swp_hapan_imperial2_star_destroyer
+		is_ship_size = swp_ascendancy_star_destroyer
+		is_ship_size = swp_interdictor_sd
+	}
+}
+
+is_ship_size_battle_cruiser = {
+	OR = {
+		is_ship_size = swp_allegiance_battlecruiser
+		is_ship_size = swp_lucrehulk_battlecruiser
+		is_ship_size = swp_phalanx_battlecruiser
+		is_ship_size = swp_titan_battlecruiser
+		is_ship_size = swp_mc80_home1_battlecruiser
+		is_ship_size = swp_star_home_battlecruiser
+	}
+}
+
+is_ship_size_super_stardestroyer = {
+	OR = {
+		is_ship_size = swp_bellator
+		is_ship_size = swp_solyc_verd
+		is_ship_size = swp_subjugator
+		is_ship_size = swp_executor
+	}
+}
+
+
+### Uses CW ###

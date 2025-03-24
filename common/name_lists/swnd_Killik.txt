@@ -1,0 +1,844 @@
+﻿Killik = {
+	randomized = no
+	ship_names = {
+		generic = {
+			KILLIK_SHIP_mystic KILLIK_SHIP_naiad KILLIK_SHIP_nautilus KILLIK_SHIP_nebula KILLIK_SHIP_nimble KILLIK_SHIP_north_star KILLIK_SHIP_nymph KILLIK_SHIP_obdurate KILLIK_SHIP_ocean KILLIK_SHIP_onward KILLIK_SHIP_oracle KILLIK_SHIP_paradox KILLIK_SHIP_paragon KILLIK_SHIP_pearl KILLIK_SHIP_peregrine KILLIK_SHIP_perseverance KILLIK_SHIP_marksman KILLIK_SHIP_rifleman KILLIK_SHIP_sniper KILLIK_SHIP_trident KILLIK_SHIP_trumpet KILLIK_SHIP_truncheon KILLIK_SHIP_typhoon KILLIK_SHIP_undaunted KILLIK_SHIP_venture KILLIK_SHIP_versatile KILLIK_SHIP_vigorous KILLIK_SHIP_viper KILLIK_SHIP_vivacious KILLIK_SHIP_winger KILLIK_SHIP_wizard KILLIK_SHIP_wyvern KILLIK_SHIP_wolfhound KILLIK_SHIP_devastator KILLIK_SHIP_warhammer KILLIK_SHIP_retribution KILLIK_SHIP_senator KILLIK_SHIP_tornado KILLIK_SHIP_infinity KILLIK_SHIP_usurper KILLIK_SHIP_utmost KILLIK_SHIP_valorous KILLIK_SHIP_whirlwind KILLIK_SHIP_athena KILLIK_SHIP_artemis KILLIK_SHIP_vigilance KILLIK_SHIP_decimator KILLIK_SHIP_indomitable KILLIK_SHIP_goliath KILLIK_SHIP_sentinel KILLIK_SHIP_brilliant KILLIK_SHIP_blazer KILLIK_SHIP_audacity KILLIK_SHIP_gallant KILLIK_SHIP_nova KILLIK_SHIP_shadow KILLIK_SHIP_allegiance KILLIK_SHIP_challenger KILLIK_SHIP_fearless KILLIK_SHIP_protector KILLIK_SHIP_guardian KILLIK_SHIP_victorious KILLIK_SHIP_courageous KILLIK_SHIP_defiance KILLIK_SHIP_valorous KILLIK_SHIP_azrael KILLIK_SHIP_adamantine KILLIK_SHIP_aralanni KILLIK_SHIP_ardent_iv KILLIK_SHIP_armistice KILLIK_SHIP_avengeance KILLIK_SHIP_ballista KILLIK_SHIP_bloodstripe KILLIK_SHIP_borealis KILLIK_SHIP_caelus KILLIK_SHIP_caravan KILLIK_SHIP_chaf_envoy KILLIK_SHIP_commenor KILLIK_SHIP_corbantis KILLIK_SHIP_corellia KILLIK_SHIP_courteous KILLIK_SHIP_dauntless KILLIK_SHIP_defiant KILLIK_SHIP_deliverance KILLIK_SHIP_derapha KILLIK_SHIP_devout KILLIK_SHIP_empirical KILLIK_SHIP_empyrean KILLIK_SHIP_era_daimanos KILLIK_SHIP_eye_of_the_storm KILLIK_SHIP_farstar KILLIK_SHIP_fastblast KILLIK_SHIP_galaaron KILLIK_SHIP_garrote KILLIK_SHIP_gilagimar KILLIK_SHIP_halleck KILLIK_SHIP_hunter KILLIK_SHIP_intractable KILLIK_SHIP_ithor_lady KILLIK_SHIP_justice_crusader KILLIK_SHIP_kana_s_steel KILLIK_SHIP_lathir KILLIK_SHIP_liberty KILLIK_SHIP_lillibanca KILLIK_SHIP_maelstrom KILLIK_SHIP_malachite_scent KILLIK_SHIP_mercy KILLIK_SHIP_myrkos KILLIK_SHIP_nebula_chaser KILLIK_SHIP_nova KILLIK_SHIP_nova_viper KILLIK_SHIP_obedience KILLIK_SHIP_olemp KILLIK_SHIP_pegasus KILLIK_SHIP_perspicacity KILLIK_SHIP_phalanx KILLIK_SHIP_plooriod_bodkin KILLIK_SHIP_predominance KILLIK_SHIP_prosperity KILLIK_SHIP_purity KILLIK_SHIP_recalcitrant KILLIK_SHIP_red_nova KILLIK_SHIP_redma KILLIK_SHIP_reliable KILLIK_SHIP_reliant KILLIK_SHIP_reluctant KILLIK_SHIP_republic KILLIK_SHIP_republic_s_return KILLIK_SHIP_resolve KILLIK_SHIP_respectable KILLIK_SHIP_revenge KILLIK_SHIP_shadowblade KILLIK_SHIP_spritespray KILLIK_SHIP_star_dream KILLIK_SHIP_stark_wing KILLIK_SHIP_starveil KILLIK_SHIP_undying KILLIK_SHIP_vaathkree KILLIK_SHIP_vainglorious KILLIK_SHIP_valiant KILLIK_SHIP_valor KILLIK_SHIP_vanquisher KILLIK_SHIP_vinsor KILLIK_SHIP_visseon KILLIK_SHIP_wennis KILLIK_SHIP_yavin_s_glory KILLIK_SHIP_moldy_crow KILLIK_SHIP_raven_s_claw KILLIK_SHIP_agile KILLIK_SHIP_archer KILLIK_SHIP_arrow KILLIK_SHIP_bruiser KILLIK_SHIP_cherub KILLIK_SHIP_chimera KILLIK_SHIP_claymore KILLIK_SHIP_broadsword KILLIK_SHIP_battleaxe KILLIK_SHIP_crossbow KILLIK_SHIP_cutlass KILLIK_SHIP_deterrent KILLIK_SHIP_errant KILLIK_SHIP_faithful KILLIK_SHIP_fierce KILLIK_SHIP_gladius KILLIK_SHIP_longbow KILLIK_SHIP_grappler KILLIK_SHIP_hammer KILLIK_SHIP_vampire KILLIK_SHIP_velox KILLIK_SHIP_venator KILLIK_SHIP_vendetta KILLIK_SHIP_venerable KILLIK_SHIP_venomous KILLIK_SHIP_taciturn KILLIK_SHIP_supreme KILLIK_SHIP_success KILLIK_SHIP_shredder KILLIK_SHIP_seraph KILLIK_SHIP_serpent KILLIK_SHIP_spitfire KILLIK_SHIP_stalker KILLIK_SHIP_stratagem KILLIK_SHIP_scimitar KILLIK_SHIP_scorcher KILLIK_SHIP_scourge KILLIK_SHIP_scythe KILLIK_SHIP_revenant KILLIK_SHIP_redoubtable KILLIK_SHIP_raptor KILLIK_SHIP_reaver KILLIK_SHIP_prodigal KILLIK_SHIP_rapier KILLIK_SHIP_prudent KILLIK_SHIP_persistent KILLIK_SHIP_peerless KILLIK_SHIP_myrmidon KILLIK_SHIP_indignant KILLIK_SHIP_javelin KILLIK_SHIP_knight KILLIK_SHIP_starwolf KILLIK_SHIP_bonaventure KILLIK_SHIP_adventure KILLIK_SHIP_boxer KILLIK_SHIP_buccaneer KILLIK_SHIP_cavalier KILLIK_SHIP_celestial KILLIK_SHIP_chariot KILLIK_SHIP_comet KILLIK_SHIP_crucible KILLIK_SHIP_cyclone KILLIK_SHIP_decisive KILLIK_SHIP_dexterous KILLIK_SHIP_diadem KILLIK_SHIP_earnest KILLIK_SHIP_eclipse KILLIK_SHIP_forger KILLIK_SHIP_fortune KILLIK_SHIP_gauntlet KILLIK_SHIP_griffin KILLIK_SHIP_horizon KILLIK_SHIP_hotspur KILLIK_SHIP_hurricane KILLIK_SHIP_hussar KILLIK_SHIP_jubilant KILLIK_SHIP_lancer KILLIK_SHIP_lightning KILLIK_SHIP_magic KILLIK_SHIP_mediator KILLIK_SHIP_mermaid KILLIK_SHIP_meteor KILLIK_SHIP_minstrel KILLIK_SHIP_miranda KILLIK_SHIP_mustang KILLIK_SHIP_sharpshooter KILLIK_SHIP_cyclops KILLIK_SHIP_centaur KILLIK_SHIP_adversary KILLIK_SHIP_assassin KILLIK_SHIP_dagger KILLIK_SHIP_daring KILLIK_SHIP_duty KILLIK_SHIP_havoc KILLIK_SHIP_hero KILLIK_SHIP_hunter KILLIK_SHIP_justice KILLIK_SHIP_impeccable KILLIK_SHIP_interceptor KILLIK_SHIP_infernal KILLIK_SHIP_loyal KILLIK_SHIP_matchless KILLIK_SHIP_mauler KILLIK_SHIP_mayhem KILLIK_SHIP_malice KILLIK_SHIP_menace KILLIK_SHIP_merciless KILLIK_SHIP_mischief KILLIK_SHIP_monarch KILLIK_SHIP_patriot KILLIK_SHIP_predator KILLIK_SHIP_powerful KILLIK_SHIP_punisher KILLIK_SHIP_ravager KILLIK_SHIP_reaper KILLIK_SHIP_savage KILLIK_SHIP_spiteful KILLIK_SHIP_templar KILLIK_SHIP_terminator KILLIK_SHIP_terror KILLIK_SHIP_thrasher KILLIK_SHIP_minotaur KILLIK_SHIP_manticore KILLIK_SHIP_interdictor KILLIK_SHIP_intruder KILLIK_SHIP_hydra KILLIK_SHIP_enfield KILLIK_SHIP_harasser KILLIK_SHIP_unbeaten KILLIK_SHIP_werewolf KILLIK_SHIP_zealous KILLIK_SHIP_petulant KILLIK_SHIP_phantom KILLIK_SHIP_phoenix KILLIK_SHIP_pike KILLIK_SHIP_pursuer KILLIK_SHIP_raider KILLIK_SHIP_rainbow KILLIK_SHIP_rapid KILLIK_SHIP_redemption KILLIK_SHIP_relentless KILLIK_SHIP_rigorous KILLIK_SHIP_robust KILLIK_SHIP_sabre KILLIK_SHIP_salvation KILLIK_SHIP_sanguine KILLIK_SHIP_scarab KILLIK_SHIP_scepter KILLIK_SHIP_sea_witch KILLIK_SHIP_siren KILLIK_SHIP_sorceress KILLIK_SHIP_spearhead KILLIK_SHIP_specter KILLIK_SHIP_spirit KILLIK_SHIP_splendid KILLIK_SHIP_stallion KILLIK_SHIP_stalwart KILLIK_SHIP_steadfast KILLIK_SHIP_strenuous KILLIK_SHIP_superb KILLIK_SHIP_supernova KILLIK_SHIP_surprise KILLIK_SHIP_swiftsure KILLIK_SHIP_talent KILLIK_SHIP_talisman KILLIK_SHIP_talon KILLIK_SHIP_taurus KILLIK_SHIP_tenacious KILLIK_SHIP_thunder_child KILLIK_SHIP_thunderous KILLIK_SHIP_tireless KILLIK_SHIP_trenchant KILLIK_SHIP_righteous KILLIK_SHIP_acheron KILLIK_SHIP_achilles KILLIK_SHIP_agamemnon KILLIK_SHIP_amphion KILLIK_SHIP_aquilon KILLIK_SHIP_argonaut KILLIK_SHIP_argus KILLIK_SHIP_ariel KILLIK_SHIP_aurora KILLIK_SHIP_avernus KILLIK_SHIP_bacchus KILLIK_SHIP_bucephalus KILLIK_SHIP_calliope KILLIK_SHIP_calypso KILLIK_SHIP_castor KILLIK_SHIP_charybdis KILLIK_SHIP_circe KILLIK_SHIP_cleopatra KILLIK_SHIP_constantine KILLIK_SHIP_cordelia KILLIK_SHIP_cyrus KILLIK_SHIP_damocles KILLIK_SHIP_daedalus KILLIK_SHIP_darius KILLIK_SHIP_diomede KILLIK_SHIP_dryad KILLIK_SHIP_electra KILLIK_SHIP_endymion KILLIK_SHIP_erebus KILLIK_SHIP_fenris KILLIK_SHIP_freya KILLIK_SHIP_gilgamesh KILLIK_SHIP_gorgon KILLIK_SHIP_halcyon KILLIK_SHIP_hecate KILLIK_SHIP_hector KILLIK_SHIP_hesperus KILLIK_SHIP_janus KILLIK_SHIP_jason KILLIK_SHIP_juno KILLIK_SHIP_jupiter KILLIK_SHIP_lancelot KILLIK_SHIP_lazarus KILLIK_SHIP_leander KILLIK_SHIP_leonidas KILLIK_SHIP_lysander KILLIK_SHIP_maenad KILLIK_SHIP_mars KILLIK_SHIP_medea KILLIK_SHIP_medusa KILLIK_SHIP_menestheus KILLIK_SHIP_mercury KILLIK_SHIP_merlin KILLIK_SHIP_minerva KILLIK_SHIP_minos KILLIK_SHIP_neptune KILLIK_SHIP_nessus KILLIK_SHIP_nestor KILLIK_SHIP_nimrod KILLIK_SHIP_niobe KILLIK_SHIP_oberon KILLIK_SHIP_odin KILLIK_SHIP_ophelia KILLIK_SHIP_orestes KILLIK_SHIP_orpheus KILLIK_SHIP_osiris KILLIK_SHIP_pandora KILLIK_SHIP_penelope KILLIK_SHIP_persephone KILLIK_SHIP_perseus KILLIK_SHIP_phoebe KILLIK_SHIP_pluto KILLIK_SHIP_poseidon KILLIK_SHIP_proteus KILLIK_SHIP_pylades KILLIK_SHIP_serapis KILLIK_SHIP_stygian KILLIK_SHIP_tantalus KILLIK_SHIP_telemachus KILLIK_SHIP_theseus KILLIK_SHIP_thor KILLIK_SHIP_trajan KILLIK_SHIP_triton KILLIK_SHIP_venus KILLIK_SHIP_adamant KILLIK_SHIP_ardent KILLIK_SHIP_assail KILLIK_SHIP_austere KILLIK_SHIP_archon KILLIK_SHIP_adroit KILLIK_SHIP_aegis KILLIK_SHIP_anchor KILLIK_SHIP_corsair KILLIK_SHIP_banshee KILLIK_SHIP_enchantress KILLIK_SHIP_eradicator KILLIK_SHIP_tormentor KILLIK_SHIP_legion KILLIK_SHIP_reprisal KILLIK_SHIP_aggressor KILLIK_SHIP_assault KILLIK_SHIP_eviscerator KILLIK_SHIP_imperator KILLIK_SHIP_excellence KILLIK_SHIP_unrivalled KILLIK_SHIP_warlord KILLIK_SHIP_vengeance KILLIK_SHIP_triumphant KILLIK_SHIP_nemesis KILLIK_SHIP_avenger KILLIK_SHIP_champion KILLIK_SHIP_conqueror KILLIK_SHIP_crusader KILLIK_SHIP_glory KILLIK_SHIP_immortal KILLIK_SHIP_judicator KILLIK_SHIP_vanguard KILLIK_SHIP_renown KILLIK_SHIP_demolisher KILLIK_SHIP_dragon KILLIK_SHIP_executor KILLIK_SHIP_furious KILLIK_SHIP_gladiator KILLIK_SHIP_magnificent KILLIK_SHIP_ogre KILLIK_SHIP_onslaught KILLIK_SHIP_revenge KILLIK_SHIP_vanquisher KILLIK_SHIP_vehement KILLIK_SHIP_basilisk KILLIK_SHIP_tempest KILLIK_SHIP_overlord KILLIK_SHIP_warrior KILLIK_SHIP_titan KILLIK_SHIP_colossus KILLIK_SHIP_prometheus KILLIK_SHIP_nike KILLIK_SHIP_paladin KILLIK_SHIP_sovereign KILLIK_SHIP_repulse KILLIK_SHIP_majestic KILLIK_SHIP_avatar KILLIK_SHIP_behemoth KILLIK_SHIP_centurion KILLIK_SHIP_citadel KILLIK_SHIP_katana KILLIK_SHIP_kraken KILLIK_SHIP_cerberus KILLIK_SHIP_valkyrie
+		}
+		swp_bellator = {
+			KILLIK_SHIP_dreadnought KILLIK_SHIP_harbinger KILLIK_SHIP_juggernaut KILLIK_SHIP_leviathan KILLIK_SHIP_hyperion KILLIK_SHIP_galatea KILLIK_SHIP_ambush KILLIK_SHIP_vindicator
+		}
+		science = {
+			KILLIK_SHIP_crescent KILLIK_SHIP_diligent KILLIK_SHIP_zephyr KILLIK_SHIP_enigma KILLIK_SHIP_conquistador KILLIK_SHIP_scylla KILLIK_SHIP_arbiter KILLIK_SHIP_asperity KILLIK_SHIP_eminence KILLIK_SHIP_astute KILLIK_SHIP_alacrity KILLIK_SHIP_satyr KILLIK_SHIP_prospero KILLIK_SHIP_untiring KILLIK_SHIP_zenith KILLIK_SHIP_torch KILLIK_SHIP_remembrance KILLIK_SHIP_pilgrim KILLIK_SHIP_trailblazer KILLIK_SHIP_vagabond KILLIK_SHIP_wayfarer KILLIK_SHIP_ambassador KILLIK_SHIP_emissary KILLIK_SHIP_nomad KILLIK_SHIP_pathfinder KILLIK_SHIP_wanderer KILLIK_SHIP_traveler
+		}
+		colonizer = {
+			KILLIK_SHIP_godspeed KILLIK_SHIP_prophecy KILLIK_SHIP_manifest_destiny KILLIK_SHIP_virtue KILLIK_SHIP_potential KILLIK_SHIP_expansion KILLIK_SHIP_pioneer_spirit KILLIK_SHIP_prosperity KILLIK_SHIP_summit KILLIK_SHIP_pinnacle KILLIK_SHIP_seeder KILLIK_SHIP_harvest KILLIK_SHIP_demeter KILLIK_SHIP_isis KILLIK_SHIP_ceres KILLIK_SHIP_exodus KILLIK_SHIP_foundation KILLIK_SHIP_scion KILLIK_SHIP_progeny KILLIK_SHIP_obligation KILLIK_SHIP_purpose KILLIK_SHIP_provider KILLIK_SHIP_shining_city KILLIK_SHIP_acquirer KILLIK_SHIP_cultivator KILLIK_SHIP_dawn_of_civilization KILLIK_SHIP_purity KILLIK_SHIP_community KILLIK_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			KILLIK_SHIP_godspeed KILLIK_SHIP_prophecy KILLIK_SHIP_manifest_destiny KILLIK_SHIP_virtue KILLIK_SHIP_potential KILLIK_SHIP_expansion KILLIK_SHIP_pioneer_spirit KILLIK_SHIP_prosperity KILLIK_SHIP_summit KILLIK_SHIP_pinnacle KILLIK_SHIP_seeder KILLIK_SHIP_harvest KILLIK_SHIP_isis KILLIK_SHIP_ceres KILLIK_SHIP_exodus KILLIK_SHIP_foundation KILLIK_SHIP_scion KILLIK_SHIP_progeny KILLIK_SHIP_obligation KILLIK_SHIP_purpose KILLIK_SHIP_provider KILLIK_SHIP_shining_city KILLIK_SHIP_acquirer KILLIK_SHIP_cultivator KILLIK_SHIP_dawn_of_civilization KILLIK_SHIP_purity KILLIK_SHIP_community KILLIK_SHIP_brotherhood
+		}
+		constructor = {
+			KILLIK_SHIP_industry KILLIK_SHIP_assiduity KILLIK_SHIP_effort KILLIK_SHIP_laborer KILLIK_SHIP_builder KILLIK_SHIP_craftsman KILLIK_SHIP_hard_hat KILLIK_SHIP_progress KILLIK_SHIP_engineer KILLIK_SHIP_promise KILLIK_SHIP_service KILLIK_SHIP_shelter KILLIK_SHIP_beast KILLIK_SHIP_creator KILLIK_SHIP_developer KILLIK_SHIP_forger KILLIK_SHIP_foundry KILLIK_SHIP_factory KILLIK_SHIP_anvil KILLIK_SHIP_pillar KILLIK_SHIP_architect KILLIK_SHIP_accommodator KILLIK_SHIP_ptah KILLIK_SHIP_ilmarinen KILLIK_SHIP_creidhne KILLIK_SHIP_gobannus KILLIK_SHIP_luchtaine KILLIK_SHIP_goibniu KILLIK_SHIP_vishvakarman KILLIK_SHIP_tvastar KILLIK_SHIP_ikenga KILLIK_SHIP_qaynan KILLIK_SHIP_ucuetis KILLIK_SHIP_ogoun
+		}
+		transport = {
+			KILLIK_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			KILLIK_SHIP_spacegun_victory KILLIK_SHIP_spacegun_success KILLIK_SHIP_spacegun_supremacy KILLIK_SHIP_spacegun_superior KILLIK_SHIP_spacegun_adventure KILLIK_SHIP_spacegun_ascendancy KILLIK_SHIP_spacegun_paramount KILLIK_SHIP_spacegun_preponderous KILLIK_SHIP_spacegun_exemplary KILLIK_SHIP_spacegun_eximious KILLIK_SHIP_spacegun_pertinacity KILLIK_SHIP_spacegun_acclaim KILLIK_SHIP_spacegun_honor KILLIK_SHIP_spacegun_renown KILLIK_SHIP_spacegun_glory KILLIK_SHIP_spacegun_superb KILLIK_SHIP_spacegun_magnificence KILLIK_SHIP_spacegun_majestic KILLIK_SHIP_spacegun_splendor KILLIK_SHIP_spacegun_paradigm KILLIK_SHIP_spacegun_flawless KILLIK_SHIP_spacegun_consummate KILLIK_SHIP_spacegun_merit KILLIK_SHIP_spacegun_perfection KILLIK_SHIP_spacegun_virtue KILLIK_SHIP_spacegun_advantage KILLIK_SHIP_spacegun_rectitude KILLIK_SHIP_spacegun_incorruptible KILLIK_SHIP_spacegun_integrity KILLIK_SHIP_spacegun_justice KILLIK_SHIP_spacegun_probity KILLIK_SHIP_spacegun_prudence KILLIK_SHIP_spacegun_purity KILLIK_SHIP_spacegun_resolute KILLIK_SHIP_spacegun_dignity KILLIK_SHIP_spacegun_distinction KILLIK_SHIP_spacegun_excellence KILLIK_SHIP_spacegun_faithful KILLIK_SHIP_spacegun_discipline KILLIK_SHIP_spacegun_steadfast KILLIK_SHIP_spacegun_recompense KILLIK_SHIP_spacegun_requiem KILLIK_SHIP_spacegun_courage KILLIK_SHIP_spacegun_valor KILLIK_SHIP_spacegun_gallant KILLIK_SHIP_spacegun_daring KILLIK_SHIP_spacegun_constancy KILLIK_SHIP_spacegun_perseverence KILLIK_SHIP_spacegun_tenacity KILLIK_SHIP_spacegun_sedulity KILLIK_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			KILLIK_SHIP_spacegun_victory KILLIK_SHIP_spacegun_success KILLIK_SHIP_spacegun_supremacy KILLIK_SHIP_spacegun_superior KILLIK_SHIP_spacegun_adventure KILLIK_SHIP_spacegun_ascendancy KILLIK_SHIP_spacegun_paramount KILLIK_SHIP_spacegun_preponderous KILLIK_SHIP_spacegun_exemplary KILLIK_SHIP_spacegun_eximious KILLIK_SHIP_spacegun_pertinacity KILLIK_SHIP_spacegun_acclaim KILLIK_SHIP_spacegun_honor KILLIK_SHIP_spacegun_renown KILLIK_SHIP_spacegun_glory KILLIK_SHIP_spacegun_superb KILLIK_SHIP_spacegun_magnificence KILLIK_SHIP_spacegun_majestic KILLIK_SHIP_spacegun_splendor KILLIK_SHIP_spacegun_paradigm KILLIK_SHIP_spacegun_flawless KILLIK_SHIP_spacegun_consummate KILLIK_SHIP_spacegun_merit KILLIK_SHIP_spacegun_perfection KILLIK_SHIP_spacegun_virtue KILLIK_SHIP_spacegun_advantage KILLIK_SHIP_spacegun_rectitude KILLIK_SHIP_spacegun_incorruptible KILLIK_SHIP_spacegun_integrity KILLIK_SHIP_spacegun_justice KILLIK_SHIP_spacegun_probity KILLIK_SHIP_spacegun_prudence KILLIK_SHIP_spacegun_purity KILLIK_SHIP_spacegun_resolute KILLIK_SHIP_spacegun_dignity KILLIK_SHIP_spacegun_distinction KILLIK_SHIP_spacegun_excellence KILLIK_SHIP_spacegun_faithful KILLIK_SHIP_spacegun_discipline KILLIK_SHIP_spacegun_steadfast KILLIK_SHIP_spacegun_recompense KILLIK_SHIP_spacegun_requiem KILLIK_SHIP_spacegun_courage KILLIK_SHIP_spacegun_valor KILLIK_SHIP_spacegun_gallant KILLIK_SHIP_spacegun_daring KILLIK_SHIP_spacegun_constancy KILLIK_SHIP_spacegun_perseverence KILLIK_SHIP_spacegun_tenacity KILLIK_SHIP_spacegun_sedulity KILLIK_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			KILLIK_SHIP_spacegun_victory KILLIK_SHIP_spacegun_success KILLIK_SHIP_spacegun_supremacy KILLIK_SHIP_spacegun_superior KILLIK_SHIP_spacegun_adventure KILLIK_SHIP_spacegun_ascendancy KILLIK_SHIP_spacegun_paramount KILLIK_SHIP_spacegun_preponderous KILLIK_SHIP_spacegun_exemplary KILLIK_SHIP_spacegun_eximious KILLIK_SHIP_spacegun_pertinacity KILLIK_SHIP_spacegun_acclaim KILLIK_SHIP_spacegun_honor KILLIK_SHIP_spacegun_renown KILLIK_SHIP_spacegun_glory KILLIK_SHIP_spacegun_superb KILLIK_SHIP_spacegun_magnificence KILLIK_SHIP_spacegun_majestic KILLIK_SHIP_spacegun_splendor KILLIK_SHIP_spacegun_paradigm KILLIK_SHIP_spacegun_flawless KILLIK_SHIP_spacegun_consummate KILLIK_SHIP_spacegun_merit KILLIK_SHIP_spacegun_perfection KILLIK_SHIP_spacegun_virtue KILLIK_SHIP_spacegun_advantage KILLIK_SHIP_spacegun_rectitude KILLIK_SHIP_spacegun_incorruptible KILLIK_SHIP_spacegun_integrity KILLIK_SHIP_spacegun_justice KILLIK_SHIP_spacegun_probity KILLIK_SHIP_spacegun_prudence KILLIK_SHIP_spacegun_purity KILLIK_SHIP_spacegun_resolute KILLIK_SHIP_spacegun_dignity KILLIK_SHIP_spacegun_distinction KILLIK_SHIP_spacegun_excellence KILLIK_SHIP_spacegun_faithful KILLIK_SHIP_spacegun_discipline KILLIK_SHIP_spacegun_steadfast KILLIK_SHIP_spacegun_recompense KILLIK_SHIP_spacegun_requiem KILLIK_SHIP_spacegun_courage KILLIK_SHIP_spacegun_valor KILLIK_SHIP_spacegun_gallant KILLIK_SHIP_spacegun_daring KILLIK_SHIP_spacegun_constancy KILLIK_SHIP_spacegun_perseverence KILLIK_SHIP_spacegun_tenacity KILLIK_SHIP_spacegun_sedulity KILLIK_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			KILLIK_SHIP_citadel KILLIK_SHIP_albacore KILLIK_SHIP_gateway KILLIK_SHIP_vincent KILLIK_SHIP_babylon KILLIK_SHIP_caernavon KILLIK_SHIP_acre KILLIK_SHIP_pembroke KILLIK_SHIP_acheron KILLIK_SHIP_spithead KILLIK_SHIP_halifax KILLIK_SHIP_victoria KILLIK_SHIP_chatham KILLIK_SHIP_anchorage KILLIK_SHIP_scapa_flow KILLIK_SHIP_hampton_roads KILLIK_SHIP_brooklyn KILLIK_SHIP_norfolk KILLIK_SHIP_newport KILLIK_SHIP_guam KILLIK_SHIP_pensacola KILLIK_SHIP_vesuvius KILLIK_SHIP_mckinley KILLIK_SHIP_everest KILLIK_SHIP_kilimanjaro KILLIK_SHIP_aconcagua KILLIK_SHIP_elbrus KILLIK_SHIP_st__helens KILLIK_SHIP_fuji KILLIK_SHIP_olympus KILLIK_SHIP_sinai KILLIK_SHIP_ambrose KILLIK_SHIP_bermuda KILLIK_SHIP_farpoint KILLIK_SHIP_blue_star KILLIK_SHIP_olympus_mons KILLIK_SHIP_tharsis KILLIK_SHIP_syrtis KILLIK_SHIP_blackham KILLIK_SHIP_fletcher KILLIK_SHIP_perry KILLIK_SHIP_butakov KILLIK_SHIP_morris KILLIK_SHIP_moorsom KILLIK_SHIP_hart KILLIK_SHIP_hargood KILLIK_SHIP_spruance KILLIK_SHIP_tanaka KILLIK_SHIP_halsey KILLIK_SHIP_turner KILLIK_SHIP_doria KILLIK_SHIP_tirpitz KILLIK_SHIP_cunningham KILLIK_SHIP_jellicoe KILLIK_SHIP_hipper KILLIK_SHIP_beatty KILLIK_SHIP_potemkin KILLIK_SHIP_durham KILLIK_SHIP_codrington KILLIK_SHIP_milne KILLIK_SHIP_laforey KILLIK_SHIP_tyler KILLIK_SHIP_hawke KILLIK_SHIP_yonai KILLIK_SHIP_pound KILLIK_SHIP_king KILLIK_SHIP_crutchley KILLIK_SHIP_mountbatten KILLIK_SHIP_kountouriotis KILLIK_SHIP_kuznetsov KILLIK_SHIP_essen KILLIK_SHIP_kornilov KILLIK_SHIP_suffren KILLIK_SHIP_treville KILLIK_SHIP_villeneuve KILLIK_SHIP_grasse KILLIK_SHIP_byng KILLIK_SHIP_lezo
+		}
+		ion_cannon = {
+			KILLIK_SHIP_bombard KILLIK_SHIP_ballista KILLIK_SHIP_catapult KILLIK_SHIP_harpoon KILLIK_SHIP_polybolos KILLIK_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			KILLIK_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			KILLIK_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			KILLIK_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			KILLIK_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			KILLIK_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			KILLIK_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			KILLIK_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			KILLIK_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			KILLIK_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			KILLIK_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			KILLIK_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			KILLIK_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			KILLIK_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			KILLIK_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			KILLIK_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			KILLIK_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			KILLIK_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			KILLIK_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			KILLIK_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			KILLIK_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			KILLIK_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			KILLIK_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			KILLIK_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			KILLIK_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			KILLIK_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			KILLIK_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			KILLIK_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			KILLIK_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			KILLIK_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			KILLIK_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			KILLIK_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			KILLIK_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			KILLIK_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			KILLIK_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			KILLIK_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			KILLIK_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			KILLIK_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			KILLIK_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			KILLIK_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			KILLIK_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			KILLIK_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			KILLIK_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			KILLIK_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			KILLIK_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			KILLIK_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			KILLIK_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			KILLIK_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			KILLIK_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			KILLIK_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			KILLIK_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			KILLIK_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			KILLIK_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			KILLIK_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			KILLIK_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			KILLIK_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			KILLIK_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			KILLIK_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			KILLIK_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			KILLIK_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			KILLIK_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			KILLIK_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			KILLIK_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			KILLIK_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			KILLIK_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			KILLIK_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			KILLIK_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			KILLIK_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			KILLIK_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			KILLIK_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			KILLIK_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			KILLIK_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			KILLIK_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			KILLIK_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			KILLIK_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			KILLIK_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			KILLIK_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			KILLIK_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			KILLIK_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			KILLIK_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			KILLIK_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			KILLIK_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			KILLIK_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			KILLIK_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			KILLIK_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			KILLIK_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			KILLIK_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			KILLIK_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			KILLIK_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			KILLIK_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			KILLIK_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			KILLIK_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			KILLIK_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			KILLIK_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			KILLIK_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = KILLIK_FLEET_swarm_flotilla_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = KILLIK_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = KILLIK_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = KILLIK_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = KILLIK_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = KILLIK_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = KILLIK_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = KILLIK_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = KILLIK_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				KILLIK_ARMY_sarc_a__gladiators_ KILLIK_ARMY_sarc_b__widowmakers_ KILLIK_ARMY_sarc_c__immortals_ KILLIK_ARMY_sarc_d__berserkers_ KILLIK_ARMY_sarc_e__assassins_ KILLIK_ARMY_sarc_f__reapers_ KILLIK_ARMY_sarc_g__nighthawks_ KILLIK_ARMY_sarc_h__desperados_ KILLIK_ARMY_sarc_i__grey_knights_ KILLIK_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = KILLIK_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = KILLIK_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = KILLIK_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = KILLIK_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = KILLIK_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = KILLIK_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = KILLIK_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = KILLIK_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = KILLIK_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = KILLIK_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = KILLIK_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = KILLIK_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = KILLIK_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = KILLIK_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = KILLIK_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = KILLIK_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = KILLIK_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = KILLIK_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = KILLIK_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = KILLIK_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = KILLIK_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = KILLIK_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = KILLIK_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = KILLIK_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = KILLIK_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = KILLIK_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = KILLIK_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = KILLIK_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = KILLIK_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = KILLIK_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = KILLIK_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = KILLIK_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = KILLIK_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = KILLIK_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = KILLIK_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = KILLIK_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = KILLIK_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = KILLIK_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = KILLIK_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = KILLIK_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = KILLIK_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = KILLIK_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = KILLIK_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = KILLIK_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = KILLIK_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = KILLIK_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = KILLIK_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = KILLIK_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = KILLIK_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = KILLIK_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = KILLIK_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = KILLIK_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = KILLIK_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = KILLIK_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = KILLIK_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = KILLIK_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = KILLIK_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = KILLIK_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = KILLIK_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = KILLIK_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = KILLIK_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = KILLIK_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = KILLIK_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = KILLIK_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = KILLIK_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = KILLIK_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = KILLIK_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = KILLIK_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = KILLIK_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = KILLIK_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = KILLIK_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = KILLIK_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = KILLIK_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = KILLIK_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = KILLIK_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = KILLIK_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = KILLIK_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = KILLIK_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = KILLIK_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = KILLIK_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = KILLIK_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = KILLIK_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = KILLIK_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = KILLIK_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = KILLIK_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = KILLIK_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = KILLIK_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = KILLIK_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = KILLIK_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = KILLIK_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = KILLIK_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = KILLIK_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = KILLIK_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = KILLIK_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = KILLIK_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = KILLIK_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = KILLIK_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = KILLIK_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = KILLIK_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = KILLIK_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = KILLIK_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = KILLIK_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = KILLIK_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = KILLIK_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = KILLIK_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = KILLIK_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = KILLIK_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = KILLIK_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = KILLIK_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = KILLIK_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = KILLIK_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = KILLIK_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = KILLIK_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = KILLIK_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = KILLIK_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = KILLIK_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = KILLIK_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = KILLIK_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = KILLIK_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = KILLIK_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = KILLIK_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = KILLIK_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = KILLIK_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = KILLIK_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = KILLIK_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = KILLIK_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = KILLIK_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = KILLIK_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = KILLIK_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = KILLIK_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = KILLIK_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = KILLIK_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = KILLIK_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				KILLIK_CHR_bail KILLIK_CHR_ylenic KILLIK_CHR_kel KILLIK_CHR_gunn KILLIK_CHR_gregory KILLIK_CHR_abraxis KILLIK_CHR_jonas KILLIK_CHR_xerda KILLIK_CHR_carth KILLIK_CHR_kir KILLIK_CHR_mebba KILLIK_CHR_dagos KILLIK_CHR_adam KILLIK_CHR_kyle KILLIK_CHR_forren KILLIK_CHR_malcolm KILLIK_CHR_jeho KILLIK_CHR_lee KILLIK_CHR_griggs KILLIK_CHR_milo KILLIK_CHR_aeron KILLIK_CHR_byrec KILLIK_CHR_strata KILLIK_CHR_lancer KILLIK_CHR_zeak KILLIK_CHR_niuk KILLIK_CHR_lavidean KILLIK_CHR_tanizandar KILLIK_CHR_japla KILLIK_CHR_aran KILLIK_CHR_rail KILLIK_CHR_zeven KILLIK_CHR_yakown KILLIK_CHR_sibar KILLIK_CHR_sair KILLIK_CHR_klai KILLIK_CHR_jonas KILLIK_CHR_imay KILLIK_CHR_traest KILLIK_CHR_simo KILLIK_CHR_carth KILLIK_CHR_riyan KILLIK_CHR_magnus KILLIK_CHR_boceta KILLIK_CHR_agnook KILLIK_CHR_silus KILLIK_CHR_rowan KILLIK_CHR_coren KILLIK_CHR_jett KILLIK_CHR_linth KILLIK_CHR_annor KILLIK_CHR_ulas KILLIK_CHR_fenn KILLIK_CHR_tal KILLIK_CHR_plo KILLIK_CHR_torin KILLIK_CHR_imay KILLIK_CHR_boone KILLIK_CHR_davith KILLIK_CHR_jorgen KILLIK_CHR_bertos KILLIK_CHR_ress KILLIK_CHR_malius KILLIK_CHR_kale KILLIK_CHR_cregan KILLIK_CHR_galen KILLIK_CHR_zekk KILLIK_CHR_jinn_tu KILLIK_CHR_jaryn KILLIK_CHR_gentti KILLIK_CHR_yu_sien KILLIK_CHR_akela KILLIK_CHR_arslan KILLIK_CHR_sidias KILLIK_CHR_haken KILLIK_CHR_biran KILLIK_CHR_vidown KILLIK_CHR_ares KILLIK_CHR_ithan KILLIK_CHR_cul_utaan KILLIK_CHR_thoja KILLIK_CHR_cron KILLIK_CHR_mossi KILLIK_CHR_abric KILLIK_CHR_darg KILLIK_CHR_gaman KILLIK_CHR_naiad KILLIK_CHR_herub KILLIK_CHR_marius KILLIK_CHR_torkin KILLIK_CHR_caton KILLIK_CHR_kane KILLIK_CHR_versita KILLIK_CHR_cric KILLIK_CHR_foxdi KILLIK_CHR_montacca KILLIK_CHR_jospi KILLIK_CHR_baz KILLIK_CHR_kam KILLIK_CHR_erek KILLIK_CHR_arslan KILLIK_CHR_lerak KILLIK_CHR_morla KILLIK_CHR_baxter KILLIK_CHR_talan KILLIK_CHR_thion KILLIK_CHR_kannon KILLIK_CHR_corsair KILLIK_CHR_caster KILLIK_CHR_elden KILLIK_CHR_faelgrom KILLIK_CHR_jack KILLIK_CHR_raltharan KILLIK_CHR_flash KILLIK_CHR_waseem KILLIK_CHR_bendak KILLIK_CHR_kaz KILLIK_CHR_montileu KILLIK_CHR_gonoga KILLIK_CHR_silus KILLIK_CHR_galven KILLIK_CHR_vincenzo KILLIK_CHR_ric KILLIK_CHR_rebar KILLIK_CHR_jebediah KILLIK_CHR_aramil KILLIK_CHR_abraxis KILLIK_CHR_delmi KILLIK_CHR_caalin KILLIK_CHR_rassth KILLIK_CHR_adorn KILLIK_CHR_cyrus KILLIK_CHR_zhar_khan KILLIK_CHR_adam KILLIK_CHR_predor KILLIK_CHR_tarlson KILLIK_CHR_boaz KILLIK_CHR_bradley KILLIK_CHR_gunn KILLIK_CHR_raltharan KILLIK_CHR_zerrid KILLIK_CHR_bobecc KILLIK_CHR_jelantos KILLIK_CHR_jephego KILLIK_CHR_svante KILLIK_CHR_tesvalo KILLIK_CHR_aeon KILLIK_CHR_dekar KILLIK_CHR_jean_francois KILLIK_CHR_elen KILLIK_CHR_han KILLIK_CHR_owen KILLIK_CHR_biggs
+			}
+			first_names_female = {
+				KILLIK_CHR_charratha KILLIK_CHR_edaara KILLIK_CHR_bella KILLIK_CHR_callista KILLIK_CHR_mara KILLIK_CHR_seena KILLIK_CHR_areta KILLIK_CHR_cord KILLIK_CHR_cyrinity KILLIK_CHR_nile KILLIK_CHR_kiyfi KILLIK_CHR_yasmyn KILLIK_CHR_satra KILLIK_CHR_shehish KILLIK_CHR_sarna KILLIK_CHR_krava KILLIK_CHR_roxis KILLIK_CHR_jessa KILLIK_CHR_aqua KILLIK_CHR_maryna KILLIK_CHR_essaj KILLIK_CHR_looriw KILLIK_CHR_teeana KILLIK_CHR_raena KILLIK_CHR_yula KILLIK_CHR_vifi KILLIK_CHR_vania KILLIK_CHR_jeanida KILLIK_CHR_aerena KILLIK_CHR_nataya KILLIK_CHR_bernarda KILLIK_CHR_geela KILLIK_CHR_lya KILLIK_CHR_sirra KILLIK_CHR_teris KILLIK_CHR_terral KILLIK_CHR_nile KILLIK_CHR_riema KILLIK_CHR_erri KILLIK_CHR_shanna KILLIK_CHR_lyra KILLIK_CHR_pranda KILLIK_CHR_luna KILLIK_CHR_cally KILLIK_CHR_viqi KILLIK_CHR_hadriel KILLIK_CHR_lora KILLIK_CHR_selena KILLIK_CHR_zana KILLIK_CHR_tuija KILLIK_CHR_railin KILLIK_CHR_odona KILLIK_CHR_shyon KILLIK_CHR_walas KILLIK_CHR_rylla KILLIK_CHR_gara KILLIK_CHR_delos KILLIK_CHR_loretta KILLIK_CHR_luhon KILLIK_CHR_delinia KILLIK_CHR_aama KILLIK_CHR_shorya KILLIK_CHR_melfina KILLIK_CHR_davessi KILLIK_CHR_larana KILLIK_CHR_galatea KILLIK_CHR_nola KILLIK_CHR_syna KILLIK_CHR_jauhzmynn KILLIK_CHR_anen KILLIK_CHR_orona KILLIK_CHR_yana KILLIK_CHR_zoras KILLIK_CHR_ree KILLIK_CHR_grace KILLIK_CHR_tantema KILLIK_CHR_myn KILLIK_CHR_una KILLIK_CHR_dalharil KILLIK_CHR_losa KILLIK_CHR_sovi KILLIK_CHR_elaiza KILLIK_CHR_vucora KILLIK_CHR_ava KILLIK_CHR_joi KILLIK_CHR_stryka KILLIK_CHR_tantema KILLIK_CHR_shandra KILLIK_CHR_kely KILLIK_CHR_caileta KILLIK_CHR_taia KILLIK_CHR_siala KILLIK_CHR_reki KILLIK_CHR_maydla KILLIK_CHR_bot KILLIK_CHR_kiandra KILLIK_CHR_xilaren KILLIK_CHR_zulara KILLIK_CHR_ren KILLIK_CHR_karissa KILLIK_CHR_roxis KILLIK_CHR_haruko KILLIK_CHR_jenna KILLIK_CHR_liana KILLIK_CHR_rale KILLIK_CHR_megara KILLIK_CHR_aria KILLIK_CHR_akiva KILLIK_CHR_nalah KILLIK_CHR_erlem KILLIK_CHR_nali KILLIK_CHR_fallah KILLIK_CHR_kotrana KILLIK_CHR_aayla KILLIK_CHR_kalira KILLIK_CHR_arani KILLIK_CHR_fama KILLIK_CHR_lyyr KILLIK_CHR_arcas KILLIK_CHR_rane KILLIK_CHR_nayru KILLIK_CHR_zylas KILLIK_CHR_vexa KILLIK_CHR_kana KILLIK_CHR_beru
+			}
+			second_names = {
+				KILLIK_CHR_elysar KILLIK_CHR_tisa KILLIK_CHR_wahia KILLIK_CHR_wezz KILLIK_CHR_unic KILLIK_CHR_tiovata KILLIK_CHR_nakcohh KILLIK_CHR_vitaan KILLIK_CHR_mefrid KILLIK_CHR_daklan KILLIK_CHR_kenzee KILLIK_CHR_joben KILLIK_CHR_thegas KILLIK_CHR_moryne KILLIK_CHR_holgor KILLIK_CHR_ijaaz KILLIK_CHR_tromans KILLIK_CHR_sprax KILLIK_CHR_knesos KILLIK_CHR_magnus KILLIK_CHR_lasek KILLIK_CHR_artis KILLIK_CHR_pax KILLIK_CHR_corso KILLIK_CHR_fallon KILLIK_CHR_gundo KILLIK_CHR_ruana KILLIK_CHR_fremlin KILLIK_CHR_thont KILLIK_CHR_creel KILLIK_CHR_rar KILLIK_CHR_dusat KILLIK_CHR_kessler KILLIK_CHR_shaia KILLIK_CHR_el_theriam KILLIK_CHR_vanmeer KILLIK_CHR_vrieska KILLIK_CHR_calway KILLIK_CHR_yamaguchi KILLIK_CHR_riggers KILLIK_CHR_brower KILLIK_CHR_fash KILLIK_CHR_nalto KILLIK_CHR_stryder KILLIK_CHR_dubreas KILLIK_CHR_colsan KILLIK_CHR_terrek KILLIK_CHR_solon KILLIK_CHR_merquise KILLIK_CHR_varn KILLIK_CHR_basai KILLIK_CHR_froud KILLIK_CHR_addacess KILLIK_CHR_elysar KILLIK_CHR_durgen KILLIK_CHR_slahlvo KILLIK_CHR_remex KILLIK_CHR_madowki KILLIK_CHR_hayes KILLIK_CHR_ne KILLIK_CHR_dago KILLIK_CHR_greenback KILLIK_CHR_stithta KILLIK_CHR_ker KILLIK_CHR_driet KILLIK_CHR_klakk KILLIK_CHR_reed KILLIK_CHR_lefex KILLIK_CHR_minn KILLIK_CHR_irokini KILLIK_CHR_roye KILLIK_CHR_danakar KILLIK_CHR_forin KILLIK_CHR_glopio KILLIK_CHR_shenuri KILLIK_CHR_corcer KILLIK_CHR_ordo KILLIK_CHR_wan KILLIK_CHR_tagratt KILLIK_CHR_golladio KILLIK_CHR_adramcsia KILLIK_CHR_jetberg KILLIK_CHR_noth KILLIK_CHR_taske KILLIK_CHR_komo KILLIK_CHR_styles KILLIK_CHR_angavel KILLIK_CHR_tyrnith KILLIK_CHR_yavoog KILLIK_CHR_kelbier KILLIK_CHR_racto KILLIK_CHR_degor KILLIK_CHR_tisa KILLIK_CHR_magre KILLIK_CHR_soylon KILLIK_CHR_lerann KILLIK_CHR_chro KILLIK_CHR_finn KILLIK_CHR_blackmoor KILLIK_CHR_hwang KILLIK_CHR_vekarr KILLIK_CHR_thegas KILLIK_CHR_amon KILLIK_CHR_thiddex KILLIK_CHR_durgen KILLIK_CHR_selkayim KILLIK_CHR_gilder KILLIK_CHR_dhuramav KILLIK_CHR_kodd KILLIK_CHR_morin KILLIK_CHR_kobylarz KILLIK_CHR_tade KILLIK_CHR_solman KILLIK_CHR_bintaghr KILLIK_CHR_marclonus KILLIK_CHR_precore KILLIK_CHR_solborne KILLIK_CHR_bailer KILLIK_CHR_katarn KILLIK_CHR_anjek KILLIK_CHR_dalgas KILLIK_CHR_kast KILLIK_CHR_airerith KILLIK_CHR_halo KILLIK_CHR_tade KILLIK_CHR_clash KILLIK_CHR_jalba KILLIK_CHR_benn KILLIK_CHR_haruhana KILLIK_CHR_roice KILLIK_CHR_lokar KILLIK_CHR_korpil KILLIK_CHR_turon KILLIK_CHR_cavi KILLIK_CHR_deece KILLIK_CHR_braitano KILLIK_CHR_garnik KILLIK_CHR_tyandas KILLIK_CHR_ka_taramas KILLIK_CHR_nuwest KILLIK_CHR_forte KILLIK_CHR_noshey KILLIK_CHR_gyyll KILLIK_CHR_tallon KILLIK_CHR_lionne KILLIK_CHR_adras KILLIK_CHR_fremlin KILLIK_CHR_peoly KILLIK_CHR_damiel KILLIK_CHR_chup_pau KILLIK_CHR_drayven KILLIK_CHR_zaposug KILLIK_CHR_bela_trepada KILLIK_CHR_defelice KILLIK_CHR_monsula KILLIK_CHR_baralein KILLIK_CHR_denive KILLIK_CHR_hodrren KILLIK_CHR_xergo KILLIK_CHR_sarat KILLIK_CHR_vercet KILLIK_CHR_ossaki KILLIK_CHR_kappa KILLIK_CHR_zerga KILLIK_CHR_kopos KILLIK_CHR_aldrecht KILLIK_CHR_bohme KILLIK_CHR_tull KILLIK_CHR_eldrel KILLIK_CHR_marh KILLIK_CHR_darksword KILLIK_CHR_krandor KILLIK_CHR_montag KILLIK_CHR_dimodan KILLIK_CHR_starfallen KILLIK_CHR_artis KILLIK_CHR_fett KILLIK_CHR_mohebbi KILLIK_CHR_runalian KILLIK_CHR_binette KILLIK_CHR_laurent KILLIK_CHR_mavr KILLIK_CHR_ryra KILLIK_CHR_truden KILLIK_CHR_solo KILLIK_CHR_lars KILLIK_CHR_amedda KILLIK_CHR_amidala KILLIK_CHR_andrell KILLIK_CHR_annon KILLIK_CHR_antilles KILLIK_CHR_atanna KILLIK_CHR_baab KILLIK_CHR_barc KILLIK_CHR_bonteri KILLIK_CHR_breemu KILLIK_CHR_bremack KILLIK_CHR_bronk KILLIK_CHR_burtoni KILLIK_CHR_cadaman KILLIK_CHR_callen KILLIK_CHR_clovis KILLIK_CHR_ledwellow KILLIK_CHR_dio KILLIK_CHR_organa
+			}
+			regnal_first_names_male = {
+				KILLIK_CHR_kam KILLIK_CHR_erek KILLIK_CHR_arslan KILLIK_CHR_lerak KILLIK_CHR_morla KILLIK_CHR_mas KILLIK_CHR_wain KILLIK_CHR_bail KILLIK_CHR_gabrial KILLIK_CHR_dewell KILLIK_CHR_tanner KILLIK_CHR_vi KILLIK_CHR_rush KILLIK_CHR_danry
+			}
+			regnal_first_names_female = {
+				KILLIK_CHR_callista KILLIK_CHR_mara KILLIK_CHR_seena KILLIK_CHR_areta KILLIK_CHR_padm_ KILLIK_CHR_fema KILLIK_CHR_mina KILLIK_CHR_bana KILLIK_CHR_tyreca KILLIK_CHR_halle KILLIK_CHR_lexi KILLIK_CHR_leia KILLIK_CHR_alyssa KILLIK_CHR_leanna KILLIK_CHR_arya
+			}
+			regnal_second_names = {
+				KILLIK_CHR_amedda KILLIK_CHR_amidala KILLIK_CHR_andrell KILLIK_CHR_annon KILLIK_CHR_antilles KILLIK_CHR_atanna KILLIK_CHR_baab KILLIK_CHR_barc KILLIK_CHR_bonteri KILLIK_CHR_breemu KILLIK_CHR_bremack KILLIK_CHR_bronk KILLIK_CHR_burtoni KILLIK_CHR_cadaman KILLIK_CHR_callen KILLIK_CHR_clovis KILLIK_CHR_ledwellow KILLIK_CHR_dio KILLIK_CHR_panteer KILLIK_CHR_alde KILLIK_CHR_organa KILLIK_CHR_frayus KILLIK_CHR_cortess KILLIK_CHR_killesa
+			}
+		}
+	}
+}

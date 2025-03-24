@@ -1,0 +1,90 @@
+namespace = swnd_vassal_sector
+#############################
+# 	Vassal Sector Events	#
+#	 by Bane/ Elratie		#
+#############################
+event = {
+	id = swnd_vassal_sector.1
+	is_triggered_only = yes
+	hide_window = yes
+	fire_only_once = yes
+	immediate = {
+		random_country = {
+			# Fondor Sector/ Empire
+			limit = {
+				has_country_flag = fondor_sector_vassal
+			}
+			set_subject_of = {
+				who = event_target:galactic_empire
+				preset = preset_vassal
+			}
+			#Country scope
+			every_agreement = {
+				add_loyalty = 125 #from initial -100
+				set_agreement_terms = {
+					resource_subsidies_research = -0.15
+					subject_integration = subject_can_not_be_integrated
+					subject_diplomacy = subject_can_do_diplomacy_but_not_vote
+					subject_expand = subject_can_expand_with_tithe
+					joins_overlord_wars = joins_overlord_wars_all #All tanks loyalty, but takes time
+					joins_subject_wars = joins_subject_wars_defensive
+					subject_holdings_limit = subject_holdings_limit_1
+					subject_sensors = subject_gets_sensors
+				}
+			}
+		}
+		random_country = {
+			# Naboo Sector/ Empire
+			limit = {
+				has_country_flag = naboo_sector_vassal
+			}
+			set_subject_of = {
+				who = event_target:galactic_empire
+				#allow_instant_negotiation = yes
+				preset = preset_vassal
+			}
+			#Country scope
+			every_agreement = {
+				add_loyalty = 125 #from initial -100
+				set_agreement_terms = {
+					resource_subsidies_research = -0.15
+					subject_integration = subject_can_not_be_integrated
+					subject_diplomacy = subject_can_do_diplomacy_but_not_vote
+					subject_expand = subject_can_expand_with_tithe
+					joins_overlord_wars = joins_overlord_wars_all #All tanks loyalty, but takes time
+					joins_subject_wars = joins_subject_wars_defensive
+					subject_holdings_limit = subject_holdings_limit_1
+					subject_sensors = subject_gets_sensors
+				}
+			}
+		}
+		random_country = {
+			# Terminus Sector/ CIS
+			limit = {
+				has_country_flag = terminus_sector_vassal
+			}
+			set_subject_of = {
+				who = event_target:confederate_remnant
+				preset = preset_vassal
+			}
+			#Country scope
+			every_agreement = {
+				add_loyalty = 100 #from initial -100
+			}
+		}
+		random_country = {
+			# Sluis Sector/ CIS
+			limit = {
+				has_country_flag = sluis_sector_vassal
+			}
+			set_subject_of = {
+				who = event_target:confederate_remnant
+				preset = preset_vassal
+			}
+			#Country scope
+			every_agreement = {
+				add_loyalty = 100 #from initial -100
+			}
+		}
+	}
+}

@@ -1,0 +1,844 @@
+﻿Gungan = {
+	randomized = no
+	ship_names = {
+		generic = {
+			GUNGAN_SHIP_mystic GUNGAN_SHIP_naiad GUNGAN_SHIP_nautilus GUNGAN_SHIP_nebula GUNGAN_SHIP_nimble GUNGAN_SHIP_north_star GUNGAN_SHIP_nymph GUNGAN_SHIP_obdurate GUNGAN_SHIP_ocean GUNGAN_SHIP_onward GUNGAN_SHIP_oracle GUNGAN_SHIP_paradox GUNGAN_SHIP_paragon GUNGAN_SHIP_pearl GUNGAN_SHIP_peregrine GUNGAN_SHIP_perseverance GUNGAN_SHIP_marksman GUNGAN_SHIP_rifleman GUNGAN_SHIP_sniper GUNGAN_SHIP_trident GUNGAN_SHIP_trumpet GUNGAN_SHIP_truncheon GUNGAN_SHIP_typhoon GUNGAN_SHIP_undaunted GUNGAN_SHIP_venture GUNGAN_SHIP_versatile GUNGAN_SHIP_vigorous GUNGAN_SHIP_viper GUNGAN_SHIP_vivacious GUNGAN_SHIP_winger GUNGAN_SHIP_wizard GUNGAN_SHIP_wyvern GUNGAN_SHIP_wolfhound GUNGAN_SHIP_devastator GUNGAN_SHIP_warhammer GUNGAN_SHIP_retribution GUNGAN_SHIP_senator GUNGAN_SHIP_tornado GUNGAN_SHIP_infinity GUNGAN_SHIP_usurper GUNGAN_SHIP_utmost GUNGAN_SHIP_valorous GUNGAN_SHIP_whirlwind GUNGAN_SHIP_athena GUNGAN_SHIP_artemis GUNGAN_SHIP_vigilance GUNGAN_SHIP_decimator GUNGAN_SHIP_indomitable GUNGAN_SHIP_goliath GUNGAN_SHIP_sentinel GUNGAN_SHIP_brilliant GUNGAN_SHIP_blazer GUNGAN_SHIP_audacity GUNGAN_SHIP_gallant GUNGAN_SHIP_nova GUNGAN_SHIP_shadow GUNGAN_SHIP_allegiance GUNGAN_SHIP_challenger GUNGAN_SHIP_fearless GUNGAN_SHIP_protector GUNGAN_SHIP_guardian GUNGAN_SHIP_victorious GUNGAN_SHIP_courageous GUNGAN_SHIP_defiance GUNGAN_SHIP_valorous GUNGAN_SHIP_azrael GUNGAN_SHIP_adamantine GUNGAN_SHIP_aralanni GUNGAN_SHIP_ardent_iv GUNGAN_SHIP_armistice GUNGAN_SHIP_avengeance GUNGAN_SHIP_ballista GUNGAN_SHIP_bloodstripe GUNGAN_SHIP_borealis GUNGAN_SHIP_caelus GUNGAN_SHIP_caravan GUNGAN_SHIP_chaf_envoy GUNGAN_SHIP_commenor GUNGAN_SHIP_corbantis GUNGAN_SHIP_corellia GUNGAN_SHIP_courteous GUNGAN_SHIP_dauntless GUNGAN_SHIP_defiant GUNGAN_SHIP_deliverance GUNGAN_SHIP_derapha GUNGAN_SHIP_devout GUNGAN_SHIP_empirical GUNGAN_SHIP_empyrean GUNGAN_SHIP_era_daimanos GUNGAN_SHIP_eye_of_the_storm GUNGAN_SHIP_farstar GUNGAN_SHIP_fastblast GUNGAN_SHIP_galaaron GUNGAN_SHIP_garrote GUNGAN_SHIP_gilagimar GUNGAN_SHIP_halleck GUNGAN_SHIP_hunter GUNGAN_SHIP_intractable GUNGAN_SHIP_ithor_lady GUNGAN_SHIP_justice_crusader GUNGAN_SHIP_kana_s_steel GUNGAN_SHIP_lathir GUNGAN_SHIP_liberty GUNGAN_SHIP_lillibanca GUNGAN_SHIP_maelstrom GUNGAN_SHIP_malachite_scent GUNGAN_SHIP_mercy GUNGAN_SHIP_myrkos GUNGAN_SHIP_nebula_chaser GUNGAN_SHIP_nova GUNGAN_SHIP_nova_viper GUNGAN_SHIP_obedience GUNGAN_SHIP_olemp GUNGAN_SHIP_pegasus GUNGAN_SHIP_perspicacity GUNGAN_SHIP_phalanx GUNGAN_SHIP_plooriod_bodkin GUNGAN_SHIP_predominance GUNGAN_SHIP_prosperity GUNGAN_SHIP_purity GUNGAN_SHIP_recalcitrant GUNGAN_SHIP_red_nova GUNGAN_SHIP_redma GUNGAN_SHIP_reliable GUNGAN_SHIP_reliant GUNGAN_SHIP_reluctant GUNGAN_SHIP_republic GUNGAN_SHIP_republic_s_return GUNGAN_SHIP_resolve GUNGAN_SHIP_respectable GUNGAN_SHIP_revenge GUNGAN_SHIP_shadowblade GUNGAN_SHIP_spritespray GUNGAN_SHIP_star_dream GUNGAN_SHIP_stark_wing GUNGAN_SHIP_starveil GUNGAN_SHIP_undying GUNGAN_SHIP_vaathkree GUNGAN_SHIP_vainglorious GUNGAN_SHIP_valiant GUNGAN_SHIP_valor GUNGAN_SHIP_vanquisher GUNGAN_SHIP_vinsor GUNGAN_SHIP_visseon GUNGAN_SHIP_wennis GUNGAN_SHIP_yavin_s_glory GUNGAN_SHIP_moldy_crow GUNGAN_SHIP_raven_s_claw GUNGAN_SHIP_agile GUNGAN_SHIP_archer GUNGAN_SHIP_arrow GUNGAN_SHIP_bruiser GUNGAN_SHIP_cherub GUNGAN_SHIP_chimera GUNGAN_SHIP_claymore GUNGAN_SHIP_broadsword GUNGAN_SHIP_battleaxe GUNGAN_SHIP_crossbow GUNGAN_SHIP_cutlass GUNGAN_SHIP_deterrent GUNGAN_SHIP_errant GUNGAN_SHIP_faithful GUNGAN_SHIP_fierce GUNGAN_SHIP_gladius GUNGAN_SHIP_longbow GUNGAN_SHIP_grappler GUNGAN_SHIP_hammer GUNGAN_SHIP_vampire GUNGAN_SHIP_velox GUNGAN_SHIP_venator GUNGAN_SHIP_vendetta GUNGAN_SHIP_venerable GUNGAN_SHIP_venomous GUNGAN_SHIP_taciturn GUNGAN_SHIP_supreme GUNGAN_SHIP_success GUNGAN_SHIP_shredder GUNGAN_SHIP_seraph GUNGAN_SHIP_serpent GUNGAN_SHIP_spitfire GUNGAN_SHIP_stalker GUNGAN_SHIP_stratagem GUNGAN_SHIP_scimitar GUNGAN_SHIP_scorcher GUNGAN_SHIP_scourge GUNGAN_SHIP_scythe GUNGAN_SHIP_revenant GUNGAN_SHIP_redoubtable GUNGAN_SHIP_raptor GUNGAN_SHIP_reaver GUNGAN_SHIP_prodigal GUNGAN_SHIP_rapier GUNGAN_SHIP_prudent GUNGAN_SHIP_persistent GUNGAN_SHIP_peerless GUNGAN_SHIP_myrmidon GUNGAN_SHIP_indignant GUNGAN_SHIP_javelin GUNGAN_SHIP_knight GUNGAN_SHIP_starwolf GUNGAN_SHIP_bonaventure GUNGAN_SHIP_adventure GUNGAN_SHIP_boxer GUNGAN_SHIP_buccaneer GUNGAN_SHIP_cavalier GUNGAN_SHIP_celestial GUNGAN_SHIP_chariot GUNGAN_SHIP_comet GUNGAN_SHIP_crucible GUNGAN_SHIP_cyclone GUNGAN_SHIP_decisive GUNGAN_SHIP_dexterous GUNGAN_SHIP_diadem GUNGAN_SHIP_earnest GUNGAN_SHIP_eclipse GUNGAN_SHIP_forger GUNGAN_SHIP_fortune GUNGAN_SHIP_gauntlet GUNGAN_SHIP_griffin GUNGAN_SHIP_horizon GUNGAN_SHIP_hotspur GUNGAN_SHIP_hurricane GUNGAN_SHIP_hussar GUNGAN_SHIP_jubilant GUNGAN_SHIP_lancer GUNGAN_SHIP_lightning GUNGAN_SHIP_magic GUNGAN_SHIP_mediator GUNGAN_SHIP_mermaid GUNGAN_SHIP_meteor GUNGAN_SHIP_minstrel GUNGAN_SHIP_miranda GUNGAN_SHIP_mustang GUNGAN_SHIP_sharpshooter GUNGAN_SHIP_cyclops GUNGAN_SHIP_centaur GUNGAN_SHIP_adversary GUNGAN_SHIP_assassin GUNGAN_SHIP_dagger GUNGAN_SHIP_daring GUNGAN_SHIP_duty GUNGAN_SHIP_havoc GUNGAN_SHIP_hero GUNGAN_SHIP_hunter GUNGAN_SHIP_justice GUNGAN_SHIP_impeccable GUNGAN_SHIP_interceptor GUNGAN_SHIP_infernal GUNGAN_SHIP_loyal GUNGAN_SHIP_matchless GUNGAN_SHIP_mauler GUNGAN_SHIP_mayhem GUNGAN_SHIP_malice GUNGAN_SHIP_menace GUNGAN_SHIP_merciless GUNGAN_SHIP_mischief GUNGAN_SHIP_monarch GUNGAN_SHIP_patriot GUNGAN_SHIP_predator GUNGAN_SHIP_powerful GUNGAN_SHIP_punisher GUNGAN_SHIP_ravager GUNGAN_SHIP_reaper GUNGAN_SHIP_savage GUNGAN_SHIP_spiteful GUNGAN_SHIP_templar GUNGAN_SHIP_terminator GUNGAN_SHIP_terror GUNGAN_SHIP_thrasher GUNGAN_SHIP_minotaur GUNGAN_SHIP_manticore GUNGAN_SHIP_interdictor GUNGAN_SHIP_intruder GUNGAN_SHIP_hydra GUNGAN_SHIP_enfield GUNGAN_SHIP_harasser GUNGAN_SHIP_unbeaten GUNGAN_SHIP_werewolf GUNGAN_SHIP_zealous GUNGAN_SHIP_petulant GUNGAN_SHIP_phantom GUNGAN_SHIP_phoenix GUNGAN_SHIP_pike GUNGAN_SHIP_pursuer GUNGAN_SHIP_raider GUNGAN_SHIP_rainbow GUNGAN_SHIP_rapid GUNGAN_SHIP_redemption GUNGAN_SHIP_relentless GUNGAN_SHIP_rigorous GUNGAN_SHIP_robust GUNGAN_SHIP_sabre GUNGAN_SHIP_salvation GUNGAN_SHIP_sanguine GUNGAN_SHIP_scarab GUNGAN_SHIP_scepter GUNGAN_SHIP_sea_witch GUNGAN_SHIP_siren GUNGAN_SHIP_sorceress GUNGAN_SHIP_spearhead GUNGAN_SHIP_specter GUNGAN_SHIP_spirit GUNGAN_SHIP_splendid GUNGAN_SHIP_stallion GUNGAN_SHIP_stalwart GUNGAN_SHIP_steadfast GUNGAN_SHIP_strenuous GUNGAN_SHIP_superb GUNGAN_SHIP_supernova GUNGAN_SHIP_surprise GUNGAN_SHIP_swiftsure GUNGAN_SHIP_talent GUNGAN_SHIP_talisman GUNGAN_SHIP_talon GUNGAN_SHIP_taurus GUNGAN_SHIP_tenacious GUNGAN_SHIP_thunder_child GUNGAN_SHIP_thunderous GUNGAN_SHIP_tireless GUNGAN_SHIP_trenchant GUNGAN_SHIP_righteous GUNGAN_SHIP_acheron GUNGAN_SHIP_achilles GUNGAN_SHIP_agamemnon GUNGAN_SHIP_amphion GUNGAN_SHIP_aquilon GUNGAN_SHIP_argonaut GUNGAN_SHIP_argus GUNGAN_SHIP_ariel GUNGAN_SHIP_aurora GUNGAN_SHIP_avernus GUNGAN_SHIP_bacchus GUNGAN_SHIP_bucephalus GUNGAN_SHIP_calliope GUNGAN_SHIP_calypso GUNGAN_SHIP_castor GUNGAN_SHIP_charybdis GUNGAN_SHIP_circe GUNGAN_SHIP_cleopatra GUNGAN_SHIP_constantine GUNGAN_SHIP_cordelia GUNGAN_SHIP_cyrus GUNGAN_SHIP_damocles GUNGAN_SHIP_daedalus GUNGAN_SHIP_darius GUNGAN_SHIP_diomede GUNGAN_SHIP_dryad GUNGAN_SHIP_electra GUNGAN_SHIP_endymion GUNGAN_SHIP_erebus GUNGAN_SHIP_fenris GUNGAN_SHIP_freya GUNGAN_SHIP_gilgamesh GUNGAN_SHIP_gorgon GUNGAN_SHIP_halcyon GUNGAN_SHIP_hecate GUNGAN_SHIP_hector GUNGAN_SHIP_hesperus GUNGAN_SHIP_janus GUNGAN_SHIP_jason GUNGAN_SHIP_juno GUNGAN_SHIP_jupiter GUNGAN_SHIP_lancelot GUNGAN_SHIP_lazarus GUNGAN_SHIP_leander GUNGAN_SHIP_leonidas GUNGAN_SHIP_lysander GUNGAN_SHIP_maenad GUNGAN_SHIP_mars GUNGAN_SHIP_medea GUNGAN_SHIP_medusa GUNGAN_SHIP_menestheus GUNGAN_SHIP_mercury GUNGAN_SHIP_merlin GUNGAN_SHIP_minerva GUNGAN_SHIP_minos GUNGAN_SHIP_neptune GUNGAN_SHIP_nessus GUNGAN_SHIP_nestor GUNGAN_SHIP_nimrod GUNGAN_SHIP_niobe GUNGAN_SHIP_oberon GUNGAN_SHIP_odin GUNGAN_SHIP_ophelia GUNGAN_SHIP_orestes GUNGAN_SHIP_orpheus GUNGAN_SHIP_osiris GUNGAN_SHIP_pandora GUNGAN_SHIP_penelope GUNGAN_SHIP_persephone GUNGAN_SHIP_perseus GUNGAN_SHIP_phoebe GUNGAN_SHIP_pluto GUNGAN_SHIP_poseidon GUNGAN_SHIP_proteus GUNGAN_SHIP_pylades GUNGAN_SHIP_serapis GUNGAN_SHIP_stygian GUNGAN_SHIP_tantalus GUNGAN_SHIP_telemachus GUNGAN_SHIP_theseus GUNGAN_SHIP_thor GUNGAN_SHIP_trajan GUNGAN_SHIP_triton GUNGAN_SHIP_venus GUNGAN_SHIP_adamant GUNGAN_SHIP_ardent GUNGAN_SHIP_assail GUNGAN_SHIP_austere GUNGAN_SHIP_archon GUNGAN_SHIP_adroit GUNGAN_SHIP_aegis GUNGAN_SHIP_anchor GUNGAN_SHIP_corsair GUNGAN_SHIP_banshee GUNGAN_SHIP_enchantress GUNGAN_SHIP_eradicator GUNGAN_SHIP_tormentor GUNGAN_SHIP_legion GUNGAN_SHIP_reprisal GUNGAN_SHIP_aggressor GUNGAN_SHIP_assault GUNGAN_SHIP_eviscerator GUNGAN_SHIP_imperator GUNGAN_SHIP_excellence GUNGAN_SHIP_unrivalled GUNGAN_SHIP_warlord GUNGAN_SHIP_vengeance GUNGAN_SHIP_triumphant GUNGAN_SHIP_nemesis GUNGAN_SHIP_avenger GUNGAN_SHIP_champion GUNGAN_SHIP_conqueror GUNGAN_SHIP_crusader GUNGAN_SHIP_glory GUNGAN_SHIP_immortal GUNGAN_SHIP_judicator GUNGAN_SHIP_vanguard GUNGAN_SHIP_renown GUNGAN_SHIP_demolisher GUNGAN_SHIP_dragon GUNGAN_SHIP_executor GUNGAN_SHIP_furious GUNGAN_SHIP_gladiator GUNGAN_SHIP_magnificent GUNGAN_SHIP_ogre GUNGAN_SHIP_onslaught GUNGAN_SHIP_revenge GUNGAN_SHIP_vanquisher GUNGAN_SHIP_vehement GUNGAN_SHIP_basilisk GUNGAN_SHIP_tempest GUNGAN_SHIP_overlord GUNGAN_SHIP_warrior GUNGAN_SHIP_titan GUNGAN_SHIP_colossus GUNGAN_SHIP_prometheus GUNGAN_SHIP_nike GUNGAN_SHIP_paladin GUNGAN_SHIP_sovereign GUNGAN_SHIP_repulse GUNGAN_SHIP_majestic GUNGAN_SHIP_avatar GUNGAN_SHIP_behemoth GUNGAN_SHIP_centurion GUNGAN_SHIP_citadel GUNGAN_SHIP_katana GUNGAN_SHIP_kraken GUNGAN_SHIP_cerberus GUNGAN_SHIP_valkyrie
+		}
+		swp_bellator = {
+			GUNGAN_SHIP_dreadnought GUNGAN_SHIP_harbinger GUNGAN_SHIP_juggernaut GUNGAN_SHIP_leviathan GUNGAN_SHIP_hyperion GUNGAN_SHIP_galatea GUNGAN_SHIP_ambush GUNGAN_SHIP_vindicator
+		}
+		science = {
+			GUNGAN_SHIP_crescent GUNGAN_SHIP_diligent GUNGAN_SHIP_zephyr GUNGAN_SHIP_enigma GUNGAN_SHIP_conquistador GUNGAN_SHIP_scylla GUNGAN_SHIP_arbiter GUNGAN_SHIP_asperity GUNGAN_SHIP_eminence GUNGAN_SHIP_astute GUNGAN_SHIP_alacrity GUNGAN_SHIP_satyr GUNGAN_SHIP_prospero GUNGAN_SHIP_untiring GUNGAN_SHIP_zenith GUNGAN_SHIP_torch GUNGAN_SHIP_remembrance GUNGAN_SHIP_pilgrim GUNGAN_SHIP_trailblazer GUNGAN_SHIP_vagabond GUNGAN_SHIP_wayfarer GUNGAN_SHIP_ambassador GUNGAN_SHIP_emissary GUNGAN_SHIP_nomad GUNGAN_SHIP_pathfinder GUNGAN_SHIP_wanderer GUNGAN_SHIP_traveler
+		}
+		colonizer = {
+			GUNGAN_SHIP_godspeed GUNGAN_SHIP_prophecy GUNGAN_SHIP_manifest_destiny GUNGAN_SHIP_virtue GUNGAN_SHIP_potential GUNGAN_SHIP_expansion GUNGAN_SHIP_pioneer_spirit GUNGAN_SHIP_prosperity GUNGAN_SHIP_summit GUNGAN_SHIP_pinnacle GUNGAN_SHIP_seeder GUNGAN_SHIP_harvest GUNGAN_SHIP_demeter GUNGAN_SHIP_isis GUNGAN_SHIP_ceres GUNGAN_SHIP_exodus GUNGAN_SHIP_foundation GUNGAN_SHIP_scion GUNGAN_SHIP_progeny GUNGAN_SHIP_obligation GUNGAN_SHIP_purpose GUNGAN_SHIP_provider GUNGAN_SHIP_shining_city GUNGAN_SHIP_acquirer GUNGAN_SHIP_cultivator GUNGAN_SHIP_dawn_of_civilization GUNGAN_SHIP_purity GUNGAN_SHIP_community GUNGAN_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			GUNGAN_SHIP_godspeed GUNGAN_SHIP_prophecy GUNGAN_SHIP_manifest_destiny GUNGAN_SHIP_virtue GUNGAN_SHIP_potential GUNGAN_SHIP_expansion GUNGAN_SHIP_pioneer_spirit GUNGAN_SHIP_prosperity GUNGAN_SHIP_summit GUNGAN_SHIP_pinnacle GUNGAN_SHIP_seeder GUNGAN_SHIP_harvest GUNGAN_SHIP_isis GUNGAN_SHIP_ceres GUNGAN_SHIP_exodus GUNGAN_SHIP_foundation GUNGAN_SHIP_scion GUNGAN_SHIP_progeny GUNGAN_SHIP_obligation GUNGAN_SHIP_purpose GUNGAN_SHIP_provider GUNGAN_SHIP_shining_city GUNGAN_SHIP_acquirer GUNGAN_SHIP_cultivator GUNGAN_SHIP_dawn_of_civilization GUNGAN_SHIP_purity GUNGAN_SHIP_community GUNGAN_SHIP_brotherhood
+		}
+		constructor = {
+			GUNGAN_SHIP_industry GUNGAN_SHIP_assiduity GUNGAN_SHIP_effort GUNGAN_SHIP_laborer GUNGAN_SHIP_builder GUNGAN_SHIP_craftsman GUNGAN_SHIP_hard_hat GUNGAN_SHIP_progress GUNGAN_SHIP_engineer GUNGAN_SHIP_promise GUNGAN_SHIP_service GUNGAN_SHIP_shelter GUNGAN_SHIP_beast GUNGAN_SHIP_creator GUNGAN_SHIP_developer GUNGAN_SHIP_forger GUNGAN_SHIP_foundry GUNGAN_SHIP_factory GUNGAN_SHIP_anvil GUNGAN_SHIP_pillar GUNGAN_SHIP_architect GUNGAN_SHIP_accommodator GUNGAN_SHIP_ptah GUNGAN_SHIP_ilmarinen GUNGAN_SHIP_creidhne GUNGAN_SHIP_gobannus GUNGAN_SHIP_luchtaine GUNGAN_SHIP_goibniu GUNGAN_SHIP_vishvakarman GUNGAN_SHIP_tvastar GUNGAN_SHIP_ikenga GUNGAN_SHIP_qaynan GUNGAN_SHIP_ucuetis GUNGAN_SHIP_ogoun
+		}
+		transport = {
+			GUNGAN_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			GUNGAN_SHIP_spacegun_victory GUNGAN_SHIP_spacegun_success GUNGAN_SHIP_spacegun_supremacy GUNGAN_SHIP_spacegun_superior GUNGAN_SHIP_spacegun_adventure GUNGAN_SHIP_spacegun_ascendancy GUNGAN_SHIP_spacegun_paramount GUNGAN_SHIP_spacegun_preponderous GUNGAN_SHIP_spacegun_exemplary GUNGAN_SHIP_spacegun_eximious GUNGAN_SHIP_spacegun_pertinacity GUNGAN_SHIP_spacegun_acclaim GUNGAN_SHIP_spacegun_honor GUNGAN_SHIP_spacegun_renown GUNGAN_SHIP_spacegun_glory GUNGAN_SHIP_spacegun_superb GUNGAN_SHIP_spacegun_magnificence GUNGAN_SHIP_spacegun_majestic GUNGAN_SHIP_spacegun_splendor GUNGAN_SHIP_spacegun_paradigm GUNGAN_SHIP_spacegun_flawless GUNGAN_SHIP_spacegun_consummate GUNGAN_SHIP_spacegun_merit GUNGAN_SHIP_spacegun_perfection GUNGAN_SHIP_spacegun_virtue GUNGAN_SHIP_spacegun_advantage GUNGAN_SHIP_spacegun_rectitude GUNGAN_SHIP_spacegun_incorruptible GUNGAN_SHIP_spacegun_integrity GUNGAN_SHIP_spacegun_justice GUNGAN_SHIP_spacegun_probity GUNGAN_SHIP_spacegun_prudence GUNGAN_SHIP_spacegun_purity GUNGAN_SHIP_spacegun_resolute GUNGAN_SHIP_spacegun_dignity GUNGAN_SHIP_spacegun_distinction GUNGAN_SHIP_spacegun_excellence GUNGAN_SHIP_spacegun_faithful GUNGAN_SHIP_spacegun_discipline GUNGAN_SHIP_spacegun_steadfast GUNGAN_SHIP_spacegun_recompense GUNGAN_SHIP_spacegun_requiem GUNGAN_SHIP_spacegun_courage GUNGAN_SHIP_spacegun_valor GUNGAN_SHIP_spacegun_gallant GUNGAN_SHIP_spacegun_daring GUNGAN_SHIP_spacegun_constancy GUNGAN_SHIP_spacegun_perseverence GUNGAN_SHIP_spacegun_tenacity GUNGAN_SHIP_spacegun_sedulity GUNGAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			GUNGAN_SHIP_spacegun_victory GUNGAN_SHIP_spacegun_success GUNGAN_SHIP_spacegun_supremacy GUNGAN_SHIP_spacegun_superior GUNGAN_SHIP_spacegun_adventure GUNGAN_SHIP_spacegun_ascendancy GUNGAN_SHIP_spacegun_paramount GUNGAN_SHIP_spacegun_preponderous GUNGAN_SHIP_spacegun_exemplary GUNGAN_SHIP_spacegun_eximious GUNGAN_SHIP_spacegun_pertinacity GUNGAN_SHIP_spacegun_acclaim GUNGAN_SHIP_spacegun_honor GUNGAN_SHIP_spacegun_renown GUNGAN_SHIP_spacegun_glory GUNGAN_SHIP_spacegun_superb GUNGAN_SHIP_spacegun_magnificence GUNGAN_SHIP_spacegun_majestic GUNGAN_SHIP_spacegun_splendor GUNGAN_SHIP_spacegun_paradigm GUNGAN_SHIP_spacegun_flawless GUNGAN_SHIP_spacegun_consummate GUNGAN_SHIP_spacegun_merit GUNGAN_SHIP_spacegun_perfection GUNGAN_SHIP_spacegun_virtue GUNGAN_SHIP_spacegun_advantage GUNGAN_SHIP_spacegun_rectitude GUNGAN_SHIP_spacegun_incorruptible GUNGAN_SHIP_spacegun_integrity GUNGAN_SHIP_spacegun_justice GUNGAN_SHIP_spacegun_probity GUNGAN_SHIP_spacegun_prudence GUNGAN_SHIP_spacegun_purity GUNGAN_SHIP_spacegun_resolute GUNGAN_SHIP_spacegun_dignity GUNGAN_SHIP_spacegun_distinction GUNGAN_SHIP_spacegun_excellence GUNGAN_SHIP_spacegun_faithful GUNGAN_SHIP_spacegun_discipline GUNGAN_SHIP_spacegun_steadfast GUNGAN_SHIP_spacegun_recompense GUNGAN_SHIP_spacegun_requiem GUNGAN_SHIP_spacegun_courage GUNGAN_SHIP_spacegun_valor GUNGAN_SHIP_spacegun_gallant GUNGAN_SHIP_spacegun_daring GUNGAN_SHIP_spacegun_constancy GUNGAN_SHIP_spacegun_perseverence GUNGAN_SHIP_spacegun_tenacity GUNGAN_SHIP_spacegun_sedulity GUNGAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			GUNGAN_SHIP_spacegun_victory GUNGAN_SHIP_spacegun_success GUNGAN_SHIP_spacegun_supremacy GUNGAN_SHIP_spacegun_superior GUNGAN_SHIP_spacegun_adventure GUNGAN_SHIP_spacegun_ascendancy GUNGAN_SHIP_spacegun_paramount GUNGAN_SHIP_spacegun_preponderous GUNGAN_SHIP_spacegun_exemplary GUNGAN_SHIP_spacegun_eximious GUNGAN_SHIP_spacegun_pertinacity GUNGAN_SHIP_spacegun_acclaim GUNGAN_SHIP_spacegun_honor GUNGAN_SHIP_spacegun_renown GUNGAN_SHIP_spacegun_glory GUNGAN_SHIP_spacegun_superb GUNGAN_SHIP_spacegun_magnificence GUNGAN_SHIP_spacegun_majestic GUNGAN_SHIP_spacegun_splendor GUNGAN_SHIP_spacegun_paradigm GUNGAN_SHIP_spacegun_flawless GUNGAN_SHIP_spacegun_consummate GUNGAN_SHIP_spacegun_merit GUNGAN_SHIP_spacegun_perfection GUNGAN_SHIP_spacegun_virtue GUNGAN_SHIP_spacegun_advantage GUNGAN_SHIP_spacegun_rectitude GUNGAN_SHIP_spacegun_incorruptible GUNGAN_SHIP_spacegun_integrity GUNGAN_SHIP_spacegun_justice GUNGAN_SHIP_spacegun_probity GUNGAN_SHIP_spacegun_prudence GUNGAN_SHIP_spacegun_purity GUNGAN_SHIP_spacegun_resolute GUNGAN_SHIP_spacegun_dignity GUNGAN_SHIP_spacegun_distinction GUNGAN_SHIP_spacegun_excellence GUNGAN_SHIP_spacegun_faithful GUNGAN_SHIP_spacegun_discipline GUNGAN_SHIP_spacegun_steadfast GUNGAN_SHIP_spacegun_recompense GUNGAN_SHIP_spacegun_requiem GUNGAN_SHIP_spacegun_courage GUNGAN_SHIP_spacegun_valor GUNGAN_SHIP_spacegun_gallant GUNGAN_SHIP_spacegun_daring GUNGAN_SHIP_spacegun_constancy GUNGAN_SHIP_spacegun_perseverence GUNGAN_SHIP_spacegun_tenacity GUNGAN_SHIP_spacegun_sedulity GUNGAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			GUNGAN_SHIP_citadel GUNGAN_SHIP_albacore GUNGAN_SHIP_gateway GUNGAN_SHIP_vincent GUNGAN_SHIP_babylon GUNGAN_SHIP_caernavon GUNGAN_SHIP_acre GUNGAN_SHIP_pembroke GUNGAN_SHIP_acheron GUNGAN_SHIP_spithead GUNGAN_SHIP_halifax GUNGAN_SHIP_victoria GUNGAN_SHIP_chatham GUNGAN_SHIP_anchorage GUNGAN_SHIP_scapa_flow GUNGAN_SHIP_hampton_roads GUNGAN_SHIP_brooklyn GUNGAN_SHIP_norfolk GUNGAN_SHIP_newport GUNGAN_SHIP_guam GUNGAN_SHIP_pensacola GUNGAN_SHIP_vesuvius GUNGAN_SHIP_mckinley GUNGAN_SHIP_everest GUNGAN_SHIP_kilimanjaro GUNGAN_SHIP_aconcagua GUNGAN_SHIP_elbrus GUNGAN_SHIP_st__helens GUNGAN_SHIP_fuji GUNGAN_SHIP_olympus GUNGAN_SHIP_sinai GUNGAN_SHIP_ambrose GUNGAN_SHIP_bermuda GUNGAN_SHIP_farpoint GUNGAN_SHIP_blue_star GUNGAN_SHIP_olympus_mons GUNGAN_SHIP_tharsis GUNGAN_SHIP_syrtis GUNGAN_SHIP_blackham GUNGAN_SHIP_fletcher GUNGAN_SHIP_perry GUNGAN_SHIP_butakov GUNGAN_SHIP_morris GUNGAN_SHIP_moorsom GUNGAN_SHIP_hart GUNGAN_SHIP_hargood GUNGAN_SHIP_spruance GUNGAN_SHIP_tanaka GUNGAN_SHIP_halsey GUNGAN_SHIP_turner GUNGAN_SHIP_doria GUNGAN_SHIP_tirpitz GUNGAN_SHIP_cunningham GUNGAN_SHIP_jellicoe GUNGAN_SHIP_hipper GUNGAN_SHIP_beatty GUNGAN_SHIP_potemkin GUNGAN_SHIP_durham GUNGAN_SHIP_codrington GUNGAN_SHIP_milne GUNGAN_SHIP_laforey GUNGAN_SHIP_tyler GUNGAN_SHIP_hawke GUNGAN_SHIP_yonai GUNGAN_SHIP_pound GUNGAN_SHIP_king GUNGAN_SHIP_crutchley GUNGAN_SHIP_mountbatten GUNGAN_SHIP_kountouriotis GUNGAN_SHIP_kuznetsov GUNGAN_SHIP_essen GUNGAN_SHIP_kornilov GUNGAN_SHIP_suffren GUNGAN_SHIP_treville GUNGAN_SHIP_villeneuve GUNGAN_SHIP_grasse GUNGAN_SHIP_byng GUNGAN_SHIP_lezo
+		}
+		ion_cannon = {
+			GUNGAN_SHIP_bombard GUNGAN_SHIP_ballista GUNGAN_SHIP_catapult GUNGAN_SHIP_harpoon GUNGAN_SHIP_polybolos GUNGAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			GUNGAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			GUNGAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			GUNGAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			GUNGAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			GUNGAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			GUNGAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			GUNGAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			GUNGAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			GUNGAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			GUNGAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			GUNGAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			GUNGAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			GUNGAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			GUNGAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			GUNGAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			GUNGAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			GUNGAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			GUNGAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			GUNGAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			GUNGAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			GUNGAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			GUNGAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			GUNGAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			GUNGAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			GUNGAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			GUNGAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			GUNGAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			GUNGAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			GUNGAN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			GUNGAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			GUNGAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			GUNGAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			GUNGAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			GUNGAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			GUNGAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			GUNGAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			GUNGAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			GUNGAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			GUNGAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			GUNGAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			GUNGAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			GUNGAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			GUNGAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			GUNGAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			GUNGAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			GUNGAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			GUNGAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			GUNGAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			GUNGAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			GUNGAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			GUNGAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			GUNGAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			GUNGAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			GUNGAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			GUNGAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			GUNGAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			GUNGAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			GUNGAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			GUNGAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			GUNGAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			GUNGAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			GUNGAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			GUNGAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			GUNGAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			GUNGAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			GUNGAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			GUNGAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			GUNGAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			GUNGAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			GUNGAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			GUNGAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			GUNGAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			GUNGAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			GUNGAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			GUNGAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			GUNGAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			GUNGAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			GUNGAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			GUNGAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			GUNGAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			GUNGAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			GUNGAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			GUNGAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			GUNGAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			GUNGAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			GUNGAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			GUNGAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			GUNGAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			GUNGAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			GUNGAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			GUNGAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			GUNGAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			GUNGAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			GUNGAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = GUNGAN_FLEET_armada_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = GUNGAN_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = GUNGAN_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = GUNGAN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = GUNGAN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = GUNGAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = GUNGAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = GUNGAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = GUNGAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				GUNGAN_ARMY_sarc_a__gladiators_ GUNGAN_ARMY_sarc_b__widowmakers_ GUNGAN_ARMY_sarc_c__immortals_ GUNGAN_ARMY_sarc_d__berserkers_ GUNGAN_ARMY_sarc_e__assassins_ GUNGAN_ARMY_sarc_f__reapers_ GUNGAN_ARMY_sarc_g__nighthawks_ GUNGAN_ARMY_sarc_h__desperados_ GUNGAN_ARMY_sarc_i__grey_knights_ GUNGAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = GUNGAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = GUNGAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = GUNGAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = GUNGAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = GUNGAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = GUNGAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = GUNGAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = GUNGAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = GUNGAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = GUNGAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = GUNGAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = GUNGAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = GUNGAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = GUNGAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = GUNGAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = GUNGAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = GUNGAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = GUNGAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = GUNGAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = GUNGAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = GUNGAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = GUNGAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = GUNGAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = GUNGAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = GUNGAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = GUNGAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = GUNGAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = GUNGAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = GUNGAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = GUNGAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = GUNGAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = GUNGAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = GUNGAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = GUNGAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = GUNGAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = GUNGAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = GUNGAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = GUNGAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = GUNGAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = GUNGAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = GUNGAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = GUNGAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = GUNGAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = GUNGAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = GUNGAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = GUNGAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = GUNGAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = GUNGAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = GUNGAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = GUNGAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = GUNGAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = GUNGAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = GUNGAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = GUNGAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = GUNGAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = GUNGAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = GUNGAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = GUNGAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = GUNGAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = GUNGAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = GUNGAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = GUNGAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = GUNGAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = GUNGAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = GUNGAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = GUNGAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = GUNGAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = GUNGAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = GUNGAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = GUNGAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = GUNGAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = GUNGAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = GUNGAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = GUNGAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = GUNGAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = GUNGAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = GUNGAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = GUNGAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = GUNGAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = GUNGAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = GUNGAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = GUNGAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = GUNGAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = GUNGAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = GUNGAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = GUNGAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = GUNGAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = GUNGAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = GUNGAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = GUNGAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = GUNGAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = GUNGAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = GUNGAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = GUNGAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = GUNGAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = GUNGAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = GUNGAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = GUNGAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = GUNGAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = GUNGAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = GUNGAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = GUNGAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = GUNGAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = GUNGAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = GUNGAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = GUNGAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = GUNGAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = GUNGAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = GUNGAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = GUNGAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = GUNGAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = GUNGAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = GUNGAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = GUNGAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = GUNGAN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = GUNGAN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = GUNGAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = GUNGAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = GUNGAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = GUNGAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = GUNGAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = GUNGAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = GUNGAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = GUNGAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = GUNGAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = GUNGAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = GUNGAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = GUNGAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = GUNGAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = GUNGAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = GUNGAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = GUNGAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = GUNGAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		full_names = {
+			first_names_male = {
+				GUNGAN_CHR_benbul GUNGAN_CHR_jar GUNGAN_CHR_jar_jar GUNGAN_CHR_pep GUNGAN_CHR_rish GUNGAN_CHR_lunker GUNGAN_CHR_lyonie GUNGAN_CHR_rugor GUNGAN_CHR_roos GUNGAN_CHR_heb GUNGAN_CHR_gallo GUNGAN_CHR_kleef GUNGAN_CHR_tobler GUNGAN_CHR_ganne GUNGAN_CHR_augur GUNGAN_CHR_aug GUNGAN_CHR_aug_aug GUNGAN_CHR_jynx GUNGAN_CHR_wert GUNGAN_CHR_tee GUNGAN_CHR_tee_tee GUNGAN_CHR_neesa GUNGAN_CHR_bullba GUNGAN_CHR_bamfurd GUNGAN_CHR_been GUNGAN_CHR_gar GUNGAN_CHR_gar_gar GUNGAN_CHR_slarm GUNGAN_CHR_jay GUNGAN_CHR_jay_jay GUNGAN_CHR_abso GUNGAN_CHR_bar GUNGAN_CHR_abso_bar GUNGAN_CHR_george GUNGAN_CHR_zim GUNGAN_CHR_zim_zim GUNGAN_CHR_zam GUNGAN_CHR_zam_zam GUNGAN_CHR_zim_zam GUNGAN_CHR_big GUNGAN_CHR_big_big GUNGAN_CHR_blue GUNGAN_CHR_bola GUNGAN_CHR_bola_bola GUNGAN_CHR_bar GUNGAN_CHR_bar_bar GUNGAN_CHR_bolabar GUNGAN_CHR_boma GUNGAN_CHR_mullud GUNGAN_CHR_boom GUNGAN_CHR_boom_boom GUNGAN_CHR_booto GUNGAN_CHR_brass GUNGAN_CHR_brute GUNGAN_CHR_cova GUNGAN_CHR_hoxie GUNGAN_CHR_hantik GUNGAN_CHR_hassk GUNGAN_CHR_piknab GUNGAN_CHR_jak GUNGAN_CHR_jak_jak GUNGAN_CHR_copek GUNGAN_CHR_cruegar GUNGAN_CHR_degoolsby GUNGAN_CHR_falyeh GUNGAN_CHR_donn GUNGAN_CHR_lo GUNGAN_CHR_lo_lo GUNGAN_CHR_moppo GUNGAN_CHR_kin_ya GUNGAN_CHR_kin GUNGAN_CHR_ya GUNGAN_CHR_kin_kin GUNGAN_CHR_ya_ya GUNGAN_CHR_mikfa GUNGAN_CHR_mik GUNGAN_CHR_mik_mik GUNGAN_CHR_fasso GUNGAN_CHR_fenton GUNGAN_CHR_gallo GUNGAN_CHR_ganne GUNGAN_CHR_neb GUNGAN_CHR_neb_neb GUNGAN_CHR_tup GUNGAN_CHR_tup_tup GUNGAN_CHR_odoof GUNGAN_CHR_kosa GUNGAN_CHR_yin GUNGAN_CHR_yin_yin GUNGAN_CHR_kosa_yin GUNGAN_CHR_yr_apaly GUNGAN_CHR_roo GUNGAN_CHR_roo_roo GUNGAN_CHR_broof GUNGAN_CHR_bro_bro GUNGAN_CHR_zazzi GUNGAN_CHR_zazzo GUNGAN_CHR_aervis GUNGAN_CHR_wollod GUNGAN_CHR_portillo GUNGAN_CHR_spill GUNGAN_CHR_zak GUNGAN_CHR_spleed GUNGAN_CHR_marsune GUNGAN_CHR_meh_ur GUNGAN_CHR_kroke GUNGAN_CHR_mokem GUNGAN_CHR_oono GUNGAN_CHR_nalskel GUNGAN_CHR_flossin GUNGAN_CHR_rogoe GUNGAN_CHR_dubbin GUNGAN_CHR_skub_skub GUNGAN_CHR_skub GUNGAN_CHR_friggy GUNGAN_CHR_tob GUNGAN_CHR_tob_tob GUNGAN_CHR_toba GUNGAN_CHR_gus GUNGAN_CHR_gus_gus GUNGAN_CHR_aggy GUNGAN_CHR_bimbam GUNGAN_CHR_cloppen GUNGAN_CHR_dapnab GUNGAN_CHR_draff GUNGAN_CHR_faddo GUNGAN_CHR_gadnek GUNGAN_CHR_gobar GUNGAN_CHR_jad_jo GUNGAN_CHR_jep_do GUNGAN_CHR_koh_pa GUNGAN_CHR_lergee GUNGAN_CHR_loh_ta GUNGAN_CHR_monab
+			}
+			first_names_female = {
+				GUNGAN_CHR_jara GUNGAN_CHR_jara_jara GUNGAN_CHR_peppi GUNGAN_CHR_risha GUNGAN_CHR_lunka GUNGAN_CHR_lyona GUNGAN_CHR_ruga GUNGAN_CHR_roosa GUNGAN_CHR_galla GUNGAN_CHR_kleefaa GUNGAN_CHR_tobla GUNGAN_CHR_ganna GUNGAN_CHR_augara GUNGAN_CHR_augie GUNGAN_CHR_jynxa GUNGAN_CHR_werta GUNGAN_CHR_teers GUNGAN_CHR_neesada GUNGAN_CHR_bulliba GUNGAN_CHR_bamfurda GUNGAN_CHR_bena GUNGAN_CHR_gara_gara GUNGAN_CHR_slarma GUNGAN_CHR_jaya GUNGAN_CHR_jaya_jaya GUNGAN_CHR_absa GUNGAN_CHR_bara GUNGAN_CHR_absa_bara GUNGAN_CHR_georgia GUNGAN_CHR_zima GUNGAN_CHR_zima_zima GUNGAN_CHR_zama_zama GUNGAN_CHR_zama GUNGAN_CHR_zima_zama GUNGAN_CHR_biga GUNGAN_CHR_biga_biga GUNGAN_CHR_bluetta GUNGAN_CHR_bolana GUNGAN_CHR_bara GUNGAN_CHR_bara_bara GUNGAN_CHR_bolanabara GUNGAN_CHR_mulla GUNGAN_CHR_booma GUNGAN_CHR_booma_booma GUNGAN_CHR_brassa GUNGAN_CHR_bruta GUNGAN_CHR_covala GUNGAN_CHR_piknaba GUNGAN_CHR_lob GUNGAN_CHR_lob_lob GUNGAN_CHR_jakie GUNGAN_CHR_jakie_jakie GUNGAN_CHR_copeka GUNGAN_CHR_cruegga GUNGAN_CHR_degoola GUNGAN_CHR_donna GUNGAN_CHR_moppa GUNGAN_CHR_kina_yaa GUNGAN_CHR_kina_kina GUNGAN_CHR_kina GUNGAN_CHR_yaa GUNGAN_CHR_yaa_yaa GUNGAN_CHR_mikfaa GUNGAN_CHR_mika GUNGAN_CHR_mika_mika GUNGAN_CHR_fassa GUNGAN_CHR_fenta GUNGAN_CHR_galla GUNGAN_CHR_ganna GUNGAN_CHR_goodra GUNGAN_CHR_nebba GUNGAN_CHR_goodra_nebba GUNGAN_CHR_nebba_nebba GUNGAN_CHR_tuppa GUNGAN_CHR_tuppa_tuppa GUNGAN_CHR_odoofa GUNGAN_CHR_kosaa GUNGAN_CHR_yina GUNGAN_CHR_yina_yina GUNGAN_CHR_kosaa_yina GUNGAN_CHR_yr_apalya GUNGAN_CHR_roa GUNGAN_CHR_roa_roa GUNGAN_CHR_broofa GUNGAN_CHR_broa_broa GUNGAN_CHR_zazia GUNGAN_CHR_zazoa GUNGAN_CHR_aerva GUNGAN_CHR_wolla GUNGAN_CHR_portilla GUNGAN_CHR_spilla GUNGAN_CHR_zaka GUNGAN_CHR_spleda GUNGAN_CHR_skubba_skubba GUNGAN_CHR_skubba GUNGAN_CHR_frigga GUNGAN_CHR_tobba_tobba GUNGAN_CHR_tobba GUNGAN_CHR_gussa GUNGAN_CHR_gussa_gussa
+			}
+			second_names = {
+				GUNGAN_CHR_binks GUNGAN_CHR_loo GUNGAN_CHR_lubble GUNGAN_CHR_bow GUNGAN_CHR_nass GUNGAN_CHR_tarpals GUNGAN_CHR_ceel GUNGAN_CHR_jowil GUNGAN_CHR_jopi GUNGAN_CHR_bari GUNGAN_CHR_bettle GUNGAN_CHR_bin GUNGAN_CHR_blattis GUNGAN_CHR_blismo GUNGAN_CHR_bombo GUNGAN_CHR_kirs GUNGAN_CHR_burmooze GUNGAN_CHR_carsels GUNGAN_CHR_chucka GUNGAN_CHR_dizz GUNGAN_CHR_dop GUNGAN_CHR_dosun GUNGAN_CHR_faaus GUNGAN_CHR_fajallan GUNGAN_CHR_nob GUNGAN_CHR_neb GUNGAN_CHR_grizbain GUNGAN_CHR_grunda GUNGAN_CHR_hadu GUNGAN_CHR_kelpit GUNGAN_CHR_keth GUNGAN_CHR_leede GUNGAN_CHR_marshoo GUNGAN_CHR_modbom GUNGAN_CHR_noz GUNGAN_CHR_nukkels GUNGAN_CHR_noss GUNGAN_CHR_omin GUNGAN_CHR_paddu GUNGAN_CHR_page GUNGAN_CHR_pert GUNGAN_CHR_quiglee GUNGAN_CHR_rimk GUNGAN_CHR_sharr GUNGAN_CHR_squig GUNGAN_CHR_musstoro GUNGAN_CHR_toma GUNGAN_CHR_toop GUNGAN_CHR_tren GUNGAN_CHR_wupps GUNGAN_CHR_wint GUNGAN_CHR_yown GUNGAN_CHR_wiga GUNGAN_CHR_yurdel GUNGAN_CHR_zassa GUNGAN_CHR_zinga GUNGAN_CHR_mor_in GUNGAN_CHR_nee GUNGAN_CHR_goodrow
+			}
+			regnal_first_names_male = {
+				GUNGAN_CHR_benbul GUNGAN_CHR_jar GUNGAN_CHR_jar_jar GUNGAN_CHR_pep GUNGAN_CHR_rish GUNGAN_CHR_lunker GUNGAN_CHR_lyonie GUNGAN_CHR_rugor GUNGAN_CHR_roos GUNGAN_CHR_heb GUNGAN_CHR_gallo GUNGAN_CHR_kleef GUNGAN_CHR_tobler GUNGAN_CHR_ganne GUNGAN_CHR_augur GUNGAN_CHR_aug GUNGAN_CHR_aug_aug GUNGAN_CHR_jynx GUNGAN_CHR_wert GUNGAN_CHR_tee GUNGAN_CHR_tee_tee GUNGAN_CHR_neesa GUNGAN_CHR_bullba GUNGAN_CHR_bamfurd GUNGAN_CHR_been GUNGAN_CHR_gar GUNGAN_CHR_gar_gar GUNGAN_CHR_slarm GUNGAN_CHR_jay GUNGAN_CHR_jay_jay GUNGAN_CHR_abso GUNGAN_CHR_bar GUNGAN_CHR_abso_bar GUNGAN_CHR_george GUNGAN_CHR_zim GUNGAN_CHR_zim_zim GUNGAN_CHR_zam GUNGAN_CHR_zam_zam GUNGAN_CHR_zim_zam GUNGAN_CHR_big GUNGAN_CHR_big_big GUNGAN_CHR_blue GUNGAN_CHR_bola GUNGAN_CHR_bola_bola GUNGAN_CHR_bar GUNGAN_CHR_bar_bar GUNGAN_CHR_bolabar GUNGAN_CHR_boma GUNGAN_CHR_mullud GUNGAN_CHR_boom GUNGAN_CHR_boom_boom GUNGAN_CHR_booto GUNGAN_CHR_brass GUNGAN_CHR_brute GUNGAN_CHR_cova GUNGAN_CHR_hoxie GUNGAN_CHR_hantik GUNGAN_CHR_hassk GUNGAN_CHR_piknab GUNGAN_CHR_jak GUNGAN_CHR_jak_jak GUNGAN_CHR_copek GUNGAN_CHR_cruegar GUNGAN_CHR_degoolsby GUNGAN_CHR_falyeh GUNGAN_CHR_donn GUNGAN_CHR_lo GUNGAN_CHR_lo_lo GUNGAN_CHR_moppo GUNGAN_CHR_kin_ya GUNGAN_CHR_kin GUNGAN_CHR_ya GUNGAN_CHR_kin_kin GUNGAN_CHR_ya_ya GUNGAN_CHR_mikfa GUNGAN_CHR_mik GUNGAN_CHR_mik_mik GUNGAN_CHR_fasso GUNGAN_CHR_fenton GUNGAN_CHR_gallo GUNGAN_CHR_ganne GUNGAN_CHR_neb GUNGAN_CHR_neb_neb GUNGAN_CHR_tup GUNGAN_CHR_tup_tup GUNGAN_CHR_odoof GUNGAN_CHR_kosa GUNGAN_CHR_yin GUNGAN_CHR_yin_yin GUNGAN_CHR_kosa_yin GUNGAN_CHR_yr_apaly GUNGAN_CHR_roo GUNGAN_CHR_roo_roo GUNGAN_CHR_broof GUNGAN_CHR_bro_bro GUNGAN_CHR_zazzi GUNGAN_CHR_zazzo GUNGAN_CHR_aervis GUNGAN_CHR_wollod GUNGAN_CHR_portillo GUNGAN_CHR_spill GUNGAN_CHR_zak GUNGAN_CHR_spleed GUNGAN_CHR_marsune GUNGAN_CHR_meh_ur GUNGAN_CHR_kroke GUNGAN_CHR_mokem GUNGAN_CHR_oono GUNGAN_CHR_nalskel GUNGAN_CHR_flossin GUNGAN_CHR_rogoe GUNGAN_CHR_dubbin GUNGAN_CHR_skub_skub GUNGAN_CHR_skub GUNGAN_CHR_friggy GUNGAN_CHR_tob GUNGAN_CHR_tob_tob GUNGAN_CHR_toba GUNGAN_CHR_gus GUNGAN_CHR_gus_gus GUNGAN_CHR_aggy GUNGAN_CHR_bimbam GUNGAN_CHR_cloppen GUNGAN_CHR_dapnab GUNGAN_CHR_draff GUNGAN_CHR_faddo GUNGAN_CHR_gadnek GUNGAN_CHR_gobar GUNGAN_CHR_jad_jo GUNGAN_CHR_jep_do GUNGAN_CHR_koh_pa GUNGAN_CHR_lergee GUNGAN_CHR_loh_ta GUNGAN_CHR_monab
+			}
+			regnal_first_names_female = {
+				GUNGAN_CHR_jara GUNGAN_CHR_jara_jara GUNGAN_CHR_peppi GUNGAN_CHR_risha GUNGAN_CHR_lunka GUNGAN_CHR_lyona GUNGAN_CHR_ruga GUNGAN_CHR_roosa GUNGAN_CHR_galla GUNGAN_CHR_kleefaa GUNGAN_CHR_tobla GUNGAN_CHR_ganna GUNGAN_CHR_augara GUNGAN_CHR_augie GUNGAN_CHR_jynxa GUNGAN_CHR_werta GUNGAN_CHR_teers GUNGAN_CHR_neesada GUNGAN_CHR_bulliba GUNGAN_CHR_bamfurda GUNGAN_CHR_bena GUNGAN_CHR_gara_gara GUNGAN_CHR_slarma GUNGAN_CHR_jaya GUNGAN_CHR_jaya_jaya GUNGAN_CHR_absa GUNGAN_CHR_bara GUNGAN_CHR_absa_bara GUNGAN_CHR_georgia GUNGAN_CHR_zima GUNGAN_CHR_zima_zima GUNGAN_CHR_zama_zama GUNGAN_CHR_zama GUNGAN_CHR_zima_zama GUNGAN_CHR_biga GUNGAN_CHR_biga_biga GUNGAN_CHR_bluetta GUNGAN_CHR_bolana GUNGAN_CHR_bara GUNGAN_CHR_bara_bara GUNGAN_CHR_bolanabara GUNGAN_CHR_mulla GUNGAN_CHR_booma GUNGAN_CHR_booma_booma GUNGAN_CHR_brassa GUNGAN_CHR_bruta GUNGAN_CHR_covala GUNGAN_CHR_piknaba GUNGAN_CHR_lob GUNGAN_CHR_lob_lob GUNGAN_CHR_jakie GUNGAN_CHR_jakie_jakie GUNGAN_CHR_copeka GUNGAN_CHR_cruegga GUNGAN_CHR_degoola GUNGAN_CHR_donna GUNGAN_CHR_moppa GUNGAN_CHR_kina_yaa GUNGAN_CHR_kina_kina GUNGAN_CHR_kina GUNGAN_CHR_yaa GUNGAN_CHR_yaa_yaa GUNGAN_CHR_mikfaa GUNGAN_CHR_mika GUNGAN_CHR_mika_mika GUNGAN_CHR_fassa GUNGAN_CHR_fenta GUNGAN_CHR_galla GUNGAN_CHR_ganna GUNGAN_CHR_goodra GUNGAN_CHR_nebba GUNGAN_CHR_goodra_nebba GUNGAN_CHR_nebba_nebba GUNGAN_CHR_tuppa GUNGAN_CHR_tuppa_tuppa GUNGAN_CHR_odoofa GUNGAN_CHR_kosaa GUNGAN_CHR_yina GUNGAN_CHR_yina_yina GUNGAN_CHR_kosaa_yina GUNGAN_CHR_yr_apalya GUNGAN_CHR_roa GUNGAN_CHR_roa_roa GUNGAN_CHR_broofa GUNGAN_CHR_broa_broa GUNGAN_CHR_zazia GUNGAN_CHR_zazoa GUNGAN_CHR_aerva GUNGAN_CHR_wolla GUNGAN_CHR_portilla GUNGAN_CHR_spilla GUNGAN_CHR_zaka GUNGAN_CHR_spleda GUNGAN_CHR_skubba_skubba GUNGAN_CHR_skubba GUNGAN_CHR_frigga GUNGAN_CHR_tobba_tobba GUNGAN_CHR_tobba GUNGAN_CHR_gussa GUNGAN_CHR_gussa_gussa
+			}
+			regnal_second_names = {
+				GUNGAN_CHR_binks GUNGAN_CHR_loo GUNGAN_CHR_lubble GUNGAN_CHR_bow GUNGAN_CHR_nass GUNGAN_CHR_tarpals GUNGAN_CHR_ceel GUNGAN_CHR_jowil GUNGAN_CHR_jopi GUNGAN_CHR_bari GUNGAN_CHR_bettle GUNGAN_CHR_bin GUNGAN_CHR_blattis GUNGAN_CHR_blismo GUNGAN_CHR_bombo GUNGAN_CHR_kirs GUNGAN_CHR_burmooze GUNGAN_CHR_carsels GUNGAN_CHR_chucka GUNGAN_CHR_dizz GUNGAN_CHR_dop GUNGAN_CHR_dosun GUNGAN_CHR_faaus GUNGAN_CHR_fajallan GUNGAN_CHR_nob GUNGAN_CHR_neb GUNGAN_CHR_grizbain GUNGAN_CHR_grunda GUNGAN_CHR_hadu GUNGAN_CHR_kelpit GUNGAN_CHR_keth GUNGAN_CHR_leede GUNGAN_CHR_marshoo GUNGAN_CHR_modbom GUNGAN_CHR_noz GUNGAN_CHR_nukkels GUNGAN_CHR_noss GUNGAN_CHR_omin GUNGAN_CHR_paddu GUNGAN_CHR_page GUNGAN_CHR_pert GUNGAN_CHR_quiglee GUNGAN_CHR_rimk GUNGAN_CHR_sharr GUNGAN_CHR_squig GUNGAN_CHR_musstoro GUNGAN_CHR_toma GUNGAN_CHR_toop GUNGAN_CHR_tren GUNGAN_CHR_wupps GUNGAN_CHR_wint GUNGAN_CHR_yown GUNGAN_CHR_wiga GUNGAN_CHR_yurdel GUNGAN_CHR_zassa GUNGAN_CHR_zinga GUNGAN_CHR_mor_in GUNGAN_CHR_nee GUNGAN_CHR_goodrow
+			}
+		}
+	}
+}

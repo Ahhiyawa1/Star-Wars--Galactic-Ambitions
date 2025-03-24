@@ -1,0 +1,847 @@
+﻿Falleen = {
+	randomized = no
+	ship_names = {
+		generic = {
+			FALLEEN_SHIP_footpad FALLEEN_SHIP_assassin FALLEEN_SHIP_executioner FALLEEN_SHIP_butcher FALLEEN_SHIP_hired_gun FALLEEN_SHIP_exterminator FALLEEN_SHIP_liquidator FALLEEN_SHIP_thuggee FALLEEN_SHIP_swindler FALLEEN_SHIP_deceiver FALLEEN_SHIP_viper FALLEEN_SHIP_serpent FALLEEN_SHIP_adder FALLEEN_SHIP_viper_s_kiss FALLEEN_SHIP_molder FALLEEN_SHIP_robber_barron FALLEEN_SHIP_burglar FALLEEN_SHIP_mugger FALLEEN_SHIP_raider FALLEEN_SHIP_looter FALLEEN_SHIP_pillager FALLEEN_SHIP_pilferer FALLEEN_SHIP_solar_thief FALLEEN_SHIP_bandit FALLEEN_SHIP_brigand FALLEEN_SHIP_highwayman FALLEEN_SHIP_dacoit FALLEEN_SHIP_marauder FALLEEN_SHIP_poison FALLEEN_SHIP_stiletto FALLEEN_SHIP_bodkin FALLEEN_SHIP_cutlass FALLEEN_SHIP_dirk FALLEEN_SHIP_poniard FALLEEN_SHIP_scalpel FALLEEN_SHIP_sickle FALLEEN_SHIP_sabre FALLEEN_SHIP_scimitar FALLEEN_SHIP_scythe FALLEEN_SHIP_shank FALLEEN_SHIP_shiv FALLEEN_SHIP_switchblade FALLEEN_SHIP_tickler FALLEEN_SHIP_skiver FALLEEN_SHIP_strongarm FALLEEN_SHIP_bully_boy FALLEEN_SHIP_coercer FALLEEN_SHIP_intimidator FALLEEN_SHIP_cheap_shot FALLEEN_SHIP_black_eye FALLEEN_SHIP_invective_rex FALLEEN_SHIP_opprobrium FALLEEN_SHIP_impertinence FALLEEN_SHIP_impudence FALLEEN_SHIP_ignominy FALLEEN_SHIP_slanderer FALLEEN_SHIP_whisperer FALLEEN_SHIP_maven FALLEEN_SHIP_vitriol FALLEEN_SHIP_raider FALLEEN_SHIP_shipcracker FALLEEN_SHIP_implication FALLEEN_SHIP_capo FALLEEN_SHIP_right_hand FALLEEN_SHIP_left_hand FALLEEN_SHIP_big_boss FALLEEN_SHIP_godfather FALLEEN_SHIP_godmother FALLEEN_SHIP_made_man FALLEEN_SHIP_wook_s_charm FALLEEN_SHIP_silent_goodbye FALLEEN_SHIP_goodnight FALLEEN_SHIP_kneecapper FALLEEN_SHIP_tail_snapper FALLEEN_SHIP_protection_money FALLEEN_SHIP_air_quotes FALLEEN_SHIP_payoff FALLEEN_SHIP_payback FALLEEN_SHIP_waste_manager FALLEEN_SHIP_ill_omen FALLEEN_SHIP_heavy_hitter FALLEEN_SHIP_dame FALLEEN_SHIP_fait_accompli FALLEEN_SHIP_irreversible FALLEEN_SHIP_indebted FALLEEN_SHIP_quiet_knife FALLEEN_SHIP_racket FALLEEN_SHIP_cosa_nostra FALLEEN_SHIP_salvatore FALLEEN_SHIP_masseria FALLEEN_SHIP_rizzuti_s_end FALLEEN_SHIP_blood_water FALLEEN_SHIP_don_of_civilization FALLEEN_SHIP_corleone FALLEEN_SHIP_heartbreak_kid FALLEEN_SHIP_associate FALLEEN_SHIP_duracrete_shoe FALLEEN_SHIP_clipper FALLEEN_SHIP_code_of_silence FALLEEN_SHIP_consigliere FALLEEN_SHIP_cugine FALLEEN_SHIP_earner FALLEEN_SHIP_initiator FALLEEN_SHIP_message_job FALLEEN_SHIP_oathbound FALLEEN_SHIP_temporary_reprieve FALLEEN_SHIP_shy_prince FALLEEN_SHIP_underboss FALLEEN_SHIP_vigorish FALLEEN_SHIP_second_nephew FALLEEN_SHIP_falleen_s_fury FALLEEN_SHIP_falleen_s_fist FALLEEN_SHIP_anzat_one FALLEEN_SHIP_arc_razor FALLEEN_SHIP_azure_queen FALLEEN_SHIP_yanov FALLEEN_SHIP_lupus_maroo FALLEEN_SHIP_virago FALLEEN_SHIP_venomator FALLEEN_SHIP_vendetta FALLEEN_SHIP_stinger FALLEEN_SHIP_scarlet_vertha FALLEEN_SHIP_tragic_flaw FALLEEN_SHIP_raptor FALLEEN_SHIP_rude_awakening FALLEEN_SHIP_racketeer FALLEEN_SHIP_hooligan FALLEEN_SHIP_bedlam FALLEEN_SHIP_desperado FALLEEN_SHIP_ruthless FALLEEN_SHIP_pitiless FALLEEN_SHIP_merciless FALLEEN_SHIP_libertine FALLEEN_SHIP_visible_hand FALLEEN_SHIP_high_jack FALLEEN_SHIP_low_blow FALLEEN_SHIP_lackey FALLEEN_SHIP_rough_hand FALLEEN_SHIP_delinquent FALLEEN_SHIP_derelict FALLEEN_SHIP_dereliction FALLEEN_SHIP_razor_walk FALLEEN_SHIP_hamstringer FALLEEN_SHIP_degenerate FALLEEN_SHIP_profligate FALLEEN_SHIP_shakedown FALLEEN_SHIP_ruffian FALLEEN_SHIP_heist FALLEEN_SHIP_last_caper FALLEEN_SHIP_stickup FALLEEN_SHIP_breakout FALLEEN_SHIP_impulsive FALLEEN_SHIP_concierge FALLEEN_SHIP_liecentious FALLEEN_SHIP_salacious FALLEEN_SHIP_fluid_meaning FALLEEN_SHIP_recumbent_end FALLEEN_SHIP_dirt_nap FALLEEN_SHIP_spoiler FALLEEN_SHIP_recalcitrant FALLEEN_SHIP_strumpet FALLEEN_SHIP_brazen FALLEEN_SHIP_charlatan FALLEEN_SHIP_punishing_one FALLEEN_SHIP_troublemaker FALLEEN_SHIP_assailant FALLEEN_SHIP_disturber FALLEEN_SHIP_extortioner FALLEEN_SHIP_blackmail FALLEEN_SHIP_outlaw FALLEEN_SHIP_stigma FALLEEN_SHIP_innuendo FALLEEN_SHIP_insinuator FALLEEN_SHIP_double_tap FALLEEN_SHIP_gambit FALLEEN_SHIP_ransom FALLEEN_SHIP_malcontent FALLEEN_SHIP_mischevous FALLEEN_SHIP_broken_pike FALLEEN_SHIP_acrimony FALLEEN_SHIP_instigator FALLEEN_SHIP_wanton FALLEEN_SHIP_line_s_end FALLEEN_SHIP_kissed_ring FALLEEN_SHIP_ill_repute FALLEEN_SHIP_crossed_line FALLEEN_SHIP_misery_s_end FALLEEN_SHIP_true_grift FALLEEN_SHIP_sleight_of_hand FALLEEN_SHIP_double_dealer FALLEEN_SHIP_backstab FALLEEN_SHIP_two_timer FALLEEN_SHIP_bad_faith FALLEEN_SHIP_bad_influence FALLEEN_SHIP_underhand FALLEEN_SHIP_infidel FALLEEN_SHIP_artful_dodger FALLEEN_SHIP_sucker_punch FALLEEN_SHIP_shade FALLEEN_SHIP_silence FALLEEN_SHIP_hoaxer FALLEEN_SHIP_harlequin FALLEEN_SHIP_dellarte FALLEEN_SHIP_lazi FALLEEN_SHIP_underboss
+		}
+		swp_bellator = {
+			FALLEEN_SHIP_harlequin FALLEEN_SHIP_ill_omen FALLEEN_SHIP_vendetta FALLEEN_SHIP_black_eye FALLEEN_SHIP_opprobrium FALLEEN_SHIP_godfather FALLEEN_SHIP_falleen_s_fist FALLEEN_SHIP_punisher
+		}
+		science = {
+			FALLEEN_SHIP_python FALLEEN_SHIP_viper FALLEEN_SHIP_garter FALLEEN_SHIP_cobra FALLEEN_SHIP_anaconda FALLEEN_SHIP_scylla FALLEEN_SHIP_mamba FALLEEN_SHIP_taipani FALLEEN_SHIP_eminence FALLEEN_SHIP_astute FALLEEN_SHIP_alacrity FALLEEN_SHIP_asp FALLEEN_SHIP_bonarro FALLEEN_SHIP_zolombo FALLEEN_SHIP_chimbino FALLEEN_SHIP_negovese FALLEEN_SHIP_lucbrie FALLEEN_SHIP_pentad FALLEEN_SHIP_viddari FALLEEN_SHIP_vagabond FALLEEN_SHIP_pentito FALLEEN_SHIP_dragnheta FALLEEN_SHIP_famorra FALLEEN_SHIP_korwickesi FALLEEN_SHIP_pathfinder FALLEEN_SHIP_handdio FALLEEN_SHIP_commissioner
+		}
+		colonizer = {
+			FALLEEN_SHIP_expansion FALLEEN_SHIP_territorial FALLEEN_SHIP_manifest_destiny FALLEEN_SHIP_claimant FALLEEN_SHIP_potential FALLEEN_SHIP_expansion FALLEEN_SHIP_pioneer_spirit FALLEEN_SHIP_prosperity FALLEEN_SHIP_taker FALLEEN_SHIP_pinnacle FALLEEN_SHIP_seeder FALLEEN_SHIP_harvest FALLEEN_SHIP_possessor FALLEEN_SHIP_franchise FALLEEN_SHIP_consumer FALLEEN_SHIP_exodus FALLEEN_SHIP_foundation FALLEEN_SHIP_scion FALLEEN_SHIP_progeny FALLEEN_SHIP_obligation FALLEEN_SHIP_purpose FALLEEN_SHIP_provider FALLEEN_SHIP_nova_city FALLEEN_SHIP_acquirer FALLEEN_SHIP_cultivator FALLEEN_SHIP_dawn_of_falleen FALLEEN_SHIP_purity FALLEEN_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			FALLEEN_SHIP_expansion FALLEEN_SHIP_territorial FALLEEN_SHIP_manifest_destiny FALLEEN_SHIP_claimant FALLEEN_SHIP_potential FALLEEN_SHIP_expansion FALLEEN_SHIP_pioneer_spirit FALLEEN_SHIP_prosperity FALLEEN_SHIP_taker FALLEEN_SHIP_pinnacle FALLEEN_SHIP_seeder FALLEEN_SHIP_harvest FALLEEN_SHIP_possessor FALLEEN_SHIP_franchise FALLEEN_SHIP_consumer FALLEEN_SHIP_exodus FALLEEN_SHIP_foundation FALLEEN_SHIP_scion FALLEEN_SHIP_progeny FALLEEN_SHIP_obligation FALLEEN_SHIP_purpose FALLEEN_SHIP_provider FALLEEN_SHIP_nova_city FALLEEN_SHIP_acquirer FALLEEN_SHIP_cultivator FALLEEN_SHIP_dawn_of_falleen FALLEEN_SHIP_purity FALLEEN_SHIP_brotherhood
+		}
+		constructor = {
+			FALLEEN_SHIP_industry FALLEEN_SHIP_assiduity FALLEEN_SHIP_effort FALLEEN_SHIP_laborer FALLEEN_SHIP_builder FALLEEN_SHIP_craftsman FALLEEN_SHIP_riina FALLEEN_SHIP_progress FALLEEN_SHIP_engineer FALLEEN_SHIP_promise FALLEEN_SHIP_service FALLEEN_SHIP_shelter FALLEEN_SHIP_beast FALLEEN_SHIP_creator FALLEEN_SHIP_developer FALLEEN_SHIP_forger FALLEEN_SHIP_foundry FALLEEN_SHIP_factory FALLEEN_SHIP_anvil FALLEEN_SHIP_pillar FALLEEN_SHIP_architect FALLEEN_SHIP_accommodator FALLEEN_SHIP_ptah FALLEEN_SHIP_ilmarinen FALLEEN_SHIP_creidhne FALLEEN_SHIP_gobannus FALLEEN_SHIP_luchtaine FALLEEN_SHIP_goibniu FALLEEN_SHIP_mook FALLEEN_SHIP_stiff FALLEEN_SHIP_workship FALLEEN_SHIP_erector FALLEEN_SHIP_colossi FALLEEN_SHIP_palazzo
+		}
+		transport = {
+			FALLEEN_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			FALLEEN_SHIP_spacegun_victory FALLEEN_SHIP_spacegun_success FALLEEN_SHIP_spacegun_supremacy FALLEEN_SHIP_spacegun_superior FALLEEN_SHIP_spacegun_adventure FALLEEN_SHIP_spacegun_ascendancy FALLEEN_SHIP_spacegun_paramount FALLEEN_SHIP_spacegun_preponderous FALLEEN_SHIP_spacegun_exemplary FALLEEN_SHIP_spacegun_eximious FALLEEN_SHIP_spacegun_pertinacity FALLEEN_SHIP_spacegun_acclaim FALLEEN_SHIP_spacegun_honor FALLEEN_SHIP_spacegun_renown FALLEEN_SHIP_spacegun_glory FALLEEN_SHIP_spacegun_superb FALLEEN_SHIP_spacegun_magnificence FALLEEN_SHIP_spacegun_majestic FALLEEN_SHIP_spacegun_splendor FALLEEN_SHIP_spacegun_paradigm FALLEEN_SHIP_spacegun_flawless FALLEEN_SHIP_spacegun_consummate FALLEEN_SHIP_spacegun_merit FALLEEN_SHIP_spacegun_perfection FALLEEN_SHIP_spacegun_virtue FALLEEN_SHIP_spacegun_advantage FALLEEN_SHIP_spacegun_rectitude FALLEEN_SHIP_spacegun_incorruptible FALLEEN_SHIP_spacegun_integrity FALLEEN_SHIP_spacegun_justice FALLEEN_SHIP_spacegun_probity FALLEEN_SHIP_spacegun_prudence FALLEEN_SHIP_spacegun_purity FALLEEN_SHIP_spacegun_resolute FALLEEN_SHIP_spacegun_dignity FALLEEN_SHIP_spacegun_distinction FALLEEN_SHIP_spacegun_excellence FALLEEN_SHIP_spacegun_faithful FALLEEN_SHIP_spacegun_discipline FALLEEN_SHIP_spacegun_steadfast FALLEEN_SHIP_spacegun_recompense FALLEEN_SHIP_spacegun_requiem FALLEEN_SHIP_spacegun_courage FALLEEN_SHIP_spacegun_valor FALLEEN_SHIP_spacegun_gallant FALLEEN_SHIP_spacegun_daring FALLEEN_SHIP_spacegun_constancy FALLEEN_SHIP_spacegun_perseverence FALLEEN_SHIP_spacegun_tenacity FALLEEN_SHIP_spacegun_sedulity FALLEEN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			FALLEEN_SHIP_spacegun_victory FALLEEN_SHIP_spacegun_success FALLEEN_SHIP_spacegun_supremacy FALLEEN_SHIP_spacegun_superior FALLEEN_SHIP_spacegun_adventure FALLEEN_SHIP_spacegun_ascendancy FALLEEN_SHIP_spacegun_paramount FALLEEN_SHIP_spacegun_preponderous FALLEEN_SHIP_spacegun_exemplary FALLEEN_SHIP_spacegun_eximious FALLEEN_SHIP_spacegun_pertinacity FALLEEN_SHIP_spacegun_acclaim FALLEEN_SHIP_spacegun_honor FALLEEN_SHIP_spacegun_renown FALLEEN_SHIP_spacegun_glory FALLEEN_SHIP_spacegun_superb FALLEEN_SHIP_spacegun_magnificence FALLEEN_SHIP_spacegun_majestic FALLEEN_SHIP_spacegun_splendor FALLEEN_SHIP_spacegun_paradigm FALLEEN_SHIP_spacegun_flawless FALLEEN_SHIP_spacegun_consummate FALLEEN_SHIP_spacegun_merit FALLEEN_SHIP_spacegun_perfection FALLEEN_SHIP_spacegun_virtue FALLEEN_SHIP_spacegun_advantage FALLEEN_SHIP_spacegun_rectitude FALLEEN_SHIP_spacegun_incorruptible FALLEEN_SHIP_spacegun_integrity FALLEEN_SHIP_spacegun_justice FALLEEN_SHIP_spacegun_probity FALLEEN_SHIP_spacegun_prudence FALLEEN_SHIP_spacegun_purity FALLEEN_SHIP_spacegun_resolute FALLEEN_SHIP_spacegun_dignity FALLEEN_SHIP_spacegun_distinction FALLEEN_SHIP_spacegun_excellence FALLEEN_SHIP_spacegun_faithful FALLEEN_SHIP_spacegun_discipline FALLEEN_SHIP_spacegun_steadfast FALLEEN_SHIP_spacegun_recompense FALLEEN_SHIP_spacegun_requiem FALLEEN_SHIP_spacegun_courage FALLEEN_SHIP_spacegun_valor FALLEEN_SHIP_spacegun_gallant FALLEEN_SHIP_spacegun_daring FALLEEN_SHIP_spacegun_constancy FALLEEN_SHIP_spacegun_perseverence FALLEEN_SHIP_spacegun_tenacity FALLEEN_SHIP_spacegun_sedulity FALLEEN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			FALLEEN_SHIP_spacegun_victory FALLEEN_SHIP_spacegun_success FALLEEN_SHIP_spacegun_supremacy FALLEEN_SHIP_spacegun_superior FALLEEN_SHIP_spacegun_adventure FALLEEN_SHIP_spacegun_ascendancy FALLEEN_SHIP_spacegun_paramount FALLEEN_SHIP_spacegun_preponderous FALLEEN_SHIP_spacegun_exemplary FALLEEN_SHIP_spacegun_eximious FALLEEN_SHIP_spacegun_pertinacity FALLEEN_SHIP_spacegun_acclaim FALLEEN_SHIP_spacegun_honor FALLEEN_SHIP_spacegun_renown FALLEEN_SHIP_spacegun_glory FALLEEN_SHIP_spacegun_superb FALLEEN_SHIP_spacegun_magnificence FALLEEN_SHIP_spacegun_majestic FALLEEN_SHIP_spacegun_splendor FALLEEN_SHIP_spacegun_paradigm FALLEEN_SHIP_spacegun_flawless FALLEEN_SHIP_spacegun_consummate FALLEEN_SHIP_spacegun_merit FALLEEN_SHIP_spacegun_perfection FALLEEN_SHIP_spacegun_virtue FALLEEN_SHIP_spacegun_advantage FALLEEN_SHIP_spacegun_rectitude FALLEEN_SHIP_spacegun_incorruptible FALLEEN_SHIP_spacegun_integrity FALLEEN_SHIP_spacegun_justice FALLEEN_SHIP_spacegun_probity FALLEEN_SHIP_spacegun_prudence FALLEEN_SHIP_spacegun_purity FALLEEN_SHIP_spacegun_resolute FALLEEN_SHIP_spacegun_dignity FALLEEN_SHIP_spacegun_distinction FALLEEN_SHIP_spacegun_excellence FALLEEN_SHIP_spacegun_faithful FALLEEN_SHIP_spacegun_discipline FALLEEN_SHIP_spacegun_steadfast FALLEEN_SHIP_spacegun_recompense FALLEEN_SHIP_spacegun_requiem FALLEEN_SHIP_spacegun_courage FALLEEN_SHIP_spacegun_valor FALLEEN_SHIP_spacegun_gallant FALLEEN_SHIP_spacegun_daring FALLEEN_SHIP_spacegun_constancy FALLEEN_SHIP_spacegun_perseverence FALLEEN_SHIP_spacegun_tenacity FALLEEN_SHIP_spacegun_sedulity FALLEEN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			FALLEEN_SHIP_citadel FALLEEN_SHIP_albacore FALLEEN_SHIP_gateway FALLEEN_SHIP_vincent FALLEEN_SHIP_babylon FALLEEN_SHIP_caernavon FALLEEN_SHIP_acre FALLEEN_SHIP_pembroke FALLEEN_SHIP_acheron FALLEEN_SHIP_spithead FALLEEN_SHIP_halifax FALLEEN_SHIP_victoria FALLEEN_SHIP_chatham FALLEEN_SHIP_anchorage FALLEEN_SHIP_scapa_flow FALLEEN_SHIP_hampton_roads FALLEEN_SHIP_brooklyn FALLEEN_SHIP_norfolk FALLEEN_SHIP_newport FALLEEN_SHIP_guam FALLEEN_SHIP_pensacola FALLEEN_SHIP_vesuvius FALLEEN_SHIP_mckinley FALLEEN_SHIP_everest FALLEEN_SHIP_kilimanjaro FALLEEN_SHIP_aconcagua FALLEEN_SHIP_elbrus FALLEEN_SHIP_st__helens FALLEEN_SHIP_fuji FALLEEN_SHIP_olympus FALLEEN_SHIP_sinai FALLEEN_SHIP_ambrose FALLEEN_SHIP_bermuda FALLEEN_SHIP_farpoint FALLEEN_SHIP_blue_star FALLEEN_SHIP_olympus_mons FALLEEN_SHIP_tharsis FALLEEN_SHIP_syrtis FALLEEN_SHIP_blackham FALLEEN_SHIP_fletcher FALLEEN_SHIP_perry FALLEEN_SHIP_butakov FALLEEN_SHIP_morris FALLEEN_SHIP_moorsom FALLEEN_SHIP_hart FALLEEN_SHIP_hargood FALLEEN_SHIP_spruance FALLEEN_SHIP_tanaka FALLEEN_SHIP_halsey FALLEEN_SHIP_turner FALLEEN_SHIP_doria FALLEEN_SHIP_tirpitz FALLEEN_SHIP_cunningham FALLEEN_SHIP_jellicoe FALLEEN_SHIP_hipper FALLEEN_SHIP_beatty FALLEEN_SHIP_potemkin FALLEEN_SHIP_durham FALLEEN_SHIP_codrington FALLEEN_SHIP_milne FALLEEN_SHIP_laforey FALLEEN_SHIP_tyler FALLEEN_SHIP_hawke FALLEEN_SHIP_yonai FALLEEN_SHIP_pound FALLEEN_SHIP_king FALLEEN_SHIP_crutchley FALLEEN_SHIP_mountbatten FALLEEN_SHIP_kountouriotis FALLEEN_SHIP_kuznetsov FALLEEN_SHIP_essen FALLEEN_SHIP_kornilov FALLEEN_SHIP_suffren FALLEEN_SHIP_treville FALLEEN_SHIP_villeneuve FALLEEN_SHIP_grasse FALLEEN_SHIP_byng FALLEEN_SHIP_lezo
+		}
+		ion_cannon = {
+			FALLEEN_SHIP_bombard FALLEEN_SHIP_ballista FALLEEN_SHIP_catapult FALLEEN_SHIP_harpoon FALLEEN_SHIP_polybolos FALLEEN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			FALLEEN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			FALLEEN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			FALLEEN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			FALLEEN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			FALLEEN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			FALLEEN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			FALLEEN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			FALLEEN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			FALLEEN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			FALLEEN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			FALLEEN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			FALLEEN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			FALLEEN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			FALLEEN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			FALLEEN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			FALLEEN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			FALLEEN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			FALLEEN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			FALLEEN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			FALLEEN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			FALLEEN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			FALLEEN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			FALLEEN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			FALLEEN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			FALLEEN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			FALLEEN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			FALLEEN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			FALLEEN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			FALLEEN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			FALLEEN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			FALLEEN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			FALLEEN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			FALLEEN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			FALLEEN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			FALLEEN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			FALLEEN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			FALLEEN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			FALLEEN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			FALLEEN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			FALLEEN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			FALLEEN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			FALLEEN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			FALLEEN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			FALLEEN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			FALLEEN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			FALLEEN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			FALLEEN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			FALLEEN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			FALLEEN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			FALLEEN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			FALLEEN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			FALLEEN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			FALLEEN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			FALLEEN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			FALLEEN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			FALLEEN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			FALLEEN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			FALLEEN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			FALLEEN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			FALLEEN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			FALLEEN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			FALLEEN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			FALLEEN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			FALLEEN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			FALLEEN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			FALLEEN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			FALLEEN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			FALLEEN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			FALLEEN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			FALLEEN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			FALLEEN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			FALLEEN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			FALLEEN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			FALLEEN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			FALLEEN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			FALLEEN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			FALLEEN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			FALLEEN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			FALLEEN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			FALLEEN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			FALLEEN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			FALLEEN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			FALLEEN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			FALLEEN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			FALLEEN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			FALLEEN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			FALLEEN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			FALLEEN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			FALLEEN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			FALLEEN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			FALLEEN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			FALLEEN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			FALLEEN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			FALLEEN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		random_names = {
+			FALLEEN_FLEET_black_cabal FALLEEN_FLEET_ebon_cabal FALLEEN_FLEET_onyx_cabal FALLEEN_FLEET_obsidian_cabal FALLEEN_FLEET_sable_cabal FALLEEN_FLEET_ashen_cabal FALLEEN_FLEET_gray_cabal FALLEEN_FLEET_dusk_cabal FALLEEN_FLEET_midnight_cabal FALLEEN_FLEET_raven_cabal FALLEEN_FLEET_sunless_cabal FALLEEN_FLEET_shadow_cabal
+		}
+		sequential_name = FALLEEN_FLEET_cabal_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = FALLEEN_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = FALLEEN_ARMY_death_squad_ORD
+		}
+		slave_army = {
+			sequential_name = FALLEEN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = FALLEEN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = FALLEEN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = FALLEEN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = FALLEEN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = FALLEEN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				FALLEEN_ARMY_sarc_a__gladiators_ FALLEEN_ARMY_sarc_b__widowmakers_ FALLEEN_ARMY_sarc_c__immortals_ FALLEEN_ARMY_sarc_d__berserkers_ FALLEEN_ARMY_sarc_e__assassins_ FALLEEN_ARMY_sarc_f__reapers_ FALLEEN_ARMY_sarc_g__nighthawks_ FALLEEN_ARMY_sarc_h__desperados_ FALLEEN_ARMY_sarc_i__grey_knights_ FALLEEN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = FALLEEN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = FALLEEN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = FALLEEN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = FALLEEN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = FALLEEN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FALLEEN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = FALLEEN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = FALLEEN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = FALLEEN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = FALLEEN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = FALLEEN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = FALLEEN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = FALLEEN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = FALLEEN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = FALLEEN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = FALLEEN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = FALLEEN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = FALLEEN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = FALLEEN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = FALLEEN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = FALLEEN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = FALLEEN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = FALLEEN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = FALLEEN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = FALLEEN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = FALLEEN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = FALLEEN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = FALLEEN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = FALLEEN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = FALLEEN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = FALLEEN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = FALLEEN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = FALLEEN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = FALLEEN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = FALLEEN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = FALLEEN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = FALLEEN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = FALLEEN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = FALLEEN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = FALLEEN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = FALLEEN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = FALLEEN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = FALLEEN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = FALLEEN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = FALLEEN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = FALLEEN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = FALLEEN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = FALLEEN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = FALLEEN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = FALLEEN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = FALLEEN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = FALLEEN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = FALLEEN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = FALLEEN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = FALLEEN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = FALLEEN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = FALLEEN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = FALLEEN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = FALLEEN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = FALLEEN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = FALLEEN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = FALLEEN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = FALLEEN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = FALLEEN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = FALLEEN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = FALLEEN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = FALLEEN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = FALLEEN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = FALLEEN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = FALLEEN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = FALLEEN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = FALLEEN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = FALLEEN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = FALLEEN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = FALLEEN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = FALLEEN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = FALLEEN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = FALLEEN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = FALLEEN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = FALLEEN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = FALLEEN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = FALLEEN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = FALLEEN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = FALLEEN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = FALLEEN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = FALLEEN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = FALLEEN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = FALLEEN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = FALLEEN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = FALLEEN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = FALLEEN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = FALLEEN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = FALLEEN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = FALLEEN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = FALLEEN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = FALLEEN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = FALLEEN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = FALLEEN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = FALLEEN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = FALLEEN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = FALLEEN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = FALLEEN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = FALLEEN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = FALLEEN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = FALLEEN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = FALLEEN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = FALLEEN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = FALLEEN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = FALLEEN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = FALLEEN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = FALLEEN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = FALLEEN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = FALLEEN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = FALLEEN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = FALLEEN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = FALLEEN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = FALLEEN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = FALLEEN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = FALLEEN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = FALLEEN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = FALLEEN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = FALLEEN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = FALLEEN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = FALLEEN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = FALLEEN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = FALLEEN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = FALLEEN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = FALLEEN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = FALLEEN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = FALLEEN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = FALLEEN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = FALLEEN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = FALLEEN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				FALLEEN_CHR_haxim FALLEEN_CHR_xomit FALLEEN_CHR_kel FALLEEN_CHR_zenex FALLEEN_CHR_thann FALLEEN_CHR_abraxis FALLEEN_CHR_livintius FALLEEN_CHR_xerda FALLEEN_CHR_carth FALLEEN_CHR_kir FALLEEN_CHR_mebba FALLEEN_CHR_dagos FALLEEN_CHR_xad FALLEEN_CHR_xist FALLEEN_CHR_forren FALLEEN_CHR_kavarros FALLEEN_CHR_jeho FALLEEN_CHR_lee FALLEEN_CHR_varko FALLEEN_CHR_milo FALLEEN_CHR_aeron FALLEEN_CHR_byrec FALLEEN_CHR_strata FALLEEN_CHR_kanzin FALLEEN_CHR_zeak FALLEEN_CHR_niuk FALLEEN_CHR_savren FALLEEN_CHR_xavran FALLEEN_CHR_valek FALLEEN_CHR_aran FALLEEN_CHR_valis FALLEEN_CHR_zeven FALLEEN_CHR_yakown FALLEEN_CHR_sibar FALLEEN_CHR_sairix FALLEEN_CHR_klai FALLEEN_CHR_vuras FALLEEN_CHR_imay FALLEEN_CHR_traest FALLEEN_CHR_sarkli FALLEEN_CHR_carth FALLEEN_CHR_riyan FALLEEN_CHR_kavren FALLEEN_CHR_sarek FALLEEN_CHR_xato FALLEEN_CHR_silus FALLEEN_CHR_kej FALLEEN_CHR_vago FALLEEN_CHR_kanzin FALLEEN_CHR_kallyx FALLEEN_CHR_annor FALLEEN_CHR_ulas FALLEEN_CHR_sakal FALLEEN_CHR_tal FALLEEN_CHR_korax FALLEEN_CHR_torin FALLEEN_CHR_imay FALLEEN_CHR_karn FALLEEN_CHR_davith FALLEEN_CHR_jorgen FALLEEN_CHR_bertos FALLEEN_CHR_corrus FALLEEN_CHR_malius FALLEEN_CHR_kale FALLEEN_CHR_xandros FALLEEN_CHR_kalen FALLEEN_CHR_zekk FALLEEN_CHR_trezza FALLEEN_CHR_valhoun FALLEEN_CHR_gentti FALLEEN_CHR_xu_sien FALLEEN_CHR_vaux FALLEEN_CHR_verxes FALLEEN_CHR_sidias FALLEEN_CHR_haken FALLEEN_CHR_zyn FALLEEN_CHR_vidown FALLEEN_CHR_vares FALLEEN_CHR_xithan FALLEEN_CHR_cul_utaan FALLEEN_CHR_varys FALLEEN_CHR_xim FALLEEN_CHR_vossi FALLEEN_CHR_abric FALLEEN_CHR_darg FALLEEN_CHR_gaman FALLEEN_CHR_vaxherub FALLEEN_CHR_marius FALLEEN_CHR_zherron FALLEEN_CHR_zetha FALLEEN_CHR_xan FALLEEN_CHR_ver FALLEEN_CHR_cric FALLEEN_CHR_foxdi FALLEEN_CHR_xandral FALLEEN_CHR_xander FALLEEN_CHR_baz FALLEEN_CHR_zuud FALLEEN_CHR_erek FALLEEN_CHR_zon FALLEEN_CHR_karrst FALLEEN_CHR_varl FALLEEN_CHR_vanukar FALLEEN_CHR_talan FALLEEN_CHR_varell FALLEEN_CHR_kannon FALLEEN_CHR_kaden FALLEEN_CHR_sarev FALLEEN_CHR_xargon FALLEEN_CHR_zeto FALLEEN_CHR_zhios FALLEEN_CHR_xarga FALLEEN_CHR_flash FALLEEN_CHR_waseem FALLEEN_CHR_bendak FALLEEN_CHR_kaz FALLEEN_CHR_vrath FALLEEN_CHR_zellos FALLEEN_CHR_silus FALLEEN_CHR_xalven FALLEEN_CHR_vincenzo FALLEEN_CHR_zhou FALLEEN_CHR_rebar FALLEEN_CHR_vander FALLEEN_CHR_aramil FALLEEN_CHR_abraxis FALLEEN_CHR_vandro FALLEEN_CHR_caalin FALLEEN_CHR_vanth FALLEEN_CHR_vikar FALLEEN_CHR_zan FALLEEN_CHR_zentilo FALLEEN_CHR_vasp FALLEEN_CHR_predor FALLEEN_CHR_tarlson FALLEEN_CHR_boaz FALLEEN_CHR_zem FALLEEN_CHR_zander FALLEEN_CHR_raltharan FALLEEN_CHR_zerrid FALLEEN_CHR_zharen FALLEEN_CHR_sogan FALLEEN_CHR_varek FALLEEN_CHR_svante FALLEEN_CHR_tesvalo FALLEEN_CHR_xar_me FALLEEN_CHR_dekar FALLEEN_CHR_varazen FALLEEN_CHR_varak FALLEEN_CHR_zadran FALLEEN_CHR_kaddreth FALLEEN_CHR_zyix
+			}
+			first_names_female = {
+				FALLEEN_CHR_savan FALLEEN_CHR_obs FALLEEN_CHR_sizhran FALLEEN_CHR_kamlin FALLEEN_CHR_mylla FALLEEN_CHR_seena FALLEEN_CHR_areta FALLEEN_CHR_natua FALLEEN_CHR_xora FALLEEN_CHR_nile FALLEEN_CHR_kiyfi FALLEEN_CHR_kasmyn FALLEEN_CHR_satra FALLEEN_CHR_shehish FALLEEN_CHR_sarna FALLEEN_CHR_krava FALLEEN_CHR_mavari FALLEEN_CHR_xishel FALLEEN_CHR_aqua FALLEEN_CHR_maryna FALLEEN_CHR_essaj FALLEEN_CHR_varda FALLEEN_CHR_teeana FALLEEN_CHR_raena FALLEEN_CHR_xula FALLEEN_CHR_vifi FALLEEN_CHR_vania FALLEEN_CHR_jeanida FALLEEN_CHR_aerena FALLEEN_CHR_nataya FALLEEN_CHR_vernida FALLEEN_CHR_kavala FALLEEN_CHR_karella FALLEEN_CHR_sirra FALLEEN_CHR_variise FALLEEN_CHR_varla FALLEEN_CHR_xuss FALLEEN_CHR_riema FALLEEN_CHR_erri FALLEEN_CHR_shanna FALLEEN_CHR_lyra FALLEEN_CHR_valera FALLEEN_CHR_zenoc FALLEEN_CHR_zera FALLEEN_CHR_viqi FALLEEN_CHR_hadriel FALLEEN_CHR_vixtra FALLEEN_CHR_selena FALLEEN_CHR_zana FALLEEN_CHR_tuija FALLEEN_CHR_railin FALLEEN_CHR_sassi FALLEEN_CHR_shyon FALLEEN_CHR_zelen FALLEEN_CHR_rylla FALLEEN_CHR_kavara FALLEEN_CHR_vau FALLEEN_CHR_zema FALLEEN_CHR_xanta FALLEEN_CHR_kazala FALLEEN_CHR_aama FALLEEN_CHR_shorya FALLEEN_CHR_melfina FALLEEN_CHR_davessi FALLEEN_CHR_larana FALLEEN_CHR_xaverri FALLEEN_CHR_nola FALLEEN_CHR_xanda FALLEEN_CHR_jauhzmynn FALLEEN_CHR_zyna FALLEEN_CHR_xevrina FALLEEN_CHR_yana FALLEEN_CHR_zoras FALLEEN_CHR_ree FALLEEN_CHR_grace FALLEEN_CHR_tantema FALLEEN_CHR_van FALLEEN_CHR_una FALLEEN_CHR_dalharil FALLEEN_CHR_xerna FALLEEN_CHR_sovi FALLEEN_CHR_sartya FALLEEN_CHR_vucora FALLEEN_CHR_xasha FALLEEN_CHR_joi FALLEEN_CHR_stryka FALLEEN_CHR_tantema FALLEEN_CHR_shandra FALLEEN_CHR_zilpha FALLEEN_CHR_veraslayn FALLEEN_CHR_karin FALLEEN_CHR_siala FALLEEN_CHR_reki FALLEEN_CHR_maydla FALLEEN_CHR_mavari FALLEEN_CHR_kiandra FALLEEN_CHR_xilaren FALLEEN_CHR_zulara FALLEEN_CHR_viehenda FALLEEN_CHR_karissa FALLEEN_CHR_zilar FALLEEN_CHR_haruko FALLEEN_CHR_kana FALLEEN_CHR_liana FALLEEN_CHR_rale FALLEEN_CHR_megara FALLEEN_CHR_aria FALLEEN_CHR_akiva FALLEEN_CHR_nalah FALLEEN_CHR_erlem FALLEEN_CHR_nali FALLEEN_CHR_fallah FALLEEN_CHR_kotrana FALLEEN_CHR_aayla FALLEEN_CHR_kalira FALLEEN_CHR_arani FALLEEN_CHR_zota FALLEEN_CHR_lyyr FALLEEN_CHR_arcas FALLEEN_CHR_rane FALLEEN_CHR_nayru FALLEEN_CHR_zylas FALLEEN_CHR_vexa FALLEEN_CHR_kana FALLEEN_CHR_xea
+			}
+			second_names = {
+				FALLEEN_CHR_grunseit FALLEEN_CHR_kaj FALLEEN_CHR_wahia FALLEEN_CHR_mithric FALLEEN_CHR_unic FALLEEN_CHR_xiss FALLEEN_CHR_nakcohh FALLEEN_CHR_vitaan FALLEEN_CHR_varo FALLEEN_CHR_daklan FALLEEN_CHR_kenzee FALLEEN_CHR_kamiroz FALLEEN_CHR_thegas FALLEEN_CHR_moryne FALLEEN_CHR_valda FALLEEN_CHR_sato FALLEEN_CHR_vekozev FALLEEN_CHR_zykken FALLEEN_CHR_sassich FALLEEN_CHR_zo FALLEEN_CHR_lasek FALLEEN_CHR_valladian FALLEEN_CHR_zuma FALLEEN_CHR_vane FALLEEN_CHR_wan FALLEEN_CHR_kallyx FALLEEN_CHR_vandro FALLEEN_CHR_vanten FALLEEN_CHR_valkaz FALLEEN_CHR_zirkonn FALLEEN_CHR_rar FALLEEN_CHR_sartoris FALLEEN_CHR_kessler FALLEEN_CHR_shaia FALLEEN_CHR_zo_tannath FALLEEN_CHR_zar FALLEEN_CHR_vrieska FALLEEN_CHR_zackin FALLEEN_CHR_sazek FALLEEN_CHR_zian FALLEEN_CHR_zett FALLEEN_CHR_kang FALLEEN_CHR_nalto FALLEEN_CHR_zural FALLEEN_CHR_dubreas FALLEEN_CHR_colsan FALLEEN_CHR_zhanks FALLEEN_CHR_solon FALLEEN_CHR_merquise FALLEEN_CHR_varn FALLEEN_CHR_basai FALLEEN_CHR_vallan FALLEEN_CHR_xanosro FALLEEN_CHR_elyxsar FALLEEN_CHR_zindalai FALLEEN_CHR_slahlvo FALLEEN_CHR_remex FALLEEN_CHR_sarreti FALLEEN_CHR_xan FALLEEN_CHR_xandret FALLEEN_CHR_dago FALLEEN_CHR_moj FALLEEN_CHR_stithta FALLEEN_CHR_ker FALLEEN_CHR_zenfrei FALLEEN_CHR_klakk FALLEEN_CHR_zhorrid FALLEEN_CHR_lefex FALLEEN_CHR_minn FALLEEN_CHR_irokini FALLEEN_CHR_zin_zula FALLEEN_CHR_danakar FALLEEN_CHR_zenlav FALLEEN_CHR_xrexus FALLEEN_CHR_shenuri FALLEEN_CHR_corcer FALLEEN_CHR_zin FALLEEN_CHR_wan FALLEEN_CHR_tagratt FALLEEN_CHR_golladio FALLEEN_CHR_xarran FALLEEN_CHR_xodell FALLEEN_CHR_zentis FALLEEN_CHR_valn FALLEEN_CHR_ziering FALLEEN_CHR_valan FALLEEN_CHR_angavel FALLEEN_CHR_tyrnith FALLEEN_CHR_zothip FALLEEN_CHR_kelbier FALLEEN_CHR_valoruk FALLEEN_CHR_zsing FALLEEN_CHR_tisa FALLEEN_CHR_xion FALLEEN_CHR_soylon FALLEEN_CHR_lerann FALLEEN_CHR_chro FALLEEN_CHR_ziam FALLEEN_CHR_zell FALLEEN_CHR_zenzo FALLEEN_CHR_vekarr FALLEEN_CHR_thegas FALLEEN_CHR_zokar FALLEEN_CHR_thiddex FALLEEN_CHR_zorn FALLEEN_CHR_selkayim FALLEEN_CHR_zibsara FALLEEN_CHR_dhuramav FALLEEN_CHR_kodd FALLEEN_CHR_morin FALLEEN_CHR_kobylarz FALLEEN_CHR_tade FALLEEN_CHR_zhord FALLEEN_CHR_bintaghr FALLEEN_CHR_zev FALLEEN_CHR_precore FALLEEN_CHR_solborne FALLEEN_CHR_sarne FALLEEN_CHR_katarn FALLEEN_CHR_anjek FALLEEN_CHR_zmittri FALLEEN_CHR_kast FALLEEN_CHR_airerith FALLEEN_CHR_tarrid FALLEEN_CHR_ziemba FALLEEN_CHR_zho FALLEEN_CHR_jalba FALLEEN_CHR_benn FALLEEN_CHR_haruhana FALLEEN_CHR_roice FALLEEN_CHR_lokar FALLEEN_CHR_korpil FALLEEN_CHR_turon FALLEEN_CHR_cavi FALLEEN_CHR_deece FALLEEN_CHR_braitano FALLEEN_CHR_zilnor FALLEEN_CHR_tyandas FALLEEN_CHR_zepwim FALLEEN_CHR_xerk FALLEEN_CHR_kast FALLEEN_CHR_drayven FALLEEN_CHR_zaposug FALLEEN_CHR_zend FALLEEN_CHR_defelice FALLEEN_CHR_zerex FALLEEN_CHR_zey FALLEEN_CHR_sarvool FALLEEN_CHR_hodrren FALLEEN_CHR_xergo FALLEEN_CHR_sarat FALLEEN_CHR_vercet FALLEEN_CHR_zerga FALLEEN_CHR_zudan
+			}
+			regnal_first_names_male = {
+				FALLEEN_CHR_haxim FALLEEN_CHR_zuur FALLEEN_CHR_xad FALLEEN_CHR_xzushal FALLEEN_CHR_xizor FALLEEN_CHR_zenex FALLEEN_CHR_zurros FALLEEN_CHR_ziton FALLEEN_CHR_trezza FALLEEN_CHR_zann FALLEEN_CHR_tanner FALLEEN_CHR_vi FALLEEN_CHR_rush FALLEEN_CHR_danry
+			}
+			regnal_first_names_female = {
+				FALLEEN_CHR_savan FALLEEN_CHR_xora FALLEEN_CHR_xishel FALLEEN_CHR_zule FALLEEN_CHR_xzushal FALLEEN_CHR_senna FALLEEN_CHR_xasha FALLEEN_CHR_bana FALLEEN_CHR_xaverri FALLEEN_CHR_xanya FALLEEN_CHR_xanta FALLEEN_CHR_vixtra FALLEEN_CHR_zexa FALLEEN_CHR_sarna
+			}
+			regnal_second_names = {
+				FALLEEN_CHR_sizhran FALLEEN_CHR_moj FALLEEN_CHR_andrell FALLEEN_CHR_varrak FALLEEN_CHR_xiono FALLEEN_CHR_xizor FALLEEN_CHR_varga FALLEEN_CHR_sarke
+			}
+		}
+	}
+}

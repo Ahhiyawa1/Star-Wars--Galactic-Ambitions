@@ -1,0 +1,1590 @@
+#########################################
+#			Special Countries			#
+#########################################
+# Rebel Alliance
+create_rebel_alliance_country = {
+	create_country = {
+		type = default
+		ignore_initial_colony_error = yes
+		day_zero_contact = no
+		name = "NAME_Rebel_Alliance"
+		adjective = "Rebel Alliance"
+		species = event_target:human_species
+		authority = "auth_rebel"
+		ship_prefix = ""
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_militarist"
+			ethic = "ethic_xenophile"
+		}
+		civics = {
+			civic = "civic_beacon_of_hope"
+			civic = "civic_rebel_sympathy"
+		}
+		origin = "origin_swp_restoration"
+		flag = {
+			icon = { category = "starwars" file = "RebelAlliance.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "red" "red" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = rebel_01
+			set_city_graphical_culture = rebel_01
+			set_country_flag = rebel_alliance
+			set_country_flag = rebel_fed_allowed
+			set_country_flag = rebel_alliance_country
+			set_country_flag = rebel_tech
+			set_country_flag = rebel_alliance_hidden
+			set_country_flag = canon_map
+			save_global_event_target_as = rebel_alliance_empire
+			set_global_flag = rebel_alliance_formed
+			set_adjective = "Alliance"
+			set_ai_personality = freedom_fighters # Resets the personality
+			give_technology = { tech = tech_weapon_color_red }
+			give_technology = { tech = tech_weapon_group_reb }
+			give_technology = { tech = tech_rebel_fighters_1 }
+			give_technology = { tech = tech_reb_hope }
+#			if = { limit = { exists = event_target:senate_loyalists } copy_techs_from = { target = event_target:senate_loyalists } }
+#			if = { limit = { exists = event_target:kingdom_of_alderaan } copy_techs_from = { target = event_target:kingdom_of_alderaan } }
+#			if = { limit = { exists = event_target:mon_cala_monarchy } copy_techs_from = { target = event_target:mon_cala_monarchy } }
+#			if = { limit = { exists = event_target:bothan_council } copy_techs_from = { target = event_target:bothan_council } }
+#			if = { limit = { exists = event_target:ryloth_protectorate } copy_techs_from = { target = event_target:ryloth_protectorate } }
+#			if = { limit = { exists = event_target:verpine_enclave } copy_techs_from = { target = event_target:verpine_enclave } }
+#			#GCW2024 Stage 1: No bonuses, spawn from the start
+#			#add_modifier = { modifier = em_rebel_alliance_hope }
+			## Resources
+			add_resource = {
+				minerals = 5000 energy = 5000 food = 2500 influence = 300 consumer_goods = 1000 alloys = 3000
+				tibanna_gas = 2000 ammunition = 2000 electronics = 3000 hyperfuel = 2500 unity = 6000
+			}
+			create_leader = { class = official species = event_target:human_species }
+			# Scientists
+			create_leader = { class = scientist species = event_target:human_species }
+			create_leader = { class = scientist species = event_target:human_species }
+			# Usually one gets taken as Scienceship Guy
+			create_leader = { class = scientist species = event_target:human_species }
+			create_leader = { class = scientist species = event_target:human_species }
+			set_country_flag = init_spawned
+			# Spawns Construction Ship
+			#create_fleet = {
+			#	effect = {
+			#		set_owner = event_target:rebel_alliance_empire
+			#		create_ship = { name = random random_existing_design = constructor }
+			#		set_location = { target = event_target:yavin_4_planet distance = 45 angle = random }
+			#	}
+			#}
+			## Spawns Science Ship
+			#create_fleet = {
+			#	effect = {
+			#		set_owner = event_target:rebel_alliance_empire
+			#		create_ship = { name = random random_existing_design = science }
+			#		set_location = { target = event_target:yavin_4_planet distance = 95 angle = random }
+			#	}
+			#}
+			#create_leader = { class = commander species = event_target:human_species }
+		}
+	}
+}
+
+# Gar Saxon Khanate 
+create_saxon_khanate_country = {
+	create_country = {
+		type = default
+		ignore_initial_colony_error = yes
+		day_zero_contact = no
+		name = "NAME_Saxon_Khanate"
+		adjective = "Saxon Khanate"
+		species = event_target:mandalorian_species
+		authority = "auth_dictatorial"
+		ship_prefix = ""
+		ethos = {
+			ethic = "ethic_militarist"
+			ethic = "ethic_fanatic_authoritarian"
+		}
+		civics = {
+			civic = "civic_mandalorian_khanate"
+			civic = "civic_warrior_culture"
+		}
+		origin = "origin_swp_mandalorian"
+		flag = {
+			icon = { category = "starwars" file = "MandalorianSector.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1401" "customcolor1401" "null" "null"
+			}
+		}
+		effect = {
+			set_graphical_culture = mando_01
+			set_city_graphical_culture = mando_01
+			set_country_flag = saxon_khanate
+			set_country_flag = mando_tech
+			save_global_event_target_as = gar_saxon_khanate
+			set_global_flag = gar_saxon_khanate_formed
+			set_adjective = "Sector"
+			set_ai_personality = mandalorian_khanate # Resets the personality
+			copy_techs_from = { target = event_target:mandalorian_clans }
+			give_technology = { tech = tech_mando_fighters_1 }
+			give_technology = { tech = tech_weapon_color_yellow }
+			give_technology = { tech = tech_weapon_group_man }
+			add_modifier = { modifier = em_saxon_khanate }
+			# Resources
+			add_resource = {
+				minerals = 5000 energy = 5000 food = 2500 influence = 300 consumer_goods = 1500 alloys = 2500
+				tibanna_gas = 2000 ammunition = 2500 electronics = 2000 hyperfuel = 2500 unity = 3000
+			}
+			create_leader = { class = official species = event_target:mandalorian_species }
+			# Scientists
+			create_leader = { class = scientist sub_type = engineering species = event_target:mandalorian_species }
+			create_leader = { class = scientist sub_type = engineering species = event_target:mandalorian_species }
+			# Usually one gets taken as Scienceship Guy
+			create_leader = { class = scientist sub_type = physics species = event_target:mandalorian_species }
+			create_leader = { class = scientist sub_type = society species = event_target:mandalorian_species }
+			# Spawns Construction Ship
+			create_fleet = {
+				effect = {
+					set_owner = event_target:gar_saxon_khanate
+					create_ship = { name = random random_existing_design = constructor }
+					set_location = { target = event_target:gar_saxon_planet_1 distance = 45 angle = random }
+				}
+			}
+			# Spawns Science Ship
+			create_fleet = {
+				effect = {
+					set_owner = event_target:gar_saxon_khanate
+					create_ship = { name = random random_existing_design = science }
+					set_location = { target = event_target:gar_saxon_planet_1 distance = 95 angle = random }
+				}
+			}
+			create_leader = { class = commander species = this }
+		}
+	}
+}
+
+#Sandpeople on Tatooine
+create_sandpeople_nation = {
+	optimize_memory
+	if = { limit = { NOT = { any_country = { is_country_type = adversary has_country_flag = sandpeople_nation } } }
+		create_species = {
+			name = "NAME_Sandpeople"
+			class = TUS
+			portrait = tusken_raider
+			traits = {
+				trait = trait_nomadic
+				trait = trait_resilient
+				ideal_planet_class = "pc_desert"
+			}
+			homeworld = root
+		}
+		create_country = {
+			name = "NAME_Sandpeople_Nation"
+			species = last_created_species
+			type = adversary
+			ethos = {
+				ethic = "ethic_xenophobe"
+			}
+			auto_delete = no
+			flag = {
+				icon = { category = "zoological" file = "flag_zoological_10.dds" }
+				background= { category = "backgrounds" file = "new_dawn.dds" }
+				colors = { "red" "black" "null" "null" }
+			}
+			effect = {
+				set_country_flag = sandpeople_nation
+				establish_contact = { who = event_target:sandpeople_planet_owner location = root }
+				establish_communications_no_message = event_target:sandpeople_planet_owner
+				save_event_target_as = sandpeople_nation
+				owner_species = { save_event_target_as = sandpeople_species }
+			}
+		}
+	}
+	else_if = { limit = { NOT = { exists = event_target:sandpeople_nation } }
+		random_country = {
+			limit = {
+				is_country_type = adversary
+				has_country_flag = sandpeople_nation
+			}
+			save_event_target_as = sandpeople_nation
+		}
+	}
+}
+
+# Starting shipyard script
+create_starting_shipyard = {
+	save_event_target_as = shipyard_site
+	solar_system = {
+		set_star_flag = sw_shipyard_built
+		spawn_megastructure = {
+			type = swp_$TYPE|orbital$_shipyard_$SIZE|0$
+			coords_from = event_target:shipyard_site
+			owner = $OWNER$
+			graphical_culture = $OWNER$
+		}
+		every_system_megastructure = { limit = { is_megastructure_type = swp_$TYPE|orbital$_shipyard_$SIZE|0$ }
+			set_name = { key = "NAME_megastructure_shipyard_start" variable_string = "\\[shipyard_site.GetName]" }
+		}
+	}
+	set_planet_flag = has_megastructure
+}
+
+create_kingdom_of_alderaan_country = {
+	create_country = {
+		name = "NAME_kingdom_of_alderaan"
+		adjective = PRESCRIPTED_species_adjective_KingdomofAlderaan
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_restoration"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_rebel_sympathy"
+			civic = "civic_idyllic_charm"
+		}
+		authority = auth_oligarchic
+		ethos = {
+			ethic = "ethic_xenophile"
+			ethic = "ethic_pacifist"
+			ethic = "ethic_egalitarian"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "KingdomofAlderaan.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "light_green" "light_green" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = rebel_01
+			set_country_flag = kingdom_of_alderaan
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_arkanian_dominion_country = {
+	create_country = {
+		name = "NAME_arkanian_dominion"
+		adjective = PRESCRIPTED_species_plural_ArkanianDominion
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_genetic_experiments"
+			civic = "civic_technocracy"
+		}
+		authority = auth_dictatorial
+		ethos = {
+			ethic = "ethic_authoritarian"
+			ethic = "ethic_fanatic_materialist"
+			#ethic = "ethic_xenophobe"
+		}
+		species = event_target:arkanian_species
+		flag = {
+			icon = { category = "starwars" file = "ArkanianDominion.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor582" "customcolor582" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_01
+			set_country_flag = arkanian_dominion
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_bakuran_senate_country = {
+	create_country = {
+		name = "NAME_bakuran_senate"
+		adjective = PRESCRIPTED_adjective_BakuranSenate
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_droid_uprising"
+			civic = "civic_parliamentary_system"
+		}
+		authority = auth_democratic
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_pacifist"
+			ethic = "ethic_xenophobe"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "BakuranSenate.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor507" "customcolor507" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_01
+			set_country_flag = bakuran_senate
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_banking_clan_country = {
+	create_country = {
+		name = "NAME_banking_clan"
+		adjective = PRESCRIPTED_species_adjective_IntergalacticBankingClan
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_confed_remnant"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_banking_clan"
+			civic = "civic_franchising"
+		}
+		authority = auth_corporate
+		ethos = {
+			ethic = "ethic_fanatic_materialist"
+			ethic = "ethic_egalitarian"
+		}
+		species = event_target:muun_species
+		flag = {
+			icon = { category = "starwars" file = "InterGalacticBankingClan.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1698" "customcolor1698" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = cis_01
+			set_country_flag = banking_clan
+			set_country_flag = init_spawned
+			set_country_flag = canon_map
+		}
+	}
+}
+create_black_sun_organization_country = {
+	create_country = {
+		name = "NAME_black_sun_organization"
+		adjective = PRESCRIPTED_species_adjective_BlackSunOrganization
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_underworld"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_black_sun"
+			civic = "civic_criminal_heritage"
+		}
+		authority = auth_corporate
+		ethos = {
+			ethic = "ethic_fanatic_materialist"
+			ethic = "ethic_authoritarian"
+		}
+		species = event_target:falleen_species
+		flag = {
+			icon = { category = "starwars" file = "BlackSun.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1792" "customcolor1792" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_01
+			set_country_flag = black_sun_organization
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_bothan_council_country = {
+	create_country = {
+		name = "NAME_bothan_council"
+		adjective = PRESCRIPTED_species_adjective_BothanCouncil
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_restoration"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_bothan_spies"
+			civic = "civic_environmentalist"
+		}
+		authority = auth_democratic
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_pacifist"
+			ethic = "ethic_xenophile"
+		}
+		species = event_target:bothan_species
+		flag = {
+			icon = { category = "starwars" file = "BothanCouncil.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1704" "customcolor1704" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_03
+			set_country_flag = bothan_council
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_cathar_principality_country = {
+	create_country = {
+		name = "NAME_cathar_principality"
+		adjective = PRESCRIPTED_species_adjective_CatharPrincipality
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_shadow_council"
+			civic = "civic_environmentalist"
+		}
+		authority = auth_oligarchic
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_spiritualist"
+			ethic = "ethic_xenophile"
+		}
+		species = event_target:cathar_species
+		flag = {
+			icon = { category = "starwars" file = "CatharPrincipality.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor488" "customcolor488" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_01
+			set_country_flag = cathar_principality
+			set_country_flag = init_spawned
+			set_country_flag = canon_map
+			set_country_flag = sandbox_map
+		}
+	}
+}
+create_the_centrality_country = {
+	create_country = {
+		name = "NAME_the_centrality"
+		adjective = PRESCRIPTED_adjective_TheCentrality
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_idealistic_foundation"
+			civic = "civic_beacon_of_liberty"
+		}
+		authority = auth_democratic
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_pacifist"
+			ethic = "ethic_xenophile"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "TheCentrality.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor471" "customcolor471" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_03
+			set_country_flag = the_centrality
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_cerean_council_country = {
+	create_country = {
+		name = "NAME_cerean_council"
+		adjective = PRESCRIPTED_species_adjective_CouncilofElders
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_exalted_priesthood"
+			civic = "civic_agrarian_idyll"
+		}
+		authority = auth_oligarchic
+		ethos = {
+			ethic = "ethic_fanatic_pacifist"
+			ethic = "ethic_spiritualist"
+		}
+		species = event_target:cerean_species
+		flag = {
+			icon = { category = "starwars" file = "CouncilOfElders.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor201" "customcolor201" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_03
+			set_country_flag = cerean_council
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_chalactan_council_country = {
+	create_country = {
+		name = "NAME_chalactan_council"
+		adjective = PRESCRIPTED_species_adjective_ChalactanCouncil
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_idealistic_foundation"
+			civic = "civic_efficient_bureaucracy"
+		}
+		authority = auth_democratic
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_pacifist"
+			ethic = "ethic_spiritualist"
+		}
+		species = event_target:chalactan_species
+		flag = {
+			icon = { category = "starwars" file = "ChalactanCouncil.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor44" "customcolor44" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_03
+			set_country_flag = chalactan_council
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_chiss_ascendancy_country = {
+	create_country = {
+		name = "NAME_chiss_ascendancy"
+		adjective = PRESCRIPTED_species_adjective_ChissAscendancy
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_ascendancy"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_chiss_houses"
+			civic = "civic_aristocratic_elite"
+		}
+		authority = auth_oligarchic
+		ethos = {
+			ethic = "ethic_authoritarian"
+			ethic = "ethic_fanatic_xenophobe"
+		}
+		species = event_target:chiss_species
+		flag = {
+			icon = { category = "starwars" file = "ChissAscendancy.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor777" "customcolor777" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = chiss_01
+			set_country_flag = chiss_ascendancy
+			set_country_flag = init_spawned
+			set_country_flag = can_settle_unknown_regions
+		}
+	}
+}
+create_confederate_remnant_country = {
+	create_country = {
+		name = "NAME_confederate_remnant"
+		adjective = PRESCRIPTED_species_plural_ConfederateRemnant
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_confed_remnant"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_confederate_remnant"
+			civic = "civic_clone_wars_loser"
+		}
+		authority = auth_oligarchic
+		ethos = {
+			ethic = "ethic_authoritarian"
+			ethic = "ethic_militarist"
+			ethic = "ethic_materialist"
+		}
+		species = event_target:neimoidian_species
+		flag = {
+			icon = { category = "starwars" file = "ConfederateRemnant.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1583" "customcolor1583" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = cis_01
+			set_country_flag = confederate_remnant
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_ciutric_hegemony_country = {
+	create_country = {
+		name = "NAME_ciutric_hegemony"
+		adjective = PRESCRIPTED_adjective_CiutricHegemony
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_imperial_loyalist"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_technocracy"
+			civic = "civic_nationalistic_zeal"
+		}
+		authority = auth_dictatorial
+		ethos = {
+			ethic = "ethic_militarist"
+			ethic = "ethic_fanatic_materialist"
+		}
+		#ethic = "ethic_authoritarian"
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "CuitricHegemony.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1870" "customcolor1870" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = imperial_01
+			set_country_flag = ciutric_hegemony
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_commerce_guild_country = {
+	create_country = {
+		name = "NAME_commerce_guild"
+		adjective = PRESCRIPTED_adjective_CommerceGuild
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_confed_remnant"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_technocracy"
+			civic = "civic_mining_guilds"
+		}
+		authority = auth_oligarchic
+		ethos = {
+			ethic = "ethic_fanatic_materialist"
+			ethic = "ethic_authoritarian"
+		}
+		species = event_target:gossam_species
+		flag = {
+			icon = { category = "starwars" file = "CommerceGuild.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor309" "customcolor309" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = cis_01
+			set_country_flag = commerce_guild
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_corellian_security_country = {
+	create_country = {
+		name = "NAME_corellian_security"
+		adjective = PRESCRIPTED_species_adjective_CorellianSecurity
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_corsec"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_corellian"
+			civic = "civic_free_haven"
+		}
+		authority = auth_democratic
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_materialist"
+			ethic = "ethic_xenophile"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "CorSec.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1456" "customcolor1456" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = corellian_01
+			set_country_flag = corellian_security
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_corporate_alliance_country = {
+	create_country = {
+		name = "NAME_corporate_alliance"
+		adjective = PRESCRIPTED_species_adjective_CorporateAlliance
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_confed_remnant"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_private_military_companies"
+			civic = "civic_naval_contractors"
+		}
+		authority = auth_corporate
+		ethos = {
+			ethic = "ethic_authoritarian"
+			ethic = "ethic_materialist"
+			ethic = "ethic_militarist"
+		}
+		species = event_target:koorivar_species
+		flag = {
+			icon = { category = "starwars" file = "CorporateAlliance.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor2009" "customcolor2009" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = cis_01
+			set_country_flag = corporate_alliance
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_corporate_sector_authority_country = {
+	create_country = {
+		name = "NAME_corporate_sector_authority"
+		adjective = PRESCRIPTED_adjective_CorporateAlliance
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_corporate_sector"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_corporate_sector"
+			civic = "civic_media_conglomerate"
+		}
+		authority = auth_corporate
+		ethos = {
+			ethic = "ethic_authoritarian"
+			ethic = "ethic_materialist"
+			ethic = "ethic_xenophobe"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "CSA.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor2020" "customcolor2020" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = csa_01
+			set_country_flag = corporate_sector_authority
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_senate_loyalists_country = {
+	create_country = {
+		name = "NAME_dantari_territories"
+		adjective = PRESCRIPTED_species_adjective_DantariTerritories
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_restoration"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_rebel_sympathy"
+			civic = "civic_idyllic_charm"
+		}
+		authority = auth_democratic
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_pacifist"
+			ethic = "ethic_xenophile"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "RepublicLoyalists.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1053" "customcolor1053" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = rebel_01
+			set_country_flag = senate_loyalists
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_dorin_commonwealth_country = {
+	create_country = {
+		name = "NAME_dorin_commonwealth"
+		adjective = PRESCRIPTED_adjective_DorinCommonwealth
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_idealistic_foundation"
+			civic = "civic_parliamentary_system"
+		}
+		authority = auth_democratic
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_pacifist"
+			ethic = "ethic_xenophile"
+		}
+		species = event_target:keldor_species
+		flag = {
+			icon = { category = "starwars" file = "DorinCommonwealth.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor763" "customcolor763" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_03
+			set_country_flag = dorin_commonwealth
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_echani_command_country = {
+	create_country = {
+		name = "NAME_echani_command"
+		adjective = PRESCRIPTED_species_adjective_EchaniCommand
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_citizen_service"
+			civic = "civic_warrior_culture"
+		}
+		authority = auth_oligarchic
+		ethos = {
+			ethic = "ethic_spiritualist"
+			ethic = "ethic_militarist"
+			ethic = "ethic_xenophile"
+		}
+		species = event_target:echani_species
+		flag = {
+			icon = { category = "starwars" file = "EchaniCommand.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor874" "customcolor874" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_01
+			set_country_flag = echani_command
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_eriadu_authority_country = {
+	create_country = {
+		name = "NAME_eriadu_authority"
+		adjective = PRESCRIPTED_species_adjective_EriaduAuthority
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_imperial_loyalist"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_distinguished_admiralty"
+			civic = "civic_cutthroat_politics"
+		}
+		authority = auth_dictatorial
+		ethos = {
+			ethic = "ethic_authoritarian"
+			ethic = "ethic_militarist"
+			ethic = "ethic_xenophobe"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "EriaduAuthority.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1878" "customcolor1878" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = imperial_01
+			set_country_flag = eriadu_authority
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_hapes_consortium_country = {
+	create_country = {
+		name = "NAME_hapes_consortium"
+		adjective = PRESCRIPTED_species_adjective_HapesConsortium
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_hapes"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_hapes_consortium"
+			civic = "civic_philosopher_king"
+		}					#"civic_efficient_bureaucracy"
+		authority = auth_imperial
+		ethos = {
+			ethic = "ethic_spiritualist"
+			ethic = "ethic_militarist"
+			ethic = "ethic_xenophobe"
+		}
+		species = event_target:hapan_species
+		flag = {
+			icon = { category = "starwars" file = "HapesConsortium.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor790" "customcolor790" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = hapes_01
+			set_country_flag = hapes_consortium
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_hutt_cartel_country = {
+	create_country = {
+		name = "NAME_hutt_cartel"
+		adjective = PRESCRIPTED_adjective_HuttCartel
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_hutt_cartel"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_hutt_cartel"
+			civic = "civic_hutt_elite"
+		}
+		authority = auth_oligarchic
+		ethos = {
+			ethic = "ethic_fanatic_materialist"
+			ethic = "ethic_authoritarian"
+		}
+		species = event_target:hutt_species
+		flag = {
+			icon = { category = "starwars" file = "HuttCartel.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor905" "customcolor905" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = hutt_01
+			set_country_flag = hutt_cartel
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_greater_javin_country = {
+	create_country = {
+		name = "NAME_greater_javin"
+		adjective = PRESCRIPTED_adjective_GreaterJavin
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_technocracy"
+			civic = "civic_meritocracy"
+		}
+		authority = auth_democratic
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_fanatic_materialist"
+			# ethic = "ethic_xenophile"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "GreaterJavin.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor716" "customcolor716" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_01
+			set_country_flag = greater_javin
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_juvex_sector_country = {
+	create_country = {
+		name = "NAME_juvex_sector"
+		adjective = PRESCRIPTED_species_adjective_JuvexSector
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_slaver_guilds"
+			civic = "civic_shadow_council"
+		}
+		authority = auth_oligarchic
+		ethos = {
+			ethic = "ethic_authoritarian"
+			ethic = "ethic_militarist"
+			ethic = "ethic_materialist"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "JuvexSector.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1179" "customcolor1179" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_02
+			set_country_flag = juvex_sector
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_killik_colony_country = {
+	create_country = {
+		name = "NAME_killik_colony"
+		adjective = PRESCRIPTED_species_adjective_TheColony
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_killik"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_hive_subsumed_will"
+			civic = "civic_hive_one_mind"
+		}
+		authority = auth_hive_mind
+		ethos = {
+			ethic = "ethic_gestalt_consciousness"
+		}
+		species = event_target:killik_species
+		flag = {
+			icon = { category = "starwars" file = "KillikColony.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1758" "customcolor1758" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_01
+			set_country_flag = killik_colony
+			set_country_flag = init_spawned
+			set_country_flag = can_settle_unknown_regions
+		}
+	}
+}
+create_mandalorian_clans_country = {
+	create_country = {
+		name = "NAME_mandalorian_clans"
+		adjective = PRESCRIPTED_species_adjective_MandalorianClans
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_mandalorian"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_mandalorian"
+			civic = "civic_warrior_culture"
+		}
+		authority = auth_dictatorial
+		ethos = {
+			ethic = "ethic_fanatic_militarist"
+			ethic = "ethic_authoritarian"
+		}
+		species = event_target:mandalorian_species
+		flag = {
+			icon = { category = "starwars" file = "Mandalorian.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1401" "customcolor1401" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = mando_01
+			set_country_flag = mandalorian_clans
+			set_country_flag = init_spawned
+			set_country_flag = swnd_mando_cl_wren
+		}
+	}
+}
+create_mon_cala_monarchy_country = {
+	create_country = {
+		name = "NAME_mon_cala_monarchy"
+		adjective = PRESCRIPTED_species_adjective_MonCalaMonarchy
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_restoration"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_calamari_dynasty"
+			civic = "civic_master_shipbuilders"
+		}
+		authority = auth_monarchy
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_materialist"
+			ethic = "ethic_xenophile"
+		}
+		species = event_target:calamari_species
+		flag = {
+			icon = { category = "starwars" file = "MonCalMonarchy.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor853" "customcolor853" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = rebel_01
+			set_country_flag = mon_cala_monarchy
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_kingdom_of_onderon_country = {
+	create_country = {
+		name = "NAME_kingdom_of_onderon"
+		adjective = PRESCRIPTED_adjective_KingdomofOnderon
+		ship_prefix = ""
+		type = default
+		origin = "origin_swnd_onderon"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_survival_skills"
+			civic = "civic_philosopher_king"
+		}
+		authority = auth_imperial
+		ethos = {
+			ethic = "ethic_authoritarian"
+			ethic = "ethic_militarist"
+			ethic = "ethic_xenophobe"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "KingdomOfOnderon.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "dark_purple" "dark_purple" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_03
+			set_country_flag = kingdom_of_onderon
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_pantoran_assembly_country = {
+	create_country = {
+		name = "NAME_pantoran_assembly"
+		adjective = PRESCRIPTED_species_adjective_PantoranAssembly
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_meritocracy"
+			civic = "civic_parliamentary_system"
+		}
+		authority = auth_democratic
+		ethos = {
+			ethic = "ethic_fanatic_egalitarian"
+			ethic = "ethic_xenophile"
+		}
+		species = event_target:pantoran_species
+		flag = {
+			icon = { category = "starwars" file = "PantoranAssembly.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1398" "customcolor1398" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_03
+			set_country_flag = pantoran_assembly
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_rodian_clans_country = {
+	create_country = {
+		name = "NAME_rodian_clans"
+		adjective = PRESCRIPTED_adjective_RodianClans
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_rodian_scouts"
+			civic = "civic_cutthroat_politics"
+		}
+		authority = auth_dictatorial
+		ethos = {
+			ethic = "ethic_authoritarian"
+			ethic = "ethic_materialist"
+			ethic = "ethic_xenophile"
+		}
+		species = event_target:rodian_species
+		flag = {
+			icon = { category = "starwars" file = "RodianClans.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1467" "customcolor1467" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_01
+			set_country_flag = rodian_clans
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_ryloth_protectorate_country = {
+	create_country = {
+		name = "NAME_ryloth_protectorate"
+		adjective = PRESCRIPTED_adjective_RylothProtectorate
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_restoration"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_twilek_rebels"
+			civic = "civic_beacon_of_liberty"
+		}
+		authority = auth_democratic
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_spiritualist"
+			ethic = "ethic_xenophile"
+		}
+		species = event_target:twilek_species
+		flag = {
+			icon = { category = "starwars" file = "RylothProtectorate.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1408" "customcolor1408" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_03
+			set_country_flag = ryloth_protectorate
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_senex_sector_country = {
+	create_country = {
+		name = "NAME_senex_sector"
+		adjective = PRESCRIPTED_adjective_SenexSector
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_shadow_council"
+			civic = "civic_aristocratic_elite"
+		}
+		authority = auth_oligarchic
+		ethos = {
+			ethic = "ethic_fanatic_xenophile"
+			ethic = "ethic_materialist"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "SenexSector.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1027" "customcolor1027" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_03
+			set_country_flag = senex_sector
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_taanab_authority_country = {
+	create_country = {
+		name = "NAME_taanab_authority"
+		adjective = PRESCRIPTED_adjective_TaanabAuthority
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_idealistic_foundation"
+			civic = "civic_meritocracy"
+		}
+		authority = auth_democratic
+		ethos = {
+			ethic = "ethic_fanatic_egalitarian"
+			ethic = "ethic_materialist"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "TaanabAuthority.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1625" "customcolor1625" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_03
+			set_country_flag = taanab_authority
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_tion_hegemony_country = {
+	create_country = {
+		name = "NAME_tion_hegemony"
+		adjective = PRESCRIPTED_species_adjective_TionHegemony
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_confed_remnant"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_clone_wars_loser"
+			civic = "civic_distinguished_admiralty"
+		}
+		authority = auth_dictatorial
+		ethos = {
+			ethic = "ethic_fanatic_authoritarian"
+			ethic = "ethic_militarist"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "TionHegemony.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor932" "customcolor932" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = cis_01
+			set_country_flag = tion_hegemony
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_trade_federation_country = {
+	create_country = {
+		name = "NAME_trade_federation"
+		adjective = PRESCRIPTED_adjective_TradeFederation
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_confed_remnant"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_trade_federation"
+			civic = "civic_trading_posts"
+		}
+		authority = auth_corporate
+		ethos = {
+			ethic = "ethic_fanatic_materialist"
+			ethic = "ethic_militarist"
+		}
+		species = event_target:neimoidian_species
+		flag = {
+			icon = { category = "starwars" file = "TradeFederation.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor557" "customcolor557" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = cis_01
+			set_country_flag = trade_federation
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_trandoshan_tribes_country = {
+	create_country = {
+		name = "NAME_trandoshan_tribes"
+		adjective = PRESCRIPTED_adjective_TrandoshanTribes
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_trandoshan_tribes"
+			civic = "civic_slaver_guilds"
+		}
+		authority = auth_imperial
+		ethos = {
+			ethic = "ethic_authoritarian"
+			ethic = "ethic_militarist"
+			ethic = "ethic_xenophobe"
+		}
+		species = event_target:trandoshan_species
+		flag = {
+			icon = { category = "starwars" file = "TrandoshanTribes.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "green" "green" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_01
+			set_country_flag = trandoshan_tribes
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_trianii_territory_country = {
+	create_country = {
+		name = "NAME_trianii_territory"
+		adjective = PRESCRIPTED_adjective_TrianiiTerritory
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_exalted_priesthood"
+			civic = "civic_meritocracy"
+		}
+		authority = auth_oligarchic
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_spiritualist"
+			ethic = "ethic_xenophobe"
+		}
+		species = event_target:trianii_species
+		flag = {
+			icon = { category = "starwars" file = "TrianiiTerritory.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1560" "customcolor1560" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_03
+			set_country_flag = trianii_territory
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_utapauan_committee_country = {
+	create_country = {
+		name = "NAME_utapauan_committee"
+		adjective = PRESCRIPTED_adjective_UtapauanCommittee
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_inwards_perfection"
+			civic = "civic_functional_architecture"
+		}
+		authority = auth_oligarchic
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_xenophobe"
+			ethic = "ethic_pacifist"
+		}
+		species = event_target:utapau_species
+		flag = {
+			icon = { category = "starwars" file = "UtapauanCommittee.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor236" "customcolor236" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_03
+			set_country_flag = utapauan_committee
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_verpine_enclave_country = {
+	create_country = {
+		name = "NAME_verpine_enclave"
+		adjective = PRESCRIPTED_adjective_VerpineEnclave
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_restoration"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_technocracy"
+			civic = "civic_functional_architecture"
+		}
+		authority = auth_democratic
+		ethos = {
+			ethic = "ethic_fanatic_materialist"
+			ethic = "ethic_pacifist"
+		}
+		species = event_target:verpine_species
+		flag = {
+			icon = { category = "starwars" file = "VerpineEnclave.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor764" "customcolor764" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_03
+			set_country_flag = verpine_enclave
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_zabrak_council_country = {
+	create_country = {
+		name = "NAME_zabrak_council"
+		adjective = PRESCRIPTED_species_adjective_ZabrakCouncil
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_exalted_priesthood"
+			civic = "civic_warrior_culture"
+		}
+		authority = auth_oligarchic
+		ethos = {
+			ethic = "ethic_authoritarian"
+			ethic = "ethic_militarist"
+			ethic = "ethic_spiritualist"
+		}
+		species = event_target:zabrak_species
+		flag = {
+			icon = { category = "starwars" file = "ZabrakCouncil.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor651" "customcolor651" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_01
+			set_country_flag = zabrak_council
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_kingdom_of_zeltros_country = {
+	create_country = {
+		name = "NAME_kingdom_of_zeltros"
+		adjective = PRESCRIPTED_adjective_KingdomofZeltros
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_technocracy"
+			civic = "civic_free_haven"
+		}
+		authority = auth_monarchy
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_fanatic_materialist"
+		}
+		species = event_target:zeltron_species
+		flag = {
+			icon = { category = "starwars" file = "KingdomOfZeltros.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1045" "customcolor1045" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_03
+			set_country_flag = kingdom_of_zeltros
+			set_country_flag = init_spawned
+		}
+	}
+}
+create_zygerrian_slave_state_country = {
+	create_country = {
+		name = "NAME_zygerrian_slave_state"
+		adjective = PRESCRIPTED_species_plural_ZygerrianSlaveState
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_default"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_slaver_guilds"
+			civic = "civic_feudal_realm"
+		}
+		authority = auth_imperial
+		ethos = {
+			ethic = "ethic_fanatic_authoritarian"
+			ethic = "ethic_materialist"
+		}
+		species = event_target:zygerrian_species
+		flag = {
+			icon = { category = "starwars" file = "ZygerrianSlaveState.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1009" "customcolor1009" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = misc_02
+			set_country_flag = zygerrian_slave_state
+			set_country_flag = init_spawned
+		}
+	}
+}
+
+
+
+# PRESCRIPTED EMPIRES starting scripts
+
+##CW##
+
+create_galactic_republic_country = {
+	create_country = {
+		name = "NAME_galactic_republic"
+		adjective = PRESCRIPTED_adjective_GalacticRepublic
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_twilight_of_the_republic"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_high_republic_twilight" 
+			civic = "civic_ruusaan_accords" 
+			civic = "civic_peacekeepers_in_jedi_and_judicial_forces" 
+			civic = "civic_the_galactic_senate"
+		}
+		authority = auth_galactic_republic
+		ethos = {
+			ethic="ethic_egalitarian"
+			ethic="ethic_militarist"
+			ethic="ethic_xenophile"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "GalacticRepublic.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor2052" "customcolor2052" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = imperial_01
+			set_country_flag = galactic_republic
+			set_country_flag = init_spawned
+		}
+	}
+}
+

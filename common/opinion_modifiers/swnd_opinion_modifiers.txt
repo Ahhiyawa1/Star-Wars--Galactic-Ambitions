@@ -1,0 +1,334 @@
+opinion_imperial_loyalist = {
+	trigger = {
+		always = yes
+	}
+	opinion = {
+		modifier = {
+			add = 25
+			has_ai_personality = galactic_imperialists
+			FROM = {
+				has_ai_personality = imperial_loyalists
+			}
+		}
+		modifier = {
+			add = 25
+			has_ai_personality = imperial_loyalists
+			FROM = {
+				has_ai_personality = galactic_imperialists
+			}
+		}
+		modifier = {
+			add = -25
+			has_ai_personality = galactic_imperialists
+			FROM = {
+				has_ai_personality = republic_loyalists
+			}
+		}
+		modifier = {
+			add = -25
+			has_ai_personality = imperial_loyalists
+			FROM = {
+				has_ai_personality = republic_loyalists
+			}
+		}
+		modifier = {
+			add = -25
+			has_ai_personality = galactic_imperialists
+			FROM = {
+				has_ai_personality = freedom_fighters
+			}
+		}
+		modifier = {
+			add = -25
+			has_ai_personality = imperial_loyalists
+			FROM = {
+				has_ai_personality = freedom_fighters
+			}
+		}
+		modifier = {
+			add = -25
+			has_ai_personality = galactic_imperialists
+			FROM = {
+				has_ai_personality = separatists
+			}
+		}
+		modifier = {
+			add = -25
+			has_ai_personality = imperial_loyalists
+			FROM = {
+				has_ai_personality = separatists
+			}
+		}
+	}
+}
+
+opinion_republic_loyalist = {
+	trigger = {
+		always = yes
+	}
+	opinion = {
+		modifier = {
+			add = 25
+			has_ai_personality = freedom_fighters
+			FROM = {
+				has_ai_personality = republic_loyalists
+			}
+		}
+		modifier = {
+			add = 25
+			has_ai_personality = republic_loyalists
+			FROM = {
+				has_ai_personality = freedom_fighters
+			}
+		}
+		modifier = {
+			add = -25
+			has_ai_personality = republic_loyalists
+			FROM = {
+				has_ai_personality = galactic_imperialists
+			}
+		}
+		modifier = {
+			add = -25
+			has_ai_personality = republic_loyalists
+			FROM = {
+				has_ai_personality = imperial_loyalists
+			}
+		}
+	}
+}
+
+opinion_criminals = {
+	trigger = {
+		always = yes
+	}
+	opinion = {
+		modifier = {
+			add = 25
+			has_ai_personality = hutt_clans
+			FROM = {
+				has_ai_personality = illicit_traders
+			}
+		}
+		modifier = {
+			add = 25
+			has_ai_personality = illicit_traders
+			FROM = {
+				has_ai_personality = hutt_clans
+			}
+		}
+	}
+}
+
+opinion_separatists = {
+	trigger = {
+		always = yes
+	}
+	opinion = {
+		modifier = {
+			add = 25
+			has_ai_personality = separatists
+			FROM = {
+				has_ai_personality = separatists
+			}
+		}
+		modifier = {
+			add = -25
+			has_ai_personality = separatists
+			FROM = {
+				has_ai_personality = galactic_imperialists
+			}
+		}
+		modifier = {
+			add = -25
+			has_ai_personality = separatists
+			FROM = {
+				has_ai_personality = imperial_loyalists
+			}
+		}
+	}
+}
+
+# Mando events
+proposal_refused = {
+	opinion = { base = -100 }
+	decay = { base = 1 }
+}
+
+proposal_accepted = {
+	opinion = { base = 100 }
+	decay = { base = 1 }
+}
+
+courting_favor = {
+	opinion = { base = 50 }
+}
+
+improved_relations = {
+	opinion = { base = 50 }
+}
+
+improved_relations_v2 = {
+	opinion = { base = 50 }
+	decay = { base = 1 }
+}
+
+medium_improved_relations = {
+	opinion = { base = 100 }
+	decay = { base = 1 }
+}
+
+huge_improved_relations = {
+	opinion = { base = 200 }
+	decay = { base = 1 }
+}
+huge_decreased_relations = {
+	opinion = { base = -200 }
+	decay = { base = 1 }
+}
+
+decreased_relations = {
+	opinion = { base = -50 }
+}
+
+decreased_relations_v2 = {
+	opinion = { base = -100 }
+	decay = { base = 2 }
+}
+
+decreased_relations_v3 = {
+	opinion = { base = -50 }
+	decay = { base = 1 }
+}
+
+worse_relations = {
+	opinion = { base = -100}
+	decay = { base = 1 }
+}
+
+worse_relations_v2 = {
+	opinion = { base = -100}
+	decay = { base = 3 }
+}
+
+
+###Mando Clans###
+honoured = {
+	opinion = { base = 100 }
+	decay = { base = 1 }
+}
+dishonoured = {
+	opinion = { base = -100 }
+	decay = { base = 1 }
+}
+
+clan_alliance = { # house_alliance
+	unique = yes
+	opinion = { base = 500 }
+}
+clan_feud = { # house_feud
+	unique = yes
+	opinion = { base = -500 }
+}
+
+saved_pet_strill = { # saved_pet_targ
+	opinion = { base = 100 }
+	decay = { base = 1 }
+}
+paid_for_drinks = {
+	opinion = { base = 100 }
+	decay = { base = 1 }
+}
+fought_thugs = {
+	opinion = { base = 100 }
+	decay = { base = 1 }
+}
+saved_soldiers = {
+	opinion = { base = 100 }
+	decay = { base = 1 }
+}
+
+killed_pet_strill = { # killed_pet_targ
+	opinion = { base = -100 }
+	decay = { base = 1 }
+}
+charged_more_for_drinks = {
+	opinion = { base = -100 }
+	decay = { base = 1 }
+}
+insulted_leader = {
+	opinion = { base = -100 }
+	decay = { base = 1 }
+}
+attacked_freighter = {
+	opinion = { base = -150 }
+	decay = { base = 1 }
+}
+
+gave_special_treatment_to_other = {
+	opinion = { base = -100 }
+	decay = { base = 1 }
+}
+
+#Clan Stuff v2
+opinion_broke_treaty_victim = {
+	opinion = { base = -200 }
+	unique = yes
+	monthly = yes
+	decay = { base = 5 }
+}
+
+opinion_broke_treaty = {
+	opinion = { base = -100 }
+	unique = yes
+	monthly = yes
+	decay = { base = 5 }
+}
+
+opinion_clan_loyalty_small = {
+	opinion = { base = 25 }
+	accumulative = yes
+	monthly = yes
+	decay = { base = 0.1 }
+}
+opinion_clan_loyalty_medium = {
+	opinion = { base = 50 }
+	accumulative = yes
+	monthly = yes
+	decay = { base = 0.2 }
+}
+opinion_clan_loyalty_large = {
+	opinion = { base = 100 }
+	accumulative = yes
+	monthly = yes
+	decay = { base = 0.4 }
+}
+opinion_clan_disloyalty_small = {
+	opinion = { base = -25 }
+	accumulative = yes
+	monthly = yes
+	decay = { base = 0.1 }
+}
+opinion_clan_disloyalty_medium = {
+	opinion = { base = -50 }
+	accumulative = yes
+	monthly = yes
+	decay = { base = 0.2 }
+}
+opinion_clan_disloyalty_large = {
+	opinion = { base = -100 }
+	accumulative = yes
+	monthly = yes
+	decay = { base = 0.4 }
+}
+opinion_clan_leads_empire = {
+	opinion = { base = 100 }
+	unique = yes
+}
+
+#Espionage
+opinion_attacked = {
+	opinion = { base = -50 }
+	unique = no
+	decay = { base = 1 }
+}

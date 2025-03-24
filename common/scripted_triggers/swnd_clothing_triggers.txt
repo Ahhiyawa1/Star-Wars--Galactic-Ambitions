@@ -1,0 +1,320 @@
+### SWND Clothing Triggers
+
+uses_rebel_uniform = {
+	exists = owner
+	owner = { 
+		OR = { 
+			has_country_flag = senate_loyalists
+			has_country_flag = rebel_alliance
+			has_country_flag = kingdom_of_alderaan
+		}
+	}
+}
+
+uses_imperial_uniform = {
+	exists = owner
+	owner = { 
+		OR = {
+			has_country_flag = galactic_empire
+			has_country_flag = eriadu_authority
+			has_country_flag = ciutric_hegemony
+			has_country_flag = fondor_sector_vassal
+			has_country_flag = naboo_sector_vassal
+		}
+	}
+}
+
+uses_zann_consortium_uniform = { 
+	exists = owner
+	owner = {
+		has_country_flag = zann_consortium
+	}
+}
+
+uses_corporate_sector_uniform = {
+ 	exists = owner
+	owner = { 
+		has_country_flag = corporate_sector_authority
+	}
+}
+
+ uses_cis_uniform = {
+	exists = owner
+	owner = { 
+		OR = {
+			has_country_flag = confederate_remnant
+			has_country_flag = terminus_sector_vassal
+			has_country_flag = sluis_sector_vassal
+			has_country_flag = tion_hegemony
+		}
+	}
+}
+
+uses_neutral_clothes = {
+	exists = owner
+	owner = {
+		NOR = {
+			has_country_flag = senate_loyalists
+			has_country_flag = rebel_alliance
+			has_country_flag = kingdom_of_alderaan
+			has_country_flag = galactic_republic
+			has_country_flag = eriadu_authority
+			has_country_flag = ciutric_hegemony
+			has_country_flag = fondor_sector_vassal
+			has_country_flag = naboo_sector_vassal
+			has_country_flag = confederate_remnant
+			has_country_flag = terminus_sector_vassal
+			has_country_flag = sluis_sector_vassal
+			has_country_flag = corporate_sector_authority
+		}
+	}
+}
+
+uses_neutral_clothes_leader = {
+	uses_imperial_uniform_leader = no
+	uses_rebel_uniform_leader = no
+	uses_cis_uniform_leader = no
+	uses_corporate_sector_uniform_leader = no
+	uses_hutt_uniform_leader = no
+}
+
+uses_imperial_uniform_leader = {
+	exists = owner
+	owner = {
+		OR = {
+			has_country_flag = galactic_empire
+			has_country_flag = eriadu_authority
+			has_country_flag = ciutric_hegemony
+			has_country_flag = fondor_sector_vassal
+			has_country_flag = naboo_sector_vassal
+		}
+	}
+}
+
+uses_rebel_uniform_leader = {
+	exists = owner
+	owner = {
+		OR = {
+			has_country_flag = rebel_alliance
+			has_country_flag = senate_loyalists
+		}
+	}
+}
+
+uses_cis_uniform_leader = {
+	exists = owner
+	owner = { 
+		OR = {
+			has_country_flag = confederate_remnant
+			has_country_flag = terminus_sector_vassal
+			has_country_flag = sluis_sector_vassal
+			has_country_flag = tion_hegemony
+		}
+	}
+}
+
+uses_corporate_sector_uniform_leader = {
+	exists = owner
+   owner = { 
+	   OR = {
+		   has_country_flag = corporate_sector_authority
+	   }
+   }
+}
+
+uses_hutt_uniform_leader = { 
+	exists = owner
+	owner = { 
+		OR = { 
+			has_country_flag = hutt_cartel 
+		} 
+	}
+}
+
+has_stormtrooper_job = {
+
+	AND = {
+	OR = {
+		has_job = enforcer
+		has_job = soldier
+	}
+	exists = owner
+	owner = {
+		OR = {
+			has_country_flag = galactic_empire
+			has_country_flag = eriadu_authority
+			has_country_flag = ciutric_hegemony
+			has_country_flag = fondor_sector_vassal
+			has_country_flag = naboo_sector_vassal
+			}
+		}
+	}
+}
+
+has_espos_job = {
+	exists = owner
+	owner = {
+		has_country_flag = corporate_sector_authority
+	}
+	AND = {
+		OR = {
+			has_job = enforcer
+			has_job = soldier
+		}
+	}
+}
+
+has_security_job = {
+	OR = {
+		has_job = enforcer
+		has_job = soldier
+	}
+}
+
+has_executive_job = {
+	OR = {
+		has_job = executive
+		has_job = merchant
+	}
+}
+
+has_unique_female_security_clothing = {
+	OR = {
+		is_species_class = HAP
+		is_species_class = PAN
+		is_species_class = CHS
+	}
+}
+
+has_unique_female_species_clothing = {
+	OR = {
+		is_species_class = FAL
+		is_species_class = CHS
+		is_species_class = ARK
+		is_species_class = ECH
+		is_species_class = HAP
+		is_species_class = HUM
+		is_species_class = CAT
+		is_species_class = ZAB
+		is_species_class = ZEL
+		is_species_class = PAN
+		is_species_class = CHA
+		is_species_class = SIT
+		is_species_class = NEI
+	}
+}
+
+has_unique_male_security_clothing = {
+	OR = {
+		is_species_class = PAN
+		is_species_class = CHS
+	}
+}
+
+has_unique_male_species_clothing = {
+	OR = {
+		is_species_class = BOT
+		is_species_class = FAL
+		is_species_class = CHS
+		is_species_class = ARK
+		is_species_class = ECH
+		is_species_class = HAP
+		is_species_class = HUM
+		is_species_class = ZYG
+		is_species_class = CAT
+		is_species_class = ROD
+		is_species_class = ZAB
+		is_species_class = TRA
+		is_species_class = ZEL
+		is_species_class = MON
+		is_species_class = KEL
+		is_species_class = PAN
+		is_species_class = CHA
+		is_species_class = CER
+		is_species_class = SIT
+		is_species_class = NEI
+	}
+}
+
+has_jedi_clothing = {
+	OR = {
+		has_trait = leader_trait_swp_jedi_admiral
+		has_trait = leader_trait_swp_jedi_scientist
+		has_trait = leader_trait_swp_jedi_governor
+		has_trait = leader_trait_swp_jedi_general
+		has_trait = leader_trait_swp_sith_admiral
+		has_trait = leader_trait_swp_sith_scientist
+		has_trait = leader_trait_swp_sith_general
+		has_trait = leader_trait_swp_sith_governor
+		has_trait = leader_trait_swp_inquisitor
+	}
+}
+
+has_unique_female_ruler_clothing = {
+	exists = species
+	species = {
+		OR = {
+			is_species_class = CHS
+			is_species_class = TRA
+			is_species_class = ZYG
+		}
+	}
+}
+
+has_unique_female_general_clothing = {
+	species = {
+		OR = {
+			is_species_class = PAN
+			is_species_class = CHS
+			is_species_class = TRA
+		}
+	}
+}
+
+has_unique_female_admiral_clothing = {
+	species = {
+		OR = {
+			is_species_class = PAN
+			is_species_class = CHS
+			is_species_class = TRA
+		}
+	}
+}
+
+has_unique_male_ruler_clothing = {
+	species = {
+		OR = {
+			is_species_class = MON
+			is_species_class = PAN
+			is_species_class = TRA
+			is_species_class = ZYG
+		}
+	}
+}
+
+has_unique_male_general_clothing = {
+	species = {
+		OR = {
+			is_species_class = PAN
+			is_species_class = CHS
+			is_species_class = TRA
+		}
+	}
+}
+
+has_unique_male_admiral_clothing = {
+	species = {
+		OR = {
+			is_species_class = PAN
+			is_species_class = CHS
+			is_species_class = MON
+		}
+	}
+}
+
+is_grand_admiral = {
+	OR = {
+		has_trait = leader_trait_swp_grand_admiral
+		has_leader_flag = grand_admiral_leader
+	}
+}

@@ -1,0 +1,284 @@
+
+## Brothel closed modifier from "Droids for Love" (generic event)
+brothel_closed = {
+	opinion = { base = -35 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }
+}
+## Brothel allowed modifier from "Droids for Love" (generic event)
+brothel_allowed = {
+	opinion = { base = -50 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }
+}
+## Empire Event I: Hutt Alloys (success)
+success_alloy_trade ={
+	opinion = { base = 50 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }
+}
+## Empire Event I: Hutt Alloys (fail)
+fail_alloy_trade ={
+	opinion = { base = -50 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }
+}
+
+opinion_aggressive_expansion = {
+	opinion = { base = -50 }
+	unique = no
+	monthly = yes
+	decay = { base = 1 }
+}
+
+opinion_aggressive_expansion_federation = {
+	opinion = { base = -50 }
+	unique = no
+	monthly = yes
+	decay = { base = 1 }
+}
+
+opinion_aggressive_expansion_support = {
+	opinion = { base = 30 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }
+}
+
+opinion_agressive_interrogation = {
+	opinion = { base = -50 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }
+}
+
+opinion_seized_goods = {
+	opinion = { base = -25 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }	
+}
+
+opinion_killed_smugglers = {
+	opinion = { base = -100 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }	
+}
+
+opinion_took_bribe = {
+	opinion = { base = 50 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }	
+}
+
+
+### opinion modifiers for focus mechanics
+# opinion_very_small_boost = {
+# 	opinion = { base = 10 }
+# 	unique = yes
+# 	monthly = yes
+# 	decay = { base = 1 }
+# }
+# opinion_small_boost = {
+# 	opinion = { base = 25 }
+# 	unique = yes
+# 	monthly = yes
+# 	decay = { base = 1 }
+# }
+# opinion_medium_boost = {
+# 	opinion = { base = 50 }
+# 	unique = yes
+# 	monthly = yes
+# 	decay = { base = 1 }
+# }
+# opinion_large_boost = {
+# 	opinion = { base = 75 }
+# 	unique = yes
+# 	monthly = yes
+# 	decay = { base = 1 }
+# }
+# opinion_small_dislike = {
+# 	opinion = { base = -25 }
+# 	unique = yes
+# 	monthly = yes
+# 	decay = { base = 1 }
+# }
+# opinion_medium_dislike = {
+# 	opinion = { base = -50 }
+# 	unique = yes
+# 	monthly = yes
+# 	decay = { base = 1 }
+# }
+# opinion_large_dislike = {
+# 	opinion = { base = -75 }
+# 	unique = yes
+# 	monthly = yes
+# 	decay = { base = 1 }
+# }
+opinion_droid_apocalypse = {
+	opinion = { base = -90 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }
+}
+opinion_rur_crystal = {
+	opinion = { base = -25 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }
+}
+# opinion_xenophile_institution = {
+# 	opinion = { base = 120 }
+# 	unique = yes
+# 	monthly = yes
+# 	decay = { base = 1 }
+# }
+# opinion_xenophile_institution_main = {
+# 	opinion = { base = 60 }
+# 	unique = yes
+# 	monthly = yes
+# 	decay = { base = 1 }
+# }
+opinion_foreign_aid = {
+	opinion = { base = 120 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }
+}
+
+#########################################################################
+# SWP OPINION MODIFIERS
+##########################################################################
+
+# Rebellion 
+em_empire_focus_tier3_republic_loyalist = {
+	opinion = {
+		base = 300
+	}
+
+	min = 0
+
+	decay = {
+		base = 10
+	}
+}
+
+## Opinion modifiers for confronting a senator event as galactic empire
+opinion_senator_confronted = {
+	opinion = {
+		base = -40
+	}
+
+	min = 0
+
+	decay = {
+		base = 2
+	}
+}
+
+## Opinion modifiers for leave the senator event as galactic empire
+opinion_senator_not_confronted = {
+	opinion = {
+		base = 40
+	}
+
+	min = 0
+
+	decay = {
+		base = 2
+	}
+}
+
+## Rebellion raid modifiers
+mutinee_supported = {
+	opinion = { base = -35 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }
+}
+
+## Rebellion Event XVII (Zygerrian Slaver - free slaves for Zygerrian)
+free_slaves_zygerrian = {
+	opinion = { base = -50 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }
+}
+
+## Rebellion Event XVII (Zygerrian Slaver - success free slaves for Bothans)
+free_slaves_bothans = {
+	opinion = { base = 90 }
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }
+}
+
+## Tell empire about the loyalty of their pilots
+pilots_exposed = {
+	opinion	= { base = 40}
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }
+}
+
+## imperial pilots join the rebellion
+pilots_joined_rebellion = {
+	opinion	= { base = -50}
+	unique = yes
+	monthly = yes
+	decay = { base = 1 }
+}
+
+## failed attemp to free engineers 
+failed_attempt_to_free_engineers = {
+	opinion = { base = -35}
+	unique = yes
+	monthly = yes
+	decay = { base = 1}
+}
+
+## successful attempt to free the engineers
+successful_attempt_to_free_engineers = {
+	opinion = { base = -50}
+	unique = yes
+	monthly = yes
+	decay = { base = 1}
+}
+
+## inform the empire about a corrupted admiral
+corrupted_admiral_exposed = {
+	opinion = { base = 30}
+	unique = yes
+	monthly = yes
+	decay = { base = 1}
+}
+
+## supported uprising (propaganda station)
+supported_uprising_propaganda_station = {
+	opinion = { base = -30}
+	unique = yes
+	monthly = yes
+	decay = { base = 1}
+}
+
+## Rebellion Raid XVI (Take Cargo option)
+smuggler_killed = {
+	opinion = { base = -40}
+	unique = yes
+	monthly = yes
+	decay = { base = 1}
+}
+
+## Rebellion Raid XVI (Let him Pass Option)
+smuggler_free_passage = {
+	opinion = { base = 50}
+	unique = yes
+	monthly = yes
+	decay = { base = 1}
+}

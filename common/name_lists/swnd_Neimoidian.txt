@@ -1,0 +1,847 @@
+﻿Neimoidian = {
+	randomized = no
+	ship_names = {
+		generic = {
+			NEIMOIDIAN_SHIP_viceroy NEIMOIDIAN_SHIP_all_of_the_above NEIMOIDIAN_SHIP_governor NEIMOIDIAN_SHIP_doubtless NEIMOIDIAN_SHIP_even_cut NEIMOIDIAN_SHIP_conqueror NEIMOIDIAN_SHIP_invisible_hand NEIMOIDIAN_SHIP_colicoid_swarm NEIMOIDIAN_SHIP_lucid_voice NEIMOIDIAN_SHIP_invincible NEIMOIDIAN_SHIP_nihilist NEIMOIDIAN_SHIP_prosperous NEIMOIDIAN_SHIP_anaxis NEIMOIDIAN_SHIP_acquisitor NEIMOIDIAN_SHIP_revenue NEIMOIDIAN_SHIP_aurora NEIMOIDIAN_SHIP_canteval NEIMOIDIAN_SHIP_corpulentus NEIMOIDIAN_SHIP_darkhawk NEIMOIDIAN_SHIP_discord NEIMOIDIAN_SHIP_force NEIMOIDIAN_SHIP_of NEIMOIDIAN_SHIP_commerce NEIMOIDIAN_SHIP_fortressa NEIMOIDIAN_SHIP_gahenna NEIMOIDIAN_SHIP_unlimited_projection NEIMOIDIAN_SHIP_unrepentant NEIMOIDIAN_SHIP_vanguard_flare NEIMOIDIAN_SHIP_vanquisher NEIMOIDIAN_SHIP_voice_of_industry NEIMOIDIAN_SHIP_darkvenge NEIMOIDIAN_SHIP_keeper NEIMOIDIAN_SHIP_profit NEIMOIDIAN_SHIP_saak_ak NEIMOIDIAN_SHIP_starworm NEIMOIDIAN_SHIP_stockade NEIMOIDIAN_SHIP_mantis NEIMOIDIAN_SHIP_lapiz_cutter NEIMOIDIAN_SHIP_procurer NEIMOIDIAN_SHIP_conveyor NEIMOIDIAN_SHIP_prime NEIMOIDIAN_SHIP_vuutun_palaa NEIMOIDIAN_SHIP_profusion NEIMOIDIAN_SHIP_voice_of_reason NEIMOIDIAN_SHIP_fury NEIMOIDIAN_SHIP_tide_of_progress NEIMOIDIAN_SHIP_sa_nalaor NEIMOIDIAN_SHIP_helios NEIMOIDIAN_SHIP_obrexta NEIMOIDIAN_SHIP_bonteri NEIMOIDIAN_SHIP_defiance_s_banner NEIMOIDIAN_SHIP_banner_of_independence NEIMOIDIAN_SHIP_devastation NEIMOIDIAN_SHIP_malevolence NEIMOIDIAN_SHIP_deyvus NEIMOIDIAN_SHIP_discordant NEIMOIDIAN_SHIP_krakana_current NEIMOIDIAN_SHIP_death_or_liberty NEIMOIDIAN_SHIP_trident NEIMOIDIAN_SHIP_unimpeachable NEIMOIDIAN_SHIP_covfefe NEIMOIDIAN_SHIP_unforgiving NEIMOIDIAN_SHIP_impenitent NEIMOIDIAN_SHIP_remorseless NEIMOIDIAN_SHIP_uncontrite NEIMOIDIAN_SHIP_unapologetic NEIMOIDIAN_SHIP_unwavering NEIMOIDIAN_SHIP_steadfast NEIMOIDIAN_SHIP_commitment NEIMOIDIAN_SHIP_unregenerate NEIMOIDIAN_SHIP_shameless NEIMOIDIAN_SHIP_holdout NEIMOIDIAN_SHIP_unabashed NEIMOIDIAN_SHIP_incorrigible NEIMOIDIAN_SHIP_inveterate NEIMOIDIAN_SHIP_senior_creditor NEIMOIDIAN_SHIP_lost_cause NEIMOIDIAN_SHIP_rearguard NEIMOIDIAN_SHIP_phoenix NEIMOIDIAN_SHIP_archer NEIMOIDIAN_SHIP_ironwall NEIMOIDIAN_SHIP_de_sutu NEIMOIDIAN_SHIP_admiral_trench NEIMOIDIAN_SHIP_gunray NEIMOIDIAN_SHIP_grievous NEIMOIDIAN_SHIP_count_s_revenge NEIMOIDIAN_SHIP_predator NEIMOIDIAN_SHIP_protector NEIMOIDIAN_SHIP_vigilant NEIMOIDIAN_SHIP_defiance NEIMOIDIAN_SHIP_ivy NEIMOIDIAN_SHIP_huntress NEIMOIDIAN_SHIP_lady_clovis NEIMOIDIAN_SHIP_word_of_truth NEIMOIDIAN_SHIP_blessing_of_tambor NEIMOIDIAN_SHIP_raxus NEIMOIDIAN_SHIP_senator_atell NEIMOIDIAN_SHIP_king_rash NEIMOIDIAN_SHIP_senator_bonteri NEIMOIDIAN_SHIP_lawise NEIMOIDIAN_SHIP_tamson NEIMOIDIAN_SHIP_archduke NEIMOIDIAN_SHIP_judgment NEIMOIDIAN_SHIP_fist_of_poggle NEIMOIDIAN_SHIP_haako NEIMOIDIAN_SHIP_gunnay NEIMOIDIAN_SHIP_san_hill NEIMOIDIAN_SHIP_argente NEIMOIDIAN_SHIP_shu_mai NEIMOIDIAN_SHIP_nudo NEIMOIDIAN_SHIP_tikkes NEIMOIDIAN_SHIP_agony NEIMOIDIAN_SHIP_reprisal NEIMOIDIAN_SHIP_avenger NEIMOIDIAN_SHIP_retribution NEIMOIDIAN_SHIP_retributor NEIMOIDIAN_SHIP_requital NEIMOIDIAN_SHIP_recrimination NEIMOIDIAN_SHIP_calamity NEIMOIDIAN_SHIP_cataclysm NEIMOIDIAN_SHIP_catastrophe NEIMOIDIAN_SHIP_shield_of_the_rim NEIMOIDIAN_SHIP_tribulation NEIMOIDIAN_SHIP_mishanter NEIMOIDIAN_SHIP_tears_of_jabiim NEIMOIDIAN_SHIP_stratus NEIMOIDIAN_SHIP_ashel NEIMOIDIAN_SHIP_cartroll NEIMOIDIAN_SHIP_dallin NEIMOIDIAN_SHIP_dekluun NEIMOIDIAN_SHIP_dofine NEIMOIDIAN_SHIP_durge NEIMOIDIAN_SHIP_judgement_of_findos NEIMOIDIAN_SHIP_finnis NEIMOIDIAN_SHIP_uhumele NEIMOIDIAN_SHIP_bomo_greenbark NEIMOIDIAN_SHIP_ghez_hokan NEIMOIDIAN_SHIP_drogen_hosh NEIMOIDIAN_SHIP_starcrusher NEIMOIDIAN_SHIP_kirst NEIMOIDIAN_SHIP_nova_defiant NEIMOIDIAN_SHIP_dalehsam NEIMOIDIAN_SHIP_dassyne NEIMOIDIAN_SHIP_ningo NEIMOIDIAN_SHIP_lok_durd NEIMOIDIAN_SHIP_ennodius NEIMOIDIAN_SHIP_farr_nees NEIMOIDIAN_SHIP_atticus_farstar NEIMOIDIAN_SHIP_ambigene NEIMOIDIAN_SHIP_kleeve NEIMOIDIAN_SHIP_kraken NEIMOIDIAN_SHIP_loathsom NEIMOIDIAN_SHIP_nagelsa NEIMOIDIAN_SHIP_tonith NEIMOIDIAN_SHIP_rootrock NEIMOIDIAN_SHIP_echo_of_new_plympto NEIMOIDIAN_SHIP_jennir_fable NEIMOIDIAN_SHIP_sev_rance NEIMOIDIAN_SHIP_terrus NEIMOIDIAN_SHIP_trilm NEIMOIDIAN_SHIP_ultho NEIMOIDIAN_SHIP_ur_loach NEIMOIDIAN_SHIP_hellraiser NEIMOIDIAN_SHIP_count_of_serenno NEIMOIDIAN_SHIP_actualizer NEIMOIDIAN_SHIP_golden_touch NEIMOIDIAN_SHIP_stalwart NEIMOIDIAN_SHIP_foresight NEIMOIDIAN_SHIP_hindsight NEIMOIDIAN_SHIP_grudgebearer NEIMOIDIAN_SHIP_gizor NEIMOIDIAN_SHIP_ventress NEIMOIDIAN_SHIP_jai_sheelal NEIMOIDIAN_SHIP_izvoshra NEIMOIDIAN_SHIP_san_sk_ar NEIMOIDIAN_SHIP_lij_kummar NEIMOIDIAN_SHIP_abesmi NEIMOIDIAN_SHIP_shoni NEIMOIDIAN_SHIP_kolkpravis NEIMOIDIAN_SHIP_vindicator NEIMOIDIAN_SHIP_resentful NEIMOIDIAN_SHIP_martyr NEIMOIDIAN_SHIP_resurgent NEIMOIDIAN_SHIP_resurrector NEIMOIDIAN_SHIP_extinction NEIMOIDIAN_SHIP_righteous_cause NEIMOIDIAN_SHIP_spite_eternal NEIMOIDIAN_SHIP_execration NEIMOIDIAN_SHIP_antipathy NEIMOIDIAN_SHIP_jaundice NEIMOIDIAN_SHIP_malice NEIMOIDIAN_SHIP_malignity NEIMOIDIAN_SHIP_antagonist NEIMOIDIAN_SHIP_ill_will NEIMOIDIAN_SHIP_repulsor NEIMOIDIAN_SHIP_contemptor NEIMOIDIAN_SHIP_crimson_scorn NEIMOIDIAN_SHIP_recusant NEIMOIDIAN_SHIP_intractable NEIMOIDIAN_SHIP_willful NEIMOIDIAN_SHIP_obdurate NEIMOIDIAN_SHIP_wild_scorn NEIMOIDIAN_SHIP_adamant NEIMOIDIAN_SHIP_bitter_end NEIMOIDIAN_SHIP_embittered NEIMOIDIAN_SHIP_last_stand NEIMOIDIAN_SHIP_inculpable NEIMOIDIAN_SHIP_grand_duke NEIMOIDIAN_SHIP_first_rebel NEIMOIDIAN_SHIP_old_dominion NEIMOIDIAN_SHIP_circumvention NEIMOIDIAN_SHIP_king_kolto NEIMOIDIAN_SHIP_outrage NEIMOIDIAN_SHIP_aconia NEIMOIDIAN_SHIP_aftden NEIMOIDIAN_SHIP_inheritor NEIMOIDIAN_SHIP_rightful_inheritance NEIMOIDIAN_SHIP_honorable_war NEIMOIDIAN_SHIP_pursuant NEIMOIDIAN_SHIP_unconditional NEIMOIDIAN_SHIP_unwarranted NEIMOIDIAN_SHIP_restive NEIMOIDIAN_SHIP_restless NEIMOIDIAN_SHIP_last_laugh NEIMOIDIAN_SHIP_phrikkian_prince NEIMOIDIAN_SHIP_spitedancer NEIMOIDIAN_SHIP_gravedancer NEIMOIDIAN_SHIP_parting_shot NEIMOIDIAN_SHIP_resistor NEIMOIDIAN_SHIP_foe_hammer NEIMOIDIAN_SHIP_corsuca_queen NEIMOIDIAN_SHIP_tyrant_s_bane NEIMOIDIAN_SHIP_clonebane NEIMOIDIAN_SHIP_aggrieved NEIMOIDIAN_SHIP_grievance NEIMOIDIAN_SHIP_remembrance NEIMOIDIAN_SHIP_rejoinder NEIMOIDIAN_SHIP_refutation NEIMOIDIAN_SHIP_denialist NEIMOIDIAN_SHIP_knight_hewer NEIMOIDIAN_SHIP_countess NEIMOIDIAN_SHIP_consolidator NEIMOIDIAN_SHIP_power_of_the_purse NEIMOIDIAN_SHIP_kood_b_vy NEIMOIDIAN_SHIP_kagwe NEIMOIDIAN_SHIP_rehpon NEIMOIDIAN_SHIP_donc_zuwenda NEIMOIDIAN_SHIP_consulta NEIMOIDIAN_SHIP_del_riva NEIMOIDIAN_SHIP_pay_eez NEIMOIDIAN_SHIP_addad_taz NEIMOIDIAN_SHIP_uv_cosa NEIMOIDIAN_SHIP_contrak NEIMOIDIAN_SHIP_shanatrun NEIMOIDIAN_SHIP_dleef NEIMOIDIAN_SHIP_forz NEIMOIDIAN_SHIP_cohorta NEIMOIDIAN_SHIP_umbarga NEIMOIDIAN_SHIP_munifex NEIMOIDIAN_SHIP_captor NEIMOIDIAN_SHIP_inner_circle NEIMOIDIAN_SHIP_lott_dod NEIMOIDIAN_SHIP_revenue NEIMOIDIAN_SHIP_collector NEIMOIDIAN_SHIP_vizier NEIMOIDIAN_SHIP_voroo NEIMOIDIAN_SHIP_hatha NEIMOIDIAN_SHIP_entrepot NEIMOIDIAN_SHIP_entreaty NEIMOIDIAN_SHIP_kreehawk NEIMOIDIAN_SHIP_zarra NEIMOIDIAN_SHIP_tarko_se NEIMOIDIAN_SHIP_gorog NEIMOIDIAN_SHIP_negotiator NEIMOIDIAN_SHIP_merchant_queen NEIMOIDIAN_SHIP_trade_monarch NEIMOIDIAN_SHIP_manax NEIMOIDIAN_SHIP_mistfly NEIMOIDIAN_SHIP_neekoflight NEIMOIDIAN_SHIP_pylat NEIMOIDIAN_SHIP_balancer NEIMOIDIAN_SHIP_offset NEIMOIDIAN_SHIP_impairment NEIMOIDIAN_SHIP_write_down NEIMOIDIAN_SHIP_coveter NEIMOIDIAN_SHIP_desire NEIMOIDIAN_SHIP_rightful_claim NEIMOIDIAN_SHIP_claimant NEIMOIDIAN_SHIP_plaintiff NEIMOIDIAN_SHIP_dolorous NEIMOIDIAN_SHIP_foregone NEIMOIDIAN_SHIP_dirge NEIMOIDIAN_SHIP_forlorn NEIMOIDIAN_SHIP_desolate NEIMOIDIAN_SHIP_sorrow NEIMOIDIAN_SHIP_piteous NEIMOIDIAN_SHIP_stricken NEIMOIDIAN_SHIP_plangent NEIMOIDIAN_SHIP_long_haul NEIMOIDIAN_SHIP_far_cry NEIMOIDIAN_SHIP_preserver NEIMOIDIAN_SHIP_guardian NEIMOIDIAN_SHIP_watchdog NEIMOIDIAN_SHIP_chaperone NEIMOIDIAN_SHIP_shield_of_neimoidia NEIMOIDIAN_SHIP_resolute NEIMOIDIAN_SHIP_pennance NEIMOIDIAN_SHIP_atonement NEIMOIDIAN_SHIP_penitent NEIMOIDIAN_SHIP_abaser NEIMOIDIAN_SHIP_amender NEIMOIDIAN_SHIP_redresser NEIMOIDIAN_SHIP_compensator NEIMOIDIAN_SHIP_expiator NEIMOIDIAN_SHIP_redeemer NEIMOIDIAN_SHIP_nova_leaf NEIMOIDIAN_SHIP_justifier NEIMOIDIAN_SHIP_recompense NEIMOIDIAN_SHIP_repatriator NEIMOIDIAN_SHIP_dynamo NEIMOIDIAN_SHIP_capital_flight NEIMOIDIAN_SHIP_valuable_risk NEIMOIDIAN_SHIP_insistent NEIMOIDIAN_SHIP_munificus NEIMOIDIAN_SHIP_gregralis NEIMOIDIAN_SHIP_avocati NEIMOIDIAN_SHIP_immunes NEIMOIDIAN_SHIP_optio NEIMOIDIAN_SHIP_centurion NEIMOIDIAN_SHIP_tribune NEIMOIDIAN_SHIP_legatus NEIMOIDIAN_SHIP_municipal NEIMOIDIAN_SHIP_munificence NEIMOIDIAN_SHIP_bounty NEIMOIDIAN_SHIP_obligant NEIMOIDIAN_SHIP_indebted NEIMOIDIAN_SHIP_accountable NEIMOIDIAN_SHIP_beholden NEIMOIDIAN_SHIP_causality NEIMOIDIAN_SHIP_indicative NEIMOIDIAN_SHIP_contributor NEIMOIDIAN_SHIP_ascendant NEIMOIDIAN_SHIP_bottom_line NEIMOIDIAN_SHIP_king_commerce NEIMOIDIAN_SHIP_culpable NEIMOIDIAN_SHIP_vulture NEIMOIDIAN_SHIP_manka NEIMOIDIAN_SHIP_syren NEIMOIDIAN_SHIP_voidline NEIMOIDIAN_SHIP_onward NEIMOIDIAN_SHIP_firelight NEIMOIDIAN_SHIP_forgiveness NEIMOIDIAN_SHIP_purgation NEIMOIDIAN_SHIP_clemency NEIMOIDIAN_SHIP_lenient NEIMOIDIAN_SHIP_indulgent NEIMOIDIAN_SHIP_exonerator NEIMOIDIAN_SHIP_exculpation NEIMOIDIAN_SHIP_fresh_start NEIMOIDIAN_SHIP_indentured NEIMOIDIAN_SHIP_umbrageous NEIMOIDIAN_SHIP_shielder NEIMOIDIAN_SHIP_watcher NEIMOIDIAN_SHIP_defendant NEIMOIDIAN_SHIP_most_favored NEIMOIDIAN_SHIP_arbitrage NEIMOIDIAN_SHIP_chartist NEIMOIDIAN_SHIP_expiry NEIMOIDIAN_SHIP_fundamental NEIMOIDIAN_SHIP_leverage NEIMOIDIAN_SHIP_liquidity NEIMOIDIAN_SHIP_maintainer NEIMOIDIAN_SHIP_open_question NEIMOIDIAN_SHIP_optionality NEIMOIDIAN_SHIP_rollover NEIMOIDIAN_SHIP_short_sell NEIMOIDIAN_SHIP_volatile NEIMOIDIAN_SHIP_at_risk NEIMOIDIAN_SHIP_transparent NEIMOIDIAN_SHIP_concession NEIMOIDIAN_SHIP_countervailer NEIMOIDIAN_SHIP_rule_of_origin NEIMOIDIAN_SHIP_safeguard NEIMOIDIAN_SHIP_appellate NEIMOIDIAN_SHIP_prudential NEIMOIDIAN_SHIP_prudent NEIMOIDIAN_SHIP_prudence NEIMOIDIAN_SHIP_ex_ante NEIMOIDIAN_SHIP_ex_post NEIMOIDIAN_SHIP_jorra NEIMOIDIAN_SHIP_at_la_o NEIMOIDIAN_SHIP_commercial_imperative NEIMOIDIAN_SHIP_luur NEIMOIDIAN_SHIP_pah_oop NEIMOIDIAN_SHIP_strongarm NEIMOIDIAN_SHIP_mediator NEIMOIDIAN_SHIP_arbitrator NEIMOIDIAN_SHIP_arbiter NEIMOIDIAN_SHIP_intercessor NEIMOIDIAN_SHIP_creditor_rex NEIMOIDIAN_SHIP_trove NEIMOIDIAN_SHIP_cosmic_treasure NEIMOIDIAN_SHIP_shared_wealth NEIMOIDIAN_SHIP_trickledown NEIMOIDIAN_SHIP_accumulator NEIMOIDIAN_SHIP_hoarder NEIMOIDIAN_SHIP_agglomerator NEIMOIDIAN_SHIP_corporate_raider NEIMOIDIAN_SHIP_hostile_takeover NEIMOIDIAN_SHIP_aggressive_acquisition NEIMOIDIAN_SHIP_amasser NEIMOIDIAN_SHIP_conglomerator NEIMOIDIAN_SHIP_aurium NEIMOIDIAN_SHIP_aurodium_standard NEIMOIDIAN_SHIP_aurodium_dream NEIMOIDIAN_SHIP_bullion_prince NEIMOIDIAN_SHIP_bailment NEIMOIDIAN_SHIP_chain_of_integrity NEIMOIDIAN_SHIP_kilobar NEIMOIDIAN_SHIP_premium NEIMOIDIAN_SHIP_speculative_position NEIMOIDIAN_SHIP_treasurer NEIMOIDIAN_SHIP_vault NEIMOIDIAN_SHIP_speculator NEIMOIDIAN_SHIP_aurodium_heart NEIMOIDIAN_SHIP_aurodium_age NEIMOIDIAN_SHIP_largesse NEIMOIDIAN_SHIP_finna_nohtece NEIMOIDIAN_SHIP_custodian NEIMOIDIAN_SHIP_warder NEIMOIDIAN_SHIP_warden NEIMOIDIAN_SHIP_entrusted NEIMOIDIAN_SHIP_in_trust NEIMOIDIAN_SHIP_bayu_oot NEIMOIDIAN_SHIP_doge NEIMOIDIAN_SHIP_dewan NEIMOIDIAN_SHIP_premier NEIMOIDIAN_SHIP_venture NEIMOIDIAN_SHIP_cato NEIMOIDIAN_SHIP_deko NEIMOIDIAN_SHIP_koru NEIMOIDIAN_SHIP_narq NEIMOIDIAN_SHIP_chairman_nark NEIMOIDIAN_SHIP_honorable_peace NEIMOIDIAN_SHIP_restitution NEIMOIDIAN_SHIP_reparation NEIMOIDIAN_SHIP_aurorient NEIMOIDIAN_SHIP_ena_guta_feyth NEIMOIDIAN_SHIP_amortizer NEIMOIDIAN_SHIP_future_value NEIMOIDIAN_SHIP_present_value NEIMOIDIAN_SHIP_credit_flow NEIMOIDIAN_SHIP_exponential NEIMOIDIAN_SHIP_guarantor NEIMOIDIAN_SHIP_principal_value NEIMOIDIAN_SHIP_surplus NEIMOIDIAN_SHIP_probable_cause NEIMOIDIAN_SHIP_allocator NEIMOIDIAN_SHIP_null_and_void NEIMOIDIAN_SHIP_retainer NEIMOIDIAN_SHIP_face_value NEIMOIDIAN_SHIP_warranty NEIMOIDIAN_SHIP_warrant
+		}
+		swp_subjugator = {
+			NEIMOIDIAN_SHIP_malevolence NEIMOIDIAN_SHIP_grievous NEIMOIDIAN_SHIP_durge NEIMOIDIAN_SHIP_starcrusher NEIMOIDIAN_SHIP_sev_rance NEIMOIDIAN_SHIP_munifex NEIMOIDIAN_SHIP_leverage NEIMOIDIAN_SHIP_restitution
+		}
+		science = {
+			NEIMOIDIAN_SHIP_lone_trekker NEIMOIDIAN_SHIP_prudent NEIMOIDIAN_SHIP_vergent NEIMOIDIAN_SHIP_valorant NEIMOIDIAN_SHIP_shai_malud NEIMOIDIAN_SHIP_nightrunner NEIMOIDIAN_SHIP_starsnake NEIMOIDIAN_SHIP_volumex NEIMOIDIAN_SHIP_eminent NEIMOIDIAN_SHIP_azerin NEIMOIDIAN_SHIP_aurodium_dream NEIMOIDIAN_SHIP_iota NEIMOIDIAN_SHIP_mutrobo NEIMOIDIAN_SHIP_rover NEIMOIDIAN_SHIP_revolt NEIMOIDIAN_SHIP_purposeful NEIMOIDIAN_SHIP_remembrance NEIMOIDIAN_SHIP_farstar NEIMOIDIAN_SHIP_entrepot NEIMOIDIAN_SHIP_exclave
+		}
+		colonizer = {
+			NEIMOIDIAN_SHIP_reclaimer NEIMOIDIAN_SHIP_reclamation NEIMOIDIAN_SHIP_larvala NEIMOIDIAN_SHIP_voidcaller NEIMOIDIAN_SHIP_fruitful NEIMOIDIAN_SHIP_expander NEIMOIDIAN_SHIP_nomad NEIMOIDIAN_SHIP_adoption NEIMOIDIAN_SHIP_urgent NEIMOIDIAN_SHIP_ahspanshen NEIMOIDIAN_SHIP_seeda NEIMOIDIAN_SHIP_parasilla NEIMOIDIAN_SHIP_journey NEIMOIDIAN_SHIP_farcaller NEIMOIDIAN_SHIP_grasper NEIMOIDIAN_SHIP_scion_of_neimoidia NEIMOIDIAN_SHIP_merchant NEIMOIDIAN_SHIP_convoy NEIMOIDIAN_SHIP_perseverance NEIMOIDIAN_SHIP_seed_capital NEIMOIDIAN_SHIP_startup NEIMOIDIAN_SHIP_acquisition NEIMOIDIAN_SHIP_cultivation NEIMOIDIAN_SHIP_broodqueen NEIMOIDIAN_SHIP_far_hive
+		}
+		sponsored_colonizer = {
+			NEIMOIDIAN_SHIP_reclaimer NEIMOIDIAN_SHIP_reclamation NEIMOIDIAN_SHIP_larvala NEIMOIDIAN_SHIP_voidcaller NEIMOIDIAN_SHIP_fruitful NEIMOIDIAN_SHIP_expander NEIMOIDIAN_SHIP_nomad NEIMOIDIAN_SHIP_adoption NEIMOIDIAN_SHIP_urgent NEIMOIDIAN_SHIP_ahspanshen NEIMOIDIAN_SHIP_seeda NEIMOIDIAN_SHIP_parasilla NEIMOIDIAN_SHIP_journey NEIMOIDIAN_SHIP_farcaller NEIMOIDIAN_SHIP_grasper NEIMOIDIAN_SHIP_scion_of_neimoidia NEIMOIDIAN_SHIP_merchant NEIMOIDIAN_SHIP_convoy NEIMOIDIAN_SHIP_perseverance NEIMOIDIAN_SHIP_seed_capital NEIMOIDIAN_SHIP_startup NEIMOIDIAN_SHIP_acquisition NEIMOIDIAN_SHIP_cultivation NEIMOIDIAN_SHIP_broodqueen NEIMOIDIAN_SHIP_far_hive
+		}
+		constructor = {
+			NEIMOIDIAN_SHIP_marginal NEIMOIDIAN_SHIP_returner NEIMOIDIAN_SHIP_wager NEIMOIDIAN_SHIP_menial NEIMOIDIAN_SHIP_servile NEIMOIDIAN_SHIP_serf NEIMOIDIAN_SHIP_fair_wage NEIMOIDIAN_SHIP_fabricar NEIMOIDIAN_SHIP_iterator NEIMOIDIAN_SHIP_servitor NEIMOIDIAN_SHIP_erector NEIMOIDIAN_SHIP_architectron NEIMOIDIAN_SHIP_creator NEIMOIDIAN_SHIP_warren NEIMOIDIAN_SHIP_burrower NEIMOIDIAN_SHIP_hewer NEIMOIDIAN_SHIP_ogl NEIMOIDIAN_SHIP_depositor NEIMOIDIAN_SHIP_morning_sweat
+		}
+		transport = {
+			NEIMOIDIAN_SHIP_c_9979_landing_craft
+		}
+		military_station_golan1 = {
+			NEIMOIDIAN_SHIP_spacegun_victory NEIMOIDIAN_SHIP_spacegun_success NEIMOIDIAN_SHIP_spacegun_supremacy NEIMOIDIAN_SHIP_spacegun_superior NEIMOIDIAN_SHIP_spacegun_adventure NEIMOIDIAN_SHIP_spacegun_ascendancy NEIMOIDIAN_SHIP_spacegun_paramount NEIMOIDIAN_SHIP_spacegun_preponderous NEIMOIDIAN_SHIP_spacegun_exemplary NEIMOIDIAN_SHIP_spacegun_eximious NEIMOIDIAN_SHIP_spacegun_pertinacity NEIMOIDIAN_SHIP_spacegun_acclaim NEIMOIDIAN_SHIP_spacegun_honor NEIMOIDIAN_SHIP_spacegun_renown NEIMOIDIAN_SHIP_spacegun_glory NEIMOIDIAN_SHIP_spacegun_superb NEIMOIDIAN_SHIP_spacegun_magnificence NEIMOIDIAN_SHIP_spacegun_majestic NEIMOIDIAN_SHIP_spacegun_splendor NEIMOIDIAN_SHIP_spacegun_paradigm NEIMOIDIAN_SHIP_spacegun_flawless NEIMOIDIAN_SHIP_spacegun_consummate NEIMOIDIAN_SHIP_spacegun_merit NEIMOIDIAN_SHIP_spacegun_perfection NEIMOIDIAN_SHIP_spacegun_virtue NEIMOIDIAN_SHIP_spacegun_advantage NEIMOIDIAN_SHIP_spacegun_rectitude NEIMOIDIAN_SHIP_spacegun_incorruptible NEIMOIDIAN_SHIP_spacegun_integrity NEIMOIDIAN_SHIP_spacegun_justice NEIMOIDIAN_SHIP_spacegun_probity NEIMOIDIAN_SHIP_spacegun_prudence NEIMOIDIAN_SHIP_spacegun_purity NEIMOIDIAN_SHIP_spacegun_resolute NEIMOIDIAN_SHIP_spacegun_dignity NEIMOIDIAN_SHIP_spacegun_distinction NEIMOIDIAN_SHIP_spacegun_excellence NEIMOIDIAN_SHIP_spacegun_faithful NEIMOIDIAN_SHIP_spacegun_discipline NEIMOIDIAN_SHIP_spacegun_steadfast NEIMOIDIAN_SHIP_spacegun_recompense NEIMOIDIAN_SHIP_spacegun_requiem NEIMOIDIAN_SHIP_spacegun_courage NEIMOIDIAN_SHIP_spacegun_valor NEIMOIDIAN_SHIP_spacegun_gallant NEIMOIDIAN_SHIP_spacegun_daring NEIMOIDIAN_SHIP_spacegun_constancy NEIMOIDIAN_SHIP_spacegun_perseverence NEIMOIDIAN_SHIP_spacegun_tenacity NEIMOIDIAN_SHIP_spacegun_sedulity NEIMOIDIAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			NEIMOIDIAN_SHIP_spacegun_victory NEIMOIDIAN_SHIP_spacegun_success NEIMOIDIAN_SHIP_spacegun_supremacy NEIMOIDIAN_SHIP_spacegun_superior NEIMOIDIAN_SHIP_spacegun_adventure NEIMOIDIAN_SHIP_spacegun_ascendancy NEIMOIDIAN_SHIP_spacegun_paramount NEIMOIDIAN_SHIP_spacegun_preponderous NEIMOIDIAN_SHIP_spacegun_exemplary NEIMOIDIAN_SHIP_spacegun_eximious NEIMOIDIAN_SHIP_spacegun_pertinacity NEIMOIDIAN_SHIP_spacegun_acclaim NEIMOIDIAN_SHIP_spacegun_honor NEIMOIDIAN_SHIP_spacegun_renown NEIMOIDIAN_SHIP_spacegun_glory NEIMOIDIAN_SHIP_spacegun_superb NEIMOIDIAN_SHIP_spacegun_magnificence NEIMOIDIAN_SHIP_spacegun_majestic NEIMOIDIAN_SHIP_spacegun_splendor NEIMOIDIAN_SHIP_spacegun_paradigm NEIMOIDIAN_SHIP_spacegun_flawless NEIMOIDIAN_SHIP_spacegun_consummate NEIMOIDIAN_SHIP_spacegun_merit NEIMOIDIAN_SHIP_spacegun_perfection NEIMOIDIAN_SHIP_spacegun_virtue NEIMOIDIAN_SHIP_spacegun_advantage NEIMOIDIAN_SHIP_spacegun_rectitude NEIMOIDIAN_SHIP_spacegun_incorruptible NEIMOIDIAN_SHIP_spacegun_integrity NEIMOIDIAN_SHIP_spacegun_justice NEIMOIDIAN_SHIP_spacegun_probity NEIMOIDIAN_SHIP_spacegun_prudence NEIMOIDIAN_SHIP_spacegun_purity NEIMOIDIAN_SHIP_spacegun_resolute NEIMOIDIAN_SHIP_spacegun_dignity NEIMOIDIAN_SHIP_spacegun_distinction NEIMOIDIAN_SHIP_spacegun_excellence NEIMOIDIAN_SHIP_spacegun_faithful NEIMOIDIAN_SHIP_spacegun_discipline NEIMOIDIAN_SHIP_spacegun_steadfast NEIMOIDIAN_SHIP_spacegun_recompense NEIMOIDIAN_SHIP_spacegun_requiem NEIMOIDIAN_SHIP_spacegun_courage NEIMOIDIAN_SHIP_spacegun_valor NEIMOIDIAN_SHIP_spacegun_gallant NEIMOIDIAN_SHIP_spacegun_daring NEIMOIDIAN_SHIP_spacegun_constancy NEIMOIDIAN_SHIP_spacegun_perseverence NEIMOIDIAN_SHIP_spacegun_tenacity NEIMOIDIAN_SHIP_spacegun_sedulity NEIMOIDIAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			NEIMOIDIAN_SHIP_spacegun_victory NEIMOIDIAN_SHIP_spacegun_success NEIMOIDIAN_SHIP_spacegun_supremacy NEIMOIDIAN_SHIP_spacegun_superior NEIMOIDIAN_SHIP_spacegun_adventure NEIMOIDIAN_SHIP_spacegun_ascendancy NEIMOIDIAN_SHIP_spacegun_paramount NEIMOIDIAN_SHIP_spacegun_preponderous NEIMOIDIAN_SHIP_spacegun_exemplary NEIMOIDIAN_SHIP_spacegun_eximious NEIMOIDIAN_SHIP_spacegun_pertinacity NEIMOIDIAN_SHIP_spacegun_acclaim NEIMOIDIAN_SHIP_spacegun_honor NEIMOIDIAN_SHIP_spacegun_renown NEIMOIDIAN_SHIP_spacegun_glory NEIMOIDIAN_SHIP_spacegun_superb NEIMOIDIAN_SHIP_spacegun_magnificence NEIMOIDIAN_SHIP_spacegun_majestic NEIMOIDIAN_SHIP_spacegun_splendor NEIMOIDIAN_SHIP_spacegun_paradigm NEIMOIDIAN_SHIP_spacegun_flawless NEIMOIDIAN_SHIP_spacegun_consummate NEIMOIDIAN_SHIP_spacegun_merit NEIMOIDIAN_SHIP_spacegun_perfection NEIMOIDIAN_SHIP_spacegun_virtue NEIMOIDIAN_SHIP_spacegun_advantage NEIMOIDIAN_SHIP_spacegun_rectitude NEIMOIDIAN_SHIP_spacegun_incorruptible NEIMOIDIAN_SHIP_spacegun_integrity NEIMOIDIAN_SHIP_spacegun_justice NEIMOIDIAN_SHIP_spacegun_probity NEIMOIDIAN_SHIP_spacegun_prudence NEIMOIDIAN_SHIP_spacegun_purity NEIMOIDIAN_SHIP_spacegun_resolute NEIMOIDIAN_SHIP_spacegun_dignity NEIMOIDIAN_SHIP_spacegun_distinction NEIMOIDIAN_SHIP_spacegun_excellence NEIMOIDIAN_SHIP_spacegun_faithful NEIMOIDIAN_SHIP_spacegun_discipline NEIMOIDIAN_SHIP_spacegun_steadfast NEIMOIDIAN_SHIP_spacegun_recompense NEIMOIDIAN_SHIP_spacegun_requiem NEIMOIDIAN_SHIP_spacegun_courage NEIMOIDIAN_SHIP_spacegun_valor NEIMOIDIAN_SHIP_spacegun_gallant NEIMOIDIAN_SHIP_spacegun_daring NEIMOIDIAN_SHIP_spacegun_constancy NEIMOIDIAN_SHIP_spacegun_perseverence NEIMOIDIAN_SHIP_spacegun_tenacity NEIMOIDIAN_SHIP_spacegun_sedulity NEIMOIDIAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			NEIMOIDIAN_SHIP_citadel NEIMOIDIAN_SHIP_mazariyan NEIMOIDIAN_SHIP_adni NEIMOIDIAN_SHIP_appenza NEIMOIDIAN_SHIP_avos NEIMOIDIAN_SHIP_baron_knoll NEIMOIDIAN_SHIP_berin NEIMOIDIAN_SHIP_black_crest NEIMOIDIAN_SHIP_claw_of_borolol NEIMOIDIAN_SHIP_bride_s_talon NEIMOIDIAN_SHIP_bright_sun NEIMOIDIAN_SHIP_canaitith NEIMOIDIAN_SHIP_collo_fauale NEIMOIDIAN_SHIP_crysifal NEIMOIDIAN_SHIP_d_olop_flow NEIMOIDIAN_SHIP_dour_roads NEIMOIDIAN_SHIP_dregan_s_pike NEIMOIDIAN_SHIP_drossrock NEIMOIDIAN_SHIP_fallen_teeth NEIMOIDIAN_SHIP_favaran NEIMOIDIAN_SHIP_frigia NEIMOIDIAN_SHIP_gusty_bluff NEIMOIDIAN_SHIP_high_tatmana NEIMOIDIAN_SHIP_hugo NEIMOIDIAN_SHIP_im_g_twe NEIMOIDIAN_SHIP_ison NEIMOIDIAN_SHIP_kalis NEIMOIDIAN_SHIP_karatokai NEIMOIDIAN_SHIP_katarn NEIMOIDIAN_SHIP_khoehng NEIMOIDIAN_SHIP_korrokrrayyo NEIMOIDIAN_SHIP_luftgriff NEIMOIDIAN_SHIP_m_nis NEIMOIDIAN_SHIP_marauder NEIMOIDIAN_SHIP_merakan NEIMOIDIAN_SHIP_meru NEIMOIDIAN_SHIP_moonstruck NEIMOIDIAN_SHIP_agorn NEIMOIDIAN_SHIP_antas NEIMOIDIAN_SHIP_anzaada NEIMOIDIAN_SHIP_arakeirkos NEIMOIDIAN_SHIP_arayakyak NEIMOIDIAN_SHIP_dijandi NEIMOIDIAN_SHIP_ganton NEIMOIDIAN_SHIP_gethzerion NEIMOIDIAN_SHIP_izukika NEIMOIDIAN_SHIP_krana NEIMOIDIAN_SHIP_krisklar NEIMOIDIAN_SHIP_lorrist NEIMOIDIAN_SHIP_mogaar NEIMOIDIAN_SHIP_pasvaal NEIMOIDIAN_SHIP_quavaar NEIMOIDIAN_SHIP_redolava NEIMOIDIAN_SHIP_savage NEIMOIDIAN_SHIP_sendoth NEIMOIDIAN_SHIP_tellec NEIMOIDIAN_SHIP_tessef NEIMOIDIAN_SHIP_ulgo NEIMOIDIAN_SHIP_vastadon NEIMOIDIAN_SHIP_veermok NEIMOIDIAN_SHIP_verena NEIMOIDIAN_SHIP_vissa NEIMOIDIAN_SHIP_orane NEIMOIDIAN_SHIP_orik_s_spine NEIMOIDIAN_SHIP_pinnacle NEIMOIDIAN_SHIP_felth NEIMOIDIAN_SHIP_porso NEIMOIDIAN_SHIP_red_hill NEIMOIDIAN_SHIP_scich_tl NEIMOIDIAN_SHIP_selon NEIMOIDIAN_SHIP_sirpar NEIMOIDIAN_SHIP_sistra NEIMOIDIAN_SHIP_ste_vshuulsz NEIMOIDIAN_SHIP_teldanus NEIMOIDIAN_SHIP_tolmeatek NEIMOIDIAN_SHIP_twin_hills NEIMOIDIAN_SHIP_umate NEIMOIDIAN_SHIP_usca NEIMOIDIAN_SHIP_yal_noy
+		}
+		ion_cannon = {
+			NEIMOIDIAN_SHIP_bombard NEIMOIDIAN_SHIP_ballista NEIMOIDIAN_SHIP_catapult NEIMOIDIAN_SHIP_harpoon NEIMOIDIAN_SHIP_polybolos NEIMOIDIAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			NEIMOIDIAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			NEIMOIDIAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_imperial_escort
+		}
+		swp_quasar_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			NEIMOIDIAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			NEIMOIDIAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			NEIMOIDIAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			NEIMOIDIAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			NEIMOIDIAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			NEIMOIDIAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			NEIMOIDIAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			NEIMOIDIAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			NEIMOIDIAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			NEIMOIDIAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			NEIMOIDIAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			NEIMOIDIAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			NEIMOIDIAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			NEIMOIDIAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		random_names = {
+			NEIMOIDIAN_FLEET_battle_group__harbinger_ NEIMOIDIAN_FLEET_battle_group__herald_ NEIMOIDIAN_FLEET_battle_group__omen_ NEIMOIDIAN_FLEET_battle_group__grievance_ NEIMOIDIAN_FLEET_battle_group__resentment_ NEIMOIDIAN_FLEET_battle_group__umbrage_ NEIMOIDIAN_FLEET_battle_group__rancor_ NEIMOIDIAN_FLEET_battle_group__vendetta_ NEIMOIDIAN_FLEET_battle_group__nemesis_ NEIMOIDIAN_FLEET_battle_group__vengeance_ NEIMOIDIAN_FLEET_battle_group__vindictive_ NEIMOIDIAN_FLEET_battle_group__retribution_
+		}
+		sequential_name = NEIMOIDIAN_FLEET_battle_group_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = NEIMOIDIAN_ARMY_gunnery_battalion_ORD
+		}
+		assault_army = {
+			sequential_name = NEIMOIDIAN_ARMY_expeditionary_battalion_ORD
+		}
+		slave_army = {
+			sequential_name = NEIMOIDIAN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = NEIMOIDIAN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = NEIMOIDIAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = NEIMOIDIAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = NEIMOIDIAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = NEIMOIDIAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				NEIMOIDIAN_ARMY_sarc_a__gladiators_ NEIMOIDIAN_ARMY_sarc_b__widowmakers_ NEIMOIDIAN_ARMY_sarc_c__immortals_ NEIMOIDIAN_ARMY_sarc_d__berserkers_ NEIMOIDIAN_ARMY_sarc_e__assassins_ NEIMOIDIAN_ARMY_sarc_f__reapers_ NEIMOIDIAN_ARMY_sarc_g__nighthawks_ NEIMOIDIAN_ARMY_sarc_h__desperados_ NEIMOIDIAN_ARMY_sarc_i__grey_knights_ NEIMOIDIAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = NEIMOIDIAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = NEIMOIDIAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = NEIMOIDIAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = NEIMOIDIAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = NEIMOIDIAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = NEIMOIDIAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = NEIMOIDIAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = NEIMOIDIAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = NEIMOIDIAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = NEIMOIDIAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = NEIMOIDIAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = NEIMOIDIAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = NEIMOIDIAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = NEIMOIDIAN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = NEIMOIDIAN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = NEIMOIDIAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = NEIMOIDIAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = NEIMOIDIAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = NEIMOIDIAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = NEIMOIDIAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = NEIMOIDIAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = NEIMOIDIAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = NEIMOIDIAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				NEIMOIDIAN_CHR_rune NEIMOIDIAN_CHR_dak_on NEIMOIDIAN_CHR_viff NEIMOIDIAN_CHR_tok NEIMOIDIAN_CHR_plurre NEIMOIDIAN_CHR_pol NEIMOIDIAN_CHR_borlo NEIMOIDIAN_CHR_hap NEIMOIDIAN_CHR_vonddado NEIMOIDIAN_CHR_sib NEIMOIDIAN_CHR_desson NEIMOIDIAN_CHR_gunaray NEIMOIDIAN_CHR_lott NEIMOIDIAN_CHR_lushros NEIMOIDIAN_CHR_jull NEIMOIDIAN_CHR_fame NEIMOIDIAN_CHR_cathan NEIMOIDIAN_CHR_lok NEIMOIDIAN_CHR_kund NEIMOIDIAN_CHR_sentepeth NEIMOIDIAN_CHR_dif NEIMOIDIAN_CHR_aruteous NEIMOIDIAN_CHR_rute NEIMOIDIAN_CHR_nute NEIMOIDIAN_CHR_blox NEIMOIDIAN_CHR_hazeen NEIMOIDIAN_CHR_ko NEIMOIDIAN_CHR_kuto NEIMOIDIAN_CHR_jeek NEIMOIDIAN_CHR_siv NEIMOIDIAN_CHR_yee NEIMOIDIAN_CHR_krett NEIMOIDIAN_CHR_nap NEIMOIDIAN_CHR_gilramos NEIMOIDIAN_CHR_hath NEIMOIDIAN_CHR_hallion NEIMOIDIAN_CHR_gap NEIMOIDIAN_CHR_usan NEIMOIDIAN_CHR_gren NEIMOIDIAN_CHR_hinv NEIMOIDIAN_CHR_farge NEIMOIDIAN_CHR_thoax NEIMOIDIAN_CHR_budmle NEIMOIDIAN_CHR_dool NEIMOIDIAN_CHR_sude NEIMOIDIAN_CHR_mik NEIMOIDIAN_CHR_harro NEIMOIDIAN_CHR_salitt NEIMOIDIAN_CHR_rers NEIMOIDIAN_CHR_gode NEIMOIDIAN_CHR_treek NEIMOIDIAN_CHR_toat NEIMOIDIAN_CHR_tornak NEIMOIDIAN_CHR_nadrin NEIMOIDIAN_CHR_nohn NEIMOIDIAN_CHR_vigro NEIMOIDIAN_CHR_vuub NEIMOIDIAN_CHR_vorn NEIMOIDIAN_CHR_smeer NEIMOIDIAN_CHR_runeto NEIMOIDIAN_CHR_stonne NEIMOIDIAN_CHR_ghem
+			}
+			first_names_female = {
+				NEIMOIDIAN_CHR_lik NEIMOIDIAN_CHR_gama NEIMOIDIAN_CHR_siba NEIMOIDIAN_CHR_tieka NEIMOIDIAN_CHR_lufa NEIMOIDIAN_CHR_igre NEIMOIDIAN_CHR_voak NEIMOIDIAN_CHR_chal NEIMOIDIAN_CHR_onrein NEIMOIDIAN_CHR_helbani NEIMOIDIAN_CHR_tey NEIMOIDIAN_CHR_zey NEIMOIDIAN_CHR_fay NEIMOIDIAN_CHR_rina NEIMOIDIAN_CHR_zill NEIMOIDIAN_CHR_aito NEIMOIDIAN_CHR_pawmei NEIMOIDIAN_CHR_yee NEIMOIDIAN_CHR_nillia NEIMOIDIAN_CHR_yen NEIMOIDIAN_CHR_sanna NEIMOIDIAN_CHR_hin NEIMOIDIAN_CHR_palfa NEIMOIDIAN_CHR_pule NEIMOIDIAN_CHR_reya NEIMOIDIAN_CHR_ra NEIMOIDIAN_CHR_shass NEIMOIDIAN_CHR_tun NEIMOIDIAN_CHR_mar NEIMOIDIAN_CHR_sil NEIMOIDIAN_CHR_vale NEIMOIDIAN_CHR_veor NEIMOIDIAN_CHR_zeah NEIMOIDIAN_CHR_kimi_i NEIMOIDIAN_CHR_kiziko NEIMOIDIAN_CHR_houzika NEIMOIDIAN_CHR_saita NEIMOIDIAN_CHR_o_ten NEIMOIDIAN_CHR_kutoizi NEIMOIDIAN_CHR_saimya NEIMOIDIAN_CHR_taiko NEIMOIDIAN_CHR_silyo NEIMOIDIAN_CHR_vaiko NEIMOIDIAN_CHR_maiko NEIMOIDIAN_CHR_raiko NEIMOIDIAN_CHR_iiko NEIMOIDIAN_CHR_tzikazo NEIMOIDIAN_CHR_heilin NEIMOIDIAN_CHR_sala NEIMOIDIAN_CHR_to_lei NEIMOIDIAN_CHR_chisen NEIMOIDIAN_CHR_chulein NEIMOIDIAN_CHR_ciar NEIMOIDIAN_CHR_huan NEIMOIDIAN_CHR_jini NEIMOIDIAN_CHR_kaisea NEIMOIDIAN_CHR_malai NEIMOIDIAN_CHR_ulaen NEIMOIDIAN_CHR_sulaan NEIMOIDIAN_CHR_suryo NEIMOIDIAN_CHR_tai_yi NEIMOIDIAN_CHR_tauan
+			}
+			second_names = {
+				NEIMOIDIAN_CHR_haako NEIMOIDIAN_CHR_agapoui NEIMOIDIAN_CHR_almay NEIMOIDIAN_CHR_ankkit NEIMOIDIAN_CHR_ashel NEIMOIDIAN_CHR_bankor NEIMOIDIAN_CHR_barron NEIMOIDIAN_CHR_blex NEIMOIDIAN_CHR_brehg NEIMOIDIAN_CHR_brrimyo NEIMOIDIAN_CHR_canay NEIMOIDIAN_CHR_dalken NEIMOIDIAN_CHR_danak NEIMOIDIAN_CHR_demos NEIMOIDIAN_CHR_dod NEIMOIDIAN_CHR_dofine NEIMOIDIAN_CHR_dremon NEIMOIDIAN_CHR_drimal NEIMOIDIAN_CHR_dru NEIMOIDIAN_CHR_drugindi NEIMOIDIAN_CHR_durd NEIMOIDIAN_CHR_duset NEIMOIDIAN_CHR_ekorr NEIMOIDIAN_CHR_findos NEIMOIDIAN_CHR_gehad NEIMOIDIAN_CHR_geph NEIMOIDIAN_CHR_groshik NEIMOIDIAN_CHR_gunnay NEIMOIDIAN_CHR_haan NEIMOIDIAN_CHR_hasar NEIMOIDIAN_CHR_hask NEIMOIDIAN_CHR_hatha NEIMOIDIAN_CHR_how NEIMOIDIAN_CHR_itub NEIMOIDIAN_CHR_jaral NEIMOIDIAN_CHR_kartay NEIMOIDIAN_CHR_kav NEIMOIDIAN_CHR_klewer NEIMOIDIAN_CHR_laff NEIMOIDIAN_CHR_lagard NEIMOIDIAN_CHR_libkath NEIMOIDIAN_CHR_maccon NEIMOIDIAN_CHR_moh NEIMOIDIAN_CHR_monchar NEIMOIDIAN_CHR_nark NEIMOIDIAN_CHR_niak NEIMOIDIAN_CHR_nox NEIMOIDIAN_CHR_nozabuiba NEIMOIDIAN_CHR_ollin NEIMOIDIAN_CHR_olpan NEIMOIDIAN_CHR_orrin NEIMOIDIAN_CHR_osaax NEIMOIDIAN_CHR_otbor NEIMOIDIAN_CHR_proh_ven NEIMOIDIAN_CHR_pundar NEIMOIDIAN_CHR_raalo NEIMOIDIAN_CHR_regrap NEIMOIDIAN_CHR_shallit NEIMOIDIAN_CHR_takrab NEIMOIDIAN_CHR_po NEIMOIDIAN_CHR_tro NEIMOIDIAN_CHR_unch NEIMOIDIAN_CHR_veyaiko NEIMOIDIAN_CHR_zaday NEIMOIDIAN_CHR_ze_trios
+			}
+			regnal_first_names_male = {
+				NEIMOIDIAN_CHR_rune NEIMOIDIAN_CHR_dak_on NEIMOIDIAN_CHR_viff NEIMOIDIAN_CHR_tok NEIMOIDIAN_CHR_plurre NEIMOIDIAN_CHR_pol NEIMOIDIAN_CHR_borlo NEIMOIDIAN_CHR_hap NEIMOIDIAN_CHR_vonddado NEIMOIDIAN_CHR_sib NEIMOIDIAN_CHR_desson NEIMOIDIAN_CHR_gunaray NEIMOIDIAN_CHR_lott NEIMOIDIAN_CHR_lushros NEIMOIDIAN_CHR_jull NEIMOIDIAN_CHR_fame NEIMOIDIAN_CHR_cathan NEIMOIDIAN_CHR_lok NEIMOIDIAN_CHR_kund NEIMOIDIAN_CHR_sentepeth NEIMOIDIAN_CHR_dif NEIMOIDIAN_CHR_aruteous NEIMOIDIAN_CHR_rute NEIMOIDIAN_CHR_nute NEIMOIDIAN_CHR_blox NEIMOIDIAN_CHR_hazeen NEIMOIDIAN_CHR_ko NEIMOIDIAN_CHR_kuto NEIMOIDIAN_CHR_jeek NEIMOIDIAN_CHR_siv NEIMOIDIAN_CHR_yee NEIMOIDIAN_CHR_krett NEIMOIDIAN_CHR_nap NEIMOIDIAN_CHR_gilramos NEIMOIDIAN_CHR_hath NEIMOIDIAN_CHR_hallion NEIMOIDIAN_CHR_gap NEIMOIDIAN_CHR_usan NEIMOIDIAN_CHR_gren NEIMOIDIAN_CHR_hinv NEIMOIDIAN_CHR_farge NEIMOIDIAN_CHR_thoax NEIMOIDIAN_CHR_budmle NEIMOIDIAN_CHR_dool NEIMOIDIAN_CHR_sude NEIMOIDIAN_CHR_mik NEIMOIDIAN_CHR_harro NEIMOIDIAN_CHR_salitt NEIMOIDIAN_CHR_rers NEIMOIDIAN_CHR_gode NEIMOIDIAN_CHR_treek NEIMOIDIAN_CHR_toat NEIMOIDIAN_CHR_tornak NEIMOIDIAN_CHR_nadrin NEIMOIDIAN_CHR_nohn NEIMOIDIAN_CHR_vigro NEIMOIDIAN_CHR_vuub NEIMOIDIAN_CHR_vorn NEIMOIDIAN_CHR_smeer NEIMOIDIAN_CHR_runeto NEIMOIDIAN_CHR_stonne NEIMOIDIAN_CHR_ghem
+			}
+			regnal_first_names_female = {
+				NEIMOIDIAN_CHR_lik NEIMOIDIAN_CHR_gama NEIMOIDIAN_CHR_siba NEIMOIDIAN_CHR_tieka NEIMOIDIAN_CHR_lufa NEIMOIDIAN_CHR_igre NEIMOIDIAN_CHR_voak NEIMOIDIAN_CHR_chal NEIMOIDIAN_CHR_onrein NEIMOIDIAN_CHR_helbani NEIMOIDIAN_CHR_tey NEIMOIDIAN_CHR_zey NEIMOIDIAN_CHR_fay NEIMOIDIAN_CHR_rina NEIMOIDIAN_CHR_zill NEIMOIDIAN_CHR_aito NEIMOIDIAN_CHR_pawmei NEIMOIDIAN_CHR_yee NEIMOIDIAN_CHR_nillia NEIMOIDIAN_CHR_yen NEIMOIDIAN_CHR_sanna NEIMOIDIAN_CHR_hin NEIMOIDIAN_CHR_palfa NEIMOIDIAN_CHR_pule NEIMOIDIAN_CHR_reya NEIMOIDIAN_CHR_ra NEIMOIDIAN_CHR_shass NEIMOIDIAN_CHR_tun NEIMOIDIAN_CHR_mar NEIMOIDIAN_CHR_sil NEIMOIDIAN_CHR_vale NEIMOIDIAN_CHR_veor NEIMOIDIAN_CHR_zeah NEIMOIDIAN_CHR_kimi_i NEIMOIDIAN_CHR_kiziko NEIMOIDIAN_CHR_houzika NEIMOIDIAN_CHR_saita NEIMOIDIAN_CHR_o_ten NEIMOIDIAN_CHR_kutoizi NEIMOIDIAN_CHR_saimya NEIMOIDIAN_CHR_taiko NEIMOIDIAN_CHR_silyo NEIMOIDIAN_CHR_vaiko NEIMOIDIAN_CHR_maiko NEIMOIDIAN_CHR_raiko NEIMOIDIAN_CHR_iiko NEIMOIDIAN_CHR_tzikazo NEIMOIDIAN_CHR_heilin NEIMOIDIAN_CHR_sala NEIMOIDIAN_CHR_to_lei NEIMOIDIAN_CHR_chisen NEIMOIDIAN_CHR_chulein NEIMOIDIAN_CHR_ciar NEIMOIDIAN_CHR_huan NEIMOIDIAN_CHR_jini NEIMOIDIAN_CHR_kaisea NEIMOIDIAN_CHR_malai NEIMOIDIAN_CHR_ulaen NEIMOIDIAN_CHR_sulaan NEIMOIDIAN_CHR_suryo NEIMOIDIAN_CHR_tai_yi NEIMOIDIAN_CHR_tauan
+			}
+			regnal_second_names = {
+				NEIMOIDIAN_CHR_haako NEIMOIDIAN_CHR_agapoui NEIMOIDIAN_CHR_almay NEIMOIDIAN_CHR_ankkit NEIMOIDIAN_CHR_ashel NEIMOIDIAN_CHR_bankor NEIMOIDIAN_CHR_barron NEIMOIDIAN_CHR_blex NEIMOIDIAN_CHR_brehg NEIMOIDIAN_CHR_brrimyo NEIMOIDIAN_CHR_canay NEIMOIDIAN_CHR_dalken NEIMOIDIAN_CHR_danak NEIMOIDIAN_CHR_demos NEIMOIDIAN_CHR_dod NEIMOIDIAN_CHR_dofine NEIMOIDIAN_CHR_dremon NEIMOIDIAN_CHR_drimal NEIMOIDIAN_CHR_dru NEIMOIDIAN_CHR_drugindi NEIMOIDIAN_CHR_durd NEIMOIDIAN_CHR_duset NEIMOIDIAN_CHR_ekorr NEIMOIDIAN_CHR_findos NEIMOIDIAN_CHR_gehad NEIMOIDIAN_CHR_geph NEIMOIDIAN_CHR_groshik NEIMOIDIAN_CHR_gunnay NEIMOIDIAN_CHR_haan NEIMOIDIAN_CHR_hasar NEIMOIDIAN_CHR_hask NEIMOIDIAN_CHR_hatha NEIMOIDIAN_CHR_how NEIMOIDIAN_CHR_itub NEIMOIDIAN_CHR_jaral NEIMOIDIAN_CHR_kartay NEIMOIDIAN_CHR_kav NEIMOIDIAN_CHR_klewer NEIMOIDIAN_CHR_laff NEIMOIDIAN_CHR_lagard NEIMOIDIAN_CHR_libkath NEIMOIDIAN_CHR_maccon NEIMOIDIAN_CHR_moh NEIMOIDIAN_CHR_monchar NEIMOIDIAN_CHR_nark NEIMOIDIAN_CHR_niak NEIMOIDIAN_CHR_nox NEIMOIDIAN_CHR_nozabuiba NEIMOIDIAN_CHR_ollin NEIMOIDIAN_CHR_olpan NEIMOIDIAN_CHR_orrin NEIMOIDIAN_CHR_osaax NEIMOIDIAN_CHR_otbor NEIMOIDIAN_CHR_proh_ven NEIMOIDIAN_CHR_pundar NEIMOIDIAN_CHR_raalo NEIMOIDIAN_CHR_regrap NEIMOIDIAN_CHR_shallit NEIMOIDIAN_CHR_takrab NEIMOIDIAN_CHR_po NEIMOIDIAN_CHR_tro NEIMOIDIAN_CHR_unch NEIMOIDIAN_CHR_veyaiko NEIMOIDIAN_CHR_zaday NEIMOIDIAN_CHR_ze_trios
+			}
+		}
+	}
+}

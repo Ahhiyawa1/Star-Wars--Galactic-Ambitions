@@ -1,0 +1,1195 @@
+########################
+# Fondor Sector Vassal #
+########################
+fondor_system_initializer = {
+	name = "NAME_Fondor"
+	class = "sc_g"
+	flags = {
+		fondor_homeworld
+		fondor_sector_system
+		canon_map
+		canon_map_shipyard_system
+	}
+	planet = {
+		name = "NAME_Fondor_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "NAME_Fondor_P1"
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 90
+	}
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 120
+	}
+	planet = {
+		name = "NAME_Fondor_P2"
+		class = pc_ecumenopolis
+		orbit_distance = 110
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = @ecumenopolis_min_size
+			max = @ecumenopolis_max_size
+		}
+		has_ring = no
+		entity = "ecumenopolis_fondor_planet_01_entity"
+		deposit_blockers = none
+		init_effect = {
+			set_planet_flag = planet_fondor
+			set_planet_flag = fondor_homeworld
+			if = { limit = { NOT = { has_global_flag = non_canon_map_spawned } }
+				create_human_species = yes
+				create_country = {
+					name = "NAME_fondor_sector"
+					adjective = PRESCRIPTED_adjective_Galactic
+					ship_prefix = ""
+					type = default
+					origin = "origin_swp_fallen_republic"
+					ignore_initial_colony_error = yes
+					civics = {
+						civic = "civic_cutthroat_politics"
+						civic = "civic_functional_architecture"
+					}
+					authority = auth_dictatorial
+					ethos = {
+						ethic = "ethic_authoritarian"
+						ethic = "ethic_materialist"
+						ethic = "ethic_xenophobe"
+					}
+					species = event_target:human_species
+					flag = {
+						icon = {
+							category = "starwars"
+							file = "ImperialSector.dds"
+						}
+						background = {
+							category = "backgrounds"
+							file = "00_solid.dds"
+						}
+						colors = {
+							"customcolor1951"
+							"customcolor1951"
+							"null"
+							"null"
+						}
+					}
+					effect = {
+						set_graphical_culture = imperial_01
+						set_country_flag = fondor_sector_vassal
+						set_country_flag = init_spawned
+						set_country_flag = canon_map
+					}
+				}
+				random_country = { limit = { has_country_flag = fondor_sector_vassal }
+					save_global_event_target_as = fondor_sector_vassal
+				}
+				set_capital = yes
+				generate_fondor_buildings = yes
+				generate_owner_pops = { AMOUNT = 25 }
+				give_start_techs = yes
+				prevent_anomaly = yes
+				create_starting_shipyard = { OWNER = "event_target:fondor_sector_vassal" SIZE = "2" }
+			}
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Fondor_P2_1"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Fondor_P2_2"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Fondor_P2_3"
+			class = pc_tropical
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = @moon_planet_min_size
+				max = @moon_planet_max_size
+			}
+			deposit_blockers = none
+			init_effect = {
+				set_monsoon_world = yes
+				set_planet_flag = planet_nallastia
+				if = {
+					limit = {
+						exists = event_target:fondor_sector_vassal
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					set_owner = event_target:fondor_sector_vassal
+					generate_minor_buildings = yes
+					generate_owner_pops = { AMOUNT = 3 }
+					set_planet_flag = needs_3_misc_pops
+					prevent_anomaly = yes
+				}
+			}
+		}
+		moon = {
+			name = "NAME_Fondor_P2_4"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Fondor_P2_5"
+			class = pc_barren_cold
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Fondor_P2_6"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 220
+	}
+	planet = {
+		name = "NAME_Fondor_P3"
+		class = pc_gas_giant
+		orbit_distance = 100
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 25
+			max = 30
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Fondor_P3_1"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Fondor_P3_2"
+			class = pc_barren_cold
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Fondor_P3_3"
+			class = pc_frozen
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Fondor_P3_4"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Fondor_P3_5"
+			class = pc_barren_cold
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 330
+	}
+	planet = {
+		name = "NAME_Fondor_P4_1"
+		class = pc_ice_asteroid
+		orbit_distance = 60
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 2
+			max = 4
+		}
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Fondor_P4_2"
+		class = pc_ice_asteroid
+		orbit_distance = 0
+		orbit_angle = 60
+		size = {
+			min = 2
+			max = 4
+		}
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Fondor_P4_3"
+		class = pc_ice_asteroid
+		orbit_distance = 0
+		orbit_angle = 60
+		size = {
+			min = 2
+			max = 4
+		}
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Fondor_P4_4"
+		class = pc_ice_asteroid
+		orbit_distance = 0
+		orbit_angle = 60
+		size = {
+			min = 2
+			max = 4
+		}
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Fondor_P4_5"
+		class = pc_ice_asteroid
+		orbit_distance = 0
+		orbit_angle = 60
+		size = {
+			min = 2
+			max = 4
+		}
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Fondor_P4_6"
+		class = pc_ice_asteroid
+		orbit_distance = 0
+		orbit_angle = 60
+		size = {
+			min = 2
+			max = 4
+		}
+		change_orbit = @base_moon_dist
+	}
+}
+
+# Foless
+foless_system_initializer = {
+	name = "NAME_Foless"
+	class = "rl_standard_stars"
+	flags = {
+		fondor_sector_system
+		canon_map
+	}
+	init_effect = {
+		add_modifier = {
+			modifier = sy_corellian_trade_spine
+		}
+	}
+	planet = {
+		name = "NAME_Foless_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		count = {
+			min = 2
+			max = 3
+		}
+		class = random_non_colonizable
+		size = {
+			min = 5
+			max = 10
+		}
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			count = {
+				min = 0
+				max = 1
+			}
+			class = random_non_colonizable
+			size = {
+				min = 2
+				max = 5
+			}
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			orbit_distance = 2
+		}
+	}
+	planet = {
+		name = "NAME_Foless_P1"
+		class = random_non_colonizable
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = @ecumenopolis_min_size
+			max = @ecumenopolis_max_size
+		}
+		has_ring = no
+		deposit_blockers = none
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = planet_foless
+		}
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		count = {
+			min = 3
+			max = 4
+		}
+		class = random_non_colonizable
+		size = {
+			min = 10
+			max = 25
+		}
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			count = {
+				min = 0
+				max = 2
+			}
+			class = random_non_colonizable
+			size = {
+				min = 2
+				max = 5
+			}
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			orbit_distance = 2
+		}
+	}
+}
+
+#Affa
+affa_system_initializer = {
+	name = "NAME_Affa"
+	class = "rl_standard_stars"
+	flags = {
+		fondor_sector_system
+		canon_map
+		starport_start
+	}
+	planet = {
+		name = "NAME_Affa_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		count = {
+			min = 0
+			max = 1
+		}
+		class = random_non_colonizable
+		size = {
+			min = 5
+			max = 10
+		}
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			count = {
+				min = 0
+				max = 1
+			}
+			class = random_non_colonizable
+			size = {
+				min = 2
+				max = 5
+			}
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			orbit_distance = 2
+		}
+	}
+	planet = {
+		name = "NAME_Affa_P1"
+		class = pc_continental
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = @medium_planet_min_size
+			max = @medium_planet_max_size
+		}
+		has_ring = no
+		deposit_blockers = none
+		init_effect = {
+			set_planet_flag = planet_affa
+			if = {
+				limit = {
+					exists = event_target:fondor_sector_vassal
+					NOT = { has_global_flag = non_canon_map_spawned }
+				}
+				set_owner = event_target:fondor_sector_vassal
+				generate_colony_buildings = yes
+				generate_owner_pops = { AMOUNT = 8 }
+				prevent_anomaly = yes
+			}
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Affa_P1_1"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Affa_P1_2"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Affa_P1_3"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Affa_P1_4"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	# planet = {
+	# 	count = {
+	# 		min = 3
+	# 		max = 4
+	# 	}
+	# 	class = random_non_colonizable
+	# 	size = {
+	# 		min = 10
+	# 		max = 25
+	# 	}
+	# 	orbit_distance = 30
+	# 	orbit_angle = {
+	# 		min = 90
+	# 		max = 270
+	# 	}
+	# 	change_orbit = @base_moon_dist
+	# 	moon = {
+	# 		count = {
+	# 			min = 0
+	# 			max = 2
+	# 		}
+	# 		class = random_non_colonizable
+	# 		size = {
+	# 			min = 2
+	# 			max = 5
+	# 		}
+	# 		orbit_angle = {
+	# 			min = 90
+	# 			max = 270
+	# 		}
+	# 		orbit_distance = 2
+	# 	}
+	# }
+}
+
+#######################
+# Naboo Sector Vassal #
+#######################
+naboo_system_initializer = {
+	name = "NAME_Naboo"
+	class = "sc_g"
+	flags = {
+		naboo_homeworld
+		naboo_sector_system
+		canon_map
+		canon_map_shipyard_system
+	}
+	init_effect = {
+		if = {
+			limit = {
+				has_global_flag = small_map_spawned
+			}
+			add_modifier = {
+				modifier = sy_triellus_trade_route
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Naboo_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "NAME_Naboo_P1"
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Naboo_P2"
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Naboo_P2_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Naboo_P3"
+		class = pc_continental
+		orbit_distance = 40
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = @big_planet_min_size
+			max = @big_planet_max_size
+		}
+		has_ring = no
+		entity = "continental_naboo_planet_01_entity"
+		deposit_blockers = none
+		init_effect = {
+			set_planet_flag = planet_naboo
+			save_global_event_target_as = planet_naboo
+			set_planet_flag = palpatine_homeworld
+			if = { limit = { NOT = { has_global_flag = non_canon_map_spawned } }
+				create_gungan_species = yes
+				generate_pops = { SPECIES = "event_target:gungan_species" AMOUNT = 6 }
+				create_country = {
+					name = "NAME_naboo_sector"
+					adjective = PRESCRIPTED_adjective_NabooSector
+					ship_prefix = ""
+					type = default
+					origin = "origin_swp_fallen_republic"
+					ignore_initial_colony_error = yes
+					civics = {
+						civic = "civic_cutthroat_politics"
+						civic = "civic_functional_architecture"
+					}
+					authority = auth_dictatorial
+					ethos = {
+						ethic = "ethic_authoritarian"
+						ethic = "ethic_materialist"
+						ethic = "ethic_xenophobe"
+					}
+					species = event_target:human_species
+					flag = {
+						icon = {
+							category = "starwars"
+							file = "ImperialSector.dds"
+						}
+						background = {
+							category = "backgrounds"
+							file = "00_solid.dds"
+						}
+						colors = {
+							"customcolor1951"
+							"customcolor1951"
+							"null"
+							"null"
+						}
+					}
+					effect = {
+						set_graphical_culture = imperial_01
+						set_country_flag = naboo_sector_vassal
+						set_country_flag = init_spawned
+						set_country_flag = canon_map
+					}
+				}
+				random_country = { limit = { has_country_flag = naboo_sector_vassal }
+					save_global_event_target_as = naboo_sector_vassal
+				}
+				set_capital = yes
+				generate_naboo_buildings = yes
+				generate_owner_pops = { AMOUNT = 19 }
+				give_start_techs = yes
+				prevent_anomaly = yes
+				create_starting_shipyard = { OWNER = "event_target:naboo_sector_vassal" }
+			}
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Naboo_P3_1"
+			class = pc_tropical
+		init_effect = { set_swamp_world = yes }
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = @moon_planet_min_size
+				max = @moon_planet_max_size
+			}
+		}
+		moon = {
+			name = "NAME_Naboo_P3_2"
+			class = pc_continental
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = @moon_planet_min_size
+				max = @moon_planet_max_size
+			}
+			deposit_blockers = none
+			init_effect = {
+				set_planet_flag = planet_roro
+				if = {
+					limit = {
+						exists = event_target:naboo_sector_vassal
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					set_owner = event_target:naboo_sector_vassal
+					generate_minor_buildings = yes
+					generate_owner_pops = { AMOUNT = 3 }
+					set_planet_flag = needs_3_misc_pops
+					prevent_anomaly = yes
+				}
+			}
+		}
+		moon = {
+			name = "NAME_Naboo_P3_3"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Naboo_P4"
+		class = pc_barren_cold
+		orbit_distance = 40
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Naboo_P4_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	# planet = {
+	# 	name = "NAME_Naboo_P5"
+	# 	class = pc_gas_giant
+	# 	orbit_distance = 60
+	# 	orbit_angle = {
+	# 		min = 90
+	# 		max = 270
+	# 	}
+	# 	size = {
+	# 		min = 25
+	# 		max = 30
+	# 	}
+	# 	change_orbit = @base_moon_dist
+	# 	moon = {
+	# 		name = "NAME_Naboo_P5_1"
+	# 		class = random_non_colonizable
+	# 		orbit_distance = 2
+	# 		orbit_angle = {
+	# 			min = 90
+	# 			max = 270
+	# 		}
+	# 		size = {
+	# 			min = 2
+	# 			max = 4
+	# 		}
+	# 	}
+	# 	moon = {
+	# 		name = "NAME_Naboo_P5_2"
+	# 		class = random_non_colonizable
+	# 		orbit_distance = 2
+	# 		orbit_angle = {
+	# 			min = 90
+	# 			max = 270
+	# 		}
+	# 		size = {
+	# 			min = 2
+	# 			max = 4
+	# 		}
+	# 	}
+	# 	moon = {
+	# 		name = "NAME_Naboo_P5_3"
+	# 		class = random_non_colonizable
+	# 		orbit_distance = 2
+	# 		orbit_angle = {
+	# 			min = 90
+	# 			max = 270
+	# 		}
+	# 		size = {
+	# 			min = 2
+	# 			max = 4
+	# 		}
+	# 	}
+	# 	moon = {
+	# 		name = "NAME_Naboo_P5_4"
+	# 		class = random_non_colonizable
+	# 		orbit_distance = 2
+	# 		orbit_angle = {
+	# 			min = 90
+	# 			max = 270
+	# 		}
+	# 		size = {
+	# 			min = 2
+	# 			max = 4
+	# 		}
+	# 	}
+	# 	moon = {
+	# 		name = "NAME_Naboo_P5_5"
+	# 		class = random_non_colonizable
+	# 		orbit_distance = 2
+	# 		orbit_angle = {
+	# 			min = 90
+	# 			max = 270
+	# 		}
+	# 		size = {
+	# 			min = 2
+	# 			max = 4
+	# 		}
+	# 	}
+	# }
+	planet = {
+		name = "NAME_Naboo_P6"
+		class = pc_toxic
+		orbit_distance = 60
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+}
+
+# Tentrix
+tentrix_system_initializer = {
+	name = "NAME_Tentrix"
+	class = "rl_standard_stars"
+	flags = {
+		naboo_sector_system
+		canon_map
+		starport_start
+	}
+	planet = {
+		name = "NAME_Tentrix_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		count = {
+			min = 2
+			max = 3
+		}
+		size = {
+			min = 5
+			max = 10
+		}
+		class = random_non_colonizable
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			count = {
+				min = 0
+				max = 1
+			}
+			size = {
+				min = 2
+				max = 5
+			}
+			class = random_non_colonizable
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			orbit_distance = 2
+		}
+	}
+	planet = {
+		name = "NAME_Tentrix_P1"
+		class = pc_ocean
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = @big_planet_min_size
+			max = @big_planet_max_size
+		}
+		has_ring = no
+		deposit_blockers = none
+		init_effect = {
+			add_modifier = {
+				modifier = natural_beauty
+			}
+			prevent_anomaly = yes
+			set_planet_flag = planet_tentrix
+		}
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		count = {
+			min = 3
+			max = 4
+		}
+		size = {
+			min = 10
+			max = 25
+		}
+		class = random_non_colonizable
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			count = {
+				min = 0
+				max = 2
+			}
+			size = {
+				min = 2
+				max = 5
+			}
+			class = random_non_colonizable
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			orbit_distance = 2
+		}
+	}
+}
+
+# Alassa Major
+alassa_major_system_initializer = {
+	name = "NAME_Alassa_Major"
+	class = "rl_standard_stars"
+	flags = {
+		naboo_sector_system
+		canon_map
+	}
+	planet = {
+		name = "NAME_Alassa_Major_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		count = {
+			min = 2
+			max = 3
+		}
+		size = {
+			min = 5
+			max = 10
+		}
+		class = random_non_colonizable
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			count = {
+				min = 0
+				max = 1
+			}
+			size = {
+				min = 2
+				max = 5
+			}
+			class = random_non_colonizable
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			orbit_distance = 2
+		}
+	}
+	planet = {
+		name = "NAME_Alassa_Major_P1"
+		class = pc_gaia
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = @medium_planet_min_size
+			max = @medium_planet_max_size
+		}
+		has_ring = no
+		deposit_blockers = none
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = planet_alassa_major
+		}
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		count = {
+			min = 3
+			max = 4
+		}
+		size = {
+			min = 10
+			max = 25
+		}
+		class = random_non_colonizable
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			count = {
+				min = 0
+				max = 2
+			}
+			size = {
+				min = 2
+				max = 5
+			}
+			class = random_non_colonizable
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			orbit_distance = 2
+		}
+	}
+}

@@ -1,0 +1,845 @@
+﻿Muun = {
+	randomized = no
+	ship_names = {
+		generic = {
+			MUUN_SHIP_onjobay MUUN_SHIP_fon MUUN_SHIP_renadmlay MUUN_SHIP_dil MUUN_SHIP_onjobay MUUN_SHIP_hid MUUN_SHIP_pondatt MUUN_SHIP_pineth MUUN_SHIP_braulle MUUN_SHIP_dask MUUN_SHIP_fon MUUN_SHIP_tithop MUUN_SHIP_don MUUN_SHIP_zonay MUUN_SHIP_done MUUN_SHIP_kolabe MUUN_SHIP_hid_belos MUUN_SHIP_son_braup MUUN_SHIP_guna MUUN_SHIP_brekre MUUN_SHIP_onabanimap MUUN_SHIP_ainan MUUN_SHIP_das MUUN_SHIP_dronot MUUN_SHIP_dotbanos MUUN_SHIP_deenask MUUN_SHIP_pal_bal MUUN_SHIP_bamanoss MUUN_SHIP_din MUUN_SHIP_sitbe MUUN_SHIP_sunap MUUN_SHIP_enarromimos MUUN_SHIP_ainalloman MUUN_SHIP_dautt_hoamap MUUN_SHIP_denos MUUN_SHIP_dindos MUUN_SHIP_dautt MUUN_SHIP_girlole MUUN_SHIP_obinomuun MUUN_SHIP_krebiff MUUN_SHIP_onjobay MUUN_SHIP_onak MUUN_SHIP_onelb MUUN_SHIP_darrak MUUN_SHIP_shanun MUUN_SHIP_shograno MUUN_SHIP_cagrenay MUUN_SHIP_danern MUUN_SHIP_lineenay MUUN_SHIP_denelb MUUN_SHIP_runin MUUN_SHIP_vamanaff MUUN_SHIP_ainiff MUUN_SHIP_heonuth MUUN_SHIP_hanay MUUN_SHIP_dillan MUUN_SHIP_kenelb MUUN_SHIP_dinak MUUN_SHIP_sinak MUUN_SHIP_krinkonay MUUN_SHIP_kraben MUUN_SHIP_krarimek MUUN_SHIP_kralpadmlo MUUN_SHIP_kraranintay MUUN_SHIP_kraregruun MUUN_SHIP_gitomun MUUN_SHIP_nulragray MUUN_SHIP_nunan MUUN_SHIP_danak MUUN_SHIP_nanin MUUN_SHIP_nanaff MUUN_SHIP_brononay MUUN_SHIP_sminak MUUN_SHIP_diminjall MUUN_SHIP_dogromik MUUN_SHIP_denak MUUN_SHIP_duunay MUUN_SHIP_deoukay MUUN_SHIP_talariff MUUN_SHIP_talluunintay MUUN_SHIP_ticcek MUUN_SHIP_teelak MUUN_SHIP_trellonjith MUUN_SHIP_tithak MUUN_SHIP_trullaff MUUN_SHIP_panotbaff MUUN_SHIP_paunan MUUN_SHIP_beoulmoller MUUN_SHIP_alponiff MUUN_SHIP_plilabor MUUN_SHIP_dof MUUN_SHIP_sminen MUUN_SHIP_lerilarlunay MUUN_SHIP_onarlunay MUUN_SHIP_lenak MUUN_SHIP_lunirauk MUUN_SHIP_rilibak MUUN_SHIP_rabatbuith MUUN_SHIP_shiniott MUUN_SHIP_regratt MUUN_SHIP_dutontay MUUN_SHIP_reouneray MUUN_SHIP_vatorrolay MUUN_SHIP_vananuun MUUN_SHIP_vuillall MUUN_SHIP_unad MUUN_SHIP_ainonay MUUN_SHIP_henak MUUN_SHIP_hekruray MUUN_SHIP_janatt MUUN_SHIP_donor MUUN_SHIP_senoner MUUN_SHIP_senuk MUUN_SHIP_sunotiray MUUN_SHIP_pluwobiff MUUN_SHIP_kizak MUUN_SHIP_konos MUUN_SHIP_binjoss MUUN_SHIP_balluimek MUUN_SHIP_balmeop MUUN_SHIP_bamak MUUN_SHIP_bonilpo MUUN_SHIP_dinoamak MUUN_SHIP_onanaff MUUN_SHIP_onetimay MUUN_SHIP_onne MUUN_SHIP_labalak MUUN_SHIP_larassidek MUUN_SHIP_lelleounjiarn MUUN_SHIP_rinkeonak MUUN_SHIP_rinamifak MUUN_SHIP_shinkior MUUN_SHIP_renillay MUUN_SHIP_durrillak MUUN_SHIP_rutbelluir MUUN_SHIP_vassalpak MUUN_SHIP_vonortay MUUN_SHIP_hennelfak MUUN_SHIP_dat MUUN_SHIP_jiarn MUUN_SHIP_jianuir MUUN_SHIP_sanak MUUN_SHIP_dauthak MUUN_SHIP_ilanauk MUUN_SHIP_pikrorrir MUUN_SHIP_piner MUUN_SHIP_trarranak MUUN_SHIP_tretheraff MUUN_SHIP_tremadek MUUN_SHIP_brenek MUUN_SHIP_smalfirn MUUN_SHIP_prutbey MUUN_SHIP_enenak MUUN_SHIP_kremine MUUN_SHIP_minen MUUN_SHIP_reounen MUUN_SHIP_rarlak MUUN_SHIP_onanine MUUN_SHIP_onrinror MUUN_SHIP_vinak MUUN_SHIP_vinos MUUN_SHIP_vume MUUN_SHIP_siless MUUN_SHIP_sana MUUN_SHIP_surlak MUUN_SHIP_plutbotay MUUN_SHIP_ankanintay MUUN_SHIP_arlanaccek MUUN_SHIP_ananith MUUN_SHIP_kath MUUN_SHIP_binan MUUN_SHIP_babak MUUN_SHIP_banall MUUN_SHIP_bibotay MUUN_SHIP_baritay MUUN_SHIP_banoban MUUN_SHIP_bonab MUUN_SHIP_berin MUUN_SHIP_piniott MUUN_SHIP_trallimek MUUN_SHIP_pelfanuth MUUN_SHIP_puronak MUUN_SHIP_tilinjak MUUN_SHIP_teethak MUUN_SHIP_nilinjay MUUN_SHIP_bromassuth MUUN_SHIP_ganik MUUN_SHIP_galmorimek MUUN_SHIP_ganek MUUN_SHIP_dinak MUUN_SHIP_arlanodek MUUN_SHIP_anullak MUUN_SHIP_ainahg MUUN_SHIP_sininrak MUUN_SHIP_eneemar MUUN_SHIP_deebuun MUUN_SHIP_pamubiff MUUN_SHIP_dirlell MUUN_SHIP_daron MUUN_SHIP_pofay MUUN_SHIP_punak MUUN_SHIP_teollak MUUN_SHIP_teonelb MUUN_SHIP_tithop MUUN_SHIP_tallanior MUUN_SHIP_tabanan MUUN_SHIP_tonjenuun MUUN_SHIP_tewud MUUN_SHIP_ninay MUUN_SHIP_ninimior MUUN_SHIP_niharay MUUN_SHIP_dinin MUUN_SHIP_daccak MUUN_SHIP_nay_mon MUUN_SHIP_nonar MUUN_SHIP_nenanan MUUN_SHIP_breeneep MUUN_SHIP_bradak MUUN_SHIP_bronott MUUN_SHIP_dalpop MUUN_SHIP_sminnior MUUN_SHIP_sminin MUUN_SHIP_smeenid MUUN_SHIP_daran MUUN_SHIP_nuthan MUUN_SHIP_nuthanelo MUUN_SHIP_nunorray MUUN_SHIP_fonunay MUUN_SHIP_gibaff MUUN_SHIP_gibonir MUUN_SHIP_giber MUUN_SHIP_garitan MUUN_SHIP_dulpak_shohg MUUN_SHIP_dulpanuun MUUN_SHIP_gonaban MUUN_SHIP_praniff MUUN_SHIP_tonan MUUN_SHIP_oninik MUUN_SHIP_litbior MUUN_SHIP_denuurray MUUN_SHIP_lunak MUUN_SHIP_lun MUUN_SHIP_rinay MUUN_SHIP_romillath MUUN_SHIP_vener MUUN_SHIP_hinan MUUN_SHIP_hen MUUN_SHIP_hekribotay MUUN_SHIP_hekrossotimior MUUN_SHIP_sehg MUUN_SHIP_daund MUUN_SHIP_talluun MUUN_SHIP_denehg MUUN_SHIP_gelfak MUUN_SHIP_gunatt MUUN_SHIP_jibine MUUN_SHIP_tremadek MUUN_SHIP_vassalpak MUUN_SHIP_krihiarn MUUN_SHIP_shinkior MUUN_SHIP_henan MUUN_SHIP_renchomumior MUUN_SHIP_rarlak MUUN_SHIP_illeounryee MUUN_SHIP_shinnahak MUUN_SHIP_onanrek MUUN_SHIP_rerlalpak MUUN_SHIP_oneratt MUUN_SHIP_vigrenan MUUN_SHIP_vallibun MUUN_SHIP_vinan MUUN_SHIP_dap MUUN_SHIP_aibano MUUN_SHIP_jener MUUN_SHIP_plirun MUUN_SHIP_plura MUUN_SHIP_kininun MUUN_SHIP_keelpak MUUN_SHIP_barip MUUN_SHIP_biw MUUN_SHIP_baranan MUUN_SHIP_boren MUUN_SHIP_zanrun MUUN_SHIP_zatbek MUUN_SHIP_inabay MUUN_SHIP_inatban MUUN_SHIP_inan MUUN_SHIP_pilpeno MUUN_SHIP_treman MUUN_SHIP_nanithon MUUN_SHIP_smeounjuir MUUN_SHIP_girlibun MUUN_SHIP_gabagripun MUUN_SHIP_darran MUUN_SHIP_prinir MUUN_SHIP_promer MUUN_SHIP_krarun MUUN_SHIP_olligriff MUUN_SHIP_onaff MUUN_SHIP_onreoth MUUN_SHIP_otbanay MUUN_SHIP_oner MUUN_SHIP_onatt MUUN_SHIP_onjon MUUN_SHIP_onek MUUN_SHIP_reneok MUUN_SHIP_liney MUUN_SHIP_aininan MUUN_SHIP_ainillotimek MUUN_SHIP_gelmarlek MUUN_SHIP_kanjior MUUN_SHIP_talrorrith MUUN_SHIP_onanrek MUUN_SHIP_onran MUUN_SHIP_ailonanimek MUUN_SHIP_ankanimek MUUN_SHIP_ainannazay MUUN_SHIP_enolinnap MUUN_SHIP_minern MUUN_SHIP_kraheezay MUUN_SHIP_praniff MUUN_SHIP_zagrarron MUUN_SHIP_olahak MUUN_SHIP_shinkior MUUN_SHIP_renanek MUUN_SHIP_durrillak MUUN_SHIP_dene MUUN_SHIP_anekrith MUUN_SHIP_plullotimek MUUN_SHIP_krihiarn MUUN_SHIP_taren MUUN_SHIP_vagrebonak MUUN_SHIP_dinjer MUUN_SHIP_ainatumek MUUN_SHIP_hunan MUUN_SHIP_dilluimek MUUN_SHIP_binossotaff MUUN_SHIP_inay MUUN_SHIP_inaf MUUN_SHIP_talahay MUUN_SHIP_krinanak MUUN_SHIP_kranagraff MUUN_SHIP_lirrobon MUUN_SHIP_gankad MUUN_SHIP_ilanern MUUN_SHIP_miniok MUUN_SHIP_gomir MUUN_SHIP_rebenrun MUUN_SHIP_tregrakan MUUN_SHIP_zofay MUUN_SHIP_pibillor MUUN_SHIP_nelanaan MUUN_SHIP_tathunay MUUN_SHIP_binatboss MUUN_SHIP_olimik MUUN_SHIP_lanagreh MUUN_SHIP_rarlunior MUUN_SHIP_romillath MUUN_SHIP_deenuuf MUUN_SHIP_sinohak MUUN_SHIP_plunanatt MUUN_SHIP_kaluikir MUUN_SHIP_difar MUUN_SHIP_rananun MUUN_SHIP_krineouneya MUUN_SHIP_seouthanior MUUN_SHIP_jibimay MUUN_SHIP_ogun MUUN_SHIP_krolpotimek
+		}
+		swp_subjugator = {
+			MUUN_SHIP_malevolence
+		}
+		science = {
+			MUUN_SHIP_crescent MUUN_SHIP_diligent MUUN_SHIP_zephyr MUUN_SHIP_enigma MUUN_SHIP_conquistador MUUN_SHIP_scylla MUUN_SHIP_arbiter MUUN_SHIP_asperity MUUN_SHIP_eminence MUUN_SHIP_astute MUUN_SHIP_alacrity MUUN_SHIP_satyr MUUN_SHIP_prospero MUUN_SHIP_untiring MUUN_SHIP_zenith MUUN_SHIP_torch MUUN_SHIP_remembrance MUUN_SHIP_pilgrim MUUN_SHIP_trailblazer MUUN_SHIP_vagabond MUUN_SHIP_wayfarer MUUN_SHIP_ambassador MUUN_SHIP_emissary MUUN_SHIP_nomad MUUN_SHIP_pathfinder MUUN_SHIP_wanderer MUUN_SHIP_traveler
+		}
+		colonizer = {
+			MUUN_SHIP_godspeed MUUN_SHIP_prophecy MUUN_SHIP_manifest_destiny MUUN_SHIP_virtue MUUN_SHIP_potential MUUN_SHIP_expansion MUUN_SHIP_pioneer_spirit MUUN_SHIP_prosperity MUUN_SHIP_summit MUUN_SHIP_pinnacle MUUN_SHIP_seeder MUUN_SHIP_harvest MUUN_SHIP_isis MUUN_SHIP_ceres MUUN_SHIP_exodus MUUN_SHIP_foundation MUUN_SHIP_scion MUUN_SHIP_progeny MUUN_SHIP_obligation MUUN_SHIP_purpose MUUN_SHIP_provider MUUN_SHIP_shining_city MUUN_SHIP_acquirer MUUN_SHIP_cultivator MUUN_SHIP_dawn_of_civilization MUUN_SHIP_purity MUUN_SHIP_community MUUN_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			MUUN_SHIP_godspeed MUUN_SHIP_prophecy MUUN_SHIP_manifest_destiny MUUN_SHIP_virtue MUUN_SHIP_potential MUUN_SHIP_expansion MUUN_SHIP_pioneer_spirit MUUN_SHIP_prosperity MUUN_SHIP_summit MUUN_SHIP_pinnacle MUUN_SHIP_seeder MUUN_SHIP_harvest MUUN_SHIP_isis MUUN_SHIP_ceres MUUN_SHIP_exodus MUUN_SHIP_foundation MUUN_SHIP_scion MUUN_SHIP_progeny MUUN_SHIP_obligation MUUN_SHIP_purpose MUUN_SHIP_provider MUUN_SHIP_shining_city MUUN_SHIP_acquirer MUUN_SHIP_cultivator MUUN_SHIP_dawn_of_civilization MUUN_SHIP_purity MUUN_SHIP_community MUUN_SHIP_brotherhood
+		}
+		constructor = {
+			MUUN_SHIP_industry MUUN_SHIP_assiduity MUUN_SHIP_effort MUUN_SHIP_laborer MUUN_SHIP_builder MUUN_SHIP_craftsman MUUN_SHIP_progress MUUN_SHIP_engineer MUUN_SHIP_promise MUUN_SHIP_service MUUN_SHIP_shelter MUUN_SHIP_beast MUUN_SHIP_creator MUUN_SHIP_developer MUUN_SHIP_forger MUUN_SHIP_foundry MUUN_SHIP_factory MUUN_SHIP_anvil MUUN_SHIP_pillar MUUN_SHIP_architect MUUN_SHIP_accommodator
+		}
+		transport = {
+			MUUN_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			MUUN_SHIP_spacegun_victory MUUN_SHIP_spacegun_success MUUN_SHIP_spacegun_supremacy MUUN_SHIP_spacegun_superior MUUN_SHIP_spacegun_adventure MUUN_SHIP_spacegun_ascendancy MUUN_SHIP_spacegun_paramount MUUN_SHIP_spacegun_preponderous MUUN_SHIP_spacegun_exemplary MUUN_SHIP_spacegun_eximious MUUN_SHIP_spacegun_pertinacity MUUN_SHIP_spacegun_acclaim MUUN_SHIP_spacegun_honor MUUN_SHIP_spacegun_renown MUUN_SHIP_spacegun_glory MUUN_SHIP_spacegun_superb MUUN_SHIP_spacegun_magnificence MUUN_SHIP_spacegun_majestic MUUN_SHIP_spacegun_splendor MUUN_SHIP_spacegun_paradigm MUUN_SHIP_spacegun_flawless MUUN_SHIP_spacegun_consummate MUUN_SHIP_spacegun_merit MUUN_SHIP_spacegun_perfection MUUN_SHIP_spacegun_virtue MUUN_SHIP_spacegun_advantage MUUN_SHIP_spacegun_rectitude MUUN_SHIP_spacegun_incorruptible MUUN_SHIP_spacegun_integrity MUUN_SHIP_spacegun_justice MUUN_SHIP_spacegun_probity MUUN_SHIP_spacegun_prudence MUUN_SHIP_spacegun_purity MUUN_SHIP_spacegun_resolute MUUN_SHIP_spacegun_dignity MUUN_SHIP_spacegun_distinction MUUN_SHIP_spacegun_excellence MUUN_SHIP_spacegun_faithful MUUN_SHIP_spacegun_discipline MUUN_SHIP_spacegun_steadfast MUUN_SHIP_spacegun_recompense MUUN_SHIP_spacegun_requiem MUUN_SHIP_spacegun_courage MUUN_SHIP_spacegun_valor MUUN_SHIP_spacegun_gallant MUUN_SHIP_spacegun_daring MUUN_SHIP_spacegun_constancy MUUN_SHIP_spacegun_perseverence MUUN_SHIP_spacegun_tenacity MUUN_SHIP_spacegun_sedulity MUUN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			MUUN_SHIP_spacegun_victory MUUN_SHIP_spacegun_success MUUN_SHIP_spacegun_supremacy MUUN_SHIP_spacegun_superior MUUN_SHIP_spacegun_adventure MUUN_SHIP_spacegun_ascendancy MUUN_SHIP_spacegun_paramount MUUN_SHIP_spacegun_preponderous MUUN_SHIP_spacegun_exemplary MUUN_SHIP_spacegun_eximious MUUN_SHIP_spacegun_pertinacity MUUN_SHIP_spacegun_acclaim MUUN_SHIP_spacegun_honor MUUN_SHIP_spacegun_renown MUUN_SHIP_spacegun_glory MUUN_SHIP_spacegun_superb MUUN_SHIP_spacegun_magnificence MUUN_SHIP_spacegun_majestic MUUN_SHIP_spacegun_splendor MUUN_SHIP_spacegun_paradigm MUUN_SHIP_spacegun_flawless MUUN_SHIP_spacegun_consummate MUUN_SHIP_spacegun_merit MUUN_SHIP_spacegun_perfection MUUN_SHIP_spacegun_virtue MUUN_SHIP_spacegun_advantage MUUN_SHIP_spacegun_rectitude MUUN_SHIP_spacegun_incorruptible MUUN_SHIP_spacegun_integrity MUUN_SHIP_spacegun_justice MUUN_SHIP_spacegun_probity MUUN_SHIP_spacegun_prudence MUUN_SHIP_spacegun_purity MUUN_SHIP_spacegun_resolute MUUN_SHIP_spacegun_dignity MUUN_SHIP_spacegun_distinction MUUN_SHIP_spacegun_excellence MUUN_SHIP_spacegun_faithful MUUN_SHIP_spacegun_discipline MUUN_SHIP_spacegun_steadfast MUUN_SHIP_spacegun_recompense MUUN_SHIP_spacegun_requiem MUUN_SHIP_spacegun_courage MUUN_SHIP_spacegun_valor MUUN_SHIP_spacegun_gallant MUUN_SHIP_spacegun_daring MUUN_SHIP_spacegun_constancy MUUN_SHIP_spacegun_perseverence MUUN_SHIP_spacegun_tenacity MUUN_SHIP_spacegun_sedulity MUUN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			MUUN_SHIP_spacegun_victory MUUN_SHIP_spacegun_success MUUN_SHIP_spacegun_supremacy MUUN_SHIP_spacegun_superior MUUN_SHIP_spacegun_adventure MUUN_SHIP_spacegun_ascendancy MUUN_SHIP_spacegun_paramount MUUN_SHIP_spacegun_preponderous MUUN_SHIP_spacegun_exemplary MUUN_SHIP_spacegun_eximious MUUN_SHIP_spacegun_pertinacity MUUN_SHIP_spacegun_acclaim MUUN_SHIP_spacegun_honor MUUN_SHIP_spacegun_renown MUUN_SHIP_spacegun_glory MUUN_SHIP_spacegun_superb MUUN_SHIP_spacegun_magnificence MUUN_SHIP_spacegun_majestic MUUN_SHIP_spacegun_splendor MUUN_SHIP_spacegun_paradigm MUUN_SHIP_spacegun_flawless MUUN_SHIP_spacegun_consummate MUUN_SHIP_spacegun_merit MUUN_SHIP_spacegun_perfection MUUN_SHIP_spacegun_virtue MUUN_SHIP_spacegun_advantage MUUN_SHIP_spacegun_rectitude MUUN_SHIP_spacegun_incorruptible MUUN_SHIP_spacegun_integrity MUUN_SHIP_spacegun_justice MUUN_SHIP_spacegun_probity MUUN_SHIP_spacegun_prudence MUUN_SHIP_spacegun_purity MUUN_SHIP_spacegun_resolute MUUN_SHIP_spacegun_dignity MUUN_SHIP_spacegun_distinction MUUN_SHIP_spacegun_excellence MUUN_SHIP_spacegun_faithful MUUN_SHIP_spacegun_discipline MUUN_SHIP_spacegun_steadfast MUUN_SHIP_spacegun_recompense MUUN_SHIP_spacegun_requiem MUUN_SHIP_spacegun_courage MUUN_SHIP_spacegun_valor MUUN_SHIP_spacegun_gallant MUUN_SHIP_spacegun_daring MUUN_SHIP_spacegun_constancy MUUN_SHIP_spacegun_perseverence MUUN_SHIP_spacegun_tenacity MUUN_SHIP_spacegun_sedulity MUUN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			MUUN_SHIP_citadel MUUN_SHIP_albacore MUUN_SHIP_gateway MUUN_SHIP_vincent MUUN_SHIP_babylon MUUN_SHIP_caernavon MUUN_SHIP_acre MUUN_SHIP_pembroke MUUN_SHIP_acheron MUUN_SHIP_spithead MUUN_SHIP_halifax MUUN_SHIP_victoria MUUN_SHIP_chatham MUUN_SHIP_anchorage MUUN_SHIP_scapa_flow MUUN_SHIP_hampton_roads MUUN_SHIP_brooklyn MUUN_SHIP_norfolk MUUN_SHIP_newport MUUN_SHIP_guam MUUN_SHIP_pensacola MUUN_SHIP_vesuvius MUUN_SHIP_mckinley MUUN_SHIP_everest MUUN_SHIP_kilimanjaro MUUN_SHIP_aconcagua MUUN_SHIP_elbrus MUUN_SHIP_st__helens MUUN_SHIP_fuji MUUN_SHIP_olympus MUUN_SHIP_sinai MUUN_SHIP_ambrose MUUN_SHIP_bermuda MUUN_SHIP_farpoint MUUN_SHIP_blue_star MUUN_SHIP_olympus_mons MUUN_SHIP_tharsis MUUN_SHIP_syrtis MUUN_SHIP_blackham MUUN_SHIP_fletcher MUUN_SHIP_perry MUUN_SHIP_butakov MUUN_SHIP_morris MUUN_SHIP_moorsom MUUN_SHIP_hart MUUN_SHIP_hargood MUUN_SHIP_spruance MUUN_SHIP_tanaka MUUN_SHIP_halsey MUUN_SHIP_turner MUUN_SHIP_doria MUUN_SHIP_tirpitz MUUN_SHIP_cunningham MUUN_SHIP_jellicoe MUUN_SHIP_hipper MUUN_SHIP_beatty MUUN_SHIP_potemkin MUUN_SHIP_durham MUUN_SHIP_codrington MUUN_SHIP_milne MUUN_SHIP_laforey MUUN_SHIP_tyler MUUN_SHIP_hawke MUUN_SHIP_yonai MUUN_SHIP_pound MUUN_SHIP_king MUUN_SHIP_crutchley MUUN_SHIP_mountbatten MUUN_SHIP_kountouriotis MUUN_SHIP_kuznetsov MUUN_SHIP_essen MUUN_SHIP_kornilov MUUN_SHIP_suffren MUUN_SHIP_treville MUUN_SHIP_villeneuve MUUN_SHIP_grasse MUUN_SHIP_byng MUUN_SHIP_lezo
+		}
+		ion_cannon = {
+			MUUN_SHIP_bombard MUUN_SHIP_ballista MUUN_SHIP_catapult MUUN_SHIP_harpoon MUUN_SHIP_polybolos MUUN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			MUUN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			MUUN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			MUUN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			MUUN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			MUUN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			MUUN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			MUUN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			MUUN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			MUUN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			MUUN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			MUUN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			MUUN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			MUUN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			MUUN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			MUUN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			MUUN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			MUUN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			MUUN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			MUUN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			MUUN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			MUUN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			MUUN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			MUUN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			MUUN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			MUUN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			MUUN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			MUUN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			MUUN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			MUUN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			MUUN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			MUUN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			MUUN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			MUUN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			MUUN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			MUUN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			MUUN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			MUUN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			MUUN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			MUUN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			MUUN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			MUUN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			MUUN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			MUUN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			MUUN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			MUUN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			MUUN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			MUUN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			MUUN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			MUUN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			MUUN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			MUUN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			MUUN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			MUUN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			MUUN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			MUUN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			MUUN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			MUUN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			MUUN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			MUUN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			MUUN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			MUUN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			MUUN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			MUUN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			MUUN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			MUUN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			MUUN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			MUUN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			MUUN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			MUUN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			MUUN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			MUUN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			MUUN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			MUUN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			MUUN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			MUUN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			MUUN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			MUUN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			MUUN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			MUUN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			MUUN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			MUUN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			MUUN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			MUUN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			MUUN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			MUUN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			MUUN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			MUUN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			MUUN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			MUUN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			MUUN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			MUUN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			MUUN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			MUUN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			MUUN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			MUUN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			MUUN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			MUUN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			MUUN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			MUUN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			MUUN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			MUUN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			MUUN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			MUUN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			MUUN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			MUUN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			MUUN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			MUUN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			MUUN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			MUUN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			MUUN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			MUUN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			MUUN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			MUUN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			MUUN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = MUUN_FLEET_defense_fleet_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = MUUN_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = MUUN_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = MUUN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = MUUN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = MUUN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = MUUN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = MUUN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = MUUN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				MUUN_ARMY_sarc_a__gladiators_ MUUN_ARMY_sarc_b__widowmakers_ MUUN_ARMY_sarc_c__immortals_ MUUN_ARMY_sarc_d__berserkers_ MUUN_ARMY_sarc_e__assassins_ MUUN_ARMY_sarc_f__reapers_ MUUN_ARMY_sarc_g__nighthawks_ MUUN_ARMY_sarc_h__desperados_ MUUN_ARMY_sarc_i__grey_knights_ MUUN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = MUUN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = MUUN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = MUUN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = MUUN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = MUUN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = MUUN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = MUUN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = MUUN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = MUUN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = MUUN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = MUUN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = MUUN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = MUUN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = MUUN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = MUUN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = MUUN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = MUUN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = MUUN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = MUUN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = MUUN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = MUUN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = MUUN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = MUUN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = MUUN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = MUUN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = MUUN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = MUUN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = MUUN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = MUUN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = MUUN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = MUUN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = MUUN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = MUUN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = MUUN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = MUUN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = MUUN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = MUUN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = MUUN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = MUUN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = MUUN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = MUUN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = MUUN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = MUUN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = MUUN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = MUUN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = MUUN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = MUUN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = MUUN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = MUUN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = MUUN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = MUUN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = MUUN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = MUUN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = MUUN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = MUUN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = MUUN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = MUUN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = MUUN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = MUUN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = MUUN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = MUUN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = MUUN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = MUUN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = MUUN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = MUUN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = MUUN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = MUUN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = MUUN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = MUUN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = MUUN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = MUUN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = MUUN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = MUUN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = MUUN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = MUUN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = MUUN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = MUUN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = MUUN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = MUUN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = MUUN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = MUUN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = MUUN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = MUUN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = MUUN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = MUUN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = MUUN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = MUUN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = MUUN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = MUUN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = MUUN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = MUUN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = MUUN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = MUUN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = MUUN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = MUUN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = MUUN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = MUUN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = MUUN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = MUUN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = MUUN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = MUUN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = MUUN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = MUUN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = MUUN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = MUUN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = MUUN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = MUUN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = MUUN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = MUUN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = MUUN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = MUUN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = MUUN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = MUUN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = MUUN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = MUUN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = MUUN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = MUUN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = MUUN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = MUUN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = MUUN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = MUUN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = MUUN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = MUUN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = MUUN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = MUUN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = MUUN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = MUUN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = MUUN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = MUUN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = MUUN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = MUUN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = MUUN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = MUUN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+
+			first_names_male = {
+				MUUN_CHR_rune MUUN_CHR_lott MUUN_CHR_daultay MUUN_CHR_lok MUUN_CHR_mar MUUN_CHR_gilramos MUUN_CHR_siv MUUN_CHR_zill MUUN_CHR_hath MUUN_CHR_aruteous MUUN_CHR_jull MUUN_CHR_sil MUUN_CHR_hallion MUUN_CHR_gap MUUN_CHR_palfa MUUN_CHR_sib MUUN_CHR_aito MUUN_CHR_sentepeth MUUN_CHR_kund MUUN_CHR_harro MUUN_CHR_hask MUUN_CHR_paw MUUN_CHR_brehg MUUN_CHR_reya MUUN_CHR_gode MUUN_CHR_nap MUUN_CHR_lufa MUUN_CHR_yee MUUN_CHR_geph MUUN_CHR_lik MUUN_CHR_gunaray MUUN_CHR_igren MUUN_CHR_dif MUUN_CHR_klewer MUUN_CHR_kuto MUUN_CHR_smeer MUUN_CHR_helb MUUN_CHR_toat MUUN_CHR_teek MUUN_CHR_jeek MUUN_CHR_orrin MUUN_CHR_veor MUUN_CHR_dak_on MUUN_CHR_nozabuiba MUUN_CHR_gama MUUN_CHR_budmle MUUN_CHR_proh_ven MUUN_CHR_salitt MUUN_CHR_vigro MUUN_CHR_rers MUUN_CHR_desson MUUN_CHR_cathan MUUN_CHR_dru MUUN_CHR_tunjas MUUN_CHR_borlo MUUN_CHR_krett MUUN_CHR_ablund MUUN_CHR_aach MUUN_CHR_aagon MUUN_CHR_aalto MUUN_CHR_aambler MUUN_CHR_abadaner MUUN_CHR_aban MUUN_CHR_abbus_kelo MUUN_CHR_acan MUUN_CHR_ace MUUN_CHR_adame MUUN_CHR_adar MUUN_CHR_arvel MUUN_CHR_addi_shon MUUN_CHR_addle MUUN_CHR_adelhard MUUN_CHR_aden MUUN_CHR_adon_larr MUUN_CHR_adraas MUUN_CHR_adrenas MUUN_CHR_adrick MUUN_CHR_adun MUUN_CHR_aeron MUUN_CHR_agareth MUUN_CHR_aggadeen MUUN_CHR_alric MUUN_CHR_airten MUUN_CHR_agrippa MUUN_CHR_ajaan MUUN_CHR_ajolin MUUN_CHR_akaste_vel MUUN_CHR_akobi MUUN_CHR_alain MUUN_CHR_alaric MUUN_CHR_albathius MUUN_CHR_alde MUUN_CHR_alec MUUN_CHR_alekam MUUN_CHR_alethios MUUN_CHR_alger MUUN_CHR_algrunar MUUN_CHR_ali_alann MUUN_CHR_alif MUUN_CHR_alim_gen MUUN_CHR_alin MUUN_CHR_alix MUUN_CHR_alkhara MUUN_CHR_allia MUUN_CHR_almak MUUN_CHR_almec MUUN_CHR_alon MUUN_CHR_alozen MUUN_CHR_alph MUUN_CHR_altaca MUUN_CHR_althon MUUN_CHR_alwynn MUUN_CHR_amberson MUUN_CHR_ament MUUN_CHR_amis MUUN_CHR_ammon MUUN_CHR_amzartho MUUN_CHR_anabar MUUN_CHR_anager MUUN_CHR_anarine MUUN_CHR_anathemos MUUN_CHR_andan MUUN_CHR_anders MUUN_CHR_ando MUUN_CHR_andra MUUN_CHR_andrew MUUN_CHR_andrid MUUN_CHR_andrik MUUN_CHR_andru MUUN_CHR_ar_al MUUN_CHR_angber MUUN_CHR_angral MUUN_CHR_anlen MUUN_CHR_anod MUUN_CHR_anselm MUUN_CHR_anskow MUUN_CHR_anson MUUN_CHR_adem MUUN_CHR_antone MUUN_CHR_antonin MUUN_CHR_anuli MUUN_CHR_appleton MUUN_CHR_arac MUUN_CHR_arakkus MUUN_CHR_aramis MUUN_CHR_arana MUUN_CHR_armen MUUN_CHR_arastide MUUN_CHR_arber MUUN_CHR_arcann MUUN_CHR_ardan MUUN_CHR_ardax MUUN_CHR_ardiff MUUN_CHR_ardle MUUN_CHR_ardmore MUUN_CHR_ardot MUUN_CHR_ardran MUUN_CHR_avinoam MUUN_CHR_ars MUUN_CHR_argona MUUN_CHR_argor MUUN_CHR_argos MUUN_CHR_arias MUUN_CHR_ariavos MUUN_CHR_arigo MUUN_CHR_aris MUUN_CHR_arkan MUUN_CHR_arkeld MUUN_CHR_arl MUUN_CHR_arljack MUUN_CHR_arlo MUUN_CHR_arlos MUUN_CHR_armatan MUUN_CHR_armitage MUUN_CHR_arnama MUUN_CHR_arnet MUUN_CHR_arno MUUN_CHR_arnothian MUUN_CHR_arnth MUUN_CHR_arnus MUUN_CHR_arrad MUUN_CHR_arratan MUUN_CHR_arrax MUUN_CHR_arric MUUN_CHR_artano MUUN_CHR_artok MUUN_CHR_arturo MUUN_CHR_arzanon MUUN_CHR_ash MUUN_CHR_ashaad MUUN_CHR_asirr MUUN_CHR_atali MUUN_CHR_atar MUUN_CHR_atmino MUUN_CHR_atren MUUN_CHR_augatta MUUN_CHR_avan MUUN_CHR_avanj MUUN_CHR_avarik MUUN_CHR_averdon MUUN_CHR_averen MUUN_CHR_averon MUUN_CHR_avers MUUN_CHR_aves MUUN_CHR_aviso MUUN_CHR_avrun MUUN_CHR_azkul MUUN_CHR_azrakel MUUN_CHR_ace MUUN_CHR_b_arin MUUN_CHR_bail MUUN_CHR_beel MUUN_CHR_bix MUUN_CHR_blix MUUN_CHR_boz MUUN_CHR_braedon MUUN_CHR_bryn MUUN_CHR_brixus MUUN_CHR_cal MUUN_CHR_cassian MUUN_CHR_chik MUUN_CHR_cinto MUUN_CHR_cumberlayne MUUN_CHR_darrus MUUN_CHR_djinn MUUN_CHR_druth MUUN_CHR_det MUUN_CHR_ethan MUUN_CHR_galiir MUUN_CHR_gez MUUN_CHR_haemon MUUN_CHR_jae MUUN_CHR_jagged MUUN_CHR_jess MUUN_CHR_jesper MUUN_CHR_jon MUUN_CHR_gathal MUUN_CHR_gideon MUUN_CHR_jefand MUUN_CHR_kel MUUN_CHR_koffi MUUN_CHR_lazlo MUUN_CHR_laetin MUUN_CHR_lesk MUUN_CHR_maxiron MUUN_CHR_neet MUUN_CHR_osak MUUN_CHR_pabel MUUN_CHR_paddy MUUN_CHR_peita MUUN_CHR_peema MUUN_CHR_pellas MUUN_CHR_prewb MUUN_CHR_raymus MUUN_CHR_raar MUUN_CHR_rage MUUN_CHR_rel MUUN_CHR_reez MUUN_CHR_ras MUUN_CHR_rixes MUUN_CHR_ruceba MUUN_CHR_seraph MUUN_CHR_sim MUUN_CHR_sio MUUN_CHR_y_ull MUUN_CHR_tavion MUUN_CHR_tavid MUUN_CHR_tendis MUUN_CHR_tev MUUN_CHR_tiberus MUUN_CHR_toob MUUN_CHR_tor MUUN_CHR_turon MUUN_CHR_villis MUUN_CHR_wain MUUN_CHR_wedge MUUN_CHR_wes MUUN_CHR_zeen MUUN_CHR_baboo MUUN_CHR_bachenkall MUUN_CHR_bafor MUUN_CHR_bagitt MUUN_CHR_bailey MUUN_CHR_bailie MUUN_CHR_bairn MUUN_CHR_bala_tik MUUN_CHR_balankin MUUN_CHR_balaro MUUN_CHR_balcomb MUUN_CHR_baldwin MUUN_CHR_baldy MUUN_CHR_balek MUUN_CHR_balisk MUUN_CHR_balkin MUUN_CHR_balko MUUN_CHR_ballala MUUN_CHR_ballard MUUN_CHR_ballax MUUN_CHR_bendodi MUUN_CHR_balog MUUN_CHR_balto MUUN_CHR_bams MUUN_CHR_bandor MUUN_CHR_boss MUUN_CHR_banley MUUN_CHR_banna MUUN_CHR_bannos MUUN_CHR_bant MUUN_CHR_banz MUUN_CHR_baradis MUUN_CHR_barak MUUN_CHR_baramak MUUN_CHR_barcel MUUN_CHR_bardo MUUN_CHR_barduun MUUN_CHR_barev MUUN_CHR_barich MUUN_CHR_barik MUUN_CHR_barkale MUUN_CHR_barksy MUUN_CHR_barleos MUUN_CHR_barlow MUUN_CHR_barney MUUN_CHR_barnley MUUN_CHR_baro MUUN_CHR_barry MUUN_CHR_barstead MUUN_CHR_bartam MUUN_CHR_barth MUUN_CHR_barthis MUUN_CHR_bas MUUN_CHR_bas_ton MUUN_CHR_bascome MUUN_CHR_basile MUUN_CHR_basso MUUN_CHR_bastian MUUN_CHR_bathens MUUN_CHR_batono MUUN_CHR_bator MUUN_CHR_billal MUUN_CHR_battz MUUN_CHR_baxton MUUN_CHR_baysden MUUN_CHR_baz MUUN_CHR_be MUUN_CHR_beau MUUN_CHR_beckar MUUN_CHR_becker MUUN_CHR_beckman MUUN_CHR_bedareux MUUN_CHR_bedoch MUUN_CHR_beebe MUUN_CHR_beez MUUN_CHR_beldiss MUUN_CHR_belkan MUUN_CHR_beller MUUN_CHR_bellis MUUN_CHR_belos MUUN_CHR_byzal MUUN_CHR_bzorn MUUN_CHR_biggs MUUN_CHR_bels MUUN_CHR_bemos MUUN_CHR_benay MUUN_CHR_benjo MUUN_CHR_benkin MUUN_CHR_benn MUUN_CHR_benni MUUN_CHR_benok MUUN_CHR_benthar MUUN_CHR_benton MUUN_CHR_bentro MUUN_CHR_boar MUUN_CHR_benx MUUN_CHR_bequesh MUUN_CHR_berandis MUUN_CHR_berethon MUUN_CHR_bergan MUUN_CHR_berix MUUN_CHR_bernie MUUN_CHR_bertrum MUUN_CHR_berusal MUUN_CHR_bewil MUUN_CHR_bex MUUN_CHR_billan MUUN_CHR_biril MUUN_CHR_birket MUUN_CHR_birok MUUN_CHR_black MUUN_CHR_blagotine MUUN_CHR_blaide MUUN_CHR_blainekie MUUN_CHR_bledsoe MUUN_CHR_bleeker MUUN_CHR_blleen MUUN_CHR_bloodory MUUN_CHR_bloodworthy MUUN_CHR_blount MUUN_CHR_blyes MUUN_CHR_boakie MUUN_CHR_boaz MUUN_CHR_bob MUUN_CHR_bol MUUN_CHR_bon MUUN_CHR_bonze MUUN_CHR_boonan MUUN_CHR_boran MUUN_CHR_boraso MUUN_CHR_borgin MUUN_CHR_borm MUUN_CHR_bornae MUUN_CHR_bort MUUN_CHR_bortrek MUUN_CHR_boshek MUUN_CHR_bourom MUUN_CHR_bouyard MUUN_CHR_braden MUUN_CHR_brady MUUN_CHR_bragan MUUN_CHR_braynor MUUN_CHR_brayso MUUN_CHR_breckon MUUN_CHR_breehld MUUN_CHR_brinn MUUN_CHR_brinnie MUUN_CHR_brint MUUN_CHR_brinton MUUN_CHR_brogon MUUN_CHR_brohmer MUUN_CHR_brolis MUUN_CHR_broll MUUN_CHR_brom MUUN_CHR_brooser MUUN_CHR_brothic MUUN_CHR_brovto MUUN_CHR_broysc MUUN_CHR_bruan MUUN_CHR_brucce MUUN_CHR_bruckman MUUN_CHR_bryint MUUN_CHR_brylin MUUN_CHR_bry MUUN_CHR_brysonbular MUUN_CHR_bulger MUUN_CHR_bun_delbur MUUN_CHR_burne MUUN_CHR_burque MUUN_CHR_burr MUUN_CHR_bursk MUUN_CHR_bursthed MUUN_CHR_byrga MUUN_CHR_byten MUUN_CHR_trey MUUN_CHR_lando MUUN_CHR_caaldra MUUN_CHR_cabaril MUUN_CHR_cabbel MUUN_CHR_caeleb MUUN_CHR_caerbellak MUUN_CHR_cafian MUUN_CHR_cag MUUN_CHR_cagaran MUUN_CHR_cam MUUN_CHR_camaran MUUN_CHR_camas MUUN_CHR_cardacs MUUN_CHR_cardy MUUN_CHR_careem MUUN_CHR_cargeloch MUUN_CHR_carhart MUUN_CHR_calron MUUN_CHR_calson MUUN_CHR_calum MUUN_CHR_calypho MUUN_CHR_cal MUUN_CHR_caladane MUUN_CHR_calaverous MUUN_CHR_carli MUUN_CHR_carlon MUUN_CHR_carlton MUUN_CHR_carn MUUN_CHR_carner MUUN_CHR_carness MUUN_CHR_carnor MUUN_CHR_carns MUUN_CHR_callef MUUN_CHR_callen MUUN_CHR_callow MUUN_CHR_calders MUUN_CHR_caleb MUUN_CHR_calo MUUN_CHR_calphayus MUUN_CHR_cathers MUUN_CHR_caton MUUN_CHR_cauley MUUN_CHR_cav MUUN_CHR_cav_saran MUUN_CHR_cavin MUUN_CHR_cryle MUUN_CHR_cavwol MUUN_CHR_cawelyn MUUN_CHR_cecius MUUN_CHR_cede MUUN_CHR_cemma MUUN_CHR_ceoloe MUUN_CHR_cerasi MUUN_CHR_cerik MUUN_CHR_charny MUUN_CHR_charol MUUN_CHR_charpp MUUN_CHR_charnoq MUUN_CHR_charnso MUUN_CHR_cestus MUUN_CHR_ch_arb MUUN_CHR_ch_gally MUUN_CHR_ch_lessan MUUN_CHR_cha MUUN_CHR_chael MUUN_CHR_challer MUUN_CHR_chambe MUUN_CHR_crlyn MUUN_CHR_chang MUUN_CHR_chappral MUUN_CHR_chef MUUN_CHR_chentu MUUN_CHR_chell MUUN_CHR_chessiq MUUN_CHR_chet MUUN_CHR_chiann MUUN_CHR_chicora MUUN_CHR_chatty MUUN_CHR_chayloss MUUN_CHR_chedaki MUUN_CHR_chiraneau MUUN_CHR_chiron MUUN_CHR_chorlen MUUN_CHR_chornarov MUUN_CHR_cody MUUN_CHR_clorr MUUN_CHR_clovis MUUN_CHR_clydno MUUN_CHR_clynn MUUN_CHR_cnorec MUUN_CHR_coburn MUUN_CHR_cobus MUUN_CHR_cogon MUUN_CHR_colin MUUN_CHR_collus MUUN_CHR_colsan MUUN_CHR_colten MUUN_CHR_colton MUUN_CHR_combo MUUN_CHR_conar MUUN_CHR_coorta MUUN_CHR_corin MUUN_CHR_coris MUUN_CHR_corlac MUUN_CHR_corso MUUN_CHR_corvan MUUN_CHR_corvin MUUN_CHR_corvis MUUN_CHR_corwin MUUN_CHR_corwyth MUUN_CHR_cote MUUN_CHR_cothron MUUN_CHR_cotin MUUN_CHR_coy MUUN_CHR_cravel MUUN_CHR_cravus MUUN_CHR_creb MUUN_CHR_creeve MUUN_CHR_corlis MUUN_CHR_crest MUUN_CHR_crimpler MUUN_CHR_crimson MUUN_CHR_crin MUUN_CHR_crion MUUN_CHR_criss MUUN_CHR_cristoff MUUN_CHR_crix MUUN_CHR_cronal MUUN_CHR_cronnin MUUN_CHR_cronus MUUN_CHR_d_ashewl MUUN_CHR_d_krn MUUN_CHR_d_lew MUUN_CHR_d_vox MUUN_CHR_d_vrosh MUUN_CHR_daal MUUN_CHR_dado MUUN_CHR_daek MUUN_CHR_dael MUUN_CHR_dahar MUUN_CHR_dahm MUUN_CHR_daiman MUUN_CHR_dainsom MUUN_CHR_daiv MUUN_CHR_dak MUUN_CHR_dakron MUUN_CHR_daksh MUUN_CHR_dalton MUUN_CHR_damarcus MUUN_CHR_damaris MUUN_CHR_damarus MUUN_CHR_dao MUUN_CHR_dapp MUUN_CHR_daquinn MUUN_CHR_dar MUUN_CHR_eesh MUUN_CHR_darda MUUN_CHR_dardan MUUN_CHR_dareb_ MUUN_CHR_dareg MUUN_CHR_darek MUUN_CHR_daren MUUN_CHR_dargus MUUN_CHR_daggath MUUN_CHR_darnov MUUN_CHR_daro MUUN_CHR_darok MUUN_CHR_darone MUUN_CHR_darr MUUN_CHR_darrik MUUN_CHR_darrok MUUN_CHR_darrst MUUN_CHR_darsin MUUN_CHR_darthyn MUUN_CHR_daruula MUUN_CHR_dash MUUN_CHR_datoo MUUN_CHR_dauren MUUN_CHR_davis MUUN_CHR_davon MUUN_CHR_davonn MUUN_CHR_davos MUUN_CHR_davrill MUUN_CHR_davrin MUUN_CHR_davu MUUN_CHR_dayja MUUN_CHR_daz MUUN_CHR_ramsis MUUN_CHR_bren MUUN_CHR_tan MUUN_CHR_jan MUUN_CHR_porro MUUN_CHR_cin MUUN_CHR_garven MUUN_CHR_cornelius MUUN_CHR_galen MUUN_CHR_dannl MUUN_CHR_ecclessis MUUN_CHR_debbikin MUUN_CHR_debeli MUUN_CHR_deegan MUUN_CHR_deerian MUUN_CHR_deevis MUUN_CHR_defain MUUN_CHR_deflaros MUUN_CHR_degoren MUUN_CHR_dehno MUUN_CHR_dekay MUUN_CHR_delevar MUUN_CHR_delfaros MUUN_CHR_dellin MUUN_CHR_dellocon MUUN_CHR_delpho MUUN_CHR_delquis MUUN_CHR_delsa MUUN_CHR_delund MUUN_CHR_delurin MUUN_CHR_demtri MUUN_CHR_den MUUN_CHR_denbar MUUN_CHR_dender MUUN_CHR_dendro MUUN_CHR_dendu MUUN_CHR_denetrus MUUN_CHR_denev MUUN_CHR_dengar MUUN_CHR_dengril MUUN_CHR_denid MUUN_CHR_denimoor MUUN_CHR_denin MUUN_CHR_denna MUUN_CHR_denner MUUN_CHR_dennik MUUN_CHR_deppo MUUN_CHR_derdram MUUN_CHR_derec MUUN_CHR_derish MUUN_CHR_derliff MUUN_CHR_dermeg MUUN_CHR_dermian MUUN_CHR_dern MUUN_CHR_dernas MUUN_CHR_derral MUUN_CHR_derrin MUUN_CHR_dervis MUUN_CHR_desanne MUUN_CHR_devoris MUUN_CHR_devotek MUUN_CHR_devron MUUN_CHR_devry MUUN_CHR_devsh MUUN_CHR_dewolf MUUN_CHR_dex MUUN_CHR_dezsetes MUUN_CHR_dhaiv MUUN_CHR_dhal MUUN_CHR_dindau MUUN_CHR_dindo MUUN_CHR_ding MUUN_CHR_dinge MUUN_CHR_dobbatek MUUN_CHR_dobberty MUUN_CHR_dobbs MUUN_CHR_dolan MUUN_CHR_dolgis MUUN_CHR_dolmen MUUN_CHR_dolo MUUN_CHR_dominaire MUUN_CHR_domm MUUN_CHR_donovan MUUN_CHR_donovarr MUUN_CHR_donsull MUUN_CHR_dorel_kan MUUN_CHR_dorgat MUUN_CHR_dorian MUUN_CHR_dorja MUUN_CHR_dorn MUUN_CHR_dorotsech MUUN_CHR_dorrick MUUN_CHR_dortho MUUN_CHR_downey MUUN_CHR_draado MUUN_CHR_draahg MUUN_CHR_dracen MUUN_CHR_drage MUUN_CHR_dragen MUUN_CHR_drake MUUN_CHR_drayk MUUN_CHR_drazin MUUN_CHR_drek MUUN_CHR_duno MUUN_CHR_dree MUUN_CHR_dreed MUUN_CHR_drefin MUUN_CHR_dregg MUUN_CHR_drelosyn MUUN_CHR_drexel MUUN_CHR_dreyf MUUN_CHR_drezzel MUUN_CHR_drizan MUUN_CHR_dro MUUN_CHR_droman MUUN_CHR_dromath MUUN_CHR_drowl MUUN_CHR_drufeys MUUN_CHR_drummond MUUN_CHR_dubeh MUUN_CHR_dunari MUUN_CHR_dunaub MUUN_CHR_deadeye MUUN_CHR_duncan MUUN_CHR_durhant MUUN_CHR_durmat MUUN_CHR_durpin MUUN_CHR_durrei MUUN_CHR_dyshotto MUUN_CHR_dzoun MUUN_CHR_eagle MUUN_CHR_eanjer MUUN_CHR_earl MUUN_CHR_earsh MUUN_CHR_eben MUUN_CHR_eddon MUUN_CHR_edease MUUN_CHR_edern MUUN_CHR_edgar MUUN_CHR_edikar MUUN_CHR_egoreg MUUN_CHR_egron MUUN_CHR_eistern MUUN_CHR_ejai MUUN_CHR_eker MUUN_CHR_ekh MUUN_CHR_ekisp MUUN_CHR_ekov MUUN_CHR_elarles MUUN_CHR_eriquel MUUN_CHR_eris MUUN_CHR_erl MUUN_CHR_erloi MUUN_CHR_esano MUUN_CHR_escalion MUUN_CHR_ezil MUUN_CHR_ezrim MUUN_CHR_ezra MUUN_CHR_ein MUUN_CHR_eislo MUUN_CHR_jake MUUN_CHR_jango MUUN_CHR_eli MUUN_CHR_eliasb MUUN_CHR_eligyn MUUN_CHR_elior MUUN_CHR_elis MUUN_CHR_elizhis MUUN_CHR_elkin MUUN_CHR_ellsworth MUUN_CHR_elmel MUUN_CHR_elmyo MUUN_CHR_elrodelsar MUUN_CHR_elsek MUUN_CHR_emil MUUN_CHR_emir MUUN_CHR_emmens MUUN_CHR_endicott MUUN_CHR_enfield MUUN_CHR_enger MUUN_CHR_engret MUUN_CHR_emmett MUUN_CHR_emory MUUN_CHR_eoaq MUUN_CHR_eph MUUN_CHR_erdan MUUN_CHR_erelut MUUN_CHR_ergast MUUN_CHR_ergel MUUN_CHR_ergeron MUUN_CHR_eric MUUN_CHR_erik MUUN_CHR_estopatrin MUUN_CHR_esture MUUN_CHR_estus MUUN_CHR_eth MUUN_CHR_ethen MUUN_CHR_etnam MUUN_CHR_etta MUUN_CHR_evad MUUN_CHR_evan MUUN_CHR_evax MUUN_CHR_evlen MUUN_CHR_evran MUUN_CHR_evun MUUN_CHR_evvin MUUN_CHR_ewane MUUN_CHR_exar MUUN_CHR_eyvind MUUN_CHR_falltower MUUN_CHR_falrey MUUN_CHR_falsta MUUN_CHR_falch MUUN_CHR_falco MUUN_CHR_faarl MUUN_CHR_fable MUUN_CHR_faedral MUUN_CHR_far MUUN_CHR_faradin MUUN_CHR_faraire MUUN_CHR_fardi MUUN_CHR_farn MUUN_CHR_farng MUUN_CHR_farnis MUUN_CHR_farsal MUUN_CHR_farseam MUUN_CHR_fatulaine MUUN_CHR_fauler MUUN_CHR_feldon MUUN_CHR_feldron MUUN_CHR_feleea MUUN_CHR_fenn MUUN_CHR_fenris MUUN_CHR_fenson MUUN_CHR_feras MUUN_CHR_ferav MUUN_CHR_ferdoin MUUN_CHR_fermin MUUN_CHR_ferob MUUN_CHR_ferren MUUN_CHR_ferrid MUUN_CHR_ferrig MUUN_CHR_ferrin MUUN_CHR_ferron MUUN_CHR_ferrus MUUN_CHR_falesh MUUN_CHR_falk MUUN_CHR_fardi MUUN_CHR_fassio MUUN_CHR_fatulaine MUUN_CHR_dannl MUUN_CHR_februs MUUN_CHR_janus MUUN_CHR_fixer MUUN_CHR_florn MUUN_CHR_grizz MUUN_CHR_frobb MUUN_CHR_fruun
+			}
+			first_names_female = {
+				MUUN_CHR_tey MUUN_CHR_mik MUUN_CHR_viff MUUN_CHR_plure MUUN_CHR_shass MUUN_CHR_sanna MUUN_CHR_niak MUUN_CHR_vorn MUUN_CHR_pule MUUN_CHR_vuub MUUN_CHR_nillia MUUN_CHR_vale MUUN_CHR_aiolin MUUN_CHR_amanoa MUUN_CHR_aphra MUUN_CHR_atris MUUN_CHR_bastila MUUN_CHR_fema MUUN_CHR_jan MUUN_CHR_jyn MUUN_CHR_padm_ MUUN_CHR_rey MUUN_CHR_tash MUUN_CHR_tavion MUUN_CHR_zannah MUUN_CHR_aaida MUUN_CHR_aari MUUN_CHR_acina MUUN_CHR_ackmena MUUN_CHR_ada MUUN_CHR_adana MUUN_CHR_adnama MUUN_CHR_aeran MUUN_CHR_aereena MUUN_CHR_aeron MUUN_CHR_agatha MUUN_CHR_agira MUUN_CHR_ahlya MUUN_CHR_aimee MUUN_CHR_airen MUUN_CHR_akindra MUUN_CHR_albea MUUN_CHR_aldiae MUUN_CHR_alianda MUUN_CHR_alinta MUUN_CHR_alisia MUUN_CHR_allania MUUN_CHR_allara MUUN_CHR_allura MUUN_CHR_allya MUUN_CHR_alma MUUN_CHR_alora MUUN_CHR_altiss MUUN_CHR_alva MUUN_CHR_alvena MUUN_CHR_alya MUUN_CHR_alyak MUUN_CHR_amaya MUUN_CHR_amber MUUN_CHR_amee MUUN_CHR_amie MUUN_CHR_amni MUUN_CHR_amy MUUN_CHR_an_bal MUUN_CHR_anandra MUUN_CHR_anarq MUUN_CHR_anda MUUN_CHR_andra MUUN_CHR_anga MUUN_CHR_angela MUUN_CHR_anita MUUN_CHR_annissya MUUN_CHR_anora MUUN_CHR_ansween MUUN_CHR_anyarah MUUN_CHR_anyul MUUN_CHR_aral MUUN_CHR_ariela MUUN_CHR_arsad MUUN_CHR_arsha MUUN_CHR_aryzah MUUN_CHR_arzhura MUUN_CHR_asha MUUN_CHR_ashana MUUN_CHR_auren MUUN_CHR_avitla MUUN_CHR_avrey MUUN_CHR_azalie MUUN_CHR_azarea MUUN_CHR_balia MUUN_CHR_balmai MUUN_CHR_baral MUUN_CHR_bartaph MUUN_CHR_bat_theria MUUN_CHR_camelle MUUN_CHR_celana MUUN_CHR_chaney MUUN_CHR_cinzia MUUN_CHR_corellia MUUN_CHR_corinna MUUN_CHR_darial MUUN_CHR_darsha MUUN_CHR_deara MUUN_CHR_deli MUUN_CHR_derrica MUUN_CHR_duala MUUN_CHR_elga MUUN_CHR_emppu MUUN_CHR_fable MUUN_CHR_facet MUUN_CHR_feylis MUUN_CHR_grinte MUUN_CHR_halsia MUUN_CHR_henrietya MUUN_CHR_hermione MUUN_CHR_iella MUUN_CHR_jess MUUN_CHR_jhaka MUUN_CHR_jioie MUUN_CHR_jora MUUN_CHR_jord MUUN_CHR_junelle MUUN_CHR_kaiya MUUN_CHR_kandria MUUN_CHR_kani MUUN_CHR_ketrian MUUN_CHR_lemda MUUN_CHR_lesle MUUN_CHR_lilit MUUN_CHR_lissa MUUN_CHR_lomina MUUN_CHR_lynnta MUUN_CHR_lysa MUUN_CHR_maelrich MUUN_CHR_malani MUUN_CHR_maree MUUN_CHR_margani MUUN_CHR_mari MUUN_CHR_merish MUUN_CHR_milessa MUUN_CHR_momi MUUN_CHR_myri MUUN_CHR_nala MUUN_CHR_nalia MUUN_CHR_nia MUUN_CHR_olianna MUUN_CHR_ona MUUN_CHR_onie MUUN_CHR_onnelly MUUN_CHR_orqiti MUUN_CHR_pabel MUUN_CHR_pookie MUUN_CHR_quillara MUUN_CHR_renalda MUUN_CHR_renata MUUN_CHR_salia MUUN_CHR_sansia MUUN_CHR_shasheva MUUN_CHR_soara MUUN_CHR_sula MUUN_CHR_syal MUUN_CHR_talena MUUN_CHR_terena MUUN_CHR_tess MUUN_CHR_tinian MUUN_CHR_tour MUUN_CHR_tresten MUUN_CHR_tria MUUN_CHR_turi MUUN_CHR_tyla MUUN_CHR_varin MUUN_CHR_venra MUUN_CHR_vitala MUUN_CHR_vleen MUUN_CHR_yasinda MUUN_CHR_zal MUUN_CHR_zena MUUN_CHR_zola MUUN_CHR_nyrat MUUN_CHR_alana MUUN_CHR_alani MUUN_CHR_alara MUUN_CHR_tehlan MUUN_CHR_jalice MUUN_CHR_arlaia MUUN_CHR_apailana MUUN_CHR_melnea MUUN_CHR_asani MUUN_CHR_auben MUUN_CHR_aula MUUN_CHR_silvana MUUN_CHR_aunuanna MUUN_CHR_odea MUUN_CHR_aurora MUUN_CHR_frei MUUN_CHR_nana MUUN_CHR_barosa MUUN_CHR_bathos MUUN_CHR_bea MUUN_CHR_alecia MUUN_CHR_reefa MUUN_CHR_been MUUN_CHR_dansra MUUN_CHR_deena MUUN_CHR_trina MUUN_CHR_nari MUUN_CHR_arrianya MUUN_CHR_reginna MUUN_CHR_bel MUUN_CHR_typolla MUUN_CHR_keri MUUN_CHR_belaya MUUN_CHR_eppie MUUN_CHR_belina MUUN_CHR_areta MUUN_CHR_bella MUUN_CHR_bellican MUUN_CHR_bellum MUUN_CHR_sulen MUUN_CHR_bemere MUUN_CHR_bene MUUN_CHR_lana MUUN_CHR_tirgee MUUN_CHR_beraxil MUUN_CHR_thadl_ MUUN_CHR_berow MUUN_CHR_doman MUUN_CHR_eryl MUUN_CHR_elta MUUN_CHR_bestia MUUN_CHR_rasha MUUN_CHR_matri MUUN_CHR_shara MUUN_CHR_silaras MUUN_CHR_zalin MUUN_CHR_beylyssa MUUN_CHR_biabru MUUN_CHR_bialy MUUN_CHR_jonava MUUN_CHR_biller MUUN_CHR_binalu MUUN_CHR_jaleela MUUN_CHR_bini MUUN_CHR_jantaa MUUN_CHR_bixene MUUN_CHR_blessing MUUN_CHR_sadiki MUUN_CHR_ana MUUN_CHR_fiorah MUUN_CHR_haisha MUUN_CHR_evie MUUN_CHR_boble MUUN_CHR_bodhi MUUN_CHR_boibole MUUN_CHR_bolban MUUN_CHR_dorovio MUUN_CHR_nella MUUN_CHR_fira MUUN_CHR_erinn MUUN_CHR_kell MUUN_CHR_cretia MUUN_CHR_ro_san MUUN_CHR_z_meer MUUN_CHR_sunny MUUN_CHR_bradan MUUN_CHR_braganta MUUN_CHR_zayl MUUN_CHR_brand MUUN_CHR_brandeh MUUN_CHR_hela MUUN_CHR_hera MUUN_CHR_zai MUUN_CHR_lees MUUN_CHR_bree MUUN_CHR_bana MUUN_CHR_sharack MUUN_CHR_breha MUUN_CHR_j_pai MUUN_CHR_ismar MUUN_CHR_brenna MUUN_CHR_vessa MUUN_CHR_brezwalt MUUN_CHR_brianna MUUN_CHR_mira MUUN_CHR_briila MUUN_CHR_brin MUUN_CHR_cala MUUN_CHR_lillea MUUN_CHR_timma MUUN_CHR_lanoree MUUN_CHR_brontes MUUN_CHR_nore MUUN_CHR_brukarra MUUN_CHR_brukes MUUN_CHR_brunar MUUN_CHR_dama MUUN_CHR_harriet MUUN_CHR_brusela MUUN_CHR_brynn MUUN_CHR_hella MUUN_CHR_pari MUUN_CHR_tama MUUN_CHR_rallcema MUUN_CHR_dana MUUN_CHR_cai MUUN_CHR_caille MUUN_CHR_calagott MUUN_CHR_annora MUUN_CHR_arkadia MUUN_CHR_vilia MUUN_CHR_morrigan MUUN_CHR_callandri MUUN_CHR_calle MUUN_CHR_tendra MUUN_CHR_calvaria MUUN_CHR_annileen MUUN_CHR_kallie MUUN_CHR_cana MUUN_CHR_canduri MUUN_CHR_aeona MUUN_CHR_thera MUUN_CHR_gaeriel MUUN_CHR_marga MUUN_CHR_tiree MUUN_CHR_ylanda MUUN_CHR_cara MUUN_CHR_carbinol MUUN_CHR_cardya MUUN_CHR_careese MUUN_CHR_leanna MUUN_CHR_carilla MUUN_CHR_coli MUUN_CHR_melina MUUN_CHR_caroline MUUN_CHR_reiva MUUN_CHR_kira MUUN_CHR_matilda MUUN_CHR_casey MUUN_CHR_mandora MUUN_CHR_catrinna MUUN_CHR_kay MUUN_CHR_telsij MUUN_CHR_ceecee MUUN_CHR_cel MUUN_CHR_mia MUUN_CHR_winter MUUN_CHR_celestra MUUN_CHR_jynne MUUN_CHR_alysun MUUN_CHR_jovive MUUN_CHR_melo MUUN_CHR_cerasi MUUN_CHR_lowle MUUN_CHR_chanath MUUN_CHR_chai MUUN_CHR_everi MUUN_CHR_travia MUUN_CHR_ember MUUN_CHR_javul MUUN_CHR_neiya MUUN_CHR_chenna MUUN_CHR_viera MUUN_CHR_olana MUUN_CHR_chokla MUUN_CHR_avenledina MUUN_CHR_christina MUUN_CHR_christya MUUN_CHR_kimmi MUUN_CHR_tian MUUN_CHR_taryn MUUN_CHR_ria MUUN_CHR_clarrisa MUUN_CHR_clat MUUN_CHR_cligot MUUN_CHR_flaenella MUUN_CHR_zahara MUUN_CHR_litassa MUUN_CHR_amber MUUN_CHR_kaydel MUUN_CHR_sarita MUUN_CHR_cora MUUN_CHR_coralya MUUN_CHR_coratanni MUUN_CHR_sabel MUUN_CHR_hella MUUN_CHR_cord_ MUUN_CHR_swilla MUUN_CHR_lana MUUN_CHR_vella MUUN_CHR_chay MUUN_CHR_corwell MUUN_CHR_muriel MUUN_CHR_couli MUUN_CHR_dena MUUN_CHR_josta MUUN_CHR_laiurea MUUN_CHR_abagga MUUN_CHR_viera MUUN_CHR_andra MUUN_CHR_jens MUUN_CHR_crowal MUUN_CHR_crowley MUUN_CHR_jeela MUUN_CHR_dine_ MUUN_CHR_lyra MUUN_CHR_jyn MUUN_CHR_edrii MUUN_CHR_eelysa MUUN_CHR_egan MUUN_CHR_egara MUUN_CHR_errine MUUN_CHR_esala MUUN_CHR_esmelle MUUN_CHR_ensa MUUN_CHR_erils MUUN_CHR_eritha MUUN_CHR_erkens MUUN_CHR_erra MUUN_CHR_halla MUUN_CHR_ettyk MUUN_CHR_eyleen MUUN_CHR_ezeraline MUUN_CHR_elenzia MUUN_CHR_elicia MUUN_CHR_elinda MUUN_CHR_eliya MUUN_CHR_eirta_ MUUN_CHR_elaiza MUUN_CHR_elora MUUN_CHR_elspeth MUUN_CHR_ellik MUUN_CHR_ellis MUUN_CHR_ell_ MUUN_CHR_essenton MUUN_CHR_estoc MUUN_CHR_anora MUUN_CHR_fatil MUUN_CHR_faylin MUUN_CHR_chenna MUUN_CHR_fala MUUN_CHR_falkun MUUN_CHR_faylin MUUN_CHR_feinu MUUN_CHR_feleema MUUN_CHR_felicia MUUN_CHR_fellion MUUN_CHR_femon MUUN_CHR_fereden MUUN_CHR_feresyl MUUN_CHR_ferreges MUUN_CHR_ferrel MUUN_CHR_fessi MUUN_CHR_feyenn MUUN_CHR_fia MUUN_CHR_first MUUN_CHR_flangolial MUUN_CHR_fionna MUUN_CHR_flensia MUUN_CHR_floria MUUN_CHR_folaris MUUN_CHR_forta MUUN_CHR_fovish MUUN_CHR_frayne
+			}
+			second_names = {
+				MUUN_CHR_haako MUUN_CHR_dod MUUN_CHR_dofine MUUN_CHR_durd MUUN_CHR_tuuk MUUN_CHR_libkath MUUN_CHR_kav MUUN_CHR_kartay MUUN_CHR_monchar MUUN_CHR_gunnay MUUN_CHR_dremon MUUN_CHR_unch MUUN_CHR_nark MUUN_CHR_nox MUUN_CHR_canay MUUN_CHR_laff MUUN_CHR_findos MUUN_CHR_ekorr MUUN_CHR_ruuk MUUN_CHR_maccon MUUN_CHR_takrab MUUN_CHR_lagard MUUN_CHR_danak MUUN_CHR_moh MUUN_CHR_ankkit MUUN_CHR_dod MUUN_CHR_demos MUUN_CHR_gehad MUUN_CHR_jaral MUUN_CHR_ze_trios MUUN_CHR_agapoui MUUN_CHR_bankor MUUN_CHR_otbor MUUN_CHR_shallit MUUN_CHR_gunray MUUN_CHR_how MUUN_CHR_regrap MUUN_CHR_almay MUUN_CHR_barron MUUN_CHR_olpan MUUN_CHR_zaday MUUN_CHR_a_shera MUUN_CHR_amidala MUUN_CHR_aabe MUUN_CHR_abias MUUN_CHR_ac_yandar MUUN_CHR_accu MUUN_CHR_acib MUUN_CHR_acoi MUUN_CHR_acton MUUN_CHR_adala MUUN_CHR_adannon MUUN_CHR_adare MUUN_CHR_addar MUUN_CHR_afit MUUN_CHR_afyon MUUN_CHR_agolerga MUUN_CHR_agri MUUN_CHR_ahid MUUN_CHR_ahkoeri MUUN_CHR_ahot MUUN_CHR_ahuff MUUN_CHR_akura MUUN_CHR_alair MUUN_CHR_alamant MUUN_CHR_alaras MUUN_CHR_amithest MUUN_CHR_antana MUUN_CHR_alburass MUUN_CHR_alde MUUN_CHR_alder MUUN_CHR_aldine MUUN_CHR_aldrete MUUN_CHR_algwinn MUUN_CHR_allashane MUUN_CHR_allusis MUUN_CHR_aloo MUUN_CHR_altax MUUN_CHR_altis MUUN_CHR_alto MUUN_CHR_alvar MUUN_CHR_alvic MUUN_CHR_anamor MUUN_CHR_ancum MUUN_CHR_andal MUUN_CHR_anderlock MUUN_CHR_andor MUUN_CHR_andrell MUUN_CHR_andromias MUUN_CHR_anec MUUN_CHR_ange MUUN_CHR_annix MUUN_CHR_annon MUUN_CHR_antab MUUN_CHR_antilles MUUN_CHR_antin MUUN_CHR_antyll MUUN_CHR_anyell MUUN_CHR_apice MUUN_CHR_apla MUUN_CHR_apma MUUN_CHR_aramatha MUUN_CHR_arandis MUUN_CHR_archan MUUN_CHR_ardine MUUN_CHR_arelis MUUN_CHR_aresko MUUN_CHR_argdran MUUN_CHR_argen MUUN_CHR_argo MUUN_CHR_argus MUUN_CHR_argyus MUUN_CHR_arin MUUN_CHR_arisster MUUN_CHR_arkos MUUN_CHR_armin MUUN_CHR_arnae MUUN_CHR_arned MUUN_CHR_arnjak MUUN_CHR_arpor MUUN_CHR_arr MUUN_CHR_arranda MUUN_CHR_arrant MUUN_CHR_arrison MUUN_CHR_aryon MUUN_CHR_arzal MUUN_CHR_asani MUUN_CHR_asch MUUN_CHR_ashandrik MUUN_CHR_ashar MUUN_CHR_ashen MUUN_CHR_assam MUUN_CHR_atma MUUN_CHR_ato MUUN_CHR_atrus MUUN_CHR_attal MUUN_CHR_auchs MUUN_CHR_auglu MUUN_CHR_autem MUUN_CHR_avesta MUUN_CHR_avoa MUUN_CHR_awson MUUN_CHR_ayl MUUN_CHR_ayrvn MUUN_CHR_azadi MUUN_CHR_azzameen MUUN_CHR_azur_jamin MUUN_CHR_b_risko MUUN_CHR_ba_al MUUN_CHR_bagwa MUUN_CHR_bach MUUN_CHR_bada MUUN_CHR_baddeg MUUN_CHR_badeleg MUUN_CHR_badra MUUN_CHR_badure MUUN_CHR_baem MUUN_CHR_bakarn MUUN_CHR_bakash MUUN_CHR_baker MUUN_CHR_bakvalen MUUN_CHR_balfed MUUN_CHR_balfour MUUN_CHR_baliss MUUN_CHR_balkar MUUN_CHR_ballow_reese MUUN_CHR_balor MUUN_CHR_balrekk MUUN_CHR_balu MUUN_CHR_banai MUUN_CHR_bandeam MUUN_CHR_bane MUUN_CHR_banjeer MUUN_CHR_bann MUUN_CHR_bannik MUUN_CHR_bannon MUUN_CHR_banolt MUUN_CHR_banos MUUN_CHR_banto MUUN_CHR_baobab MUUN_CHR_baran MUUN_CHR_barani MUUN_CHR_barayel MUUN_CHR_barc MUUN_CHR_bardrin MUUN_CHR_barezz MUUN_CHR_barje MUUN_CHR_berenko MUUN_CHR_baron MUUN_CHR_barrek MUUN_CHR_barrezz MUUN_CHR_barrows MUUN_CHR_barris MUUN_CHR_barron MUUN_CHR_bartmoss MUUN_CHR_barzon MUUN_CHR_basdor MUUN_CHR_baskalar MUUN_CHR_bast MUUN_CHR_basteren MUUN_CHR_bastion MUUN_CHR_bastra MUUN_CHR_bata MUUN_CHR_batch MUUN_CHR_batross MUUN_CHR_batta MUUN_CHR_bayts MUUN_CHR_bean MUUN_CHR_bebo MUUN_CHR_beech MUUN_CHR_beelyard MUUN_CHR_beentilles MUUN_CHR_bek MUUN_CHR_bel MUUN_CHR_belar MUUN_CHR_belden MUUN_CHR_belissa MUUN_CHR_belladar MUUN_CHR_bellsfar MUUN_CHR_bemming MUUN_CHR_ben MUUN_CHR_bendak MUUN_CHR_bender MUUN_CHR_bendick MUUN_CHR_beni MUUN_CHR_benlip MUUN_CHR_bennis MUUN_CHR_bentado MUUN_CHR_bensen MUUN_CHR_benu MUUN_CHR_berek MUUN_CHR_berge MUUN_CHR_berkona MUUN_CHR_berra MUUN_CHR_beruss MUUN_CHR_besk MUUN_CHR_bey MUUN_CHR_bibble MUUN_CHR_biktor MUUN_CHR_bindari MUUN_CHR_bish MUUN_CHR_bjalin MUUN_CHR_blackgate MUUN_CHR_blaesus MUUN_CHR_blake MUUN_CHR_blaze MUUN_CHR_blendin MUUN_CHR_blim MUUN_CHR_blissex MUUN_CHR_blohk MUUN_CHR_blood MUUN_CHR_bloomi MUUN_CHR_bludder MUUN_CHR_blys MUUN_CHR_boddipy MUUN_CHR_bodhrik MUUN_CHR_bogan MUUN_CHR_bola MUUN_CHR_bombaasa MUUN_CHR_bondog MUUN_CHR_bonteri MUUN_CHR_bordo MUUN_CHR_borgin MUUN_CHR_bourne MUUN_CHR_bragg MUUN_CHR_brand MUUN_CHR_branon MUUN_CHR_brasli MUUN_CHR_brathis MUUN_CHR_brazee MUUN_CHR_breen MUUN_CHR_brell MUUN_CHR_bren MUUN_CHR_brentioch MUUN_CHR_bridger MUUN_CHR_brigger MUUN_CHR_brightwater MUUN_CHR_brill MUUN_CHR_briqualon MUUN_CHR_brunou MUUN_CHR_brya MUUN_CHR_buc MUUN_CHR_budz MUUN_CHR_buir MUUN_CHR_bullwin MUUN_CHR_burkan MUUN_CHR_bunyea MUUN_CHR_burba MUUN_CHR_burb MUUN_CHR_burku MUUN_CHR_byrne MUUN_CHR_c_baoth MUUN_CHR_cadaman MUUN_CHR_cadera MUUN_CHR_cadix MUUN_CHR_cadmir MUUN_CHR_cadoruso MUUN_CHR_caedus MUUN_CHR_caglio MUUN_CHR_cairnwick MUUN_CHR_calder MUUN_CHR_calhuu MUUN_CHR_callat MUUN_CHR_callum MUUN_CHR_calrissian MUUN_CHR_carid MUUN_CHR_carivus MUUN_CHR_capra MUUN_CHR_carolinden MUUN_CHR_caros MUUN_CHR_carper MUUN_CHR_carplin MUUN_CHR_carr MUUN_CHR_carrick MUUN_CHR_carsan MUUN_CHR_carsiri MUUN_CHR_carter MUUN_CHR_carteri MUUN_CHR_cartha MUUN_CHR_cartroll MUUN_CHR_carvin MUUN_CHR_carzyn MUUN_CHR_caslo MUUN_CHR_casrich MUUN_CHR_cass MUUN_CHR_cassian MUUN_CHR_cassel MUUN_CHR_cassius MUUN_CHR_casterfo MUUN_CHR_caveel MUUN_CHR_chistor MUUN_CHR_cavv MUUN_CHR_cedrax MUUN_CHR_celaar MUUN_CHR_celchu MUUN_CHR_celchu MUUN_CHR_cerulian MUUN_CHR_chagras MUUN_CHR_chalco MUUN_CHR_chalk MUUN_CHR_chan MUUN_CHR_chance MUUN_CHR_charkron MUUN_CHR_charu MUUN_CHR_chasdy MUUN_CHR_chase MUUN_CHR_chasser MUUN_CHR_chassu MUUN_CHR_cheems MUUN_CHR_cheever MUUN_CHR_chiffonage MUUN_CHR_chizzik MUUN_CHR_chlorus MUUN_CHR_cho MUUN_CHR_choard MUUN_CHR_choard MUUN_CHR_choid MUUN_CHR_cholus MUUN_CHR_chrin MUUN_CHR_chronelle MUUN_CHR_chull MUUN_CHR_chumu MUUN_CHR_chun MUUN_CHR_cibinel MUUN_CHR_cikartan MUUN_CHR_cineratus MUUN_CHR_cipher MUUN_CHR_ciro MUUN_CHR_cirrilla MUUN_CHR_clafdatha MUUN_CHR_claine MUUN_CHR_clamont MUUN_CHR_clancy MUUN_CHR_classet MUUN_CHR_clathor MUUN_CHR_clatto MUUN_CHR_cleben MUUN_CHR_clem MUUN_CHR_clenna MUUN_CHR_cleroff MUUN_CHR_cley MUUN_CHR_clines MUUN_CHR_cohn MUUN_CHR_cojahn MUUN_CHR_colclazure MUUN_CHR_colf MUUN_CHR_colgter MUUN_CHR_condi MUUN_CHR_conjob MUUN_CHR_conlath MUUN_CHR_conro MUUN_CHR_contispex MUUN_CHR_contopault MUUN_CHR_convarion MUUN_CHR_convorr MUUN_CHR_coops MUUN_CHR_coptszt MUUN_CHR_cor MUUN_CHR_corazon MUUN_CHR_corconnan MUUN_CHR_cordan MUUN_CHR_corek MUUN_CHR_cories MUUN_CHR_cormac MUUN_CHR_cormin MUUN_CHR_courser MUUN_CHR_covell MUUN_CHR_coven MUUN_CHR_covington MUUN_CHR_coviscowall MUUN_CHR_creip MUUN_CHR_crel MUUN_CHR_crell MUUN_CHR_crespin MUUN_CHR_cros MUUN_CHR_cross MUUN_CHR_crowe MUUN_CHR_crynyd MUUN_CHR_croft MUUN_CHR_croix MUUN_CHR_d_asta MUUN_CHR_d_baelor MUUN_CHR_d_jek MUUN_CHR_d_lund MUUN_CHR_dabrini MUUN_CHR_dacholder MUUN_CHR_dack MUUN_CHR_dackett MUUN_CHR_dadar MUUN_CHR_dade MUUN_CHR_dadeferron MUUN_CHR_dain MUUN_CHR_daine MUUN_CHR_dak_win MUUN_CHR_dak MUUN_CHR_dal_nay MUUN_CHR_dala MUUN_CHR_dalhney MUUN_CHR_dallin MUUN_CHR_dallory MUUN_CHR_dallows MUUN_CHR_dambrizi MUUN_CHR_dameerd MUUN_CHR_damlo MUUN_CHR_dance MUUN_CHR_dandu MUUN_CHR_dane MUUN_CHR_danenberger MUUN_CHR_danga MUUN_CHR_danglot MUUN_CHR_dangor MUUN_CHR_danid MUUN_CHR_danl_ MUUN_CHR_drugah MUUN_CHR_dann MUUN_CHR_dannt MUUN_CHR_danson MUUN_CHR_danta MUUN_CHR_danthe MUUN_CHR_danu MUUN_CHR_danurs MUUN_CHR_danva MUUN_CHR_daraada MUUN_CHR_daragon MUUN_CHR_daral MUUN_CHR_darb MUUN_CHR_darba MUUN_CHR_darcc MUUN_CHR_darillian MUUN_CHR_darklighter MUUN_CHR_dart_ MUUN_CHR_dashit MUUN_CHR_dasol MUUN_CHR_dastt MUUN_CHR_datch MUUN_CHR_davan MUUN_CHR_davin MUUN_CHR_davip MUUN_CHR_dendup MUUN_CHR_debell MUUN_CHR_decar MUUN_CHR_decimus MUUN_CHR_declann MUUN_CHR_decree MUUN_CHR_dedge MUUN_CHR_dekker MUUN_CHR_dekven MUUN_CHR_delahrg MUUN_CHR_delan MUUN_CHR_delckis MUUN_CHR_deld MUUN_CHR_deljeevo MUUN_CHR_delk MUUN_CHR_delvardus MUUN_CHR_delvaren MUUN_CHR_demain MUUN_CHR_demaratus MUUN_CHR_demior MUUN_CHR_demosal MUUN_CHR_denzmorren MUUN_CHR_dep MUUN_CHR_derlin MUUN_CHR_derlynn MUUN_CHR_desh MUUN_CHR_desnand MUUN_CHR_dessain MUUN_CHR_detta MUUN_CHR_detton MUUN_CHR_dev MUUN_CHR_devane MUUN_CHR_devian MUUN_CHR_devis MUUN_CHR_devo MUUN_CHR_dewes MUUN_CHR_dewiller MUUN_CHR_dewitt MUUN_CHR_dheas MUUN_CHR_dhil MUUN_CHR_di MUUN_CHR_diath MUUN_CHR_dicium MUUN_CHR_dienbel MUUN_CHR_dil MUUN_CHR_dillems MUUN_CHR_dilorr MUUN_CHR_dilsn MUUN_CHR_din MUUN_CHR_dinard MUUN_CHR_dionisio MUUN_CHR_disra MUUN_CHR_divini MUUN_CHR_divinian MUUN_CHR_divo MUUN_CHR_dix MUUN_CHR_diyaz MUUN_CHR_djambo MUUN_CHR_djo MUUN_CHR_dlarit MUUN_CHR_dlunar MUUN_CHR_doaba MUUN_CHR_doan MUUN_CHR_dodonna MUUN_CHR_dogot MUUN_CHR_doil MUUN_CHR_dokrett MUUN_CHR_dolor MUUN_CHR_dolphe MUUN_CHR_doluff MUUN_CHR_dolv MUUN_CHR_dom MUUN_CHR_domeet MUUN_CHR_domi MUUN_CHR_domo MUUN_CHR_donar MUUN_CHR_dondarvan MUUN_CHR_donell MUUN_CHR_donn MUUN_CHR_donos MUUN_CHR_dooku MUUN_CHR_d_oon MUUN_CHR_doore MUUN_CHR_doorn MUUN_CHR_doran MUUN_CHR_dorant MUUN_CHR_dorat MUUN_CHR_doru MUUN_CHR_doruggan MUUN_CHR_dorvan MUUN_CHR_dos MUUN_CHR_doshun MUUN_CHR_doss MUUN_CHR_dostryt MUUN_CHR_dovaro MUUN_CHR_dovlis MUUN_CHR_dovu MUUN_CHR_drallig MUUN_CHR_drass MUUN_CHR_draven MUUN_CHR_draver MUUN_CHR_dray MUUN_CHR_drei MUUN_CHR_dreleene MUUN_CHR_drell MUUN_CHR_drellik MUUN_CHR_drobo MUUN_CHR_droga MUUN_CHR_dromath MUUN_CHR_drommel MUUN_CHR_droo MUUN_CHR_droon MUUN_CHR_drop MUUN_CHR_drost MUUN_CHR_dubrok MUUN_CHR_ducela MUUN_CHR_duel MUUN_CHR_dugge MUUN_CHR_dumat MUUN_CHR_dumont MUUN_CHR_duna MUUN_CHR_dunell MUUN_CHR_dunerz MUUN_CHR_dunn MUUN_CHR_dunoche MUUN_CHR_dunrik MUUN_CHR_dunwell MUUN_CHR_duo MUUN_CHR_durasha MUUN_CHR_durgo MUUN_CHR_durron MUUN_CHR_durs MUUN_CHR_durshana MUUN_CHR_dusat MUUN_CHR_dustrunner MUUN_CHR_dyer MUUN_CHR_dyre MUUN_CHR_dyrla MUUN_CHR_dyrra MUUN_CHR_dysen MUUN_CHR_dyshkava MUUN_CHR_billaba MUUN_CHR_calwell MUUN_CHR_e_ron MUUN_CHR_e_elz MUUN_CHR_eadon MUUN_CHR_eckels MUUN_CHR_eckener MUUN_CHR_edaine MUUN_CHR_edalm MUUN_CHR_eddawan MUUN_CHR_eddis MUUN_CHR_edisser MUUN_CHR_edu MUUN_CHR_eeth MUUN_CHR_efran MUUN_CHR_elban MUUN_CHR_eldon MUUN_CHR_elegin MUUN_CHR_elfwannabe MUUN_CHR_elgin MUUN_CHR_elgrin MUUN_CHR_ell MUUN_CHR_ellon MUUN_CHR_elsin MUUN_CHR_elysar MUUN_CHR_elzif MUUN_CHR_ematt MUUN_CHR_emmert MUUN_CHR_en MUUN_CHR_enasteri MUUN_CHR_endac MUUN_CHR_enkhet MUUN_CHR_enraj MUUN_CHR_ensh MUUN_CHR_erlskel MUUN_CHR_ern MUUN_CHR_erne MUUN_CHR_erso MUUN_CHR_ervekk MUUN_CHR_ervic MUUN_CHR_esan MUUN_CHR_escalus MUUN_CHR_eso MUUN_CHR_estillo MUUN_CHR_evazan MUUN_CHR_fardi MUUN_CHR_fair MUUN_CHR_ebonette MUUN_CHR_eckener MUUN_CHR_eclipse MUUN_CHR_eddawan MUUN_CHR_edivon MUUN_CHR_edosun_ MUUN_CHR_egast MUUN_CHR_ele MUUN_CHR_ellberger MUUN_CHR_elna MUUN_CHR_empor MUUN_CHR_enasteri MUUN_CHR_f_tuhns MUUN_CHR_faal MUUN_CHR_fahm MUUN_CHR_fain MUUN_CHR_fain MUUN_CHR_fal MUUN_CHR_falcone MUUN_CHR_falconi MUUN_CHR_falcris MUUN_CHR_faldrin MUUN_CHR_falken MUUN_CHR_fallon MUUN_CHR_fallon MUUN_CHR_falt MUUN_CHR_fanaso MUUN_CHR_fandi MUUN_CHR_fane MUUN_CHR_fardreamer MUUN_CHR_farege MUUN_CHR_fargil MUUN_CHR_farkus MUUN_CHR_farlander MUUN_CHR_farles MUUN_CHR_farls MUUN_CHR_farool MUUN_CHR_farrell MUUN_CHR_farrell MUUN_CHR_farseeker MUUN_CHR_fasalk MUUN_CHR_fassoola MUUN_CHR_fateau MUUN_CHR_faunor MUUN_CHR_faytonni MUUN_CHR_feal MUUN_CHR_feb MUUN_CHR_feelu MUUN_CHR_feem MUUN_CHR_fegel MUUN_CHR_fel_kona MUUN_CHR_fel MUUN_CHR_felan MUUN_CHR_felens MUUN_CHR_felix MUUN_CHR_felyood MUUN_CHR_femi MUUN_CHR_fenic MUUN_CHR_fenimer MUUN_CHR_fernandin MUUN_CHR_ferthyn MUUN_CHR_feswin MUUN_CHR_fett MUUN_CHR_fhernan MUUN_CHR_fhurek MUUN_CHR_figg MUUN_CHR_farrell MUUN_CHR_ablund MUUN_CHR_faytonni MUUN_CHR_fahm MUUN_CHR_temmt MUUN_CHR_fhurek MUUN_CHR_frix MUUN_CHR_faenel MUUN_CHR_fahrs MUUN_CHR_fain MUUN_CHR_fair MUUN_CHR_fallatte MUUN_CHR_falon MUUN_CHR_farlion MUUN_CHR_farls MUUN_CHR_farnmir MUUN_CHR_farr MUUN_CHR_fasser MUUN_CHR_faughn MUUN_CHR_fawn MUUN_CHR_fax MUUN_CHR_fek_ra MUUN_CHR_felswoop MUUN_CHR_felth MUUN_CHR_fharn MUUN_CHR_fhernan MUUN_CHR_folee MUUN_CHR_for_deschel MUUN_CHR_foravis MUUN_CHR_foreck MUUN_CHR_forge MUUN_CHR_fori MUUN_CHR_forno MUUN_CHR_foxtrain MUUN_CHR_fraabaal MUUN_CHR_fray
+			}
+			regnal_first_names_male = {
+				MUUN_CHR_rune MUUN_CHR_lott MUUN_CHR_daultay MUUN_CHR_lok MUUN_CHR_mar MUUN_CHR_gilramos MUUN_CHR_siv MUUN_CHR_zill MUUN_CHR_hath MUUN_CHR_aruteous MUUN_CHR_jull MUUN_CHR_sil MUUN_CHR_hallion MUUN_CHR_gap MUUN_CHR_palfa MUUN_CHR_sib MUUN_CHR_aito MUUN_CHR_sentepeth MUUN_CHR_kund MUUN_CHR_harro MUUN_CHR_hask MUUN_CHR_paw MUUN_CHR_brehg MUUN_CHR_reya MUUN_CHR_gode MUUN_CHR_nap MUUN_CHR_lufa MUUN_CHR_yee MUUN_CHR_geph MUUN_CHR_lik MUUN_CHR_gunaray MUUN_CHR_igren MUUN_CHR_dif MUUN_CHR_klewer MUUN_CHR_kuto MUUN_CHR_smeer MUUN_CHR_helb MUUN_CHR_toat MUUN_CHR_teek MUUN_CHR_jeek MUUN_CHR_orrin MUUN_CHR_veor MUUN_CHR_dak_on MUUN_CHR_nozabuiba MUUN_CHR_gama MUUN_CHR_budmle MUUN_CHR_proh_ven MUUN_CHR_salitt MUUN_CHR_vigro MUUN_CHR_rers MUUN_CHR_desson MUUN_CHR_cathan MUUN_CHR_dru MUUN_CHR_tunjas MUUN_CHR_borlo MUUN_CHR_krett MUUN_CHR_ablund MUUN_CHR_aach MUUN_CHR_aagon MUUN_CHR_aalto MUUN_CHR_aambler MUUN_CHR_abadaner MUUN_CHR_aban MUUN_CHR_abbus_kelo MUUN_CHR_acan MUUN_CHR_ace MUUN_CHR_adame MUUN_CHR_adar MUUN_CHR_arvel MUUN_CHR_addi_shon MUUN_CHR_addle MUUN_CHR_adelhard MUUN_CHR_aden MUUN_CHR_adon_larr MUUN_CHR_adraas MUUN_CHR_adrenas MUUN_CHR_adrick MUUN_CHR_adun MUUN_CHR_aeron MUUN_CHR_agareth MUUN_CHR_aggadeen MUUN_CHR_alric MUUN_CHR_airten MUUN_CHR_agrippa MUUN_CHR_ajaan MUUN_CHR_ajolin MUUN_CHR_akaste_vel MUUN_CHR_akobi MUUN_CHR_alain MUUN_CHR_alaric MUUN_CHR_albathius MUUN_CHR_alde MUUN_CHR_alec MUUN_CHR_alekam MUUN_CHR_alethios MUUN_CHR_alger MUUN_CHR_algrunar MUUN_CHR_ali_alann MUUN_CHR_alif MUUN_CHR_alim_gen MUUN_CHR_alin MUUN_CHR_alix MUUN_CHR_alkhara MUUN_CHR_allia MUUN_CHR_almak MUUN_CHR_almec MUUN_CHR_alon MUUN_CHR_alozen MUUN_CHR_alph MUUN_CHR_altaca MUUN_CHR_althon MUUN_CHR_alwynn MUUN_CHR_amberson MUUN_CHR_ament MUUN_CHR_amis MUUN_CHR_ammon MUUN_CHR_amzartho MUUN_CHR_anabar MUUN_CHR_anager MUUN_CHR_anarine MUUN_CHR_anathemos MUUN_CHR_andan MUUN_CHR_anders MUUN_CHR_ando MUUN_CHR_andra MUUN_CHR_andrew MUUN_CHR_andrid MUUN_CHR_andrik MUUN_CHR_andru MUUN_CHR_ar_al MUUN_CHR_angber MUUN_CHR_angral MUUN_CHR_anlen MUUN_CHR_anod MUUN_CHR_anselm MUUN_CHR_anskow MUUN_CHR_anson MUUN_CHR_adem MUUN_CHR_antone MUUN_CHR_antonin MUUN_CHR_anuli MUUN_CHR_appleton MUUN_CHR_arac MUUN_CHR_arakkus MUUN_CHR_aramis MUUN_CHR_arana MUUN_CHR_armen MUUN_CHR_arastide MUUN_CHR_arber MUUN_CHR_arcann MUUN_CHR_ardan MUUN_CHR_ardax MUUN_CHR_ardiff MUUN_CHR_ardle MUUN_CHR_ardmore MUUN_CHR_ardot MUUN_CHR_ardran MUUN_CHR_avinoam MUUN_CHR_ars MUUN_CHR_argona MUUN_CHR_argor MUUN_CHR_argos MUUN_CHR_arias MUUN_CHR_ariavos MUUN_CHR_arigo MUUN_CHR_aris MUUN_CHR_arkan MUUN_CHR_arkeld MUUN_CHR_arl MUUN_CHR_arljack MUUN_CHR_arlo MUUN_CHR_arlos MUUN_CHR_armatan MUUN_CHR_armitage MUUN_CHR_arnama MUUN_CHR_arnet MUUN_CHR_arno MUUN_CHR_arnothian MUUN_CHR_arnth MUUN_CHR_arnus MUUN_CHR_arrad MUUN_CHR_arratan MUUN_CHR_arrax MUUN_CHR_arric MUUN_CHR_artano MUUN_CHR_artok MUUN_CHR_arturo MUUN_CHR_arzanon MUUN_CHR_ash MUUN_CHR_ashaad MUUN_CHR_asirr MUUN_CHR_atali MUUN_CHR_atar MUUN_CHR_atmino MUUN_CHR_atren MUUN_CHR_augatta MUUN_CHR_avan MUUN_CHR_avanj MUUN_CHR_avarik MUUN_CHR_averdon MUUN_CHR_averen MUUN_CHR_averon MUUN_CHR_avers MUUN_CHR_aves MUUN_CHR_aviso MUUN_CHR_avrun MUUN_CHR_azkul MUUN_CHR_azrakel MUUN_CHR_ace MUUN_CHR_b_arin MUUN_CHR_bail MUUN_CHR_beel MUUN_CHR_bix MUUN_CHR_blix MUUN_CHR_boz MUUN_CHR_braedon MUUN_CHR_bryn MUUN_CHR_brixus MUUN_CHR_cal MUUN_CHR_cassian MUUN_CHR_chik MUUN_CHR_cinto MUUN_CHR_cumberlayne MUUN_CHR_darrus MUUN_CHR_djinn MUUN_CHR_druth MUUN_CHR_det MUUN_CHR_ethan MUUN_CHR_galiir MUUN_CHR_gez MUUN_CHR_haemon MUUN_CHR_jae MUUN_CHR_jagged MUUN_CHR_jess MUUN_CHR_jesper MUUN_CHR_jon MUUN_CHR_gathal MUUN_CHR_gideon MUUN_CHR_jefand MUUN_CHR_kel MUUN_CHR_koffi MUUN_CHR_lazlo MUUN_CHR_laetin MUUN_CHR_lesk MUUN_CHR_maxiron MUUN_CHR_neet MUUN_CHR_osak MUUN_CHR_pabel MUUN_CHR_paddy MUUN_CHR_peita MUUN_CHR_peema MUUN_CHR_pellas MUUN_CHR_prewb MUUN_CHR_raymus MUUN_CHR_raar MUUN_CHR_rage MUUN_CHR_rel MUUN_CHR_reez MUUN_CHR_ras MUUN_CHR_rixes MUUN_CHR_ruceba MUUN_CHR_seraph MUUN_CHR_sim MUUN_CHR_sio MUUN_CHR_y_ull MUUN_CHR_tavion MUUN_CHR_tavid MUUN_CHR_tendis MUUN_CHR_tev MUUN_CHR_tiberus MUUN_CHR_toob MUUN_CHR_tor MUUN_CHR_turon MUUN_CHR_villis MUUN_CHR_wain MUUN_CHR_wedge MUUN_CHR_wes MUUN_CHR_zeen MUUN_CHR_baboo MUUN_CHR_bachenkall MUUN_CHR_bafor MUUN_CHR_bagitt MUUN_CHR_bailey MUUN_CHR_bailie MUUN_CHR_bairn MUUN_CHR_bala_tik MUUN_CHR_balankin MUUN_CHR_balaro MUUN_CHR_balcomb MUUN_CHR_baldwin MUUN_CHR_baldy MUUN_CHR_balek MUUN_CHR_balisk MUUN_CHR_balkin MUUN_CHR_balko MUUN_CHR_ballala MUUN_CHR_ballard MUUN_CHR_ballax MUUN_CHR_bendodi MUUN_CHR_balog MUUN_CHR_balto MUUN_CHR_bams MUUN_CHR_bandor MUUN_CHR_boss MUUN_CHR_banley MUUN_CHR_banna MUUN_CHR_bannos MUUN_CHR_bant MUUN_CHR_banz MUUN_CHR_baradis MUUN_CHR_barak MUUN_CHR_baramak MUUN_CHR_barcel MUUN_CHR_bardo MUUN_CHR_barduun MUUN_CHR_barev MUUN_CHR_barich MUUN_CHR_barik MUUN_CHR_barkale MUUN_CHR_barksy MUUN_CHR_barleos MUUN_CHR_barlow MUUN_CHR_barney MUUN_CHR_barnley MUUN_CHR_baro MUUN_CHR_barry MUUN_CHR_barstead MUUN_CHR_bartam MUUN_CHR_barth MUUN_CHR_barthis MUUN_CHR_bas MUUN_CHR_bas_ton MUUN_CHR_bascome MUUN_CHR_basile MUUN_CHR_basso MUUN_CHR_bastian MUUN_CHR_bathens MUUN_CHR_batono MUUN_CHR_bator MUUN_CHR_billal MUUN_CHR_battz MUUN_CHR_baxton MUUN_CHR_baysden MUUN_CHR_baz MUUN_CHR_be MUUN_CHR_beau MUUN_CHR_beckar MUUN_CHR_becker MUUN_CHR_beckman MUUN_CHR_bedareux MUUN_CHR_bedoch MUUN_CHR_beebe MUUN_CHR_beez MUUN_CHR_beldiss MUUN_CHR_belkan MUUN_CHR_beller MUUN_CHR_bellis MUUN_CHR_belos MUUN_CHR_byzal MUUN_CHR_bzorn MUUN_CHR_biggs MUUN_CHR_bels MUUN_CHR_bemos MUUN_CHR_benay MUUN_CHR_benjo MUUN_CHR_benkin MUUN_CHR_benn MUUN_CHR_benni MUUN_CHR_benok MUUN_CHR_benthar MUUN_CHR_benton MUUN_CHR_bentro MUUN_CHR_boar MUUN_CHR_benx MUUN_CHR_bequesh MUUN_CHR_berandis MUUN_CHR_berethon MUUN_CHR_bergan MUUN_CHR_berix MUUN_CHR_bernie MUUN_CHR_bertrum MUUN_CHR_berusal MUUN_CHR_bewil MUUN_CHR_bex MUUN_CHR_billan MUUN_CHR_biril MUUN_CHR_birket MUUN_CHR_birok MUUN_CHR_black MUUN_CHR_blagotine MUUN_CHR_blaide MUUN_CHR_blainekie MUUN_CHR_bledsoe MUUN_CHR_bleeker MUUN_CHR_blleen MUUN_CHR_bloodory MUUN_CHR_bloodworthy MUUN_CHR_blount MUUN_CHR_blyes MUUN_CHR_boakie MUUN_CHR_boaz MUUN_CHR_bob MUUN_CHR_bol MUUN_CHR_bon MUUN_CHR_bonze MUUN_CHR_boonan MUUN_CHR_boran MUUN_CHR_boraso MUUN_CHR_borgin MUUN_CHR_borm MUUN_CHR_bornae MUUN_CHR_bort MUUN_CHR_bortrek MUUN_CHR_boshek MUUN_CHR_bourom MUUN_CHR_bouyard MUUN_CHR_braden MUUN_CHR_brady MUUN_CHR_bragan MUUN_CHR_braynor MUUN_CHR_brayso MUUN_CHR_breckon MUUN_CHR_breehld MUUN_CHR_brinn MUUN_CHR_brinnie MUUN_CHR_brint MUUN_CHR_brinton MUUN_CHR_brogon MUUN_CHR_brohmer MUUN_CHR_brolis MUUN_CHR_broll MUUN_CHR_brom MUUN_CHR_brooser MUUN_CHR_brothic MUUN_CHR_brovto MUUN_CHR_broysc MUUN_CHR_bruan MUUN_CHR_brucce MUUN_CHR_bruckman MUUN_CHR_bryint MUUN_CHR_brylin MUUN_CHR_bry MUUN_CHR_brysonbular MUUN_CHR_bulger MUUN_CHR_bun_delbur MUUN_CHR_burne MUUN_CHR_burque MUUN_CHR_burr MUUN_CHR_bursk MUUN_CHR_bursthed MUUN_CHR_byrga MUUN_CHR_byten MUUN_CHR_trey MUUN_CHR_lando MUUN_CHR_caaldra MUUN_CHR_cabaril MUUN_CHR_cabbel MUUN_CHR_caeleb MUUN_CHR_caerbellak MUUN_CHR_cafian MUUN_CHR_cag MUUN_CHR_cagaran MUUN_CHR_cam MUUN_CHR_camaran MUUN_CHR_camas MUUN_CHR_cardacs MUUN_CHR_cardy MUUN_CHR_careem MUUN_CHR_cargeloch MUUN_CHR_carhart MUUN_CHR_calron MUUN_CHR_calson MUUN_CHR_calum MUUN_CHR_calypho MUUN_CHR_cal MUUN_CHR_caladane MUUN_CHR_calaverous MUUN_CHR_carli MUUN_CHR_carlon MUUN_CHR_carlton MUUN_CHR_carn MUUN_CHR_carner MUUN_CHR_carness MUUN_CHR_carnor MUUN_CHR_carns MUUN_CHR_callef MUUN_CHR_callen MUUN_CHR_callow MUUN_CHR_calders MUUN_CHR_caleb MUUN_CHR_calo MUUN_CHR_calphayus MUUN_CHR_cathers MUUN_CHR_caton MUUN_CHR_cauley MUUN_CHR_cav MUUN_CHR_cav_saran MUUN_CHR_cavin MUUN_CHR_cryle MUUN_CHR_cavwol MUUN_CHR_cawelyn MUUN_CHR_cecius MUUN_CHR_cede MUUN_CHR_cemma MUUN_CHR_ceoloe MUUN_CHR_cerasi MUUN_CHR_cerik MUUN_CHR_charny MUUN_CHR_charol MUUN_CHR_charpp MUUN_CHR_charnoq MUUN_CHR_charnso MUUN_CHR_cestus MUUN_CHR_ch_arb MUUN_CHR_ch_gally MUUN_CHR_ch_lessan MUUN_CHR_cha MUUN_CHR_chael MUUN_CHR_challer MUUN_CHR_chambe MUUN_CHR_crlyn MUUN_CHR_chang MUUN_CHR_chappral MUUN_CHR_chef MUUN_CHR_chentu MUUN_CHR_chell MUUN_CHR_chessiq MUUN_CHR_chet MUUN_CHR_chiann MUUN_CHR_chicora MUUN_CHR_chatty MUUN_CHR_chayloss MUUN_CHR_chedaki MUUN_CHR_chiraneau MUUN_CHR_chiron MUUN_CHR_chorlen MUUN_CHR_chornarov MUUN_CHR_cody MUUN_CHR_clorr MUUN_CHR_clovis MUUN_CHR_clydno MUUN_CHR_clynn MUUN_CHR_cnorec MUUN_CHR_coburn MUUN_CHR_cobus MUUN_CHR_cogon MUUN_CHR_colin MUUN_CHR_collus MUUN_CHR_colsan MUUN_CHR_colten MUUN_CHR_colton MUUN_CHR_combo MUUN_CHR_conar MUUN_CHR_coorta MUUN_CHR_corin MUUN_CHR_coris MUUN_CHR_corlac MUUN_CHR_corso MUUN_CHR_corvan MUUN_CHR_corvin MUUN_CHR_corvis MUUN_CHR_corwin MUUN_CHR_corwyth MUUN_CHR_cote MUUN_CHR_cothron MUUN_CHR_cotin MUUN_CHR_coy MUUN_CHR_cravel MUUN_CHR_cravus MUUN_CHR_creb MUUN_CHR_creeve MUUN_CHR_corlis MUUN_CHR_crest MUUN_CHR_crimpler MUUN_CHR_crimson MUUN_CHR_crin MUUN_CHR_crion MUUN_CHR_criss MUUN_CHR_cristoff MUUN_CHR_crix MUUN_CHR_cronal MUUN_CHR_cronnin MUUN_CHR_cronus MUUN_CHR_d_ashewl MUUN_CHR_d_krn MUUN_CHR_d_lew MUUN_CHR_d_vox MUUN_CHR_d_vrosh MUUN_CHR_daal MUUN_CHR_dado MUUN_CHR_daek MUUN_CHR_dael MUUN_CHR_dahar MUUN_CHR_dahm MUUN_CHR_daiman MUUN_CHR_dainsom MUUN_CHR_daiv MUUN_CHR_dak MUUN_CHR_dakron MUUN_CHR_daksh MUUN_CHR_dalton MUUN_CHR_damarcus MUUN_CHR_damaris MUUN_CHR_damarus MUUN_CHR_dao MUUN_CHR_dapp MUUN_CHR_daquinn MUUN_CHR_dar MUUN_CHR_eesh MUUN_CHR_darda MUUN_CHR_dardan MUUN_CHR_dareb_ MUUN_CHR_dareg MUUN_CHR_darek MUUN_CHR_daren MUUN_CHR_dargus MUUN_CHR_daggath MUUN_CHR_darnov MUUN_CHR_daro MUUN_CHR_darok MUUN_CHR_darone MUUN_CHR_darr MUUN_CHR_darrik MUUN_CHR_darrok MUUN_CHR_darrst MUUN_CHR_darsin MUUN_CHR_darthyn MUUN_CHR_daruula MUUN_CHR_dash MUUN_CHR_datoo MUUN_CHR_dauren MUUN_CHR_davis MUUN_CHR_davon MUUN_CHR_davonn MUUN_CHR_davos MUUN_CHR_davrill MUUN_CHR_davrin MUUN_CHR_davu MUUN_CHR_dayja MUUN_CHR_daz MUUN_CHR_ramsis MUUN_CHR_bren MUUN_CHR_tan MUUN_CHR_jan MUUN_CHR_porro MUUN_CHR_cin MUUN_CHR_garven MUUN_CHR_cornelius MUUN_CHR_galen MUUN_CHR_dannl MUUN_CHR_ecclessis MUUN_CHR_debbikin MUUN_CHR_debeli MUUN_CHR_deegan MUUN_CHR_deerian MUUN_CHR_deevis MUUN_CHR_defain MUUN_CHR_deflaros MUUN_CHR_degoren MUUN_CHR_dehno MUUN_CHR_dekay MUUN_CHR_delevar MUUN_CHR_delfaros MUUN_CHR_dellin MUUN_CHR_dellocon MUUN_CHR_delpho MUUN_CHR_delquis MUUN_CHR_delsa MUUN_CHR_delund MUUN_CHR_delurin MUUN_CHR_demtri MUUN_CHR_den MUUN_CHR_denbar MUUN_CHR_dender MUUN_CHR_dendro MUUN_CHR_dendu MUUN_CHR_denetrus MUUN_CHR_denev MUUN_CHR_dengar MUUN_CHR_dengril MUUN_CHR_denid MUUN_CHR_denimoor MUUN_CHR_denin MUUN_CHR_denna MUUN_CHR_denner MUUN_CHR_dennik MUUN_CHR_deppo MUUN_CHR_derdram MUUN_CHR_derec MUUN_CHR_derish MUUN_CHR_derliff MUUN_CHR_dermeg MUUN_CHR_dermian MUUN_CHR_dern MUUN_CHR_dernas MUUN_CHR_derral MUUN_CHR_derrin MUUN_CHR_dervis MUUN_CHR_desanne MUUN_CHR_devoris MUUN_CHR_devotek MUUN_CHR_devron MUUN_CHR_devry MUUN_CHR_devsh MUUN_CHR_dewolf MUUN_CHR_dex MUUN_CHR_dezsetes MUUN_CHR_dhaiv MUUN_CHR_dhal MUUN_CHR_dindau MUUN_CHR_dindo MUUN_CHR_ding MUUN_CHR_dinge MUUN_CHR_dobbatek MUUN_CHR_dobberty MUUN_CHR_dobbs MUUN_CHR_dolan MUUN_CHR_dolgis MUUN_CHR_dolmen MUUN_CHR_dolo MUUN_CHR_dominaire MUUN_CHR_domm MUUN_CHR_donovan MUUN_CHR_donovarr MUUN_CHR_donsull MUUN_CHR_dorel_kan MUUN_CHR_dorgat MUUN_CHR_dorian MUUN_CHR_dorja MUUN_CHR_dorn MUUN_CHR_dorotsech MUUN_CHR_dorrick MUUN_CHR_dortho MUUN_CHR_downey MUUN_CHR_draado MUUN_CHR_draahg MUUN_CHR_dracen MUUN_CHR_drage MUUN_CHR_dragen MUUN_CHR_drake MUUN_CHR_drayk MUUN_CHR_drazin MUUN_CHR_drek MUUN_CHR_duno MUUN_CHR_dree MUUN_CHR_dreed MUUN_CHR_drefin MUUN_CHR_dregg MUUN_CHR_drelosyn MUUN_CHR_drexel MUUN_CHR_dreyf MUUN_CHR_drezzel MUUN_CHR_drizan MUUN_CHR_dro MUUN_CHR_droman MUUN_CHR_dromath MUUN_CHR_drowl MUUN_CHR_drufeys MUUN_CHR_drummond MUUN_CHR_dubeh MUUN_CHR_dunari MUUN_CHR_dunaub MUUN_CHR_deadeye MUUN_CHR_duncan MUUN_CHR_durhant MUUN_CHR_durmat MUUN_CHR_durpin MUUN_CHR_durrei MUUN_CHR_dyshotto MUUN_CHR_dzoun MUUN_CHR_eagle MUUN_CHR_eanjer MUUN_CHR_earl MUUN_CHR_earsh MUUN_CHR_eben MUUN_CHR_eddon MUUN_CHR_edease MUUN_CHR_edern MUUN_CHR_edgar MUUN_CHR_edikar MUUN_CHR_egoreg MUUN_CHR_egron MUUN_CHR_eistern MUUN_CHR_ejai MUUN_CHR_eker MUUN_CHR_ekh MUUN_CHR_ekisp MUUN_CHR_ekov MUUN_CHR_elarles MUUN_CHR_eriquel MUUN_CHR_eris MUUN_CHR_erl MUUN_CHR_erloi MUUN_CHR_esano MUUN_CHR_escalion MUUN_CHR_ezil MUUN_CHR_ezrim MUUN_CHR_ezra MUUN_CHR_ein MUUN_CHR_eislo MUUN_CHR_jake MUUN_CHR_jango MUUN_CHR_eli MUUN_CHR_eliasb MUUN_CHR_eligyn MUUN_CHR_elior MUUN_CHR_elis MUUN_CHR_elizhis MUUN_CHR_elkin MUUN_CHR_ellsworth MUUN_CHR_elmel MUUN_CHR_elmyo MUUN_CHR_elrodelsar MUUN_CHR_elsek MUUN_CHR_emil MUUN_CHR_emir MUUN_CHR_emmens MUUN_CHR_endicott MUUN_CHR_enfield MUUN_CHR_enger MUUN_CHR_engret MUUN_CHR_emmett MUUN_CHR_emory MUUN_CHR_eoaq MUUN_CHR_eph MUUN_CHR_erdan MUUN_CHR_erelut MUUN_CHR_ergast MUUN_CHR_ergel MUUN_CHR_ergeron MUUN_CHR_eric MUUN_CHR_erik MUUN_CHR_estopatrin MUUN_CHR_esture MUUN_CHR_estus MUUN_CHR_eth MUUN_CHR_ethen MUUN_CHR_etnam MUUN_CHR_etta MUUN_CHR_evad MUUN_CHR_evan MUUN_CHR_evax MUUN_CHR_evlen MUUN_CHR_evran MUUN_CHR_evun MUUN_CHR_evvin MUUN_CHR_ewane MUUN_CHR_exar MUUN_CHR_eyvind MUUN_CHR_falltower MUUN_CHR_falrey MUUN_CHR_falsta MUUN_CHR_falch MUUN_CHR_falco MUUN_CHR_faarl MUUN_CHR_fable MUUN_CHR_faedral MUUN_CHR_far MUUN_CHR_faradin MUUN_CHR_faraire MUUN_CHR_fardi MUUN_CHR_farn MUUN_CHR_farng MUUN_CHR_farnis MUUN_CHR_farsal MUUN_CHR_farseam MUUN_CHR_fatulaine MUUN_CHR_fauler MUUN_CHR_feldon MUUN_CHR_feldron MUUN_CHR_feleea MUUN_CHR_fenn MUUN_CHR_fenris MUUN_CHR_fenson MUUN_CHR_feras MUUN_CHR_ferav MUUN_CHR_ferdoin MUUN_CHR_fermin MUUN_CHR_ferob MUUN_CHR_ferren MUUN_CHR_ferrid MUUN_CHR_ferrig MUUN_CHR_ferrin MUUN_CHR_ferron MUUN_CHR_ferrus MUUN_CHR_falesh MUUN_CHR_falk MUUN_CHR_fardi MUUN_CHR_fassio MUUN_CHR_fatulaine MUUN_CHR_dannl MUUN_CHR_februs MUUN_CHR_janus MUUN_CHR_fixer MUUN_CHR_florn MUUN_CHR_grizz MUUN_CHR_frobb MUUN_CHR_fruun
+			}
+			regnal_first_names_female = {
+				MUUN_CHR_tey MUUN_CHR_mik MUUN_CHR_viff MUUN_CHR_plure MUUN_CHR_shass MUUN_CHR_sanna MUUN_CHR_niak MUUN_CHR_vorn MUUN_CHR_pule MUUN_CHR_vuub MUUN_CHR_nillia MUUN_CHR_vale MUUN_CHR_aiolin MUUN_CHR_amanoa MUUN_CHR_aphra MUUN_CHR_atris MUUN_CHR_bastila MUUN_CHR_fema MUUN_CHR_jan MUUN_CHR_jyn MUUN_CHR_padm_ MUUN_CHR_rey MUUN_CHR_tash MUUN_CHR_tavion MUUN_CHR_zannah MUUN_CHR_aaida MUUN_CHR_aari MUUN_CHR_acina MUUN_CHR_ackmena MUUN_CHR_ada MUUN_CHR_adana MUUN_CHR_adnama MUUN_CHR_aeran MUUN_CHR_aereena MUUN_CHR_aeron MUUN_CHR_agatha MUUN_CHR_agira MUUN_CHR_ahlya MUUN_CHR_aimee MUUN_CHR_airen MUUN_CHR_akindra MUUN_CHR_albea MUUN_CHR_aldiae MUUN_CHR_alianda MUUN_CHR_alinta MUUN_CHR_alisia MUUN_CHR_allania MUUN_CHR_allara MUUN_CHR_allura MUUN_CHR_allya MUUN_CHR_alma MUUN_CHR_alora MUUN_CHR_altiss MUUN_CHR_alva MUUN_CHR_alvena MUUN_CHR_alya MUUN_CHR_alyak MUUN_CHR_amaya MUUN_CHR_amber MUUN_CHR_amee MUUN_CHR_amie MUUN_CHR_amni MUUN_CHR_amy MUUN_CHR_an_bal MUUN_CHR_anandra MUUN_CHR_anarq MUUN_CHR_anda MUUN_CHR_andra MUUN_CHR_anga MUUN_CHR_angela MUUN_CHR_anita MUUN_CHR_annissya MUUN_CHR_anora MUUN_CHR_ansween MUUN_CHR_anyarah MUUN_CHR_anyul MUUN_CHR_aral MUUN_CHR_ariela MUUN_CHR_arsad MUUN_CHR_arsha MUUN_CHR_aryzah MUUN_CHR_arzhura MUUN_CHR_asha MUUN_CHR_ashana MUUN_CHR_auren MUUN_CHR_avitla MUUN_CHR_avrey MUUN_CHR_azalie MUUN_CHR_azarea MUUN_CHR_balia MUUN_CHR_balmai MUUN_CHR_baral MUUN_CHR_bartaph MUUN_CHR_bat_theria MUUN_CHR_camelle MUUN_CHR_celana MUUN_CHR_chaney MUUN_CHR_cinzia MUUN_CHR_corellia MUUN_CHR_corinna MUUN_CHR_darial MUUN_CHR_darsha MUUN_CHR_deara MUUN_CHR_deli MUUN_CHR_derrica MUUN_CHR_duala MUUN_CHR_elga MUUN_CHR_emppu MUUN_CHR_fable MUUN_CHR_facet MUUN_CHR_feylis MUUN_CHR_grinte MUUN_CHR_halsia MUUN_CHR_henrietya MUUN_CHR_hermione MUUN_CHR_iella MUUN_CHR_jess MUUN_CHR_jhaka MUUN_CHR_jioie MUUN_CHR_jora MUUN_CHR_jord MUUN_CHR_junelle MUUN_CHR_kaiya MUUN_CHR_kandria MUUN_CHR_kani MUUN_CHR_ketrian MUUN_CHR_lemda MUUN_CHR_lesle MUUN_CHR_lilit MUUN_CHR_lissa MUUN_CHR_lomina MUUN_CHR_lynnta MUUN_CHR_lysa MUUN_CHR_maelrich MUUN_CHR_malani MUUN_CHR_maree MUUN_CHR_margani MUUN_CHR_mari MUUN_CHR_merish MUUN_CHR_milessa MUUN_CHR_momi MUUN_CHR_myri MUUN_CHR_nala MUUN_CHR_nalia MUUN_CHR_nia MUUN_CHR_olianna MUUN_CHR_ona MUUN_CHR_onie MUUN_CHR_onnelly MUUN_CHR_orqiti MUUN_CHR_pabel MUUN_CHR_pookie MUUN_CHR_quillara MUUN_CHR_renalda MUUN_CHR_renata MUUN_CHR_salia MUUN_CHR_sansia MUUN_CHR_shasheva MUUN_CHR_soara MUUN_CHR_sula MUUN_CHR_syal MUUN_CHR_talena MUUN_CHR_terena MUUN_CHR_tess MUUN_CHR_tinian MUUN_CHR_tour MUUN_CHR_tresten MUUN_CHR_tria MUUN_CHR_turi MUUN_CHR_tyla MUUN_CHR_varin MUUN_CHR_venra MUUN_CHR_vitala MUUN_CHR_vleen MUUN_CHR_yasinda MUUN_CHR_zal MUUN_CHR_zena MUUN_CHR_zola MUUN_CHR_nyrat MUUN_CHR_alana MUUN_CHR_alani MUUN_CHR_alara MUUN_CHR_tehlan MUUN_CHR_jalice MUUN_CHR_arlaia MUUN_CHR_apailana MUUN_CHR_melnea MUUN_CHR_asani MUUN_CHR_auben MUUN_CHR_aula MUUN_CHR_silvana MUUN_CHR_aunuanna MUUN_CHR_odea MUUN_CHR_aurora MUUN_CHR_frei MUUN_CHR_nana MUUN_CHR_barosa MUUN_CHR_bathos MUUN_CHR_bea MUUN_CHR_alecia MUUN_CHR_reefa MUUN_CHR_been MUUN_CHR_dansra MUUN_CHR_deena MUUN_CHR_trina MUUN_CHR_nari MUUN_CHR_arrianya MUUN_CHR_reginna MUUN_CHR_bel MUUN_CHR_typolla MUUN_CHR_keri MUUN_CHR_belaya MUUN_CHR_eppie MUUN_CHR_belina MUUN_CHR_areta MUUN_CHR_bella MUUN_CHR_bellican MUUN_CHR_bellum MUUN_CHR_sulen MUUN_CHR_bemere MUUN_CHR_bene MUUN_CHR_lana MUUN_CHR_tirgee MUUN_CHR_beraxil MUUN_CHR_thadl_ MUUN_CHR_berow MUUN_CHR_doman MUUN_CHR_eryl MUUN_CHR_elta MUUN_CHR_bestia MUUN_CHR_rasha MUUN_CHR_matri MUUN_CHR_shara MUUN_CHR_silaras MUUN_CHR_zalin MUUN_CHR_beylyssa MUUN_CHR_biabru MUUN_CHR_bialy MUUN_CHR_jonava MUUN_CHR_biller MUUN_CHR_binalu MUUN_CHR_jaleela MUUN_CHR_bini MUUN_CHR_jantaa MUUN_CHR_bixene MUUN_CHR_blessing MUUN_CHR_sadiki MUUN_CHR_ana MUUN_CHR_fiorah MUUN_CHR_haisha MUUN_CHR_evie MUUN_CHR_boble MUUN_CHR_bodhi MUUN_CHR_boibole MUUN_CHR_bolban MUUN_CHR_dorovio MUUN_CHR_nella MUUN_CHR_fira MUUN_CHR_erinn MUUN_CHR_kell MUUN_CHR_cretia MUUN_CHR_ro_san MUUN_CHR_z_meer MUUN_CHR_sunny MUUN_CHR_bradan MUUN_CHR_braganta MUUN_CHR_zayl MUUN_CHR_brand MUUN_CHR_brandeh MUUN_CHR_hela MUUN_CHR_hera MUUN_CHR_zai MUUN_CHR_lees MUUN_CHR_bree MUUN_CHR_bana MUUN_CHR_sharack MUUN_CHR_breha MUUN_CHR_j_pai MUUN_CHR_ismar MUUN_CHR_brenna MUUN_CHR_vessa MUUN_CHR_brezwalt MUUN_CHR_brianna MUUN_CHR_mira MUUN_CHR_briila MUUN_CHR_brin MUUN_CHR_cala MUUN_CHR_lillea MUUN_CHR_timma MUUN_CHR_lanoree MUUN_CHR_brontes MUUN_CHR_nore MUUN_CHR_brukarra MUUN_CHR_brukes MUUN_CHR_brunar MUUN_CHR_dama MUUN_CHR_harriet MUUN_CHR_brusela MUUN_CHR_brynn MUUN_CHR_hella MUUN_CHR_pari MUUN_CHR_tama MUUN_CHR_rallcema MUUN_CHR_dana MUUN_CHR_cai MUUN_CHR_caille MUUN_CHR_calagott MUUN_CHR_annora MUUN_CHR_arkadia MUUN_CHR_vilia MUUN_CHR_morrigan MUUN_CHR_callandri MUUN_CHR_calle MUUN_CHR_tendra MUUN_CHR_calvaria MUUN_CHR_annileen MUUN_CHR_kallie MUUN_CHR_cana MUUN_CHR_canduri MUUN_CHR_aeona MUUN_CHR_thera MUUN_CHR_gaeriel MUUN_CHR_marga MUUN_CHR_tiree MUUN_CHR_ylanda MUUN_CHR_cara MUUN_CHR_carbinol MUUN_CHR_cardya MUUN_CHR_careese MUUN_CHR_leanna MUUN_CHR_carilla MUUN_CHR_coli MUUN_CHR_melina MUUN_CHR_caroline MUUN_CHR_reiva MUUN_CHR_kira MUUN_CHR_matilda MUUN_CHR_casey MUUN_CHR_mandora MUUN_CHR_catrinna MUUN_CHR_kay MUUN_CHR_telsij MUUN_CHR_ceecee MUUN_CHR_cel MUUN_CHR_mia MUUN_CHR_winter MUUN_CHR_celestra MUUN_CHR_jynne MUUN_CHR_alysun MUUN_CHR_jovive MUUN_CHR_melo MUUN_CHR_cerasi MUUN_CHR_lowle MUUN_CHR_chanath MUUN_CHR_chai MUUN_CHR_everi MUUN_CHR_travia MUUN_CHR_ember MUUN_CHR_javul MUUN_CHR_neiya MUUN_CHR_chenna MUUN_CHR_viera MUUN_CHR_olana MUUN_CHR_chokla MUUN_CHR_avenledina MUUN_CHR_christina MUUN_CHR_christya MUUN_CHR_kimmi MUUN_CHR_tian MUUN_CHR_taryn MUUN_CHR_ria MUUN_CHR_clarrisa MUUN_CHR_clat MUUN_CHR_cligot MUUN_CHR_flaenella MUUN_CHR_zahara MUUN_CHR_litassa MUUN_CHR_amber MUUN_CHR_kaydel MUUN_CHR_sarita MUUN_CHR_cora MUUN_CHR_coralya MUUN_CHR_coratanni MUUN_CHR_sabel MUUN_CHR_hella MUUN_CHR_cord_ MUUN_CHR_swilla MUUN_CHR_lana MUUN_CHR_vella MUUN_CHR_chay MUUN_CHR_corwell MUUN_CHR_muriel MUUN_CHR_couli MUUN_CHR_dena MUUN_CHR_josta MUUN_CHR_laiurea MUUN_CHR_abagga MUUN_CHR_viera MUUN_CHR_andra MUUN_CHR_jens MUUN_CHR_crowal MUUN_CHR_crowley MUUN_CHR_jeela MUUN_CHR_dine_ MUUN_CHR_lyra MUUN_CHR_jyn MUUN_CHR_edrii MUUN_CHR_eelysa MUUN_CHR_egan MUUN_CHR_egara MUUN_CHR_errine MUUN_CHR_esala MUUN_CHR_esmelle MUUN_CHR_ensa MUUN_CHR_erils MUUN_CHR_eritha MUUN_CHR_erkens MUUN_CHR_erra MUUN_CHR_halla MUUN_CHR_ettyk MUUN_CHR_eyleen MUUN_CHR_ezeraline MUUN_CHR_elenzia MUUN_CHR_elicia MUUN_CHR_elinda MUUN_CHR_eliya MUUN_CHR_eirta_ MUUN_CHR_elaiza MUUN_CHR_elora MUUN_CHR_elspeth MUUN_CHR_ellik MUUN_CHR_ellis MUUN_CHR_ell_ MUUN_CHR_essenton MUUN_CHR_estoc MUUN_CHR_anora MUUN_CHR_fatil MUUN_CHR_faylin MUUN_CHR_chenna MUUN_CHR_fala MUUN_CHR_falkun MUUN_CHR_faylin MUUN_CHR_feinu MUUN_CHR_feleema MUUN_CHR_felicia MUUN_CHR_fellion MUUN_CHR_femon MUUN_CHR_fereden MUUN_CHR_feresyl MUUN_CHR_ferreges MUUN_CHR_ferrel MUUN_CHR_fessi MUUN_CHR_feyenn MUUN_CHR_fia MUUN_CHR_first MUUN_CHR_flangolial MUUN_CHR_fionna MUUN_CHR_flensia MUUN_CHR_floria MUUN_CHR_folaris MUUN_CHR_forta MUUN_CHR_fovish MUUN_CHR_frayne
+			}
+			regnal_second_names = {
+				MUUN_CHR_haako MUUN_CHR_dod MUUN_CHR_dofine MUUN_CHR_durd MUUN_CHR_tuuk MUUN_CHR_libkath MUUN_CHR_kav MUUN_CHR_kartay MUUN_CHR_monchar MUUN_CHR_gunnay MUUN_CHR_dremon MUUN_CHR_unch MUUN_CHR_nark MUUN_CHR_nox MUUN_CHR_canay MUUN_CHR_laff MUUN_CHR_findos MUUN_CHR_ekorr MUUN_CHR_ruuk MUUN_CHR_maccon MUUN_CHR_takrab MUUN_CHR_lagard MUUN_CHR_danak MUUN_CHR_moh MUUN_CHR_ankkit MUUN_CHR_dod MUUN_CHR_demos MUUN_CHR_gehad MUUN_CHR_jaral MUUN_CHR_ze_trios MUUN_CHR_agapoui MUUN_CHR_bankor MUUN_CHR_otbor MUUN_CHR_shallit MUUN_CHR_gunray MUUN_CHR_how MUUN_CHR_regrap MUUN_CHR_almay MUUN_CHR_barron MUUN_CHR_olpan MUUN_CHR_zaday MUUN_CHR_a_shera MUUN_CHR_amidala MUUN_CHR_aabe MUUN_CHR_abias MUUN_CHR_ac_yandar MUUN_CHR_accu MUUN_CHR_acib MUUN_CHR_acoi MUUN_CHR_acton MUUN_CHR_adala MUUN_CHR_adannon MUUN_CHR_adare MUUN_CHR_addar MUUN_CHR_afit MUUN_CHR_afyon MUUN_CHR_agolerga MUUN_CHR_agri MUUN_CHR_ahid MUUN_CHR_ahkoeri MUUN_CHR_ahot MUUN_CHR_ahuff MUUN_CHR_akura MUUN_CHR_alair MUUN_CHR_alamant MUUN_CHR_alaras MUUN_CHR_amithest MUUN_CHR_antana MUUN_CHR_alburass MUUN_CHR_alde MUUN_CHR_alder MUUN_CHR_aldine MUUN_CHR_aldrete MUUN_CHR_algwinn MUUN_CHR_allashane MUUN_CHR_allusis MUUN_CHR_aloo MUUN_CHR_altax MUUN_CHR_altis MUUN_CHR_alto MUUN_CHR_alvar MUUN_CHR_alvic MUUN_CHR_anamor MUUN_CHR_ancum MUUN_CHR_andal MUUN_CHR_anderlock MUUN_CHR_andor MUUN_CHR_andrell MUUN_CHR_andromias MUUN_CHR_anec MUUN_CHR_ange MUUN_CHR_annix MUUN_CHR_annon MUUN_CHR_antab MUUN_CHR_antilles MUUN_CHR_antin MUUN_CHR_antyll MUUN_CHR_anyell MUUN_CHR_apice MUUN_CHR_apla MUUN_CHR_apma MUUN_CHR_aramatha MUUN_CHR_arandis MUUN_CHR_archan MUUN_CHR_ardine MUUN_CHR_arelis MUUN_CHR_aresko MUUN_CHR_argdran MUUN_CHR_argen MUUN_CHR_argo MUUN_CHR_argus MUUN_CHR_argyus MUUN_CHR_arin MUUN_CHR_arisster MUUN_CHR_arkos MUUN_CHR_armin MUUN_CHR_arnae MUUN_CHR_arned MUUN_CHR_arnjak MUUN_CHR_arpor MUUN_CHR_arr MUUN_CHR_arranda MUUN_CHR_arrant MUUN_CHR_arrison MUUN_CHR_aryon MUUN_CHR_arzal MUUN_CHR_asani MUUN_CHR_asch MUUN_CHR_ashandrik MUUN_CHR_ashar MUUN_CHR_ashen MUUN_CHR_assam MUUN_CHR_atma MUUN_CHR_ato MUUN_CHR_atrus MUUN_CHR_attal MUUN_CHR_auchs MUUN_CHR_auglu MUUN_CHR_autem MUUN_CHR_avesta MUUN_CHR_avoa MUUN_CHR_awson MUUN_CHR_ayl MUUN_CHR_ayrvn MUUN_CHR_azadi MUUN_CHR_azzameen MUUN_CHR_azur_jamin MUUN_CHR_b_risko MUUN_CHR_ba_al MUUN_CHR_bagwa MUUN_CHR_bach MUUN_CHR_bada MUUN_CHR_baddeg MUUN_CHR_badeleg MUUN_CHR_badra MUUN_CHR_badure MUUN_CHR_baem MUUN_CHR_bakarn MUUN_CHR_bakash MUUN_CHR_baker MUUN_CHR_bakvalen MUUN_CHR_balfed MUUN_CHR_balfour MUUN_CHR_baliss MUUN_CHR_balkar MUUN_CHR_ballow_reese MUUN_CHR_balor MUUN_CHR_balrekk MUUN_CHR_balu MUUN_CHR_banai MUUN_CHR_bandeam MUUN_CHR_bane MUUN_CHR_banjeer MUUN_CHR_bann MUUN_CHR_bannik MUUN_CHR_bannon MUUN_CHR_banolt MUUN_CHR_banos MUUN_CHR_banto MUUN_CHR_baobab MUUN_CHR_baran MUUN_CHR_barani MUUN_CHR_barayel MUUN_CHR_barc MUUN_CHR_bardrin MUUN_CHR_barezz MUUN_CHR_barje MUUN_CHR_berenko MUUN_CHR_baron MUUN_CHR_barrek MUUN_CHR_barrezz MUUN_CHR_barrows MUUN_CHR_barris MUUN_CHR_barron MUUN_CHR_bartmoss MUUN_CHR_barzon MUUN_CHR_basdor MUUN_CHR_baskalar MUUN_CHR_bast MUUN_CHR_basteren MUUN_CHR_bastion MUUN_CHR_bastra MUUN_CHR_bata MUUN_CHR_batch MUUN_CHR_batross MUUN_CHR_batta MUUN_CHR_bayts MUUN_CHR_bean MUUN_CHR_bebo MUUN_CHR_beech MUUN_CHR_beelyard MUUN_CHR_beentilles MUUN_CHR_bek MUUN_CHR_bel MUUN_CHR_belar MUUN_CHR_belden MUUN_CHR_belissa MUUN_CHR_belladar MUUN_CHR_bellsfar MUUN_CHR_bemming MUUN_CHR_ben MUUN_CHR_bendak MUUN_CHR_bender MUUN_CHR_bendick MUUN_CHR_beni MUUN_CHR_benlip MUUN_CHR_bennis MUUN_CHR_bentado MUUN_CHR_bensen MUUN_CHR_benu MUUN_CHR_berek MUUN_CHR_berge MUUN_CHR_berkona MUUN_CHR_berra MUUN_CHR_beruss MUUN_CHR_besk MUUN_CHR_bey MUUN_CHR_bibble MUUN_CHR_biktor MUUN_CHR_bindari MUUN_CHR_bish MUUN_CHR_bjalin MUUN_CHR_blackgate MUUN_CHR_blaesus MUUN_CHR_blake MUUN_CHR_blaze MUUN_CHR_blendin MUUN_CHR_blim MUUN_CHR_blissex MUUN_CHR_blohk MUUN_CHR_blood MUUN_CHR_bloomi MUUN_CHR_bludder MUUN_CHR_blys MUUN_CHR_boddipy MUUN_CHR_bodhrik MUUN_CHR_bogan MUUN_CHR_bola MUUN_CHR_bombaasa MUUN_CHR_bondog MUUN_CHR_bonteri MUUN_CHR_bordo MUUN_CHR_borgin MUUN_CHR_bourne MUUN_CHR_bragg MUUN_CHR_brand MUUN_CHR_branon MUUN_CHR_brasli MUUN_CHR_brathis MUUN_CHR_brazee MUUN_CHR_breen MUUN_CHR_brell MUUN_CHR_bren MUUN_CHR_brentioch MUUN_CHR_bridger MUUN_CHR_brigger MUUN_CHR_brightwater MUUN_CHR_brill MUUN_CHR_briqualon MUUN_CHR_brunou MUUN_CHR_brya MUUN_CHR_buc MUUN_CHR_budz MUUN_CHR_buir MUUN_CHR_bullwin MUUN_CHR_burkan MUUN_CHR_bunyea MUUN_CHR_burba MUUN_CHR_burb MUUN_CHR_burku MUUN_CHR_byrne MUUN_CHR_c_baoth MUUN_CHR_cadaman MUUN_CHR_cadera MUUN_CHR_cadix MUUN_CHR_cadmir MUUN_CHR_cadoruso MUUN_CHR_caedus MUUN_CHR_caglio MUUN_CHR_cairnwick MUUN_CHR_calder MUUN_CHR_calhuu MUUN_CHR_callat MUUN_CHR_callum MUUN_CHR_calrissian MUUN_CHR_carid MUUN_CHR_carivus MUUN_CHR_capra MUUN_CHR_carolinden MUUN_CHR_caros MUUN_CHR_carper MUUN_CHR_carplin MUUN_CHR_carr MUUN_CHR_carrick MUUN_CHR_carsan MUUN_CHR_carsiri MUUN_CHR_carter MUUN_CHR_carteri MUUN_CHR_cartha MUUN_CHR_cartroll MUUN_CHR_carvin MUUN_CHR_carzyn MUUN_CHR_caslo MUUN_CHR_casrich MUUN_CHR_cass MUUN_CHR_cassian MUUN_CHR_cassel MUUN_CHR_cassius MUUN_CHR_casterfo MUUN_CHR_caveel MUUN_CHR_chistor MUUN_CHR_cavv MUUN_CHR_cedrax MUUN_CHR_celaar MUUN_CHR_celchu MUUN_CHR_celchu MUUN_CHR_cerulian MUUN_CHR_chagras MUUN_CHR_chalco MUUN_CHR_chalk MUUN_CHR_chan MUUN_CHR_chance MUUN_CHR_charkron MUUN_CHR_charu MUUN_CHR_chasdy MUUN_CHR_chase MUUN_CHR_chasser MUUN_CHR_chassu MUUN_CHR_cheems MUUN_CHR_cheever MUUN_CHR_chiffonage MUUN_CHR_chizzik MUUN_CHR_chlorus MUUN_CHR_cho MUUN_CHR_choard MUUN_CHR_choard MUUN_CHR_choid MUUN_CHR_cholus MUUN_CHR_chrin MUUN_CHR_chronelle MUUN_CHR_chull MUUN_CHR_chumu MUUN_CHR_chun MUUN_CHR_cibinel MUUN_CHR_cikartan MUUN_CHR_cineratus MUUN_CHR_cipher MUUN_CHR_ciro MUUN_CHR_cirrilla MUUN_CHR_clafdatha MUUN_CHR_claine MUUN_CHR_clamont MUUN_CHR_clancy MUUN_CHR_classet MUUN_CHR_clathor MUUN_CHR_clatto MUUN_CHR_cleben MUUN_CHR_clem MUUN_CHR_clenna MUUN_CHR_cleroff MUUN_CHR_cley MUUN_CHR_clines MUUN_CHR_cohn MUUN_CHR_cojahn MUUN_CHR_colclazure MUUN_CHR_colf MUUN_CHR_colgter MUUN_CHR_condi MUUN_CHR_conjob MUUN_CHR_conlath MUUN_CHR_conro MUUN_CHR_contispex MUUN_CHR_contopault MUUN_CHR_convarion MUUN_CHR_convorr MUUN_CHR_coops MUUN_CHR_coptszt MUUN_CHR_cor MUUN_CHR_corazon MUUN_CHR_corconnan MUUN_CHR_cordan MUUN_CHR_corek MUUN_CHR_cories MUUN_CHR_cormac MUUN_CHR_cormin MUUN_CHR_courser MUUN_CHR_covell MUUN_CHR_coven MUUN_CHR_covington MUUN_CHR_coviscowall MUUN_CHR_creip MUUN_CHR_crel MUUN_CHR_crell MUUN_CHR_crespin MUUN_CHR_cros MUUN_CHR_cross MUUN_CHR_crowe MUUN_CHR_crynyd MUUN_CHR_croft MUUN_CHR_croix MUUN_CHR_d_asta MUUN_CHR_d_baelor MUUN_CHR_d_jek MUUN_CHR_d_lund MUUN_CHR_dabrini MUUN_CHR_dacholder MUUN_CHR_dack MUUN_CHR_dackett MUUN_CHR_dadar MUUN_CHR_dade MUUN_CHR_dadeferron MUUN_CHR_dain MUUN_CHR_daine MUUN_CHR_dak_win MUUN_CHR_dak MUUN_CHR_dal_nay MUUN_CHR_dala MUUN_CHR_dalhney MUUN_CHR_dallin MUUN_CHR_dallory MUUN_CHR_dallows MUUN_CHR_dambrizi MUUN_CHR_dameerd MUUN_CHR_damlo MUUN_CHR_dance MUUN_CHR_dandu MUUN_CHR_dane MUUN_CHR_danenberger MUUN_CHR_danga MUUN_CHR_danglot MUUN_CHR_dangor MUUN_CHR_danid MUUN_CHR_danl_ MUUN_CHR_drugah MUUN_CHR_dann MUUN_CHR_dannt MUUN_CHR_danson MUUN_CHR_danta MUUN_CHR_danthe MUUN_CHR_danu MUUN_CHR_danurs MUUN_CHR_danva MUUN_CHR_daraada MUUN_CHR_daragon MUUN_CHR_daral MUUN_CHR_darb MUUN_CHR_darba MUUN_CHR_darcc MUUN_CHR_darillian MUUN_CHR_darklighter MUUN_CHR_dart_ MUUN_CHR_dashit MUUN_CHR_dasol MUUN_CHR_dastt MUUN_CHR_datch MUUN_CHR_davan MUUN_CHR_davin MUUN_CHR_davip MUUN_CHR_dendup MUUN_CHR_debell MUUN_CHR_decar MUUN_CHR_decimus MUUN_CHR_declann MUUN_CHR_decree MUUN_CHR_dedge MUUN_CHR_dekker MUUN_CHR_dekven MUUN_CHR_delahrg MUUN_CHR_delan MUUN_CHR_delckis MUUN_CHR_deld MUUN_CHR_deljeevo MUUN_CHR_delk MUUN_CHR_delvardus MUUN_CHR_delvaren MUUN_CHR_demain MUUN_CHR_demaratus MUUN_CHR_demior MUUN_CHR_demosal MUUN_CHR_denzmorren MUUN_CHR_dep MUUN_CHR_derlin MUUN_CHR_derlynn MUUN_CHR_desh MUUN_CHR_desnand MUUN_CHR_dessain MUUN_CHR_detta MUUN_CHR_detton MUUN_CHR_dev MUUN_CHR_devane MUUN_CHR_devian MUUN_CHR_devis MUUN_CHR_devo MUUN_CHR_dewes MUUN_CHR_dewiller MUUN_CHR_dewitt MUUN_CHR_dheas MUUN_CHR_dhil MUUN_CHR_di MUUN_CHR_diath MUUN_CHR_dicium MUUN_CHR_dienbel MUUN_CHR_dil MUUN_CHR_dillems MUUN_CHR_dilorr MUUN_CHR_dilsn MUUN_CHR_din MUUN_CHR_dinard MUUN_CHR_dionisio MUUN_CHR_disra MUUN_CHR_divini MUUN_CHR_divinian MUUN_CHR_divo MUUN_CHR_dix MUUN_CHR_diyaz MUUN_CHR_djambo MUUN_CHR_djo MUUN_CHR_dlarit MUUN_CHR_dlunar MUUN_CHR_doaba MUUN_CHR_doan MUUN_CHR_dodonna MUUN_CHR_dogot MUUN_CHR_doil MUUN_CHR_dokrett MUUN_CHR_dolor MUUN_CHR_dolphe MUUN_CHR_doluff MUUN_CHR_dolv MUUN_CHR_dom MUUN_CHR_domeet MUUN_CHR_domi MUUN_CHR_domo MUUN_CHR_donar MUUN_CHR_dondarvan MUUN_CHR_donell MUUN_CHR_donn MUUN_CHR_donos MUUN_CHR_dooku MUUN_CHR_d_oon MUUN_CHR_doore MUUN_CHR_doorn MUUN_CHR_doran MUUN_CHR_dorant MUUN_CHR_dorat MUUN_CHR_doru MUUN_CHR_doruggan MUUN_CHR_dorvan MUUN_CHR_dos MUUN_CHR_doshun MUUN_CHR_doss MUUN_CHR_dostryt MUUN_CHR_dovaro MUUN_CHR_dovlis MUUN_CHR_dovu MUUN_CHR_drallig MUUN_CHR_drass MUUN_CHR_draven MUUN_CHR_draver MUUN_CHR_dray MUUN_CHR_drei MUUN_CHR_dreleene MUUN_CHR_drell MUUN_CHR_drellik MUUN_CHR_drobo MUUN_CHR_droga MUUN_CHR_dromath MUUN_CHR_drommel MUUN_CHR_droo MUUN_CHR_droon MUUN_CHR_drop MUUN_CHR_drost MUUN_CHR_dubrok MUUN_CHR_ducela MUUN_CHR_duel MUUN_CHR_dugge MUUN_CHR_dumat MUUN_CHR_dumont MUUN_CHR_duna MUUN_CHR_dunell MUUN_CHR_dunerz MUUN_CHR_dunn MUUN_CHR_dunoche MUUN_CHR_dunrik MUUN_CHR_dunwell MUUN_CHR_duo MUUN_CHR_durasha MUUN_CHR_durgo MUUN_CHR_durron MUUN_CHR_durs MUUN_CHR_durshana MUUN_CHR_dusat MUUN_CHR_dustrunner MUUN_CHR_dyer MUUN_CHR_dyre MUUN_CHR_dyrla MUUN_CHR_dyrra MUUN_CHR_dysen MUUN_CHR_dyshkava MUUN_CHR_billaba MUUN_CHR_calwell MUUN_CHR_e_ron MUUN_CHR_e_elz MUUN_CHR_eadon MUUN_CHR_eckels MUUN_CHR_eckener MUUN_CHR_edaine MUUN_CHR_edalm MUUN_CHR_eddawan MUUN_CHR_eddis MUUN_CHR_edisser MUUN_CHR_edu MUUN_CHR_eeth MUUN_CHR_efran MUUN_CHR_elban MUUN_CHR_eldon MUUN_CHR_elegin MUUN_CHR_elfwannabe MUUN_CHR_elgin MUUN_CHR_elgrin MUUN_CHR_ell MUUN_CHR_ellon MUUN_CHR_elsin MUUN_CHR_elysar MUUN_CHR_elzif MUUN_CHR_ematt MUUN_CHR_emmert MUUN_CHR_en MUUN_CHR_enasteri MUUN_CHR_endac MUUN_CHR_enkhet MUUN_CHR_enraj MUUN_CHR_ensh MUUN_CHR_erlskel MUUN_CHR_ern MUUN_CHR_erne MUUN_CHR_erso MUUN_CHR_ervekk MUUN_CHR_ervic MUUN_CHR_esan MUUN_CHR_escalus MUUN_CHR_eso MUUN_CHR_estillo MUUN_CHR_evazan MUUN_CHR_fardi MUUN_CHR_fair MUUN_CHR_ebonette MUUN_CHR_eckener MUUN_CHR_eclipse MUUN_CHR_eddawan MUUN_CHR_edivon MUUN_CHR_edosun_ MUUN_CHR_egast MUUN_CHR_ele MUUN_CHR_ellberger MUUN_CHR_elna MUUN_CHR_empor MUUN_CHR_enasteri MUUN_CHR_f_tuhns MUUN_CHR_faal MUUN_CHR_fahm MUUN_CHR_fain MUUN_CHR_fain MUUN_CHR_fal MUUN_CHR_falcone MUUN_CHR_falconi MUUN_CHR_falcris MUUN_CHR_faldrin MUUN_CHR_falken MUUN_CHR_fallon MUUN_CHR_fallon MUUN_CHR_falt MUUN_CHR_fanaso MUUN_CHR_fandi MUUN_CHR_fane MUUN_CHR_fardreamer MUUN_CHR_farege MUUN_CHR_fargil MUUN_CHR_farkus MUUN_CHR_farlander MUUN_CHR_farles MUUN_CHR_farls MUUN_CHR_farool MUUN_CHR_farrell MUUN_CHR_farrell MUUN_CHR_farseeker MUUN_CHR_fasalk MUUN_CHR_fassoola MUUN_CHR_fateau MUUN_CHR_faunor MUUN_CHR_faytonni MUUN_CHR_feal MUUN_CHR_feb MUUN_CHR_feelu MUUN_CHR_feem MUUN_CHR_fegel MUUN_CHR_fel_kona MUUN_CHR_fel MUUN_CHR_felan MUUN_CHR_felens MUUN_CHR_felix MUUN_CHR_felyood MUUN_CHR_femi MUUN_CHR_fenic MUUN_CHR_fenimer MUUN_CHR_fernandin MUUN_CHR_ferthyn MUUN_CHR_feswin MUUN_CHR_fett MUUN_CHR_fhernan MUUN_CHR_fhurek MUUN_CHR_figg MUUN_CHR_farrell MUUN_CHR_ablund MUUN_CHR_faytonni MUUN_CHR_fahm MUUN_CHR_temmt MUUN_CHR_fhurek MUUN_CHR_frix MUUN_CHR_faenel MUUN_CHR_fahrs MUUN_CHR_fain MUUN_CHR_fair MUUN_CHR_fallatte MUUN_CHR_falon MUUN_CHR_farlion MUUN_CHR_farls MUUN_CHR_farnmir MUUN_CHR_farr MUUN_CHR_fasser MUUN_CHR_faughn MUUN_CHR_fawn MUUN_CHR_fax MUUN_CHR_fek_ra MUUN_CHR_felswoop MUUN_CHR_felth MUUN_CHR_fharn MUUN_CHR_fhernan MUUN_CHR_folee MUUN_CHR_for_deschel MUUN_CHR_foravis MUUN_CHR_foreck MUUN_CHR_forge MUUN_CHR_fori MUUN_CHR_forno MUUN_CHR_foxtrain MUUN_CHR_fraabaal MUUN_CHR_fray
+			}
+		}
+	}
+}

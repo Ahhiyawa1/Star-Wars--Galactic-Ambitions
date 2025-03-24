@@ -1,0 +1,847 @@
+﻿Rodian = {
+	randomized = no
+	ship_names = {
+		generic = {
+			RODIAN_SHIP_atiang RODIAN_SHIP_navik_the_red RODIAN_SHIP_greedo_the_elder RODIAN_SHIP_day_of_the_hunter RODIAN_SHIP_feudal_glory RODIAN_SHIP_ghestslayer RODIAN_SHIP_great_protector RODIAN_SHIP_gladiator RODIAN_SHIP_kinzic RODIAN_SHIP_rodian_kiss RODIAN_SHIP_vosida_nooma RODIAN_SHIP_zahtjav RODIAN_SHIP_catharsis RODIAN_SHIP_harido_s_gift RODIAN_SHIP_harido_kavila RODIAN_SHIP_glory_of_chattza RODIAN_SHIP_pride_of_tetsu RODIAN_SHIP_bomu_honor RODIAN_SHIP_adebsu RODIAN_SHIP_an_yettu_blade RODIAN_SHIP_fate_of_anyyon RODIAN_SHIP_cadevon_mark RODIAN_SHIP_cairn RODIAN_SHIP_chekkoo_dragon RODIAN_SHIP_valor_of_intamm RODIAN_SHIP_kemu_blood RODIAN_SHIP_kenu_ascendant RODIAN_SHIP_eye_of_neetakka RODIAN_SHIP_reeven RODIAN_SHIP_bounty_of_roolek RODIAN_SHIP_scythe_of_soammei RODIAN_SHIP_crouching_tan RODIAN_SHIP_revenant_of_tanwa RODIAN_SHIP_tonera_reaper RODIAN_SHIP_yiyar_s_revenge RODIAN_SHIP_inta_si_rin_na RODIAN_SHIP_equator RODIAN_SHIP_goa_ato RODIAN_SHIP_lost_hunt RODIAN_SHIP_n_gant RODIAN_SHIP_rheshalva RODIAN_SHIP_council_of_justice RODIAN_SHIP_ripper RODIAN_SHIP_sancretti RODIAN_SHIP_salus RODIAN_SHIP_tonena RODIAN_SHIP_verifier RODIAN_SHIP_zarvel RODIAN_SHIP_harlequin RODIAN_SHIP_running_black RODIAN_SHIP_final_act RODIAN_SHIP_final_curtain RODIAN_SHIP_arena RODIAN_SHIP_crimson_audition RODIAN_SHIP_blackout RODIAN_SHIP_curtain_call RODIAN_SHIP_colour_call RODIAN_SHIP_callback RODIAN_SHIP_caster RODIAN_SHIP_centre_line RODIAN_SHIP_clearance RODIAN_SHIP_cyclorama RODIAN_SHIP_downstage RODIAN_SHIP_matinee RODIAN_SHIP_verdant_war RODIAN_SHIP_offstage RODIAN_SHIP_parodos RODIAN_SHIP_playwright RODIAN_SHIP_professional RODIAN_SHIP_proscenium RODIAN_SHIP_bozzascena RODIAN_SHIP_blooded_stage RODIAN_SHIP_tableaux RODIAN_SHIP_rideax RODIAN_SHIP_sipazzio RODIAN_SHIP_pendrizzion RODIAN_SHIP_wet_tech RODIAN_SHIP_fear_to_tread RODIAN_SHIP_skene RODIAN_SHIP_dizyramb RODIAN_SHIP_deuteragonist RODIAN_SHIP_theatron RODIAN_SHIP_tritagonist RODIAN_SHIP_thymele RODIAN_SHIP_proskenion RODIAN_SHIP_centricity RODIAN_SHIP_koizon RODIAN_SHIP_diazoma RODIAN_SHIP_greeiactoi RODIAN_SHIP_ekkoclema RODIAN_SHIP_aeorema RODIAN_SHIP_suppliant RODIAN_SHIP_adituz RODIAN_SHIP_anazemma RODIAN_SHIP_arkkitrave RODIAN_SHIP_kataclyema RODIAN_SHIP_baldakkin RODIAN_SHIP_kaeroni RODIAN_SHIP_klimake RODIAN_SHIP_koregos RODIAN_SHIP_koryphyus RODIAN_SHIP_ziazoma RODIAN_SHIP_zohedria RODIAN_SHIP_ima_gavea RODIAN_SHIP_ozeion RODIAN_SHIP_ogreeum RODIAN_SHIP_gonkos RODIAN_SHIP_avaro RODIAN_SHIP_boiny RODIAN_SHIP_capo RODIAN_SHIP_cevva RODIAN_SHIP_clezo RODIAN_SHIP_dardo RODIAN_SHIP_doda RODIAN_SHIP_farr RODIAN_SHIP_geelo RODIAN_SHIP_grappa RODIAN_SHIP_harido RODIAN_SHIP_honka RODIAN_SHIP_jannik RODIAN_SHIP_kavilo RODIAN_SHIP_kelbis RODIAN_SHIP_kelko RODIAN_SHIP_koobis RODIAN_SHIP_leenik RODIAN_SHIP_lido RODIAN_SHIP_maris RODIAN_SHIP_mufrenes RODIAN_SHIP_nardi RODIAN_SHIP_narik RODIAN_SHIP_onaconda RODIAN_SHIP_prevaro RODIAN_SHIP_rohan RODIAN_SHIP_ropal RODIAN_SHIP_shodu RODIAN_SHIP_skee_skee RODIAN_SHIP_sookcool RODIAN_SHIP_standro RODIAN_SHIP_teeku RODIAN_SHIP_teerik RODIAN_SHIP_thuku RODIAN_SHIP_tox RODIAN_SHIP_vinto RODIAN_SHIP_vuko RODIAN_SHIP_wald_xuz RODIAN_SHIP_greeata RODIAN_SHIP_hreeda RODIAN_SHIP_jacta RODIAN_SHIP_kras_ka RODIAN_SHIP_vorskl_ta RODIAN_SHIP_spulta RODIAN_SHIP_si_rin_ha RODIAN_SHIP_tujllaki RODIAN_SHIP_chakuy RODIAN_SHIP_qulluy RODIAN_SHIP_wakachina RODIAN_SHIP_trophytaker RODIAN_SHIP_iron_pelt RODIAN_SHIP_qara RODIAN_SHIP_suyk_u RODIAN_SHIP_chuki_suni RODIAN_SHIP_longspear RODIAN_SHIP_antagonist RODIAN_SHIP_protagonist RODIAN_SHIP_aycha RODIAN_SHIP_uturunku RODIAN_SHIP_wilancha RODIAN_SHIP_upalla RODIAN_SHIP_dancing_knife RODIAN_SHIP_upallay RODIAN_SHIP_tuta RODIAN_SHIP_yaykuy RODIAN_SHIP_can_cell RODIAN_SHIP_ghest RODIAN_SHIP_kwazel_maw RODIAN_SHIP_blood_fly RODIAN_SHIP_khardax RODIAN_SHIP_newoongall RODIAN_SHIP_karstag RODIAN_SHIP_roth RODIAN_SHIP_svaper RODIAN_SHIP_iskaayuma RODIAN_SHIP_encheeko RODIAN_SHIP_betu RODIAN_SHIP_mareesh RODIAN_SHIP_onaconda_farr RODIAN_SHIP_green_hell RODIAN_SHIP_ambusher RODIAN_SHIP_stalker RODIAN_SHIP_emarald_shadow RODIAN_SHIP_murk_hunter RODIAN_SHIP_wild_hunt RODIAN_SHIP_dree_vandap RODIAN_SHIP_bolla_ropal RODIAN_SHIP_suvam_tan RODIAN_SHIP_suz_tanwa RODIAN_SHIP_menndo RODIAN_SHIP_hako_armado RODIAN_SHIP_slyder RODIAN_SHIP_poacher RODIAN_SHIP_gamewarden RODIAN_SHIP_fenn_stalker RODIAN_SHIP_skaena RODIAN_SHIP_skalae RODIAN_SHIP_rodiamai RODIAN_SHIP_rodimelici RODIAN_SHIP_venaziones RODIAN_SHIP_veeatorium RODIAN_SHIP_treasure_of_rodia RODIAN_SHIP_stalker RODIAN_SHIP_stalking_mount RODIAN_SHIP_trapjaw RODIAN_SHIP_headsman RODIAN_SHIP_first_protector RODIAN_SHIP_intermission RODIAN_SHIP_h_rinnrada RODIAN_SHIP_jannik_the_white RODIAN_SHIP_honor_war RODIAN_SHIP_general_minst RODIAN_SHIP_sawtooth RODIAN_SHIP_general_ropal
+		}
+		swp_bellator = {
+			RODIAN_SHIP_zahtjav RODIAN_SHIP_si_rin_ha RODIAN_SHIP_inta_si_rin_na RODIAN_SHIP_kwazel_maw RODIAN_SHIP_encheeko RODIAN_SHIP_betu RODIAN_SHIP_navik RODIAN_SHIP_h_rinnrada
+		}
+		science = {
+			RODIAN_SHIP_tracker RODIAN_SHIP_sniffer RODIAN_SHIP_navigator RODIAN_SHIP_wayfinder RODIAN_SHIP_orienteer RODIAN_SHIP_true_north RODIAN_SHIP_tracer RODIAN_SHIP_hunter_three RODIAN_SHIP_verdant_shadow RODIAN_SHIP_detector RODIAN_SHIP_tailer RODIAN_SHIP_trailblazer RODIAN_SHIP_pathfinder RODIAN_SHIP_wayfarer RODIAN_SHIP_ambassador RODIAN_SHIP_emissary RODIAN_SHIP_nomad RODIAN_SHIP_pathfinder RODIAN_SHIP_wanderer RODIAN_SHIP_traveler RODIAN_SHIP_itinerant_rex RODIAN_SHIP_homeward_bound RODIAN_SHIP_placefinder RODIAN_SHIP_claimant RODIAN_SHIP_coreward_bound
+		}
+		colonizer = {
+			RODIAN_SHIP_bushranger RODIAN_SHIP_green_seed RODIAN_SHIP_verdant_sprout RODIAN_SHIP_virescent RODIAN_SHIP_stripling RODIAN_SHIP_hatchery RODIAN_SHIP_prayer_of_the_pioneer RODIAN_SHIP_memory_of_rodia RODIAN_SHIP_errand RODIAN_SHIP_betu RODIAN_SHIP_eiska RODIAN_SHIP_enak RODIAN_SHIP_soomana RODIAN_SHIP_yasooska RODIAN_SHIP_an_yettu_vision RODIAN_SHIP_encheekos RODIAN_SHIP_kay_tap RODIAN_SHIP_next_chance RODIAN_SHIP_nova_iskaayuma RODIAN_SHIP_chekkoo_promise RODIAN_SHIP_matza RODIAN_SHIP_samana RODIAN_SHIP_yusk
+		}
+		sponsored_colonizer = {
+			RODIAN_SHIP_bushranger RODIAN_SHIP_green_seed RODIAN_SHIP_verdant_sprout RODIAN_SHIP_virescent RODIAN_SHIP_stripling RODIAN_SHIP_hatchery RODIAN_SHIP_prayer_of_the_pioneer RODIAN_SHIP_memory_of_rodia RODIAN_SHIP_errand RODIAN_SHIP_betu RODIAN_SHIP_eiska RODIAN_SHIP_enak RODIAN_SHIP_soomana RODIAN_SHIP_yasooska RODIAN_SHIP_an_yettu_vision RODIAN_SHIP_encheekos RODIAN_SHIP_kay_tap RODIAN_SHIP_next_chance RODIAN_SHIP_nova_iskaayuma RODIAN_SHIP_chekkoo_promise RODIAN_SHIP_matza RODIAN_SHIP_samana RODIAN_SHIP_yusk
+		}
+		constructor = {
+			RODIAN_SHIP_chattza RODIAN_SHIP_tetsu RODIAN_SHIP_bomu RODIAN_SHIP_adebsu RODIAN_SHIP_an_yettu RODIAN_SHIP_anyyon RODIAN_SHIP_cadevon RODIAN_SHIP_cairn RODIAN_SHIP_chekkoo RODIAN_SHIP_intamm RODIAN_SHIP_kemu RODIAN_SHIP_kenu RODIAN_SHIP_neetakka RODIAN_SHIP_reeven RODIAN_SHIP_roolek RODIAN_SHIP_soammei RODIAN_SHIP_tan_tanwa RODIAN_SHIP_tonera RODIAN_SHIP_yiyar RODIAN_SHIP_equator
+		}
+		transport = {
+			RODIAN_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			RODIAN_SHIP_spacegun_victory RODIAN_SHIP_spacegun_success RODIAN_SHIP_spacegun_supremacy RODIAN_SHIP_spacegun_superior RODIAN_SHIP_spacegun_adventure RODIAN_SHIP_spacegun_ascendancy RODIAN_SHIP_spacegun_paramount RODIAN_SHIP_spacegun_preponderous RODIAN_SHIP_spacegun_exemplary RODIAN_SHIP_spacegun_eximious RODIAN_SHIP_spacegun_pertinacity RODIAN_SHIP_spacegun_acclaim RODIAN_SHIP_spacegun_honor RODIAN_SHIP_spacegun_renown RODIAN_SHIP_spacegun_glory RODIAN_SHIP_spacegun_superb RODIAN_SHIP_spacegun_magnificence RODIAN_SHIP_spacegun_majestic RODIAN_SHIP_spacegun_splendor RODIAN_SHIP_spacegun_paradigm RODIAN_SHIP_spacegun_flawless RODIAN_SHIP_spacegun_consummate RODIAN_SHIP_spacegun_merit RODIAN_SHIP_spacegun_perfection RODIAN_SHIP_spacegun_virtue RODIAN_SHIP_spacegun_advantage RODIAN_SHIP_spacegun_rectitude RODIAN_SHIP_spacegun_incorruptible RODIAN_SHIP_spacegun_integrity RODIAN_SHIP_spacegun_justice RODIAN_SHIP_spacegun_probity RODIAN_SHIP_spacegun_prudence RODIAN_SHIP_spacegun_purity RODIAN_SHIP_spacegun_resolute RODIAN_SHIP_spacegun_dignity RODIAN_SHIP_spacegun_distinction RODIAN_SHIP_spacegun_excellence RODIAN_SHIP_spacegun_faithful RODIAN_SHIP_spacegun_discipline RODIAN_SHIP_spacegun_steadfast RODIAN_SHIP_spacegun_recompense RODIAN_SHIP_spacegun_requiem RODIAN_SHIP_spacegun_courage RODIAN_SHIP_spacegun_valor RODIAN_SHIP_spacegun_gallant RODIAN_SHIP_spacegun_daring RODIAN_SHIP_spacegun_constancy RODIAN_SHIP_spacegun_perseverence RODIAN_SHIP_spacegun_tenacity RODIAN_SHIP_spacegun_sedulity RODIAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			RODIAN_SHIP_spacegun_victory RODIAN_SHIP_spacegun_success RODIAN_SHIP_spacegun_supremacy RODIAN_SHIP_spacegun_superior RODIAN_SHIP_spacegun_adventure RODIAN_SHIP_spacegun_ascendancy RODIAN_SHIP_spacegun_paramount RODIAN_SHIP_spacegun_preponderous RODIAN_SHIP_spacegun_exemplary RODIAN_SHIP_spacegun_eximious RODIAN_SHIP_spacegun_pertinacity RODIAN_SHIP_spacegun_acclaim RODIAN_SHIP_spacegun_honor RODIAN_SHIP_spacegun_renown RODIAN_SHIP_spacegun_glory RODIAN_SHIP_spacegun_superb RODIAN_SHIP_spacegun_magnificence RODIAN_SHIP_spacegun_majestic RODIAN_SHIP_spacegun_splendor RODIAN_SHIP_spacegun_paradigm RODIAN_SHIP_spacegun_flawless RODIAN_SHIP_spacegun_consummate RODIAN_SHIP_spacegun_merit RODIAN_SHIP_spacegun_perfection RODIAN_SHIP_spacegun_virtue RODIAN_SHIP_spacegun_advantage RODIAN_SHIP_spacegun_rectitude RODIAN_SHIP_spacegun_incorruptible RODIAN_SHIP_spacegun_integrity RODIAN_SHIP_spacegun_justice RODIAN_SHIP_spacegun_probity RODIAN_SHIP_spacegun_prudence RODIAN_SHIP_spacegun_purity RODIAN_SHIP_spacegun_resolute RODIAN_SHIP_spacegun_dignity RODIAN_SHIP_spacegun_distinction RODIAN_SHIP_spacegun_excellence RODIAN_SHIP_spacegun_faithful RODIAN_SHIP_spacegun_discipline RODIAN_SHIP_spacegun_steadfast RODIAN_SHIP_spacegun_recompense RODIAN_SHIP_spacegun_requiem RODIAN_SHIP_spacegun_courage RODIAN_SHIP_spacegun_valor RODIAN_SHIP_spacegun_gallant RODIAN_SHIP_spacegun_daring RODIAN_SHIP_spacegun_constancy RODIAN_SHIP_spacegun_perseverence RODIAN_SHIP_spacegun_tenacity RODIAN_SHIP_spacegun_sedulity RODIAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			RODIAN_SHIP_spacegun_victory RODIAN_SHIP_spacegun_success RODIAN_SHIP_spacegun_supremacy RODIAN_SHIP_spacegun_superior RODIAN_SHIP_spacegun_adventure RODIAN_SHIP_spacegun_ascendancy RODIAN_SHIP_spacegun_paramount RODIAN_SHIP_spacegun_preponderous RODIAN_SHIP_spacegun_exemplary RODIAN_SHIP_spacegun_eximious RODIAN_SHIP_spacegun_pertinacity RODIAN_SHIP_spacegun_acclaim RODIAN_SHIP_spacegun_honor RODIAN_SHIP_spacegun_renown RODIAN_SHIP_spacegun_glory RODIAN_SHIP_spacegun_superb RODIAN_SHIP_spacegun_magnificence RODIAN_SHIP_spacegun_majestic RODIAN_SHIP_spacegun_splendor RODIAN_SHIP_spacegun_paradigm RODIAN_SHIP_spacegun_flawless RODIAN_SHIP_spacegun_consummate RODIAN_SHIP_spacegun_merit RODIAN_SHIP_spacegun_perfection RODIAN_SHIP_spacegun_virtue RODIAN_SHIP_spacegun_advantage RODIAN_SHIP_spacegun_rectitude RODIAN_SHIP_spacegun_incorruptible RODIAN_SHIP_spacegun_integrity RODIAN_SHIP_spacegun_justice RODIAN_SHIP_spacegun_probity RODIAN_SHIP_spacegun_prudence RODIAN_SHIP_spacegun_purity RODIAN_SHIP_spacegun_resolute RODIAN_SHIP_spacegun_dignity RODIAN_SHIP_spacegun_distinction RODIAN_SHIP_spacegun_excellence RODIAN_SHIP_spacegun_faithful RODIAN_SHIP_spacegun_discipline RODIAN_SHIP_spacegun_steadfast RODIAN_SHIP_spacegun_recompense RODIAN_SHIP_spacegun_requiem RODIAN_SHIP_spacegun_courage RODIAN_SHIP_spacegun_valor RODIAN_SHIP_spacegun_gallant RODIAN_SHIP_spacegun_daring RODIAN_SHIP_spacegun_constancy RODIAN_SHIP_spacegun_perseverence RODIAN_SHIP_spacegun_tenacity RODIAN_SHIP_spacegun_sedulity RODIAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			RODIAN_SHIP_citadel RODIAN_SHIP_gateway RODIAN_SHIP_chattza RODIAN_SHIP_tetsu RODIAN_SHIP_bomu RODIAN_SHIP_adebsu RODIAN_SHIP_an_yettu RODIAN_SHIP_anyyon RODIAN_SHIP_cadevon RODIAN_SHIP_cairn RODIAN_SHIP_chekkoo RODIAN_SHIP_intamm RODIAN_SHIP_kemu RODIAN_SHIP_kenu RODIAN_SHIP_neetakka RODIAN_SHIP_reeven RODIAN_SHIP_roolek RODIAN_SHIP_soammei RODIAN_SHIP_tan RODIAN_SHIP_tanwa RODIAN_SHIP_tonera
+		}
+		ion_cannon = {
+			RODIAN_SHIP_bombard RODIAN_SHIP_ballista RODIAN_SHIP_catapult RODIAN_SHIP_harpoon RODIAN_SHIP_polybolos RODIAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			RODIAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			RODIAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			RODIAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			RODIAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			RODIAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			RODIAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			RODIAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			RODIAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			RODIAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			RODIAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			RODIAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			RODIAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			RODIAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			RODIAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			RODIAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			RODIAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			RODIAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			RODIAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			RODIAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			RODIAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			RODIAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			RODIAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			RODIAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			RODIAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			RODIAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			RODIAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			RODIAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			RODIAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			RODIAN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			RODIAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			RODIAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			RODIAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			RODIAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			RODIAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			RODIAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			RODIAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			RODIAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			RODIAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			RODIAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			RODIAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			RODIAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			RODIAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			RODIAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			RODIAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			RODIAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			RODIAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			RODIAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			RODIAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			RODIAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			RODIAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			RODIAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			RODIAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			RODIAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			RODIAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			RODIAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			RODIAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			RODIAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			RODIAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			RODIAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			RODIAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			RODIAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			RODIAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			RODIAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			RODIAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			RODIAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			RODIAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			RODIAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			RODIAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			RODIAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			RODIAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			RODIAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			RODIAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			RODIAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			RODIAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			RODIAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			RODIAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			RODIAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			RODIAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			RODIAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			RODIAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			RODIAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			RODIAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			RODIAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			RODIAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			RODIAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			RODIAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			RODIAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			RODIAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			RODIAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			RODIAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			RODIAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			RODIAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			RODIAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			RODIAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		random_names = {
+			RODIAN_FLEET_jade_fleet RODIAN_FLEET_rodian_home_guard RODIAN_FLEET_verdant_armada RODIAN_FLEET_battle_group_green
+		}
+		sequential_name = RODIAN_FLEET_rodian_task_force_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = RODIAN_ARMY_hunter_guard_ORD
+		}
+		assault_army = {
+			sequential_name = RODIAN_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = RODIAN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = RODIAN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = RODIAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = RODIAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = RODIAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = RODIAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				RODIAN_ARMY_sarc_a__gladiators_ RODIAN_ARMY_sarc_b__widowmakers_ RODIAN_ARMY_sarc_c__immortals_ RODIAN_ARMY_sarc_d__berserkers_ RODIAN_ARMY_sarc_e__assassins_ RODIAN_ARMY_sarc_f__reapers_ RODIAN_ARMY_sarc_g__nighthawks_ RODIAN_ARMY_sarc_h__desperados_ RODIAN_ARMY_sarc_i__grey_knights_ RODIAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = RODIAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = RODIAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = RODIAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = RODIAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = RODIAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = RODIAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = RODIAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = RODIAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = RODIAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = RODIAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = RODIAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = RODIAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = RODIAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = RODIAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = RODIAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = RODIAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = RODIAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = RODIAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = RODIAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = RODIAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = RODIAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = RODIAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = RODIAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = RODIAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = RODIAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = RODIAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = RODIAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = RODIAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = RODIAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = RODIAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = RODIAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = RODIAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = RODIAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = RODIAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = RODIAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = RODIAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = RODIAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = RODIAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = RODIAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = RODIAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = RODIAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = RODIAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = RODIAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = RODIAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = RODIAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = RODIAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = RODIAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = RODIAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = RODIAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = RODIAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = RODIAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = RODIAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = RODIAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = RODIAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = RODIAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = RODIAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = RODIAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = RODIAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = RODIAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = RODIAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = RODIAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = RODIAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = RODIAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = RODIAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = RODIAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = RODIAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = RODIAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = RODIAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = RODIAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = RODIAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = RODIAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = RODIAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = RODIAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = RODIAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = RODIAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = RODIAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = RODIAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = RODIAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = RODIAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = RODIAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = RODIAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = RODIAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = RODIAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = RODIAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = RODIAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = RODIAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = RODIAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = RODIAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = RODIAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = RODIAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = RODIAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = RODIAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = RODIAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = RODIAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = RODIAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = RODIAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = RODIAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = RODIAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = RODIAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = RODIAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = RODIAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = RODIAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = RODIAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = RODIAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = RODIAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = RODIAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = RODIAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = RODIAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = RODIAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = RODIAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = RODIAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = RODIAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = RODIAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = RODIAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = RODIAN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = RODIAN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = RODIAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = RODIAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = RODIAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = RODIAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = RODIAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = RODIAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = RODIAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = RODIAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = RODIAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = RODIAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = RODIAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = RODIAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = RODIAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = RODIAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = RODIAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = RODIAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = RODIAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				RODIAN_CHR_navik RODIAN_CHR_nok RODIAN_CHR_teeku RODIAN_CHR_greedo RODIAN_CHR_pqweeduk RODIAN_CHR_avaro RODIAN_CHR_boiny RODIAN_CHR_capo RODIAN_CHR_cevva RODIAN_CHR_clezo RODIAN_CHR_dardo RODIAN_CHR_doda RODIAN_CHR_farr RODIAN_CHR_geelo RODIAN_CHR_grappa RODIAN_CHR_harido RODIAN_CHR_honka RODIAN_CHR_jannik RODIAN_CHR_kavilo RODIAN_CHR_kelbis RODIAN_CHR_kelko RODIAN_CHR_koobis RODIAN_CHR_leenik RODIAN_CHR_lido RODIAN_CHR_maris RODIAN_CHR_mufrenes RODIAN_CHR_nardi RODIAN_CHR_narik RODIAN_CHR_onaconda RODIAN_CHR_prevaro RODIAN_CHR_rohan RODIAN_CHR_ropal RODIAN_CHR_shodu RODIAN_CHR_skee_skee RODIAN_CHR_sookcool RODIAN_CHR_standro RODIAN_CHR_teeku RODIAN_CHR_teerik RODIAN_CHR_thuku RODIAN_CHR_tox RODIAN_CHR_vinto RODIAN_CHR_vuko RODIAN_CHR_wald_xuz RODIAN_CHR_kyra RODIAN_CHR_aald RODIAN_CHR_althin RODIAN_CHR_tok RODIAN_CHR_zef RODIAN_CHR_angaar RODIAN_CHR_toll RODIAN_CHR_apoto RODIAN_CHR_hako RODIAN_CHR_b_ree RODIAN_CHR_civian RODIAN_CHR_civius RODIAN_CHR_reelo RODIAN_CHR_lekk RODIAN_CHR_beebo RODIAN_CHR_beedo RODIAN_CHR_beena RODIAN_CHR_beidlo RODIAN_CHR_biko RODIAN_CHR_toleen RODIAN_CHR_boorm RODIAN_CHR_voydd RODIAN_CHR_condoo RODIAN_CHR_lidan RODIAN_CHR_bludlow RODIAN_CHR_doda RODIAN_CHR_bohmer RODIAN_CHR_bolto RODIAN_CHR_gespo RODIAN_CHR_heedron RODIAN_CHR_ormann RODIAN_CHR_pax RODIAN_CHR_trax RODIAN_CHR_narnee RODIAN_CHR_seedar RODIAN_CHR_bonda RODIAN_CHR_hishinu RODIAN_CHR_breedo RODIAN_CHR_brelshen RODIAN_CHR_siega RODIAN_CHR_wac_bur RODIAN_CHR_boorgo RODIAN_CHR_duurgo RODIAN_CHR_deebo RODIAN_CHR_toluz RODIAN_CHR_chiiv RODIAN_CHR_chigo RODIAN_CHR_chihdo RODIAN_CHR_chordak RODIAN_CHR_chorh_dha RODIAN_CHR_creeska RODIAN_CHR_flestic RODIAN_CHR_coorsha RODIAN_CHR_dardo RODIAN_CHR_lernik RODIAN_CHR_deedoh RODIAN_CHR_deelguh RODIAN_CHR_dejarro RODIAN_CHR_chooru RODIAN_CHR_dellko RODIAN_CHR_delo RODIAN_CHR_denma RODIAN_CHR_dheendo RODIAN_CHR_dindoo RODIAN_CHR_doba RODIAN_CHR_tox_don RODIAN_CHR_doogo RODIAN_CHR_dorzo RODIAN_CHR_jovan RODIAN_CHR_fosin RODIAN_CHR_drokka RODIAN_CHR_dwesso RODIAN_CHR_esdo RODIAN_CHR_eshon RODIAN_CHR_evo RODIAN_CHR_faddo RODIAN_CHR_falloon RODIAN_CHR_needo RODIAN_CHR_zeelo RODIAN_CHR_traa RODIAN_CHR_feeven RODIAN_CHR_corkash RODIAN_CHR_slerog RODIAN_CHR_fondo RODIAN_CHR_frandu RODIAN_CHR_igbi RODIAN_CHR_frelka RODIAN_CHR_fretch RODIAN_CHR_har RODIAN_CHR_gadaf RODIAN_CHR_fizz RODIAN_CHR_vreebo RODIAN_CHR_kood RODIAN_CHR_vistis RODIAN_CHR_garoush RODIAN_CHR_jabdo RODIAN_CHR_geffa RODIAN_CHR_maris RODIAN_CHR_geri RODIAN_CHR_geska RODIAN_CHR_glarret RODIAN_CHR_glem RODIAN_CHR_gluupor RODIAN_CHR_sordu RODIAN_CHR_gomalo RODIAN_CHR_pall RODIAN_CHR_gorro RODIAN_CHR_govenni RODIAN_CHR_gredori RODIAN_CHR_grenzo RODIAN_CHR_greer RODIAN_CHR_grudo RODIAN_CHR_malva RODIAN_CHR_greepo RODIAN_CHR_gurun RODIAN_CHR_gweeska RODIAN_CHR_jopari RODIAN_CHR_harno RODIAN_CHR_hatabbas RODIAN_CHR_hirrtu RODIAN_CHR_greeta RODIAN_CHR_honwoo RODIAN_CHR_hoonta RODIAN_CHR_vinto RODIAN_CHR_hulas RODIAN_CHR_huruni RODIAN_CHR_huulik RODIAN_CHR_inntak RODIAN_CHR_jakoli RODIAN_CHR_soobu RODIAN_CHR_javeezo RODIAN_CHR_standro RODIAN_CHR_jhian RODIAN_CHR_jiree RODIAN_CHR_hiksri RODIAN_CHR_jombo RODIAN_CHR_jora RODIAN_CHR_jurithus RODIAN_CHR_kaddit RODIAN_CHR_kappo RODIAN_CHR_keevo RODIAN_CHR_kelko RODIAN_CHR_kelsek RODIAN_CHR_lurze RODIAN_CHR_rel RODIAN_CHR_gorak RODIAN_CHR_kletoo RODIAN_CHR_koobis RODIAN_CHR_kweeta RODIAN_CHR_ortha RODIAN_CHR_lotas RODIAN_CHR_luco RODIAN_CHR_veeboo RODIAN_CHR_luugro RODIAN_CHR_malkoi RODIAN_CHR_wuuden RODIAN_CHR_swaja RODIAN_CHR_maseloo RODIAN_CHR_critolus RODIAN_CHR_matu RODIAN_CHR_meebo RODIAN_CHR_menndo RODIAN_CHR_morgoto RODIAN_CHR_lido RODIAN_CHR_jeepfal RODIAN_CHR_neelda RODIAN_CHR_neesh RODIAN_CHR_vees RODIAN_CHR_nikolo RODIAN_CHR_nio RODIAN_CHR_nodobo RODIAN_CHR_opato RODIAN_CHR_opdoa RODIAN_CHR_pardo RODIAN_CHR_pellko RODIAN_CHR_safonni RODIAN_CHR_phindo RODIAN_CHR_fondo RODIAN_CHR_puchek RODIAN_CHR_quano RODIAN_CHR_quakkee RODIAN_CHR_jaaxine RODIAN_CHR_gwad RODIAN_CHR_jaardu RODIAN_CHR_valry RODIAN_CHR_ubis RODIAN_CHR_beata RODIAN_CHR_reeveid RODIAN_CHR_reezo RODIAN_CHR_revidjasa RODIAN_CHR_roovo RODIAN_CHR_bolla RODIAN_CHR_noota RODIAN_CHR_rulo RODIAN_CHR_sando RODIAN_CHR_chillo RODIAN_CHR_sasso RODIAN_CHR_seego RODIAN_CHR_toile RODIAN_CHR_veem RODIAN_CHR_shafu RODIAN_CHR_teeko RODIAN_CHR_yau RODIAN_CHR_teeko RODIAN_CHR_auaro RODIAN_CHR_slotho RODIAN_CHR_skodo RODIAN_CHR_silood RODIAN_CHR_shinqo RODIAN_CHR_treemo RODIAN_CHR_tseebo RODIAN_CHR_tsoklo RODIAN_CHR_tulagn RODIAN_CHR_twoolo RODIAN_CHR_gabo RODIAN_CHR_suvam RODIAN_CHR_tazzik RODIAN_CHR_teeko RODIAN_CHR_teeku RODIAN_CHR_teekwo RODIAN_CHR_teeloo RODIAN_CHR_teerik RODIAN_CHR_teeso RODIAN_CHR_teezyk RODIAN_CHR_thugo RODIAN_CHR_thuku RODIAN_CHR_tolga RODIAN_CHR_skoo RODIAN_CHR_krezo RODIAN_CHR_dar RODIAN_CHR_vreego RODIAN_CHR_vosso RODIAN_CHR_vinto RODIAN_CHR_yat_de RODIAN_CHR_tsuulo RODIAN_CHR_tyss RODIAN_CHR_tyxx RODIAN_CHR_moogo RODIAN_CHR_vatoono RODIAN_CHR_veerdo RODIAN_CHR_veedo RODIAN_CHR_vealo
+			}
+			first_names_female = {
+				RODIAN_CHR_neela RODIAN_CHR_greeata RODIAN_CHR_hreeda RODIAN_CHR_lolo RODIAN_CHR_steya RODIAN_CHR_cyll RODIAN_CHR_beisa RODIAN_CHR_besha RODIAN_CHR_laneet RODIAN_CHR_chussido RODIAN_CHR_pa_dua RODIAN_CHR_mahtee RODIAN_CHR_fask_eelak RODIAN_CHR_eesmu RODIAN_CHR_barma RODIAN_CHR_onna RODIAN_CHR_frelka RODIAN_CHR_ganodi RODIAN_CHR_geeda RODIAN_CHR_feena RODIAN_CHR_beekly RODIAN_CHR_mikdanyell RODIAN_CHR_greeta RODIAN_CHR_h_rinnrada RODIAN_CHR_hedu RODIAN_CHR_hopeata RODIAN_CHR_andoorni RODIAN_CHR_jeeta RODIAN_CHR_keesha RODIAN_CHR_kiimo RODIAN_CHR_ruku RODIAN_CHR_saras RODIAN_CHR_torani RODIAN_CHR_luunti RODIAN_CHR_demaia RODIAN_CHR_meeba RODIAN_CHR_meelo RODIAN_CHR_otol RODIAN_CHR_neela RODIAN_CHR_nesha RODIAN_CHR_jaylla RODIAN_CHR_vosdia RODIAN_CHR_norta RODIAN_CHR_koobis RODIAN_CHR_otee RODIAN_CHR_tezli RODIAN_CHR_liinu RODIAN_CHR_yan RODIAN_CHR_yalka RODIAN_CHR_pon RODIAN_CHR_renna RODIAN_CHR_beata RODIAN_CHR_ralia RODIAN_CHR_roweedu RODIAN_CHR_borra RODIAN_CHR_shinba RODIAN_CHR_steya RODIAN_CHR_nardi RODIAN_CHR_suz RODIAN_CHR_terya RODIAN_CHR_theenu RODIAN_CHR_chokoo RODIAN_CHR_threnda RODIAN_CHR_loa RODIAN_CHR_tweeta RODIAN_CHR_neeka RODIAN_CHR_zayda RODIAN_CHR_zeeba RODIAN_CHR_dree RODIAN_CHR_tradu RODIAN_CHR_vralla RODIAN_CHR_xeelksido
+			}
+			second_names = {
+				RODIAN_CHR_chattza RODIAN_CHR_tetsu RODIAN_CHR_bomu RODIAN_CHR_adebsu RODIAN_CHR_an_yettu RODIAN_CHR_anyyon RODIAN_CHR_cadevon RODIAN_CHR_cairn RODIAN_CHR_chekkoo RODIAN_CHR_intamm RODIAN_CHR_kemu RODIAN_CHR_kenu RODIAN_CHR_neetakka RODIAN_CHR_reeven RODIAN_CHR_roolek RODIAN_CHR_soammei RODIAN_CHR_tan RODIAN_CHR_tanwa RODIAN_CHR_tonera RODIAN_CHR_yiyar RODIAN_CHR__naa RODIAN_CHR_ando RODIAN_CHR_annora RODIAN_CHR_apkar RODIAN_CHR_armado RODIAN_CHR_bain RODIAN_CHR_baruk RODIAN_CHR_vano RODIAN_CHR_bazak RODIAN_CHR_bisma RODIAN_CHR_biveedo RODIAN_CHR_blancken RODIAN_CHR_blathos RODIAN_CHR_bleeker RODIAN_CHR_bodonawieedo RODIAN_CHR_bonu RODIAN_CHR_booj RODIAN_CHR_broos RODIAN_CHR_cadevon RODIAN_CHR_cheq RODIAN_CHR_crupp RODIAN_CHR_dazhda RODIAN_CHR_de_yago RODIAN_CHR_delb RODIAN_CHR_drark RODIAN_CHR_dreed RODIAN_CHR_dunn RODIAN_CHR_farr RODIAN_CHR_fas RODIAN_CHR_fazon RODIAN_CHR_feaan RODIAN_CHR_fel_lona RODIAN_CHR_fenc RODIAN_CHR_fenn RODIAN_CHR_ferran RODIAN_CHR_freemo RODIAN_CHR_fuggaw RODIAN_CHR_galko RODIAN_CHR_gango RODIAN_CHR_gareeda RODIAN_CHR_garn RODIAN_CHR_garrink RODIAN_CHR_geelo RODIAN_CHR_gelens RODIAN_CHR_gen RODIAN_CHR_gesse RODIAN_CHR_ghel RODIAN_CHR_gogg RODIAN_CHR_gopal RODIAN_CHR_groth RODIAN_CHR_the_elder RODIAN_CHR_the_younger RODIAN_CHR_gue RODIAN_CHR_greeku RODIAN_CHR_haines RODIAN_CHR_holda RODIAN_CHR_horvat RODIAN_CHR_hreeda RODIAN_CHR_hul RODIAN_CHR_hune RODIAN_CHR_hydan RODIAN_CHR_javeedo RODIAN_CHR_jcir RODIAN_CHR_jith RODIAN_CHR_kavila RODIAN_CHR_kebbo RODIAN_CHR_keedo RODIAN_CHR_keemos RODIAN_CHR_kesh RODIAN_CHR_keteris RODIAN_CHR_khzam RODIAN_CHR_klimo RODIAN_CHR_kooff RODIAN_CHR_kreezo RODIAN_CHR_krenin RODIAN_CHR_kulda RODIAN_CHR_leebo RODIAN_CHR_lenitor RODIAN_CHR_leuro_khian RODIAN_CHR_lang RODIAN_CHR_lunx RODIAN_CHR_malnic RODIAN_CHR_malon RODIAN_CHR_maru RODIAN_CHR_masse RODIAN_CHR_minst RODIAN_CHR_mufrenes RODIAN_CHR_nereno RODIAN_CHR_nal RODIAN_CHR_nareedo RODIAN_CHR_neihero RODIAN_CHR_nerich RODIAN_CHR_netakka RODIAN_CHR_noh RODIAN_CHR_nooma RODIAN_CHR_nu RODIAN_CHR_nom RODIAN_CHR_odo RODIAN_CHR_oran RODIAN_CHR_paemos RODIAN_CHR_pajiic RODIAN_CHR_pendon RODIAN_CHR_pengu RODIAN_CHR_purs RODIAN_CHR_r_nar RODIAN_CHR_raatu RODIAN_CHR_raxx RODIAN_CHR_ralos_vok RODIAN_CHR_reendorr RODIAN_CHR_reesh RODIAN_CHR_reeven RODIAN_CHR_ropal RODIAN_CHR_savroon RODIAN_CHR_setas RODIAN_CHR_sweevas RODIAN_CHR_sanpoa RODIAN_CHR_senn RODIAN_CHR_setas RODIAN_CHR_swanno RODIAN_CHR_soonca RODIAN_CHR_sookcool RODIAN_CHR_shodu RODIAN_CHR_sweevas RODIAN_CHR_totryl RODIAN_CHR_tychee RODIAN_CHR_tan RODIAN_CHR_tanwa RODIAN_CHR_thool RODIAN_CHR_tibeeme RODIAN_CHR_ulur_weebe RODIAN_CHR_skez RODIAN_CHR_veerone RODIAN_CHR_weeyo RODIAN_CHR_wieedo RODIAN_CHR_yesosko RODIAN_CHR_yipour RODIAN_CHR_yutsen RODIAN_CHR_z_all RODIAN_CHR_zeelesi RODIAN_CHR_skez RODIAN_CHR_vandap RODIAN_CHR_vaocan RODIAN_CHR_chuko RODIAN_CHR_vletho RODIAN_CHR_vola RODIAN_CHR_wac RODIAN_CHR_wasanti RODIAN_CHR_weebe
+			}
+			regnal_first_names_male = {
+				RODIAN_CHR_navik RODIAN_CHR_reelo RODIAN_CHR_skee_skee RODIAN_CHR_biko RODIAN_CHR_doda RODIAN_CHR_gespo RODIAN_CHR_bonda RODIAN_CHR_hishnu RODIAN_CHR_breedo RODIAN_CHR_siega RODIAN_CHR_burbu RODIAN_CHR_boorgo RODIAN_CHR_duurgo RODIAN_CHR_deebo RODIAN_CHR_toluz RODIAN_CHR_chiiv RODIAN_CHR_chigo RODIAN_CHR_chihdo RODIAN_CHR_chordak RODIAN_CHR_clezo RODIAN_CHR_creeska RODIAN_CHR_deedoh RODIAN_CHR_dheendo RODIAN_CHR_dindoo RODIAN_CHR_esdo RODIAN_CHR_evo RODIAN_CHR_faddo RODIAN_CHR_falloon RODIAN_CHR_needo RODIAN_CHR_zeelo RODIAN_CHR_vreebo RODIAN_CHR_jabdo RODIAN_CHR_gluupor RODIAN_CHR_greepo RODIAN_CHR_gurun RODIAN_CHR_gweeska RODIAN_CHR_vinto RODIAN_CHR_hulas RODIAN_CHR_jakoli RODIAN_CHR_jendowanian RODIAN_CHR_soobu RODIAN_CHR_javeezo RODIAN_CHR_kleeto RODIAN_CHR_veeboo RODIAN_CHR_maseloo RODIAN_CHR_matu RODIAN_CHR_meebo RODIAN_CHR_menndo RODIAN_CHR_lido RODIAN_CHR_neelda RODIAN_CHR_neesh RODIAN_CHR_vees RODIAN_CHR_opato RODIAN_CHR_phindo RODIAN_CHR_fondo RODIAN_CHR_quano RODIAN_CHR_jaardu RODIAN_CHR_beata RODIAN_CHR_reezo RODIAN_CHR_roovo RODIAN_CHR_bolla RODIAN_CHR_rulo RODIAN_CHR_sando RODIAN_CHR_sasso RODIAN_CHR_veemo RODIAN_CHR_teeko RODIAN_CHR_veedo RODIAN_CHR_vealo RODIAN_CHR_kreezo RODIAN_CHR_skoo RODIAN_CHR_slotho RODIAN_CHR_skodo RODIAN_CHR_teeko RODIAN_CHR_teeku RODIAN_CHR_teeloo
+			}
+			regnal_first_names_female = {
+				RODIAN_CHR_neela RODIAN_CHR_greeata RODIAN_CHR_hreeda RODIAN_CHR_lolo RODIAN_CHR_beisa RODIAN_CHR_laneet RODIAN_CHR_chussido RODIAN_CHR_pa_dua RODIAN_CHR_mahtee RODIAN_CHR_eesmu RODIAN_CHR_ganodi RODIAN_CHR_geeda RODIAN_CHR_feena RODIAN_CHR_beekly RODIAN_CHR_mikdanyell RODIAN_CHR_h_rinnrada RODIAN_CHR_hedu RODIAN_CHR_hopeata RODIAN_CHR_andoorni RODIAN_CHR_greeta RODIAN_CHR_jeeta RODIAN_CHR_keesha RODIAN_CHR_kiimo RODIAN_CHR_toran RODIAN_CHR_luunti RODIAN_CHR_meeba RODIAN_CHR_meelo RODIAN_CHR_neela RODIAN_CHR_nesha RODIAN_CHR_jaylla RODIAN_CHR_otee RODIAN_CHR_tezli RODIAN_CHR_liinu RODIAN_CHR_yan RODIAN_CHR_yalka RODIAN_CHR_pon RODIAN_CHR_beata RODIAN_CHR_roweedu RODIAN_CHR_borra RODIAN_CHR_shinba RODIAN_CHR_steya RODIAN_CHR_soonta
+			}
+			regnal_second_names = {
+				RODIAN_CHR_chattza RODIAN_CHR_tetsu RODIAN_CHR_bomu RODIAN_CHR_adebsu RODIAN_CHR_an_yettu RODIAN_CHR_anyyon RODIAN_CHR_cadevon RODIAN_CHR_cairn RODIAN_CHR_chekkoo RODIAN_CHR_intamm RODIAN_CHR_kemu RODIAN_CHR_kenu RODIAN_CHR_neetakka RODIAN_CHR_reeven RODIAN_CHR_roolek RODIAN_CHR_soammei RODIAN_CHR_tan RODIAN_CHR_tanwa RODIAN_CHR_tonera RODIAN_CHR_yiyar RODIAN_CHR_ulur RODIAN_CHR_baruk RODIAN_CHR_chak RODIAN_CHR_the_elder RODIAN_CHR_hreeda RODIAN_CHR_the_younger RODIAN_CHR_pengu RODIAN_CHR_ropal
+			}
+		}
+	}
+}

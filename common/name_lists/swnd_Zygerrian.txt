@@ -1,0 +1,844 @@
+﻿Zygerrian = {
+	randomized = no
+	ship_names = {
+		generic = {
+			ZYGERRIAN_SHIP_false_manumission ZYGERRIAN_SHIP_thralltaker ZYGERRIAN_SHIP_widowmaker ZYGERRIAN_SHIP_helot_s_brand ZYGERRIAN_SHIP_branding_iron ZYGERRIAN_SHIP_abductor ZYGERRIAN_SHIP_kidnapper ZYGERRIAN_SHIP_ransom ZYGERRIAN_SHIP_skinner ZYGERRIAN_SHIP_separator ZYGERRIAN_SHIP_auctioneer ZYGERRIAN_SHIP_first_pick ZYGERRIAN_SHIP_whelper ZYGERRIAN_SHIP_subjugator ZYGERRIAN_SHIP_name_giver ZYGERRIAN_SHIP_whipping_post ZYGERRIAN_SHIP_serf_watcher ZYGERRIAN_SHIP_back_striper ZYGERRIAN_SHIP_slave_catcher ZYGERRIAN_SHIP_enslaver ZYGERRIAN_SHIP_slavemaker ZYGERRIAN_SHIP_overseer ZYGERRIAN_SHIP_mongrel_s_lash ZYGERRIAN_SHIP_lashbearer ZYGERRIAN_SHIP_scarlet_scourge ZYGERRIAN_SHIP_flagellant ZYGERRIAN_SHIP_strapper ZYGERRIAN_SHIP_bloody_ruin ZYGERRIAN_SHIP_only_choice ZYGERRIAN_SHIP_scourge_queen ZYGERRIAN_SHIP_ninth_tail ZYGERRIAN_SHIP_dominator ZYGERRIAN_SHIP_taskmaster ZYGERRIAN_SHIP_taskmistress ZYGERRIAN_SHIP_disciplinarian ZYGERRIAN_SHIP_discipliner ZYGERRIAN_SHIP_stickler ZYGERRIAN_SHIP_wind_of_zygerria ZYGERRIAN_SHIP_red_hand ZYGERRIAN_SHIP_brander ZYGERRIAN_SHIP_chattel_watcher ZYGERRIAN_SHIP_disenfranchiser ZYGERRIAN_SHIP_hierarch ZYGERRIAN_SHIP_middle_passage ZYGERRIAN_SHIP_oppressor ZYGERRIAN_SHIP_segregator ZYGERRIAN_SHIP_subordinator ZYGERRIAN_SHIP_voyager ZYGERRIAN_SHIP_zong ZYGERRIAN_SHIP_flayer ZYGERRIAN_SHIP_excoriator ZYGERRIAN_SHIP_terrorizer ZYGERRIAN_SHIP_choiceless ZYGERRIAN_SHIP_hopeless ZYGERRIAN_SHIP_taker ZYGERRIAN_SHIP_zygerria_s_due ZYGERRIAN_SHIP_mantracker ZYGERRIAN_SHIP_dominant ZYGERRIAN_SHIP_alpha ZYGERRIAN_SHIP_silverback ZYGERRIAN_SHIP_snatcher ZYGERRIAN_SHIP_pound_of_flesh ZYGERRIAN_SHIP_undertaker ZYGERRIAN_SHIP_grave_warden ZYGERRIAN_SHIP_chain_maker ZYGERRIAN_SHIP_shackler ZYGERRIAN_SHIP_gouger ZYGERRIAN_SHIP_pursuer ZYGERRIAN_SHIP_gaoler ZYGERRIAN_SHIP_stalker ZYGERRIAN_SHIP_trapper ZYGERRIAN_SHIP_huntsman ZYGERRIAN_SHIP_chaser ZYGERRIAN_SHIP_flusher ZYGERRIAN_SHIP_hunter ZYGERRIAN_SHIP_hounding_one ZYGERRIAN_SHIP_broodmare ZYGERRIAN_SHIP_leash_holder ZYGERRIAN_SHIP_lasher ZYGERRIAN_SHIP_collared_king ZYGERRIAN_SHIP_slavekin ZYGERRIAN_SHIP_painful_lesson ZYGERRIAN_SHIP_restrainer ZYGERRIAN_SHIP_controller ZYGERRIAN_SHIP_chain_of_algernon ZYGERRIAN_SHIP_roper ZYGERRIAN_SHIP_suppressor ZYGERRIAN_SHIP_hamperer ZYGERRIAN_SHIP_thunder_kit ZYGERRIAN_SHIP_powerless ZYGERRIAN_SHIP_weeper ZYGERRIAN_SHIP_screamer ZYGERRIAN_SHIP_wicked ZYGERRIAN_SHIP_malignant ZYGERRIAN_SHIP_natural_order ZYGERRIAN_SHIP_ruiner ZYGERRIAN_SHIP_damane ZYGERRIAN_SHIP_salt_wife ZYGERRIAN_SHIP_taken ZYGERRIAN_SHIP_downfall ZYGERRIAN_SHIP_fallen_one ZYGERRIAN_SHIP_tear_drop ZYGERRIAN_SHIP_slave_hewer ZYGERRIAN_SHIP_belt_hand ZYGERRIAN_SHIP_master ZYGERRIAN_SHIP_flogger ZYGERRIAN_SHIP_hide_tanner ZYGERRIAN_SHIP_thrasher ZYGERRIAN_SHIP_cancer ZYGERRIAN_SHIP_mortuary ZYGERRIAN_SHIP_morbid ZYGERRIAN_SHIP_sadist ZYGERRIAN_SHIP_owner ZYGERRIAN_SHIP_locust ZYGERRIAN_SHIP_pillager ZYGERRIAN_SHIP_lady_of_raids ZYGERRIAN_SHIP_barbarous ZYGERRIAN_SHIP_corsair ZYGERRIAN_SHIP_brass_bull ZYGERRIAN_SHIP_victimizer ZYGERRIAN_SHIP_suffocant ZYGERRIAN_SHIP_repellant ZYGERRIAN_SHIP_second_cull ZYGERRIAN_SHIP_brezak ZYGERRIAN_SHIP_doom_of_guandura ZYGERRIAN_SHIP_occupier ZYGERRIAN_SHIP_harasser ZYGERRIAN_SHIP_tormentor ZYGERRIAN_SHIP_persecutor ZYGERRIAN_SHIP_cruel_fate ZYGERRIAN_SHIP_tracker ZYGERRIAN_SHIP_ruin_of_ryloth ZYGERRIAN_SHIP_binding_light ZYGERRIAN_SHIP_manhunt ZYGERRIAN_SHIP_inflicter ZYGERRIAN_SHIP_nemesis ZYGERRIAN_SHIP_abuser ZYGERRIAN_SHIP_grappler ZYGERRIAN_SHIP_bondage ZYGERRIAN_SHIP_inescapable ZYGERRIAN_SHIP_imminent ZYGERRIAN_SHIP_compeller ZYGERRIAN_SHIP_compulsory ZYGERRIAN_SHIP_foregone ZYGERRIAN_SHIP_menace ZYGERRIAN_SHIP_splinterer ZYGERRIAN_SHIP_outfoxed ZYGERRIAN_SHIP_molec ZYGERRIAN_SHIP_scintel ZYGERRIAN_SHIP_gemen ZYGERRIAN_SHIP_faith_of_d_nar ZYGERRIAN_SHIP_m_rch_s_targe ZYGERRIAN_SHIP_thanda ZYGERRIAN_SHIP_scourge ZYGERRIAN_SHIP_listehol ZYGERRIAN_SHIP_armin ZYGERRIAN_SHIP_pr_ollerg ZYGERRIAN_SHIP_tynemark ZYGERRIAN_SHIP_tecora ZYGERRIAN_SHIP_lek_snapper ZYGERRIAN_SHIP_cannibal ZYGERRIAN_SHIP_apex ZYGERRIAN_SHIP_pinnacle ZYGERRIAN_SHIP_dominant ZYGERRIAN_SHIP_undisputed ZYGERRIAN_SHIP_fleshmonger ZYGERRIAN_SHIP_hand_taker ZYGERRIAN_SHIP_servus_custode ZYGERRIAN_SHIP_desolator ZYGERRIAN_SHIP_decimator ZYGERRIAN_SHIP_punishment ZYGERRIAN_SHIP_punisher ZYGERRIAN_SHIP_collective_punishment ZYGERRIAN_SHIP_torturer ZYGERRIAN_SHIP_bondmaker ZYGERRIAN_SHIP_longfang ZYGERRIAN_SHIP_howler ZYGERRIAN_SHIP_yowler ZYGERRIAN_SHIP_burdener ZYGERRIAN_SHIP_possessor ZYGERRIAN_SHIP_retribution ZYGERRIAN_SHIP_discipliner ZYGERRIAN_SHIP_harsh_truth ZYGERRIAN_SHIP_first_warning ZYGERRIAN_SHIP_reaver ZYGERRIAN_SHIP_marauder ZYGERRIAN_SHIP_void_wolf ZYGERRIAN_SHIP_void_rat ZYGERRIAN_SHIP_plunderer ZYGERRIAN_SHIP_quarterer ZYGERRIAN_SHIP_gallows ZYGERRIAN_SHIP_antagonizer ZYGERRIAN_SHIP_encager ZYGERRIAN_SHIP_fated_cage ZYGERRIAN_SHIP_iron_cell ZYGERRIAN_SHIP_cagebringer ZYGERRIAN_SHIP_confinement ZYGERRIAN_SHIP_imprisoner ZYGERRIAN_SHIP_mourner ZYGERRIAN_SHIP_violator ZYGERRIAN_SHIP_detainer ZYGERRIAN_SHIP_exploiter ZYGERRIAN_SHIP_poacher ZYGERRIAN_SHIP_handler ZYGERRIAN_SHIP_constrainer ZYGERRIAN_SHIP_constrictor ZYGERRIAN_SHIP_strangler ZYGERRIAN_SHIP_iron_bridle ZYGERRIAN_SHIP_arago ZYGERRIAN_SHIP_rabid
+		}
+		swp_subjugator = {
+			ZYGERRIAN_SHIP_helot_s_brand ZYGERRIAN_SHIP_thralltaker
+		}
+		science = {
+			ZYGERRIAN_SHIP_crescent ZYGERRIAN_SHIP_diligent ZYGERRIAN_SHIP_zephyr ZYGERRIAN_SHIP_enigma ZYGERRIAN_SHIP_enquirer ZYGERRIAN_SHIP_scylla ZYGERRIAN_SHIP_arbiter ZYGERRIAN_SHIP_asperity ZYGERRIAN_SHIP_eminence ZYGERRIAN_SHIP_astute ZYGERRIAN_SHIP_alacrity ZYGERRIAN_SHIP_satyr ZYGERRIAN_SHIP_prospero ZYGERRIAN_SHIP_untiring ZYGERRIAN_SHIP_zenith ZYGERRIAN_SHIP_torch ZYGERRIAN_SHIP_remembrance ZYGERRIAN_SHIP_pilgrim ZYGERRIAN_SHIP_trailblazer ZYGERRIAN_SHIP_vagabond ZYGERRIAN_SHIP_wayfarer ZYGERRIAN_SHIP_ambassador ZYGERRIAN_SHIP_emissary ZYGERRIAN_SHIP_nomad ZYGERRIAN_SHIP_pathfinder ZYGERRIAN_SHIP_wanderer ZYGERRIAN_SHIP_traveler
+		}
+		colonizer = {
+			ZYGERRIAN_SHIP_godspeed ZYGERRIAN_SHIP_prophecy ZYGERRIAN_SHIP_manifest_destiny ZYGERRIAN_SHIP_virtue ZYGERRIAN_SHIP_potential ZYGERRIAN_SHIP_expansion ZYGERRIAN_SHIP_queenly_spirit ZYGERRIAN_SHIP_prosperity ZYGERRIAN_SHIP_summit ZYGERRIAN_SHIP_pinnacle ZYGERRIAN_SHIP_seeder ZYGERRIAN_SHIP_harvest ZYGERRIAN_SHIP_creator ZYGERRIAN_SHIP_beholder ZYGERRIAN_SHIP_exodus ZYGERRIAN_SHIP_foundation ZYGERRIAN_SHIP_scion ZYGERRIAN_SHIP_progeny ZYGERRIAN_SHIP_obligation ZYGERRIAN_SHIP_purpose ZYGERRIAN_SHIP_provider ZYGERRIAN_SHIP_shining_city ZYGERRIAN_SHIP_acquirer ZYGERRIAN_SHIP_cultivator ZYGERRIAN_SHIP_dawn_of_civilization ZYGERRIAN_SHIP_purity ZYGERRIAN_SHIP_community ZYGERRIAN_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			ZYGERRIAN_SHIP_godspeed ZYGERRIAN_SHIP_prophecy ZYGERRIAN_SHIP_manifest_destiny ZYGERRIAN_SHIP_virtue ZYGERRIAN_SHIP_potential ZYGERRIAN_SHIP_expansion ZYGERRIAN_SHIP_pioneer_spirit ZYGERRIAN_SHIP_prosperity ZYGERRIAN_SHIP_summit ZYGERRIAN_SHIP_pinnacle ZYGERRIAN_SHIP_seeder ZYGERRIAN_SHIP_harvest ZYGERRIAN_SHIP_creator ZYGERRIAN_SHIP_beholder ZYGERRIAN_SHIP_exodus ZYGERRIAN_SHIP_foundation ZYGERRIAN_SHIP_scion ZYGERRIAN_SHIP_progeny ZYGERRIAN_SHIP_obligation ZYGERRIAN_SHIP_purpose ZYGERRIAN_SHIP_provider ZYGERRIAN_SHIP_shining_city ZYGERRIAN_SHIP_acquirer ZYGERRIAN_SHIP_cultivator ZYGERRIAN_SHIP_dawn_of_civilization ZYGERRIAN_SHIP_purity ZYGERRIAN_SHIP_community ZYGERRIAN_SHIP_brotherhood
+		}
+		constructor = {
+			ZYGERRIAN_SHIP_industry ZYGERRIAN_SHIP_helot ZYGERRIAN_SHIP_serf ZYGERRIAN_SHIP_laborer ZYGERRIAN_SHIP_builder ZYGERRIAN_SHIP_craftsman ZYGERRIAN_SHIP_peasant ZYGERRIAN_SHIP_engineer ZYGERRIAN_SHIP_promise ZYGERRIAN_SHIP_service ZYGERRIAN_SHIP_shelter ZYGERRIAN_SHIP_beast ZYGERRIAN_SHIP_creator ZYGERRIAN_SHIP_developer ZYGERRIAN_SHIP_forger ZYGERRIAN_SHIP_foundry ZYGERRIAN_SHIP_factory ZYGERRIAN_SHIP_anvil ZYGERRIAN_SHIP_pillar ZYGERRIAN_SHIP_architect ZYGERRIAN_SHIP_accommodator
+		}
+		transport = {
+			ZYGERRIAN_SHIP_landing_craft
+		}
+		military_station_golan1 = {
+			ZYGERRIAN_SHIP_spacegun_victory ZYGERRIAN_SHIP_spacegun_success ZYGERRIAN_SHIP_spacegun_supremacy ZYGERRIAN_SHIP_spacegun_superior ZYGERRIAN_SHIP_spacegun_adventure ZYGERRIAN_SHIP_spacegun_ascendancy ZYGERRIAN_SHIP_spacegun_paramount ZYGERRIAN_SHIP_spacegun_preponderous ZYGERRIAN_SHIP_spacegun_exemplary ZYGERRIAN_SHIP_spacegun_eximious ZYGERRIAN_SHIP_spacegun_pertinacity ZYGERRIAN_SHIP_spacegun_acclaim ZYGERRIAN_SHIP_spacegun_honor ZYGERRIAN_SHIP_spacegun_renown ZYGERRIAN_SHIP_spacegun_glory ZYGERRIAN_SHIP_spacegun_superb ZYGERRIAN_SHIP_spacegun_magnificence ZYGERRIAN_SHIP_spacegun_majestic ZYGERRIAN_SHIP_spacegun_splendor ZYGERRIAN_SHIP_spacegun_paradigm ZYGERRIAN_SHIP_spacegun_flawless ZYGERRIAN_SHIP_spacegun_consummate ZYGERRIAN_SHIP_spacegun_merit ZYGERRIAN_SHIP_spacegun_perfection ZYGERRIAN_SHIP_spacegun_virtue ZYGERRIAN_SHIP_spacegun_advantage ZYGERRIAN_SHIP_spacegun_rectitude ZYGERRIAN_SHIP_spacegun_incorruptible ZYGERRIAN_SHIP_spacegun_integrity ZYGERRIAN_SHIP_spacegun_justice ZYGERRIAN_SHIP_spacegun_probity ZYGERRIAN_SHIP_spacegun_prudence ZYGERRIAN_SHIP_spacegun_purity ZYGERRIAN_SHIP_spacegun_resolute ZYGERRIAN_SHIP_spacegun_dignity ZYGERRIAN_SHIP_spacegun_distinction ZYGERRIAN_SHIP_spacegun_excellence ZYGERRIAN_SHIP_spacegun_faithful ZYGERRIAN_SHIP_spacegun_discipline ZYGERRIAN_SHIP_spacegun_steadfast ZYGERRIAN_SHIP_spacegun_recompense ZYGERRIAN_SHIP_spacegun_requiem ZYGERRIAN_SHIP_spacegun_courage ZYGERRIAN_SHIP_spacegun_valor ZYGERRIAN_SHIP_spacegun_gallant ZYGERRIAN_SHIP_spacegun_daring ZYGERRIAN_SHIP_spacegun_constancy ZYGERRIAN_SHIP_spacegun_perseverence ZYGERRIAN_SHIP_spacegun_tenacity ZYGERRIAN_SHIP_spacegun_sedulity ZYGERRIAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			ZYGERRIAN_SHIP_spacegun_victory ZYGERRIAN_SHIP_spacegun_success ZYGERRIAN_SHIP_spacegun_supremacy ZYGERRIAN_SHIP_spacegun_superior ZYGERRIAN_SHIP_spacegun_adventure ZYGERRIAN_SHIP_spacegun_ascendancy ZYGERRIAN_SHIP_spacegun_paramount ZYGERRIAN_SHIP_spacegun_preponderous ZYGERRIAN_SHIP_spacegun_exemplary ZYGERRIAN_SHIP_spacegun_eximious ZYGERRIAN_SHIP_spacegun_pertinacity ZYGERRIAN_SHIP_spacegun_acclaim ZYGERRIAN_SHIP_spacegun_honor ZYGERRIAN_SHIP_spacegun_renown ZYGERRIAN_SHIP_spacegun_glory ZYGERRIAN_SHIP_spacegun_superb ZYGERRIAN_SHIP_spacegun_magnificence ZYGERRIAN_SHIP_spacegun_majestic ZYGERRIAN_SHIP_spacegun_splendor ZYGERRIAN_SHIP_spacegun_paradigm ZYGERRIAN_SHIP_spacegun_flawless ZYGERRIAN_SHIP_spacegun_consummate ZYGERRIAN_SHIP_spacegun_merit ZYGERRIAN_SHIP_spacegun_perfection ZYGERRIAN_SHIP_spacegun_virtue ZYGERRIAN_SHIP_spacegun_advantage ZYGERRIAN_SHIP_spacegun_rectitude ZYGERRIAN_SHIP_spacegun_incorruptible ZYGERRIAN_SHIP_spacegun_integrity ZYGERRIAN_SHIP_spacegun_justice ZYGERRIAN_SHIP_spacegun_probity ZYGERRIAN_SHIP_spacegun_prudence ZYGERRIAN_SHIP_spacegun_purity ZYGERRIAN_SHIP_spacegun_resolute ZYGERRIAN_SHIP_spacegun_dignity ZYGERRIAN_SHIP_spacegun_distinction ZYGERRIAN_SHIP_spacegun_excellence ZYGERRIAN_SHIP_spacegun_faithful ZYGERRIAN_SHIP_spacegun_discipline ZYGERRIAN_SHIP_spacegun_steadfast ZYGERRIAN_SHIP_spacegun_recompense ZYGERRIAN_SHIP_spacegun_requiem ZYGERRIAN_SHIP_spacegun_courage ZYGERRIAN_SHIP_spacegun_valor ZYGERRIAN_SHIP_spacegun_gallant ZYGERRIAN_SHIP_spacegun_daring ZYGERRIAN_SHIP_spacegun_constancy ZYGERRIAN_SHIP_spacegun_perseverence ZYGERRIAN_SHIP_spacegun_tenacity ZYGERRIAN_SHIP_spacegun_sedulity ZYGERRIAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			ZYGERRIAN_SHIP_spacegun_victory ZYGERRIAN_SHIP_spacegun_success ZYGERRIAN_SHIP_spacegun_supremacy ZYGERRIAN_SHIP_spacegun_superior ZYGERRIAN_SHIP_spacegun_adventure ZYGERRIAN_SHIP_spacegun_ascendancy ZYGERRIAN_SHIP_spacegun_paramount ZYGERRIAN_SHIP_spacegun_preponderous ZYGERRIAN_SHIP_spacegun_exemplary ZYGERRIAN_SHIP_spacegun_eximious ZYGERRIAN_SHIP_spacegun_pertinacity ZYGERRIAN_SHIP_spacegun_acclaim ZYGERRIAN_SHIP_spacegun_honor ZYGERRIAN_SHIP_spacegun_renown ZYGERRIAN_SHIP_spacegun_glory ZYGERRIAN_SHIP_spacegun_superb ZYGERRIAN_SHIP_spacegun_magnificence ZYGERRIAN_SHIP_spacegun_majestic ZYGERRIAN_SHIP_spacegun_splendor ZYGERRIAN_SHIP_spacegun_paradigm ZYGERRIAN_SHIP_spacegun_flawless ZYGERRIAN_SHIP_spacegun_consummate ZYGERRIAN_SHIP_spacegun_merit ZYGERRIAN_SHIP_spacegun_perfection ZYGERRIAN_SHIP_spacegun_virtue ZYGERRIAN_SHIP_spacegun_advantage ZYGERRIAN_SHIP_spacegun_rectitude ZYGERRIAN_SHIP_spacegun_incorruptible ZYGERRIAN_SHIP_spacegun_integrity ZYGERRIAN_SHIP_spacegun_justice ZYGERRIAN_SHIP_spacegun_probity ZYGERRIAN_SHIP_spacegun_prudence ZYGERRIAN_SHIP_spacegun_purity ZYGERRIAN_SHIP_spacegun_resolute ZYGERRIAN_SHIP_spacegun_dignity ZYGERRIAN_SHIP_spacegun_distinction ZYGERRIAN_SHIP_spacegun_excellence ZYGERRIAN_SHIP_spacegun_faithful ZYGERRIAN_SHIP_spacegun_discipline ZYGERRIAN_SHIP_spacegun_steadfast ZYGERRIAN_SHIP_spacegun_recompense ZYGERRIAN_SHIP_spacegun_requiem ZYGERRIAN_SHIP_spacegun_courage ZYGERRIAN_SHIP_spacegun_valor ZYGERRIAN_SHIP_spacegun_gallant ZYGERRIAN_SHIP_spacegun_daring ZYGERRIAN_SHIP_spacegun_constancy ZYGERRIAN_SHIP_spacegun_perseverence ZYGERRIAN_SHIP_spacegun_tenacity ZYGERRIAN_SHIP_spacegun_sedulity ZYGERRIAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			ZYGERRIAN_SHIP_citadel ZYGERRIAN_SHIP_savage ZYGERRIAN_SHIP_gateway ZYGERRIAN_SHIP_watchpost ZYGERRIAN_SHIP_tower ZYGERRIAN_SHIP_garrison ZYGERRIAN_SHIP_paraphet ZYGERRIAN_SHIP_manbroke ZYGERRIAN_SHIP_severed ZYGERRIAN_SHIP_spithead ZYGERRIAN_SHIP_spiteful ZYGERRIAN_SHIP_royal ZYGERRIAN_SHIP_oulsbo ZYGERRIAN_SHIP_liverlet ZYGERRIAN_SHIP_void_flow ZYGERRIAN_SHIP_starlight_roads ZYGERRIAN_SHIP_stardust ZYGERRIAN_SHIP_wails ZYGERRIAN_SHIP_mournharbor ZYGERRIAN_SHIP_blackwatch ZYGERRIAN_SHIP_tyrant_s_view ZYGERRIAN_SHIP_blockhouse ZYGERRIAN_SHIP_jepooni ZYGERRIAN_SHIP_tahala ZYGERRIAN_SHIP_kilitwijaro ZYGERRIAN_SHIP_awroot ZYGERRIAN_SHIP_eberet ZYGERRIAN_SHIP_champion_hall ZYGERRIAN_SHIP_fujett ZYGERRIAN_SHIP_poeympus ZYGERRIAN_SHIP_sinal ZYGERRIAN_SHIP_roseamb ZYGERRIAN_SHIP_roombar ZYGERRIAN_SHIP_farpoint ZYGERRIAN_SHIP_red_star ZYGERRIAN_SHIP_mount_forlorn ZYGERRIAN_SHIP_tharsis ZYGERRIAN_SHIP_syrial ZYGERRIAN_SHIP_redhett ZYGERRIAN_SHIP_bowyer ZYGERRIAN_SHIP_perrit ZYGERRIAN_SHIP_kovabro ZYGERRIAN_SHIP_moorete ZYGERRIAN_SHIP_moorsom ZYGERRIAN_SHIP_heartrend ZYGERRIAN_SHIP_grey_gables ZYGERRIAN_SHIP_takala ZYGERRIAN_SHIP_tanaka ZYGERRIAN_SHIP_tojoro ZYGERRIAN_SHIP_miranda ZYGERRIAN_SHIP_hootsport ZYGERRIAN_SHIP_kimicum ZYGERRIAN_SHIP_sklallam ZYGERRIAN_SHIP_brettbridge ZYGERRIAN_SHIP_hipalla ZYGERRIAN_SHIP_votalia ZYGERRIAN_SHIP_poremkon ZYGERRIAN_SHIP_zarana ZYGERRIAN_SHIP_hyattskill ZYGERRIAN_SHIP_vilne ZYGERRIAN_SHIP_foreyla ZYGERRIAN_SHIP_tefle ZYGERRIAN_SHIP_hawke ZYGERRIAN_SHIP_hermakk ZYGERRIAN_SHIP_half_pound ZYGERRIAN_SHIP_king ZYGERRIAN_SHIP_queen ZYGERRIAN_SHIP_empress ZYGERRIAN_SHIP_crown ZYGERRIAN_SHIP_chichian ZYGERRIAN_SHIP_essen ZYGERRIAN_SHIP_kornilov ZYGERRIAN_SHIP_monarch ZYGERRIAN_SHIP_triville ZYGERRIAN_SHIP_vohort ZYGERRIAN_SHIP_suppro ZYGERRIAN_SHIP_gambitin ZYGERRIAN_SHIP_lezzovo
+		}
+		ion_cannon = {
+			ZYGERRIAN_SHIP_bombard ZYGERRIAN_SHIP_ballista ZYGERRIAN_SHIP_catapult ZYGERRIAN_SHIP_harpoon ZYGERRIAN_SHIP_polybolos ZYGERRIAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			ZYGERRIAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			ZYGERRIAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			ZYGERRIAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			ZYGERRIAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			ZYGERRIAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			ZYGERRIAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			ZYGERRIAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			ZYGERRIAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			ZYGERRIAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			ZYGERRIAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			ZYGERRIAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			ZYGERRIAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			ZYGERRIAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			ZYGERRIAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			ZYGERRIAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			ZYGERRIAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			ZYGERRIAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			ZYGERRIAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			ZYGERRIAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			ZYGERRIAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			ZYGERRIAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			ZYGERRIAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			ZYGERRIAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			ZYGERRIAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			ZYGERRIAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			ZYGERRIAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			ZYGERRIAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			ZYGERRIAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			ZYGERRIAN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			ZYGERRIAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			ZYGERRIAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			ZYGERRIAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			ZYGERRIAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			ZYGERRIAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			ZYGERRIAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			ZYGERRIAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			ZYGERRIAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			ZYGERRIAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			ZYGERRIAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			ZYGERRIAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			ZYGERRIAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			ZYGERRIAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			ZYGERRIAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			ZYGERRIAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			ZYGERRIAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			ZYGERRIAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			ZYGERRIAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			ZYGERRIAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			ZYGERRIAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			ZYGERRIAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			ZYGERRIAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			ZYGERRIAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			ZYGERRIAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = ZYGERRIAN_FLEET_war_pack_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = ZYGERRIAN_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = ZYGERRIAN_ARMY_raid_pack_ORD
+		}
+		slave_army = {
+			sequential_name = ZYGERRIAN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = ZYGERRIAN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = ZYGERRIAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = ZYGERRIAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = ZYGERRIAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = ZYGERRIAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				ZYGERRIAN_ARMY_sarc_a__gladiators_ ZYGERRIAN_ARMY_sarc_b__widowmakers_ ZYGERRIAN_ARMY_sarc_c__immortals_ ZYGERRIAN_ARMY_sarc_d__berserkers_ ZYGERRIAN_ARMY_sarc_e__assassins_ ZYGERRIAN_ARMY_sarc_f__reapers_ ZYGERRIAN_ARMY_sarc_g__nighthawks_ ZYGERRIAN_ARMY_sarc_h__desperados_ ZYGERRIAN_ARMY_sarc_i__grey_knights_ ZYGERRIAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = ZYGERRIAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = ZYGERRIAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = ZYGERRIAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = ZYGERRIAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = ZYGERRIAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = ZYGERRIAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = ZYGERRIAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = ZYGERRIAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = ZYGERRIAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = ZYGERRIAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = ZYGERRIAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = ZYGERRIAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = ZYGERRIAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = ZYGERRIAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = ZYGERRIAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = ZYGERRIAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = ZYGERRIAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = ZYGERRIAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = ZYGERRIAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = ZYGERRIAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = ZYGERRIAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = ZYGERRIAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = ZYGERRIAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = ZYGERRIAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = ZYGERRIAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = ZYGERRIAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = ZYGERRIAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = ZYGERRIAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = ZYGERRIAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = ZYGERRIAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = ZYGERRIAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = ZYGERRIAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = ZYGERRIAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = ZYGERRIAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = ZYGERRIAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = ZYGERRIAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = ZYGERRIAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = ZYGERRIAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = ZYGERRIAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = ZYGERRIAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = ZYGERRIAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = ZYGERRIAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = ZYGERRIAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = ZYGERRIAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = ZYGERRIAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = ZYGERRIAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = ZYGERRIAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = ZYGERRIAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = ZYGERRIAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = ZYGERRIAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = ZYGERRIAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = ZYGERRIAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = ZYGERRIAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = ZYGERRIAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = ZYGERRIAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = ZYGERRIAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = ZYGERRIAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = ZYGERRIAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = ZYGERRIAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = ZYGERRIAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = ZYGERRIAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = ZYGERRIAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = ZYGERRIAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = ZYGERRIAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = ZYGERRIAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = ZYGERRIAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = ZYGERRIAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = ZYGERRIAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = ZYGERRIAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = ZYGERRIAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = ZYGERRIAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = ZYGERRIAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = ZYGERRIAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = ZYGERRIAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = ZYGERRIAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = ZYGERRIAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = ZYGERRIAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = ZYGERRIAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = ZYGERRIAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = ZYGERRIAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = ZYGERRIAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = ZYGERRIAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = ZYGERRIAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = ZYGERRIAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = ZYGERRIAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = ZYGERRIAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = ZYGERRIAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = ZYGERRIAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = ZYGERRIAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = ZYGERRIAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = ZYGERRIAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = ZYGERRIAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = ZYGERRIAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = ZYGERRIAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = ZYGERRIAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = ZYGERRIAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = ZYGERRIAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = ZYGERRIAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = ZYGERRIAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = ZYGERRIAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = ZYGERRIAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = ZYGERRIAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = ZYGERRIAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = ZYGERRIAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = ZYGERRIAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = ZYGERRIAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = ZYGERRIAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = ZYGERRIAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = ZYGERRIAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = ZYGERRIAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = ZYGERRIAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = ZYGERRIAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = ZYGERRIAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = ZYGERRIAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = ZYGERRIAN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = ZYGERRIAN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = ZYGERRIAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = ZYGERRIAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = ZYGERRIAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = ZYGERRIAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = ZYGERRIAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = ZYGERRIAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = ZYGERRIAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = ZYGERRIAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = ZYGERRIAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = ZYGERRIAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = ZYGERRIAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = ZYGERRIAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = ZYGERRIAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = ZYGERRIAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = ZYGERRIAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = ZYGERRIAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = ZYGERRIAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				ZYGERRIAN_CHR_agruss ZYGERRIAN_CHR_kadavo ZYGERRIAN_CHR_rajim ZYGERRIAN_CHR_darts ZYGERRIAN_CHR_farzala ZYGERRIAN_CHR_ikis ZYGERRIAN_CHR_ingan ZYGERRIAN_CHR_jorec ZYGERRIAN_CHR_atai ZYGERRIAN_CHR_sono ZYGERRIAN_CHR_omus ZYGERRIAN_CHR_m_rch ZYGERRIAN_CHR_mard ZYGERRIAN_CHR_hordem ZYGERRIAN_CHR_oksan ZYGERRIAN_CHR_onyx ZYGERRIAN_CHR_scroon ZYGERRIAN_CHR_slego ZYGERRIAN_CHR_teek ZYGERRIAN_CHR_atlee ZYGERRIAN_CHR_marko ZYGERRIAN_CHR_zolghast ZYGERRIAN_CHR_strata ZYGERRIAN_CHR_lancer ZYGERRIAN_CHR_zeak ZYGERRIAN_CHR_niuk ZYGERRIAN_CHR_lavidean ZYGERRIAN_CHR_tanizandar ZYGERRIAN_CHR_japla ZYGERRIAN_CHR_aran ZYGERRIAN_CHR_rail ZYGERRIAN_CHR_zeven ZYGERRIAN_CHR_yakown ZYGERRIAN_CHR_sibar ZYGERRIAN_CHR_sair ZYGERRIAN_CHR_klai ZYGERRIAN_CHR_jonal ZYGERRIAN_CHR_imay ZYGERRIAN_CHR_traest ZYGERRIAN_CHR_simo ZYGERRIAN_CHR_kareth ZYGERRIAN_CHR_riyan ZYGERRIAN_CHR_maynus ZYGERRIAN_CHR_boceta ZYGERRIAN_CHR_agnook ZYGERRIAN_CHR_silus ZYGERRIAN_CHR_rowan ZYGERRIAN_CHR_coren ZYGERRIAN_CHR_jett ZYGERRIAN_CHR_linth ZYGERRIAN_CHR_annok ZYGERRIAN_CHR_ulas ZYGERRIAN_CHR_fenn ZYGERRIAN_CHR_tal ZYGERRIAN_CHR_vrok ZYGERRIAN_CHR_torin ZYGERRIAN_CHR_imay ZYGERRIAN_CHR_boone ZYGERRIAN_CHR_davith ZYGERRIAN_CHR_jorgen ZYGERRIAN_CHR_bertos ZYGERRIAN_CHR_ress ZYGERRIAN_CHR_malius ZYGERRIAN_CHR_kale ZYGERRIAN_CHR_cregan ZYGERRIAN_CHR_galavo ZYGERRIAN_CHR_zerk ZYGERRIAN_CHR_jinn_tu ZYGERRIAN_CHR_jaryn ZYGERRIAN_CHR_gentti ZYGERRIAN_CHR_yu_sien ZYGERRIAN_CHR_akela ZYGERRIAN_CHR_arslan ZYGERRIAN_CHR_sidias ZYGERRIAN_CHR_haken ZYGERRIAN_CHR_biran ZYGERRIAN_CHR_vidown ZYGERRIAN_CHR_arejala ZYGERRIAN_CHR_ithan ZYGERRIAN_CHR_cul_utaan ZYGERRIAN_CHR_thoja ZYGERRIAN_CHR_cron ZYGERRIAN_CHR_mossi ZYGERRIAN_CHR_abric ZYGERRIAN_CHR_darg ZYGERRIAN_CHR_gaman ZYGERRIAN_CHR_naiad ZYGERRIAN_CHR_herub ZYGERRIAN_CHR_marius ZYGERRIAN_CHR_torkin ZYGERRIAN_CHR_caton ZYGERRIAN_CHR_kane ZYGERRIAN_CHR_versita ZYGERRIAN_CHR_cric ZYGERRIAN_CHR_foxdi ZYGERRIAN_CHR_montacca ZYGERRIAN_CHR_jospi ZYGERRIAN_CHR_baz ZYGERRIAN_CHR_kam ZYGERRIAN_CHR_erek ZYGERRIAN_CHR_arslan ZYGERRIAN_CHR_lerak ZYGERRIAN_CHR_morla ZYGERRIAN_CHR_baxter ZYGERRIAN_CHR_talan ZYGERRIAN_CHR_thion ZYGERRIAN_CHR_kannon ZYGERRIAN_CHR_salir ZYGERRIAN_CHR_caster ZYGERRIAN_CHR_elden ZYGERRIAN_CHR_faelgrom ZYGERRIAN_CHR_jorwoo ZYGERRIAN_CHR_raltharan ZYGERRIAN_CHR_flash ZYGERRIAN_CHR_waseem ZYGERRIAN_CHR_bendak ZYGERRIAN_CHR_kaz ZYGERRIAN_CHR_montileu ZYGERRIAN_CHR_gonoga ZYGERRIAN_CHR_silus ZYGERRIAN_CHR_galven ZYGERRIAN_CHR_vincenzo ZYGERRIAN_CHR_ric ZYGERRIAN_CHR_rebar ZYGERRIAN_CHR_jebediah ZYGERRIAN_CHR_aramil ZYGERRIAN_CHR_abraxis ZYGERRIAN_CHR_delmi ZYGERRIAN_CHR_caalin ZYGERRIAN_CHR_rassth ZYGERRIAN_CHR_adorn ZYGERRIAN_CHR_syrus ZYGERRIAN_CHR_zhar_khan ZYGERRIAN_CHR_adam ZYGERRIAN_CHR_predor ZYGERRIAN_CHR_tarlson ZYGERRIAN_CHR_boaz ZYGERRIAN_CHR_ingtar ZYGERRIAN_CHR_gunn ZYGERRIAN_CHR_raltharan ZYGERRIAN_CHR_zerrid ZYGERRIAN_CHR_bobecc ZYGERRIAN_CHR_jelantos ZYGERRIAN_CHR_jephego ZYGERRIAN_CHR_svante ZYGERRIAN_CHR_tesvalo ZYGERRIAN_CHR_aeon ZYGERRIAN_CHR_dekar ZYGERRIAN_CHR_morech ZYGERRIAN_CHR_melinjar ZYGERRIAN_CHR_myt ZYGERRIAN_CHR_murek
+			}
+			first_names_female = {
+				ZYGERRIAN_CHR_miraj ZYGERRIAN_CHR_madall ZYGERRIAN_CHR_hask ZYGERRIAN_CHR_tosan ZYGERRIAN_CHR_mara ZYGERRIAN_CHR_seena ZYGERRIAN_CHR_areta ZYGERRIAN_CHR_cord ZYGERRIAN_CHR_cyrinity ZYGERRIAN_CHR_nile ZYGERRIAN_CHR_kiyfi ZYGERRIAN_CHR_masera ZYGERRIAN_CHR_satra ZYGERRIAN_CHR_shehish ZYGERRIAN_CHR_sarna ZYGERRIAN_CHR_krava ZYGERRIAN_CHR_roxis ZYGERRIAN_CHR_zarana ZYGERRIAN_CHR_aqua ZYGERRIAN_CHR_maryna ZYGERRIAN_CHR_essaj ZYGERRIAN_CHR_looriw ZYGERRIAN_CHR_teeana ZYGERRIAN_CHR_raena ZYGERRIAN_CHR_yula ZYGERRIAN_CHR_vifi ZYGERRIAN_CHR_vania ZYGERRIAN_CHR_jeanida ZYGERRIAN_CHR_aerena ZYGERRIAN_CHR_nataya ZYGERRIAN_CHR_bernarda ZYGERRIAN_CHR_geela ZYGERRIAN_CHR_lya ZYGERRIAN_CHR_sirra ZYGERRIAN_CHR_teris ZYGERRIAN_CHR_terral ZYGERRIAN_CHR_nihla ZYGERRIAN_CHR_riema ZYGERRIAN_CHR_erri ZYGERRIAN_CHR_shanna ZYGERRIAN_CHR_lyra ZYGERRIAN_CHR_pranda ZYGERRIAN_CHR_valya ZYGERRIAN_CHR_cally ZYGERRIAN_CHR_viqi ZYGERRIAN_CHR_hadriel ZYGERRIAN_CHR_lora ZYGERRIAN_CHR_selena ZYGERRIAN_CHR_zana ZYGERRIAN_CHR_tuija ZYGERRIAN_CHR_railin ZYGERRIAN_CHR_odona ZYGERRIAN_CHR_shyon ZYGERRIAN_CHR_walas ZYGERRIAN_CHR_rylla ZYGERRIAN_CHR_gara ZYGERRIAN_CHR_delos ZYGERRIAN_CHR_loretta ZYGERRIAN_CHR_luhon ZYGERRIAN_CHR_delinia ZYGERRIAN_CHR_aama ZYGERRIAN_CHR_shorya ZYGERRIAN_CHR_melfina ZYGERRIAN_CHR_davessi ZYGERRIAN_CHR_larana ZYGERRIAN_CHR_galatea ZYGERRIAN_CHR_nola ZYGERRIAN_CHR_syna ZYGERRIAN_CHR_jauhzmynn ZYGERRIAN_CHR_anen ZYGERRIAN_CHR_orona ZYGERRIAN_CHR_yana ZYGERRIAN_CHR_zoras ZYGERRIAN_CHR_ree ZYGERRIAN_CHR_grace ZYGERRIAN_CHR_tantema ZYGERRIAN_CHR_myn ZYGERRIAN_CHR_una ZYGERRIAN_CHR_dalharil ZYGERRIAN_CHR_losa ZYGERRIAN_CHR_sovi ZYGERRIAN_CHR_elaiza ZYGERRIAN_CHR_vucora ZYGERRIAN_CHR_ava ZYGERRIAN_CHR_joi ZYGERRIAN_CHR_stryka ZYGERRIAN_CHR_tantema ZYGERRIAN_CHR_shandra ZYGERRIAN_CHR_kely ZYGERRIAN_CHR_caileta ZYGERRIAN_CHR_taia ZYGERRIAN_CHR_siala ZYGERRIAN_CHR_reki ZYGERRIAN_CHR_maydla ZYGERRIAN_CHR_bota ZYGERRIAN_CHR_kiandra ZYGERRIAN_CHR_xilaren ZYGERRIAN_CHR_zulara ZYGERRIAN_CHR_ren ZYGERRIAN_CHR_karissa ZYGERRIAN_CHR_roxis ZYGERRIAN_CHR_haruko ZYGERRIAN_CHR_jenna ZYGERRIAN_CHR_liana ZYGERRIAN_CHR_rale ZYGERRIAN_CHR_megala ZYGERRIAN_CHR_aria ZYGERRIAN_CHR_akiva ZYGERRIAN_CHR_nalanna ZYGERRIAN_CHR_erlem ZYGERRIAN_CHR_nali ZYGERRIAN_CHR_fallah ZYGERRIAN_CHR_kotrana ZYGERRIAN_CHR_aayla ZYGERRIAN_CHR_kalira ZYGERRIAN_CHR_arani ZYGERRIAN_CHR_fama ZYGERRIAN_CHR_lyyr ZYGERRIAN_CHR_nomilla ZYGERRIAN_CHR_rane ZYGERRIAN_CHR_nayru ZYGERRIAN_CHR_zylas ZYGERRIAN_CHR_vexa ZYGERRIAN_CHR_kana ZYGERRIAN_CHR_meru
+			}
+			second_names = {
+				ZYGERRIAN_CHR_armin ZYGERRIAN_CHR_pr_ollerg ZYGERRIAN_CHR_d_nar ZYGERRIAN_CHR_stane ZYGERRIAN_CHR_gemen ZYGERRIAN_CHR_molec ZYGERRIAN_CHR_molec_ii ZYGERRIAN_CHR_molec_iii ZYGERRIAN_CHR_molec_iv ZYGERRIAN_CHR_scintel ZYGERRIAN_CHR_krill ZYGERRIAN_CHR_tolla ZYGERRIAN_CHR_daklan ZYGERRIAN_CHR_taff ZYGERRIAN_CHR_thanda ZYGERRIAN_CHR_thegas ZYGERRIAN_CHR_tyne ZYGERRIAN_CHR_holgor ZYGERRIAN_CHR_ijaaz ZYGERRIAN_CHR_acklej ZYGERRIAN_CHR_sprax ZYGERRIAN_CHR_knesos ZYGERRIAN_CHR_throll_ek ZYGERRIAN_CHR_lasek ZYGERRIAN_CHR_artis ZYGERRIAN_CHR_paxiyen ZYGERRIAN_CHR_corso ZYGERRIAN_CHR_fallon ZYGERRIAN_CHR_gundo ZYGERRIAN_CHR_ruana ZYGERRIAN_CHR_fremlin ZYGERRIAN_CHR_thont ZYGERRIAN_CHR_creel ZYGERRIAN_CHR_rar ZYGERRIAN_CHR_dusat ZYGERRIAN_CHR_kessek ZYGERRIAN_CHR_redback ZYGERRIAN_CHR_al_theriam ZYGERRIAN_CHR_vanzeer ZYGERRIAN_CHR_vrieska ZYGERRIAN_CHR_calwhip ZYGERRIAN_CHR_yartok ZYGERRIAN_CHR_yarous ZYGERRIAN_CHR_brower ZYGERRIAN_CHR_fash ZYGERRIAN_CHR_nalto ZYGERRIAN_CHR_stryder ZYGERRIAN_CHR_stryken ZYGERRIAN_CHR_kolek ZYGERRIAN_CHR_velen ZYGERRIAN_CHR_solon ZYGERRIAN_CHR_merquise ZYGERRIAN_CHR_varn ZYGERRIAN_CHR_basai ZYGERRIAN_CHR_froud ZYGERRIAN_CHR_addacess ZYGERRIAN_CHR_elysar ZYGERRIAN_CHR_durgen ZYGERRIAN_CHR_slahlvo ZYGERRIAN_CHR_remex ZYGERRIAN_CHR_madowki ZYGERRIAN_CHR_hayes ZYGERRIAN_CHR_ne ZYGERRIAN_CHR_dago ZYGERRIAN_CHR_stripeback ZYGERRIAN_CHR_stithta ZYGERRIAN_CHR_ker ZYGERRIAN_CHR_driet ZYGERRIAN_CHR_klakk ZYGERRIAN_CHR_reed ZYGERRIAN_CHR_lefex ZYGERRIAN_CHR_minn ZYGERRIAN_CHR_irokini ZYGERRIAN_CHR_roye ZYGERRIAN_CHR_danakar ZYGERRIAN_CHR_forin ZYGERRIAN_CHR_glopio ZYGERRIAN_CHR_shenuri ZYGERRIAN_CHR_corcer ZYGERRIAN_CHR_or_ven ZYGERRIAN_CHR_wan ZYGERRIAN_CHR_tagratt ZYGERRIAN_CHR_golladio ZYGERRIAN_CHR_adramcsia ZYGERRIAN_CHR_golandrik ZYGERRIAN_CHR_noth ZYGERRIAN_CHR_taske ZYGERRIAN_CHR_komo ZYGERRIAN_CHR_barntar ZYGERRIAN_CHR_angavel ZYGERRIAN_CHR_tyrnith ZYGERRIAN_CHR_yavoog ZYGERRIAN_CHR_kelbier ZYGERRIAN_CHR_racto ZYGERRIAN_CHR_degor ZYGERRIAN_CHR_tisa ZYGERRIAN_CHR_magre ZYGERRIAN_CHR_soylon ZYGERRIAN_CHR_lerann ZYGERRIAN_CHR_chro ZYGERRIAN_CHR_finn ZYGERRIAN_CHR_blackmoor ZYGERRIAN_CHR_hwang ZYGERRIAN_CHR_vekarr ZYGERRIAN_CHR_thegas ZYGERRIAN_CHR_amon ZYGERRIAN_CHR_thiddex ZYGERRIAN_CHR_durgen ZYGERRIAN_CHR_selkayim ZYGERRIAN_CHR_gilder ZYGERRIAN_CHR_dhuramav ZYGERRIAN_CHR_kodd ZYGERRIAN_CHR_morin ZYGERRIAN_CHR_kobylarz ZYGERRIAN_CHR_tade ZYGERRIAN_CHR_solman ZYGERRIAN_CHR_bintaghr ZYGERRIAN_CHR_marclonus ZYGERRIAN_CHR_precore ZYGERRIAN_CHR_solborne ZYGERRIAN_CHR_bailer ZYGERRIAN_CHR_katarn ZYGERRIAN_CHR_anjek ZYGERRIAN_CHR_dalgas ZYGERRIAN_CHR_kast ZYGERRIAN_CHR_airerith ZYGERRIAN_CHR_halord ZYGERRIAN_CHR_tade ZYGERRIAN_CHR_varlash ZYGERRIAN_CHR_jalba ZYGERRIAN_CHR_benn ZYGERRIAN_CHR_haruhana ZYGERRIAN_CHR_roice ZYGERRIAN_CHR_lokar ZYGERRIAN_CHR_korpil ZYGERRIAN_CHR_turon ZYGERRIAN_CHR_cavi ZYGERRIAN_CHR_deece ZYGERRIAN_CHR_braitano ZYGERRIAN_CHR_garnik ZYGERRIAN_CHR_tyandas ZYGERRIAN_CHR_ka_taramas ZYGERRIAN_CHR_nuwest ZYGERRIAN_CHR_forte ZYGERRIAN_CHR_noshey ZYGERRIAN_CHR_gyyll ZYGERRIAN_CHR_tallon ZYGERRIAN_CHR_liorre ZYGERRIAN_CHR_adras ZYGERRIAN_CHR_fremlin ZYGERRIAN_CHR_peoly ZYGERRIAN_CHR_damiel ZYGERRIAN_CHR_pau ZYGERRIAN_CHR_drayvek ZYGERRIAN_CHR_zaposug ZYGERRIAN_CHR_molec_stane ZYGERRIAN_CHR_bela_trepada ZYGERRIAN_CHR_defelice ZYGERRIAN_CHR_monsula ZYGERRIAN_CHR_baralein ZYGERRIAN_CHR_denive ZYGERRIAN_CHR_hodrren ZYGERRIAN_CHR_xergo ZYGERRIAN_CHR_sarat ZYGERRIAN_CHR_vercet ZYGERRIAN_CHR_ossaki ZYGERRIAN_CHR_kappa ZYGERRIAN_CHR_zerga ZYGERRIAN_CHR_kopos ZYGERRIAN_CHR_aldrecht ZYGERRIAN_CHR_bohme ZYGERRIAN_CHR_tull ZYGERRIAN_CHR_eldrel ZYGERRIAN_CHR_marh ZYGERRIAN_CHR_darkwin ZYGERRIAN_CHR_krandor ZYGERRIAN_CHR_montag ZYGERRIAN_CHR_dimodan ZYGERRIAN_CHR_starkist ZYGERRIAN_CHR_artis ZYGERRIAN_CHR_veloor ZYGERRIAN_CHR_mohebbi ZYGERRIAN_CHR_runalian ZYGERRIAN_CHR_binette ZYGERRIAN_CHR_laurent ZYGERRIAN_CHR_mavr ZYGERRIAN_CHR_ryra ZYGERRIAN_CHR_truden ZYGERRIAN_CHR_molec_tade ZYGERRIAN_CHR_starkholov ZYGERRIAN_CHR_amekka ZYGERRIAN_CHR_avara ZYGERRIAN_CHR_andrell ZYGERRIAN_CHR_annon ZYGERRIAN_CHR_anteron ZYGERRIAN_CHR_atanna ZYGERRIAN_CHR_baab ZYGERRIAN_CHR_barc ZYGERRIAN_CHR_bonteri ZYGERRIAN_CHR_breemu ZYGERRIAN_CHR_bremack ZYGERRIAN_CHR_bronk ZYGERRIAN_CHR_burtoni ZYGERRIAN_CHR_cadaman ZYGERRIAN_CHR_callen ZYGERRIAN_CHR_ilisin ZYGERRIAN_CHR_ledwellow ZYGERRIAN_CHR_dio
+			}
+			regnal_first_names_male = {
+				ZYGERRIAN_CHR_atai ZYGERRIAN_CHR_jorec ZYGERRIAN_CHR_mard ZYGERRIAN_CHR_hordem ZYGERRIAN_CHR_sono ZYGERRIAN_CHR_d_var ZYGERRIAN_CHR_agruss
+			}
+			regnal_first_names_female = {
+				ZYGERRIAN_CHR_miraj ZYGERRIAN_CHR_miralla ZYGERRIAN_CHR_miyanna ZYGERRIAN_CHR_areta ZYGERRIAN_CHR_milizeth ZYGERRIAN_CHR_milerrena ZYGERRIAN_CHR_millara
+			}
+			regnal_second_names = {
+				ZYGERRIAN_CHR_molec ZYGERRIAN_CHR_scintel ZYGERRIAN_CHR_alkema
+			}
+		}
+	}
+}

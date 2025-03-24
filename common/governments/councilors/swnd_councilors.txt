@@ -1,0 +1,509 @@
+# Councilor Documentation
+#
+# councilor_name_key = {
+#	possible = { }								Country scope triggers to evaluate if the council position is allowed. 
+#	leader_class = { }							Which leader classes can have this council position. Currently only used for the Recruit new Leader buttons. Default = none.
+#	is_leader_possible = { }					Leader scope triggers to evaluate if a leader can be assigned to this position.
+#	conditional_tooltip = "LOC_KEY"				Custom tooltip text shown for the requirements of the council position.
+#	civic = civic_imperial_cult					Civic that is required for this council position. Also used by UI. Default = none.
+#	custom_unlock_title	= "LOC_KEY"				Custom text shown instead of "UNLOCK_COUNCIL_POSITION_TOOLTIP for council positions without a civic"
+#	modifier = { }								Country Modifier, that is multiplied by assigned Leader's level.
+#	custom_tooltip = "LOC_KEY"					Custom tooltip text shown instead of the auto-generated modifier tooltip text of the council position.
+#	custom_tooltip_with_modifiers = "LOC_KEY"	Custom tooltip text shown in addition to the auto-generated modifier tooltip text of the council position.
+#	icon = "GFX_icon_name"						Icon used for the council position, if a civic is not specified.
+#	required = yes/no							Is this position forced to be on the council. Default = no
+# }
+
+# Grand Visir
+councilor_ruler_new_order = {
+	leader_class = { official commander }
+	is_leader_possible = {
+		OR = {
+			leader_class = official
+			leader_class = commander
+		}
+	}
+	civic = civic_new_order
+	modifier = {
+		country_edict_fund_add = 5
+		country_power_projection_influence_produces_add = 0.25
+	}
+}
+
+# Supreme Commander of Imperial Forces
+councilor_ruler_clone_wars_victor = {
+	leader_class = { commander }
+	is_leader_possible = { leader_class = commander }
+	civic = civic_clone_wars_victor
+	modifier = {
+		ship_fire_rate_mult = 0.01
+		ship_orbital_bombardment_mult = 0.02
+	}
+}
+
+councilor_rebel_sympathy = {
+	leader_class = { official commander scientist }
+	is_leader_possible = {
+		OR = {
+			leader_class = official
+			leader_class = commander
+			leader_class = scientist
+		}
+	}
+	civic = civic_rebel_sympathy
+	modifier = {
+		country_leader_pool_size = 1
+		leaders_upkeep_mult = -0.02
+	}
+}
+
+councilor_beacon_of_hope = {
+	leader_class = { official scientist commander }
+	is_leader_possible = {
+		OR = { 
+			leader_class = commander
+			leader_class = official
+			leader_class = scientist
+		}
+	}
+	civic = civic_beacon_of_hope
+	modifier = { 
+		planet_jobs_unity_produces_mult = 0.025
+	}
+}
+
+councilor_hutt_cartel = {
+	leader_class = { official }
+	is_leader_possible = { leader_class = official }
+	civic = civic_hutt_cartel 
+	modifier = { 
+		trade_value_mult = 0.05
+	}
+}
+
+councilor_mandalorian = {
+	leader_class = { official commander scientist }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = commander
+			leader_class = scientist
+		}
+	}
+	civic = civic_mandalorian
+	modifier = { 
+		ship_fire_rate_mult = 0.015
+		ships_upkeep_mult = -0.015
+	}
+}
+
+councilor_mandalorian_clans = {
+	leader_class = { official commander scientist }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = commander
+			leader_class = scientist
+		}
+	}
+	civic = civic_mandalorian_clans
+	modifier = {
+		country_alloys_produces_mult = 0.01
+	}
+}
+
+councilor_mandalorian_khanate = {
+	leader_class = { official commander }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = commander
+		}
+	}
+	civic = civic_mandalorian_khanate
+	modifier = { 
+		ship_fire_rate_mult = 0.015
+		ship_orbital_bombardment_mult = 0.02
+	}
+}
+
+councilor_mandalorian_creed = {
+	leader_class = { official commander scientist }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = commander
+			leader_class = scientist
+		}
+	}
+	civic = civic_mandalorian_creed
+	modifier = { 
+		country_unity_produces_mult = 0.02
+	}
+}
+
+councilor_mandalorian_boba = {
+	leader_class = { official commander }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = commander
+		}
+	}
+	civic = civic_mandalorian_boba
+	modifier = { 
+		espionage_hostile_operation_cost_mult = 0.05
+		espionage_hostile_operation_difficulty_mult = 0.025
+		local_trade_protection_add = 1
+	}
+}
+
+councilor_swnd_criminal_heritage = {
+	leader_class = { official commander }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = commander
+		}
+	}
+	civic = civic_swnd_criminal_heritage
+	modifier = { }
+}
+
+councilor_corporate_sector = {
+	leader_class = { official }
+	is_leader_possible = { leader_class = official }
+	civic = civic_corporate_sector
+	modifier = { 
+		trade_value_mult = 0.05
+		leaders_upkeep_mult = -0.02
+	}
+}
+
+councilor_corellian = {
+	leader_class = { official scientist commander }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = scientist
+			leader_class = commander
+		}
+	}
+	civic = civic_corellian
+	modifier = { 
+		planet_researchers_produces_mult = 0.02
+	}
+}
+
+councilor_hapes_consortium = {
+	leader_class = { official commander }
+	is_leader_possible = {
+		OR = {
+			leader_class = official
+			leader_class = commander
+		}
+	}
+	civic = civic_hapes_consortium
+	modifier = { 
+		diplo_weight_naval_mult = 0.01
+	}
+}
+
+councilor_bothan_spies = {
+	leader_class = { official scientist commander }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = scientist
+			leader_class = commander
+		}
+	}
+	civic = civic_bothan_spies
+	modifier = { 
+		espionage_hostile_operation_cost_mult = -0.05
+		espionage_hostile_operation_difficulty_mult = 0.025
+	}
+}
+
+# Director of Economic Coordination
+councilor_confederate_remnant = {
+	leader_class = { official }
+	is_leader_possible = { leader_class = official }
+	civic = civic_confederate_remnant
+	modifier = {
+		pop_amenities_usage_mult = -0.02
+		planet_districts_upkeep_mult = -0.03
+	}
+}
+
+# Sepratist Warlord (Tion + CIS)
+councilor_clone_wars_loser = {
+	leader_class = { commander }
+	is_leader_possible = { leader_class = commander }
+	civic = civic_clone_wars_loser
+	modifier = {
+		ships_upkeep_mult = -0.02
+		armies_upkeep_mult = -0.02
+	}
+}
+
+councilor_trade_federation = {
+	leader_class = { official scientist }
+	is_leader_possible = {
+		OR = { 
+			leader_class = scientist
+			leader_class = official
+		}
+	}
+	civic = civic_trade_federation
+	modifier = {
+		planet_districts_upkeep_mult = -0.02
+		planet_buildings_upkeep_mult = -0.02
+	}
+}
+
+councilor_naval_tradition = { 
+	leader_class = { commander }
+	is_leader_possible = { leader_class = commander }
+	civic = civic_naval_tradition
+	modifier = { 
+		ship_starting_experience_add = 30
+		country_naval_cap_mult = 0.015
+	}
+}
+
+councilor_droid_uprising = { 
+	leader_class = { official scientist }
+	is_leader_possible = { 
+		OR = { 
+			leader_class = official
+			leader_class = scientist
+		}
+	}
+	civic = civic_droid_uprising
+	modifier = {
+		pop_happiness = 0.01
+		planet_jobs_unity_produces_mult = 0.01
+	}
+}
+
+councilor_banking_clan = { 
+	leader_class = { official }
+	is_leader_possible = { leader_class = official }
+	civic = civic_banking_clan
+	modifier = {
+		trade_value_mult = 0.02
+	}
+}
+
+councilor_rodian_scouts = { 
+	leader_class = { official commander }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = commander
+		}
+	}
+	civic = civic_rodian_scouts
+	modifier = {
+		starbase_outpost_cost_mult = -0.02
+		country_starbase_influence_cost_mult = -0.02
+	}
+}
+
+councilor_trandoshan_tribes = { 
+	leader_class = { commander }
+	is_leader_possible = { leader_class = commander }
+	civic = civic_trandoshan_tribes
+	modifier = {
+		species_leader_exp_gain = 0.025
+		councilor_exp_gain = 0.05
+	}
+}
+
+councilor_black_sun = { 
+	leader_class = { official }
+	is_leader_possible = { leader_class = official }
+	civic = civic_black_sun
+	modifier = { 
+		local_trade_protection_add = 1
+	}
+}
+
+councilor_twilek_rebels = {
+	leader_class = { official commander }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = commander
+		}
+	}
+	civic = civic_twilek_rebels
+	modifier = {
+		planet_stability_add = 0.02
+	}
+}
+
+councilor_survival_skills = { 
+	leader_class = { official commander scientist }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = commander
+			leader_class = scientist
+		}
+	}
+	civic = civic_survival_skills
+	modifier = { 
+		pop_amenities_usage_mult = -0.02
+	}
+}
+
+councilor_calamari_dynasty = { 
+	leader_class = { official commander scientist }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = commander
+			leader_class = scientist
+		}
+	}
+	civic = civic_calamari_dynasty
+	modifier = {
+		planet_stability_add = 1
+		country_edict_fund_add = 20
+	}
+}
+
+councilor_master_shipbuilders = { 
+	leader_class = { commander official scientist }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = scientist
+			leader_class = commander
+		}
+	}
+	civic = civic_master_shipbuilders
+	modifier = {
+		ship_starting_experience_add = 30
+		commander_exp_gain = 0.03
+	}
+}
+
+councilor_genetic_experiments = { 
+	leader_class = { scientist }
+	is_leader_possible = { leader_class = scientist }
+	civic = civic_genetic_experiments
+	modifier = {
+		pop_growth_speed = 0.01
+		modify_species_cost_mult = -0.10
+	}
+}
+
+councilor_chiss_houses = { 
+	leader_class = { official scientist commander }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = commander
+			leader_class = scientist
+		}
+	}
+	civic = civic_chiss_houses
+	modifier = {
+		empire_size_pops_mult = -0.02
+	}
+}
+
+councilor_mining_guild = { 
+	leader_class = { official scientist commander }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = commander
+			leader_class = scientist
+		}
+	}
+	civic = civic_mining_guild
+	modifier = { 
+		planet_miners_minerals_produces_mult = 0.02
+	}
+}
+
+councilor_banking_guild = { 
+	leader_class = { official scientist }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = scientist
+		}
+	}
+	civic = civic_banking_guild
+	modifier = {
+		trade_value_mult = 0.02
+	}
+}
+
+councilor_bounty_hunter_guild = { 
+	leader_class = { official scientist commander }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = commander
+			leader_class = scientist
+		}
+	}
+	civic = civic_bounty_hunter_guild
+	modifier = { }
+}
+
+councilor_underworld_guild = { 
+	leader_class = { official scientist commander }
+	is_leader_possible = {
+		OR = { 
+			leader_class = official
+			leader_class = commander
+			leader_class = scientist
+		}
+	}
+	civic = civic_underworld_guild
+	modifier = { }
+}
+
+councilor_hutt_elite = { 
+	leader_class = { official }
+	is_leader_possible = { leader_class = official }
+	civic = civic_hutt_elite
+	modifier = { 
+		planet_administrators_produces_mult = 0.02
+	}
+}
+
+councilor_idyllic_charm = { 
+	leader_class = { official }
+	is_leader_possible = { leader_class = official }
+	civic = civic_idyllic_charm
+	modifier = {
+		pop_amenities_usage_mult = -0.015
+	}
+}
+
+councilor_house_organa = { 
+	leader_class = { official }
+	is_leader_possible = { leader_class = official }
+	civic = civic_house_organa
+	modifier = { 
+		diplo_action_acceptance_add = 5
+		diplo_weight_delegate_mult = 0.01
+	}
+}
+
+councilor_swnd_crafters = { 
+	leader_class = { official }
+	is_leader_possible = { leader_class = official }
+	civic = civic_swnd_crafters
+	modifier = {
+		planet_jobs_worker_produces_mult = 0.02
+	}
+}

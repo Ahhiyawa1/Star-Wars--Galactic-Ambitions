@@ -1,0 +1,844 @@
+﻿Pantoran = {
+	randomized = no
+	ship_names = {
+		generic = {
+			PANTORAN_SHIP_mystic PANTORAN_SHIP_naiad PANTORAN_SHIP_nautilus PANTORAN_SHIP_nebula PANTORAN_SHIP_nimble PANTORAN_SHIP_north_star PANTORAN_SHIP_nymph PANTORAN_SHIP_obdurate PANTORAN_SHIP_ocean PANTORAN_SHIP_onward PANTORAN_SHIP_oracle PANTORAN_SHIP_paradox PANTORAN_SHIP_paragon PANTORAN_SHIP_pearl PANTORAN_SHIP_peregrine PANTORAN_SHIP_perseverance PANTORAN_SHIP_marksman PANTORAN_SHIP_rifleman PANTORAN_SHIP_sniper PANTORAN_SHIP_trident PANTORAN_SHIP_trumpet PANTORAN_SHIP_truncheon PANTORAN_SHIP_typhoon PANTORAN_SHIP_undaunted PANTORAN_SHIP_venture PANTORAN_SHIP_versatile PANTORAN_SHIP_vigorous PANTORAN_SHIP_viper PANTORAN_SHIP_vivacious PANTORAN_SHIP_winger PANTORAN_SHIP_wizard PANTORAN_SHIP_wyvern PANTORAN_SHIP_wolfhound PANTORAN_SHIP_devastator PANTORAN_SHIP_warhammer PANTORAN_SHIP_retribution PANTORAN_SHIP_senator PANTORAN_SHIP_tornado PANTORAN_SHIP_infinity PANTORAN_SHIP_usurper PANTORAN_SHIP_utmost PANTORAN_SHIP_valorous PANTORAN_SHIP_whirlwind PANTORAN_SHIP_athena PANTORAN_SHIP_artemis PANTORAN_SHIP_vigilance PANTORAN_SHIP_decimator PANTORAN_SHIP_indomitable PANTORAN_SHIP_goliath PANTORAN_SHIP_sentinel PANTORAN_SHIP_brilliant PANTORAN_SHIP_blazer PANTORAN_SHIP_audacity PANTORAN_SHIP_gallant PANTORAN_SHIP_nova PANTORAN_SHIP_shadow PANTORAN_SHIP_allegiance PANTORAN_SHIP_challenger PANTORAN_SHIP_fearless PANTORAN_SHIP_protector PANTORAN_SHIP_guardian PANTORAN_SHIP_victorious PANTORAN_SHIP_courageous PANTORAN_SHIP_defiance PANTORAN_SHIP_valorous PANTORAN_SHIP_azrael PANTORAN_SHIP_adamantine PANTORAN_SHIP_aralanni PANTORAN_SHIP_ardent_iv PANTORAN_SHIP_armistice PANTORAN_SHIP_avengeance PANTORAN_SHIP_ballista PANTORAN_SHIP_bloodstripe PANTORAN_SHIP_borealis PANTORAN_SHIP_caelus PANTORAN_SHIP_caravan PANTORAN_SHIP_chaf_envoy PANTORAN_SHIP_commenor PANTORAN_SHIP_corbantis PANTORAN_SHIP_corellia PANTORAN_SHIP_courteous PANTORAN_SHIP_dauntless PANTORAN_SHIP_defiant PANTORAN_SHIP_deliverance PANTORAN_SHIP_derapha PANTORAN_SHIP_devout PANTORAN_SHIP_empirical PANTORAN_SHIP_empyrean PANTORAN_SHIP_era_daimanos PANTORAN_SHIP_eye_of_the_storm PANTORAN_SHIP_farstar PANTORAN_SHIP_fastblast PANTORAN_SHIP_galaaron PANTORAN_SHIP_garrote PANTORAN_SHIP_gilagimar PANTORAN_SHIP_halleck PANTORAN_SHIP_hunter PANTORAN_SHIP_intractable PANTORAN_SHIP_ithor_lady PANTORAN_SHIP_justice_crusader PANTORAN_SHIP_kana_s_steel PANTORAN_SHIP_lathir PANTORAN_SHIP_liberty PANTORAN_SHIP_lillibanca PANTORAN_SHIP_maelstrom PANTORAN_SHIP_malachite_scent PANTORAN_SHIP_mercy PANTORAN_SHIP_myrkos PANTORAN_SHIP_nebula_chaser PANTORAN_SHIP_nova PANTORAN_SHIP_nova_viper PANTORAN_SHIP_obedience PANTORAN_SHIP_olemp PANTORAN_SHIP_pegasus PANTORAN_SHIP_perspicacity PANTORAN_SHIP_phalanx PANTORAN_SHIP_plooriod_bodkin PANTORAN_SHIP_predominance PANTORAN_SHIP_prosperity PANTORAN_SHIP_purity PANTORAN_SHIP_recalcitrant PANTORAN_SHIP_red_nova PANTORAN_SHIP_redma PANTORAN_SHIP_reliable PANTORAN_SHIP_reliant PANTORAN_SHIP_reluctant PANTORAN_SHIP_republic PANTORAN_SHIP_republic_s_return PANTORAN_SHIP_resolve PANTORAN_SHIP_respectable PANTORAN_SHIP_revenge PANTORAN_SHIP_shadowblade PANTORAN_SHIP_spritespray PANTORAN_SHIP_star_dream PANTORAN_SHIP_stark_wing PANTORAN_SHIP_starveil PANTORAN_SHIP_undying PANTORAN_SHIP_vaathkree PANTORAN_SHIP_vainglorious PANTORAN_SHIP_valiant PANTORAN_SHIP_valor PANTORAN_SHIP_vanquisher PANTORAN_SHIP_vinsor PANTORAN_SHIP_visseon PANTORAN_SHIP_wennis PANTORAN_SHIP_yavin_s_glory PANTORAN_SHIP_moldy_crow PANTORAN_SHIP_raven_s_claw PANTORAN_SHIP_agile PANTORAN_SHIP_archer PANTORAN_SHIP_arrow PANTORAN_SHIP_bruiser PANTORAN_SHIP_cherub PANTORAN_SHIP_chimera PANTORAN_SHIP_claymore PANTORAN_SHIP_broadsword PANTORAN_SHIP_battleaxe PANTORAN_SHIP_crossbow PANTORAN_SHIP_cutlass PANTORAN_SHIP_deterrent PANTORAN_SHIP_errant PANTORAN_SHIP_faithful PANTORAN_SHIP_fierce PANTORAN_SHIP_gladius PANTORAN_SHIP_longbow PANTORAN_SHIP_grappler PANTORAN_SHIP_hammer PANTORAN_SHIP_vampire PANTORAN_SHIP_velox PANTORAN_SHIP_venator PANTORAN_SHIP_vendetta PANTORAN_SHIP_venerable PANTORAN_SHIP_venomous PANTORAN_SHIP_taciturn PANTORAN_SHIP_supreme PANTORAN_SHIP_success PANTORAN_SHIP_shredder PANTORAN_SHIP_seraph PANTORAN_SHIP_serpent PANTORAN_SHIP_spitfire PANTORAN_SHIP_stalker PANTORAN_SHIP_stratagem PANTORAN_SHIP_scimitar PANTORAN_SHIP_scorcher PANTORAN_SHIP_scourge PANTORAN_SHIP_scythe PANTORAN_SHIP_revenant PANTORAN_SHIP_redoubtable PANTORAN_SHIP_raptor PANTORAN_SHIP_reaver PANTORAN_SHIP_prodigal PANTORAN_SHIP_rapier PANTORAN_SHIP_prudent PANTORAN_SHIP_persistent PANTORAN_SHIP_peerless PANTORAN_SHIP_myrmidon PANTORAN_SHIP_indignant PANTORAN_SHIP_javelin PANTORAN_SHIP_knight PANTORAN_SHIP_starwolf PANTORAN_SHIP_bonaventure PANTORAN_SHIP_adventure PANTORAN_SHIP_boxer PANTORAN_SHIP_buccaneer PANTORAN_SHIP_cavalier PANTORAN_SHIP_celestial PANTORAN_SHIP_chariot PANTORAN_SHIP_comet PANTORAN_SHIP_crucible PANTORAN_SHIP_cyclone PANTORAN_SHIP_decisive PANTORAN_SHIP_dexterous PANTORAN_SHIP_diadem PANTORAN_SHIP_earnest PANTORAN_SHIP_eclipse PANTORAN_SHIP_forger PANTORAN_SHIP_fortune PANTORAN_SHIP_gauntlet PANTORAN_SHIP_griffin PANTORAN_SHIP_horizon PANTORAN_SHIP_hotspur PANTORAN_SHIP_hurricane PANTORAN_SHIP_hussar PANTORAN_SHIP_jubilant PANTORAN_SHIP_lancer PANTORAN_SHIP_lightning PANTORAN_SHIP_magic PANTORAN_SHIP_mediator PANTORAN_SHIP_mermaid PANTORAN_SHIP_meteor PANTORAN_SHIP_minstrel PANTORAN_SHIP_miranda PANTORAN_SHIP_mustang PANTORAN_SHIP_sharpshooter PANTORAN_SHIP_cyclops PANTORAN_SHIP_centaur PANTORAN_SHIP_adversary PANTORAN_SHIP_assassin PANTORAN_SHIP_dagger PANTORAN_SHIP_daring PANTORAN_SHIP_duty PANTORAN_SHIP_havoc PANTORAN_SHIP_hero PANTORAN_SHIP_hunter PANTORAN_SHIP_justice PANTORAN_SHIP_impeccable PANTORAN_SHIP_interceptor PANTORAN_SHIP_infernal PANTORAN_SHIP_loyal PANTORAN_SHIP_matchless PANTORAN_SHIP_mauler PANTORAN_SHIP_mayhem PANTORAN_SHIP_malice PANTORAN_SHIP_menace PANTORAN_SHIP_merciless PANTORAN_SHIP_mischief PANTORAN_SHIP_monarch PANTORAN_SHIP_patriot PANTORAN_SHIP_predator PANTORAN_SHIP_powerful PANTORAN_SHIP_punisher PANTORAN_SHIP_ravager PANTORAN_SHIP_reaper PANTORAN_SHIP_savage PANTORAN_SHIP_spiteful PANTORAN_SHIP_templar PANTORAN_SHIP_terminator PANTORAN_SHIP_terror PANTORAN_SHIP_thrasher PANTORAN_SHIP_minotaur PANTORAN_SHIP_manticore PANTORAN_SHIP_interdictor PANTORAN_SHIP_intruder PANTORAN_SHIP_hydra PANTORAN_SHIP_enfield PANTORAN_SHIP_harasser PANTORAN_SHIP_unbeaten PANTORAN_SHIP_werewolf PANTORAN_SHIP_zealous PANTORAN_SHIP_petulant PANTORAN_SHIP_phantom PANTORAN_SHIP_phoenix PANTORAN_SHIP_pike PANTORAN_SHIP_pursuer PANTORAN_SHIP_raider PANTORAN_SHIP_rainbow PANTORAN_SHIP_rapid PANTORAN_SHIP_redemption PANTORAN_SHIP_relentless PANTORAN_SHIP_rigorous PANTORAN_SHIP_robust PANTORAN_SHIP_sabre PANTORAN_SHIP_salvation PANTORAN_SHIP_sanguine PANTORAN_SHIP_scarab PANTORAN_SHIP_scepter PANTORAN_SHIP_sea_witch PANTORAN_SHIP_siren PANTORAN_SHIP_sorceress PANTORAN_SHIP_spearhead PANTORAN_SHIP_specter PANTORAN_SHIP_spirit PANTORAN_SHIP_splendid PANTORAN_SHIP_stallion PANTORAN_SHIP_stalwart PANTORAN_SHIP_steadfast PANTORAN_SHIP_strenuous PANTORAN_SHIP_superb PANTORAN_SHIP_supernova PANTORAN_SHIP_surprise PANTORAN_SHIP_swiftsure PANTORAN_SHIP_talent PANTORAN_SHIP_talisman PANTORAN_SHIP_talon PANTORAN_SHIP_taurus PANTORAN_SHIP_tenacious PANTORAN_SHIP_thunder_child PANTORAN_SHIP_thunderous PANTORAN_SHIP_tireless PANTORAN_SHIP_trenchant PANTORAN_SHIP_righteous PANTORAN_SHIP_acheron PANTORAN_SHIP_achilles PANTORAN_SHIP_agamemnon PANTORAN_SHIP_amphion PANTORAN_SHIP_aquilon PANTORAN_SHIP_argonaut PANTORAN_SHIP_argus PANTORAN_SHIP_ariel PANTORAN_SHIP_aurora PANTORAN_SHIP_avernus PANTORAN_SHIP_bacchus PANTORAN_SHIP_bucephalus PANTORAN_SHIP_calliope PANTORAN_SHIP_calypso PANTORAN_SHIP_castor PANTORAN_SHIP_charybdis PANTORAN_SHIP_circe PANTORAN_SHIP_cleopatra PANTORAN_SHIP_constantine PANTORAN_SHIP_cordelia PANTORAN_SHIP_cyrus PANTORAN_SHIP_damocles PANTORAN_SHIP_daedalus PANTORAN_SHIP_darius PANTORAN_SHIP_diomede PANTORAN_SHIP_dryad PANTORAN_SHIP_electra PANTORAN_SHIP_endymion PANTORAN_SHIP_erebus PANTORAN_SHIP_fenris PANTORAN_SHIP_freya PANTORAN_SHIP_gilgamesh PANTORAN_SHIP_gorgon PANTORAN_SHIP_halcyon PANTORAN_SHIP_hecate PANTORAN_SHIP_hector PANTORAN_SHIP_hesperus PANTORAN_SHIP_janus PANTORAN_SHIP_jason PANTORAN_SHIP_juno PANTORAN_SHIP_jupiter PANTORAN_SHIP_lancelot PANTORAN_SHIP_lazarus PANTORAN_SHIP_leander PANTORAN_SHIP_leonidas PANTORAN_SHIP_lysander PANTORAN_SHIP_maenad PANTORAN_SHIP_mars PANTORAN_SHIP_medea PANTORAN_SHIP_medusa PANTORAN_SHIP_menestheus PANTORAN_SHIP_mercury PANTORAN_SHIP_merlin PANTORAN_SHIP_minerva PANTORAN_SHIP_minos PANTORAN_SHIP_neptune PANTORAN_SHIP_nessus PANTORAN_SHIP_nestor PANTORAN_SHIP_nimrod PANTORAN_SHIP_niobe PANTORAN_SHIP_oberon PANTORAN_SHIP_odin PANTORAN_SHIP_ophelia PANTORAN_SHIP_orestes PANTORAN_SHIP_orpheus PANTORAN_SHIP_osiris PANTORAN_SHIP_pandora PANTORAN_SHIP_penelope PANTORAN_SHIP_persephone PANTORAN_SHIP_perseus PANTORAN_SHIP_phoebe PANTORAN_SHIP_pluto PANTORAN_SHIP_poseidon PANTORAN_SHIP_proteus PANTORAN_SHIP_pylades PANTORAN_SHIP_serapis PANTORAN_SHIP_stygian PANTORAN_SHIP_tantalus PANTORAN_SHIP_telemachus PANTORAN_SHIP_theseus PANTORAN_SHIP_thor PANTORAN_SHIP_trajan PANTORAN_SHIP_triton PANTORAN_SHIP_venus PANTORAN_SHIP_adamant PANTORAN_SHIP_ardent PANTORAN_SHIP_assail PANTORAN_SHIP_austere PANTORAN_SHIP_archon PANTORAN_SHIP_adroit PANTORAN_SHIP_aegis PANTORAN_SHIP_anchor PANTORAN_SHIP_corsair PANTORAN_SHIP_banshee PANTORAN_SHIP_enchantress PANTORAN_SHIP_eradicator PANTORAN_SHIP_tormentor PANTORAN_SHIP_legion PANTORAN_SHIP_reprisal PANTORAN_SHIP_aggressor PANTORAN_SHIP_assault PANTORAN_SHIP_eviscerator PANTORAN_SHIP_imperator PANTORAN_SHIP_excellence PANTORAN_SHIP_unrivalled PANTORAN_SHIP_warlord PANTORAN_SHIP_vengeance PANTORAN_SHIP_triumphant PANTORAN_SHIP_nemesis PANTORAN_SHIP_avenger PANTORAN_SHIP_champion PANTORAN_SHIP_conqueror PANTORAN_SHIP_crusader PANTORAN_SHIP_glory PANTORAN_SHIP_immortal PANTORAN_SHIP_judicator PANTORAN_SHIP_vanguard PANTORAN_SHIP_renown PANTORAN_SHIP_demolisher PANTORAN_SHIP_dragon PANTORAN_SHIP_executor PANTORAN_SHIP_furious PANTORAN_SHIP_gladiator PANTORAN_SHIP_magnificent PANTORAN_SHIP_ogre PANTORAN_SHIP_onslaught PANTORAN_SHIP_revenge PANTORAN_SHIP_vanquisher PANTORAN_SHIP_vehement PANTORAN_SHIP_basilisk PANTORAN_SHIP_tempest PANTORAN_SHIP_overlord PANTORAN_SHIP_warrior PANTORAN_SHIP_titan PANTORAN_SHIP_colossus PANTORAN_SHIP_prometheus PANTORAN_SHIP_nike PANTORAN_SHIP_paladin PANTORAN_SHIP_sovereign PANTORAN_SHIP_repulse PANTORAN_SHIP_majestic PANTORAN_SHIP_avatar PANTORAN_SHIP_behemoth PANTORAN_SHIP_centurion PANTORAN_SHIP_citadel PANTORAN_SHIP_katana PANTORAN_SHIP_kraken PANTORAN_SHIP_cerberus PANTORAN_SHIP_valkyrie
+		}
+		swp_bellator = {
+			PANTORAN_SHIP_dreadnought PANTORAN_SHIP_harbinger PANTORAN_SHIP_juggernaut PANTORAN_SHIP_leviathan PANTORAN_SHIP_hyperion PANTORAN_SHIP_galatea PANTORAN_SHIP_ambush PANTORAN_SHIP_vindicator
+		}
+		science = {
+			PANTORAN_SHIP_crescent PANTORAN_SHIP_diligent PANTORAN_SHIP_zephyr PANTORAN_SHIP_enigma PANTORAN_SHIP_conquistador PANTORAN_SHIP_scylla PANTORAN_SHIP_arbiter PANTORAN_SHIP_asperity PANTORAN_SHIP_eminence PANTORAN_SHIP_astute PANTORAN_SHIP_alacrity PANTORAN_SHIP_satyr PANTORAN_SHIP_prospero PANTORAN_SHIP_untiring PANTORAN_SHIP_zenith PANTORAN_SHIP_torch PANTORAN_SHIP_remembrance PANTORAN_SHIP_pilgrim PANTORAN_SHIP_trailblazer PANTORAN_SHIP_vagabond PANTORAN_SHIP_wayfarer PANTORAN_SHIP_ambassador PANTORAN_SHIP_emissary PANTORAN_SHIP_nomad PANTORAN_SHIP_pathfinder PANTORAN_SHIP_wanderer PANTORAN_SHIP_traveler
+		}
+		colonizer = {
+			PANTORAN_SHIP_godspeed PANTORAN_SHIP_prophecy PANTORAN_SHIP_manifest_destiny PANTORAN_SHIP_virtue PANTORAN_SHIP_potential PANTORAN_SHIP_expansion PANTORAN_SHIP_pioneer_spirit PANTORAN_SHIP_prosperity PANTORAN_SHIP_summit PANTORAN_SHIP_pinnacle PANTORAN_SHIP_seeder PANTORAN_SHIP_harvest PANTORAN_SHIP_demeter PANTORAN_SHIP_isis PANTORAN_SHIP_ceres PANTORAN_SHIP_exodus PANTORAN_SHIP_foundation PANTORAN_SHIP_scion PANTORAN_SHIP_progeny PANTORAN_SHIP_obligation PANTORAN_SHIP_purpose PANTORAN_SHIP_provider PANTORAN_SHIP_shining_city PANTORAN_SHIP_acquirer PANTORAN_SHIP_cultivator PANTORAN_SHIP_dawn_of_civilization PANTORAN_SHIP_purity PANTORAN_SHIP_community PANTORAN_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			PANTORAN_SHIP_godspeed PANTORAN_SHIP_prophecy PANTORAN_SHIP_manifest_destiny PANTORAN_SHIP_virtue PANTORAN_SHIP_potential PANTORAN_SHIP_expansion PANTORAN_SHIP_pioneer_spirit PANTORAN_SHIP_prosperity PANTORAN_SHIP_summit PANTORAN_SHIP_pinnacle PANTORAN_SHIP_seeder PANTORAN_SHIP_harvest PANTORAN_SHIP_isis PANTORAN_SHIP_ceres PANTORAN_SHIP_exodus PANTORAN_SHIP_foundation PANTORAN_SHIP_scion PANTORAN_SHIP_progeny PANTORAN_SHIP_obligation PANTORAN_SHIP_purpose PANTORAN_SHIP_provider PANTORAN_SHIP_shining_city PANTORAN_SHIP_acquirer PANTORAN_SHIP_cultivator PANTORAN_SHIP_dawn_of_civilization PANTORAN_SHIP_purity PANTORAN_SHIP_community PANTORAN_SHIP_brotherhood
+		}
+		constructor = {
+			PANTORAN_SHIP_industry PANTORAN_SHIP_assiduity PANTORAN_SHIP_effort PANTORAN_SHIP_laborer PANTORAN_SHIP_builder PANTORAN_SHIP_craftsman PANTORAN_SHIP_hard_hat PANTORAN_SHIP_progress PANTORAN_SHIP_engineer PANTORAN_SHIP_promise PANTORAN_SHIP_service PANTORAN_SHIP_shelter PANTORAN_SHIP_beast PANTORAN_SHIP_creator PANTORAN_SHIP_developer PANTORAN_SHIP_forger PANTORAN_SHIP_foundry PANTORAN_SHIP_factory PANTORAN_SHIP_anvil PANTORAN_SHIP_pillar PANTORAN_SHIP_architect PANTORAN_SHIP_accommodator PANTORAN_SHIP_ptah PANTORAN_SHIP_ilmarinen PANTORAN_SHIP_creidhne PANTORAN_SHIP_gobannus PANTORAN_SHIP_luchtaine PANTORAN_SHIP_goibniu PANTORAN_SHIP_vishvakarman PANTORAN_SHIP_tvastar PANTORAN_SHIP_ikenga PANTORAN_SHIP_qaynan PANTORAN_SHIP_ucuetis PANTORAN_SHIP_ogoun
+		}
+		transport = {
+			PANTORAN_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			PANTORAN_SHIP_spacegun_victory PANTORAN_SHIP_spacegun_success PANTORAN_SHIP_spacegun_supremacy PANTORAN_SHIP_spacegun_superior PANTORAN_SHIP_spacegun_adventure PANTORAN_SHIP_spacegun_ascendancy PANTORAN_SHIP_spacegun_paramount PANTORAN_SHIP_spacegun_preponderous PANTORAN_SHIP_spacegun_exemplary PANTORAN_SHIP_spacegun_eximious PANTORAN_SHIP_spacegun_pertinacity PANTORAN_SHIP_spacegun_acclaim PANTORAN_SHIP_spacegun_honor PANTORAN_SHIP_spacegun_renown PANTORAN_SHIP_spacegun_glory PANTORAN_SHIP_spacegun_superb PANTORAN_SHIP_spacegun_magnificence PANTORAN_SHIP_spacegun_majestic PANTORAN_SHIP_spacegun_splendor PANTORAN_SHIP_spacegun_paradigm PANTORAN_SHIP_spacegun_flawless PANTORAN_SHIP_spacegun_consummate PANTORAN_SHIP_spacegun_merit PANTORAN_SHIP_spacegun_perfection PANTORAN_SHIP_spacegun_virtue PANTORAN_SHIP_spacegun_advantage PANTORAN_SHIP_spacegun_rectitude PANTORAN_SHIP_spacegun_incorruptible PANTORAN_SHIP_spacegun_integrity PANTORAN_SHIP_spacegun_justice PANTORAN_SHIP_spacegun_probity PANTORAN_SHIP_spacegun_prudence PANTORAN_SHIP_spacegun_purity PANTORAN_SHIP_spacegun_resolute PANTORAN_SHIP_spacegun_dignity PANTORAN_SHIP_spacegun_distinction PANTORAN_SHIP_spacegun_excellence PANTORAN_SHIP_spacegun_faithful PANTORAN_SHIP_spacegun_discipline PANTORAN_SHIP_spacegun_steadfast PANTORAN_SHIP_spacegun_recompense PANTORAN_SHIP_spacegun_requiem PANTORAN_SHIP_spacegun_courage PANTORAN_SHIP_spacegun_valor PANTORAN_SHIP_spacegun_gallant PANTORAN_SHIP_spacegun_daring PANTORAN_SHIP_spacegun_constancy PANTORAN_SHIP_spacegun_perseverence PANTORAN_SHIP_spacegun_tenacity PANTORAN_SHIP_spacegun_sedulity PANTORAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			PANTORAN_SHIP_spacegun_victory PANTORAN_SHIP_spacegun_success PANTORAN_SHIP_spacegun_supremacy PANTORAN_SHIP_spacegun_superior PANTORAN_SHIP_spacegun_adventure PANTORAN_SHIP_spacegun_ascendancy PANTORAN_SHIP_spacegun_paramount PANTORAN_SHIP_spacegun_preponderous PANTORAN_SHIP_spacegun_exemplary PANTORAN_SHIP_spacegun_eximious PANTORAN_SHIP_spacegun_pertinacity PANTORAN_SHIP_spacegun_acclaim PANTORAN_SHIP_spacegun_honor PANTORAN_SHIP_spacegun_renown PANTORAN_SHIP_spacegun_glory PANTORAN_SHIP_spacegun_superb PANTORAN_SHIP_spacegun_magnificence PANTORAN_SHIP_spacegun_majestic PANTORAN_SHIP_spacegun_splendor PANTORAN_SHIP_spacegun_paradigm PANTORAN_SHIP_spacegun_flawless PANTORAN_SHIP_spacegun_consummate PANTORAN_SHIP_spacegun_merit PANTORAN_SHIP_spacegun_perfection PANTORAN_SHIP_spacegun_virtue PANTORAN_SHIP_spacegun_advantage PANTORAN_SHIP_spacegun_rectitude PANTORAN_SHIP_spacegun_incorruptible PANTORAN_SHIP_spacegun_integrity PANTORAN_SHIP_spacegun_justice PANTORAN_SHIP_spacegun_probity PANTORAN_SHIP_spacegun_prudence PANTORAN_SHIP_spacegun_purity PANTORAN_SHIP_spacegun_resolute PANTORAN_SHIP_spacegun_dignity PANTORAN_SHIP_spacegun_distinction PANTORAN_SHIP_spacegun_excellence PANTORAN_SHIP_spacegun_faithful PANTORAN_SHIP_spacegun_discipline PANTORAN_SHIP_spacegun_steadfast PANTORAN_SHIP_spacegun_recompense PANTORAN_SHIP_spacegun_requiem PANTORAN_SHIP_spacegun_courage PANTORAN_SHIP_spacegun_valor PANTORAN_SHIP_spacegun_gallant PANTORAN_SHIP_spacegun_daring PANTORAN_SHIP_spacegun_constancy PANTORAN_SHIP_spacegun_perseverence PANTORAN_SHIP_spacegun_tenacity PANTORAN_SHIP_spacegun_sedulity PANTORAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			PANTORAN_SHIP_spacegun_victory PANTORAN_SHIP_spacegun_success PANTORAN_SHIP_spacegun_supremacy PANTORAN_SHIP_spacegun_superior PANTORAN_SHIP_spacegun_adventure PANTORAN_SHIP_spacegun_ascendancy PANTORAN_SHIP_spacegun_paramount PANTORAN_SHIP_spacegun_preponderous PANTORAN_SHIP_spacegun_exemplary PANTORAN_SHIP_spacegun_eximious PANTORAN_SHIP_spacegun_pertinacity PANTORAN_SHIP_spacegun_acclaim PANTORAN_SHIP_spacegun_honor PANTORAN_SHIP_spacegun_renown PANTORAN_SHIP_spacegun_glory PANTORAN_SHIP_spacegun_superb PANTORAN_SHIP_spacegun_magnificence PANTORAN_SHIP_spacegun_majestic PANTORAN_SHIP_spacegun_splendor PANTORAN_SHIP_spacegun_paradigm PANTORAN_SHIP_spacegun_flawless PANTORAN_SHIP_spacegun_consummate PANTORAN_SHIP_spacegun_merit PANTORAN_SHIP_spacegun_perfection PANTORAN_SHIP_spacegun_virtue PANTORAN_SHIP_spacegun_advantage PANTORAN_SHIP_spacegun_rectitude PANTORAN_SHIP_spacegun_incorruptible PANTORAN_SHIP_spacegun_integrity PANTORAN_SHIP_spacegun_justice PANTORAN_SHIP_spacegun_probity PANTORAN_SHIP_spacegun_prudence PANTORAN_SHIP_spacegun_purity PANTORAN_SHIP_spacegun_resolute PANTORAN_SHIP_spacegun_dignity PANTORAN_SHIP_spacegun_distinction PANTORAN_SHIP_spacegun_excellence PANTORAN_SHIP_spacegun_faithful PANTORAN_SHIP_spacegun_discipline PANTORAN_SHIP_spacegun_steadfast PANTORAN_SHIP_spacegun_recompense PANTORAN_SHIP_spacegun_requiem PANTORAN_SHIP_spacegun_courage PANTORAN_SHIP_spacegun_valor PANTORAN_SHIP_spacegun_gallant PANTORAN_SHIP_spacegun_daring PANTORAN_SHIP_spacegun_constancy PANTORAN_SHIP_spacegun_perseverence PANTORAN_SHIP_spacegun_tenacity PANTORAN_SHIP_spacegun_sedulity PANTORAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			PANTORAN_SHIP_citadel PANTORAN_SHIP_albacore PANTORAN_SHIP_gateway PANTORAN_SHIP_vincent PANTORAN_SHIP_babylon PANTORAN_SHIP_caernavon PANTORAN_SHIP_acre PANTORAN_SHIP_pembroke PANTORAN_SHIP_acheron PANTORAN_SHIP_spithead PANTORAN_SHIP_halifax PANTORAN_SHIP_victoria PANTORAN_SHIP_chatham PANTORAN_SHIP_anchorage PANTORAN_SHIP_scapa_flow PANTORAN_SHIP_hampton_roads PANTORAN_SHIP_brooklyn PANTORAN_SHIP_norfolk PANTORAN_SHIP_newport PANTORAN_SHIP_guam PANTORAN_SHIP_pensacola PANTORAN_SHIP_vesuvius PANTORAN_SHIP_mckinley PANTORAN_SHIP_everest PANTORAN_SHIP_kilimanjaro PANTORAN_SHIP_aconcagua PANTORAN_SHIP_elbrus PANTORAN_SHIP_st__helens PANTORAN_SHIP_fuji PANTORAN_SHIP_olympus PANTORAN_SHIP_sinai PANTORAN_SHIP_ambrose PANTORAN_SHIP_bermuda PANTORAN_SHIP_farpoint PANTORAN_SHIP_blue_star PANTORAN_SHIP_olympus_mons PANTORAN_SHIP_tharsis PANTORAN_SHIP_syrtis PANTORAN_SHIP_blackham PANTORAN_SHIP_fletcher PANTORAN_SHIP_perry PANTORAN_SHIP_butakov PANTORAN_SHIP_morris PANTORAN_SHIP_moorsom PANTORAN_SHIP_hart PANTORAN_SHIP_hargood PANTORAN_SHIP_spruance PANTORAN_SHIP_tanaka PANTORAN_SHIP_halsey PANTORAN_SHIP_turner PANTORAN_SHIP_doria PANTORAN_SHIP_tirpitz PANTORAN_SHIP_cunningham PANTORAN_SHIP_jellicoe PANTORAN_SHIP_hipper PANTORAN_SHIP_beatty PANTORAN_SHIP_potemkin PANTORAN_SHIP_durham PANTORAN_SHIP_codrington PANTORAN_SHIP_milne PANTORAN_SHIP_laforey PANTORAN_SHIP_tyler PANTORAN_SHIP_hawke PANTORAN_SHIP_yonai PANTORAN_SHIP_pound PANTORAN_SHIP_king PANTORAN_SHIP_crutchley PANTORAN_SHIP_mountbatten PANTORAN_SHIP_kountouriotis PANTORAN_SHIP_kuznetsov PANTORAN_SHIP_essen PANTORAN_SHIP_kornilov PANTORAN_SHIP_suffren PANTORAN_SHIP_treville PANTORAN_SHIP_villeneuve PANTORAN_SHIP_grasse PANTORAN_SHIP_byng PANTORAN_SHIP_lezo
+		}
+		ion_cannon = {
+			PANTORAN_SHIP_bombard PANTORAN_SHIP_ballista PANTORAN_SHIP_catapult PANTORAN_SHIP_harpoon PANTORAN_SHIP_polybolos PANTORAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			PANTORAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			PANTORAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			PANTORAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			PANTORAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			PANTORAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			PANTORAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			PANTORAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			PANTORAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			PANTORAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			PANTORAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			PANTORAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			PANTORAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			PANTORAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			PANTORAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			PANTORAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			PANTORAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			PANTORAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			PANTORAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			PANTORAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			PANTORAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			PANTORAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			PANTORAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			PANTORAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			PANTORAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			PANTORAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			PANTORAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			PANTORAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			PANTORAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			PANTORAN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			PANTORAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			PANTORAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			PANTORAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			PANTORAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			PANTORAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			PANTORAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			PANTORAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			PANTORAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			PANTORAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			PANTORAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			PANTORAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			PANTORAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			PANTORAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			PANTORAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			PANTORAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			PANTORAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			PANTORAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			PANTORAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			PANTORAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			PANTORAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			PANTORAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			PANTORAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			PANTORAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			PANTORAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			PANTORAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			PANTORAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			PANTORAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			PANTORAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			PANTORAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			PANTORAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			PANTORAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			PANTORAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			PANTORAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			PANTORAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			PANTORAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			PANTORAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			PANTORAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			PANTORAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			PANTORAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			PANTORAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			PANTORAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			PANTORAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			PANTORAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			PANTORAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			PANTORAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			PANTORAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			PANTORAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			PANTORAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			PANTORAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			PANTORAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			PANTORAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			PANTORAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			PANTORAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			PANTORAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			PANTORAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			PANTORAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			PANTORAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			PANTORAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			PANTORAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			PANTORAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			PANTORAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			PANTORAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			PANTORAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			PANTORAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			PANTORAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = PANTORAN_FLEET_armada_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = PANTORAN_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = PANTORAN_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = PANTORAN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = PANTORAN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = PANTORAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = PANTORAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = PANTORAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = PANTORAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				PANTORAN_ARMY_sarc_a__gladiators_ PANTORAN_ARMY_sarc_b__widowmakers_ PANTORAN_ARMY_sarc_c__immortals_ PANTORAN_ARMY_sarc_d__berserkers_ PANTORAN_ARMY_sarc_e__assassins_ PANTORAN_ARMY_sarc_f__reapers_ PANTORAN_ARMY_sarc_g__nighthawks_ PANTORAN_ARMY_sarc_h__desperados_ PANTORAN_ARMY_sarc_i__grey_knights_ PANTORAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = PANTORAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = PANTORAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = PANTORAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = PANTORAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = PANTORAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = PANTORAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = PANTORAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = PANTORAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = PANTORAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = PANTORAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = PANTORAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = PANTORAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = PANTORAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = PANTORAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = PANTORAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = PANTORAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = PANTORAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = PANTORAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = PANTORAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = PANTORAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = PANTORAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = PANTORAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = PANTORAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = PANTORAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = PANTORAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = PANTORAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = PANTORAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = PANTORAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = PANTORAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = PANTORAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = PANTORAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = PANTORAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = PANTORAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = PANTORAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = PANTORAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = PANTORAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = PANTORAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = PANTORAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = PANTORAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = PANTORAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = PANTORAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = PANTORAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = PANTORAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = PANTORAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = PANTORAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = PANTORAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = PANTORAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = PANTORAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = PANTORAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = PANTORAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = PANTORAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = PANTORAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = PANTORAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = PANTORAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = PANTORAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = PANTORAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = PANTORAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = PANTORAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = PANTORAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = PANTORAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = PANTORAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = PANTORAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = PANTORAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = PANTORAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = PANTORAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = PANTORAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = PANTORAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = PANTORAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = PANTORAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = PANTORAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = PANTORAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = PANTORAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = PANTORAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = PANTORAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = PANTORAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = PANTORAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = PANTORAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = PANTORAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = PANTORAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = PANTORAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = PANTORAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = PANTORAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = PANTORAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = PANTORAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = PANTORAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = PANTORAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = PANTORAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = PANTORAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = PANTORAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = PANTORAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = PANTORAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = PANTORAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = PANTORAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = PANTORAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = PANTORAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = PANTORAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = PANTORAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = PANTORAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = PANTORAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = PANTORAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = PANTORAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = PANTORAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = PANTORAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = PANTORAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = PANTORAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = PANTORAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = PANTORAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = PANTORAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = PANTORAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = PANTORAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = PANTORAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = PANTORAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = PANTORAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = PANTORAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = PANTORAN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = PANTORAN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = PANTORAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = PANTORAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = PANTORAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = PANTORAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = PANTORAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = PANTORAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = PANTORAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = PANTORAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = PANTORAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = PANTORAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = PANTORAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = PANTORAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = PANTORAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = PANTORAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = PANTORAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = PANTORAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = PANTORAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				PANTORAN_CHR_bail PANTORAN_CHR_ylenic PANTORAN_CHR_kel PANTORAN_CHR_gunn PANTORAN_CHR_gregory PANTORAN_CHR_abraxis PANTORAN_CHR_jonas PANTORAN_CHR_xerda PANTORAN_CHR_carth PANTORAN_CHR_kir PANTORAN_CHR_mebba PANTORAN_CHR_dagos PANTORAN_CHR_adam PANTORAN_CHR_kyle PANTORAN_CHR_forren PANTORAN_CHR_malcolm PANTORAN_CHR_jeho PANTORAN_CHR_lee PANTORAN_CHR_griggs PANTORAN_CHR_milo PANTORAN_CHR_aeron PANTORAN_CHR_byrec PANTORAN_CHR_strata PANTORAN_CHR_lancer PANTORAN_CHR_zeak PANTORAN_CHR_niuk PANTORAN_CHR_lavidean PANTORAN_CHR_tanizandar PANTORAN_CHR_japla PANTORAN_CHR_aran PANTORAN_CHR_rail PANTORAN_CHR_zeven PANTORAN_CHR_yakown PANTORAN_CHR_sibar PANTORAN_CHR_sair PANTORAN_CHR_klai PANTORAN_CHR_jonas PANTORAN_CHR_imay PANTORAN_CHR_traest PANTORAN_CHR_simo PANTORAN_CHR_carth PANTORAN_CHR_riyan PANTORAN_CHR_magnus PANTORAN_CHR_boceta PANTORAN_CHR_agnook PANTORAN_CHR_silus PANTORAN_CHR_rowan PANTORAN_CHR_coren PANTORAN_CHR_jett PANTORAN_CHR_linth PANTORAN_CHR_annor PANTORAN_CHR_ulas PANTORAN_CHR_fenn PANTORAN_CHR_tal PANTORAN_CHR_plo PANTORAN_CHR_torin PANTORAN_CHR_imay PANTORAN_CHR_boone PANTORAN_CHR_davith PANTORAN_CHR_jorgen PANTORAN_CHR_bertos PANTORAN_CHR_ress PANTORAN_CHR_malius PANTORAN_CHR_kale PANTORAN_CHR_cregan PANTORAN_CHR_galen PANTORAN_CHR_zekk PANTORAN_CHR_jinn_tu PANTORAN_CHR_jaryn PANTORAN_CHR_gentti PANTORAN_CHR_yu_sien PANTORAN_CHR_akela PANTORAN_CHR_arslan PANTORAN_CHR_sidias PANTORAN_CHR_haken PANTORAN_CHR_biran PANTORAN_CHR_vidown PANTORAN_CHR_ares PANTORAN_CHR_ithan PANTORAN_CHR_cul_utaan PANTORAN_CHR_thoja PANTORAN_CHR_cron PANTORAN_CHR_mossi PANTORAN_CHR_abric PANTORAN_CHR_darg PANTORAN_CHR_gaman PANTORAN_CHR_naiad PANTORAN_CHR_herub PANTORAN_CHR_marius PANTORAN_CHR_torkin PANTORAN_CHR_caton PANTORAN_CHR_kane PANTORAN_CHR_versita PANTORAN_CHR_cric PANTORAN_CHR_foxdi PANTORAN_CHR_montacca PANTORAN_CHR_jospi PANTORAN_CHR_baz PANTORAN_CHR_kam PANTORAN_CHR_erek PANTORAN_CHR_arslan PANTORAN_CHR_lerak PANTORAN_CHR_morla PANTORAN_CHR_baxter PANTORAN_CHR_talan PANTORAN_CHR_thion PANTORAN_CHR_kannon PANTORAN_CHR_corsair PANTORAN_CHR_caster PANTORAN_CHR_elden PANTORAN_CHR_faelgrom PANTORAN_CHR_jack PANTORAN_CHR_raltharan PANTORAN_CHR_flash PANTORAN_CHR_waseem PANTORAN_CHR_bendak PANTORAN_CHR_kaz PANTORAN_CHR_montileu PANTORAN_CHR_gonoga PANTORAN_CHR_silus PANTORAN_CHR_galven PANTORAN_CHR_vincenzo PANTORAN_CHR_ric PANTORAN_CHR_rebar PANTORAN_CHR_jebediah PANTORAN_CHR_aramil PANTORAN_CHR_abraxis PANTORAN_CHR_delmi PANTORAN_CHR_caalin PANTORAN_CHR_rassth PANTORAN_CHR_adorn PANTORAN_CHR_cyrus PANTORAN_CHR_zhar_khan PANTORAN_CHR_adam PANTORAN_CHR_predor PANTORAN_CHR_tarlson PANTORAN_CHR_boaz PANTORAN_CHR_bradley PANTORAN_CHR_gunn PANTORAN_CHR_raltharan PANTORAN_CHR_zerrid PANTORAN_CHR_bobecc PANTORAN_CHR_jelantos PANTORAN_CHR_jephego PANTORAN_CHR_svante PANTORAN_CHR_tesvalo PANTORAN_CHR_aeon PANTORAN_CHR_dekar PANTORAN_CHR_jean_francois PANTORAN_CHR_elen PANTORAN_CHR_han PANTORAN_CHR_owen PANTORAN_CHR_biggs PANTORAN_CHR_rune PANTORAN_CHR_lott PANTORAN_CHR_daultay PANTORAN_CHR_lok PANTORAN_CHR_mar PANTORAN_CHR_gilramos PANTORAN_CHR_siv PANTORAN_CHR_zill PANTORAN_CHR_hath PANTORAN_CHR_aruteous PANTORAN_CHR_jull PANTORAN_CHR_sil PANTORAN_CHR_hallion PANTORAN_CHR_gap PANTORAN_CHR_palfa PANTORAN_CHR_sib PANTORAN_CHR_aito PANTORAN_CHR_sentepeth PANTORAN_CHR_kund PANTORAN_CHR_harro PANTORAN_CHR_hask PANTORAN_CHR_paw PANTORAN_CHR_brehg PANTORAN_CHR_reya PANTORAN_CHR_gode PANTORAN_CHR_nap PANTORAN_CHR_lufa PANTORAN_CHR_yee PANTORAN_CHR_geph PANTORAN_CHR_lik PANTORAN_CHR_gunaray PANTORAN_CHR_igren PANTORAN_CHR_dif PANTORAN_CHR_klewer PANTORAN_CHR_kuto PANTORAN_CHR_smeer PANTORAN_CHR_helb PANTORAN_CHR_toat PANTORAN_CHR_teek PANTORAN_CHR_jeek PANTORAN_CHR_orrin PANTORAN_CHR_veor PANTORAN_CHR_dak_on PANTORAN_CHR_nozabuiba PANTORAN_CHR_gama PANTORAN_CHR_budmle PANTORAN_CHR_proh_ven PANTORAN_CHR_salitt PANTORAN_CHR_vigro PANTORAN_CHR_rers PANTORAN_CHR_desson PANTORAN_CHR_cathan PANTORAN_CHR_dru PANTORAN_CHR_tunjas PANTORAN_CHR_borlo PANTORAN_CHR_krett PANTORAN_CHR_ablund PANTORAN_CHR_aach PANTORAN_CHR_aagon PANTORAN_CHR_aalto PANTORAN_CHR_aambler PANTORAN_CHR_abadaner PANTORAN_CHR_aban PANTORAN_CHR_abbus_kelo PANTORAN_CHR_acan PANTORAN_CHR_ace PANTORAN_CHR_adame PANTORAN_CHR_adar PANTORAN_CHR_arvel PANTORAN_CHR_addi_shon PANTORAN_CHR_addle PANTORAN_CHR_adelhard PANTORAN_CHR_aden PANTORAN_CHR_adon_larr PANTORAN_CHR_adraas PANTORAN_CHR_adrenas PANTORAN_CHR_adrick PANTORAN_CHR_adun PANTORAN_CHR_aeron PANTORAN_CHR_agareth PANTORAN_CHR_aggadeen PANTORAN_CHR_alric PANTORAN_CHR_airten PANTORAN_CHR_agrippa PANTORAN_CHR_ajaan PANTORAN_CHR_ajolin PANTORAN_CHR_akaste_vel PANTORAN_CHR_akobi PANTORAN_CHR_alain PANTORAN_CHR_alaric PANTORAN_CHR_albathius PANTORAN_CHR_alde PANTORAN_CHR_alec PANTORAN_CHR_alekam PANTORAN_CHR_alethios PANTORAN_CHR_alger PANTORAN_CHR_algrunar PANTORAN_CHR_ali_alann PANTORAN_CHR_alif PANTORAN_CHR_alim_gen PANTORAN_CHR_alin PANTORAN_CHR_alix PANTORAN_CHR_alkhara PANTORAN_CHR_allia PANTORAN_CHR_almak PANTORAN_CHR_almec PANTORAN_CHR_alon PANTORAN_CHR_alozen PANTORAN_CHR_alph PANTORAN_CHR_altaca PANTORAN_CHR_althon PANTORAN_CHR_alwynn PANTORAN_CHR_amberson PANTORAN_CHR_ament PANTORAN_CHR_amis PANTORAN_CHR_ammon PANTORAN_CHR_amzartho PANTORAN_CHR_anabar PANTORAN_CHR_anager PANTORAN_CHR_anarine PANTORAN_CHR_anathemos PANTORAN_CHR_andan PANTORAN_CHR_anders PANTORAN_CHR_ando PANTORAN_CHR_andra PANTORAN_CHR_andrew PANTORAN_CHR_andrid PANTORAN_CHR_andrik PANTORAN_CHR_andru PANTORAN_CHR_ar_al PANTORAN_CHR_angber PANTORAN_CHR_angral PANTORAN_CHR_anlen PANTORAN_CHR_anod PANTORAN_CHR_anselm PANTORAN_CHR_anskow PANTORAN_CHR_anson PANTORAN_CHR_adem PANTORAN_CHR_antone PANTORAN_CHR_antonin PANTORAN_CHR_anuli PANTORAN_CHR_appleton PANTORAN_CHR_arac PANTORAN_CHR_arakkus PANTORAN_CHR_aramis PANTORAN_CHR_arana PANTORAN_CHR_armen PANTORAN_CHR_arastide PANTORAN_CHR_arber PANTORAN_CHR_arcann PANTORAN_CHR_ardan PANTORAN_CHR_ardax PANTORAN_CHR_ardiff PANTORAN_CHR_ardle PANTORAN_CHR_ardmore PANTORAN_CHR_ardot PANTORAN_CHR_ardran PANTORAN_CHR_avinoam PANTORAN_CHR_ars PANTORAN_CHR_argona PANTORAN_CHR_argor PANTORAN_CHR_argos PANTORAN_CHR_arias PANTORAN_CHR_ariavos PANTORAN_CHR_arigo PANTORAN_CHR_aris PANTORAN_CHR_arkan PANTORAN_CHR_arkeld PANTORAN_CHR_arl PANTORAN_CHR_arljack PANTORAN_CHR_arlo PANTORAN_CHR_arlos PANTORAN_CHR_armatan PANTORAN_CHR_armitage PANTORAN_CHR_arnama PANTORAN_CHR_arnet PANTORAN_CHR_arno PANTORAN_CHR_arnothian PANTORAN_CHR_arnth PANTORAN_CHR_arnus PANTORAN_CHR_arrad PANTORAN_CHR_arratan PANTORAN_CHR_arrax PANTORAN_CHR_arric PANTORAN_CHR_artano PANTORAN_CHR_artok PANTORAN_CHR_arturo PANTORAN_CHR_arzanon PANTORAN_CHR_ash PANTORAN_CHR_ashaad PANTORAN_CHR_asirr PANTORAN_CHR_atali PANTORAN_CHR_atar PANTORAN_CHR_atmino PANTORAN_CHR_atren PANTORAN_CHR_augatta PANTORAN_CHR_avan PANTORAN_CHR_avanj PANTORAN_CHR_avarik PANTORAN_CHR_averdon PANTORAN_CHR_averen PANTORAN_CHR_averon PANTORAN_CHR_avers PANTORAN_CHR_aves PANTORAN_CHR_aviso PANTORAN_CHR_avrun PANTORAN_CHR_azkul PANTORAN_CHR_azrakel PANTORAN_CHR_ace PANTORAN_CHR_b_arin PANTORAN_CHR_bail PANTORAN_CHR_beel PANTORAN_CHR_bix PANTORAN_CHR_blix PANTORAN_CHR_boz PANTORAN_CHR_braedon PANTORAN_CHR_bryn PANTORAN_CHR_brixus PANTORAN_CHR_cal PANTORAN_CHR_cassian PANTORAN_CHR_chik PANTORAN_CHR_cinto PANTORAN_CHR_cumberlayne PANTORAN_CHR_darrus PANTORAN_CHR_djinn PANTORAN_CHR_druth PANTORAN_CHR_det PANTORAN_CHR_ethan PANTORAN_CHR_galiir PANTORAN_CHR_gez PANTORAN_CHR_haemon PANTORAN_CHR_jae PANTORAN_CHR_jagged PANTORAN_CHR_jess PANTORAN_CHR_jesper PANTORAN_CHR_jon PANTORAN_CHR_gathal PANTORAN_CHR_gideon PANTORAN_CHR_jefand PANTORAN_CHR_kel PANTORAN_CHR_koffi PANTORAN_CHR_lazlo PANTORAN_CHR_laetin PANTORAN_CHR_lesk PANTORAN_CHR_maxiron PANTORAN_CHR_neet PANTORAN_CHR_osak PANTORAN_CHR_pabel PANTORAN_CHR_paddy PANTORAN_CHR_peita PANTORAN_CHR_peema PANTORAN_CHR_pellas PANTORAN_CHR_prewb PANTORAN_CHR_raymus PANTORAN_CHR_raar PANTORAN_CHR_rage PANTORAN_CHR_rel PANTORAN_CHR_reez PANTORAN_CHR_ras PANTORAN_CHR_rixes PANTORAN_CHR_ruceba PANTORAN_CHR_seraph PANTORAN_CHR_sim PANTORAN_CHR_sio PANTORAN_CHR_y_ull PANTORAN_CHR_tavion PANTORAN_CHR_tavid PANTORAN_CHR_tendis PANTORAN_CHR_tev PANTORAN_CHR_tiberus PANTORAN_CHR_toob PANTORAN_CHR_tor PANTORAN_CHR_turon PANTORAN_CHR_villis PANTORAN_CHR_wain PANTORAN_CHR_wedge PANTORAN_CHR_wes PANTORAN_CHR_zeen PANTORAN_CHR_baboo PANTORAN_CHR_bachenkall PANTORAN_CHR_bafor PANTORAN_CHR_bagitt PANTORAN_CHR_bailey PANTORAN_CHR_bailie PANTORAN_CHR_bairn PANTORAN_CHR_bala_tik PANTORAN_CHR_balankin PANTORAN_CHR_balaro PANTORAN_CHR_balcomb PANTORAN_CHR_baldwin PANTORAN_CHR_baldy PANTORAN_CHR_balek PANTORAN_CHR_balisk PANTORAN_CHR_balkin PANTORAN_CHR_balko PANTORAN_CHR_ballala PANTORAN_CHR_ballard PANTORAN_CHR_ballax PANTORAN_CHR_bendodi PANTORAN_CHR_balog PANTORAN_CHR_balto PANTORAN_CHR_bams PANTORAN_CHR_bandor PANTORAN_CHR_boss PANTORAN_CHR_banley PANTORAN_CHR_banna PANTORAN_CHR_bannos PANTORAN_CHR_bant PANTORAN_CHR_banz PANTORAN_CHR_baradis PANTORAN_CHR_barak PANTORAN_CHR_baramak PANTORAN_CHR_barcel PANTORAN_CHR_bardo PANTORAN_CHR_barduun PANTORAN_CHR_barev PANTORAN_CHR_barich PANTORAN_CHR_barik PANTORAN_CHR_barkale PANTORAN_CHR_barksy PANTORAN_CHR_barleos PANTORAN_CHR_barlow PANTORAN_CHR_barney PANTORAN_CHR_barnley PANTORAN_CHR_baro PANTORAN_CHR_barry PANTORAN_CHR_barstead PANTORAN_CHR_bartam PANTORAN_CHR_barth PANTORAN_CHR_barthis PANTORAN_CHR_bas PANTORAN_CHR_bas_ton PANTORAN_CHR_bascome PANTORAN_CHR_basile PANTORAN_CHR_basso PANTORAN_CHR_bastian PANTORAN_CHR_bathens PANTORAN_CHR_batono PANTORAN_CHR_bator PANTORAN_CHR_billal PANTORAN_CHR_battz PANTORAN_CHR_baxton PANTORAN_CHR_baysden PANTORAN_CHR_baz PANTORAN_CHR_be PANTORAN_CHR_beau PANTORAN_CHR_beckar PANTORAN_CHR_becker PANTORAN_CHR_beckman PANTORAN_CHR_bedareux PANTORAN_CHR_bedoch PANTORAN_CHR_beebe PANTORAN_CHR_beez PANTORAN_CHR_beldiss PANTORAN_CHR_belkan PANTORAN_CHR_beller PANTORAN_CHR_bellis PANTORAN_CHR_belos PANTORAN_CHR_byzal PANTORAN_CHR_bzorn PANTORAN_CHR_biggs PANTORAN_CHR_bels PANTORAN_CHR_bemos PANTORAN_CHR_benay PANTORAN_CHR_benjo PANTORAN_CHR_benkin PANTORAN_CHR_benn PANTORAN_CHR_benni PANTORAN_CHR_benok PANTORAN_CHR_benthar PANTORAN_CHR_benton PANTORAN_CHR_bentro PANTORAN_CHR_boar PANTORAN_CHR_benx PANTORAN_CHR_bequesh PANTORAN_CHR_berandis PANTORAN_CHR_berethon PANTORAN_CHR_bergan PANTORAN_CHR_berix PANTORAN_CHR_bernie PANTORAN_CHR_bertrum PANTORAN_CHR_berusal PANTORAN_CHR_bewil PANTORAN_CHR_bex PANTORAN_CHR_billan PANTORAN_CHR_biril PANTORAN_CHR_birket PANTORAN_CHR_birok PANTORAN_CHR_black PANTORAN_CHR_blagotine PANTORAN_CHR_blaide PANTORAN_CHR_blainekie PANTORAN_CHR_bledsoe PANTORAN_CHR_bleeker PANTORAN_CHR_blleen PANTORAN_CHR_bloodory PANTORAN_CHR_bloodworthy PANTORAN_CHR_blount PANTORAN_CHR_blyes PANTORAN_CHR_boakie PANTORAN_CHR_boaz PANTORAN_CHR_bob PANTORAN_CHR_bol PANTORAN_CHR_bon PANTORAN_CHR_bonze PANTORAN_CHR_boonan PANTORAN_CHR_boran PANTORAN_CHR_boraso PANTORAN_CHR_borgin PANTORAN_CHR_borm PANTORAN_CHR_bornae PANTORAN_CHR_bort PANTORAN_CHR_bortrek PANTORAN_CHR_boshek PANTORAN_CHR_bourom PANTORAN_CHR_bouyard PANTORAN_CHR_braden PANTORAN_CHR_brady PANTORAN_CHR_bragan PANTORAN_CHR_braynor PANTORAN_CHR_brayso PANTORAN_CHR_breckon PANTORAN_CHR_breehld PANTORAN_CHR_brinn PANTORAN_CHR_brinnie PANTORAN_CHR_brint PANTORAN_CHR_brinton PANTORAN_CHR_brogon PANTORAN_CHR_brohmer PANTORAN_CHR_brolis PANTORAN_CHR_broll PANTORAN_CHR_brom PANTORAN_CHR_brooser PANTORAN_CHR_brothic PANTORAN_CHR_brovto PANTORAN_CHR_broysc PANTORAN_CHR_bruan PANTORAN_CHR_brucce PANTORAN_CHR_bruckman PANTORAN_CHR_bryint PANTORAN_CHR_brylin PANTORAN_CHR_bry PANTORAN_CHR_brysonbular PANTORAN_CHR_bulger PANTORAN_CHR_bun_delbur PANTORAN_CHR_burne PANTORAN_CHR_burque PANTORAN_CHR_burr PANTORAN_CHR_bursk PANTORAN_CHR_bursthed PANTORAN_CHR_byrga PANTORAN_CHR_byten PANTORAN_CHR_trey PANTORAN_CHR_lando PANTORAN_CHR_caaldra PANTORAN_CHR_cabaril PANTORAN_CHR_cabbel PANTORAN_CHR_caeleb PANTORAN_CHR_caerbellak PANTORAN_CHR_cafian PANTORAN_CHR_cag PANTORAN_CHR_cagaran PANTORAN_CHR_cam PANTORAN_CHR_camaran PANTORAN_CHR_camas PANTORAN_CHR_cardacs PANTORAN_CHR_cardy PANTORAN_CHR_careem PANTORAN_CHR_cargeloch PANTORAN_CHR_carhart PANTORAN_CHR_calron PANTORAN_CHR_calson PANTORAN_CHR_calum PANTORAN_CHR_calypho PANTORAN_CHR_cal PANTORAN_CHR_caladane PANTORAN_CHR_calaverous PANTORAN_CHR_carli PANTORAN_CHR_carlon PANTORAN_CHR_carlton PANTORAN_CHR_carn PANTORAN_CHR_carner PANTORAN_CHR_carness PANTORAN_CHR_carnor PANTORAN_CHR_carns PANTORAN_CHR_callef PANTORAN_CHR_callen PANTORAN_CHR_callow PANTORAN_CHR_calders PANTORAN_CHR_caleb PANTORAN_CHR_calo PANTORAN_CHR_calphayus PANTORAN_CHR_cathers PANTORAN_CHR_caton PANTORAN_CHR_cauley PANTORAN_CHR_cav PANTORAN_CHR_cav_saran PANTORAN_CHR_cavin PANTORAN_CHR_cryle PANTORAN_CHR_cavwol PANTORAN_CHR_cawelyn PANTORAN_CHR_cecius PANTORAN_CHR_cede PANTORAN_CHR_cemma PANTORAN_CHR_ceoloe PANTORAN_CHR_cerasi PANTORAN_CHR_cerik PANTORAN_CHR_charny PANTORAN_CHR_charol PANTORAN_CHR_charpp PANTORAN_CHR_charnoq PANTORAN_CHR_charnso PANTORAN_CHR_cestus PANTORAN_CHR_ch_arb PANTORAN_CHR_ch_gally PANTORAN_CHR_ch_lessan PANTORAN_CHR_cha PANTORAN_CHR_chael PANTORAN_CHR_challer PANTORAN_CHR_chambe PANTORAN_CHR_crlyn PANTORAN_CHR_chang PANTORAN_CHR_chappral PANTORAN_CHR_chef PANTORAN_CHR_chentu PANTORAN_CHR_chell PANTORAN_CHR_chessiq PANTORAN_CHR_chet PANTORAN_CHR_chiann PANTORAN_CHR_chicora PANTORAN_CHR_chatty PANTORAN_CHR_chayloss PANTORAN_CHR_chedaki PANTORAN_CHR_chiraneau PANTORAN_CHR_chiron PANTORAN_CHR_chorlen PANTORAN_CHR_chornarov PANTORAN_CHR_cody PANTORAN_CHR_clorr PANTORAN_CHR_clovis PANTORAN_CHR_clydno PANTORAN_CHR_clynn PANTORAN_CHR_cnorec PANTORAN_CHR_coburn PANTORAN_CHR_cobus PANTORAN_CHR_cogon PANTORAN_CHR_colin PANTORAN_CHR_collus PANTORAN_CHR_colsan PANTORAN_CHR_colten PANTORAN_CHR_colton PANTORAN_CHR_combo PANTORAN_CHR_conar PANTORAN_CHR_coorta PANTORAN_CHR_corin PANTORAN_CHR_coris PANTORAN_CHR_corlac PANTORAN_CHR_corso PANTORAN_CHR_corvan PANTORAN_CHR_corvin PANTORAN_CHR_corvis PANTORAN_CHR_corwin PANTORAN_CHR_corwyth PANTORAN_CHR_cote PANTORAN_CHR_cothron PANTORAN_CHR_cotin PANTORAN_CHR_coy PANTORAN_CHR_cravel PANTORAN_CHR_cravus PANTORAN_CHR_creb PANTORAN_CHR_creeve PANTORAN_CHR_corlis PANTORAN_CHR_crest PANTORAN_CHR_crimpler PANTORAN_CHR_crimson PANTORAN_CHR_crin PANTORAN_CHR_crion PANTORAN_CHR_criss PANTORAN_CHR_cristoff PANTORAN_CHR_crix PANTORAN_CHR_cronal PANTORAN_CHR_cronnin PANTORAN_CHR_cronus PANTORAN_CHR_d_ashewl PANTORAN_CHR_d_krn PANTORAN_CHR_d_lew PANTORAN_CHR_d_vox PANTORAN_CHR_d_vrosh PANTORAN_CHR_daal PANTORAN_CHR_dado PANTORAN_CHR_daek PANTORAN_CHR_dael PANTORAN_CHR_dahar PANTORAN_CHR_dahm PANTORAN_CHR_daiman PANTORAN_CHR_dainsom PANTORAN_CHR_daiv PANTORAN_CHR_dak PANTORAN_CHR_dakron PANTORAN_CHR_daksh PANTORAN_CHR_dalton PANTORAN_CHR_damarcus PANTORAN_CHR_damaris PANTORAN_CHR_damarus PANTORAN_CHR_dao PANTORAN_CHR_dapp PANTORAN_CHR_daquinn PANTORAN_CHR_dar PANTORAN_CHR_eesh PANTORAN_CHR_darda PANTORAN_CHR_dardan PANTORAN_CHR_dareb_ PANTORAN_CHR_dareg PANTORAN_CHR_darek PANTORAN_CHR_daren PANTORAN_CHR_dargus PANTORAN_CHR_daggath PANTORAN_CHR_darnov PANTORAN_CHR_daro PANTORAN_CHR_darok PANTORAN_CHR_darone PANTORAN_CHR_darr PANTORAN_CHR_darrik PANTORAN_CHR_darrok PANTORAN_CHR_darrst PANTORAN_CHR_darsin PANTORAN_CHR_darthyn PANTORAN_CHR_daruula PANTORAN_CHR_dash PANTORAN_CHR_datoo PANTORAN_CHR_dauren PANTORAN_CHR_davis PANTORAN_CHR_davon PANTORAN_CHR_davonn PANTORAN_CHR_davos PANTORAN_CHR_davrill PANTORAN_CHR_davrin PANTORAN_CHR_davu PANTORAN_CHR_dayja PANTORAN_CHR_daz PANTORAN_CHR_ramsis PANTORAN_CHR_bren PANTORAN_CHR_tan PANTORAN_CHR_jan PANTORAN_CHR_porro PANTORAN_CHR_cin PANTORAN_CHR_garven PANTORAN_CHR_cornelius PANTORAN_CHR_galen PANTORAN_CHR_dannl PANTORAN_CHR_ecclessis PANTORAN_CHR_debbikin PANTORAN_CHR_debeli PANTORAN_CHR_deegan PANTORAN_CHR_deerian PANTORAN_CHR_deevis PANTORAN_CHR_defain PANTORAN_CHR_deflaros PANTORAN_CHR_degoren PANTORAN_CHR_dehno PANTORAN_CHR_dekay PANTORAN_CHR_delevar PANTORAN_CHR_delfaros PANTORAN_CHR_dellin PANTORAN_CHR_dellocon PANTORAN_CHR_delpho PANTORAN_CHR_delquis PANTORAN_CHR_delsa PANTORAN_CHR_delund PANTORAN_CHR_delurin PANTORAN_CHR_demtri PANTORAN_CHR_den PANTORAN_CHR_denbar PANTORAN_CHR_dender PANTORAN_CHR_dendro PANTORAN_CHR_dendu PANTORAN_CHR_denetrus PANTORAN_CHR_denev PANTORAN_CHR_dengar PANTORAN_CHR_dengril PANTORAN_CHR_denid PANTORAN_CHR_denimoor PANTORAN_CHR_denin PANTORAN_CHR_denna PANTORAN_CHR_denner PANTORAN_CHR_dennik PANTORAN_CHR_deppo PANTORAN_CHR_derdram PANTORAN_CHR_derec PANTORAN_CHR_derish PANTORAN_CHR_derliff PANTORAN_CHR_dermeg PANTORAN_CHR_dermian PANTORAN_CHR_dern PANTORAN_CHR_dernas PANTORAN_CHR_derral PANTORAN_CHR_derrin PANTORAN_CHR_dervis PANTORAN_CHR_desanne PANTORAN_CHR_devoris PANTORAN_CHR_devotek PANTORAN_CHR_devron PANTORAN_CHR_devry PANTORAN_CHR_devsh PANTORAN_CHR_dewolf PANTORAN_CHR_dex PANTORAN_CHR_dezsetes PANTORAN_CHR_dhaiv PANTORAN_CHR_dhal PANTORAN_CHR_dindau PANTORAN_CHR_dindo PANTORAN_CHR_ding PANTORAN_CHR_dinge PANTORAN_CHR_dobbatek PANTORAN_CHR_dobberty PANTORAN_CHR_dobbs PANTORAN_CHR_dolan PANTORAN_CHR_dolgis PANTORAN_CHR_dolmen PANTORAN_CHR_dolo PANTORAN_CHR_dominaire PANTORAN_CHR_domm PANTORAN_CHR_donovan PANTORAN_CHR_donovarr PANTORAN_CHR_donsull PANTORAN_CHR_dorel_kan PANTORAN_CHR_dorgat PANTORAN_CHR_dorian PANTORAN_CHR_dorja PANTORAN_CHR_dorn PANTORAN_CHR_dorotsech PANTORAN_CHR_dorrick PANTORAN_CHR_dortho PANTORAN_CHR_downey PANTORAN_CHR_draado PANTORAN_CHR_draahg PANTORAN_CHR_dracen PANTORAN_CHR_drage PANTORAN_CHR_dragen PANTORAN_CHR_drake PANTORAN_CHR_drayk PANTORAN_CHR_drazin PANTORAN_CHR_drek PANTORAN_CHR_duno PANTORAN_CHR_dree PANTORAN_CHR_dreed PANTORAN_CHR_drefin PANTORAN_CHR_dregg PANTORAN_CHR_drelosyn PANTORAN_CHR_drexel PANTORAN_CHR_dreyf PANTORAN_CHR_drezzel PANTORAN_CHR_drizan PANTORAN_CHR_dro PANTORAN_CHR_droman PANTORAN_CHR_dromath PANTORAN_CHR_drowl PANTORAN_CHR_drufeys PANTORAN_CHR_drummond PANTORAN_CHR_dubeh PANTORAN_CHR_dunari PANTORAN_CHR_dunaub PANTORAN_CHR_deadeye PANTORAN_CHR_duncan PANTORAN_CHR_durhant PANTORAN_CHR_durmat PANTORAN_CHR_durpin PANTORAN_CHR_durrei PANTORAN_CHR_dyshotto PANTORAN_CHR_dzoun PANTORAN_CHR_eagle PANTORAN_CHR_eanjer PANTORAN_CHR_earl PANTORAN_CHR_earsh PANTORAN_CHR_eben PANTORAN_CHR_eddon PANTORAN_CHR_edease PANTORAN_CHR_edern PANTORAN_CHR_edgar PANTORAN_CHR_edikar PANTORAN_CHR_egoreg PANTORAN_CHR_egron PANTORAN_CHR_eistern PANTORAN_CHR_ejai PANTORAN_CHR_eker PANTORAN_CHR_ekh PANTORAN_CHR_ekisp PANTORAN_CHR_ekov PANTORAN_CHR_elarles PANTORAN_CHR_eriquel PANTORAN_CHR_eris PANTORAN_CHR_erl PANTORAN_CHR_erloi PANTORAN_CHR_esano PANTORAN_CHR_escalion PANTORAN_CHR_ezil PANTORAN_CHR_ezrim PANTORAN_CHR_ezra PANTORAN_CHR_ein PANTORAN_CHR_eislo PANTORAN_CHR_jake PANTORAN_CHR_jango PANTORAN_CHR_eli PANTORAN_CHR_eliasb PANTORAN_CHR_eligyn PANTORAN_CHR_elior PANTORAN_CHR_elis PANTORAN_CHR_elizhis PANTORAN_CHR_elkin PANTORAN_CHR_ellsworth PANTORAN_CHR_elmel PANTORAN_CHR_elmyo PANTORAN_CHR_elrodelsar PANTORAN_CHR_elsek PANTORAN_CHR_emil PANTORAN_CHR_emir PANTORAN_CHR_emmens PANTORAN_CHR_endicott PANTORAN_CHR_enfield PANTORAN_CHR_enger PANTORAN_CHR_engret PANTORAN_CHR_emmett PANTORAN_CHR_emory PANTORAN_CHR_eoaq PANTORAN_CHR_eph PANTORAN_CHR_erdan PANTORAN_CHR_erelut PANTORAN_CHR_ergast PANTORAN_CHR_ergel PANTORAN_CHR_ergeron PANTORAN_CHR_eric PANTORAN_CHR_erik PANTORAN_CHR_estopatrin PANTORAN_CHR_esture PANTORAN_CHR_estus PANTORAN_CHR_eth PANTORAN_CHR_ethen PANTORAN_CHR_etnam PANTORAN_CHR_etta PANTORAN_CHR_evad PANTORAN_CHR_evan PANTORAN_CHR_evax PANTORAN_CHR_evlen PANTORAN_CHR_evran PANTORAN_CHR_evun PANTORAN_CHR_evvin PANTORAN_CHR_ewane PANTORAN_CHR_exar PANTORAN_CHR_eyvind PANTORAN_CHR_falltower PANTORAN_CHR_falrey PANTORAN_CHR_falsta PANTORAN_CHR_falch PANTORAN_CHR_falco PANTORAN_CHR_faarl PANTORAN_CHR_fable PANTORAN_CHR_faedral PANTORAN_CHR_far PANTORAN_CHR_faradin PANTORAN_CHR_faraire PANTORAN_CHR_fardi PANTORAN_CHR_farn PANTORAN_CHR_farng PANTORAN_CHR_farnis PANTORAN_CHR_farsal PANTORAN_CHR_farseam PANTORAN_CHR_fatulaine PANTORAN_CHR_fauler PANTORAN_CHR_feldon PANTORAN_CHR_feldron PANTORAN_CHR_feleea PANTORAN_CHR_fenn PANTORAN_CHR_fenris PANTORAN_CHR_fenson PANTORAN_CHR_feras PANTORAN_CHR_ferav PANTORAN_CHR_ferdoin PANTORAN_CHR_fermin PANTORAN_CHR_ferob PANTORAN_CHR_ferren PANTORAN_CHR_ferrid PANTORAN_CHR_ferrig PANTORAN_CHR_ferrin PANTORAN_CHR_ferron PANTORAN_CHR_ferrus PANTORAN_CHR_falesh PANTORAN_CHR_falk PANTORAN_CHR_fardi PANTORAN_CHR_fassio PANTORAN_CHR_fatulaine PANTORAN_CHR_dannl PANTORAN_CHR_februs PANTORAN_CHR_janus PANTORAN_CHR_fixer PANTORAN_CHR_florn PANTORAN_CHR_grizz PANTORAN_CHR_frobb PANTORAN_CHR_fruun
+			}
+			first_names_female = {
+				PANTORAN_CHR_charratha PANTORAN_CHR_edaara PANTORAN_CHR_bella PANTORAN_CHR_callista PANTORAN_CHR_mara PANTORAN_CHR_seena PANTORAN_CHR_areta PANTORAN_CHR_cord PANTORAN_CHR_cyrinity PANTORAN_CHR_nile PANTORAN_CHR_kiyfi PANTORAN_CHR_yasmyn PANTORAN_CHR_satra PANTORAN_CHR_shehish PANTORAN_CHR_sarna PANTORAN_CHR_krava PANTORAN_CHR_roxis PANTORAN_CHR_jessa PANTORAN_CHR_aqua PANTORAN_CHR_maryna PANTORAN_CHR_essaj PANTORAN_CHR_looriw PANTORAN_CHR_teeana PANTORAN_CHR_raena PANTORAN_CHR_yula PANTORAN_CHR_vifi PANTORAN_CHR_vania PANTORAN_CHR_jeanida PANTORAN_CHR_aerena PANTORAN_CHR_nataya PANTORAN_CHR_bernarda PANTORAN_CHR_geela PANTORAN_CHR_lya PANTORAN_CHR_sirra PANTORAN_CHR_teris PANTORAN_CHR_terral PANTORAN_CHR_nile PANTORAN_CHR_riema PANTORAN_CHR_erri PANTORAN_CHR_shanna PANTORAN_CHR_lyra PANTORAN_CHR_pranda PANTORAN_CHR_luna PANTORAN_CHR_cally PANTORAN_CHR_viqi PANTORAN_CHR_hadriel PANTORAN_CHR_lora PANTORAN_CHR_selena PANTORAN_CHR_zana PANTORAN_CHR_tuija PANTORAN_CHR_railin PANTORAN_CHR_odona PANTORAN_CHR_shyon PANTORAN_CHR_walas PANTORAN_CHR_rylla PANTORAN_CHR_gara PANTORAN_CHR_delos PANTORAN_CHR_loretta PANTORAN_CHR_luhon PANTORAN_CHR_delinia PANTORAN_CHR_aama PANTORAN_CHR_shorya PANTORAN_CHR_melfina PANTORAN_CHR_davessi PANTORAN_CHR_larana PANTORAN_CHR_galatea PANTORAN_CHR_nola PANTORAN_CHR_syna PANTORAN_CHR_jauhzmynn PANTORAN_CHR_anen PANTORAN_CHR_orona PANTORAN_CHR_yana PANTORAN_CHR_zoras PANTORAN_CHR_ree PANTORAN_CHR_grace PANTORAN_CHR_tantema PANTORAN_CHR_myn PANTORAN_CHR_una PANTORAN_CHR_dalharil PANTORAN_CHR_losa PANTORAN_CHR_sovi PANTORAN_CHR_elaiza PANTORAN_CHR_vucora PANTORAN_CHR_ava PANTORAN_CHR_joi PANTORAN_CHR_stryka PANTORAN_CHR_tantema PANTORAN_CHR_shandra PANTORAN_CHR_kely PANTORAN_CHR_caileta PANTORAN_CHR_taia PANTORAN_CHR_siala PANTORAN_CHR_reki PANTORAN_CHR_maydla PANTORAN_CHR_bot PANTORAN_CHR_kiandra PANTORAN_CHR_xilaren PANTORAN_CHR_zulara PANTORAN_CHR_ren PANTORAN_CHR_karissa PANTORAN_CHR_roxis PANTORAN_CHR_haruko PANTORAN_CHR_jenna PANTORAN_CHR_liana PANTORAN_CHR_rale PANTORAN_CHR_megara PANTORAN_CHR_aria PANTORAN_CHR_akiva PANTORAN_CHR_nalah PANTORAN_CHR_erlem PANTORAN_CHR_nali PANTORAN_CHR_fallah PANTORAN_CHR_kotrana PANTORAN_CHR_aayla PANTORAN_CHR_kalira PANTORAN_CHR_arani PANTORAN_CHR_fama PANTORAN_CHR_lyyr PANTORAN_CHR_arcas PANTORAN_CHR_rane PANTORAN_CHR_nayru PANTORAN_CHR_zylas PANTORAN_CHR_vexa PANTORAN_CHR_kana PANTORAN_CHR_beru
+			}
+			second_names = {
+				PANTORAN_CHR_elysar PANTORAN_CHR_tisa PANTORAN_CHR_wahia PANTORAN_CHR_wezz PANTORAN_CHR_unic PANTORAN_CHR_tiovata PANTORAN_CHR_nakcohh PANTORAN_CHR_vitaan PANTORAN_CHR_mefrid PANTORAN_CHR_daklan PANTORAN_CHR_kenzee PANTORAN_CHR_joben PANTORAN_CHR_thegas PANTORAN_CHR_moryne PANTORAN_CHR_holgor PANTORAN_CHR_ijaaz PANTORAN_CHR_tromans PANTORAN_CHR_sprax PANTORAN_CHR_knesos PANTORAN_CHR_magnus PANTORAN_CHR_lasek PANTORAN_CHR_artis PANTORAN_CHR_pax PANTORAN_CHR_corso PANTORAN_CHR_fallon PANTORAN_CHR_gundo PANTORAN_CHR_ruana PANTORAN_CHR_fremlin PANTORAN_CHR_thont PANTORAN_CHR_creel PANTORAN_CHR_rar PANTORAN_CHR_dusat PANTORAN_CHR_kessler PANTORAN_CHR_shaia PANTORAN_CHR_el_theriam PANTORAN_CHR_vanmeer PANTORAN_CHR_vrieska PANTORAN_CHR_calway PANTORAN_CHR_yamaguchi PANTORAN_CHR_riggers PANTORAN_CHR_brower PANTORAN_CHR_fash PANTORAN_CHR_nalto PANTORAN_CHR_stryder PANTORAN_CHR_dubreas PANTORAN_CHR_colsan PANTORAN_CHR_terrek PANTORAN_CHR_solon PANTORAN_CHR_merquise PANTORAN_CHR_varn PANTORAN_CHR_basai PANTORAN_CHR_froud PANTORAN_CHR_addacess PANTORAN_CHR_elysar PANTORAN_CHR_durgen PANTORAN_CHR_slahlvo PANTORAN_CHR_remex PANTORAN_CHR_madowki PANTORAN_CHR_hayes PANTORAN_CHR_ne PANTORAN_CHR_dago PANTORAN_CHR_greenback PANTORAN_CHR_stithta PANTORAN_CHR_ker PANTORAN_CHR_driet PANTORAN_CHR_klakk PANTORAN_CHR_reed PANTORAN_CHR_lefex PANTORAN_CHR_minn PANTORAN_CHR_irokini PANTORAN_CHR_roye PANTORAN_CHR_danakar PANTORAN_CHR_forin PANTORAN_CHR_glopio PANTORAN_CHR_shenuri PANTORAN_CHR_corcer PANTORAN_CHR_ordo PANTORAN_CHR_wan PANTORAN_CHR_tagratt PANTORAN_CHR_golladio PANTORAN_CHR_adramcsia PANTORAN_CHR_jetberg PANTORAN_CHR_noth PANTORAN_CHR_taske PANTORAN_CHR_komo PANTORAN_CHR_styles PANTORAN_CHR_angavel PANTORAN_CHR_tyrnith PANTORAN_CHR_yavoog PANTORAN_CHR_kelbier PANTORAN_CHR_racto PANTORAN_CHR_degor PANTORAN_CHR_tisa PANTORAN_CHR_magre PANTORAN_CHR_soylon PANTORAN_CHR_lerann PANTORAN_CHR_chro PANTORAN_CHR_finn PANTORAN_CHR_blackmoor PANTORAN_CHR_hwang PANTORAN_CHR_vekarr PANTORAN_CHR_thegas PANTORAN_CHR_amon PANTORAN_CHR_thiddex PANTORAN_CHR_durgen PANTORAN_CHR_selkayim PANTORAN_CHR_gilder PANTORAN_CHR_dhuramav PANTORAN_CHR_kodd PANTORAN_CHR_morin PANTORAN_CHR_kobylarz PANTORAN_CHR_tade PANTORAN_CHR_solman PANTORAN_CHR_bintaghr PANTORAN_CHR_marclonus PANTORAN_CHR_precore PANTORAN_CHR_solborne PANTORAN_CHR_bailer PANTORAN_CHR_katarn PANTORAN_CHR_anjek PANTORAN_CHR_dalgas PANTORAN_CHR_kast PANTORAN_CHR_airerith PANTORAN_CHR_halo PANTORAN_CHR_tade PANTORAN_CHR_clash PANTORAN_CHR_jalba PANTORAN_CHR_benn PANTORAN_CHR_haruhana PANTORAN_CHR_roice PANTORAN_CHR_lokar PANTORAN_CHR_korpil PANTORAN_CHR_turon PANTORAN_CHR_cavi PANTORAN_CHR_deece PANTORAN_CHR_braitano PANTORAN_CHR_garnik PANTORAN_CHR_tyandas PANTORAN_CHR_ka_taramas PANTORAN_CHR_nuwest PANTORAN_CHR_forte PANTORAN_CHR_noshey PANTORAN_CHR_gyyll PANTORAN_CHR_tallon PANTORAN_CHR_lionne PANTORAN_CHR_adras PANTORAN_CHR_fremlin PANTORAN_CHR_peoly PANTORAN_CHR_damiel PANTORAN_CHR_chup_pau PANTORAN_CHR_drayven PANTORAN_CHR_zaposug PANTORAN_CHR_bela_trepada PANTORAN_CHR_defelice PANTORAN_CHR_monsula PANTORAN_CHR_baralein PANTORAN_CHR_denive PANTORAN_CHR_hodrren PANTORAN_CHR_xergo PANTORAN_CHR_sarat PANTORAN_CHR_vercet PANTORAN_CHR_ossaki PANTORAN_CHR_kappa PANTORAN_CHR_zerga PANTORAN_CHR_kopos PANTORAN_CHR_aldrecht PANTORAN_CHR_bohme PANTORAN_CHR_tull PANTORAN_CHR_eldrel PANTORAN_CHR_marh PANTORAN_CHR_darksword PANTORAN_CHR_krandor PANTORAN_CHR_montag PANTORAN_CHR_dimodan PANTORAN_CHR_starfallen PANTORAN_CHR_artis PANTORAN_CHR_fett PANTORAN_CHR_mohebbi PANTORAN_CHR_runalian PANTORAN_CHR_binette PANTORAN_CHR_laurent PANTORAN_CHR_mavr PANTORAN_CHR_ryra PANTORAN_CHR_truden PANTORAN_CHR_solo PANTORAN_CHR_lars PANTORAN_CHR_amedda PANTORAN_CHR_amidala PANTORAN_CHR_andrell PANTORAN_CHR_annon PANTORAN_CHR_antilles PANTORAN_CHR_atanna PANTORAN_CHR_baab PANTORAN_CHR_barc PANTORAN_CHR_bonteri PANTORAN_CHR_breemu PANTORAN_CHR_bremack PANTORAN_CHR_bronk PANTORAN_CHR_burtoni PANTORAN_CHR_cadaman PANTORAN_CHR_callen PANTORAN_CHR_clovis PANTORAN_CHR_ledwellow PANTORAN_CHR_dio PANTORAN_CHR_organa
+			}
+			regnal_first_names_male = {
+				PANTORAN_CHR_kam PANTORAN_CHR_erek PANTORAN_CHR_arslan PANTORAN_CHR_lerak PANTORAN_CHR_morla PANTORAN_CHR_mas PANTORAN_CHR_wain PANTORAN_CHR_bail PANTORAN_CHR_gabrial PANTORAN_CHR_dewell PANTORAN_CHR_tanner PANTORAN_CHR_vi PANTORAN_CHR_rush PANTORAN_CHR_danry
+			}
+			regnal_first_names_female = {
+				PANTORAN_CHR_callista PANTORAN_CHR_mara PANTORAN_CHR_seena PANTORAN_CHR_areta PANTORAN_CHR_padm_ PANTORAN_CHR_fema PANTORAN_CHR_mina PANTORAN_CHR_bana PANTORAN_CHR_tyreca PANTORAN_CHR_halle PANTORAN_CHR_lexi PANTORAN_CHR_leia PANTORAN_CHR_alyssa PANTORAN_CHR_leanna PANTORAN_CHR_arya
+			}
+			regnal_second_names = {
+				PANTORAN_CHR_amedda PANTORAN_CHR_amidala PANTORAN_CHR_andrell PANTORAN_CHR_annon PANTORAN_CHR_antilles PANTORAN_CHR_atanna PANTORAN_CHR_baab PANTORAN_CHR_barc PANTORAN_CHR_bonteri PANTORAN_CHR_breemu PANTORAN_CHR_bremack PANTORAN_CHR_bronk PANTORAN_CHR_burtoni PANTORAN_CHR_cadaman PANTORAN_CHR_callen PANTORAN_CHR_clovis PANTORAN_CHR_ledwellow PANTORAN_CHR_dio PANTORAN_CHR_panteer PANTORAN_CHR_alde PANTORAN_CHR_organa PANTORAN_CHR_frayus PANTORAN_CHR_cortess PANTORAN_CHR_killesa
+			}
+		}
+	}
+}

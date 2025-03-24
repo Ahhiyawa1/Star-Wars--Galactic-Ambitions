@@ -1,0 +1,7155 @@
+# Army AI Weights
+@army_infantry_weight = 40
+@army_support_weight = 20
+@army_specops_weight = 10
+@army_armor_weight = 10
+@army_arty_weight = 10
+@army_arial_weight = 10
+@army_special_weight = 100
+
+### Stormtrooper Garrison - Imperial
+imp_garrison_01 = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 1.1
+	health = 2.5
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_robot
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+		}
+	}
+}
+
+### Rebel Trooper Garrison - Rebel
+reb_garrison_01 = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 1
+	health = 2.7
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_reb_gar_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+			}
+		}
+	}
+}
+
+### Hutt Garrison - Hutt
+hut_garrison_01 = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 1
+	health = 2.6
+	morale = 1.4
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_hutt_occu_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hut
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hut
+		}
+	}
+}
+
+### Mandalorian Garrison - Mando
+man_garrison_01 = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 1.1
+	health = 2.6
+	morale = 1.6
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_man_gar_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_man
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_man
+		}
+	}
+}
+
+### Corellian Garrison - Correlian
+cor_garrison_01 = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 1
+	health = 2.5
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_cor_gar_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_cor
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_cor
+		}
+	}
+}
+
+### CIS Garrison - CIS
+cis_garrison_01 = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 1
+	health = 2.5
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_csa_gar_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_cis
+			has_technology = tech_weapon_group_misc2
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_cis
+				has_technology = tech_weapon_group_misc2
+			}
+		}
+	}
+}
+
+### CSA Garrison - CSA
+csa_garrison_01 = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 1
+	health = 2.5
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_csa_occu_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_csa
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_csa
+		}
+	}
+}
+
+### Hapes Garrison - Hapes
+hap_garrison_01 = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 1.1
+	health = 2.5
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_csa_occu_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hap
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hap
+		}
+	}
+}
+
+### Militia Garrison - Other
+oth_garrison_01 = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 1
+	health = 2.5
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_csa_occu_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_hut
+			has_technology = tech_weapon_group_man
+			has_technology = tech_weapon_group_csa
+			has_technology = tech_weapon_group_hap
+			has_technology = tech_weapon_group_cis
+			has_technology = tech_weapon_group_misc2
+			has_country_flag = corellian_security
+		}
+	}
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_hut
+				has_technology = tech_weapon_group_man
+				has_technology = tech_weapon_group_csa
+				has_technology = tech_weapon_group_hap
+				has_technology = tech_weapon_group_cis
+				has_technology = tech_weapon_group_misc2
+				has_country_flag = corellian_security
+			}
+		}
+	}
+}
+
+### Droid Garrison - Droids
+dro_garrison_01 = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 0.8
+	health = 2.4
+	has_morale = no
+	morale_damage = 0.8
+	collateral_damage = 0.5
+	war_exhaustion = 0.1
+	icon = GFX_army_type_dro_occ_1
+	prerequisites = {
+		"tech_battle_droids"
+	}
+	has_species = no
+}
+
+############
+# Empire
+############
+
+### Stormtroopers - Imperial
+imp_infantry_1 = {
+	damage = 1.3
+	health = 1.2
+	morale = 1.2
+	morale_damage = 1.1
+	collateral_damage = 1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1
+			ammunition = 0.1
+		}
+		cost = {
+			minerals = 130
+			energy = 15
+		}
+	}
+	icon = GFX_army_type_defensive
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			imperial_countrys = yes
+		}
+	}
+}
+
+### Shock Troopers - Imperial
+imp_infantry_2 = {
+	damage = 1.5
+	health = 1.5
+	morale = 1.5
+	morale_damage = 1.3
+	collateral_damage = 1.2
+	war_exhaustion = 1.5
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 0.2
+		}
+		cost = {
+			minerals = 150
+			energy = 30
+		}
+	}
+	icon = GFX_army_type_assault
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+	}
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			imperial_countrys = yes
+		}
+	}
+}
+
+### Dark Troopers - Imperial
+imp_infantry_3 = {
+	damage = 2.2
+	health = 1.8
+	morale = 3
+	morale_damage = 2
+	collateral_damage = 2
+	war_exhaustion = 2
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4.5
+			ammunition = 0.3
+		}
+		cost = {
+			minerals = 250
+			energy = 60
+			alloys = 5
+		}
+	}
+	icon = GFX_army_type_rebel
+	prerequisites = {
+		"tech_elite_assault_units"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+	}
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			imperial_countrys = yes
+		}
+	}
+}
+
+### Light Walkers Detachment - Imperial
+imp_support_1 = {
+	damage = 1.2
+	health = 3
+	morale = 1.3
+	morale_damage = 1.1
+	collateral_damage = 1.1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.2
+			ammunition = 0.2
+		}
+		cost = {
+			energy = 20
+			alloys = 40
+			ammunition = 10
+			electronics = 5
+		}
+	}
+	icon = GFX_army_type_primitive
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+	}
+	has_species = no
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_support_weight
+			imperial_countrys = yes
+		}
+	}
+}
+
+### Light Walkers Detachment - CSA
+csa_support_1 = {
+	damage = 1.2
+	health = 3
+	morale = 1.3
+	morale_damage = 1.1
+	collateral_damage = 1.1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.2
+			ammunition = 0.2
+		}
+		cost = {
+			energy = 20
+			alloys = 40
+			ammunition = 10
+			electronics = 5
+		}
+	}
+	icon = GFX_army_type_primitive
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_csa
+		}
+	}
+	has_species = no
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_csa
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_support_weight
+			csa_countrys = yes
+		}
+	}
+}
+
+### Adv. Light Walkers Detachment - CSA
+csa_support_3 = {
+	damage = 1.4
+	health = 3.6
+	morale = 1.6
+	morale_damage = 1.2
+	collateral_damage = 1.1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.5
+			ammunition = 0.4
+		}
+		cost = {
+			energy = 20
+			alloys = 70
+			ammunition = 20
+			electronics = 10
+		}
+	}
+	icon = GFX_army_type_gene_warrior
+	prerequisites = {
+		"tech_advanced_walkers"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_csa
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_csa
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_support_weight
+			csa_countrys = yes
+		}
+	}
+}
+
+### Adv. Light Walkers Detachment - Imperial
+imp_support_3 = {
+	damage = 1.4
+	health = 3.6
+	morale = 1.6
+	morale_damage = 1.2
+	collateral_damage = 1.1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.5
+			ammunition = 0.4
+		}
+		cost = {
+			energy = 20
+			alloys = 70
+			ammunition = 20
+			electronics = 10
+		}
+	}
+	icon = GFX_army_type_gene_warrior
+	prerequisites = {
+		"tech_advanced_walkers"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_support_weight
+			imperial_countrys = yes
+		}
+	}
+}
+
+### Storm Commando - Imperial
+imp_specops_2 = {
+	damage = 2
+	health = 0.7
+	morale = 2
+	morale_damage = 2.5
+	collateral_damage = 0.1
+	war_exhaustion = 1.5
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 0.4
+		}
+		cost = {
+			minerals = 150
+			energy = 45
+		}
+	}
+	icon = GFX_army_type_clone
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+		has_technology = tech_advanced_armies
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+			has_technology = tech_advanced_armies
+		}
+	}
+
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			imperial_countrys = yes
+		}
+	}
+}
+
+### Shadow Commando - Imperial
+imp_specops_3 = {
+	damage = 3
+	health = 1.1
+	morale = 2.5
+	morale_damage = 3.5
+	collateral_damage = 0.1
+	war_exhaustion = 2
+	time = 180
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 0.6
+		}
+		cost = {
+			minerals = 190
+			energy = 60
+			electronics = 5
+		}
+	}
+	icon = GFX_army_type_xenomorph
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+		has_technology = tech_elite_assault_units
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+			has_technology = tech_elite_assault_units
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			imperial_countrys = yes
+		}
+	}
+}
+
+### 2-M Hovertank Detachment - Imperial, CSA
+imp_armor_1 = {
+	damage = 2
+	health = 3.5
+	morale = 1.8
+	morale_damage = 1.2
+	collateral_damage = 1.3
+	war_exhaustion = 2
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3
+			ammunition = 1
+		}
+		cost = {
+			energy = 40
+			alloys = 120
+			electronics = 40
+			ammunition = 20
+		}
+	}
+	icon = GFX_army_type_psionic
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_csa
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_csa
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			OR = {
+				imperial_countrys = yes
+				csa_countrys = yes
+			}
+		}
+	}
+}
+
+### Hovervan Detachment - CSA
+csa_armor_2 = {
+	damage = 2.5
+	health = 4
+	morale = 2
+	morale_damage = 1.3
+	collateral_damage = 3
+	war_exhaustion = 3
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 5
+			ammunition = 1.2
+		}
+		cost = {
+			energy = 120
+			alloys = 160
+			electronics = 60
+			ammunition = 40
+		}
+	}
+	icon = GFX_army_type_slave
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_csa
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_csa
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			OR = {
+				csa_countrys = yes
+			}
+		}
+	}
+}
+
+### Strikebreaker Gunship Detachment - CSA
+csa_armor_3 = {
+	damage = 3.5
+	health = 5
+	morale = 3
+	morale_damage = 1.4
+	collateral_damage = 4
+	war_exhaustion = 3
+	time = 300
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 7
+			ammunition = 1.6
+		}
+		cost = {
+			energy = 150
+			alloys = 200
+			electronics = 80
+			ammunition = 50
+		}
+	}
+	icon = GFX_army_type_machine_assault
+	prerequisites = {
+		"tech_advanced_walkers"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_csa
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_csa
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			OR = {
+				csa_countrys = yes
+			}
+		}
+	}
+}
+
+### AT-AT Detachment - Imperial
+imp_armor_2 = {
+	damage = 2.5
+	health = 4
+	morale = 2
+	morale_damage = 1.3
+	collateral_damage = 3
+	war_exhaustion = 3
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 5
+			ammunition = 1.2
+		}
+		cost = {
+			energy = 120
+			alloys = 160
+			electronics = 60
+			ammunition = 40
+		}
+	}
+	icon = GFX_army_type_slave
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			OR = {
+				imperial_countrys = yes
+			}
+		}
+	}
+}
+
+### AT-AT Advanced Detachment - Imperial
+imp_armor_3 = {
+	damage = 3.5
+	health = 5
+	morale = 3
+	morale_damage = 1.4
+	collateral_damage = 4
+	war_exhaustion = 3
+	time = 300
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 7
+			ammunition = 1.6
+		}
+		cost = {
+			energy = 150
+			alloys = 200
+			electronics = 80
+			ammunition = 50
+		}
+	}
+	icon = GFX_army_type_machine_assault
+	prerequisites = {
+		"tech_advanced_walkers"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			OR = {
+				imperial_countrys = yes
+			}
+		}
+	}
+}
+
+### SPMA Artillery Detachment - Imperial, CSA
+imp_arty_2 = {
+	damage = 5
+	health = 1.2
+	morale = 1.1
+	morale_damage = 1
+	collateral_damage = 8
+	war_exhaustion = 1
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3
+			ammunition = 2
+		}
+		cost = {
+			energy = 100
+			alloys = 80
+			electronics = 20
+			ammunition = 30
+		}
+	}
+	icon = GFX_army_type_machine_defensive
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_csa
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_csa
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arty_weight
+			OR = {
+				imperial_countrys = yes
+				csa_countrys = yes
+			}
+		}
+	}
+}
+
+### SPHA Artillery Detachment - Imperial
+imp_arty_3 = {
+	damage = 6.2
+	health = 1.5
+	morale = 1.2
+	morale_damage = 1
+	collateral_damage = 10
+	war_exhaustion = 2
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 5
+			ammunition = 2.4
+		}
+		cost = {
+			energy = 200
+			alloys = 120
+			ammunition = 60
+			electronics = 40
+		}
+	}
+	icon = GFX_army_type_undead
+	prerequisites = {
+		"tech_elite_assault_units"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arty_weight
+			OR = {
+				imperial_countrys = yes
+			}
+		}
+	}
+}
+
+### TIE Squadron - Imperial
+imp_arial_1 = {
+	damage = 2.5
+	health = 1.4
+	morale = 2
+	morale_damage = 2
+	collateral_damage = 1.2
+	war_exhaustion = 1.5
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 1
+			electronics = 0.5
+		}
+		cost = {
+			energy = 100
+			alloys = 120
+			electronics = 20
+			ammunition = 10
+		}
+	}
+	icon = GFX_army_type_imperial
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			OR = {
+				imperial_countrys = yes
+			}
+		}
+	}
+}
+
+### Lambda Shuttle Gunship Squadron - Imperial
+imp_arial_2 = {
+	damage = 3
+	health = 2.2
+	morale = 2.5
+	morale_damage = 2.5
+	collateral_damage = 2
+	war_exhaustion = 2.5
+	time = 300
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3.5
+			ammunition = 1.5
+			electronics = 0.8
+		}
+		cost = {
+			energy = 120
+			alloys = 160
+			electronics = 40
+			ammunition = 30
+		}
+	}
+	icon = GFX_army_type_imp_arial_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			OR = {
+				imperial_countrys = yes
+			}
+		}
+	}
+}
+
+### Honor Guard - Imperial
+imp_homorguard = {
+	damage = 3
+	health = 4
+	morale = 4
+	morale_damage = 3
+	collateral_damage = 0
+	war_exhaustion = 1
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 0
+			ammunition = 0.8
+		}
+		cost = {
+			minerals = 100
+			energy = 100
+		}
+	}
+	icon = GFX_army_type_imp_honorguard
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_imp
+	}
+	has_species = yes
+	allow = {
+		custom_tooltip = {
+			text = imp_homorguard_limit_tooltip
+			owner = {
+				NOT = {
+					check_variable = {
+						which = "imp_homorguard_count"
+						value = 3
+					}
+				}
+			}
+		}
+	}
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "imp_homorguard_count"
+				value = 1
+			}
+		}
+	}
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "imp_homorguard_count"
+				value = -1
+			}
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_imp
+		}
+		from = {
+			OR = { 
+				has_country_flag = galactic_repubic
+				has_country_flag = eriadu_authority
+				has_country_flag = ciutric_hegemony
+			}
+		}
+		owner = {
+			NOT = {
+				check_variable = {
+					which = "imp_homorguard_count"
+					value = 3
+				}
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_special_weight
+			OR = {
+				imperial_countrys = yes
+			}
+		}
+	}
+}
+
+### Stormtrooper Occupation Army - Imperial
+imp_occupation_01 = {
+	defensive = yes
+	occupation = yes
+	damage = 1.1
+	health = 2.5
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_robot
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+		}
+	}
+}
+
+### Rebel Troopers - Rebel
+reb_infantry_1 = {
+	damage = 1.1
+	health = 1.4
+	morale = 1.2
+	morale_damage = 1
+	collateral_damage = 1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 0.9
+			ammunition = 0.1
+		}
+		cost = {
+			minerals = 130
+			energy = 0
+		}
+	}
+	icon = GFX_army_type_reb_inf_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			rebel_countrys = yes
+		}
+	}
+}
+
+### Assault Troopers - Rebel, Correlian
+reb_infantry_2 = {
+	damage = 1.3
+	health = 1.6
+	morale = 1.4
+	morale_damage = 1.2
+	collateral_damage = 1
+	war_exhaustion = 1.5
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.8
+			ammunition = 0.2
+		}
+		cost = {
+			minerals = 150
+			energy = 15
+		}
+	}
+	icon = GFX_army_type_reb_inf_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_cor
+		}
+	}
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_cor
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			rebel_countrys = yes
+			corellia_misc01_countrys = yes
+		}
+	}
+}
+
+### Heavy Assault Troopers - Rebel, Correlian
+reb_infantry_3 = {
+	damage = 1.8
+	health = 2.3
+	morale = 1.8
+	morale_damage = 1.5
+	collateral_damage = 1.5
+	war_exhaustion = 1.8
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3.8
+			ammunition = 0.3
+		}
+		cost = {
+			minerals = 200
+			energy = 30
+		}
+	}
+	icon = GFX_army_type_reb_inf_3
+	prerequisites = {
+		"tech_elite_assault_units"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_cor
+		}
+	}
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_cor
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			rebel_countrys = yes
+		}
+	}
+}
+
+### T-2 Tank Detachment - Rebel, Correlian
+reb_support_1 = {
+	damage = 1
+	health = 2.5
+	morale = 1.35
+	morale_damage = 1
+	collateral_damage = 1.1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.2
+			ammunition = 0.2
+		}
+		cost = {
+			energy = 10
+			alloys = 50
+			electronics = 10
+			ammunition = 20
+		}
+	}
+	icon = GFX_army_type_reb_sup_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_cor
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+		}
+	}
+	has_species = no
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_cor
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_support_weight
+			OR = {
+				rebel_countrys = yes
+				corellia_misc01_countrys = yes
+			}
+		}
+	}
+}
+
+### Rebel Commando - Rebel
+reb_specops_2 = {
+	damage = 1.4
+	health = 0.9
+	morale = 2
+	morale_damage = 2.6
+	collateral_damage = 0.1
+	war_exhaustion = 1.5
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 0.4
+		}
+		cost = {
+			minerals = 135
+			energy = 45
+		}
+	}
+	icon = GFX_army_type_reb_specops_2
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+		}
+		has_technology = tech_advanced_armies
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+			}
+			has_technology = tech_advanced_armies
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			OR = {
+				rebel_countrys = yes
+			}
+		}
+	}
+}
+
+### Rebel Elite Commando - Rebel
+reb_specops_3 = {
+	damage = 1.9
+	health = 1.4
+	morale = 2.6
+	morale_damage = 3.6
+	collateral_damage = 0.1
+	war_exhaustion = 2
+	time = 180
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 0.6
+		}
+		cost = {
+			minerals = 180
+			energy = 60
+			electronics = 5
+		}
+	}
+	icon = GFX_army_type_reb_specops_3
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+		}
+		has_technology = tech_elite_assault_units
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+			}
+			has_technology = tech_elite_assault_units
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			OR = {
+				rebel_countrys = yes
+			}
+		}
+	}
+}
+
+### T-3B Tank Detachment - Rebel, Correlian
+reb_armor_1 = {
+	damage = 2
+	health = 3.1
+	morale = 1.8
+	morale_damage = 1.2
+	collateral_damage = 1.2
+	war_exhaustion = 2
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2.5
+			ammunition = 1.2
+		}
+		cost = {
+			energy = 35
+			alloys = 60
+			electronics = 30
+			ammunition = 20
+		}
+	}
+	icon = GFX_army_type_reb_armor_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_cor
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_cor
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			OR = {
+				rebel_countrys = yes
+				corellia_misc01_countrys = yes
+			}
+		}
+	}
+}
+
+### Legacy AT-TE Detachment - Rebel
+reb_armor_2 = {
+	damage = 2.4
+	health = 3.8
+	morale = 1.9
+	morale_damage = 1.3
+	collateral_damage = 2.5
+	war_exhaustion = 3
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 1.4
+		}
+		cost = {
+			energy = 110
+			alloys = 120
+			electronics = 60
+			ammunition = 40
+		}
+	}
+	icon = GFX_army_type_reb_armor_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			OR = {
+				rebel_countrys = yes
+				corellia_misc01_countrys = yes
+			}
+		}
+	}
+}
+
+### T-4B Modified Tank Detachment - Rebel
+reb_armor_3 = {
+	damage = 2.6
+	health = 4.5
+	morale = 3
+	morale_damage = 1.4
+	collateral_damage = 3
+	war_exhaustion = 3
+	time = 280
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 5
+			ammunition = 1.6
+		}
+		cost = {
+			energy = 110
+			alloys = 200
+			ammunition = 50
+			electronics = 80
+		}
+	}
+	icon = GFX_army_type_reb_armor_3
+	prerequisites = {
+		"tech_advanced_walkers"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			OR = {
+				rebel_countrys = yes
+			}
+		}
+	}
+}
+
+### MPTL Artillary Detachment - Rebel, Correlian, Other
+reb_arty_2 = {
+	damage = 4.8
+	health = 1.2
+	morale = 1.1
+	morale_damage = 1
+	collateral_damage = 7
+	war_exhaustion = 1
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2.5
+			ammunition = 2
+		}
+		cost = {
+			energy = 100
+			alloys = 80
+			ammunition = 30
+			electronics = 20
+		}
+	}
+	icon = GFX_army_type_reb_arty_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_csa
+			has_technology = tech_weapon_group_man
+			has_technology = tech_weapon_group_hap
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_csa
+				has_technology = tech_weapon_group_man
+				has_technology = tech_weapon_group_hap
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arty_weight
+			OR = {
+				rebel_countrys = yes
+				corellia_misc01_countrys = yes
+				other_countrys = yes
+			}
+		}
+	}
+}
+
+### HMPTL Artillary Detachment - Rebel
+reb_arty_3 = {
+	damage = 6
+	health = 1.7
+	morale = 1.2
+	morale_damage = 1
+	collateral_damage = 8
+	war_exhaustion = 2
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 2.4
+		}
+		cost = {
+			energy = 200
+			alloys = 140
+			ammunition = 60
+			electronics = 40
+		}
+	}
+	icon = GFX_army_type_reb_arty_3
+	prerequisites = {
+		"tech_elite_assault_units"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arty_weight
+			OR = {
+				rebel_countrys = yes
+			}
+		}
+	}
+}
+
+### T-47 Airspeeder Squadron - Rebel
+reb_arial_1 = {
+	damage = 2.3
+	health = 1.3
+	morale = 2
+	morale_damage = 1.8
+	collateral_damage = 1.2
+	war_exhaustion = 1.5
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 1
+			electronics = 0.5
+		}
+		cost = {
+			energy = 100
+			alloys = 120
+			electronics = 20
+			ammunition = 10
+		}
+	}
+	icon = GFX_army_type_reb_arial_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			OR = {
+				rebel_countrys = yes
+			}
+		}
+	}
+}
+
+### Tachyon Airspeeder Squadron - Rebel
+reb_arial_2 = {
+	damage = 2.9
+	health = 1.9
+	morale = 2.3
+	morale_damage = 2.4
+	collateral_damage = 1.5
+	war_exhaustion = 2.5
+	time = 300
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3.5
+			ammunition = 1.5
+			electronics = 0.8
+		}
+		cost = {
+			energy = 110
+			alloys = 160
+			electronics = 40
+			ammunition = 30
+		}
+	}
+	icon = GFX_army_type_reb_arial_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			OR = {
+				rebel_countrys = yes
+			}
+		}
+	}
+}
+
+### Bothan Operatives - Rebel
+reb_bothan = {
+	damage = 2.5
+	health = 1
+	morale = 2.6
+	morale_damage = 4
+	collateral_damage = 0.1
+	war_exhaustion = 2
+	time = 180
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3.5
+			electronics = 0.4
+		}
+		cost = {
+			minerals = 120
+			energy = 120
+		}
+	}
+	icon = GFX_army_type_reb_bothan
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+		}
+	}
+	has_species = yes
+	allow = {
+		custom_tooltip = {
+			text = reb_bothan_limit_tooltip
+			owner = {
+				NOT = {
+					check_variable = {
+						which = "reb_bothan_count"
+						value = 3
+					}
+				}
+			}
+		}
+		has_building = "building_military_academy"
+	}
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "reb_bothan_count"
+				value = 1
+			}
+		}
+	}
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "reb_bothan_count"
+				value = -1
+			}
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+			}
+		}
+		from = {
+			is_species_class = BOT
+		}
+		owner = {
+			NOT = {
+				check_variable = {
+					which = "reb_bothan_count"
+					value = 3
+				}
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_special_weight
+			OR = {
+				rebel_countrys = yes
+			}
+		}
+	}
+}
+
+### Wookie Battlegroup - Rebel
+reb_wookie = {
+	damage = 1.8
+	health = 3
+	morale = 3
+	morale_damage = 1.5
+	collateral_damage = 2
+	war_exhaustion = 1.5
+	time = 200
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3
+			ammunition = 0.8
+		}
+		cost = {
+			minerals = 100
+			energy = 120
+		}
+	}
+	icon = GFX_army_type_reb_wookie
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+		}
+	}
+	has_species = yes
+	allow = {
+		custom_tooltip = {
+			text = reb_wookie_limit_tooltip
+			owner = {
+				NOT = {
+					check_variable = {
+						which = "reb_wookie_count"
+						value = 3
+					}
+				}
+			}
+		}
+	}
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "reb_wookie_count"
+				value = 1
+			}
+		}
+	}
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "reb_wookie_count"
+				value = -1
+			}
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+			}
+		}
+		from = {
+			is_species_class = WOO
+		}
+		owner = {
+			NOT = {
+				check_variable = {
+					which = "reb_wookie_count"
+					value = 3
+				}
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_special_weight
+			OR = {
+				rebel_countrys = yes
+			}
+		}
+	}
+}
+
+### Rebel Trooper Occupation Army - Rebel
+reb_occupation_01 = {
+	defensive = yes
+	occupation = yes
+	damage = 1
+	health = 2.7
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_reb_gar_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+			}
+		}
+	}
+}
+
+#########
+# Hutt
+#########
+
+### Hutt Cartel Gang - Hutt
+hut_infantry_1 = {
+	damage = 1.2
+	health = 1.2
+	morale = 1.1
+	morale_damage = 1.1
+	collateral_damage = 1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1
+			ammunition = 0.1
+		}
+		cost = {
+			minerals = 125
+			energy = 10
+		}
+	}
+	icon = GFX_army_type_hutt_inf_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hut
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hut
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			hutt_countrys = yes
+		}
+	}
+}
+
+### Hutt Elite Mercenaries - Hutt
+hut_infantry_2 = {
+	damage = 1.4
+	health = 1.35
+	morale = 1.3
+	morale_damage = 1.3
+	collateral_damage = 1.5
+	war_exhaustion = 1.5
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 0.2
+		}
+		cost = {
+			minerals = 140
+			energy = 20
+		}
+	}
+	icon = GFX_army_type_hutt_inf_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hut
+	}
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hut
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			hutt_countrys = yes
+		}
+	}
+}
+
+### Hutt Deshade Mercenaries - Hutt
+hut_infantry_3 = {
+	damage = 1.6
+	health = 2.5
+	morale = 2
+	morale_damage = 1.6
+	collateral_damage = 2
+	war_exhaustion = 2
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 0.3
+		}
+		cost = {
+			minerals = 200
+			energy = 110
+			alloys = 5
+		}
+	}
+	icon = GFX_army_type_hutt_inf_3
+	prerequisites = {
+		"tech_elite_assault_units"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hut
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hut
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			hutt_countrys = yes
+		}
+	}
+}
+
+
+### Hutt Barges Detachment - Hutt
+hut_support_1 = {
+	damage = 1
+	health = 2.1
+	morale = 1.2
+	morale_damage = 1
+	collateral_damage = 1
+	war_exhaustion = 0.8
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1
+			ammunition = 0.2
+		}
+		cost = {
+			energy = 10
+			alloys = 20
+			electronics = 5
+			ammunition = 10
+		}
+	}
+	icon = GFX_army_type_hutt_sup_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hut
+	}
+	has_species = no
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hut
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_support_weight
+			hutt_countrys = yes
+		}
+	}
+}
+
+### Cartel Sabateurs - Hutt
+hut_specops_2 = {
+	damage = 3
+	health = 0.4
+	morale = 1.8
+	morale_damage = 3
+	collateral_damage = 3
+	war_exhaustion = 1.5
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 0.4
+		}
+		cost = {
+			minerals = 120
+			energy = 70
+		}
+	}
+	icon = GFX_army_type_hutt_specops_2
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hut
+		has_technology = tech_advanced_armies
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hut
+			has_technology = tech_advanced_armies
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			hutt_countrys = yes
+		}
+	}
+}
+
+### WLO-5 Tank Detachment - Hutt
+hut_armor_1 = {
+	damage = 1.9
+	health = 2.7
+	morale = 1.5
+	morale_damage = 1.4
+	collateral_damage = 1.5
+	war_exhaustion = 1.8
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2.5
+			ammunition = 1.2
+		}
+		cost = {
+			energy = 30
+			alloys = 60
+			electronics = 30
+			ammunition = 20
+		}
+	}
+	icon = GFX_army_type_hutt_armor_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hut
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hut
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			hutt_countrys = yes
+		}
+	}
+}
+
+### Artillery Barge Detachment - Hutt
+hut_arty_1 = {
+	damage = 4
+	health = 1.1
+	morale = 1
+	morale_damage = 1
+	collateral_damage = 5
+	war_exhaustion = 1
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2.5
+			ammunition = 2
+		}
+		cost = {
+			energy = 80
+			alloys = 80
+			ammunition = 25
+			electronics = 20
+		}
+	}
+	icon = GFX_army_type_hutt_arty_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hut
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hut
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arty_weight
+			hutt_countrys = yes
+		}
+	}
+}
+
+### Sandspeeder Squadron - Hutt
+hut_arial_1 = {
+	damage = 1.8
+	health = 1.4
+	morale = 2
+	morale_damage = 2
+	collateral_damage = 1.5
+	war_exhaustion = 1.5
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 1
+			electronics = 0.5
+		}
+		cost = {
+			energy = 100
+			alloys = 100
+			electronics = 15
+			ammunition = 10
+		}
+	}
+	icon = GFX_army_type_hutt_arial_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hut
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hut
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			hutt_countrys = yes
+		}
+	}
+}
+
+### Hutt Occupation Army - Hutt
+hut_occupation_01 = {
+	defensive = yes
+	occupation = yes
+	damage = 1
+	health = 2.6
+	morale = 1.4
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_hutt_occu_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hut
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hut
+		}
+	}
+}
+
+############
+# Mandalorian
+############
+
+### Mandalorian Warriors - Mando
+man_infantry_1 = {
+	damage = 1.3
+	health = 1.3
+	morale = 1.3
+	morale_damage = 1.1
+	collateral_damage = 1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1
+			ammunition = 0.1
+		}
+		cost = {
+			minerals = 130
+			energy = 15
+		}
+	}
+	icon = GFX_army_type_man_inf_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_man
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_man
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			mando_countrys = yes
+		}
+	}
+}
+
+### Mandalorian Jet Warriors - Mando
+man_infantry_2 = {
+	damage = 1.5
+	health = 1.7
+	morale = 1.6
+	morale_damage = 1.3
+	collateral_damage = 1.2
+	war_exhaustion = 1.5
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 0.2
+		}
+		cost = {
+			minerals = 150
+			energy = 30
+		}
+	}
+	icon = GFX_army_type_man_inf_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_man
+	}
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_man
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			mando_countrys = yes
+		}
+	}
+}
+
+### Mandalorian Elite - Mando
+man_infantry_3 = {
+	damage = 2.2
+	health = 2
+	morale = 2
+	morale_damage = 2
+	collateral_damage = 1.2
+	war_exhaustion = 2
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 0.3
+		}
+		cost = {
+			minerals = 240
+			energy = 70
+			alloys = 5
+		}
+	}
+	icon = GFX_army_type_man_inf_3
+	prerequisites = {
+		"tech_elite_assault_units"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_man
+	}
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_man
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			mando_countrys = yes
+		}
+	}
+}
+
+### Mandalorian Auxilary Detachment - Mando
+man_support_1 = {
+	damage = 1.1
+	health = 3.1
+	morale = 1.35
+	morale_damage = 1
+	collateral_damage = 1.1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.2
+			ammunition = 0.2
+		}
+		cost = {
+			minerals = 170
+			energy = 25
+			alloys = 20
+			ammunition = 5
+		}
+	}
+	icon = GFX_army_type_man_sup_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_man
+	}
+	has_species = no
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_man
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_support_weight
+			mando_countrys = yes
+		}
+	}
+}
+
+### Mandalorian Commando - Mando
+man_specops_2 = {
+	damage = 1.5
+	health = 0.9
+	morale = 2
+	morale_damage = 2.5
+	collateral_damage = 0.1
+	war_exhaustion = 1.5
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 0.4
+		}
+		cost = {
+			minerals = 150
+			energy = 45
+		}
+	}
+	icon = GFX_army_type_man_specops_2
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_man
+		has_technology = tech_advanced_armies
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_man
+			has_technology = tech_advanced_armies
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			mando_countrys = yes
+		}
+	}
+}
+
+### Mandalorian Elite Commando - Mando
+man_specops_3 = {
+	damage = 3
+	health = 1.3
+	morale = 2.7
+	morale_damage = 3.3
+	collateral_damage = 0.1
+	war_exhaustion = 2
+	time = 180
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 0.6
+		}
+		cost = {
+			minerals = 100
+			energy = 60
+			alloys = 40
+			electronics = 5
+		}
+	}
+	icon = GFX_army_type_man_specops_3
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_man
+		has_technology = tech_elite_assault_units
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_man
+			has_technology = tech_elite_assault_units
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			mando_countrys = yes
+		}
+	}
+}
+
+### MHT-1 Detachment - Mando
+man_armor_1 = {
+	damage = 2
+	health = 3.2
+	morale = 2.1
+	morale_damage = 1.3
+	collateral_damage = 1.3
+	war_exhaustion = 2
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3
+			ammunition = 1.2
+		}
+		cost = {
+			energy = 35
+			alloys = 60
+			electronics = 30
+			ammunition = 20
+		}
+	}
+	icon = GFX_army_type_man_armor_1
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_man
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_man
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			mando_countrys = yes
+		}
+	}
+}
+
+### MHT-2 Detachment - Mando
+man_armor_2 = {
+	damage = 2.5
+	health = 3.7
+	morale = 2.1
+	morale_damage = 1.4
+	collateral_damage = 2
+	war_exhaustion = 3
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4.5
+			ammunition = 1.4
+		}
+		cost = {
+			energy = 120
+			alloys = 90
+			electronics = 50
+			ammunition = 40
+		}
+	}
+	icon = GFX_army_type_man_armor_2
+	prerequisites = {
+		"tech_advanced_walkers"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_man
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_man
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			mando_countrys = yes
+		}
+	}
+}
+
+### MHA Artillery Detachment - Mando
+man_arty_2 = {
+	damage = 5.2
+	health = 1.3
+	morale = 1.3
+	morale_damage = 1
+	collateral_damage = 8
+	war_exhaustion = 1
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3
+			ammunition = 2.4
+		}
+		cost = {
+			energy = 100
+			alloys = 140
+			ammunition = 50
+			electronics = 30
+		}
+	}
+	icon = GFX_army_type_man_arty_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_man
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_man
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arty_weight
+			mando_countrys = yes
+		}
+	}
+}
+
+### Mandalorian SkyFighter Squadron - Mando
+man_arial_1 = {
+	damage = 2.6
+	health = 1.6
+	morale = 2.5
+	morale_damage = 2.7
+	collateral_damage = 2
+	war_exhaustion = 2
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3
+			ammunition = 1
+			electronics = 0.5
+		}
+		cost = {
+			energy = 120
+			alloys = 120
+			electronics = 20
+			ammunition = 10
+		}
+	}
+	icon = GFX_army_type_man_arial_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_man
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_man
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			mando_countrys = yes
+		}
+	}
+}
+
+### Mandalorian Occupation Army - Mando
+man_occupation_01 = {
+	defensive = yes
+	occupation = yes
+	damage = 1.1
+	health = 2.6
+	morale = 1.6
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_man_gar_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_man
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_man
+		}
+	}
+}
+
+############
+# Correlian
+###########
+
+### CorSec Troopers - Correlian
+cor_infantry_1 = {
+	damage = 1.15
+	health = 1.25
+	morale = 1.1
+	morale_damage = 1
+	collateral_damage = 1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 0.9
+			ammunition = 0.1
+		}
+		cost = {
+			minerals = 120
+			energy = 5
+		}
+	}
+	icon = GFX_army_type_reb_inf_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_country_flag = corellian_security
+	}
+	potential = {
+		owner = {
+			has_country_flag = corellian_security
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			corellia_misc01_countrys = yes
+		}
+	}
+}
+
+### Corellian Infiltrators - Correlian
+cor_specops_2 = {
+	damage = 1.4
+	health = 0.8
+	morale = 2
+	morale_damage = 2.5
+	collateral_damage = 0.1
+	war_exhaustion = 1.5
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 0.4
+		}
+		cost = {
+			minerals = 130
+			energy = 45
+		}
+	}
+	icon = GFX_army_type_cor_specops_2
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		has_country_flag = corellian_security
+		has_technology = tech_advanced_armies
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_country_flag = corellian_security
+			has_technology = tech_advanced_armies
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			corellia_misc01_countrys = yes
+		}
+	}
+}
+
+### VCX-series Starfighter Squadron - Correlian
+cor_arial_2 = {
+	damage = 2.2
+	health = 1.5
+	morale = 2
+	morale_damage = 1.9
+	collateral_damage = 1.2
+	war_exhaustion = 1.5
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 1.5
+			electronics = 0.5
+		}
+		cost = {
+			energy = 100
+			alloys = 140
+			electronics = 20
+			ammunition = 30
+		}
+	}
+	icon = GFX_army_type_cor_arial_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_cor
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_cor
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			corellia_misc01_countrys = yes
+		}
+	}
+}
+
+### Corellian Occupation Army - Correlian
+cor_occupation_01 = {
+	defensive = yes
+	occupation = yes
+	damage = 1
+	health = 2.7
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_cor_gar_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		has_country_flag = corellian_security
+	}
+	potential = {
+		owner = {
+			has_country_flag = corellian_security
+		}
+	}
+}
+
+#######
+# CIS
+#######
+
+### Corporate Enforcers - CIS 
+cis_infantry_1 = {
+	damage = 1.15
+	health = 1.2
+	morale = 1.2
+	morale_damage = 1.2
+	collateral_damage = 1.2
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.1
+			ammunition = 0.1
+		}
+		cost = {
+			minerals = 140
+			energy = 10
+		}
+	}
+	icon = GFX_army_type_csa_inf_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_cis
+			has_technology = tech_weapon_group_misc2
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_cis
+				has_technology = tech_weapon_group_misc2
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### AAT-1 Tank Detachment - CIS 
+cis_armor_1 = {
+	damage = 2.6
+	health = 3.4
+	morale = 1.8
+	morale_damage = 1.1
+	collateral_damage = 2
+	war_exhaustion = 2
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3
+			ammunition = 1.2
+		}
+		cost = {
+			energy = 60
+			alloys = 80
+			electronics = 30
+			ammunition = 20
+		}
+	}
+	icon = GFX_army_type_cis_armor_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_cis
+			has_technology = tech_weapon_group_misc2
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_cis
+				has_technology = tech_weapon_group_misc2
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### Mechanized Assault Flyer - CIS
+cis_arial_2 = {
+	damage = 2
+	health = 1.8
+	morale = 2
+	morale_damage = 2.6
+	collateral_damage = 2
+	war_exhaustion = 1.7
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2.5
+			ammunition = 1.5
+			electronics = 0.8
+		}
+		cost = {
+			energy = 120
+			alloys = 160
+			electronics = 30
+			ammunition = 20
+		}
+	}
+	icon = GFX_army_type_cis_arial_1
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_cis
+			has_technology = tech_weapon_group_misc2
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_cis
+				has_technology = tech_weapon_group_misc2
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+##### Droid
+### B1 Battle Droids - Droid
+dro_infantry_1 = {
+	damage = 0.8
+	health = 0.8
+	has_morale = no
+	morale_damage = 0.8
+	collateral_damage = 1
+	war_exhaustion = 0.25
+	time = 45
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 0.3
+			ammunition = 0.1
+		}
+		cost = {
+			energy = 80
+			alloys = 20
+			electronics = 4
+		}
+	}
+	icon = GFX_army_type_dro_inf_1
+	prerequisites = {
+		"tech_battle_droids"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_assault_armies
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_droid_factory"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_assault_armies
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### B2 Super Battle Droids - Droid
+dro_infantry_2 = {
+	damage = 1.5
+	health = 2
+	has_morale = no
+	morale_damage = 1.3
+	collateral_damage = 2
+	war_exhaustion = 0.75
+	time = 80
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 0.2
+		}
+		cost = {
+			energy = 120
+			alloys = 50
+			electronics = 14
+		}
+	}
+	icon = GFX_army_type_dro_inf_2
+	prerequisites = {
+		"tech_battle_droids"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_advanced_armies
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_droid_factory"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_advanced_armies
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### Droideka Detachment - Droid
+dro_infantry_3 = {
+	damage = 2
+	health = 3
+	has_morale = no
+	morale_damage = 2
+	collateral_damage = 3
+	war_exhaustion = 1.5
+	time = 150
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 0.3
+		}
+		cost = {
+			energy = 200
+			alloys = 80
+			electronics = 30
+		}
+	}
+	icon = GFX_army_type_dro_inf_3
+	prerequisites = {
+		"tech_adv_battle_droids"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_elite_assault_units
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_droid_factory"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_elite_assault_units
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### DSD1 Droid Detachment - Droid
+dro_support_1 = {
+	damage = 1
+	health = 2
+	has_morale = no
+	morale_damage = 1
+	collateral_damage = 1.8
+	war_exhaustion = 0.5
+	time = 100
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.2
+			ammunition = 0.2
+		}
+		cost = {
+			energy = 80
+			alloys = 50
+			electronics = 15
+			ammunition = 10
+		}
+	}
+	icon = GFX_army_type_dro_sup_1
+	prerequisites = {
+		"tech_battle_droids"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_assault_armies
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_droid_factory"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_assault_armies
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_support_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### BX Droid Commando - Droid
+dro_specops_2 = {
+	damage = 1.4
+	health = 0.7
+	has_morale = no
+	morale_damage = 2.4
+	collateral_damage = 0.5
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2.5
+			ammunition = 0.4
+		}
+		cost = {
+			energy = 80
+			alloys = 60
+			electronics = 20
+		}
+	}
+	icon = GFX_army_type_dro_specops_2
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_battle_droids
+		has_technology = tech_advanced_armies
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_droid_factory"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_battle_droids
+			has_technology = tech_advanced_armies
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### SD-4K Assasin Droids - Droid
+dro_specops_3_0 = {
+	damage = 2
+	health = 1.1
+	has_morale = no
+	morale_damage = 3.4
+	collateral_damage = 0.5
+	war_exhaustion = 1.5
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 5
+			ammunition = 0.6
+		}
+		cost = {
+			energy = 120
+			alloys = 80
+			electronics = 40
+		}
+	}
+	icon = GFX_army_type_dro_specops_3
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_adv_battle_droids
+		has_technology = tech_elite_assault_units
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_droid_factory"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_adv_battle_droids
+			has_technology = tech_elite_assault_units
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### IG-series Assasin Droids - Droid
+dro_specops_3_1 = {
+	damage = 3
+	health = 1.2
+	has_morale = no
+	morale_damage = 4
+	collateral_damage = 0.2
+	war_exhaustion = 2.5
+	time = 200
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 6
+			ammunition = 0.6
+		}
+		cost = {
+			energy = 200
+			alloys = 100
+			electronics = 30
+		}
+	}
+	icon = GFX_army_type_dro_specops_4
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_adv_battle_droids
+		has_technology = tech_elite_assault_units
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_droid_factory"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_adv_battle_droids
+			has_technology = tech_elite_assault_units
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### OG-9 Spider Droid Detachment - Droid
+dro_armor_2 = {
+	damage = 2
+	health = 3
+	has_morale = no
+	morale_damage = 1.2
+	collateral_damage = 2
+	war_exhaustion = 1
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3
+			ammunition = 1.4
+		}
+		cost = {
+			energy = 80
+			alloys = 100
+			electronics = 40
+			ammunition = 30
+		}
+	}
+	icon = GFX_army_type_dro_armor_1
+	prerequisites = {
+		"tech_adv_battle_droids"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_advanced_armies
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_droid_factory"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_advanced_armies
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### Super Droid Tank Detachment - Droid
+dro_armor_3 = {
+	damage = 2.6
+	health = 5.2
+	has_morale = no
+	morale_damage = 1.1
+	collateral_damage = 5
+	war_exhaustion = 2.5
+	time = 350
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 6
+			ammunition = 1.6
+		}
+		cost = {
+			energy = 140
+			alloys = 140
+			ammunition = 50
+			electronics = 60
+		}
+	}
+	icon = GFX_army_type_dro_armor_3
+	prerequisites = {
+		"tech_adv_battle_droids"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_advanced_walkers
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_droid_factory"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_advanced_walkers
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### J-1 Proton Cannon Detachment - Droid
+dro_arty_2 = {
+	damage = 4
+	health = 1
+	has_morale = no
+	morale_damage = 1
+	collateral_damage = 8
+	war_exhaustion = 0.5
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3.5
+			ammunition = 2
+		}
+		cost = {
+			energy = 120
+			alloys = 100
+			ammunition = 30
+			electronics = 20
+		}
+	}
+	icon = GFX_army_type_dro_arty_2
+	prerequisites = {
+		"tech_adv_battle_droids"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_elite_assault_units
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_droid_factory"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_elite_assault_units
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arty_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### Hellfire Droid Detachment - Droid
+dro_arty_3 = {
+	damage = 6
+	health = 1.4
+	has_morale = no
+	morale_damage = 1
+	collateral_damage = 10
+	war_exhaustion = 1
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 5.5
+			ammunition = 2.4
+		}
+		cost = {
+			energy = 220
+			alloys = 140
+			ammunition = 60
+			electronics = 40
+		}
+	}
+	icon = GFX_army_type_dro_arty_3
+	prerequisites = {
+		"tech_adv_battle_droids"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_elite_assault_units
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_droid_factory"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_elite_assault_units
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arty_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### Vulture Droid Airwing - Droid
+dro_arial_1 = {
+	damage = 1.9
+	health = 1.1
+	has_morale = no
+	morale_damage = 1.5
+	collateral_damage = 2
+	war_exhaustion = 1
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 1
+			electronics = 0.5
+		}
+		cost = {
+			energy = 150
+			alloys = 120
+			electronics = 25
+			ammunition = 10
+		}
+	}
+	icon = GFX_army_type_dro_arial_1
+	prerequisites = {
+		"tech_adv_battle_droids"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_assault_armies
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_droid_factory"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_assault_armies
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### HMP Droid Gunship - Droid
+dro_arial_3 = {
+	damage = 2.5
+	health = 2.4
+	has_morale = no
+	morale_damage = 2
+	collateral_damage = 4
+	war_exhaustion = 1.5
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 1.5
+			electronics = 0.8
+		}
+		cost = {
+			energy = 180
+			alloys = 160
+			electronics = 40
+			ammunition = 25
+		}
+	}
+	icon = GFX_army_type_dro_arial_3
+	prerequisites = {
+		"tech_adv_battle_droids"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_elite_assault_units
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = { owner = { is_ai = yes } }
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_droid_factory"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_elite_assault_units
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### Magnaguard - CIS 
+cis_magnaguard = {
+	damage = 2.6
+	health = 3.5
+	has_morale = no
+	morale_damage = 2.5
+	collateral_damage = 0
+	war_exhaustion = 1
+	time = 180
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3
+			ammunition = 0.8
+			electronics = 0.2
+		}
+		cost = {
+			energy = 150
+			alloys = 120
+			electronics = 40
+		}
+	}
+	icon = GFX_army_type_cis_magnaguard
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_cis
+			has_technology = tech_weapon_group_misc2
+		}
+	}
+	has_species = no
+	allow = {
+		custom_tooltip = {
+			text = cis_magnaguard_limit_tooltip
+			owner = {
+				NOT = {
+					check_variable = {
+						which = "cis_magnaguard_count"
+						value = 3
+					}
+				}
+			}
+		}
+	}
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cis_magnaguard_count"
+				value = 1
+			}
+		}
+	}
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cis_magnaguard_count"
+				value = -1
+			}
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_cis
+				has_technology = tech_weapon_group_misc2
+			}
+		}
+		owner = {
+			NOT = {
+				check_variable = {
+					which = "cis_magnaguard_count"
+					value = 3
+				}
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_special_weight
+			cis_countrys = yes
+		}
+	}
+}
+
+### Droid Occupation Army - Droids
+dro_occupation_01 = {
+	defensive = yes
+	occupation = yes
+	damage = 0.8
+	health = 2.4
+	has_morale = no
+	morale_damage = 0.8
+	collateral_damage = 0.5
+	war_exhaustion = 0.1
+	icon = GFX_army_type_dro_occ_1
+	prerequisites = {
+		"tech_battle_droids"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_battle_droids
+	}
+	has_species = no
+	potential = {
+		owner = {
+			has_technology = tech_battle_droids
+		}
+	}
+}
+
+### CIS Occupation Army - CIS
+cis_occupation_01 = {
+	defensive = yes
+	occupation = yes
+	damage = 1
+	health = 2.5
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_csa_gar_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_cis
+			has_technology = tech_weapon_group_misc2
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_cis
+				has_technology = tech_weapon_group_misc2
+			}
+		}
+	}
+}
+
+
+######
+# CSA
+######
+
+### Espos Troopers - CSA
+csa_infantry_1 = {
+	damage = 1.2
+	health = 1.3
+	morale = 1.3
+	morale_damage = 1.1
+	collateral_damage = 1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1
+			ammunition = 0.1
+		}
+		cost = {
+			minerals = 130
+			energy = 15
+		}
+	}
+	icon = GFX_army_type_csa_inf_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_csa
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_csa
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			csa_countrys = yes
+		}
+	}
+}
+
+### Espos Elite Troopers - CSA
+csa_infantry_2 = {
+	damage = 1.4
+	health = 1.5
+	morale = 1.5
+	morale_damage = 1.2
+	collateral_damage = 1.2
+	war_exhaustion = 1.5
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 0.2
+		}
+		cost = {
+			minerals = 150
+			energy = 30
+		}
+	}
+	icon = GFX_army_type_csa_inf_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_csa
+	}
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_csa
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			csa_countrys = yes
+		}
+	}
+}
+
+### Espos State Guard - CSA
+csa_infantry_3 = {
+	damage = 1.6
+	health = 2.1
+	morale = 1.9
+	morale_damage = 1.4
+	collateral_damage = 1.5
+	war_exhaustion = 2
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 0.3
+		}
+		cost = {
+			minerals = 220
+			energy = 40
+			alloys = 5
+		}
+	}
+	icon = GFX_army_type_assault
+	prerequisites = {
+		"tech_elite_assault_units"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_csa
+	}
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_csa
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			csa_countrys = yes
+		}
+	}
+}
+
+### Espos SpecOps - CSA
+csa_specops_2 = {
+	damage = 1.5
+	health = 0.7
+	morale = 2
+	morale_damage = 2.5
+	collateral_damage = 0.1
+	war_exhaustion = 1.5
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 0.4
+		}
+		cost = {
+			minerals = 150
+			energy = 45
+		}
+	}
+	icon = GFX_army_type_xenomorph
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_csa
+		has_technology = tech_advanced_armies
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_csa
+			has_technology = tech_advanced_armies
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			csa_countrys = yes
+		}
+	}
+}
+
+### R-41 Starchaser Squadron - CSA
+csa_arial_2 = {
+	damage = 2.2
+	health = 1.9
+	morale = 2.3
+	morale_damage = 2.5
+	collateral_damage = 1.5
+	war_exhaustion = 2
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3
+			ammunition = 1.5
+			electronics = 0.8
+		}
+		cost = {
+			energy = 110
+			alloys = 160
+			electronics = 30
+			ammunition = 20
+		}
+	}
+	icon = GFX_army_type_csa_arial_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_csa
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_csa
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			csa_countrys = yes
+		}
+	}
+}
+
+### CSA Occupation Army - CSA
+csa_occupation_01 = {
+	defensive = yes
+	occupation = yes
+	damage = 1
+	health = 2.5
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_csa_occu_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_csa
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_csa
+		}
+	}
+}
+
+### Hapes Militia - Hapes
+hap_infantry_1 = {
+	damage = 1.2
+	health = 1.2
+	morale = 1.1
+	morale_damage = 1
+	collateral_damage = 1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1
+			ammunition = 0.1
+		}
+		cost = {
+			minerals = 120
+			energy = 0
+		}
+	}
+	icon = GFX_army_type_hap_inf_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hap
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hap
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			hapan_countrys = yes
+		}
+	}
+}
+
+### Fountain Gunners - Hapes
+hap_infantry_2 = {
+	damage = 1.4
+	health = 1.4
+	morale = 1.5
+	morale_damage = 1.2
+	collateral_damage = 1
+	war_exhaustion = 1.5
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.9
+			ammunition = 0.2
+		}
+		cost = {
+			minerals = 145
+			energy = 20
+		}
+	}
+	icon = GFX_army_type_hap_inf_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hap
+	}
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hap
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			hapan_countrys = yes
+		}
+	}
+}
+
+### Fountain Elite - Hapes
+hap_infantry_3 = {
+	damage = 1.6
+	health = 1.9
+	morale = 2
+	morale_damage = 1.5
+	collateral_damage = 1.5
+	war_exhaustion = 2
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3.9
+			ammunition = 0.3
+		}
+		cost = {
+			minerals = 245
+			energy = 30
+		}
+	}
+	icon = GFX_army_type_hap_inf_3
+	prerequisites = {
+		"tech_elite_assault_units"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hap
+	}
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hap
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			hapan_countrys = yes
+		}
+	}
+}
+
+### Fountain Support Vehicles - Hapes
+hap_support_1 = {
+	damage = 1.1
+	health = 2.8
+	morale = 1.3
+	morale_damage = 1
+	collateral_damage = 1.1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.2
+			ammunition = 0.2
+		}
+		cost = {
+			energy = 10
+			alloys = 50
+			ammunition = 10
+			electronics = 5
+		}
+	}
+	icon = GFX_army_type_hap_sup_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hap
+	}
+	has_species = no
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hap
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_support_weight
+			hapan_countrys = yes
+		}
+	}
+}
+
+### Fountain Snipers - Hapes
+hap_specops_2 = {
+	damage = 1.4
+	health = 0.8
+	morale = 2.1
+	morale_damage = 2.5
+	collateral_damage = 0.1
+	war_exhaustion = 1.5
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 0.4
+		}
+		cost = {
+			minerals = 150
+			energy = 45
+		}
+	}
+	icon = GFX_army_type_hap_specops_2
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hap
+		has_technology = tech_advanced_armies
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hap
+			has_technology = tech_advanced_armies
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			hapan_countrys = yes
+		}
+	}
+}
+
+### Her Majesty's Select Commandos - Hapes
+hap_specops_3 = {
+	damage = 3.1
+	health = 1
+	morale = 2.6
+	morale_damage = 4
+	collateral_damage = 0.1
+	war_exhaustion = 3
+	time = 180
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 0.6
+		}
+		cost = {
+			minerals = 140
+			energy = 80
+			alloys = 20
+			electronics = 5
+		}
+	}
+	icon = GFX_army_type_hap_specops_3
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hap
+		has_technology = tech_elite_assault_units
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hap
+			has_technology = tech_elite_assault_units
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			hapan_countrys = yes
+		}
+	}
+}
+
+### Fountain Armor Detachment - Hapes
+hap_armor_1 = {
+	damage = 2.3
+	health = 3
+	morale = 2
+	morale_damage = 1
+	collateral_damage = 1.2
+	war_exhaustion = 2
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2.5
+			ammunition = 1.2
+		}
+		cost = {
+			energy = 35
+			alloys = 60
+			electronics = 30
+			ammunition = 20
+		}
+	}
+	icon = GFX_army_type_hap_armor_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hap
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hap
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			hapan_countrys = yes
+		}
+	}
+}
+
+### MLC-4 Artillery Tank - Hapes
+hap_arty_2 = {
+	damage = 4.7
+	health = 1.3
+	morale = 1.1
+	morale_damage = 1
+	collateral_damage = 6
+	war_exhaustion = 1
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2.5
+			ammunition = 2
+		}
+		cost = {
+			energy = 100
+			alloys = 80
+			ammunition = 30
+			electronics = 20
+		}
+	}
+	icon = GFX_army_type_hap_arty_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hap
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hap
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arty_weight
+			hapan_countrys = yes
+		}
+	}
+}
+
+### My'til Fighter Squadron - Hapes
+hap_arial_1 = {
+	damage = 2.3
+	health = 1.5
+	morale = 2.4
+	morale_damage = 2.4
+	collateral_damage = 1.8
+	war_exhaustion = 1.5
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2.5
+			ammunition = 1
+			electronics = 0.5
+		}
+		cost = {
+			energy = 110
+			alloys = 120
+			electronics = 20
+			ammunition = 10
+		}
+	}
+	icon = GFX_army_type_hap_arial_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hap
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hap
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			hapan_countrys = yes
+		}
+	}
+}
+
+### Hapan Royal Guard - Hapan
+hap_royalguard = {
+	damage = 2.8
+	health = 3.6
+	morale = 4
+	morale_damage = 3
+	collateral_damage = 0
+	war_exhaustion = 1
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 0
+			ammunition = 0.8
+		}
+		cost = {
+			minerals = 100
+			energy = 100
+		}
+	}
+	icon = GFX_army_type_hap_royalguard
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hap
+	}
+	has_species = yes
+	allow = {
+		custom_tooltip = {
+			text = hap_royalguard_limit_tooltip
+			owner = {
+				NOT = {
+					check_variable = {
+						which = "hap_royalguard_count"
+						value = 3
+					}
+				}
+			}
+		}
+	}
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "hap_royalguard_count"
+				value = 1
+			}
+		}
+	}
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "hap_royalguard_count"
+				value = -1
+			}
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hap
+		}
+		from = {
+			is_species_class = HAP
+		}
+		owner = {
+			NOT = {
+				check_variable = {
+					which = "hap_royalguard_count"
+					value = 3
+				}
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_special_weight
+			hapan_countrys = yes
+		}
+	}
+}
+
+### Hapes Occupation Army - Hapes
+hap_occupation_01 = {
+	defensive = yes
+	occupation = yes
+	damage = 1.1
+	health = 2.5
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_csa_occu_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_weapon_group_hap
+	}
+	potential = {
+		owner = {
+			has_technology = tech_weapon_group_hap
+		}
+	}
+}
+
+
+### Mercenaries - Other
+oth_infantry_1 = {
+	damage = 1.2
+	health = 1.2
+	morale = 1.1
+	morale_damage = 1
+	collateral_damage = 1
+	war_exhaustion = 1
+	time = 90
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.5
+			ammunition = 0.1
+		}
+		cost = {
+			minerals = 70
+			energy = 110
+		}
+	}
+	icon = GFX_army_type_geo_inf_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_hut
+			has_technology = tech_weapon_group_man
+			has_technology = tech_weapon_group_hap
+			has_technology = tech_weapon_group_cis
+			has_technology = tech_weapon_group_misc2
+			has_country_flag = corellian_security
+		}
+	}
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_hut
+				has_technology = tech_weapon_group_man
+				has_technology = tech_weapon_group_hap
+				has_technology = tech_weapon_group_cis
+				has_technology = tech_weapon_group_misc2
+				has_country_flag = corellian_security
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			other_countrys = yes
+			csa_countrys = yes
+		}
+	}
+}
+
+### Heavy Mercenary Battalion - Other
+oth_infantry_2 = {
+	damage = 1.4
+	health = 1.4
+	morale = 1.4
+	morale_damage = 1
+	collateral_damage = 1.8
+	war_exhaustion = 1.5
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2.5
+			ammunition = 0.2
+		}
+		cost = {
+			minerals = 100
+			energy = 130
+		}
+	}
+	icon = GFX_army_type_merc_heavy_1
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_cor
+			has_technology = tech_weapon_group_hut
+			has_technology = tech_weapon_group_man
+			has_technology = tech_weapon_group_hap
+		}
+	}
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_cor
+				has_technology = tech_weapon_group_hut
+				has_technology = tech_weapon_group_man
+				has_technology = tech_weapon_group_hap
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			other_countrys = yes
+			csa_countrys = yes
+		}
+	}
+}
+
+### Mandalorian Mercenaries - Other
+oth_infantry_3 = {
+	damage = 1.8
+	health = 1.8
+	morale = 1.8
+	morale_damage = 1.6
+	collateral_damage = 1.2
+	war_exhaustion = 2
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4.5
+			ammunition = 0.3
+		}
+		cost = {
+			minerals = 120
+			energy = 200
+		}
+	}
+	icon = GFX_army_type_merc_mando_1
+	prerequisites = {
+		"tech_elite_assault_units"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_cor
+			has_technology = tech_weapon_group_hut
+			has_technology = tech_weapon_group_man
+			has_technology = tech_weapon_group_csa
+			has_technology = tech_weapon_group_hap
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+		}
+	}
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_cor
+				has_technology = tech_weapon_group_hut
+				has_technology = tech_weapon_group_man
+				has_technology = tech_weapon_group_csa
+				has_technology = tech_weapon_group_hap
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_infantry_weight
+			other_countrys = yes
+		}
+	}
+}
+
+### Infantry Support Vehicles - Other
+oth_support_1 = {
+	damage = 1
+	health = 2.5
+	morale = 1.3
+	morale_damage = 1
+	collateral_damage = 1.1
+	war_exhaustion = 1
+	time = 120
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.2
+			ammunition = 0.2
+		}
+		cost = {
+			energy = 50
+			alloys = 50
+			ammunition = 10
+			electronics = 5
+		}
+	}
+	icon = GFX_army_type_inf_sup_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_cis
+			has_technology = tech_weapon_group_cor
+			has_technology = tech_weapon_group_hut
+			has_technology = tech_weapon_group_man
+			has_technology = tech_weapon_group_csa
+			has_technology = tech_weapon_group_hap
+		}
+	}
+	has_species = no
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_cis
+				has_technology = tech_weapon_group_cor
+				has_technology = tech_weapon_group_hut
+				has_technology = tech_weapon_group_man
+				has_technology = tech_weapon_group_csa
+				has_technology = tech_weapon_group_hap
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_support_weight
+			other_countrys = yes
+		}
+	}
+}
+
+### HAVw A6 Juggernaut - Other
+oth_support_2 = {
+	damage = 0.8
+	health = 4
+	morale = 1.5
+	morale_damage = 1.2
+	collateral_damage = 1.5
+	war_exhaustion = 1
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.5
+			ammunition = 0.4
+		}
+		cost = {
+			energy = 60
+			alloys = 80
+			electronics = 15
+			ammunition = 20
+		}
+	}
+	icon = GFX_army_type_inf_armor_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			NOT = {
+				has_country_flag = cis_tech
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_support_weight
+			other_countrys = yes
+		}
+	}
+}
+
+### Bounty Hunters - Other
+oth_specops_2 = {
+	damage = 1.5
+	health = 1.1
+	morale = 1.9
+	morale_damage = 2.5
+	collateral_damage = 0.1
+	war_exhaustion = 1.5
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 0.4
+		}
+		cost = {
+			minerals = 100
+			energy = 200
+		}
+	}
+	icon = GFX_army_type_inf_bountyhunters
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_hut
+			has_technology = tech_weapon_group_man
+			has_technology = tech_weapon_group_csa
+			has_technology = tech_weapon_group_hap
+			has_country_flag = corellian_security
+		}
+		has_technology = tech_advanced_armies
+	}
+	has_species = no
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_hut
+				has_technology = tech_weapon_group_man
+				has_technology = tech_weapon_group_csa
+				has_technology = tech_weapon_group_hap
+				has_country_flag = corellian_security
+			}
+			has_technology = tech_advanced_armies
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			other_countrys = yes
+			csa_countrys = yes
+		}
+	}
+}
+
+### Clone Commandos - Other
+oth_specops_3 = {
+	damage = 3.1
+	health = 1.2
+	morale = 3
+	morale_damage = 3
+	collateral_damage = 0.1
+	war_exhaustion = 1
+	time = 480
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 0.6
+		}
+		cost = {
+			minerals = 120
+			energy = 200
+		}
+	}
+	icon = GFX_army_type_inf_clonecommandos
+	prerequisites = {
+		"tech_special_forces"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_clone_armies
+		has_technology = tech_elite_assault_units
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_clone_vats"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_clone_armies
+			has_technology = tech_elite_assault_units
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_specops_weight
+			other_countrys = yes
+		}
+	}
+}
+
+### TX-225 Assualt Tank Detachment - Other
+oth_armor_1 = {
+	damage = 2.2
+	health = 3.5
+	morale = 1.8
+	morale_damage = 1.2
+	collateral_damage = 1.3
+	war_exhaustion = 2
+	time = 140
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3
+			ammunition = 1.2
+		}
+		cost = {
+			energy = 40
+			alloys = 80
+			electronics = 20
+			ammunition = 30
+		}
+	}
+	icon = GFX_army_type_inf_armor_3
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_cor
+			has_technology = tech_weapon_group_hut
+			has_technology = tech_weapon_group_man
+			has_technology = tech_weapon_group_csa
+			has_technology = tech_weapon_group_cis
+			has_technology = tech_weapon_group_misc2
+			has_technology = tech_weapon_group_hap
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_cor
+				has_technology = tech_weapon_group_hut
+				has_technology = tech_weapon_group_man
+				has_technology = tech_weapon_group_csa
+				has_technology = tech_weapon_group_cis
+				has_technology = tech_weapon_group_misc2
+				has_technology = tech_weapon_group_hap
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			other_countrys = yes
+		}
+	}
+}
+
+### Salvaged AT-TE Detachment - Other
+oth_armor_2 = {
+	damage = 2.4
+	health = 3.7
+	morale = 1.8
+	morale_damage = 1.3
+	collateral_damage = 2.5
+	war_exhaustion = 3
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 1.4
+		}
+		cost = {
+			energy = 100
+			alloys = 120
+			electronics = 40
+			ammunition = 60
+		}
+	}
+	icon = GFX_army_type_reb_armor_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_cor
+			has_technology = tech_weapon_group_man
+			has_technology = tech_weapon_group_csa
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_cor
+				has_technology = tech_weapon_group_man
+				has_technology = tech_weapon_group_csa
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			other_countrys = yes
+		}
+	}
+}
+
+### Salvaged AT-HE Detachment - Other
+oth_armor_3 = {
+	damage = 2.5
+	health = 4
+	morale = 2
+	morale_damage = 1.3
+	collateral_damage = 2.5
+	war_exhaustion = 3
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 4
+			ammunition = 1.6
+		}
+		cost = {
+			energy = 100
+			alloys = 160
+			ammunition = 60
+			electronics = 50
+		}
+	}
+	icon = GFX_army_type_inf_armor_2
+	prerequisites = {
+		"tech_advanced_walkers"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_cor
+			has_technology = tech_weapon_group_csa
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_cor
+				has_technology = tech_weapon_group_csa
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_armor_weight
+			other_countrys = yes
+		}
+	}
+}
+
+
+### MLC-3 Light Artillery Tank - Other
+oth_arty_1 = {
+	damage = 3.5
+	health = 1
+	morale = 0.8
+	morale_damage = 1
+	collateral_damage = 5
+	war_exhaustion = 0.8
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2.5
+			ammunition = 2
+		}
+		cost = {
+			energy = 80
+			alloys = 80
+			ammunition = 25
+			electronics = 30
+		}
+	}
+	icon = GFX_army_type_hap_arty_2
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_hut
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_hut
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arty_weight
+			other_countrys = yes
+		}
+	}
+}
+
+### SPHA-T Artillery Detachment - Other
+oth_arty_3 = {
+	damage = 5.8
+	health = 1.8
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 12
+	war_exhaustion = 2.3
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 6
+			ammunition = 2.4
+		}
+		cost = {
+			energy = 250
+			alloys = 140
+			ammunition = 60
+			electronics = 40
+		}
+	}
+	icon = GFX_army_type_undead
+	prerequisites = {
+		"tech_elite_assault_units"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arty_weight
+			other_countrys = yes
+		}
+	}
+}
+
+### Turbostorm-class Gunship - Other
+oth_arial_2_0 = {
+	damage = 2
+	health = 2
+	morale = 2
+	morale_damage = 2.6
+	collateral_damage = 1.5
+	war_exhaustion = 2
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3
+			ammunition = 1.5
+			electronics = 0.8
+		}
+		cost = {
+			energy = 120
+			alloys = 140
+			electronics = 40
+			ammunition = 20
+		}
+	}
+	icon = GFX_army_type_cis_arial_1
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_cor
+			has_technology = tech_weapon_group_csa
+			has_technology = tech_weapon_group_cis
+			has_technology = tech_weapon_group_misc2
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_cor
+				has_technology = tech_weapon_group_csa
+				has_technology = tech_weapon_group_cis
+				has_technology = tech_weapon_group_misc2
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			other_countrys = yes
+		}
+	}
+}
+
+### Legacy LAAT Gunship - Other
+oth_arial_2_1 = {
+	damage = 3
+	health = 2.6
+	morale = 2.5
+	morale_damage = 2.2
+	collateral_damage = 2
+	war_exhaustion = 2.5
+	time = 300
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3.5
+			ammunition = 1.4
+			electronics = 0.6
+		}
+		cost = {
+			energy = 120
+			alloys = 140
+			electronics = 30
+			ammunition = 20
+		}
+	}
+	icon = GFX_army_type_inf_arial_2
+	prerequisites = {
+		"tech_advanced_armies"
+	}
+	show_tech_unlock_if = {
+		OR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			OR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			other_countrys = yes
+		}
+	}
+}
+
+### Storm IV Twin-Pod Cloud Car - Other
+oth_arial_1 = {
+	damage = 1.4
+	health = 1.3
+	morale = 2
+	morale_damage = 1.4
+	collateral_damage = 1.2
+	war_exhaustion = 1.5
+	time = 160
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+			ammunition = 1
+			electronics = 0.5
+		}
+		cost = {
+			energy = 100
+			alloys = 120
+			electronics = 20
+			ammunition = 10
+		}
+	}
+	icon = GFX_army_type_inf_arial_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_cis
+			has_technology = tech_weapon_group_hut
+			has_technology = tech_weapon_group_man
+			has_technology = tech_weapon_group_hap
+		}
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_military_academy"
+			has_building = "building_heavy_vehicles"
+		}
+	}
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_cis
+				has_technology = tech_weapon_group_hut
+				has_technology = tech_weapon_group_man
+				has_technology = tech_weapon_group_hap
+			}
+		}
+	}
+	ai_weight = {
+		base = 0
+		modifier = {
+			add = @army_arial_weight
+			other_countrys = yes
+		}
+	}
+}
+
+### Clone Troopers - Other
+clo_infantry_1 = {
+	damage = 1.8
+	health = 1.6
+	morale = 2
+	morale_damage = 2
+	collateral_damage = 1
+	war_exhaustion = 0.25
+	time = 300
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.5
+			ammunition = 0.1
+		}
+		cost = {
+			minerals = 80
+			energy = 200
+		}
+	}
+	icon = GFX_army_type_clo_inf_1
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	show_tech_unlock_if = {
+		has_technology = tech_clone_armies
+	}
+	has_species = no
+	allow = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			swnd_capital_buildings = yes
+		}
+		else = {
+			has_building = "building_clone_vats"
+		}
+	}
+	potential = {
+		owner = {
+			has_technology = tech_clone_armies
+		}
+	}
+}
+
+### Geonosian - Other
+oth_geonos = {
+	damage = 1
+	health = 1
+	morale = 0.8
+	morale_damage = 1
+	collateral_damage = 1
+	war_exhaustion = 0.5
+	time = 100
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 0.9
+		}
+		cost = {
+			minerals = 50
+			energy = 50
+		}
+	}
+	icon = GFX_army_type_geo_inf_1
+	prerequisites = {
+		"tech_special_forces"
+	}
+	has_species = yes
+	allow = {
+		custom_tooltip = {
+			text = oth_geonos_limit_tooltip
+			owner = {
+				NOT = {
+					check_variable = {
+						which = "oth_geonos_count"
+						value = 3
+					}
+				}
+			}
+		}
+	}
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "oth_geonos_count"
+				value = 1
+			}
+		}
+	}
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "oth_geonos_count"
+				value = -1
+			}
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = GEO
+		}
+		owner = {
+			NOT = {
+				check_variable = {
+					which = "oth_geonos_count"
+					value = 3
+				}
+			}
+		}
+	}
+}
+
+### DF9 Cannon Fortifications - Fortifications
+fortification_1 = {
+	defensive = yes
+	is_pop_spawned = no
+	damage = 1.2
+	health = 7
+	has_morale = no
+	morale_damage = 0.5
+	collateral_damage = 0
+	war_exhaustion = 0
+	icon = GFX_army_type_fortification_1
+	has_species = no
+	potential = {
+		always = no
+	}
+}
+
+### Turbolaser Cannon Fortifications - Fortifications
+fortification_3 = {
+	defensive = yes
+	is_pop_spawned = no
+	damage = 3
+	health = 11
+	has_morale = no
+	morale_damage = 0.8
+	collateral_damage = 0.5
+	war_exhaustion = 0
+	icon = GFX_army_type_fortification_2
+	has_species = no
+	potential = {
+		always = no
+	}
+}
+
+### Rancor - Creature
+cre_rancor = {
+	damage = 2.5
+	health = 4
+	morale = 5
+	morale_damage = 4
+	collateral_damage = 10
+	war_exhaustion = 1
+	time = 360
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3
+		}
+		cost = {
+			minerals = 250
+			energy = 250
+		}
+	}
+	icon = GFX_army_type_rancor
+	has_species = no
+	potential = {
+		always = no
+	}
+}
+
+### Ancient Rancor - Creature
+cre_ancientrancor = {
+	damage = 3
+	health = 5
+	morale = 6
+	morale_damage = 5
+	collateral_damage = 12
+	war_exhaustion = 1
+	time = 360
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 5
+		}
+		cost = {
+			minerals = 350
+			energy = 250
+		}
+	}
+	icon = GFX_army_type_ancientrancor
+	has_species = no
+	potential = {
+		always = no
+	}
+}
+
+### Acklay - Creature
+cre_acklay = {
+	damage = 2
+	health = 2
+	morale = 2
+	morale_damage = 4
+	collateral_damage = 4
+	war_exhaustion = 1
+	time = 360
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 2
+		}
+		cost = {
+			minerals = 150
+			energy = 150
+		}
+	}
+	icon = GFX_army_type_acklay
+	has_species = no
+	potential = {
+		always = no
+	}
+}
+
+### Primal Beasts - Creature
+cre_primalbeasts = {
+	damage = 1.5
+	health = 1.5
+	morale = 1.5
+	morale_damage = 3
+	collateral_damage = 2
+	war_exhaustion = 1
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.5
+		}
+		cost = {
+			minerals = 100
+			energy = 100
+		}
+	}
+	icon = GFX_army_type_primalbeast
+	has_species = no
+	potential = {
+		always = no
+	}
+}
+
+### Disturbed Beasts - Creature
+cre_dusturbedbeasts = {
+	damage = 1
+	health = 2
+	morale = 1.5
+	morale_damage = 2.5
+	collateral_damage = 2
+	war_exhaustion = 1
+	time = 240
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 1.5
+		}
+		cost = {
+			minerals = 100
+			energy = 100
+		}
+	}
+	icon = GFX_army_type_primalbeast
+	has_species = no
+	potential = {
+		always = no
+	}
+}
+
+### Zillo Beast - Creature
+cre_zillo_beast_clone = {
+	damage = 4
+	health = 7
+	morale = 8
+	morale_damage = 8
+	collateral_damage = 15
+	war_exhaustion = 1
+	time = 360
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 7
+		}
+		cost = {
+			minerals = 400
+			energy = 350
+		}
+	}
+	icon = GFX_army_type_primalbeast
+	show_tech_unlock_if = {
+		has_country_flag = zillo_beast_soldiers
+	}
+	has_species = no
+	potential = {
+		owner = {
+			has_country_flag = zillo_beast_soldiers
+		}
+	}
+}
+
+
+### Militia Occupation Army - Other
+oth_occupation_01 = {
+	defensive = yes
+	occupation = yes
+	damage = 1
+	health = 2.5
+	morale = 1.5
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0.25
+	icon = GFX_army_type_csa_occu_1
+	prerequisites = {
+		"tech_planetary_defenses"
+	}
+	show_tech_unlock_if = {
+		NOR = {
+			has_technology = tech_weapon_group_imp
+			has_technology = tech_weapon_group_misc4
+			has_technology = tech_weapon_group_reb
+			has_technology = tech_weapon_group_misc3
+			has_technology = tech_weapon_group_hut
+			has_technology = tech_weapon_group_man
+			has_technology = tech_weapon_group_csa
+			has_technology = tech_weapon_group_hap
+			has_technology = tech_weapon_group_cis
+			has_technology = tech_weapon_group_misc2
+			has_country_flag = corellian_security
+		}
+	}
+	potential = {
+		owner = {
+			NOR = {
+				has_technology = tech_weapon_group_imp
+				has_technology = tech_weapon_group_misc4
+				has_technology = tech_weapon_group_reb
+				has_technology = tech_weapon_group_misc3
+				has_technology = tech_weapon_group_hut
+				has_technology = tech_weapon_group_man
+				has_technology = tech_weapon_group_csa
+				has_technology = tech_weapon_group_hap
+				has_technology = tech_weapon_group_cis
+				has_technology = tech_weapon_group_misc2
+				has_country_flag = corellian_security
+			}
+		}
+	}
+}
+
+### Yuuzhan Vong Warriors - Vong
+imp_yuuzhan_1 = {
+	damage = 5
+	health = 2.5
+	morale = 5
+	morale_damage = 4
+	collateral_damage = 8
+	war_exhaustion = 1
+	time = 200
+	resources = {
+		category = armies
+		cost = {
+		}
+	}
+	icon = GFX_army_type_vong
+	show_tech_unlock_if = {
+		exists = owner
+		owner = {
+			is_country_type = "swarm"
+		}
+	}
+	has_species = no
+	potential = {
+		owner = {
+			exists = owner
+			owner = {
+				is_country_type = "swarm"
+			}
+		}
+	}
+}

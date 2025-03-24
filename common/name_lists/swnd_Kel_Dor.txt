@@ -1,0 +1,844 @@
+﻿Kel_Dor = {
+	randomized = no
+	ship_names = {
+		generic = {
+			KEL_DOR_SHIP_mystic KEL_DOR_SHIP_naiad KEL_DOR_SHIP_nautilus KEL_DOR_SHIP_nebula KEL_DOR_SHIP_nimble KEL_DOR_SHIP_north_star KEL_DOR_SHIP_nymph KEL_DOR_SHIP_obdurate KEL_DOR_SHIP_ocean KEL_DOR_SHIP_onward KEL_DOR_SHIP_oracle KEL_DOR_SHIP_paradox KEL_DOR_SHIP_paragon KEL_DOR_SHIP_pearl KEL_DOR_SHIP_peregrine KEL_DOR_SHIP_perseverance KEL_DOR_SHIP_marksman KEL_DOR_SHIP_rifleman KEL_DOR_SHIP_sniper KEL_DOR_SHIP_trident KEL_DOR_SHIP_trumpet KEL_DOR_SHIP_truncheon KEL_DOR_SHIP_typhoon KEL_DOR_SHIP_undaunted KEL_DOR_SHIP_venture KEL_DOR_SHIP_versatile KEL_DOR_SHIP_vigorous KEL_DOR_SHIP_viper KEL_DOR_SHIP_vivacious KEL_DOR_SHIP_winger KEL_DOR_SHIP_wizard KEL_DOR_SHIP_wyvern KEL_DOR_SHIP_wolfhound KEL_DOR_SHIP_devastator KEL_DOR_SHIP_warhammer KEL_DOR_SHIP_retribution KEL_DOR_SHIP_senator KEL_DOR_SHIP_tornado KEL_DOR_SHIP_infinity KEL_DOR_SHIP_usurper KEL_DOR_SHIP_utmost KEL_DOR_SHIP_valorous KEL_DOR_SHIP_whirlwind KEL_DOR_SHIP_athena KEL_DOR_SHIP_artemis KEL_DOR_SHIP_vigilance KEL_DOR_SHIP_decimator KEL_DOR_SHIP_indomitable KEL_DOR_SHIP_goliath KEL_DOR_SHIP_sentinel KEL_DOR_SHIP_brilliant KEL_DOR_SHIP_blazer KEL_DOR_SHIP_audacity KEL_DOR_SHIP_gallant KEL_DOR_SHIP_nova KEL_DOR_SHIP_shadow KEL_DOR_SHIP_allegiance KEL_DOR_SHIP_challenger KEL_DOR_SHIP_fearless KEL_DOR_SHIP_protector KEL_DOR_SHIP_guardian KEL_DOR_SHIP_victorious KEL_DOR_SHIP_courageous KEL_DOR_SHIP_defiance KEL_DOR_SHIP_valorous KEL_DOR_SHIP_azrael KEL_DOR_SHIP_adamantine KEL_DOR_SHIP_aralanni KEL_DOR_SHIP_ardent_iv KEL_DOR_SHIP_armistice KEL_DOR_SHIP_avengeance KEL_DOR_SHIP_ballista KEL_DOR_SHIP_bloodstripe KEL_DOR_SHIP_borealis KEL_DOR_SHIP_caelus KEL_DOR_SHIP_caravan KEL_DOR_SHIP_chaf_envoy KEL_DOR_SHIP_commenor KEL_DOR_SHIP_corbantis KEL_DOR_SHIP_corellia KEL_DOR_SHIP_courteous KEL_DOR_SHIP_dauntless KEL_DOR_SHIP_defiant KEL_DOR_SHIP_deliverance KEL_DOR_SHIP_derapha KEL_DOR_SHIP_devout KEL_DOR_SHIP_empirical KEL_DOR_SHIP_empyrean KEL_DOR_SHIP_era_daimanos KEL_DOR_SHIP_eye_of_the_storm KEL_DOR_SHIP_farstar KEL_DOR_SHIP_fastblast KEL_DOR_SHIP_galaaron KEL_DOR_SHIP_garrote KEL_DOR_SHIP_gilagimar KEL_DOR_SHIP_halleck KEL_DOR_SHIP_hunter KEL_DOR_SHIP_intractable KEL_DOR_SHIP_ithor_lady KEL_DOR_SHIP_justice_crusader KEL_DOR_SHIP_kana_s_steel KEL_DOR_SHIP_lathir KEL_DOR_SHIP_liberty KEL_DOR_SHIP_lillibanca KEL_DOR_SHIP_maelstrom KEL_DOR_SHIP_malachite_scent KEL_DOR_SHIP_mercy KEL_DOR_SHIP_myrkos KEL_DOR_SHIP_nebula_chaser KEL_DOR_SHIP_nova KEL_DOR_SHIP_nova_viper KEL_DOR_SHIP_obedience KEL_DOR_SHIP_olemp KEL_DOR_SHIP_pegasus KEL_DOR_SHIP_perspicacity KEL_DOR_SHIP_phalanx KEL_DOR_SHIP_plooriod_bodkin KEL_DOR_SHIP_predominance KEL_DOR_SHIP_prosperity KEL_DOR_SHIP_purity KEL_DOR_SHIP_recalcitrant KEL_DOR_SHIP_red_nova KEL_DOR_SHIP_redma KEL_DOR_SHIP_reliable KEL_DOR_SHIP_reliant KEL_DOR_SHIP_reluctant KEL_DOR_SHIP_republic KEL_DOR_SHIP_republic_s_return KEL_DOR_SHIP_resolve KEL_DOR_SHIP_respectable KEL_DOR_SHIP_revenge KEL_DOR_SHIP_shadowblade KEL_DOR_SHIP_spritespray KEL_DOR_SHIP_star_dream KEL_DOR_SHIP_stark_wing KEL_DOR_SHIP_starveil KEL_DOR_SHIP_undying KEL_DOR_SHIP_vaathkree KEL_DOR_SHIP_vainglorious KEL_DOR_SHIP_valiant KEL_DOR_SHIP_valor KEL_DOR_SHIP_vanquisher KEL_DOR_SHIP_vinsor KEL_DOR_SHIP_visseon KEL_DOR_SHIP_wennis KEL_DOR_SHIP_yavin_s_glory KEL_DOR_SHIP_moldy_crow KEL_DOR_SHIP_raven_s_claw KEL_DOR_SHIP_agile KEL_DOR_SHIP_archer KEL_DOR_SHIP_arrow KEL_DOR_SHIP_bruiser KEL_DOR_SHIP_cherub KEL_DOR_SHIP_chimera KEL_DOR_SHIP_claymore KEL_DOR_SHIP_broadsword KEL_DOR_SHIP_battleaxe KEL_DOR_SHIP_crossbow KEL_DOR_SHIP_cutlass KEL_DOR_SHIP_deterrent KEL_DOR_SHIP_errant KEL_DOR_SHIP_faithful KEL_DOR_SHIP_fierce KEL_DOR_SHIP_gladius KEL_DOR_SHIP_longbow KEL_DOR_SHIP_grappler KEL_DOR_SHIP_hammer KEL_DOR_SHIP_vampire KEL_DOR_SHIP_velox KEL_DOR_SHIP_venator KEL_DOR_SHIP_vendetta KEL_DOR_SHIP_venerable KEL_DOR_SHIP_venomous KEL_DOR_SHIP_taciturn KEL_DOR_SHIP_supreme KEL_DOR_SHIP_success KEL_DOR_SHIP_shredder KEL_DOR_SHIP_seraph KEL_DOR_SHIP_serpent KEL_DOR_SHIP_spitfire KEL_DOR_SHIP_stalker KEL_DOR_SHIP_stratagem KEL_DOR_SHIP_scimitar KEL_DOR_SHIP_scorcher KEL_DOR_SHIP_scourge KEL_DOR_SHIP_scythe KEL_DOR_SHIP_revenant KEL_DOR_SHIP_redoubtable KEL_DOR_SHIP_raptor KEL_DOR_SHIP_reaver KEL_DOR_SHIP_prodigal KEL_DOR_SHIP_rapier KEL_DOR_SHIP_prudent KEL_DOR_SHIP_persistent KEL_DOR_SHIP_peerless KEL_DOR_SHIP_myrmidon KEL_DOR_SHIP_indignant KEL_DOR_SHIP_javelin KEL_DOR_SHIP_knight KEL_DOR_SHIP_starwolf KEL_DOR_SHIP_bonaventure KEL_DOR_SHIP_adventure KEL_DOR_SHIP_boxer KEL_DOR_SHIP_buccaneer KEL_DOR_SHIP_cavalier KEL_DOR_SHIP_celestial KEL_DOR_SHIP_chariot KEL_DOR_SHIP_comet KEL_DOR_SHIP_crucible KEL_DOR_SHIP_cyclone KEL_DOR_SHIP_decisive KEL_DOR_SHIP_dexterous KEL_DOR_SHIP_diadem KEL_DOR_SHIP_earnest KEL_DOR_SHIP_eclipse KEL_DOR_SHIP_forger KEL_DOR_SHIP_fortune KEL_DOR_SHIP_gauntlet KEL_DOR_SHIP_griffin KEL_DOR_SHIP_horizon KEL_DOR_SHIP_hotspur KEL_DOR_SHIP_hurricane KEL_DOR_SHIP_hussar KEL_DOR_SHIP_jubilant KEL_DOR_SHIP_lancer KEL_DOR_SHIP_lightning KEL_DOR_SHIP_magic KEL_DOR_SHIP_mediator KEL_DOR_SHIP_mermaid KEL_DOR_SHIP_meteor KEL_DOR_SHIP_minstrel KEL_DOR_SHIP_miranda KEL_DOR_SHIP_mustang KEL_DOR_SHIP_sharpshooter KEL_DOR_SHIP_cyclops KEL_DOR_SHIP_centaur KEL_DOR_SHIP_adversary KEL_DOR_SHIP_assassin KEL_DOR_SHIP_dagger KEL_DOR_SHIP_daring KEL_DOR_SHIP_duty KEL_DOR_SHIP_havoc KEL_DOR_SHIP_hero KEL_DOR_SHIP_hunter KEL_DOR_SHIP_justice KEL_DOR_SHIP_impeccable KEL_DOR_SHIP_interceptor KEL_DOR_SHIP_infernal KEL_DOR_SHIP_loyal KEL_DOR_SHIP_matchless KEL_DOR_SHIP_mauler KEL_DOR_SHIP_mayhem KEL_DOR_SHIP_malice KEL_DOR_SHIP_menace KEL_DOR_SHIP_merciless KEL_DOR_SHIP_mischief KEL_DOR_SHIP_monarch KEL_DOR_SHIP_patriot KEL_DOR_SHIP_predator KEL_DOR_SHIP_powerful KEL_DOR_SHIP_punisher KEL_DOR_SHIP_ravager KEL_DOR_SHIP_reaper KEL_DOR_SHIP_savage KEL_DOR_SHIP_spiteful KEL_DOR_SHIP_templar KEL_DOR_SHIP_terminator KEL_DOR_SHIP_terror KEL_DOR_SHIP_thrasher KEL_DOR_SHIP_minotaur KEL_DOR_SHIP_manticore KEL_DOR_SHIP_interdictor KEL_DOR_SHIP_intruder KEL_DOR_SHIP_hydra KEL_DOR_SHIP_enfield KEL_DOR_SHIP_harasser KEL_DOR_SHIP_unbeaten KEL_DOR_SHIP_werewolf KEL_DOR_SHIP_zealous KEL_DOR_SHIP_petulant KEL_DOR_SHIP_phantom KEL_DOR_SHIP_phoenix KEL_DOR_SHIP_pike KEL_DOR_SHIP_pursuer KEL_DOR_SHIP_raider KEL_DOR_SHIP_rainbow KEL_DOR_SHIP_rapid KEL_DOR_SHIP_redemption KEL_DOR_SHIP_relentless KEL_DOR_SHIP_rigorous KEL_DOR_SHIP_robust KEL_DOR_SHIP_sabre KEL_DOR_SHIP_salvation KEL_DOR_SHIP_sanguine KEL_DOR_SHIP_scarab KEL_DOR_SHIP_scepter KEL_DOR_SHIP_sea_witch KEL_DOR_SHIP_siren KEL_DOR_SHIP_sorceress KEL_DOR_SHIP_spearhead KEL_DOR_SHIP_specter KEL_DOR_SHIP_spirit KEL_DOR_SHIP_splendid KEL_DOR_SHIP_stallion KEL_DOR_SHIP_stalwart KEL_DOR_SHIP_steadfast KEL_DOR_SHIP_strenuous KEL_DOR_SHIP_superb KEL_DOR_SHIP_supernova KEL_DOR_SHIP_surprise KEL_DOR_SHIP_swiftsure KEL_DOR_SHIP_talent KEL_DOR_SHIP_talisman KEL_DOR_SHIP_talon KEL_DOR_SHIP_taurus KEL_DOR_SHIP_tenacious KEL_DOR_SHIP_thunder_child KEL_DOR_SHIP_thunderous KEL_DOR_SHIP_tireless KEL_DOR_SHIP_trenchant KEL_DOR_SHIP_righteous KEL_DOR_SHIP_acheron KEL_DOR_SHIP_achilles KEL_DOR_SHIP_agamemnon KEL_DOR_SHIP_amphion KEL_DOR_SHIP_aquilon KEL_DOR_SHIP_argonaut KEL_DOR_SHIP_argus KEL_DOR_SHIP_ariel KEL_DOR_SHIP_aurora KEL_DOR_SHIP_avernus KEL_DOR_SHIP_bacchus KEL_DOR_SHIP_bucephalus KEL_DOR_SHIP_calliope KEL_DOR_SHIP_calypso KEL_DOR_SHIP_castor KEL_DOR_SHIP_charybdis KEL_DOR_SHIP_circe KEL_DOR_SHIP_cleopatra KEL_DOR_SHIP_constantine KEL_DOR_SHIP_cordelia KEL_DOR_SHIP_cyrus KEL_DOR_SHIP_damocles KEL_DOR_SHIP_daedalus KEL_DOR_SHIP_darius KEL_DOR_SHIP_diomede KEL_DOR_SHIP_dryad KEL_DOR_SHIP_electra KEL_DOR_SHIP_endymion KEL_DOR_SHIP_erebus KEL_DOR_SHIP_fenris KEL_DOR_SHIP_freya KEL_DOR_SHIP_gilgamesh KEL_DOR_SHIP_gorgon KEL_DOR_SHIP_halcyon KEL_DOR_SHIP_hecate KEL_DOR_SHIP_hector KEL_DOR_SHIP_hesperus KEL_DOR_SHIP_janus KEL_DOR_SHIP_jason KEL_DOR_SHIP_juno KEL_DOR_SHIP_jupiter KEL_DOR_SHIP_lancelot KEL_DOR_SHIP_lazarus KEL_DOR_SHIP_leander KEL_DOR_SHIP_leonidas KEL_DOR_SHIP_lysander KEL_DOR_SHIP_maenad KEL_DOR_SHIP_mars KEL_DOR_SHIP_medea KEL_DOR_SHIP_medusa KEL_DOR_SHIP_menestheus KEL_DOR_SHIP_mercury KEL_DOR_SHIP_merlin KEL_DOR_SHIP_minerva KEL_DOR_SHIP_minos KEL_DOR_SHIP_neptune KEL_DOR_SHIP_nessus KEL_DOR_SHIP_nestor KEL_DOR_SHIP_nimrod KEL_DOR_SHIP_niobe KEL_DOR_SHIP_oberon KEL_DOR_SHIP_odin KEL_DOR_SHIP_ophelia KEL_DOR_SHIP_orestes KEL_DOR_SHIP_orpheus KEL_DOR_SHIP_osiris KEL_DOR_SHIP_pandora KEL_DOR_SHIP_penelope KEL_DOR_SHIP_persephone KEL_DOR_SHIP_perseus KEL_DOR_SHIP_phoebe KEL_DOR_SHIP_pluto KEL_DOR_SHIP_poseidon KEL_DOR_SHIP_proteus KEL_DOR_SHIP_pylades KEL_DOR_SHIP_serapis KEL_DOR_SHIP_stygian KEL_DOR_SHIP_tantalus KEL_DOR_SHIP_telemachus KEL_DOR_SHIP_theseus KEL_DOR_SHIP_thor KEL_DOR_SHIP_trajan KEL_DOR_SHIP_triton KEL_DOR_SHIP_venus KEL_DOR_SHIP_adamant KEL_DOR_SHIP_ardent KEL_DOR_SHIP_assail KEL_DOR_SHIP_austere KEL_DOR_SHIP_archon KEL_DOR_SHIP_adroit KEL_DOR_SHIP_aegis KEL_DOR_SHIP_anchor KEL_DOR_SHIP_corsair KEL_DOR_SHIP_banshee KEL_DOR_SHIP_enchantress KEL_DOR_SHIP_eradicator KEL_DOR_SHIP_tormentor KEL_DOR_SHIP_legion KEL_DOR_SHIP_reprisal KEL_DOR_SHIP_aggressor KEL_DOR_SHIP_assault KEL_DOR_SHIP_eviscerator KEL_DOR_SHIP_imperator KEL_DOR_SHIP_excellence KEL_DOR_SHIP_unrivalled KEL_DOR_SHIP_warlord KEL_DOR_SHIP_vengeance KEL_DOR_SHIP_triumphant KEL_DOR_SHIP_nemesis KEL_DOR_SHIP_avenger KEL_DOR_SHIP_champion KEL_DOR_SHIP_conqueror KEL_DOR_SHIP_crusader KEL_DOR_SHIP_glory KEL_DOR_SHIP_immortal KEL_DOR_SHIP_judicator KEL_DOR_SHIP_vanguard KEL_DOR_SHIP_renown KEL_DOR_SHIP_demolisher KEL_DOR_SHIP_dragon KEL_DOR_SHIP_executor KEL_DOR_SHIP_furious KEL_DOR_SHIP_gladiator KEL_DOR_SHIP_magnificent KEL_DOR_SHIP_ogre KEL_DOR_SHIP_onslaught KEL_DOR_SHIP_revenge KEL_DOR_SHIP_vanquisher KEL_DOR_SHIP_vehement KEL_DOR_SHIP_basilisk KEL_DOR_SHIP_tempest KEL_DOR_SHIP_overlord KEL_DOR_SHIP_warrior KEL_DOR_SHIP_titan KEL_DOR_SHIP_colossus KEL_DOR_SHIP_prometheus KEL_DOR_SHIP_nike KEL_DOR_SHIP_paladin KEL_DOR_SHIP_sovereign KEL_DOR_SHIP_repulse KEL_DOR_SHIP_majestic KEL_DOR_SHIP_avatar KEL_DOR_SHIP_behemoth KEL_DOR_SHIP_centurion KEL_DOR_SHIP_citadel KEL_DOR_SHIP_katana KEL_DOR_SHIP_kraken KEL_DOR_SHIP_cerberus KEL_DOR_SHIP_valkyrie
+		}
+		swp_bellator = {
+			KEL_DOR_SHIP_dreadnought KEL_DOR_SHIP_harbinger KEL_DOR_SHIP_juggernaut KEL_DOR_SHIP_leviathan KEL_DOR_SHIP_hyperion KEL_DOR_SHIP_galatea KEL_DOR_SHIP_ambush KEL_DOR_SHIP_vindicator
+		}
+		science = {
+			KEL_DOR_SHIP_crescent KEL_DOR_SHIP_diligent KEL_DOR_SHIP_zephyr KEL_DOR_SHIP_enigma KEL_DOR_SHIP_conquistador KEL_DOR_SHIP_scylla KEL_DOR_SHIP_arbiter KEL_DOR_SHIP_asperity KEL_DOR_SHIP_eminence KEL_DOR_SHIP_astute KEL_DOR_SHIP_alacrity KEL_DOR_SHIP_satyr KEL_DOR_SHIP_prospero KEL_DOR_SHIP_untiring KEL_DOR_SHIP_zenith KEL_DOR_SHIP_torch KEL_DOR_SHIP_remembrance KEL_DOR_SHIP_pilgrim KEL_DOR_SHIP_trailblazer KEL_DOR_SHIP_vagabond KEL_DOR_SHIP_wayfarer KEL_DOR_SHIP_ambassador KEL_DOR_SHIP_emissary KEL_DOR_SHIP_nomad KEL_DOR_SHIP_pathfinder KEL_DOR_SHIP_wanderer KEL_DOR_SHIP_traveler
+		}
+		colonizer = {
+			KEL_DOR_SHIP_godspeed KEL_DOR_SHIP_prophecy KEL_DOR_SHIP_manifest_destiny KEL_DOR_SHIP_virtue KEL_DOR_SHIP_potential KEL_DOR_SHIP_expansion KEL_DOR_SHIP_pioneer_spirit KEL_DOR_SHIP_prosperity KEL_DOR_SHIP_summit KEL_DOR_SHIP_pinnacle KEL_DOR_SHIP_seeder KEL_DOR_SHIP_harvest KEL_DOR_SHIP_demeter KEL_DOR_SHIP_isis KEL_DOR_SHIP_ceres KEL_DOR_SHIP_exodus KEL_DOR_SHIP_foundation KEL_DOR_SHIP_scion KEL_DOR_SHIP_progeny KEL_DOR_SHIP_obligation KEL_DOR_SHIP_purpose KEL_DOR_SHIP_provider KEL_DOR_SHIP_shining_city KEL_DOR_SHIP_acquirer KEL_DOR_SHIP_cultivator KEL_DOR_SHIP_dawn_of_civilization KEL_DOR_SHIP_purity KEL_DOR_SHIP_community KEL_DOR_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			KEL_DOR_SHIP_godspeed KEL_DOR_SHIP_prophecy KEL_DOR_SHIP_manifest_destiny KEL_DOR_SHIP_virtue KEL_DOR_SHIP_potential KEL_DOR_SHIP_expansion KEL_DOR_SHIP_pioneer_spirit KEL_DOR_SHIP_prosperity KEL_DOR_SHIP_summit KEL_DOR_SHIP_pinnacle KEL_DOR_SHIP_seeder KEL_DOR_SHIP_harvest KEL_DOR_SHIP_isis KEL_DOR_SHIP_ceres KEL_DOR_SHIP_exodus KEL_DOR_SHIP_foundation KEL_DOR_SHIP_scion KEL_DOR_SHIP_progeny KEL_DOR_SHIP_obligation KEL_DOR_SHIP_purpose KEL_DOR_SHIP_provider KEL_DOR_SHIP_shining_city KEL_DOR_SHIP_acquirer KEL_DOR_SHIP_cultivator KEL_DOR_SHIP_dawn_of_civilization KEL_DOR_SHIP_purity KEL_DOR_SHIP_community KEL_DOR_SHIP_brotherhood
+		}
+		constructor = {
+			KEL_DOR_SHIP_industry KEL_DOR_SHIP_assiduity KEL_DOR_SHIP_effort KEL_DOR_SHIP_laborer KEL_DOR_SHIP_builder KEL_DOR_SHIP_craftsman KEL_DOR_SHIP_hard_hat KEL_DOR_SHIP_progress KEL_DOR_SHIP_engineer KEL_DOR_SHIP_promise KEL_DOR_SHIP_service KEL_DOR_SHIP_shelter KEL_DOR_SHIP_beast KEL_DOR_SHIP_creator KEL_DOR_SHIP_developer KEL_DOR_SHIP_forger KEL_DOR_SHIP_foundry KEL_DOR_SHIP_factory KEL_DOR_SHIP_anvil KEL_DOR_SHIP_pillar KEL_DOR_SHIP_architect KEL_DOR_SHIP_accommodator KEL_DOR_SHIP_ptah KEL_DOR_SHIP_ilmarinen KEL_DOR_SHIP_creidhne KEL_DOR_SHIP_gobannus KEL_DOR_SHIP_luchtaine KEL_DOR_SHIP_goibniu KEL_DOR_SHIP_vishvakarman KEL_DOR_SHIP_tvastar KEL_DOR_SHIP_ikenga KEL_DOR_SHIP_qaynan KEL_DOR_SHIP_ucuetis KEL_DOR_SHIP_ogoun
+		}
+		transport = {
+			KEL_DOR_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			KEL_DOR_SHIP_spacegun_victory KEL_DOR_SHIP_spacegun_success KEL_DOR_SHIP_spacegun_supremacy KEL_DOR_SHIP_spacegun_superior KEL_DOR_SHIP_spacegun_adventure KEL_DOR_SHIP_spacegun_ascendancy KEL_DOR_SHIP_spacegun_paramount KEL_DOR_SHIP_spacegun_preponderous KEL_DOR_SHIP_spacegun_exemplary KEL_DOR_SHIP_spacegun_eximious KEL_DOR_SHIP_spacegun_pertinacity KEL_DOR_SHIP_spacegun_acclaim KEL_DOR_SHIP_spacegun_honor KEL_DOR_SHIP_spacegun_renown KEL_DOR_SHIP_spacegun_glory KEL_DOR_SHIP_spacegun_superb KEL_DOR_SHIP_spacegun_magnificence KEL_DOR_SHIP_spacegun_majestic KEL_DOR_SHIP_spacegun_splendor KEL_DOR_SHIP_spacegun_paradigm KEL_DOR_SHIP_spacegun_flawless KEL_DOR_SHIP_spacegun_consummate KEL_DOR_SHIP_spacegun_merit KEL_DOR_SHIP_spacegun_perfection KEL_DOR_SHIP_spacegun_virtue KEL_DOR_SHIP_spacegun_advantage KEL_DOR_SHIP_spacegun_rectitude KEL_DOR_SHIP_spacegun_incorruptible KEL_DOR_SHIP_spacegun_integrity KEL_DOR_SHIP_spacegun_justice KEL_DOR_SHIP_spacegun_probity KEL_DOR_SHIP_spacegun_prudence KEL_DOR_SHIP_spacegun_purity KEL_DOR_SHIP_spacegun_resolute KEL_DOR_SHIP_spacegun_dignity KEL_DOR_SHIP_spacegun_distinction KEL_DOR_SHIP_spacegun_excellence KEL_DOR_SHIP_spacegun_faithful KEL_DOR_SHIP_spacegun_discipline KEL_DOR_SHIP_spacegun_steadfast KEL_DOR_SHIP_spacegun_recompense KEL_DOR_SHIP_spacegun_requiem KEL_DOR_SHIP_spacegun_courage KEL_DOR_SHIP_spacegun_valor KEL_DOR_SHIP_spacegun_gallant KEL_DOR_SHIP_spacegun_daring KEL_DOR_SHIP_spacegun_constancy KEL_DOR_SHIP_spacegun_perseverence KEL_DOR_SHIP_spacegun_tenacity KEL_DOR_SHIP_spacegun_sedulity KEL_DOR_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			KEL_DOR_SHIP_spacegun_victory KEL_DOR_SHIP_spacegun_success KEL_DOR_SHIP_spacegun_supremacy KEL_DOR_SHIP_spacegun_superior KEL_DOR_SHIP_spacegun_adventure KEL_DOR_SHIP_spacegun_ascendancy KEL_DOR_SHIP_spacegun_paramount KEL_DOR_SHIP_spacegun_preponderous KEL_DOR_SHIP_spacegun_exemplary KEL_DOR_SHIP_spacegun_eximious KEL_DOR_SHIP_spacegun_pertinacity KEL_DOR_SHIP_spacegun_acclaim KEL_DOR_SHIP_spacegun_honor KEL_DOR_SHIP_spacegun_renown KEL_DOR_SHIP_spacegun_glory KEL_DOR_SHIP_spacegun_superb KEL_DOR_SHIP_spacegun_magnificence KEL_DOR_SHIP_spacegun_majestic KEL_DOR_SHIP_spacegun_splendor KEL_DOR_SHIP_spacegun_paradigm KEL_DOR_SHIP_spacegun_flawless KEL_DOR_SHIP_spacegun_consummate KEL_DOR_SHIP_spacegun_merit KEL_DOR_SHIP_spacegun_perfection KEL_DOR_SHIP_spacegun_virtue KEL_DOR_SHIP_spacegun_advantage KEL_DOR_SHIP_spacegun_rectitude KEL_DOR_SHIP_spacegun_incorruptible KEL_DOR_SHIP_spacegun_integrity KEL_DOR_SHIP_spacegun_justice KEL_DOR_SHIP_spacegun_probity KEL_DOR_SHIP_spacegun_prudence KEL_DOR_SHIP_spacegun_purity KEL_DOR_SHIP_spacegun_resolute KEL_DOR_SHIP_spacegun_dignity KEL_DOR_SHIP_spacegun_distinction KEL_DOR_SHIP_spacegun_excellence KEL_DOR_SHIP_spacegun_faithful KEL_DOR_SHIP_spacegun_discipline KEL_DOR_SHIP_spacegun_steadfast KEL_DOR_SHIP_spacegun_recompense KEL_DOR_SHIP_spacegun_requiem KEL_DOR_SHIP_spacegun_courage KEL_DOR_SHIP_spacegun_valor KEL_DOR_SHIP_spacegun_gallant KEL_DOR_SHIP_spacegun_daring KEL_DOR_SHIP_spacegun_constancy KEL_DOR_SHIP_spacegun_perseverence KEL_DOR_SHIP_spacegun_tenacity KEL_DOR_SHIP_spacegun_sedulity KEL_DOR_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			KEL_DOR_SHIP_spacegun_victory KEL_DOR_SHIP_spacegun_success KEL_DOR_SHIP_spacegun_supremacy KEL_DOR_SHIP_spacegun_superior KEL_DOR_SHIP_spacegun_adventure KEL_DOR_SHIP_spacegun_ascendancy KEL_DOR_SHIP_spacegun_paramount KEL_DOR_SHIP_spacegun_preponderous KEL_DOR_SHIP_spacegun_exemplary KEL_DOR_SHIP_spacegun_eximious KEL_DOR_SHIP_spacegun_pertinacity KEL_DOR_SHIP_spacegun_acclaim KEL_DOR_SHIP_spacegun_honor KEL_DOR_SHIP_spacegun_renown KEL_DOR_SHIP_spacegun_glory KEL_DOR_SHIP_spacegun_superb KEL_DOR_SHIP_spacegun_magnificence KEL_DOR_SHIP_spacegun_majestic KEL_DOR_SHIP_spacegun_splendor KEL_DOR_SHIP_spacegun_paradigm KEL_DOR_SHIP_spacegun_flawless KEL_DOR_SHIP_spacegun_consummate KEL_DOR_SHIP_spacegun_merit KEL_DOR_SHIP_spacegun_perfection KEL_DOR_SHIP_spacegun_virtue KEL_DOR_SHIP_spacegun_advantage KEL_DOR_SHIP_spacegun_rectitude KEL_DOR_SHIP_spacegun_incorruptible KEL_DOR_SHIP_spacegun_integrity KEL_DOR_SHIP_spacegun_justice KEL_DOR_SHIP_spacegun_probity KEL_DOR_SHIP_spacegun_prudence KEL_DOR_SHIP_spacegun_purity KEL_DOR_SHIP_spacegun_resolute KEL_DOR_SHIP_spacegun_dignity KEL_DOR_SHIP_spacegun_distinction KEL_DOR_SHIP_spacegun_excellence KEL_DOR_SHIP_spacegun_faithful KEL_DOR_SHIP_spacegun_discipline KEL_DOR_SHIP_spacegun_steadfast KEL_DOR_SHIP_spacegun_recompense KEL_DOR_SHIP_spacegun_requiem KEL_DOR_SHIP_spacegun_courage KEL_DOR_SHIP_spacegun_valor KEL_DOR_SHIP_spacegun_gallant KEL_DOR_SHIP_spacegun_daring KEL_DOR_SHIP_spacegun_constancy KEL_DOR_SHIP_spacegun_perseverence KEL_DOR_SHIP_spacegun_tenacity KEL_DOR_SHIP_spacegun_sedulity KEL_DOR_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			KEL_DOR_SHIP_citadel KEL_DOR_SHIP_albacore KEL_DOR_SHIP_gateway KEL_DOR_SHIP_vincent KEL_DOR_SHIP_babylon KEL_DOR_SHIP_caernavon KEL_DOR_SHIP_acre KEL_DOR_SHIP_pembroke KEL_DOR_SHIP_acheron KEL_DOR_SHIP_spithead KEL_DOR_SHIP_halifax KEL_DOR_SHIP_victoria KEL_DOR_SHIP_chatham KEL_DOR_SHIP_anchorage KEL_DOR_SHIP_scapa_flow KEL_DOR_SHIP_hampton_roads KEL_DOR_SHIP_brooklyn KEL_DOR_SHIP_norfolk KEL_DOR_SHIP_newport KEL_DOR_SHIP_guam KEL_DOR_SHIP_pensacola KEL_DOR_SHIP_vesuvius KEL_DOR_SHIP_mckinley KEL_DOR_SHIP_everest KEL_DOR_SHIP_kilimanjaro KEL_DOR_SHIP_aconcagua KEL_DOR_SHIP_elbrus KEL_DOR_SHIP_st__helens KEL_DOR_SHIP_fuji KEL_DOR_SHIP_olympus KEL_DOR_SHIP_sinai KEL_DOR_SHIP_ambrose KEL_DOR_SHIP_bermuda KEL_DOR_SHIP_farpoint KEL_DOR_SHIP_blue_star KEL_DOR_SHIP_olympus_mons KEL_DOR_SHIP_tharsis KEL_DOR_SHIP_syrtis KEL_DOR_SHIP_blackham KEL_DOR_SHIP_fletcher KEL_DOR_SHIP_perry KEL_DOR_SHIP_butakov KEL_DOR_SHIP_morris KEL_DOR_SHIP_moorsom KEL_DOR_SHIP_hart KEL_DOR_SHIP_hargood KEL_DOR_SHIP_spruance KEL_DOR_SHIP_tanaka KEL_DOR_SHIP_halsey KEL_DOR_SHIP_turner KEL_DOR_SHIP_doria KEL_DOR_SHIP_tirpitz KEL_DOR_SHIP_cunningham KEL_DOR_SHIP_jellicoe KEL_DOR_SHIP_hipper KEL_DOR_SHIP_beatty KEL_DOR_SHIP_potemkin KEL_DOR_SHIP_durham KEL_DOR_SHIP_codrington KEL_DOR_SHIP_milne KEL_DOR_SHIP_laforey KEL_DOR_SHIP_tyler KEL_DOR_SHIP_hawke KEL_DOR_SHIP_yonai KEL_DOR_SHIP_pound KEL_DOR_SHIP_king KEL_DOR_SHIP_crutchley KEL_DOR_SHIP_mountbatten KEL_DOR_SHIP_kountouriotis KEL_DOR_SHIP_kuznetsov KEL_DOR_SHIP_essen KEL_DOR_SHIP_kornilov KEL_DOR_SHIP_suffren KEL_DOR_SHIP_treville KEL_DOR_SHIP_villeneuve KEL_DOR_SHIP_grasse KEL_DOR_SHIP_byng KEL_DOR_SHIP_lezo
+		}
+		ion_cannon = {
+			KEL_DOR_SHIP_bombard KEL_DOR_SHIP_ballista KEL_DOR_SHIP_catapult KEL_DOR_SHIP_harpoon KEL_DOR_SHIP_polybolos KEL_DOR_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			KEL_DOR_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			KEL_DOR_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			KEL_DOR_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			KEL_DOR_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			KEL_DOR_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			KEL_DOR_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			KEL_DOR_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			KEL_DOR_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			KEL_DOR_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			KEL_DOR_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			KEL_DOR_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			KEL_DOR_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			KEL_DOR_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			KEL_DOR_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			KEL_DOR_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			KEL_DOR_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			KEL_DOR_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			KEL_DOR_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			KEL_DOR_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			KEL_DOR_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			KEL_DOR_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			KEL_DOR_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			KEL_DOR_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			KEL_DOR_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			KEL_DOR_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			KEL_DOR_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			KEL_DOR_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			KEL_DOR_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			KEL_DOR_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			KEL_DOR_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			KEL_DOR_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			KEL_DOR_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			KEL_DOR_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			KEL_DOR_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			KEL_DOR_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			KEL_DOR_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			KEL_DOR_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			KEL_DOR_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			KEL_DOR_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			KEL_DOR_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			KEL_DOR_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			KEL_DOR_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			KEL_DOR_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			KEL_DOR_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			KEL_DOR_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			KEL_DOR_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			KEL_DOR_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			KEL_DOR_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			KEL_DOR_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			KEL_DOR_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			KEL_DOR_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			KEL_DOR_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			KEL_DOR_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			KEL_DOR_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			KEL_DOR_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			KEL_DOR_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			KEL_DOR_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			KEL_DOR_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			KEL_DOR_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			KEL_DOR_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			KEL_DOR_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			KEL_DOR_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			KEL_DOR_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			KEL_DOR_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			KEL_DOR_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			KEL_DOR_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			KEL_DOR_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			KEL_DOR_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			KEL_DOR_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			KEL_DOR_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			KEL_DOR_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			KEL_DOR_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			KEL_DOR_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			KEL_DOR_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			KEL_DOR_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			KEL_DOR_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			KEL_DOR_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			KEL_DOR_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			KEL_DOR_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			KEL_DOR_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			KEL_DOR_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			KEL_DOR_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			KEL_DOR_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			KEL_DOR_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			KEL_DOR_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			KEL_DOR_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			KEL_DOR_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			KEL_DOR_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			KEL_DOR_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			KEL_DOR_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			KEL_DOR_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			KEL_DOR_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			KEL_DOR_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			KEL_DOR_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = KEL_DOR_FLEET_armada_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = KEL_DOR_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = KEL_DOR_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = KEL_DOR_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = KEL_DOR_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = KEL_DOR_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = KEL_DOR_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = KEL_DOR_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = KEL_DOR_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				KEL_DOR_ARMY_sarc_a__gladiators_ KEL_DOR_ARMY_sarc_b__widowmakers_ KEL_DOR_ARMY_sarc_c__immortals_ KEL_DOR_ARMY_sarc_d__berserkers_ KEL_DOR_ARMY_sarc_e__assassins_ KEL_DOR_ARMY_sarc_f__reapers_ KEL_DOR_ARMY_sarc_g__nighthawks_ KEL_DOR_ARMY_sarc_h__desperados_ KEL_DOR_ARMY_sarc_i__grey_knights_ KEL_DOR_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = KEL_DOR_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = KEL_DOR_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = KEL_DOR_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = KEL_DOR_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = KEL_DOR_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = KEL_DOR_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = KEL_DOR_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = KEL_DOR_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = KEL_DOR_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = KEL_DOR_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = KEL_DOR_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = KEL_DOR_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = KEL_DOR_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = KEL_DOR_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = KEL_DOR_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = KEL_DOR_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = KEL_DOR_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = KEL_DOR_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = KEL_DOR_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = KEL_DOR_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = KEL_DOR_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = KEL_DOR_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = KEL_DOR_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = KEL_DOR_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = KEL_DOR_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = KEL_DOR_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = KEL_DOR_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = KEL_DOR_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = KEL_DOR_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = KEL_DOR_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = KEL_DOR_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = KEL_DOR_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = KEL_DOR_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = KEL_DOR_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = KEL_DOR_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = KEL_DOR_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = KEL_DOR_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = KEL_DOR_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = KEL_DOR_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = KEL_DOR_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = KEL_DOR_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = KEL_DOR_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = KEL_DOR_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = KEL_DOR_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = KEL_DOR_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = KEL_DOR_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = KEL_DOR_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = KEL_DOR_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = KEL_DOR_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = KEL_DOR_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = KEL_DOR_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = KEL_DOR_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = KEL_DOR_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = KEL_DOR_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = KEL_DOR_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = KEL_DOR_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = KEL_DOR_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = KEL_DOR_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = KEL_DOR_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = KEL_DOR_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = KEL_DOR_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = KEL_DOR_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = KEL_DOR_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = KEL_DOR_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = KEL_DOR_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = KEL_DOR_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = KEL_DOR_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = KEL_DOR_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = KEL_DOR_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = KEL_DOR_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = KEL_DOR_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = KEL_DOR_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = KEL_DOR_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = KEL_DOR_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = KEL_DOR_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = KEL_DOR_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = KEL_DOR_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = KEL_DOR_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = KEL_DOR_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = KEL_DOR_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = KEL_DOR_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = KEL_DOR_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = KEL_DOR_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = KEL_DOR_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = KEL_DOR_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = KEL_DOR_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = KEL_DOR_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = KEL_DOR_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = KEL_DOR_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = KEL_DOR_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = KEL_DOR_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = KEL_DOR_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = KEL_DOR_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = KEL_DOR_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = KEL_DOR_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = KEL_DOR_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = KEL_DOR_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = KEL_DOR_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = KEL_DOR_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = KEL_DOR_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = KEL_DOR_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = KEL_DOR_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = KEL_DOR_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = KEL_DOR_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = KEL_DOR_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = KEL_DOR_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = KEL_DOR_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = KEL_DOR_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = KEL_DOR_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = KEL_DOR_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = KEL_DOR_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = KEL_DOR_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = KEL_DOR_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = KEL_DOR_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = KEL_DOR_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = KEL_DOR_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = KEL_DOR_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = KEL_DOR_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = KEL_DOR_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = KEL_DOR_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = KEL_DOR_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = KEL_DOR_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = KEL_DOR_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = KEL_DOR_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = KEL_DOR_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = KEL_DOR_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = KEL_DOR_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = KEL_DOR_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = KEL_DOR_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = KEL_DOR_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = KEL_DOR_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = KEL_DOR_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = KEL_DOR_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				KEL_DOR_CHR_bail KEL_DOR_CHR_ylenic KEL_DOR_CHR_kel KEL_DOR_CHR_gunn KEL_DOR_CHR_gregory KEL_DOR_CHR_abraxis KEL_DOR_CHR_jonas KEL_DOR_CHR_xerda KEL_DOR_CHR_carth KEL_DOR_CHR_kir KEL_DOR_CHR_mebba KEL_DOR_CHR_dagos KEL_DOR_CHR_adam KEL_DOR_CHR_kyle KEL_DOR_CHR_forren KEL_DOR_CHR_malcolm KEL_DOR_CHR_jeho KEL_DOR_CHR_lee KEL_DOR_CHR_griggs KEL_DOR_CHR_milo KEL_DOR_CHR_aeron KEL_DOR_CHR_byrec KEL_DOR_CHR_strata KEL_DOR_CHR_lancer KEL_DOR_CHR_zeak KEL_DOR_CHR_niuk KEL_DOR_CHR_lavidean KEL_DOR_CHR_tanizandar KEL_DOR_CHR_japla KEL_DOR_CHR_aran KEL_DOR_CHR_rail KEL_DOR_CHR_zeven KEL_DOR_CHR_yakown KEL_DOR_CHR_sibar KEL_DOR_CHR_sair KEL_DOR_CHR_klai KEL_DOR_CHR_jonas KEL_DOR_CHR_imay KEL_DOR_CHR_traest KEL_DOR_CHR_simo KEL_DOR_CHR_carth KEL_DOR_CHR_riyan KEL_DOR_CHR_magnus KEL_DOR_CHR_boceta KEL_DOR_CHR_agnook KEL_DOR_CHR_silus KEL_DOR_CHR_rowan KEL_DOR_CHR_coren KEL_DOR_CHR_jett KEL_DOR_CHR_linth KEL_DOR_CHR_annor KEL_DOR_CHR_ulas KEL_DOR_CHR_fenn KEL_DOR_CHR_tal KEL_DOR_CHR_plo KEL_DOR_CHR_torin KEL_DOR_CHR_imay KEL_DOR_CHR_boone KEL_DOR_CHR_davith KEL_DOR_CHR_jorgen KEL_DOR_CHR_bertos KEL_DOR_CHR_ress KEL_DOR_CHR_malius KEL_DOR_CHR_kale KEL_DOR_CHR_cregan KEL_DOR_CHR_galen KEL_DOR_CHR_zekk KEL_DOR_CHR_jinn_tu KEL_DOR_CHR_jaryn KEL_DOR_CHR_gentti KEL_DOR_CHR_yu_sien KEL_DOR_CHR_akela KEL_DOR_CHR_arslan KEL_DOR_CHR_sidias KEL_DOR_CHR_haken KEL_DOR_CHR_biran KEL_DOR_CHR_vidown KEL_DOR_CHR_ares KEL_DOR_CHR_ithan KEL_DOR_CHR_cul_utaan KEL_DOR_CHR_thoja KEL_DOR_CHR_cron KEL_DOR_CHR_mossi KEL_DOR_CHR_abric KEL_DOR_CHR_darg KEL_DOR_CHR_gaman KEL_DOR_CHR_naiad KEL_DOR_CHR_herub KEL_DOR_CHR_marius KEL_DOR_CHR_torkin KEL_DOR_CHR_caton KEL_DOR_CHR_kane KEL_DOR_CHR_versita KEL_DOR_CHR_cric KEL_DOR_CHR_foxdi KEL_DOR_CHR_montacca KEL_DOR_CHR_jospi KEL_DOR_CHR_baz KEL_DOR_CHR_kam KEL_DOR_CHR_erek KEL_DOR_CHR_arslan KEL_DOR_CHR_lerak KEL_DOR_CHR_morla KEL_DOR_CHR_baxter KEL_DOR_CHR_talan KEL_DOR_CHR_thion KEL_DOR_CHR_kannon KEL_DOR_CHR_corsair KEL_DOR_CHR_caster KEL_DOR_CHR_elden KEL_DOR_CHR_faelgrom KEL_DOR_CHR_jack KEL_DOR_CHR_raltharan KEL_DOR_CHR_flash KEL_DOR_CHR_waseem KEL_DOR_CHR_bendak KEL_DOR_CHR_kaz KEL_DOR_CHR_montileu KEL_DOR_CHR_gonoga KEL_DOR_CHR_silus KEL_DOR_CHR_galven KEL_DOR_CHR_vincenzo KEL_DOR_CHR_ric KEL_DOR_CHR_rebar KEL_DOR_CHR_jebediah KEL_DOR_CHR_aramil KEL_DOR_CHR_abraxis KEL_DOR_CHR_delmi KEL_DOR_CHR_caalin KEL_DOR_CHR_rassth KEL_DOR_CHR_adorn KEL_DOR_CHR_cyrus KEL_DOR_CHR_zhar_khan KEL_DOR_CHR_adam KEL_DOR_CHR_predor KEL_DOR_CHR_tarlson KEL_DOR_CHR_boaz KEL_DOR_CHR_bradley KEL_DOR_CHR_gunn KEL_DOR_CHR_raltharan KEL_DOR_CHR_zerrid KEL_DOR_CHR_bobecc KEL_DOR_CHR_jelantos KEL_DOR_CHR_jephego KEL_DOR_CHR_svante KEL_DOR_CHR_tesvalo KEL_DOR_CHR_aeon KEL_DOR_CHR_dekar KEL_DOR_CHR_jean_francois KEL_DOR_CHR_elen KEL_DOR_CHR_han KEL_DOR_CHR_owen KEL_DOR_CHR_biggs
+			}
+			first_names_female = {
+				KEL_DOR_CHR_charratha KEL_DOR_CHR_edaara KEL_DOR_CHR_bella KEL_DOR_CHR_callista KEL_DOR_CHR_mara KEL_DOR_CHR_seena KEL_DOR_CHR_areta KEL_DOR_CHR_cord KEL_DOR_CHR_cyrinity KEL_DOR_CHR_nile KEL_DOR_CHR_kiyfi KEL_DOR_CHR_yasmyn KEL_DOR_CHR_satra KEL_DOR_CHR_shehish KEL_DOR_CHR_sarna KEL_DOR_CHR_krava KEL_DOR_CHR_roxis KEL_DOR_CHR_jessa KEL_DOR_CHR_aqua KEL_DOR_CHR_maryna KEL_DOR_CHR_essaj KEL_DOR_CHR_looriw KEL_DOR_CHR_teeana KEL_DOR_CHR_raena KEL_DOR_CHR_yula KEL_DOR_CHR_vifi KEL_DOR_CHR_vania KEL_DOR_CHR_jeanida KEL_DOR_CHR_aerena KEL_DOR_CHR_nataya KEL_DOR_CHR_bernarda KEL_DOR_CHR_geela KEL_DOR_CHR_lya KEL_DOR_CHR_sirra KEL_DOR_CHR_teris KEL_DOR_CHR_terral KEL_DOR_CHR_nile KEL_DOR_CHR_riema KEL_DOR_CHR_erri KEL_DOR_CHR_shanna KEL_DOR_CHR_lyra KEL_DOR_CHR_pranda KEL_DOR_CHR_luna KEL_DOR_CHR_cally KEL_DOR_CHR_viqi KEL_DOR_CHR_hadriel KEL_DOR_CHR_lora KEL_DOR_CHR_selena KEL_DOR_CHR_zana KEL_DOR_CHR_tuija KEL_DOR_CHR_railin KEL_DOR_CHR_odona KEL_DOR_CHR_shyon KEL_DOR_CHR_walas KEL_DOR_CHR_rylla KEL_DOR_CHR_gara KEL_DOR_CHR_delos KEL_DOR_CHR_loretta KEL_DOR_CHR_luhon KEL_DOR_CHR_delinia KEL_DOR_CHR_aama KEL_DOR_CHR_shorya KEL_DOR_CHR_melfina KEL_DOR_CHR_davessi KEL_DOR_CHR_larana KEL_DOR_CHR_galatea KEL_DOR_CHR_nola KEL_DOR_CHR_syna KEL_DOR_CHR_jauhzmynn KEL_DOR_CHR_anen KEL_DOR_CHR_orona KEL_DOR_CHR_yana KEL_DOR_CHR_zoras KEL_DOR_CHR_ree KEL_DOR_CHR_grace KEL_DOR_CHR_tantema KEL_DOR_CHR_myn KEL_DOR_CHR_una KEL_DOR_CHR_dalharil KEL_DOR_CHR_losa KEL_DOR_CHR_sovi KEL_DOR_CHR_elaiza KEL_DOR_CHR_vucora KEL_DOR_CHR_ava KEL_DOR_CHR_joi KEL_DOR_CHR_stryka KEL_DOR_CHR_tantema KEL_DOR_CHR_shandra KEL_DOR_CHR_kely KEL_DOR_CHR_caileta KEL_DOR_CHR_taia KEL_DOR_CHR_siala KEL_DOR_CHR_reki KEL_DOR_CHR_maydla KEL_DOR_CHR_bot KEL_DOR_CHR_kiandra KEL_DOR_CHR_xilaren KEL_DOR_CHR_zulara KEL_DOR_CHR_ren KEL_DOR_CHR_karissa KEL_DOR_CHR_roxis KEL_DOR_CHR_haruko KEL_DOR_CHR_jenna KEL_DOR_CHR_liana KEL_DOR_CHR_rale KEL_DOR_CHR_megara KEL_DOR_CHR_aria KEL_DOR_CHR_akiva KEL_DOR_CHR_nalah KEL_DOR_CHR_erlem KEL_DOR_CHR_nali KEL_DOR_CHR_fallah KEL_DOR_CHR_kotrana KEL_DOR_CHR_aayla KEL_DOR_CHR_kalira KEL_DOR_CHR_arani KEL_DOR_CHR_fama KEL_DOR_CHR_lyyr KEL_DOR_CHR_arcas KEL_DOR_CHR_rane KEL_DOR_CHR_nayru KEL_DOR_CHR_zylas KEL_DOR_CHR_vexa KEL_DOR_CHR_kana KEL_DOR_CHR_beru
+			}
+			second_names = {
+				KEL_DOR_CHR_elysar KEL_DOR_CHR_tisa KEL_DOR_CHR_wahia KEL_DOR_CHR_wezz KEL_DOR_CHR_unic KEL_DOR_CHR_tiovata KEL_DOR_CHR_nakcohh KEL_DOR_CHR_vitaan KEL_DOR_CHR_mefrid KEL_DOR_CHR_daklan KEL_DOR_CHR_kenzee KEL_DOR_CHR_joben KEL_DOR_CHR_thegas KEL_DOR_CHR_moryne KEL_DOR_CHR_holgor KEL_DOR_CHR_ijaaz KEL_DOR_CHR_tromans KEL_DOR_CHR_sprax KEL_DOR_CHR_knesos KEL_DOR_CHR_magnus KEL_DOR_CHR_lasek KEL_DOR_CHR_artis KEL_DOR_CHR_pax KEL_DOR_CHR_corso KEL_DOR_CHR_fallon KEL_DOR_CHR_gundo KEL_DOR_CHR_ruana KEL_DOR_CHR_fremlin KEL_DOR_CHR_thont KEL_DOR_CHR_creel KEL_DOR_CHR_rar KEL_DOR_CHR_dusat KEL_DOR_CHR_kessler KEL_DOR_CHR_shaia KEL_DOR_CHR_el_theriam KEL_DOR_CHR_vanmeer KEL_DOR_CHR_vrieska KEL_DOR_CHR_calway KEL_DOR_CHR_yamaguchi KEL_DOR_CHR_riggers KEL_DOR_CHR_brower KEL_DOR_CHR_fash KEL_DOR_CHR_nalto KEL_DOR_CHR_stryder KEL_DOR_CHR_dubreas KEL_DOR_CHR_colsan KEL_DOR_CHR_terrek KEL_DOR_CHR_solon KEL_DOR_CHR_merquise KEL_DOR_CHR_varn KEL_DOR_CHR_basai KEL_DOR_CHR_froud KEL_DOR_CHR_addacess KEL_DOR_CHR_elysar KEL_DOR_CHR_durgen KEL_DOR_CHR_slahlvo KEL_DOR_CHR_remex KEL_DOR_CHR_madowki KEL_DOR_CHR_hayes KEL_DOR_CHR_ne KEL_DOR_CHR_dago KEL_DOR_CHR_greenback KEL_DOR_CHR_stithta KEL_DOR_CHR_ker KEL_DOR_CHR_driet KEL_DOR_CHR_klakk KEL_DOR_CHR_reed KEL_DOR_CHR_lefex KEL_DOR_CHR_minn KEL_DOR_CHR_irokini KEL_DOR_CHR_roye KEL_DOR_CHR_danakar KEL_DOR_CHR_forin KEL_DOR_CHR_glopio KEL_DOR_CHR_shenuri KEL_DOR_CHR_corcer KEL_DOR_CHR_ordo KEL_DOR_CHR_wan KEL_DOR_CHR_tagratt KEL_DOR_CHR_golladio KEL_DOR_CHR_adramcsia KEL_DOR_CHR_jetberg KEL_DOR_CHR_noth KEL_DOR_CHR_taske KEL_DOR_CHR_komo KEL_DOR_CHR_styles KEL_DOR_CHR_angavel KEL_DOR_CHR_tyrnith KEL_DOR_CHR_yavoog KEL_DOR_CHR_kelbier KEL_DOR_CHR_racto KEL_DOR_CHR_degor KEL_DOR_CHR_tisa KEL_DOR_CHR_magre KEL_DOR_CHR_soylon KEL_DOR_CHR_lerann KEL_DOR_CHR_chro KEL_DOR_CHR_finn KEL_DOR_CHR_blackmoor KEL_DOR_CHR_hwang KEL_DOR_CHR_vekarr KEL_DOR_CHR_thegas KEL_DOR_CHR_amon KEL_DOR_CHR_thiddex KEL_DOR_CHR_durgen KEL_DOR_CHR_selkayim KEL_DOR_CHR_gilder KEL_DOR_CHR_dhuramav KEL_DOR_CHR_kodd KEL_DOR_CHR_morin KEL_DOR_CHR_kobylarz KEL_DOR_CHR_tade KEL_DOR_CHR_solman KEL_DOR_CHR_bintaghr KEL_DOR_CHR_marclonus KEL_DOR_CHR_precore KEL_DOR_CHR_solborne KEL_DOR_CHR_bailer KEL_DOR_CHR_katarn KEL_DOR_CHR_anjek KEL_DOR_CHR_dalgas KEL_DOR_CHR_kast KEL_DOR_CHR_airerith KEL_DOR_CHR_halo KEL_DOR_CHR_tade KEL_DOR_CHR_clash KEL_DOR_CHR_jalba KEL_DOR_CHR_benn KEL_DOR_CHR_haruhana KEL_DOR_CHR_roice KEL_DOR_CHR_lokar KEL_DOR_CHR_korpil KEL_DOR_CHR_turon KEL_DOR_CHR_cavi KEL_DOR_CHR_deece KEL_DOR_CHR_braitano KEL_DOR_CHR_garnik KEL_DOR_CHR_tyandas KEL_DOR_CHR_ka_taramas KEL_DOR_CHR_nuwest KEL_DOR_CHR_forte KEL_DOR_CHR_noshey KEL_DOR_CHR_gyyll KEL_DOR_CHR_tallon KEL_DOR_CHR_lionne KEL_DOR_CHR_adras KEL_DOR_CHR_fremlin KEL_DOR_CHR_peoly KEL_DOR_CHR_damiel KEL_DOR_CHR_chup_pau KEL_DOR_CHR_drayven KEL_DOR_CHR_zaposug KEL_DOR_CHR_bela_trepada KEL_DOR_CHR_defelice KEL_DOR_CHR_monsula KEL_DOR_CHR_baralein KEL_DOR_CHR_denive KEL_DOR_CHR_hodrren KEL_DOR_CHR_xergo KEL_DOR_CHR_sarat KEL_DOR_CHR_vercet KEL_DOR_CHR_ossaki KEL_DOR_CHR_kappa KEL_DOR_CHR_zerga KEL_DOR_CHR_kopos KEL_DOR_CHR_aldrecht KEL_DOR_CHR_bohme KEL_DOR_CHR_tull KEL_DOR_CHR_eldrel KEL_DOR_CHR_marh KEL_DOR_CHR_darksword KEL_DOR_CHR_krandor KEL_DOR_CHR_montag KEL_DOR_CHR_dimodan KEL_DOR_CHR_starfallen KEL_DOR_CHR_artis KEL_DOR_CHR_fett KEL_DOR_CHR_mohebbi KEL_DOR_CHR_runalian KEL_DOR_CHR_binette KEL_DOR_CHR_laurent KEL_DOR_CHR_mavr KEL_DOR_CHR_ryra KEL_DOR_CHR_truden KEL_DOR_CHR_solo KEL_DOR_CHR_lars KEL_DOR_CHR_amedda KEL_DOR_CHR_amidala KEL_DOR_CHR_andrell KEL_DOR_CHR_annon KEL_DOR_CHR_antilles KEL_DOR_CHR_atanna KEL_DOR_CHR_baab KEL_DOR_CHR_barc KEL_DOR_CHR_bonteri KEL_DOR_CHR_breemu KEL_DOR_CHR_bremack KEL_DOR_CHR_bronk KEL_DOR_CHR_burtoni KEL_DOR_CHR_cadaman KEL_DOR_CHR_callen KEL_DOR_CHR_clovis KEL_DOR_CHR_ledwellow KEL_DOR_CHR_dio KEL_DOR_CHR_organa
+			}
+			regnal_first_names_male = {
+				KEL_DOR_CHR_kam KEL_DOR_CHR_erek KEL_DOR_CHR_arslan KEL_DOR_CHR_lerak KEL_DOR_CHR_morla KEL_DOR_CHR_mas KEL_DOR_CHR_wain KEL_DOR_CHR_bail KEL_DOR_CHR_gabrial KEL_DOR_CHR_dewell KEL_DOR_CHR_tanner KEL_DOR_CHR_vi KEL_DOR_CHR_rush KEL_DOR_CHR_danry
+			}
+			regnal_first_names_female = {
+				KEL_DOR_CHR_callista KEL_DOR_CHR_mara KEL_DOR_CHR_seena KEL_DOR_CHR_areta KEL_DOR_CHR_padm_ KEL_DOR_CHR_fema KEL_DOR_CHR_mina KEL_DOR_CHR_bana KEL_DOR_CHR_tyreca KEL_DOR_CHR_halle KEL_DOR_CHR_lexi KEL_DOR_CHR_leia KEL_DOR_CHR_alyssa KEL_DOR_CHR_leanna KEL_DOR_CHR_arya
+			}
+			regnal_second_names = {
+				KEL_DOR_CHR_amedda KEL_DOR_CHR_amidala KEL_DOR_CHR_andrell KEL_DOR_CHR_annon KEL_DOR_CHR_antilles KEL_DOR_CHR_atanna KEL_DOR_CHR_baab KEL_DOR_CHR_barc KEL_DOR_CHR_bonteri KEL_DOR_CHR_breemu KEL_DOR_CHR_bremack KEL_DOR_CHR_bronk KEL_DOR_CHR_burtoni KEL_DOR_CHR_cadaman KEL_DOR_CHR_callen KEL_DOR_CHR_clovis KEL_DOR_CHR_ledwellow KEL_DOR_CHR_dio KEL_DOR_CHR_panteer KEL_DOR_CHR_alde KEL_DOR_CHR_organa KEL_DOR_CHR_frayus KEL_DOR_CHR_cortess KEL_DOR_CHR_killesa
+			}
+		}
+	}
+}

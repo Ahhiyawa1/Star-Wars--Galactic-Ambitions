@@ -1,0 +1,844 @@
+﻿Echani = {
+	randomized = no
+	ship_names = {
+		generic = {
+			ECHANI_SHIP_mystic ECHANI_SHIP_naiad ECHANI_SHIP_nautilus ECHANI_SHIP_nebula ECHANI_SHIP_nimble ECHANI_SHIP_north_star ECHANI_SHIP_nymph ECHANI_SHIP_obdurate ECHANI_SHIP_ocean ECHANI_SHIP_onward ECHANI_SHIP_oracle ECHANI_SHIP_paradox ECHANI_SHIP_paragon ECHANI_SHIP_pearl ECHANI_SHIP_peregrine ECHANI_SHIP_perseverance ECHANI_SHIP_marksman ECHANI_SHIP_rifleman ECHANI_SHIP_sniper ECHANI_SHIP_trident ECHANI_SHIP_trumpet ECHANI_SHIP_truncheon ECHANI_SHIP_typhoon ECHANI_SHIP_undaunted ECHANI_SHIP_venture ECHANI_SHIP_versatile ECHANI_SHIP_vigorous ECHANI_SHIP_viper ECHANI_SHIP_vivacious ECHANI_SHIP_winger ECHANI_SHIP_wizard ECHANI_SHIP_wyvern ECHANI_SHIP_wolfhound ECHANI_SHIP_devastator ECHANI_SHIP_warhammer ECHANI_SHIP_retribution ECHANI_SHIP_senator ECHANI_SHIP_tornado ECHANI_SHIP_infinity ECHANI_SHIP_usurper ECHANI_SHIP_utmost ECHANI_SHIP_valorous ECHANI_SHIP_whirlwind ECHANI_SHIP_athena ECHANI_SHIP_artemis ECHANI_SHIP_vigilance ECHANI_SHIP_decimator ECHANI_SHIP_indomitable ECHANI_SHIP_goliath ECHANI_SHIP_sentinel ECHANI_SHIP_brilliant ECHANI_SHIP_blazer ECHANI_SHIP_audacity ECHANI_SHIP_gallant ECHANI_SHIP_nova ECHANI_SHIP_shadow ECHANI_SHIP_allegiance ECHANI_SHIP_challenger ECHANI_SHIP_fearless ECHANI_SHIP_protector ECHANI_SHIP_guardian ECHANI_SHIP_victorious ECHANI_SHIP_courageous ECHANI_SHIP_defiance ECHANI_SHIP_valorous ECHANI_SHIP_azrael ECHANI_SHIP_adamantine ECHANI_SHIP_aralanni ECHANI_SHIP_ardent_iv ECHANI_SHIP_armistice ECHANI_SHIP_avengeance ECHANI_SHIP_ballista ECHANI_SHIP_bloodstripe ECHANI_SHIP_borealis ECHANI_SHIP_caelus ECHANI_SHIP_caravan ECHANI_SHIP_chaf_envoy ECHANI_SHIP_commenor ECHANI_SHIP_corbantis ECHANI_SHIP_corellia ECHANI_SHIP_courteous ECHANI_SHIP_dauntless ECHANI_SHIP_defiant ECHANI_SHIP_deliverance ECHANI_SHIP_derapha ECHANI_SHIP_devout ECHANI_SHIP_empirical ECHANI_SHIP_empyrean ECHANI_SHIP_era_daimanos ECHANI_SHIP_eye_of_the_storm ECHANI_SHIP_farstar ECHANI_SHIP_fastblast ECHANI_SHIP_galaaron ECHANI_SHIP_garrote ECHANI_SHIP_gilagimar ECHANI_SHIP_halleck ECHANI_SHIP_hunter ECHANI_SHIP_intractable ECHANI_SHIP_ithor_lady ECHANI_SHIP_justice_crusader ECHANI_SHIP_kana_s_steel ECHANI_SHIP_lathir ECHANI_SHIP_liberty ECHANI_SHIP_lillibanca ECHANI_SHIP_maelstrom ECHANI_SHIP_malachite_scent ECHANI_SHIP_mercy ECHANI_SHIP_myrkos ECHANI_SHIP_nebula_chaser ECHANI_SHIP_nova ECHANI_SHIP_nova_viper ECHANI_SHIP_obedience ECHANI_SHIP_olemp ECHANI_SHIP_pegasus ECHANI_SHIP_perspicacity ECHANI_SHIP_phalanx ECHANI_SHIP_plooriod_bodkin ECHANI_SHIP_predominance ECHANI_SHIP_prosperity ECHANI_SHIP_purity ECHANI_SHIP_recalcitrant ECHANI_SHIP_red_nova ECHANI_SHIP_redma ECHANI_SHIP_reliable ECHANI_SHIP_reliant ECHANI_SHIP_reluctant ECHANI_SHIP_republic ECHANI_SHIP_republic_s_return ECHANI_SHIP_resolve ECHANI_SHIP_respectable ECHANI_SHIP_revenge ECHANI_SHIP_shadowblade ECHANI_SHIP_spritespray ECHANI_SHIP_star_dream ECHANI_SHIP_stark_wing ECHANI_SHIP_starveil ECHANI_SHIP_undying ECHANI_SHIP_vaathkree ECHANI_SHIP_vainglorious ECHANI_SHIP_valiant ECHANI_SHIP_valor ECHANI_SHIP_vanquisher ECHANI_SHIP_vinsor ECHANI_SHIP_visseon ECHANI_SHIP_wennis ECHANI_SHIP_yavin_s_glory ECHANI_SHIP_moldy_crow ECHANI_SHIP_raven_s_claw ECHANI_SHIP_agile ECHANI_SHIP_archer ECHANI_SHIP_arrow ECHANI_SHIP_bruiser ECHANI_SHIP_cherub ECHANI_SHIP_chimera ECHANI_SHIP_claymore ECHANI_SHIP_broadsword ECHANI_SHIP_battleaxe ECHANI_SHIP_crossbow ECHANI_SHIP_cutlass ECHANI_SHIP_deterrent ECHANI_SHIP_errant ECHANI_SHIP_faithful ECHANI_SHIP_fierce ECHANI_SHIP_gladius ECHANI_SHIP_longbow ECHANI_SHIP_grappler ECHANI_SHIP_hammer ECHANI_SHIP_vampire ECHANI_SHIP_velox ECHANI_SHIP_venator ECHANI_SHIP_vendetta ECHANI_SHIP_venerable ECHANI_SHIP_venomous ECHANI_SHIP_taciturn ECHANI_SHIP_supreme ECHANI_SHIP_success ECHANI_SHIP_shredder ECHANI_SHIP_seraph ECHANI_SHIP_serpent ECHANI_SHIP_spitfire ECHANI_SHIP_stalker ECHANI_SHIP_stratagem ECHANI_SHIP_scimitar ECHANI_SHIP_scorcher ECHANI_SHIP_scourge ECHANI_SHIP_scythe ECHANI_SHIP_revenant ECHANI_SHIP_redoubtable ECHANI_SHIP_raptor ECHANI_SHIP_reaver ECHANI_SHIP_prodigal ECHANI_SHIP_rapier ECHANI_SHIP_prudent ECHANI_SHIP_persistent ECHANI_SHIP_peerless ECHANI_SHIP_myrmidon ECHANI_SHIP_indignant ECHANI_SHIP_javelin ECHANI_SHIP_knight ECHANI_SHIP_starwolf ECHANI_SHIP_bonaventure ECHANI_SHIP_adventure ECHANI_SHIP_boxer ECHANI_SHIP_buccaneer ECHANI_SHIP_cavalier ECHANI_SHIP_celestial ECHANI_SHIP_chariot ECHANI_SHIP_comet ECHANI_SHIP_crucible ECHANI_SHIP_cyclone ECHANI_SHIP_decisive ECHANI_SHIP_dexterous ECHANI_SHIP_diadem ECHANI_SHIP_earnest ECHANI_SHIP_eclipse ECHANI_SHIP_forger ECHANI_SHIP_fortune ECHANI_SHIP_gauntlet ECHANI_SHIP_griffin ECHANI_SHIP_horizon ECHANI_SHIP_hotspur ECHANI_SHIP_hurricane ECHANI_SHIP_hussar ECHANI_SHIP_jubilant ECHANI_SHIP_lancer ECHANI_SHIP_lightning ECHANI_SHIP_magic ECHANI_SHIP_mediator ECHANI_SHIP_mermaid ECHANI_SHIP_meteor ECHANI_SHIP_minstrel ECHANI_SHIP_miranda ECHANI_SHIP_mustang ECHANI_SHIP_sharpshooter ECHANI_SHIP_cyclops ECHANI_SHIP_centaur ECHANI_SHIP_adversary ECHANI_SHIP_assassin ECHANI_SHIP_dagger ECHANI_SHIP_daring ECHANI_SHIP_duty ECHANI_SHIP_havoc ECHANI_SHIP_hero ECHANI_SHIP_hunter ECHANI_SHIP_justice ECHANI_SHIP_impeccable ECHANI_SHIP_interceptor ECHANI_SHIP_infernal ECHANI_SHIP_loyal ECHANI_SHIP_matchless ECHANI_SHIP_mauler ECHANI_SHIP_mayhem ECHANI_SHIP_malice ECHANI_SHIP_menace ECHANI_SHIP_merciless ECHANI_SHIP_mischief ECHANI_SHIP_monarch ECHANI_SHIP_patriot ECHANI_SHIP_predator ECHANI_SHIP_powerful ECHANI_SHIP_punisher ECHANI_SHIP_ravager ECHANI_SHIP_reaper ECHANI_SHIP_savage ECHANI_SHIP_spiteful ECHANI_SHIP_templar ECHANI_SHIP_terminator ECHANI_SHIP_terror ECHANI_SHIP_thrasher ECHANI_SHIP_minotaur ECHANI_SHIP_manticore ECHANI_SHIP_interdictor ECHANI_SHIP_intruder ECHANI_SHIP_hydra ECHANI_SHIP_enfield ECHANI_SHIP_harasser ECHANI_SHIP_unbeaten ECHANI_SHIP_werewolf ECHANI_SHIP_zealous ECHANI_SHIP_petulant ECHANI_SHIP_phantom ECHANI_SHIP_phoenix ECHANI_SHIP_pike ECHANI_SHIP_pursuer ECHANI_SHIP_raider ECHANI_SHIP_rainbow ECHANI_SHIP_rapid ECHANI_SHIP_redemption ECHANI_SHIP_relentless ECHANI_SHIP_rigorous ECHANI_SHIP_robust ECHANI_SHIP_sabre ECHANI_SHIP_salvation ECHANI_SHIP_sanguine ECHANI_SHIP_scarab ECHANI_SHIP_scepter ECHANI_SHIP_sea_witch ECHANI_SHIP_siren ECHANI_SHIP_sorceress ECHANI_SHIP_spearhead ECHANI_SHIP_specter ECHANI_SHIP_spirit ECHANI_SHIP_splendid ECHANI_SHIP_stallion ECHANI_SHIP_stalwart ECHANI_SHIP_steadfast ECHANI_SHIP_strenuous ECHANI_SHIP_superb ECHANI_SHIP_supernova ECHANI_SHIP_surprise ECHANI_SHIP_swiftsure ECHANI_SHIP_talent ECHANI_SHIP_talisman ECHANI_SHIP_talon ECHANI_SHIP_taurus ECHANI_SHIP_tenacious ECHANI_SHIP_thunder_child ECHANI_SHIP_thunderous ECHANI_SHIP_tireless ECHANI_SHIP_trenchant ECHANI_SHIP_righteous ECHANI_SHIP_acheron ECHANI_SHIP_achilles ECHANI_SHIP_agamemnon ECHANI_SHIP_amphion ECHANI_SHIP_aquilon ECHANI_SHIP_argonaut ECHANI_SHIP_argus ECHANI_SHIP_ariel ECHANI_SHIP_aurora ECHANI_SHIP_avernus ECHANI_SHIP_bacchus ECHANI_SHIP_bucephalus ECHANI_SHIP_calliope ECHANI_SHIP_calypso ECHANI_SHIP_castor ECHANI_SHIP_charybdis ECHANI_SHIP_circe ECHANI_SHIP_cleopatra ECHANI_SHIP_constantine ECHANI_SHIP_cordelia ECHANI_SHIP_cyrus ECHANI_SHIP_damocles ECHANI_SHIP_daedalus ECHANI_SHIP_darius ECHANI_SHIP_diomede ECHANI_SHIP_dryad ECHANI_SHIP_electra ECHANI_SHIP_endymion ECHANI_SHIP_erebus ECHANI_SHIP_fenris ECHANI_SHIP_freya ECHANI_SHIP_gilgamesh ECHANI_SHIP_gorgon ECHANI_SHIP_halcyon ECHANI_SHIP_hecate ECHANI_SHIP_hector ECHANI_SHIP_hesperus ECHANI_SHIP_janus ECHANI_SHIP_jason ECHANI_SHIP_juno ECHANI_SHIP_jupiter ECHANI_SHIP_lancelot ECHANI_SHIP_lazarus ECHANI_SHIP_leander ECHANI_SHIP_leonidas ECHANI_SHIP_lysander ECHANI_SHIP_maenad ECHANI_SHIP_mars ECHANI_SHIP_medea ECHANI_SHIP_medusa ECHANI_SHIP_menestheus ECHANI_SHIP_mercury ECHANI_SHIP_merlin ECHANI_SHIP_minerva ECHANI_SHIP_minos ECHANI_SHIP_neptune ECHANI_SHIP_nessus ECHANI_SHIP_nestor ECHANI_SHIP_nimrod ECHANI_SHIP_niobe ECHANI_SHIP_oberon ECHANI_SHIP_odin ECHANI_SHIP_ophelia ECHANI_SHIP_orestes ECHANI_SHIP_orpheus ECHANI_SHIP_osiris ECHANI_SHIP_pandora ECHANI_SHIP_penelope ECHANI_SHIP_persephone ECHANI_SHIP_perseus ECHANI_SHIP_phoebe ECHANI_SHIP_pluto ECHANI_SHIP_poseidon ECHANI_SHIP_proteus ECHANI_SHIP_pylades ECHANI_SHIP_serapis ECHANI_SHIP_stygian ECHANI_SHIP_tantalus ECHANI_SHIP_telemachus ECHANI_SHIP_theseus ECHANI_SHIP_thor ECHANI_SHIP_trajan ECHANI_SHIP_triton ECHANI_SHIP_venus ECHANI_SHIP_adamant ECHANI_SHIP_ardent ECHANI_SHIP_assail ECHANI_SHIP_austere ECHANI_SHIP_archon ECHANI_SHIP_adroit ECHANI_SHIP_aegis ECHANI_SHIP_anchor ECHANI_SHIP_corsair ECHANI_SHIP_banshee ECHANI_SHIP_enchantress ECHANI_SHIP_eradicator ECHANI_SHIP_tormentor ECHANI_SHIP_legion ECHANI_SHIP_reprisal ECHANI_SHIP_aggressor ECHANI_SHIP_assault ECHANI_SHIP_eviscerator ECHANI_SHIP_imperator ECHANI_SHIP_excellence ECHANI_SHIP_unrivalled ECHANI_SHIP_warlord ECHANI_SHIP_vengeance ECHANI_SHIP_triumphant ECHANI_SHIP_nemesis ECHANI_SHIP_avenger ECHANI_SHIP_champion ECHANI_SHIP_conqueror ECHANI_SHIP_crusader ECHANI_SHIP_glory ECHANI_SHIP_immortal ECHANI_SHIP_judicator ECHANI_SHIP_vanguard ECHANI_SHIP_renown ECHANI_SHIP_demolisher ECHANI_SHIP_dragon ECHANI_SHIP_executor ECHANI_SHIP_furious ECHANI_SHIP_gladiator ECHANI_SHIP_magnificent ECHANI_SHIP_ogre ECHANI_SHIP_onslaught ECHANI_SHIP_revenge ECHANI_SHIP_vanquisher ECHANI_SHIP_vehement ECHANI_SHIP_basilisk ECHANI_SHIP_tempest ECHANI_SHIP_overlord ECHANI_SHIP_warrior ECHANI_SHIP_titan ECHANI_SHIP_colossus ECHANI_SHIP_prometheus ECHANI_SHIP_nike ECHANI_SHIP_paladin ECHANI_SHIP_sovereign ECHANI_SHIP_repulse ECHANI_SHIP_majestic ECHANI_SHIP_avatar ECHANI_SHIP_behemoth ECHANI_SHIP_centurion ECHANI_SHIP_citadel ECHANI_SHIP_katana ECHANI_SHIP_kraken ECHANI_SHIP_cerberus ECHANI_SHIP_valkyrie
+		}
+		swp_bellator = {
+			ECHANI_SHIP_dreadnought ECHANI_SHIP_harbinger ECHANI_SHIP_juggernaut ECHANI_SHIP_leviathan ECHANI_SHIP_hyperion ECHANI_SHIP_galatea ECHANI_SHIP_ambush ECHANI_SHIP_vindicator
+		}
+		science = {
+			ECHANI_SHIP_crescent ECHANI_SHIP_diligent ECHANI_SHIP_zephyr ECHANI_SHIP_enigma ECHANI_SHIP_conquistador ECHANI_SHIP_scylla ECHANI_SHIP_arbiter ECHANI_SHIP_asperity ECHANI_SHIP_eminence ECHANI_SHIP_astute ECHANI_SHIP_alacrity ECHANI_SHIP_satyr ECHANI_SHIP_prospero ECHANI_SHIP_untiring ECHANI_SHIP_zenith ECHANI_SHIP_torch ECHANI_SHIP_remembrance ECHANI_SHIP_pilgrim ECHANI_SHIP_trailblazer ECHANI_SHIP_vagabond ECHANI_SHIP_wayfarer ECHANI_SHIP_ambassador ECHANI_SHIP_emissary ECHANI_SHIP_nomad ECHANI_SHIP_pathfinder ECHANI_SHIP_wanderer ECHANI_SHIP_traveler
+		}
+		colonizer = {
+			ECHANI_SHIP_godspeed ECHANI_SHIP_prophecy ECHANI_SHIP_manifest_destiny ECHANI_SHIP_virtue ECHANI_SHIP_potential ECHANI_SHIP_expansion ECHANI_SHIP_pioneer_spirit ECHANI_SHIP_prosperity ECHANI_SHIP_summit ECHANI_SHIP_pinnacle ECHANI_SHIP_seeder ECHANI_SHIP_harvest ECHANI_SHIP_demeter ECHANI_SHIP_isis ECHANI_SHIP_ceres ECHANI_SHIP_exodus ECHANI_SHIP_foundation ECHANI_SHIP_scion ECHANI_SHIP_progeny ECHANI_SHIP_obligation ECHANI_SHIP_purpose ECHANI_SHIP_provider ECHANI_SHIP_shining_city ECHANI_SHIP_acquirer ECHANI_SHIP_cultivator ECHANI_SHIP_dawn_of_civilization ECHANI_SHIP_purity ECHANI_SHIP_community ECHANI_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			ECHANI_SHIP_godspeed ECHANI_SHIP_prophecy ECHANI_SHIP_manifest_destiny ECHANI_SHIP_virtue ECHANI_SHIP_potential ECHANI_SHIP_expansion ECHANI_SHIP_pioneer_spirit ECHANI_SHIP_prosperity ECHANI_SHIP_summit ECHANI_SHIP_pinnacle ECHANI_SHIP_seeder ECHANI_SHIP_harvest ECHANI_SHIP_isis ECHANI_SHIP_ceres ECHANI_SHIP_exodus ECHANI_SHIP_foundation ECHANI_SHIP_scion ECHANI_SHIP_progeny ECHANI_SHIP_obligation ECHANI_SHIP_purpose ECHANI_SHIP_provider ECHANI_SHIP_shining_city ECHANI_SHIP_acquirer ECHANI_SHIP_cultivator ECHANI_SHIP_dawn_of_civilization ECHANI_SHIP_purity ECHANI_SHIP_community ECHANI_SHIP_brotherhood
+		}
+		constructor = {
+			ECHANI_SHIP_industry ECHANI_SHIP_assiduity ECHANI_SHIP_effort ECHANI_SHIP_laborer ECHANI_SHIP_builder ECHANI_SHIP_craftsman ECHANI_SHIP_hard_hat ECHANI_SHIP_progress ECHANI_SHIP_engineer ECHANI_SHIP_promise ECHANI_SHIP_service ECHANI_SHIP_shelter ECHANI_SHIP_beast ECHANI_SHIP_creator ECHANI_SHIP_developer ECHANI_SHIP_forger ECHANI_SHIP_foundry ECHANI_SHIP_factory ECHANI_SHIP_anvil ECHANI_SHIP_pillar ECHANI_SHIP_architect ECHANI_SHIP_accommodator ECHANI_SHIP_ptah ECHANI_SHIP_ilmarinen ECHANI_SHIP_creidhne ECHANI_SHIP_gobannus ECHANI_SHIP_luchtaine ECHANI_SHIP_goibniu ECHANI_SHIP_vishvakarman ECHANI_SHIP_tvastar ECHANI_SHIP_ikenga ECHANI_SHIP_qaynan ECHANI_SHIP_ucuetis ECHANI_SHIP_ogoun
+		}
+		transport = {
+			ECHANI_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			ECHANI_SHIP_spacegun_victory ECHANI_SHIP_spacegun_success ECHANI_SHIP_spacegun_supremacy ECHANI_SHIP_spacegun_superior ECHANI_SHIP_spacegun_adventure ECHANI_SHIP_spacegun_ascendancy ECHANI_SHIP_spacegun_paramount ECHANI_SHIP_spacegun_preponderous ECHANI_SHIP_spacegun_exemplary ECHANI_SHIP_spacegun_eximious ECHANI_SHIP_spacegun_pertinacity ECHANI_SHIP_spacegun_acclaim ECHANI_SHIP_spacegun_honor ECHANI_SHIP_spacegun_renown ECHANI_SHIP_spacegun_glory ECHANI_SHIP_spacegun_superb ECHANI_SHIP_spacegun_magnificence ECHANI_SHIP_spacegun_majestic ECHANI_SHIP_spacegun_splendor ECHANI_SHIP_spacegun_paradigm ECHANI_SHIP_spacegun_flawless ECHANI_SHIP_spacegun_consummate ECHANI_SHIP_spacegun_merit ECHANI_SHIP_spacegun_perfection ECHANI_SHIP_spacegun_virtue ECHANI_SHIP_spacegun_advantage ECHANI_SHIP_spacegun_rectitude ECHANI_SHIP_spacegun_incorruptible ECHANI_SHIP_spacegun_integrity ECHANI_SHIP_spacegun_justice ECHANI_SHIP_spacegun_probity ECHANI_SHIP_spacegun_prudence ECHANI_SHIP_spacegun_purity ECHANI_SHIP_spacegun_resolute ECHANI_SHIP_spacegun_dignity ECHANI_SHIP_spacegun_distinction ECHANI_SHIP_spacegun_excellence ECHANI_SHIP_spacegun_faithful ECHANI_SHIP_spacegun_discipline ECHANI_SHIP_spacegun_steadfast ECHANI_SHIP_spacegun_recompense ECHANI_SHIP_spacegun_requiem ECHANI_SHIP_spacegun_courage ECHANI_SHIP_spacegun_valor ECHANI_SHIP_spacegun_gallant ECHANI_SHIP_spacegun_daring ECHANI_SHIP_spacegun_constancy ECHANI_SHIP_spacegun_perseverence ECHANI_SHIP_spacegun_tenacity ECHANI_SHIP_spacegun_sedulity ECHANI_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			ECHANI_SHIP_spacegun_victory ECHANI_SHIP_spacegun_success ECHANI_SHIP_spacegun_supremacy ECHANI_SHIP_spacegun_superior ECHANI_SHIP_spacegun_adventure ECHANI_SHIP_spacegun_ascendancy ECHANI_SHIP_spacegun_paramount ECHANI_SHIP_spacegun_preponderous ECHANI_SHIP_spacegun_exemplary ECHANI_SHIP_spacegun_eximious ECHANI_SHIP_spacegun_pertinacity ECHANI_SHIP_spacegun_acclaim ECHANI_SHIP_spacegun_honor ECHANI_SHIP_spacegun_renown ECHANI_SHIP_spacegun_glory ECHANI_SHIP_spacegun_superb ECHANI_SHIP_spacegun_magnificence ECHANI_SHIP_spacegun_majestic ECHANI_SHIP_spacegun_splendor ECHANI_SHIP_spacegun_paradigm ECHANI_SHIP_spacegun_flawless ECHANI_SHIP_spacegun_consummate ECHANI_SHIP_spacegun_merit ECHANI_SHIP_spacegun_perfection ECHANI_SHIP_spacegun_virtue ECHANI_SHIP_spacegun_advantage ECHANI_SHIP_spacegun_rectitude ECHANI_SHIP_spacegun_incorruptible ECHANI_SHIP_spacegun_integrity ECHANI_SHIP_spacegun_justice ECHANI_SHIP_spacegun_probity ECHANI_SHIP_spacegun_prudence ECHANI_SHIP_spacegun_purity ECHANI_SHIP_spacegun_resolute ECHANI_SHIP_spacegun_dignity ECHANI_SHIP_spacegun_distinction ECHANI_SHIP_spacegun_excellence ECHANI_SHIP_spacegun_faithful ECHANI_SHIP_spacegun_discipline ECHANI_SHIP_spacegun_steadfast ECHANI_SHIP_spacegun_recompense ECHANI_SHIP_spacegun_requiem ECHANI_SHIP_spacegun_courage ECHANI_SHIP_spacegun_valor ECHANI_SHIP_spacegun_gallant ECHANI_SHIP_spacegun_daring ECHANI_SHIP_spacegun_constancy ECHANI_SHIP_spacegun_perseverence ECHANI_SHIP_spacegun_tenacity ECHANI_SHIP_spacegun_sedulity ECHANI_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			ECHANI_SHIP_spacegun_victory ECHANI_SHIP_spacegun_success ECHANI_SHIP_spacegun_supremacy ECHANI_SHIP_spacegun_superior ECHANI_SHIP_spacegun_adventure ECHANI_SHIP_spacegun_ascendancy ECHANI_SHIP_spacegun_paramount ECHANI_SHIP_spacegun_preponderous ECHANI_SHIP_spacegun_exemplary ECHANI_SHIP_spacegun_eximious ECHANI_SHIP_spacegun_pertinacity ECHANI_SHIP_spacegun_acclaim ECHANI_SHIP_spacegun_honor ECHANI_SHIP_spacegun_renown ECHANI_SHIP_spacegun_glory ECHANI_SHIP_spacegun_superb ECHANI_SHIP_spacegun_magnificence ECHANI_SHIP_spacegun_majestic ECHANI_SHIP_spacegun_splendor ECHANI_SHIP_spacegun_paradigm ECHANI_SHIP_spacegun_flawless ECHANI_SHIP_spacegun_consummate ECHANI_SHIP_spacegun_merit ECHANI_SHIP_spacegun_perfection ECHANI_SHIP_spacegun_virtue ECHANI_SHIP_spacegun_advantage ECHANI_SHIP_spacegun_rectitude ECHANI_SHIP_spacegun_incorruptible ECHANI_SHIP_spacegun_integrity ECHANI_SHIP_spacegun_justice ECHANI_SHIP_spacegun_probity ECHANI_SHIP_spacegun_prudence ECHANI_SHIP_spacegun_purity ECHANI_SHIP_spacegun_resolute ECHANI_SHIP_spacegun_dignity ECHANI_SHIP_spacegun_distinction ECHANI_SHIP_spacegun_excellence ECHANI_SHIP_spacegun_faithful ECHANI_SHIP_spacegun_discipline ECHANI_SHIP_spacegun_steadfast ECHANI_SHIP_spacegun_recompense ECHANI_SHIP_spacegun_requiem ECHANI_SHIP_spacegun_courage ECHANI_SHIP_spacegun_valor ECHANI_SHIP_spacegun_gallant ECHANI_SHIP_spacegun_daring ECHANI_SHIP_spacegun_constancy ECHANI_SHIP_spacegun_perseverence ECHANI_SHIP_spacegun_tenacity ECHANI_SHIP_spacegun_sedulity ECHANI_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			ECHANI_SHIP_citadel ECHANI_SHIP_albacore ECHANI_SHIP_gateway ECHANI_SHIP_vincent ECHANI_SHIP_babylon ECHANI_SHIP_caernavon ECHANI_SHIP_acre ECHANI_SHIP_pembroke ECHANI_SHIP_acheron ECHANI_SHIP_spithead ECHANI_SHIP_halifax ECHANI_SHIP_victoria ECHANI_SHIP_chatham ECHANI_SHIP_anchorage ECHANI_SHIP_scapa_flow ECHANI_SHIP_hampton_roads ECHANI_SHIP_brooklyn ECHANI_SHIP_norfolk ECHANI_SHIP_newport ECHANI_SHIP_guam ECHANI_SHIP_pensacola ECHANI_SHIP_vesuvius ECHANI_SHIP_mckinley ECHANI_SHIP_everest ECHANI_SHIP_kilimanjaro ECHANI_SHIP_aconcagua ECHANI_SHIP_elbrus ECHANI_SHIP_st__helens ECHANI_SHIP_fuji ECHANI_SHIP_olympus ECHANI_SHIP_sinai ECHANI_SHIP_ambrose ECHANI_SHIP_bermuda ECHANI_SHIP_farpoint ECHANI_SHIP_blue_star ECHANI_SHIP_olympus_mons ECHANI_SHIP_tharsis ECHANI_SHIP_syrtis ECHANI_SHIP_blackham ECHANI_SHIP_fletcher ECHANI_SHIP_perry ECHANI_SHIP_butakov ECHANI_SHIP_morris ECHANI_SHIP_moorsom ECHANI_SHIP_hart ECHANI_SHIP_hargood ECHANI_SHIP_spruance ECHANI_SHIP_tanaka ECHANI_SHIP_halsey ECHANI_SHIP_turner ECHANI_SHIP_doria ECHANI_SHIP_tirpitz ECHANI_SHIP_cunningham ECHANI_SHIP_jellicoe ECHANI_SHIP_hipper ECHANI_SHIP_beatty ECHANI_SHIP_potemkin ECHANI_SHIP_durham ECHANI_SHIP_codrington ECHANI_SHIP_milne ECHANI_SHIP_laforey ECHANI_SHIP_tyler ECHANI_SHIP_hawke ECHANI_SHIP_yonai ECHANI_SHIP_pound ECHANI_SHIP_king ECHANI_SHIP_crutchley ECHANI_SHIP_mountbatten ECHANI_SHIP_kountouriotis ECHANI_SHIP_kuznetsov ECHANI_SHIP_essen ECHANI_SHIP_kornilov ECHANI_SHIP_suffren ECHANI_SHIP_treville ECHANI_SHIP_villeneuve ECHANI_SHIP_grasse ECHANI_SHIP_byng ECHANI_SHIP_lezo
+		}
+		ion_cannon = {
+			ECHANI_SHIP_bombard ECHANI_SHIP_ballista ECHANI_SHIP_catapult ECHANI_SHIP_harpoon ECHANI_SHIP_polybolos ECHANI_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			ECHANI_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			ECHANI_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			ECHANI_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			ECHANI_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			ECHANI_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			ECHANI_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			ECHANI_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			ECHANI_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			ECHANI_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			ECHANI_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			ECHANI_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			ECHANI_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			ECHANI_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			ECHANI_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			ECHANI_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			ECHANI_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			ECHANI_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			ECHANI_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			ECHANI_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			ECHANI_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			ECHANI_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			ECHANI_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			ECHANI_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			ECHANI_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			ECHANI_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			ECHANI_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			ECHANI_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			ECHANI_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			ECHANI_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			ECHANI_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			ECHANI_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			ECHANI_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			ECHANI_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			ECHANI_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			ECHANI_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			ECHANI_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			ECHANI_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			ECHANI_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			ECHANI_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			ECHANI_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			ECHANI_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			ECHANI_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			ECHANI_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			ECHANI_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			ECHANI_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			ECHANI_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			ECHANI_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			ECHANI_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			ECHANI_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			ECHANI_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			ECHANI_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			ECHANI_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			ECHANI_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			ECHANI_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			ECHANI_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			ECHANI_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			ECHANI_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			ECHANI_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			ECHANI_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			ECHANI_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			ECHANI_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			ECHANI_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			ECHANI_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			ECHANI_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			ECHANI_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			ECHANI_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			ECHANI_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			ECHANI_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			ECHANI_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			ECHANI_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			ECHANI_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			ECHANI_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			ECHANI_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			ECHANI_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			ECHANI_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			ECHANI_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			ECHANI_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			ECHANI_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			ECHANI_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			ECHANI_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			ECHANI_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			ECHANI_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			ECHANI_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			ECHANI_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			ECHANI_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			ECHANI_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			ECHANI_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			ECHANI_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			ECHANI_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			ECHANI_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			ECHANI_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			ECHANI_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			ECHANI_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			ECHANI_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = ECHANI_FLEET_fleet_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = ECHANI_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = ECHANI_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = ECHANI_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = ECHANI_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = ECHANI_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = ECHANI_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = ECHANI_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = ECHANI_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				ECHANI_ARMY_sarc_a__gladiators_ ECHANI_ARMY_sarc_b__widowmakers_ ECHANI_ARMY_sarc_c__immortals_ ECHANI_ARMY_sarc_d__berserkers_ ECHANI_ARMY_sarc_e__assassins_ ECHANI_ARMY_sarc_f__reapers_ ECHANI_ARMY_sarc_g__nighthawks_ ECHANI_ARMY_sarc_h__desperados_ ECHANI_ARMY_sarc_i__grey_knights_ ECHANI_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = ECHANI_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = ECHANI_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = ECHANI_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = ECHANI_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = ECHANI_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = ECHANI_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = ECHANI_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = ECHANI_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = ECHANI_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = ECHANI_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = ECHANI_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = ECHANI_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = ECHANI_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = ECHANI_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = ECHANI_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = ECHANI_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = ECHANI_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = ECHANI_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = ECHANI_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = ECHANI_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = ECHANI_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = ECHANI_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = ECHANI_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = ECHANI_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = ECHANI_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = ECHANI_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = ECHANI_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = ECHANI_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = ECHANI_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = ECHANI_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = ECHANI_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = ECHANI_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = ECHANI_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = ECHANI_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = ECHANI_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = ECHANI_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = ECHANI_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = ECHANI_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = ECHANI_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = ECHANI_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = ECHANI_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = ECHANI_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = ECHANI_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = ECHANI_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = ECHANI_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = ECHANI_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = ECHANI_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = ECHANI_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = ECHANI_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = ECHANI_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = ECHANI_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = ECHANI_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = ECHANI_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = ECHANI_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = ECHANI_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = ECHANI_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = ECHANI_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = ECHANI_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = ECHANI_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = ECHANI_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = ECHANI_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = ECHANI_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = ECHANI_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = ECHANI_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = ECHANI_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = ECHANI_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = ECHANI_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = ECHANI_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = ECHANI_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = ECHANI_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = ECHANI_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = ECHANI_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = ECHANI_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = ECHANI_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = ECHANI_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = ECHANI_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = ECHANI_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = ECHANI_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = ECHANI_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = ECHANI_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = ECHANI_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = ECHANI_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = ECHANI_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = ECHANI_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = ECHANI_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = ECHANI_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = ECHANI_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = ECHANI_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = ECHANI_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = ECHANI_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = ECHANI_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = ECHANI_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = ECHANI_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = ECHANI_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = ECHANI_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = ECHANI_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = ECHANI_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = ECHANI_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = ECHANI_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = ECHANI_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = ECHANI_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = ECHANI_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = ECHANI_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = ECHANI_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = ECHANI_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = ECHANI_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = ECHANI_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = ECHANI_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = ECHANI_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = ECHANI_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = ECHANI_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = ECHANI_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = ECHANI_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = ECHANI_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = ECHANI_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = ECHANI_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = ECHANI_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = ECHANI_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = ECHANI_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = ECHANI_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = ECHANI_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = ECHANI_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = ECHANI_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = ECHANI_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = ECHANI_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = ECHANI_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = ECHANI_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = ECHANI_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = ECHANI_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = ECHANI_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = ECHANI_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = ECHANI_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = ECHANI_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				ECHANI_CHR_bail ECHANI_CHR_ylenic ECHANI_CHR_kel ECHANI_CHR_gunn ECHANI_CHR_gregory ECHANI_CHR_abraxis ECHANI_CHR_jonas ECHANI_CHR_xerda ECHANI_CHR_carth ECHANI_CHR_kir ECHANI_CHR_mebba ECHANI_CHR_dagos ECHANI_CHR_adam ECHANI_CHR_kyle ECHANI_CHR_forren ECHANI_CHR_malcolm ECHANI_CHR_jeho ECHANI_CHR_lee ECHANI_CHR_griggs ECHANI_CHR_milo ECHANI_CHR_aeron ECHANI_CHR_byrec ECHANI_CHR_strata ECHANI_CHR_lancer ECHANI_CHR_zeak ECHANI_CHR_niuk ECHANI_CHR_lavidean ECHANI_CHR_tanizandar ECHANI_CHR_japla ECHANI_CHR_aran ECHANI_CHR_rail ECHANI_CHR_zeven ECHANI_CHR_yakown ECHANI_CHR_sibar ECHANI_CHR_sair ECHANI_CHR_klai ECHANI_CHR_jonas ECHANI_CHR_imay ECHANI_CHR_traest ECHANI_CHR_simo ECHANI_CHR_carth ECHANI_CHR_riyan ECHANI_CHR_magnus ECHANI_CHR_boceta ECHANI_CHR_agnook ECHANI_CHR_silus ECHANI_CHR_rowan ECHANI_CHR_coren ECHANI_CHR_jett ECHANI_CHR_linth ECHANI_CHR_annor ECHANI_CHR_ulas ECHANI_CHR_fenn ECHANI_CHR_tal ECHANI_CHR_plo ECHANI_CHR_torin ECHANI_CHR_imay ECHANI_CHR_boone ECHANI_CHR_davith ECHANI_CHR_jorgen ECHANI_CHR_bertos ECHANI_CHR_ress ECHANI_CHR_malius ECHANI_CHR_kale ECHANI_CHR_cregan ECHANI_CHR_galen ECHANI_CHR_zekk ECHANI_CHR_jinn_tu ECHANI_CHR_jaryn ECHANI_CHR_gentti ECHANI_CHR_yu_sien ECHANI_CHR_akela ECHANI_CHR_arslan ECHANI_CHR_sidias ECHANI_CHR_haken ECHANI_CHR_biran ECHANI_CHR_vidown ECHANI_CHR_ares ECHANI_CHR_ithan ECHANI_CHR_cul_utaan ECHANI_CHR_thoja ECHANI_CHR_cron ECHANI_CHR_mossi ECHANI_CHR_abric ECHANI_CHR_darg ECHANI_CHR_gaman ECHANI_CHR_naiad ECHANI_CHR_herub ECHANI_CHR_marius ECHANI_CHR_torkin ECHANI_CHR_caton ECHANI_CHR_kane ECHANI_CHR_versita ECHANI_CHR_cric ECHANI_CHR_foxdi ECHANI_CHR_montacca ECHANI_CHR_jospi ECHANI_CHR_baz ECHANI_CHR_kam ECHANI_CHR_erek ECHANI_CHR_arslan ECHANI_CHR_lerak ECHANI_CHR_morla ECHANI_CHR_baxter ECHANI_CHR_talan ECHANI_CHR_thion ECHANI_CHR_kannon ECHANI_CHR_corsair ECHANI_CHR_caster ECHANI_CHR_elden ECHANI_CHR_faelgrom ECHANI_CHR_jack ECHANI_CHR_raltharan ECHANI_CHR_flash ECHANI_CHR_waseem ECHANI_CHR_bendak ECHANI_CHR_kaz ECHANI_CHR_montileu ECHANI_CHR_gonoga ECHANI_CHR_silus ECHANI_CHR_galven ECHANI_CHR_vincenzo ECHANI_CHR_ric ECHANI_CHR_rebar ECHANI_CHR_jebediah ECHANI_CHR_aramil ECHANI_CHR_abraxis ECHANI_CHR_delmi ECHANI_CHR_caalin ECHANI_CHR_rassth ECHANI_CHR_adorn ECHANI_CHR_cyrus ECHANI_CHR_zhar_khan ECHANI_CHR_adam ECHANI_CHR_predor ECHANI_CHR_tarlson ECHANI_CHR_boaz ECHANI_CHR_bradley ECHANI_CHR_gunn ECHANI_CHR_raltharan ECHANI_CHR_zerrid ECHANI_CHR_bobecc ECHANI_CHR_jelantos ECHANI_CHR_jephego ECHANI_CHR_svante ECHANI_CHR_tesvalo ECHANI_CHR_aeon ECHANI_CHR_dekar ECHANI_CHR_jean_francois ECHANI_CHR_elen ECHANI_CHR_han ECHANI_CHR_owen ECHANI_CHR_biggs
+			}
+			first_names_female = {
+				ECHANI_CHR_charratha ECHANI_CHR_edaara ECHANI_CHR_bella ECHANI_CHR_callista ECHANI_CHR_mara ECHANI_CHR_seena ECHANI_CHR_areta ECHANI_CHR_cord ECHANI_CHR_cyrinity ECHANI_CHR_nile ECHANI_CHR_kiyfi ECHANI_CHR_yasmyn ECHANI_CHR_satra ECHANI_CHR_shehish ECHANI_CHR_sarna ECHANI_CHR_krava ECHANI_CHR_roxis ECHANI_CHR_jessa ECHANI_CHR_aqua ECHANI_CHR_maryna ECHANI_CHR_essaj ECHANI_CHR_looriw ECHANI_CHR_teeana ECHANI_CHR_raena ECHANI_CHR_yula ECHANI_CHR_vifi ECHANI_CHR_vania ECHANI_CHR_jeanida ECHANI_CHR_aerena ECHANI_CHR_nataya ECHANI_CHR_bernarda ECHANI_CHR_geela ECHANI_CHR_lya ECHANI_CHR_sirra ECHANI_CHR_teris ECHANI_CHR_terral ECHANI_CHR_nile ECHANI_CHR_riema ECHANI_CHR_erri ECHANI_CHR_shanna ECHANI_CHR_lyra ECHANI_CHR_pranda ECHANI_CHR_luna ECHANI_CHR_cally ECHANI_CHR_viqi ECHANI_CHR_hadriel ECHANI_CHR_lora ECHANI_CHR_selena ECHANI_CHR_zana ECHANI_CHR_tuija ECHANI_CHR_railin ECHANI_CHR_odona ECHANI_CHR_shyon ECHANI_CHR_walas ECHANI_CHR_rylla ECHANI_CHR_gara ECHANI_CHR_delos ECHANI_CHR_loretta ECHANI_CHR_luhon ECHANI_CHR_delinia ECHANI_CHR_aama ECHANI_CHR_shorya ECHANI_CHR_melfina ECHANI_CHR_davessi ECHANI_CHR_larana ECHANI_CHR_galatea ECHANI_CHR_nola ECHANI_CHR_syna ECHANI_CHR_jauhzmynn ECHANI_CHR_anen ECHANI_CHR_orona ECHANI_CHR_yana ECHANI_CHR_zoras ECHANI_CHR_ree ECHANI_CHR_grace ECHANI_CHR_tantema ECHANI_CHR_myn ECHANI_CHR_una ECHANI_CHR_dalharil ECHANI_CHR_losa ECHANI_CHR_sovi ECHANI_CHR_elaiza ECHANI_CHR_vucora ECHANI_CHR_ava ECHANI_CHR_joi ECHANI_CHR_stryka ECHANI_CHR_tantema ECHANI_CHR_shandra ECHANI_CHR_kely ECHANI_CHR_caileta ECHANI_CHR_taia ECHANI_CHR_siala ECHANI_CHR_reki ECHANI_CHR_maydla ECHANI_CHR_bot ECHANI_CHR_kiandra ECHANI_CHR_xilaren ECHANI_CHR_zulara ECHANI_CHR_ren ECHANI_CHR_karissa ECHANI_CHR_roxis ECHANI_CHR_haruko ECHANI_CHR_jenna ECHANI_CHR_liana ECHANI_CHR_rale ECHANI_CHR_megara ECHANI_CHR_aria ECHANI_CHR_akiva ECHANI_CHR_nalah ECHANI_CHR_erlem ECHANI_CHR_nali ECHANI_CHR_fallah ECHANI_CHR_kotrana ECHANI_CHR_aayla ECHANI_CHR_kalira ECHANI_CHR_arani ECHANI_CHR_fama ECHANI_CHR_lyyr ECHANI_CHR_arcas ECHANI_CHR_rane ECHANI_CHR_nayru ECHANI_CHR_zylas ECHANI_CHR_vexa ECHANI_CHR_kana ECHANI_CHR_beru
+			}
+			second_names = {
+				ECHANI_CHR_elysar ECHANI_CHR_tisa ECHANI_CHR_wahia ECHANI_CHR_wezz ECHANI_CHR_unic ECHANI_CHR_tiovata ECHANI_CHR_nakcohh ECHANI_CHR_vitaan ECHANI_CHR_mefrid ECHANI_CHR_daklan ECHANI_CHR_kenzee ECHANI_CHR_joben ECHANI_CHR_thegas ECHANI_CHR_moryne ECHANI_CHR_holgor ECHANI_CHR_ijaaz ECHANI_CHR_tromans ECHANI_CHR_sprax ECHANI_CHR_knesos ECHANI_CHR_magnus ECHANI_CHR_lasek ECHANI_CHR_artis ECHANI_CHR_pax ECHANI_CHR_corso ECHANI_CHR_fallon ECHANI_CHR_gundo ECHANI_CHR_ruana ECHANI_CHR_fremlin ECHANI_CHR_thont ECHANI_CHR_creel ECHANI_CHR_rar ECHANI_CHR_dusat ECHANI_CHR_kessler ECHANI_CHR_shaia ECHANI_CHR_el_theriam ECHANI_CHR_vanmeer ECHANI_CHR_vrieska ECHANI_CHR_calway ECHANI_CHR_yamaguchi ECHANI_CHR_riggers ECHANI_CHR_brower ECHANI_CHR_fash ECHANI_CHR_nalto ECHANI_CHR_stryder ECHANI_CHR_dubreas ECHANI_CHR_colsan ECHANI_CHR_terrek ECHANI_CHR_solon ECHANI_CHR_merquise ECHANI_CHR_varn ECHANI_CHR_basai ECHANI_CHR_froud ECHANI_CHR_addacess ECHANI_CHR_elysar ECHANI_CHR_durgen ECHANI_CHR_slahlvo ECHANI_CHR_remex ECHANI_CHR_madowki ECHANI_CHR_hayes ECHANI_CHR_ne ECHANI_CHR_dago ECHANI_CHR_greenback ECHANI_CHR_stithta ECHANI_CHR_ker ECHANI_CHR_driet ECHANI_CHR_klakk ECHANI_CHR_reed ECHANI_CHR_lefex ECHANI_CHR_minn ECHANI_CHR_irokini ECHANI_CHR_roye ECHANI_CHR_danakar ECHANI_CHR_forin ECHANI_CHR_glopio ECHANI_CHR_shenuri ECHANI_CHR_corcer ECHANI_CHR_ordo ECHANI_CHR_wan ECHANI_CHR_tagratt ECHANI_CHR_golladio ECHANI_CHR_adramcsia ECHANI_CHR_jetberg ECHANI_CHR_noth ECHANI_CHR_taske ECHANI_CHR_komo ECHANI_CHR_styles ECHANI_CHR_angavel ECHANI_CHR_tyrnith ECHANI_CHR_yavoog ECHANI_CHR_kelbier ECHANI_CHR_racto ECHANI_CHR_degor ECHANI_CHR_tisa ECHANI_CHR_magre ECHANI_CHR_soylon ECHANI_CHR_lerann ECHANI_CHR_chro ECHANI_CHR_finn ECHANI_CHR_blackmoor ECHANI_CHR_hwang ECHANI_CHR_vekarr ECHANI_CHR_thegas ECHANI_CHR_amon ECHANI_CHR_thiddex ECHANI_CHR_durgen ECHANI_CHR_selkayim ECHANI_CHR_gilder ECHANI_CHR_dhuramav ECHANI_CHR_kodd ECHANI_CHR_morin ECHANI_CHR_kobylarz ECHANI_CHR_tade ECHANI_CHR_solman ECHANI_CHR_bintaghr ECHANI_CHR_marclonus ECHANI_CHR_precore ECHANI_CHR_solborne ECHANI_CHR_bailer ECHANI_CHR_katarn ECHANI_CHR_anjek ECHANI_CHR_dalgas ECHANI_CHR_kast ECHANI_CHR_airerith ECHANI_CHR_halo ECHANI_CHR_tade ECHANI_CHR_clash ECHANI_CHR_jalba ECHANI_CHR_benn ECHANI_CHR_haruhana ECHANI_CHR_roice ECHANI_CHR_lokar ECHANI_CHR_korpil ECHANI_CHR_turon ECHANI_CHR_cavi ECHANI_CHR_deece ECHANI_CHR_braitano ECHANI_CHR_garnik ECHANI_CHR_tyandas ECHANI_CHR_ka_taramas ECHANI_CHR_nuwest ECHANI_CHR_forte ECHANI_CHR_noshey ECHANI_CHR_gyyll ECHANI_CHR_tallon ECHANI_CHR_lionne ECHANI_CHR_adras ECHANI_CHR_fremlin ECHANI_CHR_peoly ECHANI_CHR_damiel ECHANI_CHR_chup_pau ECHANI_CHR_drayven ECHANI_CHR_zaposug ECHANI_CHR_bela_trepada ECHANI_CHR_defelice ECHANI_CHR_monsula ECHANI_CHR_baralein ECHANI_CHR_denive ECHANI_CHR_hodrren ECHANI_CHR_xergo ECHANI_CHR_sarat ECHANI_CHR_vercet ECHANI_CHR_ossaki ECHANI_CHR_kappa ECHANI_CHR_zerga ECHANI_CHR_kopos ECHANI_CHR_aldrecht ECHANI_CHR_bohme ECHANI_CHR_tull ECHANI_CHR_eldrel ECHANI_CHR_marh ECHANI_CHR_darksword ECHANI_CHR_krandor ECHANI_CHR_montag ECHANI_CHR_dimodan ECHANI_CHR_starfallen ECHANI_CHR_artis ECHANI_CHR_fett ECHANI_CHR_mohebbi ECHANI_CHR_runalian ECHANI_CHR_binette ECHANI_CHR_laurent ECHANI_CHR_mavr ECHANI_CHR_ryra ECHANI_CHR_truden ECHANI_CHR_solo ECHANI_CHR_lars ECHANI_CHR_amedda ECHANI_CHR_amidala ECHANI_CHR_andrell ECHANI_CHR_annon ECHANI_CHR_antilles ECHANI_CHR_atanna ECHANI_CHR_baab ECHANI_CHR_barc ECHANI_CHR_bonteri ECHANI_CHR_breemu ECHANI_CHR_bremack ECHANI_CHR_bronk ECHANI_CHR_burtoni ECHANI_CHR_cadaman ECHANI_CHR_callen ECHANI_CHR_clovis ECHANI_CHR_ledwellow ECHANI_CHR_dio ECHANI_CHR_organa
+			}
+			regnal_first_names_male = {
+				ECHANI_CHR_kam ECHANI_CHR_erek ECHANI_CHR_arslan ECHANI_CHR_lerak ECHANI_CHR_morla ECHANI_CHR_mas ECHANI_CHR_wain ECHANI_CHR_bail ECHANI_CHR_gabrial ECHANI_CHR_dewell ECHANI_CHR_tanner ECHANI_CHR_vi ECHANI_CHR_rush ECHANI_CHR_danry
+			}
+			regnal_first_names_female = {
+				ECHANI_CHR_callista ECHANI_CHR_mara ECHANI_CHR_seena ECHANI_CHR_areta ECHANI_CHR_padm_ ECHANI_CHR_fema ECHANI_CHR_mina ECHANI_CHR_bana ECHANI_CHR_tyreca ECHANI_CHR_halle ECHANI_CHR_lexi ECHANI_CHR_leia ECHANI_CHR_alyssa ECHANI_CHR_leanna ECHANI_CHR_arya
+			}
+			regnal_second_names = {
+				ECHANI_CHR_amedda ECHANI_CHR_amidala ECHANI_CHR_andrell ECHANI_CHR_annon ECHANI_CHR_antilles ECHANI_CHR_atanna ECHANI_CHR_baab ECHANI_CHR_barc ECHANI_CHR_bonteri ECHANI_CHR_breemu ECHANI_CHR_bremack ECHANI_CHR_bronk ECHANI_CHR_burtoni ECHANI_CHR_cadaman ECHANI_CHR_callen ECHANI_CHR_clovis ECHANI_CHR_ledwellow ECHANI_CHR_dio ECHANI_CHR_panteer ECHANI_CHR_alde ECHANI_CHR_organa ECHANI_CHR_frayus ECHANI_CHR_cortess ECHANI_CHR_killesa
+			}
+		}
+	}
+}

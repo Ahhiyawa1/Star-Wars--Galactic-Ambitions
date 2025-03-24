@@ -1,0 +1,1574 @@
+##### Behaviours:
+# conqueror -> Will they conquer planets from other empires?
+# subjugator -> Will they vassalise other empires?
+# liberator -> Will they liberate conquered empires?
+# opportunist -> Are they more likely to attack someone already embroiled in war?
+# uplifter -> Will they uplift and enlighten other species?
+# infiltrator -> Will they infiltrate primitives?
+# dominator -> Will they invade primitives?
+# slaver -> Will they enslave pops?
+# purger -> Will they purge alien pops?
+# robot_exploiter -> Will they use robots for menial labor?
+# robot_liberator -> Will they give rights to robots?
+# propagator -> Will they only get aggressive once boxed in?
+# multispecies -> Will they give rights to aliens?
+# species_mod_priority = {}		define weights for how much the AI should try to modify a given species (root=country, this=species)
+# crisis_leader -> Will they fight the crisis and invite others to do so (Fallen Empires special behviour. Emperor/Custodian will behave the same way regardless of this flag.)
+# crisis_fighter -> Will they consider fighting the crisis? (If 'no' they will only care about themselves.)
+# sneak_attacker -> Will they use cloaked fleets to attack their enemies?
+
+##### Modifiers:
+# aggressiveness -> Affects chance of declaring wars, chance of sending insults, and how much % of fleet power is committed to offense (at 0, 50% is committed, at 1 it is more like 75%, at 2 it is 100%; higher values still count extra towards war dec and insult chance)
+# trade_willingness -> At 1.0 willingness they will accept a deal that is equally good for both sides
+# bravery -> Affects the chance that they will pick rivals & war targets of similar strength instead of picking on the weak
+# military_spending -> Affects mineral & energy budget that goes to navies and armies
+# colony_spending -> Affects mineral & energy budget that goes to new colonies
+# threat_modifier -> Affects how much threat is generated for this empire when others are conquered
+# threat_others_modifier -> Afffects how much threat is generated for other empires when this empire is conquered
+# friction_modifier -> Affects border friction
+# claims_modifier -> Affects opinion penalty from claims
+
+# Ships
+# armor_ratio -> Amount of armor they should aim for on ships
+# shields_ratio -> Amount of shields they should aim for on ships
+# hull_ratio -> Amount of hull boosters they should aim for on ships (if available)
+# ship_roles: List of "<ship_size> = <role>" statements; AI will use the corresponding role for that size
+# Example:
+# ship_roles = {
+#	destroyer = gunship
+# }
+
+##### Diplomacy:
+# federation_acceptance -> Added directly to chance of accepting to form/join a federation
+# nap_acceptance -> Added directly to chance of accepting to form a non-aggression pact
+# commercial_pact_acceptance -> Added directly to chance of accepting to form a commercial pact
+# research_agreement_acceptance -> Added directly to chance of accepting to form a research agreement
+# migration_pact_acceptance -> Added directly to chance of accepting to form a migration pact
+# defensive_pact_acceptance -> Added directly to chance of accepting to form a defensive pact
+# loyalty_acceptance -> As overlord, multiplied by subject loyalty change and added to acceptance of a deal; Low values mean we don't care if subjects are loyal or not, high means we like loyal subjects
+
+##### Diplomacy:
+# advanced_start_chance -> Likelyhood of this empire being an advanced start (higher = better chance of being one of empires selected for advanced start)
+
+# NOTE: Weight is additive!
+
+#Galactic Empire
+galactic_imperialists = {
+	aggressiveness = 2.0
+	trade_willingness = 0.7
+	bravery = 1.5
+	combat_bravery = 1.7
+
+	military_spending = 1.3
+	colony_spending = 1.0
+
+	federation_acceptance = -50
+	nap_acceptance = -100
+	commercial_pact_acceptance = -20
+	research_agreement_acceptance = -20
+	defensive_pact_acceptance = -20
+	migration_pact_acceptance = -20
+
+	advanced_start_chance = 50
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.5
+	shields_ratio = 0.4
+	hull_ratio = 0.1
+
+	threat_modifier = 1.5
+	threat_others_modifier = 0.66
+	friction_modifier = 2.0
+	claims_modifier = 2.0
+	
+	behaviour = {
+		conqueror = yes
+		subjugator = yes
+		liberator = no
+		opportunist = yes
+		slaver = no
+		uplifter = no
+		purger = no
+		displacer = no
+		infiltrator = no
+		dominator = yes
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = no
+		crisis_fighter = yes
+	}
+	
+	allow = {
+		has_country_flag = galactic_empire
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+#Eriadu + Ciutric
+imperial_loyalists = {
+	aggressiveness = 2.0
+	trade_willingness = 0.7
+	bravery = 1.5
+	combat_bravery = 1.7
+
+	military_spending = 1.2
+	colony_spending = 1.0
+
+	federation_acceptance = -10
+	nap_acceptance = -50
+	commercial_pact_acceptance = -20
+	research_agreement_acceptance = -20
+	defensive_pact_acceptance = -20
+	migration_pact_acceptance = -20
+
+	advanced_start_chance = 10
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.5
+	shields_ratio = 0.4
+	hull_ratio = 0.1
+
+	threat_modifier = 1.0
+	threat_others_modifier = 0.66
+	friction_modifier = 1.5
+	claims_modifier = 1.5
+	
+	behaviour = {
+		conqueror = yes
+		subjugator = yes
+		liberator = no
+		opportunist = yes
+		uplifter = no
+		infiltrator = no
+		dominator = yes
+		slaver = no
+		purger = no
+		displacer = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = no
+		crisis_fighter = yes
+	}
+
+	allow = {
+		OR = {
+			has_country_flag = eriadu_authority
+			has_country_flag = ciutric_hegemony
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000
+	}
+}
+
+#Senate + Mon Cala + Verpine + Bothan + Chalactan + Cathar
+republic_loyalists = {
+	aggressiveness = 0.75
+	trade_willingness = 0.95
+	bravery = 1.25
+	combat_bravery = 1.0
+
+	military_spending = 1.2
+	colony_spending = 1.0
+
+	federation_acceptance = 20
+	nap_acceptance = 25
+	commercial_pact_acceptance = 15
+	research_agreement_acceptance = 15
+	defensive_pact_acceptance = 25
+	migration_pact_acceptance = 10
+	
+	advanced_start_chance = 10
+	
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.3
+	shields_ratio = 0.6
+	hull_ratio = 0.1
+
+	threat_modifier = 1.0
+	threat_others_modifier = 1.0
+	friction_modifier = 0.25
+	claims_modifier = 0.75
+
+	behaviour = {
+		conqueror = no
+		subjugator = yes
+		liberator = yes
+		opportunist = yes
+		slaver = no
+		uplifter = yes
+		purger = no
+		displacer = no
+		dominator = no
+		infiltrator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = yes
+		crisis_fighter = yes
+	}
+
+	allow = {
+		OR = {
+			has_country_flag = senate_loyalists
+			has_country_flag = kingdom_of_alderaan
+			has_country_flag = mon_cala_monarchy
+			has_country_flag = verpine_enclave
+			has_country_flag = bothan_council
+			has_country_flag = chalactan_council
+			has_country_flag = cathar_principality
+			has_country_flag = ryloth_protectorate
+		}
+		NOT = { has_country_flag = rebel_alliance }
+	}
+	
+	weight_modifier = {
+		weight = 10000
+	}
+}
+
+#Rebel Alliance
+freedom_fighters = {
+	aggressiveness = 2.0
+	trade_willingness = 0.9
+	bravery = 1.5
+	combat_bravery = 1.25
+
+	military_spending = 1.2
+	colony_spending = 1.0
+
+	federation_acceptance = 20
+	nap_acceptance = 25
+	commercial_pact_acceptance = 15
+	research_agreement_acceptance = 15
+	defensive_pact_acceptance = 25
+	migration_pact_acceptance = 10
+
+	advanced_start_chance = 5
+	
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.3
+	shields_ratio = 0.6
+	hull_ratio = 0.1
+
+	threat_modifier = 1.2
+	friction_modifier = 0.65
+	claims_modifier = 0.75
+
+	behaviour = {
+		conqueror = yes
+		subjugator = no
+		liberator = yes
+		opportunist = no
+		slaver = no
+		uplifter = yes
+		purger = no
+		displacer = no
+		dominator = no
+		infiltrator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = yes
+		crisis_fighter = yes
+	}
+
+	allow = {
+		has_country_flag = rebel_alliance
+	}
+	
+	weight_modifier = {
+		weight = 10000
+	}
+}
+
+#Hutts
+hutt_clans = {
+	aggressiveness = 0.8
+	trade_willingness = 1.2
+	bravery = 0.8
+	combat_bravery = 1.25
+
+	military_spending = 1.2
+	colony_spending = 1.1
+
+	federation_acceptance = -100
+	nap_acceptance = -10
+	commercial_pact_acceptance = 20
+	research_agreement_acceptance = 10
+	defensive_pact_acceptance = 0
+	migration_pact_acceptance = 0
+
+	advanced_start_chance = 50
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.4
+	shields_ratio = 0.4
+	hull_ratio = 0.2
+
+	threat_modifier = 1.0
+	threat_others_modifier = 0.75
+	friction_modifier = 0.5
+	claims_modifier = 1.5
+
+	behaviour = {
+		conqueror = yes
+		subjugator = yes
+		liberator = no
+		opportunist = yes
+		slaver = yes
+		uplifter = no
+		purger = no
+		displacer = no
+		infiltrator = yes
+		dominator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = yes
+		crisis_fighter = no
+		wants_tribute = yes
+	}
+
+	allow = {
+		has_country_flag = hutt_cartel
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+#Mandalorians
+mandalorian_warriors = {
+	aggressiveness = 1.75
+	trade_willingness = 0.7
+	bravery = 2.0
+	combat_bravery = 2.0
+
+	military_spending = 1.2
+	colony_spending = 1.0
+
+	federation_acceptance = -100
+	nap_acceptance = -100
+	commercial_pact_acceptance = -50
+	research_agreement_acceptance = -50
+	defensive_pact_acceptance = -20
+	migration_pact_acceptance = -50
+
+	advanced_start_chance = 5
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.6
+	shields_ratio = 0.2
+	hull_ratio = 0.1
+
+	threat_modifier = 0.75
+	threat_others_modifier = 0.5
+	friction_modifier = 1.0
+	claims_modifier = 2.0
+	
+	behaviour = {
+		conqueror = yes
+		subjugator = no
+		liberator = no
+		opportunist = yes
+		uplifter = no
+		infiltrator = no
+		dominator = yes
+		slaver = no
+		purger = no
+		displacer = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = yes
+		multispecies = yes
+		crisis_fighter = yes
+	}
+	
+	allow = {
+		has_country_flag = mandalorian_clans
+		NOR = {
+			has_ethic = "ethic_pacifist"
+			has_ethic = "ethic_fanatic_pacifist"
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+# Gar Saxon Khanate/ Mando Sector
+mandalorian_khanate = {
+	aggressiveness = 2.25
+	trade_willingness = 0.7
+	bravery = 2.25
+	combat_bravery = 2.2
+
+	military_spending = 1.2
+	colony_spending = 0.8
+
+	federation_acceptance = -100
+	nap_acceptance = -100
+	commercial_pact_acceptance = -50
+	research_agreement_acceptance = -50
+	defensive_pact_acceptance = -50
+	migration_pact_acceptance = -50
+
+	advanced_start_chance = 5
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.6
+	shields_ratio = 0.2
+	hull_ratio = 0.1
+
+	threat_modifier = 0.75
+	threat_others_modifier = 0.1
+	friction_modifier = 1.5
+	claims_modifier = 2.0
+	
+	behaviour = {
+		conqueror = yes
+		subjugator = yes
+		liberator = no
+		opportunist = yes
+		uplifter = no
+		infiltrator = no
+		dominator = yes
+		slaver = yes
+		purger = no
+		displacer = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = yes
+		multispecies = yes
+		crisis_fighter = no
+	}
+	
+	allow = {
+		has_country_flag = saxon_khanate
+		NOR = {
+			has_ethic = "ethic_pacifist"
+			has_ethic = "ethic_fanatic_pacifist"
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+# Mandalorian Crusaders
+mandalorian_crusaders = {
+	aggressiveness = 4.0 # more than 2.0 only affects wars & insluts
+	trade_willingness = 0.4
+	bravery = 2.5
+	combat_bravery = 2.5
+	military_spending = 1.4
+	colony_spending = 0.8
+
+
+	federation_acceptance = -100
+	nap_acceptance = -100
+	commercial_pact_acceptance = -20
+	research_agreement_acceptance = -35
+	defensive_pact_acceptance = -100
+	migration_pact_acceptance = -25
+
+	advanced_start_chance = 0
+
+	weapon_preferences = weapon_type_kinetic
+	armor_ratio = 0.7
+	shields_ratio = 0.1
+	hull_ratio = 0.2
+
+	threat_modifier = 1.5
+	threat_others_modifier = 0.1
+	friction_modifier = 0
+	claims_modifier = 0
+
+	behaviour = {
+		conqueror = yes
+		subjugator = no
+		liberator = no
+		opportunist = yes
+		slaver = no
+		uplifter = no
+		purger = no
+		displacer = no
+		dominator = yes
+		infiltrator = no
+		robot_exploiter = no
+		robot_liberator = no
+		propagator = no
+		multispecies = yes
+		crisis_fighter = no
+	}
+
+	allow = {
+		has_country_flag = mandalorian_crusader
+	}
+
+	weight_modifier = {
+		weight = 10000
+	}
+	
+	ai_module_overrides = {
+		player_crisis_foreign_minister_module
+		player_crisis_military_minister_module
+	}
+}
+
+#Mandalorians - Pacifist Version
+mandalorian_pacifists = {
+	aggressiveness = 0.25
+	trade_willingness = 1.1
+	bravery = 0.5
+	combat_bravery = 1.0
+
+	military_spending = 1.0
+	colony_spending = 1.2
+
+	federation_acceptance = -100
+	nap_acceptance = -100
+	commercial_pact_acceptance = -50
+	research_agreement_acceptance = -50
+	defensive_pact_acceptance = -20
+	migration_pact_acceptance = -50
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.6
+	shields_ratio = 0.2
+	hull_ratio = 0.1
+
+	threat_modifier = 1.1
+	threat_others_modifier = 1.1
+	friction_modifier = 0
+	claims_modifier = 0.5
+
+	behaviour = {
+		conqueror = no
+		subjugator = no
+		liberator = no
+		opportunist = no
+		slaver = no
+		uplifter = no
+		purger = no
+		displacer = no
+		dominator = no
+		infiltrator = yes
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = yes
+		crisis_fighter = yes
+	}
+	
+	allow = {
+		has_country_flag = mandalorian_clans
+		OR = {
+			has_ethic = "ethic_pacifist"
+			has_ethic = "ethic_fanatic_pacifist"
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+#CSA
+greedy_corporatists = {
+	aggressiveness = 0.8
+	trade_willingness = 1.0
+	bravery = 0.8
+	combat_bravery = 1.25
+
+	military_spending = 1.2
+	colony_spending = 1.0
+
+	federation_acceptance = -10
+	nap_acceptance = -10
+	commercial_pact_acceptance = 20
+	research_agreement_acceptance = 10
+	defensive_pact_acceptance = -20
+	migration_pact_acceptance = -50
+
+	advanced_start_chance = 50
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.4
+	shields_ratio = 0.5
+	hull_ratio = 0.1
+
+	threat_modifier = 1.0
+	threat_others_modifier = 0.75
+	friction_modifier = 0.75
+	claims_modifier = 1.5
+
+	behaviour = {
+		conqueror = yes
+		subjugator = yes
+		liberator = no
+		opportunist = yes
+		slaver = no
+		uplifter = no
+		purger = no
+		displacer = no
+		infiltrator = yes
+		dominator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = yes
+		crisis_fighter = yes
+		wants_tribute = yes
+	}
+	
+	allow = {
+		has_country_flag = corporate_sector_authority
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+#CorSec + Taanab
+security_forces = {
+	aggressiveness = 0.85
+	trade_willingness = 1.0
+	bravery = 0.5
+	combat_bravery = 1.0
+
+	military_spending = 1.2
+	colony_spending = 0.9
+
+	federation_acceptance = -20
+	nap_acceptance = 0
+	commercial_pact_acceptance = 20
+	research_agreement_acceptance = 10
+	defensive_pact_acceptance = -10
+	migration_pact_acceptance = 20
+
+	advanced_start_chance = 20
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.4
+	shields_ratio = 0.5
+	hull_ratio = 0.1
+
+	threat_modifier = 1.25
+	threat_others_modifier = 1.0
+	friction_modifier = 0.5
+	claims_modifier = 1.0
+
+	behaviour = {
+		conqueror = no
+		subjugator = no
+		liberator = yes
+		opportunist = yes
+		slaver = no
+		uplifter = yes
+		purger = no
+		displacer = no
+		infiltrator = yes
+		dominator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = yes
+		crisis_fighter = yes
+		wants_tribute = yes
+	}
+	
+	allow = {
+		OR = {
+			has_country_flag = corellian_security
+			has_country_flag = taanab_authority
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+#Senex + Hapes + Chiss
+militant_isolationists = {
+	aggressiveness = 0.5
+	trade_willingness = 0.5
+	bravery = 0.75
+	combat_bravery = 1.0
+
+	military_spending = 1.2
+	colony_spending = 1.0
+
+	federation_acceptance = -25
+	nap_acceptance = 20
+	commercial_pact_acceptance = -20
+	research_agreement_acceptance = -20
+	defensive_pact_acceptance = -20
+	migration_pact_acceptance = -100
+
+	advanced_start_chance = 10
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.5
+	shields_ratio = 0.4
+	hull_ratio = 0.1
+
+	threat_modifier = 0.75
+	threat_others_modifier = 0.75
+	friction_modifier = 2.0
+	claims_modifier = 5.0
+
+	behaviour = {
+		conqueror = no
+		subjugator = no
+		liberator = no
+		opportunist = yes
+		slaver = no
+		uplifter = no
+		purger = no
+		displacer = no
+		dominator = no
+		infiltrator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = yes
+		isolationist = yes
+		crisis_fighter = no
+		wants_tribute = yes
+	}
+	
+	allow = {
+		is_country_type = default
+		OR = {
+			has_country_flag = senex_sector
+			has_country_flag = hapes_consortium
+			has_country_flag = chiss_ascendancy
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+#Remnant + Tion + CorpAlliance + Commerce + TradeFed + Banking
+separatists = {
+	aggressiveness = 1.4
+	trade_willingness = 1.0
+	bravery = 0.75
+	combat_bravery = 1.25
+
+	military_spending = 1.2
+	colony_spending = 1.0
+
+	federation_acceptance = 0
+	nap_acceptance = -10
+	commercial_pact_acceptance = 20
+	research_agreement_acceptance = 10
+	defensive_pact_acceptance = -20
+	migration_pact_acceptance = 0
+
+	advanced_start_chance = 5
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.3
+	shields_ratio = 0.5
+	hull_ratio = 0.2
+
+	threat_modifier = 1.0
+	threat_others_modifier = 0.75
+	friction_modifier = 0.5
+	claims_modifier = 1.5
+
+	behaviour = {
+		conqueror = yes
+		subjugator = yes
+		liberator = no
+		opportunist = yes
+		slaver = no
+		uplifter = no
+		purger = no
+		displacer = no
+		infiltrator = yes
+		dominator = yes
+		robot_exploiter = yes
+		robot_liberator = yes
+		propagator = no
+		multispecies = yes
+		crisis_fighter = yes
+		wants_tribute = yes
+	}
+	
+	allow = {
+		OR = {
+			has_country_flag = confederate_remnant
+			has_country_flag = banking_clan
+			has_country_flag = tion_hegemony
+			has_country_flag = trade_federation
+			has_country_flag = commerce_guild
+			has_country_flag = corporate_alliance
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000
+	}
+}
+
+#Centrality + Javin + Bakuran + Pantoran
+democratic_isolationists = {
+	aggressiveness = 0.75
+	trade_willingness = 0.9
+	bravery = 0.75
+	combat_bravery = 1.0
+
+	military_spending = 1.2
+	colony_spending = 1.0
+
+	federation_acceptance = -25
+	nap_acceptance = 10
+	commercial_pact_acceptance = 0
+	research_agreement_acceptance = 0
+	defensive_pact_acceptance = -10
+	migration_pact_acceptance = 0
+
+	advanced_start_chance = 5
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.4
+	shields_ratio = 0.5
+	hull_ratio = 0.1
+
+	threat_modifier = 0.75
+	threat_others_modifier = 1.25
+	friction_modifier = 2.0
+	claims_modifier = 5.0
+
+	behaviour = {
+		conqueror = no
+		subjugator = no
+		liberator = yes
+		opportunist = yes
+		slaver = no
+		uplifter = no
+		purger = no
+		displacer = no
+		dominator = no
+		infiltrator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = yes
+		isolationist = yes
+		crisis_fighter = yes
+		wants_tribute = yes
+	}
+	
+	allow = {
+		OR = {
+			has_country_flag = the_centrality
+			has_country_flag = greater_javin
+			has_country_flag = bakuran_senate
+			has_country_flag = pantoran_assembly
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000
+	}
+}
+
+#Juvex + Zygerrian + Trandoshan
+militant_slavers = {
+	aggressiveness = 1.5
+	trade_willingness = 0.8
+	bravery = 0.5
+	combat_bravery = 1.0
+
+	military_spending = 1.2
+	colony_spending = 0.9
+
+	federation_acceptance = 0
+	nap_acceptance = -20
+	commercial_pact_acceptance = 0
+	research_agreement_acceptance = -10
+	defensive_pact_acceptance = -20
+	migration_pact_acceptance = -100
+
+	advanced_start_chance = 5
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.5
+	shields_ratio = 0.4
+	hull_ratio = 0.1
+
+	threat_modifier = 1.0
+	threat_others_modifier = 0.5
+	friction_modifier = 1.0
+	claims_modifier = 2.0
+
+	behaviour = {
+		conqueror = yes
+		subjugator = yes
+		liberator = no
+		opportunist = yes
+		slaver = yes
+		uplifter = no
+		purger = no
+		displacer = no
+		dominator = yes
+		infiltrator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = no
+		crisis_fighter = yes
+	}
+	
+	allow = {
+		OR = {
+			has_country_flag = juvex_sector
+			has_country_flag = zygerrian_slave_state
+			has_country_flag = trandoshan_tribes
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000
+	}
+}
+
+#Echani
+echani_warriors = {
+	aggressiveness = 1.75
+	trade_willingness = 0.7
+	bravery = 1.5
+	combat_bravery = 2.0
+
+	military_spending = 1.2
+	colony_spending = 0.9
+
+	federation_acceptance = -10
+	nap_acceptance = -100
+	commercial_pact_acceptance = -20
+	research_agreement_acceptance = 0
+	defensive_pact_acceptance = 20
+	migration_pact_acceptance = 0
+
+	advanced_start_chance = 5
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.4
+	shields_ratio = 0.5
+	hull_ratio = 0.1
+
+	threat_modifier = 0.75
+	threat_others_modifier = 0.5
+	friction_modifier = 1.0
+	claims_modifier = 2.0
+
+	behaviour = {
+		conqueror = no
+		subjugator = yes
+		liberator = no
+		opportunist = no
+		slaver = no
+		uplifter = no
+		purger = no
+		displacer = no
+		infiltrator = no
+		dominator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = yes
+		multispecies = yes
+		crisis_fighter = yes
+	}
+	
+	allow = {
+		has_country_flag = echani_command
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+#Arkanian + Trianii + Rodian
+enigmatic_isolationists = {
+	aggressiveness = 0.5
+	trade_willingness = 0.5
+	bravery = 0.75
+	combat_bravery = 1.0
+
+	military_spending = 1.2
+	colony_spending = 1.0
+
+	federation_acceptance = -50
+	nap_acceptance = 20
+	commercial_pact_acceptance = -20
+	research_agreement_acceptance = -20
+	defensive_pact_acceptance = -20
+	migration_pact_acceptance = -100
+
+	advanced_start_chance = 20
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.3
+	shields_ratio = 0.6
+	hull_ratio = 0.1
+
+	threat_modifier = 0.75
+	threat_others_modifier = 0.75
+	friction_modifier = 2.0
+	claims_modifier = 5.0
+
+	behaviour = {
+		conqueror = no
+		subjugator = no
+		liberator = no
+		opportunist = yes
+		slaver = no
+		uplifter = no
+		purger = no
+		displacer = no
+		dominator = no
+		infiltrator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = yes
+		isolationist = yes
+		crisis_fighter = yes
+		wants_tribute = yes
+	}
+	
+	allow = {
+		OR = {
+			has_country_flag = arkanian_dominion
+			has_country_flag = trianii_territory
+			has_country_flag = rodian_clans
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+#Zabrak + Cerean
+spiritual_isolationists = {
+	aggressiveness = 0.25
+	trade_willingness = 0.9
+	bravery = 0.75
+	combat_bravery = 1.0
+
+	military_spending = 1.1
+	colony_spending = 1.0
+
+	federation_acceptance = -20
+	nap_acceptance = 20
+	commercial_pact_acceptance = 10
+	research_agreement_acceptance = 10
+	defensive_pact_acceptance = 10
+	migration_pact_acceptance = 20
+
+	advanced_start_chance = 5
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.4
+	shields_ratio = 0.5
+	hull_ratio = 0.1
+
+	threat_modifier = 1.1
+	threat_others_modifier = 1.0
+	friction_modifier = 0.25
+	claims_modifier = 1.0
+
+	behaviour = {
+		conqueror = no
+		subjugator = no
+		liberator = yes
+		opportunist = no
+		slaver = no
+		uplifter = yes
+		purger = no
+		displacer = no
+		infiltrator = no
+		dominator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = yes
+		crisis_fighter = yes
+	}
+	
+	allow = {
+		OR = {
+			has_country_flag = zabrak_council
+			has_country_flag = cerean_council
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+#Black Sun
+illicit_traders = {
+	aggressiveness = 1.5
+	trade_willingness = 1.0
+	bravery = 0.75
+	combat_bravery = 1.0
+
+	military_spending = 1.2
+	colony_spending = 1.0
+
+	federation_acceptance = 0
+	nap_acceptance = -10
+	commercial_pact_acceptance = 20
+	research_agreement_acceptance = 10
+	defensive_pact_acceptance = 0
+	migration_pact_acceptance = 0
+
+	advanced_start_chance = 5
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.6
+	shields_ratio = 0.3
+	hull_ratio = 0.1
+
+	threat_modifier = 1.0
+	threat_others_modifier = 0.75
+	friction_modifier = 0.5
+	claims_modifier = 1.5
+
+	behaviour = {
+		conqueror = yes
+		subjugator = yes
+		liberator = no
+		opportunist = yes
+		slaver = yes
+		uplifter = no
+		purger = no
+		displacer = no
+		infiltrator = yes
+		dominator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = yes
+		crisis_fighter = yes
+		wants_tribute = yes
+	}
+	
+	allow = {
+		has_country_flag = black_sun_organization
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+#Zeltros + Onderon
+monarchists = {
+	aggressiveness = 1.5
+	trade_willingness = 0.75
+	bravery = 1.0
+	combat_bravery = 1.0
+
+	military_spending = 1.2
+	colony_spending = 1.0
+
+	federation_acceptance = 0
+	nap_acceptance = -20
+	commercial_pact_acceptance = 0
+	research_agreement_acceptance = 0
+	defensive_pact_acceptance = -30
+	migration_pact_acceptance = 0
+
+	advanced_start_chance = 5
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.3
+	shields_ratio = 0.6
+	hull_ratio = 0.1
+
+	threat_modifier = 1.0
+	threat_others_modifier = 0.66
+	friction_modifier = 1.2
+	claims_modifier = 1.5
+
+	behaviour = {
+		conqueror = yes
+		subjugator = yes
+		liberator = no
+		opportunist = yes
+		slaver = no
+		uplifter = no
+		purger = no
+		displacer = no
+		infiltrator = no
+		dominator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = yes
+		multispecies = yes
+		crisis_fighter = yes
+	}
+	
+	allow = {
+		OR = {
+			has_country_flag = kingdom_of_zeltros
+			has_country_flag = kingdom_of_onderon
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+#Utapau
+inward_idealists = {
+	aggressiveness = 0.5
+	trade_willingness = 0.5
+	bravery = 0.75
+	combat_bravery = 1.0
+
+	military_spending = 1.2
+	colony_spending = 1.0
+
+	federation_acceptance = -100
+	nap_acceptance = 20
+	commercial_pact_acceptance = -20
+	research_agreement_acceptance = -20
+	defensive_pact_acceptance = -20
+	migration_pact_acceptance = -100
+
+	advanced_start_chance = 10
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.4
+	shields_ratio = 0.5
+	hull_ratio = 0.1
+
+	threat_modifier = 0.75
+	threat_others_modifier = 1.25
+	friction_modifier = 2.0
+	claims_modifier = 5.0
+
+	behaviour = {
+		conqueror = no
+		subjugator = no
+		liberator = no
+		opportunist = yes
+		slaver = no
+		uplifter = no
+		purger = no
+		displacer = yes
+		dominator = no
+		infiltrator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = yes
+		multispecies = no
+		isolationist = yes
+		crisis_fighter = yes
+		wants_tribute = yes
+	}
+	
+	allow = {
+		has_country_flag = utapauan_committee
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+#Killik
+hivemind_isolationists = {
+	aggressiveness = 1.5
+	trade_willingness = 0.5
+	bravery = 0.8
+	combat_bravery = 1.0
+
+	military_spending = 1.0
+	colony_spending = 1.2
+
+	federation_acceptance = 0
+	nap_acceptance = -10
+	commercial_pact_acceptance = 0
+	research_agreement_acceptance = 0
+	defensive_pact_acceptance = -10
+	migration_pact_acceptance = -100
+
+	advanced_start_chance = 100
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.5
+	shields_ratio = 0.3
+	hull_ratio = 0.2
+
+	threat_modifier = 0.75
+	threat_others_modifier = 0.5
+	friction_modifier = 1.25
+	claims_modifier = 2.0
+
+	behaviour = {
+		conqueror = yes
+		subjugator = no
+		liberator = no 
+		opportunist = yes
+		slaver = no
+		uplifter = no
+		purger = no
+		displacer = no
+		dominator = yes
+		infiltrator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = yes
+		multispecies = no
+		crisis_fighter = yes
+	}
+	
+	allow = {
+		is_country_type = default
+		has_country_flag = killik_colony
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+fallen_empire_militant_isolationists = {
+	aggressiveness = 2.0
+	trade_willingness = 0.0
+	bravery = 2.0
+	combat_bravery = 1.25
+	
+	threat_modifier = 0.0
+	threat_others_modifier = 0.15
+	friction_modifier = 0.0
+	claims_modifier = 10.0
+
+	behaviour = {
+		conqueror = no
+		subjugator = no
+		liberator = no
+		opportunist = no
+		slaver = yes
+		uplifter = no
+		purger = no
+		dominator = no
+		infiltrator = no
+		robot_exploiter = no
+		robot_liberator = no
+		propagator = no
+		isolationist = yes
+	}
+
+	allow = {
+		is_country_type = fallen_empire
+		OR = {
+			has_country_flag = hapes_consortium
+			has_country_flag = chiss_ascendancy
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+fallen_empire_hivemind_isolationists = {
+	aggressiveness = 2.0
+	trade_willingness = 0.0
+	bravery = 2.0
+	combat_bravery = 1.25
+	
+	threat_modifier = 0.0
+	threat_others_modifier = 0.15
+	friction_modifier = 0.0
+	claims_modifier = 10.0
+
+	behaviour = {
+		conqueror = no
+		subjugator = no
+		liberator = no
+		opportunist = no
+		slaver = yes
+		uplifter = no
+		purger = no
+		dominator = no
+		infiltrator = no
+		robot_exploiter = no
+		robot_liberator = no
+		propagator = no
+		demands_clear_borders = yes
+		isolationist = yes
+	}
+
+	allow = {
+		is_country_type = fallen_empire
+		has_country_flag = killik_colony
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+awakened_militant_isolationists = {
+	aggressiveness = 2.0
+	trade_willingness = 0.0
+	bravery = 2.0
+	combat_bravery = 1.25
+	
+	threat_modifier = 0.0
+	threat_others_modifier = 0.0
+	friction_modifier = 0.0
+
+	behaviour = {
+		conqueror = yes
+		subjugator = no
+		liberator = no
+		opportunist = no
+		slaver = yes
+		uplifter = no
+		purger = no
+		dominator = yes
+		infiltrator = no
+		robot_exploiter = no
+		robot_liberator = no
+		propagator = no
+		multispecies = no
+		isolationist = yes
+	}
+
+	allow = {
+		is_country_type = awakened_fallen_empire
+		OR = {
+			has_country_flag = hapes_consortium
+			has_country_flag = chiss_ascendancy
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+awakened_hivemind_isolationists = {
+	aggressiveness = 2.0
+	trade_willingness = 0.0
+	bravery = 2.0
+	combat_bravery = 1.25
+	
+	threat_modifier = 0.0
+	threat_others_modifier = 0.0
+	friction_modifier = 0.0
+
+	behaviour = {
+		conqueror = yes
+		subjugator = no
+		liberator = no
+		opportunist = no
+		slaver = yes
+		uplifter = no
+		purger = no
+		dominator = yes
+		infiltrator = no
+		robot_exploiter = no
+		robot_liberator = no
+		propagator = no
+		multispecies = no
+		isolationist = yes
+	}
+
+	allow = {
+		is_country_type = awakened_fallen_empire
+		has_country_flag = killik_colony
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}
+}
+
+
+#Senate + Mon Cala + Verpine + Bothan + Chalactan + Cathar
+galactic_republic = {
+	aggressiveness = 0.75
+	trade_willingness = 0.95
+	bravery = 1.25
+	combat_bravery = 1.0
+
+	military_spending = 1.2
+	colony_spending = 1.0
+
+	federation_acceptance = 20
+	nap_acceptance = 25
+	commercial_pact_acceptance = 15
+	research_agreement_acceptance = 15
+	defensive_pact_acceptance = 25
+	migration_pact_acceptance = 10
+	
+	advanced_start_chance = 10
+	
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.3
+	shields_ratio = 0.6
+	hull_ratio = 0.1
+
+	threat_modifier = 1.0
+	threat_others_modifier = 1.0
+	friction_modifier = 0.25
+	claims_modifier = 0.75
+
+	behaviour = {
+		conqueror = yes
+		subjugator = no
+		liberator = yes
+		opportunist = yes
+		slaver = no
+		uplifter = yes
+		purger = no
+		displacer = no
+		dominator = no
+		infiltrator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = yes
+		crisis_fighter = yes
+	}
+
+	allow = {
+		OR = {
+			has_country_flag = galactic_republic
+		}
+	}
+	
+	weight_modifier = {
+		weight = 10000
+	}
+}

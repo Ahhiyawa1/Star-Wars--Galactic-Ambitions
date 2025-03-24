@@ -1,0 +1,81 @@
+#civic_example = {
+#	playable = {}								# AND trigger, no scope; use this to prevent the civic from being selectable by the player (UI)
+#	potential = {}								# requirements list, see ../readme_requirements.txt
+#	possible = {}								# requirements list, see ../readme_requirements.txt
+#	pickable_at_start = yes / no				# default: yes
+#	modification = yes / no						# default: yes, set to no to prevent adding or removing this after creation of the empire
+#
+#	random_weight = { base = 1 }				# scriptable weight for randomizing a civic; required, else the civic will not get assigned randomly
+#
+#	modifier = {}								# modifier added to the country if the civic is selected and valid
+#	can_build_ruler_military_station = yes / no	# default: no
+#	can_build_ruler_ship = yes / no				# default: no
+#
+
+### Star Wars: Timeline Extension and Content ### 
+
+############ CIVICS ############
+
+
+civic_high_republic_twilight = {
+	# unique galactic republic civic
+	modification = no
+	possible = { }
+	pickable_at_start = no
+	random_weight = { base = 0 }
+	modifier = {
+		planet_stability_add = 2
+		diplo_weight_mult = 0.15
+		empire_size_penalty_mult = -0.10
+		country_unity_produces_mult = -0.2
+		envoys_add = 5
+	}
+}
+
+civic_ruusaan_accords = {
+	# unique galactic republic civic
+	modification = no
+	possible = { }
+	pickable_at_start = no
+	random_weight = { base = 0 }
+	modifier = {
+		planet_stability_add = 10
+		pop_growth_from_immigration = 0.5
+		pop_citizen_happiness = 0.09
+		command_limit_add = -2
+		trade_value_mult = 0.02
+		country_unity_produces_mult = 0.1
+	}
+}
+
+civic_peacekeepers_in_jedi_and_judicial_forces = {
+	# unique galactic republic civic
+	modification = no
+	possible = { }
+	pickable_at_start = no
+	random_weight = { base = 0 }
+	modifier = {
+		diplo_weight_economy_mult = 0.20
+		country_leader_cap_add = 12
+		pop_growth_from_immigration = 0.2
+		country_naval_cap_mult = 0.7
+		command_limit_add = -2
+		country_resource_max_minerals_add = 10000
+		country_energy_produces_mult = 0.3
+	}
+}
+
+civic_the_galactic_senate = {
+	# unique imperative galactic republic civic
+	modification = no
+	possible = { }
+	pickable_at_start = no
+	random_weight = { base = 0 }
+	modifier = {
+		diplo_weight_economy_mult = 0.50
+		country_leader_cap_add = 50
+		country_edict_fund_add = 20
+		leaders_upkeep_mult = -25
+		diplo_weight_mult = 0.25
+	}
+}

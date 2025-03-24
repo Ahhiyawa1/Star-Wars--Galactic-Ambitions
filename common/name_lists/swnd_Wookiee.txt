@@ -1,0 +1,835 @@
+﻿Wookiee = {
+	randomized = no
+	ship_names = {
+		generic = {
+			WOOKIEE_SHIP_rwookrrorro WOOKIEE_SHIP_chenachochan WOOKIEE_SHIP_grunnrurr WOOKIEE_SHIP_hoorrkhukk WOOKIEE_SHIP_kachirho WOOKIEE_SHIP_kahiyuk WOOKIEE_SHIP_kerritamba WOOKIEE_SHIP_maarwraawroo WOOKIEE_SHIP_northaykk WOOKIEE_SHIP_okikuti WOOKIEE_SHIP_orriorr WOOKIEE_SHIP_palsaang WOOKIEE_SHIP_rarrhkrrorrho WOOKIEE_SHIP_rowrakruk WOOKIEE_SHIP_truvvhhurr WOOKIEE_SHIP_tunnatuitkan WOOKIEE_SHIP_warralokk WOOKIEE_SHIP_wawaat WOOKIEE_SHIP_awrathakka WOOKIEE_SHIP_ittummi WOOKIEE_SHIP_kamarkiia WOOKIEE_SHIP_karryntora WOOKIEE_SHIP_kepitenochan WOOKIEE_SHIP_kroohhuhwoor WOOKIEE_SHIP_waarwraawroo WOOKIEE_SHIP_mattichek WOOKIEE_SHIP_northaykk WOOKIEE_SHIP_okikuti WOOKIEE_SHIP_thikkiiana WOOKIEE_SHIP_webweaver WOOKIEE_SHIP_etyyr WOOKIEE_SHIP_ryratt WOOKIEE_SHIP_merumeru WOOKIEE_SHIP_tarfful WOOKIEE_SHIP_zaalbar WOOKIEE_SHIP_attichitcuk WOOKIEE_SHIP_freyyr WOOKIEE_SHIP_attabura WOOKIEE_SHIP_bacca WOOKIEE_SHIP_rothrrrawr WOOKIEE_SHIP_yarua WOOKIEE_SHIP_kerrithrarr WOOKIEE_SHIP_hrrtayyk WOOKIEE_SHIP_rrakktoor WOOKIEE_SHIP_wartaki WOOKIEE_SHIP_tyvokka WOOKIEE_SHIP_rikummee WOOKIEE_SHIP_grakchawwaa WOOKIEE_SHIP_kkowir WOOKIEE_SHIP_myyydri WOOKIEE_SHIP_anakkona WOOKIEE_SHIP_charkarr WOOKIEE_SHIP_factryn WOOKIEE_SHIP_gorryl WOOKIEE_SHIP_jyykle WOOKIEE_SHIP_katarn WOOKIEE_SHIP_kinrath WOOKIEE_SHIP_kkorrwrot WOOKIEE_SHIP_kkryytch WOOKIEE_SHIP_kououra WOOKIEE_SHIP_mykal WOOKIEE_SHIP_ro_roo WOOKIEE_SHIP_sureggi WOOKIEE_SHIP_tach WOOKIEE_SHIP_tharriarr WOOKIEE_SHIP_uller WOOKIEE_SHIP_urnsor_is WOOKIEE_SHIP_wyyyschokk WOOKIEE_SHIP_yuugrr WOOKIEE_SHIP_yoda_gwyaaaag WOOKIEE_SHIP_ryuraygu WOOKIEE_SHIP_hnn_rowr WOOKIEE_SHIP_uwaga WOOKIEE_SHIP_guwah WOOKIEE_SHIP_rrrooaarrgghh WOOKIEE_SHIP_awa WOOKIEE_SHIP_muaarga WOOKIEE_SHIP_arriurra WOOKIEE_SHIP_arriykam WOOKIEE_SHIP_busurra WOOKIEE_SHIP_busykam WOOKIEE_SHIP_ciiirurra WOOKIEE_SHIP_ciiiykam WOOKIEE_SHIP_chalurra WOOKIEE_SHIP_chalykam WOOKIEE_SHIP_chewurra WOOKIEE_SHIP_chewykam WOOKIEE_SHIP_dryurra WOOKIEE_SHIP_dryykam WOOKIEE_SHIP_frourra WOOKIEE_SHIP_froykam WOOKIEE_SHIP_gaarurra WOOKIEE_SHIP_gaarykam WOOKIEE_SHIP_geyyurra WOOKIEE_SHIP_geyyykam WOOKIEE_SHIP_graura WOOKIEE_SHIP_grayka WOOKIEE_SHIP_busaddik WOOKIEE_SHIP_busanta WOOKIEE_SHIP_drychit WOOKIEE_SHIP_dryaddik WOOKIEE_SHIP_jowaddik WOOKIEE_SHIP_jowahab WOOKIEE_SHIP_jowanta WOOKIEE_SHIP_jowchit WOOKIEE_SHIP_jowevge WOOKIEE_SHIP_jowbecca WOOKIEE_SHIP_jowtatha WOOKIEE_SHIP_jowwarr WOOKIEE_SHIP_arriaddik WOOKIEE_SHIP_arriahab WOOKIEE_SHIP_arrianta WOOKIEE_SHIP_arribecca WOOKIEE_SHIP_arrichit WOOKIEE_SHIP_arrievge WOOKIEE_SHIP_arritatha WOOKIEE_SHIP_arriwarr WOOKIEE_SHIP_attiaddik WOOKIEE_SHIP_attiahab WOOKIEE_SHIP_attianta WOOKIEE_SHIP_attibecca WOOKIEE_SHIP_attichit WOOKIEE_SHIP_attievge WOOKIEE_SHIP_attitatha WOOKIEE_SHIP_attiwarr WOOKIEE_SHIP_busaddik WOOKIEE_SHIP_busahab WOOKIEE_SHIP_busanta WOOKIEE_SHIP_busbecca WOOKIEE_SHIP_buschit WOOKIEE_SHIP_busevge WOOKIEE_SHIP_bustatha WOOKIEE_SHIP_buswarr WOOKIEE_SHIP_ciiiraddik WOOKIEE_SHIP_ciiirahab WOOKIEE_SHIP_ciiiranta WOOKIEE_SHIP_ciiirbecca WOOKIEE_SHIP_ciiirchit WOOKIEE_SHIP_ciiirevge WOOKIEE_SHIP_ciiirtatha WOOKIEE_SHIP_ciiirwarr WOOKIEE_SHIP_chaladdik WOOKIEE_SHIP_chalahab WOOKIEE_SHIP_chalanta WOOKIEE_SHIP_chalbecca WOOKIEE_SHIP_chalchit WOOKIEE_SHIP_chalevge WOOKIEE_SHIP_chaltatha WOOKIEE_SHIP_chalwarr WOOKIEE_SHIP_geyyaddik WOOKIEE_SHIP_geyyahab WOOKIEE_SHIP_geyyanta WOOKIEE_SHIP_geyybecca WOOKIEE_SHIP_geyychit WOOKIEE_SHIP_geyyevge WOOKIEE_SHIP_geyytatha WOOKIEE_SHIP_geyywarr WOOKIEE_SHIP_grozaddik WOOKIEE_SHIP_grozahab WOOKIEE_SHIP_grozanta WOOKIEE_SHIP_grozbecca WOOKIEE_SHIP_grozchit WOOKIEE_SHIP_grozevge WOOKIEE_SHIP_groztatha WOOKIEE_SHIP_grozwarr WOOKIEE_SHIP_kallaaddik WOOKIEE_SHIP_kallaahab WOOKIEE_SHIP_kallaanta WOOKIEE_SHIP_kallabecca WOOKIEE_SHIP_kallachit WOOKIEE_SHIP_kallaevge WOOKIEE_SHIP_kallatatha WOOKIEE_SHIP_kallawarr WOOKIEE_SHIP_kitaddik WOOKIEE_SHIP_kitahab WOOKIEE_SHIP_kitanta WOOKIEE_SHIP_kitbecca WOOKIEE_SHIP_kitchit WOOKIEE_SHIP_kitevge WOOKIEE_SHIP_kittatha WOOKIEE_SHIP_kitwarr WOOKIEE_SHIP_liakaddik WOOKIEE_SHIP_liakahab WOOKIEE_SHIP_liakanta WOOKIEE_SHIP_liakbecca WOOKIEE_SHIP_liakchit WOOKIEE_SHIP_liakevge WOOKIEE_SHIP_liaktatha WOOKIEE_SHIP_liakwarr WOOKIEE_SHIP_lofaddik WOOKIEE_SHIP_lofahab WOOKIEE_SHIP_lofanta WOOKIEE_SHIP_lofbecca WOOKIEE_SHIP_lofchit WOOKIEE_SHIP_lofevge WOOKIEE_SHIP_loftatha WOOKIEE_SHIP_lofwarr WOOKIEE_SHIP_nagaddik WOOKIEE_SHIP_nagahab WOOKIEE_SHIP_naganta WOOKIEE_SHIP_nagbecca WOOKIEE_SHIP_nagchit WOOKIEE_SHIP_nagevge WOOKIEE_SHIP_nagtatha WOOKIEE_SHIP_nagwarr WOOKIEE_SHIP_shoraddik WOOKIEE_SHIP_shorahab WOOKIEE_SHIP_shoranta WOOKIEE_SHIP_shorbecca WOOKIEE_SHIP_shorchit WOOKIEE_SHIP_shorevge WOOKIEE_SHIP_shortatha WOOKIEE_SHIP_shorwarr WOOKIEE_SHIP_snoaddik WOOKIEE_SHIP_snoahab WOOKIEE_SHIP_snoanta WOOKIEE_SHIP_snobecca WOOKIEE_SHIP_snochit WOOKIEE_SHIP_snoevge WOOKIEE_SHIP_snotatha WOOKIEE_SHIP_snowarr WOOKIEE_SHIP_wrrladdik WOOKIEE_SHIP_wrrlahab WOOKIEE_SHIP_wrrlanta WOOKIEE_SHIP_wrrlbecca WOOKIEE_SHIP_wrrlchit WOOKIEE_SHIP_wrrlevge WOOKIEE_SHIP_wrrltatha WOOKIEE_SHIP_wrrlwarr WOOKIEE_SHIP_okikbarr WOOKIEE_SHIP_kerritamba WOOKIEE_SHIP_myyydril WOOKIEE_SHIP_chevappa WOOKIEE_SHIP_chyakk WOOKIEE_SHIP_gkrur WOOKIEE_SHIP_grrobahrr WOOKIEE_SHIP_kaapauku WOOKIEE_SHIP_nysshyyyk WOOKIEE_SHIP_puurrgerr WOOKIEE_SHIP_tojj WOOKIEE_SHIP_ruhr WOOKIEE_SHIP_salporin WOOKIEE_SHIP_graaa_shad WOOKIEE_SHIP_tarfful WOOKIEE_SHIP_tarkazza WOOKIEE_SHIP_tyvokka WOOKIEE_SHIP_vorlocca WOOKIEE_SHIP_yarua WOOKIEE_SHIP_zaalbar WOOKIEE_SHIP_oevvaor WOOKIEE_SHIP_shyyyo WOOKIEE_SHIP_anakkona WOOKIEE_SHIP_slyyyg WOOKIEE_SHIP_kkryytch WOOKIEE_SHIP_kououra WOOKIEE_SHIP_trakkrrrn WOOKIEE_SHIP_rroshm WOOKIEE_SHIP_rkkrrkkrl WOOKIEE_SHIP_oryyka WOOKIEE_SHIP_mykal
+		}
+		swp_bellator = {
+			WOOKIEE_SHIP_tarfful WOOKIEE_SHIP_zaalbar WOOKIEE_SHIP_attichitcuk WOOKIEE_SHIP_freyyr WOOKIEE_SHIP_attabura WOOKIEE_SHIP_bacca WOOKIEE_SHIP_rothrrrawr WOOKIEE_SHIP_graaa_shad WOOKIEE_SHIP_neocomora WOOKIEE_SHIP_tyvokka WOOKIEE_SHIP_yarua WOOKIEE_SHIP_shyyyo
+		}
+		science = {
+			WOOKIEE_SHIP_ah_wu_aaa WOOKIEE_SHIP_ciiirkabukk WOOKIEE_SHIP_chalkabukk WOOKIEE_SHIP_kerrikabukk WOOKIEE_SHIP_lofkabukk WOOKIEE_SHIP_salkabukk WOOKIEE_SHIP_snokabukk WOOKIEE_SHIP_ciiirnik WOOKIEE_SHIP_chalnik WOOKIEE_SHIP_kerrinik WOOKIEE_SHIP_lofnik WOOKIEE_SHIP_salnik WOOKIEE_SHIP_snonik WOOKIEE_SHIP_ciiirova WOOKIEE_SHIP_chalova WOOKIEE_SHIP_kerriova WOOKIEE_SHIP_lofova WOOKIEE_SHIP_salova WOOKIEE_SHIP_snoova WOOKIEE_SHIP_ciiirporin WOOKIEE_SHIP_chalporin WOOKIEE_SHIP_kerriporin WOOKIEE_SHIP_lofporin WOOKIEE_SHIP_salporin WOOKIEE_SHIP_snoporin
+		}
+		colonizer = {
+			WOOKIEE_SHIP_haaag WOOKIEE_SHIP_awa WOOKIEE_SHIP_attibev WOOKIEE_SHIP_busbev WOOKIEE_SHIP_gaarbev WOOKIEE_SHIP_mallabev WOOKIEE_SHIP_ralrbev WOOKIEE_SHIP_attibow WOOKIEE_SHIP_busbow WOOKIEE_SHIP_gaarbow WOOKIEE_SHIP_mallabow WOOKIEE_SHIP_ralrbow WOOKIEE_SHIP_busraoao WOOKIEE_SHIP_gaarraoao WOOKIEE_SHIP_mallaraoao WOOKIEE_SHIP_ralrraoao
+		}
+		sponsored_colonizer = {
+			WOOKIEE_SHIP_haaag WOOKIEE_SHIP_awa WOOKIEE_SHIP_attibev WOOKIEE_SHIP_busbev WOOKIEE_SHIP_gaarbev WOOKIEE_SHIP_mallabev WOOKIEE_SHIP_ralrbev WOOKIEE_SHIP_attibow WOOKIEE_SHIP_busbow WOOKIEE_SHIP_gaarbow WOOKIEE_SHIP_mallabow WOOKIEE_SHIP_ralrbow WOOKIEE_SHIP_busraoao WOOKIEE_SHIP_gaarraoao WOOKIEE_SHIP_mallaraoao WOOKIEE_SHIP_ralrraoao
+		}
+		constructor = {
+			WOOKIEE_SHIP_arriahab WOOKIEE_SHIP_geyyahab WOOKIEE_SHIP_graahab WOOKIEE_SHIP_lowahab WOOKIEE_SHIP_arrian WOOKIEE_SHIP_geyyan WOOKIEE_SHIP_graan WOOKIEE_SHIP_lowan WOOKIEE_SHIP_arribow WOOKIEE_SHIP_geyybow WOOKIEE_SHIP_grabow WOOKIEE_SHIP_lowbow WOOKIEE_SHIP_arrimum WOOKIEE_SHIP_geyymum WOOKIEE_SHIP_gramum WOOKIEE_SHIP_lowmum WOOKIEE_SHIP_gramum WOOKIEE_SHIP_gramum WOOKIEE_SHIP_gramum
+		}
+		transport = {
+			WOOKIEE_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			WOOKIEE_SHIP_spacegun_victory WOOKIEE_SHIP_spacegun_success WOOKIEE_SHIP_spacegun_supremacy WOOKIEE_SHIP_spacegun_superior WOOKIEE_SHIP_spacegun_adventure WOOKIEE_SHIP_spacegun_ascendancy WOOKIEE_SHIP_spacegun_paramount WOOKIEE_SHIP_spacegun_preponderous WOOKIEE_SHIP_spacegun_exemplary WOOKIEE_SHIP_spacegun_eximious WOOKIEE_SHIP_spacegun_pertinacity WOOKIEE_SHIP_spacegun_acclaim WOOKIEE_SHIP_spacegun_honor WOOKIEE_SHIP_spacegun_renown WOOKIEE_SHIP_spacegun_glory WOOKIEE_SHIP_spacegun_superb WOOKIEE_SHIP_spacegun_magnificence WOOKIEE_SHIP_spacegun_majestic WOOKIEE_SHIP_spacegun_splendor WOOKIEE_SHIP_spacegun_paradigm WOOKIEE_SHIP_spacegun_flawless WOOKIEE_SHIP_spacegun_consummate WOOKIEE_SHIP_spacegun_merit WOOKIEE_SHIP_spacegun_perfection WOOKIEE_SHIP_spacegun_virtue WOOKIEE_SHIP_spacegun_advantage WOOKIEE_SHIP_spacegun_rectitude WOOKIEE_SHIP_spacegun_incorruptible WOOKIEE_SHIP_spacegun_integrity WOOKIEE_SHIP_spacegun_justice WOOKIEE_SHIP_spacegun_probity WOOKIEE_SHIP_spacegun_prudence WOOKIEE_SHIP_spacegun_purity WOOKIEE_SHIP_spacegun_resolute WOOKIEE_SHIP_spacegun_dignity WOOKIEE_SHIP_spacegun_distinction WOOKIEE_SHIP_spacegun_excellence WOOKIEE_SHIP_spacegun_faithful WOOKIEE_SHIP_spacegun_discipline WOOKIEE_SHIP_spacegun_steadfast WOOKIEE_SHIP_spacegun_recompense WOOKIEE_SHIP_spacegun_requiem WOOKIEE_SHIP_spacegun_courage WOOKIEE_SHIP_spacegun_valor WOOKIEE_SHIP_spacegun_gallant WOOKIEE_SHIP_spacegun_daring WOOKIEE_SHIP_spacegun_constancy WOOKIEE_SHIP_spacegun_perseverence WOOKIEE_SHIP_spacegun_tenacity WOOKIEE_SHIP_spacegun_sedulity WOOKIEE_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			WOOKIEE_SHIP_spacegun_victory WOOKIEE_SHIP_spacegun_success WOOKIEE_SHIP_spacegun_supremacy WOOKIEE_SHIP_spacegun_superior WOOKIEE_SHIP_spacegun_adventure WOOKIEE_SHIP_spacegun_ascendancy WOOKIEE_SHIP_spacegun_paramount WOOKIEE_SHIP_spacegun_preponderous WOOKIEE_SHIP_spacegun_exemplary WOOKIEE_SHIP_spacegun_eximious WOOKIEE_SHIP_spacegun_pertinacity WOOKIEE_SHIP_spacegun_acclaim WOOKIEE_SHIP_spacegun_honor WOOKIEE_SHIP_spacegun_renown WOOKIEE_SHIP_spacegun_glory WOOKIEE_SHIP_spacegun_superb WOOKIEE_SHIP_spacegun_magnificence WOOKIEE_SHIP_spacegun_majestic WOOKIEE_SHIP_spacegun_splendor WOOKIEE_SHIP_spacegun_paradigm WOOKIEE_SHIP_spacegun_flawless WOOKIEE_SHIP_spacegun_consummate WOOKIEE_SHIP_spacegun_merit WOOKIEE_SHIP_spacegun_perfection WOOKIEE_SHIP_spacegun_virtue WOOKIEE_SHIP_spacegun_advantage WOOKIEE_SHIP_spacegun_rectitude WOOKIEE_SHIP_spacegun_incorruptible WOOKIEE_SHIP_spacegun_integrity WOOKIEE_SHIP_spacegun_justice WOOKIEE_SHIP_spacegun_probity WOOKIEE_SHIP_spacegun_prudence WOOKIEE_SHIP_spacegun_purity WOOKIEE_SHIP_spacegun_resolute WOOKIEE_SHIP_spacegun_dignity WOOKIEE_SHIP_spacegun_distinction WOOKIEE_SHIP_spacegun_excellence WOOKIEE_SHIP_spacegun_faithful WOOKIEE_SHIP_spacegun_discipline WOOKIEE_SHIP_spacegun_steadfast WOOKIEE_SHIP_spacegun_recompense WOOKIEE_SHIP_spacegun_requiem WOOKIEE_SHIP_spacegun_courage WOOKIEE_SHIP_spacegun_valor WOOKIEE_SHIP_spacegun_gallant WOOKIEE_SHIP_spacegun_daring WOOKIEE_SHIP_spacegun_constancy WOOKIEE_SHIP_spacegun_perseverence WOOKIEE_SHIP_spacegun_tenacity WOOKIEE_SHIP_spacegun_sedulity WOOKIEE_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			WOOKIEE_SHIP_spacegun_victory WOOKIEE_SHIP_spacegun_success WOOKIEE_SHIP_spacegun_supremacy WOOKIEE_SHIP_spacegun_superior WOOKIEE_SHIP_spacegun_adventure WOOKIEE_SHIP_spacegun_ascendancy WOOKIEE_SHIP_spacegun_paramount WOOKIEE_SHIP_spacegun_preponderous WOOKIEE_SHIP_spacegun_exemplary WOOKIEE_SHIP_spacegun_eximious WOOKIEE_SHIP_spacegun_pertinacity WOOKIEE_SHIP_spacegun_acclaim WOOKIEE_SHIP_spacegun_honor WOOKIEE_SHIP_spacegun_renown WOOKIEE_SHIP_spacegun_glory WOOKIEE_SHIP_spacegun_superb WOOKIEE_SHIP_spacegun_magnificence WOOKIEE_SHIP_spacegun_majestic WOOKIEE_SHIP_spacegun_splendor WOOKIEE_SHIP_spacegun_paradigm WOOKIEE_SHIP_spacegun_flawless WOOKIEE_SHIP_spacegun_consummate WOOKIEE_SHIP_spacegun_merit WOOKIEE_SHIP_spacegun_perfection WOOKIEE_SHIP_spacegun_virtue WOOKIEE_SHIP_spacegun_advantage WOOKIEE_SHIP_spacegun_rectitude WOOKIEE_SHIP_spacegun_incorruptible WOOKIEE_SHIP_spacegun_integrity WOOKIEE_SHIP_spacegun_justice WOOKIEE_SHIP_spacegun_probity WOOKIEE_SHIP_spacegun_prudence WOOKIEE_SHIP_spacegun_purity WOOKIEE_SHIP_spacegun_resolute WOOKIEE_SHIP_spacegun_dignity WOOKIEE_SHIP_spacegun_distinction WOOKIEE_SHIP_spacegun_excellence WOOKIEE_SHIP_spacegun_faithful WOOKIEE_SHIP_spacegun_discipline WOOKIEE_SHIP_spacegun_steadfast WOOKIEE_SHIP_spacegun_recompense WOOKIEE_SHIP_spacegun_requiem WOOKIEE_SHIP_spacegun_courage WOOKIEE_SHIP_spacegun_valor WOOKIEE_SHIP_spacegun_gallant WOOKIEE_SHIP_spacegun_daring WOOKIEE_SHIP_spacegun_constancy WOOKIEE_SHIP_spacegun_perseverence WOOKIEE_SHIP_spacegun_tenacity WOOKIEE_SHIP_spacegun_sedulity WOOKIEE_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			WOOKIEE_SHIP_citadel WOOKIEE_SHIP_albacore WOOKIEE_SHIP_gateway WOOKIEE_SHIP_vincent WOOKIEE_SHIP_babylon WOOKIEE_SHIP_caernavon WOOKIEE_SHIP_acre WOOKIEE_SHIP_pembroke WOOKIEE_SHIP_acheron WOOKIEE_SHIP_spithead WOOKIEE_SHIP_halifax WOOKIEE_SHIP_victoria WOOKIEE_SHIP_chatham WOOKIEE_SHIP_anchorage WOOKIEE_SHIP_scapa_flow WOOKIEE_SHIP_hampton_roads WOOKIEE_SHIP_brooklyn WOOKIEE_SHIP_norfolk WOOKIEE_SHIP_newport WOOKIEE_SHIP_guam WOOKIEE_SHIP_pensacola WOOKIEE_SHIP_vesuvius WOOKIEE_SHIP_mckinley WOOKIEE_SHIP_everest WOOKIEE_SHIP_kilimanjaro WOOKIEE_SHIP_aconcagua WOOKIEE_SHIP_elbrus WOOKIEE_SHIP_st__helens WOOKIEE_SHIP_fuji WOOKIEE_SHIP_olympus WOOKIEE_SHIP_sinai WOOKIEE_SHIP_ambrose WOOKIEE_SHIP_bermuda WOOKIEE_SHIP_farpoint WOOKIEE_SHIP_blue_star WOOKIEE_SHIP_olympus_mons WOOKIEE_SHIP_tharsis WOOKIEE_SHIP_syrtis WOOKIEE_SHIP_blackham WOOKIEE_SHIP_fletcher WOOKIEE_SHIP_perry WOOKIEE_SHIP_butakov WOOKIEE_SHIP_morris WOOKIEE_SHIP_moorsom WOOKIEE_SHIP_hart WOOKIEE_SHIP_hargood WOOKIEE_SHIP_spruance WOOKIEE_SHIP_tanaka WOOKIEE_SHIP_halsey WOOKIEE_SHIP_turner WOOKIEE_SHIP_doria WOOKIEE_SHIP_tirpitz WOOKIEE_SHIP_cunningham WOOKIEE_SHIP_jellicoe WOOKIEE_SHIP_hipper WOOKIEE_SHIP_beatty WOOKIEE_SHIP_potemkin WOOKIEE_SHIP_durham WOOKIEE_SHIP_codrington WOOKIEE_SHIP_milne WOOKIEE_SHIP_laforey WOOKIEE_SHIP_tyler WOOKIEE_SHIP_hawke WOOKIEE_SHIP_yonai WOOKIEE_SHIP_pound WOOKIEE_SHIP_king WOOKIEE_SHIP_crutchley WOOKIEE_SHIP_mountbatten WOOKIEE_SHIP_kountouriotis WOOKIEE_SHIP_kuznetsov WOOKIEE_SHIP_essen WOOKIEE_SHIP_kornilov WOOKIEE_SHIP_suffren WOOKIEE_SHIP_treville WOOKIEE_SHIP_villeneuve WOOKIEE_SHIP_grasse WOOKIEE_SHIP_byng WOOKIEE_SHIP_lezo
+		}
+		ion_cannon = {
+			WOOKIEE_SHIP_bombard WOOKIEE_SHIP_ballista WOOKIEE_SHIP_catapult WOOKIEE_SHIP_harpoon WOOKIEE_SHIP_polybolos WOOKIEE_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			WOOKIEE_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			WOOKIEE_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			WOOKIEE_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			WOOKIEE_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			WOOKIEE_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			WOOKIEE_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			WOOKIEE_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			WOOKIEE_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			WOOKIEE_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			WOOKIEE_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			WOOKIEE_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			WOOKIEE_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			WOOKIEE_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			WOOKIEE_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			WOOKIEE_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			WOOKIEE_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			WOOKIEE_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			WOOKIEE_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			WOOKIEE_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			WOOKIEE_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			WOOKIEE_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			WOOKIEE_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			WOOKIEE_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			WOOKIEE_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			WOOKIEE_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			WOOKIEE_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			WOOKIEE_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			WOOKIEE_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			WOOKIEE_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			WOOKIEE_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			WOOKIEE_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			WOOKIEE_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			WOOKIEE_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			WOOKIEE_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			WOOKIEE_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			WOOKIEE_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			WOOKIEE_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			WOOKIEE_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			WOOKIEE_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			WOOKIEE_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			WOOKIEE_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			WOOKIEE_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			WOOKIEE_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			WOOKIEE_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			WOOKIEE_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			WOOKIEE_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			WOOKIEE_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			WOOKIEE_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			WOOKIEE_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			WOOKIEE_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			WOOKIEE_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			WOOKIEE_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			WOOKIEE_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			WOOKIEE_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			WOOKIEE_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			WOOKIEE_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			WOOKIEE_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			WOOKIEE_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			WOOKIEE_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			WOOKIEE_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			WOOKIEE_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			WOOKIEE_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			WOOKIEE_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			WOOKIEE_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			WOOKIEE_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			WOOKIEE_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			WOOKIEE_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			WOOKIEE_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			WOOKIEE_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			WOOKIEE_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			WOOKIEE_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			WOOKIEE_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			WOOKIEE_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			WOOKIEE_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			WOOKIEE_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			WOOKIEE_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			WOOKIEE_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			WOOKIEE_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			WOOKIEE_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			WOOKIEE_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			WOOKIEE_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			WOOKIEE_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			WOOKIEE_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			WOOKIEE_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			WOOKIEE_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			WOOKIEE_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			WOOKIEE_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			WOOKIEE_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			WOOKIEE_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			WOOKIEE_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			WOOKIEE_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			WOOKIEE_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			WOOKIEE_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			WOOKIEE_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		random_names = {
+			WOOKIEE_FLEET_wroshyr_squadron WOOKIEE_FLEET_trakkrrrn_squadron WOOKIEE_FLEET_kshyy_squadron WOOKIEE_FLEET_katarn_squadron WOOKIEE_FLEET_shyyyo_squadron WOOKIEE_FLEET_wyyyschokk_squadron WOOKIEE_FLEET_asyyyriak_squadron WOOKIEE_FLEET_kkorrwrot_squadron WOOKIEE_FLEET_rkkrrkkrl_squadron WOOKIEE_FLEET_oryyka_squadron
+		}
+		sequential_name = WOOKIEE_FLEET_kaskyyyk_expeditionary_force_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = WOOKIEE_ARMY_tree_guard_ORD
+		}
+		assault_army = {
+			sequential_name = WOOKIEE_ARMY_war_claws_ORD
+		}
+		slave_army = {
+			sequential_name = WOOKIEE_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = WOOKIEE_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = WOOKIEE_ARMY_rock_claws_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = WOOKIEE_ARMY_iron_claws_ORD
+		}
+		psionic_army = {
+			sequential_name = WOOKIEE_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = WOOKIEE_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				WOOKIEE_ARMY_sarc_a__gladiators_ WOOKIEE_ARMY_sarc_b__widowmakers_ WOOKIEE_ARMY_sarc_c__immortals_ WOOKIEE_ARMY_sarc_d__berserkers_ WOOKIEE_ARMY_sarc_e__assassins_ WOOKIEE_ARMY_sarc_f__reapers_ WOOKIEE_ARMY_sarc_g__nighthawks_ WOOKIEE_ARMY_sarc_h__desperados_ WOOKIEE_ARMY_sarc_i__grey_knights_ WOOKIEE_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = WOOKIEE_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = WOOKIEE_ARMY_tree_rangers_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = WOOKIEE_ARMY_iron_watchers_ORD
+		}
+		primitive_army = {
+			sequential_name = WOOKIEE_ARMY_village_warband_SEQ
+		}
+		industrial_army = {
+			sequential_name = WOOKIEE_ARMY_village_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = WOOKIEE_ARMY_village_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = WOOKIEE_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = WOOKIEE_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = WOOKIEE_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = WOOKIEE_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = WOOKIEE_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = WOOKIEE_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = WOOKIEE_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = WOOKIEE_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = WOOKIEE_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = WOOKIEE_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = WOOKIEE_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = WOOKIEE_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = WOOKIEE_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = WOOKIEE_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = WOOKIEE_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = WOOKIEE_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = WOOKIEE_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = WOOKIEE_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = WOOKIEE_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = WOOKIEE_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = WOOKIEE_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = WOOKIEE_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = WOOKIEE_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = WOOKIEE_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = WOOKIEE_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = WOOKIEE_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = WOOKIEE_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = WOOKIEE_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = WOOKIEE_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = WOOKIEE_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = WOOKIEE_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = WOOKIEE_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = WOOKIEE_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = WOOKIEE_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = WOOKIEE_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = WOOKIEE_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = WOOKIEE_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = WOOKIEE_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = WOOKIEE_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = WOOKIEE_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = WOOKIEE_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = WOOKIEE_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = WOOKIEE_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = WOOKIEE_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = WOOKIEE_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = WOOKIEE_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = WOOKIEE_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = WOOKIEE_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = WOOKIEE_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = WOOKIEE_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = WOOKIEE_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = WOOKIEE_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = WOOKIEE_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = WOOKIEE_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = WOOKIEE_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = WOOKIEE_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = WOOKIEE_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = WOOKIEE_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = WOOKIEE_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = WOOKIEE_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = WOOKIEE_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = WOOKIEE_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = WOOKIEE_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = WOOKIEE_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = WOOKIEE_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = WOOKIEE_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = WOOKIEE_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = WOOKIEE_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = WOOKIEE_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = WOOKIEE_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = WOOKIEE_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = WOOKIEE_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = WOOKIEE_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = WOOKIEE_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = WOOKIEE_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = WOOKIEE_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = WOOKIEE_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = WOOKIEE_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = WOOKIEE_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = WOOKIEE_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = WOOKIEE_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = WOOKIEE_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = WOOKIEE_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = WOOKIEE_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = WOOKIEE_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = WOOKIEE_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = WOOKIEE_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = WOOKIEE_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = WOOKIEE_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = WOOKIEE_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = WOOKIEE_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = WOOKIEE_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = WOOKIEE_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = WOOKIEE_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = WOOKIEE_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = WOOKIEE_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = WOOKIEE_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = WOOKIEE_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = WOOKIEE_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = WOOKIEE_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = WOOKIEE_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = WOOKIEE_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = WOOKIEE_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = WOOKIEE_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = WOOKIEE_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = WOOKIEE_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = WOOKIEE_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = WOOKIEE_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = WOOKIEE_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = WOOKIEE_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = WOOKIEE_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = WOOKIEE_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = WOOKIEE_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = WOOKIEE_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = WOOKIEE_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = WOOKIEE_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = WOOKIEE_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = WOOKIEE_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = WOOKIEE_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = WOOKIEE_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = WOOKIEE_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = WOOKIEE_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = WOOKIEE_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = WOOKIEE_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = WOOKIEE_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = WOOKIEE_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = WOOKIEE_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			full_names_male = {
+				WOOKIEE_CHR_achonnko WOOKIEE_CHR_burryaga WOOKIEE_CHR_agaburry WOOKIEE_CHR_attichitcuk WOOKIEE_CHR_alrrark WOOKIEE_CHR_arrogha WOOKIEE_CHR_arrworr WOOKIEE_CHR_attimun WOOKIEE_CHR_bacca WOOKIEE_CHR_krrsantan WOOKIEE_CHR_barraak WOOKIEE_CHR_barrarro WOOKIEE_CHR_blaschowwa WOOKIEE_CHR_bokwarro WOOKIEE_CHR_bowdaar WOOKIEE_CHR_burtiin WOOKIEE_CHR_busurra WOOKIEE_CHR_caroowar WOOKIEE_CHR_chalkazza WOOKIEE_CHR_chalmun WOOKIEE_CHR_chalurrekk WOOKIEE_CHR_chambamakk WOOKIEE_CHR_chatook WOOKIEE_CHR_chawroo WOOKIEE_CHR_chenlambec WOOKIEE_CHR_cherioer WOOKIEE_CHR_cheyerooto WOOKIEE_CHR_chorrawl WOOKIEE_CHR_choyyssyk WOOKIEE_CHR_chrilooc WOOKIEE_CHR_chywarra WOOKIEE_CHR_d_koetaa WOOKIEE_CHR_dalborra WOOKIEE_CHR_drokkatta WOOKIEE_CHR_drrlirm WOOKIEE_CHR_dryanta WOOKIEE_CHR_erriya WOOKIEE_CHR_eugroothwa WOOKIEE_CHR_freyrr WOOKIEE_CHR_friyahrr WOOKIEE_CHR_g_hhurrlha WOOKIEE_CHR_gaarkhan WOOKIEE_CHR_gaartatha WOOKIEE_CHR_gaharrag WOOKIEE_CHR_ganarho WOOKIEE_CHR_gargachykk WOOKIEE_CHR_garwooken WOOKIEE_CHR_gerraba WOOKIEE_CHR_gharcanna WOOKIEE_CHR_ghraggka WOOKIEE_CHR_gorbacca WOOKIEE_CHR_gorwooken WOOKIEE_CHR_grabathar WOOKIEE_CHR_grabow WOOKIEE_CHR_grahuur WOOKIEE_CHR_grakchawwaa WOOKIEE_CHR_grarwwaar WOOKIEE_CHR_grasheel WOOKIEE_CHR_greybok WOOKIEE_CHR_grimyk WOOKIEE_CHR_grouaggerl WOOKIEE_CHR_grrallo WOOKIEE_CHR_grrrwahrr WOOKIEE_CHR_gryyzak WOOKIEE_CHR_gumbaeki WOOKIEE_CHR_gwarror WOOKIEE_CHR_gyylghrard WOOKIEE_CHR_hahrynyar WOOKIEE_CHR_hanharr WOOKIEE_CHR_harrgun WOOKIEE_CHR_harwakokok WOOKIEE_CHR_hrrgn WOOKIEE_CHR_hurrwarr WOOKIEE_CHR_isshaddik WOOKIEE_CHR_isshtharr WOOKIEE_CHR_jaarak WOOKIEE_CHR_jakarro WOOKIEE_CHR_jowmaac WOOKIEE_CHR_kaarror WOOKIEE_CHR_kallaaddik WOOKIEE_CHR_kallaarac WOOKIEE_CHR_karundabar WOOKIEE_CHR_katykam WOOKIEE_CHR_kentara WOOKIEE_CHR_kerritamba WOOKIEE_CHR_kerrithraar WOOKIEE_CHR_khyyynett WOOKIEE_CHR_kiaanta WOOKIEE_CHR_kichiir WOOKIEE_CHR_kirroo WOOKIEE_CHR_kitwarr WOOKIEE_CHR_kkatamik WOOKIEE_CHR_kravengash WOOKIEE_CHR_kriyystak WOOKIEE_CHR_kropporrr WOOKIEE_CHR_krotorra WOOKIEE_CHR_kuykenda WOOKIEE_CHR_lachichuk WOOKIEE_CHR_lamorrack WOOKIEE_CHR_lawadaa WOOKIEE_CHR_lobarorr WOOKIEE_CHR_lofryyhn WOOKIEE_CHR_lowbacca WOOKIEE_CHR_lowhhrick WOOKIEE_CHR_lumpawaroo WOOKIEE_CHR_mahraccor WOOKIEE_CHR_merumeru WOOKIEE_CHR_montacca WOOKIEE_CHR_motamba WOOKIEE_CHR_nagraoao WOOKIEE_CHR_nawruun WOOKIEE_CHR_nilwoon WOOKIEE_CHR_nyrkar WOOKIEE_CHR_olayyyk WOOKIEE_CHR_onurruka WOOKIEE_CHR_oolovv WOOKIEE_CHR_ooorlak WOOKIEE_CHR_oraalarri WOOKIEE_CHR_orooroo WOOKIEE_CHR_orrekazzapirr WOOKIEE_CHR_owacchi WOOKIEE_CHR_ryyk WOOKIEE_CHR_quaagan WOOKIEE_CHR_quagga WOOKIEE_CHR_radrrl WOOKIEE_CHR_rakika WOOKIEE_CHR_ralera WOOKIEE_CHR_ralrracheen WOOKIEE_CHR_rarrook WOOKIEE_CHR_rashtah WOOKIEE_CHR_rawarok WOOKIEE_CHR_reerookachuck WOOKIEE_CHR_rholl WOOKIEE_CHR_rikummee WOOKIEE_CHR_rojarra WOOKIEE_CHR_rooarwaa WOOKIEE_CHR_roogar WOOKIEE_CHR_rorjow WOOKIEE_CHR_rorworr WOOKIEE_CHR_rowralorr WOOKIEE_CHR_rralla WOOKIEE_CHR_rrawkee WOOKIEE_CHR_rrelbocco WOOKIEE_CHR_rroggerr WOOKIEE_CHR_rruurrfhurra WOOKIEE_CHR_rufarr WOOKIEE_CHR_ruhr WOOKIEE_CHR_rukurruka WOOKIEE_CHR_saarcheen WOOKIEE_CHR_sagwa WOOKIEE_CHR_salporin WOOKIEE_CHR_sarkkin WOOKIEE_CHR_shoran WOOKIEE_CHR_shorwarr WOOKIEE_CHR_snoova WOOKIEE_CHR_snotharr WOOKIEE_CHR_snrrrlagga WOOKIEE_CHR_surracca WOOKIEE_CHR_syirlabradawk WOOKIEE_CHR_tahnchukka WOOKIEE_CHR_takook WOOKIEE_CHR_tallamitta WOOKIEE_CHR_tantarra WOOKIEE_CHR_tarkazza WOOKIEE_CHR_tojjelnoot WOOKIEE_CHR_tojjevvuk WOOKIEE_CHR_touda WOOKIEE_CHR_triebakk WOOKIEE_CHR_tyrrdko WOOKIEE_CHR_tyvokka WOOKIEE_CHR_ulaaar WOOKIEE_CHR_ulibacca WOOKIEE_CHR_urothko WOOKIEE_CHR_urrurrowo WOOKIEE_CHR_utchakkaloch WOOKIEE_CHR_vorlocca WOOKIEE_CHR_vryyr WOOKIEE_CHR_vryyyr WOOKIEE_CHR_warrchallra WOOKIEE_CHR_weebacca WOOKIEE_CHR_whumparrin WOOKIEE_CHR_wojarra WOOKIEE_CHR_woorwill WOOKIEE_CHR_worrroznor WOOKIEE_CHR_worrumba WOOKIEE_CHR_wrelaac WOOKIEE_CHR_wrhisch WOOKIEE_CHR_wrrlevgebev WOOKIEE_CHR_wrrl WOOKIEE_CHR_wullffwarro WOOKIEE_CHR_wurokkk WOOKIEE_CHR_wyhyatt WOOKIEE_CHR_yaawl WOOKIEE_CHR_yiprukk WOOKIEE_CHR_yrrcanna WOOKIEE_CHR_yubookoo WOOKIEE_CHR_zaalbar
+			}
+			full_names_female = {
+				WOOKIEE_CHR_ovarra WOOKIEE_CHR_anarra WOOKIEE_CHR_athnalu WOOKIEE_CHR_attierra WOOKIEE_CHR_beruga WOOKIEE_CHR_brahtikka WOOKIEE_CHR_chalpal WOOKIEE_CHR_colara WOOKIEE_CHR_dewlanna WOOKIEE_CHR_dewlannamapia WOOKIEE_CHR_enacca WOOKIEE_CHR_froera WOOKIEE_CHR_frorral WOOKIEE_CHR_gchalla WOOKIEE_CHR_gorrlyn WOOKIEE_CHR_grakkata WOOKIEE_CHR_granakk WOOKIEE_CHR_grayyshk WOOKIEE_CHR_gworrall WOOKIEE_CHR_huhunna WOOKIEE_CHR_hwruarca WOOKIEE_CHR_jiprirr WOOKIEE_CHR_jowdrrl WOOKIEE_CHR_kallabow WOOKIEE_CHR_karashki WOOKIEE_CHR_katarra WOOKIEE_CHR_kirratha WOOKIEE_CHR_kivvaaa WOOKIEE_CHR_kohlbacca WOOKIEE_CHR_kybacca WOOKIEE_CHR_kymayrr WOOKIEE_CHR_kyobuk WOOKIEE_CHR_lunacca WOOKIEE_CHR_mallatobuck WOOKIEE_CHR_n_arrghela WOOKIEE_CHR_nardakka WOOKIEE_CHR_ovarra WOOKIEE_CHR_raabakyysh WOOKIEE_CHR_roshyk WOOKIEE_CHR_rowrrhaffee WOOKIEE_CHR_rroorgli WOOKIEE_CHR_rroow WOOKIEE_CHR_sebaracca WOOKIEE_CHR_shrandhnrignh WOOKIEE_CHR_sirrakuk WOOKIEE_CHR_spetbecca WOOKIEE_CHR_sunchoo WOOKIEE_CHR_syychi WOOKIEE_CHR_tirranna WOOKIEE_CHR_ulucca WOOKIEE_CHR_urartu WOOKIEE_CHR_whyrrryk WOOKIEE_CHR_wurrooba WOOKIEE_CHR_wynni WOOKIEE_CHR_yarua WOOKIEE_CHR_yawrocca WOOKIEE_CHR_zittaasabba
+			}
+		}
+	}
+}

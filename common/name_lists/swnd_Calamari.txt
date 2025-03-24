@@ -1,0 +1,847 @@
+﻿Calamari = {
+	randomized = no
+	ship_names = {
+		generic = {
+			CALAMARI_SHIP_aurora_flare CALAMARI_SHIP_beam_wind CALAMARI_SHIP_bitter_end CALAMARI_SHIP_blue_diver CALAMARI_SHIP_bright_coral CALAMARI_SHIP_cimrab_deshet CALAMARI_SHIP_coral_cliff CALAMARI_SHIP_corusca_rainbow CALAMARI_SHIP_ebb_tide CALAMARI_SHIP_echo_of_hope CALAMARI_SHIP_flash_storm CALAMARI_SHIP_flying_dromon CALAMARI_SHIP_freedom_s_dawn CALAMARI_SHIP_freedom_s_run CALAMARI_SHIP_galactic_voyager CALAMARI_SHIP_grey_damsel CALAMARI_SHIP_home_five CALAMARI_SHIP_home_four CALAMARI_SHIP_home_one CALAMARI_SHIP_home_three CALAMARI_SHIP_home_two CALAMARI_SHIP_invincible_faith CALAMARI_SHIP_krakana_s_claw CALAMARI_SHIP_last_fathom CALAMARI_SHIP_lunar_tide CALAMARI_SHIP_mantan_wanderer CALAMARI_SHIP_mon_adapyne CALAMARI_SHIP_mon_adapyne CALAMARI_SHIP_mon_badril CALAMARI_SHIP_mon_bialdu CALAMARI_SHIP_mon_binli CALAMARI_SHIP_mon_bragrib CALAMARI_SHIP_mon_brodic CALAMARI_SHIP_mon_casima CALAMARI_SHIP_mon_chona CALAMARI_SHIP_mon_churgel CALAMARI_SHIP_mon_cimna CALAMARI_SHIP_mon_deddu CALAMARI_SHIP_mon_delindo CALAMARI_SHIP_mon_duza CALAMARI_SHIP_mon_fomban CALAMARI_SHIP_mon_gazza CALAMARI_SHIP_mon_gilko CALAMARI_SHIP_mon_gutre CALAMARI_SHIP_mon_heurkea CALAMARI_SHIP_mon_hikahi CALAMARI_SHIP_mon_huscol CALAMARI_SHIP_mon_irdeal CALAMARI_SHIP_mon_jhaemez CALAMARI_SHIP_mon_karren CALAMARI_SHIP_mon_kebta CALAMARI_SHIP_mon_kelki CALAMARI_SHIP_mon_ledha CALAMARI_SHIP_mon_nalkaxz CALAMARI_SHIP_mon_nhidna CALAMARI_SHIP_mon_nhile CALAMARI_SHIP_mon_nhilnu CALAMARI_SHIP_mon_opob CALAMARI_SHIP_mon_oulgax CALAMARI_SHIP_mon_piab CALAMARI_SHIP_mon_qiomaak CALAMARI_SHIP_mon_rako CALAMARI_SHIP_mon_remonda CALAMARI_SHIP_mon_royasch CALAMARI_SHIP_mon_sar_galva CALAMARI_SHIP_mon_septess CALAMARI_SHIP_mon_siadnu CALAMARI_SHIP_mon_tragaih CALAMARI_SHIP_mon_tuezon CALAMARI_SHIP_mon_ubrek CALAMARI_SHIP_mon_uldil CALAMARI_SHIP_mon_vardint CALAMARI_SHIP_mon_vihmihha CALAMARI_SHIP_mon_vraha CALAMARI_SHIP_mon_vro CALAMARI_SHIP_mon_wadla CALAMARI_SHIP_mon_yohhenna CALAMARI_SHIP_mon_yoza CALAMARI_SHIP_murul_abyss CALAMARI_SHIP_queen_amidala_iv CALAMARI_SHIP_queen_conch CALAMARI_SHIP_red_brine CALAMARI_SHIP_reefcutter CALAMARI_SHIP_scrup_hound CALAMARI_SHIP_shell_game CALAMARI_SHIP_sidral_ii CALAMARI_SHIP_star_urchin CALAMARI_SHIP_stellar_vista CALAMARI_SHIP_striking_distance CALAMARI_SHIP_vortex_wind CALAMARI_SHIP_aboukir CALAMARI_SHIP_adamantine CALAMARI_SHIP_admonition CALAMARI_SHIP_alamania CALAMARI_SHIP_allegiant CALAMARI_SHIP_amalthea CALAMARI_SHIP_amity CALAMARI_SHIP_anchorhome CALAMARI_SHIP_anlage CALAMARI_SHIP_ansta CALAMARI_SHIP_aquarius CALAMARI_SHIP_aspiration CALAMARI_SHIP_ballarat CALAMARI_SHIP_becalmer CALAMARI_SHIP_beledeen CALAMARI_SHIP_breakwater CALAMARI_SHIP_brightwork CALAMARI_SHIP_broadhorn CALAMARI_SHIP_broadside CALAMARI_SHIP_carronade CALAMARI_SHIP_celestial CALAMARI_SHIP_chainwale CALAMARI_SHIP_choarn CALAMARI_SHIP_coaster CALAMARI_SHIP_concord CALAMARI_SHIP_cutwater CALAMARI_SHIP_defiance CALAMARI_SHIP_devilsquid CALAMARI_SHIP_doldrum CALAMARI_SHIP_dragonsnake CALAMARI_SHIP_drejil CALAMARI_SHIP_emancipator CALAMARI_SHIP_empyrean CALAMARI_SHIP_endurance CALAMARI_SHIP_equity CALAMARI_SHIP_exosquidra CALAMARI_SHIP_extremis CALAMARI_SHIP_fanladi CALAMARI_SHIP_fantail CALAMARI_SHIP_farstar CALAMARI_SHIP_felucca CALAMARI_SHIP_foamwander CALAMARI_SHIP_foresight CALAMARI_SHIP_fulminant CALAMARI_SHIP_gamble CALAMARI_SHIP_gennaker CALAMARI_SHIP_ghaleesit CALAMARI_SHIP_gloomwalker CALAMARI_SHIP_guardian CALAMARI_SHIP_gulomi CALAMARI_SHIP_halliard CALAMARI_SHIP_harbinger CALAMARI_SHIP_hope CALAMARI_SHIP_ilikith CALAMARI_SHIP_independence CALAMARI_SHIP_indomitable CALAMARI_SHIP_jetsam CALAMARI_SHIP_justice CALAMARI_SHIP_kantrey CALAMARI_SHIP_khasva CALAMARI_SHIP_kieler CALAMARI_SHIP_krabbex CALAMARI_SHIP_krakana CALAMARI_SHIP_leviathan CALAMARI_SHIP_liberty CALAMARI_SHIP_lishin CALAMARI_SHIP_littoral CALAMARI_SHIP_majestic CALAMARI_SHIP_maximus CALAMARI_SHIP_mediator CALAMARI_SHIP_mercy CALAMARI_SHIP_morjansik CALAMARI_SHIP_naritus CALAMARI_SHIP_narlit CALAMARI_SHIP_nautilian CALAMARI_SHIP_orthavan CALAMARI_SHIP_oshtra CALAMARI_SHIP_pelagia CALAMARI_SHIP_poesy CALAMARI_SHIP_profundity CALAMARI_SHIP_raddus CALAMARI_SHIP_restoration CALAMARI_SHIP_riptide CALAMARI_SHIP_sailfish CALAMARI_SHIP_shashore CALAMARI_SHIP_spraycloak CALAMARI_SHIP_starlite CALAMARI_SHIP_starpike CALAMARI_SHIP_stillwater CALAMARI_SHIP_stormcaller CALAMARI_SHIP_terkana CALAMARI_SHIP_tessek CALAMARI_SHIP_tidecrest CALAMARI_SHIP_tikit CALAMARI_SHIP_toklar CALAMARI_SHIP_torrent CALAMARI_SHIP_tradewyn CALAMARI_SHIP_tsunami CALAMARI_SHIP_typhoon CALAMARI_SHIP_undertow CALAMARI_SHIP_vebb CALAMARI_SHIP_vekkor CALAMARI_SHIP_viscount CALAMARI_SHIP_voidpool CALAMARI_SHIP_voidshark CALAMARI_SHIP_wavesong CALAMARI_SHIP_whaladon CALAMARI_SHIP_wildwater CALAMARI_SHIP_nautilus
+		}
+		swp_bellator = {
+			CALAMARI_SHIP_home_three CALAMARI_SHIP_krakana CALAMARI_SHIP_leviathan CALAMARI_SHIP_leviathan CALAMARI_SHIP_typhoon
+		}
+		science = {
+			CALAMARI_SHIP_crescent CALAMARI_SHIP_diligent CALAMARI_SHIP_mariner CALAMARI_SHIP_topsail CALAMARI_SHIP_mast_of_knowledge CALAMARI_SHIP_scylla CALAMARI_SHIP_seeker CALAMARI_SHIP_soother CALAMARI_SHIP_diver CALAMARI_SHIP_delver CALAMARI_SHIP_deep_dive CALAMARI_SHIP_explorator CALAMARI_SHIP_charterer CALAMARI_SHIP_navigator CALAMARI_SHIP_bright_rudder CALAMARI_SHIP_voyager CALAMARI_SHIP_expedition CALAMARI_SHIP_majestic CALAMARI_SHIP_tribune CALAMARI_SHIP_tribute
+		}
+		colonizer = {
+			CALAMARI_SHIP_hatchling CALAMARI_SHIP_by_his_majesty_s_leave CALAMARI_SHIP_coral_destiny CALAMARI_SHIP_home_fry CALAMARI_SHIP_new_origin CALAMARI_SHIP_nova_bloom CALAMARI_SHIP_sprouting_queen CALAMARI_SHIP_lifefish CALAMARI_SHIP_lifeguard CALAMARI_SHIP_preserver CALAMARI_SHIP_seeder CALAMARI_SHIP_harvest CALAMARI_SHIP_anemone CALAMARI_SHIP_kelper CALAMARI_SHIP_fisher_queen CALAMARI_SHIP_nautilus CALAMARI_SHIP_incubator
+		}
+		sponsored_colonizer = {
+			CALAMARI_SHIP_hatchling CALAMARI_SHIP_by_his_majesty_s_leave CALAMARI_SHIP_coral_destiny CALAMARI_SHIP_home_fry CALAMARI_SHIP_new_origin CALAMARI_SHIP_nova_bloom CALAMARI_SHIP_sprouting_queen CALAMARI_SHIP_lifefish CALAMARI_SHIP_lifeguard CALAMARI_SHIP_preserver CALAMARI_SHIP_seeder CALAMARI_SHIP_harvest CALAMARI_SHIP_anemone CALAMARI_SHIP_kelper CALAMARI_SHIP_fisher_queen CALAMARI_SHIP_nautilus CALAMARI_SHIP_incubator
+		}
+		constructor = {
+			CALAMARI_SHIP_symbiosis CALAMARI_SHIP_harmony CALAMARI_SHIP_coaction CALAMARI_SHIP_combine CALAMARI_SHIP_synergy CALAMARI_SHIP_union CALAMARI_SHIP_mitosis CALAMARI_SHIP_meiosis CALAMARI_SHIP_amitosis CALAMARI_SHIP_skitterer CALAMARI_SHIP_helpfin CALAMARI_SHIP_sense_of_porpoise CALAMARI_SHIP_catcher CALAMARI_SHIP_anchovy CALAMARI_SHIP_glottlefish CALAMARI_SHIP_ice_lobster CALAMARI_SHIP_amphihydrus CALAMARI_SHIP_cala_eel CALAMARI_SHIP_nexufish CALAMARI_SHIP_octowhale CALAMARI_SHIP_pliffer CALAMARI_SHIP_sea_flea CALAMARI_SHIP_star_urchin CALAMARI_SHIP_blossomer
+		}
+		transport = {
+			CALAMARI_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			CALAMARI_SHIP_spacegun_victory CALAMARI_SHIP_spacegun_success CALAMARI_SHIP_spacegun_supremacy CALAMARI_SHIP_spacegun_superior CALAMARI_SHIP_spacegun_adventure CALAMARI_SHIP_spacegun_ascendancy CALAMARI_SHIP_spacegun_paramount CALAMARI_SHIP_spacegun_preponderous CALAMARI_SHIP_spacegun_exemplary CALAMARI_SHIP_spacegun_eximious CALAMARI_SHIP_spacegun_pertinacity CALAMARI_SHIP_spacegun_acclaim CALAMARI_SHIP_spacegun_honor CALAMARI_SHIP_spacegun_renown CALAMARI_SHIP_spacegun_glory CALAMARI_SHIP_spacegun_superb CALAMARI_SHIP_spacegun_magnificence CALAMARI_SHIP_spacegun_majestic CALAMARI_SHIP_spacegun_splendor CALAMARI_SHIP_spacegun_paradigm CALAMARI_SHIP_spacegun_flawless CALAMARI_SHIP_spacegun_consummate CALAMARI_SHIP_spacegun_merit CALAMARI_SHIP_spacegun_perfection CALAMARI_SHIP_spacegun_virtue CALAMARI_SHIP_spacegun_advantage CALAMARI_SHIP_spacegun_rectitude CALAMARI_SHIP_spacegun_incorruptible CALAMARI_SHIP_spacegun_integrity CALAMARI_SHIP_spacegun_justice CALAMARI_SHIP_spacegun_probity CALAMARI_SHIP_spacegun_prudence CALAMARI_SHIP_spacegun_purity CALAMARI_SHIP_spacegun_resolute CALAMARI_SHIP_spacegun_dignity CALAMARI_SHIP_spacegun_distinction CALAMARI_SHIP_spacegun_excellence CALAMARI_SHIP_spacegun_faithful CALAMARI_SHIP_spacegun_discipline CALAMARI_SHIP_spacegun_steadfast CALAMARI_SHIP_spacegun_recompense CALAMARI_SHIP_spacegun_requiem CALAMARI_SHIP_spacegun_courage CALAMARI_SHIP_spacegun_valor CALAMARI_SHIP_spacegun_gallant CALAMARI_SHIP_spacegun_daring CALAMARI_SHIP_spacegun_constancy CALAMARI_SHIP_spacegun_perseverence CALAMARI_SHIP_spacegun_tenacity CALAMARI_SHIP_spacegun_sedulity CALAMARI_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			CALAMARI_SHIP_spacegun_victory CALAMARI_SHIP_spacegun_success CALAMARI_SHIP_spacegun_supremacy CALAMARI_SHIP_spacegun_superior CALAMARI_SHIP_spacegun_adventure CALAMARI_SHIP_spacegun_ascendancy CALAMARI_SHIP_spacegun_paramount CALAMARI_SHIP_spacegun_preponderous CALAMARI_SHIP_spacegun_exemplary CALAMARI_SHIP_spacegun_eximious CALAMARI_SHIP_spacegun_pertinacity CALAMARI_SHIP_spacegun_acclaim CALAMARI_SHIP_spacegun_honor CALAMARI_SHIP_spacegun_renown CALAMARI_SHIP_spacegun_glory CALAMARI_SHIP_spacegun_superb CALAMARI_SHIP_spacegun_magnificence CALAMARI_SHIP_spacegun_majestic CALAMARI_SHIP_spacegun_splendor CALAMARI_SHIP_spacegun_paradigm CALAMARI_SHIP_spacegun_flawless CALAMARI_SHIP_spacegun_consummate CALAMARI_SHIP_spacegun_merit CALAMARI_SHIP_spacegun_perfection CALAMARI_SHIP_spacegun_virtue CALAMARI_SHIP_spacegun_advantage CALAMARI_SHIP_spacegun_rectitude CALAMARI_SHIP_spacegun_incorruptible CALAMARI_SHIP_spacegun_integrity CALAMARI_SHIP_spacegun_justice CALAMARI_SHIP_spacegun_probity CALAMARI_SHIP_spacegun_prudence CALAMARI_SHIP_spacegun_purity CALAMARI_SHIP_spacegun_resolute CALAMARI_SHIP_spacegun_dignity CALAMARI_SHIP_spacegun_distinction CALAMARI_SHIP_spacegun_excellence CALAMARI_SHIP_spacegun_faithful CALAMARI_SHIP_spacegun_discipline CALAMARI_SHIP_spacegun_steadfast CALAMARI_SHIP_spacegun_recompense CALAMARI_SHIP_spacegun_requiem CALAMARI_SHIP_spacegun_courage CALAMARI_SHIP_spacegun_valor CALAMARI_SHIP_spacegun_gallant CALAMARI_SHIP_spacegun_daring CALAMARI_SHIP_spacegun_constancy CALAMARI_SHIP_spacegun_perseverence CALAMARI_SHIP_spacegun_tenacity CALAMARI_SHIP_spacegun_sedulity CALAMARI_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			CALAMARI_SHIP_spacegun_victory CALAMARI_SHIP_spacegun_success CALAMARI_SHIP_spacegun_supremacy CALAMARI_SHIP_spacegun_superior CALAMARI_SHIP_spacegun_adventure CALAMARI_SHIP_spacegun_ascendancy CALAMARI_SHIP_spacegun_paramount CALAMARI_SHIP_spacegun_preponderous CALAMARI_SHIP_spacegun_exemplary CALAMARI_SHIP_spacegun_eximious CALAMARI_SHIP_spacegun_pertinacity CALAMARI_SHIP_spacegun_acclaim CALAMARI_SHIP_spacegun_honor CALAMARI_SHIP_spacegun_renown CALAMARI_SHIP_spacegun_glory CALAMARI_SHIP_spacegun_superb CALAMARI_SHIP_spacegun_magnificence CALAMARI_SHIP_spacegun_majestic CALAMARI_SHIP_spacegun_splendor CALAMARI_SHIP_spacegun_paradigm CALAMARI_SHIP_spacegun_flawless CALAMARI_SHIP_spacegun_consummate CALAMARI_SHIP_spacegun_merit CALAMARI_SHIP_spacegun_perfection CALAMARI_SHIP_spacegun_virtue CALAMARI_SHIP_spacegun_advantage CALAMARI_SHIP_spacegun_rectitude CALAMARI_SHIP_spacegun_incorruptible CALAMARI_SHIP_spacegun_integrity CALAMARI_SHIP_spacegun_justice CALAMARI_SHIP_spacegun_probity CALAMARI_SHIP_spacegun_prudence CALAMARI_SHIP_spacegun_purity CALAMARI_SHIP_spacegun_resolute CALAMARI_SHIP_spacegun_dignity CALAMARI_SHIP_spacegun_distinction CALAMARI_SHIP_spacegun_excellence CALAMARI_SHIP_spacegun_faithful CALAMARI_SHIP_spacegun_discipline CALAMARI_SHIP_spacegun_steadfast CALAMARI_SHIP_spacegun_recompense CALAMARI_SHIP_spacegun_requiem CALAMARI_SHIP_spacegun_courage CALAMARI_SHIP_spacegun_valor CALAMARI_SHIP_spacegun_gallant CALAMARI_SHIP_spacegun_daring CALAMARI_SHIP_spacegun_constancy CALAMARI_SHIP_spacegun_perseverence CALAMARI_SHIP_spacegun_tenacity CALAMARI_SHIP_spacegun_sedulity CALAMARI_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			CALAMARI_SHIP_citadel CALAMARI_SHIP_albacore CALAMARI_SHIP_gateway CALAMARI_SHIP_vincent CALAMARI_SHIP_babylon CALAMARI_SHIP_caernavon CALAMARI_SHIP_acre CALAMARI_SHIP_pembroke CALAMARI_SHIP_acheron CALAMARI_SHIP_spithead CALAMARI_SHIP_halifax CALAMARI_SHIP_victoria CALAMARI_SHIP_chatham CALAMARI_SHIP_anchorage CALAMARI_SHIP_scapa_flow CALAMARI_SHIP_hampton_roads CALAMARI_SHIP_brooklyn CALAMARI_SHIP_norfolk CALAMARI_SHIP_newport CALAMARI_SHIP_guam CALAMARI_SHIP_pensacola CALAMARI_SHIP_vesuvius CALAMARI_SHIP_mckinley CALAMARI_SHIP_everest CALAMARI_SHIP_kilimanjaro CALAMARI_SHIP_aconcagua CALAMARI_SHIP_elbrus CALAMARI_SHIP_st__helens CALAMARI_SHIP_fuji CALAMARI_SHIP_olympus CALAMARI_SHIP_sinai CALAMARI_SHIP_ambrose CALAMARI_SHIP_bermuda CALAMARI_SHIP_farpoint CALAMARI_SHIP_blue_star CALAMARI_SHIP_olympus_mons CALAMARI_SHIP_tharsis CALAMARI_SHIP_syrtis CALAMARI_SHIP_blackham CALAMARI_SHIP_fletcher CALAMARI_SHIP_perry CALAMARI_SHIP_butakov CALAMARI_SHIP_morris CALAMARI_SHIP_moorsom CALAMARI_SHIP_hart CALAMARI_SHIP_hargood CALAMARI_SHIP_spruance CALAMARI_SHIP_tanaka CALAMARI_SHIP_halsey CALAMARI_SHIP_turner CALAMARI_SHIP_doria CALAMARI_SHIP_tirpitz CALAMARI_SHIP_cunningham CALAMARI_SHIP_jellicoe CALAMARI_SHIP_hipper CALAMARI_SHIP_beatty CALAMARI_SHIP_potemkin CALAMARI_SHIP_durham CALAMARI_SHIP_codrington CALAMARI_SHIP_milne CALAMARI_SHIP_laforey CALAMARI_SHIP_tyler CALAMARI_SHIP_hawke CALAMARI_SHIP_yonai CALAMARI_SHIP_pound CALAMARI_SHIP_king CALAMARI_SHIP_crutchley CALAMARI_SHIP_mountbatten CALAMARI_SHIP_kountouriotis CALAMARI_SHIP_kuznetsov CALAMARI_SHIP_essen CALAMARI_SHIP_kornilov CALAMARI_SHIP_suffren CALAMARI_SHIP_treville CALAMARI_SHIP_villeneuve CALAMARI_SHIP_grasse CALAMARI_SHIP_byng CALAMARI_SHIP_lezo
+		}
+		ion_cannon = {
+			CALAMARI_SHIP_bombard CALAMARI_SHIP_ballista CALAMARI_SHIP_catapult CALAMARI_SHIP_harpoon CALAMARI_SHIP_polybolos CALAMARI_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			CALAMARI_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			CALAMARI_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			CALAMARI_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			CALAMARI_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			CALAMARI_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			CALAMARI_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			CALAMARI_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			CALAMARI_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			CALAMARI_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			CALAMARI_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			CALAMARI_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			CALAMARI_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			CALAMARI_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			CALAMARI_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			CALAMARI_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			CALAMARI_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			CALAMARI_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			CALAMARI_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			CALAMARI_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			CALAMARI_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			CALAMARI_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			CALAMARI_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			CALAMARI_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			CALAMARI_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			CALAMARI_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			CALAMARI_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			CALAMARI_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			CALAMARI_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			CALAMARI_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			CALAMARI_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			CALAMARI_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			CALAMARI_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			CALAMARI_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			CALAMARI_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			CALAMARI_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			CALAMARI_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			CALAMARI_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			CALAMARI_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			CALAMARI_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			CALAMARI_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			CALAMARI_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			CALAMARI_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			CALAMARI_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			CALAMARI_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			CALAMARI_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			CALAMARI_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			CALAMARI_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			CALAMARI_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			CALAMARI_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			CALAMARI_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			CALAMARI_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			CALAMARI_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			CALAMARI_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			CALAMARI_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			CALAMARI_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			CALAMARI_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			CALAMARI_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			CALAMARI_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			CALAMARI_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			CALAMARI_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			CALAMARI_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			CALAMARI_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			CALAMARI_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			CALAMARI_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			CALAMARI_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			CALAMARI_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			CALAMARI_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			CALAMARI_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			CALAMARI_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			CALAMARI_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			CALAMARI_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			CALAMARI_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			CALAMARI_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			CALAMARI_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			CALAMARI_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			CALAMARI_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			CALAMARI_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			CALAMARI_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			CALAMARI_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			CALAMARI_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			CALAMARI_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			CALAMARI_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			CALAMARI_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			CALAMARI_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			CALAMARI_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			CALAMARI_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			CALAMARI_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			CALAMARI_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			CALAMARI_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			CALAMARI_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			CALAMARI_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			CALAMARI_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			CALAMARI_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			CALAMARI_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		random_names = {
+			CALAMARI_FLEET_battle_group__tsunami_ CALAMARI_FLEET_battle_group__typhoon_ CALAMARI_FLEET_battle_group__hurricane_ CALAMARI_FLEET_battle_group__cyclone_ CALAMARI_FLEET_battle_group__firestorm_ CALAMARI_FLEET_battle_group__hailstorm_ CALAMARI_FLEET_battle_group__hypercane_ CALAMARI_FLEET_battle_group__cinderwind_ CALAMARI_FLEET_battle_group__hyperwind_ CALAMARI_FLEET_battle_group__x_us_r_iia_ CALAMARI_FLEET_battle_group__mistgale_ CALAMARI_FLEET_battle_group__blizzard_ CALAMARI_FLEET_battle_group__downstorm_ CALAMARI_FLEET_battle_group__vortex_
+		}
+		sequential_name = CALAMARI_FLEET_task_force_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = CALAMARI_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = CALAMARI_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = CALAMARI_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = CALAMARI_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = CALAMARI_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = CALAMARI_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = CALAMARI_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = CALAMARI_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				CALAMARI_ARMY_sarc_a__gladiators_ CALAMARI_ARMY_sarc_b__widowmakers_ CALAMARI_ARMY_sarc_c__immortals_ CALAMARI_ARMY_sarc_d__berserkers_ CALAMARI_ARMY_sarc_e__assassins_ CALAMARI_ARMY_sarc_f__reapers_ CALAMARI_ARMY_sarc_g__nighthawks_ CALAMARI_ARMY_sarc_h__desperados_ CALAMARI_ARMY_sarc_i__grey_knights_ CALAMARI_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = CALAMARI_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = CALAMARI_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = CALAMARI_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = CALAMARI_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = CALAMARI_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = CALAMARI_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = CALAMARI_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = CALAMARI_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = CALAMARI_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = CALAMARI_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = CALAMARI_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = CALAMARI_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = CALAMARI_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = CALAMARI_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = CALAMARI_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = CALAMARI_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = CALAMARI_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = CALAMARI_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = CALAMARI_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = CALAMARI_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = CALAMARI_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = CALAMARI_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = CALAMARI_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = CALAMARI_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = CALAMARI_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = CALAMARI_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = CALAMARI_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = CALAMARI_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = CALAMARI_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = CALAMARI_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = CALAMARI_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = CALAMARI_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = CALAMARI_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = CALAMARI_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = CALAMARI_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = CALAMARI_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = CALAMARI_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = CALAMARI_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = CALAMARI_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = CALAMARI_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = CALAMARI_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = CALAMARI_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = CALAMARI_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = CALAMARI_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = CALAMARI_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = CALAMARI_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = CALAMARI_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = CALAMARI_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = CALAMARI_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = CALAMARI_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = CALAMARI_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = CALAMARI_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = CALAMARI_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = CALAMARI_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = CALAMARI_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = CALAMARI_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = CALAMARI_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = CALAMARI_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = CALAMARI_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = CALAMARI_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = CALAMARI_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = CALAMARI_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = CALAMARI_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = CALAMARI_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = CALAMARI_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = CALAMARI_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = CALAMARI_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = CALAMARI_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = CALAMARI_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = CALAMARI_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = CALAMARI_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = CALAMARI_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = CALAMARI_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = CALAMARI_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = CALAMARI_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = CALAMARI_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = CALAMARI_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = CALAMARI_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = CALAMARI_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = CALAMARI_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = CALAMARI_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = CALAMARI_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = CALAMARI_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = CALAMARI_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = CALAMARI_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = CALAMARI_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = CALAMARI_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = CALAMARI_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = CALAMARI_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = CALAMARI_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = CALAMARI_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = CALAMARI_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = CALAMARI_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = CALAMARI_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = CALAMARI_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = CALAMARI_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = CALAMARI_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = CALAMARI_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = CALAMARI_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = CALAMARI_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = CALAMARI_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = CALAMARI_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = CALAMARI_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = CALAMARI_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = CALAMARI_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = CALAMARI_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = CALAMARI_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = CALAMARI_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = CALAMARI_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = CALAMARI_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = CALAMARI_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = CALAMARI_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = CALAMARI_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = CALAMARI_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = CALAMARI_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = CALAMARI_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = CALAMARI_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = CALAMARI_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = CALAMARI_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = CALAMARI_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = CALAMARI_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = CALAMARI_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = CALAMARI_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = CALAMARI_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = CALAMARI_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = CALAMARI_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = CALAMARI_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = CALAMARI_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = CALAMARI_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = CALAMARI_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = CALAMARI_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = CALAMARI_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = CALAMARI_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				CALAMARI_CHR_aabatar CALAMARI_CHR_aftab CALAMARI_CHR_gial CALAMARI_CHR_ackli CALAMARI_CHR_adriphar CALAMARI_CHR_mehmet CALAMARI_CHR_ambak CALAMARI_CHR_ambaln CALAMARI_CHR_heff CALAMARI_CHR_baggro CALAMARI_CHR_arikakon CALAMARI_CHR_barani CALAMARI_CHR_basz CALAMARI_CHR_beelyath CALAMARI_CHR_tendaar CALAMARI_CHR_hakaen CALAMARI_CHR_bringe CALAMARI_CHR_bronell CALAMARI_CHR_cam_doen CALAMARI_CHR_ceric CALAMARI_CHR_lejo CALAMARI_CHR_trins CALAMARI_CHR_furan CALAMARI_CHR_ylan CALAMARI_CHR_gar CALAMARI_CHR_raad CALAMARI_CHR_hemi CALAMARI_CHR_gumbrak CALAMARI_CHR_irackant CALAMARI_CHR_kaant CALAMARI_CHR_kelemah CALAMARI_CHR_kindin CALAMARI_CHR_kitomag CALAMARI_CHR_konnari CALAMARI_CHR_kylbar CALAMARI_CHR_lejo CALAMARI_CHR_lemcke CALAMARI_CHR_basz CALAMARI_CHR_gron CALAMARI_CHR_morn CALAMARI_CHR_myrrack CALAMARI_CHR_dol CALAMARI_CHR_chackron CALAMARI_CHR_mussat CALAMARI_CHR_rask CALAMARI_CHR_eekar CALAMARI_CHR_onkya CALAMARI_CHR_rutralli CALAMARI_CHR_oro CALAMARI_CHR_lekek CALAMARI_CHR_rune CALAMARI_CHR_salmakk CALAMARI_CHR_shalmin CALAMARI_CHR_shollan CALAMARI_CHR_sissalik CALAMARI_CHR_ika CALAMARI_CHR_var CALAMARI_CHR_kray_geen CALAMARI_CHR_tanquar CALAMARI_CHR_terpfen CALAMARI_CHR_kamar CALAMARI_CHR_languss CALAMARI_CHR_tuska CALAMARI_CHR_tuz CALAMARI_CHR_ty CALAMARI_CHR_urtya CALAMARI_CHR_vcikas CALAMARI_CHR_nahdar
+			}
+			first_names_female = {
+				CALAMARI_CHR_jesmin CALAMARI_CHR_ahleazah CALAMARI_CHR_akriva CALAMARI_CHR_nyubuna CALAMARI_CHR_caitken CALAMARI_CHR_cilghal CALAMARI_CHR_dembaline CALAMARI_CHR_alin CALAMARI_CHR_bant CALAMARI_CHR_sardeya CALAMARI_CHR_faniel CALAMARI_CHR_monia CALAMARI_CHR_ibtisam CALAMARI_CHR_ishel CALAMARI_CHR_jerga CALAMARI_CHR_kakirk CALAMARI_CHR_lanni CALAMARI_CHR_legassi CALAMARI_CHR_lila CALAMARI_CHR_luen CALAMARI_CHR_amira CALAMARI_CHR_cha CALAMARI_CHR_odanni CALAMARI_CHR_rekara CALAMARI_CHR_zo CALAMARI_CHR_segree CALAMARI_CHR_shonmai CALAMARI_CHR_tekba CALAMARI_CHR_thaneespi CALAMARI_CHR_meena CALAMARI_CHR_howe
+			}
+			second_names = {
+				CALAMARI_CHR_ackbar CALAMARI_CHR_ackdool CALAMARI_CHR_akanseh CALAMARI_CHR_akimbo CALAMARI_CHR_alovar CALAMARI_CHR_andershan CALAMARI_CHR_arboga CALAMARI_CHR_arcon CALAMARI_CHR_ardo CALAMARI_CHR_artoz CALAMARI_CHR_baraka CALAMARI_CHR_bek CALAMARI_CHR_bel CALAMARI_CHR_berooken CALAMARI_CHR_bok CALAMARI_CHR_bousch CALAMARI_CHR_cheb CALAMARI_CHR_daramus CALAMARI_CHR_darnak CALAMARI_CHR_dromios CALAMARI_CHR_ean CALAMARI_CHR_ecklin CALAMARI_CHR_eerin CALAMARI_CHR_eerin CALAMARI_CHR_elemack CALAMARI_CHR_elgrin CALAMARI_CHR_elpfel CALAMARI_CHR_evnar CALAMARI_CHR_faa_char CALAMARI_CHR_felspern CALAMARI_CHR_gahan CALAMARI_CHR_gammack CALAMARI_CHR_genkal CALAMARI_CHR_ghalir CALAMARI_CHR_ghulil CALAMARI_CHR_gingal CALAMARI_CHR_granga CALAMARI_CHR_guarran CALAMARI_CHR_haash_n CALAMARI_CHR_alkiri CALAMARI_CHR_hak CALAMARI_CHR_halabar CALAMARI_CHR_moxz CALAMARI_CHR_husin CALAMARI_CHR_jerrit CALAMARI_CHR_jhemiti CALAMARI_CHR_kalback CALAMARI_CHR_kalbrac CALAMARI_CHR_karbin CALAMARI_CHR_koam CALAMARI_CHR_liddell CALAMARI_CHR_urtya CALAMARI_CHR_maliyu CALAMARI_CHR_marrab CALAMARI_CHR_mell CALAMARI_CHR_merai CALAMARI_CHR_mxil CALAMARI_CHR_nammo CALAMARI_CHR_narlock CALAMARI_CHR_nasplek CALAMARI_CHR_nasrabi CALAMARI_CHR_niathal CALAMARI_CHR_nuukol CALAMARI_CHR_odai CALAMARI_CHR_okara CALAMARI_CHR_oki CALAMARI_CHR_onoma CALAMARI_CHR_optor CALAMARI_CHR_poost CALAMARI_CHR_pzail CALAMARI_CHR_qarl CALAMARI_CHR_raddus CALAMARI_CHR_ragab CALAMARI_CHR_rekush CALAMARI_CHR_rosen CALAMARI_CHR_rotramel CALAMARI_CHR_ryda CALAMARI_CHR_saluc CALAMARI_CHR_sesfan CALAMARI_CHR_sulko CALAMARI_CHR_suthra CALAMARI_CHR_t_ihar CALAMARI_CHR_th_marn CALAMARI_CHR_tills CALAMARI_CHR_toka CALAMARI_CHR_tola CALAMARI_CHR_tralkpha CALAMARI_CHR_tubrimi CALAMARI_CHR_tuno CALAMARI_CHR_vebb CALAMARI_CHR_verrack CALAMARI_CHR_walwahd CALAMARI_CHR_zgorth_sth
+			}
+			regnal_first_names_male = {
+				CALAMARI_CHR_gial CALAMARI_CHR_bek CALAMARI_CHR_bulul CALAMARI_CHR_yos CALAMARI_CHR_ech_char CALAMARI_CHR_lee_char CALAMARI_CHR_lemcke CALAMARI_CHR_eekar CALAMARI_CHR_loci CALAMARI_CHR_urtya
+			}
+			regnal_first_names_female = {
+				CALAMARI_CHR_jesmin CALAMARI_CHR_segree CALAMARI_CHR_ahleazah CALAMARI_CHR_caitken CALAMARI_CHR_cilghal CALAMARI_CHR_cha CALAMARI_CHR_thaneespi CALAMARI_CHR_meena
+			}
+			regnal_second_names = {
+				CALAMARI_CHR_kolina
+			}
+		}
+	}
+}

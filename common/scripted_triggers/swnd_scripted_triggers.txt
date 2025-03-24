@@ -1,0 +1,742 @@
+#Mando Species turning
+#species scope, prev has to be either country or something with an owner
+species_can_be_turned_mando = {
+	NOR = {
+		is_archetype = MACHINE
+		is_archetype = ROBOT
+		is_archetype = PRESAPIENT
+		is_same_species = prev.owner_species
+		has_slavery_type = {
+			type = slavery_livestock
+			country = prev.owner
+		}
+	}
+	species_has_happiness_with_owner = prev.owner
+}
+
+is_normal_country = {
+	is_country_type = default
+}
+
+swnd_capital_buildings = {
+	OR = {
+		has_building = building_colony_shelter
+		has_building = building_capital
+		has_building = building_major_capital
+		has_building = building_system_capital
+		has_building = building_deployment_post
+		has_building = building_machine_capital
+		has_building = building_machine_major_capital
+		has_building = building_machine_system_capital
+		has_building = building_hive_capital
+		has_building = building_hive_major_capital
+		has_building = building_hab_capital
+		has_building = building_hab_major_capital
+		has_building = building_floating_capital
+		has_building = building_floating_major_capital
+		has_building = building_resort_capital
+		has_building = building_resort_major_capital
+		has_building = building_slave_capital
+		has_building = building_slave_major_capital
+	}
+}
+
+is_vanilla_species_class = {
+	OR = {
+		is_species_class = MACHINE
+		is_species_class = HUM
+		is_species_class = MAM
+		is_species_class = REP
+		is_species_class = AVI
+		is_species_class = FUN
+		is_species_class = ART
+		is_species_class = MOL
+		is_species_class = PLANT
+		is_species_class = PLANT
+		is_species_class = AI
+	}
+}
+
+is_human_species_class = {
+	is_species_class = HUM
+	# is_species_class = IMP
+	# is_species_class = REB
+	# is_species_class = HUMAN1
+	# is_species_class = HUMAN2
+	# is_species_class = HUMAN3
+	# is_species_class = HUMAN4
+	# is_species_class = CSA
+	# is_species_class = COR
+	# is_species_class = ORT
+	# is_species_class = ROT
+	# is_species_class = FED
+}
+
+is_biological = {
+	OR = {
+		is_archetype = BIOLOGICAL
+	}
+}
+
+uses_imperial_weapons = {
+	OR = {
+		has_country_flag = galactic_republic
+		has_country_flag = fondor_sector_vassal
+		has_country_flag = naboo_sector_vassal
+		has_country_flag = eriadu_authority
+		has_country_flag = ciutric_hegemony
+	}
+}
+
+uses_rebel_weapons = {
+	OR = {
+		is_species_class = MON
+		is_species_class = PAU
+		is_species_class = CHA
+		is_species_class = VER
+		is_species_class = BOT
+		is_species_class = TWI
+		has_country_flag = senate_loyalists
+		has_country_flag = kingdom_of_alderaan
+		has_country_flag = mon_cala_monarchy
+		has_country_flag = bothan_council
+		has_country_flag = ryloth_protectorate
+		has_country_flag = verpine_enclave
+		has_country_flag = taanab_authority
+		has_country_flag = the_centrality
+		has_country_flag = senex_sector
+		has_country_flag = kingdom_of_onderon
+	}
+}
+
+uses_cis_weapons = {
+	OR = {
+		is_species_class = NEI
+		is_species_class = MUN
+		is_species_class = GOS
+		is_species_class = KOO
+		has_country_flag = confederate_remnant
+		has_country_flag = terminus_sector_vassal
+		has_country_flag = sluis_sector_vassal
+		has_country_flag = trade_federation
+		has_country_flag = banking_clan
+		has_country_flag = tion_hegemony
+		has_country_flag = commerce_guild
+		has_country_flag = corporate_alliance
+		has_country_flag = juvex_sector
+	}
+}
+
+uses_hutt_weapons = {
+	OR = {
+		is_species_class = HUT
+		has_country_flag = hutt_cartel
+	}
+}
+
+uses_mando_weapons = {
+	OR = {
+		is_species_class = MAN
+		has_country_flag = mandalorian_clans
+		has_country_flag = formable_this_is_the_way
+		has_country_flag = formable_mando_crusader
+		has_country_flag = mandalorians_book_of_boba
+		has_country_flag = saxon_khanate
+	}
+}
+
+uses_corellian_weapons = {
+	OR = {
+
+		#is_species_class = HUMAN1
+		is_species_class = CAT
+		is_species_class = ROD
+		is_species_class = KIL
+		is_species_class = FAL
+		is_species_class = ZAB
+		is_species_class = TRA
+		is_species_class = ARK
+		is_species_class = ECH
+		has_country_flag = greater_javin
+		has_country_flag = bakuran_senate
+		has_country_flag = corellian_security
+	}
+}
+
+uses_csa_weapons = {
+	OR = {
+		has_country_flag = corporate_sector_authority
+	}
+}
+
+uses_hapan_weapons = {
+	OR = {
+		is_species_class = HAP
+	}
+}
+
+uses_misc1_y_weapons = {
+	OR = {
+		is_species_class = FAL
+		is_species_class = ZAB
+		is_species_class = TRA
+	}
+}
+
+uses_misc1_b_weapons = {
+	OR = {
+		is_species_class = ARK
+		is_species_class = ECH
+	}
+}
+
+uses_misc2_weapons = {
+	OR = {
+		is_species_class = ZYG
+	}
+}
+
+uses_misc3_weapons = {
+	OR = {
+		is_species_class = KEL
+		is_species_class = PAN
+		is_species_class = CER
+		is_species_class = TII
+		is_species_class = ZEL
+		is_species_class = PAU
+		is_species_class = CHA
+	}
+}
+
+# uses_misc4_weapons = {
+# 	OR = {
+# 		is_species_class = HUMAN4
+# 	}
+# }
+
+uses_chiss_weapons = {
+	OR = {
+		is_species_class = CHS
+	}
+}
+
+has_start_weapon_techs = {
+	OR = {
+		has_technology = tech_weapon_group_imp
+		has_technology = tech_weapon_group_reb
+		has_technology = tech_weapon_group_hut
+		has_technology = tech_weapon_group_man
+		has_technology = tech_weapon_group_cor
+		has_technology = tech_weapon_group_cis
+		has_technology = tech_weapon_group_csa
+		has_technology = tech_weapon_group_hap
+		has_technology = tech_weapon_group_misc1_y
+		has_technology = tech_weapon_group_misc1_b
+		has_technology = tech_weapon_group_misc2
+		has_technology = tech_weapon_group_misc3
+		#has_technology = tech_weapon_group_misc4
+		has_technology = tech_weapon_group_chs
+	}
+}
+
+has_start_fighter_techs = {
+	OR = {
+		has_technology = tech_rebel_fighters_1
+		has_technology = tech_hutt_fighters_1
+		has_technology = tech_mando_fighters_1
+		has_technology = tech_cis_fighters_1
+		has_technology = tech_hapan_fighters_1
+		has_technology = tech_imperial_fighters_1
+	}
+}
+
+has_start_science_ship_techs = {
+	OR = {
+		has_technology = tech_imperial_science
+		has_technology = tech_rebel_science
+		has_technology = tech_hutt_science
+		has_technology = tech_mando_science
+		has_technology = tech_corellian_science
+		has_technology = tech_cis_science
+		has_technology = tech_csa_science
+		has_technology = tech_hapan_science
+		has_technology = tech_misc1_science
+		has_technology = tech_misc2_science
+		has_technology = tech_misc3_science
+		#has_technology = tech_misc4_science
+		has_technology = tech_chiss_science
+	}
+}
+
+xenophile_country_traditions = {
+	OR = {
+		has_ethic = ethic_fanatic_xenophile
+		has_ethic = ethic_xenophile
+	}
+	NOR = {
+		has_authority = auth_machine_intelligence
+		has_authority = auth_hive_mind
+		has_valid_civic = civic_fanatic_purifiers
+		has_valid_civic = civic_inwards_perfection
+		has_valid_civic = civic_hive_devouring_swarm
+		has_valid_civic = civic_barbaric_despoilers
+	}
+}
+
+pacifist_country_traditions = {
+	OR = {
+		has_ethic = ethic_fanatic_pacifist
+		has_ethic = ethic_pacifist
+	}
+	NOR = {
+		has_country_flag = hutt_cartel
+		has_country_flag = black_sun_organization
+		has_authority = auth_machine_intelligence
+		has_authority = auth_hive_mind
+	}
+}
+
+egalitarian_country_traditions = {
+	OR = {
+		has_ethic = ethic_fanatic_egalitarian
+		has_ethic = ethic_egalitarian
+	}
+}
+
+materialist_country_traditions = {
+	OR = {
+		has_ethic = ethic_fanatic_materialist
+		has_ethic = ethic_materialist
+		is_megacorp = yes
+	}
+	NOR = {
+		has_authority = auth_machine_intelligence
+		has_authority = auth_hive_mind
+	}
+}
+
+has_glory_traditions = {
+	OR = {
+		has_ethic = ethic_authoritarian
+		has_ethic = ethic_fanatic_authoritarian
+	}
+	NOR = {
+		has_ethic = ethic_fanatic_materialist
+		has_ethic = ethic_materialist
+		is_megacorp = yes
+		has_authority = auth_machine_intelligence
+		has_authority = auth_hive_mind
+	}
+}
+
+spiritualist_country_traditions = {
+	OR = {
+		has_ethic = ethic_fanatic_spiritualist
+		has_ethic = ethic_spiritualist
+	}
+	NOR = {
+		has_country_flag = zabrak_council
+		has_country_flag = chalactan_council
+		has_country_flag = cerean_council
+		has_country_flag = bothan_council
+		has_authority = auth_hive_mind
+		has_authority = auth_machine_intelligence
+	}
+}
+
+council_country_traditions = {
+	OR = {
+		has_country_flag = zabrak_council
+		has_country_flag = chalactan_council
+		has_country_flag = cerean_council
+		has_country_flag = bothan_council
+	}
+	NOR = {
+		has_country_flag = galactic_empire
+		has_authority = auth_hive_mind
+		has_authority = auth_machine_intelligence
+	}
+}
+
+xenophobe_country_traditions = {
+	OR = {
+		has_ethic = ethic_fanatic_xenophobe
+		has_ethic = ethic_xenophobe
+		is_criminal_syndicate = yes
+	}
+	NOR = {
+		has_country_flag = senate_loyalists
+		has_country_flag = rebel_alliance
+		has_country_flag = hutt_cartel
+		has_country_flag = mandalorians_book_of_boba
+		has_valid_civic = civic_fanatic_purifiers
+		has_valid_civic = civic_inwards_perfection
+		has_valid_civic = civic_hive_devouring_swarm
+		has_valid_civic = civic_barbaric_despoilers
+		has_authority = auth_hive_mind
+		has_authority = auth_machine_intelligence
+	}
+}
+
+is_habitat_empire_tradition = {
+	OR = {
+		has_valid_civic = civic_trade_federation
+		has_valid_civic = civic_black_sun
+		has_country_flag = verpine_enclave
+	}
+	NOR = {
+		has_country_flag = senate_loyalists
+		has_country_flag = rebel_alliance
+		has_authority = auth_hive_mind
+		has_authority = auth_machine_intelligence
+	}
+}
+
+swp_random_maps = {
+	has_global_flag = swp_random_map
+}
+
+is_swp_fallen_empire = {
+	OR = {
+		has_country_flag = hapes_consortium
+		has_country_flag = killik_colony
+		has_country_flag = chiss_ascendancy
+	}
+	is_ai = yes
+}
+
+# is_dark_side = {
+# 	has_country_flag = is_dark_side
+# }
+# is_light_side = {
+# 	has_country_flag = is_light_side
+# }
+has_access_to_empire_focus = {
+	OR = {
+		has_ethic = ethic_fanatic_egalitarian
+		has_ethic = ethic_fanatic_materialist
+		has_ethic = ethic_fanatic_pacifist
+		has_ethic = ethic_fanatic_spiritualist
+		has_ethic = ethic_fanatic_authoritarian
+		has_ethic = ethic_fanatic_xenophile
+		has_ethic = ethic_fanatic_xenophobe
+	}
+}
+
+is_advanced_force_user = {
+	OR = {
+		has_trait = leader_trait_swp_force_sensitive
+		has_trait = leader_trait_swp_jedi_admiral
+		has_trait = leader_trait_swp_jedi_scientist
+		has_trait = leader_trait_swp_jedi_governor
+		has_trait = leader_trait_swp_jedi_general
+		has_trait = leader_trait_swp_sith_admiral
+		has_trait = leader_trait_swp_sith_scientist
+		has_trait = leader_trait_swp_sith_general
+		has_trait = leader_trait_swp_sith_governor
+		has_trait = leader_trait_swp_jedi_master
+		has_trait = leader_trait_swp_sith_lord
+		has_trait = trait_ruler_swp_palpatine
+		has_trait = leader_trait_swp_inquisitor
+		has_trait = leader_trait_swp_grand_inquisitor
+		has_trait = leader_trait_swp_vader
+	}
+}
+
+is_leader_sith = {
+	OR = {
+		has_trait = leader_trait_swp_sith_admiral
+		has_trait = leader_trait_swp_sith_scientist
+		has_trait = leader_trait_swp_sith_general
+		has_trait = leader_trait_swp_sith_governor
+	}
+}
+
+is_leader_jedi = {
+	OR = {
+		has_trait = leader_trait_swp_jedi_admiral
+		has_trait = leader_trait_swp_jedi_scientist
+		has_trait = leader_trait_swp_jedi_governor
+		has_trait = leader_trait_swp_jedi_general
+	}
+}
+
+has_barren_digsite_discovered = {
+	AND = {
+		has_global_flag = cis_outpost_discovered
+		has_global_flag = old_republic_cruiser_discovered
+		has_global_flag = sith_cruiser_discovered
+	}
+}
+
+should_be_part_of_the_first_galactic_empire_federation = {
+	OR = {
+	}
+}
+
+is_canon_map = {
+	OR = {
+		galaxy_size = swnd_canon_huge_map
+		galaxy_size = swnd_canon_large_map
+		galaxy_size = swnd_canon_medium_map
+		galaxy_size = swnd_canon_small_map
+		has_global_flag = canon_map_spawned
+	}
+}
+
+is_sandbox_map = {
+	OR = {
+		galaxy_size = swnd_sandbox_huge_map
+		galaxy_size = swnd_sandbox_large_map
+		galaxy_size = swnd_sandbox_medium_map
+		galaxy_size = swnd_sandbox_small_map
+		has_global_flag = non_canon_map_spawned
+	}
+}
+
+is_republic_era = {
+	has_global_flag = republic_era
+}
+
+is_imperial_era = {
+	has_global_flag = imperial_era
+}
+
+is_rebellion_era = {
+	has_global_flag = rebellion_era
+}
+
+is_normal_starbase = {
+    OR = {
+        has_starbase_size = starbase_outpost
+        has_starbase_size = starbase_starfortress
+        has_starbase_size = starbase_starhold
+        has_starbase_size = starbase_starport
+        has_starbase_size = starbase_citadel
+    }
+}
+
+#Jedi or Sith
+has_JS_relic = {
+	owner = {
+		OR = {
+			has_relic = r_jedi_holocron
+			has_relic = r_sith_holocron
+			has_relic = r_sith_holocron_nox
+			has_relic = r_jedi_books
+			has_relic = r_jedi_database
+		}
+	}
+}
+
+is_rebel_federation_member = {
+	has_federation = yes
+	federation = {
+		has_federation_type = swp_rebel_federation
+	}
+}
+
+is_in_federation_with_loyalists = {
+	has_federation = yes
+	is_in_federation_with = event_target:senate_loyalists
+}
+
+has_compound_country_adjective = {
+	OR = {
+		has_country_flag = banking_clan
+		has_country_flag = cathar_principality
+		has_country_flag = cerean_council
+		has_country_flag = commerce_guild
+		has_country_flag = corporate_alliance
+		has_country_flag = echani_command
+		has_country_flag = hutt_cartel
+		has_country_flag = mon_cala_monarchy
+		has_country_flag = pantoran_assembly
+		has_country_flag = the_centrality
+		has_country_flag = senate_loyalists
+		has_country_flag = trade_federation
+	}
+}
+
+is_swp_starting_empire = {
+	OR = {
+		has_country_flag = galactic_republic
+		has_country_flag = senate_loyalists
+		has_country_flag = rebel_alliance
+		has_country_flag = hutt_cartel
+		has_country_flag = mandalorian_clans
+		has_country_flag = corporate_sector_authority
+		has_country_flag = corellian_security
+		has_country_flag = hapes_consortium
+		has_country_flag = bothan_council
+		has_country_flag = confederate_remnant
+		has_country_flag = the_centrality
+		has_country_flag = greater_javin
+		has_country_flag = juvex_sector
+		has_country_flag = senex_sector
+		has_country_flag = echani_command
+		has_country_flag = trade_federation
+		has_country_flag = bakuran_senate
+		has_country_flag = tion_hegemony
+		has_country_flag = zygerrian_slave_state
+		has_country_flag = banking_clan
+		has_country_flag = kingdom_of_alderaan
+		has_country_flag = arkanian_dominion
+		has_country_flag = cathar_principality
+		has_country_flag = trianii_territory
+		has_country_flag = rodian_clans
+		has_country_flag = zabrak_council
+		has_country_flag = taanab_authority
+		has_country_flag = trandoshan_tribes
+		has_country_flag = black_sun_organization
+		has_country_flag = ryloth_protectorate
+		has_country_flag = kingdom_of_zeltros
+		has_country_flag = kingdom_of_onderon
+		has_country_flag = mon_cala_monarchy
+		has_country_flag = dorin_commonwealth
+		has_country_flag = utapauan_committee
+		has_country_flag = pantoran_assembly
+		has_country_flag = commerce_guild
+		has_country_flag = ciutric_hegemony
+		has_country_flag = chalactan_council
+		has_country_flag = eriadu_authority
+		has_country_flag = corporate_alliance
+		has_country_flag = cerean_council
+		has_country_flag = killik_colony
+		has_country_flag = verpine_enclave
+		has_country_flag = chiss_ascendancy
+	}
+}
+
+no_disease_traits = {
+	OR = {
+		has_trait = leader_trait_swp_sith_admiral
+		has_trait = leader_trait_swp_sith_scientist
+		has_trait = leader_trait_swp_sith_general
+		has_trait = leader_trait_swp_sith_governor
+		has_trait = leader_trait_swp_jedi_admiral
+		has_trait = leader_trait_swp_jedi_scientist
+		has_trait = leader_trait_swp_jedi_governor
+		has_trait = leader_trait_swp_jedi_general
+		has_trait = trait_ruler_swp_palpatine
+		has_trait = trait_ruler_swp_faction_head
+		has_trait = leader_trait_swp_vader
+		has_trait = leader_trait_swp_important
+	}
+}
+
+# can_join_factions = {
+#	is_shackled_robot = no
+# 	NOT = { has_trait = trait_nerve_stapled }
+# }
+
+has_ruler_job = {
+	OR = {
+		is_pop_category = ruler
+	}
+}
+
+has_state_security_job = {
+	OR = {
+		has_job = enforcer
+		has_job = slave_overseer
+	}
+}
+has_state_command_job = {
+	OR = {
+		has_job = soldier
+		has_job = resolnare
+	}
+}
+
+##############
+# Mando Clan stuff
+##############
+can_join_mando_clan_faction = { # can_join_great_house_faction
+	is_species_class = MAN
+	exists = owner
+	owner = {
+		OR = {
+			has_valid_civic = civic_mandalorian
+			has_valid_civic = civic_mandalorian_khanate
+			has_valid_civic = civic_mandalorian_creed
+			has_valid_civic = civic_mandalorian_boba
+		}
+		NOT = {
+			has_country_flag = "suppress_mando_clans"
+		}
+	}
+}
+
+has_mando_clan_factions = { # has_great_house_factions
+	OR = {
+		has_valid_civic = civic_mandalorian
+		has_valid_civic = civic_mandalorian_khanate
+		has_valid_civic = civic_mandalorian_creed
+		has_valid_civic = civic_mandalorian_boba
+	}
+	is_subject = no
+}
+
+#supports_another_mando_clan = { # supports_another_great_house
+#	check_variable = { which = mandoClanMax value >= 1 }
+#}
+
+is_mando_clan_faction = { #is_great_house_faction
+	OR = {
+		is_pop_faction_type = swnd_mando_cl_wren
+		is_pop_faction_type = swnd_mando_cl_kryze
+		is_pop_faction_type = swnd_mando_cl_saxon
+		is_pop_faction_type = swnd_mando_cl_vizsla
+		is_pop_faction_type = swnd_mando_cl_protectors
+		is_pop_faction_type = swnd_mando_cl_rook
+		is_pop_faction_type = swnd_mando_cl_awaud
+		is_pop_faction_type = swnd_mando_cl_ordo
+		is_pop_faction_type = swnd_mando_cl_tribe
+		is_pop_faction_type = swnd_mando_cl_fett
+	}
+}
+
+clan_has_sufficient_lands = { #house_has_sufficient_lands
+	has_pop_faction_flag = has_sufficient_lands
+}
+
+is_ruling_clan_faction = { # is_ruling_house_faction
+    owner = {
+        any_owned_leader = {
+            is_ruler = yes
+            has_leader_flag = "clan_leader_for_faction:@prevprev"
+        }
+    }
+}
+
+is_mando_clan_country = { # is_great_house_country
+	OR = {
+		is_country_type = mando_clan
+	}
+}
+
+has_mando_clan_room = {
+	OR = {
+		has_leader_flag = clanSecondLeader
+		has_leader_flag = swnd_mando_cl_kryze
+		has_leader_flag = swnd_mando_cl_wren
+		has_leader_flag = swnd_mando_cl_saxon
+		has_leader_flag = swnd_mando_cl_vizsla
+		has_leader_flag = swnd_mando_cl_protectors
+		has_leader_flag = swnd_mando_cl_rook
+		has_leader_flag = swnd_mando_cl_awaud
+		has_leader_flag = swnd_mando_cl_ordo
+		has_leader_flag = swnd_mando_cl_tribe
+		has_leader_flag = swnd_mando_cl_fett
+	}
+}
+
+##### MichaelMakesGames Compat #####
+shrimpai_active = { 
+	always = no
+}
+
+swnd_has_gateway = {
+  has_megastructure = swp_gateway_1
+}

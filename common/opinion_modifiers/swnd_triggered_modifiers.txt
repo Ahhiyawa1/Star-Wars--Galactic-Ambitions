@@ -1,0 +1,45 @@
+# Mandalorian Clans with Mando Empire
+#triggered_mando_clans = { #triggered_great_houses
+#	trigger = {
+#		from = {
+#			OR = {
+#				has_valid_civic = civic_mandalorian
+#				has_valid_civic = civic_mandalorian_creed
+#				has_valid_civic = civic_mandalorian_boba
+#				has_valid_civic = civic_mandalorian_khanate
+#			}
+#		} #From = Mandalorian Empire
+#		has_valid_civic = civic_mandalorian_clans
+#	}
+#	opinion = { base = 100 }
+#}
+
+# Khanate with Mandos
+triggered_mando_khanate = {
+	trigger = {
+		from = { has_valid_civic = civic_mandalorian }
+		has_valid_civic = civic_mandalorian_khanate
+	}
+	opinion = { base = -2000 }
+}
+
+# Khanate with Empire
+triggered_mando_khanate_1 = {
+	trigger = {
+		from = { has_valid_civic = civic_new_order }
+		has_valid_civic = civic_mandalorian_khanate
+	}
+	opinion = { base = 200 }
+}
+
+# Mandalorian Clans with Mando Empire over Enforcer Event
+triggered_mando_clans_enforcers = {
+	trigger = {
+		from = { 
+			has_country_flag = refused_empire_enforcers
+			has_valid_civic = civic_mandalorian 
+		} #From = Mandalorian Empire
+		has_valid_civic = civic_mandalorian_clans
+	}
+	opinion = { base = 50 }
+}

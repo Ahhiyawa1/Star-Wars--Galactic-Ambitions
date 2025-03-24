@@ -1,0 +1,844 @@
+﻿Zeltron = {
+	randomized = no
+	ship_names = {
+		generic = {
+			ZELTRON_SHIP_mystic ZELTRON_SHIP_naiad ZELTRON_SHIP_nautilus ZELTRON_SHIP_nebula ZELTRON_SHIP_nimble ZELTRON_SHIP_north_star ZELTRON_SHIP_nymph ZELTRON_SHIP_obdurate ZELTRON_SHIP_ocean ZELTRON_SHIP_onward ZELTRON_SHIP_oracle ZELTRON_SHIP_paradox ZELTRON_SHIP_paragon ZELTRON_SHIP_pearl ZELTRON_SHIP_peregrine ZELTRON_SHIP_perseverance ZELTRON_SHIP_marksman ZELTRON_SHIP_rifleman ZELTRON_SHIP_sniper ZELTRON_SHIP_trident ZELTRON_SHIP_trumpet ZELTRON_SHIP_truncheon ZELTRON_SHIP_typhoon ZELTRON_SHIP_undaunted ZELTRON_SHIP_venture ZELTRON_SHIP_versatile ZELTRON_SHIP_vigorous ZELTRON_SHIP_viper ZELTRON_SHIP_vivacious ZELTRON_SHIP_winger ZELTRON_SHIP_wizard ZELTRON_SHIP_wyvern ZELTRON_SHIP_wolfhound ZELTRON_SHIP_devastator ZELTRON_SHIP_warhammer ZELTRON_SHIP_retribution ZELTRON_SHIP_senator ZELTRON_SHIP_tornado ZELTRON_SHIP_infinity ZELTRON_SHIP_usurper ZELTRON_SHIP_utmost ZELTRON_SHIP_valorous ZELTRON_SHIP_whirlwind ZELTRON_SHIP_athena ZELTRON_SHIP_artemis ZELTRON_SHIP_vigilance ZELTRON_SHIP_decimator ZELTRON_SHIP_indomitable ZELTRON_SHIP_goliath ZELTRON_SHIP_sentinel ZELTRON_SHIP_brilliant ZELTRON_SHIP_blazer ZELTRON_SHIP_audacity ZELTRON_SHIP_gallant ZELTRON_SHIP_nova ZELTRON_SHIP_shadow ZELTRON_SHIP_allegiance ZELTRON_SHIP_challenger ZELTRON_SHIP_fearless ZELTRON_SHIP_protector ZELTRON_SHIP_guardian ZELTRON_SHIP_victorious ZELTRON_SHIP_courageous ZELTRON_SHIP_defiance ZELTRON_SHIP_valorous ZELTRON_SHIP_azrael ZELTRON_SHIP_adamantine ZELTRON_SHIP_aralanni ZELTRON_SHIP_ardent_iv ZELTRON_SHIP_armistice ZELTRON_SHIP_avengeance ZELTRON_SHIP_ballista ZELTRON_SHIP_bloodstripe ZELTRON_SHIP_borealis ZELTRON_SHIP_caelus ZELTRON_SHIP_caravan ZELTRON_SHIP_chaf_envoy ZELTRON_SHIP_commenor ZELTRON_SHIP_corbantis ZELTRON_SHIP_corellia ZELTRON_SHIP_courteous ZELTRON_SHIP_dauntless ZELTRON_SHIP_defiant ZELTRON_SHIP_deliverance ZELTRON_SHIP_derapha ZELTRON_SHIP_devout ZELTRON_SHIP_empirical ZELTRON_SHIP_empyrean ZELTRON_SHIP_era_daimanos ZELTRON_SHIP_eye_of_the_storm ZELTRON_SHIP_farstar ZELTRON_SHIP_fastblast ZELTRON_SHIP_galaaron ZELTRON_SHIP_garrote ZELTRON_SHIP_gilagimar ZELTRON_SHIP_halleck ZELTRON_SHIP_hunter ZELTRON_SHIP_intractable ZELTRON_SHIP_ithor_lady ZELTRON_SHIP_justice_crusader ZELTRON_SHIP_kana_s_steel ZELTRON_SHIP_lathir ZELTRON_SHIP_liberty ZELTRON_SHIP_lillibanca ZELTRON_SHIP_maelstrom ZELTRON_SHIP_malachite_scent ZELTRON_SHIP_mercy ZELTRON_SHIP_myrkos ZELTRON_SHIP_nebula_chaser ZELTRON_SHIP_nova ZELTRON_SHIP_nova_viper ZELTRON_SHIP_obedience ZELTRON_SHIP_olemp ZELTRON_SHIP_pegasus ZELTRON_SHIP_perspicacity ZELTRON_SHIP_phalanx ZELTRON_SHIP_plooriod_bodkin ZELTRON_SHIP_predominance ZELTRON_SHIP_prosperity ZELTRON_SHIP_purity ZELTRON_SHIP_recalcitrant ZELTRON_SHIP_red_nova ZELTRON_SHIP_redma ZELTRON_SHIP_reliable ZELTRON_SHIP_reliant ZELTRON_SHIP_reluctant ZELTRON_SHIP_republic ZELTRON_SHIP_republic_s_return ZELTRON_SHIP_resolve ZELTRON_SHIP_respectable ZELTRON_SHIP_revenge ZELTRON_SHIP_shadowblade ZELTRON_SHIP_spritespray ZELTRON_SHIP_star_dream ZELTRON_SHIP_stark_wing ZELTRON_SHIP_starveil ZELTRON_SHIP_undying ZELTRON_SHIP_vaathkree ZELTRON_SHIP_vainglorious ZELTRON_SHIP_valiant ZELTRON_SHIP_valor ZELTRON_SHIP_vanquisher ZELTRON_SHIP_vinsor ZELTRON_SHIP_visseon ZELTRON_SHIP_wennis ZELTRON_SHIP_yavin_s_glory ZELTRON_SHIP_moldy_crow ZELTRON_SHIP_raven_s_claw ZELTRON_SHIP_agile ZELTRON_SHIP_archer ZELTRON_SHIP_arrow ZELTRON_SHIP_bruiser ZELTRON_SHIP_cherub ZELTRON_SHIP_chimera ZELTRON_SHIP_claymore ZELTRON_SHIP_broadsword ZELTRON_SHIP_battleaxe ZELTRON_SHIP_crossbow ZELTRON_SHIP_cutlass ZELTRON_SHIP_deterrent ZELTRON_SHIP_errant ZELTRON_SHIP_faithful ZELTRON_SHIP_fierce ZELTRON_SHIP_gladius ZELTRON_SHIP_longbow ZELTRON_SHIP_grappler ZELTRON_SHIP_hammer ZELTRON_SHIP_vampire ZELTRON_SHIP_velox ZELTRON_SHIP_venator ZELTRON_SHIP_vendetta ZELTRON_SHIP_venerable ZELTRON_SHIP_venomous ZELTRON_SHIP_taciturn ZELTRON_SHIP_supreme ZELTRON_SHIP_success ZELTRON_SHIP_shredder ZELTRON_SHIP_seraph ZELTRON_SHIP_serpent ZELTRON_SHIP_spitfire ZELTRON_SHIP_stalker ZELTRON_SHIP_stratagem ZELTRON_SHIP_scimitar ZELTRON_SHIP_scorcher ZELTRON_SHIP_scourge ZELTRON_SHIP_scythe ZELTRON_SHIP_revenant ZELTRON_SHIP_redoubtable ZELTRON_SHIP_raptor ZELTRON_SHIP_reaver ZELTRON_SHIP_prodigal ZELTRON_SHIP_rapier ZELTRON_SHIP_prudent ZELTRON_SHIP_persistent ZELTRON_SHIP_peerless ZELTRON_SHIP_myrmidon ZELTRON_SHIP_indignant ZELTRON_SHIP_javelin ZELTRON_SHIP_knight ZELTRON_SHIP_starwolf ZELTRON_SHIP_bonaventure ZELTRON_SHIP_adventure ZELTRON_SHIP_boxer ZELTRON_SHIP_buccaneer ZELTRON_SHIP_cavalier ZELTRON_SHIP_celestial ZELTRON_SHIP_chariot ZELTRON_SHIP_comet ZELTRON_SHIP_crucible ZELTRON_SHIP_cyclone ZELTRON_SHIP_decisive ZELTRON_SHIP_dexterous ZELTRON_SHIP_diadem ZELTRON_SHIP_earnest ZELTRON_SHIP_eclipse ZELTRON_SHIP_forger ZELTRON_SHIP_fortune ZELTRON_SHIP_gauntlet ZELTRON_SHIP_griffin ZELTRON_SHIP_horizon ZELTRON_SHIP_hotspur ZELTRON_SHIP_hurricane ZELTRON_SHIP_hussar ZELTRON_SHIP_jubilant ZELTRON_SHIP_lancer ZELTRON_SHIP_lightning ZELTRON_SHIP_magic ZELTRON_SHIP_mediator ZELTRON_SHIP_mermaid ZELTRON_SHIP_meteor ZELTRON_SHIP_minstrel ZELTRON_SHIP_miranda ZELTRON_SHIP_mustang ZELTRON_SHIP_sharpshooter ZELTRON_SHIP_cyclops ZELTRON_SHIP_centaur ZELTRON_SHIP_adversary ZELTRON_SHIP_assassin ZELTRON_SHIP_dagger ZELTRON_SHIP_daring ZELTRON_SHIP_duty ZELTRON_SHIP_havoc ZELTRON_SHIP_hero ZELTRON_SHIP_hunter ZELTRON_SHIP_justice ZELTRON_SHIP_impeccable ZELTRON_SHIP_interceptor ZELTRON_SHIP_infernal ZELTRON_SHIP_loyal ZELTRON_SHIP_matchless ZELTRON_SHIP_mauler ZELTRON_SHIP_mayhem ZELTRON_SHIP_malice ZELTRON_SHIP_menace ZELTRON_SHIP_merciless ZELTRON_SHIP_mischief ZELTRON_SHIP_monarch ZELTRON_SHIP_patriot ZELTRON_SHIP_predator ZELTRON_SHIP_powerful ZELTRON_SHIP_punisher ZELTRON_SHIP_ravager ZELTRON_SHIP_reaper ZELTRON_SHIP_savage ZELTRON_SHIP_spiteful ZELTRON_SHIP_templar ZELTRON_SHIP_terminator ZELTRON_SHIP_terror ZELTRON_SHIP_thrasher ZELTRON_SHIP_minotaur ZELTRON_SHIP_manticore ZELTRON_SHIP_interdictor ZELTRON_SHIP_intruder ZELTRON_SHIP_hydra ZELTRON_SHIP_enfield ZELTRON_SHIP_harasser ZELTRON_SHIP_unbeaten ZELTRON_SHIP_werewolf ZELTRON_SHIP_zealous ZELTRON_SHIP_petulant ZELTRON_SHIP_phantom ZELTRON_SHIP_phoenix ZELTRON_SHIP_pike ZELTRON_SHIP_pursuer ZELTRON_SHIP_raider ZELTRON_SHIP_rainbow ZELTRON_SHIP_rapid ZELTRON_SHIP_redemption ZELTRON_SHIP_relentless ZELTRON_SHIP_rigorous ZELTRON_SHIP_robust ZELTRON_SHIP_sabre ZELTRON_SHIP_salvation ZELTRON_SHIP_sanguine ZELTRON_SHIP_scarab ZELTRON_SHIP_scepter ZELTRON_SHIP_sea_witch ZELTRON_SHIP_siren ZELTRON_SHIP_sorceress ZELTRON_SHIP_spearhead ZELTRON_SHIP_specter ZELTRON_SHIP_spirit ZELTRON_SHIP_splendid ZELTRON_SHIP_stallion ZELTRON_SHIP_stalwart ZELTRON_SHIP_steadfast ZELTRON_SHIP_strenuous ZELTRON_SHIP_superb ZELTRON_SHIP_supernova ZELTRON_SHIP_surprise ZELTRON_SHIP_swiftsure ZELTRON_SHIP_talent ZELTRON_SHIP_talisman ZELTRON_SHIP_talon ZELTRON_SHIP_taurus ZELTRON_SHIP_tenacious ZELTRON_SHIP_thunder_child ZELTRON_SHIP_thunderous ZELTRON_SHIP_tireless ZELTRON_SHIP_trenchant ZELTRON_SHIP_righteous ZELTRON_SHIP_acheron ZELTRON_SHIP_achilles ZELTRON_SHIP_agamemnon ZELTRON_SHIP_amphion ZELTRON_SHIP_aquilon ZELTRON_SHIP_argonaut ZELTRON_SHIP_argus ZELTRON_SHIP_ariel ZELTRON_SHIP_aurora ZELTRON_SHIP_avernus ZELTRON_SHIP_bacchus ZELTRON_SHIP_bucephalus ZELTRON_SHIP_calliope ZELTRON_SHIP_calypso ZELTRON_SHIP_castor ZELTRON_SHIP_charybdis ZELTRON_SHIP_circe ZELTRON_SHIP_cleopatra ZELTRON_SHIP_constantine ZELTRON_SHIP_cordelia ZELTRON_SHIP_cyrus ZELTRON_SHIP_damocles ZELTRON_SHIP_daedalus ZELTRON_SHIP_darius ZELTRON_SHIP_diomede ZELTRON_SHIP_dryad ZELTRON_SHIP_electra ZELTRON_SHIP_endymion ZELTRON_SHIP_erebus ZELTRON_SHIP_fenris ZELTRON_SHIP_freya ZELTRON_SHIP_gilgamesh ZELTRON_SHIP_gorgon ZELTRON_SHIP_halcyon ZELTRON_SHIP_hecate ZELTRON_SHIP_hector ZELTRON_SHIP_hesperus ZELTRON_SHIP_janus ZELTRON_SHIP_jason ZELTRON_SHIP_juno ZELTRON_SHIP_jupiter ZELTRON_SHIP_lancelot ZELTRON_SHIP_lazarus ZELTRON_SHIP_leander ZELTRON_SHIP_leonidas ZELTRON_SHIP_lysander ZELTRON_SHIP_maenad ZELTRON_SHIP_mars ZELTRON_SHIP_medea ZELTRON_SHIP_medusa ZELTRON_SHIP_menestheus ZELTRON_SHIP_mercury ZELTRON_SHIP_merlin ZELTRON_SHIP_minerva ZELTRON_SHIP_minos ZELTRON_SHIP_neptune ZELTRON_SHIP_nessus ZELTRON_SHIP_nestor ZELTRON_SHIP_nimrod ZELTRON_SHIP_niobe ZELTRON_SHIP_oberon ZELTRON_SHIP_odin ZELTRON_SHIP_ophelia ZELTRON_SHIP_orestes ZELTRON_SHIP_orpheus ZELTRON_SHIP_osiris ZELTRON_SHIP_pandora ZELTRON_SHIP_penelope ZELTRON_SHIP_persephone ZELTRON_SHIP_perseus ZELTRON_SHIP_phoebe ZELTRON_SHIP_pluto ZELTRON_SHIP_poseidon ZELTRON_SHIP_proteus ZELTRON_SHIP_pylades ZELTRON_SHIP_serapis ZELTRON_SHIP_stygian ZELTRON_SHIP_tantalus ZELTRON_SHIP_telemachus ZELTRON_SHIP_theseus ZELTRON_SHIP_thor ZELTRON_SHIP_trajan ZELTRON_SHIP_triton ZELTRON_SHIP_venus ZELTRON_SHIP_adamant ZELTRON_SHIP_ardent ZELTRON_SHIP_assail ZELTRON_SHIP_austere ZELTRON_SHIP_archon ZELTRON_SHIP_adroit ZELTRON_SHIP_aegis ZELTRON_SHIP_anchor ZELTRON_SHIP_corsair ZELTRON_SHIP_banshee ZELTRON_SHIP_enchantress ZELTRON_SHIP_eradicator ZELTRON_SHIP_tormentor ZELTRON_SHIP_legion ZELTRON_SHIP_reprisal ZELTRON_SHIP_aggressor ZELTRON_SHIP_assault ZELTRON_SHIP_eviscerator ZELTRON_SHIP_imperator ZELTRON_SHIP_excellence ZELTRON_SHIP_unrivalled ZELTRON_SHIP_warlord ZELTRON_SHIP_vengeance ZELTRON_SHIP_triumphant ZELTRON_SHIP_nemesis ZELTRON_SHIP_avenger ZELTRON_SHIP_champion ZELTRON_SHIP_conqueror ZELTRON_SHIP_crusader ZELTRON_SHIP_glory ZELTRON_SHIP_immortal ZELTRON_SHIP_judicator ZELTRON_SHIP_vanguard ZELTRON_SHIP_renown ZELTRON_SHIP_demolisher ZELTRON_SHIP_dragon ZELTRON_SHIP_executor ZELTRON_SHIP_furious ZELTRON_SHIP_gladiator ZELTRON_SHIP_magnificent ZELTRON_SHIP_ogre ZELTRON_SHIP_onslaught ZELTRON_SHIP_revenge ZELTRON_SHIP_vanquisher ZELTRON_SHIP_vehement ZELTRON_SHIP_basilisk ZELTRON_SHIP_tempest ZELTRON_SHIP_overlord ZELTRON_SHIP_warrior ZELTRON_SHIP_titan ZELTRON_SHIP_colossus ZELTRON_SHIP_prometheus ZELTRON_SHIP_nike ZELTRON_SHIP_paladin ZELTRON_SHIP_sovereign ZELTRON_SHIP_repulse ZELTRON_SHIP_majestic ZELTRON_SHIP_avatar ZELTRON_SHIP_behemoth ZELTRON_SHIP_centurion ZELTRON_SHIP_citadel ZELTRON_SHIP_katana ZELTRON_SHIP_kraken ZELTRON_SHIP_cerberus ZELTRON_SHIP_valkyrie
+		}
+		swp_bellator = {
+			ZELTRON_SHIP_dreadnought ZELTRON_SHIP_harbinger ZELTRON_SHIP_juggernaut ZELTRON_SHIP_leviathan ZELTRON_SHIP_hyperion ZELTRON_SHIP_galatea ZELTRON_SHIP_ambush ZELTRON_SHIP_vindicator
+		}
+		science = {
+			ZELTRON_SHIP_crescent ZELTRON_SHIP_diligent ZELTRON_SHIP_zephyr ZELTRON_SHIP_enigma ZELTRON_SHIP_conquistador ZELTRON_SHIP_scylla ZELTRON_SHIP_arbiter ZELTRON_SHIP_asperity ZELTRON_SHIP_eminence ZELTRON_SHIP_astute ZELTRON_SHIP_alacrity ZELTRON_SHIP_satyr ZELTRON_SHIP_prospero ZELTRON_SHIP_untiring ZELTRON_SHIP_zenith ZELTRON_SHIP_torch ZELTRON_SHIP_remembrance ZELTRON_SHIP_pilgrim ZELTRON_SHIP_trailblazer ZELTRON_SHIP_vagabond ZELTRON_SHIP_wayfarer ZELTRON_SHIP_ambassador ZELTRON_SHIP_emissary ZELTRON_SHIP_nomad ZELTRON_SHIP_pathfinder ZELTRON_SHIP_wanderer ZELTRON_SHIP_traveler
+		}
+		colonizer = {
+			ZELTRON_SHIP_godspeed ZELTRON_SHIP_prophecy ZELTRON_SHIP_manifest_destiny ZELTRON_SHIP_virtue ZELTRON_SHIP_potential ZELTRON_SHIP_expansion ZELTRON_SHIP_pioneer_spirit ZELTRON_SHIP_prosperity ZELTRON_SHIP_summit ZELTRON_SHIP_pinnacle ZELTRON_SHIP_seeder ZELTRON_SHIP_harvest ZELTRON_SHIP_demeter ZELTRON_SHIP_isis ZELTRON_SHIP_ceres ZELTRON_SHIP_exodus ZELTRON_SHIP_foundation ZELTRON_SHIP_scion ZELTRON_SHIP_progeny ZELTRON_SHIP_obligation ZELTRON_SHIP_purpose ZELTRON_SHIP_provider ZELTRON_SHIP_shining_city ZELTRON_SHIP_acquirer ZELTRON_SHIP_cultivator ZELTRON_SHIP_dawn_of_civilization ZELTRON_SHIP_purity ZELTRON_SHIP_community ZELTRON_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			ZELTRON_SHIP_godspeed ZELTRON_SHIP_prophecy ZELTRON_SHIP_manifest_destiny ZELTRON_SHIP_virtue ZELTRON_SHIP_potential ZELTRON_SHIP_expansion ZELTRON_SHIP_pioneer_spirit ZELTRON_SHIP_prosperity ZELTRON_SHIP_summit ZELTRON_SHIP_pinnacle ZELTRON_SHIP_seeder ZELTRON_SHIP_harvest ZELTRON_SHIP_isis ZELTRON_SHIP_ceres ZELTRON_SHIP_exodus ZELTRON_SHIP_foundation ZELTRON_SHIP_scion ZELTRON_SHIP_progeny ZELTRON_SHIP_obligation ZELTRON_SHIP_purpose ZELTRON_SHIP_provider ZELTRON_SHIP_shining_city ZELTRON_SHIP_acquirer ZELTRON_SHIP_cultivator ZELTRON_SHIP_dawn_of_civilization ZELTRON_SHIP_purity ZELTRON_SHIP_community ZELTRON_SHIP_brotherhood
+		}
+		constructor = {
+			ZELTRON_SHIP_industry ZELTRON_SHIP_assiduity ZELTRON_SHIP_effort ZELTRON_SHIP_laborer ZELTRON_SHIP_builder ZELTRON_SHIP_craftsman ZELTRON_SHIP_hard_hat ZELTRON_SHIP_progress ZELTRON_SHIP_engineer ZELTRON_SHIP_promise ZELTRON_SHIP_service ZELTRON_SHIP_shelter ZELTRON_SHIP_beast ZELTRON_SHIP_creator ZELTRON_SHIP_developer ZELTRON_SHIP_forger ZELTRON_SHIP_foundry ZELTRON_SHIP_factory ZELTRON_SHIP_anvil ZELTRON_SHIP_pillar ZELTRON_SHIP_architect ZELTRON_SHIP_accommodator ZELTRON_SHIP_ptah ZELTRON_SHIP_ilmarinen ZELTRON_SHIP_creidhne ZELTRON_SHIP_gobannus ZELTRON_SHIP_luchtaine ZELTRON_SHIP_goibniu ZELTRON_SHIP_vishvakarman ZELTRON_SHIP_tvastar ZELTRON_SHIP_ikenga ZELTRON_SHIP_qaynan ZELTRON_SHIP_ucuetis ZELTRON_SHIP_ogoun
+		}
+		transport = {
+			ZELTRON_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			ZELTRON_SHIP_spacegun_victory ZELTRON_SHIP_spacegun_success ZELTRON_SHIP_spacegun_supremacy ZELTRON_SHIP_spacegun_superior ZELTRON_SHIP_spacegun_adventure ZELTRON_SHIP_spacegun_ascendancy ZELTRON_SHIP_spacegun_paramount ZELTRON_SHIP_spacegun_preponderous ZELTRON_SHIP_spacegun_exemplary ZELTRON_SHIP_spacegun_eximious ZELTRON_SHIP_spacegun_pertinacity ZELTRON_SHIP_spacegun_acclaim ZELTRON_SHIP_spacegun_honor ZELTRON_SHIP_spacegun_renown ZELTRON_SHIP_spacegun_glory ZELTRON_SHIP_spacegun_superb ZELTRON_SHIP_spacegun_magnificence ZELTRON_SHIP_spacegun_majestic ZELTRON_SHIP_spacegun_splendor ZELTRON_SHIP_spacegun_paradigm ZELTRON_SHIP_spacegun_flawless ZELTRON_SHIP_spacegun_consummate ZELTRON_SHIP_spacegun_merit ZELTRON_SHIP_spacegun_perfection ZELTRON_SHIP_spacegun_virtue ZELTRON_SHIP_spacegun_advantage ZELTRON_SHIP_spacegun_rectitude ZELTRON_SHIP_spacegun_incorruptible ZELTRON_SHIP_spacegun_integrity ZELTRON_SHIP_spacegun_justice ZELTRON_SHIP_spacegun_probity ZELTRON_SHIP_spacegun_prudence ZELTRON_SHIP_spacegun_purity ZELTRON_SHIP_spacegun_resolute ZELTRON_SHIP_spacegun_dignity ZELTRON_SHIP_spacegun_distinction ZELTRON_SHIP_spacegun_excellence ZELTRON_SHIP_spacegun_faithful ZELTRON_SHIP_spacegun_discipline ZELTRON_SHIP_spacegun_steadfast ZELTRON_SHIP_spacegun_recompense ZELTRON_SHIP_spacegun_requiem ZELTRON_SHIP_spacegun_courage ZELTRON_SHIP_spacegun_valor ZELTRON_SHIP_spacegun_gallant ZELTRON_SHIP_spacegun_daring ZELTRON_SHIP_spacegun_constancy ZELTRON_SHIP_spacegun_perseverence ZELTRON_SHIP_spacegun_tenacity ZELTRON_SHIP_spacegun_sedulity ZELTRON_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			ZELTRON_SHIP_spacegun_victory ZELTRON_SHIP_spacegun_success ZELTRON_SHIP_spacegun_supremacy ZELTRON_SHIP_spacegun_superior ZELTRON_SHIP_spacegun_adventure ZELTRON_SHIP_spacegun_ascendancy ZELTRON_SHIP_spacegun_paramount ZELTRON_SHIP_spacegun_preponderous ZELTRON_SHIP_spacegun_exemplary ZELTRON_SHIP_spacegun_eximious ZELTRON_SHIP_spacegun_pertinacity ZELTRON_SHIP_spacegun_acclaim ZELTRON_SHIP_spacegun_honor ZELTRON_SHIP_spacegun_renown ZELTRON_SHIP_spacegun_glory ZELTRON_SHIP_spacegun_superb ZELTRON_SHIP_spacegun_magnificence ZELTRON_SHIP_spacegun_majestic ZELTRON_SHIP_spacegun_splendor ZELTRON_SHIP_spacegun_paradigm ZELTRON_SHIP_spacegun_flawless ZELTRON_SHIP_spacegun_consummate ZELTRON_SHIP_spacegun_merit ZELTRON_SHIP_spacegun_perfection ZELTRON_SHIP_spacegun_virtue ZELTRON_SHIP_spacegun_advantage ZELTRON_SHIP_spacegun_rectitude ZELTRON_SHIP_spacegun_incorruptible ZELTRON_SHIP_spacegun_integrity ZELTRON_SHIP_spacegun_justice ZELTRON_SHIP_spacegun_probity ZELTRON_SHIP_spacegun_prudence ZELTRON_SHIP_spacegun_purity ZELTRON_SHIP_spacegun_resolute ZELTRON_SHIP_spacegun_dignity ZELTRON_SHIP_spacegun_distinction ZELTRON_SHIP_spacegun_excellence ZELTRON_SHIP_spacegun_faithful ZELTRON_SHIP_spacegun_discipline ZELTRON_SHIP_spacegun_steadfast ZELTRON_SHIP_spacegun_recompense ZELTRON_SHIP_spacegun_requiem ZELTRON_SHIP_spacegun_courage ZELTRON_SHIP_spacegun_valor ZELTRON_SHIP_spacegun_gallant ZELTRON_SHIP_spacegun_daring ZELTRON_SHIP_spacegun_constancy ZELTRON_SHIP_spacegun_perseverence ZELTRON_SHIP_spacegun_tenacity ZELTRON_SHIP_spacegun_sedulity ZELTRON_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			ZELTRON_SHIP_spacegun_victory ZELTRON_SHIP_spacegun_success ZELTRON_SHIP_spacegun_supremacy ZELTRON_SHIP_spacegun_superior ZELTRON_SHIP_spacegun_adventure ZELTRON_SHIP_spacegun_ascendancy ZELTRON_SHIP_spacegun_paramount ZELTRON_SHIP_spacegun_preponderous ZELTRON_SHIP_spacegun_exemplary ZELTRON_SHIP_spacegun_eximious ZELTRON_SHIP_spacegun_pertinacity ZELTRON_SHIP_spacegun_acclaim ZELTRON_SHIP_spacegun_honor ZELTRON_SHIP_spacegun_renown ZELTRON_SHIP_spacegun_glory ZELTRON_SHIP_spacegun_superb ZELTRON_SHIP_spacegun_magnificence ZELTRON_SHIP_spacegun_majestic ZELTRON_SHIP_spacegun_splendor ZELTRON_SHIP_spacegun_paradigm ZELTRON_SHIP_spacegun_flawless ZELTRON_SHIP_spacegun_consummate ZELTRON_SHIP_spacegun_merit ZELTRON_SHIP_spacegun_perfection ZELTRON_SHIP_spacegun_virtue ZELTRON_SHIP_spacegun_advantage ZELTRON_SHIP_spacegun_rectitude ZELTRON_SHIP_spacegun_incorruptible ZELTRON_SHIP_spacegun_integrity ZELTRON_SHIP_spacegun_justice ZELTRON_SHIP_spacegun_probity ZELTRON_SHIP_spacegun_prudence ZELTRON_SHIP_spacegun_purity ZELTRON_SHIP_spacegun_resolute ZELTRON_SHIP_spacegun_dignity ZELTRON_SHIP_spacegun_distinction ZELTRON_SHIP_spacegun_excellence ZELTRON_SHIP_spacegun_faithful ZELTRON_SHIP_spacegun_discipline ZELTRON_SHIP_spacegun_steadfast ZELTRON_SHIP_spacegun_recompense ZELTRON_SHIP_spacegun_requiem ZELTRON_SHIP_spacegun_courage ZELTRON_SHIP_spacegun_valor ZELTRON_SHIP_spacegun_gallant ZELTRON_SHIP_spacegun_daring ZELTRON_SHIP_spacegun_constancy ZELTRON_SHIP_spacegun_perseverence ZELTRON_SHIP_spacegun_tenacity ZELTRON_SHIP_spacegun_sedulity ZELTRON_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			ZELTRON_SHIP_citadel ZELTRON_SHIP_albacore ZELTRON_SHIP_gateway ZELTRON_SHIP_vincent ZELTRON_SHIP_babylon ZELTRON_SHIP_caernavon ZELTRON_SHIP_acre ZELTRON_SHIP_pembroke ZELTRON_SHIP_acheron ZELTRON_SHIP_spithead ZELTRON_SHIP_halifax ZELTRON_SHIP_victoria ZELTRON_SHIP_chatham ZELTRON_SHIP_anchorage ZELTRON_SHIP_scapa_flow ZELTRON_SHIP_hampton_roads ZELTRON_SHIP_brooklyn ZELTRON_SHIP_norfolk ZELTRON_SHIP_newport ZELTRON_SHIP_guam ZELTRON_SHIP_pensacola ZELTRON_SHIP_vesuvius ZELTRON_SHIP_mckinley ZELTRON_SHIP_everest ZELTRON_SHIP_kilimanjaro ZELTRON_SHIP_aconcagua ZELTRON_SHIP_elbrus ZELTRON_SHIP_st__helens ZELTRON_SHIP_fuji ZELTRON_SHIP_olympus ZELTRON_SHIP_sinai ZELTRON_SHIP_ambrose ZELTRON_SHIP_bermuda ZELTRON_SHIP_farpoint ZELTRON_SHIP_blue_star ZELTRON_SHIP_olympus_mons ZELTRON_SHIP_tharsis ZELTRON_SHIP_syrtis ZELTRON_SHIP_blackham ZELTRON_SHIP_fletcher ZELTRON_SHIP_perry ZELTRON_SHIP_butakov ZELTRON_SHIP_morris ZELTRON_SHIP_moorsom ZELTRON_SHIP_hart ZELTRON_SHIP_hargood ZELTRON_SHIP_spruance ZELTRON_SHIP_tanaka ZELTRON_SHIP_halsey ZELTRON_SHIP_turner ZELTRON_SHIP_doria ZELTRON_SHIP_tirpitz ZELTRON_SHIP_cunningham ZELTRON_SHIP_jellicoe ZELTRON_SHIP_hipper ZELTRON_SHIP_beatty ZELTRON_SHIP_potemkin ZELTRON_SHIP_durham ZELTRON_SHIP_codrington ZELTRON_SHIP_milne ZELTRON_SHIP_laforey ZELTRON_SHIP_tyler ZELTRON_SHIP_hawke ZELTRON_SHIP_yonai ZELTRON_SHIP_pound ZELTRON_SHIP_king ZELTRON_SHIP_crutchley ZELTRON_SHIP_mountbatten ZELTRON_SHIP_kountouriotis ZELTRON_SHIP_kuznetsov ZELTRON_SHIP_essen ZELTRON_SHIP_kornilov ZELTRON_SHIP_suffren ZELTRON_SHIP_treville ZELTRON_SHIP_villeneuve ZELTRON_SHIP_grasse ZELTRON_SHIP_byng ZELTRON_SHIP_lezo
+		}
+		ion_cannon = {
+			ZELTRON_SHIP_bombard ZELTRON_SHIP_ballista ZELTRON_SHIP_catapult ZELTRON_SHIP_harpoon ZELTRON_SHIP_polybolos ZELTRON_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			ZELTRON_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			ZELTRON_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			ZELTRON_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			ZELTRON_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			ZELTRON_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			ZELTRON_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			ZELTRON_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			ZELTRON_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			ZELTRON_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			ZELTRON_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			ZELTRON_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			ZELTRON_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			ZELTRON_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			ZELTRON_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			ZELTRON_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			ZELTRON_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			ZELTRON_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			ZELTRON_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			ZELTRON_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			ZELTRON_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			ZELTRON_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			ZELTRON_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			ZELTRON_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			ZELTRON_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			ZELTRON_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			ZELTRON_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			ZELTRON_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			ZELTRON_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			ZELTRON_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			ZELTRON_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			ZELTRON_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			ZELTRON_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			ZELTRON_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			ZELTRON_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			ZELTRON_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			ZELTRON_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			ZELTRON_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			ZELTRON_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			ZELTRON_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			ZELTRON_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			ZELTRON_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			ZELTRON_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			ZELTRON_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			ZELTRON_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			ZELTRON_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			ZELTRON_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			ZELTRON_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			ZELTRON_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			ZELTRON_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			ZELTRON_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			ZELTRON_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			ZELTRON_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			ZELTRON_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			ZELTRON_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			ZELTRON_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			ZELTRON_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			ZELTRON_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			ZELTRON_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			ZELTRON_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			ZELTRON_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			ZELTRON_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			ZELTRON_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			ZELTRON_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			ZELTRON_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			ZELTRON_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			ZELTRON_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			ZELTRON_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			ZELTRON_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			ZELTRON_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			ZELTRON_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			ZELTRON_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			ZELTRON_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			ZELTRON_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			ZELTRON_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			ZELTRON_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			ZELTRON_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			ZELTRON_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			ZELTRON_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			ZELTRON_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			ZELTRON_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			ZELTRON_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			ZELTRON_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			ZELTRON_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			ZELTRON_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			ZELTRON_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			ZELTRON_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			ZELTRON_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			ZELTRON_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			ZELTRON_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			ZELTRON_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			ZELTRON_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			ZELTRON_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			ZELTRON_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			ZELTRON_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = ZELTRON_FLEET_sector_fleet_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = ZELTRON_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = ZELTRON_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = ZELTRON_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = ZELTRON_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = ZELTRON_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = ZELTRON_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = ZELTRON_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = ZELTRON_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				ZELTRON_ARMY_sarc_a__gladiators_ ZELTRON_ARMY_sarc_b__widowmakers_ ZELTRON_ARMY_sarc_c__immortals_ ZELTRON_ARMY_sarc_d__berserkers_ ZELTRON_ARMY_sarc_e__assassins_ ZELTRON_ARMY_sarc_f__reapers_ ZELTRON_ARMY_sarc_g__nighthawks_ ZELTRON_ARMY_sarc_h__desperados_ ZELTRON_ARMY_sarc_i__grey_knights_ ZELTRON_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = ZELTRON_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = ZELTRON_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = ZELTRON_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = ZELTRON_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = ZELTRON_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = ZELTRON_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = ZELTRON_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = ZELTRON_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = ZELTRON_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = ZELTRON_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = ZELTRON_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = ZELTRON_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = ZELTRON_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = ZELTRON_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = ZELTRON_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = ZELTRON_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = ZELTRON_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = ZELTRON_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = ZELTRON_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = ZELTRON_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = ZELTRON_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = ZELTRON_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = ZELTRON_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = ZELTRON_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = ZELTRON_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = ZELTRON_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = ZELTRON_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = ZELTRON_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = ZELTRON_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = ZELTRON_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = ZELTRON_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = ZELTRON_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = ZELTRON_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = ZELTRON_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = ZELTRON_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = ZELTRON_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = ZELTRON_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = ZELTRON_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = ZELTRON_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = ZELTRON_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = ZELTRON_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = ZELTRON_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = ZELTRON_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = ZELTRON_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = ZELTRON_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = ZELTRON_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = ZELTRON_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = ZELTRON_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = ZELTRON_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = ZELTRON_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = ZELTRON_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = ZELTRON_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = ZELTRON_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = ZELTRON_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = ZELTRON_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = ZELTRON_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = ZELTRON_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = ZELTRON_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = ZELTRON_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = ZELTRON_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = ZELTRON_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = ZELTRON_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = ZELTRON_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = ZELTRON_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = ZELTRON_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = ZELTRON_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = ZELTRON_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = ZELTRON_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = ZELTRON_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = ZELTRON_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = ZELTRON_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = ZELTRON_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = ZELTRON_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = ZELTRON_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = ZELTRON_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = ZELTRON_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = ZELTRON_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = ZELTRON_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = ZELTRON_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = ZELTRON_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = ZELTRON_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = ZELTRON_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = ZELTRON_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = ZELTRON_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = ZELTRON_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = ZELTRON_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = ZELTRON_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = ZELTRON_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = ZELTRON_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = ZELTRON_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = ZELTRON_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = ZELTRON_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = ZELTRON_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = ZELTRON_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = ZELTRON_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = ZELTRON_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = ZELTRON_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = ZELTRON_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = ZELTRON_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = ZELTRON_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = ZELTRON_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = ZELTRON_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = ZELTRON_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = ZELTRON_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = ZELTRON_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = ZELTRON_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = ZELTRON_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = ZELTRON_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = ZELTRON_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = ZELTRON_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = ZELTRON_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = ZELTRON_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = ZELTRON_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = ZELTRON_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = ZELTRON_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = ZELTRON_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = ZELTRON_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = ZELTRON_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = ZELTRON_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = ZELTRON_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = ZELTRON_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = ZELTRON_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = ZELTRON_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = ZELTRON_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = ZELTRON_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = ZELTRON_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = ZELTRON_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = ZELTRON_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = ZELTRON_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = ZELTRON_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = ZELTRON_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = ZELTRON_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = ZELTRON_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				ZELTRON_CHR_bail ZELTRON_CHR_ylenic ZELTRON_CHR_kel ZELTRON_CHR_gunn ZELTRON_CHR_gregory ZELTRON_CHR_abraxis ZELTRON_CHR_jonas ZELTRON_CHR_xerda ZELTRON_CHR_carth ZELTRON_CHR_kir ZELTRON_CHR_mebba ZELTRON_CHR_dagos ZELTRON_CHR_adam ZELTRON_CHR_kyle ZELTRON_CHR_forren ZELTRON_CHR_malcolm ZELTRON_CHR_jeho ZELTRON_CHR_lee ZELTRON_CHR_griggs ZELTRON_CHR_milo ZELTRON_CHR_aeron ZELTRON_CHR_byrec ZELTRON_CHR_strata ZELTRON_CHR_lancer ZELTRON_CHR_zeak ZELTRON_CHR_niuk ZELTRON_CHR_lavidean ZELTRON_CHR_tanizandar ZELTRON_CHR_japla ZELTRON_CHR_aran ZELTRON_CHR_rail ZELTRON_CHR_zeven ZELTRON_CHR_yakown ZELTRON_CHR_sibar ZELTRON_CHR_sair ZELTRON_CHR_klai ZELTRON_CHR_jonas ZELTRON_CHR_imay ZELTRON_CHR_traest ZELTRON_CHR_simo ZELTRON_CHR_carth ZELTRON_CHR_riyan ZELTRON_CHR_magnus ZELTRON_CHR_boceta ZELTRON_CHR_agnook ZELTRON_CHR_silus ZELTRON_CHR_rowan ZELTRON_CHR_coren ZELTRON_CHR_jett ZELTRON_CHR_linth ZELTRON_CHR_annor ZELTRON_CHR_ulas ZELTRON_CHR_fenn ZELTRON_CHR_tal ZELTRON_CHR_plo ZELTRON_CHR_torin ZELTRON_CHR_imay ZELTRON_CHR_boone ZELTRON_CHR_davith ZELTRON_CHR_jorgen ZELTRON_CHR_bertos ZELTRON_CHR_ress ZELTRON_CHR_malius ZELTRON_CHR_kale ZELTRON_CHR_cregan ZELTRON_CHR_galen ZELTRON_CHR_zekk ZELTRON_CHR_jinn_tu ZELTRON_CHR_jaryn ZELTRON_CHR_gentti ZELTRON_CHR_yu_sien ZELTRON_CHR_akela ZELTRON_CHR_arslan ZELTRON_CHR_sidias ZELTRON_CHR_haken ZELTRON_CHR_biran ZELTRON_CHR_vidown ZELTRON_CHR_ares ZELTRON_CHR_ithan ZELTRON_CHR_cul_utaan ZELTRON_CHR_thoja ZELTRON_CHR_cron ZELTRON_CHR_mossi ZELTRON_CHR_abric ZELTRON_CHR_darg ZELTRON_CHR_gaman ZELTRON_CHR_naiad ZELTRON_CHR_herub ZELTRON_CHR_marius ZELTRON_CHR_torkin ZELTRON_CHR_caton ZELTRON_CHR_kane ZELTRON_CHR_versita ZELTRON_CHR_cric ZELTRON_CHR_foxdi ZELTRON_CHR_montacca ZELTRON_CHR_jospi ZELTRON_CHR_baz ZELTRON_CHR_kam ZELTRON_CHR_erek ZELTRON_CHR_arslan ZELTRON_CHR_lerak ZELTRON_CHR_morla ZELTRON_CHR_baxter ZELTRON_CHR_talan ZELTRON_CHR_thion ZELTRON_CHR_kannon ZELTRON_CHR_corsair ZELTRON_CHR_caster ZELTRON_CHR_elden ZELTRON_CHR_faelgrom ZELTRON_CHR_jack ZELTRON_CHR_raltharan ZELTRON_CHR_flash ZELTRON_CHR_waseem ZELTRON_CHR_bendak ZELTRON_CHR_kaz ZELTRON_CHR_montileu ZELTRON_CHR_gonoga ZELTRON_CHR_silus ZELTRON_CHR_galven ZELTRON_CHR_vincenzo ZELTRON_CHR_ric ZELTRON_CHR_rebar ZELTRON_CHR_jebediah ZELTRON_CHR_aramil ZELTRON_CHR_abraxis ZELTRON_CHR_delmi ZELTRON_CHR_caalin ZELTRON_CHR_rassth ZELTRON_CHR_adorn ZELTRON_CHR_cyrus ZELTRON_CHR_zhar_khan ZELTRON_CHR_adam ZELTRON_CHR_predor ZELTRON_CHR_tarlson ZELTRON_CHR_boaz ZELTRON_CHR_bradley ZELTRON_CHR_gunn ZELTRON_CHR_raltharan ZELTRON_CHR_zerrid ZELTRON_CHR_bobecc ZELTRON_CHR_jelantos ZELTRON_CHR_jephego ZELTRON_CHR_svante ZELTRON_CHR_tesvalo ZELTRON_CHR_aeon ZELTRON_CHR_dekar ZELTRON_CHR_jean_francois ZELTRON_CHR_elen ZELTRON_CHR_han ZELTRON_CHR_owen ZELTRON_CHR_biggs ZELTRON_CHR_rune ZELTRON_CHR_lott ZELTRON_CHR_daultay ZELTRON_CHR_lok ZELTRON_CHR_mar ZELTRON_CHR_gilramos ZELTRON_CHR_siv ZELTRON_CHR_zill ZELTRON_CHR_hath ZELTRON_CHR_aruteous ZELTRON_CHR_jull ZELTRON_CHR_sil ZELTRON_CHR_hallion ZELTRON_CHR_gap ZELTRON_CHR_palfa ZELTRON_CHR_sib ZELTRON_CHR_aito ZELTRON_CHR_sentepeth ZELTRON_CHR_kund ZELTRON_CHR_harro ZELTRON_CHR_hask ZELTRON_CHR_paw ZELTRON_CHR_brehg ZELTRON_CHR_reya ZELTRON_CHR_gode ZELTRON_CHR_nap ZELTRON_CHR_lufa ZELTRON_CHR_yee ZELTRON_CHR_geph ZELTRON_CHR_lik ZELTRON_CHR_gunaray ZELTRON_CHR_igren ZELTRON_CHR_dif ZELTRON_CHR_klewer ZELTRON_CHR_kuto ZELTRON_CHR_smeer ZELTRON_CHR_helb ZELTRON_CHR_toat ZELTRON_CHR_teek ZELTRON_CHR_jeek ZELTRON_CHR_orrin ZELTRON_CHR_veor ZELTRON_CHR_dak_on ZELTRON_CHR_nozabuiba ZELTRON_CHR_gama ZELTRON_CHR_budmle ZELTRON_CHR_proh_ven ZELTRON_CHR_salitt ZELTRON_CHR_vigro ZELTRON_CHR_rers ZELTRON_CHR_desson ZELTRON_CHR_cathan ZELTRON_CHR_dru ZELTRON_CHR_tunjas ZELTRON_CHR_borlo ZELTRON_CHR_krett ZELTRON_CHR_ablund ZELTRON_CHR_aach ZELTRON_CHR_aagon ZELTRON_CHR_aalto ZELTRON_CHR_aambler ZELTRON_CHR_abadaner ZELTRON_CHR_aban ZELTRON_CHR_abbus_kelo ZELTRON_CHR_acan ZELTRON_CHR_ace ZELTRON_CHR_adame ZELTRON_CHR_adar ZELTRON_CHR_arvel ZELTRON_CHR_addi_shon ZELTRON_CHR_addle ZELTRON_CHR_adelhard ZELTRON_CHR_aden ZELTRON_CHR_adon_larr ZELTRON_CHR_adraas ZELTRON_CHR_adrenas ZELTRON_CHR_adrick ZELTRON_CHR_adun ZELTRON_CHR_aeron ZELTRON_CHR_agareth ZELTRON_CHR_aggadeen ZELTRON_CHR_alric ZELTRON_CHR_airten ZELTRON_CHR_agrippa ZELTRON_CHR_ajaan ZELTRON_CHR_ajolin ZELTRON_CHR_akaste_vel ZELTRON_CHR_akobi ZELTRON_CHR_alain ZELTRON_CHR_alaric ZELTRON_CHR_albathius ZELTRON_CHR_alde ZELTRON_CHR_alec ZELTRON_CHR_alekam ZELTRON_CHR_alethios ZELTRON_CHR_alger ZELTRON_CHR_algrunar ZELTRON_CHR_ali_alann ZELTRON_CHR_alif ZELTRON_CHR_alim_gen ZELTRON_CHR_alin ZELTRON_CHR_alix ZELTRON_CHR_alkhara ZELTRON_CHR_allia ZELTRON_CHR_almak ZELTRON_CHR_almec ZELTRON_CHR_alon ZELTRON_CHR_alozen ZELTRON_CHR_alph ZELTRON_CHR_altaca ZELTRON_CHR_althon ZELTRON_CHR_alwynn ZELTRON_CHR_amberson ZELTRON_CHR_ament ZELTRON_CHR_amis ZELTRON_CHR_ammon ZELTRON_CHR_amzartho ZELTRON_CHR_anabar ZELTRON_CHR_anager ZELTRON_CHR_anarine ZELTRON_CHR_anathemos ZELTRON_CHR_andan ZELTRON_CHR_anders ZELTRON_CHR_ando ZELTRON_CHR_andra ZELTRON_CHR_andrew ZELTRON_CHR_andrid ZELTRON_CHR_andrik ZELTRON_CHR_andru ZELTRON_CHR_ar_al ZELTRON_CHR_angber ZELTRON_CHR_angral ZELTRON_CHR_anlen ZELTRON_CHR_anod ZELTRON_CHR_anselm ZELTRON_CHR_anskow ZELTRON_CHR_anson ZELTRON_CHR_adem ZELTRON_CHR_antone ZELTRON_CHR_antonin ZELTRON_CHR_anuli ZELTRON_CHR_appleton ZELTRON_CHR_arac ZELTRON_CHR_arakkus ZELTRON_CHR_aramis ZELTRON_CHR_arana ZELTRON_CHR_armen ZELTRON_CHR_arastide ZELTRON_CHR_arber ZELTRON_CHR_arcann ZELTRON_CHR_ardan ZELTRON_CHR_ardax ZELTRON_CHR_ardiff ZELTRON_CHR_ardle ZELTRON_CHR_ardmore ZELTRON_CHR_ardot ZELTRON_CHR_ardran ZELTRON_CHR_avinoam ZELTRON_CHR_ars ZELTRON_CHR_argona ZELTRON_CHR_argor ZELTRON_CHR_argos ZELTRON_CHR_arias ZELTRON_CHR_ariavos ZELTRON_CHR_arigo ZELTRON_CHR_aris ZELTRON_CHR_arkan ZELTRON_CHR_arkeld ZELTRON_CHR_arl ZELTRON_CHR_arljack ZELTRON_CHR_arlo ZELTRON_CHR_arlos ZELTRON_CHR_armatan ZELTRON_CHR_armitage ZELTRON_CHR_arnama ZELTRON_CHR_arnet ZELTRON_CHR_arno ZELTRON_CHR_arnothian ZELTRON_CHR_arnth ZELTRON_CHR_arnus ZELTRON_CHR_arrad ZELTRON_CHR_arratan ZELTRON_CHR_arrax ZELTRON_CHR_arric ZELTRON_CHR_artano ZELTRON_CHR_artok ZELTRON_CHR_arturo ZELTRON_CHR_arzanon ZELTRON_CHR_ash ZELTRON_CHR_ashaad ZELTRON_CHR_asirr ZELTRON_CHR_atali ZELTRON_CHR_atar ZELTRON_CHR_atmino ZELTRON_CHR_atren ZELTRON_CHR_augatta ZELTRON_CHR_avan ZELTRON_CHR_avanj ZELTRON_CHR_avarik ZELTRON_CHR_averdon ZELTRON_CHR_averen ZELTRON_CHR_averon ZELTRON_CHR_avers ZELTRON_CHR_aves ZELTRON_CHR_aviso ZELTRON_CHR_avrun ZELTRON_CHR_azkul ZELTRON_CHR_azrakel ZELTRON_CHR_ace ZELTRON_CHR_b_arin ZELTRON_CHR_bail ZELTRON_CHR_beel ZELTRON_CHR_bix ZELTRON_CHR_blix ZELTRON_CHR_boz ZELTRON_CHR_braedon ZELTRON_CHR_bryn ZELTRON_CHR_brixus ZELTRON_CHR_cal ZELTRON_CHR_cassian ZELTRON_CHR_chik ZELTRON_CHR_cinto ZELTRON_CHR_cumberlayne ZELTRON_CHR_darrus ZELTRON_CHR_djinn ZELTRON_CHR_druth ZELTRON_CHR_det ZELTRON_CHR_ethan ZELTRON_CHR_galiir ZELTRON_CHR_gez ZELTRON_CHR_haemon ZELTRON_CHR_jae ZELTRON_CHR_jagged ZELTRON_CHR_jess ZELTRON_CHR_jesper ZELTRON_CHR_jon ZELTRON_CHR_gathal ZELTRON_CHR_gideon ZELTRON_CHR_jefand ZELTRON_CHR_kel ZELTRON_CHR_koffi ZELTRON_CHR_lazlo ZELTRON_CHR_laetin ZELTRON_CHR_lesk ZELTRON_CHR_maxiron ZELTRON_CHR_neet ZELTRON_CHR_osak ZELTRON_CHR_pabel ZELTRON_CHR_paddy ZELTRON_CHR_peita ZELTRON_CHR_peema ZELTRON_CHR_pellas ZELTRON_CHR_prewb ZELTRON_CHR_raymus ZELTRON_CHR_raar ZELTRON_CHR_rage ZELTRON_CHR_rel ZELTRON_CHR_reez ZELTRON_CHR_ras ZELTRON_CHR_rixes ZELTRON_CHR_ruceba ZELTRON_CHR_seraph ZELTRON_CHR_sim ZELTRON_CHR_sio ZELTRON_CHR_y_ull ZELTRON_CHR_tavion ZELTRON_CHR_tavid ZELTRON_CHR_tendis ZELTRON_CHR_tev ZELTRON_CHR_tiberus ZELTRON_CHR_toob ZELTRON_CHR_tor ZELTRON_CHR_turon ZELTRON_CHR_villis ZELTRON_CHR_wain ZELTRON_CHR_wedge ZELTRON_CHR_wes ZELTRON_CHR_zeen ZELTRON_CHR_baboo ZELTRON_CHR_bachenkall ZELTRON_CHR_bafor ZELTRON_CHR_bagitt ZELTRON_CHR_bailey ZELTRON_CHR_bailie ZELTRON_CHR_bairn ZELTRON_CHR_bala_tik ZELTRON_CHR_balankin ZELTRON_CHR_balaro ZELTRON_CHR_balcomb ZELTRON_CHR_baldwin ZELTRON_CHR_baldy ZELTRON_CHR_balek ZELTRON_CHR_balisk ZELTRON_CHR_balkin ZELTRON_CHR_balko ZELTRON_CHR_ballala ZELTRON_CHR_ballard ZELTRON_CHR_ballax ZELTRON_CHR_bendodi ZELTRON_CHR_balog ZELTRON_CHR_balto ZELTRON_CHR_bams ZELTRON_CHR_bandor ZELTRON_CHR_boss ZELTRON_CHR_banley ZELTRON_CHR_banna ZELTRON_CHR_bannos ZELTRON_CHR_bant ZELTRON_CHR_banz ZELTRON_CHR_baradis ZELTRON_CHR_barak ZELTRON_CHR_baramak ZELTRON_CHR_barcel ZELTRON_CHR_bardo ZELTRON_CHR_barduun ZELTRON_CHR_barev ZELTRON_CHR_barich ZELTRON_CHR_barik ZELTRON_CHR_barkale ZELTRON_CHR_barksy ZELTRON_CHR_barleos ZELTRON_CHR_barlow ZELTRON_CHR_barney ZELTRON_CHR_barnley ZELTRON_CHR_baro ZELTRON_CHR_barry ZELTRON_CHR_barstead ZELTRON_CHR_bartam ZELTRON_CHR_barth ZELTRON_CHR_barthis ZELTRON_CHR_bas ZELTRON_CHR_bas_ton ZELTRON_CHR_bascome ZELTRON_CHR_basile ZELTRON_CHR_basso ZELTRON_CHR_bastian ZELTRON_CHR_bathens ZELTRON_CHR_batono ZELTRON_CHR_bator ZELTRON_CHR_billal ZELTRON_CHR_battz ZELTRON_CHR_baxton ZELTRON_CHR_baysden ZELTRON_CHR_baz ZELTRON_CHR_be ZELTRON_CHR_beau ZELTRON_CHR_beckar ZELTRON_CHR_becker ZELTRON_CHR_beckman ZELTRON_CHR_bedareux ZELTRON_CHR_bedoch ZELTRON_CHR_beebe ZELTRON_CHR_beez ZELTRON_CHR_beldiss ZELTRON_CHR_belkan ZELTRON_CHR_beller ZELTRON_CHR_bellis ZELTRON_CHR_belos ZELTRON_CHR_byzal ZELTRON_CHR_bzorn ZELTRON_CHR_biggs ZELTRON_CHR_bels ZELTRON_CHR_bemos ZELTRON_CHR_benay ZELTRON_CHR_benjo ZELTRON_CHR_benkin ZELTRON_CHR_benn ZELTRON_CHR_benni ZELTRON_CHR_benok ZELTRON_CHR_benthar ZELTRON_CHR_benton ZELTRON_CHR_bentro ZELTRON_CHR_boar ZELTRON_CHR_benx ZELTRON_CHR_bequesh ZELTRON_CHR_berandis ZELTRON_CHR_berethon ZELTRON_CHR_bergan ZELTRON_CHR_berix ZELTRON_CHR_bernie ZELTRON_CHR_bertrum ZELTRON_CHR_berusal ZELTRON_CHR_bewil ZELTRON_CHR_bex ZELTRON_CHR_billan ZELTRON_CHR_biril ZELTRON_CHR_birket ZELTRON_CHR_birok ZELTRON_CHR_black ZELTRON_CHR_blagotine ZELTRON_CHR_blaide ZELTRON_CHR_blainekie ZELTRON_CHR_bledsoe ZELTRON_CHR_bleeker ZELTRON_CHR_blleen ZELTRON_CHR_bloodory ZELTRON_CHR_bloodworthy ZELTRON_CHR_blount ZELTRON_CHR_blyes ZELTRON_CHR_boakie ZELTRON_CHR_boaz ZELTRON_CHR_bob ZELTRON_CHR_bol ZELTRON_CHR_bon ZELTRON_CHR_bonze ZELTRON_CHR_boonan ZELTRON_CHR_boran ZELTRON_CHR_boraso ZELTRON_CHR_borgin ZELTRON_CHR_borm ZELTRON_CHR_bornae ZELTRON_CHR_bort ZELTRON_CHR_bortrek ZELTRON_CHR_boshek ZELTRON_CHR_bourom ZELTRON_CHR_bouyard ZELTRON_CHR_braden ZELTRON_CHR_brady ZELTRON_CHR_bragan ZELTRON_CHR_braynor ZELTRON_CHR_brayso ZELTRON_CHR_breckon ZELTRON_CHR_breehld ZELTRON_CHR_brinn ZELTRON_CHR_brinnie ZELTRON_CHR_brint ZELTRON_CHR_brinton ZELTRON_CHR_brogon ZELTRON_CHR_brohmer ZELTRON_CHR_brolis ZELTRON_CHR_broll ZELTRON_CHR_brom ZELTRON_CHR_brooser ZELTRON_CHR_brothic ZELTRON_CHR_brovto ZELTRON_CHR_broysc ZELTRON_CHR_bruan ZELTRON_CHR_brucce ZELTRON_CHR_bruckman ZELTRON_CHR_bryint ZELTRON_CHR_brylin ZELTRON_CHR_bry ZELTRON_CHR_brysonbular ZELTRON_CHR_bulger ZELTRON_CHR_bun_delbur ZELTRON_CHR_burne ZELTRON_CHR_burque ZELTRON_CHR_burr ZELTRON_CHR_bursk ZELTRON_CHR_bursthed ZELTRON_CHR_byrga ZELTRON_CHR_byten ZELTRON_CHR_trey ZELTRON_CHR_lando ZELTRON_CHR_caaldra ZELTRON_CHR_cabaril ZELTRON_CHR_cabbel ZELTRON_CHR_caeleb ZELTRON_CHR_caerbellak ZELTRON_CHR_cafian ZELTRON_CHR_cag ZELTRON_CHR_cagaran ZELTRON_CHR_cam ZELTRON_CHR_camaran ZELTRON_CHR_camas ZELTRON_CHR_cardacs ZELTRON_CHR_cardy ZELTRON_CHR_careem ZELTRON_CHR_cargeloch ZELTRON_CHR_carhart ZELTRON_CHR_calron ZELTRON_CHR_calson ZELTRON_CHR_calum ZELTRON_CHR_calypho ZELTRON_CHR_cal ZELTRON_CHR_caladane ZELTRON_CHR_calaverous ZELTRON_CHR_carli ZELTRON_CHR_carlon ZELTRON_CHR_carlton ZELTRON_CHR_carn ZELTRON_CHR_carner ZELTRON_CHR_carness ZELTRON_CHR_carnor ZELTRON_CHR_carns ZELTRON_CHR_callef ZELTRON_CHR_callen ZELTRON_CHR_callow ZELTRON_CHR_calders ZELTRON_CHR_caleb ZELTRON_CHR_calo ZELTRON_CHR_calphayus ZELTRON_CHR_cathers ZELTRON_CHR_caton ZELTRON_CHR_cauley ZELTRON_CHR_cav ZELTRON_CHR_cav_saran ZELTRON_CHR_cavin ZELTRON_CHR_cryle ZELTRON_CHR_cavwol ZELTRON_CHR_cawelyn ZELTRON_CHR_cecius ZELTRON_CHR_cede ZELTRON_CHR_cemma ZELTRON_CHR_ceoloe ZELTRON_CHR_cerasi ZELTRON_CHR_cerik ZELTRON_CHR_charny ZELTRON_CHR_charol ZELTRON_CHR_charpp ZELTRON_CHR_charnoq ZELTRON_CHR_charnso ZELTRON_CHR_cestus ZELTRON_CHR_ch_arb ZELTRON_CHR_ch_gally ZELTRON_CHR_ch_lessan ZELTRON_CHR_cha ZELTRON_CHR_chael ZELTRON_CHR_challer ZELTRON_CHR_chambe ZELTRON_CHR_crlyn ZELTRON_CHR_chang ZELTRON_CHR_chappral ZELTRON_CHR_chef ZELTRON_CHR_chentu ZELTRON_CHR_chell ZELTRON_CHR_chessiq ZELTRON_CHR_chet ZELTRON_CHR_chiann ZELTRON_CHR_chicora ZELTRON_CHR_chatty ZELTRON_CHR_chayloss ZELTRON_CHR_chedaki ZELTRON_CHR_chiraneau ZELTRON_CHR_chiron ZELTRON_CHR_chorlen ZELTRON_CHR_chornarov ZELTRON_CHR_cody ZELTRON_CHR_clorr ZELTRON_CHR_clovis ZELTRON_CHR_clydno ZELTRON_CHR_clynn ZELTRON_CHR_cnorec ZELTRON_CHR_coburn ZELTRON_CHR_cobus ZELTRON_CHR_cogon ZELTRON_CHR_colin ZELTRON_CHR_collus ZELTRON_CHR_colsan ZELTRON_CHR_colten ZELTRON_CHR_colton ZELTRON_CHR_combo ZELTRON_CHR_conar ZELTRON_CHR_coorta ZELTRON_CHR_corin ZELTRON_CHR_coris ZELTRON_CHR_corlac ZELTRON_CHR_corso ZELTRON_CHR_corvan ZELTRON_CHR_corvin ZELTRON_CHR_corvis ZELTRON_CHR_corwin ZELTRON_CHR_corwyth ZELTRON_CHR_cote ZELTRON_CHR_cothron ZELTRON_CHR_cotin ZELTRON_CHR_coy ZELTRON_CHR_cravel ZELTRON_CHR_cravus ZELTRON_CHR_creb ZELTRON_CHR_creeve ZELTRON_CHR_corlis ZELTRON_CHR_crest ZELTRON_CHR_crimpler ZELTRON_CHR_crimson ZELTRON_CHR_crin ZELTRON_CHR_crion ZELTRON_CHR_criss ZELTRON_CHR_cristoff ZELTRON_CHR_crix ZELTRON_CHR_cronal ZELTRON_CHR_cronnin ZELTRON_CHR_cronus ZELTRON_CHR_d_ashewl ZELTRON_CHR_d_krn ZELTRON_CHR_d_lew ZELTRON_CHR_d_vox ZELTRON_CHR_d_vrosh ZELTRON_CHR_daal ZELTRON_CHR_dado ZELTRON_CHR_daek ZELTRON_CHR_dael ZELTRON_CHR_dahar ZELTRON_CHR_dahm ZELTRON_CHR_daiman ZELTRON_CHR_dainsom ZELTRON_CHR_daiv ZELTRON_CHR_dak ZELTRON_CHR_dakron ZELTRON_CHR_daksh ZELTRON_CHR_dalton ZELTRON_CHR_damarcus ZELTRON_CHR_damaris ZELTRON_CHR_damarus ZELTRON_CHR_dao ZELTRON_CHR_dapp ZELTRON_CHR_daquinn ZELTRON_CHR_dar ZELTRON_CHR_eesh ZELTRON_CHR_darda ZELTRON_CHR_dardan ZELTRON_CHR_dareb_ ZELTRON_CHR_dareg ZELTRON_CHR_darek ZELTRON_CHR_daren ZELTRON_CHR_dargus ZELTRON_CHR_daggath ZELTRON_CHR_darnov ZELTRON_CHR_daro ZELTRON_CHR_darok ZELTRON_CHR_darone ZELTRON_CHR_darr ZELTRON_CHR_darrik ZELTRON_CHR_darrok ZELTRON_CHR_darrst ZELTRON_CHR_darsin ZELTRON_CHR_darthyn ZELTRON_CHR_daruula ZELTRON_CHR_dash ZELTRON_CHR_datoo ZELTRON_CHR_dauren ZELTRON_CHR_davis ZELTRON_CHR_davon ZELTRON_CHR_davonn ZELTRON_CHR_davos ZELTRON_CHR_davrill ZELTRON_CHR_davrin ZELTRON_CHR_davu ZELTRON_CHR_dayja ZELTRON_CHR_daz ZELTRON_CHR_ramsis ZELTRON_CHR_bren ZELTRON_CHR_tan ZELTRON_CHR_jan ZELTRON_CHR_porro ZELTRON_CHR_cin ZELTRON_CHR_garven ZELTRON_CHR_cornelius ZELTRON_CHR_galen ZELTRON_CHR_dannl ZELTRON_CHR_ecclessis ZELTRON_CHR_debbikin ZELTRON_CHR_debeli ZELTRON_CHR_deegan ZELTRON_CHR_deerian ZELTRON_CHR_deevis ZELTRON_CHR_defain ZELTRON_CHR_deflaros ZELTRON_CHR_degoren ZELTRON_CHR_dehno ZELTRON_CHR_dekay ZELTRON_CHR_delevar ZELTRON_CHR_delfaros ZELTRON_CHR_dellin ZELTRON_CHR_dellocon ZELTRON_CHR_delpho ZELTRON_CHR_delquis ZELTRON_CHR_delsa ZELTRON_CHR_delund ZELTRON_CHR_delurin ZELTRON_CHR_demtri ZELTRON_CHR_den ZELTRON_CHR_denbar ZELTRON_CHR_dender ZELTRON_CHR_dendro ZELTRON_CHR_dendu ZELTRON_CHR_denetrus ZELTRON_CHR_denev ZELTRON_CHR_dengar ZELTRON_CHR_dengril ZELTRON_CHR_denid ZELTRON_CHR_denimoor ZELTRON_CHR_denin ZELTRON_CHR_denna ZELTRON_CHR_denner ZELTRON_CHR_dennik ZELTRON_CHR_deppo ZELTRON_CHR_derdram ZELTRON_CHR_derec ZELTRON_CHR_derish ZELTRON_CHR_derliff ZELTRON_CHR_dermeg ZELTRON_CHR_dermian ZELTRON_CHR_dern ZELTRON_CHR_dernas ZELTRON_CHR_derral ZELTRON_CHR_derrin ZELTRON_CHR_dervis ZELTRON_CHR_desanne ZELTRON_CHR_devoris ZELTRON_CHR_devotek ZELTRON_CHR_devron ZELTRON_CHR_devry ZELTRON_CHR_devsh ZELTRON_CHR_dewolf ZELTRON_CHR_dex ZELTRON_CHR_dezsetes ZELTRON_CHR_dhaiv ZELTRON_CHR_dhal ZELTRON_CHR_dindau ZELTRON_CHR_dindo ZELTRON_CHR_ding ZELTRON_CHR_dinge ZELTRON_CHR_dobbatek ZELTRON_CHR_dobberty ZELTRON_CHR_dobbs ZELTRON_CHR_dolan ZELTRON_CHR_dolgis ZELTRON_CHR_dolmen ZELTRON_CHR_dolo ZELTRON_CHR_dominaire ZELTRON_CHR_domm ZELTRON_CHR_donovan ZELTRON_CHR_donovarr ZELTRON_CHR_donsull ZELTRON_CHR_dorel_kan ZELTRON_CHR_dorgat ZELTRON_CHR_dorian ZELTRON_CHR_dorja ZELTRON_CHR_dorn ZELTRON_CHR_dorotsech ZELTRON_CHR_dorrick ZELTRON_CHR_dortho ZELTRON_CHR_downey ZELTRON_CHR_draado ZELTRON_CHR_draahg ZELTRON_CHR_dracen ZELTRON_CHR_drage ZELTRON_CHR_dragen ZELTRON_CHR_drake ZELTRON_CHR_drayk ZELTRON_CHR_drazin ZELTRON_CHR_drek ZELTRON_CHR_duno ZELTRON_CHR_dree ZELTRON_CHR_dreed ZELTRON_CHR_drefin ZELTRON_CHR_dregg ZELTRON_CHR_drelosyn ZELTRON_CHR_drexel ZELTRON_CHR_dreyf ZELTRON_CHR_drezzel ZELTRON_CHR_drizan ZELTRON_CHR_dro ZELTRON_CHR_droman ZELTRON_CHR_dromath ZELTRON_CHR_drowl ZELTRON_CHR_drufeys ZELTRON_CHR_drummond ZELTRON_CHR_dubeh ZELTRON_CHR_dunari ZELTRON_CHR_dunaub ZELTRON_CHR_deadeye ZELTRON_CHR_duncan ZELTRON_CHR_durhant ZELTRON_CHR_durmat ZELTRON_CHR_durpin ZELTRON_CHR_durrei ZELTRON_CHR_dyshotto ZELTRON_CHR_dzoun ZELTRON_CHR_eagle ZELTRON_CHR_eanjer ZELTRON_CHR_earl ZELTRON_CHR_earsh ZELTRON_CHR_eben ZELTRON_CHR_eddon ZELTRON_CHR_edease ZELTRON_CHR_edern ZELTRON_CHR_edgar ZELTRON_CHR_edikar ZELTRON_CHR_egoreg ZELTRON_CHR_egron ZELTRON_CHR_eistern ZELTRON_CHR_ejai ZELTRON_CHR_eker ZELTRON_CHR_ekh ZELTRON_CHR_ekisp ZELTRON_CHR_ekov ZELTRON_CHR_elarles ZELTRON_CHR_eriquel ZELTRON_CHR_eris ZELTRON_CHR_erl ZELTRON_CHR_erloi ZELTRON_CHR_esano ZELTRON_CHR_escalion ZELTRON_CHR_ezil ZELTRON_CHR_ezrim ZELTRON_CHR_ezra ZELTRON_CHR_ein ZELTRON_CHR_eislo ZELTRON_CHR_jake ZELTRON_CHR_jango ZELTRON_CHR_eli ZELTRON_CHR_eliasb ZELTRON_CHR_eligyn ZELTRON_CHR_elior ZELTRON_CHR_elis ZELTRON_CHR_elizhis ZELTRON_CHR_elkin ZELTRON_CHR_ellsworth ZELTRON_CHR_elmel ZELTRON_CHR_elmyo ZELTRON_CHR_elrodelsar ZELTRON_CHR_elsek ZELTRON_CHR_emil ZELTRON_CHR_emir ZELTRON_CHR_emmens ZELTRON_CHR_endicott ZELTRON_CHR_enfield ZELTRON_CHR_enger ZELTRON_CHR_engret ZELTRON_CHR_emmett ZELTRON_CHR_emory ZELTRON_CHR_eoaq ZELTRON_CHR_eph ZELTRON_CHR_erdan ZELTRON_CHR_erelut ZELTRON_CHR_ergast ZELTRON_CHR_ergel ZELTRON_CHR_ergeron ZELTRON_CHR_eric ZELTRON_CHR_erik ZELTRON_CHR_estopatrin ZELTRON_CHR_esture ZELTRON_CHR_estus ZELTRON_CHR_eth ZELTRON_CHR_ethen ZELTRON_CHR_etnam ZELTRON_CHR_etta ZELTRON_CHR_evad ZELTRON_CHR_evan ZELTRON_CHR_evax ZELTRON_CHR_evlen ZELTRON_CHR_evran ZELTRON_CHR_evun ZELTRON_CHR_evvin ZELTRON_CHR_ewane ZELTRON_CHR_exar ZELTRON_CHR_eyvind ZELTRON_CHR_falltower ZELTRON_CHR_falrey ZELTRON_CHR_falsta ZELTRON_CHR_falch ZELTRON_CHR_falco ZELTRON_CHR_faarl ZELTRON_CHR_fable ZELTRON_CHR_faedral ZELTRON_CHR_far ZELTRON_CHR_faradin ZELTRON_CHR_faraire ZELTRON_CHR_fardi ZELTRON_CHR_farn ZELTRON_CHR_farng ZELTRON_CHR_farnis ZELTRON_CHR_farsal ZELTRON_CHR_farseam ZELTRON_CHR_fatulaine ZELTRON_CHR_fauler ZELTRON_CHR_feldon ZELTRON_CHR_feldron ZELTRON_CHR_feleea ZELTRON_CHR_fenn ZELTRON_CHR_fenris ZELTRON_CHR_fenson ZELTRON_CHR_feras ZELTRON_CHR_ferav ZELTRON_CHR_ferdoin ZELTRON_CHR_fermin ZELTRON_CHR_ferob ZELTRON_CHR_ferren ZELTRON_CHR_ferrid ZELTRON_CHR_ferrig ZELTRON_CHR_ferrin ZELTRON_CHR_ferron ZELTRON_CHR_ferrus ZELTRON_CHR_falesh ZELTRON_CHR_falk ZELTRON_CHR_fardi ZELTRON_CHR_fassio ZELTRON_CHR_fatulaine ZELTRON_CHR_dannl ZELTRON_CHR_februs ZELTRON_CHR_janus ZELTRON_CHR_fixer ZELTRON_CHR_florn ZELTRON_CHR_grizz ZELTRON_CHR_frobb ZELTRON_CHR_fruun
+			}
+			first_names_female = {
+				ZELTRON_CHR_charratha ZELTRON_CHR_edaara ZELTRON_CHR_bella ZELTRON_CHR_callista ZELTRON_CHR_mara ZELTRON_CHR_seena ZELTRON_CHR_areta ZELTRON_CHR_cord ZELTRON_CHR_cyrinity ZELTRON_CHR_nile ZELTRON_CHR_kiyfi ZELTRON_CHR_yasmyn ZELTRON_CHR_satra ZELTRON_CHR_shehish ZELTRON_CHR_sarna ZELTRON_CHR_krava ZELTRON_CHR_roxis ZELTRON_CHR_jessa ZELTRON_CHR_aqua ZELTRON_CHR_maryna ZELTRON_CHR_essaj ZELTRON_CHR_looriw ZELTRON_CHR_teeana ZELTRON_CHR_raena ZELTRON_CHR_yula ZELTRON_CHR_vifi ZELTRON_CHR_vania ZELTRON_CHR_jeanida ZELTRON_CHR_aerena ZELTRON_CHR_nataya ZELTRON_CHR_bernarda ZELTRON_CHR_geela ZELTRON_CHR_lya ZELTRON_CHR_sirra ZELTRON_CHR_teris ZELTRON_CHR_terral ZELTRON_CHR_nile ZELTRON_CHR_riema ZELTRON_CHR_erri ZELTRON_CHR_shanna ZELTRON_CHR_lyra ZELTRON_CHR_pranda ZELTRON_CHR_luna ZELTRON_CHR_cally ZELTRON_CHR_viqi ZELTRON_CHR_hadriel ZELTRON_CHR_lora ZELTRON_CHR_selena ZELTRON_CHR_zana ZELTRON_CHR_tuija ZELTRON_CHR_railin ZELTRON_CHR_odona ZELTRON_CHR_shyon ZELTRON_CHR_walas ZELTRON_CHR_rylla ZELTRON_CHR_gara ZELTRON_CHR_delos ZELTRON_CHR_loretta ZELTRON_CHR_luhon ZELTRON_CHR_delinia ZELTRON_CHR_aama ZELTRON_CHR_shorya ZELTRON_CHR_melfina ZELTRON_CHR_davessi ZELTRON_CHR_larana ZELTRON_CHR_galatea ZELTRON_CHR_nola ZELTRON_CHR_syna ZELTRON_CHR_jauhzmynn ZELTRON_CHR_anen ZELTRON_CHR_orona ZELTRON_CHR_yana ZELTRON_CHR_zoras ZELTRON_CHR_ree ZELTRON_CHR_grace ZELTRON_CHR_tantema ZELTRON_CHR_myn ZELTRON_CHR_una ZELTRON_CHR_dalharil ZELTRON_CHR_losa ZELTRON_CHR_sovi ZELTRON_CHR_elaiza ZELTRON_CHR_vucora ZELTRON_CHR_ava ZELTRON_CHR_joi ZELTRON_CHR_stryka ZELTRON_CHR_tantema ZELTRON_CHR_shandra ZELTRON_CHR_kely ZELTRON_CHR_caileta ZELTRON_CHR_taia ZELTRON_CHR_siala ZELTRON_CHR_reki ZELTRON_CHR_maydla ZELTRON_CHR_bot ZELTRON_CHR_kiandra ZELTRON_CHR_xilaren ZELTRON_CHR_zulara ZELTRON_CHR_ren ZELTRON_CHR_karissa ZELTRON_CHR_roxis ZELTRON_CHR_haruko ZELTRON_CHR_jenna ZELTRON_CHR_liana ZELTRON_CHR_rale ZELTRON_CHR_megara ZELTRON_CHR_aria ZELTRON_CHR_akiva ZELTRON_CHR_nalah ZELTRON_CHR_erlem ZELTRON_CHR_nali ZELTRON_CHR_fallah ZELTRON_CHR_kotrana ZELTRON_CHR_aayla ZELTRON_CHR_kalira ZELTRON_CHR_arani ZELTRON_CHR_fama ZELTRON_CHR_lyyr ZELTRON_CHR_arcas ZELTRON_CHR_rane ZELTRON_CHR_nayru ZELTRON_CHR_zylas ZELTRON_CHR_vexa ZELTRON_CHR_kana ZELTRON_CHR_beru
+			}
+			second_names = {
+				ZELTRON_CHR_elysar ZELTRON_CHR_tisa ZELTRON_CHR_wahia ZELTRON_CHR_wezz ZELTRON_CHR_unic ZELTRON_CHR_tiovata ZELTRON_CHR_nakcohh ZELTRON_CHR_vitaan ZELTRON_CHR_mefrid ZELTRON_CHR_daklan ZELTRON_CHR_kenzee ZELTRON_CHR_joben ZELTRON_CHR_thegas ZELTRON_CHR_moryne ZELTRON_CHR_holgor ZELTRON_CHR_ijaaz ZELTRON_CHR_tromans ZELTRON_CHR_sprax ZELTRON_CHR_knesos ZELTRON_CHR_magnus ZELTRON_CHR_lasek ZELTRON_CHR_artis ZELTRON_CHR_pax ZELTRON_CHR_corso ZELTRON_CHR_fallon ZELTRON_CHR_gundo ZELTRON_CHR_ruana ZELTRON_CHR_fremlin ZELTRON_CHR_thont ZELTRON_CHR_creel ZELTRON_CHR_rar ZELTRON_CHR_dusat ZELTRON_CHR_kessler ZELTRON_CHR_shaia ZELTRON_CHR_el_theriam ZELTRON_CHR_vanmeer ZELTRON_CHR_vrieska ZELTRON_CHR_calway ZELTRON_CHR_yamaguchi ZELTRON_CHR_riggers ZELTRON_CHR_brower ZELTRON_CHR_fash ZELTRON_CHR_nalto ZELTRON_CHR_stryder ZELTRON_CHR_dubreas ZELTRON_CHR_colsan ZELTRON_CHR_terrek ZELTRON_CHR_solon ZELTRON_CHR_merquise ZELTRON_CHR_varn ZELTRON_CHR_basai ZELTRON_CHR_froud ZELTRON_CHR_addacess ZELTRON_CHR_elysar ZELTRON_CHR_durgen ZELTRON_CHR_slahlvo ZELTRON_CHR_remex ZELTRON_CHR_madowki ZELTRON_CHR_hayes ZELTRON_CHR_ne ZELTRON_CHR_dago ZELTRON_CHR_greenback ZELTRON_CHR_stithta ZELTRON_CHR_ker ZELTRON_CHR_driet ZELTRON_CHR_klakk ZELTRON_CHR_reed ZELTRON_CHR_lefex ZELTRON_CHR_minn ZELTRON_CHR_irokini ZELTRON_CHR_roye ZELTRON_CHR_danakar ZELTRON_CHR_forin ZELTRON_CHR_glopio ZELTRON_CHR_shenuri ZELTRON_CHR_corcer ZELTRON_CHR_ordo ZELTRON_CHR_wan ZELTRON_CHR_tagratt ZELTRON_CHR_golladio ZELTRON_CHR_adramcsia ZELTRON_CHR_jetberg ZELTRON_CHR_noth ZELTRON_CHR_taske ZELTRON_CHR_komo ZELTRON_CHR_styles ZELTRON_CHR_angavel ZELTRON_CHR_tyrnith ZELTRON_CHR_yavoog ZELTRON_CHR_kelbier ZELTRON_CHR_racto ZELTRON_CHR_degor ZELTRON_CHR_tisa ZELTRON_CHR_magre ZELTRON_CHR_soylon ZELTRON_CHR_lerann ZELTRON_CHR_chro ZELTRON_CHR_finn ZELTRON_CHR_blackmoor ZELTRON_CHR_hwang ZELTRON_CHR_vekarr ZELTRON_CHR_thegas ZELTRON_CHR_amon ZELTRON_CHR_thiddex ZELTRON_CHR_durgen ZELTRON_CHR_selkayim ZELTRON_CHR_gilder ZELTRON_CHR_dhuramav ZELTRON_CHR_kodd ZELTRON_CHR_morin ZELTRON_CHR_kobylarz ZELTRON_CHR_tade ZELTRON_CHR_solman ZELTRON_CHR_bintaghr ZELTRON_CHR_marclonus ZELTRON_CHR_precore ZELTRON_CHR_solborne ZELTRON_CHR_bailer ZELTRON_CHR_katarn ZELTRON_CHR_anjek ZELTRON_CHR_dalgas ZELTRON_CHR_kast ZELTRON_CHR_airerith ZELTRON_CHR_halo ZELTRON_CHR_tade ZELTRON_CHR_clash ZELTRON_CHR_jalba ZELTRON_CHR_benn ZELTRON_CHR_haruhana ZELTRON_CHR_roice ZELTRON_CHR_lokar ZELTRON_CHR_korpil ZELTRON_CHR_turon ZELTRON_CHR_cavi ZELTRON_CHR_deece ZELTRON_CHR_braitano ZELTRON_CHR_garnik ZELTRON_CHR_tyandas ZELTRON_CHR_ka_taramas ZELTRON_CHR_nuwest ZELTRON_CHR_forte ZELTRON_CHR_noshey ZELTRON_CHR_gyyll ZELTRON_CHR_tallon ZELTRON_CHR_lionne ZELTRON_CHR_adras ZELTRON_CHR_fremlin ZELTRON_CHR_peoly ZELTRON_CHR_damiel ZELTRON_CHR_chup_pau ZELTRON_CHR_drayven ZELTRON_CHR_zaposug ZELTRON_CHR_bela_trepada ZELTRON_CHR_defelice ZELTRON_CHR_monsula ZELTRON_CHR_baralein ZELTRON_CHR_denive ZELTRON_CHR_hodrren ZELTRON_CHR_xergo ZELTRON_CHR_sarat ZELTRON_CHR_vercet ZELTRON_CHR_ossaki ZELTRON_CHR_kappa ZELTRON_CHR_zerga ZELTRON_CHR_kopos ZELTRON_CHR_aldrecht ZELTRON_CHR_bohme ZELTRON_CHR_tull ZELTRON_CHR_eldrel ZELTRON_CHR_marh ZELTRON_CHR_darksword ZELTRON_CHR_krandor ZELTRON_CHR_montag ZELTRON_CHR_dimodan ZELTRON_CHR_starfallen ZELTRON_CHR_artis ZELTRON_CHR_fett ZELTRON_CHR_mohebbi ZELTRON_CHR_runalian ZELTRON_CHR_binette ZELTRON_CHR_laurent ZELTRON_CHR_mavr ZELTRON_CHR_ryra ZELTRON_CHR_truden ZELTRON_CHR_solo ZELTRON_CHR_lars ZELTRON_CHR_amedda ZELTRON_CHR_amidala ZELTRON_CHR_andrell ZELTRON_CHR_annon ZELTRON_CHR_antilles ZELTRON_CHR_atanna ZELTRON_CHR_baab ZELTRON_CHR_barc ZELTRON_CHR_bonteri ZELTRON_CHR_breemu ZELTRON_CHR_bremack ZELTRON_CHR_bronk ZELTRON_CHR_burtoni ZELTRON_CHR_cadaman ZELTRON_CHR_callen ZELTRON_CHR_clovis ZELTRON_CHR_ledwellow ZELTRON_CHR_dio ZELTRON_CHR_organa
+			}
+			regnal_first_names_male = {
+				ZELTRON_CHR_kam ZELTRON_CHR_erek ZELTRON_CHR_arslan ZELTRON_CHR_lerak ZELTRON_CHR_morla ZELTRON_CHR_mas ZELTRON_CHR_wain ZELTRON_CHR_bail ZELTRON_CHR_gabrial ZELTRON_CHR_dewell ZELTRON_CHR_tanner ZELTRON_CHR_vi ZELTRON_CHR_rush ZELTRON_CHR_danry
+			}
+			regnal_first_names_female = {
+				ZELTRON_CHR_callista ZELTRON_CHR_mara ZELTRON_CHR_seena ZELTRON_CHR_areta ZELTRON_CHR_padm_ ZELTRON_CHR_fema ZELTRON_CHR_mina ZELTRON_CHR_bana ZELTRON_CHR_tyreca ZELTRON_CHR_halle ZELTRON_CHR_lexi ZELTRON_CHR_leia ZELTRON_CHR_alyssa ZELTRON_CHR_leanna ZELTRON_CHR_arya
+			}
+			regnal_second_names = {
+				ZELTRON_CHR_amedda ZELTRON_CHR_amidala ZELTRON_CHR_andrell ZELTRON_CHR_annon ZELTRON_CHR_antilles ZELTRON_CHR_atanna ZELTRON_CHR_baab ZELTRON_CHR_barc ZELTRON_CHR_bonteri ZELTRON_CHR_breemu ZELTRON_CHR_bremack ZELTRON_CHR_bronk ZELTRON_CHR_burtoni ZELTRON_CHR_cadaman ZELTRON_CHR_callen ZELTRON_CHR_clovis ZELTRON_CHR_ledwellow ZELTRON_CHR_dio ZELTRON_CHR_panteer ZELTRON_CHR_alde ZELTRON_CHR_organa ZELTRON_CHR_frayus ZELTRON_CHR_cortess ZELTRON_CHR_killesa
+			}
+		}
+	}
+}

@@ -1,0 +1,676 @@
+### IMPORTANT
+### EVERY NEW ONACTION BELONGS INTO HERE!
+### EVERY SINGLE ONE
+# Triggers when the game starts
+on_game_start = {
+	events = {
+		swnd_start.1
+		swnd_start.7 	# Set Starbases
+		# swnd_start.10	# set homeworlds - deprecated
+		swnd_start.90	# Populate planets that couldn't be in inits
+		swnd_start.100	# Planets into empires, canon map
+		swnd_start.110 	# Skavenblight spawn, Huge Canon
+		swnd_start.111 	# Skavenblight spawn, Large Canon
+		swnd_start.112 	# Skavenblight spawn, Medium Canon
+		swnd_start.113	# Skavenblight spawn, Small Canon
+		swnd_start.114	# Skavenblight spawn, Sandbox
+		swnd_start.120	# Ecu capital planets get pops/ buildings
+		swnd_start.121	# Sandbox ecu capital planets get pops/ buildings
+		swnd_start.125	# Add pops to planets (those that didn't have a homeworld on inits yet)
+		swnd_csa_speciesrights_events.1 # CSA species rights
+		swnd_start.162	# Initializes GCW variables
+	}
+}
+
+on_game_start_country = {
+	events = {
+		swnd_start.2				# generate start fleets
+		swnd_start.5				# Fix country names
+		swnd_start.6				# give starting technologies
+		swnd_start.36
+		swnd_start.37
+		swnd_start.66
+		swnd_start.130				# Civilian ship fix
+		swnd_start.150		 		# Spawn hyperroute relays
+		swnd_vassal_sector.1 		# Sector Vassal on canon map
+		swnd_start.122				# Removing Deposit on Ecu Sandbox
+		swnd_galactic_cw.1 			# Empire becoming Crisis
+		swnd_start.160				# Fix Double Species (if exists) and homeworlds
+		swnd_start.161				# FIRE LAST - Modify human species planet class preference
+	}
+}
+
+# No scope, like on_game_start
+on_monthly_pulse = {
+	events = {
+		swnd_start.140	# Turning slave citizenship species into residence
+	}
+}
+
+# Triggers when pressing begin in the intro window
+# This = country to press begin
+on_press_begin = {
+	events = {
+		swnd_start.35
+		swnd_prescripted_leaders.1
+	}
+}
+
+# Triggers when trying to open the diplomacy view for countries with custom diplomacy.
+# Country scope
+# This = target country (player)
+# From = source country
+on_custom_diplomacy = {
+	events = {
+		swnd_mandalorian_clans.90
+	}
+}
+
+#An army has been killed in ground combat
+# This = owner
+# From = army
+# FromFrom = opponent
+# FromFromFrom = planet
+on_army_killed_in_combat = {
+	events = {
+		swnd_misc.100 # update limited army counters
+	}
+}
+
+#An army has ceased to exist for any other reason
+# This = country
+# From = army
+on_army_killed_no_combat = {
+	events = {
+		swnd_misc.100 # update limited army counters
+	}
+}
+
+# This = owner of army
+# From = disbanded army
+on_army_disbanded = {
+	events = {
+		swnd_misc.100 # update limited army counters
+	}
+}
+
+on_first_contact = {
+	events = {
+		swp_nihilus_event.10
+	}
+}
+
+# Triggers country_event for the defender upon victory
+# Root = country, planet owner
+# From = country, attack leader
+# FromFrom = planet
+on_planet_defenders_win = {
+	events = {
+		swnd_special_planet.6 # Victory over Sandpeople
+	}
+}
+
+# Triggers country_event for the defender upon defeat
+# This = country, planet owner
+# From = country, attack leader
+# FromFrom = planet
+on_planet_defenders_lose = {
+	events = {
+		swnd_special_planet.7 # Defeat from Sandpeople
+		swnd_mando_generic_events.14 # Lost planet, removes deposit
+	}
+}
+
+on_ship_disabled = {
+	events = {
+		swp_galactic_empire_event.79		# Galactic Empire - Imperial Traitor ship disabled
+	}
+}
+
+# This = Ship
+on_ship_enabled = {
+	events = {
+	}
+}
+
+# This = country
+# From = opponent war leader
+on_entering_war = {
+	events = {
+		swnd_mandalorian_clans.1 # Mandalorian Civil War Ends - common enemy
+	}
+}
+
+# A war has been won
+# Root = Winner Warleader
+# From = Loser Warleader
+# FromFrom = War
+on_war_won = {
+	events = {
+		swnd_mandalorian_clans.161 	# Clans gain loyalty
+	}
+}
+
+# A war has been lost
+# Root = Loser Warleader
+# From = Winner Warleader
+# FromFrom = War
+on_war_lost = {
+	events = {
+		swnd_mandalorian_clans.162 	# Clans lose loyalty
+	}
+}
+
+# A war has ended
+# Root = Loser
+# From = Main Winner
+on_war_ended = {
+	events = {
+	}
+}
+
+# This = owner of fleet 1 (winner)
+# From = owner of fleet 2 (loser)
+# FromFrom = fleet 1
+# FromFromFrom = fleet 2
+on_space_battle_won = {
+	events = {
+	}
+}
+
+# This = owner of fleet 1 (loser)
+# From = owner of fleet 2 (winner)
+# FromFrom = fleet 1
+# FromFromFrom = fleet 2
+on_space_battle_lost = {
+	events = {
+	}
+}
+
+# A fleet has successfully escaped from combat, executed right before the fleet enters FTL
+# This = escaping fleet
+# From = system escaped from
+# FromFrom = system escaping to
+on_emergency_ftl = {
+	events = {
+	}
+}
+
+#From = Planet scope
+#This = Fleet scope
+on_fleet_enter_orbit = {
+	events = {
+	}
+}
+
+# No scope, like on_game_start
+on_monthly_pulse = {
+	events = {
+		swnd_action.1	# enable SWND resources for galactic market
+	}
+}
+
+# No scope, like on_game_start
+on_yearly_pulse = {
+	events = {
+		swp_country_formation.1		# kissai formation possible
+		swp_country_formation.3		# kissai demands fulfilled
+		swp_country_formation.21	# kaminoan formation
+		swnd_mandalorian_clans.150 	# Mandalorian Clans Actions
+	}
+}
+
+# No scope, like on_game_start
+on_bi_yearly_pulse = {
+	events = {
+		swp_galactic_empire_event.0		# Galactic Empire events
+		swp_rebellion_event.0			# Rebel events and raids
+		swp_test.6000					# Make Sith force sensitive
+		swnd_mandalorian.160			# Trigger event for Formable Mando/ Boba
+	}
+}
+
+# No scope, like on_game_start
+on_five_year_pulse = {
+	events = {
+		swnd_mandalorian.120	# Trigger event for Mando ethics change/ This is the Way
+		swnd_mandalorian.130	# Trigger event for Mando ethics change/ Crusader
+		swnd_mando_generic_events.10 # Trigger event for Mando Armorer event
+	}
+}
+
+# No scope, like on_game_start
+on_mid_game_pulse = {
+	events = {
+	}
+}
+
+# No scope, like on_game_start
+on_late_game_pulse = {
+	events = {
+		swnd_vong.1
+	}
+}
+
+# A country has increased the level of a tech, use last_increased_tech trigger to check tech and level.
+# This = Country
+on_tech_increased = {
+	events = {
+		swnd_start.56				# This activates built pops via the "create_built_sw_robot_species" scripted effect
+		swnd_deathstar_event.5		# Info when GE can start building the Death Star
+		swp_tech_option_events.100	# Activates proper tech specialization event
+		swp_generic_event.40		# Sets global flags for republic_era, imperial_era and rebellion_era
+		swp_flavor_events.1
+		swnd_strikecraft.1			# gives Fighter tech
+		swnd_strikecraft.2			# gives Fighter tech
+		swnd_strikecraft.3			# gives Fighter tech
+		swnd_mandalorian_clans.156	# Give Clans country techs
+		swnd_feature.1				# Settle unknown regions
+	}
+}
+
+# A planets controller becomes a country not the same as the owner.
+# Root = Planet
+# From = Planet Owner
+# FromFrom = Planet Controller (the one occupying)
+on_planet_occupied = {
+	events = {
+		swnd_mandalorian_clans.3
+	}
+}
+
+# Executed as a leader has died
+# This = Country
+# From = Leader
+on_leader_death = {
+	events = {
+		swnd_mandalorian_clans.160 #Generate new leaders for clans
+	}
+}
+
+# a new leader is generated for an empire, to be available for recruitment
+# scope: country, from: leader
+on_leader_spawned = {
+	events = {
+		swnd_disease.1
+	}
+}
+
+#A building construction has been completed.
+# This = Planet
+on_building_complete = {
+	events = {
+	}
+}
+
+# A building construction has demolished.
+# This = Planet
+on_building_demolished = {
+	events = {
+	}
+}
+
+# A building construction has finished, replacing another building.
+# This = Planet
+on_building_replaced = {
+	events = {
+	}
+}
+
+# A district construction has demolished.
+# This = Planet
+on_district_demolished = {
+	events = {
+	}
+}
+
+# This = owner of fleet 1 (combatant)
+# From = owner of fleet 2 (destroyed)
+# FromFrom = fleet 1
+# FromFromFrom = fleet 2
+on_fleet_destroyed_perp = {
+	events = {
+		swp_nihilus_event.7
+	}
+}
+
+# this = country
+on_monthly_pulse_country = {
+	events = {
+		empire_institutions.4		## check if perma buffs should run out
+		swnd_perf.1		# Roll for locking/unlocking AI diplomatic actions
+	}
+}
+
+# this = country
+on_yearly_pulse_country = {
+	events = {
+		swp_thrawn_events.83		 # Galactic Empire setup event for last Thrawn Trait 
+		swnd_mandalorian_clans.95	 #Check faction counts
+		swnd_gcw_rebellion.110		# Rebel Alliance gets a random tech from each sympathizer country
+	}
+}
+
+# this = country
+on_bi_yearly_pulse_country = {
+	events = {
+		swp_talesfromcantina.1		#swfr generic dig site event
+		swnd_mando_generic_events.0		# Enforcers for hire/ Mando
+		swnd_mando_generic_events.1		# Enforcers for hire/ Empire
+		swnd_generic_event.1	# SWND generic event rolls
+	}
+}
+
+# this = country
+on_five_year_pulse_country = {
+	events = {
+		swp_ascension.200		# Support Jedi or Sith
+		swp_ascension.2000		# Jedi Ascension
+		swp_ascension.1000		# Sith Ascension
+		swp_ascension.100		# General Spread Force Sensitivity
+		swnd_prescripted_leaders.2		# Darth Vader Revive
+		swp_talesfromcantina.10		# Ziost Digsite Spawn
+		swp_talesfromcantina.11		# Korriban Digsite Spawn
+		swp_talesfromcantina.12		# Dxun Digsite Spawn
+		swp_talesfromcantina.13		# Dromund Kaas Digsite Spawn
+		swnd_army_events.1			# Army buildings for AI
+		swnd_mandalorian.10			# A Risky Alliance
+		swnd_chiss_events.10	# Chiss event "Thrawn's Mission"
+		swnd_galactic_cw_leadup.1		# Calls for Reparations event - starts first 4 gcw build up events
+		swnd_galactic_cw_leadup.100		# Calls for Reparations equivalent for Chiss/Killik/Hapan
+	}
+}
+
+# this = country
+on_mid_game_pulse_country = {
+	events = {
+		swp_nihilus_event.1			# Nihilus Spawn
+		swp_gaunt_event.0			# Commander Gaunt Event
+		swnd_chiss_events.20	# Chiss event: "Admirable Leadership"
+	}
+}
+
+# Triggers event when ship enters a system
+# Scope = Ship
+# From = System
+# FromFrom = Country
+on_entering_system = {
+	events = {
+		swp_anomaly.0		# Drol chain
+	}
+	random_events = {
+	}
+}
+
+# THIS = System: system being occupied
+# FROM = Country: Conqueror of the system
+# FROMFROM = Country: Original owner of the system
+on_system_occupied = {
+	events = {
+		action.300
+		#crisis.6100
+		swnd_megastructure_events.0
+	}
+}
+
+# THIS = System: system being returned from occupation
+# FROM = Country: Previous owner of the system
+# FROMFROM = Country: Occupier of the system
+on_system_returned = {
+	events = {
+		action.301
+		swnd_megastructure_events.0
+	}
+}
+
+# A ship has surveyed a planet.
+# Scope = Ship
+# From = Planet
+on_survey = {
+	events = {
+		swp_generic_event.10
+		#swnd_digsite.10 # The Treasures of Dianth # disabled for time being
+	}
+}
+
+# Executes after a policy has been changed
+# use last_changed_policy to identify which policy it was
+# This = Country
+on_policy_changed = {
+	events = {
+		swp_observation.10
+	}
+}
+
+# Called when a Starbase changes owner
+# THIS = Ship (Starbase)
+# FROM = Former Owner (Country)
+on_starbase_transfer = {
+	events = {
+		swnd_mandalorian_clans.155 # Mandalorian Clan lose Starbase
+	}
+}
+
+# Executed as new ruler has been set
+# This = Country
+on_ruler_set = {
+	events = {
+		swnd_mandalorian_clans.171 # Leader Changes
+	}
+}
+
+# From = system
+# FromFrom = country (previous owner)
+# This = country (new owner)
+on_system_gained = {
+	events = {
+		swp_country_formation.30		# Zann questchain
+		swnd_vong.1000 					# Vong Kill Shipyard SWFR
+		swnd_megastructure_events.1 	# shipyard ownership
+		swnd_action.4 					# Add Country Flag Dxun for Mando Clan
+		swnd_action.5					# Add Country Flag from Tatooine for Mando Clan
+		swnd_mandalorian.150			# Happens when Mandalore conquers Coruscant
+	}
+}
+
+# fires when a country finishes being integrated
+# This = overlord
+# From = subject
+on_subject_integrated = {
+	events = {
+		swnd_megastructure_events.2 # shipyard ownership
+	}
+}
+
+# Planet has taken damage from orbital bombardment
+# This = Planet
+# From = Bombarder
+on_planet_bombarded = {
+	events = {
+	}
+}
+
+# A planet has been colonized.
+# Scope = Planet
+on_colonized = {
+	events = {
+	}
+}
+
+#A district construction has been completed.
+# This = Planet
+on_district_complete = {
+	events = {
+	}
+}
+
+on_colony_5_years_old = {
+	events = {
+		swnd_mandalorian.3 #AI help for getting secondary necrophage species on the planet
+	}
+}
+
+on_colony_6_years_old = {
+	random_events = {
+		80 = 0
+		20 = swp_generic_event.50
+	}
+}
+
+# Fires for each planet every year (counting up from colonisation date, includes home planet)
+on_colony_yearly_pulse = {
+	events = {
+		swnd_action.10 # Sarlacc kills pop
+		swnd_action.11 # Sandpeople Attack
+	}
+}
+
+
+# Fires for each planet every 5 years (counting up from colonisation date, includes home planet)
+on_colony_5_year_pulse = {
+	events = {
+		swnd_mandalorian.1 # Consumption event for Mando pop change
+	}
+	#random_events = {
+	#	3 = manifesti.1
+	#	97 = 0
+	#}
+}
+
+# Executed when the ruler is ousted and goes back to their pre-ruler class
+# From = Previous Ruler, already has the new class
+# This = Country
+on_ruler_back_to_pre_ruler_class = {
+	events = {
+		swnd_action.2		#adds swp_important trait for Mon mothma
+		swnd_action.3		#adds swp_important trait for Bo Katan
+	}
+}
+
+
+# No scope, like on_game_start
+on_yearly_pulse = {
+	events = {
+		swnd_hero_leader.1 #Grant "hero" leader candidates; original code from Walshicus
+		swnd_vong.204 # Spawn Colony Ships
+		swnd_vong.205 # Spawn Construction Ships
+		swnd_vong.208 # Destroy Vong 
+		swnd_vong.240 # Prethoryn army reinforcements
+	}
+}
+
+# No scope, like on_game_start
+on_bi_yearly_pulse = {
+	events = {
+		swnd_vong.206 # Build Fleet
+	}
+}
+
+# No scope, like on_game_start
+on_five_year_pulse = {
+	events = {
+	}
+}
+
+# No scope, like on_game_start
+on_decade_pulse = {
+	events = {
+	}
+}
+
+# Triggers country_event for the attacker upon victory
+# (Before controller is switched)
+# This = country, leader attacker
+# From = country, planet owner
+# FromFrom = planet
+# IDENTITIES: attacker is the side that "IsHostile" to
+# the planet controller; e.g. spawned monster armies
+# are attackers, but if they win and the player attempts
+# to retake the planet, the player is the attacker
+on_planet_attackers_win = {
+	events = {
+		swnd_vong.201 # Purge begins
+		swnd_vong.219 # Purge ends
+	}
+}
+
+# A planet has been colonized.
+# Scope = Planet
+on_colonized = {
+	events = {
+		swnd_vong.203 # Colonisation
+	}
+}
+
+# This = owner of ship 1 (destroyed)
+# From = owner of ship 2 (combatant)
+# FromFrom = ship 1
+# FromFromFrom = ship 2
+on_ship_destroyed_victim = {
+	events = {
+		swnd_vong.217 # Kill Counter
+	}
+}
+
+# This = owner of ship 1 (combatant)
+# From = owner of ship 2 (destroyed)
+# FromFrom = ship 1
+# FromFromFrom = ship 2
+on_ship_destroyed_perp = {
+	events = {
+		swnd_vong.218 # Prethoryn Victims
+	}
+	random_events = {
+	}
+}
+
+# Planet has taken damage from orbital bombardment
+# This = Planet
+# From = Bombarder
+on_planet_bombarded = {
+	events = {
+		swnd_vong.200 # Planet Infestation
+	}
+}
+
+
+# A pop has finished purging
+# This = Planet scope
+# From = Country
+# FromFrom = Pop
+on_pop_purged = {
+	events = {
+		swnd_vong.202 # Purge Complete
+	}
+}
+
+#This = destroyed country
+#From = optional, destroyer (country)
+on_country_destroyed = {
+	events = {
+		swnd_vong.210 # Prethoryn Defeated
+		swnd_mandalorian_clans.200 # Mandalorian Clans
+		swnd_mandalorian.80 # Mandalorian Sector destroyed
+		swp_galactic_empire_event.131 # Nu Enclave destroyed
+	}
+}
+
+on_colony_2_years_old = {
+	events = {
+		swnd_special_planet.1 # Sandpeople on Tatooine
+	}
+	#random_events = {
+	#}
+}
+
+#This = Country
+on_diplomatic_event = { # Adapted from STNC
+	random_events = {
+		500 = 0 # Null; about half? 
+		## Vanilla
+		25 = envoy_events.1		# Insulting envoy software event; moved to swnd_on_ations
+		50 = envoy_events.4		# Respected Envoy to Galactic Community
+		25 = envoy_events.5		# Irritating Envoy Must Die; moved to swnd_on_actions
+		5 = envoy_events.15		# Galactic Community Wildlife
+	}
+}

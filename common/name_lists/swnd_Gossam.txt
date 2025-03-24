@@ -1,0 +1,844 @@
+﻿Gossam = {
+	randomized = no
+	ship_names = {
+		generic = {
+			GOSSAM_SHIP_mystic GOSSAM_SHIP_naiad GOSSAM_SHIP_nautilus GOSSAM_SHIP_nebula GOSSAM_SHIP_nimble GOSSAM_SHIP_north_star GOSSAM_SHIP_nymph GOSSAM_SHIP_obdurate GOSSAM_SHIP_ocean GOSSAM_SHIP_onward GOSSAM_SHIP_oracle GOSSAM_SHIP_paradox GOSSAM_SHIP_paragon GOSSAM_SHIP_pearl GOSSAM_SHIP_peregrine GOSSAM_SHIP_perseverance GOSSAM_SHIP_marksman GOSSAM_SHIP_rifleman GOSSAM_SHIP_sniper GOSSAM_SHIP_trident GOSSAM_SHIP_trumpet GOSSAM_SHIP_truncheon GOSSAM_SHIP_typhoon GOSSAM_SHIP_undaunted GOSSAM_SHIP_venture GOSSAM_SHIP_versatile GOSSAM_SHIP_vigorous GOSSAM_SHIP_viper GOSSAM_SHIP_vivacious GOSSAM_SHIP_winger GOSSAM_SHIP_wizard GOSSAM_SHIP_wyvern GOSSAM_SHIP_wolfhound GOSSAM_SHIP_devastator GOSSAM_SHIP_warhammer GOSSAM_SHIP_retribution GOSSAM_SHIP_senator GOSSAM_SHIP_tornado GOSSAM_SHIP_infinity GOSSAM_SHIP_usurper GOSSAM_SHIP_utmost GOSSAM_SHIP_valorous GOSSAM_SHIP_whirlwind GOSSAM_SHIP_athena GOSSAM_SHIP_artemis GOSSAM_SHIP_vigilance GOSSAM_SHIP_decimator GOSSAM_SHIP_indomitable GOSSAM_SHIP_goliath GOSSAM_SHIP_sentinel GOSSAM_SHIP_brilliant GOSSAM_SHIP_blazer GOSSAM_SHIP_audacity GOSSAM_SHIP_gallant GOSSAM_SHIP_nova GOSSAM_SHIP_shadow GOSSAM_SHIP_allegiance GOSSAM_SHIP_challenger GOSSAM_SHIP_fearless GOSSAM_SHIP_protector GOSSAM_SHIP_guardian GOSSAM_SHIP_victorious GOSSAM_SHIP_courageous GOSSAM_SHIP_defiance GOSSAM_SHIP_valorous GOSSAM_SHIP_azrael GOSSAM_SHIP_adamantine GOSSAM_SHIP_aralanni GOSSAM_SHIP_ardent_iv GOSSAM_SHIP_armistice GOSSAM_SHIP_avengeance GOSSAM_SHIP_ballista GOSSAM_SHIP_bloodstripe GOSSAM_SHIP_borealis GOSSAM_SHIP_caelus GOSSAM_SHIP_caravan GOSSAM_SHIP_chaf_envoy GOSSAM_SHIP_commenor GOSSAM_SHIP_corbantis GOSSAM_SHIP_corellia GOSSAM_SHIP_courteous GOSSAM_SHIP_dauntless GOSSAM_SHIP_defiant GOSSAM_SHIP_deliverance GOSSAM_SHIP_derapha GOSSAM_SHIP_devout GOSSAM_SHIP_empirical GOSSAM_SHIP_empyrean GOSSAM_SHIP_era_daimanos GOSSAM_SHIP_eye_of_the_storm GOSSAM_SHIP_farstar GOSSAM_SHIP_fastblast GOSSAM_SHIP_galaaron GOSSAM_SHIP_garrote GOSSAM_SHIP_gilagimar GOSSAM_SHIP_halleck GOSSAM_SHIP_hunter GOSSAM_SHIP_intractable GOSSAM_SHIP_ithor_lady GOSSAM_SHIP_justice_crusader GOSSAM_SHIP_kana_s_steel GOSSAM_SHIP_lathir GOSSAM_SHIP_liberty GOSSAM_SHIP_lillibanca GOSSAM_SHIP_maelstrom GOSSAM_SHIP_malachite_scent GOSSAM_SHIP_mercy GOSSAM_SHIP_myrkos GOSSAM_SHIP_nebula_chaser GOSSAM_SHIP_nova GOSSAM_SHIP_nova_viper GOSSAM_SHIP_obedience GOSSAM_SHIP_olemp GOSSAM_SHIP_pegasus GOSSAM_SHIP_perspicacity GOSSAM_SHIP_phalanx GOSSAM_SHIP_plooriod_bodkin GOSSAM_SHIP_predominance GOSSAM_SHIP_prosperity GOSSAM_SHIP_purity GOSSAM_SHIP_recalcitrant GOSSAM_SHIP_red_nova GOSSAM_SHIP_redma GOSSAM_SHIP_reliable GOSSAM_SHIP_reliant GOSSAM_SHIP_reluctant GOSSAM_SHIP_republic GOSSAM_SHIP_republic_s_return GOSSAM_SHIP_resolve GOSSAM_SHIP_respectable GOSSAM_SHIP_revenge GOSSAM_SHIP_shadowblade GOSSAM_SHIP_spritespray GOSSAM_SHIP_star_dream GOSSAM_SHIP_stark_wing GOSSAM_SHIP_starveil GOSSAM_SHIP_undying GOSSAM_SHIP_vaathkree GOSSAM_SHIP_vainglorious GOSSAM_SHIP_valiant GOSSAM_SHIP_valor GOSSAM_SHIP_vanquisher GOSSAM_SHIP_vinsor GOSSAM_SHIP_visseon GOSSAM_SHIP_wennis GOSSAM_SHIP_yavin_s_glory GOSSAM_SHIP_moldy_crow GOSSAM_SHIP_raven_s_claw GOSSAM_SHIP_agile GOSSAM_SHIP_archer GOSSAM_SHIP_arrow GOSSAM_SHIP_bruiser GOSSAM_SHIP_cherub GOSSAM_SHIP_chimera GOSSAM_SHIP_claymore GOSSAM_SHIP_broadsword GOSSAM_SHIP_battleaxe GOSSAM_SHIP_crossbow GOSSAM_SHIP_cutlass GOSSAM_SHIP_deterrent GOSSAM_SHIP_errant GOSSAM_SHIP_faithful GOSSAM_SHIP_fierce GOSSAM_SHIP_gladius GOSSAM_SHIP_longbow GOSSAM_SHIP_grappler GOSSAM_SHIP_hammer GOSSAM_SHIP_vampire GOSSAM_SHIP_velox GOSSAM_SHIP_venator GOSSAM_SHIP_vendetta GOSSAM_SHIP_venerable GOSSAM_SHIP_venomous GOSSAM_SHIP_taciturn GOSSAM_SHIP_supreme GOSSAM_SHIP_success GOSSAM_SHIP_shredder GOSSAM_SHIP_seraph GOSSAM_SHIP_serpent GOSSAM_SHIP_spitfire GOSSAM_SHIP_stalker GOSSAM_SHIP_stratagem GOSSAM_SHIP_scimitar GOSSAM_SHIP_scorcher GOSSAM_SHIP_scourge GOSSAM_SHIP_scythe GOSSAM_SHIP_revenant GOSSAM_SHIP_redoubtable GOSSAM_SHIP_raptor GOSSAM_SHIP_reaver GOSSAM_SHIP_prodigal GOSSAM_SHIP_rapier GOSSAM_SHIP_prudent GOSSAM_SHIP_persistent GOSSAM_SHIP_peerless GOSSAM_SHIP_myrmidon GOSSAM_SHIP_indignant GOSSAM_SHIP_javelin GOSSAM_SHIP_knight GOSSAM_SHIP_starwolf GOSSAM_SHIP_bonaventure GOSSAM_SHIP_adventure GOSSAM_SHIP_boxer GOSSAM_SHIP_buccaneer GOSSAM_SHIP_cavalier GOSSAM_SHIP_celestial GOSSAM_SHIP_chariot GOSSAM_SHIP_comet GOSSAM_SHIP_crucible GOSSAM_SHIP_cyclone GOSSAM_SHIP_decisive GOSSAM_SHIP_dexterous GOSSAM_SHIP_diadem GOSSAM_SHIP_earnest GOSSAM_SHIP_eclipse GOSSAM_SHIP_forger GOSSAM_SHIP_fortune GOSSAM_SHIP_gauntlet GOSSAM_SHIP_griffin GOSSAM_SHIP_horizon GOSSAM_SHIP_hotspur GOSSAM_SHIP_hurricane GOSSAM_SHIP_hussar GOSSAM_SHIP_jubilant GOSSAM_SHIP_lancer GOSSAM_SHIP_lightning GOSSAM_SHIP_magic GOSSAM_SHIP_mediator GOSSAM_SHIP_mermaid GOSSAM_SHIP_meteor GOSSAM_SHIP_minstrel GOSSAM_SHIP_miranda GOSSAM_SHIP_mustang GOSSAM_SHIP_sharpshooter GOSSAM_SHIP_cyclops GOSSAM_SHIP_centaur GOSSAM_SHIP_adversary GOSSAM_SHIP_assassin GOSSAM_SHIP_dagger GOSSAM_SHIP_daring GOSSAM_SHIP_duty GOSSAM_SHIP_havoc GOSSAM_SHIP_hero GOSSAM_SHIP_hunter GOSSAM_SHIP_justice GOSSAM_SHIP_impeccable GOSSAM_SHIP_interceptor GOSSAM_SHIP_infernal GOSSAM_SHIP_loyal GOSSAM_SHIP_matchless GOSSAM_SHIP_mauler GOSSAM_SHIP_mayhem GOSSAM_SHIP_malice GOSSAM_SHIP_menace GOSSAM_SHIP_merciless GOSSAM_SHIP_mischief GOSSAM_SHIP_monarch GOSSAM_SHIP_patriot GOSSAM_SHIP_predator GOSSAM_SHIP_powerful GOSSAM_SHIP_punisher GOSSAM_SHIP_ravager GOSSAM_SHIP_reaper GOSSAM_SHIP_savage GOSSAM_SHIP_spiteful GOSSAM_SHIP_templar GOSSAM_SHIP_terminator GOSSAM_SHIP_terror GOSSAM_SHIP_thrasher GOSSAM_SHIP_minotaur GOSSAM_SHIP_manticore GOSSAM_SHIP_interdictor GOSSAM_SHIP_intruder GOSSAM_SHIP_hydra GOSSAM_SHIP_enfield GOSSAM_SHIP_harasser GOSSAM_SHIP_unbeaten GOSSAM_SHIP_werewolf GOSSAM_SHIP_zealous GOSSAM_SHIP_petulant GOSSAM_SHIP_phantom GOSSAM_SHIP_phoenix GOSSAM_SHIP_pike GOSSAM_SHIP_pursuer GOSSAM_SHIP_raider GOSSAM_SHIP_rainbow GOSSAM_SHIP_rapid GOSSAM_SHIP_redemption GOSSAM_SHIP_relentless GOSSAM_SHIP_rigorous GOSSAM_SHIP_robust GOSSAM_SHIP_sabre GOSSAM_SHIP_salvation GOSSAM_SHIP_sanguine GOSSAM_SHIP_scarab GOSSAM_SHIP_scepter GOSSAM_SHIP_sea_witch GOSSAM_SHIP_siren GOSSAM_SHIP_sorceress GOSSAM_SHIP_spearhead GOSSAM_SHIP_specter GOSSAM_SHIP_spirit GOSSAM_SHIP_splendid GOSSAM_SHIP_stallion GOSSAM_SHIP_stalwart GOSSAM_SHIP_steadfast GOSSAM_SHIP_strenuous GOSSAM_SHIP_superb GOSSAM_SHIP_supernova GOSSAM_SHIP_surprise GOSSAM_SHIP_swiftsure GOSSAM_SHIP_talent GOSSAM_SHIP_talisman GOSSAM_SHIP_talon GOSSAM_SHIP_taurus GOSSAM_SHIP_tenacious GOSSAM_SHIP_thunder_child GOSSAM_SHIP_thunderous GOSSAM_SHIP_tireless GOSSAM_SHIP_trenchant GOSSAM_SHIP_righteous GOSSAM_SHIP_acheron GOSSAM_SHIP_achilles GOSSAM_SHIP_agamemnon GOSSAM_SHIP_amphion GOSSAM_SHIP_aquilon GOSSAM_SHIP_argonaut GOSSAM_SHIP_argus GOSSAM_SHIP_ariel GOSSAM_SHIP_aurora GOSSAM_SHIP_avernus GOSSAM_SHIP_bacchus GOSSAM_SHIP_bucephalus GOSSAM_SHIP_calliope GOSSAM_SHIP_calypso GOSSAM_SHIP_castor GOSSAM_SHIP_charybdis GOSSAM_SHIP_circe GOSSAM_SHIP_cleopatra GOSSAM_SHIP_constantine GOSSAM_SHIP_cordelia GOSSAM_SHIP_cyrus GOSSAM_SHIP_damocles GOSSAM_SHIP_daedalus GOSSAM_SHIP_darius GOSSAM_SHIP_diomede GOSSAM_SHIP_dryad GOSSAM_SHIP_electra GOSSAM_SHIP_endymion GOSSAM_SHIP_erebus GOSSAM_SHIP_fenris GOSSAM_SHIP_freya GOSSAM_SHIP_gilgamesh GOSSAM_SHIP_gorgon GOSSAM_SHIP_halcyon GOSSAM_SHIP_hecate GOSSAM_SHIP_hector GOSSAM_SHIP_hesperus GOSSAM_SHIP_janus GOSSAM_SHIP_jason GOSSAM_SHIP_juno GOSSAM_SHIP_jupiter GOSSAM_SHIP_lancelot GOSSAM_SHIP_lazarus GOSSAM_SHIP_leander GOSSAM_SHIP_leonidas GOSSAM_SHIP_lysander GOSSAM_SHIP_maenad GOSSAM_SHIP_mars GOSSAM_SHIP_medea GOSSAM_SHIP_medusa GOSSAM_SHIP_menestheus GOSSAM_SHIP_mercury GOSSAM_SHIP_merlin GOSSAM_SHIP_minerva GOSSAM_SHIP_minos GOSSAM_SHIP_neptune GOSSAM_SHIP_nessus GOSSAM_SHIP_nestor GOSSAM_SHIP_nimrod GOSSAM_SHIP_niobe GOSSAM_SHIP_oberon GOSSAM_SHIP_odin GOSSAM_SHIP_ophelia GOSSAM_SHIP_orestes GOSSAM_SHIP_orpheus GOSSAM_SHIP_osiris GOSSAM_SHIP_pandora GOSSAM_SHIP_penelope GOSSAM_SHIP_persephone GOSSAM_SHIP_perseus GOSSAM_SHIP_phoebe GOSSAM_SHIP_pluto GOSSAM_SHIP_poseidon GOSSAM_SHIP_proteus GOSSAM_SHIP_pylades GOSSAM_SHIP_serapis GOSSAM_SHIP_stygian GOSSAM_SHIP_tantalus GOSSAM_SHIP_telemachus GOSSAM_SHIP_theseus GOSSAM_SHIP_thor GOSSAM_SHIP_trajan GOSSAM_SHIP_triton GOSSAM_SHIP_venus GOSSAM_SHIP_adamant GOSSAM_SHIP_ardent GOSSAM_SHIP_assail GOSSAM_SHIP_austere GOSSAM_SHIP_archon GOSSAM_SHIP_adroit GOSSAM_SHIP_aegis GOSSAM_SHIP_anchor GOSSAM_SHIP_corsair GOSSAM_SHIP_banshee GOSSAM_SHIP_enchantress GOSSAM_SHIP_eradicator GOSSAM_SHIP_tormentor GOSSAM_SHIP_legion GOSSAM_SHIP_reprisal GOSSAM_SHIP_aggressor GOSSAM_SHIP_assault GOSSAM_SHIP_eviscerator GOSSAM_SHIP_imperator GOSSAM_SHIP_excellence GOSSAM_SHIP_unrivalled GOSSAM_SHIP_warlord GOSSAM_SHIP_vengeance GOSSAM_SHIP_triumphant GOSSAM_SHIP_nemesis GOSSAM_SHIP_avenger GOSSAM_SHIP_champion GOSSAM_SHIP_conqueror GOSSAM_SHIP_crusader GOSSAM_SHIP_glory GOSSAM_SHIP_immortal GOSSAM_SHIP_judicator GOSSAM_SHIP_vanguard GOSSAM_SHIP_renown GOSSAM_SHIP_demolisher GOSSAM_SHIP_dragon GOSSAM_SHIP_executor GOSSAM_SHIP_furious GOSSAM_SHIP_gladiator GOSSAM_SHIP_magnificent GOSSAM_SHIP_ogre GOSSAM_SHIP_onslaught GOSSAM_SHIP_revenge GOSSAM_SHIP_vanquisher GOSSAM_SHIP_vehement GOSSAM_SHIP_basilisk GOSSAM_SHIP_tempest GOSSAM_SHIP_overlord GOSSAM_SHIP_warrior GOSSAM_SHIP_titan GOSSAM_SHIP_colossus GOSSAM_SHIP_prometheus GOSSAM_SHIP_nike GOSSAM_SHIP_paladin GOSSAM_SHIP_sovereign GOSSAM_SHIP_repulse GOSSAM_SHIP_majestic GOSSAM_SHIP_avatar GOSSAM_SHIP_behemoth GOSSAM_SHIP_centurion GOSSAM_SHIP_citadel GOSSAM_SHIP_katana GOSSAM_SHIP_kraken GOSSAM_SHIP_cerberus GOSSAM_SHIP_valkyrie
+		}
+		swp_bellator = {
+			GOSSAM_SHIP_dreadnought GOSSAM_SHIP_harbinger GOSSAM_SHIP_juggernaut GOSSAM_SHIP_leviathan GOSSAM_SHIP_hyperion GOSSAM_SHIP_galatea GOSSAM_SHIP_ambush GOSSAM_SHIP_vindicator
+		}
+		science = {
+			GOSSAM_SHIP_crescent GOSSAM_SHIP_diligent GOSSAM_SHIP_zephyr GOSSAM_SHIP_enigma GOSSAM_SHIP_conquistador GOSSAM_SHIP_scylla GOSSAM_SHIP_arbiter GOSSAM_SHIP_asperity GOSSAM_SHIP_eminence GOSSAM_SHIP_astute GOSSAM_SHIP_alacrity GOSSAM_SHIP_satyr GOSSAM_SHIP_prospero GOSSAM_SHIP_untiring GOSSAM_SHIP_zenith GOSSAM_SHIP_torch GOSSAM_SHIP_remembrance GOSSAM_SHIP_pilgrim GOSSAM_SHIP_trailblazer GOSSAM_SHIP_vagabond GOSSAM_SHIP_wayfarer GOSSAM_SHIP_ambassador GOSSAM_SHIP_emissary GOSSAM_SHIP_nomad GOSSAM_SHIP_pathfinder GOSSAM_SHIP_wanderer GOSSAM_SHIP_traveler
+		}
+		colonizer = {
+			GOSSAM_SHIP_godspeed GOSSAM_SHIP_prophecy GOSSAM_SHIP_manifest_destiny GOSSAM_SHIP_virtue GOSSAM_SHIP_potential GOSSAM_SHIP_expansion GOSSAM_SHIP_pioneer_spirit GOSSAM_SHIP_prosperity GOSSAM_SHIP_summit GOSSAM_SHIP_pinnacle GOSSAM_SHIP_seeder GOSSAM_SHIP_harvest GOSSAM_SHIP_demeter GOSSAM_SHIP_isis GOSSAM_SHIP_ceres GOSSAM_SHIP_exodus GOSSAM_SHIP_foundation GOSSAM_SHIP_scion GOSSAM_SHIP_progeny GOSSAM_SHIP_obligation GOSSAM_SHIP_purpose GOSSAM_SHIP_provider GOSSAM_SHIP_shining_city GOSSAM_SHIP_acquirer GOSSAM_SHIP_cultivator GOSSAM_SHIP_dawn_of_civilization GOSSAM_SHIP_purity GOSSAM_SHIP_community GOSSAM_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			GOSSAM_SHIP_godspeed GOSSAM_SHIP_prophecy GOSSAM_SHIP_manifest_destiny GOSSAM_SHIP_virtue GOSSAM_SHIP_potential GOSSAM_SHIP_expansion GOSSAM_SHIP_pioneer_spirit GOSSAM_SHIP_prosperity GOSSAM_SHIP_summit GOSSAM_SHIP_pinnacle GOSSAM_SHIP_seeder GOSSAM_SHIP_harvest GOSSAM_SHIP_isis GOSSAM_SHIP_ceres GOSSAM_SHIP_exodus GOSSAM_SHIP_foundation GOSSAM_SHIP_scion GOSSAM_SHIP_progeny GOSSAM_SHIP_obligation GOSSAM_SHIP_purpose GOSSAM_SHIP_provider GOSSAM_SHIP_shining_city GOSSAM_SHIP_acquirer GOSSAM_SHIP_cultivator GOSSAM_SHIP_dawn_of_civilization GOSSAM_SHIP_purity GOSSAM_SHIP_community GOSSAM_SHIP_brotherhood
+		}
+		constructor = {
+			GOSSAM_SHIP_industry GOSSAM_SHIP_assiduity GOSSAM_SHIP_effort GOSSAM_SHIP_laborer GOSSAM_SHIP_builder GOSSAM_SHIP_craftsman GOSSAM_SHIP_hard_hat GOSSAM_SHIP_progress GOSSAM_SHIP_engineer GOSSAM_SHIP_promise GOSSAM_SHIP_service GOSSAM_SHIP_shelter GOSSAM_SHIP_beast GOSSAM_SHIP_creator GOSSAM_SHIP_developer GOSSAM_SHIP_forger GOSSAM_SHIP_foundry GOSSAM_SHIP_factory GOSSAM_SHIP_anvil GOSSAM_SHIP_pillar GOSSAM_SHIP_architect GOSSAM_SHIP_accommodator GOSSAM_SHIP_ptah GOSSAM_SHIP_ilmarinen GOSSAM_SHIP_creidhne GOSSAM_SHIP_gobannus GOSSAM_SHIP_luchtaine GOSSAM_SHIP_goibniu GOSSAM_SHIP_vishvakarman GOSSAM_SHIP_tvastar GOSSAM_SHIP_ikenga GOSSAM_SHIP_qaynan GOSSAM_SHIP_ucuetis GOSSAM_SHIP_ogoun
+		}
+		transport = {
+			GOSSAM_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			GOSSAM_SHIP_spacegun_victory GOSSAM_SHIP_spacegun_success GOSSAM_SHIP_spacegun_supremacy GOSSAM_SHIP_spacegun_superior GOSSAM_SHIP_spacegun_adventure GOSSAM_SHIP_spacegun_ascendancy GOSSAM_SHIP_spacegun_paramount GOSSAM_SHIP_spacegun_preponderous GOSSAM_SHIP_spacegun_exemplary GOSSAM_SHIP_spacegun_eximious GOSSAM_SHIP_spacegun_pertinacity GOSSAM_SHIP_spacegun_acclaim GOSSAM_SHIP_spacegun_honor GOSSAM_SHIP_spacegun_renown GOSSAM_SHIP_spacegun_glory GOSSAM_SHIP_spacegun_superb GOSSAM_SHIP_spacegun_magnificence GOSSAM_SHIP_spacegun_majestic GOSSAM_SHIP_spacegun_splendor GOSSAM_SHIP_spacegun_paradigm GOSSAM_SHIP_spacegun_flawless GOSSAM_SHIP_spacegun_consummate GOSSAM_SHIP_spacegun_merit GOSSAM_SHIP_spacegun_perfection GOSSAM_SHIP_spacegun_virtue GOSSAM_SHIP_spacegun_advantage GOSSAM_SHIP_spacegun_rectitude GOSSAM_SHIP_spacegun_incorruptible GOSSAM_SHIP_spacegun_integrity GOSSAM_SHIP_spacegun_justice GOSSAM_SHIP_spacegun_probity GOSSAM_SHIP_spacegun_prudence GOSSAM_SHIP_spacegun_purity GOSSAM_SHIP_spacegun_resolute GOSSAM_SHIP_spacegun_dignity GOSSAM_SHIP_spacegun_distinction GOSSAM_SHIP_spacegun_excellence GOSSAM_SHIP_spacegun_faithful GOSSAM_SHIP_spacegun_discipline GOSSAM_SHIP_spacegun_steadfast GOSSAM_SHIP_spacegun_recompense GOSSAM_SHIP_spacegun_requiem GOSSAM_SHIP_spacegun_courage GOSSAM_SHIP_spacegun_valor GOSSAM_SHIP_spacegun_gallant GOSSAM_SHIP_spacegun_daring GOSSAM_SHIP_spacegun_constancy GOSSAM_SHIP_spacegun_perseverence GOSSAM_SHIP_spacegun_tenacity GOSSAM_SHIP_spacegun_sedulity GOSSAM_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			GOSSAM_SHIP_spacegun_victory GOSSAM_SHIP_spacegun_success GOSSAM_SHIP_spacegun_supremacy GOSSAM_SHIP_spacegun_superior GOSSAM_SHIP_spacegun_adventure GOSSAM_SHIP_spacegun_ascendancy GOSSAM_SHIP_spacegun_paramount GOSSAM_SHIP_spacegun_preponderous GOSSAM_SHIP_spacegun_exemplary GOSSAM_SHIP_spacegun_eximious GOSSAM_SHIP_spacegun_pertinacity GOSSAM_SHIP_spacegun_acclaim GOSSAM_SHIP_spacegun_honor GOSSAM_SHIP_spacegun_renown GOSSAM_SHIP_spacegun_glory GOSSAM_SHIP_spacegun_superb GOSSAM_SHIP_spacegun_magnificence GOSSAM_SHIP_spacegun_majestic GOSSAM_SHIP_spacegun_splendor GOSSAM_SHIP_spacegun_paradigm GOSSAM_SHIP_spacegun_flawless GOSSAM_SHIP_spacegun_consummate GOSSAM_SHIP_spacegun_merit GOSSAM_SHIP_spacegun_perfection GOSSAM_SHIP_spacegun_virtue GOSSAM_SHIP_spacegun_advantage GOSSAM_SHIP_spacegun_rectitude GOSSAM_SHIP_spacegun_incorruptible GOSSAM_SHIP_spacegun_integrity GOSSAM_SHIP_spacegun_justice GOSSAM_SHIP_spacegun_probity GOSSAM_SHIP_spacegun_prudence GOSSAM_SHIP_spacegun_purity GOSSAM_SHIP_spacegun_resolute GOSSAM_SHIP_spacegun_dignity GOSSAM_SHIP_spacegun_distinction GOSSAM_SHIP_spacegun_excellence GOSSAM_SHIP_spacegun_faithful GOSSAM_SHIP_spacegun_discipline GOSSAM_SHIP_spacegun_steadfast GOSSAM_SHIP_spacegun_recompense GOSSAM_SHIP_spacegun_requiem GOSSAM_SHIP_spacegun_courage GOSSAM_SHIP_spacegun_valor GOSSAM_SHIP_spacegun_gallant GOSSAM_SHIP_spacegun_daring GOSSAM_SHIP_spacegun_constancy GOSSAM_SHIP_spacegun_perseverence GOSSAM_SHIP_spacegun_tenacity GOSSAM_SHIP_spacegun_sedulity GOSSAM_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			GOSSAM_SHIP_spacegun_victory GOSSAM_SHIP_spacegun_success GOSSAM_SHIP_spacegun_supremacy GOSSAM_SHIP_spacegun_superior GOSSAM_SHIP_spacegun_adventure GOSSAM_SHIP_spacegun_ascendancy GOSSAM_SHIP_spacegun_paramount GOSSAM_SHIP_spacegun_preponderous GOSSAM_SHIP_spacegun_exemplary GOSSAM_SHIP_spacegun_eximious GOSSAM_SHIP_spacegun_pertinacity GOSSAM_SHIP_spacegun_acclaim GOSSAM_SHIP_spacegun_honor GOSSAM_SHIP_spacegun_renown GOSSAM_SHIP_spacegun_glory GOSSAM_SHIP_spacegun_superb GOSSAM_SHIP_spacegun_magnificence GOSSAM_SHIP_spacegun_majestic GOSSAM_SHIP_spacegun_splendor GOSSAM_SHIP_spacegun_paradigm GOSSAM_SHIP_spacegun_flawless GOSSAM_SHIP_spacegun_consummate GOSSAM_SHIP_spacegun_merit GOSSAM_SHIP_spacegun_perfection GOSSAM_SHIP_spacegun_virtue GOSSAM_SHIP_spacegun_advantage GOSSAM_SHIP_spacegun_rectitude GOSSAM_SHIP_spacegun_incorruptible GOSSAM_SHIP_spacegun_integrity GOSSAM_SHIP_spacegun_justice GOSSAM_SHIP_spacegun_probity GOSSAM_SHIP_spacegun_prudence GOSSAM_SHIP_spacegun_purity GOSSAM_SHIP_spacegun_resolute GOSSAM_SHIP_spacegun_dignity GOSSAM_SHIP_spacegun_distinction GOSSAM_SHIP_spacegun_excellence GOSSAM_SHIP_spacegun_faithful GOSSAM_SHIP_spacegun_discipline GOSSAM_SHIP_spacegun_steadfast GOSSAM_SHIP_spacegun_recompense GOSSAM_SHIP_spacegun_requiem GOSSAM_SHIP_spacegun_courage GOSSAM_SHIP_spacegun_valor GOSSAM_SHIP_spacegun_gallant GOSSAM_SHIP_spacegun_daring GOSSAM_SHIP_spacegun_constancy GOSSAM_SHIP_spacegun_perseverence GOSSAM_SHIP_spacegun_tenacity GOSSAM_SHIP_spacegun_sedulity GOSSAM_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			GOSSAM_SHIP_citadel GOSSAM_SHIP_albacore GOSSAM_SHIP_gateway GOSSAM_SHIP_vincent GOSSAM_SHIP_babylon GOSSAM_SHIP_caernavon GOSSAM_SHIP_acre GOSSAM_SHIP_pembroke GOSSAM_SHIP_acheron GOSSAM_SHIP_spithead GOSSAM_SHIP_halifax GOSSAM_SHIP_victoria GOSSAM_SHIP_chatham GOSSAM_SHIP_anchorage GOSSAM_SHIP_scapa_flow GOSSAM_SHIP_hampton_roads GOSSAM_SHIP_brooklyn GOSSAM_SHIP_norfolk GOSSAM_SHIP_newport GOSSAM_SHIP_guam GOSSAM_SHIP_pensacola GOSSAM_SHIP_vesuvius GOSSAM_SHIP_mckinley GOSSAM_SHIP_everest GOSSAM_SHIP_kilimanjaro GOSSAM_SHIP_aconcagua GOSSAM_SHIP_elbrus GOSSAM_SHIP_st__helens GOSSAM_SHIP_fuji GOSSAM_SHIP_olympus GOSSAM_SHIP_sinai GOSSAM_SHIP_ambrose GOSSAM_SHIP_bermuda GOSSAM_SHIP_farpoint GOSSAM_SHIP_blue_star GOSSAM_SHIP_olympus_mons GOSSAM_SHIP_tharsis GOSSAM_SHIP_syrtis GOSSAM_SHIP_blackham GOSSAM_SHIP_fletcher GOSSAM_SHIP_perry GOSSAM_SHIP_butakov GOSSAM_SHIP_morris GOSSAM_SHIP_moorsom GOSSAM_SHIP_hart GOSSAM_SHIP_hargood GOSSAM_SHIP_spruance GOSSAM_SHIP_tanaka GOSSAM_SHIP_halsey GOSSAM_SHIP_turner GOSSAM_SHIP_doria GOSSAM_SHIP_tirpitz GOSSAM_SHIP_cunningham GOSSAM_SHIP_jellicoe GOSSAM_SHIP_hipper GOSSAM_SHIP_beatty GOSSAM_SHIP_potemkin GOSSAM_SHIP_durham GOSSAM_SHIP_codrington GOSSAM_SHIP_milne GOSSAM_SHIP_laforey GOSSAM_SHIP_tyler GOSSAM_SHIP_hawke GOSSAM_SHIP_yonai GOSSAM_SHIP_pound GOSSAM_SHIP_king GOSSAM_SHIP_crutchley GOSSAM_SHIP_mountbatten GOSSAM_SHIP_kountouriotis GOSSAM_SHIP_kuznetsov GOSSAM_SHIP_essen GOSSAM_SHIP_kornilov GOSSAM_SHIP_suffren GOSSAM_SHIP_treville GOSSAM_SHIP_villeneuve GOSSAM_SHIP_grasse GOSSAM_SHIP_byng GOSSAM_SHIP_lezo
+		}
+		ion_cannon = {
+			GOSSAM_SHIP_bombard GOSSAM_SHIP_ballista GOSSAM_SHIP_catapult GOSSAM_SHIP_harpoon GOSSAM_SHIP_polybolos GOSSAM_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			GOSSAM_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			GOSSAM_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			GOSSAM_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			GOSSAM_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			GOSSAM_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			GOSSAM_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			GOSSAM_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			GOSSAM_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			GOSSAM_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			GOSSAM_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			GOSSAM_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			GOSSAM_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			GOSSAM_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			GOSSAM_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			GOSSAM_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			GOSSAM_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			GOSSAM_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			GOSSAM_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			GOSSAM_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			GOSSAM_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			GOSSAM_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			GOSSAM_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			GOSSAM_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			GOSSAM_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			GOSSAM_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			GOSSAM_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			GOSSAM_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			GOSSAM_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			GOSSAM_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			GOSSAM_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			GOSSAM_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			GOSSAM_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			GOSSAM_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			GOSSAM_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			GOSSAM_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			GOSSAM_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			GOSSAM_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			GOSSAM_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			GOSSAM_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			GOSSAM_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			GOSSAM_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			GOSSAM_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			GOSSAM_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			GOSSAM_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			GOSSAM_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			GOSSAM_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			GOSSAM_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			GOSSAM_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			GOSSAM_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			GOSSAM_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			GOSSAM_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			GOSSAM_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			GOSSAM_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			GOSSAM_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			GOSSAM_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			GOSSAM_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			GOSSAM_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			GOSSAM_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			GOSSAM_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			GOSSAM_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			GOSSAM_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			GOSSAM_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			GOSSAM_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			GOSSAM_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			GOSSAM_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			GOSSAM_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			GOSSAM_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			GOSSAM_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			GOSSAM_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			GOSSAM_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			GOSSAM_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			GOSSAM_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			GOSSAM_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			GOSSAM_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			GOSSAM_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			GOSSAM_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			GOSSAM_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			GOSSAM_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			GOSSAM_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			GOSSAM_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			GOSSAM_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			GOSSAM_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			GOSSAM_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			GOSSAM_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			GOSSAM_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			GOSSAM_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			GOSSAM_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			GOSSAM_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			GOSSAM_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			GOSSAM_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			GOSSAM_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			GOSSAM_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			GOSSAM_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			GOSSAM_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = GOSSAM_FLEET_defense_fleet_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = GOSSAM_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = GOSSAM_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = GOSSAM_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = GOSSAM_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = GOSSAM_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = GOSSAM_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = GOSSAM_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = GOSSAM_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				GOSSAM_ARMY_sarc_a__gladiators_ GOSSAM_ARMY_sarc_b__widowmakers_ GOSSAM_ARMY_sarc_c__immortals_ GOSSAM_ARMY_sarc_d__berserkers_ GOSSAM_ARMY_sarc_e__assassins_ GOSSAM_ARMY_sarc_f__reapers_ GOSSAM_ARMY_sarc_g__nighthawks_ GOSSAM_ARMY_sarc_h__desperados_ GOSSAM_ARMY_sarc_i__grey_knights_ GOSSAM_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = GOSSAM_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = GOSSAM_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = GOSSAM_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = GOSSAM_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = GOSSAM_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = GOSSAM_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = GOSSAM_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = GOSSAM_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = GOSSAM_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = GOSSAM_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = GOSSAM_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = GOSSAM_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = GOSSAM_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = GOSSAM_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = GOSSAM_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = GOSSAM_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = GOSSAM_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = GOSSAM_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = GOSSAM_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = GOSSAM_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = GOSSAM_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = GOSSAM_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = GOSSAM_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = GOSSAM_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = GOSSAM_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = GOSSAM_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = GOSSAM_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = GOSSAM_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = GOSSAM_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = GOSSAM_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = GOSSAM_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = GOSSAM_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = GOSSAM_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = GOSSAM_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = GOSSAM_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = GOSSAM_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = GOSSAM_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = GOSSAM_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = GOSSAM_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = GOSSAM_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = GOSSAM_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = GOSSAM_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = GOSSAM_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = GOSSAM_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = GOSSAM_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = GOSSAM_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = GOSSAM_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = GOSSAM_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = GOSSAM_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = GOSSAM_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = GOSSAM_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = GOSSAM_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = GOSSAM_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = GOSSAM_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = GOSSAM_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = GOSSAM_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = GOSSAM_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = GOSSAM_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = GOSSAM_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = GOSSAM_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = GOSSAM_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = GOSSAM_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = GOSSAM_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = GOSSAM_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = GOSSAM_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = GOSSAM_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = GOSSAM_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = GOSSAM_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = GOSSAM_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = GOSSAM_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = GOSSAM_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = GOSSAM_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = GOSSAM_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = GOSSAM_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = GOSSAM_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = GOSSAM_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = GOSSAM_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = GOSSAM_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = GOSSAM_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = GOSSAM_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = GOSSAM_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = GOSSAM_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = GOSSAM_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = GOSSAM_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = GOSSAM_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = GOSSAM_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = GOSSAM_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = GOSSAM_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = GOSSAM_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = GOSSAM_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = GOSSAM_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = GOSSAM_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = GOSSAM_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = GOSSAM_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = GOSSAM_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = GOSSAM_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = GOSSAM_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = GOSSAM_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = GOSSAM_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = GOSSAM_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = GOSSAM_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = GOSSAM_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = GOSSAM_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = GOSSAM_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = GOSSAM_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = GOSSAM_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = GOSSAM_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = GOSSAM_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = GOSSAM_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = GOSSAM_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = GOSSAM_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = GOSSAM_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = GOSSAM_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = GOSSAM_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = GOSSAM_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = GOSSAM_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = GOSSAM_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = GOSSAM_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = GOSSAM_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = GOSSAM_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = GOSSAM_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = GOSSAM_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = GOSSAM_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = GOSSAM_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = GOSSAM_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = GOSSAM_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = GOSSAM_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = GOSSAM_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = GOSSAM_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = GOSSAM_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = GOSSAM_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = GOSSAM_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = GOSSAM_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				GOSSAM_CHR_bail GOSSAM_CHR_ylenic GOSSAM_CHR_kel GOSSAM_CHR_gunn GOSSAM_CHR_gregory GOSSAM_CHR_abraxis GOSSAM_CHR_jonas GOSSAM_CHR_xerda GOSSAM_CHR_carth GOSSAM_CHR_kir GOSSAM_CHR_mebba GOSSAM_CHR_dagos GOSSAM_CHR_adam GOSSAM_CHR_kyle GOSSAM_CHR_forren GOSSAM_CHR_malcolm GOSSAM_CHR_jeho GOSSAM_CHR_lee GOSSAM_CHR_griggs GOSSAM_CHR_milo GOSSAM_CHR_aeron GOSSAM_CHR_byrec GOSSAM_CHR_strata GOSSAM_CHR_lancer GOSSAM_CHR_zeak GOSSAM_CHR_niuk GOSSAM_CHR_lavidean GOSSAM_CHR_tanizandar GOSSAM_CHR_japla GOSSAM_CHR_aran GOSSAM_CHR_rail GOSSAM_CHR_zeven GOSSAM_CHR_yakown GOSSAM_CHR_sibar GOSSAM_CHR_sair GOSSAM_CHR_klai GOSSAM_CHR_jonas GOSSAM_CHR_imay GOSSAM_CHR_traest GOSSAM_CHR_simo GOSSAM_CHR_carth GOSSAM_CHR_riyan GOSSAM_CHR_magnus GOSSAM_CHR_boceta GOSSAM_CHR_agnook GOSSAM_CHR_silus GOSSAM_CHR_rowan GOSSAM_CHR_coren GOSSAM_CHR_jett GOSSAM_CHR_linth GOSSAM_CHR_annor GOSSAM_CHR_ulas GOSSAM_CHR_fenn GOSSAM_CHR_tal GOSSAM_CHR_plo GOSSAM_CHR_torin GOSSAM_CHR_imay GOSSAM_CHR_boone GOSSAM_CHR_davith GOSSAM_CHR_jorgen GOSSAM_CHR_bertos GOSSAM_CHR_ress GOSSAM_CHR_malius GOSSAM_CHR_kale GOSSAM_CHR_cregan GOSSAM_CHR_galen GOSSAM_CHR_zekk GOSSAM_CHR_jinn_tu GOSSAM_CHR_jaryn GOSSAM_CHR_gentti GOSSAM_CHR_yu_sien GOSSAM_CHR_akela GOSSAM_CHR_arslan GOSSAM_CHR_sidias GOSSAM_CHR_haken GOSSAM_CHR_biran GOSSAM_CHR_vidown GOSSAM_CHR_ares GOSSAM_CHR_ithan GOSSAM_CHR_cul_utaan GOSSAM_CHR_thoja GOSSAM_CHR_cron GOSSAM_CHR_mossi GOSSAM_CHR_abric GOSSAM_CHR_darg GOSSAM_CHR_gaman GOSSAM_CHR_naiad GOSSAM_CHR_herub GOSSAM_CHR_marius GOSSAM_CHR_torkin GOSSAM_CHR_caton GOSSAM_CHR_kane GOSSAM_CHR_versita GOSSAM_CHR_cric GOSSAM_CHR_foxdi GOSSAM_CHR_montacca GOSSAM_CHR_jospi GOSSAM_CHR_baz GOSSAM_CHR_kam GOSSAM_CHR_erek GOSSAM_CHR_arslan GOSSAM_CHR_lerak GOSSAM_CHR_morla GOSSAM_CHR_baxter GOSSAM_CHR_talan GOSSAM_CHR_thion GOSSAM_CHR_kannon GOSSAM_CHR_corsair GOSSAM_CHR_caster GOSSAM_CHR_elden GOSSAM_CHR_faelgrom GOSSAM_CHR_jack GOSSAM_CHR_raltharan GOSSAM_CHR_flash GOSSAM_CHR_waseem GOSSAM_CHR_bendak GOSSAM_CHR_kaz GOSSAM_CHR_montileu GOSSAM_CHR_gonoga GOSSAM_CHR_silus GOSSAM_CHR_galven GOSSAM_CHR_vincenzo GOSSAM_CHR_ric GOSSAM_CHR_rebar GOSSAM_CHR_jebediah GOSSAM_CHR_aramil GOSSAM_CHR_abraxis GOSSAM_CHR_delmi GOSSAM_CHR_caalin GOSSAM_CHR_rassth GOSSAM_CHR_adorn GOSSAM_CHR_cyrus GOSSAM_CHR_zhar_khan GOSSAM_CHR_adam GOSSAM_CHR_predor GOSSAM_CHR_tarlson GOSSAM_CHR_boaz GOSSAM_CHR_bradley GOSSAM_CHR_gunn GOSSAM_CHR_raltharan GOSSAM_CHR_zerrid GOSSAM_CHR_bobecc GOSSAM_CHR_jelantos GOSSAM_CHR_jephego GOSSAM_CHR_svante GOSSAM_CHR_tesvalo GOSSAM_CHR_aeon GOSSAM_CHR_dekar GOSSAM_CHR_jean_francois GOSSAM_CHR_elen GOSSAM_CHR_han GOSSAM_CHR_owen GOSSAM_CHR_biggs
+			}
+			first_names_female = {
+				GOSSAM_CHR_charratha GOSSAM_CHR_edaara GOSSAM_CHR_bella GOSSAM_CHR_callista GOSSAM_CHR_mara GOSSAM_CHR_seena GOSSAM_CHR_areta GOSSAM_CHR_cord GOSSAM_CHR_cyrinity GOSSAM_CHR_nile GOSSAM_CHR_kiyfi GOSSAM_CHR_yasmyn GOSSAM_CHR_satra GOSSAM_CHR_shehish GOSSAM_CHR_sarna GOSSAM_CHR_krava GOSSAM_CHR_roxis GOSSAM_CHR_jessa GOSSAM_CHR_aqua GOSSAM_CHR_maryna GOSSAM_CHR_essaj GOSSAM_CHR_looriw GOSSAM_CHR_teeana GOSSAM_CHR_raena GOSSAM_CHR_yula GOSSAM_CHR_vifi GOSSAM_CHR_vania GOSSAM_CHR_jeanida GOSSAM_CHR_aerena GOSSAM_CHR_nataya GOSSAM_CHR_bernarda GOSSAM_CHR_geela GOSSAM_CHR_lya GOSSAM_CHR_sirra GOSSAM_CHR_teris GOSSAM_CHR_terral GOSSAM_CHR_nile GOSSAM_CHR_riema GOSSAM_CHR_erri GOSSAM_CHR_shanna GOSSAM_CHR_lyra GOSSAM_CHR_pranda GOSSAM_CHR_luna GOSSAM_CHR_cally GOSSAM_CHR_viqi GOSSAM_CHR_hadriel GOSSAM_CHR_lora GOSSAM_CHR_selena GOSSAM_CHR_zana GOSSAM_CHR_tuija GOSSAM_CHR_railin GOSSAM_CHR_odona GOSSAM_CHR_shyon GOSSAM_CHR_walas GOSSAM_CHR_rylla GOSSAM_CHR_gara GOSSAM_CHR_delos GOSSAM_CHR_loretta GOSSAM_CHR_luhon GOSSAM_CHR_delinia GOSSAM_CHR_aama GOSSAM_CHR_shorya GOSSAM_CHR_melfina GOSSAM_CHR_davessi GOSSAM_CHR_larana GOSSAM_CHR_galatea GOSSAM_CHR_nola GOSSAM_CHR_syna GOSSAM_CHR_jauhzmynn GOSSAM_CHR_anen GOSSAM_CHR_orona GOSSAM_CHR_yana GOSSAM_CHR_zoras GOSSAM_CHR_ree GOSSAM_CHR_grace GOSSAM_CHR_tantema GOSSAM_CHR_myn GOSSAM_CHR_una GOSSAM_CHR_dalharil GOSSAM_CHR_losa GOSSAM_CHR_sovi GOSSAM_CHR_elaiza GOSSAM_CHR_vucora GOSSAM_CHR_ava GOSSAM_CHR_joi GOSSAM_CHR_stryka GOSSAM_CHR_tantema GOSSAM_CHR_shandra GOSSAM_CHR_kely GOSSAM_CHR_caileta GOSSAM_CHR_taia GOSSAM_CHR_siala GOSSAM_CHR_reki GOSSAM_CHR_maydla GOSSAM_CHR_bot GOSSAM_CHR_kiandra GOSSAM_CHR_xilaren GOSSAM_CHR_zulara GOSSAM_CHR_ren GOSSAM_CHR_karissa GOSSAM_CHR_roxis GOSSAM_CHR_haruko GOSSAM_CHR_jenna GOSSAM_CHR_liana GOSSAM_CHR_rale GOSSAM_CHR_megara GOSSAM_CHR_aria GOSSAM_CHR_akiva GOSSAM_CHR_nalah GOSSAM_CHR_erlem GOSSAM_CHR_nali GOSSAM_CHR_fallah GOSSAM_CHR_kotrana GOSSAM_CHR_aayla GOSSAM_CHR_kalira GOSSAM_CHR_arani GOSSAM_CHR_fama GOSSAM_CHR_lyyr GOSSAM_CHR_arcas GOSSAM_CHR_rane GOSSAM_CHR_nayru GOSSAM_CHR_zylas GOSSAM_CHR_vexa GOSSAM_CHR_kana GOSSAM_CHR_beru
+			}
+			second_names = {
+				GOSSAM_CHR_elysar GOSSAM_CHR_tisa GOSSAM_CHR_wahia GOSSAM_CHR_wezz GOSSAM_CHR_unic GOSSAM_CHR_tiovata GOSSAM_CHR_nakcohh GOSSAM_CHR_vitaan GOSSAM_CHR_mefrid GOSSAM_CHR_daklan GOSSAM_CHR_kenzee GOSSAM_CHR_joben GOSSAM_CHR_thegas GOSSAM_CHR_moryne GOSSAM_CHR_holgor GOSSAM_CHR_ijaaz GOSSAM_CHR_tromans GOSSAM_CHR_sprax GOSSAM_CHR_knesos GOSSAM_CHR_magnus GOSSAM_CHR_lasek GOSSAM_CHR_artis GOSSAM_CHR_pax GOSSAM_CHR_corso GOSSAM_CHR_fallon GOSSAM_CHR_gundo GOSSAM_CHR_ruana GOSSAM_CHR_fremlin GOSSAM_CHR_thont GOSSAM_CHR_creel GOSSAM_CHR_rar GOSSAM_CHR_dusat GOSSAM_CHR_kessler GOSSAM_CHR_shaia GOSSAM_CHR_el_theriam GOSSAM_CHR_vanmeer GOSSAM_CHR_vrieska GOSSAM_CHR_calway GOSSAM_CHR_yamaguchi GOSSAM_CHR_riggers GOSSAM_CHR_brower GOSSAM_CHR_fash GOSSAM_CHR_nalto GOSSAM_CHR_stryder GOSSAM_CHR_dubreas GOSSAM_CHR_colsan GOSSAM_CHR_terrek GOSSAM_CHR_solon GOSSAM_CHR_merquise GOSSAM_CHR_varn GOSSAM_CHR_basai GOSSAM_CHR_froud GOSSAM_CHR_addacess GOSSAM_CHR_elysar GOSSAM_CHR_durgen GOSSAM_CHR_slahlvo GOSSAM_CHR_remex GOSSAM_CHR_madowki GOSSAM_CHR_hayes GOSSAM_CHR_ne GOSSAM_CHR_dago GOSSAM_CHR_greenback GOSSAM_CHR_stithta GOSSAM_CHR_ker GOSSAM_CHR_driet GOSSAM_CHR_klakk GOSSAM_CHR_reed GOSSAM_CHR_lefex GOSSAM_CHR_minn GOSSAM_CHR_irokini GOSSAM_CHR_roye GOSSAM_CHR_danakar GOSSAM_CHR_forin GOSSAM_CHR_glopio GOSSAM_CHR_shenuri GOSSAM_CHR_corcer GOSSAM_CHR_ordo GOSSAM_CHR_wan GOSSAM_CHR_tagratt GOSSAM_CHR_golladio GOSSAM_CHR_adramcsia GOSSAM_CHR_jetberg GOSSAM_CHR_noth GOSSAM_CHR_taske GOSSAM_CHR_komo GOSSAM_CHR_styles GOSSAM_CHR_angavel GOSSAM_CHR_tyrnith GOSSAM_CHR_yavoog GOSSAM_CHR_kelbier GOSSAM_CHR_racto GOSSAM_CHR_degor GOSSAM_CHR_tisa GOSSAM_CHR_magre GOSSAM_CHR_soylon GOSSAM_CHR_lerann GOSSAM_CHR_chro GOSSAM_CHR_finn GOSSAM_CHR_blackmoor GOSSAM_CHR_hwang GOSSAM_CHR_vekarr GOSSAM_CHR_thegas GOSSAM_CHR_amon GOSSAM_CHR_thiddex GOSSAM_CHR_durgen GOSSAM_CHR_selkayim GOSSAM_CHR_gilder GOSSAM_CHR_dhuramav GOSSAM_CHR_kodd GOSSAM_CHR_morin GOSSAM_CHR_kobylarz GOSSAM_CHR_tade GOSSAM_CHR_solman GOSSAM_CHR_bintaghr GOSSAM_CHR_marclonus GOSSAM_CHR_precore GOSSAM_CHR_solborne GOSSAM_CHR_bailer GOSSAM_CHR_katarn GOSSAM_CHR_anjek GOSSAM_CHR_dalgas GOSSAM_CHR_kast GOSSAM_CHR_airerith GOSSAM_CHR_halo GOSSAM_CHR_tade GOSSAM_CHR_clash GOSSAM_CHR_jalba GOSSAM_CHR_benn GOSSAM_CHR_haruhana GOSSAM_CHR_roice GOSSAM_CHR_lokar GOSSAM_CHR_korpil GOSSAM_CHR_turon GOSSAM_CHR_cavi GOSSAM_CHR_deece GOSSAM_CHR_braitano GOSSAM_CHR_garnik GOSSAM_CHR_tyandas GOSSAM_CHR_ka_taramas GOSSAM_CHR_nuwest GOSSAM_CHR_forte GOSSAM_CHR_noshey GOSSAM_CHR_gyyll GOSSAM_CHR_tallon GOSSAM_CHR_lionne GOSSAM_CHR_adras GOSSAM_CHR_fremlin GOSSAM_CHR_peoly GOSSAM_CHR_damiel GOSSAM_CHR_chup_pau GOSSAM_CHR_drayven GOSSAM_CHR_zaposug GOSSAM_CHR_bela_trepada GOSSAM_CHR_defelice GOSSAM_CHR_monsula GOSSAM_CHR_baralein GOSSAM_CHR_denive GOSSAM_CHR_hodrren GOSSAM_CHR_xergo GOSSAM_CHR_sarat GOSSAM_CHR_vercet GOSSAM_CHR_ossaki GOSSAM_CHR_kappa GOSSAM_CHR_zerga GOSSAM_CHR_kopos GOSSAM_CHR_aldrecht GOSSAM_CHR_bohme GOSSAM_CHR_tull GOSSAM_CHR_eldrel GOSSAM_CHR_marh GOSSAM_CHR_darksword GOSSAM_CHR_krandor GOSSAM_CHR_montag GOSSAM_CHR_dimodan GOSSAM_CHR_starfallen GOSSAM_CHR_artis GOSSAM_CHR_fett GOSSAM_CHR_mohebbi GOSSAM_CHR_runalian GOSSAM_CHR_binette GOSSAM_CHR_laurent GOSSAM_CHR_mavr GOSSAM_CHR_ryra GOSSAM_CHR_truden GOSSAM_CHR_solo GOSSAM_CHR_lars GOSSAM_CHR_amedda GOSSAM_CHR_amidala GOSSAM_CHR_andrell GOSSAM_CHR_annon GOSSAM_CHR_antilles GOSSAM_CHR_atanna GOSSAM_CHR_baab GOSSAM_CHR_barc GOSSAM_CHR_bonteri GOSSAM_CHR_breemu GOSSAM_CHR_bremack GOSSAM_CHR_bronk GOSSAM_CHR_burtoni GOSSAM_CHR_cadaman GOSSAM_CHR_callen GOSSAM_CHR_clovis GOSSAM_CHR_ledwellow GOSSAM_CHR_dio GOSSAM_CHR_organa
+			}
+			regnal_first_names_male = {
+				GOSSAM_CHR_kam GOSSAM_CHR_erek GOSSAM_CHR_arslan GOSSAM_CHR_lerak GOSSAM_CHR_morla GOSSAM_CHR_mas GOSSAM_CHR_wain GOSSAM_CHR_bail GOSSAM_CHR_gabrial GOSSAM_CHR_dewell GOSSAM_CHR_tanner GOSSAM_CHR_vi GOSSAM_CHR_rush GOSSAM_CHR_danry
+			}
+			regnal_first_names_female = {
+				GOSSAM_CHR_callista GOSSAM_CHR_mara GOSSAM_CHR_seena GOSSAM_CHR_areta GOSSAM_CHR_padm_ GOSSAM_CHR_fema GOSSAM_CHR_mina GOSSAM_CHR_bana GOSSAM_CHR_tyreca GOSSAM_CHR_halle GOSSAM_CHR_lexi GOSSAM_CHR_leia GOSSAM_CHR_alyssa GOSSAM_CHR_leanna GOSSAM_CHR_arya
+			}
+			regnal_second_names = {
+				GOSSAM_CHR_amedda GOSSAM_CHR_amidala GOSSAM_CHR_andrell GOSSAM_CHR_annon GOSSAM_CHR_antilles GOSSAM_CHR_atanna GOSSAM_CHR_baab GOSSAM_CHR_barc GOSSAM_CHR_bonteri GOSSAM_CHR_breemu GOSSAM_CHR_bremack GOSSAM_CHR_bronk GOSSAM_CHR_burtoni GOSSAM_CHR_cadaman GOSSAM_CHR_callen GOSSAM_CHR_clovis GOSSAM_CHR_ledwellow GOSSAM_CHR_dio GOSSAM_CHR_panteer GOSSAM_CHR_alde GOSSAM_CHR_organa GOSSAM_CHR_frayus GOSSAM_CHR_cortess GOSSAM_CHR_killesa
+			}
+		}
+	}
+}

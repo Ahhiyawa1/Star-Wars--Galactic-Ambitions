@@ -1,0 +1,841 @@
+﻿TGR_Republic = {
+	randomized = no
+	ship_names = {
+		generic = {
+			TGR_Republic_SHIP_mystic TGR_Republic_SHIP_naiad TGR_Republic_SHIP_nautilus TGR_Republic_SHIP_nebula TGR_Republic_SHIP_nimble TGR_Republic_SHIP_north_star TGR_Republic_SHIP_nymph TGR_Republic_SHIP_obdurate TGR_Republic_SHIP_ocean TGR_Republic_SHIP_onward TGR_Republic_SHIP_oracle TGR_Republic_SHIP_paradox TGR_Republic_SHIP_paragon TGR_Republic_SHIP_pearl TGR_Republic_SHIP_peregrine TGR_Republic_SHIP_perseverance TGR_Republic_SHIP_marksman TGR_Republic_SHIP_rifleman TGR_Republic_SHIP_sniper TGR_Republic_SHIP_trident TGR_Republic_SHIP_trumpet TGR_Republic_SHIP_truncheon TGR_Republic_SHIP_typhoon TGR_Republic_SHIP_undaunted TGR_Republic_SHIP_venture TGR_Republic_SHIP_versatile TGR_Republic_SHIP_vigorous TGR_Republic_SHIP_viper TGR_Republic_SHIP_vivacious TGR_Republic_SHIP_winger TGR_Republic_SHIP_wizard TGR_Republic_SHIP_wyvern TGR_Republic_SHIP_wolfhound TGR_Republic_SHIP_devastator TGR_Republic_SHIP_warhammer TGR_Republic_SHIP_retribution TGR_Republic_SHIP_senator TGR_Republic_SHIP_tornado TGR_Republic_SHIP_infinity TGR_Republic_SHIP_usurper TGR_Republic_SHIP_utmost TGR_Republic_SHIP_valorous TGR_Republic_SHIP_whirlwind TGR_Republic_SHIP_athena TGR_Republic_SHIP_artemis TGR_Republic_SHIP_vigilance TGR_Republic_SHIP_decimator TGR_Republic_SHIP_indomitable TGR_Republic_SHIP_goliath TGR_Republic_SHIP_sentinel TGR_Republic_SHIP_brilliant TGR_Republic_SHIP_blazer TGR_Republic_SHIP_audacity TGR_Republic_SHIP_gallant TGR_Republic_SHIP_nova TGR_Republic_SHIP_shadow TGR_Republic_SHIP_allegiance TGR_Republic_SHIP_challenger TGR_Republic_SHIP_fearless TGR_Republic_SHIP_protector TGR_Republic_SHIP_guardian TGR_Republic_SHIP_victorious TGR_Republic_SHIP_courageous TGR_Republic_SHIP_defiance TGR_Republic_SHIP_valorous TGR_Republic_SHIP_azrael TGR_Republic_SHIP_adamantine TGR_Republic_SHIP_aralanni TGR_Republic_SHIP_ardent_iv TGR_Republic_SHIP_armistice TGR_Republic_SHIP_avengeance TGR_Republic_SHIP_ballista TGR_Republic_SHIP_bloodstripe TGR_Republic_SHIP_borealis TGR_Republic_SHIP_caelus TGR_Republic_SHIP_caravan TGR_Republic_SHIP_chaf_envoy TGR_Republic_SHIP_commenor TGR_Republic_SHIP_corbantis TGR_Republic_SHIP_corellia TGR_Republic_SHIP_courteous TGR_Republic_SHIP_dauntless TGR_Republic_SHIP_defiant TGR_Republic_SHIP_deliverance TGR_Republic_SHIP_derapha TGR_Republic_SHIP_devout TGR_Republic_SHIP_empirical TGR_Republic_SHIP_empyrean TGR_Republic_SHIP_era_daimanos TGR_Republic_SHIP_eye_of_the_storm TGR_Republic_SHIP_farstar TGR_Republic_SHIP_fastblast TGR_Republic_SHIP_galaaron TGR_Republic_SHIP_garrote TGR_Republic_SHIP_gilagimar TGR_Republic_SHIP_halleck TGR_Republic_SHIP_hunter TGR_Republic_SHIP_intractable TGR_Republic_SHIP_ithor_lady TGR_Republic_SHIP_justice_crusader TGR_Republic_SHIP_kana_s_steel TGR_Republic_SHIP_lathir TGR_Republic_SHIP_liberty TGR_Republic_SHIP_lillibanca TGR_Republic_SHIP_maelstrom TGR_Republic_SHIP_malachite_scent TGR_Republic_SHIP_mercy TGR_Republic_SHIP_myrkos TGR_Republic_SHIP_nebula_chaser TGR_Republic_SHIP_nova TGR_Republic_SHIP_nova_viper TGR_Republic_SHIP_obedience TGR_Republic_SHIP_olemp TGR_Republic_SHIP_pegasus TGR_Republic_SHIP_perspicacity TGR_Republic_SHIP_phalanx TGR_Republic_SHIP_plooriod_bodkin TGR_Republic_SHIP_predominance TGR_Republic_SHIP_prosperity TGR_Republic_SHIP_purity TGR_Republic_SHIP_recalcitrant TGR_Republic_SHIP_red_nova TGR_Republic_SHIP_redma TGR_Republic_SHIP_reliable TGR_Republic_SHIP_reliant TGR_Republic_SHIP_reluctant TGR_Republic_SHIP_republic TGR_Republic_SHIP_republic_s_return TGR_Republic_SHIP_resolve TGR_Republic_SHIP_respectable TGR_Republic_SHIP_revenge TGR_Republic_SHIP_shadowblade TGR_Republic_SHIP_spritespray TGR_Republic_SHIP_star_dream TGR_Republic_SHIP_stark_wing TGR_Republic_SHIP_starveil TGR_Republic_SHIP_undying TGR_Republic_SHIP_vaathkree TGR_Republic_SHIP_vainglorious TGR_Republic_SHIP_valiant TGR_Republic_SHIP_valor TGR_Republic_SHIP_vanquisher TGR_Republic_SHIP_vinsor TGR_Republic_SHIP_visseon TGR_Republic_SHIP_wennis TGR_Republic_SHIP_yavin_s_glory TGR_Republic_SHIP_moldy_crow TGR_Republic_SHIP_raven_s_claw TGR_Republic_SHIP_agile TGR_Republic_SHIP_archer TGR_Republic_SHIP_arrow TGR_Republic_SHIP_bruiser TGR_Republic_SHIP_cherub TGR_Republic_SHIP_chimera TGR_Republic_SHIP_claymore TGR_Republic_SHIP_broadsword TGR_Republic_SHIP_battleaxe TGR_Republic_SHIP_crossbow TGR_Republic_SHIP_cutlass TGR_Republic_SHIP_deterrent TGR_Republic_SHIP_errant TGR_Republic_SHIP_faithful TGR_Republic_SHIP_fierce TGR_Republic_SHIP_gladius TGR_Republic_SHIP_longbow TGR_Republic_SHIP_grappler TGR_Republic_SHIP_hammer TGR_Republic_SHIP_vampire TGR_Republic_SHIP_velox TGR_Republic_SHIP_venator TGR_Republic_SHIP_vendetta TGR_Republic_SHIP_venerable TGR_Republic_SHIP_venomous TGR_Republic_SHIP_taciturn TGR_Republic_SHIP_supreme TGR_Republic_SHIP_success TGR_Republic_SHIP_shredder TGR_Republic_SHIP_seraph TGR_Republic_SHIP_serpent TGR_Republic_SHIP_spitfire TGR_Republic_SHIP_stalker TGR_Republic_SHIP_stratagem TGR_Republic_SHIP_scimitar TGR_Republic_SHIP_scorcher TGR_Republic_SHIP_scourge TGR_Republic_SHIP_scythe TGR_Republic_SHIP_revenant TGR_Republic_SHIP_redoubtable TGR_Republic_SHIP_raptor TGR_Republic_SHIP_reaver TGR_Republic_SHIP_prodigal TGR_Republic_SHIP_rapier TGR_Republic_SHIP_prudent TGR_Republic_SHIP_persistent TGR_Republic_SHIP_peerless TGR_Republic_SHIP_myrmidon TGR_Republic_SHIP_indignant TGR_Republic_SHIP_javelin TGR_Republic_SHIP_knight TGR_Republic_SHIP_starwolf TGR_Republic_SHIP_bonaventure TGR_Republic_SHIP_adventure TGR_Republic_SHIP_boxer TGR_Republic_SHIP_buccaneer TGR_Republic_SHIP_cavalier TGR_Republic_SHIP_celestial TGR_Republic_SHIP_chariot TGR_Republic_SHIP_comet TGR_Republic_SHIP_crucible TGR_Republic_SHIP_cyclone TGR_Republic_SHIP_decisive TGR_Republic_SHIP_dexterous TGR_Republic_SHIP_diadem TGR_Republic_SHIP_earnest TGR_Republic_SHIP_eclipse TGR_Republic_SHIP_forger TGR_Republic_SHIP_fortune TGR_Republic_SHIP_gauntlet TGR_Republic_SHIP_griffin TGR_Republic_SHIP_horizon TGR_Republic_SHIP_hotspur TGR_Republic_SHIP_hurricane TGR_Republic_SHIP_hussar TGR_Republic_SHIP_jubilant TGR_Republic_SHIP_lancer TGR_Republic_SHIP_lightning TGR_Republic_SHIP_magic TGR_Republic_SHIP_mediator TGR_Republic_SHIP_mermaid TGR_Republic_SHIP_meteor TGR_Republic_SHIP_minstrel TGR_Republic_SHIP_miranda TGR_Republic_SHIP_mustang TGR_Republic_SHIP_sharpshooter TGR_Republic_SHIP_cyclops TGR_Republic_SHIP_centaur TGR_Republic_SHIP_adversary TGR_Republic_SHIP_assassin TGR_Republic_SHIP_dagger TGR_Republic_SHIP_daring TGR_Republic_SHIP_duty TGR_Republic_SHIP_havoc TGR_Republic_SHIP_hero TGR_Republic_SHIP_hunter TGR_Republic_SHIP_justice TGR_Republic_SHIP_impeccable TGR_Republic_SHIP_interceptor TGR_Republic_SHIP_infernal TGR_Republic_SHIP_loyal TGR_Republic_SHIP_matchless TGR_Republic_SHIP_mauler TGR_Republic_SHIP_mayhem TGR_Republic_SHIP_malice TGR_Republic_SHIP_menace TGR_Republic_SHIP_merciless TGR_Republic_SHIP_mischief TGR_Republic_SHIP_monarch TGR_Republic_SHIP_patriot TGR_Republic_SHIP_predator TGR_Republic_SHIP_powerful TGR_Republic_SHIP_punisher TGR_Republic_SHIP_ravager TGR_Republic_SHIP_reaper TGR_Republic_SHIP_savage TGR_Republic_SHIP_spiteful TGR_Republic_SHIP_templar TGR_Republic_SHIP_terminator TGR_Republic_SHIP_terror TGR_Republic_SHIP_thrasher TGR_Republic_SHIP_minotaur TGR_Republic_SHIP_manticore TGR_Republic_SHIP_interdictor TGR_Republic_SHIP_intruder TGR_Republic_SHIP_hydra TGR_Republic_SHIP_enfield TGR_Republic_SHIP_harasser TGR_Republic_SHIP_unbeaten TGR_Republic_SHIP_werewolf TGR_Republic_SHIP_zealous TGR_Republic_SHIP_petulant TGR_Republic_SHIP_phantom TGR_Republic_SHIP_phoenix TGR_Republic_SHIP_pike TGR_Republic_SHIP_pursuer TGR_Republic_SHIP_raider TGR_Republic_SHIP_rainbow TGR_Republic_SHIP_rapid TGR_Republic_SHIP_redemption TGR_Republic_SHIP_relentless TGR_Republic_SHIP_rigorous TGR_Republic_SHIP_robust TGR_Republic_SHIP_sabre TGR_Republic_SHIP_salvation TGR_Republic_SHIP_sanguine TGR_Republic_SHIP_scarab TGR_Republic_SHIP_scepter TGR_Republic_SHIP_sea_witch TGR_Republic_SHIP_siren TGR_Republic_SHIP_sorceress TGR_Republic_SHIP_spearhead TGR_Republic_SHIP_specter TGR_Republic_SHIP_spirit TGR_Republic_SHIP_splendid TGR_Republic_SHIP_stallion TGR_Republic_SHIP_stalwart TGR_Republic_SHIP_steadfast TGR_Republic_SHIP_strenuous TGR_Republic_SHIP_superb TGR_Republic_SHIP_supernova TGR_Republic_SHIP_surprise TGR_Republic_SHIP_swiftsure TGR_Republic_SHIP_talent TGR_Republic_SHIP_talisman TGR_Republic_SHIP_talon TGR_Republic_SHIP_taurus TGR_Republic_SHIP_tenacious TGR_Republic_SHIP_thunder_child TGR_Republic_SHIP_thunderous TGR_Republic_SHIP_tireless TGR_Republic_SHIP_trenchant TGR_Republic_SHIP_righteous TGR_Republic_SHIP_acheron TGR_Republic_SHIP_achilles TGR_Republic_SHIP_agamemnon TGR_Republic_SHIP_amphion TGR_Republic_SHIP_aquilon TGR_Republic_SHIP_argonaut TGR_Republic_SHIP_argus TGR_Republic_SHIP_ariel TGR_Republic_SHIP_aurora TGR_Republic_SHIP_avernus TGR_Republic_SHIP_bacchus TGR_Republic_SHIP_bucephalus TGR_Republic_SHIP_calliope TGR_Republic_SHIP_calypso TGR_Republic_SHIP_castor TGR_Republic_SHIP_charybdis TGR_Republic_SHIP_circe TGR_Republic_SHIP_cleopatra TGR_Republic_SHIP_constantine TGR_Republic_SHIP_cordelia TGR_Republic_SHIP_cyrus TGR_Republic_SHIP_damocles TGR_Republic_SHIP_daedalus TGR_Republic_SHIP_darius TGR_Republic_SHIP_diomede TGR_Republic_SHIP_dryad TGR_Republic_SHIP_electra TGR_Republic_SHIP_endymion TGR_Republic_SHIP_erebus TGR_Republic_SHIP_fenris TGR_Republic_SHIP_freya TGR_Republic_SHIP_gilgamesh TGR_Republic_SHIP_gorgon TGR_Republic_SHIP_halcyon TGR_Republic_SHIP_hecate TGR_Republic_SHIP_hector TGR_Republic_SHIP_hesperus TGR_Republic_SHIP_janus TGR_Republic_SHIP_jason TGR_Republic_SHIP_juno TGR_Republic_SHIP_jupiter TGR_Republic_SHIP_lancelot TGR_Republic_SHIP_lazarus TGR_Republic_SHIP_leander TGR_Republic_SHIP_leonidas TGR_Republic_SHIP_lysander TGR_Republic_SHIP_maenad TGR_Republic_SHIP_mars TGR_Republic_SHIP_medea TGR_Republic_SHIP_medusa TGR_Republic_SHIP_menestheus TGR_Republic_SHIP_mercury TGR_Republic_SHIP_merlin TGR_Republic_SHIP_minerva TGR_Republic_SHIP_minos TGR_Republic_SHIP_neptune TGR_Republic_SHIP_nessus TGR_Republic_SHIP_nestor TGR_Republic_SHIP_nimrod TGR_Republic_SHIP_niobe TGR_Republic_SHIP_oberon TGR_Republic_SHIP_odin TGR_Republic_SHIP_ophelia TGR_Republic_SHIP_orestes TGR_Republic_SHIP_orpheus TGR_Republic_SHIP_osiris TGR_Republic_SHIP_pandora TGR_Republic_SHIP_penelope TGR_Republic_SHIP_persephone TGR_Republic_SHIP_perseus TGR_Republic_SHIP_phoebe TGR_Republic_SHIP_pluto TGR_Republic_SHIP_poseidon TGR_Republic_SHIP_proteus TGR_Republic_SHIP_pylades TGR_Republic_SHIP_serapis TGR_Republic_SHIP_stygian TGR_Republic_SHIP_tantalus TGR_Republic_SHIP_telemachus TGR_Republic_SHIP_theseus TGR_Republic_SHIP_thor TGR_Republic_SHIP_trajan TGR_Republic_SHIP_triton TGR_Republic_SHIP_venus TGR_Republic_SHIP_adamant TGR_Republic_SHIP_ardent TGR_Republic_SHIP_assail TGR_Republic_SHIP_austere TGR_Republic_SHIP_archon TGR_Republic_SHIP_adroit TGR_Republic_SHIP_aegis TGR_Republic_SHIP_anchor TGR_Republic_SHIP_corsair TGR_Republic_SHIP_banshee TGR_Republic_SHIP_enchantress TGR_Republic_SHIP_eradicator TGR_Republic_SHIP_tormentor TGR_Republic_SHIP_legion TGR_Republic_SHIP_reprisal TGR_Republic_SHIP_aggressor TGR_Republic_SHIP_assault TGR_Republic_SHIP_eviscerator TGR_Republic_SHIP_imperator TGR_Republic_SHIP_excellence TGR_Republic_SHIP_unrivalled TGR_Republic_SHIP_warlord TGR_Republic_SHIP_vengeance TGR_Republic_SHIP_triumphant TGR_Republic_SHIP_nemesis TGR_Republic_SHIP_avenger TGR_Republic_SHIP_champion TGR_Republic_SHIP_conqueror TGR_Republic_SHIP_crusader TGR_Republic_SHIP_glory TGR_Republic_SHIP_immortal TGR_Republic_SHIP_judicator TGR_Republic_SHIP_vanguard TGR_Republic_SHIP_renown TGR_Republic_SHIP_demolisher TGR_Republic_SHIP_dragon TGR_Republic_SHIP_executor TGR_Republic_SHIP_furious TGR_Republic_SHIP_gladiator TGR_Republic_SHIP_magnificent TGR_Republic_SHIP_ogre TGR_Republic_SHIP_onslaught TGR_Republic_SHIP_revenge TGR_Republic_SHIP_vanquisher TGR_Republic_SHIP_vehement TGR_Republic_SHIP_basilisk TGR_Republic_SHIP_tempest TGR_Republic_SHIP_overlord TGR_Republic_SHIP_warrior TGR_Republic_SHIP_titan TGR_Republic_SHIP_colossus TGR_Republic_SHIP_prometheus TGR_Republic_SHIP_nike TGR_Republic_SHIP_paladin TGR_Republic_SHIP_sovereign TGR_Republic_SHIP_repulse TGR_Republic_SHIP_majestic TGR_Republic_SHIP_avatar TGR_Republic_SHIP_behemoth TGR_Republic_SHIP_centurion TGR_Republic_SHIP_citadel TGR_Republic_SHIP_katana TGR_Republic_SHIP_kraken TGR_Republic_SHIP_cerberus TGR_Republic_SHIP_valkyrie TGR_Republic_SHIP_dreadnought TGR_Republic_SHIP_harbinger TGR_Republic_SHIP_juggernaut TGR_Republic_SHIP_leviathan TGR_Republic_SHIP_hyperion TGR_Republic_SHIP_galatea TGR_Republic_SHIP_ambush TGR_Republic_SHIP_vindicator
+		}
+		science = {
+			TGR_Republic_SHIP_crescent TGR_Republic_SHIP_diligent TGR_Republic_SHIP_zephyr TGR_Republic_SHIP_enigma TGR_Republic_SHIP_conquistador TGR_Republic_SHIP_scylla TGR_Republic_SHIP_arbiter TGR_Republic_SHIP_asperity TGR_Republic_SHIP_eminence TGR_Republic_SHIP_astute TGR_Republic_SHIP_alacrity TGR_Republic_SHIP_satyr TGR_Republic_SHIP_prospero TGR_Republic_SHIP_untiring TGR_Republic_SHIP_zenith TGR_Republic_SHIP_torch TGR_Republic_SHIP_remembrance TGR_Republic_SHIP_pilgrim TGR_Republic_SHIP_trailblazer TGR_Republic_SHIP_vagabond TGR_Republic_SHIP_wayfarer TGR_Republic_SHIP_ambassador TGR_Republic_SHIP_emissary TGR_Republic_SHIP_nomad TGR_Republic_SHIP_pathfinder TGR_Republic_SHIP_wanderer TGR_Republic_SHIP_traveler
+		}
+		colonizer = {
+			TGR_Republic_SHIP_godspeed TGR_Republic_SHIP_prophecy TGR_Republic_SHIP_manifest_destiny TGR_Republic_SHIP_virtue TGR_Republic_SHIP_potential TGR_Republic_SHIP_expansion TGR_Republic_SHIP_pioneer_spirit TGR_Republic_SHIP_prosperity TGR_Republic_SHIP_summit TGR_Republic_SHIP_pinnacle TGR_Republic_SHIP_seeder TGR_Republic_SHIP_harvest TGR_Republic_SHIP_demeter TGR_Republic_SHIP_isis TGR_Republic_SHIP_ceres TGR_Republic_SHIP_exodus TGR_Republic_SHIP_foundation TGR_Republic_SHIP_scion TGR_Republic_SHIP_progeny TGR_Republic_SHIP_obligation TGR_Republic_SHIP_purpose TGR_Republic_SHIP_provider TGR_Republic_SHIP_shining_city TGR_Republic_SHIP_acquirer TGR_Republic_SHIP_cultivator TGR_Republic_SHIP_dawn_of_civilization TGR_Republic_SHIP_purity TGR_Republic_SHIP_community TGR_Republic_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			TGR_Republic_SHIP_godspeed TGR_Republic_SHIP_prophecy TGR_Republic_SHIP_manifest_destiny TGR_Republic_SHIP_virtue TGR_Republic_SHIP_potential TGR_Republic_SHIP_expansion TGR_Republic_SHIP_pioneer_spirit TGR_Republic_SHIP_prosperity TGR_Republic_SHIP_summit TGR_Republic_SHIP_pinnacle TGR_Republic_SHIP_seeder TGR_Republic_SHIP_harvest TGR_Republic_SHIP_isis TGR_Republic_SHIP_ceres TGR_Republic_SHIP_exodus TGR_Republic_SHIP_foundation TGR_Republic_SHIP_scion TGR_Republic_SHIP_progeny TGR_Republic_SHIP_obligation TGR_Republic_SHIP_purpose TGR_Republic_SHIP_provider TGR_Republic_SHIP_shining_city TGR_Republic_SHIP_acquirer TGR_Republic_SHIP_cultivator TGR_Republic_SHIP_dawn_of_civilization TGR_Republic_SHIP_purity TGR_Republic_SHIP_community TGR_Republic_SHIP_brotherhood
+		}
+		constructor = {
+			TGR_Republic_SHIP_industry TGR_Republic_SHIP_assiduity TGR_Republic_SHIP_effort TGR_Republic_SHIP_laborer TGR_Republic_SHIP_builder TGR_Republic_SHIP_craftsman TGR_Republic_SHIP_hard_hat TGR_Republic_SHIP_progress TGR_Republic_SHIP_engineer TGR_Republic_SHIP_promise TGR_Republic_SHIP_service TGR_Republic_SHIP_shelter TGR_Republic_SHIP_beast TGR_Republic_SHIP_creator TGR_Republic_SHIP_developer TGR_Republic_SHIP_forger TGR_Republic_SHIP_foundry TGR_Republic_SHIP_factory TGR_Republic_SHIP_anvil TGR_Republic_SHIP_pillar TGR_Republic_SHIP_architect TGR_Republic_SHIP_accommodator TGR_Republic_SHIP_ptah TGR_Republic_SHIP_ilmarinen TGR_Republic_SHIP_creidhne TGR_Republic_SHIP_gobannus TGR_Republic_SHIP_luchtaine TGR_Republic_SHIP_goibniu TGR_Republic_SHIP_vishvakarman TGR_Republic_SHIP_tvastar TGR_Republic_SHIP_ikenga TGR_Republic_SHIP_qaynan TGR_Republic_SHIP_ucuetis TGR_Republic_SHIP_ogoun
+		}
+		transport = {
+			TGR_Republic_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			TGR_Republic_SHIP_spacegun_victory TGR_Republic_SHIP_spacegun_success TGR_Republic_SHIP_spacegun_supremacy TGR_Republic_SHIP_spacegun_superior TGR_Republic_SHIP_spacegun_adventure TGR_Republic_SHIP_spacegun_ascendancy TGR_Republic_SHIP_spacegun_paramount TGR_Republic_SHIP_spacegun_preponderous TGR_Republic_SHIP_spacegun_exemplary TGR_Republic_SHIP_spacegun_eximious TGR_Republic_SHIP_spacegun_pertinacity TGR_Republic_SHIP_spacegun_acclaim TGR_Republic_SHIP_spacegun_honor TGR_Republic_SHIP_spacegun_renown TGR_Republic_SHIP_spacegun_glory TGR_Republic_SHIP_spacegun_superb TGR_Republic_SHIP_spacegun_magnificence TGR_Republic_SHIP_spacegun_majestic TGR_Republic_SHIP_spacegun_splendor TGR_Republic_SHIP_spacegun_paradigm TGR_Republic_SHIP_spacegun_flawless TGR_Republic_SHIP_spacegun_consummate TGR_Republic_SHIP_spacegun_merit TGR_Republic_SHIP_spacegun_perfection TGR_Republic_SHIP_spacegun_virtue TGR_Republic_SHIP_spacegun_advantage TGR_Republic_SHIP_spacegun_rectitude TGR_Republic_SHIP_spacegun_incorruptible TGR_Republic_SHIP_spacegun_integrity TGR_Republic_SHIP_spacegun_justice TGR_Republic_SHIP_spacegun_probity TGR_Republic_SHIP_spacegun_prudence TGR_Republic_SHIP_spacegun_purity TGR_Republic_SHIP_spacegun_resolute TGR_Republic_SHIP_spacegun_dignity TGR_Republic_SHIP_spacegun_distinction TGR_Republic_SHIP_spacegun_excellence TGR_Republic_SHIP_spacegun_faithful TGR_Republic_SHIP_spacegun_discipline TGR_Republic_SHIP_spacegun_steadfast TGR_Republic_SHIP_spacegun_recompense TGR_Republic_SHIP_spacegun_requiem TGR_Republic_SHIP_spacegun_courage TGR_Republic_SHIP_spacegun_valor TGR_Republic_SHIP_spacegun_gallant TGR_Republic_SHIP_spacegun_daring TGR_Republic_SHIP_spacegun_constancy TGR_Republic_SHIP_spacegun_perseverence TGR_Republic_SHIP_spacegun_tenacity TGR_Republic_SHIP_spacegun_sedulity TGR_Republic_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			TGR_Republic_SHIP_spacegun_victory TGR_Republic_SHIP_spacegun_success TGR_Republic_SHIP_spacegun_supremacy TGR_Republic_SHIP_spacegun_superior TGR_Republic_SHIP_spacegun_adventure TGR_Republic_SHIP_spacegun_ascendancy TGR_Republic_SHIP_spacegun_paramount TGR_Republic_SHIP_spacegun_preponderous TGR_Republic_SHIP_spacegun_exemplary TGR_Republic_SHIP_spacegun_eximious TGR_Republic_SHIP_spacegun_pertinacity TGR_Republic_SHIP_spacegun_acclaim TGR_Republic_SHIP_spacegun_honor TGR_Republic_SHIP_spacegun_renown TGR_Republic_SHIP_spacegun_glory TGR_Republic_SHIP_spacegun_superb TGR_Republic_SHIP_spacegun_magnificence TGR_Republic_SHIP_spacegun_majestic TGR_Republic_SHIP_spacegun_splendor TGR_Republic_SHIP_spacegun_paradigm TGR_Republic_SHIP_spacegun_flawless TGR_Republic_SHIP_spacegun_consummate TGR_Republic_SHIP_spacegun_merit TGR_Republic_SHIP_spacegun_perfection TGR_Republic_SHIP_spacegun_virtue TGR_Republic_SHIP_spacegun_advantage TGR_Republic_SHIP_spacegun_rectitude TGR_Republic_SHIP_spacegun_incorruptible TGR_Republic_SHIP_spacegun_integrity TGR_Republic_SHIP_spacegun_justice TGR_Republic_SHIP_spacegun_probity TGR_Republic_SHIP_spacegun_prudence TGR_Republic_SHIP_spacegun_purity TGR_Republic_SHIP_spacegun_resolute TGR_Republic_SHIP_spacegun_dignity TGR_Republic_SHIP_spacegun_distinction TGR_Republic_SHIP_spacegun_excellence TGR_Republic_SHIP_spacegun_faithful TGR_Republic_SHIP_spacegun_discipline TGR_Republic_SHIP_spacegun_steadfast TGR_Republic_SHIP_spacegun_recompense TGR_Republic_SHIP_spacegun_requiem TGR_Republic_SHIP_spacegun_courage TGR_Republic_SHIP_spacegun_valor TGR_Republic_SHIP_spacegun_gallant TGR_Republic_SHIP_spacegun_daring TGR_Republic_SHIP_spacegun_constancy TGR_Republic_SHIP_spacegun_perseverence TGR_Republic_SHIP_spacegun_tenacity TGR_Republic_SHIP_spacegun_sedulity TGR_Republic_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			TGR_Republic_SHIP_spacegun_victory TGR_Republic_SHIP_spacegun_success TGR_Republic_SHIP_spacegun_supremacy TGR_Republic_SHIP_spacegun_superior TGR_Republic_SHIP_spacegun_adventure TGR_Republic_SHIP_spacegun_ascendancy TGR_Republic_SHIP_spacegun_paramount TGR_Republic_SHIP_spacegun_preponderous TGR_Republic_SHIP_spacegun_exemplary TGR_Republic_SHIP_spacegun_eximious TGR_Republic_SHIP_spacegun_pertinacity TGR_Republic_SHIP_spacegun_acclaim TGR_Republic_SHIP_spacegun_honor TGR_Republic_SHIP_spacegun_renown TGR_Republic_SHIP_spacegun_glory TGR_Republic_SHIP_spacegun_superb TGR_Republic_SHIP_spacegun_magnificence TGR_Republic_SHIP_spacegun_majestic TGR_Republic_SHIP_spacegun_splendor TGR_Republic_SHIP_spacegun_paradigm TGR_Republic_SHIP_spacegun_flawless TGR_Republic_SHIP_spacegun_consummate TGR_Republic_SHIP_spacegun_merit TGR_Republic_SHIP_spacegun_perfection TGR_Republic_SHIP_spacegun_virtue TGR_Republic_SHIP_spacegun_advantage TGR_Republic_SHIP_spacegun_rectitude TGR_Republic_SHIP_spacegun_incorruptible TGR_Republic_SHIP_spacegun_integrity TGR_Republic_SHIP_spacegun_justice TGR_Republic_SHIP_spacegun_probity TGR_Republic_SHIP_spacegun_prudence TGR_Republic_SHIP_spacegun_purity TGR_Republic_SHIP_spacegun_resolute TGR_Republic_SHIP_spacegun_dignity TGR_Republic_SHIP_spacegun_distinction TGR_Republic_SHIP_spacegun_excellence TGR_Republic_SHIP_spacegun_faithful TGR_Republic_SHIP_spacegun_discipline TGR_Republic_SHIP_spacegun_steadfast TGR_Republic_SHIP_spacegun_recompense TGR_Republic_SHIP_spacegun_requiem TGR_Republic_SHIP_spacegun_courage TGR_Republic_SHIP_spacegun_valor TGR_Republic_SHIP_spacegun_gallant TGR_Republic_SHIP_spacegun_daring TGR_Republic_SHIP_spacegun_constancy TGR_Republic_SHIP_spacegun_perseverence TGR_Republic_SHIP_spacegun_tenacity TGR_Republic_SHIP_spacegun_sedulity TGR_Republic_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			TGR_Republic_SHIP_citadel TGR_Republic_SHIP_albacore TGR_Republic_SHIP_gateway TGR_Republic_SHIP_vincent TGR_Republic_SHIP_babylon TGR_Republic_SHIP_caernavon TGR_Republic_SHIP_acre TGR_Republic_SHIP_pembroke TGR_Republic_SHIP_acheron TGR_Republic_SHIP_spithead TGR_Republic_SHIP_halifax TGR_Republic_SHIP_victoria TGR_Republic_SHIP_chatham TGR_Republic_SHIP_anchorage TGR_Republic_SHIP_scapa_flow TGR_Republic_SHIP_hampton_roads TGR_Republic_SHIP_brooklyn TGR_Republic_SHIP_norfolk TGR_Republic_SHIP_newport TGR_Republic_SHIP_guam TGR_Republic_SHIP_pensacola TGR_Republic_SHIP_vesuvius TGR_Republic_SHIP_mckinley TGR_Republic_SHIP_everest TGR_Republic_SHIP_kilimanjaro TGR_Republic_SHIP_aconcagua TGR_Republic_SHIP_elbrus TGR_Republic_SHIP_st__helens TGR_Republic_SHIP_fuji TGR_Republic_SHIP_olympus TGR_Republic_SHIP_sinai TGR_Republic_SHIP_ambrose TGR_Republic_SHIP_bermuda TGR_Republic_SHIP_farpoint TGR_Republic_SHIP_blue_star TGR_Republic_SHIP_olympus_mons TGR_Republic_SHIP_tharsis TGR_Republic_SHIP_syrtis TGR_Republic_SHIP_blackham TGR_Republic_SHIP_fletcher TGR_Republic_SHIP_perry TGR_Republic_SHIP_butakov TGR_Republic_SHIP_morris TGR_Republic_SHIP_moorsom TGR_Republic_SHIP_hart TGR_Republic_SHIP_hargood TGR_Republic_SHIP_spruance TGR_Republic_SHIP_tanaka TGR_Republic_SHIP_halsey TGR_Republic_SHIP_turner TGR_Republic_SHIP_doria TGR_Republic_SHIP_tirpitz TGR_Republic_SHIP_cunningham TGR_Republic_SHIP_jellicoe TGR_Republic_SHIP_hipper TGR_Republic_SHIP_beatty TGR_Republic_SHIP_potemkin TGR_Republic_SHIP_durham TGR_Republic_SHIP_codrington TGR_Republic_SHIP_milne TGR_Republic_SHIP_laforey TGR_Republic_SHIP_tyler TGR_Republic_SHIP_hawke TGR_Republic_SHIP_yonai TGR_Republic_SHIP_pound TGR_Republic_SHIP_king TGR_Republic_SHIP_crutchley TGR_Republic_SHIP_mountbatten TGR_Republic_SHIP_kountouriotis TGR_Republic_SHIP_kuznetsov TGR_Republic_SHIP_essen TGR_Republic_SHIP_kornilov TGR_Republic_SHIP_suffren TGR_Republic_SHIP_treville TGR_Republic_SHIP_villeneuve TGR_Republic_SHIP_grasse TGR_Republic_SHIP_byng TGR_Republic_SHIP_lezo
+		}
+		ion_cannon = {
+			TGR_Republic_SHIP_bombard TGR_Republic_SHIP_ballista TGR_Republic_SHIP_catapult TGR_Republic_SHIP_harpoon TGR_Republic_SHIP_polybolos TGR_Republic_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			TGR_Republic_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			TGR_Republic_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			TGR_Republic_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			TGR_Republic_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			TGR_Republic_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			TGR_Republic_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			TGR_Republic_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			TGR_Republic_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			TGR_Republic_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			TGR_Republic_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			TGR_Republic_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			TGR_Republic_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			TGR_Republic_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			TGR_Republic_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			TGR_Republic_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			TGR_Republic_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			TGR_Republic_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			TGR_Republic_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			TGR_Republic_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			TGR_Republic_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			TGR_Republic_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			TGR_Republic_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			TGR_Republic_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			TGR_Republic_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			TGR_Republic_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			TGR_Republic_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			TGR_Republic_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			TGR_Republic_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			TGR_Republic_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			TGR_Republic_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			TGR_Republic_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			TGR_Republic_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			TGR_Republic_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			TGR_Republic_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			TGR_Republic_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			TGR_Republic_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			TGR_Republic_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			TGR_Republic_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			TGR_Republic_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			TGR_Republic_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			TGR_Republic_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			TGR_Republic_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			TGR_Republic_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			TGR_Republic_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			TGR_Republic_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			TGR_Republic_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			TGR_Republic_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			TGR_Republic_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			TGR_Republic_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			TGR_Republic_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			TGR_Republic_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			TGR_Republic_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			TGR_Republic_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			TGR_Republic_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			TGR_Republic_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			TGR_Republic_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			TGR_Republic_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			TGR_Republic_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			TGR_Republic_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			TGR_Republic_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			TGR_Republic_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			TGR_Republic_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			TGR_Republic_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			TGR_Republic_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			TGR_Republic_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			TGR_Republic_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			TGR_Republic_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			TGR_Republic_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			TGR_Republic_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			TGR_Republic_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			TGR_Republic_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			TGR_Republic_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			TGR_Republic_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			TGR_Republic_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			TGR_Republic_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			TGR_Republic_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			TGR_Republic_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			TGR_Republic_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			TGR_Republic_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			TGR_Republic_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			TGR_Republic_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			TGR_Republic_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			TGR_Republic_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			TGR_Republic_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			TGR_Republic_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			TGR_Republic_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			TGR_Republic_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			TGR_Republic_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			TGR_Republic_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			TGR_Republic_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			TGR_Republic_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			TGR_Republic_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			TGR_Republic_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			TGR_Republic_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = TGR_Republic_FLEET_task_group_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = TGR_Republic_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = TGR_Republic_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = TGR_Republic_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = TGR_Republic_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = TGR_Republic_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = TGR_Republic_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = TGR_Republic_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = TGR_Republic_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				TGR_Republic_ARMY_sarc_a__gladiators_ TGR_Republic_ARMY_sarc_b__widowmakers_ TGR_Republic_ARMY_sarc_c__immortals_ TGR_Republic_ARMY_sarc_d__berserkers_ TGR_Republic_ARMY_sarc_e__assassins_ TGR_Republic_ARMY_sarc_f__reapers_ TGR_Republic_ARMY_sarc_g__nighthawks_ TGR_Republic_ARMY_sarc_h__desperados_ TGR_Republic_ARMY_sarc_i__grey_knights_ TGR_Republic_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = TGR_Republic_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = TGR_Republic_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = TGR_Republic_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = TGR_Republic_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = TGR_Republic_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = TGR_Republic_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = TGR_Republic_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = TGR_Republic_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = TGR_Republic_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = TGR_Republic_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = TGR_Republic_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = TGR_Republic_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = TGR_Republic_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = TGR_Republic_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = TGR_Republic_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = TGR_Republic_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = TGR_Republic_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = TGR_Republic_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = TGR_Republic_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = TGR_Republic_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = TGR_Republic_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = TGR_Republic_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = TGR_Republic_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = TGR_Republic_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = TGR_Republic_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = TGR_Republic_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = TGR_Republic_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = TGR_Republic_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = TGR_Republic_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = TGR_Republic_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = TGR_Republic_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = TGR_Republic_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = TGR_Republic_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = TGR_Republic_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = TGR_Republic_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = TGR_Republic_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = TGR_Republic_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = TGR_Republic_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = TGR_Republic_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = TGR_Republic_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = TGR_Republic_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = TGR_Republic_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = TGR_Republic_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = TGR_Republic_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = TGR_Republic_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = TGR_Republic_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = TGR_Republic_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = TGR_Republic_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = TGR_Republic_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = TGR_Republic_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = TGR_Republic_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = TGR_Republic_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = TGR_Republic_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = TGR_Republic_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = TGR_Republic_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = TGR_Republic_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = TGR_Republic_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = TGR_Republic_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = TGR_Republic_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = TGR_Republic_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = TGR_Republic_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = TGR_Republic_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = TGR_Republic_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = TGR_Republic_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = TGR_Republic_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = TGR_Republic_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = TGR_Republic_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = TGR_Republic_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = TGR_Republic_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = TGR_Republic_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = TGR_Republic_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = TGR_Republic_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = TGR_Republic_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = TGR_Republic_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = TGR_Republic_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = TGR_Republic_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = TGR_Republic_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = TGR_Republic_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = TGR_Republic_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = TGR_Republic_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = TGR_Republic_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = TGR_Republic_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = TGR_Republic_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = TGR_Republic_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = TGR_Republic_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = TGR_Republic_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = TGR_Republic_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = TGR_Republic_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = TGR_Republic_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = TGR_Republic_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = TGR_Republic_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = TGR_Republic_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = TGR_Republic_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = TGR_Republic_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = TGR_Republic_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = TGR_Republic_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = TGR_Republic_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = TGR_Republic_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = TGR_Republic_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = TGR_Republic_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = TGR_Republic_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = TGR_Republic_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = TGR_Republic_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = TGR_Republic_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = TGR_Republic_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = TGR_Republic_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = TGR_Republic_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = TGR_Republic_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = TGR_Republic_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = TGR_Republic_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = TGR_Republic_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = TGR_Republic_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = TGR_Republic_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = TGR_Republic_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = TGR_Republic_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = TGR_Republic_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = TGR_Republic_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = TGR_Republic_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = TGR_Republic_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = TGR_Republic_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = TGR_Republic_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = TGR_Republic_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = TGR_Republic_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = TGR_Republic_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = TGR_Republic_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = TGR_Republic_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = TGR_Republic_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = TGR_Republic_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = TGR_Republic_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = TGR_Republic_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = TGR_Republic_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = TGR_Republic_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = TGR_Republic_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		full_names = {
+			first_names_male = {
+				TGR_Republic_CHR_ablund TGR_Republic_CHR_aach TGR_Republic_CHR_aagon TGR_Republic_CHR_aalto TGR_Republic_CHR_aambler TGR_Republic_CHR_abadaner TGR_Republic_CHR_aban TGR_Republic_CHR_abbus_kelo TGR_Republic_CHR_acan TGR_Republic_CHR_ace TGR_Republic_CHR_adame TGR_Republic_CHR_adar TGR_Republic_CHR_arvel TGR_Republic_CHR_addi_shon TGR_Republic_CHR_addle TGR_Republic_CHR_adelhard TGR_Republic_CHR_aden TGR_Republic_CHR_adon_larr TGR_Republic_CHR_adraas TGR_Republic_CHR_adrenas TGR_Republic_CHR_adrick TGR_Republic_CHR_adun TGR_Republic_CHR_aeron TGR_Republic_CHR_agareth TGR_Republic_CHR_aggadeen TGR_Republic_CHR_alric TGR_Republic_CHR_airten TGR_Republic_CHR_agrippa TGR_Republic_CHR_ajaan TGR_Republic_CHR_ajolin TGR_Republic_CHR_akaste_vel TGR_Republic_CHR_akobi TGR_Republic_CHR_alain TGR_Republic_CHR_alaric TGR_Republic_CHR_albathius TGR_Republic_CHR_alde TGR_Republic_CHR_alec TGR_Republic_CHR_alekam TGR_Republic_CHR_alethios TGR_Republic_CHR_alger TGR_Republic_CHR_algrunar TGR_Republic_CHR_ali_alann TGR_Republic_CHR_alif TGR_Republic_CHR_alim_gen TGR_Republic_CHR_alin TGR_Republic_CHR_alix TGR_Republic_CHR_alkhara TGR_Republic_CHR_allia TGR_Republic_CHR_almak TGR_Republic_CHR_almec TGR_Republic_CHR_alon TGR_Republic_CHR_alozen TGR_Republic_CHR_alph TGR_Republic_CHR_altaca TGR_Republic_CHR_althon TGR_Republic_CHR_alwynn TGR_Republic_CHR_amberson TGR_Republic_CHR_ament TGR_Republic_CHR_amis TGR_Republic_CHR_ammon TGR_Republic_CHR_amzartho TGR_Republic_CHR_anabar TGR_Republic_CHR_anager TGR_Republic_CHR_anarine TGR_Republic_CHR_anathemos TGR_Republic_CHR_andan TGR_Republic_CHR_anders TGR_Republic_CHR_ando TGR_Republic_CHR_andra TGR_Republic_CHR_andrew TGR_Republic_CHR_andrid TGR_Republic_CHR_andrik TGR_Republic_CHR_andru TGR_Republic_CHR_ar_al TGR_Republic_CHR_angber TGR_Republic_CHR_angral TGR_Republic_CHR_anlen TGR_Republic_CHR_anod TGR_Republic_CHR_anselm TGR_Republic_CHR_anskow TGR_Republic_CHR_anson TGR_Republic_CHR_adem TGR_Republic_CHR_antone TGR_Republic_CHR_antonin TGR_Republic_CHR_anuli TGR_Republic_CHR_appleton TGR_Republic_CHR_arac TGR_Republic_CHR_arakkus TGR_Republic_CHR_aramis TGR_Republic_CHR_arana TGR_Republic_CHR_armen TGR_Republic_CHR_arastide TGR_Republic_CHR_arber TGR_Republic_CHR_arcann TGR_Republic_CHR_ardan TGR_Republic_CHR_ardax TGR_Republic_CHR_ardiff TGR_Republic_CHR_ardle TGR_Republic_CHR_ardmore TGR_Republic_CHR_ardot TGR_Republic_CHR_ardran TGR_Republic_CHR_avinoam TGR_Republic_CHR_ars TGR_Republic_CHR_argona TGR_Republic_CHR_argor TGR_Republic_CHR_argos TGR_Republic_CHR_arias TGR_Republic_CHR_ariavos TGR_Republic_CHR_arigo TGR_Republic_CHR_aris TGR_Republic_CHR_arkan TGR_Republic_CHR_arkeld TGR_Republic_CHR_arl TGR_Republic_CHR_arljack TGR_Republic_CHR_arlo TGR_Republic_CHR_arlos TGR_Republic_CHR_armatan TGR_Republic_CHR_armitage TGR_Republic_CHR_arnama TGR_Republic_CHR_arnet TGR_Republic_CHR_arno TGR_Republic_CHR_arnothian TGR_Republic_CHR_arnth TGR_Republic_CHR_arnus TGR_Republic_CHR_arrad TGR_Republic_CHR_arratan TGR_Republic_CHR_arrax TGR_Republic_CHR_arric TGR_Republic_CHR_artano TGR_Republic_CHR_artok TGR_Republic_CHR_arturo TGR_Republic_CHR_arzanon TGR_Republic_CHR_ash TGR_Republic_CHR_ashaad TGR_Republic_CHR_asirr TGR_Republic_CHR_atali TGR_Republic_CHR_atar TGR_Republic_CHR_atmino TGR_Republic_CHR_atren TGR_Republic_CHR_augatta TGR_Republic_CHR_avan TGR_Republic_CHR_avanj TGR_Republic_CHR_avarik TGR_Republic_CHR_averdon TGR_Republic_CHR_averen TGR_Republic_CHR_averon TGR_Republic_CHR_avers TGR_Republic_CHR_aves TGR_Republic_CHR_aviso TGR_Republic_CHR_avrun TGR_Republic_CHR_azkul TGR_Republic_CHR_azrakel TGR_Republic_CHR_ace TGR_Republic_CHR_b_arin TGR_Republic_CHR_bail TGR_Republic_CHR_beel TGR_Republic_CHR_bix TGR_Republic_CHR_blix TGR_Republic_CHR_boz TGR_Republic_CHR_braedon TGR_Republic_CHR_bryn TGR_Republic_CHR_brixus TGR_Republic_CHR_cal TGR_Republic_CHR_cassian TGR_Republic_CHR_chik TGR_Republic_CHR_cinto TGR_Republic_CHR_cumberlayne TGR_Republic_CHR_darrus TGR_Republic_CHR_djinn TGR_Republic_CHR_druth TGR_Republic_CHR_det TGR_Republic_CHR_ethan TGR_Republic_CHR_galiir TGR_Republic_CHR_gez TGR_Republic_CHR_haemon TGR_Republic_CHR_jae TGR_Republic_CHR_jagged TGR_Republic_CHR_jess TGR_Republic_CHR_jesper TGR_Republic_CHR_jon TGR_Republic_CHR_gathal TGR_Republic_CHR_gideon TGR_Republic_CHR_jefand TGR_Republic_CHR_kel TGR_Republic_CHR_koffi TGR_Republic_CHR_lazlo TGR_Republic_CHR_laetin TGR_Republic_CHR_lesk TGR_Republic_CHR_maxiron TGR_Republic_CHR_neet TGR_Republic_CHR_osak TGR_Republic_CHR_pabel TGR_Republic_CHR_paddy TGR_Republic_CHR_peita TGR_Republic_CHR_peema TGR_Republic_CHR_pellas TGR_Republic_CHR_prewb TGR_Republic_CHR_raymus TGR_Republic_CHR_raar TGR_Republic_CHR_rage TGR_Republic_CHR_rel TGR_Republic_CHR_reez TGR_Republic_CHR_ras TGR_Republic_CHR_rixes TGR_Republic_CHR_ruceba TGR_Republic_CHR_seraph TGR_Republic_CHR_sim TGR_Republic_CHR_sio TGR_Republic_CHR_y_ull TGR_Republic_CHR_tavion TGR_Republic_CHR_tavid TGR_Republic_CHR_tendis TGR_Republic_CHR_tev TGR_Republic_CHR_tiberus TGR_Republic_CHR_toob TGR_Republic_CHR_tor TGR_Republic_CHR_turon TGR_Republic_CHR_villis TGR_Republic_CHR_wain TGR_Republic_CHR_wedge TGR_Republic_CHR_wes TGR_Republic_CHR_zeen TGR_Republic_CHR_baboo TGR_Republic_CHR_bachenkall TGR_Republic_CHR_bafor TGR_Republic_CHR_bagitt TGR_Republic_CHR_bailey TGR_Republic_CHR_bailie TGR_Republic_CHR_bairn TGR_Republic_CHR_bala_tik TGR_Republic_CHR_balankin TGR_Republic_CHR_balaro TGR_Republic_CHR_balcomb TGR_Republic_CHR_baldwin TGR_Republic_CHR_baldy TGR_Republic_CHR_balek TGR_Republic_CHR_balisk TGR_Republic_CHR_balkin TGR_Republic_CHR_balko TGR_Republic_CHR_ballala TGR_Republic_CHR_ballard TGR_Republic_CHR_ballax TGR_Republic_CHR_bendodi TGR_Republic_CHR_balog TGR_Republic_CHR_balto TGR_Republic_CHR_bams TGR_Republic_CHR_bandor TGR_Republic_CHR_boss TGR_Republic_CHR_banley TGR_Republic_CHR_banna TGR_Republic_CHR_bannos TGR_Republic_CHR_bant TGR_Republic_CHR_banz TGR_Republic_CHR_baradis TGR_Republic_CHR_barak TGR_Republic_CHR_baramak TGR_Republic_CHR_barcel TGR_Republic_CHR_bardo TGR_Republic_CHR_barduun TGR_Republic_CHR_barev TGR_Republic_CHR_barich TGR_Republic_CHR_barik TGR_Republic_CHR_barkale TGR_Republic_CHR_barksy TGR_Republic_CHR_barleos TGR_Republic_CHR_barlow TGR_Republic_CHR_barney TGR_Republic_CHR_barnley TGR_Republic_CHR_baro TGR_Republic_CHR_barry TGR_Republic_CHR_barstead TGR_Republic_CHR_bartam TGR_Republic_CHR_barth TGR_Republic_CHR_barthis TGR_Republic_CHR_bas TGR_Republic_CHR_bas_ton TGR_Republic_CHR_bascome TGR_Republic_CHR_basile TGR_Republic_CHR_basso TGR_Republic_CHR_bastian TGR_Republic_CHR_bathens TGR_Republic_CHR_batono TGR_Republic_CHR_bator TGR_Republic_CHR_billal TGR_Republic_CHR_battz TGR_Republic_CHR_baxton TGR_Republic_CHR_baysden TGR_Republic_CHR_baz TGR_Republic_CHR_be TGR_Republic_CHR_beau TGR_Republic_CHR_beckar TGR_Republic_CHR_becker TGR_Republic_CHR_beckman TGR_Republic_CHR_bedareux TGR_Republic_CHR_bedoch TGR_Republic_CHR_beebe TGR_Republic_CHR_beez TGR_Republic_CHR_beldiss TGR_Republic_CHR_belkan TGR_Republic_CHR_beller TGR_Republic_CHR_bellis TGR_Republic_CHR_belos TGR_Republic_CHR_byzal TGR_Republic_CHR_bzorn TGR_Republic_CHR_biggs TGR_Republic_CHR_bels TGR_Republic_CHR_bemos TGR_Republic_CHR_benay TGR_Republic_CHR_benjo TGR_Republic_CHR_benkin TGR_Republic_CHR_benn TGR_Republic_CHR_benni TGR_Republic_CHR_benok TGR_Republic_CHR_benthar TGR_Republic_CHR_benton TGR_Republic_CHR_bentro TGR_Republic_CHR_boar TGR_Republic_CHR_benx TGR_Republic_CHR_bequesh TGR_Republic_CHR_berandis TGR_Republic_CHR_berethon TGR_Republic_CHR_bergan TGR_Republic_CHR_berix TGR_Republic_CHR_bernie TGR_Republic_CHR_bertrum TGR_Republic_CHR_berusal TGR_Republic_CHR_bewil TGR_Republic_CHR_bex TGR_Republic_CHR_billan TGR_Republic_CHR_biril TGR_Republic_CHR_birket TGR_Republic_CHR_birok TGR_Republic_CHR_black TGR_Republic_CHR_blagotine TGR_Republic_CHR_blaide TGR_Republic_CHR_blainekie TGR_Republic_CHR_bledsoe TGR_Republic_CHR_bleeker TGR_Republic_CHR_blleen TGR_Republic_CHR_bloodory TGR_Republic_CHR_bloodworthy TGR_Republic_CHR_blount TGR_Republic_CHR_blyes TGR_Republic_CHR_boakie TGR_Republic_CHR_boaz TGR_Republic_CHR_bob TGR_Republic_CHR_bol TGR_Republic_CHR_bon TGR_Republic_CHR_bonze TGR_Republic_CHR_boonan TGR_Republic_CHR_boran TGR_Republic_CHR_boraso TGR_Republic_CHR_borgin TGR_Republic_CHR_borm TGR_Republic_CHR_bornae TGR_Republic_CHR_bort TGR_Republic_CHR_bortrek TGR_Republic_CHR_boshek TGR_Republic_CHR_bourom TGR_Republic_CHR_bouyard TGR_Republic_CHR_braden TGR_Republic_CHR_brady TGR_Republic_CHR_bragan TGR_Republic_CHR_braynor TGR_Republic_CHR_brayso TGR_Republic_CHR_breckon TGR_Republic_CHR_breehld TGR_Republic_CHR_brinn TGR_Republic_CHR_brinnie TGR_Republic_CHR_brint TGR_Republic_CHR_brinton TGR_Republic_CHR_brogon TGR_Republic_CHR_brohmer TGR_Republic_CHR_brolis TGR_Republic_CHR_broll TGR_Republic_CHR_brom TGR_Republic_CHR_brooser TGR_Republic_CHR_brothic TGR_Republic_CHR_brovto TGR_Republic_CHR_broysc TGR_Republic_CHR_bruan TGR_Republic_CHR_brucce TGR_Republic_CHR_bruckman TGR_Republic_CHR_bryint TGR_Republic_CHR_brylin TGR_Republic_CHR_bry TGR_Republic_CHR_brysonbular TGR_Republic_CHR_bulger TGR_Republic_CHR_bun_delbur TGR_Republic_CHR_burne TGR_Republic_CHR_burque TGR_Republic_CHR_burr TGR_Republic_CHR_bursk TGR_Republic_CHR_bursthed TGR_Republic_CHR_byrga TGR_Republic_CHR_byten TGR_Republic_CHR_trey TGR_Republic_CHR_lando TGR_Republic_CHR_caaldra TGR_Republic_CHR_cabaril TGR_Republic_CHR_cabbel TGR_Republic_CHR_caeleb TGR_Republic_CHR_caerbellak TGR_Republic_CHR_cafian TGR_Republic_CHR_cag TGR_Republic_CHR_cagaran TGR_Republic_CHR_cam TGR_Republic_CHR_camaran TGR_Republic_CHR_camas TGR_Republic_CHR_cardacs TGR_Republic_CHR_cardy TGR_Republic_CHR_careem TGR_Republic_CHR_cargeloch TGR_Republic_CHR_carhart TGR_Republic_CHR_calron TGR_Republic_CHR_calson TGR_Republic_CHR_calum TGR_Republic_CHR_calypho TGR_Republic_CHR_cal TGR_Republic_CHR_caladane TGR_Republic_CHR_calaverous TGR_Republic_CHR_carli TGR_Republic_CHR_carlon TGR_Republic_CHR_carlton TGR_Republic_CHR_carn TGR_Republic_CHR_carner TGR_Republic_CHR_carness TGR_Republic_CHR_carnor TGR_Republic_CHR_carns TGR_Republic_CHR_callef TGR_Republic_CHR_callen TGR_Republic_CHR_callow TGR_Republic_CHR_calders TGR_Republic_CHR_caleb TGR_Republic_CHR_calo TGR_Republic_CHR_calphayus TGR_Republic_CHR_cathers TGR_Republic_CHR_caton TGR_Republic_CHR_cauley TGR_Republic_CHR_cav TGR_Republic_CHR_cav_saran TGR_Republic_CHR_cavin TGR_Republic_CHR_cryle TGR_Republic_CHR_cavwol TGR_Republic_CHR_cawelyn TGR_Republic_CHR_cecius TGR_Republic_CHR_cede TGR_Republic_CHR_cemma TGR_Republic_CHR_ceoloe TGR_Republic_CHR_cerasi TGR_Republic_CHR_cerik TGR_Republic_CHR_charny TGR_Republic_CHR_charol TGR_Republic_CHR_charpp TGR_Republic_CHR_charnoq TGR_Republic_CHR_charnso TGR_Republic_CHR_cestus TGR_Republic_CHR_ch_arb TGR_Republic_CHR_ch_gally TGR_Republic_CHR_ch_lessan TGR_Republic_CHR_cha TGR_Republic_CHR_chael TGR_Republic_CHR_challer TGR_Republic_CHR_chambe TGR_Republic_CHR_crlyn TGR_Republic_CHR_chang TGR_Republic_CHR_chappral TGR_Republic_CHR_chef TGR_Republic_CHR_chentu TGR_Republic_CHR_chell TGR_Republic_CHR_chessiq TGR_Republic_CHR_chet TGR_Republic_CHR_chiann TGR_Republic_CHR_chicora TGR_Republic_CHR_chatty TGR_Republic_CHR_chayloss TGR_Republic_CHR_chedaki TGR_Republic_CHR_chiraneau TGR_Republic_CHR_chiron TGR_Republic_CHR_chorlen TGR_Republic_CHR_chornarov TGR_Republic_CHR_cody TGR_Republic_CHR_clorr TGR_Republic_CHR_clovis TGR_Republic_CHR_clydno TGR_Republic_CHR_clynn TGR_Republic_CHR_cnorec TGR_Republic_CHR_coburn TGR_Republic_CHR_cobus TGR_Republic_CHR_cogon TGR_Republic_CHR_colin TGR_Republic_CHR_collus TGR_Republic_CHR_colsan TGR_Republic_CHR_colten TGR_Republic_CHR_colton TGR_Republic_CHR_combo TGR_Republic_CHR_conar TGR_Republic_CHR_coorta TGR_Republic_CHR_corin TGR_Republic_CHR_coris TGR_Republic_CHR_corlac TGR_Republic_CHR_corso TGR_Republic_CHR_corvan TGR_Republic_CHR_corvin TGR_Republic_CHR_corvis TGR_Republic_CHR_corwin TGR_Republic_CHR_corwyth TGR_Republic_CHR_cote TGR_Republic_CHR_cothron TGR_Republic_CHR_cotin TGR_Republic_CHR_coy TGR_Republic_CHR_cravel TGR_Republic_CHR_cravus TGR_Republic_CHR_creb TGR_Republic_CHR_creeve TGR_Republic_CHR_corlis TGR_Republic_CHR_crest TGR_Republic_CHR_crimpler TGR_Republic_CHR_crimson TGR_Republic_CHR_crin TGR_Republic_CHR_crion TGR_Republic_CHR_criss TGR_Republic_CHR_cristoff TGR_Republic_CHR_crix TGR_Republic_CHR_cronal TGR_Republic_CHR_cronnin TGR_Republic_CHR_cronus TGR_Republic_CHR_d_ashewl TGR_Republic_CHR_d_krn TGR_Republic_CHR_d_lew TGR_Republic_CHR_d_vox TGR_Republic_CHR_d_vrosh TGR_Republic_CHR_daal TGR_Republic_CHR_dado TGR_Republic_CHR_daek TGR_Republic_CHR_dael TGR_Republic_CHR_dahar TGR_Republic_CHR_dahm TGR_Republic_CHR_daiman TGR_Republic_CHR_dainsom TGR_Republic_CHR_daiv TGR_Republic_CHR_dak TGR_Republic_CHR_dakron TGR_Republic_CHR_daksh TGR_Republic_CHR_dalton TGR_Republic_CHR_damarcus TGR_Republic_CHR_damaris TGR_Republic_CHR_damarus TGR_Republic_CHR_dao TGR_Republic_CHR_dapp TGR_Republic_CHR_daquinn TGR_Republic_CHR_dar TGR_Republic_CHR_eesh TGR_Republic_CHR_darda TGR_Republic_CHR_dardan TGR_Republic_CHR_dareb_ TGR_Republic_CHR_dareg TGR_Republic_CHR_darek TGR_Republic_CHR_daren TGR_Republic_CHR_dargus TGR_Republic_CHR_daggath TGR_Republic_CHR_darnov TGR_Republic_CHR_daro TGR_Republic_CHR_darok TGR_Republic_CHR_darone TGR_Republic_CHR_darr TGR_Republic_CHR_darrik TGR_Republic_CHR_darrok TGR_Republic_CHR_darrst TGR_Republic_CHR_darsin TGR_Republic_CHR_darthyn TGR_Republic_CHR_daruula TGR_Republic_CHR_dash TGR_Republic_CHR_datoo TGR_Republic_CHR_dauren TGR_Republic_CHR_davis TGR_Republic_CHR_davon TGR_Republic_CHR_davonn TGR_Republic_CHR_davos TGR_Republic_CHR_davrill TGR_Republic_CHR_davrin TGR_Republic_CHR_davu TGR_Republic_CHR_dayja TGR_Republic_CHR_daz TGR_Republic_CHR_ramsis TGR_Republic_CHR_bren TGR_Republic_CHR_tan TGR_Republic_CHR_jan TGR_Republic_CHR_porro TGR_Republic_CHR_cin TGR_Republic_CHR_garven TGR_Republic_CHR_cornelius TGR_Republic_CHR_galen TGR_Republic_CHR_dannl TGR_Republic_CHR_ecclessis TGR_Republic_CHR_debbikin TGR_Republic_CHR_debeli TGR_Republic_CHR_deegan TGR_Republic_CHR_deerian TGR_Republic_CHR_deevis TGR_Republic_CHR_defain TGR_Republic_CHR_deflaros TGR_Republic_CHR_degoren TGR_Republic_CHR_dehno TGR_Republic_CHR_dekay TGR_Republic_CHR_delevar TGR_Republic_CHR_delfaros TGR_Republic_CHR_dellin TGR_Republic_CHR_dellocon TGR_Republic_CHR_delpho TGR_Republic_CHR_delquis TGR_Republic_CHR_delsa TGR_Republic_CHR_delund TGR_Republic_CHR_delurin TGR_Republic_CHR_demtri TGR_Republic_CHR_den TGR_Republic_CHR_denbar TGR_Republic_CHR_dender TGR_Republic_CHR_dendro TGR_Republic_CHR_dendu TGR_Republic_CHR_denetrus TGR_Republic_CHR_denev TGR_Republic_CHR_dengar TGR_Republic_CHR_dengril TGR_Republic_CHR_denid TGR_Republic_CHR_denimoor TGR_Republic_CHR_denin TGR_Republic_CHR_denna TGR_Republic_CHR_denner TGR_Republic_CHR_dennik TGR_Republic_CHR_deppo TGR_Republic_CHR_derdram TGR_Republic_CHR_derec TGR_Republic_CHR_derish TGR_Republic_CHR_derliff TGR_Republic_CHR_dermeg TGR_Republic_CHR_dermian TGR_Republic_CHR_dern TGR_Republic_CHR_dernas TGR_Republic_CHR_derral TGR_Republic_CHR_derrin TGR_Republic_CHR_dervis TGR_Republic_CHR_desanne TGR_Republic_CHR_devoris TGR_Republic_CHR_devotek TGR_Republic_CHR_devron TGR_Republic_CHR_devry TGR_Republic_CHR_devsh TGR_Republic_CHR_dewolf TGR_Republic_CHR_dex TGR_Republic_CHR_dezsetes TGR_Republic_CHR_dhaiv TGR_Republic_CHR_dhal TGR_Republic_CHR_dindau TGR_Republic_CHR_dindo TGR_Republic_CHR_ding TGR_Republic_CHR_dinge TGR_Republic_CHR_dobbatek TGR_Republic_CHR_dobberty TGR_Republic_CHR_dobbs TGR_Republic_CHR_dolan TGR_Republic_CHR_dolgis TGR_Republic_CHR_dolmen TGR_Republic_CHR_dolo TGR_Republic_CHR_dominaire TGR_Republic_CHR_domm TGR_Republic_CHR_donovan TGR_Republic_CHR_donovarr TGR_Republic_CHR_donsull TGR_Republic_CHR_dorel_kan TGR_Republic_CHR_dorgat TGR_Republic_CHR_dorian TGR_Republic_CHR_dorja TGR_Republic_CHR_dorn TGR_Republic_CHR_dorotsech TGR_Republic_CHR_dorrick TGR_Republic_CHR_dortho TGR_Republic_CHR_downey TGR_Republic_CHR_draado TGR_Republic_CHR_draahg TGR_Republic_CHR_dracen TGR_Republic_CHR_drage TGR_Republic_CHR_dragen TGR_Republic_CHR_drake TGR_Republic_CHR_drayk TGR_Republic_CHR_drazin TGR_Republic_CHR_drek TGR_Republic_CHR_duno TGR_Republic_CHR_dree TGR_Republic_CHR_dreed TGR_Republic_CHR_drefin TGR_Republic_CHR_dregg TGR_Republic_CHR_drelosyn TGR_Republic_CHR_drexel TGR_Republic_CHR_dreyf TGR_Republic_CHR_drezzel TGR_Republic_CHR_drizan TGR_Republic_CHR_dro TGR_Republic_CHR_droman TGR_Republic_CHR_dromath TGR_Republic_CHR_drowl TGR_Republic_CHR_drufeys TGR_Republic_CHR_drummond TGR_Republic_CHR_dubeh TGR_Republic_CHR_dunari TGR_Republic_CHR_dunaub TGR_Republic_CHR_deadeye TGR_Republic_CHR_duncan TGR_Republic_CHR_durhant TGR_Republic_CHR_durmat TGR_Republic_CHR_durpin TGR_Republic_CHR_durrei TGR_Republic_CHR_dyshotto TGR_Republic_CHR_dzoun TGR_Republic_CHR_eagle TGR_Republic_CHR_eanjer TGR_Republic_CHR_earl TGR_Republic_CHR_earsh TGR_Republic_CHR_eben TGR_Republic_CHR_eddon TGR_Republic_CHR_edease TGR_Republic_CHR_edern TGR_Republic_CHR_edgar TGR_Republic_CHR_edikar TGR_Republic_CHR_egoreg TGR_Republic_CHR_egron TGR_Republic_CHR_eistern TGR_Republic_CHR_ejai TGR_Republic_CHR_eker TGR_Republic_CHR_ekh TGR_Republic_CHR_ekisp TGR_Republic_CHR_ekov TGR_Republic_CHR_elarles TGR_Republic_CHR_eriquel TGR_Republic_CHR_eris TGR_Republic_CHR_erl TGR_Republic_CHR_erloi TGR_Republic_CHR_esano TGR_Republic_CHR_escalion TGR_Republic_CHR_ezil TGR_Republic_CHR_ezrim TGR_Republic_CHR_ezra TGR_Republic_CHR_ein TGR_Republic_CHR_eislo TGR_Republic_CHR_jake TGR_Republic_CHR_jango TGR_Republic_CHR_eli TGR_Republic_CHR_eliasb TGR_Republic_CHR_eligyn TGR_Republic_CHR_elior TGR_Republic_CHR_elis TGR_Republic_CHR_elizhis TGR_Republic_CHR_elkin TGR_Republic_CHR_ellsworth TGR_Republic_CHR_elmel TGR_Republic_CHR_elmyo TGR_Republic_CHR_elrodelsar TGR_Republic_CHR_elsek TGR_Republic_CHR_emil TGR_Republic_CHR_emir TGR_Republic_CHR_emmens TGR_Republic_CHR_endicott TGR_Republic_CHR_enfield TGR_Republic_CHR_enger TGR_Republic_CHR_engret TGR_Republic_CHR_emmett TGR_Republic_CHR_emory TGR_Republic_CHR_eoaq TGR_Republic_CHR_eph TGR_Republic_CHR_erdan TGR_Republic_CHR_erelut TGR_Republic_CHR_ergast TGR_Republic_CHR_ergel TGR_Republic_CHR_ergeron TGR_Republic_CHR_eric TGR_Republic_CHR_erik TGR_Republic_CHR_estopatrin TGR_Republic_CHR_esture TGR_Republic_CHR_estus TGR_Republic_CHR_eth TGR_Republic_CHR_ethen TGR_Republic_CHR_etnam TGR_Republic_CHR_etta TGR_Republic_CHR_evad TGR_Republic_CHR_evan TGR_Republic_CHR_evax TGR_Republic_CHR_evlen TGR_Republic_CHR_evran TGR_Republic_CHR_evun TGR_Republic_CHR_evvin TGR_Republic_CHR_ewane TGR_Republic_CHR_exar TGR_Republic_CHR_eyvind TGR_Republic_CHR_falltower TGR_Republic_CHR_falrey TGR_Republic_CHR_falsta TGR_Republic_CHR_falch TGR_Republic_CHR_falco TGR_Republic_CHR_faarl TGR_Republic_CHR_fable TGR_Republic_CHR_faedral TGR_Republic_CHR_far TGR_Republic_CHR_faradin TGR_Republic_CHR_faraire TGR_Republic_CHR_fardi TGR_Republic_CHR_farn TGR_Republic_CHR_farng TGR_Republic_CHR_farnis TGR_Republic_CHR_farsal TGR_Republic_CHR_farseam TGR_Republic_CHR_fatulaine TGR_Republic_CHR_fauler TGR_Republic_CHR_feldon TGR_Republic_CHR_feldron TGR_Republic_CHR_feleea TGR_Republic_CHR_fenn TGR_Republic_CHR_fenris TGR_Republic_CHR_fenson TGR_Republic_CHR_feras TGR_Republic_CHR_ferav TGR_Republic_CHR_ferdoin TGR_Republic_CHR_fermin TGR_Republic_CHR_ferob TGR_Republic_CHR_ferren TGR_Republic_CHR_ferrid TGR_Republic_CHR_ferrig TGR_Republic_CHR_ferrin TGR_Republic_CHR_ferron TGR_Republic_CHR_ferrus TGR_Republic_CHR_falesh TGR_Republic_CHR_falk TGR_Republic_CHR_fardi TGR_Republic_CHR_fassio TGR_Republic_CHR_fatulaine TGR_Republic_CHR_dannl TGR_Republic_CHR_februs TGR_Republic_CHR_janus TGR_Republic_CHR_fixer TGR_Republic_CHR_florn TGR_Republic_CHR_grizz TGR_Republic_CHR_frobb TGR_Republic_CHR_fruun
+			}
+			first_names_female = {
+				TGR_Republic_CHR_aiolin TGR_Republic_CHR_amanoa TGR_Republic_CHR_aphra TGR_Republic_CHR_atris TGR_Republic_CHR_bastila TGR_Republic_CHR_fema TGR_Republic_CHR_jan TGR_Republic_CHR_jyn TGR_Republic_CHR_padm_ TGR_Republic_CHR_rey TGR_Republic_CHR_tash TGR_Republic_CHR_tavion TGR_Republic_CHR_zannah TGR_Republic_CHR_aaida TGR_Republic_CHR_aari TGR_Republic_CHR_acina TGR_Republic_CHR_ackmena TGR_Republic_CHR_ada TGR_Republic_CHR_adana TGR_Republic_CHR_adnama TGR_Republic_CHR_aeran TGR_Republic_CHR_aereena TGR_Republic_CHR_aeron TGR_Republic_CHR_agatha TGR_Republic_CHR_agira TGR_Republic_CHR_ahlya TGR_Republic_CHR_aimee TGR_Republic_CHR_airen TGR_Republic_CHR_akindra TGR_Republic_CHR_albea TGR_Republic_CHR_aldiae TGR_Republic_CHR_alianda TGR_Republic_CHR_alinta TGR_Republic_CHR_alisia TGR_Republic_CHR_allania TGR_Republic_CHR_allara TGR_Republic_CHR_allura TGR_Republic_CHR_allya TGR_Republic_CHR_alma TGR_Republic_CHR_alora TGR_Republic_CHR_altiss TGR_Republic_CHR_alva TGR_Republic_CHR_alvena TGR_Republic_CHR_alya TGR_Republic_CHR_alyak TGR_Republic_CHR_amaya TGR_Republic_CHR_amber TGR_Republic_CHR_amee TGR_Republic_CHR_amie TGR_Republic_CHR_amni TGR_Republic_CHR_amy TGR_Republic_CHR_an_bal TGR_Republic_CHR_anandra TGR_Republic_CHR_anarq TGR_Republic_CHR_anda TGR_Republic_CHR_andra TGR_Republic_CHR_anga TGR_Republic_CHR_angela TGR_Republic_CHR_anita TGR_Republic_CHR_annissya TGR_Republic_CHR_anora TGR_Republic_CHR_ansween TGR_Republic_CHR_anyarah TGR_Republic_CHR_anyul TGR_Republic_CHR_aral TGR_Republic_CHR_ariela TGR_Republic_CHR_arsad TGR_Republic_CHR_arsha TGR_Republic_CHR_aryzah TGR_Republic_CHR_arzhura TGR_Republic_CHR_asha TGR_Republic_CHR_ashana TGR_Republic_CHR_auren TGR_Republic_CHR_avitla TGR_Republic_CHR_avrey TGR_Republic_CHR_azalie TGR_Republic_CHR_azarea TGR_Republic_CHR_balia TGR_Republic_CHR_balmai TGR_Republic_CHR_baral TGR_Republic_CHR_bartaph TGR_Republic_CHR_bat_theria TGR_Republic_CHR_camelle TGR_Republic_CHR_celana TGR_Republic_CHR_chaney TGR_Republic_CHR_cinzia TGR_Republic_CHR_corellia TGR_Republic_CHR_corinna TGR_Republic_CHR_darial TGR_Republic_CHR_darsha TGR_Republic_CHR_deara TGR_Republic_CHR_deli TGR_Republic_CHR_derrica TGR_Republic_CHR_duala TGR_Republic_CHR_elga TGR_Republic_CHR_emppu TGR_Republic_CHR_fable TGR_Republic_CHR_facet TGR_Republic_CHR_feylis TGR_Republic_CHR_grinte TGR_Republic_CHR_halsia TGR_Republic_CHR_henrietya TGR_Republic_CHR_hermione TGR_Republic_CHR_iella TGR_Republic_CHR_jess TGR_Republic_CHR_jhaka TGR_Republic_CHR_jioie TGR_Republic_CHR_jora TGR_Republic_CHR_jord TGR_Republic_CHR_junelle TGR_Republic_CHR_kaiya TGR_Republic_CHR_kandria TGR_Republic_CHR_kani TGR_Republic_CHR_ketrian TGR_Republic_CHR_lemda TGR_Republic_CHR_lesle TGR_Republic_CHR_lilit TGR_Republic_CHR_lissa TGR_Republic_CHR_lomina TGR_Republic_CHR_lynnta TGR_Republic_CHR_lysa TGR_Republic_CHR_maelrich TGR_Republic_CHR_malani TGR_Republic_CHR_maree TGR_Republic_CHR_margani TGR_Republic_CHR_mari TGR_Republic_CHR_merish TGR_Republic_CHR_milessa TGR_Republic_CHR_momi TGR_Republic_CHR_myri TGR_Republic_CHR_nala TGR_Republic_CHR_nalia TGR_Republic_CHR_nia TGR_Republic_CHR_olianna TGR_Republic_CHR_ona TGR_Republic_CHR_onie TGR_Republic_CHR_onnelly TGR_Republic_CHR_orqiti TGR_Republic_CHR_pabel TGR_Republic_CHR_pookie TGR_Republic_CHR_quillara TGR_Republic_CHR_renalda TGR_Republic_CHR_renata TGR_Republic_CHR_salia TGR_Republic_CHR_sansia TGR_Republic_CHR_shasheva TGR_Republic_CHR_soara TGR_Republic_CHR_sula TGR_Republic_CHR_syal TGR_Republic_CHR_talena TGR_Republic_CHR_terena TGR_Republic_CHR_tess TGR_Republic_CHR_tinian TGR_Republic_CHR_tour TGR_Republic_CHR_tresten TGR_Republic_CHR_tria TGR_Republic_CHR_turi TGR_Republic_CHR_tyla TGR_Republic_CHR_varin TGR_Republic_CHR_venra TGR_Republic_CHR_vitala TGR_Republic_CHR_vleen TGR_Republic_CHR_yasinda TGR_Republic_CHR_zal TGR_Republic_CHR_zena TGR_Republic_CHR_zola TGR_Republic_CHR_nyrat TGR_Republic_CHR_alana TGR_Republic_CHR_alani TGR_Republic_CHR_alara TGR_Republic_CHR_tehlan TGR_Republic_CHR_jalice TGR_Republic_CHR_arlaia TGR_Republic_CHR_apailana TGR_Republic_CHR_melnea TGR_Republic_CHR_asani TGR_Republic_CHR_auben TGR_Republic_CHR_aula TGR_Republic_CHR_silvana TGR_Republic_CHR_aunuanna TGR_Republic_CHR_odea TGR_Republic_CHR_aurora TGR_Republic_CHR_frei TGR_Republic_CHR_nana TGR_Republic_CHR_barosa TGR_Republic_CHR_bathos TGR_Republic_CHR_bea TGR_Republic_CHR_alecia TGR_Republic_CHR_reefa TGR_Republic_CHR_been TGR_Republic_CHR_dansra TGR_Republic_CHR_deena TGR_Republic_CHR_trina TGR_Republic_CHR_nari TGR_Republic_CHR_arrianya TGR_Republic_CHR_reginna TGR_Republic_CHR_bel TGR_Republic_CHR_typolla TGR_Republic_CHR_keri TGR_Republic_CHR_belaya TGR_Republic_CHR_eppie TGR_Republic_CHR_belina TGR_Republic_CHR_areta TGR_Republic_CHR_bella TGR_Republic_CHR_bellican TGR_Republic_CHR_bellum TGR_Republic_CHR_sulen TGR_Republic_CHR_bemere TGR_Republic_CHR_bene TGR_Republic_CHR_lana TGR_Republic_CHR_tirgee TGR_Republic_CHR_beraxil TGR_Republic_CHR_thadl_ TGR_Republic_CHR_berow TGR_Republic_CHR_doman TGR_Republic_CHR_eryl TGR_Republic_CHR_elta TGR_Republic_CHR_bestia TGR_Republic_CHR_rasha TGR_Republic_CHR_matri TGR_Republic_CHR_shara TGR_Republic_CHR_silaras TGR_Republic_CHR_zalin TGR_Republic_CHR_beylyssa TGR_Republic_CHR_biabru TGR_Republic_CHR_bialy TGR_Republic_CHR_jonava TGR_Republic_CHR_biller TGR_Republic_CHR_binalu TGR_Republic_CHR_jaleela TGR_Republic_CHR_bini TGR_Republic_CHR_jantaa TGR_Republic_CHR_bixene TGR_Republic_CHR_blessing TGR_Republic_CHR_sadiki TGR_Republic_CHR_ana TGR_Republic_CHR_fiorah TGR_Republic_CHR_haisha TGR_Republic_CHR_evie TGR_Republic_CHR_boble TGR_Republic_CHR_bodhi TGR_Republic_CHR_boibole TGR_Republic_CHR_bolban TGR_Republic_CHR_dorovio TGR_Republic_CHR_nella TGR_Republic_CHR_fira TGR_Republic_CHR_erinn TGR_Republic_CHR_kell TGR_Republic_CHR_cretia TGR_Republic_CHR_ro_san TGR_Republic_CHR_z_meer TGR_Republic_CHR_sunny TGR_Republic_CHR_bradan TGR_Republic_CHR_braganta TGR_Republic_CHR_zayl TGR_Republic_CHR_brand TGR_Republic_CHR_brandeh TGR_Republic_CHR_hela TGR_Republic_CHR_hera TGR_Republic_CHR_zai TGR_Republic_CHR_lees TGR_Republic_CHR_bree TGR_Republic_CHR_bana TGR_Republic_CHR_sharack TGR_Republic_CHR_breha TGR_Republic_CHR_j_pai TGR_Republic_CHR_ismar TGR_Republic_CHR_brenna TGR_Republic_CHR_vessa TGR_Republic_CHR_brezwalt TGR_Republic_CHR_brianna TGR_Republic_CHR_mira TGR_Republic_CHR_briila TGR_Republic_CHR_brin TGR_Republic_CHR_cala TGR_Republic_CHR_lillea TGR_Republic_CHR_timma TGR_Republic_CHR_lanoree TGR_Republic_CHR_brontes TGR_Republic_CHR_nore TGR_Republic_CHR_brukarra TGR_Republic_CHR_brukes TGR_Republic_CHR_brunar TGR_Republic_CHR_dama TGR_Republic_CHR_harriet TGR_Republic_CHR_brusela TGR_Republic_CHR_brynn TGR_Republic_CHR_hella TGR_Republic_CHR_pari TGR_Republic_CHR_tama TGR_Republic_CHR_rallcema TGR_Republic_CHR_dana TGR_Republic_CHR_cai TGR_Republic_CHR_caille TGR_Republic_CHR_calagott TGR_Republic_CHR_annora TGR_Republic_CHR_arkadia TGR_Republic_CHR_vilia TGR_Republic_CHR_morrigan TGR_Republic_CHR_callandri TGR_Republic_CHR_calle TGR_Republic_CHR_tendra TGR_Republic_CHR_calvaria TGR_Republic_CHR_annileen TGR_Republic_CHR_kallie TGR_Republic_CHR_cana TGR_Republic_CHR_canduri TGR_Republic_CHR_aeona TGR_Republic_CHR_thera TGR_Republic_CHR_gaeriel TGR_Republic_CHR_marga TGR_Republic_CHR_tiree TGR_Republic_CHR_ylanda TGR_Republic_CHR_cara TGR_Republic_CHR_carbinol TGR_Republic_CHR_cardya TGR_Republic_CHR_careese TGR_Republic_CHR_leanna TGR_Republic_CHR_carilla TGR_Republic_CHR_coli TGR_Republic_CHR_melina TGR_Republic_CHR_caroline TGR_Republic_CHR_reiva TGR_Republic_CHR_kira TGR_Republic_CHR_matilda TGR_Republic_CHR_casey TGR_Republic_CHR_mandora TGR_Republic_CHR_catrinna TGR_Republic_CHR_kay TGR_Republic_CHR_telsij TGR_Republic_CHR_ceecee TGR_Republic_CHR_cel TGR_Republic_CHR_mia TGR_Republic_CHR_winter TGR_Republic_CHR_celestra TGR_Republic_CHR_jynne TGR_Republic_CHR_alysun TGR_Republic_CHR_jovive TGR_Republic_CHR_melo TGR_Republic_CHR_cerasi TGR_Republic_CHR_lowle TGR_Republic_CHR_chanath TGR_Republic_CHR_chai TGR_Republic_CHR_everi TGR_Republic_CHR_travia TGR_Republic_CHR_ember TGR_Republic_CHR_javul TGR_Republic_CHR_neiya TGR_Republic_CHR_chenna TGR_Republic_CHR_viera TGR_Republic_CHR_olana TGR_Republic_CHR_chokla TGR_Republic_CHR_avenledina TGR_Republic_CHR_christina TGR_Republic_CHR_christya TGR_Republic_CHR_kimmi TGR_Republic_CHR_tian TGR_Republic_CHR_taryn TGR_Republic_CHR_ria TGR_Republic_CHR_clarrisa TGR_Republic_CHR_clat TGR_Republic_CHR_cligot TGR_Republic_CHR_flaenella TGR_Republic_CHR_zahara TGR_Republic_CHR_litassa TGR_Republic_CHR_amber TGR_Republic_CHR_kaydel TGR_Republic_CHR_sarita TGR_Republic_CHR_cora TGR_Republic_CHR_coralya TGR_Republic_CHR_coratanni TGR_Republic_CHR_sabel TGR_Republic_CHR_hella TGR_Republic_CHR_cord_ TGR_Republic_CHR_swilla TGR_Republic_CHR_lana TGR_Republic_CHR_vella TGR_Republic_CHR_chay TGR_Republic_CHR_corwell TGR_Republic_CHR_muriel TGR_Republic_CHR_couli TGR_Republic_CHR_dena TGR_Republic_CHR_josta TGR_Republic_CHR_laiurea TGR_Republic_CHR_abagga TGR_Republic_CHR_viera TGR_Republic_CHR_andra TGR_Republic_CHR_jens TGR_Republic_CHR_crowal TGR_Republic_CHR_crowley TGR_Republic_CHR_jeela TGR_Republic_CHR_dine_ TGR_Republic_CHR_lyra TGR_Republic_CHR_jyn TGR_Republic_CHR_edrii TGR_Republic_CHR_eelysa TGR_Republic_CHR_egan TGR_Republic_CHR_egara TGR_Republic_CHR_errine TGR_Republic_CHR_esala TGR_Republic_CHR_esmelle TGR_Republic_CHR_ensa TGR_Republic_CHR_erils TGR_Republic_CHR_eritha TGR_Republic_CHR_erkens TGR_Republic_CHR_erra TGR_Republic_CHR_halla TGR_Republic_CHR_ettyk TGR_Republic_CHR_eyleen TGR_Republic_CHR_ezeraline TGR_Republic_CHR_elenzia TGR_Republic_CHR_elicia TGR_Republic_CHR_elinda TGR_Republic_CHR_eliya TGR_Republic_CHR_eirta_ TGR_Republic_CHR_elaiza TGR_Republic_CHR_elora TGR_Republic_CHR_elspeth TGR_Republic_CHR_ellik TGR_Republic_CHR_ellis TGR_Republic_CHR_ell_ TGR_Republic_CHR_essenton TGR_Republic_CHR_estoc TGR_Republic_CHR_anora TGR_Republic_CHR_fatil TGR_Republic_CHR_faylin TGR_Republic_CHR_chenna TGR_Republic_CHR_fala TGR_Republic_CHR_falkun TGR_Republic_CHR_faylin TGR_Republic_CHR_feinu TGR_Republic_CHR_feleema TGR_Republic_CHR_felicia TGR_Republic_CHR_fellion TGR_Republic_CHR_femon TGR_Republic_CHR_fereden TGR_Republic_CHR_feresyl TGR_Republic_CHR_ferreges TGR_Republic_CHR_ferrel TGR_Republic_CHR_fessi TGR_Republic_CHR_feyenn TGR_Republic_CHR_fia TGR_Republic_CHR_first TGR_Republic_CHR_flangolial TGR_Republic_CHR_fionna TGR_Republic_CHR_flensia TGR_Republic_CHR_floria TGR_Republic_CHR_folaris TGR_Republic_CHR_forta TGR_Republic_CHR_fovish TGR_Republic_CHR_frayne
+			}
+			second_names = {
+				TGR_Republic_CHR_a_shera TGR_Republic_CHR_amidala TGR_Republic_CHR_aabe TGR_Republic_CHR_abias TGR_Republic_CHR_ac_yandar TGR_Republic_CHR_accu TGR_Republic_CHR_acib TGR_Republic_CHR_acoi TGR_Republic_CHR_acton TGR_Republic_CHR_adala TGR_Republic_CHR_adannon TGR_Republic_CHR_adare TGR_Republic_CHR_addar TGR_Republic_CHR_afit TGR_Republic_CHR_afyon TGR_Republic_CHR_agolerga TGR_Republic_CHR_agri TGR_Republic_CHR_ahid TGR_Republic_CHR_ahkoeri TGR_Republic_CHR_ahot TGR_Republic_CHR_ahuff TGR_Republic_CHR_akura TGR_Republic_CHR_alair TGR_Republic_CHR_alamant TGR_Republic_CHR_alaras TGR_Republic_CHR_amithest TGR_Republic_CHR_antana TGR_Republic_CHR_alburass TGR_Republic_CHR_alde TGR_Republic_CHR_alder TGR_Republic_CHR_aldine TGR_Republic_CHR_aldrete TGR_Republic_CHR_algwinn TGR_Republic_CHR_allashane TGR_Republic_CHR_allusis TGR_Republic_CHR_aloo TGR_Republic_CHR_altax TGR_Republic_CHR_altis TGR_Republic_CHR_alto TGR_Republic_CHR_alvar TGR_Republic_CHR_alvic TGR_Republic_CHR_anamor TGR_Republic_CHR_ancum TGR_Republic_CHR_andal TGR_Republic_CHR_anderlock TGR_Republic_CHR_andor TGR_Republic_CHR_andrell TGR_Republic_CHR_andromias TGR_Republic_CHR_anec TGR_Republic_CHR_ange TGR_Republic_CHR_annix TGR_Republic_CHR_annon TGR_Republic_CHR_antab TGR_Republic_CHR_antilles TGR_Republic_CHR_antin TGR_Republic_CHR_antyll TGR_Republic_CHR_anyell TGR_Republic_CHR_apice TGR_Republic_CHR_apla TGR_Republic_CHR_apma TGR_Republic_CHR_aramatha TGR_Republic_CHR_arandis TGR_Republic_CHR_archan TGR_Republic_CHR_ardine TGR_Republic_CHR_arelis TGR_Republic_CHR_aresko TGR_Republic_CHR_argdran TGR_Republic_CHR_argen TGR_Republic_CHR_argo TGR_Republic_CHR_argus TGR_Republic_CHR_argyus TGR_Republic_CHR_arin TGR_Republic_CHR_arisster TGR_Republic_CHR_arkos TGR_Republic_CHR_armin TGR_Republic_CHR_arnae TGR_Republic_CHR_arned TGR_Republic_CHR_arnjak TGR_Republic_CHR_arpor TGR_Republic_CHR_arr TGR_Republic_CHR_arranda TGR_Republic_CHR_arrant TGR_Republic_CHR_arrison TGR_Republic_CHR_aryon TGR_Republic_CHR_arzal TGR_Republic_CHR_asani TGR_Republic_CHR_asch TGR_Republic_CHR_ashandrik TGR_Republic_CHR_ashar TGR_Republic_CHR_ashen TGR_Republic_CHR_assam TGR_Republic_CHR_atma TGR_Republic_CHR_ato TGR_Republic_CHR_atrus TGR_Republic_CHR_attal TGR_Republic_CHR_auchs TGR_Republic_CHR_auglu TGR_Republic_CHR_autem TGR_Republic_CHR_avesta TGR_Republic_CHR_avoa TGR_Republic_CHR_awson TGR_Republic_CHR_ayl TGR_Republic_CHR_ayrvn TGR_Republic_CHR_azadi TGR_Republic_CHR_azzameen TGR_Republic_CHR_azur_jamin TGR_Republic_CHR_b_risko TGR_Republic_CHR_ba_al TGR_Republic_CHR_bagwa TGR_Republic_CHR_bach TGR_Republic_CHR_bada TGR_Republic_CHR_baddeg TGR_Republic_CHR_badeleg TGR_Republic_CHR_badra TGR_Republic_CHR_badure TGR_Republic_CHR_baem TGR_Republic_CHR_bakarn TGR_Republic_CHR_bakash TGR_Republic_CHR_baker TGR_Republic_CHR_bakvalen TGR_Republic_CHR_balfed TGR_Republic_CHR_balfour TGR_Republic_CHR_baliss TGR_Republic_CHR_balkar TGR_Republic_CHR_ballow_reese TGR_Republic_CHR_balor TGR_Republic_CHR_balrekk TGR_Republic_CHR_balu TGR_Republic_CHR_banai TGR_Republic_CHR_bandeam TGR_Republic_CHR_bane TGR_Republic_CHR_banjeer TGR_Republic_CHR_bann TGR_Republic_CHR_bannik TGR_Republic_CHR_bannon TGR_Republic_CHR_banolt TGR_Republic_CHR_banos TGR_Republic_CHR_banto TGR_Republic_CHR_baobab TGR_Republic_CHR_baran TGR_Republic_CHR_barani TGR_Republic_CHR_barayel TGR_Republic_CHR_barc TGR_Republic_CHR_bardrin TGR_Republic_CHR_barezz TGR_Republic_CHR_barje TGR_Republic_CHR_berenko TGR_Republic_CHR_baron TGR_Republic_CHR_barrek TGR_Republic_CHR_barrezz TGR_Republic_CHR_barrows TGR_Republic_CHR_barris TGR_Republic_CHR_barron TGR_Republic_CHR_bartmoss TGR_Republic_CHR_barzon TGR_Republic_CHR_basdor TGR_Republic_CHR_baskalar TGR_Republic_CHR_bast TGR_Republic_CHR_basteren TGR_Republic_CHR_bastion TGR_Republic_CHR_bastra TGR_Republic_CHR_bata TGR_Republic_CHR_batch TGR_Republic_CHR_batross TGR_Republic_CHR_batta TGR_Republic_CHR_bayts TGR_Republic_CHR_bean TGR_Republic_CHR_bebo TGR_Republic_CHR_beech TGR_Republic_CHR_beelyard TGR_Republic_CHR_beentilles TGR_Republic_CHR_bek TGR_Republic_CHR_bel TGR_Republic_CHR_belar TGR_Republic_CHR_belden TGR_Republic_CHR_belissa TGR_Republic_CHR_belladar TGR_Republic_CHR_bellsfar TGR_Republic_CHR_bemming TGR_Republic_CHR_ben TGR_Republic_CHR_bendak TGR_Republic_CHR_bender TGR_Republic_CHR_bendick TGR_Republic_CHR_beni TGR_Republic_CHR_benlip TGR_Republic_CHR_bennis TGR_Republic_CHR_bentado TGR_Republic_CHR_bensen TGR_Republic_CHR_benu TGR_Republic_CHR_berek TGR_Republic_CHR_berge TGR_Republic_CHR_berkona TGR_Republic_CHR_berra TGR_Republic_CHR_beruss TGR_Republic_CHR_besk TGR_Republic_CHR_bey TGR_Republic_CHR_bibble TGR_Republic_CHR_biktor TGR_Republic_CHR_bindari TGR_Republic_CHR_bish TGR_Republic_CHR_bjalin TGR_Republic_CHR_blackgate TGR_Republic_CHR_blaesus TGR_Republic_CHR_blake TGR_Republic_CHR_blaze TGR_Republic_CHR_blendin TGR_Republic_CHR_blim TGR_Republic_CHR_blissex TGR_Republic_CHR_blohk TGR_Republic_CHR_blood TGR_Republic_CHR_bloomi TGR_Republic_CHR_bludder TGR_Republic_CHR_blys TGR_Republic_CHR_boddipy TGR_Republic_CHR_bodhrik TGR_Republic_CHR_bogan TGR_Republic_CHR_bola TGR_Republic_CHR_bombaasa TGR_Republic_CHR_bondog TGR_Republic_CHR_bonteri TGR_Republic_CHR_bordo TGR_Republic_CHR_borgin TGR_Republic_CHR_bourne TGR_Republic_CHR_bragg TGR_Republic_CHR_brand TGR_Republic_CHR_branon TGR_Republic_CHR_brasli TGR_Republic_CHR_brathis TGR_Republic_CHR_brazee TGR_Republic_CHR_breen TGR_Republic_CHR_brell TGR_Republic_CHR_bren TGR_Republic_CHR_brentioch TGR_Republic_CHR_bridger TGR_Republic_CHR_brigger TGR_Republic_CHR_brightwater TGR_Republic_CHR_brill TGR_Republic_CHR_briqualon TGR_Republic_CHR_brunou TGR_Republic_CHR_brya TGR_Republic_CHR_buc TGR_Republic_CHR_budz TGR_Republic_CHR_buir TGR_Republic_CHR_bullwin TGR_Republic_CHR_burkan TGR_Republic_CHR_bunyea TGR_Republic_CHR_burba TGR_Republic_CHR_burb TGR_Republic_CHR_burku TGR_Republic_CHR_byrne TGR_Republic_CHR_c_baoth TGR_Republic_CHR_cadaman TGR_Republic_CHR_cadera TGR_Republic_CHR_cadix TGR_Republic_CHR_cadmir TGR_Republic_CHR_cadoruso TGR_Republic_CHR_caedus TGR_Republic_CHR_caglio TGR_Republic_CHR_cairnwick TGR_Republic_CHR_calder TGR_Republic_CHR_calhuu TGR_Republic_CHR_callat TGR_Republic_CHR_callum TGR_Republic_CHR_calrissian TGR_Republic_CHR_carid TGR_Republic_CHR_carivus TGR_Republic_CHR_capra TGR_Republic_CHR_carolinden TGR_Republic_CHR_caros TGR_Republic_CHR_carper TGR_Republic_CHR_carplin TGR_Republic_CHR_carr TGR_Republic_CHR_carrick TGR_Republic_CHR_carsan TGR_Republic_CHR_carsiri TGR_Republic_CHR_carter TGR_Republic_CHR_carteri TGR_Republic_CHR_cartha TGR_Republic_CHR_cartroll TGR_Republic_CHR_carvin TGR_Republic_CHR_carzyn TGR_Republic_CHR_caslo TGR_Republic_CHR_casrich TGR_Republic_CHR_cass TGR_Republic_CHR_cassian TGR_Republic_CHR_cassel TGR_Republic_CHR_cassius TGR_Republic_CHR_casterfo TGR_Republic_CHR_caveel TGR_Republic_CHR_chistor TGR_Republic_CHR_cavv TGR_Republic_CHR_cedrax TGR_Republic_CHR_celaar TGR_Republic_CHR_celchu TGR_Republic_CHR_celchu TGR_Republic_CHR_cerulian TGR_Republic_CHR_chagras TGR_Republic_CHR_chalco TGR_Republic_CHR_chalk TGR_Republic_CHR_chan TGR_Republic_CHR_chance TGR_Republic_CHR_charkron TGR_Republic_CHR_charu TGR_Republic_CHR_chasdy TGR_Republic_CHR_chase TGR_Republic_CHR_chasser TGR_Republic_CHR_chassu TGR_Republic_CHR_cheems TGR_Republic_CHR_cheever TGR_Republic_CHR_chiffonage TGR_Republic_CHR_chizzik TGR_Republic_CHR_chlorus TGR_Republic_CHR_cho TGR_Republic_CHR_choard TGR_Republic_CHR_choard TGR_Republic_CHR_choid TGR_Republic_CHR_cholus TGR_Republic_CHR_chrin TGR_Republic_CHR_chronelle TGR_Republic_CHR_chull TGR_Republic_CHR_chumu TGR_Republic_CHR_chun TGR_Republic_CHR_cibinel TGR_Republic_CHR_cikartan TGR_Republic_CHR_cineratus TGR_Republic_CHR_cipher TGR_Republic_CHR_ciro TGR_Republic_CHR_cirrilla TGR_Republic_CHR_clafdatha TGR_Republic_CHR_claine TGR_Republic_CHR_clamont TGR_Republic_CHR_clancy TGR_Republic_CHR_classet TGR_Republic_CHR_clathor TGR_Republic_CHR_clatto TGR_Republic_CHR_cleben TGR_Republic_CHR_clem TGR_Republic_CHR_clenna TGR_Republic_CHR_cleroff TGR_Republic_CHR_cley TGR_Republic_CHR_clines TGR_Republic_CHR_cohn TGR_Republic_CHR_cojahn TGR_Republic_CHR_colclazure TGR_Republic_CHR_colf TGR_Republic_CHR_colgter TGR_Republic_CHR_condi TGR_Republic_CHR_conjob TGR_Republic_CHR_conlath TGR_Republic_CHR_conro TGR_Republic_CHR_contispex TGR_Republic_CHR_contopault TGR_Republic_CHR_convarion TGR_Republic_CHR_convorr TGR_Republic_CHR_coops TGR_Republic_CHR_coptszt TGR_Republic_CHR_cor TGR_Republic_CHR_corazon TGR_Republic_CHR_corconnan TGR_Republic_CHR_cordan TGR_Republic_CHR_corek TGR_Republic_CHR_cories TGR_Republic_CHR_cormac TGR_Republic_CHR_cormin TGR_Republic_CHR_courser TGR_Republic_CHR_covell TGR_Republic_CHR_coven TGR_Republic_CHR_covington TGR_Republic_CHR_coviscowall TGR_Republic_CHR_creip TGR_Republic_CHR_crel TGR_Republic_CHR_crell TGR_Republic_CHR_crespin TGR_Republic_CHR_cros TGR_Republic_CHR_cross TGR_Republic_CHR_crowe TGR_Republic_CHR_crynyd TGR_Republic_CHR_croft TGR_Republic_CHR_croix TGR_Republic_CHR_d_asta TGR_Republic_CHR_d_baelor TGR_Republic_CHR_d_jek TGR_Republic_CHR_d_lund TGR_Republic_CHR_dabrini TGR_Republic_CHR_dacholder TGR_Republic_CHR_dack TGR_Republic_CHR_dackett TGR_Republic_CHR_dadar TGR_Republic_CHR_dade TGR_Republic_CHR_dadeferron TGR_Republic_CHR_dain TGR_Republic_CHR_daine TGR_Republic_CHR_dak_win TGR_Republic_CHR_dak TGR_Republic_CHR_dal_nay TGR_Republic_CHR_dala TGR_Republic_CHR_dalhney TGR_Republic_CHR_dallin TGR_Republic_CHR_dallory TGR_Republic_CHR_dallows TGR_Republic_CHR_dambrizi TGR_Republic_CHR_dameerd TGR_Republic_CHR_damlo TGR_Republic_CHR_dance TGR_Republic_CHR_dandu TGR_Republic_CHR_dane TGR_Republic_CHR_danenberger TGR_Republic_CHR_danga TGR_Republic_CHR_danglot TGR_Republic_CHR_dangor TGR_Republic_CHR_danid TGR_Republic_CHR_danl_ TGR_Republic_CHR_drugah TGR_Republic_CHR_dann TGR_Republic_CHR_dannt TGR_Republic_CHR_danson TGR_Republic_CHR_danta TGR_Republic_CHR_danthe TGR_Republic_CHR_danu TGR_Republic_CHR_danurs TGR_Republic_CHR_danva TGR_Republic_CHR_daraada TGR_Republic_CHR_daragon TGR_Republic_CHR_daral TGR_Republic_CHR_darb TGR_Republic_CHR_darba TGR_Republic_CHR_darcc TGR_Republic_CHR_darillian TGR_Republic_CHR_darklighter TGR_Republic_CHR_dart_ TGR_Republic_CHR_dashit TGR_Republic_CHR_dasol TGR_Republic_CHR_dastt TGR_Republic_CHR_datch TGR_Republic_CHR_davan TGR_Republic_CHR_davin TGR_Republic_CHR_davip TGR_Republic_CHR_dendup TGR_Republic_CHR_debell TGR_Republic_CHR_decar TGR_Republic_CHR_decimus TGR_Republic_CHR_declann TGR_Republic_CHR_decree TGR_Republic_CHR_dedge TGR_Republic_CHR_dekker TGR_Republic_CHR_dekven TGR_Republic_CHR_delahrg TGR_Republic_CHR_delan TGR_Republic_CHR_delckis TGR_Republic_CHR_deld TGR_Republic_CHR_deljeevo TGR_Republic_CHR_delk TGR_Republic_CHR_delvardus TGR_Republic_CHR_delvaren TGR_Republic_CHR_demain TGR_Republic_CHR_demaratus TGR_Republic_CHR_demior TGR_Republic_CHR_demosal TGR_Republic_CHR_denzmorren TGR_Republic_CHR_dep TGR_Republic_CHR_derlin TGR_Republic_CHR_derlynn TGR_Republic_CHR_desh TGR_Republic_CHR_desnand TGR_Republic_CHR_dessain TGR_Republic_CHR_detta TGR_Republic_CHR_detton TGR_Republic_CHR_dev TGR_Republic_CHR_devane TGR_Republic_CHR_devian TGR_Republic_CHR_devis TGR_Republic_CHR_devo TGR_Republic_CHR_dewes TGR_Republic_CHR_dewiller TGR_Republic_CHR_dewitt TGR_Republic_CHR_dheas TGR_Republic_CHR_dhil TGR_Republic_CHR_di TGR_Republic_CHR_diath TGR_Republic_CHR_dicium TGR_Republic_CHR_dienbel TGR_Republic_CHR_dil TGR_Republic_CHR_dillems TGR_Republic_CHR_dilorr TGR_Republic_CHR_dilsn TGR_Republic_CHR_din TGR_Republic_CHR_dinard TGR_Republic_CHR_dionisio TGR_Republic_CHR_disra TGR_Republic_CHR_divini TGR_Republic_CHR_divinian TGR_Republic_CHR_divo TGR_Republic_CHR_dix TGR_Republic_CHR_diyaz TGR_Republic_CHR_djambo TGR_Republic_CHR_djo TGR_Republic_CHR_dlarit TGR_Republic_CHR_dlunar TGR_Republic_CHR_doaba TGR_Republic_CHR_doan TGR_Republic_CHR_dodonna TGR_Republic_CHR_dogot TGR_Republic_CHR_doil TGR_Republic_CHR_dokrett TGR_Republic_CHR_dolor TGR_Republic_CHR_dolphe TGR_Republic_CHR_doluff TGR_Republic_CHR_dolv TGR_Republic_CHR_dom TGR_Republic_CHR_domeet TGR_Republic_CHR_domi TGR_Republic_CHR_domo TGR_Republic_CHR_donar TGR_Republic_CHR_dondarvan TGR_Republic_CHR_donell TGR_Republic_CHR_donn TGR_Republic_CHR_donos TGR_Republic_CHR_dooku TGR_Republic_CHR_d_oon TGR_Republic_CHR_doore TGR_Republic_CHR_doorn TGR_Republic_CHR_doran TGR_Republic_CHR_dorant TGR_Republic_CHR_dorat TGR_Republic_CHR_doru TGR_Republic_CHR_doruggan TGR_Republic_CHR_dorvan TGR_Republic_CHR_dos TGR_Republic_CHR_doshun TGR_Republic_CHR_doss TGR_Republic_CHR_dostryt TGR_Republic_CHR_dovaro TGR_Republic_CHR_dovlis TGR_Republic_CHR_dovu TGR_Republic_CHR_drallig TGR_Republic_CHR_drass TGR_Republic_CHR_draven TGR_Republic_CHR_draver TGR_Republic_CHR_dray TGR_Republic_CHR_drei TGR_Republic_CHR_dreleene TGR_Republic_CHR_drell TGR_Republic_CHR_drellik TGR_Republic_CHR_drobo TGR_Republic_CHR_droga TGR_Republic_CHR_dromath TGR_Republic_CHR_drommel TGR_Republic_CHR_droo TGR_Republic_CHR_droon TGR_Republic_CHR_drop TGR_Republic_CHR_drost TGR_Republic_CHR_dubrok TGR_Republic_CHR_ducela TGR_Republic_CHR_duel TGR_Republic_CHR_dugge TGR_Republic_CHR_dumat TGR_Republic_CHR_dumont TGR_Republic_CHR_duna TGR_Republic_CHR_dunell TGR_Republic_CHR_dunerz TGR_Republic_CHR_dunn TGR_Republic_CHR_dunoche TGR_Republic_CHR_dunrik TGR_Republic_CHR_dunwell TGR_Republic_CHR_duo TGR_Republic_CHR_durasha TGR_Republic_CHR_durgo TGR_Republic_CHR_durron TGR_Republic_CHR_durs TGR_Republic_CHR_durshana TGR_Republic_CHR_dusat TGR_Republic_CHR_dustrunner TGR_Republic_CHR_dyer TGR_Republic_CHR_dyre TGR_Republic_CHR_dyrla TGR_Republic_CHR_dyrra TGR_Republic_CHR_dysen TGR_Republic_CHR_dyshkava TGR_Republic_CHR_billaba TGR_Republic_CHR_calwell TGR_Republic_CHR_e_ron TGR_Republic_CHR_e_elz TGR_Republic_CHR_eadon TGR_Republic_CHR_eckels TGR_Republic_CHR_eckener TGR_Republic_CHR_edaine TGR_Republic_CHR_edalm TGR_Republic_CHR_eddawan TGR_Republic_CHR_eddis TGR_Republic_CHR_edisser TGR_Republic_CHR_edu TGR_Republic_CHR_eeth TGR_Republic_CHR_efran TGR_Republic_CHR_elban TGR_Republic_CHR_eldon TGR_Republic_CHR_elegin TGR_Republic_CHR_elfwannabe TGR_Republic_CHR_elgin TGR_Republic_CHR_elgrin TGR_Republic_CHR_ell TGR_Republic_CHR_ellon TGR_Republic_CHR_elsin TGR_Republic_CHR_elysar TGR_Republic_CHR_elzif TGR_Republic_CHR_ematt TGR_Republic_CHR_emmert TGR_Republic_CHR_en TGR_Republic_CHR_enasteri TGR_Republic_CHR_endac TGR_Republic_CHR_enkhet TGR_Republic_CHR_enraj TGR_Republic_CHR_ensh TGR_Republic_CHR_erlskel TGR_Republic_CHR_ern TGR_Republic_CHR_erne TGR_Republic_CHR_erso TGR_Republic_CHR_ervekk TGR_Republic_CHR_ervic TGR_Republic_CHR_esan TGR_Republic_CHR_escalus TGR_Republic_CHR_eso TGR_Republic_CHR_estillo TGR_Republic_CHR_evazan TGR_Republic_CHR_fardi TGR_Republic_CHR_fair TGR_Republic_CHR_ebonette TGR_Republic_CHR_eckener TGR_Republic_CHR_eclipse TGR_Republic_CHR_eddawan TGR_Republic_CHR_edivon TGR_Republic_CHR_edosun_ TGR_Republic_CHR_egast TGR_Republic_CHR_ele TGR_Republic_CHR_ellberger TGR_Republic_CHR_elna TGR_Republic_CHR_empor TGR_Republic_CHR_enasteri TGR_Republic_CHR_f_tuhns TGR_Republic_CHR_faal TGR_Republic_CHR_fahm TGR_Republic_CHR_fain TGR_Republic_CHR_fain TGR_Republic_CHR_fal TGR_Republic_CHR_falcone TGR_Republic_CHR_falconi TGR_Republic_CHR_falcris TGR_Republic_CHR_faldrin TGR_Republic_CHR_falken TGR_Republic_CHR_fallon TGR_Republic_CHR_fallon TGR_Republic_CHR_falt TGR_Republic_CHR_fanaso TGR_Republic_CHR_fandi TGR_Republic_CHR_fane TGR_Republic_CHR_fardreamer TGR_Republic_CHR_farege TGR_Republic_CHR_fargil TGR_Republic_CHR_farkus TGR_Republic_CHR_farlander TGR_Republic_CHR_farles TGR_Republic_CHR_farls TGR_Republic_CHR_farool TGR_Republic_CHR_farrell TGR_Republic_CHR_farrell TGR_Republic_CHR_farseeker TGR_Republic_CHR_fasalk TGR_Republic_CHR_fassoola TGR_Republic_CHR_fateau TGR_Republic_CHR_faunor TGR_Republic_CHR_faytonni TGR_Republic_CHR_feal TGR_Republic_CHR_feb TGR_Republic_CHR_feelu TGR_Republic_CHR_feem TGR_Republic_CHR_fegel TGR_Republic_CHR_fel_kona TGR_Republic_CHR_fel TGR_Republic_CHR_felan TGR_Republic_CHR_felens TGR_Republic_CHR_felix TGR_Republic_CHR_felyood TGR_Republic_CHR_femi TGR_Republic_CHR_fenic TGR_Republic_CHR_fenimer TGR_Republic_CHR_fernandin TGR_Republic_CHR_ferthyn TGR_Republic_CHR_feswin TGR_Republic_CHR_fett TGR_Republic_CHR_fhernan TGR_Republic_CHR_fhurek TGR_Republic_CHR_figg TGR_Republic_CHR_farrell TGR_Republic_CHR_ablund TGR_Republic_CHR_faytonni TGR_Republic_CHR_fahm TGR_Republic_CHR_temmt TGR_Republic_CHR_fhurek TGR_Republic_CHR_frix TGR_Republic_CHR_faenel TGR_Republic_CHR_fahrs TGR_Republic_CHR_fain TGR_Republic_CHR_fair TGR_Republic_CHR_fallatte TGR_Republic_CHR_falon TGR_Republic_CHR_farlion TGR_Republic_CHR_farls TGR_Republic_CHR_farnmir TGR_Republic_CHR_farr TGR_Republic_CHR_fasser TGR_Republic_CHR_faughn TGR_Republic_CHR_fawn TGR_Republic_CHR_fax TGR_Republic_CHR_fek_ra TGR_Republic_CHR_felswoop TGR_Republic_CHR_felth TGR_Republic_CHR_fharn TGR_Republic_CHR_fhernan TGR_Republic_CHR_folee TGR_Republic_CHR_for_deschel TGR_Republic_CHR_foravis TGR_Republic_CHR_foreck TGR_Republic_CHR_forge TGR_Republic_CHR_fori TGR_Republic_CHR_forno TGR_Republic_CHR_foxtrain TGR_Republic_CHR_fraabaal TGR_Republic_CHR_fray
+			}
+			regnal_first_names_male = {
+				TGR_Republic_CHR_ablund TGR_Republic_CHR_aach TGR_Republic_CHR_aagon TGR_Republic_CHR_aalto TGR_Republic_CHR_aambler TGR_Republic_CHR_abadaner TGR_Republic_CHR_aban TGR_Republic_CHR_abbus_kelo TGR_Republic_CHR_acan TGR_Republic_CHR_ace TGR_Republic_CHR_adame TGR_Republic_CHR_adar TGR_Republic_CHR_arvel TGR_Republic_CHR_addi_shon TGR_Republic_CHR_addle TGR_Republic_CHR_adelhard TGR_Republic_CHR_aden TGR_Republic_CHR_adon_larr TGR_Republic_CHR_adraas TGR_Republic_CHR_adrenas TGR_Republic_CHR_adrick TGR_Republic_CHR_adun TGR_Republic_CHR_aeron TGR_Republic_CHR_agareth TGR_Republic_CHR_aggadeen TGR_Republic_CHR_alric TGR_Republic_CHR_airten TGR_Republic_CHR_agrippa TGR_Republic_CHR_ajaan TGR_Republic_CHR_ajolin TGR_Republic_CHR_akaste_vel TGR_Republic_CHR_akobi TGR_Republic_CHR_alain TGR_Republic_CHR_alaric TGR_Republic_CHR_albathius TGR_Republic_CHR_alde TGR_Republic_CHR_alec TGR_Republic_CHR_alekam TGR_Republic_CHR_alethios TGR_Republic_CHR_alger TGR_Republic_CHR_algrunar TGR_Republic_CHR_ali_alann TGR_Republic_CHR_alif TGR_Republic_CHR_alim_gen TGR_Republic_CHR_alin TGR_Republic_CHR_alix TGR_Republic_CHR_alkhara TGR_Republic_CHR_allia TGR_Republic_CHR_almak TGR_Republic_CHR_almec TGR_Republic_CHR_alon TGR_Republic_CHR_alozen TGR_Republic_CHR_alph TGR_Republic_CHR_altaca TGR_Republic_CHR_althon TGR_Republic_CHR_alwynn TGR_Republic_CHR_amberson TGR_Republic_CHR_ament TGR_Republic_CHR_amis TGR_Republic_CHR_ammon TGR_Republic_CHR_amzartho TGR_Republic_CHR_anabar TGR_Republic_CHR_anager TGR_Republic_CHR_anarine TGR_Republic_CHR_anathemos TGR_Republic_CHR_andan TGR_Republic_CHR_anders TGR_Republic_CHR_ando TGR_Republic_CHR_andra TGR_Republic_CHR_andrew TGR_Republic_CHR_andrid TGR_Republic_CHR_andrik TGR_Republic_CHR_andru TGR_Republic_CHR_ar_al TGR_Republic_CHR_angber TGR_Republic_CHR_angral TGR_Republic_CHR_anlen TGR_Republic_CHR_anod TGR_Republic_CHR_anselm TGR_Republic_CHR_anskow TGR_Republic_CHR_anson TGR_Republic_CHR_adem TGR_Republic_CHR_antone TGR_Republic_CHR_antonin TGR_Republic_CHR_anuli TGR_Republic_CHR_appleton TGR_Republic_CHR_arac TGR_Republic_CHR_arakkus TGR_Republic_CHR_aramis TGR_Republic_CHR_arana TGR_Republic_CHR_armen TGR_Republic_CHR_arastide TGR_Republic_CHR_arber TGR_Republic_CHR_arcann TGR_Republic_CHR_ardan TGR_Republic_CHR_ardax TGR_Republic_CHR_ardiff TGR_Republic_CHR_ardle TGR_Republic_CHR_ardmore TGR_Republic_CHR_ardot TGR_Republic_CHR_ardran TGR_Republic_CHR_avinoam TGR_Republic_CHR_ars TGR_Republic_CHR_argona TGR_Republic_CHR_argor TGR_Republic_CHR_argos TGR_Republic_CHR_arias TGR_Republic_CHR_ariavos TGR_Republic_CHR_arigo TGR_Republic_CHR_aris TGR_Republic_CHR_arkan TGR_Republic_CHR_arkeld TGR_Republic_CHR_arl TGR_Republic_CHR_arljack TGR_Republic_CHR_arlo TGR_Republic_CHR_arlos TGR_Republic_CHR_armatan TGR_Republic_CHR_armitage TGR_Republic_CHR_arnama TGR_Republic_CHR_arnet TGR_Republic_CHR_arno TGR_Republic_CHR_arnothian TGR_Republic_CHR_arnth TGR_Republic_CHR_arnus TGR_Republic_CHR_arrad TGR_Republic_CHR_arratan TGR_Republic_CHR_arrax TGR_Republic_CHR_arric TGR_Republic_CHR_artano TGR_Republic_CHR_artok TGR_Republic_CHR_arturo TGR_Republic_CHR_arzanon TGR_Republic_CHR_ash TGR_Republic_CHR_ashaad TGR_Republic_CHR_asirr TGR_Republic_CHR_atali TGR_Republic_CHR_atar TGR_Republic_CHR_atmino TGR_Republic_CHR_atren TGR_Republic_CHR_augatta TGR_Republic_CHR_avan TGR_Republic_CHR_avanj TGR_Republic_CHR_avarik TGR_Republic_CHR_averdon TGR_Republic_CHR_averen TGR_Republic_CHR_averon TGR_Republic_CHR_avers TGR_Republic_CHR_aves TGR_Republic_CHR_aviso TGR_Republic_CHR_avrun TGR_Republic_CHR_azkul TGR_Republic_CHR_azrakel TGR_Republic_CHR_ace TGR_Republic_CHR_b_arin TGR_Republic_CHR_bail TGR_Republic_CHR_beel TGR_Republic_CHR_bix TGR_Republic_CHR_blix TGR_Republic_CHR_boz TGR_Republic_CHR_braedon TGR_Republic_CHR_bryn TGR_Republic_CHR_brixus TGR_Republic_CHR_cal TGR_Republic_CHR_cassian TGR_Republic_CHR_chik TGR_Republic_CHR_cinto TGR_Republic_CHR_cumberlayne TGR_Republic_CHR_darrus TGR_Republic_CHR_djinn TGR_Republic_CHR_druth TGR_Republic_CHR_det TGR_Republic_CHR_ethan TGR_Republic_CHR_galiir TGR_Republic_CHR_gez TGR_Republic_CHR_haemon TGR_Republic_CHR_jae TGR_Republic_CHR_jagged TGR_Republic_CHR_jess TGR_Republic_CHR_jesper TGR_Republic_CHR_jon TGR_Republic_CHR_gathal TGR_Republic_CHR_gideon TGR_Republic_CHR_jefand TGR_Republic_CHR_kel TGR_Republic_CHR_koffi TGR_Republic_CHR_lazlo TGR_Republic_CHR_laetin TGR_Republic_CHR_lesk TGR_Republic_CHR_maxiron TGR_Republic_CHR_neet TGR_Republic_CHR_osak TGR_Republic_CHR_pabel TGR_Republic_CHR_paddy TGR_Republic_CHR_peita TGR_Republic_CHR_peema TGR_Republic_CHR_pellas TGR_Republic_CHR_prewb TGR_Republic_CHR_raymus TGR_Republic_CHR_raar TGR_Republic_CHR_rage TGR_Republic_CHR_rel TGR_Republic_CHR_reez TGR_Republic_CHR_ras TGR_Republic_CHR_rixes TGR_Republic_CHR_ruceba TGR_Republic_CHR_seraph TGR_Republic_CHR_sim TGR_Republic_CHR_sio TGR_Republic_CHR_y_ull TGR_Republic_CHR_tavion TGR_Republic_CHR_tavid TGR_Republic_CHR_tendis TGR_Republic_CHR_tev TGR_Republic_CHR_tiberus TGR_Republic_CHR_toob TGR_Republic_CHR_tor TGR_Republic_CHR_turon TGR_Republic_CHR_villis TGR_Republic_CHR_wain TGR_Republic_CHR_wedge TGR_Republic_CHR_wes TGR_Republic_CHR_zeen TGR_Republic_CHR_baboo TGR_Republic_CHR_bachenkall TGR_Republic_CHR_bafor TGR_Republic_CHR_bagitt TGR_Republic_CHR_bailey TGR_Republic_CHR_bailie TGR_Republic_CHR_bairn TGR_Republic_CHR_bala_tik TGR_Republic_CHR_balankin TGR_Republic_CHR_balaro TGR_Republic_CHR_balcomb TGR_Republic_CHR_baldwin TGR_Republic_CHR_baldy TGR_Republic_CHR_balek TGR_Republic_CHR_balisk TGR_Republic_CHR_balkin TGR_Republic_CHR_balko TGR_Republic_CHR_ballala TGR_Republic_CHR_ballard TGR_Republic_CHR_ballax TGR_Republic_CHR_bendodi TGR_Republic_CHR_balog TGR_Republic_CHR_balto TGR_Republic_CHR_bams TGR_Republic_CHR_bandor TGR_Republic_CHR_boss TGR_Republic_CHR_banley TGR_Republic_CHR_banna TGR_Republic_CHR_bannos TGR_Republic_CHR_bant TGR_Republic_CHR_banz TGR_Republic_CHR_baradis TGR_Republic_CHR_barak TGR_Republic_CHR_baramak TGR_Republic_CHR_barcel TGR_Republic_CHR_bardo TGR_Republic_CHR_barduun TGR_Republic_CHR_barev TGR_Republic_CHR_barich TGR_Republic_CHR_barik TGR_Republic_CHR_barkale TGR_Republic_CHR_barksy TGR_Republic_CHR_barleos TGR_Republic_CHR_barlow TGR_Republic_CHR_barney TGR_Republic_CHR_barnley TGR_Republic_CHR_baro TGR_Republic_CHR_barry TGR_Republic_CHR_barstead TGR_Republic_CHR_bartam TGR_Republic_CHR_barth TGR_Republic_CHR_barthis TGR_Republic_CHR_bas TGR_Republic_CHR_bas_ton TGR_Republic_CHR_bascome TGR_Republic_CHR_basile TGR_Republic_CHR_basso TGR_Republic_CHR_bastian TGR_Republic_CHR_bathens TGR_Republic_CHR_batono TGR_Republic_CHR_bator TGR_Republic_CHR_billal TGR_Republic_CHR_battz TGR_Republic_CHR_baxton TGR_Republic_CHR_baysden TGR_Republic_CHR_baz TGR_Republic_CHR_be TGR_Republic_CHR_beau TGR_Republic_CHR_beckar TGR_Republic_CHR_becker TGR_Republic_CHR_beckman TGR_Republic_CHR_bedareux TGR_Republic_CHR_bedoch TGR_Republic_CHR_beebe TGR_Republic_CHR_beez TGR_Republic_CHR_beldiss TGR_Republic_CHR_belkan TGR_Republic_CHR_beller TGR_Republic_CHR_bellis TGR_Republic_CHR_belos TGR_Republic_CHR_byzal TGR_Republic_CHR_bzorn TGR_Republic_CHR_biggs TGR_Republic_CHR_bels TGR_Republic_CHR_bemos TGR_Republic_CHR_benay TGR_Republic_CHR_benjo TGR_Republic_CHR_benkin TGR_Republic_CHR_benn TGR_Republic_CHR_benni TGR_Republic_CHR_benok TGR_Republic_CHR_benthar TGR_Republic_CHR_benton TGR_Republic_CHR_bentro TGR_Republic_CHR_boar TGR_Republic_CHR_benx TGR_Republic_CHR_bequesh TGR_Republic_CHR_berandis TGR_Republic_CHR_berethon TGR_Republic_CHR_bergan TGR_Republic_CHR_berix TGR_Republic_CHR_bernie TGR_Republic_CHR_bertrum TGR_Republic_CHR_berusal TGR_Republic_CHR_bewil TGR_Republic_CHR_bex TGR_Republic_CHR_billan TGR_Republic_CHR_biril TGR_Republic_CHR_birket TGR_Republic_CHR_birok TGR_Republic_CHR_black TGR_Republic_CHR_blagotine TGR_Republic_CHR_blaide TGR_Republic_CHR_blainekie TGR_Republic_CHR_bledsoe TGR_Republic_CHR_bleeker TGR_Republic_CHR_blleen TGR_Republic_CHR_bloodory TGR_Republic_CHR_bloodworthy TGR_Republic_CHR_blount TGR_Republic_CHR_blyes TGR_Republic_CHR_boakie TGR_Republic_CHR_boaz TGR_Republic_CHR_bob TGR_Republic_CHR_bol TGR_Republic_CHR_bon TGR_Republic_CHR_bonze TGR_Republic_CHR_boonan TGR_Republic_CHR_boran TGR_Republic_CHR_boraso TGR_Republic_CHR_borgin TGR_Republic_CHR_borm TGR_Republic_CHR_bornae TGR_Republic_CHR_bort TGR_Republic_CHR_bortrek TGR_Republic_CHR_boshek TGR_Republic_CHR_bourom TGR_Republic_CHR_bouyard TGR_Republic_CHR_braden TGR_Republic_CHR_brady TGR_Republic_CHR_bragan TGR_Republic_CHR_braynor TGR_Republic_CHR_brayso TGR_Republic_CHR_breckon TGR_Republic_CHR_breehld TGR_Republic_CHR_brinn TGR_Republic_CHR_brinnie TGR_Republic_CHR_brint TGR_Republic_CHR_brinton TGR_Republic_CHR_brogon TGR_Republic_CHR_brohmer TGR_Republic_CHR_brolis TGR_Republic_CHR_broll TGR_Republic_CHR_brom TGR_Republic_CHR_brooser TGR_Republic_CHR_brothic TGR_Republic_CHR_brovto TGR_Republic_CHR_broysc TGR_Republic_CHR_bruan TGR_Republic_CHR_brucce TGR_Republic_CHR_bruckman TGR_Republic_CHR_bryint TGR_Republic_CHR_brylin TGR_Republic_CHR_bry TGR_Republic_CHR_brysonbular TGR_Republic_CHR_bulger TGR_Republic_CHR_bun_delbur TGR_Republic_CHR_burne TGR_Republic_CHR_burque TGR_Republic_CHR_burr TGR_Republic_CHR_bursk TGR_Republic_CHR_bursthed TGR_Republic_CHR_byrga TGR_Republic_CHR_byten TGR_Republic_CHR_trey TGR_Republic_CHR_lando TGR_Republic_CHR_caaldra TGR_Republic_CHR_cabaril TGR_Republic_CHR_cabbel TGR_Republic_CHR_caeleb TGR_Republic_CHR_caerbellak TGR_Republic_CHR_cafian TGR_Republic_CHR_cag TGR_Republic_CHR_cagaran TGR_Republic_CHR_cam TGR_Republic_CHR_camaran TGR_Republic_CHR_camas TGR_Republic_CHR_cardacs TGR_Republic_CHR_cardy TGR_Republic_CHR_careem TGR_Republic_CHR_cargeloch TGR_Republic_CHR_carhart TGR_Republic_CHR_calron TGR_Republic_CHR_calson TGR_Republic_CHR_calum TGR_Republic_CHR_calypho TGR_Republic_CHR_cal TGR_Republic_CHR_caladane TGR_Republic_CHR_calaverous TGR_Republic_CHR_carli TGR_Republic_CHR_carlon TGR_Republic_CHR_carlton TGR_Republic_CHR_carn TGR_Republic_CHR_carner TGR_Republic_CHR_carness TGR_Republic_CHR_carnor TGR_Republic_CHR_carns TGR_Republic_CHR_callef TGR_Republic_CHR_callen TGR_Republic_CHR_callow TGR_Republic_CHR_calders TGR_Republic_CHR_caleb TGR_Republic_CHR_calo TGR_Republic_CHR_calphayus TGR_Republic_CHR_cathers TGR_Republic_CHR_caton TGR_Republic_CHR_cauley TGR_Republic_CHR_cav TGR_Republic_CHR_cav_saran TGR_Republic_CHR_cavin TGR_Republic_CHR_cryle TGR_Republic_CHR_cavwol TGR_Republic_CHR_cawelyn TGR_Republic_CHR_cecius TGR_Republic_CHR_cede TGR_Republic_CHR_cemma TGR_Republic_CHR_ceoloe TGR_Republic_CHR_cerasi TGR_Republic_CHR_cerik TGR_Republic_CHR_charny TGR_Republic_CHR_charol TGR_Republic_CHR_charpp TGR_Republic_CHR_charnoq TGR_Republic_CHR_charnso TGR_Republic_CHR_cestus TGR_Republic_CHR_ch_arb TGR_Republic_CHR_ch_gally TGR_Republic_CHR_ch_lessan TGR_Republic_CHR_cha TGR_Republic_CHR_chael TGR_Republic_CHR_challer TGR_Republic_CHR_chambe TGR_Republic_CHR_crlyn TGR_Republic_CHR_chang TGR_Republic_CHR_chappral TGR_Republic_CHR_chef TGR_Republic_CHR_chentu TGR_Republic_CHR_chell TGR_Republic_CHR_chessiq TGR_Republic_CHR_chet TGR_Republic_CHR_chiann TGR_Republic_CHR_chicora TGR_Republic_CHR_chatty TGR_Republic_CHR_chayloss TGR_Republic_CHR_chedaki TGR_Republic_CHR_chiraneau TGR_Republic_CHR_chiron TGR_Republic_CHR_chorlen TGR_Republic_CHR_chornarov TGR_Republic_CHR_cody TGR_Republic_CHR_clorr TGR_Republic_CHR_clovis TGR_Republic_CHR_clydno TGR_Republic_CHR_clynn TGR_Republic_CHR_cnorec TGR_Republic_CHR_coburn TGR_Republic_CHR_cobus TGR_Republic_CHR_cogon TGR_Republic_CHR_colin TGR_Republic_CHR_collus TGR_Republic_CHR_colsan TGR_Republic_CHR_colten TGR_Republic_CHR_colton TGR_Republic_CHR_combo TGR_Republic_CHR_conar TGR_Republic_CHR_coorta TGR_Republic_CHR_corin TGR_Republic_CHR_coris TGR_Republic_CHR_corlac TGR_Republic_CHR_corso TGR_Republic_CHR_corvan TGR_Republic_CHR_corvin TGR_Republic_CHR_corvis TGR_Republic_CHR_corwin TGR_Republic_CHR_corwyth TGR_Republic_CHR_cote TGR_Republic_CHR_cothron TGR_Republic_CHR_cotin TGR_Republic_CHR_coy TGR_Republic_CHR_cravel TGR_Republic_CHR_cravus TGR_Republic_CHR_creb TGR_Republic_CHR_creeve TGR_Republic_CHR_corlis TGR_Republic_CHR_crest TGR_Republic_CHR_crimpler TGR_Republic_CHR_crimson TGR_Republic_CHR_crin TGR_Republic_CHR_crion TGR_Republic_CHR_criss TGR_Republic_CHR_cristoff TGR_Republic_CHR_crix TGR_Republic_CHR_cronal TGR_Republic_CHR_cronnin TGR_Republic_CHR_cronus TGR_Republic_CHR_d_ashewl TGR_Republic_CHR_d_krn TGR_Republic_CHR_d_lew TGR_Republic_CHR_d_vox TGR_Republic_CHR_d_vrosh TGR_Republic_CHR_daal TGR_Republic_CHR_dado TGR_Republic_CHR_daek TGR_Republic_CHR_dael TGR_Republic_CHR_dahar TGR_Republic_CHR_dahm TGR_Republic_CHR_daiman TGR_Republic_CHR_dainsom TGR_Republic_CHR_daiv TGR_Republic_CHR_dak TGR_Republic_CHR_dakron TGR_Republic_CHR_daksh TGR_Republic_CHR_dalton TGR_Republic_CHR_damarcus TGR_Republic_CHR_damaris TGR_Republic_CHR_damarus TGR_Republic_CHR_dao TGR_Republic_CHR_dapp TGR_Republic_CHR_daquinn TGR_Republic_CHR_dar TGR_Republic_CHR_eesh TGR_Republic_CHR_darda TGR_Republic_CHR_dardan TGR_Republic_CHR_dareb_ TGR_Republic_CHR_dareg TGR_Republic_CHR_darek TGR_Republic_CHR_daren TGR_Republic_CHR_dargus TGR_Republic_CHR_daggath TGR_Republic_CHR_darnov TGR_Republic_CHR_daro TGR_Republic_CHR_darok TGR_Republic_CHR_darone TGR_Republic_CHR_darr TGR_Republic_CHR_darrik TGR_Republic_CHR_darrok TGR_Republic_CHR_darrst TGR_Republic_CHR_darsin TGR_Republic_CHR_darthyn TGR_Republic_CHR_daruula TGR_Republic_CHR_dash TGR_Republic_CHR_datoo TGR_Republic_CHR_dauren TGR_Republic_CHR_davis TGR_Republic_CHR_davon TGR_Republic_CHR_davonn TGR_Republic_CHR_davos TGR_Republic_CHR_davrill TGR_Republic_CHR_davrin TGR_Republic_CHR_davu TGR_Republic_CHR_dayja TGR_Republic_CHR_daz TGR_Republic_CHR_ramsis TGR_Republic_CHR_bren TGR_Republic_CHR_tan TGR_Republic_CHR_jan TGR_Republic_CHR_porro TGR_Republic_CHR_cin TGR_Republic_CHR_garven TGR_Republic_CHR_cornelius TGR_Republic_CHR_galen TGR_Republic_CHR_dannl TGR_Republic_CHR_ecclessis TGR_Republic_CHR_debbikin TGR_Republic_CHR_debeli TGR_Republic_CHR_deegan TGR_Republic_CHR_deerian TGR_Republic_CHR_deevis TGR_Republic_CHR_defain TGR_Republic_CHR_deflaros TGR_Republic_CHR_degoren TGR_Republic_CHR_dehno TGR_Republic_CHR_dekay TGR_Republic_CHR_delevar TGR_Republic_CHR_delfaros TGR_Republic_CHR_dellin TGR_Republic_CHR_dellocon TGR_Republic_CHR_delpho TGR_Republic_CHR_delquis TGR_Republic_CHR_delsa TGR_Republic_CHR_delund TGR_Republic_CHR_delurin TGR_Republic_CHR_demtri TGR_Republic_CHR_den TGR_Republic_CHR_denbar TGR_Republic_CHR_dender TGR_Republic_CHR_dendro TGR_Republic_CHR_dendu TGR_Republic_CHR_denetrus TGR_Republic_CHR_denev TGR_Republic_CHR_dengar TGR_Republic_CHR_dengril TGR_Republic_CHR_denid TGR_Republic_CHR_denimoor TGR_Republic_CHR_denin TGR_Republic_CHR_denna TGR_Republic_CHR_denner TGR_Republic_CHR_dennik TGR_Republic_CHR_deppo TGR_Republic_CHR_derdram TGR_Republic_CHR_derec TGR_Republic_CHR_derish TGR_Republic_CHR_derliff TGR_Republic_CHR_dermeg TGR_Republic_CHR_dermian TGR_Republic_CHR_dern TGR_Republic_CHR_dernas TGR_Republic_CHR_derral TGR_Republic_CHR_derrin TGR_Republic_CHR_dervis TGR_Republic_CHR_desanne TGR_Republic_CHR_devoris TGR_Republic_CHR_devotek TGR_Republic_CHR_devron TGR_Republic_CHR_devry TGR_Republic_CHR_devsh TGR_Republic_CHR_dewolf TGR_Republic_CHR_dex TGR_Republic_CHR_dezsetes TGR_Republic_CHR_dhaiv TGR_Republic_CHR_dhal TGR_Republic_CHR_dindau TGR_Republic_CHR_dindo TGR_Republic_CHR_ding TGR_Republic_CHR_dinge TGR_Republic_CHR_dobbatek TGR_Republic_CHR_dobberty TGR_Republic_CHR_dobbs TGR_Republic_CHR_dolan TGR_Republic_CHR_dolgis TGR_Republic_CHR_dolmen TGR_Republic_CHR_dolo TGR_Republic_CHR_dominaire TGR_Republic_CHR_domm TGR_Republic_CHR_donovan TGR_Republic_CHR_donovarr TGR_Republic_CHR_donsull TGR_Republic_CHR_dorel_kan TGR_Republic_CHR_dorgat TGR_Republic_CHR_dorian TGR_Republic_CHR_dorja TGR_Republic_CHR_dorn TGR_Republic_CHR_dorotsech TGR_Republic_CHR_dorrick TGR_Republic_CHR_dortho TGR_Republic_CHR_downey TGR_Republic_CHR_draado TGR_Republic_CHR_draahg TGR_Republic_CHR_dracen TGR_Republic_CHR_drage TGR_Republic_CHR_dragen TGR_Republic_CHR_drake TGR_Republic_CHR_drayk TGR_Republic_CHR_drazin TGR_Republic_CHR_drek TGR_Republic_CHR_duno TGR_Republic_CHR_dree TGR_Republic_CHR_dreed TGR_Republic_CHR_drefin TGR_Republic_CHR_dregg TGR_Republic_CHR_drelosyn TGR_Republic_CHR_drexel TGR_Republic_CHR_dreyf TGR_Republic_CHR_drezzel TGR_Republic_CHR_drizan TGR_Republic_CHR_dro TGR_Republic_CHR_droman TGR_Republic_CHR_dromath TGR_Republic_CHR_drowl TGR_Republic_CHR_drufeys TGR_Republic_CHR_drummond TGR_Republic_CHR_dubeh TGR_Republic_CHR_dunari TGR_Republic_CHR_dunaub TGR_Republic_CHR_deadeye TGR_Republic_CHR_duncan TGR_Republic_CHR_durhant TGR_Republic_CHR_durmat TGR_Republic_CHR_durpin TGR_Republic_CHR_durrei TGR_Republic_CHR_dyshotto TGR_Republic_CHR_dzoun TGR_Republic_CHR_eagle TGR_Republic_CHR_eanjer TGR_Republic_CHR_earl TGR_Republic_CHR_earsh TGR_Republic_CHR_eben TGR_Republic_CHR_eddon TGR_Republic_CHR_edease TGR_Republic_CHR_edern TGR_Republic_CHR_edgar TGR_Republic_CHR_edikar TGR_Republic_CHR_egoreg TGR_Republic_CHR_egron TGR_Republic_CHR_eistern TGR_Republic_CHR_ejai TGR_Republic_CHR_eker TGR_Republic_CHR_ekh TGR_Republic_CHR_ekisp TGR_Republic_CHR_ekov TGR_Republic_CHR_elarles TGR_Republic_CHR_eriquel TGR_Republic_CHR_eris TGR_Republic_CHR_erl TGR_Republic_CHR_erloi TGR_Republic_CHR_esano TGR_Republic_CHR_escalion TGR_Republic_CHR_ezil TGR_Republic_CHR_ezrim TGR_Republic_CHR_ezra TGR_Republic_CHR_ein TGR_Republic_CHR_eislo TGR_Republic_CHR_jake TGR_Republic_CHR_jango TGR_Republic_CHR_eli TGR_Republic_CHR_eliasb TGR_Republic_CHR_eligyn TGR_Republic_CHR_elior TGR_Republic_CHR_elis TGR_Republic_CHR_elizhis TGR_Republic_CHR_elkin TGR_Republic_CHR_ellsworth TGR_Republic_CHR_elmel TGR_Republic_CHR_elmyo TGR_Republic_CHR_elrodelsar TGR_Republic_CHR_elsek TGR_Republic_CHR_emil TGR_Republic_CHR_emir TGR_Republic_CHR_emmens TGR_Republic_CHR_endicott TGR_Republic_CHR_enfield TGR_Republic_CHR_enger TGR_Republic_CHR_engret TGR_Republic_CHR_emmett TGR_Republic_CHR_emory TGR_Republic_CHR_eoaq TGR_Republic_CHR_eph TGR_Republic_CHR_erdan TGR_Republic_CHR_erelut TGR_Republic_CHR_ergast TGR_Republic_CHR_ergel TGR_Republic_CHR_ergeron TGR_Republic_CHR_eric TGR_Republic_CHR_erik TGR_Republic_CHR_estopatrin TGR_Republic_CHR_esture TGR_Republic_CHR_estus TGR_Republic_CHR_eth TGR_Republic_CHR_ethen TGR_Republic_CHR_etnam TGR_Republic_CHR_etta TGR_Republic_CHR_evad TGR_Republic_CHR_evan TGR_Republic_CHR_evax TGR_Republic_CHR_evlen TGR_Republic_CHR_evran TGR_Republic_CHR_evun TGR_Republic_CHR_evvin TGR_Republic_CHR_ewane TGR_Republic_CHR_exar TGR_Republic_CHR_eyvind TGR_Republic_CHR_falltower TGR_Republic_CHR_falrey TGR_Republic_CHR_falsta TGR_Republic_CHR_falch TGR_Republic_CHR_falco TGR_Republic_CHR_faarl TGR_Republic_CHR_fable TGR_Republic_CHR_faedral TGR_Republic_CHR_far TGR_Republic_CHR_faradin TGR_Republic_CHR_faraire TGR_Republic_CHR_fardi TGR_Republic_CHR_farn TGR_Republic_CHR_farng TGR_Republic_CHR_farnis TGR_Republic_CHR_farsal TGR_Republic_CHR_farseam TGR_Republic_CHR_fatulaine TGR_Republic_CHR_fauler TGR_Republic_CHR_feldon TGR_Republic_CHR_feldron TGR_Republic_CHR_feleea TGR_Republic_CHR_fenn TGR_Republic_CHR_fenris TGR_Republic_CHR_fenson TGR_Republic_CHR_feras TGR_Republic_CHR_ferav TGR_Republic_CHR_ferdoin TGR_Republic_CHR_fermin TGR_Republic_CHR_ferob TGR_Republic_CHR_ferren TGR_Republic_CHR_ferrid TGR_Republic_CHR_ferrig TGR_Republic_CHR_ferrin TGR_Republic_CHR_ferron TGR_Republic_CHR_ferrus TGR_Republic_CHR_falesh TGR_Republic_CHR_falk TGR_Republic_CHR_fardi TGR_Republic_CHR_fassio TGR_Republic_CHR_fatulaine TGR_Republic_CHR_dannl TGR_Republic_CHR_februs TGR_Republic_CHR_janus TGR_Republic_CHR_fixer TGR_Republic_CHR_florn TGR_Republic_CHR_grizz TGR_Republic_CHR_frobb TGR_Republic_CHR_fruun
+			}
+			regnal_first_names_female = {
+				TGR_Republic_CHR_aiolin TGR_Republic_CHR_amanoa TGR_Republic_CHR_aphra TGR_Republic_CHR_atris TGR_Republic_CHR_bastila TGR_Republic_CHR_fema TGR_Republic_CHR_jan TGR_Republic_CHR_jyn TGR_Republic_CHR_padm_ TGR_Republic_CHR_rey TGR_Republic_CHR_tash TGR_Republic_CHR_tavion TGR_Republic_CHR_zannah TGR_Republic_CHR_aaida TGR_Republic_CHR_aari TGR_Republic_CHR_acina TGR_Republic_CHR_ackmena TGR_Republic_CHR_ada TGR_Republic_CHR_adana TGR_Republic_CHR_adnama TGR_Republic_CHR_aeran TGR_Republic_CHR_aereena TGR_Republic_CHR_aeron TGR_Republic_CHR_agatha TGR_Republic_CHR_agira TGR_Republic_CHR_ahlya TGR_Republic_CHR_aimee TGR_Republic_CHR_airen TGR_Republic_CHR_akindra TGR_Republic_CHR_albea TGR_Republic_CHR_aldiae TGR_Republic_CHR_alianda TGR_Republic_CHR_alinta TGR_Republic_CHR_alisia TGR_Republic_CHR_allania TGR_Republic_CHR_allara TGR_Republic_CHR_allura TGR_Republic_CHR_allya TGR_Republic_CHR_alma TGR_Republic_CHR_alora TGR_Republic_CHR_altiss TGR_Republic_CHR_alva TGR_Republic_CHR_alvena TGR_Republic_CHR_alya TGR_Republic_CHR_alyak TGR_Republic_CHR_amaya TGR_Republic_CHR_amber TGR_Republic_CHR_amee TGR_Republic_CHR_amie TGR_Republic_CHR_amni TGR_Republic_CHR_amy TGR_Republic_CHR_an_bal TGR_Republic_CHR_anandra TGR_Republic_CHR_anarq TGR_Republic_CHR_anda TGR_Republic_CHR_andra TGR_Republic_CHR_anga TGR_Republic_CHR_angela TGR_Republic_CHR_anita TGR_Republic_CHR_annissya TGR_Republic_CHR_anora TGR_Republic_CHR_ansween TGR_Republic_CHR_anyarah TGR_Republic_CHR_anyul TGR_Republic_CHR_aral TGR_Republic_CHR_ariela TGR_Republic_CHR_arsad TGR_Republic_CHR_arsha TGR_Republic_CHR_aryzah TGR_Republic_CHR_arzhura TGR_Republic_CHR_asha TGR_Republic_CHR_ashana TGR_Republic_CHR_auren TGR_Republic_CHR_avitla TGR_Republic_CHR_avrey TGR_Republic_CHR_azalie TGR_Republic_CHR_azarea TGR_Republic_CHR_balia TGR_Republic_CHR_balmai TGR_Republic_CHR_baral TGR_Republic_CHR_bartaph TGR_Republic_CHR_bat_theria TGR_Republic_CHR_camelle TGR_Republic_CHR_celana TGR_Republic_CHR_chaney TGR_Republic_CHR_cinzia TGR_Republic_CHR_corellia TGR_Republic_CHR_corinna TGR_Republic_CHR_darial TGR_Republic_CHR_darsha TGR_Republic_CHR_deara TGR_Republic_CHR_deli TGR_Republic_CHR_derrica TGR_Republic_CHR_duala TGR_Republic_CHR_elga TGR_Republic_CHR_emppu TGR_Republic_CHR_fable TGR_Republic_CHR_facet TGR_Republic_CHR_feylis TGR_Republic_CHR_grinte TGR_Republic_CHR_halsia TGR_Republic_CHR_henrietya TGR_Republic_CHR_hermione TGR_Republic_CHR_iella TGR_Republic_CHR_jess TGR_Republic_CHR_jhaka TGR_Republic_CHR_jioie TGR_Republic_CHR_jora TGR_Republic_CHR_jord TGR_Republic_CHR_junelle TGR_Republic_CHR_kaiya TGR_Republic_CHR_kandria TGR_Republic_CHR_kani TGR_Republic_CHR_ketrian TGR_Republic_CHR_lemda TGR_Republic_CHR_lesle TGR_Republic_CHR_lilit TGR_Republic_CHR_lissa TGR_Republic_CHR_lomina TGR_Republic_CHR_lynnta TGR_Republic_CHR_lysa TGR_Republic_CHR_maelrich TGR_Republic_CHR_malani TGR_Republic_CHR_maree TGR_Republic_CHR_margani TGR_Republic_CHR_mari TGR_Republic_CHR_merish TGR_Republic_CHR_milessa TGR_Republic_CHR_momi TGR_Republic_CHR_myri TGR_Republic_CHR_nala TGR_Republic_CHR_nalia TGR_Republic_CHR_nia TGR_Republic_CHR_olianna TGR_Republic_CHR_ona TGR_Republic_CHR_onie TGR_Republic_CHR_onnelly TGR_Republic_CHR_orqiti TGR_Republic_CHR_pabel TGR_Republic_CHR_pookie TGR_Republic_CHR_quillara TGR_Republic_CHR_renalda TGR_Republic_CHR_renata TGR_Republic_CHR_salia TGR_Republic_CHR_sansia TGR_Republic_CHR_shasheva TGR_Republic_CHR_soara TGR_Republic_CHR_sula TGR_Republic_CHR_syal TGR_Republic_CHR_talena TGR_Republic_CHR_terena TGR_Republic_CHR_tess TGR_Republic_CHR_tinian TGR_Republic_CHR_tour TGR_Republic_CHR_tresten TGR_Republic_CHR_tria TGR_Republic_CHR_turi TGR_Republic_CHR_tyla TGR_Republic_CHR_varin TGR_Republic_CHR_venra TGR_Republic_CHR_vitala TGR_Republic_CHR_vleen TGR_Republic_CHR_yasinda TGR_Republic_CHR_zal TGR_Republic_CHR_zena TGR_Republic_CHR_zola TGR_Republic_CHR_nyrat TGR_Republic_CHR_alana TGR_Republic_CHR_alani TGR_Republic_CHR_alara TGR_Republic_CHR_tehlan TGR_Republic_CHR_jalice TGR_Republic_CHR_arlaia TGR_Republic_CHR_apailana TGR_Republic_CHR_melnea TGR_Republic_CHR_asani TGR_Republic_CHR_auben TGR_Republic_CHR_aula TGR_Republic_CHR_silvana TGR_Republic_CHR_aunuanna TGR_Republic_CHR_odea TGR_Republic_CHR_aurora TGR_Republic_CHR_frei TGR_Republic_CHR_nana TGR_Republic_CHR_barosa TGR_Republic_CHR_bathos TGR_Republic_CHR_bea TGR_Republic_CHR_alecia TGR_Republic_CHR_reefa TGR_Republic_CHR_been TGR_Republic_CHR_dansra TGR_Republic_CHR_deena TGR_Republic_CHR_trina TGR_Republic_CHR_nari TGR_Republic_CHR_arrianya TGR_Republic_CHR_reginna TGR_Republic_CHR_bel TGR_Republic_CHR_typolla TGR_Republic_CHR_keri TGR_Republic_CHR_belaya TGR_Republic_CHR_eppie TGR_Republic_CHR_belina TGR_Republic_CHR_areta TGR_Republic_CHR_bella TGR_Republic_CHR_bellican TGR_Republic_CHR_bellum TGR_Republic_CHR_sulen TGR_Republic_CHR_bemere TGR_Republic_CHR_bene TGR_Republic_CHR_lana TGR_Republic_CHR_tirgee TGR_Republic_CHR_beraxil TGR_Republic_CHR_thadl_ TGR_Republic_CHR_berow TGR_Republic_CHR_doman TGR_Republic_CHR_eryl TGR_Republic_CHR_elta TGR_Republic_CHR_bestia TGR_Republic_CHR_rasha TGR_Republic_CHR_matri TGR_Republic_CHR_shara TGR_Republic_CHR_silaras TGR_Republic_CHR_zalin TGR_Republic_CHR_beylyssa TGR_Republic_CHR_biabru TGR_Republic_CHR_bialy TGR_Republic_CHR_jonava TGR_Republic_CHR_biller TGR_Republic_CHR_binalu TGR_Republic_CHR_jaleela TGR_Republic_CHR_bini TGR_Republic_CHR_jantaa TGR_Republic_CHR_bixene TGR_Republic_CHR_blessing TGR_Republic_CHR_sadiki TGR_Republic_CHR_ana TGR_Republic_CHR_fiorah TGR_Republic_CHR_haisha TGR_Republic_CHR_evie TGR_Republic_CHR_boble TGR_Republic_CHR_bodhi TGR_Republic_CHR_boibole TGR_Republic_CHR_bolban TGR_Republic_CHR_dorovio TGR_Republic_CHR_nella TGR_Republic_CHR_fira TGR_Republic_CHR_erinn TGR_Republic_CHR_kell TGR_Republic_CHR_cretia TGR_Republic_CHR_ro_san TGR_Republic_CHR_z_meer TGR_Republic_CHR_sunny TGR_Republic_CHR_bradan TGR_Republic_CHR_braganta TGR_Republic_CHR_zayl TGR_Republic_CHR_brand TGR_Republic_CHR_brandeh TGR_Republic_CHR_hela TGR_Republic_CHR_hera TGR_Republic_CHR_zai TGR_Republic_CHR_lees TGR_Republic_CHR_bree TGR_Republic_CHR_bana TGR_Republic_CHR_sharack TGR_Republic_CHR_breha TGR_Republic_CHR_j_pai TGR_Republic_CHR_ismar TGR_Republic_CHR_brenna TGR_Republic_CHR_vessa TGR_Republic_CHR_brezwalt TGR_Republic_CHR_brianna TGR_Republic_CHR_mira TGR_Republic_CHR_briila TGR_Republic_CHR_brin TGR_Republic_CHR_cala TGR_Republic_CHR_lillea TGR_Republic_CHR_timma TGR_Republic_CHR_lanoree TGR_Republic_CHR_brontes TGR_Republic_CHR_nore TGR_Republic_CHR_brukarra TGR_Republic_CHR_brukes TGR_Republic_CHR_brunar TGR_Republic_CHR_dama TGR_Republic_CHR_harriet TGR_Republic_CHR_brusela TGR_Republic_CHR_brynn TGR_Republic_CHR_hella TGR_Republic_CHR_pari TGR_Republic_CHR_tama TGR_Republic_CHR_rallcema TGR_Republic_CHR_dana TGR_Republic_CHR_cai TGR_Republic_CHR_caille TGR_Republic_CHR_calagott TGR_Republic_CHR_annora TGR_Republic_CHR_arkadia TGR_Republic_CHR_vilia TGR_Republic_CHR_morrigan TGR_Republic_CHR_callandri TGR_Republic_CHR_calle TGR_Republic_CHR_tendra TGR_Republic_CHR_calvaria TGR_Republic_CHR_annileen TGR_Republic_CHR_kallie TGR_Republic_CHR_cana TGR_Republic_CHR_canduri TGR_Republic_CHR_aeona TGR_Republic_CHR_thera TGR_Republic_CHR_gaeriel TGR_Republic_CHR_marga TGR_Republic_CHR_tiree TGR_Republic_CHR_ylanda TGR_Republic_CHR_cara TGR_Republic_CHR_carbinol TGR_Republic_CHR_cardya TGR_Republic_CHR_careese TGR_Republic_CHR_leanna TGR_Republic_CHR_carilla TGR_Republic_CHR_coli TGR_Republic_CHR_melina TGR_Republic_CHR_caroline TGR_Republic_CHR_reiva TGR_Republic_CHR_kira TGR_Republic_CHR_matilda TGR_Republic_CHR_casey TGR_Republic_CHR_mandora TGR_Republic_CHR_catrinna TGR_Republic_CHR_kay TGR_Republic_CHR_telsij TGR_Republic_CHR_ceecee TGR_Republic_CHR_cel TGR_Republic_CHR_mia TGR_Republic_CHR_winter TGR_Republic_CHR_celestra TGR_Republic_CHR_jynne TGR_Republic_CHR_alysun TGR_Republic_CHR_jovive TGR_Republic_CHR_melo TGR_Republic_CHR_cerasi TGR_Republic_CHR_lowle TGR_Republic_CHR_chanath TGR_Republic_CHR_chai TGR_Republic_CHR_everi TGR_Republic_CHR_travia TGR_Republic_CHR_ember TGR_Republic_CHR_javul TGR_Republic_CHR_neiya TGR_Republic_CHR_chenna TGR_Republic_CHR_viera TGR_Republic_CHR_olana TGR_Republic_CHR_chokla TGR_Republic_CHR_avenledina TGR_Republic_CHR_christina TGR_Republic_CHR_christya TGR_Republic_CHR_kimmi TGR_Republic_CHR_tian TGR_Republic_CHR_taryn TGR_Republic_CHR_ria TGR_Republic_CHR_clarrisa TGR_Republic_CHR_clat TGR_Republic_CHR_cligot TGR_Republic_CHR_flaenella TGR_Republic_CHR_zahara TGR_Republic_CHR_litassa TGR_Republic_CHR_amber TGR_Republic_CHR_kaydel TGR_Republic_CHR_sarita TGR_Republic_CHR_cora TGR_Republic_CHR_coralya TGR_Republic_CHR_coratanni TGR_Republic_CHR_sabel TGR_Republic_CHR_hella TGR_Republic_CHR_cord_ TGR_Republic_CHR_swilla TGR_Republic_CHR_lana TGR_Republic_CHR_vella TGR_Republic_CHR_chay TGR_Republic_CHR_corwell TGR_Republic_CHR_muriel TGR_Republic_CHR_couli TGR_Republic_CHR_dena TGR_Republic_CHR_josta TGR_Republic_CHR_laiurea TGR_Republic_CHR_abagga TGR_Republic_CHR_viera TGR_Republic_CHR_andra TGR_Republic_CHR_jens TGR_Republic_CHR_crowal TGR_Republic_CHR_crowley TGR_Republic_CHR_jeela TGR_Republic_CHR_dine_ TGR_Republic_CHR_lyra TGR_Republic_CHR_jyn TGR_Republic_CHR_edrii TGR_Republic_CHR_eelysa TGR_Republic_CHR_egan TGR_Republic_CHR_egara TGR_Republic_CHR_errine TGR_Republic_CHR_esala TGR_Republic_CHR_esmelle TGR_Republic_CHR_ensa TGR_Republic_CHR_erils TGR_Republic_CHR_eritha TGR_Republic_CHR_erkens TGR_Republic_CHR_erra TGR_Republic_CHR_halla TGR_Republic_CHR_ettyk TGR_Republic_CHR_eyleen TGR_Republic_CHR_ezeraline TGR_Republic_CHR_elenzia TGR_Republic_CHR_elicia TGR_Republic_CHR_elinda TGR_Republic_CHR_eliya TGR_Republic_CHR_eirta_ TGR_Republic_CHR_elaiza TGR_Republic_CHR_elora TGR_Republic_CHR_elspeth TGR_Republic_CHR_ellik TGR_Republic_CHR_ellis TGR_Republic_CHR_ell_ TGR_Republic_CHR_essenton TGR_Republic_CHR_estoc TGR_Republic_CHR_anora TGR_Republic_CHR_fatil TGR_Republic_CHR_faylin TGR_Republic_CHR_chenna TGR_Republic_CHR_fala TGR_Republic_CHR_falkun TGR_Republic_CHR_faylin TGR_Republic_CHR_feinu TGR_Republic_CHR_feleema TGR_Republic_CHR_felicia TGR_Republic_CHR_fellion TGR_Republic_CHR_femon TGR_Republic_CHR_fereden TGR_Republic_CHR_feresyl TGR_Republic_CHR_ferreges TGR_Republic_CHR_ferrel TGR_Republic_CHR_fessi TGR_Republic_CHR_feyenn TGR_Republic_CHR_fia TGR_Republic_CHR_first TGR_Republic_CHR_flangolial TGR_Republic_CHR_fionna TGR_Republic_CHR_flensia TGR_Republic_CHR_floria TGR_Republic_CHR_folaris TGR_Republic_CHR_forta TGR_Republic_CHR_fovish TGR_Republic_CHR_frayne
+			}
+			regnal_second_names = {
+				TGR_Republic_CHR_a_shera TGR_Republic_CHR_amidala TGR_Republic_CHR_aabe TGR_Republic_CHR_abias TGR_Republic_CHR_ac_yandar TGR_Republic_CHR_accu TGR_Republic_CHR_acib TGR_Republic_CHR_acoi TGR_Republic_CHR_acton TGR_Republic_CHR_adala TGR_Republic_CHR_adannon TGR_Republic_CHR_adare TGR_Republic_CHR_addar TGR_Republic_CHR_afit TGR_Republic_CHR_afyon TGR_Republic_CHR_agolerga TGR_Republic_CHR_agri TGR_Republic_CHR_ahid TGR_Republic_CHR_ahkoeri TGR_Republic_CHR_ahot TGR_Republic_CHR_ahuff TGR_Republic_CHR_akura TGR_Republic_CHR_alair TGR_Republic_CHR_alamant TGR_Republic_CHR_alaras TGR_Republic_CHR_amithest TGR_Republic_CHR_antana TGR_Republic_CHR_alburass TGR_Republic_CHR_alde TGR_Republic_CHR_alder TGR_Republic_CHR_aldine TGR_Republic_CHR_aldrete TGR_Republic_CHR_algwinn TGR_Republic_CHR_allashane TGR_Republic_CHR_allusis TGR_Republic_CHR_aloo TGR_Republic_CHR_altax TGR_Republic_CHR_altis TGR_Republic_CHR_alto TGR_Republic_CHR_alvar TGR_Republic_CHR_alvic TGR_Republic_CHR_anamor TGR_Republic_CHR_ancum TGR_Republic_CHR_andal TGR_Republic_CHR_anderlock TGR_Republic_CHR_andor TGR_Republic_CHR_andrell TGR_Republic_CHR_andromias TGR_Republic_CHR_anec TGR_Republic_CHR_ange TGR_Republic_CHR_annix TGR_Republic_CHR_annon TGR_Republic_CHR_antab TGR_Republic_CHR_antilles TGR_Republic_CHR_antin TGR_Republic_CHR_antyll TGR_Republic_CHR_anyell TGR_Republic_CHR_apice TGR_Republic_CHR_apla TGR_Republic_CHR_apma TGR_Republic_CHR_aramatha TGR_Republic_CHR_arandis TGR_Republic_CHR_archan TGR_Republic_CHR_ardine TGR_Republic_CHR_arelis TGR_Republic_CHR_aresko TGR_Republic_CHR_argdran TGR_Republic_CHR_argen TGR_Republic_CHR_argo TGR_Republic_CHR_argus TGR_Republic_CHR_argyus TGR_Republic_CHR_arin TGR_Republic_CHR_arisster TGR_Republic_CHR_arkos TGR_Republic_CHR_armin TGR_Republic_CHR_arnae TGR_Republic_CHR_arned TGR_Republic_CHR_arnjak TGR_Republic_CHR_arpor TGR_Republic_CHR_arr TGR_Republic_CHR_arranda TGR_Republic_CHR_arrant TGR_Republic_CHR_arrison TGR_Republic_CHR_aryon TGR_Republic_CHR_arzal TGR_Republic_CHR_asani TGR_Republic_CHR_asch TGR_Republic_CHR_ashandrik TGR_Republic_CHR_ashar TGR_Republic_CHR_ashen TGR_Republic_CHR_assam TGR_Republic_CHR_atma TGR_Republic_CHR_ato TGR_Republic_CHR_atrus TGR_Republic_CHR_attal TGR_Republic_CHR_auchs TGR_Republic_CHR_auglu TGR_Republic_CHR_autem TGR_Republic_CHR_avesta TGR_Republic_CHR_avoa TGR_Republic_CHR_awson TGR_Republic_CHR_ayl TGR_Republic_CHR_ayrvn TGR_Republic_CHR_azadi TGR_Republic_CHR_azzameen TGR_Republic_CHR_azur_jamin TGR_Republic_CHR_b_risko TGR_Republic_CHR_ba_al TGR_Republic_CHR_bagwa TGR_Republic_CHR_bach TGR_Republic_CHR_bada TGR_Republic_CHR_baddeg TGR_Republic_CHR_badeleg TGR_Republic_CHR_badra TGR_Republic_CHR_badure TGR_Republic_CHR_baem TGR_Republic_CHR_bakarn TGR_Republic_CHR_bakash TGR_Republic_CHR_baker TGR_Republic_CHR_bakvalen TGR_Republic_CHR_balfed TGR_Republic_CHR_balfour TGR_Republic_CHR_baliss TGR_Republic_CHR_balkar TGR_Republic_CHR_ballow_reese TGR_Republic_CHR_balor TGR_Republic_CHR_balrekk TGR_Republic_CHR_balu TGR_Republic_CHR_banai TGR_Republic_CHR_bandeam TGR_Republic_CHR_bane TGR_Republic_CHR_banjeer TGR_Republic_CHR_bann TGR_Republic_CHR_bannik TGR_Republic_CHR_bannon TGR_Republic_CHR_banolt TGR_Republic_CHR_banos TGR_Republic_CHR_banto TGR_Republic_CHR_baobab TGR_Republic_CHR_baran TGR_Republic_CHR_barani TGR_Republic_CHR_barayel TGR_Republic_CHR_barc TGR_Republic_CHR_bardrin TGR_Republic_CHR_barezz TGR_Republic_CHR_barje TGR_Republic_CHR_berenko TGR_Republic_CHR_baron TGR_Republic_CHR_barrek TGR_Republic_CHR_barrezz TGR_Republic_CHR_barrows TGR_Republic_CHR_barris TGR_Republic_CHR_barron TGR_Republic_CHR_bartmoss TGR_Republic_CHR_barzon TGR_Republic_CHR_basdor TGR_Republic_CHR_baskalar TGR_Republic_CHR_bast TGR_Republic_CHR_basteren TGR_Republic_CHR_bastion TGR_Republic_CHR_bastra TGR_Republic_CHR_bata TGR_Republic_CHR_batch TGR_Republic_CHR_batross TGR_Republic_CHR_batta TGR_Republic_CHR_bayts TGR_Republic_CHR_bean TGR_Republic_CHR_bebo TGR_Republic_CHR_beech TGR_Republic_CHR_beelyard TGR_Republic_CHR_beentilles TGR_Republic_CHR_bek TGR_Republic_CHR_bel TGR_Republic_CHR_belar TGR_Republic_CHR_belden TGR_Republic_CHR_belissa TGR_Republic_CHR_belladar TGR_Republic_CHR_bellsfar TGR_Republic_CHR_bemming TGR_Republic_CHR_ben TGR_Republic_CHR_bendak TGR_Republic_CHR_bender TGR_Republic_CHR_bendick TGR_Republic_CHR_beni TGR_Republic_CHR_benlip TGR_Republic_CHR_bennis TGR_Republic_CHR_bentado TGR_Republic_CHR_bensen TGR_Republic_CHR_benu TGR_Republic_CHR_berek TGR_Republic_CHR_berge TGR_Republic_CHR_berkona TGR_Republic_CHR_berra TGR_Republic_CHR_beruss TGR_Republic_CHR_besk TGR_Republic_CHR_bey TGR_Republic_CHR_bibble TGR_Republic_CHR_biktor TGR_Republic_CHR_bindari TGR_Republic_CHR_bish TGR_Republic_CHR_bjalin TGR_Republic_CHR_blackgate TGR_Republic_CHR_blaesus TGR_Republic_CHR_blake TGR_Republic_CHR_blaze TGR_Republic_CHR_blendin TGR_Republic_CHR_blim TGR_Republic_CHR_blissex TGR_Republic_CHR_blohk TGR_Republic_CHR_blood TGR_Republic_CHR_bloomi TGR_Republic_CHR_bludder TGR_Republic_CHR_blys TGR_Republic_CHR_boddipy TGR_Republic_CHR_bodhrik TGR_Republic_CHR_bogan TGR_Republic_CHR_bola TGR_Republic_CHR_bombaasa TGR_Republic_CHR_bondog TGR_Republic_CHR_bonteri TGR_Republic_CHR_bordo TGR_Republic_CHR_borgin TGR_Republic_CHR_bourne TGR_Republic_CHR_bragg TGR_Republic_CHR_brand TGR_Republic_CHR_branon TGR_Republic_CHR_brasli TGR_Republic_CHR_brathis TGR_Republic_CHR_brazee TGR_Republic_CHR_breen TGR_Republic_CHR_brell TGR_Republic_CHR_bren TGR_Republic_CHR_brentioch TGR_Republic_CHR_bridger TGR_Republic_CHR_brigger TGR_Republic_CHR_brightwater TGR_Republic_CHR_brill TGR_Republic_CHR_briqualon TGR_Republic_CHR_brunou TGR_Republic_CHR_brya TGR_Republic_CHR_buc TGR_Republic_CHR_budz TGR_Republic_CHR_buir TGR_Republic_CHR_bullwin TGR_Republic_CHR_burkan TGR_Republic_CHR_bunyea TGR_Republic_CHR_burba TGR_Republic_CHR_burb TGR_Republic_CHR_burku TGR_Republic_CHR_byrne TGR_Republic_CHR_c_baoth TGR_Republic_CHR_cadaman TGR_Republic_CHR_cadera TGR_Republic_CHR_cadix TGR_Republic_CHR_cadmir TGR_Republic_CHR_cadoruso TGR_Republic_CHR_caedus TGR_Republic_CHR_caglio TGR_Republic_CHR_cairnwick TGR_Republic_CHR_calder TGR_Republic_CHR_calhuu TGR_Republic_CHR_callat TGR_Republic_CHR_callum TGR_Republic_CHR_calrissian TGR_Republic_CHR_carid TGR_Republic_CHR_carivus TGR_Republic_CHR_capra TGR_Republic_CHR_carolinden TGR_Republic_CHR_caros TGR_Republic_CHR_carper TGR_Republic_CHR_carplin TGR_Republic_CHR_carr TGR_Republic_CHR_carrick TGR_Republic_CHR_carsan TGR_Republic_CHR_carsiri TGR_Republic_CHR_carter TGR_Republic_CHR_carteri TGR_Republic_CHR_cartha TGR_Republic_CHR_cartroll TGR_Republic_CHR_carvin TGR_Republic_CHR_carzyn TGR_Republic_CHR_caslo TGR_Republic_CHR_casrich TGR_Republic_CHR_cass TGR_Republic_CHR_cassian TGR_Republic_CHR_cassel TGR_Republic_CHR_cassius TGR_Republic_CHR_casterfo TGR_Republic_CHR_caveel TGR_Republic_CHR_chistor TGR_Republic_CHR_cavv TGR_Republic_CHR_cedrax TGR_Republic_CHR_celaar TGR_Republic_CHR_celchu TGR_Republic_CHR_celchu TGR_Republic_CHR_cerulian TGR_Republic_CHR_chagras TGR_Republic_CHR_chalco TGR_Republic_CHR_chalk TGR_Republic_CHR_chan TGR_Republic_CHR_chance TGR_Republic_CHR_charkron TGR_Republic_CHR_charu TGR_Republic_CHR_chasdy TGR_Republic_CHR_chase TGR_Republic_CHR_chasser TGR_Republic_CHR_chassu TGR_Republic_CHR_cheems TGR_Republic_CHR_cheever TGR_Republic_CHR_chiffonage TGR_Republic_CHR_chizzik TGR_Republic_CHR_chlorus TGR_Republic_CHR_cho TGR_Republic_CHR_choard TGR_Republic_CHR_choard TGR_Republic_CHR_choid TGR_Republic_CHR_cholus TGR_Republic_CHR_chrin TGR_Republic_CHR_chronelle TGR_Republic_CHR_chull TGR_Republic_CHR_chumu TGR_Republic_CHR_chun TGR_Republic_CHR_cibinel TGR_Republic_CHR_cikartan TGR_Republic_CHR_cineratus TGR_Republic_CHR_cipher TGR_Republic_CHR_ciro TGR_Republic_CHR_cirrilla TGR_Republic_CHR_clafdatha TGR_Republic_CHR_claine TGR_Republic_CHR_clamont TGR_Republic_CHR_clancy TGR_Republic_CHR_classet TGR_Republic_CHR_clathor TGR_Republic_CHR_clatto TGR_Republic_CHR_cleben TGR_Republic_CHR_clem TGR_Republic_CHR_clenna TGR_Republic_CHR_cleroff TGR_Republic_CHR_cley TGR_Republic_CHR_clines TGR_Republic_CHR_cohn TGR_Republic_CHR_cojahn TGR_Republic_CHR_colclazure TGR_Republic_CHR_colf TGR_Republic_CHR_colgter TGR_Republic_CHR_condi TGR_Republic_CHR_conjob TGR_Republic_CHR_conlath TGR_Republic_CHR_conro TGR_Republic_CHR_contispex TGR_Republic_CHR_contopault TGR_Republic_CHR_convarion TGR_Republic_CHR_convorr TGR_Republic_CHR_coops TGR_Republic_CHR_coptszt TGR_Republic_CHR_cor TGR_Republic_CHR_corazon TGR_Republic_CHR_corconnan TGR_Republic_CHR_cordan TGR_Republic_CHR_corek TGR_Republic_CHR_cories TGR_Republic_CHR_cormac TGR_Republic_CHR_cormin TGR_Republic_CHR_courser TGR_Republic_CHR_covell TGR_Republic_CHR_coven TGR_Republic_CHR_covington TGR_Republic_CHR_coviscowall TGR_Republic_CHR_creip TGR_Republic_CHR_crel TGR_Republic_CHR_crell TGR_Republic_CHR_crespin TGR_Republic_CHR_cros TGR_Republic_CHR_cross TGR_Republic_CHR_crowe TGR_Republic_CHR_crynyd TGR_Republic_CHR_croft TGR_Republic_CHR_croix TGR_Republic_CHR_d_asta TGR_Republic_CHR_d_baelor TGR_Republic_CHR_d_jek TGR_Republic_CHR_d_lund TGR_Republic_CHR_dabrini TGR_Republic_CHR_dacholder TGR_Republic_CHR_dack TGR_Republic_CHR_dackett TGR_Republic_CHR_dadar TGR_Republic_CHR_dade TGR_Republic_CHR_dadeferron TGR_Republic_CHR_dain TGR_Republic_CHR_daine TGR_Republic_CHR_dak_win TGR_Republic_CHR_dak TGR_Republic_CHR_dal_nay TGR_Republic_CHR_dala TGR_Republic_CHR_dalhney TGR_Republic_CHR_dallin TGR_Republic_CHR_dallory TGR_Republic_CHR_dallows TGR_Republic_CHR_dambrizi TGR_Republic_CHR_dameerd TGR_Republic_CHR_damlo TGR_Republic_CHR_dance TGR_Republic_CHR_dandu TGR_Republic_CHR_dane TGR_Republic_CHR_danenberger TGR_Republic_CHR_danga TGR_Republic_CHR_danglot TGR_Republic_CHR_dangor TGR_Republic_CHR_danid TGR_Republic_CHR_danl_ TGR_Republic_CHR_drugah TGR_Republic_CHR_dann TGR_Republic_CHR_dannt TGR_Republic_CHR_danson TGR_Republic_CHR_danta TGR_Republic_CHR_danthe TGR_Republic_CHR_danu TGR_Republic_CHR_danurs TGR_Republic_CHR_danva TGR_Republic_CHR_daraada TGR_Republic_CHR_daragon TGR_Republic_CHR_daral TGR_Republic_CHR_darb TGR_Republic_CHR_darba TGR_Republic_CHR_darcc TGR_Republic_CHR_darillian TGR_Republic_CHR_darklighter TGR_Republic_CHR_dart_ TGR_Republic_CHR_dashit TGR_Republic_CHR_dasol TGR_Republic_CHR_dastt TGR_Republic_CHR_datch TGR_Republic_CHR_davan TGR_Republic_CHR_davin TGR_Republic_CHR_davip TGR_Republic_CHR_dendup TGR_Republic_CHR_debell TGR_Republic_CHR_decar TGR_Republic_CHR_decimus TGR_Republic_CHR_declann TGR_Republic_CHR_decree TGR_Republic_CHR_dedge TGR_Republic_CHR_dekker TGR_Republic_CHR_dekven TGR_Republic_CHR_delahrg TGR_Republic_CHR_delan TGR_Republic_CHR_delckis TGR_Republic_CHR_deld TGR_Republic_CHR_deljeevo TGR_Republic_CHR_delk TGR_Republic_CHR_delvardus TGR_Republic_CHR_delvaren TGR_Republic_CHR_demain TGR_Republic_CHR_demaratus TGR_Republic_CHR_demior TGR_Republic_CHR_demosal TGR_Republic_CHR_denzmorren TGR_Republic_CHR_dep TGR_Republic_CHR_derlin TGR_Republic_CHR_derlynn TGR_Republic_CHR_desh TGR_Republic_CHR_desnand TGR_Republic_CHR_dessain TGR_Republic_CHR_detta TGR_Republic_CHR_detton TGR_Republic_CHR_dev TGR_Republic_CHR_devane TGR_Republic_CHR_devian TGR_Republic_CHR_devis TGR_Republic_CHR_devo TGR_Republic_CHR_dewes TGR_Republic_CHR_dewiller TGR_Republic_CHR_dewitt TGR_Republic_CHR_dheas TGR_Republic_CHR_dhil TGR_Republic_CHR_di TGR_Republic_CHR_diath TGR_Republic_CHR_dicium TGR_Republic_CHR_dienbel TGR_Republic_CHR_dil TGR_Republic_CHR_dillems TGR_Republic_CHR_dilorr TGR_Republic_CHR_dilsn TGR_Republic_CHR_din TGR_Republic_CHR_dinard TGR_Republic_CHR_dionisio TGR_Republic_CHR_disra TGR_Republic_CHR_divini TGR_Republic_CHR_divinian TGR_Republic_CHR_divo TGR_Republic_CHR_dix TGR_Republic_CHR_diyaz TGR_Republic_CHR_djambo TGR_Republic_CHR_djo TGR_Republic_CHR_dlarit TGR_Republic_CHR_dlunar TGR_Republic_CHR_doaba TGR_Republic_CHR_doan TGR_Republic_CHR_dodonna TGR_Republic_CHR_dogot TGR_Republic_CHR_doil TGR_Republic_CHR_dokrett TGR_Republic_CHR_dolor TGR_Republic_CHR_dolphe TGR_Republic_CHR_doluff TGR_Republic_CHR_dolv TGR_Republic_CHR_dom TGR_Republic_CHR_domeet TGR_Republic_CHR_domi TGR_Republic_CHR_domo TGR_Republic_CHR_donar TGR_Republic_CHR_dondarvan TGR_Republic_CHR_donell TGR_Republic_CHR_donn TGR_Republic_CHR_donos TGR_Republic_CHR_dooku TGR_Republic_CHR_d_oon TGR_Republic_CHR_doore TGR_Republic_CHR_doorn TGR_Republic_CHR_doran TGR_Republic_CHR_dorant TGR_Republic_CHR_dorat TGR_Republic_CHR_doru TGR_Republic_CHR_doruggan TGR_Republic_CHR_dorvan TGR_Republic_CHR_dos TGR_Republic_CHR_doshun TGR_Republic_CHR_doss TGR_Republic_CHR_dostryt TGR_Republic_CHR_dovaro TGR_Republic_CHR_dovlis TGR_Republic_CHR_dovu TGR_Republic_CHR_drallig TGR_Republic_CHR_drass TGR_Republic_CHR_draven TGR_Republic_CHR_draver TGR_Republic_CHR_dray TGR_Republic_CHR_drei TGR_Republic_CHR_dreleene TGR_Republic_CHR_drell TGR_Republic_CHR_drellik TGR_Republic_CHR_drobo TGR_Republic_CHR_droga TGR_Republic_CHR_dromath TGR_Republic_CHR_drommel TGR_Republic_CHR_droo TGR_Republic_CHR_droon TGR_Republic_CHR_drop TGR_Republic_CHR_drost TGR_Republic_CHR_dubrok TGR_Republic_CHR_ducela TGR_Republic_CHR_duel TGR_Republic_CHR_dugge TGR_Republic_CHR_dumat TGR_Republic_CHR_dumont TGR_Republic_CHR_duna TGR_Republic_CHR_dunell TGR_Republic_CHR_dunerz TGR_Republic_CHR_dunn TGR_Republic_CHR_dunoche TGR_Republic_CHR_dunrik TGR_Republic_CHR_dunwell TGR_Republic_CHR_duo TGR_Republic_CHR_durasha TGR_Republic_CHR_durgo TGR_Republic_CHR_durron TGR_Republic_CHR_durs TGR_Republic_CHR_durshana TGR_Republic_CHR_dusat TGR_Republic_CHR_dustrunner TGR_Republic_CHR_dyer TGR_Republic_CHR_dyre TGR_Republic_CHR_dyrla TGR_Republic_CHR_dyrra TGR_Republic_CHR_dysen TGR_Republic_CHR_dyshkava TGR_Republic_CHR_billaba TGR_Republic_CHR_calwell TGR_Republic_CHR_e_ron TGR_Republic_CHR_e_elz TGR_Republic_CHR_eadon TGR_Republic_CHR_eckels TGR_Republic_CHR_eckener TGR_Republic_CHR_edaine TGR_Republic_CHR_edalm TGR_Republic_CHR_eddawan TGR_Republic_CHR_eddis TGR_Republic_CHR_edisser TGR_Republic_CHR_edu TGR_Republic_CHR_eeth TGR_Republic_CHR_efran TGR_Republic_CHR_elban TGR_Republic_CHR_eldon TGR_Republic_CHR_elegin TGR_Republic_CHR_elfwannabe TGR_Republic_CHR_elgin TGR_Republic_CHR_elgrin TGR_Republic_CHR_ell TGR_Republic_CHR_ellon TGR_Republic_CHR_elsin TGR_Republic_CHR_elysar TGR_Republic_CHR_elzif TGR_Republic_CHR_ematt TGR_Republic_CHR_emmert TGR_Republic_CHR_en TGR_Republic_CHR_enasteri TGR_Republic_CHR_endac TGR_Republic_CHR_enkhet TGR_Republic_CHR_enraj TGR_Republic_CHR_ensh TGR_Republic_CHR_erlskel TGR_Republic_CHR_ern TGR_Republic_CHR_erne TGR_Republic_CHR_erso TGR_Republic_CHR_ervekk TGR_Republic_CHR_ervic TGR_Republic_CHR_esan TGR_Republic_CHR_escalus TGR_Republic_CHR_eso TGR_Republic_CHR_estillo TGR_Republic_CHR_evazan TGR_Republic_CHR_fardi TGR_Republic_CHR_fair TGR_Republic_CHR_ebonette TGR_Republic_CHR_eckener TGR_Republic_CHR_eclipse TGR_Republic_CHR_eddawan TGR_Republic_CHR_edivon TGR_Republic_CHR_edosun_ TGR_Republic_CHR_egast TGR_Republic_CHR_ele TGR_Republic_CHR_ellberger TGR_Republic_CHR_elna TGR_Republic_CHR_empor TGR_Republic_CHR_enasteri TGR_Republic_CHR_f_tuhns TGR_Republic_CHR_faal TGR_Republic_CHR_fahm TGR_Republic_CHR_fain TGR_Republic_CHR_fain TGR_Republic_CHR_fal TGR_Republic_CHR_falcone TGR_Republic_CHR_falconi TGR_Republic_CHR_falcris TGR_Republic_CHR_faldrin TGR_Republic_CHR_falken TGR_Republic_CHR_fallon TGR_Republic_CHR_fallon TGR_Republic_CHR_falt TGR_Republic_CHR_fanaso TGR_Republic_CHR_fandi TGR_Republic_CHR_fane TGR_Republic_CHR_fardreamer TGR_Republic_CHR_farege TGR_Republic_CHR_fargil TGR_Republic_CHR_farkus TGR_Republic_CHR_farlander TGR_Republic_CHR_farles TGR_Republic_CHR_farls TGR_Republic_CHR_farool TGR_Republic_CHR_farrell TGR_Republic_CHR_farrell TGR_Republic_CHR_farseeker TGR_Republic_CHR_fasalk TGR_Republic_CHR_fassoola TGR_Republic_CHR_fateau TGR_Republic_CHR_faunor TGR_Republic_CHR_faytonni TGR_Republic_CHR_feal TGR_Republic_CHR_feb TGR_Republic_CHR_feelu TGR_Republic_CHR_feem TGR_Republic_CHR_fegel TGR_Republic_CHR_fel_kona TGR_Republic_CHR_fel TGR_Republic_CHR_felan TGR_Republic_CHR_felens TGR_Republic_CHR_felix TGR_Republic_CHR_felyood TGR_Republic_CHR_femi TGR_Republic_CHR_fenic TGR_Republic_CHR_fenimer TGR_Republic_CHR_fernandin TGR_Republic_CHR_ferthyn TGR_Republic_CHR_feswin TGR_Republic_CHR_fett TGR_Republic_CHR_fhernan TGR_Republic_CHR_fhurek TGR_Republic_CHR_figg TGR_Republic_CHR_farrell TGR_Republic_CHR_ablund TGR_Republic_CHR_faytonni TGR_Republic_CHR_fahm TGR_Republic_CHR_temmt TGR_Republic_CHR_fhurek TGR_Republic_CHR_frix TGR_Republic_CHR_faenel TGR_Republic_CHR_fahrs TGR_Republic_CHR_fain TGR_Republic_CHR_fair TGR_Republic_CHR_fallatte TGR_Republic_CHR_falon TGR_Republic_CHR_farlion TGR_Republic_CHR_farls TGR_Republic_CHR_farnmir TGR_Republic_CHR_farr TGR_Republic_CHR_fasser TGR_Republic_CHR_faughn TGR_Republic_CHR_fawn TGR_Republic_CHR_fax TGR_Republic_CHR_fek_ra TGR_Republic_CHR_felswoop TGR_Republic_CHR_felth TGR_Republic_CHR_fharn TGR_Republic_CHR_fhernan TGR_Republic_CHR_folee TGR_Republic_CHR_for_deschel TGR_Republic_CHR_foravis TGR_Republic_CHR_foreck TGR_Republic_CHR_forge TGR_Republic_CHR_fori TGR_Republic_CHR_forno TGR_Republic_CHR_foxtrain TGR_Republic_CHR_fraabaal TGR_Republic_CHR_fray
+			}
+		}
+	}
+}

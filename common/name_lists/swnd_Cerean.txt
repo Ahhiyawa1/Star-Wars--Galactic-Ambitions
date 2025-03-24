@@ -1,0 +1,844 @@
+﻿Cerean = {
+	randomized = no
+	ship_names = {
+		generic = {
+			CEREAN_SHIP_mystic CEREAN_SHIP_naiad CEREAN_SHIP_nautilus CEREAN_SHIP_nebula CEREAN_SHIP_nimble CEREAN_SHIP_north_star CEREAN_SHIP_nymph CEREAN_SHIP_obdurate CEREAN_SHIP_ocean CEREAN_SHIP_onward CEREAN_SHIP_oracle CEREAN_SHIP_paradox CEREAN_SHIP_paragon CEREAN_SHIP_pearl CEREAN_SHIP_peregrine CEREAN_SHIP_perseverance CEREAN_SHIP_marksman CEREAN_SHIP_rifleman CEREAN_SHIP_sniper CEREAN_SHIP_trident CEREAN_SHIP_trumpet CEREAN_SHIP_truncheon CEREAN_SHIP_typhoon CEREAN_SHIP_undaunted CEREAN_SHIP_venture CEREAN_SHIP_versatile CEREAN_SHIP_vigorous CEREAN_SHIP_viper CEREAN_SHIP_vivacious CEREAN_SHIP_winger CEREAN_SHIP_wizard CEREAN_SHIP_wyvern CEREAN_SHIP_wolfhound CEREAN_SHIP_devastator CEREAN_SHIP_warhammer CEREAN_SHIP_retribution CEREAN_SHIP_senator CEREAN_SHIP_tornado CEREAN_SHIP_infinity CEREAN_SHIP_usurper CEREAN_SHIP_utmost CEREAN_SHIP_valorous CEREAN_SHIP_whirlwind CEREAN_SHIP_athena CEREAN_SHIP_artemis CEREAN_SHIP_vigilance CEREAN_SHIP_decimator CEREAN_SHIP_indomitable CEREAN_SHIP_goliath CEREAN_SHIP_sentinel CEREAN_SHIP_brilliant CEREAN_SHIP_blazer CEREAN_SHIP_audacity CEREAN_SHIP_gallant CEREAN_SHIP_nova CEREAN_SHIP_shadow CEREAN_SHIP_allegiance CEREAN_SHIP_challenger CEREAN_SHIP_fearless CEREAN_SHIP_protector CEREAN_SHIP_guardian CEREAN_SHIP_victorious CEREAN_SHIP_courageous CEREAN_SHIP_defiance CEREAN_SHIP_valorous CEREAN_SHIP_azrael CEREAN_SHIP_adamantine CEREAN_SHIP_aralanni CEREAN_SHIP_ardent_iv CEREAN_SHIP_armistice CEREAN_SHIP_avengeance CEREAN_SHIP_ballista CEREAN_SHIP_bloodstripe CEREAN_SHIP_borealis CEREAN_SHIP_caelus CEREAN_SHIP_caravan CEREAN_SHIP_chaf_envoy CEREAN_SHIP_commenor CEREAN_SHIP_corbantis CEREAN_SHIP_corellia CEREAN_SHIP_courteous CEREAN_SHIP_dauntless CEREAN_SHIP_defiant CEREAN_SHIP_deliverance CEREAN_SHIP_derapha CEREAN_SHIP_devout CEREAN_SHIP_empirical CEREAN_SHIP_empyrean CEREAN_SHIP_era_daimanos CEREAN_SHIP_eye_of_the_storm CEREAN_SHIP_farstar CEREAN_SHIP_fastblast CEREAN_SHIP_galaaron CEREAN_SHIP_garrote CEREAN_SHIP_gilagimar CEREAN_SHIP_halleck CEREAN_SHIP_hunter CEREAN_SHIP_intractable CEREAN_SHIP_ithor_lady CEREAN_SHIP_justice_crusader CEREAN_SHIP_kana_s_steel CEREAN_SHIP_lathir CEREAN_SHIP_liberty CEREAN_SHIP_lillibanca CEREAN_SHIP_maelstrom CEREAN_SHIP_malachite_scent CEREAN_SHIP_mercy CEREAN_SHIP_myrkos CEREAN_SHIP_nebula_chaser CEREAN_SHIP_nova CEREAN_SHIP_nova_viper CEREAN_SHIP_obedience CEREAN_SHIP_olemp CEREAN_SHIP_pegasus CEREAN_SHIP_perspicacity CEREAN_SHIP_phalanx CEREAN_SHIP_plooriod_bodkin CEREAN_SHIP_predominance CEREAN_SHIP_prosperity CEREAN_SHIP_purity CEREAN_SHIP_recalcitrant CEREAN_SHIP_red_nova CEREAN_SHIP_redma CEREAN_SHIP_reliable CEREAN_SHIP_reliant CEREAN_SHIP_reluctant CEREAN_SHIP_republic CEREAN_SHIP_republic_s_return CEREAN_SHIP_resolve CEREAN_SHIP_respectable CEREAN_SHIP_revenge CEREAN_SHIP_shadowblade CEREAN_SHIP_spritespray CEREAN_SHIP_star_dream CEREAN_SHIP_stark_wing CEREAN_SHIP_starveil CEREAN_SHIP_undying CEREAN_SHIP_vaathkree CEREAN_SHIP_vainglorious CEREAN_SHIP_valiant CEREAN_SHIP_valor CEREAN_SHIP_vanquisher CEREAN_SHIP_vinsor CEREAN_SHIP_visseon CEREAN_SHIP_wennis CEREAN_SHIP_yavin_s_glory CEREAN_SHIP_moldy_crow CEREAN_SHIP_raven_s_claw CEREAN_SHIP_agile CEREAN_SHIP_archer CEREAN_SHIP_arrow CEREAN_SHIP_bruiser CEREAN_SHIP_cherub CEREAN_SHIP_chimera CEREAN_SHIP_claymore CEREAN_SHIP_broadsword CEREAN_SHIP_battleaxe CEREAN_SHIP_crossbow CEREAN_SHIP_cutlass CEREAN_SHIP_deterrent CEREAN_SHIP_errant CEREAN_SHIP_faithful CEREAN_SHIP_fierce CEREAN_SHIP_gladius CEREAN_SHIP_longbow CEREAN_SHIP_grappler CEREAN_SHIP_hammer CEREAN_SHIP_vampire CEREAN_SHIP_velox CEREAN_SHIP_venator CEREAN_SHIP_vendetta CEREAN_SHIP_venerable CEREAN_SHIP_venomous CEREAN_SHIP_taciturn CEREAN_SHIP_supreme CEREAN_SHIP_success CEREAN_SHIP_shredder CEREAN_SHIP_seraph CEREAN_SHIP_serpent CEREAN_SHIP_spitfire CEREAN_SHIP_stalker CEREAN_SHIP_stratagem CEREAN_SHIP_scimitar CEREAN_SHIP_scorcher CEREAN_SHIP_scourge CEREAN_SHIP_scythe CEREAN_SHIP_revenant CEREAN_SHIP_redoubtable CEREAN_SHIP_raptor CEREAN_SHIP_reaver CEREAN_SHIP_prodigal CEREAN_SHIP_rapier CEREAN_SHIP_prudent CEREAN_SHIP_persistent CEREAN_SHIP_peerless CEREAN_SHIP_myrmidon CEREAN_SHIP_indignant CEREAN_SHIP_javelin CEREAN_SHIP_knight CEREAN_SHIP_starwolf CEREAN_SHIP_bonaventure CEREAN_SHIP_adventure CEREAN_SHIP_boxer CEREAN_SHIP_buccaneer CEREAN_SHIP_cavalier CEREAN_SHIP_celestial CEREAN_SHIP_chariot CEREAN_SHIP_comet CEREAN_SHIP_crucible CEREAN_SHIP_cyclone CEREAN_SHIP_decisive CEREAN_SHIP_dexterous CEREAN_SHIP_diadem CEREAN_SHIP_earnest CEREAN_SHIP_eclipse CEREAN_SHIP_forger CEREAN_SHIP_fortune CEREAN_SHIP_gauntlet CEREAN_SHIP_griffin CEREAN_SHIP_horizon CEREAN_SHIP_hotspur CEREAN_SHIP_hurricane CEREAN_SHIP_hussar CEREAN_SHIP_jubilant CEREAN_SHIP_lancer CEREAN_SHIP_lightning CEREAN_SHIP_magic CEREAN_SHIP_mediator CEREAN_SHIP_mermaid CEREAN_SHIP_meteor CEREAN_SHIP_minstrel CEREAN_SHIP_miranda CEREAN_SHIP_mustang CEREAN_SHIP_sharpshooter CEREAN_SHIP_cyclops CEREAN_SHIP_centaur CEREAN_SHIP_adversary CEREAN_SHIP_assassin CEREAN_SHIP_dagger CEREAN_SHIP_daring CEREAN_SHIP_duty CEREAN_SHIP_havoc CEREAN_SHIP_hero CEREAN_SHIP_hunter CEREAN_SHIP_justice CEREAN_SHIP_impeccable CEREAN_SHIP_interceptor CEREAN_SHIP_infernal CEREAN_SHIP_loyal CEREAN_SHIP_matchless CEREAN_SHIP_mauler CEREAN_SHIP_mayhem CEREAN_SHIP_malice CEREAN_SHIP_menace CEREAN_SHIP_merciless CEREAN_SHIP_mischief CEREAN_SHIP_monarch CEREAN_SHIP_patriot CEREAN_SHIP_predator CEREAN_SHIP_powerful CEREAN_SHIP_punisher CEREAN_SHIP_ravager CEREAN_SHIP_reaper CEREAN_SHIP_savage CEREAN_SHIP_spiteful CEREAN_SHIP_templar CEREAN_SHIP_terminator CEREAN_SHIP_terror CEREAN_SHIP_thrasher CEREAN_SHIP_minotaur CEREAN_SHIP_manticore CEREAN_SHIP_interdictor CEREAN_SHIP_intruder CEREAN_SHIP_hydra CEREAN_SHIP_enfield CEREAN_SHIP_harasser CEREAN_SHIP_unbeaten CEREAN_SHIP_werewolf CEREAN_SHIP_zealous CEREAN_SHIP_petulant CEREAN_SHIP_phantom CEREAN_SHIP_phoenix CEREAN_SHIP_pike CEREAN_SHIP_pursuer CEREAN_SHIP_raider CEREAN_SHIP_rainbow CEREAN_SHIP_rapid CEREAN_SHIP_redemption CEREAN_SHIP_relentless CEREAN_SHIP_rigorous CEREAN_SHIP_robust CEREAN_SHIP_sabre CEREAN_SHIP_salvation CEREAN_SHIP_sanguine CEREAN_SHIP_scarab CEREAN_SHIP_scepter CEREAN_SHIP_sea_witch CEREAN_SHIP_siren CEREAN_SHIP_sorceress CEREAN_SHIP_spearhead CEREAN_SHIP_specter CEREAN_SHIP_spirit CEREAN_SHIP_splendid CEREAN_SHIP_stallion CEREAN_SHIP_stalwart CEREAN_SHIP_steadfast CEREAN_SHIP_strenuous CEREAN_SHIP_superb CEREAN_SHIP_supernova CEREAN_SHIP_surprise CEREAN_SHIP_swiftsure CEREAN_SHIP_talent CEREAN_SHIP_talisman CEREAN_SHIP_talon CEREAN_SHIP_taurus CEREAN_SHIP_tenacious CEREAN_SHIP_thunder_child CEREAN_SHIP_thunderous CEREAN_SHIP_tireless CEREAN_SHIP_trenchant CEREAN_SHIP_righteous CEREAN_SHIP_acheron CEREAN_SHIP_achilles CEREAN_SHIP_agamemnon CEREAN_SHIP_amphion CEREAN_SHIP_aquilon CEREAN_SHIP_argonaut CEREAN_SHIP_argus CEREAN_SHIP_ariel CEREAN_SHIP_aurora CEREAN_SHIP_avernus CEREAN_SHIP_bacchus CEREAN_SHIP_bucephalus CEREAN_SHIP_calliope CEREAN_SHIP_calypso CEREAN_SHIP_castor CEREAN_SHIP_charybdis CEREAN_SHIP_circe CEREAN_SHIP_cleopatra CEREAN_SHIP_constantine CEREAN_SHIP_cordelia CEREAN_SHIP_cyrus CEREAN_SHIP_damocles CEREAN_SHIP_daedalus CEREAN_SHIP_darius CEREAN_SHIP_diomede CEREAN_SHIP_dryad CEREAN_SHIP_electra CEREAN_SHIP_endymion CEREAN_SHIP_erebus CEREAN_SHIP_fenris CEREAN_SHIP_freya CEREAN_SHIP_gilgamesh CEREAN_SHIP_gorgon CEREAN_SHIP_halcyon CEREAN_SHIP_hecate CEREAN_SHIP_hector CEREAN_SHIP_hesperus CEREAN_SHIP_janus CEREAN_SHIP_jason CEREAN_SHIP_juno CEREAN_SHIP_jupiter CEREAN_SHIP_lancelot CEREAN_SHIP_lazarus CEREAN_SHIP_leander CEREAN_SHIP_leonidas CEREAN_SHIP_lysander CEREAN_SHIP_maenad CEREAN_SHIP_mars CEREAN_SHIP_medea CEREAN_SHIP_medusa CEREAN_SHIP_menestheus CEREAN_SHIP_mercury CEREAN_SHIP_merlin CEREAN_SHIP_minerva CEREAN_SHIP_minos CEREAN_SHIP_neptune CEREAN_SHIP_nessus CEREAN_SHIP_nestor CEREAN_SHIP_nimrod CEREAN_SHIP_niobe CEREAN_SHIP_oberon CEREAN_SHIP_odin CEREAN_SHIP_ophelia CEREAN_SHIP_orestes CEREAN_SHIP_orpheus CEREAN_SHIP_osiris CEREAN_SHIP_pandora CEREAN_SHIP_penelope CEREAN_SHIP_persephone CEREAN_SHIP_perseus CEREAN_SHIP_phoebe CEREAN_SHIP_pluto CEREAN_SHIP_poseidon CEREAN_SHIP_proteus CEREAN_SHIP_pylades CEREAN_SHIP_serapis CEREAN_SHIP_stygian CEREAN_SHIP_tantalus CEREAN_SHIP_telemachus CEREAN_SHIP_theseus CEREAN_SHIP_thor CEREAN_SHIP_trajan CEREAN_SHIP_triton CEREAN_SHIP_venus CEREAN_SHIP_adamant CEREAN_SHIP_ardent CEREAN_SHIP_assail CEREAN_SHIP_austere CEREAN_SHIP_archon CEREAN_SHIP_adroit CEREAN_SHIP_aegis CEREAN_SHIP_anchor CEREAN_SHIP_corsair CEREAN_SHIP_banshee CEREAN_SHIP_enchantress CEREAN_SHIP_eradicator CEREAN_SHIP_tormentor CEREAN_SHIP_legion CEREAN_SHIP_reprisal CEREAN_SHIP_aggressor CEREAN_SHIP_assault CEREAN_SHIP_eviscerator CEREAN_SHIP_imperator CEREAN_SHIP_excellence CEREAN_SHIP_unrivalled CEREAN_SHIP_warlord CEREAN_SHIP_vengeance CEREAN_SHIP_triumphant CEREAN_SHIP_nemesis CEREAN_SHIP_avenger CEREAN_SHIP_champion CEREAN_SHIP_conqueror CEREAN_SHIP_crusader CEREAN_SHIP_glory CEREAN_SHIP_immortal CEREAN_SHIP_judicator CEREAN_SHIP_vanguard CEREAN_SHIP_renown CEREAN_SHIP_demolisher CEREAN_SHIP_dragon CEREAN_SHIP_executor CEREAN_SHIP_furious CEREAN_SHIP_gladiator CEREAN_SHIP_magnificent CEREAN_SHIP_ogre CEREAN_SHIP_onslaught CEREAN_SHIP_revenge CEREAN_SHIP_vanquisher CEREAN_SHIP_vehement CEREAN_SHIP_basilisk CEREAN_SHIP_tempest CEREAN_SHIP_overlord CEREAN_SHIP_warrior CEREAN_SHIP_titan CEREAN_SHIP_colossus CEREAN_SHIP_prometheus CEREAN_SHIP_nike CEREAN_SHIP_paladin CEREAN_SHIP_sovereign CEREAN_SHIP_repulse CEREAN_SHIP_majestic CEREAN_SHIP_avatar CEREAN_SHIP_behemoth CEREAN_SHIP_centurion CEREAN_SHIP_citadel CEREAN_SHIP_katana CEREAN_SHIP_kraken CEREAN_SHIP_cerberus CEREAN_SHIP_valkyrie
+		}
+		swp_bellator = {
+			CEREAN_SHIP_dreadnought CEREAN_SHIP_harbinger CEREAN_SHIP_juggernaut CEREAN_SHIP_leviathan CEREAN_SHIP_hyperion CEREAN_SHIP_galatea CEREAN_SHIP_ambush CEREAN_SHIP_vindicator
+		}
+		science = {
+			CEREAN_SHIP_crescent CEREAN_SHIP_diligent CEREAN_SHIP_zephyr CEREAN_SHIP_enigma CEREAN_SHIP_conquistador CEREAN_SHIP_scylla CEREAN_SHIP_arbiter CEREAN_SHIP_asperity CEREAN_SHIP_eminence CEREAN_SHIP_astute CEREAN_SHIP_alacrity CEREAN_SHIP_satyr CEREAN_SHIP_prospero CEREAN_SHIP_untiring CEREAN_SHIP_zenith CEREAN_SHIP_torch CEREAN_SHIP_remembrance CEREAN_SHIP_pilgrim CEREAN_SHIP_trailblazer CEREAN_SHIP_vagabond CEREAN_SHIP_wayfarer CEREAN_SHIP_ambassador CEREAN_SHIP_emissary CEREAN_SHIP_nomad CEREAN_SHIP_pathfinder CEREAN_SHIP_wanderer CEREAN_SHIP_traveler
+		}
+		colonizer = {
+			CEREAN_SHIP_godspeed CEREAN_SHIP_prophecy CEREAN_SHIP_manifest_destiny CEREAN_SHIP_virtue CEREAN_SHIP_potential CEREAN_SHIP_expansion CEREAN_SHIP_pioneer_spirit CEREAN_SHIP_prosperity CEREAN_SHIP_summit CEREAN_SHIP_pinnacle CEREAN_SHIP_seeder CEREAN_SHIP_harvest CEREAN_SHIP_demeter CEREAN_SHIP_isis CEREAN_SHIP_ceres CEREAN_SHIP_exodus CEREAN_SHIP_foundation CEREAN_SHIP_scion CEREAN_SHIP_progeny CEREAN_SHIP_obligation CEREAN_SHIP_purpose CEREAN_SHIP_provider CEREAN_SHIP_shining_city CEREAN_SHIP_acquirer CEREAN_SHIP_cultivator CEREAN_SHIP_dawn_of_civilization CEREAN_SHIP_purity CEREAN_SHIP_community CEREAN_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			CEREAN_SHIP_godspeed CEREAN_SHIP_prophecy CEREAN_SHIP_manifest_destiny CEREAN_SHIP_virtue CEREAN_SHIP_potential CEREAN_SHIP_expansion CEREAN_SHIP_pioneer_spirit CEREAN_SHIP_prosperity CEREAN_SHIP_summit CEREAN_SHIP_pinnacle CEREAN_SHIP_seeder CEREAN_SHIP_harvest CEREAN_SHIP_isis CEREAN_SHIP_ceres CEREAN_SHIP_exodus CEREAN_SHIP_foundation CEREAN_SHIP_scion CEREAN_SHIP_progeny CEREAN_SHIP_obligation CEREAN_SHIP_purpose CEREAN_SHIP_provider CEREAN_SHIP_shining_city CEREAN_SHIP_acquirer CEREAN_SHIP_cultivator CEREAN_SHIP_dawn_of_civilization CEREAN_SHIP_purity CEREAN_SHIP_community CEREAN_SHIP_brotherhood
+		}
+		constructor = {
+			CEREAN_SHIP_industry CEREAN_SHIP_assiduity CEREAN_SHIP_effort CEREAN_SHIP_laborer CEREAN_SHIP_builder CEREAN_SHIP_craftsman CEREAN_SHIP_hard_hat CEREAN_SHIP_progress CEREAN_SHIP_engineer CEREAN_SHIP_promise CEREAN_SHIP_service CEREAN_SHIP_shelter CEREAN_SHIP_beast CEREAN_SHIP_creator CEREAN_SHIP_developer CEREAN_SHIP_forger CEREAN_SHIP_foundry CEREAN_SHIP_factory CEREAN_SHIP_anvil CEREAN_SHIP_pillar CEREAN_SHIP_architect CEREAN_SHIP_accommodator CEREAN_SHIP_ptah CEREAN_SHIP_ilmarinen CEREAN_SHIP_creidhne CEREAN_SHIP_gobannus CEREAN_SHIP_luchtaine CEREAN_SHIP_goibniu CEREAN_SHIP_vishvakarman CEREAN_SHIP_tvastar CEREAN_SHIP_ikenga CEREAN_SHIP_qaynan CEREAN_SHIP_ucuetis CEREAN_SHIP_ogoun
+		}
+		transport = {
+			CEREAN_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			CEREAN_SHIP_spacegun_victory CEREAN_SHIP_spacegun_success CEREAN_SHIP_spacegun_supremacy CEREAN_SHIP_spacegun_superior CEREAN_SHIP_spacegun_adventure CEREAN_SHIP_spacegun_ascendancy CEREAN_SHIP_spacegun_paramount CEREAN_SHIP_spacegun_preponderous CEREAN_SHIP_spacegun_exemplary CEREAN_SHIP_spacegun_eximious CEREAN_SHIP_spacegun_pertinacity CEREAN_SHIP_spacegun_acclaim CEREAN_SHIP_spacegun_honor CEREAN_SHIP_spacegun_renown CEREAN_SHIP_spacegun_glory CEREAN_SHIP_spacegun_superb CEREAN_SHIP_spacegun_magnificence CEREAN_SHIP_spacegun_majestic CEREAN_SHIP_spacegun_splendor CEREAN_SHIP_spacegun_paradigm CEREAN_SHIP_spacegun_flawless CEREAN_SHIP_spacegun_consummate CEREAN_SHIP_spacegun_merit CEREAN_SHIP_spacegun_perfection CEREAN_SHIP_spacegun_virtue CEREAN_SHIP_spacegun_advantage CEREAN_SHIP_spacegun_rectitude CEREAN_SHIP_spacegun_incorruptible CEREAN_SHIP_spacegun_integrity CEREAN_SHIP_spacegun_justice CEREAN_SHIP_spacegun_probity CEREAN_SHIP_spacegun_prudence CEREAN_SHIP_spacegun_purity CEREAN_SHIP_spacegun_resolute CEREAN_SHIP_spacegun_dignity CEREAN_SHIP_spacegun_distinction CEREAN_SHIP_spacegun_excellence CEREAN_SHIP_spacegun_faithful CEREAN_SHIP_spacegun_discipline CEREAN_SHIP_spacegun_steadfast CEREAN_SHIP_spacegun_recompense CEREAN_SHIP_spacegun_requiem CEREAN_SHIP_spacegun_courage CEREAN_SHIP_spacegun_valor CEREAN_SHIP_spacegun_gallant CEREAN_SHIP_spacegun_daring CEREAN_SHIP_spacegun_constancy CEREAN_SHIP_spacegun_perseverence CEREAN_SHIP_spacegun_tenacity CEREAN_SHIP_spacegun_sedulity CEREAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			CEREAN_SHIP_spacegun_victory CEREAN_SHIP_spacegun_success CEREAN_SHIP_spacegun_supremacy CEREAN_SHIP_spacegun_superior CEREAN_SHIP_spacegun_adventure CEREAN_SHIP_spacegun_ascendancy CEREAN_SHIP_spacegun_paramount CEREAN_SHIP_spacegun_preponderous CEREAN_SHIP_spacegun_exemplary CEREAN_SHIP_spacegun_eximious CEREAN_SHIP_spacegun_pertinacity CEREAN_SHIP_spacegun_acclaim CEREAN_SHIP_spacegun_honor CEREAN_SHIP_spacegun_renown CEREAN_SHIP_spacegun_glory CEREAN_SHIP_spacegun_superb CEREAN_SHIP_spacegun_magnificence CEREAN_SHIP_spacegun_majestic CEREAN_SHIP_spacegun_splendor CEREAN_SHIP_spacegun_paradigm CEREAN_SHIP_spacegun_flawless CEREAN_SHIP_spacegun_consummate CEREAN_SHIP_spacegun_merit CEREAN_SHIP_spacegun_perfection CEREAN_SHIP_spacegun_virtue CEREAN_SHIP_spacegun_advantage CEREAN_SHIP_spacegun_rectitude CEREAN_SHIP_spacegun_incorruptible CEREAN_SHIP_spacegun_integrity CEREAN_SHIP_spacegun_justice CEREAN_SHIP_spacegun_probity CEREAN_SHIP_spacegun_prudence CEREAN_SHIP_spacegun_purity CEREAN_SHIP_spacegun_resolute CEREAN_SHIP_spacegun_dignity CEREAN_SHIP_spacegun_distinction CEREAN_SHIP_spacegun_excellence CEREAN_SHIP_spacegun_faithful CEREAN_SHIP_spacegun_discipline CEREAN_SHIP_spacegun_steadfast CEREAN_SHIP_spacegun_recompense CEREAN_SHIP_spacegun_requiem CEREAN_SHIP_spacegun_courage CEREAN_SHIP_spacegun_valor CEREAN_SHIP_spacegun_gallant CEREAN_SHIP_spacegun_daring CEREAN_SHIP_spacegun_constancy CEREAN_SHIP_spacegun_perseverence CEREAN_SHIP_spacegun_tenacity CEREAN_SHIP_spacegun_sedulity CEREAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			CEREAN_SHIP_spacegun_victory CEREAN_SHIP_spacegun_success CEREAN_SHIP_spacegun_supremacy CEREAN_SHIP_spacegun_superior CEREAN_SHIP_spacegun_adventure CEREAN_SHIP_spacegun_ascendancy CEREAN_SHIP_spacegun_paramount CEREAN_SHIP_spacegun_preponderous CEREAN_SHIP_spacegun_exemplary CEREAN_SHIP_spacegun_eximious CEREAN_SHIP_spacegun_pertinacity CEREAN_SHIP_spacegun_acclaim CEREAN_SHIP_spacegun_honor CEREAN_SHIP_spacegun_renown CEREAN_SHIP_spacegun_glory CEREAN_SHIP_spacegun_superb CEREAN_SHIP_spacegun_magnificence CEREAN_SHIP_spacegun_majestic CEREAN_SHIP_spacegun_splendor CEREAN_SHIP_spacegun_paradigm CEREAN_SHIP_spacegun_flawless CEREAN_SHIP_spacegun_consummate CEREAN_SHIP_spacegun_merit CEREAN_SHIP_spacegun_perfection CEREAN_SHIP_spacegun_virtue CEREAN_SHIP_spacegun_advantage CEREAN_SHIP_spacegun_rectitude CEREAN_SHIP_spacegun_incorruptible CEREAN_SHIP_spacegun_integrity CEREAN_SHIP_spacegun_justice CEREAN_SHIP_spacegun_probity CEREAN_SHIP_spacegun_prudence CEREAN_SHIP_spacegun_purity CEREAN_SHIP_spacegun_resolute CEREAN_SHIP_spacegun_dignity CEREAN_SHIP_spacegun_distinction CEREAN_SHIP_spacegun_excellence CEREAN_SHIP_spacegun_faithful CEREAN_SHIP_spacegun_discipline CEREAN_SHIP_spacegun_steadfast CEREAN_SHIP_spacegun_recompense CEREAN_SHIP_spacegun_requiem CEREAN_SHIP_spacegun_courage CEREAN_SHIP_spacegun_valor CEREAN_SHIP_spacegun_gallant CEREAN_SHIP_spacegun_daring CEREAN_SHIP_spacegun_constancy CEREAN_SHIP_spacegun_perseverence CEREAN_SHIP_spacegun_tenacity CEREAN_SHIP_spacegun_sedulity CEREAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			CEREAN_SHIP_citadel CEREAN_SHIP_albacore CEREAN_SHIP_gateway CEREAN_SHIP_vincent CEREAN_SHIP_babylon CEREAN_SHIP_caernavon CEREAN_SHIP_acre CEREAN_SHIP_pembroke CEREAN_SHIP_acheron CEREAN_SHIP_spithead CEREAN_SHIP_halifax CEREAN_SHIP_victoria CEREAN_SHIP_chatham CEREAN_SHIP_anchorage CEREAN_SHIP_scapa_flow CEREAN_SHIP_hampton_roads CEREAN_SHIP_brooklyn CEREAN_SHIP_norfolk CEREAN_SHIP_newport CEREAN_SHIP_guam CEREAN_SHIP_pensacola CEREAN_SHIP_vesuvius CEREAN_SHIP_mckinley CEREAN_SHIP_everest CEREAN_SHIP_kilimanjaro CEREAN_SHIP_aconcagua CEREAN_SHIP_elbrus CEREAN_SHIP_st__helens CEREAN_SHIP_fuji CEREAN_SHIP_olympus CEREAN_SHIP_sinai CEREAN_SHIP_ambrose CEREAN_SHIP_bermuda CEREAN_SHIP_farpoint CEREAN_SHIP_blue_star CEREAN_SHIP_olympus_mons CEREAN_SHIP_tharsis CEREAN_SHIP_syrtis CEREAN_SHIP_blackham CEREAN_SHIP_fletcher CEREAN_SHIP_perry CEREAN_SHIP_butakov CEREAN_SHIP_morris CEREAN_SHIP_moorsom CEREAN_SHIP_hart CEREAN_SHIP_hargood CEREAN_SHIP_spruance CEREAN_SHIP_tanaka CEREAN_SHIP_halsey CEREAN_SHIP_turner CEREAN_SHIP_doria CEREAN_SHIP_tirpitz CEREAN_SHIP_cunningham CEREAN_SHIP_jellicoe CEREAN_SHIP_hipper CEREAN_SHIP_beatty CEREAN_SHIP_potemkin CEREAN_SHIP_durham CEREAN_SHIP_codrington CEREAN_SHIP_milne CEREAN_SHIP_laforey CEREAN_SHIP_tyler CEREAN_SHIP_hawke CEREAN_SHIP_yonai CEREAN_SHIP_pound CEREAN_SHIP_king CEREAN_SHIP_crutchley CEREAN_SHIP_mountbatten CEREAN_SHIP_kountouriotis CEREAN_SHIP_kuznetsov CEREAN_SHIP_essen CEREAN_SHIP_kornilov CEREAN_SHIP_suffren CEREAN_SHIP_treville CEREAN_SHIP_villeneuve CEREAN_SHIP_grasse CEREAN_SHIP_byng CEREAN_SHIP_lezo
+		}
+		ion_cannon = {
+			CEREAN_SHIP_bombard CEREAN_SHIP_ballista CEREAN_SHIP_catapult CEREAN_SHIP_harpoon CEREAN_SHIP_polybolos CEREAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			CEREAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			CEREAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			CEREAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			CEREAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			CEREAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			CEREAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			CEREAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			CEREAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			CEREAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			CEREAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			CEREAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			CEREAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			CEREAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			CEREAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			CEREAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			CEREAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			CEREAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			CEREAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			CEREAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			CEREAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			CEREAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			CEREAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			CEREAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			CEREAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			CEREAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			CEREAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			CEREAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			CEREAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			CEREAN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			CEREAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			CEREAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			CEREAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			CEREAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			CEREAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			CEREAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			CEREAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			CEREAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			CEREAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			CEREAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			CEREAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			CEREAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			CEREAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			CEREAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			CEREAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			CEREAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			CEREAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			CEREAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			CEREAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			CEREAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			CEREAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			CEREAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			CEREAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			CEREAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			CEREAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			CEREAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			CEREAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			CEREAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			CEREAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			CEREAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			CEREAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			CEREAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			CEREAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			CEREAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			CEREAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			CEREAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			CEREAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			CEREAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			CEREAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			CEREAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			CEREAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			CEREAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			CEREAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			CEREAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			CEREAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			CEREAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			CEREAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			CEREAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			CEREAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			CEREAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			CEREAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			CEREAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			CEREAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			CEREAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			CEREAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			CEREAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			CEREAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			CEREAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			CEREAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			CEREAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			CEREAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			CEREAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			CEREAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			CEREAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			CEREAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = CEREAN_FLEET_defense_fleet_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = CEREAN_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = CEREAN_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = CEREAN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = CEREAN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = CEREAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = CEREAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = CEREAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = CEREAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				CEREAN_ARMY_sarc_a__gladiators_ CEREAN_ARMY_sarc_b__widowmakers_ CEREAN_ARMY_sarc_c__immortals_ CEREAN_ARMY_sarc_d__berserkers_ CEREAN_ARMY_sarc_e__assassins_ CEREAN_ARMY_sarc_f__reapers_ CEREAN_ARMY_sarc_g__nighthawks_ CEREAN_ARMY_sarc_h__desperados_ CEREAN_ARMY_sarc_i__grey_knights_ CEREAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = CEREAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = CEREAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = CEREAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = CEREAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = CEREAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = CEREAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = CEREAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = CEREAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = CEREAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = CEREAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = CEREAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = CEREAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = CEREAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = CEREAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = CEREAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = CEREAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = CEREAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = CEREAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = CEREAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = CEREAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = CEREAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = CEREAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = CEREAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = CEREAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = CEREAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = CEREAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = CEREAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = CEREAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = CEREAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = CEREAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = CEREAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = CEREAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = CEREAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = CEREAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = CEREAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = CEREAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = CEREAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = CEREAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = CEREAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = CEREAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = CEREAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = CEREAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = CEREAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = CEREAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = CEREAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = CEREAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = CEREAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = CEREAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = CEREAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = CEREAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = CEREAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = CEREAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = CEREAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = CEREAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = CEREAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = CEREAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = CEREAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = CEREAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = CEREAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = CEREAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = CEREAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = CEREAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = CEREAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = CEREAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = CEREAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = CEREAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = CEREAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = CEREAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = CEREAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = CEREAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = CEREAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = CEREAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = CEREAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = CEREAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = CEREAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = CEREAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = CEREAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = CEREAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = CEREAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = CEREAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = CEREAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = CEREAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = CEREAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = CEREAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = CEREAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = CEREAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = CEREAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = CEREAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = CEREAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = CEREAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = CEREAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = CEREAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = CEREAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = CEREAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = CEREAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = CEREAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = CEREAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = CEREAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = CEREAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = CEREAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = CEREAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = CEREAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = CEREAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = CEREAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = CEREAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = CEREAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = CEREAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = CEREAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = CEREAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = CEREAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = CEREAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = CEREAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = CEREAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = CEREAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = CEREAN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = CEREAN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = CEREAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = CEREAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = CEREAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = CEREAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = CEREAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = CEREAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = CEREAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = CEREAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = CEREAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = CEREAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = CEREAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = CEREAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = CEREAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = CEREAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = CEREAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = CEREAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = CEREAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				CEREAN_CHR_bail CEREAN_CHR_ylenic CEREAN_CHR_kel CEREAN_CHR_gunn CEREAN_CHR_gregory CEREAN_CHR_abraxis CEREAN_CHR_jonas CEREAN_CHR_xerda CEREAN_CHR_carth CEREAN_CHR_kir CEREAN_CHR_mebba CEREAN_CHR_dagos CEREAN_CHR_adam CEREAN_CHR_kyle CEREAN_CHR_forren CEREAN_CHR_malcolm CEREAN_CHR_jeho CEREAN_CHR_lee CEREAN_CHR_griggs CEREAN_CHR_milo CEREAN_CHR_aeron CEREAN_CHR_byrec CEREAN_CHR_strata CEREAN_CHR_lancer CEREAN_CHR_zeak CEREAN_CHR_niuk CEREAN_CHR_lavidean CEREAN_CHR_tanizandar CEREAN_CHR_japla CEREAN_CHR_aran CEREAN_CHR_rail CEREAN_CHR_zeven CEREAN_CHR_yakown CEREAN_CHR_sibar CEREAN_CHR_sair CEREAN_CHR_klai CEREAN_CHR_jonas CEREAN_CHR_imay CEREAN_CHR_traest CEREAN_CHR_simo CEREAN_CHR_carth CEREAN_CHR_riyan CEREAN_CHR_magnus CEREAN_CHR_boceta CEREAN_CHR_agnook CEREAN_CHR_silus CEREAN_CHR_rowan CEREAN_CHR_coren CEREAN_CHR_jett CEREAN_CHR_linth CEREAN_CHR_annor CEREAN_CHR_ulas CEREAN_CHR_fenn CEREAN_CHR_tal CEREAN_CHR_plo CEREAN_CHR_torin CEREAN_CHR_imay CEREAN_CHR_boone CEREAN_CHR_davith CEREAN_CHR_jorgen CEREAN_CHR_bertos CEREAN_CHR_ress CEREAN_CHR_malius CEREAN_CHR_kale CEREAN_CHR_cregan CEREAN_CHR_galen CEREAN_CHR_zekk CEREAN_CHR_jinn_tu CEREAN_CHR_jaryn CEREAN_CHR_gentti CEREAN_CHR_yu_sien CEREAN_CHR_akela CEREAN_CHR_arslan CEREAN_CHR_sidias CEREAN_CHR_haken CEREAN_CHR_biran CEREAN_CHR_vidown CEREAN_CHR_ares CEREAN_CHR_ithan CEREAN_CHR_cul_utaan CEREAN_CHR_thoja CEREAN_CHR_cron CEREAN_CHR_mossi CEREAN_CHR_abric CEREAN_CHR_darg CEREAN_CHR_gaman CEREAN_CHR_naiad CEREAN_CHR_herub CEREAN_CHR_marius CEREAN_CHR_torkin CEREAN_CHR_caton CEREAN_CHR_kane CEREAN_CHR_versita CEREAN_CHR_cric CEREAN_CHR_foxdi CEREAN_CHR_montacca CEREAN_CHR_jospi CEREAN_CHR_baz CEREAN_CHR_kam CEREAN_CHR_erek CEREAN_CHR_arslan CEREAN_CHR_lerak CEREAN_CHR_morla CEREAN_CHR_baxter CEREAN_CHR_talan CEREAN_CHR_thion CEREAN_CHR_kannon CEREAN_CHR_corsair CEREAN_CHR_caster CEREAN_CHR_elden CEREAN_CHR_faelgrom CEREAN_CHR_jack CEREAN_CHR_raltharan CEREAN_CHR_flash CEREAN_CHR_waseem CEREAN_CHR_bendak CEREAN_CHR_kaz CEREAN_CHR_montileu CEREAN_CHR_gonoga CEREAN_CHR_silus CEREAN_CHR_galven CEREAN_CHR_vincenzo CEREAN_CHR_ric CEREAN_CHR_rebar CEREAN_CHR_jebediah CEREAN_CHR_aramil CEREAN_CHR_abraxis CEREAN_CHR_delmi CEREAN_CHR_caalin CEREAN_CHR_rassth CEREAN_CHR_adorn CEREAN_CHR_cyrus CEREAN_CHR_zhar_khan CEREAN_CHR_adam CEREAN_CHR_predor CEREAN_CHR_tarlson CEREAN_CHR_boaz CEREAN_CHR_bradley CEREAN_CHR_gunn CEREAN_CHR_raltharan CEREAN_CHR_zerrid CEREAN_CHR_bobecc CEREAN_CHR_jelantos CEREAN_CHR_jephego CEREAN_CHR_svante CEREAN_CHR_tesvalo CEREAN_CHR_aeon CEREAN_CHR_dekar CEREAN_CHR_jean_francois CEREAN_CHR_elen CEREAN_CHR_han CEREAN_CHR_owen CEREAN_CHR_biggs
+			}
+			first_names_female = {
+				CEREAN_CHR_charratha CEREAN_CHR_edaara CEREAN_CHR_bella CEREAN_CHR_callista CEREAN_CHR_mara CEREAN_CHR_seena CEREAN_CHR_areta CEREAN_CHR_cord CEREAN_CHR_cyrinity CEREAN_CHR_nile CEREAN_CHR_kiyfi CEREAN_CHR_yasmyn CEREAN_CHR_satra CEREAN_CHR_shehish CEREAN_CHR_sarna CEREAN_CHR_krava CEREAN_CHR_roxis CEREAN_CHR_jessa CEREAN_CHR_aqua CEREAN_CHR_maryna CEREAN_CHR_essaj CEREAN_CHR_looriw CEREAN_CHR_teeana CEREAN_CHR_raena CEREAN_CHR_yula CEREAN_CHR_vifi CEREAN_CHR_vania CEREAN_CHR_jeanida CEREAN_CHR_aerena CEREAN_CHR_nataya CEREAN_CHR_bernarda CEREAN_CHR_geela CEREAN_CHR_lya CEREAN_CHR_sirra CEREAN_CHR_teris CEREAN_CHR_terral CEREAN_CHR_nile CEREAN_CHR_riema CEREAN_CHR_erri CEREAN_CHR_shanna CEREAN_CHR_lyra CEREAN_CHR_pranda CEREAN_CHR_luna CEREAN_CHR_cally CEREAN_CHR_viqi CEREAN_CHR_hadriel CEREAN_CHR_lora CEREAN_CHR_selena CEREAN_CHR_zana CEREAN_CHR_tuija CEREAN_CHR_railin CEREAN_CHR_odona CEREAN_CHR_shyon CEREAN_CHR_walas CEREAN_CHR_rylla CEREAN_CHR_gara CEREAN_CHR_delos CEREAN_CHR_loretta CEREAN_CHR_luhon CEREAN_CHR_delinia CEREAN_CHR_aama CEREAN_CHR_shorya CEREAN_CHR_melfina CEREAN_CHR_davessi CEREAN_CHR_larana CEREAN_CHR_galatea CEREAN_CHR_nola CEREAN_CHR_syna CEREAN_CHR_jauhzmynn CEREAN_CHR_anen CEREAN_CHR_orona CEREAN_CHR_yana CEREAN_CHR_zoras CEREAN_CHR_ree CEREAN_CHR_grace CEREAN_CHR_tantema CEREAN_CHR_myn CEREAN_CHR_una CEREAN_CHR_dalharil CEREAN_CHR_losa CEREAN_CHR_sovi CEREAN_CHR_elaiza CEREAN_CHR_vucora CEREAN_CHR_ava CEREAN_CHR_joi CEREAN_CHR_stryka CEREAN_CHR_tantema CEREAN_CHR_shandra CEREAN_CHR_kely CEREAN_CHR_caileta CEREAN_CHR_taia CEREAN_CHR_siala CEREAN_CHR_reki CEREAN_CHR_maydla CEREAN_CHR_bot CEREAN_CHR_kiandra CEREAN_CHR_xilaren CEREAN_CHR_zulara CEREAN_CHR_ren CEREAN_CHR_karissa CEREAN_CHR_roxis CEREAN_CHR_haruko CEREAN_CHR_jenna CEREAN_CHR_liana CEREAN_CHR_rale CEREAN_CHR_megara CEREAN_CHR_aria CEREAN_CHR_akiva CEREAN_CHR_nalah CEREAN_CHR_erlem CEREAN_CHR_nali CEREAN_CHR_fallah CEREAN_CHR_kotrana CEREAN_CHR_aayla CEREAN_CHR_kalira CEREAN_CHR_arani CEREAN_CHR_fama CEREAN_CHR_lyyr CEREAN_CHR_arcas CEREAN_CHR_rane CEREAN_CHR_nayru CEREAN_CHR_zylas CEREAN_CHR_vexa CEREAN_CHR_kana CEREAN_CHR_beru
+			}
+			second_names = {
+				CEREAN_CHR_elysar CEREAN_CHR_tisa CEREAN_CHR_wahia CEREAN_CHR_wezz CEREAN_CHR_unic CEREAN_CHR_tiovata CEREAN_CHR_nakcohh CEREAN_CHR_vitaan CEREAN_CHR_mefrid CEREAN_CHR_daklan CEREAN_CHR_kenzee CEREAN_CHR_joben CEREAN_CHR_thegas CEREAN_CHR_moryne CEREAN_CHR_holgor CEREAN_CHR_ijaaz CEREAN_CHR_tromans CEREAN_CHR_sprax CEREAN_CHR_knesos CEREAN_CHR_magnus CEREAN_CHR_lasek CEREAN_CHR_artis CEREAN_CHR_pax CEREAN_CHR_corso CEREAN_CHR_fallon CEREAN_CHR_gundo CEREAN_CHR_ruana CEREAN_CHR_fremlin CEREAN_CHR_thont CEREAN_CHR_creel CEREAN_CHR_rar CEREAN_CHR_dusat CEREAN_CHR_kessler CEREAN_CHR_shaia CEREAN_CHR_el_theriam CEREAN_CHR_vanmeer CEREAN_CHR_vrieska CEREAN_CHR_calway CEREAN_CHR_yamaguchi CEREAN_CHR_riggers CEREAN_CHR_brower CEREAN_CHR_fash CEREAN_CHR_nalto CEREAN_CHR_stryder CEREAN_CHR_dubreas CEREAN_CHR_colsan CEREAN_CHR_terrek CEREAN_CHR_solon CEREAN_CHR_merquise CEREAN_CHR_varn CEREAN_CHR_basai CEREAN_CHR_froud CEREAN_CHR_addacess CEREAN_CHR_elysar CEREAN_CHR_durgen CEREAN_CHR_slahlvo CEREAN_CHR_remex CEREAN_CHR_madowki CEREAN_CHR_hayes CEREAN_CHR_ne CEREAN_CHR_dago CEREAN_CHR_greenback CEREAN_CHR_stithta CEREAN_CHR_ker CEREAN_CHR_driet CEREAN_CHR_klakk CEREAN_CHR_reed CEREAN_CHR_lefex CEREAN_CHR_minn CEREAN_CHR_irokini CEREAN_CHR_roye CEREAN_CHR_danakar CEREAN_CHR_forin CEREAN_CHR_glopio CEREAN_CHR_shenuri CEREAN_CHR_corcer CEREAN_CHR_ordo CEREAN_CHR_wan CEREAN_CHR_tagratt CEREAN_CHR_golladio CEREAN_CHR_adramcsia CEREAN_CHR_jetberg CEREAN_CHR_noth CEREAN_CHR_taske CEREAN_CHR_komo CEREAN_CHR_styles CEREAN_CHR_angavel CEREAN_CHR_tyrnith CEREAN_CHR_yavoog CEREAN_CHR_kelbier CEREAN_CHR_racto CEREAN_CHR_degor CEREAN_CHR_tisa CEREAN_CHR_magre CEREAN_CHR_soylon CEREAN_CHR_lerann CEREAN_CHR_chro CEREAN_CHR_finn CEREAN_CHR_blackmoor CEREAN_CHR_hwang CEREAN_CHR_vekarr CEREAN_CHR_thegas CEREAN_CHR_amon CEREAN_CHR_thiddex CEREAN_CHR_durgen CEREAN_CHR_selkayim CEREAN_CHR_gilder CEREAN_CHR_dhuramav CEREAN_CHR_kodd CEREAN_CHR_morin CEREAN_CHR_kobylarz CEREAN_CHR_tade CEREAN_CHR_solman CEREAN_CHR_bintaghr CEREAN_CHR_marclonus CEREAN_CHR_precore CEREAN_CHR_solborne CEREAN_CHR_bailer CEREAN_CHR_katarn CEREAN_CHR_anjek CEREAN_CHR_dalgas CEREAN_CHR_kast CEREAN_CHR_airerith CEREAN_CHR_halo CEREAN_CHR_tade CEREAN_CHR_clash CEREAN_CHR_jalba CEREAN_CHR_benn CEREAN_CHR_haruhana CEREAN_CHR_roice CEREAN_CHR_lokar CEREAN_CHR_korpil CEREAN_CHR_turon CEREAN_CHR_cavi CEREAN_CHR_deece CEREAN_CHR_braitano CEREAN_CHR_garnik CEREAN_CHR_tyandas CEREAN_CHR_ka_taramas CEREAN_CHR_nuwest CEREAN_CHR_forte CEREAN_CHR_noshey CEREAN_CHR_gyyll CEREAN_CHR_tallon CEREAN_CHR_lionne CEREAN_CHR_adras CEREAN_CHR_fremlin CEREAN_CHR_peoly CEREAN_CHR_damiel CEREAN_CHR_chup_pau CEREAN_CHR_drayven CEREAN_CHR_zaposug CEREAN_CHR_bela_trepada CEREAN_CHR_defelice CEREAN_CHR_monsula CEREAN_CHR_baralein CEREAN_CHR_denive CEREAN_CHR_hodrren CEREAN_CHR_xergo CEREAN_CHR_sarat CEREAN_CHR_vercet CEREAN_CHR_ossaki CEREAN_CHR_kappa CEREAN_CHR_zerga CEREAN_CHR_kopos CEREAN_CHR_aldrecht CEREAN_CHR_bohme CEREAN_CHR_tull CEREAN_CHR_eldrel CEREAN_CHR_marh CEREAN_CHR_darksword CEREAN_CHR_krandor CEREAN_CHR_montag CEREAN_CHR_dimodan CEREAN_CHR_starfallen CEREAN_CHR_artis CEREAN_CHR_fett CEREAN_CHR_mohebbi CEREAN_CHR_runalian CEREAN_CHR_binette CEREAN_CHR_laurent CEREAN_CHR_mavr CEREAN_CHR_ryra CEREAN_CHR_truden CEREAN_CHR_solo CEREAN_CHR_lars CEREAN_CHR_amedda CEREAN_CHR_amidala CEREAN_CHR_andrell CEREAN_CHR_annon CEREAN_CHR_antilles CEREAN_CHR_atanna CEREAN_CHR_baab CEREAN_CHR_barc CEREAN_CHR_bonteri CEREAN_CHR_breemu CEREAN_CHR_bremack CEREAN_CHR_bronk CEREAN_CHR_burtoni CEREAN_CHR_cadaman CEREAN_CHR_callen CEREAN_CHR_clovis CEREAN_CHR_ledwellow CEREAN_CHR_dio CEREAN_CHR_organa
+			}
+			regnal_first_names_male = {
+				CEREAN_CHR_kam CEREAN_CHR_erek CEREAN_CHR_arslan CEREAN_CHR_lerak CEREAN_CHR_morla CEREAN_CHR_mas CEREAN_CHR_wain CEREAN_CHR_bail CEREAN_CHR_gabrial CEREAN_CHR_dewell CEREAN_CHR_tanner CEREAN_CHR_vi CEREAN_CHR_rush CEREAN_CHR_danry
+			}
+			regnal_first_names_female = {
+				CEREAN_CHR_callista CEREAN_CHR_mara CEREAN_CHR_seena CEREAN_CHR_areta CEREAN_CHR_padm_ CEREAN_CHR_fema CEREAN_CHR_mina CEREAN_CHR_bana CEREAN_CHR_tyreca CEREAN_CHR_halle CEREAN_CHR_lexi CEREAN_CHR_leia CEREAN_CHR_alyssa CEREAN_CHR_leanna CEREAN_CHR_arya
+			}
+			regnal_second_names = {
+				CEREAN_CHR_amedda CEREAN_CHR_amidala CEREAN_CHR_andrell CEREAN_CHR_annon CEREAN_CHR_antilles CEREAN_CHR_atanna CEREAN_CHR_baab CEREAN_CHR_barc CEREAN_CHR_bonteri CEREAN_CHR_breemu CEREAN_CHR_bremack CEREAN_CHR_bronk CEREAN_CHR_burtoni CEREAN_CHR_cadaman CEREAN_CHR_callen CEREAN_CHR_clovis CEREAN_CHR_ledwellow CEREAN_CHR_dio CEREAN_CHR_panteer CEREAN_CHR_alde CEREAN_CHR_organa CEREAN_CHR_frayus CEREAN_CHR_cortess CEREAN_CHR_killesa
+			}
+		}
+	}
+}

@@ -1,0 +1,844 @@
+﻿Chalactan = {
+	randomized = no
+	ship_names = {
+		generic = {
+			CHALACTAN_SHIP_mystic CHALACTAN_SHIP_naiad CHALACTAN_SHIP_nautilus CHALACTAN_SHIP_nebula CHALACTAN_SHIP_nimble CHALACTAN_SHIP_north_star CHALACTAN_SHIP_nymph CHALACTAN_SHIP_obdurate CHALACTAN_SHIP_ocean CHALACTAN_SHIP_onward CHALACTAN_SHIP_oracle CHALACTAN_SHIP_paradox CHALACTAN_SHIP_paragon CHALACTAN_SHIP_pearl CHALACTAN_SHIP_peregrine CHALACTAN_SHIP_perseverance CHALACTAN_SHIP_marksman CHALACTAN_SHIP_rifleman CHALACTAN_SHIP_sniper CHALACTAN_SHIP_trident CHALACTAN_SHIP_trumpet CHALACTAN_SHIP_truncheon CHALACTAN_SHIP_typhoon CHALACTAN_SHIP_undaunted CHALACTAN_SHIP_venture CHALACTAN_SHIP_versatile CHALACTAN_SHIP_vigorous CHALACTAN_SHIP_viper CHALACTAN_SHIP_vivacious CHALACTAN_SHIP_winger CHALACTAN_SHIP_wizard CHALACTAN_SHIP_wyvern CHALACTAN_SHIP_wolfhound CHALACTAN_SHIP_devastator CHALACTAN_SHIP_warhammer CHALACTAN_SHIP_retribution CHALACTAN_SHIP_senator CHALACTAN_SHIP_tornado CHALACTAN_SHIP_infinity CHALACTAN_SHIP_usurper CHALACTAN_SHIP_utmost CHALACTAN_SHIP_valorous CHALACTAN_SHIP_whirlwind CHALACTAN_SHIP_athena CHALACTAN_SHIP_artemis CHALACTAN_SHIP_vigilance CHALACTAN_SHIP_decimator CHALACTAN_SHIP_indomitable CHALACTAN_SHIP_goliath CHALACTAN_SHIP_sentinel CHALACTAN_SHIP_brilliant CHALACTAN_SHIP_blazer CHALACTAN_SHIP_audacity CHALACTAN_SHIP_gallant CHALACTAN_SHIP_nova CHALACTAN_SHIP_shadow CHALACTAN_SHIP_allegiance CHALACTAN_SHIP_challenger CHALACTAN_SHIP_fearless CHALACTAN_SHIP_protector CHALACTAN_SHIP_guardian CHALACTAN_SHIP_victorious CHALACTAN_SHIP_courageous CHALACTAN_SHIP_defiance CHALACTAN_SHIP_valorous CHALACTAN_SHIP_azrael CHALACTAN_SHIP_adamantine CHALACTAN_SHIP_aralanni CHALACTAN_SHIP_ardent_iv CHALACTAN_SHIP_armistice CHALACTAN_SHIP_avengeance CHALACTAN_SHIP_ballista CHALACTAN_SHIP_bloodstripe CHALACTAN_SHIP_borealis CHALACTAN_SHIP_caelus CHALACTAN_SHIP_caravan CHALACTAN_SHIP_chaf_envoy CHALACTAN_SHIP_commenor CHALACTAN_SHIP_corbantis CHALACTAN_SHIP_corellia CHALACTAN_SHIP_courteous CHALACTAN_SHIP_dauntless CHALACTAN_SHIP_defiant CHALACTAN_SHIP_deliverance CHALACTAN_SHIP_derapha CHALACTAN_SHIP_devout CHALACTAN_SHIP_empirical CHALACTAN_SHIP_empyrean CHALACTAN_SHIP_era_daimanos CHALACTAN_SHIP_eye_of_the_storm CHALACTAN_SHIP_farstar CHALACTAN_SHIP_fastblast CHALACTAN_SHIP_galaaron CHALACTAN_SHIP_garrote CHALACTAN_SHIP_gilagimar CHALACTAN_SHIP_halleck CHALACTAN_SHIP_hunter CHALACTAN_SHIP_intractable CHALACTAN_SHIP_ithor_lady CHALACTAN_SHIP_justice_crusader CHALACTAN_SHIP_kana_s_steel CHALACTAN_SHIP_lathir CHALACTAN_SHIP_liberty CHALACTAN_SHIP_lillibanca CHALACTAN_SHIP_maelstrom CHALACTAN_SHIP_malachite_scent CHALACTAN_SHIP_mercy CHALACTAN_SHIP_myrkos CHALACTAN_SHIP_nebula_chaser CHALACTAN_SHIP_nova CHALACTAN_SHIP_nova_viper CHALACTAN_SHIP_obedience CHALACTAN_SHIP_olemp CHALACTAN_SHIP_pegasus CHALACTAN_SHIP_perspicacity CHALACTAN_SHIP_phalanx CHALACTAN_SHIP_plooriod_bodkin CHALACTAN_SHIP_predominance CHALACTAN_SHIP_prosperity CHALACTAN_SHIP_purity CHALACTAN_SHIP_recalcitrant CHALACTAN_SHIP_red_nova CHALACTAN_SHIP_redma CHALACTAN_SHIP_reliable CHALACTAN_SHIP_reliant CHALACTAN_SHIP_reluctant CHALACTAN_SHIP_republic CHALACTAN_SHIP_republic_s_return CHALACTAN_SHIP_resolve CHALACTAN_SHIP_respectable CHALACTAN_SHIP_revenge CHALACTAN_SHIP_shadowblade CHALACTAN_SHIP_spritespray CHALACTAN_SHIP_star_dream CHALACTAN_SHIP_stark_wing CHALACTAN_SHIP_starveil CHALACTAN_SHIP_undying CHALACTAN_SHIP_vaathkree CHALACTAN_SHIP_vainglorious CHALACTAN_SHIP_valiant CHALACTAN_SHIP_valor CHALACTAN_SHIP_vanquisher CHALACTAN_SHIP_vinsor CHALACTAN_SHIP_visseon CHALACTAN_SHIP_wennis CHALACTAN_SHIP_yavin_s_glory CHALACTAN_SHIP_moldy_crow CHALACTAN_SHIP_raven_s_claw CHALACTAN_SHIP_agile CHALACTAN_SHIP_archer CHALACTAN_SHIP_arrow CHALACTAN_SHIP_bruiser CHALACTAN_SHIP_cherub CHALACTAN_SHIP_chimera CHALACTAN_SHIP_claymore CHALACTAN_SHIP_broadsword CHALACTAN_SHIP_battleaxe CHALACTAN_SHIP_crossbow CHALACTAN_SHIP_cutlass CHALACTAN_SHIP_deterrent CHALACTAN_SHIP_errant CHALACTAN_SHIP_faithful CHALACTAN_SHIP_fierce CHALACTAN_SHIP_gladius CHALACTAN_SHIP_longbow CHALACTAN_SHIP_grappler CHALACTAN_SHIP_hammer CHALACTAN_SHIP_vampire CHALACTAN_SHIP_velox CHALACTAN_SHIP_venator CHALACTAN_SHIP_vendetta CHALACTAN_SHIP_venerable CHALACTAN_SHIP_venomous CHALACTAN_SHIP_taciturn CHALACTAN_SHIP_supreme CHALACTAN_SHIP_success CHALACTAN_SHIP_shredder CHALACTAN_SHIP_seraph CHALACTAN_SHIP_serpent CHALACTAN_SHIP_spitfire CHALACTAN_SHIP_stalker CHALACTAN_SHIP_stratagem CHALACTAN_SHIP_scimitar CHALACTAN_SHIP_scorcher CHALACTAN_SHIP_scourge CHALACTAN_SHIP_scythe CHALACTAN_SHIP_revenant CHALACTAN_SHIP_redoubtable CHALACTAN_SHIP_raptor CHALACTAN_SHIP_reaver CHALACTAN_SHIP_prodigal CHALACTAN_SHIP_rapier CHALACTAN_SHIP_prudent CHALACTAN_SHIP_persistent CHALACTAN_SHIP_peerless CHALACTAN_SHIP_myrmidon CHALACTAN_SHIP_indignant CHALACTAN_SHIP_javelin CHALACTAN_SHIP_knight CHALACTAN_SHIP_starwolf CHALACTAN_SHIP_bonaventure CHALACTAN_SHIP_adventure CHALACTAN_SHIP_boxer CHALACTAN_SHIP_buccaneer CHALACTAN_SHIP_cavalier CHALACTAN_SHIP_celestial CHALACTAN_SHIP_chariot CHALACTAN_SHIP_comet CHALACTAN_SHIP_crucible CHALACTAN_SHIP_cyclone CHALACTAN_SHIP_decisive CHALACTAN_SHIP_dexterous CHALACTAN_SHIP_diadem CHALACTAN_SHIP_earnest CHALACTAN_SHIP_eclipse CHALACTAN_SHIP_forger CHALACTAN_SHIP_fortune CHALACTAN_SHIP_gauntlet CHALACTAN_SHIP_griffin CHALACTAN_SHIP_horizon CHALACTAN_SHIP_hotspur CHALACTAN_SHIP_hurricane CHALACTAN_SHIP_hussar CHALACTAN_SHIP_jubilant CHALACTAN_SHIP_lancer CHALACTAN_SHIP_lightning CHALACTAN_SHIP_magic CHALACTAN_SHIP_mediator CHALACTAN_SHIP_mermaid CHALACTAN_SHIP_meteor CHALACTAN_SHIP_minstrel CHALACTAN_SHIP_miranda CHALACTAN_SHIP_mustang CHALACTAN_SHIP_sharpshooter CHALACTAN_SHIP_cyclops CHALACTAN_SHIP_centaur CHALACTAN_SHIP_adversary CHALACTAN_SHIP_assassin CHALACTAN_SHIP_dagger CHALACTAN_SHIP_daring CHALACTAN_SHIP_duty CHALACTAN_SHIP_havoc CHALACTAN_SHIP_hero CHALACTAN_SHIP_hunter CHALACTAN_SHIP_justice CHALACTAN_SHIP_impeccable CHALACTAN_SHIP_interceptor CHALACTAN_SHIP_infernal CHALACTAN_SHIP_loyal CHALACTAN_SHIP_matchless CHALACTAN_SHIP_mauler CHALACTAN_SHIP_mayhem CHALACTAN_SHIP_malice CHALACTAN_SHIP_menace CHALACTAN_SHIP_merciless CHALACTAN_SHIP_mischief CHALACTAN_SHIP_monarch CHALACTAN_SHIP_patriot CHALACTAN_SHIP_predator CHALACTAN_SHIP_powerful CHALACTAN_SHIP_punisher CHALACTAN_SHIP_ravager CHALACTAN_SHIP_reaper CHALACTAN_SHIP_savage CHALACTAN_SHIP_spiteful CHALACTAN_SHIP_templar CHALACTAN_SHIP_terminator CHALACTAN_SHIP_terror CHALACTAN_SHIP_thrasher CHALACTAN_SHIP_minotaur CHALACTAN_SHIP_manticore CHALACTAN_SHIP_interdictor CHALACTAN_SHIP_intruder CHALACTAN_SHIP_hydra CHALACTAN_SHIP_enfield CHALACTAN_SHIP_harasser CHALACTAN_SHIP_unbeaten CHALACTAN_SHIP_werewolf CHALACTAN_SHIP_zealous CHALACTAN_SHIP_petulant CHALACTAN_SHIP_phantom CHALACTAN_SHIP_phoenix CHALACTAN_SHIP_pike CHALACTAN_SHIP_pursuer CHALACTAN_SHIP_raider CHALACTAN_SHIP_rainbow CHALACTAN_SHIP_rapid CHALACTAN_SHIP_redemption CHALACTAN_SHIP_relentless CHALACTAN_SHIP_rigorous CHALACTAN_SHIP_robust CHALACTAN_SHIP_sabre CHALACTAN_SHIP_salvation CHALACTAN_SHIP_sanguine CHALACTAN_SHIP_scarab CHALACTAN_SHIP_scepter CHALACTAN_SHIP_sea_witch CHALACTAN_SHIP_siren CHALACTAN_SHIP_sorceress CHALACTAN_SHIP_spearhead CHALACTAN_SHIP_specter CHALACTAN_SHIP_spirit CHALACTAN_SHIP_splendid CHALACTAN_SHIP_stallion CHALACTAN_SHIP_stalwart CHALACTAN_SHIP_steadfast CHALACTAN_SHIP_strenuous CHALACTAN_SHIP_superb CHALACTAN_SHIP_supernova CHALACTAN_SHIP_surprise CHALACTAN_SHIP_swiftsure CHALACTAN_SHIP_talent CHALACTAN_SHIP_talisman CHALACTAN_SHIP_talon CHALACTAN_SHIP_taurus CHALACTAN_SHIP_tenacious CHALACTAN_SHIP_thunder_child CHALACTAN_SHIP_thunderous CHALACTAN_SHIP_tireless CHALACTAN_SHIP_trenchant CHALACTAN_SHIP_righteous CHALACTAN_SHIP_acheron CHALACTAN_SHIP_achilles CHALACTAN_SHIP_agamemnon CHALACTAN_SHIP_amphion CHALACTAN_SHIP_aquilon CHALACTAN_SHIP_argonaut CHALACTAN_SHIP_argus CHALACTAN_SHIP_ariel CHALACTAN_SHIP_aurora CHALACTAN_SHIP_avernus CHALACTAN_SHIP_bacchus CHALACTAN_SHIP_bucephalus CHALACTAN_SHIP_calliope CHALACTAN_SHIP_calypso CHALACTAN_SHIP_castor CHALACTAN_SHIP_charybdis CHALACTAN_SHIP_circe CHALACTAN_SHIP_cleopatra CHALACTAN_SHIP_constantine CHALACTAN_SHIP_cordelia CHALACTAN_SHIP_cyrus CHALACTAN_SHIP_damocles CHALACTAN_SHIP_daedalus CHALACTAN_SHIP_darius CHALACTAN_SHIP_diomede CHALACTAN_SHIP_dryad CHALACTAN_SHIP_electra CHALACTAN_SHIP_endymion CHALACTAN_SHIP_erebus CHALACTAN_SHIP_fenris CHALACTAN_SHIP_freya CHALACTAN_SHIP_gilgamesh CHALACTAN_SHIP_gorgon CHALACTAN_SHIP_halcyon CHALACTAN_SHIP_hecate CHALACTAN_SHIP_hector CHALACTAN_SHIP_hesperus CHALACTAN_SHIP_janus CHALACTAN_SHIP_jason CHALACTAN_SHIP_juno CHALACTAN_SHIP_jupiter CHALACTAN_SHIP_lancelot CHALACTAN_SHIP_lazarus CHALACTAN_SHIP_leander CHALACTAN_SHIP_leonidas CHALACTAN_SHIP_lysander CHALACTAN_SHIP_maenad CHALACTAN_SHIP_mars CHALACTAN_SHIP_medea CHALACTAN_SHIP_medusa CHALACTAN_SHIP_menestheus CHALACTAN_SHIP_mercury CHALACTAN_SHIP_merlin CHALACTAN_SHIP_minerva CHALACTAN_SHIP_minos CHALACTAN_SHIP_neptune CHALACTAN_SHIP_nessus CHALACTAN_SHIP_nestor CHALACTAN_SHIP_nimrod CHALACTAN_SHIP_niobe CHALACTAN_SHIP_oberon CHALACTAN_SHIP_odin CHALACTAN_SHIP_ophelia CHALACTAN_SHIP_orestes CHALACTAN_SHIP_orpheus CHALACTAN_SHIP_osiris CHALACTAN_SHIP_pandora CHALACTAN_SHIP_penelope CHALACTAN_SHIP_persephone CHALACTAN_SHIP_perseus CHALACTAN_SHIP_phoebe CHALACTAN_SHIP_pluto CHALACTAN_SHIP_poseidon CHALACTAN_SHIP_proteus CHALACTAN_SHIP_pylades CHALACTAN_SHIP_serapis CHALACTAN_SHIP_stygian CHALACTAN_SHIP_tantalus CHALACTAN_SHIP_telemachus CHALACTAN_SHIP_theseus CHALACTAN_SHIP_thor CHALACTAN_SHIP_trajan CHALACTAN_SHIP_triton CHALACTAN_SHIP_venus CHALACTAN_SHIP_adamant CHALACTAN_SHIP_ardent CHALACTAN_SHIP_assail CHALACTAN_SHIP_austere CHALACTAN_SHIP_archon CHALACTAN_SHIP_adroit CHALACTAN_SHIP_aegis CHALACTAN_SHIP_anchor CHALACTAN_SHIP_corsair CHALACTAN_SHIP_banshee CHALACTAN_SHIP_enchantress CHALACTAN_SHIP_eradicator CHALACTAN_SHIP_tormentor CHALACTAN_SHIP_legion CHALACTAN_SHIP_reprisal CHALACTAN_SHIP_aggressor CHALACTAN_SHIP_assault CHALACTAN_SHIP_eviscerator CHALACTAN_SHIP_imperator CHALACTAN_SHIP_excellence CHALACTAN_SHIP_unrivalled CHALACTAN_SHIP_warlord CHALACTAN_SHIP_vengeance CHALACTAN_SHIP_triumphant CHALACTAN_SHIP_nemesis CHALACTAN_SHIP_avenger CHALACTAN_SHIP_champion CHALACTAN_SHIP_conqueror CHALACTAN_SHIP_crusader CHALACTAN_SHIP_glory CHALACTAN_SHIP_immortal CHALACTAN_SHIP_judicator CHALACTAN_SHIP_vanguard CHALACTAN_SHIP_renown CHALACTAN_SHIP_demolisher CHALACTAN_SHIP_dragon CHALACTAN_SHIP_executor CHALACTAN_SHIP_furious CHALACTAN_SHIP_gladiator CHALACTAN_SHIP_magnificent CHALACTAN_SHIP_ogre CHALACTAN_SHIP_onslaught CHALACTAN_SHIP_revenge CHALACTAN_SHIP_vanquisher CHALACTAN_SHIP_vehement CHALACTAN_SHIP_basilisk CHALACTAN_SHIP_tempest CHALACTAN_SHIP_overlord CHALACTAN_SHIP_warrior CHALACTAN_SHIP_titan CHALACTAN_SHIP_colossus CHALACTAN_SHIP_prometheus CHALACTAN_SHIP_nike CHALACTAN_SHIP_paladin CHALACTAN_SHIP_sovereign CHALACTAN_SHIP_repulse CHALACTAN_SHIP_majestic CHALACTAN_SHIP_avatar CHALACTAN_SHIP_behemoth CHALACTAN_SHIP_centurion CHALACTAN_SHIP_citadel CHALACTAN_SHIP_katana CHALACTAN_SHIP_kraken CHALACTAN_SHIP_cerberus CHALACTAN_SHIP_valkyrie
+		}
+		swp_bellator = {
+			CHALACTAN_SHIP_dreadnought CHALACTAN_SHIP_harbinger CHALACTAN_SHIP_juggernaut CHALACTAN_SHIP_leviathan CHALACTAN_SHIP_hyperion CHALACTAN_SHIP_galatea CHALACTAN_SHIP_ambush CHALACTAN_SHIP_vindicator
+		}
+		science = {
+			CHALACTAN_SHIP_crescent CHALACTAN_SHIP_diligent CHALACTAN_SHIP_zephyr CHALACTAN_SHIP_enigma CHALACTAN_SHIP_conquistador CHALACTAN_SHIP_scylla CHALACTAN_SHIP_arbiter CHALACTAN_SHIP_asperity CHALACTAN_SHIP_eminence CHALACTAN_SHIP_astute CHALACTAN_SHIP_alacrity CHALACTAN_SHIP_satyr CHALACTAN_SHIP_prospero CHALACTAN_SHIP_untiring CHALACTAN_SHIP_zenith CHALACTAN_SHIP_torch CHALACTAN_SHIP_remembrance CHALACTAN_SHIP_pilgrim CHALACTAN_SHIP_trailblazer CHALACTAN_SHIP_vagabond CHALACTAN_SHIP_wayfarer CHALACTAN_SHIP_ambassador CHALACTAN_SHIP_emissary CHALACTAN_SHIP_nomad CHALACTAN_SHIP_pathfinder CHALACTAN_SHIP_wanderer CHALACTAN_SHIP_traveler
+		}
+		colonizer = {
+			CHALACTAN_SHIP_godspeed CHALACTAN_SHIP_prophecy CHALACTAN_SHIP_manifest_destiny CHALACTAN_SHIP_virtue CHALACTAN_SHIP_potential CHALACTAN_SHIP_expansion CHALACTAN_SHIP_pioneer_spirit CHALACTAN_SHIP_prosperity CHALACTAN_SHIP_summit CHALACTAN_SHIP_pinnacle CHALACTAN_SHIP_seeder CHALACTAN_SHIP_harvest CHALACTAN_SHIP_demeter CHALACTAN_SHIP_isis CHALACTAN_SHIP_ceres CHALACTAN_SHIP_exodus CHALACTAN_SHIP_foundation CHALACTAN_SHIP_scion CHALACTAN_SHIP_progeny CHALACTAN_SHIP_obligation CHALACTAN_SHIP_purpose CHALACTAN_SHIP_provider CHALACTAN_SHIP_shining_city CHALACTAN_SHIP_acquirer CHALACTAN_SHIP_cultivator CHALACTAN_SHIP_dawn_of_civilization CHALACTAN_SHIP_purity CHALACTAN_SHIP_community CHALACTAN_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			CHALACTAN_SHIP_godspeed CHALACTAN_SHIP_prophecy CHALACTAN_SHIP_manifest_destiny CHALACTAN_SHIP_virtue CHALACTAN_SHIP_potential CHALACTAN_SHIP_expansion CHALACTAN_SHIP_pioneer_spirit CHALACTAN_SHIP_prosperity CHALACTAN_SHIP_summit CHALACTAN_SHIP_pinnacle CHALACTAN_SHIP_seeder CHALACTAN_SHIP_harvest CHALACTAN_SHIP_isis CHALACTAN_SHIP_ceres CHALACTAN_SHIP_exodus CHALACTAN_SHIP_foundation CHALACTAN_SHIP_scion CHALACTAN_SHIP_progeny CHALACTAN_SHIP_obligation CHALACTAN_SHIP_purpose CHALACTAN_SHIP_provider CHALACTAN_SHIP_shining_city CHALACTAN_SHIP_acquirer CHALACTAN_SHIP_cultivator CHALACTAN_SHIP_dawn_of_civilization CHALACTAN_SHIP_purity CHALACTAN_SHIP_community CHALACTAN_SHIP_brotherhood
+		}
+		constructor = {
+			CHALACTAN_SHIP_industry CHALACTAN_SHIP_assiduity CHALACTAN_SHIP_effort CHALACTAN_SHIP_laborer CHALACTAN_SHIP_builder CHALACTAN_SHIP_craftsman CHALACTAN_SHIP_hard_hat CHALACTAN_SHIP_progress CHALACTAN_SHIP_engineer CHALACTAN_SHIP_promise CHALACTAN_SHIP_service CHALACTAN_SHIP_shelter CHALACTAN_SHIP_beast CHALACTAN_SHIP_creator CHALACTAN_SHIP_developer CHALACTAN_SHIP_forger CHALACTAN_SHIP_foundry CHALACTAN_SHIP_factory CHALACTAN_SHIP_anvil CHALACTAN_SHIP_pillar CHALACTAN_SHIP_architect CHALACTAN_SHIP_accommodator CHALACTAN_SHIP_ptah CHALACTAN_SHIP_ilmarinen CHALACTAN_SHIP_creidhne CHALACTAN_SHIP_gobannus CHALACTAN_SHIP_luchtaine CHALACTAN_SHIP_goibniu CHALACTAN_SHIP_vishvakarman CHALACTAN_SHIP_tvastar CHALACTAN_SHIP_ikenga CHALACTAN_SHIP_qaynan CHALACTAN_SHIP_ucuetis CHALACTAN_SHIP_ogoun
+		}
+		transport = {
+			CHALACTAN_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			CHALACTAN_SHIP_spacegun_victory CHALACTAN_SHIP_spacegun_success CHALACTAN_SHIP_spacegun_supremacy CHALACTAN_SHIP_spacegun_superior CHALACTAN_SHIP_spacegun_adventure CHALACTAN_SHIP_spacegun_ascendancy CHALACTAN_SHIP_spacegun_paramount CHALACTAN_SHIP_spacegun_preponderous CHALACTAN_SHIP_spacegun_exemplary CHALACTAN_SHIP_spacegun_eximious CHALACTAN_SHIP_spacegun_pertinacity CHALACTAN_SHIP_spacegun_acclaim CHALACTAN_SHIP_spacegun_honor CHALACTAN_SHIP_spacegun_renown CHALACTAN_SHIP_spacegun_glory CHALACTAN_SHIP_spacegun_superb CHALACTAN_SHIP_spacegun_magnificence CHALACTAN_SHIP_spacegun_majestic CHALACTAN_SHIP_spacegun_splendor CHALACTAN_SHIP_spacegun_paradigm CHALACTAN_SHIP_spacegun_flawless CHALACTAN_SHIP_spacegun_consummate CHALACTAN_SHIP_spacegun_merit CHALACTAN_SHIP_spacegun_perfection CHALACTAN_SHIP_spacegun_virtue CHALACTAN_SHIP_spacegun_advantage CHALACTAN_SHIP_spacegun_rectitude CHALACTAN_SHIP_spacegun_incorruptible CHALACTAN_SHIP_spacegun_integrity CHALACTAN_SHIP_spacegun_justice CHALACTAN_SHIP_spacegun_probity CHALACTAN_SHIP_spacegun_prudence CHALACTAN_SHIP_spacegun_purity CHALACTAN_SHIP_spacegun_resolute CHALACTAN_SHIP_spacegun_dignity CHALACTAN_SHIP_spacegun_distinction CHALACTAN_SHIP_spacegun_excellence CHALACTAN_SHIP_spacegun_faithful CHALACTAN_SHIP_spacegun_discipline CHALACTAN_SHIP_spacegun_steadfast CHALACTAN_SHIP_spacegun_recompense CHALACTAN_SHIP_spacegun_requiem CHALACTAN_SHIP_spacegun_courage CHALACTAN_SHIP_spacegun_valor CHALACTAN_SHIP_spacegun_gallant CHALACTAN_SHIP_spacegun_daring CHALACTAN_SHIP_spacegun_constancy CHALACTAN_SHIP_spacegun_perseverence CHALACTAN_SHIP_spacegun_tenacity CHALACTAN_SHIP_spacegun_sedulity CHALACTAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			CHALACTAN_SHIP_spacegun_victory CHALACTAN_SHIP_spacegun_success CHALACTAN_SHIP_spacegun_supremacy CHALACTAN_SHIP_spacegun_superior CHALACTAN_SHIP_spacegun_adventure CHALACTAN_SHIP_spacegun_ascendancy CHALACTAN_SHIP_spacegun_paramount CHALACTAN_SHIP_spacegun_preponderous CHALACTAN_SHIP_spacegun_exemplary CHALACTAN_SHIP_spacegun_eximious CHALACTAN_SHIP_spacegun_pertinacity CHALACTAN_SHIP_spacegun_acclaim CHALACTAN_SHIP_spacegun_honor CHALACTAN_SHIP_spacegun_renown CHALACTAN_SHIP_spacegun_glory CHALACTAN_SHIP_spacegun_superb CHALACTAN_SHIP_spacegun_magnificence CHALACTAN_SHIP_spacegun_majestic CHALACTAN_SHIP_spacegun_splendor CHALACTAN_SHIP_spacegun_paradigm CHALACTAN_SHIP_spacegun_flawless CHALACTAN_SHIP_spacegun_consummate CHALACTAN_SHIP_spacegun_merit CHALACTAN_SHIP_spacegun_perfection CHALACTAN_SHIP_spacegun_virtue CHALACTAN_SHIP_spacegun_advantage CHALACTAN_SHIP_spacegun_rectitude CHALACTAN_SHIP_spacegun_incorruptible CHALACTAN_SHIP_spacegun_integrity CHALACTAN_SHIP_spacegun_justice CHALACTAN_SHIP_spacegun_probity CHALACTAN_SHIP_spacegun_prudence CHALACTAN_SHIP_spacegun_purity CHALACTAN_SHIP_spacegun_resolute CHALACTAN_SHIP_spacegun_dignity CHALACTAN_SHIP_spacegun_distinction CHALACTAN_SHIP_spacegun_excellence CHALACTAN_SHIP_spacegun_faithful CHALACTAN_SHIP_spacegun_discipline CHALACTAN_SHIP_spacegun_steadfast CHALACTAN_SHIP_spacegun_recompense CHALACTAN_SHIP_spacegun_requiem CHALACTAN_SHIP_spacegun_courage CHALACTAN_SHIP_spacegun_valor CHALACTAN_SHIP_spacegun_gallant CHALACTAN_SHIP_spacegun_daring CHALACTAN_SHIP_spacegun_constancy CHALACTAN_SHIP_spacegun_perseverence CHALACTAN_SHIP_spacegun_tenacity CHALACTAN_SHIP_spacegun_sedulity CHALACTAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			CHALACTAN_SHIP_spacegun_victory CHALACTAN_SHIP_spacegun_success CHALACTAN_SHIP_spacegun_supremacy CHALACTAN_SHIP_spacegun_superior CHALACTAN_SHIP_spacegun_adventure CHALACTAN_SHIP_spacegun_ascendancy CHALACTAN_SHIP_spacegun_paramount CHALACTAN_SHIP_spacegun_preponderous CHALACTAN_SHIP_spacegun_exemplary CHALACTAN_SHIP_spacegun_eximious CHALACTAN_SHIP_spacegun_pertinacity CHALACTAN_SHIP_spacegun_acclaim CHALACTAN_SHIP_spacegun_honor CHALACTAN_SHIP_spacegun_renown CHALACTAN_SHIP_spacegun_glory CHALACTAN_SHIP_spacegun_superb CHALACTAN_SHIP_spacegun_magnificence CHALACTAN_SHIP_spacegun_majestic CHALACTAN_SHIP_spacegun_splendor CHALACTAN_SHIP_spacegun_paradigm CHALACTAN_SHIP_spacegun_flawless CHALACTAN_SHIP_spacegun_consummate CHALACTAN_SHIP_spacegun_merit CHALACTAN_SHIP_spacegun_perfection CHALACTAN_SHIP_spacegun_virtue CHALACTAN_SHIP_spacegun_advantage CHALACTAN_SHIP_spacegun_rectitude CHALACTAN_SHIP_spacegun_incorruptible CHALACTAN_SHIP_spacegun_integrity CHALACTAN_SHIP_spacegun_justice CHALACTAN_SHIP_spacegun_probity CHALACTAN_SHIP_spacegun_prudence CHALACTAN_SHIP_spacegun_purity CHALACTAN_SHIP_spacegun_resolute CHALACTAN_SHIP_spacegun_dignity CHALACTAN_SHIP_spacegun_distinction CHALACTAN_SHIP_spacegun_excellence CHALACTAN_SHIP_spacegun_faithful CHALACTAN_SHIP_spacegun_discipline CHALACTAN_SHIP_spacegun_steadfast CHALACTAN_SHIP_spacegun_recompense CHALACTAN_SHIP_spacegun_requiem CHALACTAN_SHIP_spacegun_courage CHALACTAN_SHIP_spacegun_valor CHALACTAN_SHIP_spacegun_gallant CHALACTAN_SHIP_spacegun_daring CHALACTAN_SHIP_spacegun_constancy CHALACTAN_SHIP_spacegun_perseverence CHALACTAN_SHIP_spacegun_tenacity CHALACTAN_SHIP_spacegun_sedulity CHALACTAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			CHALACTAN_SHIP_citadel CHALACTAN_SHIP_albacore CHALACTAN_SHIP_gateway CHALACTAN_SHIP_vincent CHALACTAN_SHIP_babylon CHALACTAN_SHIP_caernavon CHALACTAN_SHIP_acre CHALACTAN_SHIP_pembroke CHALACTAN_SHIP_acheron CHALACTAN_SHIP_spithead CHALACTAN_SHIP_halifax CHALACTAN_SHIP_victoria CHALACTAN_SHIP_chatham CHALACTAN_SHIP_anchorage CHALACTAN_SHIP_scapa_flow CHALACTAN_SHIP_hampton_roads CHALACTAN_SHIP_brooklyn CHALACTAN_SHIP_norfolk CHALACTAN_SHIP_newport CHALACTAN_SHIP_guam CHALACTAN_SHIP_pensacola CHALACTAN_SHIP_vesuvius CHALACTAN_SHIP_mckinley CHALACTAN_SHIP_everest CHALACTAN_SHIP_kilimanjaro CHALACTAN_SHIP_aconcagua CHALACTAN_SHIP_elbrus CHALACTAN_SHIP_st__helens CHALACTAN_SHIP_fuji CHALACTAN_SHIP_olympus CHALACTAN_SHIP_sinai CHALACTAN_SHIP_ambrose CHALACTAN_SHIP_bermuda CHALACTAN_SHIP_farpoint CHALACTAN_SHIP_blue_star CHALACTAN_SHIP_olympus_mons CHALACTAN_SHIP_tharsis CHALACTAN_SHIP_syrtis CHALACTAN_SHIP_blackham CHALACTAN_SHIP_fletcher CHALACTAN_SHIP_perry CHALACTAN_SHIP_butakov CHALACTAN_SHIP_morris CHALACTAN_SHIP_moorsom CHALACTAN_SHIP_hart CHALACTAN_SHIP_hargood CHALACTAN_SHIP_spruance CHALACTAN_SHIP_tanaka CHALACTAN_SHIP_halsey CHALACTAN_SHIP_turner CHALACTAN_SHIP_doria CHALACTAN_SHIP_tirpitz CHALACTAN_SHIP_cunningham CHALACTAN_SHIP_jellicoe CHALACTAN_SHIP_hipper CHALACTAN_SHIP_beatty CHALACTAN_SHIP_potemkin CHALACTAN_SHIP_durham CHALACTAN_SHIP_codrington CHALACTAN_SHIP_milne CHALACTAN_SHIP_laforey CHALACTAN_SHIP_tyler CHALACTAN_SHIP_hawke CHALACTAN_SHIP_yonai CHALACTAN_SHIP_pound CHALACTAN_SHIP_king CHALACTAN_SHIP_crutchley CHALACTAN_SHIP_mountbatten CHALACTAN_SHIP_kountouriotis CHALACTAN_SHIP_kuznetsov CHALACTAN_SHIP_essen CHALACTAN_SHIP_kornilov CHALACTAN_SHIP_suffren CHALACTAN_SHIP_treville CHALACTAN_SHIP_villeneuve CHALACTAN_SHIP_grasse CHALACTAN_SHIP_byng CHALACTAN_SHIP_lezo
+		}
+		ion_cannon = {
+			CHALACTAN_SHIP_bombard CHALACTAN_SHIP_ballista CHALACTAN_SHIP_catapult CHALACTAN_SHIP_harpoon CHALACTAN_SHIP_polybolos CHALACTAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			CHALACTAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			CHALACTAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			CHALACTAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			CHALACTAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			CHALACTAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			CHALACTAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			CHALACTAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			CHALACTAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			CHALACTAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			CHALACTAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			CHALACTAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			CHALACTAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			CHALACTAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			CHALACTAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			CHALACTAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			CHALACTAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			CHALACTAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			CHALACTAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			CHALACTAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			CHALACTAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			CHALACTAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			CHALACTAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			CHALACTAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			CHALACTAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			CHALACTAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			CHALACTAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			CHALACTAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			CHALACTAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			CHALACTAN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			CHALACTAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			CHALACTAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			CHALACTAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			CHALACTAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			CHALACTAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			CHALACTAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			CHALACTAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			CHALACTAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			CHALACTAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			CHALACTAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			CHALACTAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			CHALACTAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			CHALACTAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			CHALACTAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			CHALACTAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			CHALACTAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			CHALACTAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			CHALACTAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			CHALACTAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			CHALACTAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			CHALACTAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			CHALACTAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			CHALACTAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			CHALACTAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			CHALACTAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			CHALACTAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			CHALACTAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			CHALACTAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			CHALACTAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			CHALACTAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			CHALACTAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			CHALACTAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			CHALACTAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			CHALACTAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			CHALACTAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			CHALACTAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			CHALACTAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			CHALACTAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			CHALACTAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			CHALACTAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			CHALACTAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			CHALACTAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			CHALACTAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			CHALACTAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			CHALACTAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			CHALACTAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			CHALACTAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			CHALACTAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			CHALACTAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			CHALACTAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			CHALACTAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			CHALACTAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			CHALACTAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			CHALACTAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			CHALACTAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			CHALACTAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			CHALACTAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			CHALACTAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			CHALACTAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			CHALACTAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			CHALACTAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			CHALACTAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			CHALACTAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			CHALACTAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			CHALACTAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = CHALACTAN_FLEET_flotilla_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = CHALACTAN_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = CHALACTAN_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = CHALACTAN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = CHALACTAN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = CHALACTAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = CHALACTAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = CHALACTAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = CHALACTAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				CHALACTAN_ARMY_sarc_a__gladiators_ CHALACTAN_ARMY_sarc_b__widowmakers_ CHALACTAN_ARMY_sarc_c__immortals_ CHALACTAN_ARMY_sarc_d__berserkers_ CHALACTAN_ARMY_sarc_e__assassins_ CHALACTAN_ARMY_sarc_f__reapers_ CHALACTAN_ARMY_sarc_g__nighthawks_ CHALACTAN_ARMY_sarc_h__desperados_ CHALACTAN_ARMY_sarc_i__grey_knights_ CHALACTAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = CHALACTAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = CHALACTAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = CHALACTAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = CHALACTAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = CHALACTAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = CHALACTAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = CHALACTAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = CHALACTAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = CHALACTAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = CHALACTAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = CHALACTAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = CHALACTAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = CHALACTAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = CHALACTAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = CHALACTAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = CHALACTAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = CHALACTAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = CHALACTAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = CHALACTAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = CHALACTAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = CHALACTAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = CHALACTAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = CHALACTAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = CHALACTAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = CHALACTAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = CHALACTAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = CHALACTAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = CHALACTAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = CHALACTAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = CHALACTAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = CHALACTAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = CHALACTAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = CHALACTAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = CHALACTAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = CHALACTAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = CHALACTAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = CHALACTAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = CHALACTAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = CHALACTAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = CHALACTAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = CHALACTAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = CHALACTAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = CHALACTAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = CHALACTAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = CHALACTAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = CHALACTAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = CHALACTAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = CHALACTAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = CHALACTAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = CHALACTAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = CHALACTAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = CHALACTAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = CHALACTAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = CHALACTAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = CHALACTAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = CHALACTAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = CHALACTAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = CHALACTAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = CHALACTAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = CHALACTAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = CHALACTAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = CHALACTAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = CHALACTAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = CHALACTAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = CHALACTAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = CHALACTAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = CHALACTAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = CHALACTAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = CHALACTAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = CHALACTAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = CHALACTAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = CHALACTAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = CHALACTAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = CHALACTAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = CHALACTAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = CHALACTAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = CHALACTAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = CHALACTAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = CHALACTAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = CHALACTAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = CHALACTAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = CHALACTAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = CHALACTAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = CHALACTAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = CHALACTAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = CHALACTAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = CHALACTAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = CHALACTAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = CHALACTAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = CHALACTAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = CHALACTAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = CHALACTAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = CHALACTAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = CHALACTAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = CHALACTAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = CHALACTAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = CHALACTAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = CHALACTAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = CHALACTAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = CHALACTAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = CHALACTAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = CHALACTAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = CHALACTAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = CHALACTAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = CHALACTAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = CHALACTAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = CHALACTAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = CHALACTAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = CHALACTAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = CHALACTAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = CHALACTAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = CHALACTAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = CHALACTAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = CHALACTAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = CHALACTAN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = CHALACTAN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = CHALACTAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = CHALACTAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = CHALACTAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = CHALACTAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = CHALACTAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = CHALACTAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = CHALACTAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = CHALACTAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = CHALACTAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = CHALACTAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = CHALACTAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = CHALACTAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = CHALACTAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = CHALACTAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = CHALACTAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = CHALACTAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = CHALACTAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				CHALACTAN_CHR_bail CHALACTAN_CHR_ylenic CHALACTAN_CHR_kel CHALACTAN_CHR_gunn CHALACTAN_CHR_gregory CHALACTAN_CHR_abraxis CHALACTAN_CHR_jonas CHALACTAN_CHR_xerda CHALACTAN_CHR_carth CHALACTAN_CHR_kir CHALACTAN_CHR_mebba CHALACTAN_CHR_dagos CHALACTAN_CHR_adam CHALACTAN_CHR_kyle CHALACTAN_CHR_forren CHALACTAN_CHR_malcolm CHALACTAN_CHR_jeho CHALACTAN_CHR_lee CHALACTAN_CHR_griggs CHALACTAN_CHR_milo CHALACTAN_CHR_aeron CHALACTAN_CHR_byrec CHALACTAN_CHR_strata CHALACTAN_CHR_lancer CHALACTAN_CHR_zeak CHALACTAN_CHR_niuk CHALACTAN_CHR_lavidean CHALACTAN_CHR_tanizandar CHALACTAN_CHR_japla CHALACTAN_CHR_aran CHALACTAN_CHR_rail CHALACTAN_CHR_zeven CHALACTAN_CHR_yakown CHALACTAN_CHR_sibar CHALACTAN_CHR_sair CHALACTAN_CHR_klai CHALACTAN_CHR_jonas CHALACTAN_CHR_imay CHALACTAN_CHR_traest CHALACTAN_CHR_simo CHALACTAN_CHR_carth CHALACTAN_CHR_riyan CHALACTAN_CHR_magnus CHALACTAN_CHR_boceta CHALACTAN_CHR_agnook CHALACTAN_CHR_silus CHALACTAN_CHR_rowan CHALACTAN_CHR_coren CHALACTAN_CHR_jett CHALACTAN_CHR_linth CHALACTAN_CHR_annor CHALACTAN_CHR_ulas CHALACTAN_CHR_fenn CHALACTAN_CHR_tal CHALACTAN_CHR_plo CHALACTAN_CHR_torin CHALACTAN_CHR_imay CHALACTAN_CHR_boone CHALACTAN_CHR_davith CHALACTAN_CHR_jorgen CHALACTAN_CHR_bertos CHALACTAN_CHR_ress CHALACTAN_CHR_malius CHALACTAN_CHR_kale CHALACTAN_CHR_cregan CHALACTAN_CHR_galen CHALACTAN_CHR_zekk CHALACTAN_CHR_jinn_tu CHALACTAN_CHR_jaryn CHALACTAN_CHR_gentti CHALACTAN_CHR_yu_sien CHALACTAN_CHR_akela CHALACTAN_CHR_arslan CHALACTAN_CHR_sidias CHALACTAN_CHR_haken CHALACTAN_CHR_biran CHALACTAN_CHR_vidown CHALACTAN_CHR_ares CHALACTAN_CHR_ithan CHALACTAN_CHR_cul_utaan CHALACTAN_CHR_thoja CHALACTAN_CHR_cron CHALACTAN_CHR_mossi CHALACTAN_CHR_abric CHALACTAN_CHR_darg CHALACTAN_CHR_gaman CHALACTAN_CHR_naiad CHALACTAN_CHR_herub CHALACTAN_CHR_marius CHALACTAN_CHR_torkin CHALACTAN_CHR_caton CHALACTAN_CHR_kane CHALACTAN_CHR_versita CHALACTAN_CHR_cric CHALACTAN_CHR_foxdi CHALACTAN_CHR_montacca CHALACTAN_CHR_jospi CHALACTAN_CHR_baz CHALACTAN_CHR_kam CHALACTAN_CHR_erek CHALACTAN_CHR_arslan CHALACTAN_CHR_lerak CHALACTAN_CHR_morla CHALACTAN_CHR_baxter CHALACTAN_CHR_talan CHALACTAN_CHR_thion CHALACTAN_CHR_kannon CHALACTAN_CHR_corsair CHALACTAN_CHR_caster CHALACTAN_CHR_elden CHALACTAN_CHR_faelgrom CHALACTAN_CHR_jack CHALACTAN_CHR_raltharan CHALACTAN_CHR_flash CHALACTAN_CHR_waseem CHALACTAN_CHR_bendak CHALACTAN_CHR_kaz CHALACTAN_CHR_montileu CHALACTAN_CHR_gonoga CHALACTAN_CHR_silus CHALACTAN_CHR_galven CHALACTAN_CHR_vincenzo CHALACTAN_CHR_ric CHALACTAN_CHR_rebar CHALACTAN_CHR_jebediah CHALACTAN_CHR_aramil CHALACTAN_CHR_abraxis CHALACTAN_CHR_delmi CHALACTAN_CHR_caalin CHALACTAN_CHR_rassth CHALACTAN_CHR_adorn CHALACTAN_CHR_cyrus CHALACTAN_CHR_zhar_khan CHALACTAN_CHR_adam CHALACTAN_CHR_predor CHALACTAN_CHR_tarlson CHALACTAN_CHR_boaz CHALACTAN_CHR_bradley CHALACTAN_CHR_gunn CHALACTAN_CHR_raltharan CHALACTAN_CHR_zerrid CHALACTAN_CHR_bobecc CHALACTAN_CHR_jelantos CHALACTAN_CHR_jephego CHALACTAN_CHR_svante CHALACTAN_CHR_tesvalo CHALACTAN_CHR_aeon CHALACTAN_CHR_dekar CHALACTAN_CHR_jean_francois CHALACTAN_CHR_elen CHALACTAN_CHR_han CHALACTAN_CHR_owen CHALACTAN_CHR_biggs
+			}
+			first_names_female = {
+				CHALACTAN_CHR_charratha CHALACTAN_CHR_edaara CHALACTAN_CHR_bella CHALACTAN_CHR_callista CHALACTAN_CHR_mara CHALACTAN_CHR_seena CHALACTAN_CHR_areta CHALACTAN_CHR_cord CHALACTAN_CHR_cyrinity CHALACTAN_CHR_nile CHALACTAN_CHR_kiyfi CHALACTAN_CHR_yasmyn CHALACTAN_CHR_satra CHALACTAN_CHR_shehish CHALACTAN_CHR_sarna CHALACTAN_CHR_krava CHALACTAN_CHR_roxis CHALACTAN_CHR_jessa CHALACTAN_CHR_aqua CHALACTAN_CHR_maryna CHALACTAN_CHR_essaj CHALACTAN_CHR_looriw CHALACTAN_CHR_teeana CHALACTAN_CHR_raena CHALACTAN_CHR_yula CHALACTAN_CHR_vifi CHALACTAN_CHR_vania CHALACTAN_CHR_jeanida CHALACTAN_CHR_aerena CHALACTAN_CHR_nataya CHALACTAN_CHR_bernarda CHALACTAN_CHR_geela CHALACTAN_CHR_lya CHALACTAN_CHR_sirra CHALACTAN_CHR_teris CHALACTAN_CHR_terral CHALACTAN_CHR_nile CHALACTAN_CHR_riema CHALACTAN_CHR_erri CHALACTAN_CHR_shanna CHALACTAN_CHR_lyra CHALACTAN_CHR_pranda CHALACTAN_CHR_luna CHALACTAN_CHR_cally CHALACTAN_CHR_viqi CHALACTAN_CHR_hadriel CHALACTAN_CHR_lora CHALACTAN_CHR_selena CHALACTAN_CHR_zana CHALACTAN_CHR_tuija CHALACTAN_CHR_railin CHALACTAN_CHR_odona CHALACTAN_CHR_shyon CHALACTAN_CHR_walas CHALACTAN_CHR_rylla CHALACTAN_CHR_gara CHALACTAN_CHR_delos CHALACTAN_CHR_loretta CHALACTAN_CHR_luhon CHALACTAN_CHR_delinia CHALACTAN_CHR_aama CHALACTAN_CHR_shorya CHALACTAN_CHR_melfina CHALACTAN_CHR_davessi CHALACTAN_CHR_larana CHALACTAN_CHR_galatea CHALACTAN_CHR_nola CHALACTAN_CHR_syna CHALACTAN_CHR_jauhzmynn CHALACTAN_CHR_anen CHALACTAN_CHR_orona CHALACTAN_CHR_yana CHALACTAN_CHR_zoras CHALACTAN_CHR_ree CHALACTAN_CHR_grace CHALACTAN_CHR_tantema CHALACTAN_CHR_myn CHALACTAN_CHR_una CHALACTAN_CHR_dalharil CHALACTAN_CHR_losa CHALACTAN_CHR_sovi CHALACTAN_CHR_elaiza CHALACTAN_CHR_vucora CHALACTAN_CHR_ava CHALACTAN_CHR_joi CHALACTAN_CHR_stryka CHALACTAN_CHR_tantema CHALACTAN_CHR_shandra CHALACTAN_CHR_kely CHALACTAN_CHR_caileta CHALACTAN_CHR_taia CHALACTAN_CHR_siala CHALACTAN_CHR_reki CHALACTAN_CHR_maydla CHALACTAN_CHR_bot CHALACTAN_CHR_kiandra CHALACTAN_CHR_xilaren CHALACTAN_CHR_zulara CHALACTAN_CHR_ren CHALACTAN_CHR_karissa CHALACTAN_CHR_roxis CHALACTAN_CHR_haruko CHALACTAN_CHR_jenna CHALACTAN_CHR_liana CHALACTAN_CHR_rale CHALACTAN_CHR_megara CHALACTAN_CHR_aria CHALACTAN_CHR_akiva CHALACTAN_CHR_nalah CHALACTAN_CHR_erlem CHALACTAN_CHR_nali CHALACTAN_CHR_fallah CHALACTAN_CHR_kotrana CHALACTAN_CHR_aayla CHALACTAN_CHR_kalira CHALACTAN_CHR_arani CHALACTAN_CHR_fama CHALACTAN_CHR_lyyr CHALACTAN_CHR_arcas CHALACTAN_CHR_rane CHALACTAN_CHR_nayru CHALACTAN_CHR_zylas CHALACTAN_CHR_vexa CHALACTAN_CHR_kana CHALACTAN_CHR_beru
+			}
+			second_names = {
+				CHALACTAN_CHR_elysar CHALACTAN_CHR_tisa CHALACTAN_CHR_wahia CHALACTAN_CHR_wezz CHALACTAN_CHR_unic CHALACTAN_CHR_tiovata CHALACTAN_CHR_nakcohh CHALACTAN_CHR_vitaan CHALACTAN_CHR_mefrid CHALACTAN_CHR_daklan CHALACTAN_CHR_kenzee CHALACTAN_CHR_joben CHALACTAN_CHR_thegas CHALACTAN_CHR_moryne CHALACTAN_CHR_holgor CHALACTAN_CHR_ijaaz CHALACTAN_CHR_tromans CHALACTAN_CHR_sprax CHALACTAN_CHR_knesos CHALACTAN_CHR_magnus CHALACTAN_CHR_lasek CHALACTAN_CHR_artis CHALACTAN_CHR_pax CHALACTAN_CHR_corso CHALACTAN_CHR_fallon CHALACTAN_CHR_gundo CHALACTAN_CHR_ruana CHALACTAN_CHR_fremlin CHALACTAN_CHR_thont CHALACTAN_CHR_creel CHALACTAN_CHR_rar CHALACTAN_CHR_dusat CHALACTAN_CHR_kessler CHALACTAN_CHR_shaia CHALACTAN_CHR_el_theriam CHALACTAN_CHR_vanmeer CHALACTAN_CHR_vrieska CHALACTAN_CHR_calway CHALACTAN_CHR_yamaguchi CHALACTAN_CHR_riggers CHALACTAN_CHR_brower CHALACTAN_CHR_fash CHALACTAN_CHR_nalto CHALACTAN_CHR_stryder CHALACTAN_CHR_dubreas CHALACTAN_CHR_colsan CHALACTAN_CHR_terrek CHALACTAN_CHR_solon CHALACTAN_CHR_merquise CHALACTAN_CHR_varn CHALACTAN_CHR_basai CHALACTAN_CHR_froud CHALACTAN_CHR_addacess CHALACTAN_CHR_elysar CHALACTAN_CHR_durgen CHALACTAN_CHR_slahlvo CHALACTAN_CHR_remex CHALACTAN_CHR_madowki CHALACTAN_CHR_hayes CHALACTAN_CHR_ne CHALACTAN_CHR_dago CHALACTAN_CHR_greenback CHALACTAN_CHR_stithta CHALACTAN_CHR_ker CHALACTAN_CHR_driet CHALACTAN_CHR_klakk CHALACTAN_CHR_reed CHALACTAN_CHR_lefex CHALACTAN_CHR_minn CHALACTAN_CHR_irokini CHALACTAN_CHR_roye CHALACTAN_CHR_danakar CHALACTAN_CHR_forin CHALACTAN_CHR_glopio CHALACTAN_CHR_shenuri CHALACTAN_CHR_corcer CHALACTAN_CHR_ordo CHALACTAN_CHR_wan CHALACTAN_CHR_tagratt CHALACTAN_CHR_golladio CHALACTAN_CHR_adramcsia CHALACTAN_CHR_jetberg CHALACTAN_CHR_noth CHALACTAN_CHR_taske CHALACTAN_CHR_komo CHALACTAN_CHR_styles CHALACTAN_CHR_angavel CHALACTAN_CHR_tyrnith CHALACTAN_CHR_yavoog CHALACTAN_CHR_kelbier CHALACTAN_CHR_racto CHALACTAN_CHR_degor CHALACTAN_CHR_tisa CHALACTAN_CHR_magre CHALACTAN_CHR_soylon CHALACTAN_CHR_lerann CHALACTAN_CHR_chro CHALACTAN_CHR_finn CHALACTAN_CHR_blackmoor CHALACTAN_CHR_hwang CHALACTAN_CHR_vekarr CHALACTAN_CHR_thegas CHALACTAN_CHR_amon CHALACTAN_CHR_thiddex CHALACTAN_CHR_durgen CHALACTAN_CHR_selkayim CHALACTAN_CHR_gilder CHALACTAN_CHR_dhuramav CHALACTAN_CHR_kodd CHALACTAN_CHR_morin CHALACTAN_CHR_kobylarz CHALACTAN_CHR_tade CHALACTAN_CHR_solman CHALACTAN_CHR_bintaghr CHALACTAN_CHR_marclonus CHALACTAN_CHR_precore CHALACTAN_CHR_solborne CHALACTAN_CHR_bailer CHALACTAN_CHR_katarn CHALACTAN_CHR_anjek CHALACTAN_CHR_dalgas CHALACTAN_CHR_kast CHALACTAN_CHR_airerith CHALACTAN_CHR_halo CHALACTAN_CHR_tade CHALACTAN_CHR_clash CHALACTAN_CHR_jalba CHALACTAN_CHR_benn CHALACTAN_CHR_haruhana CHALACTAN_CHR_roice CHALACTAN_CHR_lokar CHALACTAN_CHR_korpil CHALACTAN_CHR_turon CHALACTAN_CHR_cavi CHALACTAN_CHR_deece CHALACTAN_CHR_braitano CHALACTAN_CHR_garnik CHALACTAN_CHR_tyandas CHALACTAN_CHR_ka_taramas CHALACTAN_CHR_nuwest CHALACTAN_CHR_forte CHALACTAN_CHR_noshey CHALACTAN_CHR_gyyll CHALACTAN_CHR_tallon CHALACTAN_CHR_lionne CHALACTAN_CHR_adras CHALACTAN_CHR_fremlin CHALACTAN_CHR_peoly CHALACTAN_CHR_damiel CHALACTAN_CHR_chup_pau CHALACTAN_CHR_drayven CHALACTAN_CHR_zaposug CHALACTAN_CHR_bela_trepada CHALACTAN_CHR_defelice CHALACTAN_CHR_monsula CHALACTAN_CHR_baralein CHALACTAN_CHR_denive CHALACTAN_CHR_hodrren CHALACTAN_CHR_xergo CHALACTAN_CHR_sarat CHALACTAN_CHR_vercet CHALACTAN_CHR_ossaki CHALACTAN_CHR_kappa CHALACTAN_CHR_zerga CHALACTAN_CHR_kopos CHALACTAN_CHR_aldrecht CHALACTAN_CHR_bohme CHALACTAN_CHR_tull CHALACTAN_CHR_eldrel CHALACTAN_CHR_marh CHALACTAN_CHR_darksword CHALACTAN_CHR_krandor CHALACTAN_CHR_montag CHALACTAN_CHR_dimodan CHALACTAN_CHR_starfallen CHALACTAN_CHR_artis CHALACTAN_CHR_fett CHALACTAN_CHR_mohebbi CHALACTAN_CHR_runalian CHALACTAN_CHR_binette CHALACTAN_CHR_laurent CHALACTAN_CHR_mavr CHALACTAN_CHR_ryra CHALACTAN_CHR_truden CHALACTAN_CHR_solo CHALACTAN_CHR_lars CHALACTAN_CHR_amedda CHALACTAN_CHR_amidala CHALACTAN_CHR_andrell CHALACTAN_CHR_annon CHALACTAN_CHR_antilles CHALACTAN_CHR_atanna CHALACTAN_CHR_baab CHALACTAN_CHR_barc CHALACTAN_CHR_bonteri CHALACTAN_CHR_breemu CHALACTAN_CHR_bremack CHALACTAN_CHR_bronk CHALACTAN_CHR_burtoni CHALACTAN_CHR_cadaman CHALACTAN_CHR_callen CHALACTAN_CHR_clovis CHALACTAN_CHR_ledwellow CHALACTAN_CHR_dio CHALACTAN_CHR_organa
+			}
+			regnal_first_names_male = {
+				CHALACTAN_CHR_kam CHALACTAN_CHR_erek CHALACTAN_CHR_arslan CHALACTAN_CHR_lerak CHALACTAN_CHR_morla CHALACTAN_CHR_mas CHALACTAN_CHR_wain CHALACTAN_CHR_bail CHALACTAN_CHR_gabrial CHALACTAN_CHR_dewell CHALACTAN_CHR_tanner CHALACTAN_CHR_vi CHALACTAN_CHR_rush CHALACTAN_CHR_danry
+			}
+			regnal_first_names_female = {
+				CHALACTAN_CHR_callista CHALACTAN_CHR_mara CHALACTAN_CHR_seena CHALACTAN_CHR_areta CHALACTAN_CHR_padm_ CHALACTAN_CHR_fema CHALACTAN_CHR_mina CHALACTAN_CHR_bana CHALACTAN_CHR_tyreca CHALACTAN_CHR_halle CHALACTAN_CHR_lexi CHALACTAN_CHR_leia CHALACTAN_CHR_alyssa CHALACTAN_CHR_leanna CHALACTAN_CHR_arya
+			}
+			regnal_second_names = {
+				CHALACTAN_CHR_amedda CHALACTAN_CHR_amidala CHALACTAN_CHR_andrell CHALACTAN_CHR_annon CHALACTAN_CHR_antilles CHALACTAN_CHR_atanna CHALACTAN_CHR_baab CHALACTAN_CHR_barc CHALACTAN_CHR_bonteri CHALACTAN_CHR_breemu CHALACTAN_CHR_bremack CHALACTAN_CHR_bronk CHALACTAN_CHR_burtoni CHALACTAN_CHR_cadaman CHALACTAN_CHR_callen CHALACTAN_CHR_clovis CHALACTAN_CHR_ledwellow CHALACTAN_CHR_dio CHALACTAN_CHR_panteer CHALACTAN_CHR_alde CHALACTAN_CHR_organa CHALACTAN_CHR_frayus CHALACTAN_CHR_cortess CHALACTAN_CHR_killesa
+			}
+		}
+	}
+}

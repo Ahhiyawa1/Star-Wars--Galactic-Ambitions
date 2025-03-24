@@ -1,0 +1,41 @@
+defined_text = {
+	name = GetPlagueName
+	text = { trigger = { has_modifier = po_brainworm_plaque } localization_key = "po_brainworm_plaque" }
+	text = { trigger = { has_modifier = po_rakghoul_plaque } localization_key = "po_rakghoul_plaque" }
+	text = { trigger = { has_modifier = po_endregaad_plaque } localization_key = "po_endregaad_plaque" }
+	text = { trigger = { has_modifier = po_festerlung_plaque } localization_key = "po_festerlung_plaque" }
+	text = { trigger = { has_modifier = po_deathseed_plaque } localization_key = "po_deathseed_plaque" }
+	text = { trigger = { has_modifier = po_fear_plaque } localization_key = "po_fear_plaque" }
+	text = { trigger = { has_modifier = po_hive_plaque } localization_key = "po_hive_plaque" }
+}
+
+## LeaderClass string - from LOTOR
+defined_text = {
+	name = GetLeaderClass
+
+	text = { trigger = { leader_class = official }
+		localization_key = leader_class_ruler
+	}
+	text = { trigger = { leader_class = official }
+		localization_key = leader_class_official
+	}
+	text = { trigger = { leader_class = scientist }
+		localization_key = leader_class_scientist
+	}
+	text = { trigger = { leader_class = commander }
+		localization_key = leader_class_commander
+	}
+	text = { trigger = { leader_class = commander }
+		localization_key = leader_class_commander
+	}
+	default = default_envoy
+}
+
+defined_text = {
+	name = GetDesiredClanSystems
+    value = value:desired_clan_systems
+}
+defined_text = {
+	name = GetClanSystems
+    value = value:clan_systems
+}

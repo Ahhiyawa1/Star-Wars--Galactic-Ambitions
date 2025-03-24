@@ -1,0 +1,374 @@
+	NCamera = {
+		# Used for all ships
+		ENTITY_SPRITE_DESIGN_ENTRY_CAM_DIR 					= { -1.0 -0.6 0.3 }
+		ENTITY_SPRITE_DESIGN_ENTRY_CAM_LOOK_AT 				= { 0 0 0 }	# x=closer	-y = up	+z = left -z = right
+		ENTITY_SPRITE_DESIGN_ENTRY_ZOOM_SCALE 				= 1.6
+
+		# Used for ship sections in the ship designer
+		ENTITY_SPRITE_SHIP_SECTION_CAM_DIR 					= { -1.0 -0.6 0.3 }
+		ENTITY_SPRITE_SHIP_SECTION_CAM_LOOK_AT 				= { 0 0 0 }
+		ENTITY_SPRITE_SHIP_SECTION_ZOOM_SCALE 				= 1.6
+		
+		ZOOM_STEPS_GALAXY 									= { 40 120 340 600 900 1500 3000 } 	# Galaxy zoom steps
+		GALAXY_SHOW_FLEETS_ZOOM 							= 1100 # Camera zoom interval to show fleet icons
+		GALAXY_SHOW_STARNAME_ZOOM 							= 500 # Camera zoom interval to show star name
+		SYSTEM_SPACE_SCALE_MULT 							= 15		# Needed to ensure clicking arrows to other systems works
+		ZOOM_STEPS_SYSTEM_PERCENTAGES 						= { 0.01 0.05 0.1 0.2 0.4 0.8 2.5 } # System zoom steps in percent relative to the system size
+		SYSTEM_SLIDE_RADIUS_FACTOR 							= 0.5 #4.0
+		SYSTEM_SLIDE_SPEED 									= 100.0
+		SYSTEM_MIN_PITCH								 	= 20
+		SYSTEM_MAX_PITCH 									= 80
+		GALAXY_MIN_PITCH 									= 20		# set to -29 because when entering galaxy view the game default angle at (max pitch + min pitch)/2, here (89-29)/2 = 30
+		GALAXY_MAX_PITCH 									= 85		# set at 89 will prevent game to flip camera once it reaches 90� (exact vertical)
+		FOCUSED_MIN_PITCH 									= -80
+		FOCUSED_MAX_PITCH 									= 80
+		FOCUSED_MIN_ZOOM_BASE								= 0.8 # base min zoom
+		SYSTEM_FAR_PLANE_DISTANCE_BASE						= 20000.0
+		SYSTEM_HOVER_RANGE 									= 0.01
+
+		BORDER_NAMES_FADEOUT_ZOOM 							= 700
+		BORDER_FLAG_FADEOUT_ZOOM 							= 700
+	}
+
+	NGraphics = {
+		DEFAULT_PLANET_PLANE								= -350.0
+		ASTEROID_PLANE										= -300.0
+		GALAXY_STAR_ICON_SCALE 								= 0.8
+		GALAXY_STAR_ICON_MAX_SCALE 							= 0.9
+		GALAXY_DUST_SIZE 									= 16.0
+		GALAXY_DUST_SIZE_EXTRA 								= 23.0
+		GALAXY_DUST_ROTATION_SPEED							= 0.0
+
+		BORDER_SYSTEM_RADIUS 								= 30.0
+		BORDER_HYPERLANE_THICKNESS 							= 25.0
+		BORDER_OWNERLESS_SYSTEM_RADIUS 						= 24.0
+		BORDER_OWNERLESS_HYPERLANE_THICKNESS 				= 0
+
+		BORDER_VISIBILITY_THRESHOLD							= 0.05
+
+		MAPNAME_NEBULA_SCALE								= 1.5
+		MAPNAME_BORDER_MIN_SIZE								= 100
+		MAPNAME_BORDER_SCALE 								= 0.8
+		MAPNAME_BORDER_OFFSET_MUL 							= 0.7
+
+		STAR_PIN_CIRCLE_RADIUS 								= 0.6	# The lines that go from solar systems down to the 0-plane. This is the radius of that circle
+			STAR_PIN_CIRCLE_NUM_POINTS 							= 6	# how many points in the circle on the 0-plane
+		STAR_PIN_ENABLE_NEUTRAL								= no # Should the game draw pins for stars that are not within any borders?
+		 	STAR_PIN_NEUTRAL_COLOR 								= { 0.5 0.5 0.5 0.5 }	# The color for pins that are not inside any borders
+		
+		RANDOM_HEIGHT_MIN 									= -2.0
+		RANDOM_HEIGHT_MAX 									= 1.0
+		MAPNAME_BORDER_SCALE 								= 0.7																					
+		MAPNAME_BORDER_OFFSET_MUL 							= 0.8							
+		
+		MISSILE_HEIGHT_OFFSET								= 30.0	# how high up missiles will fly
+		MISSILE_ROTATION_RATE								= 2.2 # how fast missiles will adjust their rotation. High values can cause visible snaps each micro update
+		
+		MISSILE_RANDOM_OFFSET_MIN_RADIUS					= -50.0
+		MISSILE_RANDOM_OFFSET_MAX_RADIUS 					= 50.0
+		
+		SHIELD_EFFECT_TIME_SCALE 							= 2.0 # how fast the shield effects are animated
+		SHIELD_EFFECT_LOOP_INTERVAL 						= 0.5 # when to loop animation. value is in percent
+		SHIELD_DISTANCE_FROM_SHIP 							= { 0.4 0.4 0.4 } # how far "out" from the ships shields will extend. left-right upd-down front-back
+		SHIELD_DISTANCE_FROM_SHIP_MULT 						= { 0.3 0.3 0.3 } # how far "out" from the ships shields will extend. based on ship's size. left-right upd-down front-back
+
+		CELESTIAL_WARNING_COORDINATE_VALUE					= 9999 # removes the "initalizer is too big" warning in the error.log
+
+		SHIELD_EFFECT_ENTITIES = {
+			"swp_small_shield_impact_entity"
+			"swp_medium_shield_impact_entity"
+			"swp_large_shield_impact_entity"
+		}
+		SHIELD_EFFECT_LOOPING_ENTITIES = {
+			"swp_small_shield_impact_looping_entity"
+			"swp_medium_shield_impact_looping_entity"
+			"swp_large_shield_impact_looping_entity"
+		}
+		
+		TRAILS_ALPHA_FADE					= 6.0 # Controls of quick we alpha fade-out
+		TRAILS_BASE_WIDTH					= 0.2 # Trails width
+		STRIKE_CRAFT_HEIGHT_OFFSET			= 1.5
+		STRIKE_CRAFT_TRAIL_FADE_RATE		= 2.0
+		STRIKE_CRAFT_HEIGHT_RANDOM 			= 1.0
+
+		MAX_GFX_PROJECTILES									= 1000
+		MAX_GFX_PRIO_PROJECTILES							= 650
+		MAX_GFX_MISSILES									= 150
+		MUZZLE_FLASH_LIMIT									= 200
+		MUZZLE_FLASH_DURATION								= 2.0
+		HIDE_ORBITS_ZOOM									= 2
+		#ORBIT_HSV										 	= { 0.0 0.0 0.0 }
+		ORBIT_HSV											= { 0.4 0.5 2.9 }
+		SYSTEM_INNER_BORDER_HSV 							= { 0.0 0.0 0.4 }
+		SYSTEM_OUTER_BORDER_HSV								= { 0.1 0.8 0.9 }	
+		NAVIGATION_ARROW_TEXT_SCALE 						= 0.8
+
+		SHIP_RANDOM_HEIGHT_OFFSET 							= 30.0
+		
+		BALLISTIC_PROJECTILE_MISSED_LIFETIME 				= 4.0 # missed ballistic projectiles will live for (at least) this long before being removed (adjusted to match SW TL)
+		MISSED_BEAM_LENGTH 									= 500.0 # how long missed beams will be
+
+		HYPERLANE_THICKNESS_RELAY							= 1.4
+	}
+
+	NGameplay = {
+		#START_YEAR 										= 7958
+		#PLANET_ORBIT_DISTANCE 								= 3.0 		# 10.0 - how far from the planet ships will orbit
+		PLANET_STATION_ORBIT_DISTANCE 						= 3.0 		# 6.0 - how far from the planet orbital stations will be
+		SHIP_SUBLIGHT_SPEED_MULT							= 5			# General speed multiplier for ship movement within solar systems
+		ETHOS_MAX_POINTS					= 8	# Number of points which you can spend on ethos.
+		GOVERNMENT_CIVIC_POINTS_BASE		= 8		# Base amount of civic points (to "pay" for government civic costs)
+		MISSILE_SUBLIGHT_SPEED_MULT 						= 10		# General speed multiplier for missile movement within solar systems
+		CUSTOM_EMPIRE_SPAWN_CHANCE 							= 10000		
+
+		COMMAND_LIMIT_MAX									= 999999		# Max value of Command Limit
+		COMMAND_LIMIT_BASE 									= 65		# Base value of Command Limit
+
+		NAVAL_CAPACITY_MAX									= 999999		# Max value of Naval Capacity
+		NAVAL_CAPACITY_BASE 								= 100		# Base value of Naval Capacity
+		NAVAL_CAPACITY_POP_MULT								= 0.1		# Mult value of Naval Capacity for each Pop
+
+		LEADER_CAPACITY_BASE 								= 10 		# Base leader cap +4
+
+		STARBASE_CAPACITY_MAX								= 999999		# Max value of Starbase Capacity
+		STARBASE_CAPACITY_BASE								= 4		 # Base value of Starbase Capacity
+		STARBASE_CAPACITY_SYSTEM_MULT						= 0.10		# Mult value of Starbase Capacity for each owned system	
+		STARBASE_CAPACITY_POP_MULT							= 0.00		# Mult value of Starbase Capacity for each Pop 
+		
+		ASCENSION_PERKS_SLOTS								= 9 		# Number of ascension perk slots
+		
+		STARBASE_ORBIT_DISTANCE								= 30.0		# how far from the star starbases will orbit
+
+		SHIPYARD_MAX_OVER_CAPACITY 							= 20.0		# Max amount of ships that we should want to be queued in one shipyard (x shipyard capacity)
+		SHIPYARD_DISTANCE_DIV_FACTOR 						= 10.0		# The lower this is, the more reinforce tends to use the closest shipyard(s) available. Strongly NOT recommended to have this <1
+		SHIPYARD_REINFORCE_MAX_DISTANCE						= 10000000000					# Shipyards further away than this from the closest shipyard will not be considered for reinforcements
+
+		FTL_MIN_DIST										= 1 		# Min distance to FTL point to start the FTL
+		
+		#BASE_PLANET_BUILDING_SLOTS							= 4
+		#MAX_PLANET_BUILDING_SLOTS							= 24
+		#MAX_PLANET_BRANCH_OFFICE_BUILDING_SLOTS			 = 4
+
+		## tradition cost = ( base_cost + ( cost_tradition * num_traditions )^traditions_exponential ) * ( 1 + cost_planet*num_planets + cost_system*num_systems )
+		#TRADITION_COST_TRADITION							= 16		# change this value if you want to increase all costs
+		#TRADITION_COST_TRADITION_EXP						= 1.700 	# change this value if you want to increase costs at the end
+		#TRADITION_COST_MULT_TRADITION_GROUP				= 0.10		# each adopted group adds +X% to total cost
+		
+		#WAR_EXHAUSTION_NAVAL_CAP_ADD						= 100
+		#WAR_EXHAUSTION_SHIP_KILLED_MULT					= 1.00		# Multiplier of war exhaustion gained from ships
+		#WAR_EXHAUSTION_ARMY_KILLED_MULT					= 0.15		# Multiplier of war exhaustion gained from land battles (armies)
+		#WAR_EXHAUSTION_PLANET_DESTRUCTION_MULT 			= 20.0		# War exhaustion from planets destroyed
+		#WAR_EXHAUSTION_PASSIVE_GAIN_YEARLY					= 0.1		# The amount of yearly war exhaustion gained during war while under WAR_EXHAUSTION_PASSIVE_GAIN_CUTOFF
+		#WAR_EXHAUSTION_PASSIVE_WAR_SIZE_DIV	 			= 0.1
+		#WAR_EXHAUSTION_PASSIVE_GAIN_CUTOFF					= 1.0		# At this amount of war exhaustion (excluding occupation) you stop getting war exhaustion passively over time
+		#WAR_EXHAUSTION_FROM_UNITS_CUTOFF					= 1.0		# At this amount of war exhaustion (excluding occupation) you stop gaining war exhaustion from lost units
+		#WAR_EXHAUSTION_HIGH_THRESHOLD						= 1.0		# Apply negative modifier and show alert if war exhaustion >= this
+
+		#POP_FACTION_MIN_POTENTIAL_MEMBERS					= 1			# If a faction has less potential members than this, do not form, and delete if formed
+		
+		DEBRIS_DAYS											= 1			# How many days the debris is visible for
+		
+		STATION_SELF_REPAIR_TIMER_DAYS						= 0			# Number of days after taking damage before a station will start self-repairing
+		
+		STARBASE_SELF_REPAIR_TIMER_DAYS						= 30		# Number of days after taking damage before a starbase will start self-repairing
+
+		EMPIRE_SIZE_BASE									= 150		# No penalties at this empire size or below
+		#EMPIRE_SIZE_FROM_DISTRICTS							= 0.4		# Per district
+		#EMPIRE_SIZE_FROM_SYSTEMS							= 1			# Per system
+		EMPIRE_SIZE_FROM_COLONIES							= 5			# Per planet
+		#EMPIRE_SIZE_FROM_BRANCH_OFFICES					= 2			# Per branch office
+		EMPIRE_SIZE_FROM_POPS								= 0.2		# Per pop
+		
+		
+		RELIC_VIEW_SLOTS_PER_ROW = 3
+		RELIC_VIEW_SLOTS_PER_ROW_WIDE = 3
+
+		FEDERATION_VOTE_RESUBMIT_DELAY						= 1800		# Number of days that must pass before you can propose to vote for a given law again
+
+		TRADITION_CATEGORIES_MAX							= 8
+
+		COSMIC_STORM_SPAWN_CHANCE_SCALE_DEFAULT = 0
+	}
+
+	NShip = {
+		#DESIGNER_WEAPON_PREF_MUL							= 1.0		# How much does weapon preference tags in the ship designer affect the weight it assigns a weapon?
+		DESIGNER_WEAPON_STACKING_DIV						= 1.0		# The higher this is the more the ship designer will try to vary which weapon types are used on its sections
+
+		HYPERLANE_WINDUP 									= 50		# In micro updates ( 10/day )
+		HYPERLANE_WINDDOWN									= 50		# In micro updates
+		HYPERLANE_WINDUP_OUTSIDE_BORDER						= 2.0		# How much more windup time is there for systems which are 100% away from friendly territory
+		HYPERDRIVE_INTERSTELLAR_TRAVEL_SPEED 				= 0.09 		# In micro updates ( 10/day ) #old 0.02
+
+		FLEET_BASE_FORMATION_SCALE							= 2.0
+		FLEET_BASE_FORMATION_DIV							= 10
+	}
+
+	NCombat = {
+		COMBAT_DAYS_BEFORE_TARGET_STICKYNESS				= 30		# Combat must have gone on at least this many days before ships 'lock in' their target
+		COMBAT_TARGET_STICKYNESS_FACTOR						= 5.0		# The higher this is, the less likely ships are to switch targets
+		RANDOM_TARGETING_WEIGHT								= 100.0		# The higher this is, the more random ship targeting will be
+		
+		ADMIRAL_DEATH_CHANCE								= 0.05		# Chance that admiral dies when their ship gets blown up
+		
+		#COMBAT_SHIP_TARGETING_SIZE_MULT					= 0.03		# The higher this weight is, the more likely smaller, more fragile ships are to be targeted first
+		#COMBAT_SHIP_TARGETING_SIZE_MAX						= 10
+		#COMBAT_SHIP_TARGETING_TRACKING_MULT				= 2.0		# This weight is needed to ensure high-tracking ships target high-evasion ships
+		#COMBAT_SHIP_EVASION_TARGETING_WEIGHT 				= 2.0		# The higher this is, the less likely ships are to target enemy ships with high chance to evade their shots
+		#COMBAT_SHIP_LOW_HEALTH_THRESHOLD 					= 0.50		# The health threshold at which the low health targeting weight is applied
+		COMBAT_SHIP_LOW_HEALTH_TARGETING_WEIGHT 			= 150.0		
+		COMBAT_SHIP_DISTANCE_TARGETING_WEIGHT				= 100.0		# The higher this is, the less likely ships will be to fire on distant targets
+
+		COMBAT_DETECT_RANGE_MULT							= 1.5		# Range to engage in combat with other ships is <fleets max attack range> * COMBAT_DETECT_RANGE_MULT
+		#COMBAT_SHIP_DISTANCE_TARGETING_WEIGHT_MIN			= 0.10		# Target weight can't be multiplied by less than this due to distance
+		COMBAT_SHIP_UNARMED_TARGETING_WEIGHT 				= 0.01		# The lower this is, the less likely ships are to target unarmed enemies over armed ones
+		COMBAT_SHIP_STARBASE_TARGETING_WEIGHT				= 0.01		# The lower this is, the less likely ships are to target Starbases over military ships & defensive platforms
+
+		COMBAT_BASE_DAYS_UNTIL_EMERGENCY_FTL 				= 90.0		# how many days a fleet should be in combat until they can emergency ftl
+	}
+
+	NPop = {
+		FORCED_SPECIES_ASSEMBLY_PENALTY	= 0.0					# This amount of progress is lost on setting a forced species for assembly
+
+		#BASE_POP_GROWTH = 3.0									# Base growth rate of pops
+		LOGISTIC_POP_GROWTH_LOWER_THRESHOLD	= 0.70				# Ignore penalties to Pop Growth if the current number of pops are below this percent of the carrying capacity
+		#NEW_COLONY_GROWTH	= 0.1								# New colonies have a penalty to their growth
+		#REQUIRED_POP_GROWTH	= 150								# Required growth to make a new pop
+		REQUIRED_POP_ASSEMBLY = 125								# Required assembly to add a pop
+		#OVERCROWDING_NO_GROWTH_THRESHOLD = 1.1					# At this amount of overcrowding, growth stops entirely
+		#OVERCROWDING_DECLINE_THRESHOLD	= 1.25					# At this amount of overcrowding, pops start declining
+
+		#NEW_POP_HOMEWORLD_MULT = 1								# Pops have increased weight for growing on their homeworld
+		
+		#SAME_STRATA_EMPLOYMENT_BONUS = 20.0 						# How much score will be added to an unemployed pop when considering it for a job in the same strata
+		#FAVORITE_JOB_EMPLOYMENT_BONUS = 1.0
+	}
+
+	NEconomy = {
+		TRADITION_COST_AMOUNTS				= { 2000 }			# Tradition base cost
+
+		FLEET_UPGRADE_TIME_COST_MULT = 0.1						# Upgrade fleet time cost
+	}
+
+	NAI = {
+		#AI_FREE_JOBS_DISTRICT_BUILD_CAP = 6 						# AI will not build new districts on a planet with more than this many free jobs
+		#AI_FREE_JOBS_BUILDING_BUILD_CAP = 8							# AI will not build new buildings on a planet with more than this many free jobs
+		#AI_DEFICIT_SCORE_MULT = 100								# AI will score buildings producing resources in deficit this much more
+		#AI_FOCUS_SCORE_MULT = 60									# AI will score buildings producing focus resources this much more
+		#AI_AMENITIES_SCORE_MULT = 25								# AI will score amenity buildings this much more than other misc resources
+		#AI_HOUSING_SCORE_MULT = 10									# AI will score housing buildings this much more than other misc resources
+		#AI_CRIME_REDUCTION_SCORE_MULT = 5							# AI will score crime fighting buildings this much more than other misc resource
+		#AI_ADMIN_CAP_SCORE_MULT = 30								# AI will score admin cap buildings this much more than other misc resource
+		#AI_POPS_SCORE_MULT = 10		 							# AI will score pop growth and assembly buildings this much more ( already fairly high weighted in code )
+		#AI_UPGRADE_SCORE_MULT = 120									# AI will score building upgrades this much more ( since they don't take up a new building slot )
+		#AI_MIN_CURRENCY_INCOME_TO_BUILD_STARBASE_MODULES = 50 		# AI will not build starbase modules if energy income is below this threshold
+		
+		#AI_TECHNOLOGY_RARE_WEIGHT_MULT = 2.5						# AI will multiply AI weight of rare techs with this value
+		#AI_TECHNOLOGY_INFINITELY_REPEATABLE_WEIGHT_MULT = 0.1		# AI will multiply AI weight of infinitely repeatable techs with this value
+		
+		# These are used to determine where the AI should be upgrading its starbases
+		#STARBASE_COLONY_SCORE = 30
+		#STARBASE_HABITABLE_PLANET_SCORE = 50
+		#STARBASE_MEGASTRUCTURE_SCORE = 2
+		#STARBASE_BYPASS_SCORE = 1
+		#STARBASE_CHOKEPOINT_SCORE = 20
+		#STARBASE_HAZARD_CHOKEPOINT_SCORE_MULT = 1.1
+		
+		#WAR_OWN_BORDER_PRIO	= 0											# Priority on targeting systems that are bordering us
+		#WAR_ALLY_BORDER_PRIO = 0										# Priority on targeting systems that are bordering allies
+		#WAR_DEFENSE_OWN_PRIO = 10										# Priority on defending own borders
+		#WAR_DEFENSE_ALLY_PRIO = 10										# Priority on defending allies
+		#WAR_DEFENSE_OWN_PLANET_PRIO = 10								# Priority on defending own planets in a controlled system
+		#WAR_DEFENSE_OWN_PLANET_ENEMY_CONTROL_PRIO = 20 					# Priority on defending own planets in an enemy controlled system
+		
+		#WAR_ATTACK_PLANET_CONTROLLED_SYSTEM_PRIO = 10.0				# Priority on targeting enemy planets in controlled systems
+		#WAR_DEFEND_STARBASE_PRIO = 1.5									# Priority on defending systems with an upgraded starbase
+		#WAR_ATTACK_MILITARY_FLEET_PRIO = 50								# Priority on targeting enemy military fleets
+		#WAR_ATTACK_JUMP_DRIVE_FLEET_PRIO = 2.0							# Priority on targeting vulnerable jump-drive fleets that are in cooldown
+		
+		#AI_NO_RETREAT_LIMIT = 2								# At fewer owner/controlled planets than this, the AI will fight to the death in their home systems		
+		#WAS_HUMAN_MONTHS = 12								# Amount of months that the AI will refrain from making large changes to the empire if it's taking over from a player
+		#MIN_FLEET_FOR_OPERATIONS = 4000
+		#MIN_FLEET_TO_RESTRICT_SYSTEM = 20000
+		#MIN_FLEET_THREAT_TO_CRISIS = 80000
+		
+		#FLEET_GROUP_ABORT_MISSION_MULT = 1.1		 		# The wanted amount of fleet power needs to have increased by at least this much for the AI to reconsider a mission once commited
+
+		#FLEET_COMBAT_INTERVENTION_MULT = 0.6				# The AI wont try to intervene in a fleet combat unless that intervention puts us at this percentage of the enemy fleet ( i.e. we wont intervene if the enemy outnumbers us by 2 
+		
+		#OFFENSE_VS_DEFENSE_STRATEGY_ALLOTMENT = 0.8		# How much of its fleet power should a country with 1.0 aggressiveness should try to commit to offensive missions
+		
+		#FLEET_DAMAGED_THRESHOLD_WAR = 0.60					# threshold when a fleet will be considered damaged and should return for repairs and avoid certain actions
+		#FLEET_DAMAGED_THRESHOLD_PEACE = 0.95				# same but for peace
+		#FLEET_ARMOR_DAMAGED_THRESHOLD_WAR = 0.60			# same as above but for armor
+		#FLEET_ARMOR_DAMAGED_THRESHOLD_PEACE = 0.95			# same but for armor in peace
+		
+		#HOSTILE_FLEETS_TARGET_SCORE = 60					# extra score for engaging hostile fleets
+		#CHOKEPOINT_TARGET_MULT = 2.5 						# extra multiplier for defensive scoring of chokepoints
+		
+		#AI_AGGRESSIVENESS_LOW_MULT = 0.5
+		#AI_AGGRESSIVENESS_HIGH_MULT = 2
+		#AI_AGGRESSIVENESS_BASE = 120						# Base chance AI will declare a war (multiplied by personality aggressiveness score)
+		#AI_AGGRESSIVENESS_PROPAGATOR_BOXED_IN_MULT = 15	# When a warlike 'propagator' personality is boxed in aggression is multiplied by this value
+		#AI_AGGRESSIVENESS_BOXED_IN_MULT = 4				# When an AI can no longer peacefully expand aggression is multiplied by this value
+		#AI_AGGRESSIVENESS_NO_COLONY_TARGET_MULT = 2 		# When an AI has no immediate colony targets and at least MAX_PLANETS_FOR_BUDGET_FACTOR planets (but is not boxed in) aggression is multiplied by this value
+
+		#AI_BUDGETING_START_YEARS = 4						# These variables are used for some of the AI's budgeting to ensure it prioritizes the right things early on
+		#AI_BUDGETING_MID_YEARS = 10
+		#AI_BUDGETING_LATE_YEARS = 18
+
+		#MIN_ASSAULT_ARMIES = 30
+		#MAX_ASSAULT_ARMIES = 100
+		#ASSAULT_ARMIES_PER_POP = 0.1
+
+		#BUILDING_EXISTS_DIV_SCORE = 0.6						# The higher this is, the more the AI will avoid building the same building on planets
+
+		NUM_TRADITIONS_FOR_EDICTS = 56						# How many traditions does the AI want before spending Unity on edicts (there are 49 in total in the base game counting adoption & completion effects)
+
+		#LEADER_FRACTION_ADMIRAL = 0.6						# Fraction of admirals
+		#LEADER_FRACTION_GENERAL = 0.4						# Fraction of generals
+
+		#MAX_PLANETS_FOR_BUDGET_FACTOR = 8					# At this amount of planets budget is normalized
+
+		#MIN_NAVY_SIZE_FOR_ADMIRAL = 1						# AI wants a navy of at least this fleetsize before buying an admiral
+
+		#PEACE_WAR_EXHAUSTION_FACTOR = 100
+		#PEACE_OCCUPATION_FACTOR = 100
+		#PEACE_STATUS_QUO_FACTOR = -75
+		#PEACE_HIGH_WE_STATUS_QUO_FACTOR = 150
+		#PEACE_DEMAND_SURRENDER_FACTOR = -50
+		#PEACE_DEFENDING_CLAIM_SYSTEM_FACTOR = -5			# For every system
+		#PEACE_DEFENDING_CLAIM_STARBASE_FACTOR = -20			# For systems with upgraded starbases
+		#PEACE_DEFENDING_CLAIM_PLANET_FACTOR = -50			# For systems with colonies
+		#PEACE_RELATIVE_NAVY_STRENGTH_FACTOR = 50
+		
+		
+		#ENEMY_FLEET_POWER_MULT = 0.6						# AI will need the fleet power of the enemy multiplied by this value to become offensive in an offensive war
+		#ENEMY_ARMY_POWER_MULT = 1.1						# AI will need the military power of the enemy multiplied by this value to land armies on planet
+		
+
+		#MAX_EXPANSION_DISTANCE = 1							# Max number of jumps away AI will build starbases
+		#MAX_EXPANSION_DISTANCE_SUBJECT = 1					# Max number of jumps away AI subjects will build starbases
+		#EXPANSION_OWN_PRIORITY 	= 1000					# Priority on rebuilding destroyed starbases in colonized systems
+		#EXPANSION_CUT_OFF_SYSTEM_PRIORITY = 10				# Priority on systems cut-off inside own territory
+		#EXPANSION_BORDERING_PRIORITY = 500					# How much will AI prioritize bordering systems when building starbases
+		#EXPANSION_RESOURCE_PRIORITY = 100					# How much will AI prioritize resource-rich systems when building starbases
+		EXPANSION_COLONY_PRIORITY = 200						# How much will AI prioritize systems with colonizableble worlds when building starbases
+		#EXPANSION_BYPASS_PRIORITY = 10						# How much will AI prioritize systems with bypasses when building starbases
+		#EXPANSION_MIN_VALUE_FOR_HIGH_PRIO = 40				# How much value does a system need to be considered priority over building up existing systems in borders
+		#EXPANSION_RANDOM_AMOUNT	= 50					# A random roll of this amount is added to each system's score when deciding where to expand next
+		#EXPANSION_RESOURCE_GAIN_UPKEEP = 0.5				# When checking candidate systems for outposts, the AI looks at the resources in the system and counts this fraction towards upkeep gain
+
+		#ABORT_MISSION_LIMIT = 0.35							# MilitaryPower fraction below this level will result in AI escaping battle
+
+		AI_ALLOWED_TO_BUY = { "minerals" "food" "alloys" "consumer_goods" "bacta" "tibanna_gas" "hyperfuel" "electronics" "ammunition" "spice" "sr_agrocite" }
+		AI_ALLOWED_TO_SELL = { "minerals" "food" "alloys" "consumer_goods" "tibanna_gas" "hyperfuel" "electronics" "ammunition" "spice" "sr_agrocite" }
+
+		AI_RARE_RESOURCES = { "exotic_gases" "rare_crystals" "volatile_motes" "bacta" "spice" "sr_argocite" ""sr_kyber" } #Tells AI which the "strategic" resources are used for their economy planing
+
+		#AI_MIN_HABITABILITY_TO_COLONIZE = 0.40				# AI will avoid colonizing planets with habitability lower than this.
+		
+		#WAR_DECLARATION_MALUS_DISTANCE = 20					# Distance between empires (in jumps) at which the AI will be less likely to declare war
+		#WAR_DECLARATION_MALUS = 0.1							# malus per jump above the malus distance (above) for each jump
+		
+		#AVERAGE_FLEET_SIZE_FACTOR = 0.20						# Ballpark estimate of the minimum size a fleet should be in relation to total fleet power or more )
+	}

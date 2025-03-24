@@ -1,0 +1,844 @@
+﻿Trianii = {
+	randomized = no
+	ship_names = {
+		generic = {
+			TRIANII_SHIP_mystic TRIANII_SHIP_naiad TRIANII_SHIP_nautilus TRIANII_SHIP_nebula TRIANII_SHIP_nimble TRIANII_SHIP_north_star TRIANII_SHIP_nymph TRIANII_SHIP_obdurate TRIANII_SHIP_ocean TRIANII_SHIP_onward TRIANII_SHIP_oracle TRIANII_SHIP_paradox TRIANII_SHIP_paragon TRIANII_SHIP_pearl TRIANII_SHIP_peregrine TRIANII_SHIP_perseverance TRIANII_SHIP_marksman TRIANII_SHIP_rifleman TRIANII_SHIP_sniper TRIANII_SHIP_trident TRIANII_SHIP_trumpet TRIANII_SHIP_truncheon TRIANII_SHIP_typhoon TRIANII_SHIP_undaunted TRIANII_SHIP_venture TRIANII_SHIP_versatile TRIANII_SHIP_vigorous TRIANII_SHIP_viper TRIANII_SHIP_vivacious TRIANII_SHIP_winger TRIANII_SHIP_wizard TRIANII_SHIP_wyvern TRIANII_SHIP_wolfhound TRIANII_SHIP_devastator TRIANII_SHIP_warhammer TRIANII_SHIP_retribution TRIANII_SHIP_senator TRIANII_SHIP_tornado TRIANII_SHIP_infinity TRIANII_SHIP_usurper TRIANII_SHIP_utmost TRIANII_SHIP_valorous TRIANII_SHIP_whirlwind TRIANII_SHIP_athena TRIANII_SHIP_artemis TRIANII_SHIP_vigilance TRIANII_SHIP_decimator TRIANII_SHIP_indomitable TRIANII_SHIP_goliath TRIANII_SHIP_sentinel TRIANII_SHIP_brilliant TRIANII_SHIP_blazer TRIANII_SHIP_audacity TRIANII_SHIP_gallant TRIANII_SHIP_nova TRIANII_SHIP_shadow TRIANII_SHIP_allegiance TRIANII_SHIP_challenger TRIANII_SHIP_fearless TRIANII_SHIP_protector TRIANII_SHIP_guardian TRIANII_SHIP_victorious TRIANII_SHIP_courageous TRIANII_SHIP_defiance TRIANII_SHIP_valorous TRIANII_SHIP_azrael TRIANII_SHIP_adamantine TRIANII_SHIP_aralanni TRIANII_SHIP_ardent_iv TRIANII_SHIP_armistice TRIANII_SHIP_avengeance TRIANII_SHIP_ballista TRIANII_SHIP_bloodstripe TRIANII_SHIP_borealis TRIANII_SHIP_caelus TRIANII_SHIP_caravan TRIANII_SHIP_chaf_envoy TRIANII_SHIP_commenor TRIANII_SHIP_corbantis TRIANII_SHIP_corellia TRIANII_SHIP_courteous TRIANII_SHIP_dauntless TRIANII_SHIP_defiant TRIANII_SHIP_deliverance TRIANII_SHIP_derapha TRIANII_SHIP_devout TRIANII_SHIP_empirical TRIANII_SHIP_empyrean TRIANII_SHIP_era_daimanos TRIANII_SHIP_eye_of_the_storm TRIANII_SHIP_farstar TRIANII_SHIP_fastblast TRIANII_SHIP_galaaron TRIANII_SHIP_garrote TRIANII_SHIP_gilagimar TRIANII_SHIP_halleck TRIANII_SHIP_hunter TRIANII_SHIP_intractable TRIANII_SHIP_ithor_lady TRIANII_SHIP_justice_crusader TRIANII_SHIP_kana_s_steel TRIANII_SHIP_lathir TRIANII_SHIP_liberty TRIANII_SHIP_lillibanca TRIANII_SHIP_maelstrom TRIANII_SHIP_malachite_scent TRIANII_SHIP_mercy TRIANII_SHIP_myrkos TRIANII_SHIP_nebula_chaser TRIANII_SHIP_nova TRIANII_SHIP_nova_viper TRIANII_SHIP_obedience TRIANII_SHIP_olemp TRIANII_SHIP_pegasus TRIANII_SHIP_perspicacity TRIANII_SHIP_phalanx TRIANII_SHIP_plooriod_bodkin TRIANII_SHIP_predominance TRIANII_SHIP_prosperity TRIANII_SHIP_purity TRIANII_SHIP_recalcitrant TRIANII_SHIP_red_nova TRIANII_SHIP_redma TRIANII_SHIP_reliable TRIANII_SHIP_reliant TRIANII_SHIP_reluctant TRIANII_SHIP_republic TRIANII_SHIP_republic_s_return TRIANII_SHIP_resolve TRIANII_SHIP_respectable TRIANII_SHIP_revenge TRIANII_SHIP_shadowblade TRIANII_SHIP_spritespray TRIANII_SHIP_star_dream TRIANII_SHIP_stark_wing TRIANII_SHIP_starveil TRIANII_SHIP_undying TRIANII_SHIP_vaathkree TRIANII_SHIP_vainglorious TRIANII_SHIP_valiant TRIANII_SHIP_valor TRIANII_SHIP_vanquisher TRIANII_SHIP_vinsor TRIANII_SHIP_visseon TRIANII_SHIP_wennis TRIANII_SHIP_yavin_s_glory TRIANII_SHIP_moldy_crow TRIANII_SHIP_raven_s_claw TRIANII_SHIP_agile TRIANII_SHIP_archer TRIANII_SHIP_arrow TRIANII_SHIP_bruiser TRIANII_SHIP_cherub TRIANII_SHIP_chimera TRIANII_SHIP_claymore TRIANII_SHIP_broadsword TRIANII_SHIP_battleaxe TRIANII_SHIP_crossbow TRIANII_SHIP_cutlass TRIANII_SHIP_deterrent TRIANII_SHIP_errant TRIANII_SHIP_faithful TRIANII_SHIP_fierce TRIANII_SHIP_gladius TRIANII_SHIP_longbow TRIANII_SHIP_grappler TRIANII_SHIP_hammer TRIANII_SHIP_vampire TRIANII_SHIP_velox TRIANII_SHIP_venator TRIANII_SHIP_vendetta TRIANII_SHIP_venerable TRIANII_SHIP_venomous TRIANII_SHIP_taciturn TRIANII_SHIP_supreme TRIANII_SHIP_success TRIANII_SHIP_shredder TRIANII_SHIP_seraph TRIANII_SHIP_serpent TRIANII_SHIP_spitfire TRIANII_SHIP_stalker TRIANII_SHIP_stratagem TRIANII_SHIP_scimitar TRIANII_SHIP_scorcher TRIANII_SHIP_scourge TRIANII_SHIP_scythe TRIANII_SHIP_revenant TRIANII_SHIP_redoubtable TRIANII_SHIP_raptor TRIANII_SHIP_reaver TRIANII_SHIP_prodigal TRIANII_SHIP_rapier TRIANII_SHIP_prudent TRIANII_SHIP_persistent TRIANII_SHIP_peerless TRIANII_SHIP_myrmidon TRIANII_SHIP_indignant TRIANII_SHIP_javelin TRIANII_SHIP_knight TRIANII_SHIP_starwolf TRIANII_SHIP_bonaventure TRIANII_SHIP_adventure TRIANII_SHIP_boxer TRIANII_SHIP_buccaneer TRIANII_SHIP_cavalier TRIANII_SHIP_celestial TRIANII_SHIP_chariot TRIANII_SHIP_comet TRIANII_SHIP_crucible TRIANII_SHIP_cyclone TRIANII_SHIP_decisive TRIANII_SHIP_dexterous TRIANII_SHIP_diadem TRIANII_SHIP_earnest TRIANII_SHIP_eclipse TRIANII_SHIP_forger TRIANII_SHIP_fortune TRIANII_SHIP_gauntlet TRIANII_SHIP_griffin TRIANII_SHIP_horizon TRIANII_SHIP_hotspur TRIANII_SHIP_hurricane TRIANII_SHIP_hussar TRIANII_SHIP_jubilant TRIANII_SHIP_lancer TRIANII_SHIP_lightning TRIANII_SHIP_magic TRIANII_SHIP_mediator TRIANII_SHIP_mermaid TRIANII_SHIP_meteor TRIANII_SHIP_minstrel TRIANII_SHIP_miranda TRIANII_SHIP_mustang TRIANII_SHIP_sharpshooter TRIANII_SHIP_cyclops TRIANII_SHIP_centaur TRIANII_SHIP_adversary TRIANII_SHIP_assassin TRIANII_SHIP_dagger TRIANII_SHIP_daring TRIANII_SHIP_duty TRIANII_SHIP_havoc TRIANII_SHIP_hero TRIANII_SHIP_hunter TRIANII_SHIP_justice TRIANII_SHIP_impeccable TRIANII_SHIP_interceptor TRIANII_SHIP_infernal TRIANII_SHIP_loyal TRIANII_SHIP_matchless TRIANII_SHIP_mauler TRIANII_SHIP_mayhem TRIANII_SHIP_malice TRIANII_SHIP_menace TRIANII_SHIP_merciless TRIANII_SHIP_mischief TRIANII_SHIP_monarch TRIANII_SHIP_patriot TRIANII_SHIP_predator TRIANII_SHIP_powerful TRIANII_SHIP_punisher TRIANII_SHIP_ravager TRIANII_SHIP_reaper TRIANII_SHIP_savage TRIANII_SHIP_spiteful TRIANII_SHIP_templar TRIANII_SHIP_terminator TRIANII_SHIP_terror TRIANII_SHIP_thrasher TRIANII_SHIP_minotaur TRIANII_SHIP_manticore TRIANII_SHIP_interdictor TRIANII_SHIP_intruder TRIANII_SHIP_hydra TRIANII_SHIP_enfield TRIANII_SHIP_harasser TRIANII_SHIP_unbeaten TRIANII_SHIP_werewolf TRIANII_SHIP_zealous TRIANII_SHIP_petulant TRIANII_SHIP_phantom TRIANII_SHIP_phoenix TRIANII_SHIP_pike TRIANII_SHIP_pursuer TRIANII_SHIP_raider TRIANII_SHIP_rainbow TRIANII_SHIP_rapid TRIANII_SHIP_redemption TRIANII_SHIP_relentless TRIANII_SHIP_rigorous TRIANII_SHIP_robust TRIANII_SHIP_sabre TRIANII_SHIP_salvation TRIANII_SHIP_sanguine TRIANII_SHIP_scarab TRIANII_SHIP_scepter TRIANII_SHIP_sea_witch TRIANII_SHIP_siren TRIANII_SHIP_sorceress TRIANII_SHIP_spearhead TRIANII_SHIP_specter TRIANII_SHIP_spirit TRIANII_SHIP_splendid TRIANII_SHIP_stallion TRIANII_SHIP_stalwart TRIANII_SHIP_steadfast TRIANII_SHIP_strenuous TRIANII_SHIP_superb TRIANII_SHIP_supernova TRIANII_SHIP_surprise TRIANII_SHIP_swiftsure TRIANII_SHIP_talent TRIANII_SHIP_talisman TRIANII_SHIP_talon TRIANII_SHIP_taurus TRIANII_SHIP_tenacious TRIANII_SHIP_thunder_child TRIANII_SHIP_thunderous TRIANII_SHIP_tireless TRIANII_SHIP_trenchant TRIANII_SHIP_righteous TRIANII_SHIP_acheron TRIANII_SHIP_achilles TRIANII_SHIP_agamemnon TRIANII_SHIP_amphion TRIANII_SHIP_aquilon TRIANII_SHIP_argonaut TRIANII_SHIP_argus TRIANII_SHIP_ariel TRIANII_SHIP_aurora TRIANII_SHIP_avernus TRIANII_SHIP_bacchus TRIANII_SHIP_bucephalus TRIANII_SHIP_calliope TRIANII_SHIP_calypso TRIANII_SHIP_castor TRIANII_SHIP_charybdis TRIANII_SHIP_circe TRIANII_SHIP_cleopatra TRIANII_SHIP_constantine TRIANII_SHIP_cordelia TRIANII_SHIP_cyrus TRIANII_SHIP_damocles TRIANII_SHIP_daedalus TRIANII_SHIP_darius TRIANII_SHIP_diomede TRIANII_SHIP_dryad TRIANII_SHIP_electra TRIANII_SHIP_endymion TRIANII_SHIP_erebus TRIANII_SHIP_fenris TRIANII_SHIP_freya TRIANII_SHIP_gilgamesh TRIANII_SHIP_gorgon TRIANII_SHIP_halcyon TRIANII_SHIP_hecate TRIANII_SHIP_hector TRIANII_SHIP_hesperus TRIANII_SHIP_janus TRIANII_SHIP_jason TRIANII_SHIP_juno TRIANII_SHIP_jupiter TRIANII_SHIP_lancelot TRIANII_SHIP_lazarus TRIANII_SHIP_leander TRIANII_SHIP_leonidas TRIANII_SHIP_lysander TRIANII_SHIP_maenad TRIANII_SHIP_mars TRIANII_SHIP_medea TRIANII_SHIP_medusa TRIANII_SHIP_menestheus TRIANII_SHIP_mercury TRIANII_SHIP_merlin TRIANII_SHIP_minerva TRIANII_SHIP_minos TRIANII_SHIP_neptune TRIANII_SHIP_nessus TRIANII_SHIP_nestor TRIANII_SHIP_nimrod TRIANII_SHIP_niobe TRIANII_SHIP_oberon TRIANII_SHIP_odin TRIANII_SHIP_ophelia TRIANII_SHIP_orestes TRIANII_SHIP_orpheus TRIANII_SHIP_osiris TRIANII_SHIP_pandora TRIANII_SHIP_penelope TRIANII_SHIP_persephone TRIANII_SHIP_perseus TRIANII_SHIP_phoebe TRIANII_SHIP_pluto TRIANII_SHIP_poseidon TRIANII_SHIP_proteus TRIANII_SHIP_pylades TRIANII_SHIP_serapis TRIANII_SHIP_stygian TRIANII_SHIP_tantalus TRIANII_SHIP_telemachus TRIANII_SHIP_theseus TRIANII_SHIP_thor TRIANII_SHIP_trajan TRIANII_SHIP_triton TRIANII_SHIP_venus TRIANII_SHIP_adamant TRIANII_SHIP_ardent TRIANII_SHIP_assail TRIANII_SHIP_austere TRIANII_SHIP_archon TRIANII_SHIP_adroit TRIANII_SHIP_aegis TRIANII_SHIP_anchor TRIANII_SHIP_corsair TRIANII_SHIP_banshee TRIANII_SHIP_enchantress TRIANII_SHIP_eradicator TRIANII_SHIP_tormentor TRIANII_SHIP_legion TRIANII_SHIP_reprisal TRIANII_SHIP_aggressor TRIANII_SHIP_assault TRIANII_SHIP_eviscerator TRIANII_SHIP_imperator TRIANII_SHIP_excellence TRIANII_SHIP_unrivalled TRIANII_SHIP_warlord TRIANII_SHIP_vengeance TRIANII_SHIP_triumphant TRIANII_SHIP_nemesis TRIANII_SHIP_avenger TRIANII_SHIP_champion TRIANII_SHIP_conqueror TRIANII_SHIP_crusader TRIANII_SHIP_glory TRIANII_SHIP_immortal TRIANII_SHIP_judicator TRIANII_SHIP_vanguard TRIANII_SHIP_renown TRIANII_SHIP_demolisher TRIANII_SHIP_dragon TRIANII_SHIP_executor TRIANII_SHIP_furious TRIANII_SHIP_gladiator TRIANII_SHIP_magnificent TRIANII_SHIP_ogre TRIANII_SHIP_onslaught TRIANII_SHIP_revenge TRIANII_SHIP_vanquisher TRIANII_SHIP_vehement TRIANII_SHIP_basilisk TRIANII_SHIP_tempest TRIANII_SHIP_overlord TRIANII_SHIP_warrior TRIANII_SHIP_titan TRIANII_SHIP_colossus TRIANII_SHIP_prometheus TRIANII_SHIP_nike TRIANII_SHIP_paladin TRIANII_SHIP_sovereign TRIANII_SHIP_repulse TRIANII_SHIP_majestic TRIANII_SHIP_avatar TRIANII_SHIP_behemoth TRIANII_SHIP_centurion TRIANII_SHIP_citadel TRIANII_SHIP_katana TRIANII_SHIP_kraken TRIANII_SHIP_cerberus TRIANII_SHIP_valkyrie
+		}
+		swp_bellator = {
+			TRIANII_SHIP_dreadnought TRIANII_SHIP_harbinger TRIANII_SHIP_juggernaut TRIANII_SHIP_leviathan TRIANII_SHIP_hyperion TRIANII_SHIP_galatea TRIANII_SHIP_ambush TRIANII_SHIP_vindicator
+		}
+		science = {
+			TRIANII_SHIP_crescent TRIANII_SHIP_diligent TRIANII_SHIP_zephyr TRIANII_SHIP_enigma TRIANII_SHIP_conquistador TRIANII_SHIP_scylla TRIANII_SHIP_arbiter TRIANII_SHIP_asperity TRIANII_SHIP_eminence TRIANII_SHIP_astute TRIANII_SHIP_alacrity TRIANII_SHIP_satyr TRIANII_SHIP_prospero TRIANII_SHIP_untiring TRIANII_SHIP_zenith TRIANII_SHIP_torch TRIANII_SHIP_remembrance TRIANII_SHIP_pilgrim TRIANII_SHIP_trailblazer TRIANII_SHIP_vagabond TRIANII_SHIP_wayfarer TRIANII_SHIP_ambassador TRIANII_SHIP_emissary TRIANII_SHIP_nomad TRIANII_SHIP_pathfinder TRIANII_SHIP_wanderer TRIANII_SHIP_traveler
+		}
+		colonizer = {
+			TRIANII_SHIP_godspeed TRIANII_SHIP_prophecy TRIANII_SHIP_manifest_destiny TRIANII_SHIP_virtue TRIANII_SHIP_potential TRIANII_SHIP_expansion TRIANII_SHIP_pioneer_spirit TRIANII_SHIP_prosperity TRIANII_SHIP_summit TRIANII_SHIP_pinnacle TRIANII_SHIP_seeder TRIANII_SHIP_harvest TRIANII_SHIP_demeter TRIANII_SHIP_isis TRIANII_SHIP_ceres TRIANII_SHIP_exodus TRIANII_SHIP_foundation TRIANII_SHIP_scion TRIANII_SHIP_progeny TRIANII_SHIP_obligation TRIANII_SHIP_purpose TRIANII_SHIP_provider TRIANII_SHIP_shining_city TRIANII_SHIP_acquirer TRIANII_SHIP_cultivator TRIANII_SHIP_dawn_of_civilization TRIANII_SHIP_purity TRIANII_SHIP_community TRIANII_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			TRIANII_SHIP_godspeed TRIANII_SHIP_prophecy TRIANII_SHIP_manifest_destiny TRIANII_SHIP_virtue TRIANII_SHIP_potential TRIANII_SHIP_expansion TRIANII_SHIP_pioneer_spirit TRIANII_SHIP_prosperity TRIANII_SHIP_summit TRIANII_SHIP_pinnacle TRIANII_SHIP_seeder TRIANII_SHIP_harvest TRIANII_SHIP_isis TRIANII_SHIP_ceres TRIANII_SHIP_exodus TRIANII_SHIP_foundation TRIANII_SHIP_scion TRIANII_SHIP_progeny TRIANII_SHIP_obligation TRIANII_SHIP_purpose TRIANII_SHIP_provider TRIANII_SHIP_shining_city TRIANII_SHIP_acquirer TRIANII_SHIP_cultivator TRIANII_SHIP_dawn_of_civilization TRIANII_SHIP_purity TRIANII_SHIP_community TRIANII_SHIP_brotherhood
+		}
+		constructor = {
+			TRIANII_SHIP_industry TRIANII_SHIP_assiduity TRIANII_SHIP_effort TRIANII_SHIP_laborer TRIANII_SHIP_builder TRIANII_SHIP_craftsman TRIANII_SHIP_hard_hat TRIANII_SHIP_progress TRIANII_SHIP_engineer TRIANII_SHIP_promise TRIANII_SHIP_service TRIANII_SHIP_shelter TRIANII_SHIP_beast TRIANII_SHIP_creator TRIANII_SHIP_developer TRIANII_SHIP_forger TRIANII_SHIP_foundry TRIANII_SHIP_factory TRIANII_SHIP_anvil TRIANII_SHIP_pillar TRIANII_SHIP_architect TRIANII_SHIP_accommodator TRIANII_SHIP_ptah TRIANII_SHIP_ilmarinen TRIANII_SHIP_creidhne TRIANII_SHIP_gobannus TRIANII_SHIP_luchtaine TRIANII_SHIP_goibniu TRIANII_SHIP_vishvakarman TRIANII_SHIP_tvastar TRIANII_SHIP_ikenga TRIANII_SHIP_qaynan TRIANII_SHIP_ucuetis TRIANII_SHIP_ogoun
+		}
+		transport = {
+			TRIANII_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			TRIANII_SHIP_spacegun_victory TRIANII_SHIP_spacegun_success TRIANII_SHIP_spacegun_supremacy TRIANII_SHIP_spacegun_superior TRIANII_SHIP_spacegun_adventure TRIANII_SHIP_spacegun_ascendancy TRIANII_SHIP_spacegun_paramount TRIANII_SHIP_spacegun_preponderous TRIANII_SHIP_spacegun_exemplary TRIANII_SHIP_spacegun_eximious TRIANII_SHIP_spacegun_pertinacity TRIANII_SHIP_spacegun_acclaim TRIANII_SHIP_spacegun_honor TRIANII_SHIP_spacegun_renown TRIANII_SHIP_spacegun_glory TRIANII_SHIP_spacegun_superb TRIANII_SHIP_spacegun_magnificence TRIANII_SHIP_spacegun_majestic TRIANII_SHIP_spacegun_splendor TRIANII_SHIP_spacegun_paradigm TRIANII_SHIP_spacegun_flawless TRIANII_SHIP_spacegun_consummate TRIANII_SHIP_spacegun_merit TRIANII_SHIP_spacegun_perfection TRIANII_SHIP_spacegun_virtue TRIANII_SHIP_spacegun_advantage TRIANII_SHIP_spacegun_rectitude TRIANII_SHIP_spacegun_incorruptible TRIANII_SHIP_spacegun_integrity TRIANII_SHIP_spacegun_justice TRIANII_SHIP_spacegun_probity TRIANII_SHIP_spacegun_prudence TRIANII_SHIP_spacegun_purity TRIANII_SHIP_spacegun_resolute TRIANII_SHIP_spacegun_dignity TRIANII_SHIP_spacegun_distinction TRIANII_SHIP_spacegun_excellence TRIANII_SHIP_spacegun_faithful TRIANII_SHIP_spacegun_discipline TRIANII_SHIP_spacegun_steadfast TRIANII_SHIP_spacegun_recompense TRIANII_SHIP_spacegun_requiem TRIANII_SHIP_spacegun_courage TRIANII_SHIP_spacegun_valor TRIANII_SHIP_spacegun_gallant TRIANII_SHIP_spacegun_daring TRIANII_SHIP_spacegun_constancy TRIANII_SHIP_spacegun_perseverence TRIANII_SHIP_spacegun_tenacity TRIANII_SHIP_spacegun_sedulity TRIANII_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			TRIANII_SHIP_spacegun_victory TRIANII_SHIP_spacegun_success TRIANII_SHIP_spacegun_supremacy TRIANII_SHIP_spacegun_superior TRIANII_SHIP_spacegun_adventure TRIANII_SHIP_spacegun_ascendancy TRIANII_SHIP_spacegun_paramount TRIANII_SHIP_spacegun_preponderous TRIANII_SHIP_spacegun_exemplary TRIANII_SHIP_spacegun_eximious TRIANII_SHIP_spacegun_pertinacity TRIANII_SHIP_spacegun_acclaim TRIANII_SHIP_spacegun_honor TRIANII_SHIP_spacegun_renown TRIANII_SHIP_spacegun_glory TRIANII_SHIP_spacegun_superb TRIANII_SHIP_spacegun_magnificence TRIANII_SHIP_spacegun_majestic TRIANII_SHIP_spacegun_splendor TRIANII_SHIP_spacegun_paradigm TRIANII_SHIP_spacegun_flawless TRIANII_SHIP_spacegun_consummate TRIANII_SHIP_spacegun_merit TRIANII_SHIP_spacegun_perfection TRIANII_SHIP_spacegun_virtue TRIANII_SHIP_spacegun_advantage TRIANII_SHIP_spacegun_rectitude TRIANII_SHIP_spacegun_incorruptible TRIANII_SHIP_spacegun_integrity TRIANII_SHIP_spacegun_justice TRIANII_SHIP_spacegun_probity TRIANII_SHIP_spacegun_prudence TRIANII_SHIP_spacegun_purity TRIANII_SHIP_spacegun_resolute TRIANII_SHIP_spacegun_dignity TRIANII_SHIP_spacegun_distinction TRIANII_SHIP_spacegun_excellence TRIANII_SHIP_spacegun_faithful TRIANII_SHIP_spacegun_discipline TRIANII_SHIP_spacegun_steadfast TRIANII_SHIP_spacegun_recompense TRIANII_SHIP_spacegun_requiem TRIANII_SHIP_spacegun_courage TRIANII_SHIP_spacegun_valor TRIANII_SHIP_spacegun_gallant TRIANII_SHIP_spacegun_daring TRIANII_SHIP_spacegun_constancy TRIANII_SHIP_spacegun_perseverence TRIANII_SHIP_spacegun_tenacity TRIANII_SHIP_spacegun_sedulity TRIANII_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			TRIANII_SHIP_spacegun_victory TRIANII_SHIP_spacegun_success TRIANII_SHIP_spacegun_supremacy TRIANII_SHIP_spacegun_superior TRIANII_SHIP_spacegun_adventure TRIANII_SHIP_spacegun_ascendancy TRIANII_SHIP_spacegun_paramount TRIANII_SHIP_spacegun_preponderous TRIANII_SHIP_spacegun_exemplary TRIANII_SHIP_spacegun_eximious TRIANII_SHIP_spacegun_pertinacity TRIANII_SHIP_spacegun_acclaim TRIANII_SHIP_spacegun_honor TRIANII_SHIP_spacegun_renown TRIANII_SHIP_spacegun_glory TRIANII_SHIP_spacegun_superb TRIANII_SHIP_spacegun_magnificence TRIANII_SHIP_spacegun_majestic TRIANII_SHIP_spacegun_splendor TRIANII_SHIP_spacegun_paradigm TRIANII_SHIP_spacegun_flawless TRIANII_SHIP_spacegun_consummate TRIANII_SHIP_spacegun_merit TRIANII_SHIP_spacegun_perfection TRIANII_SHIP_spacegun_virtue TRIANII_SHIP_spacegun_advantage TRIANII_SHIP_spacegun_rectitude TRIANII_SHIP_spacegun_incorruptible TRIANII_SHIP_spacegun_integrity TRIANII_SHIP_spacegun_justice TRIANII_SHIP_spacegun_probity TRIANII_SHIP_spacegun_prudence TRIANII_SHIP_spacegun_purity TRIANII_SHIP_spacegun_resolute TRIANII_SHIP_spacegun_dignity TRIANII_SHIP_spacegun_distinction TRIANII_SHIP_spacegun_excellence TRIANII_SHIP_spacegun_faithful TRIANII_SHIP_spacegun_discipline TRIANII_SHIP_spacegun_steadfast TRIANII_SHIP_spacegun_recompense TRIANII_SHIP_spacegun_requiem TRIANII_SHIP_spacegun_courage TRIANII_SHIP_spacegun_valor TRIANII_SHIP_spacegun_gallant TRIANII_SHIP_spacegun_daring TRIANII_SHIP_spacegun_constancy TRIANII_SHIP_spacegun_perseverence TRIANII_SHIP_spacegun_tenacity TRIANII_SHIP_spacegun_sedulity TRIANII_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			TRIANII_SHIP_citadel TRIANII_SHIP_albacore TRIANII_SHIP_gateway TRIANII_SHIP_vincent TRIANII_SHIP_babylon TRIANII_SHIP_caernavon TRIANII_SHIP_acre TRIANII_SHIP_pembroke TRIANII_SHIP_acheron TRIANII_SHIP_spithead TRIANII_SHIP_halifax TRIANII_SHIP_victoria TRIANII_SHIP_chatham TRIANII_SHIP_anchorage TRIANII_SHIP_scapa_flow TRIANII_SHIP_hampton_roads TRIANII_SHIP_brooklyn TRIANII_SHIP_norfolk TRIANII_SHIP_newport TRIANII_SHIP_guam TRIANII_SHIP_pensacola TRIANII_SHIP_vesuvius TRIANII_SHIP_mckinley TRIANII_SHIP_everest TRIANII_SHIP_kilimanjaro TRIANII_SHIP_aconcagua TRIANII_SHIP_elbrus TRIANII_SHIP_st__helens TRIANII_SHIP_fuji TRIANII_SHIP_olympus TRIANII_SHIP_sinai TRIANII_SHIP_ambrose TRIANII_SHIP_bermuda TRIANII_SHIP_farpoint TRIANII_SHIP_blue_star TRIANII_SHIP_olympus_mons TRIANII_SHIP_tharsis TRIANII_SHIP_syrtis TRIANII_SHIP_blackham TRIANII_SHIP_fletcher TRIANII_SHIP_perry TRIANII_SHIP_butakov TRIANII_SHIP_morris TRIANII_SHIP_moorsom TRIANII_SHIP_hart TRIANII_SHIP_hargood TRIANII_SHIP_spruance TRIANII_SHIP_tanaka TRIANII_SHIP_halsey TRIANII_SHIP_turner TRIANII_SHIP_doria TRIANII_SHIP_tirpitz TRIANII_SHIP_cunningham TRIANII_SHIP_jellicoe TRIANII_SHIP_hipper TRIANII_SHIP_beatty TRIANII_SHIP_potemkin TRIANII_SHIP_durham TRIANII_SHIP_codrington TRIANII_SHIP_milne TRIANII_SHIP_laforey TRIANII_SHIP_tyler TRIANII_SHIP_hawke TRIANII_SHIP_yonai TRIANII_SHIP_pound TRIANII_SHIP_king TRIANII_SHIP_crutchley TRIANII_SHIP_mountbatten TRIANII_SHIP_kountouriotis TRIANII_SHIP_kuznetsov TRIANII_SHIP_essen TRIANII_SHIP_kornilov TRIANII_SHIP_suffren TRIANII_SHIP_treville TRIANII_SHIP_villeneuve TRIANII_SHIP_grasse TRIANII_SHIP_byng TRIANII_SHIP_lezo
+		}
+		ion_cannon = {
+			TRIANII_SHIP_bombard TRIANII_SHIP_ballista TRIANII_SHIP_catapult TRIANII_SHIP_harpoon TRIANII_SHIP_polybolos TRIANII_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			TRIANII_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			TRIANII_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			TRIANII_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			TRIANII_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			TRIANII_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			TRIANII_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			TRIANII_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			TRIANII_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			TRIANII_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			TRIANII_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			TRIANII_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			TRIANII_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			TRIANII_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			TRIANII_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			TRIANII_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			TRIANII_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			TRIANII_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			TRIANII_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			TRIANII_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			TRIANII_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			TRIANII_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			TRIANII_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			TRIANII_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			TRIANII_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			TRIANII_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			TRIANII_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			TRIANII_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			TRIANII_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			TRIANII_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			TRIANII_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			TRIANII_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			TRIANII_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			TRIANII_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			TRIANII_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			TRIANII_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			TRIANII_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			TRIANII_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			TRIANII_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			TRIANII_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			TRIANII_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			TRIANII_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			TRIANII_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			TRIANII_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			TRIANII_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			TRIANII_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			TRIANII_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			TRIANII_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			TRIANII_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			TRIANII_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			TRIANII_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			TRIANII_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			TRIANII_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			TRIANII_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			TRIANII_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			TRIANII_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			TRIANII_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			TRIANII_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			TRIANII_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			TRIANII_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			TRIANII_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			TRIANII_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			TRIANII_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			TRIANII_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			TRIANII_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			TRIANII_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			TRIANII_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			TRIANII_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			TRIANII_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			TRIANII_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			TRIANII_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			TRIANII_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			TRIANII_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			TRIANII_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			TRIANII_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			TRIANII_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			TRIANII_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			TRIANII_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			TRIANII_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			TRIANII_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			TRIANII_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			TRIANII_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			TRIANII_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			TRIANII_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			TRIANII_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			TRIANII_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			TRIANII_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			TRIANII_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			TRIANII_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			TRIANII_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			TRIANII_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			TRIANII_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			TRIANII_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			TRIANII_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			TRIANII_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = TRIANII_FLEET_defense_fleet_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = TRIANII_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = TRIANII_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = TRIANII_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = TRIANII_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = TRIANII_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = TRIANII_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = TRIANII_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = TRIANII_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				TRIANII_ARMY_sarc_a__gladiators_ TRIANII_ARMY_sarc_b__widowmakers_ TRIANII_ARMY_sarc_c__immortals_ TRIANII_ARMY_sarc_d__berserkers_ TRIANII_ARMY_sarc_e__assassins_ TRIANII_ARMY_sarc_f__reapers_ TRIANII_ARMY_sarc_g__nighthawks_ TRIANII_ARMY_sarc_h__desperados_ TRIANII_ARMY_sarc_i__grey_knights_ TRIANII_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = TRIANII_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = TRIANII_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = TRIANII_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = TRIANII_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = TRIANII_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = TRIANII_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = TRIANII_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = TRIANII_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = TRIANII_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = TRIANII_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = TRIANII_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = TRIANII_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = TRIANII_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = TRIANII_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = TRIANII_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = TRIANII_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = TRIANII_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = TRIANII_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = TRIANII_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = TRIANII_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = TRIANII_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = TRIANII_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = TRIANII_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = TRIANII_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = TRIANII_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = TRIANII_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = TRIANII_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = TRIANII_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = TRIANII_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = TRIANII_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = TRIANII_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = TRIANII_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = TRIANII_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = TRIANII_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = TRIANII_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = TRIANII_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = TRIANII_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = TRIANII_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = TRIANII_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = TRIANII_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = TRIANII_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = TRIANII_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = TRIANII_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = TRIANII_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = TRIANII_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = TRIANII_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = TRIANII_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = TRIANII_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = TRIANII_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = TRIANII_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = TRIANII_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = TRIANII_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = TRIANII_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = TRIANII_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = TRIANII_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = TRIANII_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = TRIANII_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = TRIANII_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = TRIANII_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = TRIANII_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = TRIANII_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = TRIANII_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = TRIANII_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = TRIANII_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = TRIANII_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = TRIANII_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = TRIANII_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = TRIANII_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = TRIANII_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = TRIANII_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = TRIANII_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = TRIANII_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = TRIANII_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = TRIANII_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = TRIANII_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = TRIANII_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = TRIANII_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = TRIANII_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = TRIANII_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = TRIANII_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = TRIANII_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = TRIANII_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = TRIANII_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = TRIANII_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = TRIANII_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = TRIANII_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = TRIANII_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = TRIANII_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = TRIANII_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = TRIANII_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = TRIANII_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = TRIANII_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = TRIANII_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = TRIANII_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = TRIANII_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = TRIANII_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = TRIANII_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = TRIANII_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = TRIANII_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = TRIANII_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = TRIANII_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = TRIANII_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = TRIANII_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = TRIANII_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = TRIANII_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = TRIANII_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = TRIANII_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = TRIANII_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = TRIANII_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = TRIANII_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = TRIANII_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = TRIANII_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = TRIANII_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = TRIANII_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = TRIANII_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = TRIANII_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = TRIANII_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = TRIANII_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = TRIANII_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = TRIANII_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = TRIANII_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = TRIANII_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = TRIANII_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = TRIANII_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = TRIANII_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = TRIANII_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = TRIANII_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = TRIANII_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = TRIANII_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = TRIANII_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = TRIANII_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = TRIANII_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = TRIANII_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				TRIANII_CHR_bail TRIANII_CHR_ylenic TRIANII_CHR_kel TRIANII_CHR_gunn TRIANII_CHR_gregory TRIANII_CHR_abraxis TRIANII_CHR_jonas TRIANII_CHR_xerda TRIANII_CHR_carth TRIANII_CHR_kir TRIANII_CHR_mebba TRIANII_CHR_dagos TRIANII_CHR_adam TRIANII_CHR_kyle TRIANII_CHR_forren TRIANII_CHR_malcolm TRIANII_CHR_jeho TRIANII_CHR_lee TRIANII_CHR_griggs TRIANII_CHR_milo TRIANII_CHR_aeron TRIANII_CHR_byrec TRIANII_CHR_strata TRIANII_CHR_lancer TRIANII_CHR_zeak TRIANII_CHR_niuk TRIANII_CHR_lavidean TRIANII_CHR_tanizandar TRIANII_CHR_japla TRIANII_CHR_aran TRIANII_CHR_rail TRIANII_CHR_zeven TRIANII_CHR_yakown TRIANII_CHR_sibar TRIANII_CHR_sair TRIANII_CHR_klai TRIANII_CHR_jonas TRIANII_CHR_imay TRIANII_CHR_traest TRIANII_CHR_simo TRIANII_CHR_carth TRIANII_CHR_riyan TRIANII_CHR_magnus TRIANII_CHR_boceta TRIANII_CHR_agnook TRIANII_CHR_silus TRIANII_CHR_rowan TRIANII_CHR_coren TRIANII_CHR_jett TRIANII_CHR_linth TRIANII_CHR_annor TRIANII_CHR_ulas TRIANII_CHR_fenn TRIANII_CHR_tal TRIANII_CHR_plo TRIANII_CHR_torin TRIANII_CHR_imay TRIANII_CHR_boone TRIANII_CHR_davith TRIANII_CHR_jorgen TRIANII_CHR_bertos TRIANII_CHR_ress TRIANII_CHR_malius TRIANII_CHR_kale TRIANII_CHR_cregan TRIANII_CHR_galen TRIANII_CHR_zekk TRIANII_CHR_jinn_tu TRIANII_CHR_jaryn TRIANII_CHR_gentti TRIANII_CHR_yu_sien TRIANII_CHR_akela TRIANII_CHR_arslan TRIANII_CHR_sidias TRIANII_CHR_haken TRIANII_CHR_biran TRIANII_CHR_vidown TRIANII_CHR_ares TRIANII_CHR_ithan TRIANII_CHR_cul_utaan TRIANII_CHR_thoja TRIANII_CHR_cron TRIANII_CHR_mossi TRIANII_CHR_abric TRIANII_CHR_darg TRIANII_CHR_gaman TRIANII_CHR_naiad TRIANII_CHR_herub TRIANII_CHR_marius TRIANII_CHR_torkin TRIANII_CHR_caton TRIANII_CHR_kane TRIANII_CHR_versita TRIANII_CHR_cric TRIANII_CHR_foxdi TRIANII_CHR_montacca TRIANII_CHR_jospi TRIANII_CHR_baz TRIANII_CHR_kam TRIANII_CHR_erek TRIANII_CHR_arslan TRIANII_CHR_lerak TRIANII_CHR_morla TRIANII_CHR_baxter TRIANII_CHR_talan TRIANII_CHR_thion TRIANII_CHR_kannon TRIANII_CHR_corsair TRIANII_CHR_caster TRIANII_CHR_elden TRIANII_CHR_faelgrom TRIANII_CHR_jack TRIANII_CHR_raltharan TRIANII_CHR_flash TRIANII_CHR_waseem TRIANII_CHR_bendak TRIANII_CHR_kaz TRIANII_CHR_montileu TRIANII_CHR_gonoga TRIANII_CHR_silus TRIANII_CHR_galven TRIANII_CHR_vincenzo TRIANII_CHR_ric TRIANII_CHR_rebar TRIANII_CHR_jebediah TRIANII_CHR_aramil TRIANII_CHR_abraxis TRIANII_CHR_delmi TRIANII_CHR_caalin TRIANII_CHR_rassth TRIANII_CHR_adorn TRIANII_CHR_cyrus TRIANII_CHR_zhar_khan TRIANII_CHR_adam TRIANII_CHR_predor TRIANII_CHR_tarlson TRIANII_CHR_boaz TRIANII_CHR_bradley TRIANII_CHR_gunn TRIANII_CHR_raltharan TRIANII_CHR_zerrid TRIANII_CHR_bobecc TRIANII_CHR_jelantos TRIANII_CHR_jephego TRIANII_CHR_svante TRIANII_CHR_tesvalo TRIANII_CHR_aeon TRIANII_CHR_dekar TRIANII_CHR_jean_francois TRIANII_CHR_elen TRIANII_CHR_han TRIANII_CHR_owen TRIANII_CHR_biggs TRIANII_CHR_rune TRIANII_CHR_lott TRIANII_CHR_daultay TRIANII_CHR_lok TRIANII_CHR_mar TRIANII_CHR_gilramos TRIANII_CHR_siv TRIANII_CHR_zill TRIANII_CHR_hath TRIANII_CHR_aruteous TRIANII_CHR_jull TRIANII_CHR_sil TRIANII_CHR_hallion TRIANII_CHR_gap TRIANII_CHR_palfa TRIANII_CHR_sib TRIANII_CHR_aito TRIANII_CHR_sentepeth TRIANII_CHR_kund TRIANII_CHR_harro TRIANII_CHR_hask TRIANII_CHR_paw TRIANII_CHR_brehg TRIANII_CHR_reya TRIANII_CHR_gode TRIANII_CHR_nap TRIANII_CHR_lufa TRIANII_CHR_yee TRIANII_CHR_geph TRIANII_CHR_lik TRIANII_CHR_gunaray TRIANII_CHR_igren TRIANII_CHR_dif TRIANII_CHR_klewer TRIANII_CHR_kuto TRIANII_CHR_smeer TRIANII_CHR_helb TRIANII_CHR_toat TRIANII_CHR_teek TRIANII_CHR_jeek TRIANII_CHR_orrin TRIANII_CHR_veor TRIANII_CHR_dak_on TRIANII_CHR_nozabuiba TRIANII_CHR_gama TRIANII_CHR_budmle TRIANII_CHR_proh_ven TRIANII_CHR_salitt TRIANII_CHR_vigro TRIANII_CHR_rers TRIANII_CHR_desson TRIANII_CHR_cathan TRIANII_CHR_dru TRIANII_CHR_tunjas TRIANII_CHR_borlo TRIANII_CHR_krett TRIANII_CHR_ablund TRIANII_CHR_aach TRIANII_CHR_aagon TRIANII_CHR_aalto TRIANII_CHR_aambler TRIANII_CHR_abadaner TRIANII_CHR_aban TRIANII_CHR_abbus_kelo TRIANII_CHR_acan TRIANII_CHR_ace TRIANII_CHR_adame TRIANII_CHR_adar TRIANII_CHR_arvel TRIANII_CHR_addi_shon TRIANII_CHR_addle TRIANII_CHR_adelhard TRIANII_CHR_aden TRIANII_CHR_adon_larr TRIANII_CHR_adraas TRIANII_CHR_adrenas TRIANII_CHR_adrick TRIANII_CHR_adun TRIANII_CHR_aeron TRIANII_CHR_agareth TRIANII_CHR_aggadeen TRIANII_CHR_alric TRIANII_CHR_airten TRIANII_CHR_agrippa TRIANII_CHR_ajaan TRIANII_CHR_ajolin TRIANII_CHR_akaste_vel TRIANII_CHR_akobi TRIANII_CHR_alain TRIANII_CHR_alaric TRIANII_CHR_albathius TRIANII_CHR_alde TRIANII_CHR_alec TRIANII_CHR_alekam TRIANII_CHR_alethios TRIANII_CHR_alger TRIANII_CHR_algrunar TRIANII_CHR_ali_alann TRIANII_CHR_alif TRIANII_CHR_alim_gen TRIANII_CHR_alin TRIANII_CHR_alix TRIANII_CHR_alkhara TRIANII_CHR_allia TRIANII_CHR_almak TRIANII_CHR_almec TRIANII_CHR_alon TRIANII_CHR_alozen TRIANII_CHR_alph TRIANII_CHR_altaca TRIANII_CHR_althon TRIANII_CHR_alwynn TRIANII_CHR_amberson TRIANII_CHR_ament TRIANII_CHR_amis TRIANII_CHR_ammon TRIANII_CHR_amzartho TRIANII_CHR_anabar TRIANII_CHR_anager TRIANII_CHR_anarine TRIANII_CHR_anathemos TRIANII_CHR_andan TRIANII_CHR_anders TRIANII_CHR_ando TRIANII_CHR_andra TRIANII_CHR_andrew TRIANII_CHR_andrid TRIANII_CHR_andrik TRIANII_CHR_andru TRIANII_CHR_ar_al TRIANII_CHR_angber TRIANII_CHR_angral TRIANII_CHR_anlen TRIANII_CHR_anod TRIANII_CHR_anselm TRIANII_CHR_anskow TRIANII_CHR_anson TRIANII_CHR_adem TRIANII_CHR_antone TRIANII_CHR_antonin TRIANII_CHR_anuli TRIANII_CHR_appleton TRIANII_CHR_arac TRIANII_CHR_arakkus TRIANII_CHR_aramis TRIANII_CHR_arana TRIANII_CHR_armen TRIANII_CHR_arastide TRIANII_CHR_arber TRIANII_CHR_arcann TRIANII_CHR_ardan TRIANII_CHR_ardax TRIANII_CHR_ardiff TRIANII_CHR_ardle TRIANII_CHR_ardmore TRIANII_CHR_ardot TRIANII_CHR_ardran TRIANII_CHR_avinoam TRIANII_CHR_ars TRIANII_CHR_argona TRIANII_CHR_argor TRIANII_CHR_argos TRIANII_CHR_arias TRIANII_CHR_ariavos TRIANII_CHR_arigo TRIANII_CHR_aris TRIANII_CHR_arkan TRIANII_CHR_arkeld TRIANII_CHR_arl TRIANII_CHR_arljack TRIANII_CHR_arlo TRIANII_CHR_arlos TRIANII_CHR_armatan TRIANII_CHR_armitage TRIANII_CHR_arnama TRIANII_CHR_arnet TRIANII_CHR_arno TRIANII_CHR_arnothian TRIANII_CHR_arnth TRIANII_CHR_arnus TRIANII_CHR_arrad TRIANII_CHR_arratan TRIANII_CHR_arrax TRIANII_CHR_arric TRIANII_CHR_artano TRIANII_CHR_artok TRIANII_CHR_arturo TRIANII_CHR_arzanon TRIANII_CHR_ash TRIANII_CHR_ashaad TRIANII_CHR_asirr TRIANII_CHR_atali TRIANII_CHR_atar TRIANII_CHR_atmino TRIANII_CHR_atren TRIANII_CHR_augatta TRIANII_CHR_avan TRIANII_CHR_avanj TRIANII_CHR_avarik TRIANII_CHR_averdon TRIANII_CHR_averen TRIANII_CHR_averon TRIANII_CHR_avers TRIANII_CHR_aves TRIANII_CHR_aviso TRIANII_CHR_avrun TRIANII_CHR_azkul TRIANII_CHR_azrakel TRIANII_CHR_ace TRIANII_CHR_b_arin TRIANII_CHR_bail TRIANII_CHR_beel TRIANII_CHR_bix TRIANII_CHR_blix TRIANII_CHR_boz TRIANII_CHR_braedon TRIANII_CHR_bryn TRIANII_CHR_brixus TRIANII_CHR_cal TRIANII_CHR_cassian TRIANII_CHR_chik TRIANII_CHR_cinto TRIANII_CHR_cumberlayne TRIANII_CHR_darrus TRIANII_CHR_djinn TRIANII_CHR_druth TRIANII_CHR_det TRIANII_CHR_ethan TRIANII_CHR_galiir TRIANII_CHR_gez TRIANII_CHR_haemon TRIANII_CHR_jae TRIANII_CHR_jagged TRIANII_CHR_jess TRIANII_CHR_jesper TRIANII_CHR_jon TRIANII_CHR_gathal TRIANII_CHR_gideon TRIANII_CHR_jefand TRIANII_CHR_kel TRIANII_CHR_koffi TRIANII_CHR_lazlo TRIANII_CHR_laetin TRIANII_CHR_lesk TRIANII_CHR_maxiron TRIANII_CHR_neet TRIANII_CHR_osak TRIANII_CHR_pabel TRIANII_CHR_paddy TRIANII_CHR_peita TRIANII_CHR_peema TRIANII_CHR_pellas TRIANII_CHR_prewb TRIANII_CHR_raymus TRIANII_CHR_raar TRIANII_CHR_rage TRIANII_CHR_rel TRIANII_CHR_reez TRIANII_CHR_ras TRIANII_CHR_rixes TRIANII_CHR_ruceba TRIANII_CHR_seraph TRIANII_CHR_sim TRIANII_CHR_sio TRIANII_CHR_y_ull TRIANII_CHR_tavion TRIANII_CHR_tavid TRIANII_CHR_tendis TRIANII_CHR_tev TRIANII_CHR_tiberus TRIANII_CHR_toob TRIANII_CHR_tor TRIANII_CHR_turon TRIANII_CHR_villis TRIANII_CHR_wain TRIANII_CHR_wedge TRIANII_CHR_wes TRIANII_CHR_zeen TRIANII_CHR_baboo TRIANII_CHR_bachenkall TRIANII_CHR_bafor TRIANII_CHR_bagitt TRIANII_CHR_bailey TRIANII_CHR_bailie TRIANII_CHR_bairn TRIANII_CHR_bala_tik TRIANII_CHR_balankin TRIANII_CHR_balaro TRIANII_CHR_balcomb TRIANII_CHR_baldwin TRIANII_CHR_baldy TRIANII_CHR_balek TRIANII_CHR_balisk TRIANII_CHR_balkin TRIANII_CHR_balko TRIANII_CHR_ballala TRIANII_CHR_ballard TRIANII_CHR_ballax TRIANII_CHR_bendodi TRIANII_CHR_balog TRIANII_CHR_balto TRIANII_CHR_bams TRIANII_CHR_bandor TRIANII_CHR_boss TRIANII_CHR_banley TRIANII_CHR_banna TRIANII_CHR_bannos TRIANII_CHR_bant TRIANII_CHR_banz TRIANII_CHR_baradis TRIANII_CHR_barak TRIANII_CHR_baramak TRIANII_CHR_barcel TRIANII_CHR_bardo TRIANII_CHR_barduun TRIANII_CHR_barev TRIANII_CHR_barich TRIANII_CHR_barik TRIANII_CHR_barkale TRIANII_CHR_barksy TRIANII_CHR_barleos TRIANII_CHR_barlow TRIANII_CHR_barney TRIANII_CHR_barnley TRIANII_CHR_baro TRIANII_CHR_barry TRIANII_CHR_barstead TRIANII_CHR_bartam TRIANII_CHR_barth TRIANII_CHR_barthis TRIANII_CHR_bas TRIANII_CHR_bas_ton TRIANII_CHR_bascome TRIANII_CHR_basile TRIANII_CHR_basso TRIANII_CHR_bastian TRIANII_CHR_bathens TRIANII_CHR_batono TRIANII_CHR_bator TRIANII_CHR_billal TRIANII_CHR_battz TRIANII_CHR_baxton TRIANII_CHR_baysden TRIANII_CHR_baz TRIANII_CHR_be TRIANII_CHR_beau TRIANII_CHR_beckar TRIANII_CHR_becker TRIANII_CHR_beckman TRIANII_CHR_bedareux TRIANII_CHR_bedoch TRIANII_CHR_beebe TRIANII_CHR_beez TRIANII_CHR_beldiss TRIANII_CHR_belkan TRIANII_CHR_beller TRIANII_CHR_bellis TRIANII_CHR_belos TRIANII_CHR_byzal TRIANII_CHR_bzorn TRIANII_CHR_biggs TRIANII_CHR_bels TRIANII_CHR_bemos TRIANII_CHR_benay TRIANII_CHR_benjo TRIANII_CHR_benkin TRIANII_CHR_benn TRIANII_CHR_benni TRIANII_CHR_benok TRIANII_CHR_benthar TRIANII_CHR_benton TRIANII_CHR_bentro TRIANII_CHR_boar TRIANII_CHR_benx TRIANII_CHR_bequesh TRIANII_CHR_berandis TRIANII_CHR_berethon TRIANII_CHR_bergan TRIANII_CHR_berix TRIANII_CHR_bernie TRIANII_CHR_bertrum TRIANII_CHR_berusal TRIANII_CHR_bewil TRIANII_CHR_bex TRIANII_CHR_billan TRIANII_CHR_biril TRIANII_CHR_birket TRIANII_CHR_birok TRIANII_CHR_black TRIANII_CHR_blagotine TRIANII_CHR_blaide TRIANII_CHR_blainekie TRIANII_CHR_bledsoe TRIANII_CHR_bleeker TRIANII_CHR_blleen TRIANII_CHR_bloodory TRIANII_CHR_bloodworthy TRIANII_CHR_blount TRIANII_CHR_blyes TRIANII_CHR_boakie TRIANII_CHR_boaz TRIANII_CHR_bob TRIANII_CHR_bol TRIANII_CHR_bon TRIANII_CHR_bonze TRIANII_CHR_boonan TRIANII_CHR_boran TRIANII_CHR_boraso TRIANII_CHR_borgin TRIANII_CHR_borm TRIANII_CHR_bornae TRIANII_CHR_bort TRIANII_CHR_bortrek TRIANII_CHR_boshek TRIANII_CHR_bourom TRIANII_CHR_bouyard TRIANII_CHR_braden TRIANII_CHR_brady TRIANII_CHR_bragan TRIANII_CHR_braynor TRIANII_CHR_brayso TRIANII_CHR_breckon TRIANII_CHR_breehld TRIANII_CHR_brinn TRIANII_CHR_brinnie TRIANII_CHR_brint TRIANII_CHR_brinton TRIANII_CHR_brogon TRIANII_CHR_brohmer TRIANII_CHR_brolis TRIANII_CHR_broll TRIANII_CHR_brom TRIANII_CHR_brooser TRIANII_CHR_brothic TRIANII_CHR_brovto TRIANII_CHR_broysc TRIANII_CHR_bruan TRIANII_CHR_brucce TRIANII_CHR_bruckman TRIANII_CHR_bryint TRIANII_CHR_brylin TRIANII_CHR_bry TRIANII_CHR_brysonbular TRIANII_CHR_bulger TRIANII_CHR_bun_delbur TRIANII_CHR_burne TRIANII_CHR_burque TRIANII_CHR_burr TRIANII_CHR_bursk TRIANII_CHR_bursthed TRIANII_CHR_byrga TRIANII_CHR_byten TRIANII_CHR_trey TRIANII_CHR_lando TRIANII_CHR_caaldra TRIANII_CHR_cabaril TRIANII_CHR_cabbel TRIANII_CHR_caeleb TRIANII_CHR_caerbellak TRIANII_CHR_cafian TRIANII_CHR_cag TRIANII_CHR_cagaran TRIANII_CHR_cam TRIANII_CHR_camaran TRIANII_CHR_camas TRIANII_CHR_cardacs TRIANII_CHR_cardy TRIANII_CHR_careem TRIANII_CHR_cargeloch TRIANII_CHR_carhart TRIANII_CHR_calron TRIANII_CHR_calson TRIANII_CHR_calum TRIANII_CHR_calypho TRIANII_CHR_cal TRIANII_CHR_caladane TRIANII_CHR_calaverous TRIANII_CHR_carli TRIANII_CHR_carlon TRIANII_CHR_carlton TRIANII_CHR_carn TRIANII_CHR_carner TRIANII_CHR_carness TRIANII_CHR_carnor TRIANII_CHR_carns TRIANII_CHR_callef TRIANII_CHR_callen TRIANII_CHR_callow TRIANII_CHR_calders TRIANII_CHR_caleb TRIANII_CHR_calo TRIANII_CHR_calphayus TRIANII_CHR_cathers TRIANII_CHR_caton TRIANII_CHR_cauley TRIANII_CHR_cav TRIANII_CHR_cav_saran TRIANII_CHR_cavin TRIANII_CHR_cryle TRIANII_CHR_cavwol TRIANII_CHR_cawelyn TRIANII_CHR_cecius TRIANII_CHR_cede TRIANII_CHR_cemma TRIANII_CHR_ceoloe TRIANII_CHR_cerasi TRIANII_CHR_cerik TRIANII_CHR_charny TRIANII_CHR_charol TRIANII_CHR_charpp TRIANII_CHR_charnoq TRIANII_CHR_charnso TRIANII_CHR_cestus TRIANII_CHR_ch_arb TRIANII_CHR_ch_gally TRIANII_CHR_ch_lessan TRIANII_CHR_cha TRIANII_CHR_chael TRIANII_CHR_challer TRIANII_CHR_chambe TRIANII_CHR_crlyn TRIANII_CHR_chang TRIANII_CHR_chappral TRIANII_CHR_chef TRIANII_CHR_chentu TRIANII_CHR_chell TRIANII_CHR_chessiq TRIANII_CHR_chet TRIANII_CHR_chiann TRIANII_CHR_chicora TRIANII_CHR_chatty TRIANII_CHR_chayloss TRIANII_CHR_chedaki TRIANII_CHR_chiraneau TRIANII_CHR_chiron TRIANII_CHR_chorlen TRIANII_CHR_chornarov TRIANII_CHR_cody TRIANII_CHR_clorr TRIANII_CHR_clovis TRIANII_CHR_clydno TRIANII_CHR_clynn TRIANII_CHR_cnorec TRIANII_CHR_coburn TRIANII_CHR_cobus TRIANII_CHR_cogon TRIANII_CHR_colin TRIANII_CHR_collus TRIANII_CHR_colsan TRIANII_CHR_colten TRIANII_CHR_colton TRIANII_CHR_combo TRIANII_CHR_conar TRIANII_CHR_coorta TRIANII_CHR_corin TRIANII_CHR_coris TRIANII_CHR_corlac TRIANII_CHR_corso TRIANII_CHR_corvan TRIANII_CHR_corvin TRIANII_CHR_corvis TRIANII_CHR_corwin TRIANII_CHR_corwyth TRIANII_CHR_cote TRIANII_CHR_cothron TRIANII_CHR_cotin TRIANII_CHR_coy TRIANII_CHR_cravel TRIANII_CHR_cravus TRIANII_CHR_creb TRIANII_CHR_creeve TRIANII_CHR_corlis TRIANII_CHR_crest TRIANII_CHR_crimpler TRIANII_CHR_crimson TRIANII_CHR_crin TRIANII_CHR_crion TRIANII_CHR_criss TRIANII_CHR_cristoff TRIANII_CHR_crix TRIANII_CHR_cronal TRIANII_CHR_cronnin TRIANII_CHR_cronus TRIANII_CHR_d_ashewl TRIANII_CHR_d_krn TRIANII_CHR_d_lew TRIANII_CHR_d_vox TRIANII_CHR_d_vrosh TRIANII_CHR_daal TRIANII_CHR_dado TRIANII_CHR_daek TRIANII_CHR_dael TRIANII_CHR_dahar TRIANII_CHR_dahm TRIANII_CHR_daiman TRIANII_CHR_dainsom TRIANII_CHR_daiv TRIANII_CHR_dak TRIANII_CHR_dakron TRIANII_CHR_daksh TRIANII_CHR_dalton TRIANII_CHR_damarcus TRIANII_CHR_damaris TRIANII_CHR_damarus TRIANII_CHR_dao TRIANII_CHR_dapp TRIANII_CHR_daquinn TRIANII_CHR_dar TRIANII_CHR_eesh TRIANII_CHR_darda TRIANII_CHR_dardan TRIANII_CHR_dareb_ TRIANII_CHR_dareg TRIANII_CHR_darek TRIANII_CHR_daren TRIANII_CHR_dargus TRIANII_CHR_daggath TRIANII_CHR_darnov TRIANII_CHR_daro TRIANII_CHR_darok TRIANII_CHR_darone TRIANII_CHR_darr TRIANII_CHR_darrik TRIANII_CHR_darrok TRIANII_CHR_darrst TRIANII_CHR_darsin TRIANII_CHR_darthyn TRIANII_CHR_daruula TRIANII_CHR_dash TRIANII_CHR_datoo TRIANII_CHR_dauren TRIANII_CHR_davis TRIANII_CHR_davon TRIANII_CHR_davonn TRIANII_CHR_davos TRIANII_CHR_davrill TRIANII_CHR_davrin TRIANII_CHR_davu TRIANII_CHR_dayja TRIANII_CHR_daz TRIANII_CHR_ramsis TRIANII_CHR_bren TRIANII_CHR_tan TRIANII_CHR_jan TRIANII_CHR_porro TRIANII_CHR_cin TRIANII_CHR_garven TRIANII_CHR_cornelius TRIANII_CHR_galen TRIANII_CHR_dannl TRIANII_CHR_ecclessis TRIANII_CHR_debbikin TRIANII_CHR_debeli TRIANII_CHR_deegan TRIANII_CHR_deerian TRIANII_CHR_deevis TRIANII_CHR_defain TRIANII_CHR_deflaros TRIANII_CHR_degoren TRIANII_CHR_dehno TRIANII_CHR_dekay TRIANII_CHR_delevar TRIANII_CHR_delfaros TRIANII_CHR_dellin TRIANII_CHR_dellocon TRIANII_CHR_delpho TRIANII_CHR_delquis TRIANII_CHR_delsa TRIANII_CHR_delund TRIANII_CHR_delurin TRIANII_CHR_demtri TRIANII_CHR_den TRIANII_CHR_denbar TRIANII_CHR_dender TRIANII_CHR_dendro TRIANII_CHR_dendu TRIANII_CHR_denetrus TRIANII_CHR_denev TRIANII_CHR_dengar TRIANII_CHR_dengril TRIANII_CHR_denid TRIANII_CHR_denimoor TRIANII_CHR_denin TRIANII_CHR_denna TRIANII_CHR_denner TRIANII_CHR_dennik TRIANII_CHR_deppo TRIANII_CHR_derdram TRIANII_CHR_derec TRIANII_CHR_derish TRIANII_CHR_derliff TRIANII_CHR_dermeg TRIANII_CHR_dermian TRIANII_CHR_dern TRIANII_CHR_dernas TRIANII_CHR_derral TRIANII_CHR_derrin TRIANII_CHR_dervis TRIANII_CHR_desanne TRIANII_CHR_devoris TRIANII_CHR_devotek TRIANII_CHR_devron TRIANII_CHR_devry TRIANII_CHR_devsh TRIANII_CHR_dewolf TRIANII_CHR_dex TRIANII_CHR_dezsetes TRIANII_CHR_dhaiv TRIANII_CHR_dhal TRIANII_CHR_dindau TRIANII_CHR_dindo TRIANII_CHR_ding TRIANII_CHR_dinge TRIANII_CHR_dobbatek TRIANII_CHR_dobberty TRIANII_CHR_dobbs TRIANII_CHR_dolan TRIANII_CHR_dolgis TRIANII_CHR_dolmen TRIANII_CHR_dolo TRIANII_CHR_dominaire TRIANII_CHR_domm TRIANII_CHR_donovan TRIANII_CHR_donovarr TRIANII_CHR_donsull TRIANII_CHR_dorel_kan TRIANII_CHR_dorgat TRIANII_CHR_dorian TRIANII_CHR_dorja TRIANII_CHR_dorn TRIANII_CHR_dorotsech TRIANII_CHR_dorrick TRIANII_CHR_dortho TRIANII_CHR_downey TRIANII_CHR_draado TRIANII_CHR_draahg TRIANII_CHR_dracen TRIANII_CHR_drage TRIANII_CHR_dragen TRIANII_CHR_drake TRIANII_CHR_drayk TRIANII_CHR_drazin TRIANII_CHR_drek TRIANII_CHR_duno TRIANII_CHR_dree TRIANII_CHR_dreed TRIANII_CHR_drefin TRIANII_CHR_dregg TRIANII_CHR_drelosyn TRIANII_CHR_drexel TRIANII_CHR_dreyf TRIANII_CHR_drezzel TRIANII_CHR_drizan TRIANII_CHR_dro TRIANII_CHR_droman TRIANII_CHR_dromath TRIANII_CHR_drowl TRIANII_CHR_drufeys TRIANII_CHR_drummond TRIANII_CHR_dubeh TRIANII_CHR_dunari TRIANII_CHR_dunaub TRIANII_CHR_deadeye TRIANII_CHR_duncan TRIANII_CHR_durhant TRIANII_CHR_durmat TRIANII_CHR_durpin TRIANII_CHR_durrei TRIANII_CHR_dyshotto TRIANII_CHR_dzoun TRIANII_CHR_eagle TRIANII_CHR_eanjer TRIANII_CHR_earl TRIANII_CHR_earsh TRIANII_CHR_eben TRIANII_CHR_eddon TRIANII_CHR_edease TRIANII_CHR_edern TRIANII_CHR_edgar TRIANII_CHR_edikar TRIANII_CHR_egoreg TRIANII_CHR_egron TRIANII_CHR_eistern TRIANII_CHR_ejai TRIANII_CHR_eker TRIANII_CHR_ekh TRIANII_CHR_ekisp TRIANII_CHR_ekov TRIANII_CHR_elarles TRIANII_CHR_eriquel TRIANII_CHR_eris TRIANII_CHR_erl TRIANII_CHR_erloi TRIANII_CHR_esano TRIANII_CHR_escalion TRIANII_CHR_ezil TRIANII_CHR_ezrim TRIANII_CHR_ezra TRIANII_CHR_ein TRIANII_CHR_eislo TRIANII_CHR_jake TRIANII_CHR_jango TRIANII_CHR_eli TRIANII_CHR_eliasb TRIANII_CHR_eligyn TRIANII_CHR_elior TRIANII_CHR_elis TRIANII_CHR_elizhis TRIANII_CHR_elkin TRIANII_CHR_ellsworth TRIANII_CHR_elmel TRIANII_CHR_elmyo TRIANII_CHR_elrodelsar TRIANII_CHR_elsek TRIANII_CHR_emil TRIANII_CHR_emir TRIANII_CHR_emmens TRIANII_CHR_endicott TRIANII_CHR_enfield TRIANII_CHR_enger TRIANII_CHR_engret TRIANII_CHR_emmett TRIANII_CHR_emory TRIANII_CHR_eoaq TRIANII_CHR_eph TRIANII_CHR_erdan TRIANII_CHR_erelut TRIANII_CHR_ergast TRIANII_CHR_ergel TRIANII_CHR_ergeron TRIANII_CHR_eric TRIANII_CHR_erik TRIANII_CHR_estopatrin TRIANII_CHR_esture TRIANII_CHR_estus TRIANII_CHR_eth TRIANII_CHR_ethen TRIANII_CHR_etnam TRIANII_CHR_etta TRIANII_CHR_evad TRIANII_CHR_evan TRIANII_CHR_evax TRIANII_CHR_evlen TRIANII_CHR_evran TRIANII_CHR_evun TRIANII_CHR_evvin TRIANII_CHR_ewane TRIANII_CHR_exar TRIANII_CHR_eyvind TRIANII_CHR_falltower TRIANII_CHR_falrey TRIANII_CHR_falsta TRIANII_CHR_falch TRIANII_CHR_falco TRIANII_CHR_faarl TRIANII_CHR_fable TRIANII_CHR_faedral TRIANII_CHR_far TRIANII_CHR_faradin TRIANII_CHR_faraire TRIANII_CHR_fardi TRIANII_CHR_farn TRIANII_CHR_farng TRIANII_CHR_farnis TRIANII_CHR_farsal TRIANII_CHR_farseam TRIANII_CHR_fatulaine TRIANII_CHR_fauler TRIANII_CHR_feldon TRIANII_CHR_feldron TRIANII_CHR_feleea TRIANII_CHR_fenn TRIANII_CHR_fenris TRIANII_CHR_fenson TRIANII_CHR_feras TRIANII_CHR_ferav TRIANII_CHR_ferdoin TRIANII_CHR_fermin TRIANII_CHR_ferob TRIANII_CHR_ferren TRIANII_CHR_ferrid TRIANII_CHR_ferrig TRIANII_CHR_ferrin TRIANII_CHR_ferron TRIANII_CHR_ferrus TRIANII_CHR_falesh TRIANII_CHR_falk TRIANII_CHR_fardi TRIANII_CHR_fassio TRIANII_CHR_fatulaine TRIANII_CHR_dannl TRIANII_CHR_februs TRIANII_CHR_janus TRIANII_CHR_fixer TRIANII_CHR_florn TRIANII_CHR_grizz TRIANII_CHR_frobb TRIANII_CHR_fruun
+			}
+			first_names_female = {
+				TRIANII_CHR_charratha TRIANII_CHR_edaara TRIANII_CHR_bella TRIANII_CHR_callista TRIANII_CHR_mara TRIANII_CHR_seena TRIANII_CHR_areta TRIANII_CHR_cord TRIANII_CHR_cyrinity TRIANII_CHR_nile TRIANII_CHR_kiyfi TRIANII_CHR_yasmyn TRIANII_CHR_satra TRIANII_CHR_shehish TRIANII_CHR_sarna TRIANII_CHR_krava TRIANII_CHR_roxis TRIANII_CHR_jessa TRIANII_CHR_aqua TRIANII_CHR_maryna TRIANII_CHR_essaj TRIANII_CHR_looriw TRIANII_CHR_teeana TRIANII_CHR_raena TRIANII_CHR_yula TRIANII_CHR_vifi TRIANII_CHR_vania TRIANII_CHR_jeanida TRIANII_CHR_aerena TRIANII_CHR_nataya TRIANII_CHR_bernarda TRIANII_CHR_geela TRIANII_CHR_lya TRIANII_CHR_sirra TRIANII_CHR_teris TRIANII_CHR_terral TRIANII_CHR_nile TRIANII_CHR_riema TRIANII_CHR_erri TRIANII_CHR_shanna TRIANII_CHR_lyra TRIANII_CHR_pranda TRIANII_CHR_luna TRIANII_CHR_cally TRIANII_CHR_viqi TRIANII_CHR_hadriel TRIANII_CHR_lora TRIANII_CHR_selena TRIANII_CHR_zana TRIANII_CHR_tuija TRIANII_CHR_railin TRIANII_CHR_odona TRIANII_CHR_shyon TRIANII_CHR_walas TRIANII_CHR_rylla TRIANII_CHR_gara TRIANII_CHR_delos TRIANII_CHR_loretta TRIANII_CHR_luhon TRIANII_CHR_delinia TRIANII_CHR_aama TRIANII_CHR_shorya TRIANII_CHR_melfina TRIANII_CHR_davessi TRIANII_CHR_larana TRIANII_CHR_galatea TRIANII_CHR_nola TRIANII_CHR_syna TRIANII_CHR_jauhzmynn TRIANII_CHR_anen TRIANII_CHR_orona TRIANII_CHR_yana TRIANII_CHR_zoras TRIANII_CHR_ree TRIANII_CHR_grace TRIANII_CHR_tantema TRIANII_CHR_myn TRIANII_CHR_una TRIANII_CHR_dalharil TRIANII_CHR_losa TRIANII_CHR_sovi TRIANII_CHR_elaiza TRIANII_CHR_vucora TRIANII_CHR_ava TRIANII_CHR_joi TRIANII_CHR_stryka TRIANII_CHR_tantema TRIANII_CHR_shandra TRIANII_CHR_kely TRIANII_CHR_caileta TRIANII_CHR_taia TRIANII_CHR_siala TRIANII_CHR_reki TRIANII_CHR_maydla TRIANII_CHR_bot TRIANII_CHR_kiandra TRIANII_CHR_xilaren TRIANII_CHR_zulara TRIANII_CHR_ren TRIANII_CHR_karissa TRIANII_CHR_roxis TRIANII_CHR_haruko TRIANII_CHR_jenna TRIANII_CHR_liana TRIANII_CHR_rale TRIANII_CHR_megara TRIANII_CHR_aria TRIANII_CHR_akiva TRIANII_CHR_nalah TRIANII_CHR_erlem TRIANII_CHR_nali TRIANII_CHR_fallah TRIANII_CHR_kotrana TRIANII_CHR_aayla TRIANII_CHR_kalira TRIANII_CHR_arani TRIANII_CHR_fama TRIANII_CHR_lyyr TRIANII_CHR_arcas TRIANII_CHR_rane TRIANII_CHR_nayru TRIANII_CHR_zylas TRIANII_CHR_vexa TRIANII_CHR_kana TRIANII_CHR_beru
+			}
+			second_names = {
+				TRIANII_CHR_elysar TRIANII_CHR_tisa TRIANII_CHR_wahia TRIANII_CHR_wezz TRIANII_CHR_unic TRIANII_CHR_tiovata TRIANII_CHR_nakcohh TRIANII_CHR_vitaan TRIANII_CHR_mefrid TRIANII_CHR_daklan TRIANII_CHR_kenzee TRIANII_CHR_joben TRIANII_CHR_thegas TRIANII_CHR_moryne TRIANII_CHR_holgor TRIANII_CHR_ijaaz TRIANII_CHR_tromans TRIANII_CHR_sprax TRIANII_CHR_knesos TRIANII_CHR_magnus TRIANII_CHR_lasek TRIANII_CHR_artis TRIANII_CHR_pax TRIANII_CHR_corso TRIANII_CHR_fallon TRIANII_CHR_gundo TRIANII_CHR_ruana TRIANII_CHR_fremlin TRIANII_CHR_thont TRIANII_CHR_creel TRIANII_CHR_rar TRIANII_CHR_dusat TRIANII_CHR_kessler TRIANII_CHR_shaia TRIANII_CHR_el_theriam TRIANII_CHR_vanmeer TRIANII_CHR_vrieska TRIANII_CHR_calway TRIANII_CHR_yamaguchi TRIANII_CHR_riggers TRIANII_CHR_brower TRIANII_CHR_fash TRIANII_CHR_nalto TRIANII_CHR_stryder TRIANII_CHR_dubreas TRIANII_CHR_colsan TRIANII_CHR_terrek TRIANII_CHR_solon TRIANII_CHR_merquise TRIANII_CHR_varn TRIANII_CHR_basai TRIANII_CHR_froud TRIANII_CHR_addacess TRIANII_CHR_elysar TRIANII_CHR_durgen TRIANII_CHR_slahlvo TRIANII_CHR_remex TRIANII_CHR_madowki TRIANII_CHR_hayes TRIANII_CHR_ne TRIANII_CHR_dago TRIANII_CHR_greenback TRIANII_CHR_stithta TRIANII_CHR_ker TRIANII_CHR_driet TRIANII_CHR_klakk TRIANII_CHR_reed TRIANII_CHR_lefex TRIANII_CHR_minn TRIANII_CHR_irokini TRIANII_CHR_roye TRIANII_CHR_danakar TRIANII_CHR_forin TRIANII_CHR_glopio TRIANII_CHR_shenuri TRIANII_CHR_corcer TRIANII_CHR_ordo TRIANII_CHR_wan TRIANII_CHR_tagratt TRIANII_CHR_golladio TRIANII_CHR_adramcsia TRIANII_CHR_jetberg TRIANII_CHR_noth TRIANII_CHR_taske TRIANII_CHR_komo TRIANII_CHR_styles TRIANII_CHR_angavel TRIANII_CHR_tyrnith TRIANII_CHR_yavoog TRIANII_CHR_kelbier TRIANII_CHR_racto TRIANII_CHR_degor TRIANII_CHR_tisa TRIANII_CHR_magre TRIANII_CHR_soylon TRIANII_CHR_lerann TRIANII_CHR_chro TRIANII_CHR_finn TRIANII_CHR_blackmoor TRIANII_CHR_hwang TRIANII_CHR_vekarr TRIANII_CHR_thegas TRIANII_CHR_amon TRIANII_CHR_thiddex TRIANII_CHR_durgen TRIANII_CHR_selkayim TRIANII_CHR_gilder TRIANII_CHR_dhuramav TRIANII_CHR_kodd TRIANII_CHR_morin TRIANII_CHR_kobylarz TRIANII_CHR_tade TRIANII_CHR_solman TRIANII_CHR_bintaghr TRIANII_CHR_marclonus TRIANII_CHR_precore TRIANII_CHR_solborne TRIANII_CHR_bailer TRIANII_CHR_katarn TRIANII_CHR_anjek TRIANII_CHR_dalgas TRIANII_CHR_kast TRIANII_CHR_airerith TRIANII_CHR_halo TRIANII_CHR_tade TRIANII_CHR_clash TRIANII_CHR_jalba TRIANII_CHR_benn TRIANII_CHR_haruhana TRIANII_CHR_roice TRIANII_CHR_lokar TRIANII_CHR_korpil TRIANII_CHR_turon TRIANII_CHR_cavi TRIANII_CHR_deece TRIANII_CHR_braitano TRIANII_CHR_garnik TRIANII_CHR_tyandas TRIANII_CHR_ka_taramas TRIANII_CHR_nuwest TRIANII_CHR_forte TRIANII_CHR_noshey TRIANII_CHR_gyyll TRIANII_CHR_tallon TRIANII_CHR_lionne TRIANII_CHR_adras TRIANII_CHR_fremlin TRIANII_CHR_peoly TRIANII_CHR_damiel TRIANII_CHR_chup_pau TRIANII_CHR_drayven TRIANII_CHR_zaposug TRIANII_CHR_bela_trepada TRIANII_CHR_defelice TRIANII_CHR_monsula TRIANII_CHR_baralein TRIANII_CHR_denive TRIANII_CHR_hodrren TRIANII_CHR_xergo TRIANII_CHR_sarat TRIANII_CHR_vercet TRIANII_CHR_ossaki TRIANII_CHR_kappa TRIANII_CHR_zerga TRIANII_CHR_kopos TRIANII_CHR_aldrecht TRIANII_CHR_bohme TRIANII_CHR_tull TRIANII_CHR_eldrel TRIANII_CHR_marh TRIANII_CHR_darksword TRIANII_CHR_krandor TRIANII_CHR_montag TRIANII_CHR_dimodan TRIANII_CHR_starfallen TRIANII_CHR_artis TRIANII_CHR_fett TRIANII_CHR_mohebbi TRIANII_CHR_runalian TRIANII_CHR_binette TRIANII_CHR_laurent TRIANII_CHR_mavr TRIANII_CHR_ryra TRIANII_CHR_truden TRIANII_CHR_solo TRIANII_CHR_lars TRIANII_CHR_amedda TRIANII_CHR_amidala TRIANII_CHR_andrell TRIANII_CHR_annon TRIANII_CHR_antilles TRIANII_CHR_atanna TRIANII_CHR_baab TRIANII_CHR_barc TRIANII_CHR_bonteri TRIANII_CHR_breemu TRIANII_CHR_bremack TRIANII_CHR_bronk TRIANII_CHR_burtoni TRIANII_CHR_cadaman TRIANII_CHR_callen TRIANII_CHR_clovis TRIANII_CHR_ledwellow TRIANII_CHR_dio TRIANII_CHR_organa
+			}
+			regnal_first_names_male = {
+				TRIANII_CHR_kam TRIANII_CHR_erek TRIANII_CHR_arslan TRIANII_CHR_lerak TRIANII_CHR_morla TRIANII_CHR_mas TRIANII_CHR_wain TRIANII_CHR_bail TRIANII_CHR_gabrial TRIANII_CHR_dewell TRIANII_CHR_tanner TRIANII_CHR_vi TRIANII_CHR_rush TRIANII_CHR_danry
+			}
+			regnal_first_names_female = {
+				TRIANII_CHR_callista TRIANII_CHR_mara TRIANII_CHR_seena TRIANII_CHR_areta TRIANII_CHR_padm_ TRIANII_CHR_fema TRIANII_CHR_mina TRIANII_CHR_bana TRIANII_CHR_tyreca TRIANII_CHR_halle TRIANII_CHR_lexi TRIANII_CHR_leia TRIANII_CHR_alyssa TRIANII_CHR_leanna TRIANII_CHR_arya
+			}
+			regnal_second_names = {
+				TRIANII_CHR_amedda TRIANII_CHR_amidala TRIANII_CHR_andrell TRIANII_CHR_annon TRIANII_CHR_antilles TRIANII_CHR_atanna TRIANII_CHR_baab TRIANII_CHR_barc TRIANII_CHR_bonteri TRIANII_CHR_breemu TRIANII_CHR_bremack TRIANII_CHR_bronk TRIANII_CHR_burtoni TRIANII_CHR_cadaman TRIANII_CHR_callen TRIANII_CHR_clovis TRIANII_CHR_ledwellow TRIANII_CHR_dio TRIANII_CHR_panteer TRIANII_CHR_alde TRIANII_CHR_organa TRIANII_CHR_frayus TRIANII_CHR_cortess TRIANII_CHR_killesa
+			}
+		}
+	}
+}

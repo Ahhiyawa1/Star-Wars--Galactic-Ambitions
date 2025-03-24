@@ -1,0 +1,20 @@
+### Star Wars: Timeline Extension and Content ### 
+
+
+############ GOVERNMENTS ############
+
+
+## GALACTIC REPUBLIC SPHERE GOVERNMENTS ##
+
+# Galactic Republic Phase 1 Government
+gov_galactic_republic_phase_01 = {
+	ruler_title = RT_SUPREME_CHANCELLOR
+	ruler_title_female = RT_SUPREME_CHANCELLOR_FEMALE
+	possible = {
+		is_galactic_republic = yes
+		has_authority = auth_galactic_republic
+		has_valid_civic = civic_the_galactic_senate
+		NOT = { has_country_flag = galactic_empire }
+	}
+	weight = { base = 10000 }
+}

@@ -1,0 +1,841 @@
+﻿Chagrian = {
+	randomized = no
+	ship_names = {
+		generic = {
+			CHAGRIAN_SHIP_mystic CHAGRIAN_SHIP_naiad CHAGRIAN_SHIP_nautilus CHAGRIAN_SHIP_nebula CHAGRIAN_SHIP_nimble CHAGRIAN_SHIP_north_star CHAGRIAN_SHIP_nymph CHAGRIAN_SHIP_obdurate CHAGRIAN_SHIP_ocean CHAGRIAN_SHIP_onward CHAGRIAN_SHIP_oracle CHAGRIAN_SHIP_paradox CHAGRIAN_SHIP_paragon CHAGRIAN_SHIP_pearl CHAGRIAN_SHIP_peregrine CHAGRIAN_SHIP_perseverance CHAGRIAN_SHIP_marksman CHAGRIAN_SHIP_rifleman CHAGRIAN_SHIP_sniper CHAGRIAN_SHIP_trident CHAGRIAN_SHIP_trumpet CHAGRIAN_SHIP_truncheon CHAGRIAN_SHIP_typhoon CHAGRIAN_SHIP_undaunted CHAGRIAN_SHIP_venture CHAGRIAN_SHIP_versatile CHAGRIAN_SHIP_vigorous CHAGRIAN_SHIP_viper CHAGRIAN_SHIP_vivacious CHAGRIAN_SHIP_winger CHAGRIAN_SHIP_wizard CHAGRIAN_SHIP_wyvern CHAGRIAN_SHIP_wolfhound CHAGRIAN_SHIP_devastator CHAGRIAN_SHIP_warhammer CHAGRIAN_SHIP_retribution CHAGRIAN_SHIP_senator CHAGRIAN_SHIP_tornado CHAGRIAN_SHIP_infinity CHAGRIAN_SHIP_usurper CHAGRIAN_SHIP_utmost CHAGRIAN_SHIP_valorous CHAGRIAN_SHIP_whirlwind CHAGRIAN_SHIP_athena CHAGRIAN_SHIP_artemis CHAGRIAN_SHIP_vigilance CHAGRIAN_SHIP_decimator CHAGRIAN_SHIP_indomitable CHAGRIAN_SHIP_goliath CHAGRIAN_SHIP_sentinel CHAGRIAN_SHIP_brilliant CHAGRIAN_SHIP_blazer CHAGRIAN_SHIP_audacity CHAGRIAN_SHIP_gallant CHAGRIAN_SHIP_nova CHAGRIAN_SHIP_shadow CHAGRIAN_SHIP_allegiance CHAGRIAN_SHIP_challenger CHAGRIAN_SHIP_fearless CHAGRIAN_SHIP_protector CHAGRIAN_SHIP_guardian CHAGRIAN_SHIP_victorious CHAGRIAN_SHIP_courageous CHAGRIAN_SHIP_defiance CHAGRIAN_SHIP_valorous CHAGRIAN_SHIP_azrael CHAGRIAN_SHIP_adamantine CHAGRIAN_SHIP_aralanni CHAGRIAN_SHIP_ardent_iv CHAGRIAN_SHIP_armistice CHAGRIAN_SHIP_avengeance CHAGRIAN_SHIP_ballista CHAGRIAN_SHIP_bloodstripe CHAGRIAN_SHIP_borealis CHAGRIAN_SHIP_caelus CHAGRIAN_SHIP_caravan CHAGRIAN_SHIP_chaf_envoy CHAGRIAN_SHIP_commenor CHAGRIAN_SHIP_corbantis CHAGRIAN_SHIP_corellia CHAGRIAN_SHIP_courteous CHAGRIAN_SHIP_dauntless CHAGRIAN_SHIP_defiant CHAGRIAN_SHIP_deliverance CHAGRIAN_SHIP_derapha CHAGRIAN_SHIP_devout CHAGRIAN_SHIP_empirical CHAGRIAN_SHIP_empyrean CHAGRIAN_SHIP_era_daimanos CHAGRIAN_SHIP_eye_of_the_storm CHAGRIAN_SHIP_farstar CHAGRIAN_SHIP_fastblast CHAGRIAN_SHIP_galaaron CHAGRIAN_SHIP_garrote CHAGRIAN_SHIP_gilagimar CHAGRIAN_SHIP_halleck CHAGRIAN_SHIP_hunter CHAGRIAN_SHIP_intractable CHAGRIAN_SHIP_ithor_lady CHAGRIAN_SHIP_justice_crusader CHAGRIAN_SHIP_kana_s_steel CHAGRIAN_SHIP_lathir CHAGRIAN_SHIP_liberty CHAGRIAN_SHIP_lillibanca CHAGRIAN_SHIP_maelstrom CHAGRIAN_SHIP_malachite_scent CHAGRIAN_SHIP_mercy CHAGRIAN_SHIP_myrkos CHAGRIAN_SHIP_nebula_chaser CHAGRIAN_SHIP_nova CHAGRIAN_SHIP_nova_viper CHAGRIAN_SHIP_obedience CHAGRIAN_SHIP_olemp CHAGRIAN_SHIP_pegasus CHAGRIAN_SHIP_perspicacity CHAGRIAN_SHIP_phalanx CHAGRIAN_SHIP_plooriod_bodkin CHAGRIAN_SHIP_predominance CHAGRIAN_SHIP_prosperity CHAGRIAN_SHIP_purity CHAGRIAN_SHIP_recalcitrant CHAGRIAN_SHIP_red_nova CHAGRIAN_SHIP_redma CHAGRIAN_SHIP_reliable CHAGRIAN_SHIP_reliant CHAGRIAN_SHIP_reluctant CHAGRIAN_SHIP_republic CHAGRIAN_SHIP_republic_s_return CHAGRIAN_SHIP_resolve CHAGRIAN_SHIP_respectable CHAGRIAN_SHIP_revenge CHAGRIAN_SHIP_shadowblade CHAGRIAN_SHIP_spritespray CHAGRIAN_SHIP_star_dream CHAGRIAN_SHIP_stark_wing CHAGRIAN_SHIP_starveil CHAGRIAN_SHIP_undying CHAGRIAN_SHIP_vaathkree CHAGRIAN_SHIP_vainglorious CHAGRIAN_SHIP_valiant CHAGRIAN_SHIP_valor CHAGRIAN_SHIP_vanquisher CHAGRIAN_SHIP_vinsor CHAGRIAN_SHIP_visseon CHAGRIAN_SHIP_wennis CHAGRIAN_SHIP_yavin_s_glory CHAGRIAN_SHIP_moldy_crow CHAGRIAN_SHIP_raven_s_claw CHAGRIAN_SHIP_agile CHAGRIAN_SHIP_archer CHAGRIAN_SHIP_arrow CHAGRIAN_SHIP_bruiser CHAGRIAN_SHIP_cherub CHAGRIAN_SHIP_chimera CHAGRIAN_SHIP_claymore CHAGRIAN_SHIP_broadsword CHAGRIAN_SHIP_battleaxe CHAGRIAN_SHIP_crossbow CHAGRIAN_SHIP_cutlass CHAGRIAN_SHIP_deterrent CHAGRIAN_SHIP_errant CHAGRIAN_SHIP_faithful CHAGRIAN_SHIP_fierce CHAGRIAN_SHIP_gladius CHAGRIAN_SHIP_longbow CHAGRIAN_SHIP_grappler CHAGRIAN_SHIP_hammer CHAGRIAN_SHIP_vampire CHAGRIAN_SHIP_velox CHAGRIAN_SHIP_venator CHAGRIAN_SHIP_vendetta CHAGRIAN_SHIP_venerable CHAGRIAN_SHIP_venomous CHAGRIAN_SHIP_taciturn CHAGRIAN_SHIP_supreme CHAGRIAN_SHIP_success CHAGRIAN_SHIP_shredder CHAGRIAN_SHIP_seraph CHAGRIAN_SHIP_serpent CHAGRIAN_SHIP_spitfire CHAGRIAN_SHIP_stalker CHAGRIAN_SHIP_stratagem CHAGRIAN_SHIP_scimitar CHAGRIAN_SHIP_scorcher CHAGRIAN_SHIP_scourge CHAGRIAN_SHIP_scythe CHAGRIAN_SHIP_revenant CHAGRIAN_SHIP_redoubtable CHAGRIAN_SHIP_raptor CHAGRIAN_SHIP_reaver CHAGRIAN_SHIP_prodigal CHAGRIAN_SHIP_rapier CHAGRIAN_SHIP_prudent CHAGRIAN_SHIP_persistent CHAGRIAN_SHIP_peerless CHAGRIAN_SHIP_myrmidon CHAGRIAN_SHIP_indignant CHAGRIAN_SHIP_javelin CHAGRIAN_SHIP_knight CHAGRIAN_SHIP_starwolf CHAGRIAN_SHIP_bonaventure CHAGRIAN_SHIP_adventure CHAGRIAN_SHIP_boxer CHAGRIAN_SHIP_buccaneer CHAGRIAN_SHIP_cavalier CHAGRIAN_SHIP_celestial CHAGRIAN_SHIP_chariot CHAGRIAN_SHIP_comet CHAGRIAN_SHIP_crucible CHAGRIAN_SHIP_cyclone CHAGRIAN_SHIP_decisive CHAGRIAN_SHIP_dexterous CHAGRIAN_SHIP_diadem CHAGRIAN_SHIP_earnest CHAGRIAN_SHIP_eclipse CHAGRIAN_SHIP_forger CHAGRIAN_SHIP_fortune CHAGRIAN_SHIP_gauntlet CHAGRIAN_SHIP_griffin CHAGRIAN_SHIP_horizon CHAGRIAN_SHIP_hotspur CHAGRIAN_SHIP_hurricane CHAGRIAN_SHIP_hussar CHAGRIAN_SHIP_jubilant CHAGRIAN_SHIP_lancer CHAGRIAN_SHIP_lightning CHAGRIAN_SHIP_magic CHAGRIAN_SHIP_mediator CHAGRIAN_SHIP_mermaid CHAGRIAN_SHIP_meteor CHAGRIAN_SHIP_minstrel CHAGRIAN_SHIP_miranda CHAGRIAN_SHIP_mustang CHAGRIAN_SHIP_sharpshooter CHAGRIAN_SHIP_cyclops CHAGRIAN_SHIP_centaur CHAGRIAN_SHIP_adversary CHAGRIAN_SHIP_assassin CHAGRIAN_SHIP_dagger CHAGRIAN_SHIP_daring CHAGRIAN_SHIP_duty CHAGRIAN_SHIP_havoc CHAGRIAN_SHIP_hero CHAGRIAN_SHIP_hunter CHAGRIAN_SHIP_justice CHAGRIAN_SHIP_impeccable CHAGRIAN_SHIP_interceptor CHAGRIAN_SHIP_infernal CHAGRIAN_SHIP_loyal CHAGRIAN_SHIP_matchless CHAGRIAN_SHIP_mauler CHAGRIAN_SHIP_mayhem CHAGRIAN_SHIP_malice CHAGRIAN_SHIP_menace CHAGRIAN_SHIP_merciless CHAGRIAN_SHIP_mischief CHAGRIAN_SHIP_monarch CHAGRIAN_SHIP_patriot CHAGRIAN_SHIP_predator CHAGRIAN_SHIP_powerful CHAGRIAN_SHIP_punisher CHAGRIAN_SHIP_ravager CHAGRIAN_SHIP_reaper CHAGRIAN_SHIP_savage CHAGRIAN_SHIP_spiteful CHAGRIAN_SHIP_templar CHAGRIAN_SHIP_terminator CHAGRIAN_SHIP_terror CHAGRIAN_SHIP_thrasher CHAGRIAN_SHIP_minotaur CHAGRIAN_SHIP_manticore CHAGRIAN_SHIP_interdictor CHAGRIAN_SHIP_intruder CHAGRIAN_SHIP_hydra CHAGRIAN_SHIP_enfield CHAGRIAN_SHIP_harasser CHAGRIAN_SHIP_unbeaten CHAGRIAN_SHIP_werewolf CHAGRIAN_SHIP_zealous CHAGRIAN_SHIP_petulant CHAGRIAN_SHIP_phantom CHAGRIAN_SHIP_phoenix CHAGRIAN_SHIP_pike CHAGRIAN_SHIP_pursuer CHAGRIAN_SHIP_raider CHAGRIAN_SHIP_rainbow CHAGRIAN_SHIP_rapid CHAGRIAN_SHIP_redemption CHAGRIAN_SHIP_relentless CHAGRIAN_SHIP_rigorous CHAGRIAN_SHIP_robust CHAGRIAN_SHIP_sabre CHAGRIAN_SHIP_salvation CHAGRIAN_SHIP_sanguine CHAGRIAN_SHIP_scarab CHAGRIAN_SHIP_scepter CHAGRIAN_SHIP_sea_witch CHAGRIAN_SHIP_siren CHAGRIAN_SHIP_sorceress CHAGRIAN_SHIP_spearhead CHAGRIAN_SHIP_specter CHAGRIAN_SHIP_spirit CHAGRIAN_SHIP_splendid CHAGRIAN_SHIP_stallion CHAGRIAN_SHIP_stalwart CHAGRIAN_SHIP_steadfast CHAGRIAN_SHIP_strenuous CHAGRIAN_SHIP_superb CHAGRIAN_SHIP_supernova CHAGRIAN_SHIP_surprise CHAGRIAN_SHIP_swiftsure CHAGRIAN_SHIP_talent CHAGRIAN_SHIP_talisman CHAGRIAN_SHIP_talon CHAGRIAN_SHIP_taurus CHAGRIAN_SHIP_tenacious CHAGRIAN_SHIP_thunder_child CHAGRIAN_SHIP_thunderous CHAGRIAN_SHIP_tireless CHAGRIAN_SHIP_trenchant CHAGRIAN_SHIP_righteous CHAGRIAN_SHIP_acheron CHAGRIAN_SHIP_achilles CHAGRIAN_SHIP_agamemnon CHAGRIAN_SHIP_amphion CHAGRIAN_SHIP_aquilon CHAGRIAN_SHIP_argonaut CHAGRIAN_SHIP_argus CHAGRIAN_SHIP_ariel CHAGRIAN_SHIP_aurora CHAGRIAN_SHIP_avernus CHAGRIAN_SHIP_bacchus CHAGRIAN_SHIP_bucephalus CHAGRIAN_SHIP_calliope CHAGRIAN_SHIP_calypso CHAGRIAN_SHIP_castor CHAGRIAN_SHIP_charybdis CHAGRIAN_SHIP_circe CHAGRIAN_SHIP_cleopatra CHAGRIAN_SHIP_constantine CHAGRIAN_SHIP_cordelia CHAGRIAN_SHIP_cyrus CHAGRIAN_SHIP_damocles CHAGRIAN_SHIP_daedalus CHAGRIAN_SHIP_darius CHAGRIAN_SHIP_diomede CHAGRIAN_SHIP_dryad CHAGRIAN_SHIP_electra CHAGRIAN_SHIP_endymion CHAGRIAN_SHIP_erebus CHAGRIAN_SHIP_fenris CHAGRIAN_SHIP_freya CHAGRIAN_SHIP_gilgamesh CHAGRIAN_SHIP_gorgon CHAGRIAN_SHIP_halcyon CHAGRIAN_SHIP_hecate CHAGRIAN_SHIP_hector CHAGRIAN_SHIP_hesperus CHAGRIAN_SHIP_janus CHAGRIAN_SHIP_jason CHAGRIAN_SHIP_juno CHAGRIAN_SHIP_jupiter CHAGRIAN_SHIP_lancelot CHAGRIAN_SHIP_lazarus CHAGRIAN_SHIP_leander CHAGRIAN_SHIP_leonidas CHAGRIAN_SHIP_lysander CHAGRIAN_SHIP_maenad CHAGRIAN_SHIP_mars CHAGRIAN_SHIP_medea CHAGRIAN_SHIP_medusa CHAGRIAN_SHIP_menestheus CHAGRIAN_SHIP_mercury CHAGRIAN_SHIP_merlin CHAGRIAN_SHIP_minerva CHAGRIAN_SHIP_minos CHAGRIAN_SHIP_neptune CHAGRIAN_SHIP_nessus CHAGRIAN_SHIP_nestor CHAGRIAN_SHIP_nimrod CHAGRIAN_SHIP_niobe CHAGRIAN_SHIP_oberon CHAGRIAN_SHIP_odin CHAGRIAN_SHIP_ophelia CHAGRIAN_SHIP_orestes CHAGRIAN_SHIP_orpheus CHAGRIAN_SHIP_osiris CHAGRIAN_SHIP_pandora CHAGRIAN_SHIP_penelope CHAGRIAN_SHIP_persephone CHAGRIAN_SHIP_perseus CHAGRIAN_SHIP_phoebe CHAGRIAN_SHIP_pluto CHAGRIAN_SHIP_poseidon CHAGRIAN_SHIP_proteus CHAGRIAN_SHIP_pylades CHAGRIAN_SHIP_serapis CHAGRIAN_SHIP_stygian CHAGRIAN_SHIP_tantalus CHAGRIAN_SHIP_telemachus CHAGRIAN_SHIP_theseus CHAGRIAN_SHIP_thor CHAGRIAN_SHIP_trajan CHAGRIAN_SHIP_triton CHAGRIAN_SHIP_venus CHAGRIAN_SHIP_adamant CHAGRIAN_SHIP_ardent CHAGRIAN_SHIP_assail CHAGRIAN_SHIP_austere CHAGRIAN_SHIP_archon CHAGRIAN_SHIP_adroit CHAGRIAN_SHIP_aegis CHAGRIAN_SHIP_anchor CHAGRIAN_SHIP_corsair CHAGRIAN_SHIP_banshee CHAGRIAN_SHIP_enchantress CHAGRIAN_SHIP_eradicator CHAGRIAN_SHIP_tormentor CHAGRIAN_SHIP_legion CHAGRIAN_SHIP_reprisal CHAGRIAN_SHIP_aggressor CHAGRIAN_SHIP_assault CHAGRIAN_SHIP_eviscerator CHAGRIAN_SHIP_imperator CHAGRIAN_SHIP_excellence CHAGRIAN_SHIP_unrivalled CHAGRIAN_SHIP_warlord CHAGRIAN_SHIP_vengeance CHAGRIAN_SHIP_triumphant CHAGRIAN_SHIP_nemesis CHAGRIAN_SHIP_avenger CHAGRIAN_SHIP_champion CHAGRIAN_SHIP_conqueror CHAGRIAN_SHIP_crusader CHAGRIAN_SHIP_glory CHAGRIAN_SHIP_immortal CHAGRIAN_SHIP_judicator CHAGRIAN_SHIP_vanguard CHAGRIAN_SHIP_renown CHAGRIAN_SHIP_demolisher CHAGRIAN_SHIP_dragon CHAGRIAN_SHIP_executor CHAGRIAN_SHIP_furious CHAGRIAN_SHIP_gladiator CHAGRIAN_SHIP_magnificent CHAGRIAN_SHIP_ogre CHAGRIAN_SHIP_onslaught CHAGRIAN_SHIP_revenge CHAGRIAN_SHIP_vanquisher CHAGRIAN_SHIP_vehement CHAGRIAN_SHIP_basilisk CHAGRIAN_SHIP_tempest CHAGRIAN_SHIP_overlord CHAGRIAN_SHIP_warrior CHAGRIAN_SHIP_titan CHAGRIAN_SHIP_colossus CHAGRIAN_SHIP_prometheus CHAGRIAN_SHIP_nike CHAGRIAN_SHIP_paladin CHAGRIAN_SHIP_sovereign CHAGRIAN_SHIP_repulse CHAGRIAN_SHIP_majestic CHAGRIAN_SHIP_avatar CHAGRIAN_SHIP_behemoth CHAGRIAN_SHIP_centurion CHAGRIAN_SHIP_citadel CHAGRIAN_SHIP_katana CHAGRIAN_SHIP_kraken CHAGRIAN_SHIP_cerberus CHAGRIAN_SHIP_valkyrie
+		}
+		swp_bellator = {
+			CHAGRIAN_SHIP_dreadnought CHAGRIAN_SHIP_harbinger CHAGRIAN_SHIP_juggernaut CHAGRIAN_SHIP_leviathan CHAGRIAN_SHIP_hyperion CHAGRIAN_SHIP_galatea CHAGRIAN_SHIP_ambush CHAGRIAN_SHIP_vindicator
+		}
+		science = {
+			CHAGRIAN_SHIP_crescent CHAGRIAN_SHIP_diligent CHAGRIAN_SHIP_zephyr CHAGRIAN_SHIP_enigma CHAGRIAN_SHIP_conquistador CHAGRIAN_SHIP_scylla CHAGRIAN_SHIP_arbiter CHAGRIAN_SHIP_asperity CHAGRIAN_SHIP_eminence CHAGRIAN_SHIP_astute CHAGRIAN_SHIP_alacrity CHAGRIAN_SHIP_satyr CHAGRIAN_SHIP_prospero CHAGRIAN_SHIP_untiring CHAGRIAN_SHIP_zenith CHAGRIAN_SHIP_torch CHAGRIAN_SHIP_remembrance CHAGRIAN_SHIP_pilgrim CHAGRIAN_SHIP_trailblazer CHAGRIAN_SHIP_vagabond CHAGRIAN_SHIP_wayfarer CHAGRIAN_SHIP_ambassador CHAGRIAN_SHIP_emissary CHAGRIAN_SHIP_nomad CHAGRIAN_SHIP_pathfinder CHAGRIAN_SHIP_wanderer CHAGRIAN_SHIP_traveler
+		}
+		colonizer = {
+			CHAGRIAN_SHIP_godspeed CHAGRIAN_SHIP_prophecy CHAGRIAN_SHIP_manifest_destiny CHAGRIAN_SHIP_virtue CHAGRIAN_SHIP_potential CHAGRIAN_SHIP_expansion CHAGRIAN_SHIP_pioneer_spirit CHAGRIAN_SHIP_prosperity CHAGRIAN_SHIP_summit CHAGRIAN_SHIP_pinnacle CHAGRIAN_SHIP_seeder CHAGRIAN_SHIP_harvest CHAGRIAN_SHIP_demeter CHAGRIAN_SHIP_isis CHAGRIAN_SHIP_ceres CHAGRIAN_SHIP_exodus CHAGRIAN_SHIP_foundation CHAGRIAN_SHIP_scion CHAGRIAN_SHIP_progeny CHAGRIAN_SHIP_obligation CHAGRIAN_SHIP_purpose CHAGRIAN_SHIP_provider CHAGRIAN_SHIP_shining_city CHAGRIAN_SHIP_acquirer CHAGRIAN_SHIP_cultivator CHAGRIAN_SHIP_dawn_of_civilization CHAGRIAN_SHIP_purity CHAGRIAN_SHIP_community CHAGRIAN_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			CHAGRIAN_SHIP_godspeed CHAGRIAN_SHIP_prophecy CHAGRIAN_SHIP_manifest_destiny CHAGRIAN_SHIP_virtue CHAGRIAN_SHIP_potential CHAGRIAN_SHIP_expansion CHAGRIAN_SHIP_pioneer_spirit CHAGRIAN_SHIP_prosperity CHAGRIAN_SHIP_summit CHAGRIAN_SHIP_pinnacle CHAGRIAN_SHIP_seeder CHAGRIAN_SHIP_harvest CHAGRIAN_SHIP_isis CHAGRIAN_SHIP_ceres CHAGRIAN_SHIP_exodus CHAGRIAN_SHIP_foundation CHAGRIAN_SHIP_scion CHAGRIAN_SHIP_progeny CHAGRIAN_SHIP_obligation CHAGRIAN_SHIP_purpose CHAGRIAN_SHIP_provider CHAGRIAN_SHIP_shining_city CHAGRIAN_SHIP_acquirer CHAGRIAN_SHIP_cultivator CHAGRIAN_SHIP_dawn_of_civilization CHAGRIAN_SHIP_purity CHAGRIAN_SHIP_community CHAGRIAN_SHIP_brotherhood
+		}
+		constructor = {
+			CHAGRIAN_SHIP_industry CHAGRIAN_SHIP_assiduity CHAGRIAN_SHIP_effort CHAGRIAN_SHIP_laborer CHAGRIAN_SHIP_builder CHAGRIAN_SHIP_craftsman CHAGRIAN_SHIP_hard_hat CHAGRIAN_SHIP_progress CHAGRIAN_SHIP_engineer CHAGRIAN_SHIP_promise CHAGRIAN_SHIP_service CHAGRIAN_SHIP_shelter CHAGRIAN_SHIP_beast CHAGRIAN_SHIP_creator CHAGRIAN_SHIP_developer CHAGRIAN_SHIP_forger CHAGRIAN_SHIP_foundry CHAGRIAN_SHIP_factory CHAGRIAN_SHIP_anvil CHAGRIAN_SHIP_pillar CHAGRIAN_SHIP_architect CHAGRIAN_SHIP_accommodator CHAGRIAN_SHIP_ptah CHAGRIAN_SHIP_ilmarinen CHAGRIAN_SHIP_creidhne CHAGRIAN_SHIP_gobannus CHAGRIAN_SHIP_luchtaine CHAGRIAN_SHIP_goibniu CHAGRIAN_SHIP_vishvakarman CHAGRIAN_SHIP_tvastar CHAGRIAN_SHIP_ikenga CHAGRIAN_SHIP_qaynan CHAGRIAN_SHIP_ucuetis CHAGRIAN_SHIP_ogoun
+		}
+		transport = {
+			CHAGRIAN_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			CHAGRIAN_SHIP_spacegun_victory CHAGRIAN_SHIP_spacegun_success CHAGRIAN_SHIP_spacegun_supremacy CHAGRIAN_SHIP_spacegun_superior CHAGRIAN_SHIP_spacegun_adventure CHAGRIAN_SHIP_spacegun_ascendancy CHAGRIAN_SHIP_spacegun_paramount CHAGRIAN_SHIP_spacegun_preponderous CHAGRIAN_SHIP_spacegun_exemplary CHAGRIAN_SHIP_spacegun_eximious CHAGRIAN_SHIP_spacegun_pertinacity CHAGRIAN_SHIP_spacegun_acclaim CHAGRIAN_SHIP_spacegun_honor CHAGRIAN_SHIP_spacegun_renown CHAGRIAN_SHIP_spacegun_glory CHAGRIAN_SHIP_spacegun_superb CHAGRIAN_SHIP_spacegun_magnificence CHAGRIAN_SHIP_spacegun_majestic CHAGRIAN_SHIP_spacegun_splendor CHAGRIAN_SHIP_spacegun_paradigm CHAGRIAN_SHIP_spacegun_flawless CHAGRIAN_SHIP_spacegun_consummate CHAGRIAN_SHIP_spacegun_merit CHAGRIAN_SHIP_spacegun_perfection CHAGRIAN_SHIP_spacegun_virtue CHAGRIAN_SHIP_spacegun_advantage CHAGRIAN_SHIP_spacegun_rectitude CHAGRIAN_SHIP_spacegun_incorruptible CHAGRIAN_SHIP_spacegun_integrity CHAGRIAN_SHIP_spacegun_justice CHAGRIAN_SHIP_spacegun_probity CHAGRIAN_SHIP_spacegun_prudence CHAGRIAN_SHIP_spacegun_purity CHAGRIAN_SHIP_spacegun_resolute CHAGRIAN_SHIP_spacegun_dignity CHAGRIAN_SHIP_spacegun_distinction CHAGRIAN_SHIP_spacegun_excellence CHAGRIAN_SHIP_spacegun_faithful CHAGRIAN_SHIP_spacegun_discipline CHAGRIAN_SHIP_spacegun_steadfast CHAGRIAN_SHIP_spacegun_recompense CHAGRIAN_SHIP_spacegun_requiem CHAGRIAN_SHIP_spacegun_courage CHAGRIAN_SHIP_spacegun_valor CHAGRIAN_SHIP_spacegun_gallant CHAGRIAN_SHIP_spacegun_daring CHAGRIAN_SHIP_spacegun_constancy CHAGRIAN_SHIP_spacegun_perseverence CHAGRIAN_SHIP_spacegun_tenacity CHAGRIAN_SHIP_spacegun_sedulity CHAGRIAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			CHAGRIAN_SHIP_spacegun_victory CHAGRIAN_SHIP_spacegun_success CHAGRIAN_SHIP_spacegun_supremacy CHAGRIAN_SHIP_spacegun_superior CHAGRIAN_SHIP_spacegun_adventure CHAGRIAN_SHIP_spacegun_ascendancy CHAGRIAN_SHIP_spacegun_paramount CHAGRIAN_SHIP_spacegun_preponderous CHAGRIAN_SHIP_spacegun_exemplary CHAGRIAN_SHIP_spacegun_eximious CHAGRIAN_SHIP_spacegun_pertinacity CHAGRIAN_SHIP_spacegun_acclaim CHAGRIAN_SHIP_spacegun_honor CHAGRIAN_SHIP_spacegun_renown CHAGRIAN_SHIP_spacegun_glory CHAGRIAN_SHIP_spacegun_superb CHAGRIAN_SHIP_spacegun_magnificence CHAGRIAN_SHIP_spacegun_majestic CHAGRIAN_SHIP_spacegun_splendor CHAGRIAN_SHIP_spacegun_paradigm CHAGRIAN_SHIP_spacegun_flawless CHAGRIAN_SHIP_spacegun_consummate CHAGRIAN_SHIP_spacegun_merit CHAGRIAN_SHIP_spacegun_perfection CHAGRIAN_SHIP_spacegun_virtue CHAGRIAN_SHIP_spacegun_advantage CHAGRIAN_SHIP_spacegun_rectitude CHAGRIAN_SHIP_spacegun_incorruptible CHAGRIAN_SHIP_spacegun_integrity CHAGRIAN_SHIP_spacegun_justice CHAGRIAN_SHIP_spacegun_probity CHAGRIAN_SHIP_spacegun_prudence CHAGRIAN_SHIP_spacegun_purity CHAGRIAN_SHIP_spacegun_resolute CHAGRIAN_SHIP_spacegun_dignity CHAGRIAN_SHIP_spacegun_distinction CHAGRIAN_SHIP_spacegun_excellence CHAGRIAN_SHIP_spacegun_faithful CHAGRIAN_SHIP_spacegun_discipline CHAGRIAN_SHIP_spacegun_steadfast CHAGRIAN_SHIP_spacegun_recompense CHAGRIAN_SHIP_spacegun_requiem CHAGRIAN_SHIP_spacegun_courage CHAGRIAN_SHIP_spacegun_valor CHAGRIAN_SHIP_spacegun_gallant CHAGRIAN_SHIP_spacegun_daring CHAGRIAN_SHIP_spacegun_constancy CHAGRIAN_SHIP_spacegun_perseverence CHAGRIAN_SHIP_spacegun_tenacity CHAGRIAN_SHIP_spacegun_sedulity CHAGRIAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			CHAGRIAN_SHIP_spacegun_victory CHAGRIAN_SHIP_spacegun_success CHAGRIAN_SHIP_spacegun_supremacy CHAGRIAN_SHIP_spacegun_superior CHAGRIAN_SHIP_spacegun_adventure CHAGRIAN_SHIP_spacegun_ascendancy CHAGRIAN_SHIP_spacegun_paramount CHAGRIAN_SHIP_spacegun_preponderous CHAGRIAN_SHIP_spacegun_exemplary CHAGRIAN_SHIP_spacegun_eximious CHAGRIAN_SHIP_spacegun_pertinacity CHAGRIAN_SHIP_spacegun_acclaim CHAGRIAN_SHIP_spacegun_honor CHAGRIAN_SHIP_spacegun_renown CHAGRIAN_SHIP_spacegun_glory CHAGRIAN_SHIP_spacegun_superb CHAGRIAN_SHIP_spacegun_magnificence CHAGRIAN_SHIP_spacegun_majestic CHAGRIAN_SHIP_spacegun_splendor CHAGRIAN_SHIP_spacegun_paradigm CHAGRIAN_SHIP_spacegun_flawless CHAGRIAN_SHIP_spacegun_consummate CHAGRIAN_SHIP_spacegun_merit CHAGRIAN_SHIP_spacegun_perfection CHAGRIAN_SHIP_spacegun_virtue CHAGRIAN_SHIP_spacegun_advantage CHAGRIAN_SHIP_spacegun_rectitude CHAGRIAN_SHIP_spacegun_incorruptible CHAGRIAN_SHIP_spacegun_integrity CHAGRIAN_SHIP_spacegun_justice CHAGRIAN_SHIP_spacegun_probity CHAGRIAN_SHIP_spacegun_prudence CHAGRIAN_SHIP_spacegun_purity CHAGRIAN_SHIP_spacegun_resolute CHAGRIAN_SHIP_spacegun_dignity CHAGRIAN_SHIP_spacegun_distinction CHAGRIAN_SHIP_spacegun_excellence CHAGRIAN_SHIP_spacegun_faithful CHAGRIAN_SHIP_spacegun_discipline CHAGRIAN_SHIP_spacegun_steadfast CHAGRIAN_SHIP_spacegun_recompense CHAGRIAN_SHIP_spacegun_requiem CHAGRIAN_SHIP_spacegun_courage CHAGRIAN_SHIP_spacegun_valor CHAGRIAN_SHIP_spacegun_gallant CHAGRIAN_SHIP_spacegun_daring CHAGRIAN_SHIP_spacegun_constancy CHAGRIAN_SHIP_spacegun_perseverence CHAGRIAN_SHIP_spacegun_tenacity CHAGRIAN_SHIP_spacegun_sedulity CHAGRIAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			CHAGRIAN_SHIP_citadel CHAGRIAN_SHIP_albacore CHAGRIAN_SHIP_gateway CHAGRIAN_SHIP_vincent CHAGRIAN_SHIP_babylon CHAGRIAN_SHIP_caernavon CHAGRIAN_SHIP_acre CHAGRIAN_SHIP_pembroke CHAGRIAN_SHIP_acheron CHAGRIAN_SHIP_spithead CHAGRIAN_SHIP_halifax CHAGRIAN_SHIP_victoria CHAGRIAN_SHIP_chatham CHAGRIAN_SHIP_anchorage CHAGRIAN_SHIP_scapa_flow CHAGRIAN_SHIP_hampton_roads CHAGRIAN_SHIP_brooklyn CHAGRIAN_SHIP_norfolk CHAGRIAN_SHIP_newport CHAGRIAN_SHIP_guam CHAGRIAN_SHIP_pensacola CHAGRIAN_SHIP_vesuvius CHAGRIAN_SHIP_mckinley CHAGRIAN_SHIP_everest CHAGRIAN_SHIP_kilimanjaro CHAGRIAN_SHIP_aconcagua CHAGRIAN_SHIP_elbrus CHAGRIAN_SHIP_st__helens CHAGRIAN_SHIP_fuji CHAGRIAN_SHIP_olympus CHAGRIAN_SHIP_sinai CHAGRIAN_SHIP_ambrose CHAGRIAN_SHIP_bermuda CHAGRIAN_SHIP_farpoint CHAGRIAN_SHIP_blue_star CHAGRIAN_SHIP_olympus_mons CHAGRIAN_SHIP_tharsis CHAGRIAN_SHIP_syrtis CHAGRIAN_SHIP_blackham CHAGRIAN_SHIP_fletcher CHAGRIAN_SHIP_perry CHAGRIAN_SHIP_butakov CHAGRIAN_SHIP_morris CHAGRIAN_SHIP_moorsom CHAGRIAN_SHIP_hart CHAGRIAN_SHIP_hargood CHAGRIAN_SHIP_spruance CHAGRIAN_SHIP_tanaka CHAGRIAN_SHIP_halsey CHAGRIAN_SHIP_turner CHAGRIAN_SHIP_doria CHAGRIAN_SHIP_tirpitz CHAGRIAN_SHIP_cunningham CHAGRIAN_SHIP_jellicoe CHAGRIAN_SHIP_hipper CHAGRIAN_SHIP_beatty CHAGRIAN_SHIP_potemkin CHAGRIAN_SHIP_durham CHAGRIAN_SHIP_codrington CHAGRIAN_SHIP_milne CHAGRIAN_SHIP_laforey CHAGRIAN_SHIP_tyler CHAGRIAN_SHIP_hawke CHAGRIAN_SHIP_yonai CHAGRIAN_SHIP_pound CHAGRIAN_SHIP_king CHAGRIAN_SHIP_crutchley CHAGRIAN_SHIP_mountbatten CHAGRIAN_SHIP_kountouriotis CHAGRIAN_SHIP_kuznetsov CHAGRIAN_SHIP_essen CHAGRIAN_SHIP_kornilov CHAGRIAN_SHIP_suffren CHAGRIAN_SHIP_treville CHAGRIAN_SHIP_villeneuve CHAGRIAN_SHIP_grasse CHAGRIAN_SHIP_byng CHAGRIAN_SHIP_lezo
+		}
+		ion_cannon = {
+			CHAGRIAN_SHIP_bombard CHAGRIAN_SHIP_ballista CHAGRIAN_SHIP_catapult CHAGRIAN_SHIP_harpoon CHAGRIAN_SHIP_polybolos CHAGRIAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			CHAGRIAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			CHAGRIAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			CHAGRIAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			CHAGRIAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			CHAGRIAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			CHAGRIAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			CHAGRIAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			CHAGRIAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			CHAGRIAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			CHAGRIAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			CHAGRIAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			CHAGRIAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			CHAGRIAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			CHAGRIAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			CHAGRIAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			CHAGRIAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			CHAGRIAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			CHAGRIAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			CHAGRIAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			CHAGRIAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			CHAGRIAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			CHAGRIAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			CHAGRIAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			CHAGRIAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			CHAGRIAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			CHAGRIAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			CHAGRIAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			CHAGRIAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			CHAGRIAN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			CHAGRIAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			CHAGRIAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			CHAGRIAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			CHAGRIAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			CHAGRIAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			CHAGRIAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			CHAGRIAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			CHAGRIAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			CHAGRIAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			CHAGRIAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			CHAGRIAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			CHAGRIAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			CHAGRIAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			CHAGRIAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			CHAGRIAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			CHAGRIAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			CHAGRIAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			CHAGRIAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			CHAGRIAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			CHAGRIAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			CHAGRIAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			CHAGRIAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			CHAGRIAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			CHAGRIAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			CHAGRIAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			CHAGRIAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			CHAGRIAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			CHAGRIAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			CHAGRIAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			CHAGRIAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			CHAGRIAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			CHAGRIAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			CHAGRIAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			CHAGRIAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			CHAGRIAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			CHAGRIAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			CHAGRIAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			CHAGRIAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			CHAGRIAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			CHAGRIAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			CHAGRIAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			CHAGRIAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			CHAGRIAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			CHAGRIAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			CHAGRIAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			CHAGRIAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			CHAGRIAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			CHAGRIAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			CHAGRIAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			CHAGRIAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			CHAGRIAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			CHAGRIAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			CHAGRIAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			CHAGRIAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			CHAGRIAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			CHAGRIAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			CHAGRIAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			CHAGRIAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			CHAGRIAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			CHAGRIAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			CHAGRIAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			CHAGRIAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			CHAGRIAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			CHAGRIAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			CHAGRIAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = CHAGRIAN_FLEET_defense_fleet_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = CHAGRIAN_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = CHAGRIAN_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = CHAGRIAN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = CHAGRIAN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = CHAGRIAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = CHAGRIAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = CHAGRIAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = CHAGRIAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				CHAGRIAN_ARMY_sarc_a__gladiators_ CHAGRIAN_ARMY_sarc_b__widowmakers_ CHAGRIAN_ARMY_sarc_c__immortals_ CHAGRIAN_ARMY_sarc_d__berserkers_ CHAGRIAN_ARMY_sarc_e__assassins_ CHAGRIAN_ARMY_sarc_f__reapers_ CHAGRIAN_ARMY_sarc_g__nighthawks_ CHAGRIAN_ARMY_sarc_h__desperados_ CHAGRIAN_ARMY_sarc_i__grey_knights_ CHAGRIAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = CHAGRIAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = CHAGRIAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = CHAGRIAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = CHAGRIAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = CHAGRIAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = CHAGRIAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = CHAGRIAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = CHAGRIAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = CHAGRIAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = CHAGRIAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = CHAGRIAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = CHAGRIAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = CHAGRIAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = CHAGRIAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = CHAGRIAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = CHAGRIAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = CHAGRIAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = CHAGRIAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = CHAGRIAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = CHAGRIAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = CHAGRIAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = CHAGRIAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = CHAGRIAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = CHAGRIAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = CHAGRIAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = CHAGRIAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = CHAGRIAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = CHAGRIAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = CHAGRIAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = CHAGRIAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = CHAGRIAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = CHAGRIAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = CHAGRIAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = CHAGRIAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = CHAGRIAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = CHAGRIAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = CHAGRIAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = CHAGRIAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = CHAGRIAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = CHAGRIAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = CHAGRIAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = CHAGRIAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = CHAGRIAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = CHAGRIAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = CHAGRIAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = CHAGRIAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = CHAGRIAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = CHAGRIAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = CHAGRIAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = CHAGRIAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = CHAGRIAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = CHAGRIAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = CHAGRIAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = CHAGRIAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = CHAGRIAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = CHAGRIAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = CHAGRIAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = CHAGRIAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = CHAGRIAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = CHAGRIAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = CHAGRIAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = CHAGRIAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = CHAGRIAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = CHAGRIAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = CHAGRIAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = CHAGRIAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = CHAGRIAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = CHAGRIAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = CHAGRIAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = CHAGRIAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = CHAGRIAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = CHAGRIAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = CHAGRIAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = CHAGRIAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = CHAGRIAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = CHAGRIAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = CHAGRIAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = CHAGRIAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = CHAGRIAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = CHAGRIAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = CHAGRIAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = CHAGRIAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = CHAGRIAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = CHAGRIAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = CHAGRIAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = CHAGRIAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = CHAGRIAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = CHAGRIAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = CHAGRIAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = CHAGRIAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = CHAGRIAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = CHAGRIAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = CHAGRIAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = CHAGRIAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = CHAGRIAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = CHAGRIAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = CHAGRIAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = CHAGRIAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = CHAGRIAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = CHAGRIAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = CHAGRIAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = CHAGRIAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = CHAGRIAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = CHAGRIAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = CHAGRIAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = CHAGRIAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = CHAGRIAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = CHAGRIAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = CHAGRIAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = CHAGRIAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = CHAGRIAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = CHAGRIAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = CHAGRIAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = CHAGRIAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = CHAGRIAN_ARMY_hapan_royal_guard_ORD
+		}
+		fortification_1 = {
+			sequential_name = CHAGRIAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = CHAGRIAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = CHAGRIAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = CHAGRIAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = CHAGRIAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = CHAGRIAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = CHAGRIAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = CHAGRIAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = CHAGRIAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = CHAGRIAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = CHAGRIAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = CHAGRIAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = CHAGRIAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = CHAGRIAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = CHAGRIAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = CHAGRIAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = CHAGRIAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				CHAGRIAN_CHR_ackrahbala CHAGRIAN_CHR_aram CHAGRIAN_CHR_chondrus CHAGRIAN_CHR_mas CHAGRIAN_CHR_kav CHAGRIAN_CHR_charko CHAGRIAN_CHR_barlo CHAGRIAN_CHR_burloo CHAGRIAN_CHR_briqui CHAGRIAN_CHR_fideltin CHAGRIAN_CHR_len CHAGRIAN_CHR_saar CHAGRIAN_CHR_morrun CHAGRIAN_CHR_sul CHAGRIAN_CHR_deniv CHAGRIAN_CHR_rosk CHAGRIAN_CHR_irr CHAGRIAN_CHR_gaar CHAGRIAN_CHR_laab CHAGRIAN_CHR_an CHAGRIAN_CHR_meddus CHAGRIAN_CHR_alnon CHAGRIAN_CHR_mal CHAGRIAN_CHR_man CHAGRIAN_CHR_s_rondrus CHAGRIAN_CHR_cheel CHAGRIAN_CHR_ohv CHAGRIAN_CHR_mirr CHAGRIAN_CHR_mors CHAGRIAN_CHR_sohro CHAGRIAN_CHR_fichom CHAGRIAN_CHR_oldon CHAGRIAN_CHR_arrun CHAGRIAN_CHR_morrultin CHAGRIAN_CHR_grevin CHAGRIAN_CHR_koll CHAGRIAN_CHR_laab CHAGRIAN_CHR_ebo CHAGRIAN_CHR_maav CHAGRIAN_CHR_dar CHAGRIAN_CHR_rodov CHAGRIAN_CHR_firoltin CHAGRIAN_CHR_achrusk CHAGRIAN_CHR_nansu CHAGRIAN_CHR_everis CHAGRIAN_CHR_gouge CHAGRIAN_CHR_seet CHAGRIAN_CHR_ahl CHAGRIAN_CHR_sahr CHAGRIAN_CHR_lovor CHAGRIAN_CHR_rall CHAGRIAN_CHR_arkensu CHAGRIAN_CHR_romo CHAGRIAN_CHR_alsal CHAGRIAN_CHR_dumerin CHAGRIAN_CHR_goh CHAGRIAN_CHR_harlal CHAGRIAN_CHR_seeb CHAGRIAN_CHR_soro CHAGRIAN_CHR_eban CHAGRIAN_CHR_chubo CHAGRIAN_CHR_nirro CHAGRIAN_CHR_maarl CHAGRIAN_CHR_dorn CHAGRIAN_CHR_mel CHAGRIAN_CHR_ogoll CHAGRIAN_CHR_redd CHAGRIAN_CHR_s_ran CHAGRIAN_CHR_nensu CHAGRIAN_CHR_karhei CHAGRIAN_CHR_jatta CHAGRIAN_CHR_rogun CHAGRIAN_CHR_orso CHAGRIAN_CHR_skav CHAGRIAN_CHR_musori CHAGRIAN_CHR_prashok CHAGRIAN_CHR_phrayan CHAGRIAN_CHR_gogh CHAGRIAN_CHR_quellon CHAGRIAN_CHR_refain CHAGRIAN_CHR_serrath CHAGRIAN_CHR_sulle CHAGRIAN_CHR_shohn_lowt CHAGRIAN_CHR_harmon CHAGRIAN_CHR_danison CHAGRIAN_CHR_gromm CHAGRIAN_CHR_wyyrlok
+			}
+			first_names_female = {
+				CHAGRIAN_CHR_masa CHAGRIAN_CHR_kava CHAGRIAN_CHR_charka CHAGRIAN_CHR_briqa CHAGRIAN_CHR_fideltia CHAGRIAN_CHR_lena CHAGRIAN_CHR_saarai CHAGRIAN_CHR_morra CHAGRIAN_CHR_sula CHAGRIAN_CHR_roska CHAGRIAN_CHR_irrek CHAGRIAN_CHR_gaarik CHAGRIAN_CHR_laaba CHAGRIAN_CHR_anok CHAGRIAN_CHR_medda CHAGRIAN_CHR_alna CHAGRIAN_CHR_mana CHAGRIAN_CHR_s_rondra CHAGRIAN_CHR_cheelya CHAGRIAN_CHR_ohva CHAGRIAN_CHR_mirroi CHAGRIAN_CHR_sohra CHAGRIAN_CHR_ficha CHAGRIAN_CHR_olda CHAGRIAN_CHR_arra CHAGRIAN_CHR_morrultina CHAGRIAN_CHR_laaba CHAGRIAN_CHR_ebik CHAGRIAN_CHR_maavek CHAGRIAN_CHR_darra CHAGRIAN_CHR_roda CHAGRIAN_CHR_firoltia CHAGRIAN_CHR_achruska CHAGRIAN_CHR_nansa CHAGRIAN_CHR_seeta CHAGRIAN_CHR_ahlya CHAGRIAN_CHR_sahrnok CHAGRIAN_CHR_lova CHAGRIAN_CHR_rala CHAGRIAN_CHR_arkena CHAGRIAN_CHR_romma CHAGRIAN_CHR_alsalia CHAGRIAN_CHR_seebik CHAGRIAN_CHR_sorok CHAGRIAN_CHR_ebai CHAGRIAN_CHR_chuba CHAGRIAN_CHR_nirroi CHAGRIAN_CHR_maara CHAGRIAN_CHR_dornai CHAGRIAN_CHR_mella CHAGRIAN_CHR_ogolla CHAGRIAN_CHR_redda CHAGRIAN_CHR_oora CHAGRIAN_CHR_muuta CHAGRIAN_CHR_sirrik CHAGRIAN_CHR_s_rana CHAGRIAN_CHR_nensa CHAGRIAN_CHR_karheia CHAGRIAN_CHR_jattya CHAGRIAN_CHR_roguna CHAGRIAN_CHR_orsa CHAGRIAN_CHR_skavja CHAGRIAN_CHR_musora CHAGRIAN_CHR_prashoka CHAGRIAN_CHR_phraya CHAGRIAN_CHR_gogha CHAGRIAN_CHR_quellona CHAGRIAN_CHR_refana CHAGRIAN_CHR_serratha CHAGRIAN_CHR_sulla CHAGRIAN_CHR_shohna CHAGRIAN_CHR_harmona CHAGRIAN_CHR_dania CHAGRIAN_CHR_gromma
+			}
+			second_names = {
+				CHAGRIAN_CHR_avaho CHAGRIAN_CHR_acheron CHAGRIAN_CHR_amedda CHAGRIAN_CHR_bayons CHAGRIAN_CHR_berani CHAGRIAN_CHR_coramma CHAGRIAN_CHR_rusk CHAGRIAN_CHR_missa CHAGRIAN_CHR_dokaas CHAGRIAN_CHR_dekkon CHAGRIAN_CHR_shiran CHAGRIAN_CHR_usempan CHAGRIAN_CHR_corsignis CHAGRIAN_CHR_ransan CHAGRIAN_CHR_drenn CHAGRIAN_CHR_vorrun CHAGRIAN_CHR_ackrabrarsa CHAGRIAN_CHR_dreetik CHAGRIAN_CHR_achansin CHAGRIAN_CHR_otran CHAGRIAN_CHR_atrenn CHAGRIAN_CHR_umansa CHAGRIAN_CHR_asheddan CHAGRIAN_CHR_acharhin CHAGRIAN_CHR_ackramala CHAGRIAN_CHR_lyaak CHAGRIAN_CHR_cerevaas CHAGRIAN_CHR_raatik CHAGRIAN_CHR_olyuutik CHAGRIAN_CHR_orohmissan CHAGRIAN_CHR_alemorsi CHAGRIAN_CHR_aniquan CHAGRIAN_CHR_oresorun CHAGRIAN_CHR_choosk CHAGRIAN_CHR_mayun CHAGRIAN_CHR_lyaas CHAGRIAN_CHR_vendei CHAGRIAN_CHR_onedrinoo CHAGRIAN_CHR_drero CHAGRIAN_CHR_acheras CHAGRIAN_CHR_misharsi CHAGRIAN_CHR_midi CHAGRIAN_CHR_menda CHAGRIAN_CHR_ezag CHAGRIAN_CHR_mordedda CHAGRIAN_CHR_onibamman CHAGRIAN_CHR_salla CHAGRIAN_CHR_rijalli CHAGRIAN_CHR_nanta CHAGRIAN_CHR_ackrachissa CHAGRIAN_CHR_edramma CHAGRIAN_CHR_rahmansa CHAGRIAN_CHR_plood CHAGRIAN_CHR_mora CHAGRIAN_CHR_jempas CHAGRIAN_CHR_demanna CHAGRIAN_CHR_droot CHAGRIAN_CHR_jovas CHAGRIAN_CHR_kaatik CHAGRIAN_CHR_kuum CHAGRIAN_CHR_matt_rik CHAGRIAN_CHR_meeto CHAGRIAN_CHR_pleetik CHAGRIAN_CHR_torvix CHAGRIAN_CHR_zian CHAGRIAN_CHR_varik CHAGRIAN_CHR_venn CHAGRIAN_CHR_gellandi CHAGRIAN_CHR_olyeg
+			}
+			regnal_first_names_male = {
+				CHAGRIAN_CHR_ackrahbala CHAGRIAN_CHR_aram CHAGRIAN_CHR_chondrus CHAGRIAN_CHR_mas CHAGRIAN_CHR_kav CHAGRIAN_CHR_charko CHAGRIAN_CHR_barlo CHAGRIAN_CHR_burloo CHAGRIAN_CHR_briqui CHAGRIAN_CHR_fideltin CHAGRIAN_CHR_len CHAGRIAN_CHR_saar CHAGRIAN_CHR_morrun CHAGRIAN_CHR_sul CHAGRIAN_CHR_deniv CHAGRIAN_CHR_rosk CHAGRIAN_CHR_irr CHAGRIAN_CHR_gaar CHAGRIAN_CHR_laab CHAGRIAN_CHR_an CHAGRIAN_CHR_meddus CHAGRIAN_CHR_alnon CHAGRIAN_CHR_mal CHAGRIAN_CHR_man CHAGRIAN_CHR_s_rondrus CHAGRIAN_CHR_cheel CHAGRIAN_CHR_ohv CHAGRIAN_CHR_mirr CHAGRIAN_CHR_mors CHAGRIAN_CHR_sohro CHAGRIAN_CHR_fichom CHAGRIAN_CHR_oldon CHAGRIAN_CHR_arrun CHAGRIAN_CHR_morrultin CHAGRIAN_CHR_grevin CHAGRIAN_CHR_koll CHAGRIAN_CHR_laab CHAGRIAN_CHR_ebo CHAGRIAN_CHR_maav CHAGRIAN_CHR_dar CHAGRIAN_CHR_rodov CHAGRIAN_CHR_firoltin CHAGRIAN_CHR_achrusk CHAGRIAN_CHR_nansu CHAGRIAN_CHR_everis CHAGRIAN_CHR_gouge CHAGRIAN_CHR_seet CHAGRIAN_CHR_ahl CHAGRIAN_CHR_sahr CHAGRIAN_CHR_lovor CHAGRIAN_CHR_rall CHAGRIAN_CHR_arkensu CHAGRIAN_CHR_romo CHAGRIAN_CHR_alsal CHAGRIAN_CHR_dumerin CHAGRIAN_CHR_goh CHAGRIAN_CHR_harlal CHAGRIAN_CHR_seeb CHAGRIAN_CHR_soro CHAGRIAN_CHR_eban CHAGRIAN_CHR_chubo CHAGRIAN_CHR_nirro CHAGRIAN_CHR_maarl CHAGRIAN_CHR_dorn CHAGRIAN_CHR_mel CHAGRIAN_CHR_ogoll CHAGRIAN_CHR_redd CHAGRIAN_CHR_s_ran CHAGRIAN_CHR_nensu CHAGRIAN_CHR_karhei CHAGRIAN_CHR_jatta CHAGRIAN_CHR_rogun CHAGRIAN_CHR_orso CHAGRIAN_CHR_skav CHAGRIAN_CHR_musori CHAGRIAN_CHR_prashok CHAGRIAN_CHR_phrayan CHAGRIAN_CHR_gogh CHAGRIAN_CHR_quellon CHAGRIAN_CHR_refain CHAGRIAN_CHR_serrath CHAGRIAN_CHR_sulle CHAGRIAN_CHR_shohn_lowt CHAGRIAN_CHR_harmon CHAGRIAN_CHR_danison CHAGRIAN_CHR_gromm CHAGRIAN_CHR_wyyrlok
+			}
+			regnal_first_names_female = {
+				CHAGRIAN_CHR_masa CHAGRIAN_CHR_kava CHAGRIAN_CHR_charka CHAGRIAN_CHR_briqa CHAGRIAN_CHR_fideltia CHAGRIAN_CHR_lena CHAGRIAN_CHR_saarai CHAGRIAN_CHR_morra CHAGRIAN_CHR_sula CHAGRIAN_CHR_roska CHAGRIAN_CHR_irrek CHAGRIAN_CHR_gaarik CHAGRIAN_CHR_laaba CHAGRIAN_CHR_anok CHAGRIAN_CHR_medda CHAGRIAN_CHR_alna CHAGRIAN_CHR_mana CHAGRIAN_CHR_s_rondra CHAGRIAN_CHR_cheelya CHAGRIAN_CHR_ohva CHAGRIAN_CHR_mirroi CHAGRIAN_CHR_sohra CHAGRIAN_CHR_ficha CHAGRIAN_CHR_olda CHAGRIAN_CHR_arra CHAGRIAN_CHR_morrultina CHAGRIAN_CHR_laaba CHAGRIAN_CHR_ebik CHAGRIAN_CHR_maavek CHAGRIAN_CHR_darra CHAGRIAN_CHR_roda CHAGRIAN_CHR_firoltia CHAGRIAN_CHR_achruska CHAGRIAN_CHR_nansa CHAGRIAN_CHR_seeta CHAGRIAN_CHR_ahlya CHAGRIAN_CHR_sahrnok CHAGRIAN_CHR_lova CHAGRIAN_CHR_rala CHAGRIAN_CHR_arkena CHAGRIAN_CHR_romma CHAGRIAN_CHR_alsalia CHAGRIAN_CHR_seebik CHAGRIAN_CHR_sorok CHAGRIAN_CHR_ebai CHAGRIAN_CHR_chuba CHAGRIAN_CHR_nirroi CHAGRIAN_CHR_maara CHAGRIAN_CHR_dornai CHAGRIAN_CHR_mella CHAGRIAN_CHR_ogolla CHAGRIAN_CHR_redda CHAGRIAN_CHR_oora CHAGRIAN_CHR_muuta CHAGRIAN_CHR_sirrik CHAGRIAN_CHR_s_rana CHAGRIAN_CHR_nensa CHAGRIAN_CHR_karheia CHAGRIAN_CHR_jattya CHAGRIAN_CHR_roguna CHAGRIAN_CHR_orsa CHAGRIAN_CHR_skavja CHAGRIAN_CHR_musora CHAGRIAN_CHR_prashoka CHAGRIAN_CHR_phraya CHAGRIAN_CHR_gogha CHAGRIAN_CHR_quellona CHAGRIAN_CHR_refana CHAGRIAN_CHR_serratha CHAGRIAN_CHR_sulla CHAGRIAN_CHR_shohna CHAGRIAN_CHR_harmona CHAGRIAN_CHR_dania CHAGRIAN_CHR_gromma
+			}
+			regnal_second_names = {
+				CHAGRIAN_CHR_avaho CHAGRIAN_CHR_acheron CHAGRIAN_CHR_amedda CHAGRIAN_CHR_bayons CHAGRIAN_CHR_berani CHAGRIAN_CHR_coramma CHAGRIAN_CHR_rusk CHAGRIAN_CHR_missa CHAGRIAN_CHR_dokaas CHAGRIAN_CHR_dekkon CHAGRIAN_CHR_shiran CHAGRIAN_CHR_usempan CHAGRIAN_CHR_corsignis CHAGRIAN_CHR_ransan CHAGRIAN_CHR_drenn CHAGRIAN_CHR_vorrun CHAGRIAN_CHR_ackrabrarsa CHAGRIAN_CHR_dreetik CHAGRIAN_CHR_achansin CHAGRIAN_CHR_otran CHAGRIAN_CHR_atrenn CHAGRIAN_CHR_umansa CHAGRIAN_CHR_asheddan CHAGRIAN_CHR_acharhin CHAGRIAN_CHR_ackramala CHAGRIAN_CHR_lyaak CHAGRIAN_CHR_cerevaas CHAGRIAN_CHR_raatik CHAGRIAN_CHR_olyuutik CHAGRIAN_CHR_orohmissan CHAGRIAN_CHR_alemorsi CHAGRIAN_CHR_aniquan CHAGRIAN_CHR_oresorun CHAGRIAN_CHR_choosk CHAGRIAN_CHR_mayun CHAGRIAN_CHR_lyaas CHAGRIAN_CHR_vendei CHAGRIAN_CHR_onedrinoo CHAGRIAN_CHR_drero CHAGRIAN_CHR_acheras CHAGRIAN_CHR_misharsi CHAGRIAN_CHR_midi CHAGRIAN_CHR_menda CHAGRIAN_CHR_ezag CHAGRIAN_CHR_mordedda CHAGRIAN_CHR_onibamman CHAGRIAN_CHR_salla CHAGRIAN_CHR_rijalli CHAGRIAN_CHR_nanta CHAGRIAN_CHR_ackrachissa CHAGRIAN_CHR_edramma CHAGRIAN_CHR_rahmansa CHAGRIAN_CHR_plood CHAGRIAN_CHR_mora CHAGRIAN_CHR_jempas CHAGRIAN_CHR_demanna CHAGRIAN_CHR_droot CHAGRIAN_CHR_jovas CHAGRIAN_CHR_kaatik CHAGRIAN_CHR_kuum CHAGRIAN_CHR_matt_rik CHAGRIAN_CHR_meeto CHAGRIAN_CHR_pleetik CHAGRIAN_CHR_torvix CHAGRIAN_CHR_zian CHAGRIAN_CHR_varik CHAGRIAN_CHR_venn CHAGRIAN_CHR_gellandi CHAGRIAN_CHR_olyeg
+			}
+		}
+	}
+}

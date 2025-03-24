@@ -1,0 +1,866 @@
+﻿Mandalorian = {
+	randomized = no
+	ship_names = {
+		generic = {
+			MANDALORIAN_SHIP_crusader MANDALORIAN_SHIP_razor_crest MANDALORIAN_SHIP_gratua MANDALORIAN_SHIP_parjai MANDALORIAN_SHIP_aay_han MANDALORIAN_SHIP_beroya MANDALORIAN_SHIP_beskad MANDALORIAN_SHIP_cornucopia MANDALORIAN_SHIP_coronet MANDALORIAN_SHIP_death_rattle MANDALORIAN_SHIP_first_blood MANDALORIAN_SHIP_free_mandalore MANDALORIAN_SHIP_gauntlet MANDALORIAN_SHIP_kom_rk MANDALORIAN_SHIP_shriek_hawk MANDALORIAN_SHIP_jaster_s_legacy MANDALORIAN_SHIP_discovery MANDALORIAN_SHIP_mar_eyce MANDALORIAN_SHIP_orar MANDALORIAN_SHIP_thunder MANDALORIAN_SHIP_victory MANDALORIAN_SHIP_spirit_of_vengeance MANDALORIAN_SHIP_victus MANDALORIAN_SHIP_word_of_thunder MANDALORIAN_SHIP_akaavi_spar MANDALORIAN_SHIP_a_den MANDALORIAN_SHIP_rage MANDALORIAN_SHIP_aranar MANDALORIAN_SHIP_atiniir MANDALORIAN_SHIP_brokar MANDALORIAN_SHIP_duraanir MANDALORIAN_SHIP_jurir MANDALORIAN_SHIP_jurkadir MANDALORIAN_SHIP_kar_taylir MANDALORIAN_SHIP_motir MANDALORIAN_SHIP_narir MANDALORIAN_SHIP_nynir MANDALORIAN_SHIP_oya MANDALORIAN_SHIP_adenn MANDALORIAN_SHIP_aaray MANDALORIAN_SHIP_abiik MANDALORIAN_SHIP_ad_ika MANDALORIAN_SHIP_akaan_ad MANDALORIAN_SHIP_arpat_akaan MANDALORIAN_SHIP_ad_bes_bavar MANDALORIAN_SHIP_ad_werda MANDALORIAN_SHIP_parjai_ad MANDALORIAN_SHIP_tor_ad MANDALORIAN_SHIP_tra_ad MANDALORIAN_SHIP_ad_haran MANDALORIAN_SHIP_haran_ad MANDALORIAN_SHIP_aaray_ad MANDALORIAN_SHIP_akaan MANDALORIAN_SHIP_akalenedat MANDALORIAN_SHIP_alii_gai MANDALORIAN_SHIP_aliik MANDALORIAN_SHIP_aliit MANDALORIAN_SHIP_ara_nov MANDALORIAN_SHIP_balac MANDALORIAN_SHIP_bes_bavar MANDALORIAN_SHIP_bes_bev MANDALORIAN_SHIP_be_senaar MANDALORIAN_SHIP_be_sol MANDALORIAN_SHIP_dha_ulik MANDALORIAN_SHIP_haran_ulik MANDALORIAN_SHIP_cuy_val_dar MANDALORIAN_SHIP_dar_buir MANDALORIAN_SHIP_dar_entye MANDALORIAN_SHIP_entye MANDALORIAN_SHIP_gra_tua MANDALORIAN_SHIP_haran_kad MANDALORIAN_SHIP_dha_kad MANDALORIAN_SHIP_cabur_kad MANDALORIAN_SHIP_akaan_kad MANDALORIAN_SHIP_aaray_kad MANDALORIAN_SHIP_akaan_ulik MANDALORIAN_SHIP_child_of_war MANDALORIAN_SHIP_hellchild MANDALORIAN_SHIP_warblade MANDALORIAN_SHIP_sword_of_war MANDALORIAN_SHIP_warbeast MANDALORIAN_SHIP_hellbeast MANDALORIAN_SHIP_saber_of_the_beast MANDALORIAN_SHIP_ka_rta MANDALORIAN_SHIP_kot_kal MANDALORIAN_SHIP_kote MANDALORIAN_SHIP_glory MANDALORIAN_SHIP_kot_tsad MANDALORIAN_SHIP_kote_tsad MANDALORIAN_SHIP_ne_ta_orar MANDALORIAN_SHIP_black_thunder MANDALORIAN_SHIP_ramikad MANDALORIAN_SHIP_commando MANDALORIAN_SHIP_ori_vod MANDALORIAN_SHIP_prudii MANDALORIAN_SHIP_shadow MANDALORIAN_SHIP_runi MANDALORIAN_SHIP_shereshoy MANDALORIAN_SHIP_crushgaunt MANDALORIAN_SHIP_shuk_orok MANDALORIAN_SHIP_tal_kad MANDALORIAN_SHIP_tal_ulik MANDALORIAN_SHIP_beast_of_blood MANDALORIAN_SHIP_justice MANDALORIAN_SHIP_daughter_of_fire MANDALORIAN_SHIP_tracinya MANDALORIAN_SHIP_ember MANDALORIAN_SHIP_inferno MANDALORIAN_SHIP_tracyn MANDALORIAN_SHIP_vencuyot MANDALORIAN_SHIP_verd MANDALORIAN_SHIP_warrior MANDALORIAN_SHIP_ba_slan MANDALORIAN_SHIP_strategic MANDALORIAN_SHIP_shev_la MANDALORIAN_SHIP_disappearance MANDALORIAN_SHIP_honor MANDALORIAN_SHIP_truth MANDALORIAN_SHIP_haat MANDALORIAN_SHIP_ijaa MANDALORIAN_SHIP_haiit MANDALORIAN_SHIP_vision MANDALORIAN_SHIP_k_oyacyi MANDALORIAN_SHIP_draar_digu MANDALORIAN_SHIP_kyramud MANDALORIAN_SHIP_skotah_iisa MANDALORIAN_SHIP_long_memory MANDALORIAN_SHIP_dralshy_a MANDALORIAN_SHIP_sheab_rud MANDALORIAN_SHIP_ori_jate MANDALORIAN_SHIP_all_truth MANDALORIAN_SHIP_resol_nare MANDALORIAN_SHIP_tenent MANDALORIAN_SHIP_just_in_case MANDALORIAN_SHIP_ret_lini MANDALORIAN_SHIP_warrior_of_the_shadow MANDALORIAN_SHIP_dha_werda_verda MANDALORIAN_SHIP_glory_of_the_zhell MANDALORIAN_SHIP_doom_of_ulmarah MANDALORIAN_SHIP_rexutu_the_unconquerable MANDALORIAN_SHIP_maker_s_unmaking MANDALORIAN_SHIP_ichor_of_zell MANDALORIAN_SHIP_reaver MANDALORIAN_SHIP_hand_of_the_taung MANDALORIAN_SHIP_kad_ha_rangir MANDALORIAN_SHIP_ash_of_the_taung MANDALORIAN_SHIP_noble_son MANDALORIAN_SHIP_first_son MANDALORIAN_SHIP_vengeance_burns MANDALORIAN_SHIP_gra_tua_cuun MANDALORIAN_SHIP_ka_rta_tor MANDALORIAN_SHIP_vode_an MANDALORIAN_SHIP_olhak MANDALORIAN_SHIP_destroyer MANDALORIAN_SHIP_shogun_vision MANDALORIAN_SHIP_vhonte_tervho MANDALORIAN_SHIP_mij_gilamar MANDALORIAN_SHIP_kal_skirata MANDALORIAN_SHIP_walon_vau MANDALORIAN_SHIP_striile MANDALORIAN_SHIP_lord_mirdalan MANDALORIAN_SHIP_rav_bralor MANDALORIAN_SHIP_kaddak MANDALORIAN_SHIP_wad_e_tay_haai MANDALORIAN_SHIP_huntress MANDALORIAN_SHIP_kyrimorut MANDALORIAN_SHIP_mythosaur MANDALORIAN_SHIP_signet MANDALORIAN_SHIP_mavrix_varad MANDALORIAN_SHIP_akaan_gaan MANDALORIAN_SHIP_warfinder MANDALORIAN_SHIP_akaanati_kar_oya MANDALORIAN_SHIP_seeker MANDALORIAN_SHIP_nite_owl MANDALORIAN_SHIP_centurion MANDALORIAN_SHIP_hydra MANDALORIAN_SHIP_vanguard MANDALORIAN_SHIP_rally_master MANDALORIAN_SHIP_circle_of_battle MANDALORIAN_SHIP_tears_of_the_thousand MANDALORIAN_SHIP_pathandr_fury MANDALORIAN_SHIP_canon_of_honor MANDALORIAN_SHIP_grand_champion MANDALORIAN_SHIP_great_hunt MANDALORIAN_SHIP_gai_bal_manda MANDALORIAN_SHIP_artus_lok MANDALORIAN_SHIP_iron_heart MANDALORIAN_SHIP_keldabe_kiss MANDALORIAN_SHIP_ka_ra MANDALORIAN_SHIP_ceremonial_death MANDALORIAN_SHIP_vambrace MANDALORIAN_SHIP_rising_phoenix MANDALORIAN_SHIP_return MANDALORIAN_SHIP_protector MANDALORIAN_SHIP_blood_duel MANDALORIAN_SHIP_hod_ha_ran MANDALORIAN_SHIP_trickster MANDALORIAN_SHIP_annihilation MANDALORIAN_SHIP_dral_han MANDALORIAN_SHIP_faithful MANDALORIAN_SHIP_sundari MANDALORIAN_SHIP_keldabe MANDALORIAN_SHIP_marauder MANDALORIAN_SHIP_blademaster MANDALORIAN_SHIP_whistling_bird MANDALORIAN_SHIP_bevii_ragir MANDALORIAN_SHIP_rangehunter MANDALORIAN_SHIP_verd_goten MANDALORIAN_SHIP_kelita MANDALORIAN_SHIP_olankur MANDALORIAN_SHIP_oyu_baat MANDALORIAN_SHIP_tokursh MANDALORIAN_SHIP_tarre_vizsla MANDALORIAN_SHIP_taylir MANDALORIAN_SHIP_preserver MANDALORIAN_SHIP_hammerborn MANDALORIAN_SHIP_conqueror MANDALORIAN_SHIP_avenger MANDALORIAN_SHIP_binder MANDALORIAN_SHIP_indomitable MANDALORIAN_SHIP_vindicator MANDALORIAN_SHIP_canderous MANDALORIAN_SHIP_aga_awaud MANDALORIAN_SHIP_shae_vizla MANDALORIAN_SHIP_ranah_teh_naast MANDALORIAN_SHIP_te_sol_yc MANDALORIAN_SHIP_te_ani_la MANDALORIAN_SHIP_father_of_shadows MANDALORIAN_SHIP_awaud_s_honor MANDALORIAN_SHIP_blade_of_beroya MANDALORIAN_SHIP_hammer_of_beviin MANDALORIAN_SHIP_shield_of_bralor MANDALORIAN_SHIP_song_of_cadera MANDALORIAN_SHIP_hymn_of_war MANDALORIAN_SHIP_chorn_s_pride MANDALORIAN_SHIP_thorn_of_deshra MANDALORIAN_SHIP_detta_s_wrath MANDALORIAN_SHIP_farr_sight MANDALORIAN_SHIP_dirge_of_the_fett MANDALORIAN_SHIP_cassus MANDALORIAN_SHIP_echo_of_malachor MANDALORIAN_SHIP_jaster_mereel MANDALORIAN_SHIP_journeyman MANDALORIAN_SHIP_true_heir MANDALORIAN_SHIP_gedyc_s_edge MANDALORIAN_SHIP_mantle_of_itera MANDALORIAN_SHIP_strength_of_jeban MANDALORIAN_SHIP_jendri_strike MANDALORIAN_SHIP_eye_of_jennis MANDALORIAN_SHIP_kelborn MANDALORIAN_SHIP_keldau MANDALORIAN_SHIP_kryze MANDALORIAN_SHIP_pledge_of_lok MANDALORIAN_SHIP_lonestar MANDALORIAN_SHIP_ordo_star MANDALORIAN_SHIP_right_of_rodarch MANDALORIAN_SHIP_rook MANDALORIAN_SHIP_saxon_s_sabre MANDALORIAN_SHIP_fist_of_sharratt MANDALORIAN_SHIP_skirata MANDALORIAN_SHIP_flame_of_cornell MANDALORIAN_SHIP_tenau_s_command MANDALORIAN_SHIP_heart_of_varad MANDALORIAN_SHIP_vizsla_invictus MANDALORIAN_SHIP_vevut_oath MANDALORIAN_SHIP_wren_s_wrath MANDALORIAN_SHIP_champion MANDALORIAN_SHIP_void_watcher MANDALORIAN_SHIP_guardian MANDALORIAN_SHIP_safeguard MANDALORIAN_SHIP_excision_s_due MANDALORIAN_SHIP_warlord MANDALORIAN_SHIP_on_glory_s_road MANDALORIAN_SHIP_galaar MANDALORIAN_SHIP_shatual MANDALORIAN_SHIP_stathas MANDALORIAN_SHIP_vhe_viin MANDALORIAN_SHIP_conflagration MANDALORIAN_SHIP_firestorm MANDALORIAN_SHIP_blazing_spear MANDALORIAN_SHIP_huntmaster MANDALORIAN_SHIP_indigo MANDALORIAN_SHIP_ash_ad MANDALORIAN_SHIP_tur_mukan MANDALORIAN_SHIP_kad_ika MANDALORIAN_SHIP_mavrix MANDALORIAN_SHIP_tarre MANDALORIAN_SHIP_tal_galar
+		}
+		science = {
+			MANDALORIAN_SHIP_hibirar MANDALORIAN_SHIP_jorhaa_ir MANDALORIAN_SHIP_nau_ur MANDALORIAN_SHIP_burc_ya MANDALORIAN_SHIP_mar_eyce MANDALORIAN_SHIP_mirshe MANDALORIAN_SHIP_ijaa MANDALORIAN_SHIP_munit_tome_tayl MANDALORIAN_SHIP_dadita MANDALORIAN_SHIP_ka_ra MANDALORIAN_SHIP_troan
+		}
+		colonizer = {
+			MANDALORIAN_SHIP_foundling MANDALORIAN_SHIP_mando_ad MANDALORIAN_SHIP_agol MANDALORIAN_SHIP_anade_ad MANDALORIAN_SHIP_arpat_concord MANDALORIAN_SHIP_mando_a_arpat MANDALORIAN_SHIP_balac MANDALORIAN_SHIP_be_sol MANDALORIAN_SHIP_birikad MANDALORIAN_SHIP_buir MANDALORIAN_SHIP_runi_ad
+		}
+		sponsored_colonizer = {
+			MANDALORIAN_SHIP_foundling MANDALORIAN_SHIP_mando_ad MANDALORIAN_SHIP_agol MANDALORIAN_SHIP_anade_ad MANDALORIAN_SHIP_arpat_concord MANDALORIAN_SHIP_mando_a_arpat MANDALORIAN_SHIP_balac MANDALORIAN_SHIP_be_sol MANDALORIAN_SHIP_birikad MANDALORIAN_SHIP_buir MANDALORIAN_SHIP_runi_ad
+		}
+		constructor = {
+			MANDALORIAN_SHIP_jorso_ran MANDALORIAN_SHIP_kad MANDALORIAN_SHIP_udesii MANDALORIAN_SHIP_neral MANDALORIAN_SHIP_ba_vodu MANDALORIAN_SHIP_vhett MANDALORIAN_SHIP_pakod_ad MANDALORIAN_SHIP_jatne MANDALORIAN_SHIP_bantov
+		}
+		transport = {
+			MANDALORIAN_SHIP_mandalorian_dropship
+		}
+		military_station_golan1 = {
+			MANDALORIAN_SHIP_spacegun_victory MANDALORIAN_SHIP_spacegun_success MANDALORIAN_SHIP_spacegun_supremacy MANDALORIAN_SHIP_spacegun_superior MANDALORIAN_SHIP_spacegun_adventure MANDALORIAN_SHIP_spacegun_ascendancy MANDALORIAN_SHIP_spacegun_paramount MANDALORIAN_SHIP_spacegun_preponderous MANDALORIAN_SHIP_spacegun_exemplary MANDALORIAN_SHIP_spacegun_eximious MANDALORIAN_SHIP_spacegun_pertinacity MANDALORIAN_SHIP_spacegun_acclaim MANDALORIAN_SHIP_spacegun_honor MANDALORIAN_SHIP_spacegun_renown MANDALORIAN_SHIP_spacegun_glory MANDALORIAN_SHIP_spacegun_superb MANDALORIAN_SHIP_spacegun_magnificence MANDALORIAN_SHIP_spacegun_majestic MANDALORIAN_SHIP_spacegun_splendor MANDALORIAN_SHIP_spacegun_paradigm MANDALORIAN_SHIP_spacegun_flawless MANDALORIAN_SHIP_spacegun_consummate MANDALORIAN_SHIP_spacegun_merit MANDALORIAN_SHIP_spacegun_perfection MANDALORIAN_SHIP_spacegun_virtue MANDALORIAN_SHIP_spacegun_advantage MANDALORIAN_SHIP_spacegun_rectitude MANDALORIAN_SHIP_spacegun_incorruptible MANDALORIAN_SHIP_spacegun_integrity MANDALORIAN_SHIP_spacegun_justice MANDALORIAN_SHIP_spacegun_probity MANDALORIAN_SHIP_spacegun_prudence MANDALORIAN_SHIP_spacegun_purity MANDALORIAN_SHIP_spacegun_resolute MANDALORIAN_SHIP_spacegun_dignity MANDALORIAN_SHIP_spacegun_distinction MANDALORIAN_SHIP_spacegun_excellence MANDALORIAN_SHIP_spacegun_faithful MANDALORIAN_SHIP_spacegun_discipline MANDALORIAN_SHIP_spacegun_steadfast MANDALORIAN_SHIP_spacegun_recompense MANDALORIAN_SHIP_spacegun_requiem MANDALORIAN_SHIP_spacegun_courage MANDALORIAN_SHIP_spacegun_valor MANDALORIAN_SHIP_spacegun_gallant MANDALORIAN_SHIP_spacegun_daring MANDALORIAN_SHIP_spacegun_constancy MANDALORIAN_SHIP_spacegun_perseverence MANDALORIAN_SHIP_spacegun_tenacity MANDALORIAN_SHIP_spacegun_sedulity MANDALORIAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			MANDALORIAN_SHIP_spacegun_victory MANDALORIAN_SHIP_spacegun_success MANDALORIAN_SHIP_spacegun_supremacy MANDALORIAN_SHIP_spacegun_superior MANDALORIAN_SHIP_spacegun_adventure MANDALORIAN_SHIP_spacegun_ascendancy MANDALORIAN_SHIP_spacegun_paramount MANDALORIAN_SHIP_spacegun_preponderous MANDALORIAN_SHIP_spacegun_exemplary MANDALORIAN_SHIP_spacegun_eximious MANDALORIAN_SHIP_spacegun_pertinacity MANDALORIAN_SHIP_spacegun_acclaim MANDALORIAN_SHIP_spacegun_honor MANDALORIAN_SHIP_spacegun_renown MANDALORIAN_SHIP_spacegun_glory MANDALORIAN_SHIP_spacegun_superb MANDALORIAN_SHIP_spacegun_magnificence MANDALORIAN_SHIP_spacegun_majestic MANDALORIAN_SHIP_spacegun_splendor MANDALORIAN_SHIP_spacegun_paradigm MANDALORIAN_SHIP_spacegun_flawless MANDALORIAN_SHIP_spacegun_consummate MANDALORIAN_SHIP_spacegun_merit MANDALORIAN_SHIP_spacegun_perfection MANDALORIAN_SHIP_spacegun_virtue MANDALORIAN_SHIP_spacegun_advantage MANDALORIAN_SHIP_spacegun_rectitude MANDALORIAN_SHIP_spacegun_incorruptible MANDALORIAN_SHIP_spacegun_integrity MANDALORIAN_SHIP_spacegun_justice MANDALORIAN_SHIP_spacegun_probity MANDALORIAN_SHIP_spacegun_prudence MANDALORIAN_SHIP_spacegun_purity MANDALORIAN_SHIP_spacegun_resolute MANDALORIAN_SHIP_spacegun_dignity MANDALORIAN_SHIP_spacegun_distinction MANDALORIAN_SHIP_spacegun_excellence MANDALORIAN_SHIP_spacegun_faithful MANDALORIAN_SHIP_spacegun_discipline MANDALORIAN_SHIP_spacegun_steadfast MANDALORIAN_SHIP_spacegun_recompense MANDALORIAN_SHIP_spacegun_requiem MANDALORIAN_SHIP_spacegun_courage MANDALORIAN_SHIP_spacegun_valor MANDALORIAN_SHIP_spacegun_gallant MANDALORIAN_SHIP_spacegun_daring MANDALORIAN_SHIP_spacegun_constancy MANDALORIAN_SHIP_spacegun_perseverence MANDALORIAN_SHIP_spacegun_tenacity MANDALORIAN_SHIP_spacegun_sedulity MANDALORIAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			MANDALORIAN_SHIP_spacegun_victory MANDALORIAN_SHIP_spacegun_success MANDALORIAN_SHIP_spacegun_supremacy MANDALORIAN_SHIP_spacegun_superior MANDALORIAN_SHIP_spacegun_adventure MANDALORIAN_SHIP_spacegun_ascendancy MANDALORIAN_SHIP_spacegun_paramount MANDALORIAN_SHIP_spacegun_preponderous MANDALORIAN_SHIP_spacegun_exemplary MANDALORIAN_SHIP_spacegun_eximious MANDALORIAN_SHIP_spacegun_pertinacity MANDALORIAN_SHIP_spacegun_acclaim MANDALORIAN_SHIP_spacegun_honor MANDALORIAN_SHIP_spacegun_renown MANDALORIAN_SHIP_spacegun_glory MANDALORIAN_SHIP_spacegun_superb MANDALORIAN_SHIP_spacegun_magnificence MANDALORIAN_SHIP_spacegun_majestic MANDALORIAN_SHIP_spacegun_splendor MANDALORIAN_SHIP_spacegun_paradigm MANDALORIAN_SHIP_spacegun_flawless MANDALORIAN_SHIP_spacegun_consummate MANDALORIAN_SHIP_spacegun_merit MANDALORIAN_SHIP_spacegun_perfection MANDALORIAN_SHIP_spacegun_virtue MANDALORIAN_SHIP_spacegun_advantage MANDALORIAN_SHIP_spacegun_rectitude MANDALORIAN_SHIP_spacegun_incorruptible MANDALORIAN_SHIP_spacegun_integrity MANDALORIAN_SHIP_spacegun_justice MANDALORIAN_SHIP_spacegun_probity MANDALORIAN_SHIP_spacegun_prudence MANDALORIAN_SHIP_spacegun_purity MANDALORIAN_SHIP_spacegun_resolute MANDALORIAN_SHIP_spacegun_dignity MANDALORIAN_SHIP_spacegun_distinction MANDALORIAN_SHIP_spacegun_excellence MANDALORIAN_SHIP_spacegun_faithful MANDALORIAN_SHIP_spacegun_discipline MANDALORIAN_SHIP_spacegun_steadfast MANDALORIAN_SHIP_spacegun_recompense MANDALORIAN_SHIP_spacegun_requiem MANDALORIAN_SHIP_spacegun_courage MANDALORIAN_SHIP_spacegun_valor MANDALORIAN_SHIP_spacegun_gallant MANDALORIAN_SHIP_spacegun_daring MANDALORIAN_SHIP_spacegun_constancy MANDALORIAN_SHIP_spacegun_perseverence MANDALORIAN_SHIP_spacegun_tenacity MANDALORIAN_SHIP_spacegun_sedulity MANDALORIAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			MANDALORIAN_SHIP_citadel MANDALORIAN_SHIP_albacore MANDALORIAN_SHIP_gateway MANDALORIAN_SHIP_vincent MANDALORIAN_SHIP_babylon MANDALORIAN_SHIP_caernavon MANDALORIAN_SHIP_acre MANDALORIAN_SHIP_pembroke MANDALORIAN_SHIP_acheron MANDALORIAN_SHIP_spithead MANDALORIAN_SHIP_halifax MANDALORIAN_SHIP_victoria MANDALORIAN_SHIP_chatham MANDALORIAN_SHIP_anchorage MANDALORIAN_SHIP_scapa_flow MANDALORIAN_SHIP_hampton_roads MANDALORIAN_SHIP_brooklyn MANDALORIAN_SHIP_norfolk MANDALORIAN_SHIP_newport MANDALORIAN_SHIP_guam MANDALORIAN_SHIP_pensacola MANDALORIAN_SHIP_vesuvius MANDALORIAN_SHIP_mckinley MANDALORIAN_SHIP_everest MANDALORIAN_SHIP_kilimanjaro MANDALORIAN_SHIP_aconcagua MANDALORIAN_SHIP_elbrus MANDALORIAN_SHIP_st__helens MANDALORIAN_SHIP_fuji MANDALORIAN_SHIP_olympus MANDALORIAN_SHIP_sinai MANDALORIAN_SHIP_ambrose MANDALORIAN_SHIP_bermuda MANDALORIAN_SHIP_farpoint MANDALORIAN_SHIP_blue_star MANDALORIAN_SHIP_olympus_mons MANDALORIAN_SHIP_tharsis MANDALORIAN_SHIP_syrtis MANDALORIAN_SHIP_blackham MANDALORIAN_SHIP_fletcher MANDALORIAN_SHIP_perry MANDALORIAN_SHIP_butakov MANDALORIAN_SHIP_morris MANDALORIAN_SHIP_moorsom MANDALORIAN_SHIP_hart MANDALORIAN_SHIP_hargood MANDALORIAN_SHIP_spruance MANDALORIAN_SHIP_tanaka MANDALORIAN_SHIP_halsey MANDALORIAN_SHIP_turner MANDALORIAN_SHIP_doria MANDALORIAN_SHIP_tirpitz MANDALORIAN_SHIP_cunningham MANDALORIAN_SHIP_jellicoe MANDALORIAN_SHIP_hipper MANDALORIAN_SHIP_beatty MANDALORIAN_SHIP_potemkin MANDALORIAN_SHIP_durham MANDALORIAN_SHIP_codrington MANDALORIAN_SHIP_milne MANDALORIAN_SHIP_laforey MANDALORIAN_SHIP_tyler MANDALORIAN_SHIP_hawke MANDALORIAN_SHIP_yonai MANDALORIAN_SHIP_pound MANDALORIAN_SHIP_king MANDALORIAN_SHIP_crutchley MANDALORIAN_SHIP_mountbatten MANDALORIAN_SHIP_kountouriotis MANDALORIAN_SHIP_kuznetsov MANDALORIAN_SHIP_essen MANDALORIAN_SHIP_kornilov MANDALORIAN_SHIP_suffren MANDALORIAN_SHIP_treville MANDALORIAN_SHIP_villeneuve MANDALORIAN_SHIP_grasse MANDALORIAN_SHIP_byng MANDALORIAN_SHIP_lezo
+		}
+		ion_cannon = {
+			MANDALORIAN_SHIP_bombard MANDALORIAN_SHIP_ballista MANDALORIAN_SHIP_catapult MANDALORIAN_SHIP_harpoon MANDALORIAN_SHIP_polybolos MANDALORIAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			MANDALORIAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			MANDALORIAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			MANDALORIAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			MANDALORIAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			MANDALORIAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			MANDALORIAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			MANDALORIAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			MANDALORIAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			MANDALORIAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			MANDALORIAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			MANDALORIAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			MANDALORIAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			MANDALORIAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			MANDALORIAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			MANDALORIAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			MANDALORIAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			MANDALORIAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			MANDALORIAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			MANDALORIAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			MANDALORIAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			MANDALORIAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			MANDALORIAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			MANDALORIAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			MANDALORIAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			MANDALORIAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			MANDALORIAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			MANDALORIAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			MANDALORIAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			MANDALORIAN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			MANDALORIAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			MANDALORIAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			MANDALORIAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			MANDALORIAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			MANDALORIAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			MANDALORIAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			MANDALORIAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			MANDALORIAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			MANDALORIAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			MANDALORIAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			MANDALORIAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			MANDALORIAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			MANDALORIAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			MANDALORIAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			MANDALORIAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			MANDALORIAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			MANDALORIAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			MANDALORIAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			MANDALORIAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			MANDALORIAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			MANDALORIAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			MANDALORIAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			MANDALORIAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			MANDALORIAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			MANDALORIAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			MANDALORIAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			MANDALORIAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			MANDALORIAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			MANDALORIAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			MANDALORIAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			MANDALORIAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			MANDALORIAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			MANDALORIAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			MANDALORIAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			MANDALORIAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			MANDALORIAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			MANDALORIAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			MANDALORIAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			MANDALORIAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			MANDALORIAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			MANDALORIAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			MANDALORIAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			MANDALORIAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			MANDALORIAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			MANDALORIAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			MANDALORIAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			MANDALORIAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			MANDALORIAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			MANDALORIAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			MANDALORIAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			MANDALORIAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			MANDALORIAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			MANDALORIAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			MANDALORIAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			MANDALORIAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			MANDALORIAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			MANDALORIAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			MANDALORIAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			MANDALORIAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			MANDALORIAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			MANDALORIAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			MANDALORIAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			MANDALORIAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			MANDALORIAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			MANDALORIAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		random_names = {
+			MANDALORIAN_FLEET_warfleet_ultimate MANDALORIAN_FLEET_warfleet_indomitable MANDALORIAN_FLEET_warfleet_vindicated MANDALORIAN_FLEET_warfleet_avenger MANDALORIAN_FLEET_warfleet_destroyer MANDALORIAN_FLEET_warfleet_resurrector MANDALORIAN_FLEET_warfleet_preserver MANDALORIAN_FLEET_warfleet_conqueror MANDALORIAN_FLEET_warfleet_binder
+		}
+		sequential_name = MANDALORIAN_FLEET_battlegroup_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = MANDALORIAN_ARMY_commando_guard_ORD
+		}
+		assault_army = {
+			sequential_name = MANDALORIAN_ARMY_crusader_force_ORD
+		}
+		slave_army = {
+			sequential_name = MANDALORIAN_ARMY_conscripted_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = MANDALORIAN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = MANDALORIAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = MANDALORIAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = MANDALORIAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = MANDALORIAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				MANDALORIAN_ARMY_sarc_a__gladiators_ MANDALORIAN_ARMY_sarc_b__widowmakers_ MANDALORIAN_ARMY_sarc_c__immortals_ MANDALORIAN_ARMY_sarc_d__berserkers_ MANDALORIAN_ARMY_sarc_e__assassins_ MANDALORIAN_ARMY_sarc_f__reapers_ MANDALORIAN_ARMY_sarc_g__nighthawks_ MANDALORIAN_ARMY_sarc_h__desperados_ MANDALORIAN_ARMY_sarc_i__grey_knights_ MANDALORIAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = MANDALORIAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = MANDALORIAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = MANDALORIAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = MANDALORIAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = MANDALORIAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = MANDALORIAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = MANDALORIAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = MANDALORIAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = MANDALORIAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = MANDALORIAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = MANDALORIAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = MANDALORIAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = MANDALORIAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = MANDALORIAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = MANDALORIAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = MANDALORIAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = MANDALORIAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = MANDALORIAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = MANDALORIAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = MANDALORIAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = MANDALORIAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = MANDALORIAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = MANDALORIAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = MANDALORIAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = MANDALORIAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = MANDALORIAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = MANDALORIAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = MANDALORIAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = MANDALORIAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = MANDALORIAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = MANDALORIAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = MANDALORIAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = MANDALORIAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = MANDALORIAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = MANDALORIAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = MANDALORIAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = MANDALORIAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = MANDALORIAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = MANDALORIAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = MANDALORIAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = MANDALORIAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = MANDALORIAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = MANDALORIAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = MANDALORIAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = MANDALORIAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = MANDALORIAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = MANDALORIAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = MANDALORIAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = MANDALORIAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = MANDALORIAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = MANDALORIAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = MANDALORIAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = MANDALORIAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = MANDALORIAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = MANDALORIAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = MANDALORIAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = MANDALORIAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = MANDALORIAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = MANDALORIAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = MANDALORIAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = MANDALORIAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = MANDALORIAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = MANDALORIAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = MANDALORIAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = MANDALORIAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = MANDALORIAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = MANDALORIAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = MANDALORIAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = MANDALORIAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = MANDALORIAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = MANDALORIAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = MANDALORIAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = MANDALORIAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = MANDALORIAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = MANDALORIAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = MANDALORIAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = MANDALORIAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = MANDALORIAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = MANDALORIAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = MANDALORIAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = MANDALORIAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = MANDALORIAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = MANDALORIAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = MANDALORIAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = MANDALORIAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = MANDALORIAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = MANDALORIAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = MANDALORIAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = MANDALORIAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = MANDALORIAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = MANDALORIAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = MANDALORIAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = MANDALORIAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = MANDALORIAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = MANDALORIAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = MANDALORIAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = MANDALORIAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = MANDALORIAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = MANDALORIAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = MANDALORIAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = MANDALORIAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = MANDALORIAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = MANDALORIAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = MANDALORIAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = MANDALORIAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = MANDALORIAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = MANDALORIAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = MANDALORIAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = MANDALORIAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = MANDALORIAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = MANDALORIAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = MANDALORIAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = MANDALORIAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = MANDALORIAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = MANDALORIAN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = MANDALORIAN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = MANDALORIAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = MANDALORIAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = MANDALORIAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = MANDALORIAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = MANDALORIAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = MANDALORIAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = MANDALORIAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = MANDALORIAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = MANDALORIAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = MANDALORIAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = MANDALORIAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = MANDALORIAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = MANDALORIAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = MANDALORIAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = MANDALORIAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = MANDALORIAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = MANDALORIAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		names1 = {
+			weight = 20
+			first_names_male = {
+				MANDALORIAN_CHR_ghes MANDALORIAN_CHR_din MANDALORIAN_CHR_jaster MANDALORIAN_CHR_kal MANDALORIAN_CHR_pre MANDALORIAN_CHR_cassus MANDALORIAN_CHR_tal MANDALORIAN_CHR_tor MANDALORIAN_CHR_dred MANDALORIAN_CHR_fen MANDALORIAN_CHR_fenn MANDALORIAN_CHR_artus MANDALORIAN_CHR_jagger MANDALORIAN_CHR_tiber MANDALORIAN_CHR_a_den MANDALORIAN_CHR_jaing MANDALORIAN_CHR_atin MANDALORIAN_CHR_darman MANDALORIAN_CHR_silas MANDALORIAN_CHR_walon
+			}
+			first_names_female = {
+				MANDALORIAN_CHR_mirta MANDALORIAN_CHR_arla MANDALORIAN_CHR_mira MANDALORIAN_CHR_ailyn MANDALORIAN_CHR_sintas MANDALORIAN_CHR_shyla MANDALORIAN_CHR_sasha MANDALORIAN_CHR_shae MANDALORIAN_CHR_sabine MANDALORIAN_CHR_ursa
+			}
+			second_names = {
+				MANDALORIAN_CHR_fett MANDALORIAN_CHR_ordo MANDALORIAN_CHR_kryze MANDALORIAN_CHR_saxon MANDALORIAN_CHR_skirata MANDALORIAN_CHR_vizsla MANDALORIAN_CHR_wren MANDALORIAN_CHR_priest MANDALORIAN_CHR_vau MANDALORIAN_CHR_djarin
+			}
+			regnal_first_names_male = {
+				MANDALORIAN_CHR_ghes MANDALORIAN_CHR_din MANDALORIAN_CHR_jaster MANDALORIAN_CHR_kal MANDALORIAN_CHR_pre MANDALORIAN_CHR_cassus MANDALORIAN_CHR_tal MANDALORIAN_CHR_tor MANDALORIAN_CHR_dred MANDALORIAN_CHR_fen MANDALORIAN_CHR_fenn MANDALORIAN_CHR_artus MANDALORIAN_CHR_jagger MANDALORIAN_CHR_tiber MANDALORIAN_CHR_a_den MANDALORIAN_CHR_jaing MANDALORIAN_CHR_atin MANDALORIAN_CHR_darman MANDALORIAN_CHR_silas MANDALORIAN_CHR_walon
+			}
+			regnal_first_names_female = {
+				MANDALORIAN_CHR_mirta MANDALORIAN_CHR_arla MANDALORIAN_CHR_mira MANDALORIAN_CHR_ailyn MANDALORIAN_CHR_sintas MANDALORIAN_CHR_shyla MANDALORIAN_CHR_sasha MANDALORIAN_CHR_shae MANDALORIAN_CHR_sabine MANDALORIAN_CHR_ursa
+			}
+			regnal_second_names = {
+				MANDALORIAN_CHR_fett MANDALORIAN_CHR_ordo MANDALORIAN_CHR_kryze MANDALORIAN_CHR_saxon MANDALORIAN_CHR_skirata MANDALORIAN_CHR_vizsla MANDALORIAN_CHR_wren MANDALORIAN_CHR_priest MANDALORIAN_CHR_vau MANDALORIAN_CHR_djarin
+			}
+		}
+		names2 = {
+			weight = 10
+			first_names_male = {
+				MANDALORIAN_CHR_jango MANDALORIAN_CHR_boba MANDALORIAN_CHR_canderous MANDALORIAN_CHR_montross MANDALORIAN_CHR_ijaat MANDALORIAN_CHR_ilippi MANDALORIAN_CHR_jagi MANDALORIAN_CHR_adiik MANDALORIAN_CHR_akero MANDALORIAN_CHR_b_arin MANDALORIAN_CHR_randun MANDALORIAN_CHR_barduun MANDALORIAN_CHR_berardesco MANDALORIAN_CHR_jos MANDALORIAN_CHR_nam MANDALORIAN_CHR_tarro MANDALORIAN_CHR_braum MANDALORIAN_CHR_branger MANDALORIAN_CHR_brank MANDALORIAN_CHR_briike MANDALORIAN_CHR_deron MANDALORIAN_CHR_baltan MANDALORIAN_CHR_breyer MANDALORIAN_CHR_cikartan MANDALORIAN_CHR_fen MANDALORIAN_CHR_lux MANDALORIAN_CHR_gar MANDALORIAN_CHR_fenri MANDALORIAN_CHR_ikito MANDALORIAN_CHR_mord MANDALORIAN_CHR_kellov MANDALORIAN_CHR_meltch MANDALORIAN_CHR_kro MANDALORIAN_CHR_melkket MANDALORIAN_CHR_ralnar MANDALORIAN_CHR_hudu MANDALORIAN_CHR_vherr MANDALORIAN_CHR_dorrick MANDALORIAN_CHR_monta MANDALORIAN_CHR_roggar MANDALORIAN_CHR_eirik MANDALORIAN_CHR_yenko MANDALORIAN_CHR_deagan MANDALORIAN_CHR_janx MANDALORIAN_CHR_eskol MANDALORIAN_CHR_genter MANDALORIAN_CHR_gezda MANDALORIAN_CHR_duran MANDALORIAN_CHR_galron MANDALORIAN_CHR_geden MANDALORIAN_CHR_mij MANDALORIAN_CHR_graad MANDALORIAN_CHR_hark MANDALORIAN_CHR_redok MANDALORIAN_CHR_hashar MANDALORIAN_CHR_hayar MANDALORIAN_CHR_ghez MANDALORIAN_CHR_jun MANDALORIAN_CHR_jaing MANDALORIAN_CHR_jakal MANDALORIAN_CHR_janard MANDALORIAN_CHR_jarkyc MANDALORIAN_CHR_johun MANDALORIAN_CHR_joram MANDALORIAN_CHR_bardan MANDALORIAN_CHR_kad MANDALORIAN_CHR_hondo MANDALORIAN_CHR_novin MANDALORIAN_CHR_sedyn MANDALORIAN_CHR_vaor MANDALORIAN_CHR_vol MANDALORIAN_CHR_valen MANDALORIAN_CHR_deth MANDALORIAN_CHR_jindo MANDALORIAN_CHR_kyrenic MANDALORIAN_CHR_lek MANDALORIAN_CHR_lem_ofars MANDALORIAN_CHR_levet MANDALORIAN_CHR_droga MANDALORIAN_CHR_bosann MANDALORIAN_CHR_gorse MANDALORIAN_CHR_garon MANDALORIAN_CHR_bralor MANDALORIAN_CHR_zayne MANDALORIAN_CHR_davrel MANDALORIAN_CHR_demagol MANDALORIAN_CHR_ergeron MANDALORIAN_CHR_esok MANDALORIAN_CHR_dhagon MANDALORIAN_CHR_gorrga MANDALORIAN_CHR_jarg MANDALORIAN_CHR_dorjander MANDALORIAN_CHR_kelborn MANDALORIAN_CHR_kex MANDALORIAN_CHR_kumus MANDALORIAN_CHR_ferrun MANDALORIAN_CHR_tegris MANDALORIAN_CHR_reeza MANDALORIAN_CHR_sherruk MANDALORIAN_CHR_tagren MANDALORIAN_CHR_xarga MANDALORIAN_CHR_zuka MANDALORIAN_CHR_goran MANDALORIAN_CHR_tobbi MANDALORIAN_CHR_cham MANDALORIAN_CHR_suvar MANDALORIAN_CHR_parma MANDALORIAN_CHR_belok MANDALORIAN_CHR_tem MANDALORIAN_CHR_tiroc MANDALORIAN_CHR_teroch MANDALORIAN_CHR_jintar MANDALORIAN_CHR_shalk MANDALORIAN_CHR_medrit MANDALORIAN_CHR_neth MANDALORIAN_CHR_rav MANDALORIAN_CHR_salus MANDALORIAN_CHR_jogo MANDALORIAN_CHR_jicoln MANDALORIAN_CHR_torian MANDALORIAN_CHR_khomo MANDALORIAN_CHR_vorten MANDALORIAN_CHR_makin MANDALORIAN_CHR_merrk MANDALORIAN_CHR_adonai MANDALORIAN_CHR_korkie MANDALORIAN_CHR_zadik MANDALORIAN_CHR_chernan MANDALORIAN_CHR_corridan MANDALORIAN_CHR_edric MANDALORIAN_CHR_tayari MANDALORIAN_CHR_gar MANDALORIAN_CHR_almec MANDALORIAN_CHR_kom_rk MANDALORIAN_CHR_prudii MANDALORIAN_CHR_tor MANDALORIAN_CHR_venku MANDALORIAN_CHR_ijaat MANDALORIAN_CHR_ruusaan MANDALORIAN_CHR_braxx MANDALORIAN_CHR_kandon MANDALORIAN_CHR_lothor MANDALORIAN_CHR_tiru MANDALORIAN_CHR_mavrix MANDALORIAN_CHR_novak MANDALORIAN_CHR_gen MANDALORIAN_CHR_tarre MANDALORIAN_CHR_alrich MANDALORIAN_CHR_tristan MANDALORIAN_CHR_agerin MANDALORIAN_CHR_moburi MANDALORIAN_CHR_randor MANDALORIAN_CHR_amis MANDALORIAN_CHR_aramis MANDALORIAN_CHR_arel MANDALORIAN_CHR_armatan MANDALORIAN_CHR_davu MANDALORIAN_CHR_jerec MANDALORIAN_CHR_zak MANDALORIAN_CHR_siddiq MANDALORIAN_CHR_patrok MANDALORIAN_CHR_ohta MANDALORIAN_CHR_kassor MANDALORIAN_CHR_ralebedth MANDALORIAN_CHR_kreegan MANDALORIAN_CHR_rellu MANDALORIAN_CHR_rhigoth MANDALORIAN_CHR_rimark MANDALORIAN_CHR_roegr MANDALORIAN_CHR_scarn MANDALORIAN_CHR_akshae MANDALORIAN_CHR_avin MANDALORIAN_CHR_kad MANDALORIAN_CHR_hedarr MANDALORIAN_CHR_corbo MANDALORIAN_CHR_takan MANDALORIAN_CHR_tanik MANDALORIAN_CHR_varek MANDALORIAN_CHR_vatok MANDALORIAN_CHR_thraijon MANDALORIAN_CHR_thron MANDALORIAN_CHR_beviin MANDALORIAN_CHR_vevec MANDALORIAN_CHR_gen MANDALORIAN_CHR_paz MANDALORIAN_CHR_herik MANDALORIAN_CHR_llats MANDALORIAN_CHR_oren MANDALORIAN_CHR_ram MANDALORIAN_CHR_vipsanis MANDALORIAN_CHR_warr_an MANDALORIAN_CHR_jir MANDALORIAN_CHR_gustav MANDALORIAN_CHR_axe MANDALORIAN_CHR_ragnar MANDALORIAN_CHR_yaga MANDALORIAN_CHR_bask
+			}
+			first_names_female = {
+				MANDALORIAN_CHR_valk MANDALORIAN_CHR_vera MANDALORIAN_CHR_gizka MANDALORIAN_CHR_lorka MANDALORIAN_CHR_bo_katan MANDALORIAN_CHR_rook MANDALORIAN_CHR_veraslayn MANDALORIAN_CHR_isbet MANDALORIAN_CHR_issy MANDALORIAN_CHR_karin MANDALORIAN_CHR_feresyl MANDALORIAN_CHR_jhan MANDALORIAN_CHR_jogotha MANDALORIAN_CHR_benna MANDALORIAN_CHR_mirli MANDALORIAN_CHR_ralia MANDALORIAN_CHR_jaska MANDALORIAN_CHR_koblus MANDALORIAN_CHR_sasha MANDALORIAN_CHR_briika MANDALORIAN_CHR_dinua MANDALORIAN_CHR_joy MANDALORIAN_CHR_briila MANDALORIAN_CHR_cetta MANDALORIAN_CHR_ralia MANDALORIAN_CHR_veela MANDALORIAN_CHR_marn MANDALORIAN_CHR_hayca MANDALORIAN_CHR_lagos MANDALORIAN_CHR_soniee MANDALORIAN_CHR_ketsu MANDALORIAN_CHR_mirgo MANDALORIAN_CHR_dao MANDALORIAN_CHR_isko MANDALORIAN_CHR_tani MANDALORIAN_CHR_vhonte MANDALORIAN_CHR_tes MANDALORIAN_CHR_koska MANDALORIAN_CHR_sofi MANDALORIAN_CHR_zavird
+			}
+			second_names = {
+				MANDALORIAN_CHR_awaud MANDALORIAN_CHR_beroya MANDALORIAN_CHR_beviin MANDALORIAN_CHR_bralor MANDALORIAN_CHR_cadera MANDALORIAN_CHR_carid MANDALORIAN_CHR_chorn MANDALORIAN_CHR_deshra MANDALORIAN_CHR_farr MANDALORIAN_CHR_gedyc MANDALORIAN_CHR_itera MANDALORIAN_CHR_jeban MANDALORIAN_CHR_jendri MANDALORIAN_CHR_jennis MANDALORIAN_CHR_kelborn MANDALORIAN_CHR_keldau MANDALORIAN_CHR_lok MANDALORIAN_CHR_lone MANDALORIAN_CHR_rodarch MANDALORIAN_CHR_rook MANDALORIAN_CHR_sharratt MANDALORIAN_CHR_sornell MANDALORIAN_CHR_spar MANDALORIAN_CHR_tenau MANDALORIAN_CHR_varad MANDALORIAN_CHR_vevut MANDALORIAN_CHR_woves MANDALORIAN_CHR_reeves MANDALORIAN_CHR_auchs MANDALORIAN_CHR_orade MANDALORIAN_CHR_tawr MANDALORIAN_CHR_onyo MANDALORIAN_CHR_bretu MANDALORIAN_CHR_sunn MANDALORIAN_CHR_inor MANDALORIAN_CHR_kregg MANDALORIAN_CHR_tervho
+			}
+			regnal_first_names_male = {
+				MANDALORIAN_CHR_jango MANDALORIAN_CHR_boba MANDALORIAN_CHR_canderous MANDALORIAN_CHR_montross MANDALORIAN_CHR_ijaat MANDALORIAN_CHR_ilippi MANDALORIAN_CHR_jagi MANDALORIAN_CHR_adiik MANDALORIAN_CHR_akero MANDALORIAN_CHR_b_arin MANDALORIAN_CHR_randun MANDALORIAN_CHR_barduun MANDALORIAN_CHR_berardesco MANDALORIAN_CHR_jos MANDALORIAN_CHR_nam MANDALORIAN_CHR_tarro MANDALORIAN_CHR_braum MANDALORIAN_CHR_branger MANDALORIAN_CHR_brank MANDALORIAN_CHR_briike MANDALORIAN_CHR_deron MANDALORIAN_CHR_baltan MANDALORIAN_CHR_breyer MANDALORIAN_CHR_cikartan MANDALORIAN_CHR_fen MANDALORIAN_CHR_lux MANDALORIAN_CHR_gar MANDALORIAN_CHR_fenri MANDALORIAN_CHR_ikito MANDALORIAN_CHR_mord MANDALORIAN_CHR_kellov MANDALORIAN_CHR_meltch MANDALORIAN_CHR_kro MANDALORIAN_CHR_melkket MANDALORIAN_CHR_ralnar MANDALORIAN_CHR_hudu MANDALORIAN_CHR_vherr MANDALORIAN_CHR_dorrick MANDALORIAN_CHR_monta MANDALORIAN_CHR_roggar MANDALORIAN_CHR_eirik MANDALORIAN_CHR_yenko MANDALORIAN_CHR_deagan MANDALORIAN_CHR_janx MANDALORIAN_CHR_eskol MANDALORIAN_CHR_genter MANDALORIAN_CHR_gezda MANDALORIAN_CHR_duran MANDALORIAN_CHR_galron MANDALORIAN_CHR_geden MANDALORIAN_CHR_mij MANDALORIAN_CHR_graad MANDALORIAN_CHR_hark MANDALORIAN_CHR_redok MANDALORIAN_CHR_hashar MANDALORIAN_CHR_hayar MANDALORIAN_CHR_ghez MANDALORIAN_CHR_jun MANDALORIAN_CHR_jaing MANDALORIAN_CHR_jakal MANDALORIAN_CHR_janard MANDALORIAN_CHR_jarkyc MANDALORIAN_CHR_johun MANDALORIAN_CHR_joram MANDALORIAN_CHR_bardan MANDALORIAN_CHR_kad MANDALORIAN_CHR_hondo MANDALORIAN_CHR_novin MANDALORIAN_CHR_sedyn MANDALORIAN_CHR_vaor MANDALORIAN_CHR_vol MANDALORIAN_CHR_valen MANDALORIAN_CHR_deth MANDALORIAN_CHR_jindo MANDALORIAN_CHR_kyrenic MANDALORIAN_CHR_lek MANDALORIAN_CHR_lem_ofars MANDALORIAN_CHR_levet MANDALORIAN_CHR_droga MANDALORIAN_CHR_bosann MANDALORIAN_CHR_gorse MANDALORIAN_CHR_garon MANDALORIAN_CHR_bralor MANDALORIAN_CHR_zayne MANDALORIAN_CHR_davrel MANDALORIAN_CHR_demagol MANDALORIAN_CHR_ergeron MANDALORIAN_CHR_esok MANDALORIAN_CHR_dhagon MANDALORIAN_CHR_gorrga MANDALORIAN_CHR_jarg MANDALORIAN_CHR_dorjander MANDALORIAN_CHR_kelborn MANDALORIAN_CHR_kex MANDALORIAN_CHR_kumus MANDALORIAN_CHR_ferrun MANDALORIAN_CHR_tegris MANDALORIAN_CHR_reeza MANDALORIAN_CHR_sherruk MANDALORIAN_CHR_tagren MANDALORIAN_CHR_xarga MANDALORIAN_CHR_zuka MANDALORIAN_CHR_goran MANDALORIAN_CHR_tobbi MANDALORIAN_CHR_cham MANDALORIAN_CHR_suvar MANDALORIAN_CHR_parma MANDALORIAN_CHR_belok MANDALORIAN_CHR_tem MANDALORIAN_CHR_tiroc MANDALORIAN_CHR_teroch MANDALORIAN_CHR_jintar MANDALORIAN_CHR_shalk MANDALORIAN_CHR_medrit MANDALORIAN_CHR_neth MANDALORIAN_CHR_rav MANDALORIAN_CHR_salus MANDALORIAN_CHR_jogo MANDALORIAN_CHR_jicoln MANDALORIAN_CHR_torian MANDALORIAN_CHR_khomo MANDALORIAN_CHR_vorten MANDALORIAN_CHR_makin MANDALORIAN_CHR_merrk MANDALORIAN_CHR_adonai MANDALORIAN_CHR_korkie MANDALORIAN_CHR_zadik MANDALORIAN_CHR_chernan MANDALORIAN_CHR_corridan MANDALORIAN_CHR_edric MANDALORIAN_CHR_tayari MANDALORIAN_CHR_gar MANDALORIAN_CHR_almec MANDALORIAN_CHR_kom_rk MANDALORIAN_CHR_prudii MANDALORIAN_CHR_tor MANDALORIAN_CHR_venku MANDALORIAN_CHR_ijaat MANDALORIAN_CHR_ruusaan MANDALORIAN_CHR_braxx MANDALORIAN_CHR_kandon MANDALORIAN_CHR_lothor MANDALORIAN_CHR_tiru MANDALORIAN_CHR_mavrix MANDALORIAN_CHR_novak MANDALORIAN_CHR_gen MANDALORIAN_CHR_tarre MANDALORIAN_CHR_alrich MANDALORIAN_CHR_tristan MANDALORIAN_CHR_agerin MANDALORIAN_CHR_moburi MANDALORIAN_CHR_randor MANDALORIAN_CHR_amis MANDALORIAN_CHR_aramis MANDALORIAN_CHR_arel MANDALORIAN_CHR_armatan MANDALORIAN_CHR_davu MANDALORIAN_CHR_jerec MANDALORIAN_CHR_zak MANDALORIAN_CHR_siddiq MANDALORIAN_CHR_patrok MANDALORIAN_CHR_ohta MANDALORIAN_CHR_kassor MANDALORIAN_CHR_ralebedth MANDALORIAN_CHR_kreegan MANDALORIAN_CHR_rellu MANDALORIAN_CHR_rhigoth MANDALORIAN_CHR_rimark MANDALORIAN_CHR_roegr MANDALORIAN_CHR_scarn MANDALORIAN_CHR_akshae MANDALORIAN_CHR_avin MANDALORIAN_CHR_kad MANDALORIAN_CHR_hedarr MANDALORIAN_CHR_corbo MANDALORIAN_CHR_takan MANDALORIAN_CHR_tanik MANDALORIAN_CHR_varek MANDALORIAN_CHR_vatok MANDALORIAN_CHR_thraijon MANDALORIAN_CHR_thron MANDALORIAN_CHR_beviin MANDALORIAN_CHR_vevec MANDALORIAN_CHR_gen MANDALORIAN_CHR_paz MANDALORIAN_CHR_herik MANDALORIAN_CHR_llats MANDALORIAN_CHR_oren MANDALORIAN_CHR_ram MANDALORIAN_CHR_vipsanis MANDALORIAN_CHR_warr_an MANDALORIAN_CHR_jir MANDALORIAN_CHR_gustav MANDALORIAN_CHR_axe MANDALORIAN_CHR_ragnar MANDALORIAN_CHR_yaga MANDALORIAN_CHR_bask
+			}
+			regnal_first_names_female = {
+				MANDALORIAN_CHR_valk MANDALORIAN_CHR_vera MANDALORIAN_CHR_gizka MANDALORIAN_CHR_lorka MANDALORIAN_CHR_bo_katan MANDALORIAN_CHR_rook MANDALORIAN_CHR_veraslayn MANDALORIAN_CHR_isbet MANDALORIAN_CHR_issy MANDALORIAN_CHR_karin MANDALORIAN_CHR_feresyl MANDALORIAN_CHR_jhan MANDALORIAN_CHR_jogotha MANDALORIAN_CHR_benna MANDALORIAN_CHR_mirli MANDALORIAN_CHR_ralia MANDALORIAN_CHR_jaska MANDALORIAN_CHR_koblus MANDALORIAN_CHR_sasha MANDALORIAN_CHR_briika MANDALORIAN_CHR_dinua MANDALORIAN_CHR_joy MANDALORIAN_CHR_briila MANDALORIAN_CHR_cetta MANDALORIAN_CHR_ralia MANDALORIAN_CHR_veela MANDALORIAN_CHR_marn MANDALORIAN_CHR_hayca MANDALORIAN_CHR_lagos MANDALORIAN_CHR_soniee MANDALORIAN_CHR_ketsu MANDALORIAN_CHR_mirgo MANDALORIAN_CHR_dao MANDALORIAN_CHR_isko MANDALORIAN_CHR_tani MANDALORIAN_CHR_vhonte MANDALORIAN_CHR_tes MANDALORIAN_CHR_koska MANDALORIAN_CHR_sofi MANDALORIAN_CHR_zavird
+			}
+			regnal_second_names = {
+				MANDALORIAN_CHR_awaud MANDALORIAN_CHR_beroya MANDALORIAN_CHR_beviin MANDALORIAN_CHR_bralor MANDALORIAN_CHR_cadera MANDALORIAN_CHR_carid MANDALORIAN_CHR_chorn MANDALORIAN_CHR_deshra MANDALORIAN_CHR_farr MANDALORIAN_CHR_gedyc MANDALORIAN_CHR_itera MANDALORIAN_CHR_jeban MANDALORIAN_CHR_jendri MANDALORIAN_CHR_jennis MANDALORIAN_CHR_kelborn MANDALORIAN_CHR_keldau MANDALORIAN_CHR_lok MANDALORIAN_CHR_lone MANDALORIAN_CHR_rodarch MANDALORIAN_CHR_rook MANDALORIAN_CHR_sharratt MANDALORIAN_CHR_sornell MANDALORIAN_CHR_spar MANDALORIAN_CHR_tenau MANDALORIAN_CHR_varad MANDALORIAN_CHR_vevut MANDALORIAN_CHR_woves MANDALORIAN_CHR_reeves MANDALORIAN_CHR_auchs MANDALORIAN_CHR_orade MANDALORIAN_CHR_tawr MANDALORIAN_CHR_onyo MANDALORIAN_CHR_bretu MANDALORIAN_CHR_sunn MANDALORIAN_CHR_inor MANDALORIAN_CHR_kregg MANDALORIAN_CHR_tervho
+			}
+		}
+	}
+}

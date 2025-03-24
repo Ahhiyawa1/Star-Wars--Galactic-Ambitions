@@ -1,0 +1,36 @@
+# Council Rooms
+defined_text = {
+	name = GetScriptedCouncilBackgroundSWND
+	random = no
+	text = { weight = { weight = 1 } localization_key = GFX_council_room_common trigger = { has_paragon_dlc = no } }
+	text = { weight = { weight = 100 } localization_key = GFX_council_room_rebellion trigger = { has_origin = origin_swp_restoration } }
+	text = { weight = { weight = 100 } localization_key = GFX_council_room_galactic_republic trigger = { has_origin = origin_swp_twilight_of_the_republic } }
+	text = { weight = { weight = 100 } localization_key = GFX_council_room_mandalorian trigger = { has_origin = origin_swp_mandalorian } }
+	text = { weight = { weight = 100 } localization_key = GFX_council_room_banking_clan trigger = { has_country_flag = banking_clan } }
+	text = { weight = { weight = 100 } localization_key = GFX_council_room_separatist trigger = { has_origin = origin_swp_confed_remnant } }
+	text = { weight = { weight = 100 } localization_key = GFX_council_room_imperial_loyalist trigger = { has_origin = origin_swp_imperial_loyalist } }
+	text = { weight = { weight = 100 } localization_key = GFX_council_room_hutt trigger = { has_origin = origin_swp_hutt_cartel } }
+	text = { weight = { weight = 100 } localization_key = GFX_council_room_chiss_ascendancy trigger = { has_origin = origin_swp_ascendancy } }
+	text = { weight = { weight = 100 } localization_key = GFX_council_room_kingdom_of_onderon trigger = { has_origin = origin_swnd_onderon } }
+	text = { weight = { weight = 100 } localization_key = GFX_council_room_underworld trigger = { has_origin = origin_swp_underworld } }
+	text = { weight = { weight = 100 } localization_key = GFX_council_room_corporate_sector trigger = { has_origin = origin_swp_corporate_sector } }
+
+	## CW ##
+
+	text = { weight = { weight = 100 } localization_key = GFX_council_room_galactic_republic trigger = { has_origin = origin_swp_twilight_of_the_republic } }
+
+	#text = { weight = { weight = 100 } localization_key = GFX_council_room_ trigger = { has_origin = } }
+
+	text = { localization_key = GFX_council_room_corporate trigger = { has_paragon_dlc = yes has_authority = auth_corporate country_has_extra_council_position = no } } 
+	text = { localization_key = GFX_council_room_corporate_offset trigger = { has_paragon_dlc = yes has_authority = auth_corporate country_has_extra_council_position = yes } } 
+	text = { localization_key = GFX_council_room_democratic trigger = { has_paragon_dlc = yes has_authority = auth_democratic country_has_extra_council_position = no } } 
+	text = { localization_key = GFX_council_room_democratic_offset trigger = { has_paragon_dlc = yes has_authority = auth_democratic country_has_extra_council_position = yes } } 
+	text = { localization_key = GFX_council_room_dictatorial trigger = { has_paragon_dlc = yes has_authority = auth_dictatorial country_has_extra_council_position = no } } 
+	text = { localization_key = GFX_council_room_dictatorial_offset trigger = { has_paragon_dlc = yes has_authority = auth_dictatorial country_has_extra_council_position = yes } } 
+	text = { localization_key = GFX_council_room_hive trigger = { has_paragon_dlc = yes is_hive_empire = yes } } 
+	text = { localization_key = GFX_council_room_imperial trigger = { has_paragon_dlc = yes has_authority = auth_imperial country_has_extra_council_position = no } } 
+	text = { localization_key = GFX_council_room_imperial_offset trigger = { has_paragon_dlc = yes has_authority = auth_imperial country_has_extra_council_position = yes } } 
+	text = { localization_key = GFX_council_room_machine trigger = { has_paragon_dlc = yes is_machine_empire = yes } } 
+	text = { localization_key = GFX_council_room_oligarchic trigger = { has_paragon_dlc = yes has_authority = auth_oligarchic country_has_extra_council_position = no } } 
+	text = { localization_key = GFX_council_room_oligarchic_offset trigger = { has_paragon_dlc = yes has_authority = auth_oligarchic country_has_extra_council_position = yes } }
+}

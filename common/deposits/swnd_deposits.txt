@@ -1,0 +1,1747 @@
+@high = 16
+@med = 8
+@low = 4
+
+@high_rare = 0.5
+@mid_rare = 0.25
+@low_rare = 0.1
+
+@planet_type_bonus = 1.5
+
+### Coruscant: Ruined Jedi Temple ( Blocker )
+d_ruined_jedi_temple = {
+	is_for_colonizable = yes
+	planet_modifier = {
+		planet_stability_add = -5
+	}
+	potential = {
+		always = no
+	}
+	time = 600
+	category = deposit_cat_blockers
+	use_weights_for_blocker_swap_types = no
+	blocker_swap_types = {
+		d_imperial_palace
+	}
+	prerequisites = {
+		"tech_imperial_palace"
+	}
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 1200
+			minerals = 600
+		}
+	}
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### Coruscant: The Underworld ( Blocker )
+d_the_underworld = {
+	is_for_colonizable = yes
+	planet_modifier = {
+		planet_max_districts_add = -1
+		planet_crime_add = 10
+	}
+	potential = {
+		always = no
+	}
+	time = 2400
+	category = deposit_cat_blockers
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 3600
+			minerals = 1800
+		}
+	}
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### Nar Shaddaa: Undercity ( Blocker )
+d_undercity_nar_shaddaa = {
+	is_for_colonizable = yes
+	icon = d_the_underworld
+	planet_modifier = {
+		planet_crime_add = 10
+	}
+	potential = {
+		always = no
+	}
+	time = 1200
+	category = deposit_cat_blockers
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 1800
+			minerals = 1000
+		}
+	}
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### Ecumenopolis Slums ( Blocker )
+d_ecumenopolis_slums = {
+	is_for_colonizable = yes
+	icon = d_the_underworld
+	planet_modifier = {
+		planet_max_districts_add = -1
+		planet_crime_add = 5
+	}
+	potential = {
+		is_city_planet = yes
+	}
+	time = 1800
+	category = deposit_cat_blockers
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 2400
+			minerals = 1200
+		}
+	}
+	drop_weight = {
+		weight = 1
+		modifier = {
+			factor = 8
+			is_sw_ecumenopolis = yes
+		}
+		modifier = {
+			factor = 32
+			is_sw_ruined_ecumenopolis = yes
+		}
+	}
+}
+
+### Rakghoul Infestation ( Blocker )
+d_rakghoul_infestation = {
+	is_for_colonizable = yes
+	planet_modifier = {
+		pop_growth_speed = -0.05
+	}
+	time = 480
+	category = deposit_cat_blockers
+	prerequisites = {
+		"tech_rakghoul_serum"
+	}
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 1000
+		}
+	}
+	drop_weight = {
+		weight = 0.5
+		modifier = {
+			factor = 2
+			is_sw_ecumenopolis = yes
+		}
+		modifier = {
+			factor = 16
+			is_sw_ruined_ecumenopolis = yes
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+	}
+}
+
+### Local Industry
+d_local_industry = {
+	is_for_colonizable = yes
+	category = deposit_cat_normal
+	resources = {
+		category = planet_deposits
+		produces = {
+			minerals = 2
+			consumer_goods = 1
+		}
+	}
+	drop_weight = {
+		weight = 0.2
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+		modifier = {
+			factor = 20
+			is_sw_ecumenopolis = yes
+		}
+		modifier = {
+			factor = 5
+			is_sw_ruined_ecumenopolis = yes
+		}
+	}
+}
+
+### Regional Industry
+d_regional_industry = {
+	is_for_colonizable = yes
+	icon = d_local_industry
+	category = deposit_cat_normal
+	resources = {
+		category = planet_deposits
+		produces = {
+			minerals = 4
+			consumer_goods = 2
+		}
+	}
+	drop_weight = {
+		weight = 0.1
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+		modifier = {
+			factor = 10
+			is_sw_ecumenopolis = yes
+		}
+		modifier = {
+			factor = 2
+			is_sw_ruined_ecumenopolis = yes
+		}
+	}
+}
+
+### Local Enterprise
+d_local_enterprise = {
+	is_for_colonizable = yes
+	category = deposit_cat_normal
+	resources = {
+		category = planet_deposits
+		produces = {
+			energy = 2
+		}
+	}
+	drop_weight = {
+		weight = 0.2
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+		modifier = {
+			factor = 20
+			is_sw_ecumenopolis = yes
+		}
+		modifier = {
+			factor = 5
+			is_sw_ruined_ecumenopolis = yes
+		}
+	}
+}
+
+### Regional Enterprise
+d_regional_enterprise = {
+	is_for_colonizable = yes
+	icon = d_local_enterprise
+	category = deposit_cat_normal
+	resources = {
+		category = planet_deposits
+		produces = {
+			energy = 4
+		}
+	}
+	drop_weight = {
+		weight = 0.1
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+		modifier = {
+			factor = 10
+			is_sw_ecumenopolis = yes
+		}
+		modifier = {
+			factor = 2
+			is_sw_ruined_ecumenopolis = yes
+		}
+	}
+}
+
+### Rich Culture
+d_rich_culture = {
+	is_for_colonizable = yes
+	planet_modifier = {
+		planet_jobs_unity_produces_mult = 0.1
+	}
+	category = deposit_cat_normal
+	drop_weight = {
+		weight = 0.2
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+		modifier = {
+			factor = 20
+			is_sw_ecumenopolis = yes
+		}
+		modifier = {
+			factor = 5
+			is_sw_ruined_ecumenopolis = yes
+		}
+	}
+}
+
+### Local Exchange
+d_local_exchange = {
+	is_for_colonizable = yes
+	icon = d_traffic_hub
+	planet_modifier = {
+		trade_value_add = 1
+	}
+	category = deposit_cat_normal
+	drop_weight = {
+		weight = 0.3
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+		modifier = {
+			factor = 20
+			is_sw_ecumenopolis = yes
+		}
+		modifier = {
+			factor = 5
+			is_sw_ruined_ecumenopolis = yes
+		}
+	}
+}
+
+### Regional Exchange
+d_regional_exchange = {
+	is_for_colonizable = yes
+	icon = d_traffic_hub
+	planet_modifier = {
+		trade_value_add = 2
+	}
+	category = deposit_cat_normal
+	drop_weight = {
+		weight = 0.2
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+		modifier = {
+			factor = 20
+			is_sw_ecumenopolis = yes
+		}
+		modifier = {
+			factor = 5
+			is_sw_ruined_ecumenopolis = yes
+		}
+	}
+}
+
+### Intergalactic Traffic Hub
+d_traffic_hub = {
+	is_for_colonizable = yes
+	planet_modifier = {
+		trade_value_add = 3
+	}
+	category = deposit_cat_rare
+	drop_weight = {
+		weight = 0.1
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+		modifier = {
+			factor = 20
+			is_sw_ecumenopolis = yes
+		}
+		modifier = {
+			factor = 0
+			is_sw_ruined_ecumenopolis = yes
+		}
+	}
+}
+
+### Innovative Architecture
+d_innovative_architecture = {
+	is_for_colonizable = yes
+	planet_modifier = {
+		planet_housing_add = 1
+	}
+	category = deposit_cat_normal
+	drop_weight = {
+		weight = 0.2
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+		modifier = {
+			factor = 30
+			is_sw_ecumenopolis = yes
+		}
+	}
+}
+
+### Exceptional Architecture
+d_exceptional_architecture = {
+	is_for_colonizable = yes
+	icon = d_innovative_architecture
+	planet_modifier = {
+		planet_housing_add = 2
+	}
+	category = deposit_cat_rare
+	drop_weight = {
+		weight = 0.1
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+		modifier = {
+			factor = 100
+			is_sw_ecumenopolis = yes
+		}
+		modifier = {
+			factor = 0
+			is_sw_ruined_ecumenopolis = yes
+		}
+	}
+}
+
+### Kyber Crystal Vein ( Kyber Building )
+d_kyber_vein = {
+	is_for_colonizable = yes
+	icon = d_crystalline_caverns
+	planet_modifier = {
+		building_kyber_mine_max = 1
+	}
+	category = deposit_cat_rare
+	drop_weight = {
+		weight = 0.25
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+		modifier = {
+			factor = 0
+			is_city_planet = yes
+		}
+		modifier = {
+			factor = 5
+			is_cold = yes
+		}
+	}
+}
+
+d_kyber_vein_2 = {
+	is_for_colonizable = yes
+	icon = d_crystalline_caverns
+	planet_modifier = {
+		building_kyber_mine_max = 2
+	}
+	category = deposit_cat_rare
+	drop_weight = {
+		weight = 0.15
+	}
+}
+
+### Bacta Materials ( Bacta Building )
+d_bacta_materials = {
+	is_for_colonizable = yes
+	planet_modifier = {
+		building_bacta_refinery_max = 1
+	}
+	category = deposit_cat_rare
+	drop_weight = {
+		weight = 0.5
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+		modifier = {
+			factor = 0
+			is_city_planet = yes
+		}
+	}
+}
+
+d_bacta_materials_2 = {
+	is_for_colonizable = yes
+	icon = d_bacta_materials
+	planet_modifier = {
+		building_bacta_refinery_max = 2
+	}
+	category = deposit_cat_rare
+	drop_weight = {
+		weight = 0.5
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+		modifier = {
+			factor = 0
+			is_city_planet = yes
+		}
+	}
+}
+
+### Bacta Materials Planetary Deposit (used in some anomalies)
+d_bacta_5 = {
+	is_for_colonizable = no
+	station = shipclass_mining_station
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			bacta = 5
+		}
+	}
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### Spice Deposit ( Spice Building )
+d_spice_deposit = {
+	is_for_colonizable = yes
+	icon = d_dust_caverns
+	planet_modifier = {
+		building_spice_mine_max = 1
+	}
+	category = deposit_cat_rare
+	drop_weight = {
+		weight = 0.25
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_ecumenopolis
+				is_planet_class = pc_ecumenopolis_ruined
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+	}
+}
+
+### Spice Deposit ( Spice Building 2 )
+d_spice_deposit_2 = {
+	is_for_colonizable = yes
+	icon = d_dust_desert
+	planet_modifier = {
+		building_spice_mine_max = 2
+	}
+	category = deposit_cat_rare
+	drop_weight = {
+		weight = 0
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_ecumenopolis
+				is_planet_class = pc_ecumenopolis_ruined
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+	}
+}
+
+### Rakatan Ruins
+d_rakatan_ruins = {
+	is_for_colonizable = yes
+	icon = d_monument
+	planet_modifier = {
+		planet_jobs_society_research_produces_mult = 0.25
+	}
+	potential = {
+		always = yes
+	}
+	category = deposit_cat_rare
+	drop_weight = {
+		weight = 0.01
+	}
+}
+
+### Ancient Temple
+d_ancient_temple = {
+	is_for_colonizable = yes
+	icon = d_monument
+	planet_modifier = {
+		planet_jobs_society_research_produces_mult = 0.1
+	}
+	potential = {
+		always = yes
+	}
+	category = deposit_cat_rare
+	drop_weight = {
+		weight = 0.01
+	}
+}
+
+### Abandoned Workshop
+d_abandoned_workshop = {
+	is_for_colonizable = yes
+	icon = d_bunker_door
+	planet_modifier = {
+		planet_jobs_engineering_research_produces_mult = 0.1
+	}
+	potential = {
+		always = yes
+	}
+	category = deposit_cat_rare
+	drop_weight = {
+		weight = 0.01
+	}
+}
+
+### Abandoned Laboratory
+d_abandoned_lab = {
+	is_for_colonizable = yes
+	icon = d_bunker_door
+	planet_modifier = {
+		planet_jobs_physics_research_produces_mult = 0.1
+	}
+	potential = {
+		always = yes
+	}
+	category = deposit_cat_rare
+	drop_weight = {
+		weight = 0.01
+	}
+}
+
+### Private Research Facility
+d_private_research_facility = {
+	is_for_colonizable = yes
+	icon = d_building_complex
+	potential = {
+		always = yes
+	}
+	category = deposit_cat_normal
+	resources = {
+		produces = {
+			engineering_research = 1
+			physics_research = 1
+			society_research = 1
+		}
+	}
+	drop_weight = {
+		weight = 0.1
+		modifier = {
+			factor = 2.5
+			is_sw_ecumenopolis = yes
+		}
+	}
+}
+
+### Small Oasis
+#d_small_oasis = {
+#	is_for_colonizable = yes
+#	icon = d_marvelous_oasis
+#	planet_modifier = {
+#		district_moisture_max = 1
+#	}
+#	potential = {
+#		is_dry = yes
+#	}
+#	category = deposit_cat_food
+#	use_for_min_max_adjustments = yes
+#	terraforming_swap_types = {
+#		d_bountiful_plains
+#		d_rugged_woods
+#		d_green_hills
+#		d_forgiving_tundra
+#		d_boggy_fens
+#		d_nutritious_mudland
+#		d_lichen_fields
+#		d_regional_materials
+#	}
+#	drop_weight = {
+#		weight = 16
+#	}
+#}
+
+d_small_oasis = {
+	is_for_colonizable = yes
+	use_for_min_max_adjustments = yes
+
+	icon = d_marvelous_oasis
+
+	category = deposit_cat_food
+
+	use_weights_for_terraforming_swap_types = yes
+	should_swap_deposit_on_terraforming = yes
+	terraforming_swap_types = {
+		d_lichen_fields
+		d_bountiful_plains
+		d_rugged_woods
+		d_green_hills
+		d_forgiving_tundra
+		d_boggy_fens
+		d_nutritious_mudland
+		d_natural_farmland # gaia
+		d_regional_materials # arctic hydroponics
+	}
+
+	planet_modifier = {
+		district_moisture_max = 1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_moisture_max = 1
+		#mult = value:district_amount_mastery_of_nature
+	}
+
+	potential = {
+		is_planet_class = pc_desert
+	}
+
+	drop_weight = {
+		weight = @high
+		modifier = {
+			factor = @planet_type_bonus
+			is_wet = yes
+		}
+	}
+}
+
+### Rich Clay
+#d_rich_clay = {
+#	is_for_colonizable = yes
+#	icon = d_nutritious_mudland
+#	planet_modifier = {
+#		district_moisture_max = 2
+#	}
+#	potential = {
+#		is_dry = yes
+#	}
+#	category = deposit_cat_food
+#	use_for_min_max_adjustments = yes
+#	terraforming_swap_types = {
+#		d_lush_jungle
+#		d_fertile_lands
+#		d_great_river
+#		d_fungal_caves
+#		d_local_power_source
+#	}
+#	drop_weight = {
+#		weight = 8
+#	}
+#}
+
+d_rich_clay = {
+	is_for_colonizable = yes
+	use_for_min_max_adjustments = yes
+
+	icon = d_nutritious_mudland
+
+	category = deposit_cat_food
+
+	use_weights_for_terraforming_swap_types = yes
+	should_swap_deposit_on_terraforming = yes
+	terraforming_swap_types = {
+		d_fungal_caves
+		d_lush_jungle
+		d_great_river
+		d_fertile_lands
+		d_local_power_source # arctic hydroponics
+	}
+
+	planet_modifier = {
+		district_moisture_max = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_moisture_max = 2
+		#mult = value:district_amount_mastery_of_nature
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_desert
+		}
+	}
+
+	drop_weight = {
+		weight = @med
+		modifier = {
+			factor = @planet_type_bonus
+			is_wet = yes
+		}
+	}
+}
+
+### Extreme Humidity
+#d_extreme_humidity = {
+#	is_for_colonizable = yes
+#	icon = d_nutritious_mudland
+#	planet_modifier = {
+#		district_moisture_max = 3
+#	}
+#	potential = {
+#		is_dry = yes
+#	}
+#	category = deposit_cat_food
+#	use_for_min_max_adjustments = yes
+#	terraforming_swap_types = {
+#		d_teeming_reef
+#		d_marvelous_oasis
+#		d_tropical_island
+#		d_fungal_forest
+#		d_black_soil
+#		d_abandoned_hydroponic
+#	}
+#	drop_weight = {
+#		weight = 4
+#	}
+#}
+
+d_extreme_humidity = {
+	is_for_colonizable = yes
+	use_for_min_max_adjustments = yes
+
+	icon = d_nutritious_mudland
+
+	category = deposit_cat_food
+
+	use_weights_for_terraforming_swap_types = yes
+	should_swap_deposit_on_terraforming = yes
+	terraforming_swap_types = {
+		d_black_soil
+		d_teeming_reef
+		d_marvelous_oasis
+		d_tropical_island
+		d_fungal_forest
+		d_abandoned_hydroponic # arctic hydroponic
+	}
+
+	planet_modifier = {
+		district_moisture_max = 3
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_moisture_max = 3
+		#mult = value:district_amount_mastery_of_nature
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_desert
+		}
+	}
+
+	drop_weight = {
+		weight = @low
+		modifier = {
+			factor = @planet_type_bonus
+			is_wet = yes
+		}
+	}
+}
+
+### Regional Materials
+#d_regional_materials = {
+#	is_for_colonizable = yes
+#	icon = d_boneyard
+#	planet_modifier = {
+#		district_hydroponic_max = 1
+#	}
+#	potential = {
+#		always = yes
+#	}
+#	category = deposit_cat_food
+#	use_for_min_max_adjustments = yes
+#	terraforming_swap_types = {
+#		d_bountiful_plains
+#		d_rugged_woods
+#		d_green_hills
+#		d_forgiving_tundra
+#		d_boggy_fens
+#		d_nutritious_mudland
+#		d_lichen_fields
+#		d_small_oasis
+#	}
+#	drop_weight = {
+#		weight = 16
+#	}
+#}
+
+d_regional_materials = {
+	is_for_colonizable = yes
+	use_for_min_max_adjustments = yes
+
+	icon = d_boneyard
+
+	category = deposit_cat_food
+
+	use_weights_for_terraforming_swap_types = yes
+	should_swap_deposit_on_terraforming = yes
+	terraforming_swap_types = {
+		d_bountiful_plains
+		d_rugged_woods
+		d_green_hills
+		d_forgiving_tundra
+		d_boggy_fens
+		d_nutritious_mudland
+		d_natural_farmland # gaia
+		d_small_oasis # desert moisture farm
+	}
+
+	planet_modifier = {
+		district_hydroponic_max = 1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_hydroponic_max = 1
+		#mult = value:district_amount_mastery_of_nature
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_arctic
+			AND = {
+				is_planet_class = pc_alpine
+				has_modifier = mineral_world
+			}
+			AND = {
+				is_planet_class = pc_arid
+				has_modifier = lava_world
+			}
+		}
+	}
+
+	drop_weight = {
+		weight = @high
+		modifier = {
+			factor = @planet_type_bonus
+			is_wet = yes
+		}
+	}
+}
+
+### Local Power Source
+#d_local_power_source = {
+#	is_for_colonizable = yes
+#	icon = d_geothermal_vent
+#	planet_modifier = {
+#		district_hydroponic_max = 2
+#	}
+#	potential = {
+#		always = yes
+#	}
+#	category = deposit_cat_food
+#	use_for_min_max_adjustments = yes
+#	terraforming_swap_types = {
+#		d_lush_jungle
+#		d_fertile_lands
+#		d_great_river
+#		d_fungal_caves
+#		d_rich_clay
+#	}
+#	drop_weight = {
+#		weight = 8
+#	}
+#}
+
+d_local_power_source = {
+	is_for_colonizable = yes
+	use_for_min_max_adjustments = yes
+
+	icon = d_geothermal_vent
+
+	category = deposit_cat_food
+
+	use_weights_for_terraforming_swap_types = yes
+	should_swap_deposit_on_terraforming = yes
+	terraforming_swap_types = {
+		d_fungal_caves
+		d_lush_jungle
+		d_great_river
+		d_fertile_lands
+		d_rich_clay # desert moisture farm
+	}
+
+	planet_modifier = {
+		district_hydroponic_max = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_hydroponic_max = 2
+		#mult = value:district_amount_mastery_of_nature
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_arctic
+			AND = {
+				is_planet_class = pc_alpine
+				has_modifier = mineral_world # doesn't work--do deposits generate before planet modifiers?
+			}
+			AND = {
+				is_planet_class = pc_arid
+				has_modifier = lava_world # doesn't work--do deposits generate before planet modifiers?
+			}
+		}
+	}
+
+	drop_weight = {
+		weight = @med
+		modifier = {
+			factor = @planet_type_bonus
+			is_wet = yes
+		}
+	}
+}
+
+### Abandoned Hydroponic Systems
+#d_abandoned_hydroponic = {
+#	is_for_colonizable = yes
+#	icon = d_building
+#	planet_modifier = {
+#		district_hydroponic_max = 3
+#	}
+#	potential = {
+#		always = yes
+#	}
+#	category = deposit_cat_food
+#	use_for_min_max_adjustments = yes
+#	terraforming_swap_types = {
+#		d_teeming_reef
+#		d_marvelous_oasis
+#		d_tropical_island
+#		d_fungal_forest
+#		d_black_soil
+#		d_extreme_humidity
+#	}
+#	drop_weight = {
+#		weight = 4
+#	}
+#}
+
+d_abandoned_hydroponic = {
+	is_for_colonizable = yes
+	use_for_min_max_adjustments = yes
+
+	icon = d_building
+
+	category = deposit_cat_food
+
+	use_weights_for_terraforming_swap_types = yes
+	should_swap_deposit_on_terraforming = yes
+	terraforming_swap_types = {
+		d_black_soil
+		d_teeming_reef
+		d_marvelous_oasis
+		d_tropical_island
+		d_fungal_forest
+		d_extreme_humidity # desert moisture farm
+	}
+
+	planet_modifier = {
+		district_hydroponic_max = 3
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		district_hydroponic_max = 3
+		#mult = value:district_amount_mastery_of_nature
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_arctic
+			AND = {
+				is_planet_class = pc_alpine
+				has_modifier = mineral_world # doesn't work--do deposits generate before planet modifiers?
+			}
+			AND = {
+				is_planet_class = pc_arid
+				has_modifier = lava_world # doesn't work--do deposits generate before planet modifiers?
+			}
+		}
+	}
+
+	drop_weight = {
+		weight = @low
+		modifier = {
+			factor = @planet_type_bonus
+			is_wet = yes
+		}
+	}
+}
+
+### 
+d_tibanna_gas_1 = {
+	is_for_colonizable = no
+	station = shipclass_mining_station
+	potential = {
+		is_planet_class = pc_gas_giant
+	}
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			tibanna_gas = 1
+		}
+	}
+	drop_weight = {
+		weight = 4
+	}
+}
+
+### 
+d_tibanna_gas_2 = {
+	is_for_colonizable = no
+	station = shipclass_mining_station
+	potential = {
+		is_planet_class = pc_gas_giant
+	}
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			tibanna_gas = 2
+		}
+	}
+	drop_weight = {
+		weight = 6
+	}
+}
+
+### 
+d_tibanna_gas_3 = {
+	is_for_colonizable = no
+	station = shipclass_mining_station
+	potential = {
+		is_planet_class = pc_gas_giant
+	}
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			tibanna_gas = 3
+		}
+	}
+	drop_weight = {
+		weight = 4
+	}
+}
+
+### 
+#d_tibanna_gas_4 = {
+#	is_for_colonizable = no
+#	station = shipclass_mining_station
+#	potential = {
+# 	 	is_planet_class = pc_gas_giant
+#	}
+#	resources = {
+#	 	category = orbital_mining_deposits
+#	 	produces = { tibanna_gas = 4 }
+#	}
+#	drop_weight = {
+#	 	weight = 5
+#	}
+#}
+### 
+#d_tibanna_gas_5 = {
+#	is_for_colonizable = no
+#	station = shipclass_mining_station
+#	potential = {
+#		 is_planet_class = pc_gas_giant
+#	}
+#	resources = {
+#	 	category = orbital_mining_deposits
+#	 	produces = { tibanna_gas = 5 }
+#	}
+#	drop_weight = {
+#	 	weight = 1
+#	}
+#}
+### 
+d_kyber_crystal_1 = {
+	is_for_colonizable = no
+	station = shipclass_mining_station
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			sr_kyber = 1
+		}
+	}
+	drop_weight = {
+		weight = 0.1
+		modifier = {
+			factor = 3
+			is_planet_class = pc_frozen
+		}
+		modifier = {
+			factor = 0
+			is_asteroid = yes
+		}
+		modifier = {
+			factor = 0
+			is_planet_class = pc_gas_giant
+		}
+		modifier = {
+			factor = 0
+			is_planet_class = pc_nebula_green
+		}
+		modifier = {
+			factor = 0
+			is_planet_class = pc_nebula_red
+		}
+		modifier = {
+			factor = 0
+			is_planet_class = pc_nebula_purple
+		}
+		modifier = {
+			factor = 0
+			is_planet_class = pc_black_hole
+		}
+	}
+}
+
+### 
+d_kyber_crystal_2 = {
+	is_for_colonizable = no
+	station = shipclass_mining_station
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			sr_kyber = 2
+		}
+	}
+	drop_weight = {
+		weight = 0.05
+		modifier = {
+			factor = 3
+			is_planet_class = pc_frozen
+		}
+		modifier = {
+			factor = 0
+			is_asteroid = yes
+		}
+		modifier = {
+			factor = 0
+			is_planet_class = pc_gas_giant
+		}
+		modifier = {
+			factor = 0
+			is_planet_class = pc_nebula_green
+		}
+		modifier = {
+			factor = 0
+			is_planet_class = pc_nebula_red
+		}
+		modifier = {
+			factor = 0
+			is_planet_class = pc_nebula_purple
+		}
+		modifier = {
+			factor = 0
+			is_planet_class = pc_black_hole
+		}
+	}
+}
+
+### 
+d_kyber_crystal_3 = {
+	is_for_colonizable = no
+	station = shipclass_mining_station
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			sr_kyber = 3
+		}
+	}
+	drop_weight = {
+		weight = 0
+		modifier = {
+			factor = 3
+			is_planet_class = pc_frozen
+		}
+		modifier = {
+			factor = 0
+			is_asteroid = yes
+		}
+		modifier = {
+			factor = 0
+			is_planet_class = pc_gas_giant
+		}
+		modifier = {
+			factor = 0
+			is_planet_class = pc_nebula_green
+		}
+		modifier = {
+			factor = 0
+			is_planet_class = pc_nebula_red
+		}
+		modifier = {
+			factor = 0
+			is_planet_class = pc_nebula_purple
+		}
+	}
+}
+
+### 
+d_kyber_crystal_4 = {
+	is_for_colonizable = no
+	station = shipclass_mining_station
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			sr_kyber = 4
+		}
+	}
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### 
+d_kyber_crystal_5 = {
+	is_for_colonizable = no
+	station = shipclass_mining_station
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			sr_kyber = 5
+		}
+	}
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### 
+d_agrocite_1 = {
+	is_for_colonizable = no
+	station = shipclass_mining_station
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			sr_agrocite = 1
+		}
+	}
+	drop_weight = {
+		weight = 0.1
+		modifier = {
+			factor = 0.5
+			OR = {
+				is_planet_class = pc_molten
+				is_planet_class = pc_toxic
+				is_planet_class = pc_frozen
+			}
+		}
+		modifier = {
+			factor = 2
+			is_asteroid = yes
+		}
+	}
+}
+
+### 
+d_agrocite_2 = {
+	is_for_colonizable = no
+	station = shipclass_mining_station
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			sr_agrocite = 2
+		}
+	}
+	drop_weight = {
+		weight = 0.05
+		modifier = {
+			factor = 0.5
+			OR = {
+				is_planet_class = pc_molten
+				is_planet_class = pc_toxic
+				is_planet_class = pc_frozen
+			}
+		}
+		modifier = {
+			factor = 2
+			is_asteroid = yes
+		}
+	}
+}
+
+### 
+d_agrocite_3 = {
+	is_for_colonizable = no
+	station = shipclass_mining_station
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			sr_agrocite = 3
+		}
+	}
+	drop_weight = {
+		weight = 0.01
+		modifier = {
+			factor = 0.5
+			OR = {
+				is_planet_class = pc_molten
+				is_planet_class = pc_toxic
+				is_planet_class = pc_frozen
+			}
+		}
+		modifier = {
+			factor = 2
+			is_asteroid = yes
+		}
+	}
+}
+
+### 
+d_agrocite_4 = {
+	is_for_colonizable = no
+	station = shipclass_mining_station
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			sr_agrocite = 4
+		}
+	}
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### 
+d_agrocite_5 = {
+	is_for_colonizable = no
+	station = shipclass_mining_station
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			sr_agrocite = 5
+		}
+	}
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### 
+d_infestation = {
+	is_for_colonizable = yes
+	planet_modifier = {
+		planet_max_districts_add = -1
+	}
+	potential = {
+		always = no
+	}
+	time = 100
+	category = deposit_cat_blockers
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 300
+		}
+	}
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### 
+d_quarantine_zone = {
+	is_for_colonizable = yes
+	planet_modifier = {
+		planet_max_districts_add = -1
+	}
+	potential = {
+		always = no
+	}
+	time = 100
+	category = deposit_cat_blockers
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 300
+		}
+	}
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### 
+d_slums = {
+	is_for_colonizable = yes
+	planet_modifier = {
+		planet_max_districts_add = -1
+	}
+	time = 100
+	category = deposit_cat_blockers
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 300
+		}
+	}
+	drop_weight = {
+		weight = 2
+		modifier = {
+			factor = 10
+			is_planet_class = pc_ecumenopolis_ruined
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_deep_space_station
+				is_planet_class = pc_cloud_city
+				is_planet_class = pc_polis_massa
+			}
+		}
+	}
+	ai_weight = {
+		weight = 1
+	}
+}
+
+d_exofungus_blocker = {
+	is_for_colonizable = yes
+	icon = d_infestation
+	planet_modifier = {
+		planet_max_districts_add = -1
+	}
+	potential = {
+		always = no
+	}
+	time = 120
+	category = deposit_cat_blockers
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 500
+		}
+	}
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### 
+d_living_subterraneans = {
+	is_for_colonizable = yes
+	icon = d_slums
+	potential = {
+		always = no
+	}
+	time = 120
+	category = deposit_cat_blockers
+	can_be_cleared = {
+		always = no
+	}
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### 
+d_dead_subterraneans = {
+	is_for_colonizable = yes
+	icon = d_deep_sinkhole
+	potential = {
+		always = no
+	}
+	time = 100
+	category = deposit_cat_blockers
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 300
+		}
+	}
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### Spice Deposits ###
+d_spice_raw_1 = {
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			spice = 1
+		}
+	}
+	station = shipclass_mining_station
+	is_for_colonizable = no
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_spice_raw_2 = {
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			spice = 2
+		}
+	}
+	station = shipclass_mining_station
+	is_for_colonizable = no
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_spice_raw_3 = {
+	resources = {
+		category = orbital_mining_deposits
+		produces = {
+			spice = 3
+		}
+	}
+	station = shipclass_mining_station
+	is_for_colonizable = no
+	drop_weight = {
+		weight = 0
+	}
+}
+
+# ### Abandoned Droid Factory ###
+# d_abandoned_droid_foundry= {
+# 	is_for_colonizable = yes
+# 	icon = d_droid_foundry
+# 	planet_modifier = {
+# 		planet_jobs_engineering_research_produces_mult = 0.25
+# 	}
+# 	potential = {
+# 		always = yes
+# 	}
+# 	category = deposit_cat_rare
+# 	drop_weight = {
+# 		weight = 0.01
+# 	}
+# }
+
+# ## Abandoned Separatist Factory ###
+# d_abandoned_separatist_factory = {
+# 	is_for_colonizable = yes
+# 	icon = d_droid_foundry
+# 	resources = {
+# 		category = planet_deposits
+# 		produces = {
+# 			alloys = 2
+# 			electronics = 1
+# 		}
+# 	}
+# 	potential = {
+# 		always = yes
+# 	}
+# 	category = deposit_cat_rare
+# 	drop_weight = {
+# 		weight = 0.01
+# 	}
+# }
+
+# ### Abandoned Republic Base ###
+# d_abandoned_republic_base = { 
+# 	is_for_colonizable = yes
+# 	icon = d_droid_foundry
+# 	resources = {
+# 		category = planet_deposits
+# 		produces = {
+# 			electronics = 2
+# 			ammunition = 1
+# 		}
+# 	}
+# 	potential = {
+# 		always = yes
+# 	}
+# 	category = deposit_cat_rare
+# 	drop_weight = {
+# 		weight = 0.01
+# 	}
+# }

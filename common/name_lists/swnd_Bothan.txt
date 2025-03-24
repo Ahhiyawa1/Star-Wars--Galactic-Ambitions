@@ -1,0 +1,841 @@
+﻿Bothan = {
+	randomized = no
+	ship_names = {
+		generic = {
+			BOTHAN_SHIP_dicer BOTHAN_SHIP_masquerade BOTHAN_SHIP_jeswandi BOTHAN_SHIP_assailant BOTHAN_SHIP_stony_path BOTHAN_SHIP_blue_flare BOTHAN_SHIP_silver_fur BOTHAN_SHIP_brand_of_haskit BOTHAN_SHIP_ralroost BOTHAN_SHIP_ghost BOTHAN_SHIP_silencer BOTHAN_SHIP_fire_of_lukaze BOTHAN_SHIP_suprosa BOTHAN_SHIP_salvation BOTHAN_SHIP_boash_ua BOTHAN_SHIP_resistance BOTHAN_SHIP_avengeance BOTHAN_SHIP_night_caller BOTHAN_SHIP_blackmoon BOTHAN_SHIP_lancer BOTHAN_SHIP_justice BOTHAN_SHIP_fire_eater BOTHAN_SHIP_martyr_s_call BOTHAN_SHIP_crusader BOTHAN_SHIP_commando BOTHAN_SHIP_guerilla BOTHAN_SHIP_operator BOTHAN_SHIP_commandment BOTHAN_SHIP_saboteur BOTHAN_SHIP_blackfur BOTHAN_SHIP_daggerfall BOTHAN_SHIP_verifier BOTHAN_SHIP_usurper BOTHAN_SHIP_ambition BOTHAN_SHIP_rylle_vak BOTHAN_SHIP_rhyde_vak BOTHAN_SHIP_skar_kla BOTHAN_SHIP_sky_dragon BOTHAN_SHIP_krak_jya BOTHAN_SHIP_determinant BOTHAN_SHIP_purposeful BOTHAN_SHIP_memory_of_allusis BOTHAN_SHIP_tiaran_grast BOTHAN_SHIP_fury_of_drev_starn BOTHAN_SHIP_heart_of_kurual_grast BOTHAN_SHIP_handler BOTHAN_SHIP_fifth_column BOTHAN_SHIP_cloaker BOTHAN_SHIP_stiletto BOTHAN_SHIP_garrote BOTHAN_SHIP_kar_shak BOTHAN_SHIP_lue_sang BOTHAN_SHIP_lyaer_tsa BOTHAN_SHIP_petar BOTHAN_SHIP_vamblade BOTHAN_SHIP_slicewire BOTHAN_SHIP_stranglestick BOTHAN_SHIP_strangler BOTHAN_SHIP_warspear BOTHAN_SHIP_zhaboka BOTHAN_SHIP_power_of_knowledge BOTHAN_SHIP_patsy BOTHAN_SHIP_terminator BOTHAN_SHIP_liquidator BOTHAN_SHIP_deception BOTHAN_SHIP_deceptor BOTHAN_SHIP_pretender BOTHAN_SHIP_facade BOTHAN_SHIP_dissimulator BOTHAN_SHIP_subterfuge BOTHAN_SHIP_apparition BOTHAN_SHIP_specter BOTHAN_SHIP_spirit_of_twilight BOTHAN_SHIP_shadow BOTHAN_SHIP_eidolon BOTHAN_SHIP_revenant BOTHAN_SHIP_shade BOTHAN_SHIP_phantasm BOTHAN_SHIP_veil_of_ignorance BOTHAN_SHIP_obscurant BOTHAN_SHIP_midnight_shroud BOTHAN_SHIP_dissembler BOTHAN_SHIP_constancy_of_struggle BOTHAN_SHIP_stinger BOTHAN_SHIP_final_barb BOTHAN_SHIP_finality BOTHAN_SHIP_initative BOTHAN_SHIP_voice_of_reason BOTHAN_SHIP_ar_krai BOTHAN_SHIP_true_victory BOTHAN_SHIP_razor BOTHAN_SHIP_fade BOTHAN_SHIP_precision BOTHAN_SHIP_firestorm BOTHAN_SHIP_initiator BOTHAN_SHIP_drashtine BOTHAN_SHIP_disruptor BOTHAN_SHIP_kothlis_morning BOTHAN_SHIP_wrendui BOTHAN_SHIP_torolis BOTHAN_SHIP_gambit BOTHAN_SHIP_martyrdom BOTHAN_SHIP_sacrifice BOTHAN_SHIP_hecatomb BOTHAN_SHIP_ast_ria BOTHAN_SHIP_botani BOTHAN_SHIP_doomer BOTHAN_SHIP_fastooni BOTHAN_SHIP_fey_lya_s_pride BOTHAN_SHIP_jade BOTHAN_SHIP_starfaring BOTHAN_SHIP_swen BOTHAN_SHIP_tal_cara BOTHAN_SHIP_intruder BOTHAN_SHIP_tauuni BOTHAN_SHIP_timoth BOTHAN_SHIP_4 BOTHAN_SHIP_triuna BOTHAN_SHIP_tuana BOTHAN_SHIP_struggle BOTHAN_SHIP_necessary_evil BOTHAN_SHIP_march_exalted BOTHAN_SHIP_besk BOTHAN_SHIP_karka BOTHAN_SHIP_koth BOTHAN_SHIP_traest_zikri BOTHAN_SHIP_oktrem BOTHAN_SHIP_eshka BOTHAN_SHIP_liska BOTHAN_SHIP_tereez BOTHAN_SHIP_wist BOTHAN_SHIP_sprite BOTHAN_SHIP_ops_nyzh BOTHAN_SHIP_biree BOTHAN_SHIP_bura BOTHAN_SHIP_impossible BOTHAN_SHIP_notorious BOTHAN_SHIP_zero_dark BOTHAN_SHIP_kinetic BOTHAN_SHIP_vantage BOTHAN_SHIP_advantage BOTHAN_SHIP_vanisher BOTHAN_SHIP_charade BOTHAN_SHIP_mirage BOTHAN_SHIP_capricious BOTHAN_SHIP_sanctioned BOTHAN_SHIP_second_protocol BOTHAN_SHIP_conspirator BOTHAN_SHIP_jackal BOTHAN_SHIP_breacher BOTHAN_SHIP_eagle_eye BOTHAN_SHIP_duplicity BOTHAN_SHIP_duplicitous BOTHAN_SHIP_fair_game BOTHAN_SHIP_haywire BOTHAN_SHIP_spyder BOTHAN_SHIP_dusk_eagle BOTHAN_SHIP_flux BOTHAN_SHIP_blacklist BOTHAN_SHIP_notice_of_ignition BOTHAN_SHIP_smiley BOTHAN_SHIP_archer BOTHAN_SHIP_striker BOTHAN_SHIP_treadstone BOTHAN_SHIP_emergent BOTHAN_SHIP_fog_of_war BOTHAN_SHIP_false_face BOTHAN_SHIP_nostrum BOTHAN_SHIP_sea_ghost BOTHAN_SHIP_grey_zhellday BOTHAN_SHIP_prime_of_life BOTHAN_SHIP_grey_eminence BOTHAN_SHIP_flanker BOTHAN_SHIP_daring BOTHAN_SHIP_survivor BOTHAN_SHIP_snow_feather BOTHAN_SHIP_sapper BOTHAN_SHIP_tear_of_the_sun BOTHAN_SHIP_underminer BOTHAN_SHIP_harasser BOTHAN_SHIP_downfall BOTHAN_SHIP_ganjuko BOTHAN_SHIP_halkra BOTHAN_SHIP_velhom_starn BOTHAN_SHIP_liah_starn BOTHAN_SHIP_odve_starn BOTHAN_SHIP_dreel_starn BOTHAN_SHIP_drev_starn BOTHAN_SHIP_holm_starn BOTHAN_SHIP_mesdri_starn BOTHAN_SHIP_rhan_starn BOTHAN_SHIP_sal_vhe_starn BOTHAN_SHIP_greik_eternal BOTHAN_SHIP_hero_of_bothawui BOTHAN_SHIP_warspoken BOTHAN_SHIP_measure_of_necessity BOTHAN_SHIP_visage BOTHAN_SHIP_precision BOTHAN_SHIP_intercessor BOTHAN_SHIP_talisman
+		}
+		science = {
+			BOTHAN_SHIP_crescent BOTHAN_SHIP_diligent BOTHAN_SHIP_informant BOTHAN_SHIP_enigmatic BOTHAN_SHIP_considerator BOTHAN_SHIP_spyder BOTHAN_SHIP_starfarer BOTHAN_SHIP_temerity BOTHAN_SHIP_network_above BOTHAN_SHIP_system_of_alacrity BOTHAN_SHIP_unflinching BOTHAN_SHIP_examiner BOTHAN_SHIP_inspector BOTHAN_SHIP_fiat_lux BOTHAN_SHIP_verifier BOTHAN_SHIP_cold_pursuit
+		}
+		colonizer = {
+			BOTHAN_SHIP_taker_of_dues BOTHAN_SHIP_rightful_place BOTHAN_SHIP_manifest_opportunity BOTHAN_SHIP_necessity BOTHAN_SHIP_potentate_express BOTHAN_SHIP_honor_among_clans BOTHAN_SHIP_colonist_spirit BOTHAN_SHIP_remaker BOTHAN_SHIP_solar_chariot BOTHAN_SHIP_apex_dawn BOTHAN_SHIP_opportunist BOTHAN_SHIP_first_mover BOTHAN_SHIP_warren BOTHAN_SHIP_axial BOTHAN_SHIP_exodus BOTHAN_SHIP_foundation BOTHAN_SHIP_scion_of_both BOTHAN_SHIP_wayward BOTHAN_SHIP_progeny BOTHAN_SHIP_pennance BOTHAN_SHIP_obligation BOTHAN_SHIP_purpose BOTHAN_SHIP_provider BOTHAN_SHIP_greyflower BOTHAN_SHIP_junevine BOTHAN_SHIP_last_call BOTHAN_SHIP_one_way BOTHAN_SHIP_avowed BOTHAN_SHIP_communal BOTHAN_SHIP_foalier
+		}
+		sponsored_colonizer = {
+			BOTHAN_SHIP_taker_of_dues BOTHAN_SHIP_rightful_place BOTHAN_SHIP_manifest_opportunity BOTHAN_SHIP_necessity BOTHAN_SHIP_potentate_express BOTHAN_SHIP_honor_among_clans BOTHAN_SHIP_colonist_spirit BOTHAN_SHIP_remaker BOTHAN_SHIP_solar_chariot BOTHAN_SHIP_apex_dawn BOTHAN_SHIP_opportunist BOTHAN_SHIP_first_mover BOTHAN_SHIP_warren BOTHAN_SHIP_axial BOTHAN_SHIP_exodus BOTHAN_SHIP_foundation BOTHAN_SHIP_scion_of_both BOTHAN_SHIP_wayward BOTHAN_SHIP_progeny BOTHAN_SHIP_pennance BOTHAN_SHIP_obligation BOTHAN_SHIP_purpose BOTHAN_SHIP_provider BOTHAN_SHIP_greyflower BOTHAN_SHIP_junevine BOTHAN_SHIP_last_call BOTHAN_SHIP_one_way BOTHAN_SHIP_avowed BOTHAN_SHIP_communal BOTHAN_SHIP_foalier
+		}
+		constructor = {
+			BOTHAN_SHIP_lathe BOTHAN_SHIP_perfectionist BOTHAN_SHIP_perfector BOTHAN_SHIP_artisan BOTHAN_SHIP_hierophant BOTHAN_SHIP_sculpter BOTHAN_SHIP_grunt_work BOTHAN_SHIP_reshaper BOTHAN_SHIP_oscilacion BOTHAN_SHIP_tessellation BOTHAN_SHIP_girder BOTHAN_SHIP_nexuramus BOTHAN_SHIP_circuiter BOTHAN_SHIP_creator BOTHAN_SHIP_hyperbola BOTHAN_SHIP_gyromancer BOTHAN_SHIP_pseudoist BOTHAN_SHIP_factorial BOTHAN_SHIP_quotient_of_labor BOTHAN_SHIP_algorithm BOTHAN_SHIP_equator BOTHAN_SHIP_accommodator BOTHAN_SHIP_practicality BOTHAN_SHIP_cardinal BOTHAN_SHIP_coefficeint BOTHAN_SHIP_compositor BOTHAN_SHIP_congruent BOTHAN_SHIP_fractal BOTHAN_SHIP_exponentiator BOTHAN_SHIP_curvator BOTHAN_SHIP_logos BOTHAN_SHIP_modulator BOTHAN_SHIP_folly_of_distribution BOTHAN_SHIP_paradox
+		}
+		transport = {
+			BOTHAN_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			BOTHAN_SHIP_spacegun_victory BOTHAN_SHIP_spacegun_success BOTHAN_SHIP_spacegun_supremacy BOTHAN_SHIP_spacegun_superior BOTHAN_SHIP_spacegun_adventure BOTHAN_SHIP_spacegun_ascendancy BOTHAN_SHIP_spacegun_paramount BOTHAN_SHIP_spacegun_preponderous BOTHAN_SHIP_spacegun_exemplary BOTHAN_SHIP_spacegun_eximious BOTHAN_SHIP_spacegun_pertinacity BOTHAN_SHIP_spacegun_acclaim BOTHAN_SHIP_spacegun_honor BOTHAN_SHIP_spacegun_renown BOTHAN_SHIP_spacegun_glory BOTHAN_SHIP_spacegun_superb BOTHAN_SHIP_spacegun_magnificence BOTHAN_SHIP_spacegun_majestic BOTHAN_SHIP_spacegun_splendor BOTHAN_SHIP_spacegun_paradigm BOTHAN_SHIP_spacegun_flawless BOTHAN_SHIP_spacegun_consummate BOTHAN_SHIP_spacegun_merit BOTHAN_SHIP_spacegun_perfection BOTHAN_SHIP_spacegun_virtue BOTHAN_SHIP_spacegun_advantage BOTHAN_SHIP_spacegun_rectitude BOTHAN_SHIP_spacegun_incorruptible BOTHAN_SHIP_spacegun_integrity BOTHAN_SHIP_spacegun_justice BOTHAN_SHIP_spacegun_probity BOTHAN_SHIP_spacegun_prudence BOTHAN_SHIP_spacegun_purity BOTHAN_SHIP_spacegun_resolute BOTHAN_SHIP_spacegun_dignity BOTHAN_SHIP_spacegun_distinction BOTHAN_SHIP_spacegun_excellence BOTHAN_SHIP_spacegun_faithful BOTHAN_SHIP_spacegun_discipline BOTHAN_SHIP_spacegun_steadfast BOTHAN_SHIP_spacegun_recompense BOTHAN_SHIP_spacegun_requiem BOTHAN_SHIP_spacegun_courage BOTHAN_SHIP_spacegun_valor BOTHAN_SHIP_spacegun_gallant BOTHAN_SHIP_spacegun_daring BOTHAN_SHIP_spacegun_constancy BOTHAN_SHIP_spacegun_perseverence BOTHAN_SHIP_spacegun_tenacity BOTHAN_SHIP_spacegun_sedulity BOTHAN_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			BOTHAN_SHIP_spacegun_victory BOTHAN_SHIP_spacegun_success BOTHAN_SHIP_spacegun_supremacy BOTHAN_SHIP_spacegun_superior BOTHAN_SHIP_spacegun_adventure BOTHAN_SHIP_spacegun_ascendancy BOTHAN_SHIP_spacegun_paramount BOTHAN_SHIP_spacegun_preponderous BOTHAN_SHIP_spacegun_exemplary BOTHAN_SHIP_spacegun_eximious BOTHAN_SHIP_spacegun_pertinacity BOTHAN_SHIP_spacegun_acclaim BOTHAN_SHIP_spacegun_honor BOTHAN_SHIP_spacegun_renown BOTHAN_SHIP_spacegun_glory BOTHAN_SHIP_spacegun_superb BOTHAN_SHIP_spacegun_magnificence BOTHAN_SHIP_spacegun_majestic BOTHAN_SHIP_spacegun_splendor BOTHAN_SHIP_spacegun_paradigm BOTHAN_SHIP_spacegun_flawless BOTHAN_SHIP_spacegun_consummate BOTHAN_SHIP_spacegun_merit BOTHAN_SHIP_spacegun_perfection BOTHAN_SHIP_spacegun_virtue BOTHAN_SHIP_spacegun_advantage BOTHAN_SHIP_spacegun_rectitude BOTHAN_SHIP_spacegun_incorruptible BOTHAN_SHIP_spacegun_integrity BOTHAN_SHIP_spacegun_justice BOTHAN_SHIP_spacegun_probity BOTHAN_SHIP_spacegun_prudence BOTHAN_SHIP_spacegun_purity BOTHAN_SHIP_spacegun_resolute BOTHAN_SHIP_spacegun_dignity BOTHAN_SHIP_spacegun_distinction BOTHAN_SHIP_spacegun_excellence BOTHAN_SHIP_spacegun_faithful BOTHAN_SHIP_spacegun_discipline BOTHAN_SHIP_spacegun_steadfast BOTHAN_SHIP_spacegun_recompense BOTHAN_SHIP_spacegun_requiem BOTHAN_SHIP_spacegun_courage BOTHAN_SHIP_spacegun_valor BOTHAN_SHIP_spacegun_gallant BOTHAN_SHIP_spacegun_daring BOTHAN_SHIP_spacegun_constancy BOTHAN_SHIP_spacegun_perseverence BOTHAN_SHIP_spacegun_tenacity BOTHAN_SHIP_spacegun_sedulity BOTHAN_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			BOTHAN_SHIP_spacegun_victory BOTHAN_SHIP_spacegun_success BOTHAN_SHIP_spacegun_supremacy BOTHAN_SHIP_spacegun_superior BOTHAN_SHIP_spacegun_adventure BOTHAN_SHIP_spacegun_ascendancy BOTHAN_SHIP_spacegun_paramount BOTHAN_SHIP_spacegun_preponderous BOTHAN_SHIP_spacegun_exemplary BOTHAN_SHIP_spacegun_eximious BOTHAN_SHIP_spacegun_pertinacity BOTHAN_SHIP_spacegun_acclaim BOTHAN_SHIP_spacegun_honor BOTHAN_SHIP_spacegun_renown BOTHAN_SHIP_spacegun_glory BOTHAN_SHIP_spacegun_superb BOTHAN_SHIP_spacegun_magnificence BOTHAN_SHIP_spacegun_majestic BOTHAN_SHIP_spacegun_splendor BOTHAN_SHIP_spacegun_paradigm BOTHAN_SHIP_spacegun_flawless BOTHAN_SHIP_spacegun_consummate BOTHAN_SHIP_spacegun_merit BOTHAN_SHIP_spacegun_perfection BOTHAN_SHIP_spacegun_virtue BOTHAN_SHIP_spacegun_advantage BOTHAN_SHIP_spacegun_rectitude BOTHAN_SHIP_spacegun_incorruptible BOTHAN_SHIP_spacegun_integrity BOTHAN_SHIP_spacegun_justice BOTHAN_SHIP_spacegun_probity BOTHAN_SHIP_spacegun_prudence BOTHAN_SHIP_spacegun_purity BOTHAN_SHIP_spacegun_resolute BOTHAN_SHIP_spacegun_dignity BOTHAN_SHIP_spacegun_distinction BOTHAN_SHIP_spacegun_excellence BOTHAN_SHIP_spacegun_faithful BOTHAN_SHIP_spacegun_discipline BOTHAN_SHIP_spacegun_steadfast BOTHAN_SHIP_spacegun_recompense BOTHAN_SHIP_spacegun_requiem BOTHAN_SHIP_spacegun_courage BOTHAN_SHIP_spacegun_valor BOTHAN_SHIP_spacegun_gallant BOTHAN_SHIP_spacegun_daring BOTHAN_SHIP_spacegun_constancy BOTHAN_SHIP_spacegun_perseverence BOTHAN_SHIP_spacegun_tenacity BOTHAN_SHIP_spacegun_sedulity BOTHAN_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			BOTHAN_SHIP_outpost BOTHAN_SHIP_blee BOTHAN_SHIP_breil BOTHAN_SHIP_covepi BOTHAN_SHIP_dreel BOTHAN_SHIP_feyve BOTHAN_SHIP_fey BOTHAN_SHIP_gna_shre BOTHAN_SHIP_gre_shev BOTHAN_SHIP_holm BOTHAN_SHIP_kolme BOTHAN_SHIP_liah BOTHAN_SHIP_lktim BOTHAN_SHIP_mesdri BOTHAN_SHIP_navshe BOTHAN_SHIP_odve BOTHAN_SHIP_rhan BOTHAN_SHIP_sal_vhe BOTHAN_SHIP_shevre BOTHAN_SHIP_urval BOTHAN_SHIP_velhom BOTHAN_SHIP_drev BOTHAN_SHIP_starn
+		}
+		ion_cannon = {
+			BOTHAN_SHIP_bombard BOTHAN_SHIP_ballista BOTHAN_SHIP_catapult BOTHAN_SHIP_harpoon BOTHAN_SHIP_polybolos BOTHAN_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			BOTHAN_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			BOTHAN_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			BOTHAN_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			BOTHAN_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			BOTHAN_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			BOTHAN_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			BOTHAN_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			BOTHAN_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			BOTHAN_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			BOTHAN_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			BOTHAN_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			BOTHAN_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			BOTHAN_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			BOTHAN_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			BOTHAN_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			BOTHAN_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			BOTHAN_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			BOTHAN_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			BOTHAN_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			BOTHAN_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			BOTHAN_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			BOTHAN_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			BOTHAN_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			BOTHAN_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			BOTHAN_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			BOTHAN_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			BOTHAN_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			BOTHAN_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			BOTHAN_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			BOTHAN_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			BOTHAN_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			BOTHAN_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			BOTHAN_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			BOTHAN_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			BOTHAN_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			BOTHAN_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			BOTHAN_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			BOTHAN_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			BOTHAN_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			BOTHAN_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			BOTHAN_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			BOTHAN_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			BOTHAN_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			BOTHAN_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			BOTHAN_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			BOTHAN_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			BOTHAN_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			BOTHAN_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			BOTHAN_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			BOTHAN_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			BOTHAN_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			BOTHAN_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			BOTHAN_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			BOTHAN_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			BOTHAN_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			BOTHAN_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			BOTHAN_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			BOTHAN_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			BOTHAN_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			BOTHAN_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			BOTHAN_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			BOTHAN_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			BOTHAN_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			BOTHAN_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			BOTHAN_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			BOTHAN_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			BOTHAN_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			BOTHAN_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			BOTHAN_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			BOTHAN_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			BOTHAN_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			BOTHAN_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			BOTHAN_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			BOTHAN_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			BOTHAN_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			BOTHAN_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			BOTHAN_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			BOTHAN_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			BOTHAN_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			BOTHAN_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			BOTHAN_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			BOTHAN_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			BOTHAN_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			BOTHAN_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			BOTHAN_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			BOTHAN_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			BOTHAN_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			BOTHAN_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			BOTHAN_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			BOTHAN_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			BOTHAN_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			BOTHAN_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			BOTHAN_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			BOTHAN_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = BOTHAN_FLEET_response_element_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = BOTHAN_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = BOTHAN_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = BOTHAN_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = BOTHAN_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = BOTHAN_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = BOTHAN_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = BOTHAN_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = BOTHAN_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				BOTHAN_ARMY_sarc_a__gladiators_ BOTHAN_ARMY_sarc_b__widowmakers_ BOTHAN_ARMY_sarc_c__immortals_ BOTHAN_ARMY_sarc_d__berserkers_ BOTHAN_ARMY_sarc_e__assassins_ BOTHAN_ARMY_sarc_f__reapers_ BOTHAN_ARMY_sarc_g__nighthawks_ BOTHAN_ARMY_sarc_h__desperados_ BOTHAN_ARMY_sarc_i__grey_knights_ BOTHAN_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = BOTHAN_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = BOTHAN_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = BOTHAN_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = BOTHAN_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = BOTHAN_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = BOTHAN_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = BOTHAN_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = BOTHAN_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = BOTHAN_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = BOTHAN_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = BOTHAN_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = BOTHAN_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = BOTHAN_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = BOTHAN_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = BOTHAN_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = BOTHAN_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = BOTHAN_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = BOTHAN_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = BOTHAN_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = BOTHAN_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = BOTHAN_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = BOTHAN_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = BOTHAN_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = BOTHAN_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = BOTHAN_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = BOTHAN_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = BOTHAN_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = BOTHAN_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = BOTHAN_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = BOTHAN_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = BOTHAN_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = BOTHAN_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = BOTHAN_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = BOTHAN_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = BOTHAN_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = BOTHAN_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = BOTHAN_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = BOTHAN_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = BOTHAN_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = BOTHAN_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = BOTHAN_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = BOTHAN_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = BOTHAN_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = BOTHAN_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = BOTHAN_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = BOTHAN_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = BOTHAN_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = BOTHAN_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = BOTHAN_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = BOTHAN_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = BOTHAN_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = BOTHAN_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = BOTHAN_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = BOTHAN_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = BOTHAN_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = BOTHAN_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = BOTHAN_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = BOTHAN_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = BOTHAN_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = BOTHAN_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = BOTHAN_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = BOTHAN_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = BOTHAN_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = BOTHAN_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = BOTHAN_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = BOTHAN_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = BOTHAN_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = BOTHAN_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = BOTHAN_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = BOTHAN_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = BOTHAN_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = BOTHAN_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = BOTHAN_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = BOTHAN_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = BOTHAN_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = BOTHAN_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = BOTHAN_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = BOTHAN_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = BOTHAN_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = BOTHAN_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = BOTHAN_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = BOTHAN_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = BOTHAN_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = BOTHAN_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = BOTHAN_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = BOTHAN_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = BOTHAN_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = BOTHAN_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = BOTHAN_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = BOTHAN_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = BOTHAN_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = BOTHAN_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = BOTHAN_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = BOTHAN_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = BOTHAN_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = BOTHAN_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = BOTHAN_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = BOTHAN_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = BOTHAN_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = BOTHAN_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = BOTHAN_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = BOTHAN_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = BOTHAN_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = BOTHAN_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = BOTHAN_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = BOTHAN_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = BOTHAN_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = BOTHAN_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = BOTHAN_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = BOTHAN_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = BOTHAN_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = BOTHAN_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = BOTHAN_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = BOTHAN_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = BOTHAN_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = BOTHAN_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = BOTHAN_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = BOTHAN_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = BOTHAN_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = BOTHAN_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = BOTHAN_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = BOTHAN_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = BOTHAN_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = BOTHAN_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = BOTHAN_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = BOTHAN_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = BOTHAN_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = BOTHAN_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = BOTHAN_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = BOTHAN_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = BOTHAN_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = BOTHAN_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = BOTHAN_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				BOTHAN_CHR_tereb BOTHAN_CHR_fen BOTHAN_CHR_shrithek BOTHAN_CHR_bey_wan BOTHAN_CHR_herosk BOTHAN_CHR_eddey BOTHAN_CHR_taak BOTHAN_CHR_eelo BOTHAN_CHR_nysis BOTHAN_CHR_geay BOTHAN_CHR_champhra BOTHAN_CHR_toric BOTHAN_CHR_sli_woon BOTHAN_CHR_kamtis BOTHAN_CHR_elwis BOTHAN_CHR_tav BOTHAN_CHR_arkhan BOTHAN_CHR_gursan BOTHAN_CHR_varesk BOTHAN_CHR_eramuth BOTHAN_CHR_nek BOTHAN_CHR_yantahar BOTHAN_CHR_obrio BOTHAN_CHR_corl_ya BOTHAN_CHR_aren BOTHAN_CHR_dakkar BOTHAN_CHR_karka BOTHAN_CHR_laryn BOTHAN_CHR_moss BOTHAN_CHR_fadulk BOTHAN_CHR_dravos BOTHAN_CHR_tiurrg BOTHAN_CHR_kalibar BOTHAN_CHR_liskran BOTHAN_CHR_sayar BOTHAN_CHR_byalfin BOTHAN_CHR_girov BOTHAN_CHR_eocade BOTHAN_CHR_mak BOTHAN_CHR_korowee BOTHAN_CHR_korsin__the_spyder_ BOTHAN_CHR_tchaw BOTHAN_CHR_bal BOTHAN_CHR_golm BOTHAN_CHR_torel BOTHAN_CHR_borsk BOTHAN_CHR_desark BOTHAN_CHR_oneron BOTHAN_CHR_rolai BOTHAN_CHR_galody BOTHAN_CHR_garul BOTHAN_CHR_jaylon BOTHAN_CHR_grendu BOTHAN_CHR_hawj BOTHAN_CHR_kai BOTHAN_CHR_tresk BOTHAN_CHR_rund BOTHAN_CHR_lith BOTHAN_CHR_tathak BOTHAN_CHR_narsk BOTHAN_CHR_soor BOTHAN_CHR_kasck BOTHAN_CHR_breggs BOTHAN_CHR_wesk BOTHAN_CHR_traest BOTHAN_CHR_crost BOTHAN_CHR_siv_rool BOTHAN_CHR_krask_ka BOTHAN_CHR_ne_wha BOTHAN_CHR_tensh BOTHAN_CHR_bem BOTHAN_CHR_kursk BOTHAN_CHR_koth BOTHAN_CHR_merkur BOTHAN_CHR_hyx BOTHAN_CHR_bandor BOTHAN_CHR_moril BOTHAN_CHR_betrek BOTHAN_CHR_velst BOTHAN_CHR_kutri BOTHAN_CHR_ceok BOTHAN_CHR_oryon BOTHAN_CHR_ota BOTHAN_CHR_mish BOTHAN_CHR_pobos BOTHAN_CHR_salix BOTHAN_CHR_utric BOTHAN_CHR_avke BOTHAN_CHR_polo BOTHAN_CHR_mak BOTHAN_CHR_gatrar BOTHAN_CHR_sihha BOTHAN_CHR_corask BOTHAN_CHR_snayd BOTHAN_CHR_staarn BOTHAN_CHR_diskret BOTHAN_CHR_sunnim BOTHAN_CHR_ch_ord BOTHAN_CHR_yur BOTHAN_CHR_breyf BOTHAN_CHR_vin BOTHAN_CHR_wachs BOTHAN_CHR_skaelor BOTHAN_CHR_morst BOTHAN_CHR_eurrsk BOTHAN_CHR_ne_thruska BOTHAN_CHR_diss BOTHAN_CHR_tirossk BOTHAN_CHR_trask BOTHAN_CHR_savielk BOTHAN_CHR_hosk BOTHAN_CHR_chaw BOTHAN_CHR_arenecio BOTHAN_CHR_arkis BOTHAN_CHR_knol BOTHAN_CHR_karaksk BOTHAN_CHR_peshk BOTHAN_CHR_yas_tua BOTHAN_CHR_borsk
+			}
+			first_names_female = {
+				BOTHAN_CHR_jennalyn BOTHAN_CHR_saiga BOTHAN_CHR_bie BOTHAN_CHR_cidri BOTHAN_CHR_henna BOTHAN_CHR_liska BOTHAN_CHR_asyr BOTHAN_CHR_maxeena BOTHAN_CHR_tereez BOTHAN_CHR_edue BOTHAN_CHR_escra BOTHAN_CHR_sona BOTHAN_CHR_lercer BOTHAN_CHR_kiyr BOTHAN_CHR_glynn_beti BOTHAN_CHR_haskit BOTHAN_CHR_hev_sin BOTHAN_CHR_kolir BOTHAN_CHR_jural BOTHAN_CHR_brona BOTHAN_CHR_fenn BOTHAN_CHR_rasher BOTHAN_CHR_prisk BOTHAN_CHR_talva BOTHAN_CHR_shayl BOTHAN_CHR_leika BOTHAN_CHR_lelsk BOTHAN_CHR_masi BOTHAN_CHR_vella BOTHAN_CHR_jovel BOTHAN_CHR_sola BOTHAN_CHR_erisi BOTHAN_CHR_rhuiw BOTHAN_CHR_yaqeel BOTHAN_CHR_aja BOTHAN_CHR_serissu BOTHAN_CHR_shan_ri BOTHAN_CHR_loza BOTHAN_CHR_linay BOTHAN_CHR_cuan BOTHAN_CHR_rava BOTHAN_CHR_fara BOTHAN_CHR_nwilla BOTHAN_CHR_trass BOTHAN_CHR_tryn BOTHAN_CHR_talya BOTHAN_CHR_silm_an BOTHAN_CHR_karka BOTHAN_CHR_ysa_i
+			}
+			second_names = {
+				BOTHAN_CHR_ab_lon BOTHAN_CHR_ackdo BOTHAN_CHR_al_lya BOTHAN_CHR_arr_yka BOTHAN_CHR_aygo BOTHAN_CHR_ba_tra BOTHAN_CHR_babo BOTHAN_CHR_bal_far BOTHAN_CHR_banno BOTHAN_CHR_be_ray BOTHAN_CHR_fey_la BOTHAN_CHR_begrass BOTHAN_CHR_belzara BOTHAN_CHR_ber_atta BOTHAN_CHR_biahin BOTHAN_CHR_bisilt BOTHAN_CHR_biul BOTHAN_CHR_bonai BOTHAN_CHR_bontraar BOTHAN_CHR_breil_lya BOTHAN_CHR_brem_tu BOTHAN_CHR_bryes BOTHAN_CHR_bura_lya BOTHAN_CHR_bwua_tu BOTHAN_CHR_caldori BOTHAN_CHR_d_nore BOTHAN_CHR_d_skaun BOTHAN_CHR_dan_kre BOTHAN_CHR_sei_lar BOTHAN_CHR_kre_fey BOTHAN_CHR_davian BOTHAN_CHR_dee_hars BOTHAN_CHR_deevers BOTHAN_CHR_di_keer BOTHAN_CHR_sov_lya BOTHAN_CHR_drey_lye BOTHAN_CHR_droosh BOTHAN_CHR_dulce BOTHAN_CHR_dun_la BOTHAN_CHR_dyur BOTHAN_CHR_dza_lar BOTHAN_CHR_dza_tey BOTHAN_CHR_eshka_rey BOTHAN_CHR_essumon BOTHAN_CHR_fa_lorn BOTHAN_CHR_fendo BOTHAN_CHR_fenn BOTHAN_CHR_ferensil BOTHAN_CHR_fey_jia BOTHAN_CHR_fey_lya BOTHAN_CHR_fil_vye BOTHAN_CHR_frac BOTHAN_CHR_for_o BOTHAN_CHR_gaia BOTHAN_CHR_gass_kin BOTHAN_CHR_geissler BOTHAN_CHR_gir_sku BOTHAN_CHR_grai_tvo BOTHAN_CHR_grym BOTHAN_CHR_hu_lya BOTHAN_CHR_hudorra BOTHAN_CHR_im_nel BOTHAN_CHR_jes_ela BOTHAN_CHR_jid_yda BOTHAN_CHR_kalis BOTHAN_CHR_k_roylan BOTHAN_CHR_ka_hane BOTHAN_CHR_kal_ir BOTHAN_CHR_kand_lar BOTHAN_CHR_kay_lay BOTHAN_CHR_ke_e BOTHAN_CHR_ker_tani BOTHAN_CHR_kit_pay BOTHAN_CHR_kith_vys BOTHAN_CHR_ko_lib BOTHAN_CHR_ko_patha BOTHAN_CHR_le_tah BOTHAN_CHR_lib_eyay BOTHAN_CHR_lo_lar BOTHAN_CHR_lua_wan BOTHAN_CHR_lukaze BOTHAN_CHR_ly_alu BOTHAN_CHR_lyu_kij BOTHAN_CHR_mal_ia BOTHAN_CHR_qual BOTHAN_CHR_melan BOTHAN_CHR_modant BOTHAN_CHR_morv_vyal BOTHAN_CHR_moy_nast BOTHAN_CHR_moyan BOTHAN_CHR_nay_sro BOTHAN_CHR_ni_mai BOTHAN_CHR_nial BOTHAN_CHR_nitram BOTHAN_CHR_nosconda BOTHAN_CHR_o_a BOTHAN_CHR_orou_cya BOTHAN_CHR_paht BOTHAN_CHR_pers_lya BOTHAN_CHR_proy_skyn BOTHAN_CHR_rayl_skar BOTHAN_CHR_reh_mwa BOTHAN_CHR_saav_etu BOTHAN_CHR_sandov BOTHAN_CHR_saz_ula BOTHAN_CHR_se_lab BOTHAN_CHR_sezala BOTHAN_CHR_shey_tyan BOTHAN_CHR_sil_ban BOTHAN_CHR_sind_lir BOTHAN_CHR_slen_da BOTHAN_CHR_stahn BOTHAN_CHR_sy_fon BOTHAN_CHR_t_aug BOTHAN_CHR_t_dawlish BOTHAN_CHR_tal_benes BOTHAN_CHR_tosk_tar_ilya BOTHAN_CHR_tauph BOTHAN_CHR_tay BOTHAN_CHR_tayl_skar BOTHAN_CHR_te_tell BOTHAN_CHR_teb_lya BOTHAN_CHR_tey_flah BOTHAN_CHR_thar_lyat BOTHAN_CHR_thri_ag BOTHAN_CHR_ti_wyn BOTHAN_CHR_trell_yar BOTHAN_CHR_trey_dra BOTHAN_CHR_trey_lis BOTHAN_CHR_tri_byia BOTHAN_CHR_troillya BOTHAN_CHR_ulvaw_op BOTHAN_CHR_ur_etu BOTHAN_CHR_v_laenya BOTHAN_CHR_ven_nari BOTHAN_CHR_vet_lya BOTHAN_CHR_vord_lya BOTHAN_CHR_vri_skar BOTHAN_CHR_vri_syk BOTHAN_CHR_wurf_al
+			}
+			regnal_first_names_male = {
+				BOTHAN_CHR_taak BOTHAN_CHR_nek BOTHAN_CHR_sayar BOTHAN_CHR_kai BOTHAN_CHR_tresk BOTHAN_CHR_traest BOTHAN_CHR_koth BOTHAN_CHR_ceok BOTHAN_CHR_gatrar BOTHAN_CHR_borsk
+			}
+			regnal_first_names_female = {
+				BOTHAN_CHR_saiga BOTHAN_CHR_asyr BOTHAN_CHR_haskit BOTHAN_CHR_jovel BOTHAN_CHR_talya BOTHAN_CHR_talva BOTHAN_CHR_aja BOTHAN_CHR_shan_ri BOTHAN_CHR_karka BOTHAN_CHR_jennala
+			}
+			regnal_second_names = {
+				BOTHAN_CHR_fey_la BOTHAN_CHR_breil_lya BOTHAN_CHR_sei_lar BOTHAN_CHR_kre_fey BOTHAN_CHR_drey_lye BOTHAN_CHR_fey_lya BOTHAN_CHR_orou_cya BOTHAN_CHR_shey_tyan BOTHAN_CHR_vri_syk BOTHAN_CHR_trey_lis BOTHAN_CHR_tayl_skar BOTHAN_CHR_se_lab BOTHAN_CHR_reh_mwa
+			}
+		}
+	}
+}

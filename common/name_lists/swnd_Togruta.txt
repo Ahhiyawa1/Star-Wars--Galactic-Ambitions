@@ -1,0 +1,844 @@
+﻿Togruta = {
+	randomized = no
+	ship_names = {
+		generic = {
+			TOGRUTA_SHIP_mystic TOGRUTA_SHIP_naiad TOGRUTA_SHIP_nautilus TOGRUTA_SHIP_nebula TOGRUTA_SHIP_nimble TOGRUTA_SHIP_north_star TOGRUTA_SHIP_nymph TOGRUTA_SHIP_obdurate TOGRUTA_SHIP_ocean TOGRUTA_SHIP_onward TOGRUTA_SHIP_oracle TOGRUTA_SHIP_paradox TOGRUTA_SHIP_paragon TOGRUTA_SHIP_pearl TOGRUTA_SHIP_peregrine TOGRUTA_SHIP_perseverance TOGRUTA_SHIP_marksman TOGRUTA_SHIP_rifleman TOGRUTA_SHIP_sniper TOGRUTA_SHIP_trident TOGRUTA_SHIP_trumpet TOGRUTA_SHIP_truncheon TOGRUTA_SHIP_typhoon TOGRUTA_SHIP_undaunted TOGRUTA_SHIP_venture TOGRUTA_SHIP_versatile TOGRUTA_SHIP_vigorous TOGRUTA_SHIP_viper TOGRUTA_SHIP_vivacious TOGRUTA_SHIP_winger TOGRUTA_SHIP_wizard TOGRUTA_SHIP_wyvern TOGRUTA_SHIP_wolfhound TOGRUTA_SHIP_devastator TOGRUTA_SHIP_warhammer TOGRUTA_SHIP_retribution TOGRUTA_SHIP_senator TOGRUTA_SHIP_tornado TOGRUTA_SHIP_infinity TOGRUTA_SHIP_usurper TOGRUTA_SHIP_utmost TOGRUTA_SHIP_valorous TOGRUTA_SHIP_whirlwind TOGRUTA_SHIP_athena TOGRUTA_SHIP_artemis TOGRUTA_SHIP_vigilance TOGRUTA_SHIP_decimator TOGRUTA_SHIP_indomitable TOGRUTA_SHIP_goliath TOGRUTA_SHIP_sentinel TOGRUTA_SHIP_brilliant TOGRUTA_SHIP_blazer TOGRUTA_SHIP_audacity TOGRUTA_SHIP_gallant TOGRUTA_SHIP_nova TOGRUTA_SHIP_shadow TOGRUTA_SHIP_allegiance TOGRUTA_SHIP_challenger TOGRUTA_SHIP_fearless TOGRUTA_SHIP_protector TOGRUTA_SHIP_guardian TOGRUTA_SHIP_victorious TOGRUTA_SHIP_courageous TOGRUTA_SHIP_defiance TOGRUTA_SHIP_valorous TOGRUTA_SHIP_azrael TOGRUTA_SHIP_adamantine TOGRUTA_SHIP_aralanni TOGRUTA_SHIP_ardent_iv TOGRUTA_SHIP_armistice TOGRUTA_SHIP_avengeance TOGRUTA_SHIP_ballista TOGRUTA_SHIP_bloodstripe TOGRUTA_SHIP_borealis TOGRUTA_SHIP_caelus TOGRUTA_SHIP_caravan TOGRUTA_SHIP_chaf_envoy TOGRUTA_SHIP_commenor TOGRUTA_SHIP_corbantis TOGRUTA_SHIP_corellia TOGRUTA_SHIP_courteous TOGRUTA_SHIP_dauntless TOGRUTA_SHIP_defiant TOGRUTA_SHIP_deliverance TOGRUTA_SHIP_derapha TOGRUTA_SHIP_devout TOGRUTA_SHIP_empirical TOGRUTA_SHIP_empyrean TOGRUTA_SHIP_era_daimanos TOGRUTA_SHIP_eye_of_the_storm TOGRUTA_SHIP_farstar TOGRUTA_SHIP_fastblast TOGRUTA_SHIP_galaaron TOGRUTA_SHIP_garrote TOGRUTA_SHIP_gilagimar TOGRUTA_SHIP_halleck TOGRUTA_SHIP_hunter TOGRUTA_SHIP_intractable TOGRUTA_SHIP_ithor_lady TOGRUTA_SHIP_justice_crusader TOGRUTA_SHIP_kana_s_steel TOGRUTA_SHIP_lathir TOGRUTA_SHIP_liberty TOGRUTA_SHIP_lillibanca TOGRUTA_SHIP_maelstrom TOGRUTA_SHIP_malachite_scent TOGRUTA_SHIP_mercy TOGRUTA_SHIP_myrkos TOGRUTA_SHIP_nebula_chaser TOGRUTA_SHIP_nova TOGRUTA_SHIP_nova_viper TOGRUTA_SHIP_obedience TOGRUTA_SHIP_olemp TOGRUTA_SHIP_pegasus TOGRUTA_SHIP_perspicacity TOGRUTA_SHIP_phalanx TOGRUTA_SHIP_plooriod_bodkin TOGRUTA_SHIP_predominance TOGRUTA_SHIP_prosperity TOGRUTA_SHIP_purity TOGRUTA_SHIP_recalcitrant TOGRUTA_SHIP_red_nova TOGRUTA_SHIP_redma TOGRUTA_SHIP_reliable TOGRUTA_SHIP_reliant TOGRUTA_SHIP_reluctant TOGRUTA_SHIP_republic TOGRUTA_SHIP_republic_s_return TOGRUTA_SHIP_resolve TOGRUTA_SHIP_respectable TOGRUTA_SHIP_revenge TOGRUTA_SHIP_shadowblade TOGRUTA_SHIP_spritespray TOGRUTA_SHIP_star_dream TOGRUTA_SHIP_stark_wing TOGRUTA_SHIP_starveil TOGRUTA_SHIP_undying TOGRUTA_SHIP_vaathkree TOGRUTA_SHIP_vainglorious TOGRUTA_SHIP_valiant TOGRUTA_SHIP_valor TOGRUTA_SHIP_vanquisher TOGRUTA_SHIP_vinsor TOGRUTA_SHIP_visseon TOGRUTA_SHIP_wennis TOGRUTA_SHIP_yavin_s_glory TOGRUTA_SHIP_moldy_crow TOGRUTA_SHIP_raven_s_claw TOGRUTA_SHIP_agile TOGRUTA_SHIP_archer TOGRUTA_SHIP_arrow TOGRUTA_SHIP_bruiser TOGRUTA_SHIP_cherub TOGRUTA_SHIP_chimera TOGRUTA_SHIP_claymore TOGRUTA_SHIP_broadsword TOGRUTA_SHIP_battleaxe TOGRUTA_SHIP_crossbow TOGRUTA_SHIP_cutlass TOGRUTA_SHIP_deterrent TOGRUTA_SHIP_errant TOGRUTA_SHIP_faithful TOGRUTA_SHIP_fierce TOGRUTA_SHIP_gladius TOGRUTA_SHIP_longbow TOGRUTA_SHIP_grappler TOGRUTA_SHIP_hammer TOGRUTA_SHIP_vampire TOGRUTA_SHIP_velox TOGRUTA_SHIP_venator TOGRUTA_SHIP_vendetta TOGRUTA_SHIP_venerable TOGRUTA_SHIP_venomous TOGRUTA_SHIP_taciturn TOGRUTA_SHIP_supreme TOGRUTA_SHIP_success TOGRUTA_SHIP_shredder TOGRUTA_SHIP_seraph TOGRUTA_SHIP_serpent TOGRUTA_SHIP_spitfire TOGRUTA_SHIP_stalker TOGRUTA_SHIP_stratagem TOGRUTA_SHIP_scimitar TOGRUTA_SHIP_scorcher TOGRUTA_SHIP_scourge TOGRUTA_SHIP_scythe TOGRUTA_SHIP_revenant TOGRUTA_SHIP_redoubtable TOGRUTA_SHIP_raptor TOGRUTA_SHIP_reaver TOGRUTA_SHIP_prodigal TOGRUTA_SHIP_rapier TOGRUTA_SHIP_prudent TOGRUTA_SHIP_persistent TOGRUTA_SHIP_peerless TOGRUTA_SHIP_myrmidon TOGRUTA_SHIP_indignant TOGRUTA_SHIP_javelin TOGRUTA_SHIP_knight TOGRUTA_SHIP_starwolf TOGRUTA_SHIP_bonaventure TOGRUTA_SHIP_adventure TOGRUTA_SHIP_boxer TOGRUTA_SHIP_buccaneer TOGRUTA_SHIP_cavalier TOGRUTA_SHIP_celestial TOGRUTA_SHIP_chariot TOGRUTA_SHIP_comet TOGRUTA_SHIP_crucible TOGRUTA_SHIP_cyclone TOGRUTA_SHIP_decisive TOGRUTA_SHIP_dexterous TOGRUTA_SHIP_diadem TOGRUTA_SHIP_earnest TOGRUTA_SHIP_eclipse TOGRUTA_SHIP_forger TOGRUTA_SHIP_fortune TOGRUTA_SHIP_gauntlet TOGRUTA_SHIP_griffin TOGRUTA_SHIP_horizon TOGRUTA_SHIP_hotspur TOGRUTA_SHIP_hurricane TOGRUTA_SHIP_hussar TOGRUTA_SHIP_jubilant TOGRUTA_SHIP_lancer TOGRUTA_SHIP_lightning TOGRUTA_SHIP_magic TOGRUTA_SHIP_mediator TOGRUTA_SHIP_mermaid TOGRUTA_SHIP_meteor TOGRUTA_SHIP_minstrel TOGRUTA_SHIP_miranda TOGRUTA_SHIP_mustang TOGRUTA_SHIP_sharpshooter TOGRUTA_SHIP_cyclops TOGRUTA_SHIP_centaur TOGRUTA_SHIP_adversary TOGRUTA_SHIP_assassin TOGRUTA_SHIP_dagger TOGRUTA_SHIP_daring TOGRUTA_SHIP_duty TOGRUTA_SHIP_havoc TOGRUTA_SHIP_hero TOGRUTA_SHIP_hunter TOGRUTA_SHIP_justice TOGRUTA_SHIP_impeccable TOGRUTA_SHIP_interceptor TOGRUTA_SHIP_infernal TOGRUTA_SHIP_loyal TOGRUTA_SHIP_matchless TOGRUTA_SHIP_mauler TOGRUTA_SHIP_mayhem TOGRUTA_SHIP_malice TOGRUTA_SHIP_menace TOGRUTA_SHIP_merciless TOGRUTA_SHIP_mischief TOGRUTA_SHIP_monarch TOGRUTA_SHIP_patriot TOGRUTA_SHIP_predator TOGRUTA_SHIP_powerful TOGRUTA_SHIP_punisher TOGRUTA_SHIP_ravager TOGRUTA_SHIP_reaper TOGRUTA_SHIP_savage TOGRUTA_SHIP_spiteful TOGRUTA_SHIP_templar TOGRUTA_SHIP_terminator TOGRUTA_SHIP_terror TOGRUTA_SHIP_thrasher TOGRUTA_SHIP_minotaur TOGRUTA_SHIP_manticore TOGRUTA_SHIP_interdictor TOGRUTA_SHIP_intruder TOGRUTA_SHIP_hydra TOGRUTA_SHIP_enfield TOGRUTA_SHIP_harasser TOGRUTA_SHIP_unbeaten TOGRUTA_SHIP_werewolf TOGRUTA_SHIP_zealous TOGRUTA_SHIP_petulant TOGRUTA_SHIP_phantom TOGRUTA_SHIP_phoenix TOGRUTA_SHIP_pike TOGRUTA_SHIP_pursuer TOGRUTA_SHIP_raider TOGRUTA_SHIP_rainbow TOGRUTA_SHIP_rapid TOGRUTA_SHIP_redemption TOGRUTA_SHIP_relentless TOGRUTA_SHIP_rigorous TOGRUTA_SHIP_robust TOGRUTA_SHIP_sabre TOGRUTA_SHIP_salvation TOGRUTA_SHIP_sanguine TOGRUTA_SHIP_scarab TOGRUTA_SHIP_scepter TOGRUTA_SHIP_sea_witch TOGRUTA_SHIP_siren TOGRUTA_SHIP_sorceress TOGRUTA_SHIP_spearhead TOGRUTA_SHIP_specter TOGRUTA_SHIP_spirit TOGRUTA_SHIP_splendid TOGRUTA_SHIP_stallion TOGRUTA_SHIP_stalwart TOGRUTA_SHIP_steadfast TOGRUTA_SHIP_strenuous TOGRUTA_SHIP_superb TOGRUTA_SHIP_supernova TOGRUTA_SHIP_surprise TOGRUTA_SHIP_swiftsure TOGRUTA_SHIP_talent TOGRUTA_SHIP_talisman TOGRUTA_SHIP_talon TOGRUTA_SHIP_taurus TOGRUTA_SHIP_tenacious TOGRUTA_SHIP_thunder_child TOGRUTA_SHIP_thunderous TOGRUTA_SHIP_tireless TOGRUTA_SHIP_trenchant TOGRUTA_SHIP_righteous TOGRUTA_SHIP_acheron TOGRUTA_SHIP_achilles TOGRUTA_SHIP_agamemnon TOGRUTA_SHIP_amphion TOGRUTA_SHIP_aquilon TOGRUTA_SHIP_argonaut TOGRUTA_SHIP_argus TOGRUTA_SHIP_ariel TOGRUTA_SHIP_aurora TOGRUTA_SHIP_avernus TOGRUTA_SHIP_bacchus TOGRUTA_SHIP_bucephalus TOGRUTA_SHIP_calliope TOGRUTA_SHIP_calypso TOGRUTA_SHIP_castor TOGRUTA_SHIP_charybdis TOGRUTA_SHIP_circe TOGRUTA_SHIP_cleopatra TOGRUTA_SHIP_constantine TOGRUTA_SHIP_cordelia TOGRUTA_SHIP_cyrus TOGRUTA_SHIP_damocles TOGRUTA_SHIP_daedalus TOGRUTA_SHIP_darius TOGRUTA_SHIP_diomede TOGRUTA_SHIP_dryad TOGRUTA_SHIP_electra TOGRUTA_SHIP_endymion TOGRUTA_SHIP_erebus TOGRUTA_SHIP_fenris TOGRUTA_SHIP_freya TOGRUTA_SHIP_gilgamesh TOGRUTA_SHIP_gorgon TOGRUTA_SHIP_halcyon TOGRUTA_SHIP_hecate TOGRUTA_SHIP_hector TOGRUTA_SHIP_hesperus TOGRUTA_SHIP_janus TOGRUTA_SHIP_jason TOGRUTA_SHIP_juno TOGRUTA_SHIP_jupiter TOGRUTA_SHIP_lancelot TOGRUTA_SHIP_lazarus TOGRUTA_SHIP_leander TOGRUTA_SHIP_leonidas TOGRUTA_SHIP_lysander TOGRUTA_SHIP_maenad TOGRUTA_SHIP_mars TOGRUTA_SHIP_medea TOGRUTA_SHIP_medusa TOGRUTA_SHIP_menestheus TOGRUTA_SHIP_mercury TOGRUTA_SHIP_merlin TOGRUTA_SHIP_minerva TOGRUTA_SHIP_minos TOGRUTA_SHIP_neptune TOGRUTA_SHIP_nessus TOGRUTA_SHIP_nestor TOGRUTA_SHIP_nimrod TOGRUTA_SHIP_niobe TOGRUTA_SHIP_oberon TOGRUTA_SHIP_odin TOGRUTA_SHIP_ophelia TOGRUTA_SHIP_orestes TOGRUTA_SHIP_orpheus TOGRUTA_SHIP_osiris TOGRUTA_SHIP_pandora TOGRUTA_SHIP_penelope TOGRUTA_SHIP_persephone TOGRUTA_SHIP_perseus TOGRUTA_SHIP_phoebe TOGRUTA_SHIP_pluto TOGRUTA_SHIP_poseidon TOGRUTA_SHIP_proteus TOGRUTA_SHIP_pylades TOGRUTA_SHIP_serapis TOGRUTA_SHIP_stygian TOGRUTA_SHIP_tantalus TOGRUTA_SHIP_telemachus TOGRUTA_SHIP_theseus TOGRUTA_SHIP_thor TOGRUTA_SHIP_trajan TOGRUTA_SHIP_triton TOGRUTA_SHIP_venus TOGRUTA_SHIP_adamant TOGRUTA_SHIP_ardent TOGRUTA_SHIP_assail TOGRUTA_SHIP_austere TOGRUTA_SHIP_archon TOGRUTA_SHIP_adroit TOGRUTA_SHIP_aegis TOGRUTA_SHIP_anchor TOGRUTA_SHIP_corsair TOGRUTA_SHIP_banshee TOGRUTA_SHIP_enchantress TOGRUTA_SHIP_eradicator TOGRUTA_SHIP_tormentor TOGRUTA_SHIP_legion TOGRUTA_SHIP_reprisal TOGRUTA_SHIP_aggressor TOGRUTA_SHIP_assault TOGRUTA_SHIP_eviscerator TOGRUTA_SHIP_imperator TOGRUTA_SHIP_excellence TOGRUTA_SHIP_unrivalled TOGRUTA_SHIP_warlord TOGRUTA_SHIP_vengeance TOGRUTA_SHIP_triumphant TOGRUTA_SHIP_nemesis TOGRUTA_SHIP_avenger TOGRUTA_SHIP_champion TOGRUTA_SHIP_conqueror TOGRUTA_SHIP_crusader TOGRUTA_SHIP_glory TOGRUTA_SHIP_immortal TOGRUTA_SHIP_judicator TOGRUTA_SHIP_vanguard TOGRUTA_SHIP_renown TOGRUTA_SHIP_demolisher TOGRUTA_SHIP_dragon TOGRUTA_SHIP_executor TOGRUTA_SHIP_furious TOGRUTA_SHIP_gladiator TOGRUTA_SHIP_magnificent TOGRUTA_SHIP_ogre TOGRUTA_SHIP_onslaught TOGRUTA_SHIP_revenge TOGRUTA_SHIP_vanquisher TOGRUTA_SHIP_vehement TOGRUTA_SHIP_basilisk TOGRUTA_SHIP_tempest TOGRUTA_SHIP_overlord TOGRUTA_SHIP_warrior TOGRUTA_SHIP_titan TOGRUTA_SHIP_colossus TOGRUTA_SHIP_prometheus TOGRUTA_SHIP_nike TOGRUTA_SHIP_paladin TOGRUTA_SHIP_sovereign TOGRUTA_SHIP_repulse TOGRUTA_SHIP_majestic TOGRUTA_SHIP_avatar TOGRUTA_SHIP_behemoth TOGRUTA_SHIP_centurion TOGRUTA_SHIP_citadel TOGRUTA_SHIP_katana TOGRUTA_SHIP_kraken TOGRUTA_SHIP_cerberus TOGRUTA_SHIP_valkyrie
+		}
+		swp_bellator = {
+			TOGRUTA_SHIP_dreadnought TOGRUTA_SHIP_harbinger TOGRUTA_SHIP_juggernaut TOGRUTA_SHIP_leviathan TOGRUTA_SHIP_hyperion TOGRUTA_SHIP_galatea TOGRUTA_SHIP_ambush TOGRUTA_SHIP_vindicator
+		}
+		science = {
+			TOGRUTA_SHIP_crescent TOGRUTA_SHIP_diligent TOGRUTA_SHIP_zephyr TOGRUTA_SHIP_enigma TOGRUTA_SHIP_conquistador TOGRUTA_SHIP_scylla TOGRUTA_SHIP_arbiter TOGRUTA_SHIP_asperity TOGRUTA_SHIP_eminence TOGRUTA_SHIP_astute TOGRUTA_SHIP_alacrity TOGRUTA_SHIP_satyr TOGRUTA_SHIP_prospero TOGRUTA_SHIP_untiring TOGRUTA_SHIP_zenith TOGRUTA_SHIP_torch TOGRUTA_SHIP_remembrance TOGRUTA_SHIP_pilgrim TOGRUTA_SHIP_trailblazer TOGRUTA_SHIP_vagabond TOGRUTA_SHIP_wayfarer TOGRUTA_SHIP_ambassador TOGRUTA_SHIP_emissary TOGRUTA_SHIP_nomad TOGRUTA_SHIP_pathfinder TOGRUTA_SHIP_wanderer TOGRUTA_SHIP_traveler
+		}
+		colonizer = {
+			TOGRUTA_SHIP_godspeed TOGRUTA_SHIP_prophecy TOGRUTA_SHIP_manifest_destiny TOGRUTA_SHIP_virtue TOGRUTA_SHIP_potential TOGRUTA_SHIP_expansion TOGRUTA_SHIP_pioneer_spirit TOGRUTA_SHIP_prosperity TOGRUTA_SHIP_summit TOGRUTA_SHIP_pinnacle TOGRUTA_SHIP_seeder TOGRUTA_SHIP_harvest TOGRUTA_SHIP_demeter TOGRUTA_SHIP_isis TOGRUTA_SHIP_ceres TOGRUTA_SHIP_exodus TOGRUTA_SHIP_foundation TOGRUTA_SHIP_scion TOGRUTA_SHIP_progeny TOGRUTA_SHIP_obligation TOGRUTA_SHIP_purpose TOGRUTA_SHIP_provider TOGRUTA_SHIP_shining_city TOGRUTA_SHIP_acquirer TOGRUTA_SHIP_cultivator TOGRUTA_SHIP_dawn_of_civilization TOGRUTA_SHIP_purity TOGRUTA_SHIP_community TOGRUTA_SHIP_brotherhood
+		}
+		sponsored_colonizer = {
+			TOGRUTA_SHIP_godspeed TOGRUTA_SHIP_prophecy TOGRUTA_SHIP_manifest_destiny TOGRUTA_SHIP_virtue TOGRUTA_SHIP_potential TOGRUTA_SHIP_expansion TOGRUTA_SHIP_pioneer_spirit TOGRUTA_SHIP_prosperity TOGRUTA_SHIP_summit TOGRUTA_SHIP_pinnacle TOGRUTA_SHIP_seeder TOGRUTA_SHIP_harvest TOGRUTA_SHIP_isis TOGRUTA_SHIP_ceres TOGRUTA_SHIP_exodus TOGRUTA_SHIP_foundation TOGRUTA_SHIP_scion TOGRUTA_SHIP_progeny TOGRUTA_SHIP_obligation TOGRUTA_SHIP_purpose TOGRUTA_SHIP_provider TOGRUTA_SHIP_shining_city TOGRUTA_SHIP_acquirer TOGRUTA_SHIP_cultivator TOGRUTA_SHIP_dawn_of_civilization TOGRUTA_SHIP_purity TOGRUTA_SHIP_community TOGRUTA_SHIP_brotherhood
+		}
+		constructor = {
+			TOGRUTA_SHIP_industry TOGRUTA_SHIP_assiduity TOGRUTA_SHIP_effort TOGRUTA_SHIP_laborer TOGRUTA_SHIP_builder TOGRUTA_SHIP_craftsman TOGRUTA_SHIP_hard_hat TOGRUTA_SHIP_progress TOGRUTA_SHIP_engineer TOGRUTA_SHIP_promise TOGRUTA_SHIP_service TOGRUTA_SHIP_shelter TOGRUTA_SHIP_beast TOGRUTA_SHIP_creator TOGRUTA_SHIP_developer TOGRUTA_SHIP_forger TOGRUTA_SHIP_foundry TOGRUTA_SHIP_factory TOGRUTA_SHIP_anvil TOGRUTA_SHIP_pillar TOGRUTA_SHIP_architect TOGRUTA_SHIP_accommodator TOGRUTA_SHIP_ptah TOGRUTA_SHIP_ilmarinen TOGRUTA_SHIP_creidhne TOGRUTA_SHIP_gobannus TOGRUTA_SHIP_luchtaine TOGRUTA_SHIP_goibniu TOGRUTA_SHIP_vishvakarman TOGRUTA_SHIP_tvastar TOGRUTA_SHIP_ikenga TOGRUTA_SHIP_qaynan TOGRUTA_SHIP_ucuetis TOGRUTA_SHIP_ogoun
+		}
+		transport = {
+			TOGRUTA_SHIP_ground_transport
+		}
+		military_station_golan1 = {
+			TOGRUTA_SHIP_spacegun_victory TOGRUTA_SHIP_spacegun_success TOGRUTA_SHIP_spacegun_supremacy TOGRUTA_SHIP_spacegun_superior TOGRUTA_SHIP_spacegun_adventure TOGRUTA_SHIP_spacegun_ascendancy TOGRUTA_SHIP_spacegun_paramount TOGRUTA_SHIP_spacegun_preponderous TOGRUTA_SHIP_spacegun_exemplary TOGRUTA_SHIP_spacegun_eximious TOGRUTA_SHIP_spacegun_pertinacity TOGRUTA_SHIP_spacegun_acclaim TOGRUTA_SHIP_spacegun_honor TOGRUTA_SHIP_spacegun_renown TOGRUTA_SHIP_spacegun_glory TOGRUTA_SHIP_spacegun_superb TOGRUTA_SHIP_spacegun_magnificence TOGRUTA_SHIP_spacegun_majestic TOGRUTA_SHIP_spacegun_splendor TOGRUTA_SHIP_spacegun_paradigm TOGRUTA_SHIP_spacegun_flawless TOGRUTA_SHIP_spacegun_consummate TOGRUTA_SHIP_spacegun_merit TOGRUTA_SHIP_spacegun_perfection TOGRUTA_SHIP_spacegun_virtue TOGRUTA_SHIP_spacegun_advantage TOGRUTA_SHIP_spacegun_rectitude TOGRUTA_SHIP_spacegun_incorruptible TOGRUTA_SHIP_spacegun_integrity TOGRUTA_SHIP_spacegun_justice TOGRUTA_SHIP_spacegun_probity TOGRUTA_SHIP_spacegun_prudence TOGRUTA_SHIP_spacegun_purity TOGRUTA_SHIP_spacegun_resolute TOGRUTA_SHIP_spacegun_dignity TOGRUTA_SHIP_spacegun_distinction TOGRUTA_SHIP_spacegun_excellence TOGRUTA_SHIP_spacegun_faithful TOGRUTA_SHIP_spacegun_discipline TOGRUTA_SHIP_spacegun_steadfast TOGRUTA_SHIP_spacegun_recompense TOGRUTA_SHIP_spacegun_requiem TOGRUTA_SHIP_spacegun_courage TOGRUTA_SHIP_spacegun_valor TOGRUTA_SHIP_spacegun_gallant TOGRUTA_SHIP_spacegun_daring TOGRUTA_SHIP_spacegun_constancy TOGRUTA_SHIP_spacegun_perseverence TOGRUTA_SHIP_spacegun_tenacity TOGRUTA_SHIP_spacegun_sedulity TOGRUTA_SHIP_spacegun_diligence
+		}
+		military_station_golan2 = {
+			TOGRUTA_SHIP_spacegun_victory TOGRUTA_SHIP_spacegun_success TOGRUTA_SHIP_spacegun_supremacy TOGRUTA_SHIP_spacegun_superior TOGRUTA_SHIP_spacegun_adventure TOGRUTA_SHIP_spacegun_ascendancy TOGRUTA_SHIP_spacegun_paramount TOGRUTA_SHIP_spacegun_preponderous TOGRUTA_SHIP_spacegun_exemplary TOGRUTA_SHIP_spacegun_eximious TOGRUTA_SHIP_spacegun_pertinacity TOGRUTA_SHIP_spacegun_acclaim TOGRUTA_SHIP_spacegun_honor TOGRUTA_SHIP_spacegun_renown TOGRUTA_SHIP_spacegun_glory TOGRUTA_SHIP_spacegun_superb TOGRUTA_SHIP_spacegun_magnificence TOGRUTA_SHIP_spacegun_majestic TOGRUTA_SHIP_spacegun_splendor TOGRUTA_SHIP_spacegun_paradigm TOGRUTA_SHIP_spacegun_flawless TOGRUTA_SHIP_spacegun_consummate TOGRUTA_SHIP_spacegun_merit TOGRUTA_SHIP_spacegun_perfection TOGRUTA_SHIP_spacegun_virtue TOGRUTA_SHIP_spacegun_advantage TOGRUTA_SHIP_spacegun_rectitude TOGRUTA_SHIP_spacegun_incorruptible TOGRUTA_SHIP_spacegun_integrity TOGRUTA_SHIP_spacegun_justice TOGRUTA_SHIP_spacegun_probity TOGRUTA_SHIP_spacegun_prudence TOGRUTA_SHIP_spacegun_purity TOGRUTA_SHIP_spacegun_resolute TOGRUTA_SHIP_spacegun_dignity TOGRUTA_SHIP_spacegun_distinction TOGRUTA_SHIP_spacegun_excellence TOGRUTA_SHIP_spacegun_faithful TOGRUTA_SHIP_spacegun_discipline TOGRUTA_SHIP_spacegun_steadfast TOGRUTA_SHIP_spacegun_recompense TOGRUTA_SHIP_spacegun_requiem TOGRUTA_SHIP_spacegun_courage TOGRUTA_SHIP_spacegun_valor TOGRUTA_SHIP_spacegun_gallant TOGRUTA_SHIP_spacegun_daring TOGRUTA_SHIP_spacegun_constancy TOGRUTA_SHIP_spacegun_perseverence TOGRUTA_SHIP_spacegun_tenacity TOGRUTA_SHIP_spacegun_sedulity TOGRUTA_SHIP_spacegun_diligence
+		}
+		military_station_golan3 = {
+			TOGRUTA_SHIP_spacegun_victory TOGRUTA_SHIP_spacegun_success TOGRUTA_SHIP_spacegun_supremacy TOGRUTA_SHIP_spacegun_superior TOGRUTA_SHIP_spacegun_adventure TOGRUTA_SHIP_spacegun_ascendancy TOGRUTA_SHIP_spacegun_paramount TOGRUTA_SHIP_spacegun_preponderous TOGRUTA_SHIP_spacegun_exemplary TOGRUTA_SHIP_spacegun_eximious TOGRUTA_SHIP_spacegun_pertinacity TOGRUTA_SHIP_spacegun_acclaim TOGRUTA_SHIP_spacegun_honor TOGRUTA_SHIP_spacegun_renown TOGRUTA_SHIP_spacegun_glory TOGRUTA_SHIP_spacegun_superb TOGRUTA_SHIP_spacegun_magnificence TOGRUTA_SHIP_spacegun_majestic TOGRUTA_SHIP_spacegun_splendor TOGRUTA_SHIP_spacegun_paradigm TOGRUTA_SHIP_spacegun_flawless TOGRUTA_SHIP_spacegun_consummate TOGRUTA_SHIP_spacegun_merit TOGRUTA_SHIP_spacegun_perfection TOGRUTA_SHIP_spacegun_virtue TOGRUTA_SHIP_spacegun_advantage TOGRUTA_SHIP_spacegun_rectitude TOGRUTA_SHIP_spacegun_incorruptible TOGRUTA_SHIP_spacegun_integrity TOGRUTA_SHIP_spacegun_justice TOGRUTA_SHIP_spacegun_probity TOGRUTA_SHIP_spacegun_prudence TOGRUTA_SHIP_spacegun_purity TOGRUTA_SHIP_spacegun_resolute TOGRUTA_SHIP_spacegun_dignity TOGRUTA_SHIP_spacegun_distinction TOGRUTA_SHIP_spacegun_excellence TOGRUTA_SHIP_spacegun_faithful TOGRUTA_SHIP_spacegun_discipline TOGRUTA_SHIP_spacegun_steadfast TOGRUTA_SHIP_spacegun_recompense TOGRUTA_SHIP_spacegun_requiem TOGRUTA_SHIP_spacegun_courage TOGRUTA_SHIP_spacegun_valor TOGRUTA_SHIP_spacegun_gallant TOGRUTA_SHIP_spacegun_daring TOGRUTA_SHIP_spacegun_constancy TOGRUTA_SHIP_spacegun_perseverence TOGRUTA_SHIP_spacegun_tenacity TOGRUTA_SHIP_spacegun_sedulity TOGRUTA_SHIP_spacegun_diligence
+		}
+		military_station_small = {
+			TOGRUTA_SHIP_citadel TOGRUTA_SHIP_albacore TOGRUTA_SHIP_gateway TOGRUTA_SHIP_vincent TOGRUTA_SHIP_babylon TOGRUTA_SHIP_caernavon TOGRUTA_SHIP_acre TOGRUTA_SHIP_pembroke TOGRUTA_SHIP_acheron TOGRUTA_SHIP_spithead TOGRUTA_SHIP_halifax TOGRUTA_SHIP_victoria TOGRUTA_SHIP_chatham TOGRUTA_SHIP_anchorage TOGRUTA_SHIP_scapa_flow TOGRUTA_SHIP_hampton_roads TOGRUTA_SHIP_brooklyn TOGRUTA_SHIP_norfolk TOGRUTA_SHIP_newport TOGRUTA_SHIP_guam TOGRUTA_SHIP_pensacola TOGRUTA_SHIP_vesuvius TOGRUTA_SHIP_mckinley TOGRUTA_SHIP_everest TOGRUTA_SHIP_kilimanjaro TOGRUTA_SHIP_aconcagua TOGRUTA_SHIP_elbrus TOGRUTA_SHIP_st__helens TOGRUTA_SHIP_fuji TOGRUTA_SHIP_olympus TOGRUTA_SHIP_sinai TOGRUTA_SHIP_ambrose TOGRUTA_SHIP_bermuda TOGRUTA_SHIP_farpoint TOGRUTA_SHIP_blue_star TOGRUTA_SHIP_olympus_mons TOGRUTA_SHIP_tharsis TOGRUTA_SHIP_syrtis TOGRUTA_SHIP_blackham TOGRUTA_SHIP_fletcher TOGRUTA_SHIP_perry TOGRUTA_SHIP_butakov TOGRUTA_SHIP_morris TOGRUTA_SHIP_moorsom TOGRUTA_SHIP_hart TOGRUTA_SHIP_hargood TOGRUTA_SHIP_spruance TOGRUTA_SHIP_tanaka TOGRUTA_SHIP_halsey TOGRUTA_SHIP_turner TOGRUTA_SHIP_doria TOGRUTA_SHIP_tirpitz TOGRUTA_SHIP_cunningham TOGRUTA_SHIP_jellicoe TOGRUTA_SHIP_hipper TOGRUTA_SHIP_beatty TOGRUTA_SHIP_potemkin TOGRUTA_SHIP_durham TOGRUTA_SHIP_codrington TOGRUTA_SHIP_milne TOGRUTA_SHIP_laforey TOGRUTA_SHIP_tyler TOGRUTA_SHIP_hawke TOGRUTA_SHIP_yonai TOGRUTA_SHIP_pound TOGRUTA_SHIP_king TOGRUTA_SHIP_crutchley TOGRUTA_SHIP_mountbatten TOGRUTA_SHIP_kountouriotis TOGRUTA_SHIP_kuznetsov TOGRUTA_SHIP_essen TOGRUTA_SHIP_kornilov TOGRUTA_SHIP_suffren TOGRUTA_SHIP_treville TOGRUTA_SHIP_villeneuve TOGRUTA_SHIP_grasse TOGRUTA_SHIP_byng TOGRUTA_SHIP_lezo
+		}
+		ion_cannon = {
+			TOGRUTA_SHIP_bombard TOGRUTA_SHIP_ballista TOGRUTA_SHIP_catapult TOGRUTA_SHIP_harpoon TOGRUTA_SHIP_polybolos TOGRUTA_SHIP_culverin
+		}
+		swp_neb_b_frigate = {
+			TOGRUTA_SHIP_exemplary
+		}
+	}
+	ship_class_names = {
+		swp_cr90_corvette = {
+			TOGRUTA_SHIP_CLASS_cr_90
+		}
+		swp_jehaveyir_corvette = {
+			TOGRUTA_SHIP_CLASS_jehavey_ir
+		}
+		swp_lupus_corvette = {
+			TOGRUTA_SHIP_CLASS_lupus
+		}
+		swp_early_asdroni_corvette = {
+			TOGRUTA_SHIP_CLASS_asdroni
+		}
+		swp_customs_corvette = {
+			TOGRUTA_SHIP_CLASS_customs
+		}
+		swp_hammerhead_corvette = {
+			TOGRUTA_SHIP_CLASS_hammerhead
+		}
+		swp_scurge_corvette = {
+			TOGRUTA_SHIP_CLASS_scurge
+		}
+		swp_krayt_corvette = {
+			TOGRUTA_SHIP_CLASS_krayt
+		}
+		swp_diamond_corvette = {
+			TOGRUTA_SHIP_CLASS_diamond
+		}
+		swp_etti_corvette = {
+			TOGRUTA_SHIP_CLASS_etti
+		}
+		swp_asdroni_corvette = {
+			TOGRUTA_SHIP_CLASS_asdroni_ii
+		}
+		swp_vigil_corvette = {
+			TOGRUTA_SHIP_CLASS_vigil
+		}
+		swp_dp20_corvette = {
+			TOGRUTA_SHIP_CLASS_dp20
+		}
+		swp_adv_asdroni_corvette = {
+			TOGRUTA_SHIP_CLASS_asdroni_iii
+		}
+		swp_raider_corvette = {
+			TOGRUTA_SHIP_CLASS_raider
+		}
+		swp_dornean_corvette = {
+			TOGRUTA_SHIP_CLASS_dornean
+		}
+		swp_crusader_corvette = {
+			TOGRUTA_SHIP_CLASS_crusader
+		}
+		swp_marauder_corvette = {
+			TOGRUTA_SHIP_CLASS_marauder
+		}
+		swp_arquitens_frigate = {
+			TOGRUTA_SHIP_CLASS_arquitens
+		}
+		swp_kiltirin_frigate = {
+			TOGRUTA_SHIP_CLASS_kiltirin
+		}
+		swp_pelta_frigate = {
+			TOGRUTA_SHIP_CLASS_pelta
+		}
+		swp_pinnance_frigate = {
+			TOGRUTA_SHIP_CLASS_pinnace
+		}
+		swp_nova_frigate = {
+			TOGRUTA_SHIP_CLASS_nova
+		}
+		swp_vigilance_frigate = {
+			TOGRUTA_SHIP_CLASS_vigilance
+		}
+		swp_neb_b_frigate = {
+			TOGRUTA_SHIP_CLASS_nebulon_b
+		}
+		swp_cg273_frigate = {
+			TOGRUTA_SHIP_CLASS_cg_273
+		}
+		swp_kariek_frigate = {
+			TOGRUTA_SHIP_CLASS_kariek
+		}
+		swp_escort_carrier_frigate = {
+			TOGRUTA_SHIP_CLASS_ton_falk
+		}
+		swp_quasar_frigate = {
+			TOGRUTA_SHIP_CLASS_quasar_fire
+		}
+		swp_lancer_frigate = {
+			TOGRUTA_SHIP_CLASS_lancer
+		}
+		swp_teroch_frigate = {
+			TOGRUTA_SHIP_CLASS_teroch
+		}
+		swp_neb_b2_frigate = {
+			TOGRUTA_SHIP_CLASS_nebulon_b2
+		}
+		swp_adv_nova_frigate = {
+			TOGRUTA_SHIP_CLASS_nova_ii
+		}
+		swp_adv_vigilance_frigate = {
+			TOGRUTA_SHIP_CLASS_vigilance_ii
+		}
+		swp_velox_frigate = {
+			TOGRUTA_SHIP_CLASS_velox
+		}
+		swp_mc30c_frigate = {
+			TOGRUTA_SHIP_CLASS_mc30c
+		}
+		swp_vengeance_frigate = {
+			TOGRUTA_SHIP_CLASS_vengeance
+		}
+		swp_adv_kariek_frigate = {
+			TOGRUTA_SHIP_CLASS_kariek_ii
+		}
+		swp_cc7700_frigate = {
+			TOGRUTA_SHIP_CLASS_cc_7700
+		}
+		swp_victory2_cruiser = {
+			TOGRUTA_SHIP_CLASS_victory_mark_2
+		}
+		swp_wavecrest_cruiser = {
+			TOGRUTA_SHIP_CLASS_wavecrest
+		}
+		swp_early_battledragon_cruiser = {
+			TOGRUTA_SHIP_CLASS_battle_dragon
+		}
+		swp_nuruodo_cruiser = {
+			TOGRUTA_SHIP_CLASS_nuruodo
+		}
+		swp_sabaoth_cruiser = {
+			TOGRUTA_SHIP_CLASS_sabaoth
+		}
+		swp_kontos_cruiser = {
+			TOGRUTA_SHIP_CLASS_kontos
+		}
+		swp_mc40_cruiser = {
+			TOGRUTA_SHIP_CLASS_mc40
+		}
+		swp_battledragon_cruiser = {
+			TOGRUTA_SHIP_CLASS_battle_dragon_ii
+		}
+		swp_broadside_cruiser = {
+			TOGRUTA_SHIP_CLASS_broadside
+		}
+		swp_protector_cruiser = {
+			TOGRUTA_SHIP_CLASS_protector
+		}
+		swp_warlord_cruiser = {
+			TOGRUTA_SHIP_CLASS_warlord
+		}
+		swp_gladiator_cruiser = {
+			TOGRUTA_SHIP_CLASS_gladiator
+		}
+		swp_beviin_cruiser = {
+			TOGRUTA_SHIP_CLASS_beviin
+		}
+		swp_liberator_cruiser = {
+			TOGRUTA_SHIP_CLASS_liberator
+		}
+		swp_adv_battledragon_cruiser = {
+			TOGRUTA_SHIP_CLASS_battle_dragon_iii
+		}
+		swp_adv_nuruodo_cruiser = {
+			TOGRUTA_SHIP_CLASS_nuruodo_ii
+		}
+		swp_immobilizer418_cruiser = {
+			TOGRUTA_SHIP_CLASS_immobilizer_418
+		}
+		swp_int_battledragon_cruiser = {
+			TOGRUTA_SHIP_CLASS_battle_dragon_iv
+		}
+		swp_massias_cruiser = {
+			TOGRUTA_SHIP_CLASS_massias
+		}
+		swp_dreadnought_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_dreadnought
+		}
+		swp_kyramud_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_kyramud
+		}
+		swp_munificent_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_munificent
+		}
+		swp_prosvoli_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_prosvoli
+		}
+		swp_acclamator_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_acclamator
+		}
+		swp_lictor_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_lictor
+		}
+		swp_bulwark_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_bulwark
+		}
+		swp_vsd1_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_victory_i
+		}
+		swp_assault1_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_assault_frigate_i
+		}
+		swp_bulk_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_bulk
+		}
+		swp_vindicator_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_vindicator
+		}
+		swp_dauntless_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_dauntless
+		}
+		swp_captor_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_captor
+		}
+		swp_auriette_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_au_riette
+		}
+		swp_mc55_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_mc55
+		}
+		swp_afthonia_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_afthonia
+		}
+		swp_vsd2_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_victory_ii
+		}
+		swp_beroya_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_beroya
+		}
+		swp_assault2_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_assault_frigate_ii
+		}
+		swp_hapan_vsd2_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_hrn_victory_ii
+		}
+		swp_adv_prosvoli_heavy_cruiser = {
+			TOGRUTA_SHIP_CLASS_prosvoli_ii
+		}
+		swp_venator_star_destroyer = {
+			TOGRUTA_SHIP_CLASS_venator
+		}
+		swp_centurion_star_destroyer = {
+			TOGRUTA_SHIP_CLASS_centurion
+		}
+		swp_mc75_star_cruiser = {
+			TOGRUTA_SHIP_CLASS_mc75
+		}
+		swp_kandosii_destroyer = {
+			TOGRUTA_SHIP_CLASS_kandosii
+		}
+		swp_corellian_destroyer = {
+			TOGRUTA_SHIP_CLASS_corellian
+		}
+		swp_providence_destroyer = {
+			TOGRUTA_SHIP_CLASS_providence
+		}
+		swp_syndic_destroyer = {
+			TOGRUTA_SHIP_CLASS_syndic
+		}
+		swp_recusant_destroyer = {
+			TOGRUTA_SHIP_CLASS_recusant
+		}
+		swp_invincible_destroyer = {
+			TOGRUTA_SHIP_CLASS_invincible
+		}
+		swp_imperial1_star_destroyer = {
+			TOGRUTA_SHIP_CLASS_imperial_i
+		}
+		swp_hapan_imperial1_star_destroyer = {
+			TOGRUTA_SHIP_CLASS_hrn_imperial_i
+		}
+		swp_procursator_star_destroyer = {
+			TOGRUTA_SHIP_CLASS_procursator
+		}
+		swp_mc80a_star_cruiser = {
+			TOGRUTA_SHIP_CLASS_mc80a
+		}
+		swp_dh_omni_destroyer = {
+			TOGRUTA_SHIP_CLASS_dh_omni
+		}
+		swp_aggressor_destroyer = {
+			TOGRUTA_SHIP_CLASS_aggressor
+		}
+		swp_adv_syndic_destroyer = {
+			TOGRUTA_SHIP_CLASS_syndic_ii
+		}
+		swp_mc80b_star_cruiser = {
+			TOGRUTA_SHIP_CLASS_mc80_liberty
+		}
+		swp_keldabe_destroyer = {
+			TOGRUTA_SHIP_CLASS_keldabe
+		}
+		swp_adv_corellian_destroyer = {
+			TOGRUTA_SHIP_CLASS_corellian_ii
+		}
+		swp_chaf_destroyer = {
+			TOGRUTA_SHIP_CLASS_chaf
+		}
+		swp_imperial2_star_destroyer = {
+			TOGRUTA_SHIP_CLASS_imperial_ii
+		}
+		swp_hapan_imperial2_star_destroyer = {
+			TOGRUTA_SHIP_CLASS_hrn_imperial_ii
+		}
+		swp_ascendancy_star_destroyer = {
+			TOGRUTA_SHIP_CLASS_ascendancy
+		}
+		swp_interdictor_sd = {
+			TOGRUTA_SHIP_CLASS_dominator
+		}
+		swp_allegiance_battlecruiser = {
+			TOGRUTA_SHIP_CLASS_allegiance
+		}
+		swp_lucrehulk_battlecruiser = {
+			TOGRUTA_SHIP_CLASS_lucrehulk
+		}
+		swp_phalanx_battlecruiser = {
+			TOGRUTA_SHIP_CLASS_phalanx
+		}
+		swp_titan_battlecruiser = {
+			TOGRUTA_SHIP_CLASS_titan
+		}
+		swp_mc80_home1_battlecruiser = {
+			TOGRUTA_SHIP_CLASS_mc80_independence
+		}
+		swp_star_home_battlecruiser = {
+			TOGRUTA_SHIP_CLASS_star_home
+		}
+		swp_subjugator = {
+			TOGRUTA_SHIP_CLASS_subjugator
+		}
+		swp_bellator = {
+			TOGRUTA_SHIP_CLASS_bellator
+		}
+		swp_solyc_verd = {
+			TOGRUTA_SHIP_CLASS_sol_yc_verd
+		}
+		swp_executor = {
+			TOGRUTA_SHIP_CLASS_executor
+		}
+	}
+	fleet_names = {
+		sequential_name = TOGRUTA_FLEET_armada_ORD
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = TOGRUTA_ARMY_planetary_guard_ORD
+		}
+		assault_army = {
+			sequential_name = TOGRUTA_ARMY_expeditionary_force_ORD
+		}
+		slave_army = {
+			sequential_name = TOGRUTA_ARMY_indentured_rifles_ORD
+		}
+		clone_army = {
+			sequential_name = TOGRUTA_ARMY_clone_army_ORD
+		}
+		robotic_army = {
+			sequential_name = TOGRUTA_ARMY_hunter_killer_group_ORD
+		}
+		robotic_defense_army = {
+			sequential_name = TOGRUTA_ARMY_ground_defense_matrix_ORD
+		}
+		psionic_army = {
+			sequential_name = TOGRUTA_ARMY_psi_commando_ORD
+		}
+		xenomorph_army = {
+			sequential_name = TOGRUTA_ARMY_bio_warfare_division_ORD
+		}
+		gene_warrior_army = {
+			random_names = {
+				TOGRUTA_ARMY_sarc_a__gladiators_ TOGRUTA_ARMY_sarc_b__widowmakers_ TOGRUTA_ARMY_sarc_c__immortals_ TOGRUTA_ARMY_sarc_d__berserkers_ TOGRUTA_ARMY_sarc_e__assassins_ TOGRUTA_ARMY_sarc_f__reapers_ TOGRUTA_ARMY_sarc_g__nighthawks_ TOGRUTA_ARMY_sarc_h__desperados_ TOGRUTA_ARMY_sarc_i__grey_knights_ TOGRUTA_ARMY_sarc_j__roughnecks_
+			}
+			sequential_name = TOGRUTA_ARMY_bio_engineered_squadron_ORD
+		}
+		occupation_army = {
+			sequential_name = TOGRUTA_ARMY_garrison_force_ORD
+		}
+		robotic_occupation_army = {
+			sequential_name = TOGRUTA_ARMY_mechanized_garrison_ORD
+		}
+		primitive_army = {
+			sequential_name = TOGRUTA_ARMY_primitive_army_SEQ
+		}
+		industrial_army = {
+			sequential_name = TOGRUTA_ARMY_industrial_army_SEQ
+		}
+		postatomic_army = {
+			sequential_name = TOGRUTA_ARMY_post_atomic_army_SEQ
+		}
+		imp_garrison_01 = {
+			sequential_name = TOGRUTA_ARMY_stormtrooper_garrison_ORD
+		}
+		reb_garrison_01 = {
+			sequential_name = TOGRUTA_ARMY_rebel_trooper_garrison_ORD
+		}
+		hut_garrison_01 = {
+			sequential_name = TOGRUTA_ARMY_hutt_garrison_ORD
+		}
+		man_garrison_01 = {
+			sequential_name = TOGRUTA_ARMY_mandalorian_garrison_ORD
+		}
+		cor_garrison_01 = {
+			sequential_name = TOGRUTA_ARMY_corellian_garrison_ORD
+		}
+		cis_garrison_01 = {
+			sequential_name = TOGRUTA_ARMY_cis_garrison_ORD
+		}
+		csa_garrison_01 = {
+			sequential_name = TOGRUTA_ARMY_csa_garrison_ORD
+		}
+		hap_garrison_01 = {
+			sequential_name = TOGRUTA_ARMY_hapes_garrison_ORD
+		}
+		oth_garrison_01 = {
+			sequential_name = TOGRUTA_ARMY_militia_garrison_ORD
+		}
+		dro_garrison_01 = {
+			sequential_name = TOGRUTA_ARMY_droid_garrison_ORD
+		}
+		imp_infantry_1 = {
+			sequential_name = TOGRUTA_ARMY_stormtroopers_ORD
+		}
+		imp_infantry_2 = {
+			sequential_name = TOGRUTA_ARMY_shock_troopers_ORD
+		}
+		imp_infantry_3 = {
+			sequential_name = TOGRUTA_ARMY_dark_troopers_ORD
+		}
+		reb_infantry_1 = {
+			sequential_name = TOGRUTA_ARMY_rebel_troopers_ORD
+		}
+		reb_infantry_2 = {
+			sequential_name = TOGRUTA_ARMY_assault_troopers_ORD
+		}
+		reb_infantry_3 = {
+			sequential_name = TOGRUTA_ARMY_heavy_assault_troopers_ORD
+		}
+		hut_infantry_1 = {
+			sequential_name = TOGRUTA_ARMY_hutt_cartel_gang_ORD
+		}
+		hut_infantry_2 = {
+			sequential_name = TOGRUTA_ARMY_hutt_elite_mercenaries_ORD
+		}
+		hut_infantry_3 = {
+			sequential_name = TOGRUTA_ARMY_hutt_deshade_mercenaries_ORD
+		}
+		man_infantry_1 = {
+			sequential_name = TOGRUTA_ARMY_mandalorian_warriors_ORD
+		}
+		man_infantry_2 = {
+			sequential_name = TOGRUTA_ARMY_mandalorian_jet_warriors_ORD
+		}
+		man_infantry_3 = {
+			sequential_name = TOGRUTA_ARMY_mandalorian_elite_ORD
+		}
+		cor_infantry_1 = {
+			sequential_name = TOGRUTA_ARMY_corsec_troopers_ORD
+		}
+		cis_infantry_1 = {
+			sequential_name = TOGRUTA_ARMY_corporate_enforcers_ORD
+		}
+		csa_infantry_1 = {
+			sequential_name = TOGRUTA_ARMY_espos_troopers_ORD
+		}
+		csa_infantry_2 = {
+			sequential_name = TOGRUTA_ARMY_espos_elite_troopers_ORD
+		}
+		csa_infantry_3 = {
+			sequential_name = TOGRUTA_ARMY_espos_state_guard_ORD
+		}
+		hap_infantry_1 = {
+			sequential_name = TOGRUTA_ARMY_hapes_militia_ORD
+		}
+		hap_infantry_2 = {
+			sequential_name = TOGRUTA_ARMY_fountain_gunners_ORD
+		}
+		hap_infantry_3 = {
+			sequential_name = TOGRUTA_ARMY_fountain_elite_ORD
+		}
+		oth_infantry_1 = {
+			sequential_name = TOGRUTA_ARMY_mercenaries_ORD
+		}
+		oth_infantry_2 = {
+			sequential_name = TOGRUTA_ARMY_heavy_mercenary_battalion_ORD
+		}
+		oth_infantry_3 = {
+			sequential_name = TOGRUTA_ARMY_mandalorian_mercenaries_ORD
+		}
+		clo_infantry_1 = {
+			sequential_name = TOGRUTA_ARMY_clone_troopers_ORD
+		}
+		dro_infantry_1 = {
+			sequential_name = TOGRUTA_ARMY_b1_battle_droids_ORD
+		}
+		dro_infantry_2 = {
+			sequential_name = TOGRUTA_ARMY_b2_super_battle_droids_ORD
+		}
+		dro_infantry_3 = {
+			sequential_name = TOGRUTA_ARMY_droideka_detachment_ORD
+		}
+		imp_support_1 = {
+			sequential_name = TOGRUTA_ARMY_light_walkers_detachment_ORD
+		}
+		imp_support_3 = {
+			sequential_name = TOGRUTA_ARMY_adv__light_walkers_detachment_ORD
+		}
+		reb_support_1 = {
+			sequential_name = TOGRUTA_ARMY_t_2_tank_detachment_ORD
+		}
+		hut_support_1 = {
+			sequential_name = TOGRUTA_ARMY_hutt_barges_detachment_ORD
+		}
+		man_support_1 = {
+			sequential_name = TOGRUTA_ARMY_mandalorian_auxilary_detachment_ORD
+		}
+		hap_support_1 = {
+			sequential_name = TOGRUTA_ARMY_fountain_support_vehicles_ORD
+		}
+		oth_support_1 = {
+			sequential_name = TOGRUTA_ARMY_infantry_support_vehicles_ORD
+		}
+		oth_support_2 = {
+			sequential_name = TOGRUTA_ARMY_havw_a6_juggernaut_ORD
+		}
+		dro_support_1 = {
+			sequential_name = TOGRUTA_ARMY_dsd1_droid_detachment_ORD
+		}
+		imp_specops_2 = {
+			sequential_name = TOGRUTA_ARMY_storm_commando_ORD
+		}
+		imp_specops_3 = {
+			sequential_name = TOGRUTA_ARMY_shadow_commando_ORD
+		}
+		reb_specops_2 = {
+			sequential_name = TOGRUTA_ARMY_rebel_commando_ORD
+		}
+		reb_specops_3 = {
+			sequential_name = TOGRUTA_ARMY_rebel_elite_commando_ORD
+		}
+		hut_specops_2 = {
+			sequential_name = TOGRUTA_ARMY_cartel_sabateurs_ORD
+		}
+		man_specops_2 = {
+			sequential_name = TOGRUTA_ARMY_mandalorian_commando_ORD
+		}
+		man_specops_3 = {
+			sequential_name = TOGRUTA_ARMY_mandalorian_elite_commando_ORD
+		}
+		cor_specops_2 = {
+			sequential_name = TOGRUTA_ARMY_corellian_infiltrators_ORD
+		}
+		csa_specops_2 = {
+			sequential_name = TOGRUTA_ARMY_espos_specops_ORD
+		}
+		hap_specops_2 = {
+			sequential_name = TOGRUTA_ARMY_fountain_snipers_ORD
+		}
+		hap_specops_3 = {
+			sequential_name = TOGRUTA_ARMY_her_majesty_s_select_commandos_ORD
+		}
+		oth_specops_2 = {
+			sequential_name = TOGRUTA_ARMY_bounty_hunters_ORD
+		}
+		oth_specops_3 = {
+			sequential_name = TOGRUTA_ARMY_clone_commandos_ORD
+		}
+		dro_specops_2 = {
+			sequential_name = TOGRUTA_ARMY_bx_droid_commando_ORD
+		}
+		dro_specops_3_0 = {
+			sequential_name = TOGRUTA_ARMY_sd_4k_assasin_droids_ORD
+		}
+		dro_specops_3_1 = {
+			sequential_name = TOGRUTA_ARMY_ig_series_assasin_droids_ORD
+		}
+		imp_armor_1 = {
+			sequential_name = TOGRUTA_ARMY_2_m_hovertank_detachment_ORD
+		}
+		imp_armor_2 = {
+			sequential_name = TOGRUTA_ARMY_at_at_detachment_ORD
+		}
+		imp_armor_3 = {
+			sequential_name = TOGRUTA_ARMY_at_at_advanced_detachment_ORD
+		}
+		reb_armor_1 = {
+			sequential_name = TOGRUTA_ARMY_t_3b_tank_detachment_ORD
+		}
+		reb_armor_2 = {
+			sequential_name = TOGRUTA_ARMY_legacy_at_te_detachment_ORD
+		}
+		reb_armor_3 = {
+			sequential_name = TOGRUTA_ARMY_t_4b_modified_tank_detachment_ORD
+		}
+		hut_armor_1 = {
+			sequential_name = TOGRUTA_ARMY_wlo_5_tank_detachment_ORD
+		}
+		man_armor_1 = {
+			sequential_name = TOGRUTA_ARMY_mht_1_detachment_ORD
+		}
+		man_armor_2 = {
+			sequential_name = TOGRUTA_ARMY_mht_2_detachment_ORD
+		}
+		cis_armor_1 = {
+			sequential_name = TOGRUTA_ARMY_aat_1_tank_detachment_ORD
+		}
+		hap_armor_1 = {
+			sequential_name = TOGRUTA_ARMY_fountain_armor_detachment_ORD
+		}
+		oth_armor_1 = {
+			sequential_name = TOGRUTA_ARMY_tx_225_assualt_tank_detachment_ORD
+		}
+		oth_armor_2 = {
+			sequential_name = TOGRUTA_ARMY_salvaged_at_te_detachment_ORD
+		}
+		oth_armor_3 = {
+			sequential_name = TOGRUTA_ARMY_salvaged_at_he_detachment_ORD
+		}
+		dro_armor_2 = {
+			sequential_name = TOGRUTA_ARMY_og_9_spider_droid_detachment_ORD
+		}
+		dro_armor_3 = {
+			sequential_name = TOGRUTA_ARMY_super_droid_tank_detachment_ORD
+		}
+		imp_arty_2 = {
+			sequential_name = TOGRUTA_ARMY_spma_artillery_detachment_ORD
+		}
+		imp_arty_3 = {
+			sequential_name = TOGRUTA_ARMY_spha_artillery_detachment_ORD
+		}
+		reb_arty_2 = {
+			sequential_name = TOGRUTA_ARMY_mptl_artillary_detachment_ORD
+		}
+		reb_arty_3 = {
+			sequential_name = TOGRUTA_ARMY_hmptl_artillary_detachment_ORD
+		}
+		hut_arty_1 = {
+			sequential_name = TOGRUTA_ARMY_artillery_barge_detachment_ORD
+		}
+		man_arty_2 = {
+			sequential_name = TOGRUTA_ARMY_mha_artillery_detachment_ORD
+		}
+		hap_arty_2 = {
+			sequential_name = TOGRUTA_ARMY_mlc_4_artillery_tank_ORD
+		}
+		oth_arty_1 = {
+			sequential_name = TOGRUTA_ARMY_mlc_3_light_artillery_tank_ORD
+		}
+		oth_arty_3 = {
+			sequential_name = TOGRUTA_ARMY_spha_t_artillery_detachment_ORD
+		}
+		dro_arty_2 = {
+			sequential_name = TOGRUTA_ARMY_j_1_proton_cannon_detachment_ORD
+		}
+		dro_arty_3 = {
+			sequential_name = TOGRUTA_ARMY_hellfire_droid_detachment_ORD
+		}
+		imp_arial_1 = {
+			sequential_name = TOGRUTA_ARMY_tie_squadron_ORD
+		}
+		imp_arial_2 = {
+			sequential_name = TOGRUTA_ARMY_lambda_shuttle_gunship_squadron_ORD
+		}
+		reb_arial_1 = {
+			sequential_name = TOGRUTA_ARMY_t_47_airspeeder_squadron_ORD
+		}
+		reb_arial_2 = {
+			sequential_name = TOGRUTA_ARMY_tachyon_airspeeder_squadron_ORD
+		}
+		hut_arial_1 = {
+			sequential_name = TOGRUTA_ARMY_sandspeeder_squadron_ORD
+		}
+		man_arial_1 = {
+			sequential_name = TOGRUTA_ARMY_mandalorian_skyfighter_squadron_ORD
+		}
+		cor_arial_2 = {
+			sequential_name = TOGRUTA_ARMY_vcx_series_starfighter_squadron_ORD
+		}
+		cis_arial_2 = {
+			sequential_name = TOGRUTA_ARMY_mechanized_assault_flyer_ORD
+		}
+		csa_arial_2 = {
+			sequential_name = TOGRUTA_ARMY_r_41_starchaser_squadron_ORD
+		}
+		hap_arial_1 = {
+			sequential_name = TOGRUTA_ARMY_my_til_fighter_squadron_ORD
+		}
+		oth_arial_2_0 = {
+			sequential_name = TOGRUTA_ARMY_turbostorm_class_gunship_ORD
+		}
+		oth_arial_2_1 = {
+			sequential_name = TOGRUTA_ARMY_legacy_laat_gunship_ORD
+		}
+		oth_arial_1 = {
+			sequential_name = TOGRUTA_ARMY_storm_iv_twin_pod_cloud_car_ORD
+		}
+		dro_arial_1 = {
+			sequential_name = TOGRUTA_ARMY_vulture_droid_airwing_ORD
+		}
+		dro_arial_3 = {
+			sequential_name = TOGRUTA_ARMY_hmp_droid_gunship_ORD
+		}
+		imp_homorguard = {
+			sequential_name = TOGRUTA_ARMY_honor_guard_ORD
+		}
+		reb_bothan = {
+			sequential_name = TOGRUTA_ARMY_bothan_operatives_ORD
+		}
+		reb_wookie = {
+			sequential_name = TOGRUTA_ARMY_wookie_battlegroup_ORD
+		}
+		cis_magnaguard = {
+			sequential_name = TOGRUTA_ARMY_magnaguard_ORD
+		}
+		hap_royalguard = {
+			sequential_name = TOGRUTA_ARMY_hapan_royal_guard_ORD
+		}
+		oth_geonos = {
+			sequential_name = TOGRUTA_ARMY_geonosian_ORD
+		}
+		fortification_1 = {
+			sequential_name = TOGRUTA_ARMY_df9_cannon_fortifications_ORD
+		}
+		fortification_3 = {
+			sequential_name = TOGRUTA_ARMY_turbolaser_cannon_fortifications_ORD
+		}
+		cre_rancor = {
+			sequential_name = TOGRUTA_ARMY_rancor_ORD
+		}
+		cre_ancientrancor = {
+			sequential_name = TOGRUTA_ARMY_ancient_rancor_ORD
+		}
+		cre_acklay = {
+			sequential_name = TOGRUTA_ARMY_acklay_ORD
+		}
+		cre_primalbeasts = {
+			sequential_name = TOGRUTA_ARMY_primal_beasts_ORD
+		}
+		cre_dusturbedbeasts = {
+			sequential_name = TOGRUTA_ARMY_disturbed_beasts_ORD
+		}
+		imp_occupation_01 = {
+			sequential_name = TOGRUTA_ARMY_stormtrooper_occupation_garrison_ORD
+		}
+		reb_occupation_01 = {
+			sequential_name = TOGRUTA_ARMY_rebel_trooper_occupation_garrison_ORD
+		}
+		hut_occupation_01 = {
+			sequential_name = TOGRUTA_ARMY_hutt_occupation_garrison_ORD
+		}
+		man_occupation_01 = {
+			sequential_name = TOGRUTA_ARMY_mandalorian_occupation_garrison_ORD
+		}
+		cor_occupation_01 = {
+			sequential_name = TOGRUTA_ARMY_corellian_occupation_garrison_ORD
+		}
+		cis_occupation_01 = {
+			sequential_name = TOGRUTA_ARMY_cis_occupation_garrison_ORD
+		}
+		csa_occupation_01 = {
+			sequential_name = TOGRUTA_ARMY_csa_occupation_garrison_ORD
+		}
+		hap_occupation_01 = {
+			sequential_name = TOGRUTA_ARMY_hapes_occupation_garrison_ORD
+		}
+		oth_occupation_01 = {
+			sequential_name = TOGRUTA_ARMY_militia_occupation_garrison_ORD
+		}
+		dro_occupation_01 = {
+			sequential_name = TOGRUTA_ARMY_droid_occupation_garrison_ORD
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+			}
+		}
+	}
+	character_names = {
+		default = {
+			first_names_male = {
+				TOGRUTA_CHR_asher TOGRUTA_CHR_buryn TOGRUTA_CHR_codi TOGRUTA_CHR_dynaroth TOGRUTA_CHR_galway TOGRUTA_CHR_garon TOGRUTA_CHR_jordan TOGRUTA_CHR_juran TOGRUTA_CHR_kalatosh TOGRUTA_CHR_koru TOGRUTA_CHR_lodish TOGRUTA_CHR_meldo TOGRUTA_CHR_ralon TOGRUTA_CHR_rolend TOGRUTA_CHR_roshti TOGRUTA_CHR_sarmuk TOGRUTA_CHR_selda TOGRUTA_CHR_skohani TOGRUTA_CHR_torhaa TOGRUTA_CHR_tuktee
+			}
+			first_names_female = {
+				TOGRUTA_CHR_achitan TOGRUTA_CHR_ahsoka TOGRUTA_CHR_alie TOGRUTA_CHR_asaak TOGRUTA_CHR_ashara TOGRUTA_CHR_ashla TOGRUTA_CHR_audila TOGRUTA_CHR_auxi TOGRUTA_CHR_bela TOGRUTA_CHR_carshotta TOGRUTA_CHR_dar_nala TOGRUTA_CHR_deran TOGRUTA_CHR_ellin TOGRUTA_CHR_hellena TOGRUTA_CHR_kalda TOGRUTA_CHR_kaveri TOGRUTA_CHR_kasuni TOGRUTA_CHR_maya TOGRUTA_CHR_niriian TOGRUTA_CHR_palla TOGRUTA_CHR_raana TOGRUTA_CHR_shaak TOGRUTA_CHR_sheel TOGRUTA_CHR_shi_fara TOGRUTA_CHR_sumalee TOGRUTA_CHR_synoda TOGRUTA_CHR_vaash TOGRUTA_CHR_yanila TOGRUTA_CHR_yelto TOGRUTA_CHR_zaa
+			}
+			second_names = {
+				TOGRUTA_CHR_biss TOGRUTA_CHR_borm TOGRUTA_CHR_bourke TOGRUTA_CHR_dan TOGRUTA_CHR_karls TOGRUTA_CHR_kiwiiks TOGRUTA_CHR_korbin TOGRUTA_CHR_kray TOGRUTA_CHR_lah TOGRUTA_CHR_mafeen TOGRUTA_CHR_mazlin TOGRUTA_CHR_nalual TOGRUTA_CHR_nys TOGRUTA_CHR_phaa TOGRUTA_CHR_phoenix TOGRUTA_CHR_ra TOGRUTA_CHR_reb TOGRUTA_CHR_ren TOGRUTA_CHR_tano TOGRUTA_CHR_tama TOGRUTA_CHR_tamm TOGRUTA_CHR_tey TOGRUTA_CHR_ti TOGRUTA_CHR_ty TOGRUTA_CHR_vashee TOGRUTA_CHR_zavros
+			}
+			regnal_first_names_male = {
+				TOGRUTA_CHR_asher TOGRUTA_CHR_buryn TOGRUTA_CHR_codi TOGRUTA_CHR_dynaroth TOGRUTA_CHR_galway TOGRUTA_CHR_garon TOGRUTA_CHR_jordan TOGRUTA_CHR_juran TOGRUTA_CHR_kalatosh TOGRUTA_CHR_koru TOGRUTA_CHR_lodish TOGRUTA_CHR_meldo TOGRUTA_CHR_ralon TOGRUTA_CHR_rolend TOGRUTA_CHR_roshti TOGRUTA_CHR_sarmuk TOGRUTA_CHR_selda TOGRUTA_CHR_skohani TOGRUTA_CHR_torhaa TOGRUTA_CHR_tuktee
+			}
+			regnal_first_names_female = {
+				TOGRUTA_CHR_achitan TOGRUTA_CHR_ahsoka TOGRUTA_CHR_alie TOGRUTA_CHR_asaak TOGRUTA_CHR_ashara TOGRUTA_CHR_ashla TOGRUTA_CHR_audila TOGRUTA_CHR_auxi TOGRUTA_CHR_bela TOGRUTA_CHR_carshotta TOGRUTA_CHR_dar_nala TOGRUTA_CHR_deran TOGRUTA_CHR_ellin TOGRUTA_CHR_hellena TOGRUTA_CHR_kalda TOGRUTA_CHR_kaveri TOGRUTA_CHR_kasuni TOGRUTA_CHR_maya TOGRUTA_CHR_niriian TOGRUTA_CHR_palla TOGRUTA_CHR_raana TOGRUTA_CHR_shaak TOGRUTA_CHR_sheel TOGRUTA_CHR_shi_fara TOGRUTA_CHR_sumalee TOGRUTA_CHR_synoda TOGRUTA_CHR_vaash TOGRUTA_CHR_yanila TOGRUTA_CHR_yelto TOGRUTA_CHR_zaa
+			}
+			regnal_second_names = {
+				TOGRUTA_CHR_biss TOGRUTA_CHR_borm TOGRUTA_CHR_bourke TOGRUTA_CHR_dan TOGRUTA_CHR_karls TOGRUTA_CHR_kiwiiks TOGRUTA_CHR_korbin TOGRUTA_CHR_kray TOGRUTA_CHR_lah TOGRUTA_CHR_mafeen TOGRUTA_CHR_mazlin TOGRUTA_CHR_nalual TOGRUTA_CHR_nys TOGRUTA_CHR_phaa TOGRUTA_CHR_phoenix TOGRUTA_CHR_ra TOGRUTA_CHR_reb TOGRUTA_CHR_ren TOGRUTA_CHR_tano TOGRUTA_CHR_tama TOGRUTA_CHR_tamm TOGRUTA_CHR_tey TOGRUTA_CHR_ti TOGRUTA_CHR_ty TOGRUTA_CHR_vashee TOGRUTA_CHR_zavros
+			}
+		}
+	}
+}

@@ -1,0 +1,5 @@
+NGameplay = {
+		PLANET_COMBAT_WIDTH_BASE		= 25 # default = 5; Maximum number of troops that can fight at the same time
+		PLANET_COMBAT_WIDTH_FROM_SIZE	= 1.0 # default = 0.2; Extra combat width per tile
+		PLANET_COMBAT_WIDTH_MINIMUM 	= 25 # default = 2; Minimum combat width
+}
