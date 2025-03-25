@@ -108060,7 +108060,7 @@ noonar_system_initializer = {
 	name = "NAME_Noonar"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -108177,7 +108177,7 @@ cademimu_system_initializer = {
 	name = "NAME_Cademimu"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -108283,7 +108283,7 @@ agamar_system_initializer = {
 	name = "NAME_Agamar"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -109773,7 +109773,7 @@ hewett_system_initializer = {
 	name = "NAME_Hewett"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -109877,7 +109877,7 @@ polus_system_initializer = {
 	name = "NAME_Polus"
 	class = "sc_binary_1"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -110021,7 +110021,7 @@ erkit_system_initializer = {
 	name = "NAME_Er_Kit"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -110135,7 +110135,7 @@ ord_sigatt_system_initializer = {
 	name = "NAME_Ord_Sigatt"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -114422,7 +114422,7 @@ ord_trasi_system_initializer = {
 	name = "NAME_Ord_Trasi"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 		nebula_system
 	}
@@ -115577,7 +115577,7 @@ ketaris_system_initializer = {
 	name = "NAME_Ketaris"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -115999,7 +115999,7 @@ aris_system_initializer = {
 	name = "NAME_Aris"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 		nebula_system
 	}
@@ -116105,7 +116105,7 @@ maelstrom_nebula_system_initializer = {
 	name = "NAME_Maelstrom_Nebula"
 	class = "sc_nebula_purple"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 		nebula_system
 	}
@@ -116127,7 +116127,7 @@ vykos_system_initializer = {
 	name = "NAME_Vykos"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 		nebula_system
 	}
@@ -116241,7 +116241,7 @@ mantooine_system_initializer = {
 	name = "NAME_Mantooine"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -116359,7 +116359,7 @@ horuz_system_initializer = {
 	name = "NAME_Horuz"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -116533,7 +116533,7 @@ generis_system_initializer = {
 	name = "NAME_Generis"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -116658,7 +116658,7 @@ devon_system_initializer = {
 	name = "NAME_Devon"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -116744,7 +116744,7 @@ markbees_star_system_initializer = {
 	name = "NAME_Markbees_Star"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -116909,7 +116909,7 @@ fest_system_initializer = {
 	name = "NAME_Fest"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -117021,7 +117021,7 @@ doan_system_initializer = {
 	name = "NAME_Doan"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -117127,7 +117127,7 @@ hethar_system_initializer = {
 	name = "NAME_Hethar"
 	class = "rl_standard_stars"
 	flags = {
-		rebel_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
