@@ -109,7 +109,7 @@ SeperatistAlliance = {
 	graphical_culture="cis_01"
 	city_graphical_culture="cis_01"
 	empire_flag={
-		icon = { category="starwars" file="SeperatistAlliance.dds" }
+		icon = { category="starwars" file="ConfederateRemnant.dds" }
 		background = { category="backgrounds" file="00_solid.dds" }
 		colors = { "customcolor1583" "customcolor1583" "null" "null" }
 	}
