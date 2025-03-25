@@ -102,7 +102,7 @@ SeperatistAlliance = {
 
 	flags={ custom_start_screen seperatist_alliance cis_tech human_sw init_spawned }
 	#weapon="red"
-	planet_name="NAME_Raxus_P3"
+	planet_name="NAME_Raxus_P4"
 	planet_class="pc_ecumenopolis"
 	system_name="NAME_Raxus"
 	initializer="canon_raxus_system_initializer"
