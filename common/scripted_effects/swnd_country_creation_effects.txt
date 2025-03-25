@@ -1574,7 +1574,7 @@ create_seperatist_alliance_country = {
 		}
 		species = event_target:human_species
 		flag = {
-			icon = { category = "starwars" file = "Seperatist_Alliance.dds" }
+			icon = { category = "starwars" file = "SeperatistAlliance.dds" }
 			background = { category = "backgrounds" file = "00_solid.dds" }
 			colors = { "customcolor1583" "customcolor1583" "null" "null" }
 		}

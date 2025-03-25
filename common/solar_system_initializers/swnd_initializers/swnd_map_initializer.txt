@@ -6722,6 +6722,300 @@ osarian_system_initializer = {
 	}
 }
 
+
+# Dantooine
+canon_dantooine_system_initializer = {
+	name = "NAME_Dantooine"
+	class = "sc_g"
+	max_instances = 1
+	planet = {
+		name = "NAME_Dantooine_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "NAME_Dantooine_P1"
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Dantooine_P2"
+		class = pc_toxic
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Dantooine_P2_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P2_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P2_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Dantooine_P3"
+		class = pc_barren
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Dantooine_P3_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P3_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P3_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Dantooine_P4"
+		class = pc_continental
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = 25
+		has_ring = no
+		modifiers = none
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = planet_dantooine
+			add_deposit = d_kyber_vein
+			set_name = "NAME_Dantooine_P4"
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Dantooine_P4_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P4_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Dantooine_P5"
+		class = pc_gas_giant
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 25
+			max = 30
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Dantooine_P5_1"
+			class = random_non_colonizable
+			orbit_distance = 30
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P5_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P5_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Dantooine_P6"
+		class = pc_gas_giant
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 25
+			max = 30
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Dantooine_P6_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P6_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P6_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+}
+
 #Tlactehon
 tlactehon_system_initializer = {
 	name = "NAME_Tlactehon"

@@ -6416,4 +6416,6 @@ l_english:
  EMPIRE_DESIGN_SeperatistAlliance_desc: "Likeminded star systems fed up with the Galactic Republic's constant escalating regulations are starting to do something about it. Under the guidance of Count Dooku of Serreno, the CIS have already established a Congress to legislate responses to the Republic's actions."
  PRESCRIPTED_ruler_first_name_SeperatistAlliance: "Count"
  PRESCRIPTED_ruler_second_name_SeperatistAlliance: "Dooku"
-
+ format.seperatist_alliance: "Seperatist Alliance"
+ NAME_SeperatistAlliance: "Seperatist Alliance"
+ START_SCREEN_SEPERATIST_ALLIANCE: " "
