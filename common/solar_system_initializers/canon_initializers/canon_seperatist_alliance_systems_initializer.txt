@@ -1,17 +1,18 @@
+
 # Raxus
 raxus_system_initializer = {
 	name = "NAME_Raxus"
 	class = "sc_g"
 	flags = {
-		seperatist_alliance_start_system
-		seperatist_alliance_homeworld
+		confederacy_homeworld
+		confederacy_start_system
 		canon_map
 		canon_map_shipyard_system
 		raxus_system
 	}
 	init_effect = {
 		generate_home_system_resources = yes
-		log = "seperatist alliance homeworld"
+		log = "confederacy homeworld"
 	}
 	usage = custom_empire
 	max_instances = 1
@@ -28,7 +29,8 @@ raxus_system_initializer = {
 	planet = {
 		name = "NAME_Raxus_P1"
 		class = pc_arid
-		orbit_distance = 30
+		
+		orbit_distance = 3
 		orbit_angle = {
 			min = 90
 			max = 270
@@ -122,10 +124,11 @@ canon_dantooine_system_initializer = {
 	name = "NAME_Dantooine"
 	class = "sc_g"
 	flags = {
-		seperatist_alliance_start_system
+		confederacy_start_system
 		canon_map
 		canon_map_shipyard_system
 	}
+	max_instances = 1
 	planet = {
 		name = "NAME_Dantooine_S"
 		class = star
@@ -267,19 +270,24 @@ canon_dantooine_system_initializer = {
 			min = 90
 			max = 270
 		}
-		size = @capital_size
+		size = 25
 		has_ring = no
-		starting_planet = yes
-		deposit_blockers = none
 		modifiers = none
 		init_effect = {
-			set_owner = event_target:seperatist_alliance
-			generate_owner_pops = { AMOUNT = 13 }
 			prevent_anomaly = yes
 			set_planet_flag = planet_dantooine
 			add_deposit = d_kyber_vein
+			if = { limit = { has_global_flag = non_canon_map_spawned }
+				generate_owner_pops = { AMOUNT = 23 }
+				generate_colony_buildings = yes
+			}
+			else = {
+				generate_owner_pops = { AMOUNT = 8 }
+				set_planet_flag = needs_2_twilek_pops
+				set_planet_flag = needs_10_misc_pops
+				set_planet_flag = needs_3_misc_pops
+			}
 			set_name = "NAME_Dantooine_P4"
-			create_starting_shipyard = { OWNER = "event_target:seperatist_alliance" }
 		}
 		change_orbit = @base_moon_dist
 		moon = {
@@ -424,7 +432,7 @@ sinsang_system_initializer = {
 	name = "NAME_Sinsang"
 	class = "rl_standard_stars"
 	flags = {
-		seperatist_alliance_start_system
+		confederacy_start_system
 		canon_map
 	}
 	planet = {
@@ -472,7 +480,7 @@ sinsang_system_initializer = {
 	}
 	planet = {
 		name = "NAME_Sinsang_P1"
-		class = pc_ecumenopolis_ruined
+		class = pc_ecumenopolis
 		orbit_distance = 30
 		orbit_angle = {
 			min = 90
@@ -531,7 +539,7 @@ fedje_system_initializer = {
 	name = "NAME_Fedje"
 	class = "rl_standard_stars"
 	flags = {
-		seperatist_alliance_start_system
+		confederacy_start_system
 		canon_map
 		starport_start
 	}
@@ -607,10 +615,10 @@ fedje_system_initializer = {
 			set_forest_world = yes
 			if = {
 				limit = {
-					exists = event_target:seperatist_alliance
+					exists = event_target:confederacy_of_independent_systems
 					NOT = { has_global_flag = non_canon_map_spawned }
 				}
-				set_owner = event_target:seperatist_alliance
+				set_owner = event_target:confederacy_of_independent_systems
 				generate_colony_buildings = yes
 				generate_owner_pops = { AMOUNT = 2 }
 				set_planet_flag = needs_3_misc_pops
@@ -762,7 +770,7 @@ namta_system_initializer = {
 	name = "NAME_Namta"
 	class = "rl_standard_stars"
 	flags = {
-		seperatist_alliance_start_system
+		confederacy_start_system
 		starport_start
 		canon_map
 	}
@@ -826,10 +834,10 @@ namta_system_initializer = {
 		init_effect = {
 			if = {
 				limit = {
-					exists = event_target:seperatist_alliance
+					exists = event_target:confederacy_of_independent_systems
 					NOT = { has_global_flag = non_canon_map_spawned }
 				}
-				set_owner = event_target:seperatist_alliance
+				set_owner = event_target:confederacy_of_independent_systems
 				generate_cloud_buildings = yes
 				generate_owner_pops = yes
 				set_planet_flag = needs_5_misc_pops
@@ -931,7 +939,7 @@ borgo_prime_system_initializer = {
 	name = "NAME_Borgo_Prime"
 	class = "rl_standard_stars"
 	flags = {
-		seperatist_alliance_start_system
+		confederacy_start_system
 		canon_map
 	}
 	planet = {
@@ -961,10 +969,10 @@ borgo_prime_system_initializer = {
 		init_effect = {
 			if = {
 				limit = {
-					exists = event_target:seperatist_alliance
+					exists = event_target:confederacy_of_independent_systems
 					NOT = { has_global_flag = non_canon_map_spawned }
 				}
-				set_owner = event_target:seperatist_alliance
+				set_owner = event_target:confederacy_of_independent_systems
 				generate_asteroid_buildings = yes
 				generate_owner_pops = yes
 				set_planet_flag = needs_5_misc_pops
@@ -980,7 +988,7 @@ gwenee_system_initializer = {
 	name = "NAME_Gwenee"
 	class = "rl_standard_stars"
 	flags = {
-		seperatist_alliance_start_system
+		confederacy_start_system
 		starport_start
 		canon_map
 	}
@@ -1046,10 +1054,10 @@ gwenee_system_initializer = {
 			set_planet_flag = darksaber_clue
 			if = {
 				limit = {
-					exists = event_target:seperatist_alliance
+					exists = event_target:confederacy_of_independent_systems
 					NOT = { has_global_flag = non_canon_map_spawned }
 				}
-				set_owner = event_target:seperatist_alliance
+				set_owner = event_target:confederacy_of_independent_systems
 				generate_ecu_ruined_buildings = yes
 				generate_owner_pops = { AMOUNT = 19 }
 				prevent_anomaly = yes
@@ -1097,7 +1105,7 @@ ithor_system_initializer = {
 	name = "NAME_Ithor"
 	class = "rl_standard_stars"
 	flags = {
-		seperatist_alliance_start_system
+		confederacy_start_system
 		starport_start
 		canon_map
 	}
@@ -1273,10 +1281,10 @@ ithor_system_initializer = {
 			add_modifier = { modifier = lush_planet }
 			if = {
 				limit = {
-					exists = event_target:seperatist_alliance 
+					exists = event_target:confederacy_of_independent_systems 
 					NOT = { has_global_flag = non_canon_map_spawned }
 				}
-				set_owner = event_target:seperatist_alliance
+				set_owner = event_target:confederacy_of_independent_systems
 				generate_ithor_buildings = yes
 				create_ithorian_species = yes
 				generate_pops = { SPECIES = "event_target:ithorian_species" AMOUNT = 12 }
