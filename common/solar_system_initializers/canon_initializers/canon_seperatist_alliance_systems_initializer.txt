@@ -1,6 +1,6 @@
 
 # Raxus
-canon_raxus_system_initializer = {
+raxus_system_initializer = {
 	name = "NAME_Raxus"
 	class = "sc_g"
 	flags = {
