@@ -91,20 +91,6 @@ empire_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
-			add = 10000
-			has_country_flag = senate_loyalists
-		}
-	}
-	lookups = "[This.GetSpeciesName]"
-	format = "{format.senate_loyalists}"
-	noun = "Senate"
-	prefix_format = ""
-}
-
-empire_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
 			add = 15000
 			has_country_flag = rebel_alliance
 		}

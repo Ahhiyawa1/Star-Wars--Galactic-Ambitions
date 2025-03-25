@@ -19,7 +19,6 @@ is_imperial_country = {
 
 is_alliance_country = {
 	OR = {
-		has_country_flag = senate_loyalists
 		has_country_flag = kingdom_of_alderaan
 		has_country_flag = mon_cala_monarchy
 		has_country_flag = bothan_council

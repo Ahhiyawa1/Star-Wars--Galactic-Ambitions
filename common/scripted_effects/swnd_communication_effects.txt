@@ -3,10 +3,6 @@ establish_republic_communication = {
 		limit = { exists = event_target:galactic_republic }
 		event_target:galactic_republic = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -140,10 +136,6 @@ establish_seperatist_communication = {
 		limit = { exists = event_target:seperatist_alliance }
 		event_target:seperatist_alliance = {
 			if = {
-				limit = { exists = event_target:galactic_republic }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -275,10 +267,6 @@ establish_ciutric_hegemony_communication = {
 		limit = { exists = event_target:ciutric_hegemony }
 		event_target:ciutric_hegemony = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -373,144 +361,6 @@ establish_ciutric_hegemony_communication = {
 			if = {
 				limit = { exists = event_target:kingdom_of_onderon }
 				establish_communications_no_message = event_target:kingdom_of_onderon
-			}
-		}
-	}
-}
-
-#Senate
-establish_senate_loyalists_communication = {
-	if = {
-		limit = { exists = event_target:senate_loyalists }
-		event_target:senate_loyalists = {
-			if = {
-				limit = { exists = event_target:hutt_cartel }
-				establish_communications_no_message = event_target:hutt_cartel
-			}
-			if = {
-				limit = { exists = event_target:kingdom_of_alderaan }
-				establish_communications_no_message = event_target:kingdom_of_alderaan
-			}
-			if = {
-				limit = { exists = event_target:mandalorian_clans }
-				establish_communications_no_message = event_target:mandalorian_clans
-			}
-
-			if = {
-				limit = { exists = event_target:corporate_sector_authority }
-				establish_communications_no_message = event_target:corporate_sector_authority
-			}
-			if = {
-				limit = { exists = event_target:seperatist_alliance }
-				establish_communications_no_message = event_target:seperatist_alliance
-			}
-			if = {
-				limit = { exists = event_target:corellian_security }
-				establish_communications_no_message = event_target:corellian_security
-			}
-			if = {
-				limit = { exists = event_target:bothan_council }
-				establish_communications_no_message = event_target:bothan_council
-			}
-			if = {
-				limit = { exists = event_target:confederate_remnant }
-				establish_communications_no_message = event_target:confederate_remnant
-			}
-			if = {
-				limit = { exists = event_target:juvex_sector }
-				establish_communications_no_message = event_target:juvex_sector
-			}
-			if = {
-				limit = { exists = event_target:senex_sector }
-				establish_communications_no_message = event_target:senex_sector
-			}
-			if = {
-				limit = { exists = event_target:echani_command }
-				establish_communications_no_message = event_target:echani_command
-			}
-			if = {
-				limit = { exists = event_target:trade_federation }
-				establish_communications_no_message = event_target:trade_federation
-			}
-			if = {
-				limit = { exists = event_target:tion_hegemony }
-				establish_communications_no_message = event_target:tion_hegemony
-			}
-			if = {
-				limit = { exists = event_target:banking_clan }
-				establish_communications_no_message = event_target:banking_clan
-			}
-			if = {
-				limit = { exists = event_target:arkanian_dominion }
-				establish_communications_no_message = event_target:arkanian_dominion
-			}
-			if = {
-				limit = { exists = event_target:taanab_authority }
-				establish_communications_no_message = event_target:taanab_authority
-			}
-			if = {
-				limit = { exists = event_target:black_sun_organization }
-				establish_communications_no_message = event_target:black_sun_organization
-			}
-			if = {
-				limit = { exists = event_target:kingdom_of_zeltros }
-				establish_communications_no_message = event_target:kingdom_of_zeltros
-			}
-			if = {
-				limit = { exists = event_target:kingdom_of_onderon }
-				establish_communications_no_message = event_target:kingdom_of_onderon
-			}
-			if = {
-				limit = { exists = event_target:mon_cala_monarchy }
-				establish_communications_no_message = event_target:mon_cala_monarchy
-			}
-			if = {
-				limit = { exists = event_target:dorin_commonwealth }
-				establish_communications_no_message = event_target:dorin_commonwealth
-			}
-			if = {
-				limit = { exists = event_target:commerce_guild }
-				establish_communications_no_message = event_target:commerce_guild
-			}
-			if = {
-				limit = { exists = event_target:ciutric_hegemony }
-				establish_communications_no_message = event_target:ciutric_hegemony
-			}
-			if = {
-				limit = { exists = event_target:chalactan_council }
-				establish_communications_no_message = event_target:chalactan_council
-			}
-			if = {
-				limit = { exists = event_target:eriadu_authority }
-				establish_communications_no_message = event_target:eriadu_authority
-			}
-			if = {
-				limit = { exists = event_target:trandoshan_tribes }
-				establish_communications_no_message = event_target:trandoshan_tribes
-			}
-			if = {
-				limit = { exists = event_target:corporate_alliance }
-				establish_communications_no_message = event_target:corporate_alliance
-			}
-			if = {
-				limit = { exists = event_target:fondor_sector_vassal }
-				establish_communications_no_message = event_target:fondor_sector_vassal
-			}
-			if = {
-				limit = { exists = event_target:naboo_sector_vassal }
-				establish_communications_no_message = event_target:naboo_sector_vassal
-			}
-			if = {
-				limit = { exists = event_target:terminus_sector_vassal }
-				establish_communications_no_message = event_target:terminus_sector_vassal
-			}
-			if = {
-				limit = { exists = event_target:sluis_sector_vassal }
-				establish_communications_no_message = event_target:sluis_sector_vassal
-			}
-			if = {
-				limit = { exists = event_target:galactic_republic }
-				establish_communications_no_message = event_target:galactic_republic
 			}
 		}
 	}
@@ -521,10 +371,7 @@ establish_kingdom_of_alderaan_communication = {
 	if = {
 		limit = { exists = event_target:kingdom_of_alderaan }
 		event_target:kingdom_of_alderaan = {
-			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
+
 			if = {
 				limit = { exists = event_target:hutt_cartel }
 				establish_communications_no_message = event_target:hutt_cartel
@@ -659,10 +506,6 @@ establish_mon_cala_monrachy_communication = {
 		limit = { exists = event_target:mon_cala_monarchy }
 		event_target:mon_cala_monarchy = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -772,10 +615,6 @@ establish_ryloth_protectorate_communication = {
 		limit = { exists = event_target:ryloth_protectorate }
 		event_target:ryloth_protectorate = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -877,10 +716,6 @@ establish_verpine_enclave_communication = {
 		limit = { exists = event_target:verpine_enclave }
 		event_target:verpine_enclave = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -968,10 +803,6 @@ establish_hutt_communication = {
 	if = {
 		limit = { exists = event_target:hutt_cartel }
 		event_target:hutt_cartel = {
-			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
 			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
@@ -1126,10 +957,6 @@ establish_mando_communication = {
 		limit = { exists = event_target:mandalorian_clans }
 		event_target:mandalorian_clans = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -1283,10 +1110,6 @@ establish_corp_sector_communication = {
 		limit = { exists = event_target:corporate_sector_authority }
 		event_target:corporate_sector_authority = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -1436,10 +1259,6 @@ establish_corellia_communication = {
 		limit = { exists = event_target:corellian_security }
 		event_target:corellian_security = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -1572,10 +1391,6 @@ establish_bothan_communication = {
 		limit = { exists = event_target:bothan_council }
 		event_target:bothan_council = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -1696,10 +1511,6 @@ establish_cis_communication = {
 	if = {
 		limit = { exists = event_target:confederate_remnant }
 		event_target:confederate_remnant = {
-			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
 			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
@@ -1850,10 +1661,6 @@ establish_trade_federation_communication = {
 		limit = { exists = event_target:trade_federation }
 		event_target:trade_federation = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -1998,10 +1805,6 @@ establish_banking_clan_communication = {
 	if = {
 		limit = { exists = event_target:banking_clan }
 		event_target:banking_clan = {
-			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
 			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
@@ -2164,10 +1967,6 @@ establish_tion_hegemony_communication = {
 		limit = { exists = event_target:tion_hegemony }
 		event_target:tion_hegemony = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -2321,10 +2120,6 @@ establish_commerce_guild_communication = {
 		limit = { exists = event_target:commerce_guild }
 		event_target:commerce_guild = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -2453,10 +2248,6 @@ establish_corperate_alliance_communication = {
 	if = {
 		limit = { exists = event_target:corporate_alliance }
 		event_target:corporate_alliance = {
-			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
 			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
@@ -2606,10 +2397,6 @@ establish_juvex_communication = {
 		limit = { exists = event_target:juvex_sector }
 		event_target:juvex_sector = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -2725,10 +2512,6 @@ establish_senex_communication = {
 	if = {
 		limit = { exists = event_target:senex_sector }
 		event_target:senex_sector = {
-			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
 			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
@@ -2846,10 +2629,6 @@ establish_echani_communication = {
 		limit = { exists = event_target:echani_command }
 		event_target:echani_command = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -2964,10 +2743,6 @@ establish_arkanian_dominion_communication = {
 		limit = { exists = event_target:arkanian_dominion }
 		event_target:arkanian_dominion = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -3076,10 +2851,6 @@ establish_taanab_authority_communication = {
 	if = {
 		limit = { exists = event_target:taanab_authority }
 		event_target:taanab_authority = {
-			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
 			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
@@ -3257,10 +3028,7 @@ establish_black_sun_communication = {
 	if = {
 		limit = { exists = event_target:black_sun_organization }
 		event_target:black_sun_organization = {
-			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
+
 			if = {
 				limit = { exists = event_target:mandalorian_clans }
 				establish_communications_no_message = event_target:mandalorian_clans
@@ -3410,10 +3178,7 @@ establish_kingdom_of_onderon_communication = {
 	if = {
 		limit = { exists = event_target:kingdom_of_onderon }
 		event_target:kingdom_of_onderon = {	
-			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
+
 			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
@@ -3515,10 +3280,6 @@ establish_kingdom_of_zeltros_communication = {
 		limit = { exists = event_target:kingdom_of_zeltros }
 		event_target:kingdom_of_zeltros = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -3618,10 +3379,6 @@ establish_dorin_commonwealth_communication = {
 	if = {
 		limit = { exists = event_target:dorin_commonwealth }
 		event_target:dorin_commonwealth = {
-			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
 			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
@@ -3724,10 +3481,6 @@ establish_chalactan_council_communication = {
 		limit = { exists = event_target:chalactan_council }
 		event_target:chalactan_council = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -3823,10 +3576,6 @@ establish_eriadu_communication = {
 	if = {
 		limit = { exists = event_target:eriadu_authority }
 		event_target:eriadu_authority = {
-			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
 			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
@@ -3962,10 +3711,6 @@ establish_naboo_sector_communication = {
 		limit = { exists = event_target:naboo_sector_vassal }
 		event_target:naboo_sector_vassal = {
 			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
-			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan
 			}
@@ -4095,10 +3840,6 @@ establish_fondor_sector_communication = {
 	if = {
 		limit = { exists = event_target:fondor_sector_vassal }
 		event_target:fondor_sector_vassal = {
-			if = {
-				limit = { exists = event_target:senate_loyalists }
-				establish_communications_no_message = event_target:senate_loyalists
-			}
 			if = {
 				limit = { exists = event_target:kingdom_of_alderaan }
 				establish_communications_no_message = event_target:kingdom_of_alderaan

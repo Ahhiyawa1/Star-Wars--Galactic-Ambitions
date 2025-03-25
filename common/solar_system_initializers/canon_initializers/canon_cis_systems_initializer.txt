@@ -1,0 +1,1460 @@
+
+# Raxus
+raxus_system_initializer = {
+	name = "NAME_Raxus"
+	class = "sc_g"
+	flags = {
+		confederacy_homeworld
+		confederacy_start_system
+		canon_map
+		canon_map_shipyard_system
+		raxus_system
+	}
+	init_effect = {
+		generate_home_system_resources = yes
+		log = "confederacy homeworld"
+		add_modifier = {
+			modifier = sy_corellian_run
+		}
+	}
+	usage = custom_empire
+	max_instances = 1
+	planet = {
+		name = "NAME_Raxus_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "NAME_Raxus_P1"
+		class = pc_arid
+		
+		orbit_distance = 3                                    \0
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = @medium_planet_min_size
+			max = @medium_planet_max_size
+		}
+		has_ring = no
+		entity = "toxic_planet_02_entity"
+		change_orbit = @base_moon_dist
+		init_effect = {
+			add_deposit = d_raxus_shipyards
+			set_scrapyard_world = yes
+		}
+	}
+	planet = {
+		name = "NAME_Raxus_P2"
+		class = pc_frozen
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Raxus_P3"
+		class = pc_continental
+		orbit_distance = 70
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = @medium_planet_min_size
+			max = @medium_planet_max_size
+		}
+		has_ring = no
+		init_effect = {
+			set_planet_entity = { 
+				picture = pc_raxus
+			}
+		}
+		change_orbit = @base_moon_dist
+	}
+}
+
+# Dantooine
+canon_dantooine_system_initializer = {
+	name = "NAME_Dantooine"
+	class = "sc_g"
+	flags = {
+		confederacy_start_system
+		canon_map
+		canon_map_shipyard_system
+	}
+	max_instances = 1
+	planet = {
+		name = "NAME_Dantooine_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "NAME_Dantooine_P1"
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Dantooine_P2"
+		class = pc_toxic
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Dantooine_P2_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P2_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P2_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Dantooine_P3"
+		class = pc_barren
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Dantooine_P3_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P3_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P3_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Dantooine_P4"
+		class = pc_continental
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = 25
+		has_ring = no
+		starting_planet = yes
+		deposit_blockers = none
+		modifiers = none
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = planet_dantooine
+			add_deposit = d_kyber_vein
+			random_country = { limit = { has_country_flag = confederacy_of_independent_systems }
+				save_global_event_target_as = confederacy_of_independent_systems
+				set_country_flag = canon_map
+			}
+			set_owner = event_target:confederacy_of_independent_systems
+			generate_dantooine_buildings = yes
+			if = { limit = { has_global_flag = non_canon_map_spawned }
+				generate_owner_pops = { AMOUNT = 23 }
+			}
+			else = {
+				generate_owner_pops = { AMOUNT = 8 }
+				set_planet_flag = needs_2_twilek_pops
+				set_planet_flag = needs_10_misc_pops
+				set_planet_flag = needs_3_misc_pops
+			}
+			give_start_techs = yes
+			set_name = "NAME_Dantooine_P4"
+			create_starting_shipyard = { OWNER = "event_target:confederacy_of_independent_systems" }
+			add_modifier = { modifier = pm_habitability_humans clear_on_owner_change = yes } # 20% hab bonus, since humans lost homeworld bonus (except Coruscant)
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Dantooine_P4_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P4_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Dantooine_P5"
+		class = pc_gas_giant
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 25
+			max = 30
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Dantooine_P5_1"
+			class = random_non_colonizable
+			orbit_distance = 30
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P5_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P5_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Dantooine_P6"
+		class = pc_gas_giant
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 25
+			max = 30
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Dantooine_P6_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P6_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Dantooine_P6_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+}
+
+# Sinsang
+sinsang_system_initializer = {
+	name = "NAME_Sinsang"
+	class = "rl_standard_stars"
+	flags = {
+		confederacy_start_system
+		canon_map
+	}
+	planet = {
+		name = "NAME_Sinsang_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		count = {
+			min = 2
+			max = 3
+		}
+		size = {
+			min = 5
+			max = 10
+		}
+		class = random_non_colonizable
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			count = {
+				min = 0
+				max = 1
+			}
+			size = {
+				min = 2
+				max = 5
+			}
+			class = random_non_colonizable
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			orbit_distance = 2
+		}
+	}
+	planet = {
+		name = "NAME_Sinsang_P1"
+		class = pc_ecumenopolis_ruined
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = @ecumenopolis_min_size
+			max = @ecumenopolis_max_size
+		}
+		has_ring = no
+		deposit_blockers = none
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = planet_sinsang
+			set_planet_flag = sw_habitable_4
+		}
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		count = {
+			min = 3
+			max = 4
+		}
+		size = {
+			min = 10
+			max = 25
+		}
+		class = random_non_colonizable
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			count = {
+				min = 0
+				max = 2
+			}
+			size = {
+				min = 2
+				max = 5
+			}
+			class = random_non_colonizable
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			orbit_distance = 2
+		}
+	}
+}
+
+# Fedje
+fedje_system_initializer = {
+	name = "NAME_Fedje"
+	class = "rl_standard_stars"
+	flags = {
+		confederacy_start_system
+		canon_map
+		starport_start
+	}
+	planet = {
+		name = "NAME_Fedje_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "NAME_Fedje_P1"
+		class = random_non_colonizable
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Fedje_P2"
+		class = random_non_colonizable
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Fedje_P2_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Fedje_P3"
+		class = pc_tropical
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = @medium_planet_min_size
+			max = @medium_planet_max_size
+		}
+		has_ring = no
+		deposit_blockers = none
+		init_effect = {
+			set_planet_flag = planet_fedje
+			set_forest_world = yes
+			if = {
+				limit = {
+					exists = event_target:confederacy_of_independent_systems
+					NOT = { has_global_flag = non_canon_map_spawned }
+				}
+				set_owner = event_target:confederacy_of_independent_systems
+				generate_colony_buildings = yes
+				generate_owner_pops = { AMOUNT = 2 }
+				set_planet_flag = needs_3_misc_pops
+				set_planet_flag = needs_5_misc_pops
+				prevent_anomaly = yes
+			}
+		}
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Fedje_P4"
+		class = random_non_colonizable
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Fedje_P4_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Fedje_P5"
+		class = pc_gas_giant
+		orbit_distance = 60
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 25
+			max = 30
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Fedje_P5_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Fedje_P5_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Fedje_P5_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Fedje_P5_4"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Fedje_P5_5"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Fedje_P5_6"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Fedje_P6"
+		class = random_non_colonizable
+		orbit_distance = 60
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+}
+
+# Nam'ta
+namta_system_initializer = {
+	name = "NAME_Namta"
+	class = "rl_standard_stars"
+	flags = {
+		confederacy_start_system
+		starport_start
+		canon_map
+	}
+	planet = {
+		name = "NAME_Namta_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		count = {
+			min = 2
+			max = 3
+		}
+		size = {
+			min = 5
+			max = 10
+		}
+		class = random_non_colonizable
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			count = {
+				min = 0
+				max = 1
+			}
+			size = {
+				min = 2
+				max = 5
+			}
+			class = random_non_colonizable
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			orbit_distance = 2
+		}
+	}
+	planet = {
+		name = "NAME_Namta_P1"
+		class = pc_cloud_city
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = @habitat_min_size
+			max = @habitat_max_size
+		}
+		has_ring = no
+		deposit_blockers = none
+		init_effect = {
+			if = {
+				limit = {
+					exists = event_target:confederacy_of_independent_systems
+					NOT = { has_global_flag = non_canon_map_spawned }
+				}
+				set_owner = event_target:confederacy_of_independent_systems
+				generate_cloud_buildings = yes
+				generate_owner_pops = yes
+				set_planet_flag = needs_5_misc_pops
+				prevent_anomaly = yes
+			}
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Namta_P1_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Namta_P1_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Namta_P1_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		count = {
+			min = 3
+			max = 4
+		}
+		size = {
+			min = 10
+			max = 25
+		}
+		class = random_non_colonizable
+		orbit_distance = {
+			min = 30
+			max = 30
+		}
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			count = {
+				min = 0
+				max = 2
+			}
+			size = {
+				min = 2
+				max = 5
+			}
+			class = random_non_colonizable
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			orbit_distance = 2
+		}
+	}
+	planet = {
+		class = pc_asteroid
+		orbit_distance = {
+			min = 30
+			max = 30
+		}
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+	}
+}
+
+# Borgo Prime
+borgo_prime_system_initializer = {
+	name = "NAME_Borgo_Prime"
+	class = "rl_standard_stars"
+	flags = {
+		confederacy_start_system
+		canon_map
+	}
+	planet = {
+		name = "NAME_Borgo_Prime_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "NAME_Borgo_Prime_P1"
+		class = pc_polis_massa
+		orbit_distance = 100
+		orbit_angle = {
+			min = 40
+			max = 180
+		}
+		size = {
+			min = @habitat_min_size
+			max = @habitat_max_size
+		}
+		has_ring = no
+		deposit_blockers = none
+		init_effect = {
+			if = {
+				limit = {
+					exists = event_target:confederacy_of_independent_systems
+					NOT = { has_global_flag = non_canon_map_spawned }
+				}
+				set_owner = event_target:confederacy_of_independent_systems
+				generate_asteroid_buildings = yes
+				generate_owner_pops = yes
+				set_planet_flag = needs_5_misc_pops
+				prevent_anomaly = yes
+			}
+		}
+		change_orbit = @base_moon_dist
+	}
+}
+
+# G'wenee
+gwenee_system_initializer = {
+	name = "NAME_Gwenee"
+	class = "rl_standard_stars"
+	flags = {
+		confederacy_start_system
+		starport_start
+		canon_map
+	}
+	planet = {
+		name = "NAME_Gwenee_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		count = {
+			min = 2
+			max = 3
+		}
+		size = {
+			min = 5
+			max = 10
+		}
+		class = random_non_colonizable
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			count = {
+				min = 0
+				max = 1
+			}
+			size = {
+				min = 2
+				max = 5
+			}
+			class = random_non_colonizable
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			orbit_distance = 2
+		}
+	}
+	planet = {
+		name = "NAME_Gwenee_P1"
+		class = pc_ecumenopolis_ruined
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = @ecumenopolis_min_size
+			max = @ecumenopolis_max_size
+		}
+		has_ring = no
+		deposit_blockers = none
+		init_effect = {
+			set_planet_flag = planet_gwenee
+			set_planet_flag = darksaber_clue
+			if = {
+				limit = {
+					exists = event_target:confederacy_of_independent_systems
+					NOT = { has_global_flag = non_canon_map_spawned }
+				}
+				set_owner = event_target:confederacy_of_independent_systems
+				generate_ecu_ruined_buildings = yes
+				generate_owner_pops = { AMOUNT = 19 }
+				prevent_anomaly = yes
+			}
+		}
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		count = {
+			min = 3
+			max = 4
+		}
+		size = {
+			min = 10
+			max = 25
+		}
+		class = random_non_colonizable
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			count = {
+				min = 0
+				max = 2
+			}
+			size = {
+				min = 2
+				max = 5
+			}
+			class = random_non_colonizable
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			orbit_distance = 2
+		}
+	}
+}
+
+# Ithor
+ithor_system_initializer = {
+	name = "NAME_Ithor"
+	class = "rl_standard_stars"
+	flags = {
+		confederacy_start_system
+		starport_start
+		canon_map
+	}
+	init_effect = {
+		add_modifier = {
+			modifier = sy_celanon_spur
+		}
+	}
+	planet = {
+		name = "NAME_Ithor_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "NAME_Ithor_P1"
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Ithor_P1_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Ithor_P2"
+		class = pc_toxic
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Ithor_P2_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Ithor_P2_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Ithor_P2_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Ithor_P3"
+		class = pc_barren
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Ithor_P3_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Ithor_P3_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Ithor_P3_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Ithor_P4"
+		class = pc_tropical
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = @medium_planet_min_size
+			max = @medium_planet_max_size
+		}
+		has_ring = no
+		deposit_blockers = none
+		init_effect = {
+			set_jungle_world = yes
+			set_planet_flag = planet_ithor
+			save_global_event_target_as = planet_ithor
+			add_modifier = { modifier = lush_planet }
+			if = {
+				limit = {
+					exists = event_target:confederacy_of_independent_systems 
+					NOT = { has_global_flag = non_canon_map_spawned }
+				}
+				set_owner = event_target:confederacy_of_independent_systems
+				generate_ithor_buildings = yes
+				create_ithorian_species = yes
+				generate_pops = { SPECIES = "event_target:ithorian_species" AMOUNT = 12 }
+				prevent_anomaly = yes
+			}
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Ithor_P4_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Ithor_P4_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Ithor_P4_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Ithor_P4_4"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Ithor_P5"
+		class = pc_gas_giant
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 25
+			max = 30
+		}
+		has_ring = yes
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Ithor_P5_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Ithor_P5_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Ithor_P5_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Ithor_P5_4"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Ithor_P6"
+		class = pc_gas_giant
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 25
+			max = 30
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Ithor_P6_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Ithor_P6_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Ithor_P6_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Ithor_P6_4"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+}

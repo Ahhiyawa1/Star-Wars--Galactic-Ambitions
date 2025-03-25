@@ -4,7 +4,6 @@ uses_rebel_uniform = {
 	exists = owner
 	owner = { 
 		OR = { 
-			has_country_flag = senate_loyalists
 			has_country_flag = rebel_alliance
 			has_country_flag = kingdom_of_alderaan
 		}
@@ -55,7 +54,6 @@ uses_neutral_clothes = {
 	exists = owner
 	owner = {
 		NOR = {
-			has_country_flag = senate_loyalists
 			has_country_flag = rebel_alliance
 			has_country_flag = kingdom_of_alderaan
 			has_country_flag = galactic_republic
@@ -98,7 +96,6 @@ uses_rebel_uniform_leader = {
 	owner = {
 		OR = {
 			has_country_flag = rebel_alliance
-			has_country_flag = senate_loyalists
 		}
 	}
 }

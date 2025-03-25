@@ -751,37 +751,6 @@ create_corporate_sector_authority_country = {
 		}
 	}
 }
-create_senate_loyalists_country = {
-	create_country = {
-		name = "NAME_dantari_territories"
-		adjective = PRESCRIPTED_species_adjective_DantariTerritories
-		ship_prefix = ""
-		type = default
-		origin = "origin_swp_restoration"
-		ignore_initial_colony_error = yes
-		civics = {
-			civic = "civic_rebel_sympathy"
-			civic = "civic_idyllic_charm"
-		}
-		authority = auth_democratic
-		ethos = {
-			ethic = "ethic_egalitarian"
-			ethic = "ethic_pacifist"
-			ethic = "ethic_xenophile"
-		}
-		species = event_target:human_species
-		flag = {
-			icon = { category = "starwars" file = "RepublicLoyalists.dds" }
-			background = { category = "backgrounds" file = "00_solid.dds" }
-			colors = { "customcolor1053" "customcolor1053" "null" "null" }
-		}
-		effect = {
-			set_graphical_culture = rebel_01
-			set_country_flag = senate_loyalists
-			set_country_flag = init_spawned
-		}
-	}
-}
 create_dorin_commonwealth_country = {
 	create_country = {
 		name = "NAME_dorin_commonwealth"

@@ -96,7 +96,6 @@ uses_rebel_weapons = {
 		is_species_class = VER
 		is_species_class = BOT
 		is_species_class = TWI
-		has_country_flag = senate_loyalists
 		has_country_flag = kingdom_of_alderaan
 		has_country_flag = mon_cala_monarchy
 		has_country_flag = bothan_council
@@ -366,7 +365,6 @@ xenophobe_country_traditions = {
 		is_criminal_syndicate = yes
 	}
 	NOR = {
-		has_country_flag = senate_loyalists
 		has_country_flag = rebel_alliance
 		has_country_flag = hutt_cartel
 		has_country_flag = mandalorians_book_of_boba
@@ -386,7 +384,6 @@ is_habitat_empire_tradition = {
 		has_country_flag = verpine_enclave
 	}
 	NOR = {
-		has_country_flag = senate_loyalists
 		has_country_flag = rebel_alliance
 		has_authority = auth_hive_mind
 		has_authority = auth_machine_intelligence
@@ -537,10 +534,6 @@ is_rebel_federation_member = {
 	}
 }
 
-is_in_federation_with_loyalists = {
-	has_federation = yes
-	is_in_federation_with = event_target:senate_loyalists
-}
 
 has_compound_country_adjective = {
 	OR = {
@@ -554,7 +547,6 @@ has_compound_country_adjective = {
 		has_country_flag = mon_cala_monarchy
 		has_country_flag = pantoran_assembly
 		has_country_flag = the_centrality
-		has_country_flag = senate_loyalists
 		has_country_flag = trade_federation
 	}
 }
@@ -562,7 +554,6 @@ has_compound_country_adjective = {
 is_swp_starting_empire = {
 	OR = {
 		has_country_flag = galactic_republic
-		has_country_flag = senate_loyalists
 		has_country_flag = rebel_alliance
 		has_country_flag = hutt_cartel
 		has_country_flag = mandalorian_clans

@@ -1,14 +1,5 @@
 
 
-# Republic Loyalists
-part = {
-	location = 0
-	localization = "START_SCREEN_SENATE_LOYALISTS"
-
-	trigger = {
-		is_republic_loyalists = yes
-	}
-}
 # Hutt Cartel
 part = {
 	location = 0
