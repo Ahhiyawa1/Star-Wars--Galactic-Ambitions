@@ -94,8 +94,7 @@ civic_seperatist_patrtiotism = {
 		planet_stability_add = 5
 		pop_growth_from_immigration = 0.6
 		pop_citizen_happiness = 0.5
-		command_limit_add = 8
-        country_naval_cap_mult = 0.20
+
 		trade_value_mult = 0.10
 		country_unity_produces_mult = 0.1
 	}
@@ -111,8 +110,9 @@ civic_cis_militarization = {
 		engineering_tech_cost_mult = -0.4
 		edicts_alloys_upkeep_mult = -0.5
 		physics_tech_cost_mult = -0.2
-		command_limit_add = 2
+		command_limit_add = 8
         country_naval_cap_mult = 0.3
+		ships_alloys_upkeep_mult = -0.3
 	}
 }
 
@@ -124,10 +124,10 @@ civic_seperatist_senate = {
 	pickable_at_start = no
 	random_weight = { base = 0 }
 	modifier = {
-		diplo_weight_economy_mult = 0.40
+		
 		envoys_add = 3
 		country_edict_fund_add = -5
-		leaders_upkeep_mult = 4
+		leaders_upkeep_mult = 0.4
 		diplo_weight_mult = -0.4
 	}
 }
@@ -140,7 +140,7 @@ civic_corporate_benefactors = {
 	pickable_at_start = no
 	random_weight = { base = 0 }
 	modifier = {
-		country_resource_max_energy_add = 500
+		country_resource_max_energy_add = 5000
 		trade_value_add = 0.7
 		trade_value_mult = 0.3
 		diplo_weight_naval_mult = 0.1
