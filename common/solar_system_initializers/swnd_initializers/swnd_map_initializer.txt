@@ -6727,7 +6727,10 @@ osarian_system_initializer = {
 canon_dantooine_system_initializer = {
 	name = "NAME_Dantooine"
 	class = "sc_g"
-	max_instances = 1
+	flags = {
+		seperatist_alliance_start_system
+		canon_map
+	}
 	planet = {
 		name = "NAME_Dantooine_S"
 		class = star
@@ -7162,7 +7165,7 @@ thaere_system_initializer = {
 	name = "NAME_Thaereian"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -7255,7 +7258,7 @@ doldur_system_initializer = {
 	name = "NAME_Doldur"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -7369,7 +7372,7 @@ druckenwell_system_initializer = {
 	name = "NAME_Druckenwell"
 	class = "sc_g"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -7577,7 +7580,7 @@ paqwepor_major_system_initializer = {
 	name = "NAME_Paqwepor_Major"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -7635,7 +7638,7 @@ kabray_system_initializer = {
 	name = "NAME_Kabray"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -7750,7 +7753,7 @@ algara_system_initializer = {
 	name = "NAME_Algara"
 	class = "sc_g"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -8025,7 +8028,7 @@ andosha_system_initializer = {
 	name = "NAME_Andosha"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -8144,7 +8147,7 @@ mon_gazza_system_initializer = {
 	name = "NAME_Mon_Gazza"
 	class = "sc_f"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -8338,7 +8341,7 @@ herdessa_system_initializer = {
 	name = "NAME_Herdessa"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -8453,7 +8456,7 @@ radnor_system_initializer = {
 	name = "NAME_Radnor"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -81942,7 +81945,7 @@ llanic_system_initializer = {
 	name = "NAME_Llanic"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -82000,7 +82003,7 @@ zhar_system_initializer = {
 	name = "NAME_Zhar"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -82124,7 +82127,7 @@ ryndellia_system_initializer = {
 	name = "NAME_Ryndellia"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -82182,7 +82185,7 @@ alui_system_initializer = {
 	name = "NAME_Alui"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
@@ -82243,7 +82246,7 @@ bacrana_system_initializer = {
 	name = "NAME_Bacrana"
 	class = "sc_g"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -125802,7 +125805,7 @@ triffis_system_initializer = {
 	name = "NAME_Triffis"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -125906,7 +125909,7 @@ kalarba_system_initializer = {
 	name = "NAME_Kalarba"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -126109,7 +126112,7 @@ monor_system_initializer = {
 	name = "NAME_Monor"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -126252,7 +126255,7 @@ argus_system_initializer = {
 	name = "NAME_Argus"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -126361,7 +126364,7 @@ zolan_system_initializer = {
 	name = "NAME_Zolan"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -126466,7 +126469,7 @@ rintonne_system_initializer = {
 	name = "NAME_Rintonne"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -126575,7 +126578,7 @@ habassa_system_initializer = {
 	name = "NAME_Habassa"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -126661,7 +126664,7 @@ retep_system_initializer = {
 	name = "NAME_Retep"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -127575,7 +127578,7 @@ ninzam_system_initializer = {
 	name = "NAME_Ninzam"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {
@@ -129430,7 +129433,7 @@ verdanth_system_initializer = {
 	name = "NAME_Verdanth"
 	class = "rl_standard_stars"
 	flags = {
-		cis_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	init_effect = {
