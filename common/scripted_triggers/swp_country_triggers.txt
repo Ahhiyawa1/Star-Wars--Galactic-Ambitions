@@ -66,6 +66,15 @@ is_part_of_galactic_republic = {
 is_rebel_alliance = {
 	has_country_flag = rebel_alliance
 }
+# Republic Loyalist (no Rebel yet)
+is_republic_loyalists = {
+	has_country_flag = senate_loyalists
+}
+
+# Galactic Empire
+is_galactic_empire = {
+	has_country_flag = galactic_empire
+}
 
 # Galactic Republic
 is_galactic_republic = {

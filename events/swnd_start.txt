@@ -29,7 +29,6 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		is_canon_map = yes
-		is_ttce_map = yes
 	}
 
 	immediate = {
@@ -109,8 +108,7 @@ event = {
 	trigger = {
 		OR = {
 			is_canon_map = yes
-			is_ttce_map = yes
-			is_sandbox_map = yes
+				is_sandbox_map = yes
 		}
 	}
 	immediate = {
@@ -415,8 +413,7 @@ country_event = {
 		if = {
 			limit = {
 				is_canon_map = yes
-				is_ttce_map = yes
-				has_country_flag = init_spawned
+						has_country_flag = init_spawned
 			}
 			else = {
 				change_variable = {
@@ -3314,7 +3311,6 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		is_canon_map = yes
-		is_ttce_map = yes
 	}
 	immediate = {
 		if = {

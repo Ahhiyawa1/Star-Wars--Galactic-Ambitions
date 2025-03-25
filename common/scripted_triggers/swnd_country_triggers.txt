@@ -10,6 +10,7 @@ has_normal_events = {
 is_imperial_country = {
 	OR = {
 		has_country_flag = galactic_republic
+		has_country_flag = galactic_empire
 		has_country_flag = fondor_sector_vassal
 		has_country_flag = naboo_sector_vassal
 		has_country_flag = eriadu_authority
@@ -19,6 +20,7 @@ is_imperial_country = {
 
 is_alliance_country = {
 	OR = {
+		has_country_flag = senate_loyalist
 		has_country_flag = kingdom_of_alderaan
 		has_country_flag = mon_cala_monarchy
 		has_country_flag = bothan_council
