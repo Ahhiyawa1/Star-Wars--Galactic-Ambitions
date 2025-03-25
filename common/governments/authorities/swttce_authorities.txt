@@ -32,7 +32,7 @@ auth_galactic_republic = {
 
 
 
-# Galactic Republic Authority
+# Confederacy of Independent Systems authority
 auth_confederacy_of_independent_systems = {
 	election_term_years = 10
 	re_election_allowed = yes
