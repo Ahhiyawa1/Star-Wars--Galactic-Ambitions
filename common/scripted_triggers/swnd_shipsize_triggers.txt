@@ -110,6 +110,7 @@ rebel_countrys = {
 cis_countrys = {
 	OR = {
 		has_country_flag = confederate_remnant
+		has_country_flag = seperatist_alliance
 		has_country_flag = trade_federation
 		has_country_flag = banking_clan
 		has_country_flag = tion_hegemony

@@ -3298,7 +3298,8 @@ country_event = {
 				NOT = { has_country_flag = rebel_alliance }
 			}
 			#Set Contacts
-			establish_galactic_republic_communication = yes
+			establish_galactic_republic_communication = yes 
+			establish_seperatist_communication = yes
 			establish_senate_loyalists_communication = yes
 			establish_kingdom_of_alderaan_communication = yes
 			establish_hutt_communication = yes
