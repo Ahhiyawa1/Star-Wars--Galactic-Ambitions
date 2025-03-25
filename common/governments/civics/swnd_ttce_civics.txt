@@ -108,7 +108,6 @@ civic_cis_militarization = {
 	random_weight = { base = 0 }
 	modifier = {
 		engineering_tech_cost_mult = -0.4
-		edicts_alloys_upkeep_mult = -0.5
 		physics_tech_cost_mult = -0.2
 		command_limit_add = 8
         country_naval_cap_mult = 0.3
