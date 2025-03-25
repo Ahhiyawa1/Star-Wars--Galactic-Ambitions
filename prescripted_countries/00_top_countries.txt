@@ -73,7 +73,9 @@ GalacticRepublic = {
 
 # Confederacy of Independent Systems
 SeperatistAlliance = {
+	name="EMPIRE_DESIGN_SeperatistAlliance"
 	name_list="SWP_Human2"
+	adjective="PRESCRIPTED_adjective_SeperatistAlliance"
 	ship_prefix="PRESCRIPTED_ship_prefix_SeperatistAlliance"
 	species_name="PRESCRIPTED_species_name_SeperatistAlliance"
 	species_plural="PRESCRIPTED_species_plural_SeperatistAlliance"
