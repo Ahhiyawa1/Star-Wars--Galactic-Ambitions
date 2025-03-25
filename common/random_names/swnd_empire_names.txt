@@ -84,7 +84,7 @@ empire_name_format = {
 	lookups = "[This.GetSpeciesName]"
 	format = "{format.seperatist_alliance}"
 	prefix_format = ""
-	noun = "Seperatist"
+	noun = "Separatist"	
 }
 
 empire_name_format = {
