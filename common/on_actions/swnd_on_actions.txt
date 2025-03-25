@@ -35,7 +35,6 @@ on_game_start_country = {
 		swnd_start.150		 		# Spawn hyperroute relays
 		swnd_vassal_sector.1 		# Sector Vassal on canon map
 		swnd_start.122				# Removing Deposit on Ecu Sandbox
-		swnd_galactic_cw.1 			# Empire becoming Crisis
 		swnd_start.160				# Fix Double Species (if exists) and homeworlds
 		swnd_start.161				# FIRE LAST - Modify human species planet class preference
 	}

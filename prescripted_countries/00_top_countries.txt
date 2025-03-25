@@ -129,28 +129,29 @@ SeperatistAlliance = {
 	room="confederate_remnant_room"
 }
 
-
 #####################################
 # Empire & Allies
 #####################################
 
-# Eriadu Authority
-EriaduAuthority = {
-	name_list="SWP_Human4"
-	ship_prefix="PRESCRIPTED_ship_prefix_EriaduAuthority"
-	species_name="PRESCRIPTED_species_name_EriaduAuthority"
-	species_plural="PRESCRIPTED_species_plural_EriaduAuthority"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_EriaduAuthority"
-	species_bio="PRESCRIPTED_species_bio_EriaduAuthority"
+# Galactic Empire
+GalacticEmpire = {
+	name="EMPIRE_DESIGN_GalacticEmpire"
+	name_list="Imperial"
 	portrait="human"
-	name="EMPIRE_DESIGN_EriaduAuthority"
-	adjective="PRESCRIPTED_adjective_EriaduAuthority"
-
+	adjective="PRESCRIPTED_adjective_GalacticEmpire"
+	ship_prefix="PRESCRIPTED_ship_prefix_GalacticEmpire"
+	species_name = "PRESCRIPTED_species_name_GalacticEmpire"
+	species_plural = "PRESCRIPTED_species_plural_GalacticEmpire"
+	species_class = "HUM"
+	species_adjective = "PRESCRIPTED_species_adjective_GalacticEmpire"
+	species_bio="PRESCRIPTED_species_bio_GalacticEmpire"
+	
 	authority="auth_dictatorial"
-	civics={ "civic_distinguished_admiralty" "civic_cutthroat_politics" }
-	government="gov_constitutional_dictatorship"
+	government="gov_galactic_empire"
+	civics={ "civic_new_order" "civic_clone_wars_victor" }
 
+	flags={ custom_start_screen galactic_empire imperial_tech human_sw init_spawned }
+	
 	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
 	ethic="ethic_xenophobe"
@@ -158,95 +159,91 @@ EriaduAuthority = {
 	trait="trait_nomadic"
 	trait="trait_communal"
 	trait="trait_wasteful"
-
-	origin = "origin_swp_imperial_loyalist"
-
-	flags={ custom_start_screen eriadu_authority imperial_tech human_sw init_spawned }
-	#weapon="blue"
-	planet_name="NAME_Eriadu_P4"
-	planet_class="pc_ecumenopolis"
-	system_name="NAME_Eriadu"
-	initializer="canon_eriadu_system_initializer"
-	graphical_culture="imperial_01"
-	city_graphical_culture="mammalian_01"
+		
+	origin = "origin_swp_fallen_republic"
+	
 	empire_flag={
-		icon = { category="starwars" file="EriaduAuthority.dds" }
+		icon = { category="starwars" file="GalacticEmpire.dds" }
 		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor1878" "customcolor1878" "null" "null" }
+		colors = { "customcolor1951" "customcolor1951" "null" "null" }
 	}
 	ruler={
 		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_EriaduAuthority
-			second_name = PRESCRIPTED_ruler_second_name_EriaduAuthority
-		}
-		portrait="garoche_tarkin_male_01"
+		name = {
+			first_name = PRESCRIPTED_ruler_first_name_GalacticEmpire
+			second_name = PRESCRIPTED_ruler_second_name_GalacticEmpire
+		}	
+		portrait="palpatine_male_01"
 		texture=0
-		attachment=26
-		clothes=6
+		attachment=0
+		clothes=0
 		leader_class = official
 	}
 	spawn_enabled=always
-	room="eriadu_room"
+	room="empire_room"
 }
 
-# Ciutric Hegemony
-CiutricHegemony = {
-	name_list="SWP_Human4"
-	ship_prefix="PRESCRIPTED_ship_prefix_CiutricHegemony"
-	species_name="PRESCRIPTED_species_name_CiutricHegemony"
-	species_plural="PRESCRIPTED_species_plural_CiutricHegemony"
-	species_class="HUM"
-	species_adjective="PRESCRIPTED_species_adjective_CiutricHegemony"
-	species_bio="PRESCRIPTED_species_bio_CiutricHegemony"
-	portrait="human"
-	name="EMPIRE_DESIGN_CiutricHegemony"
-	adjective="PRESCRIPTED_adjective_CiutricHegemony"
-
-	authority="auth_dictatorial"
-	civics={ "civic_technocracy" "civic_nationalistic_zeal" }
-	government="gov_constitutional_dictatorship"
-
-	ethic="ethic_militarist"
-	ethic="ethic_fanatic_materialist"
- 	trait="trait_nomadic"
-	trait="trait_communal"
-	trait="trait_wasteful"
-
-	origin = "origin_swp_imperial_loyalist"
-
-	flags={ custom_start_screen ciutric_hegemony imperial_tech human_sw init_spawned }
-	#weapon="red" 
-	planet_name="NAME_Ciutric_P4"
-	planet_class="pc_tropical"
-	system_name="NAME_Ciutric"
-	initializer="canon_ciutric_system_initializer"
-	graphical_culture="imperial_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon = { category="starwars" file="CuitricHegemony.dds" }
-		background = { category="backgrounds" file="00_solid.dds" }
-		colors = { "customcolor1870" "customcolor1870" "null" "null" }
-	}
-	ruler={
-		gender=male
-		name={
-			first_name = PRESCRIPTED_ruler_first_name_CiutricHegemony
-			second_name = PRESCRIPTED_ruler_second_name_CiutricHegemony
-		}
-		portrait="pensar_luc_male_01"
-		texture=0
-		attachment=103
-		clothes=11
-		leader_class = official
-	}
-	spawn_enabled=always
-	room="ciutric_room"
-}
 
 #####################################
 # Rebel Alliance Founders
 #####################################
+
+
+#####################################
+# Rebel Alliance Founders
+#####################################
+
+# Dantari Territories - (Dantari - Dantooine)
+DantariTerritories = {
+	name_list="Rebel"
+	ship_prefix="PRESCRIPTED_ship_prefix_DantariTerritories"
+	species_name="PRESCRIPTED_species_name_DantariTerritories"
+	species_plural="PRESCRIPTED_species_plural_DantariTerritories"
+	species_class="HUM"
+	species_adjective="PRESCRIPTED_species_adjective_DantariTerritories"
+	species_bio="PRESCRIPTED_species_bio_DantariTerritories"
+	portrait="human"
+	name="EMPIRE_DESIGN_DantariTerritories"
+	adjective="PRESCRIPTED_adjective_DantariTerritories"
+
+	authority="auth_democratic"
+	civics={ "civic_rebel_sympathy" "civic_idyllic_charm" }
+	government="gov_imperial_senate"
+
+	ethic="ethic_egalitarian"
+	ethic="ethic_pacifist"
+	ethic="ethic_xenophile"
+
+	trait="trait_nomadic"
+	trait="trait_communal"
+	trait="trait_wasteful"
+
+	origin = "origin_swp_restoration"
+
+	flags={ custom_start_screen senate_loyalists rebel_tech human_sw init_spawned }
+	#weapon="red"
+	
+	empire_flag={
+		icon = { category="starwars" file="RepublicLoyalists.dds" }
+		background = { category="backgrounds" file="00_solid.dds" }
+		colors = { "customcolor1053" "customcolor1053" "null" "null" }
+	}
+	ruler={
+		gender=female
+		name={
+			first_name = PRESCRIPTED_ruler_first_name_DantariTerritories
+			second_name = PRESCRIPTED_ruler_second_name_DantariTerritories
+		}
+		portrait="mon_mothma_female_01"
+		texture=0
+		attachment=44
+		clothes=9
+		leader_class = official
+	}
+	spawn_enabled=always
+	room="dantari_territories_room"
+}
+
 
 # Kingdom of Alderaan
 KingdomofAlderaan = {

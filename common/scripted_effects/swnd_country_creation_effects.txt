@@ -1517,7 +1517,69 @@ create_zygerrian_slave_state_country = {
 	}
 }
 
+create_galactic_empire_country = {
+	create_country = {
+		name = "NAME_galactic_empire"
+		adjective = PRESCRIPTED_adjective_GalacticEmpire
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_fallen_republic"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_new_order"
+			civic = "civic_clone_wars_victor"
+		}
+		authority = auth_dictatorial
+		ethos = {
+			ethic = "ethic_authoritarian"
+			ethic = "ethic_militarist"
+			ethic = "ethic_xenophobe"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "GalacticEmpire.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1951" "customcolor1951" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = imperial_01
+			set_country_flag = galactic_empire
+			set_country_flag = init_spawned
+		}
+	}
+}
 
+create_senate_loyalists_country = {
+	create_country = {
+		name = "NAME_dantari_territories"
+		adjective = PRESCRIPTED_species_adjective_DantariTerritories
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_restoration"
+		ignore_initial_colony_error = yes
+		civics = {
+			civic = "civic_rebel_sympathy"
+			civic = "civic_idyllic_charm"
+		}
+		authority = auth_democratic
+		ethos = {
+			ethic = "ethic_egalitarian"
+			ethic = "ethic_pacifist"
+			ethic = "ethic_xenophile"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "RepublicLoyalists.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1053" "customcolor1053" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = rebel_01
+			set_country_flag = senate_loyalists
+			set_country_flag = init_spawned
+		}
+	}
+}
 
 # PRESCRIPTED EMPIRES starting scripts
 
