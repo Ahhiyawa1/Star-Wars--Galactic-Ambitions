@@ -77,6 +77,20 @@ empire_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
+			add = 1000000
+			has_country_flag = seperatist_alliance
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.seperatist_alliance}"
+	prefix_format = ""
+	noun = "Seperatist"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
 			add = 10000
 			has_country_flag = senate_loyalists
 		}

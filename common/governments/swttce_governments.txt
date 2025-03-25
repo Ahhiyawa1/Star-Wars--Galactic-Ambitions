@@ -18,3 +18,19 @@ gov_galactic_republic_phase_01 = {
 	}
 	weight = { base = 10000 }
 }
+
+
+
+## CIS SPHERE GOVERNMENTS ##
+
+# Confederacy of Independent Systems Phase 1 Government
+gov_cis_phase_01 = {
+	ruler_title = RT_HEAD_OF_STATE
+	ruler_title_female = RT_HEAD_OF_STATE_FEMALE
+	possible = {
+		is_cis = yes
+		has_authority = auth_confederacy_of_independent_systems
+		has_valid_civic = civic_seperatist_senate
+	}
+	weight = { base = 10000 }
+}

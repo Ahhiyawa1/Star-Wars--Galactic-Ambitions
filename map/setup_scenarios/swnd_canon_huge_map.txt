@@ -67,8 +67,8 @@ static_galaxy_scenario = {
 	system = { id = "2826" name = "Ord Mantell" position = { x = -2 y = -197 } initializer = canon_ord_mantell_system_initializer spawn_weight = { base = 0 modifier = { add = 10000 has_country_flag = black_sun_organization } } }
 	system = { id = "2891" name = "Cathar" position = { x = -140 y = -256 } initializer = canon_cathar_system_initializer spawn_weight = { base = 0 modifier = { add = 10000 has_country_flag = cathar_principality } } }
 	system = { id = "2949" name = "Muunilinst" position = { x = 41 y = -344 } initializer = canon_muunilinst_system_initializer spawn_weight = { base = 0 modifier = { add = 10000 has_country_flag = banking_clan } } } # ini by Chriskar
-	system = { id = "2981" name = "Ciutric" position = { x = -125 y = -306 } initializer = canon_ciutric_system_initializer spawn_weight = { base = 0 modifier = { add = 10000 has_country_flag = ciutric_hegemony } } } # ini by Chriskar
-	system = { id = "2993" name = "Dantooine" position = { x = 0 y = -348 } initializer = canon_dantooine_system_initializer spawn_weight = { base = 0 modifier = { add = 10000 has_country_flag = senate_loyalists } } }
+	system = { id = "2981" name = "Ciutric" position = { x = -125 y = -306 } initializer = canon_ciutric_system_initializer spawn_weight = { base = 0 modifier = { add = 10000 has_country_flag = seperatist_alliance } } } # ini by Chriskar
+	system = { id = "2700" name = "Raxus" position = { x = -382 y = -274 } initializer = raxus_system_initializer spawn_weight = { base = 0 modifier = { add = 10000 has_country_flag = senate_loyalists } } }
 	system = { id = "3018" name = "Iridonia" position = { x = 58 y = -216 } initializer = canon_iridonia_system_initializer spawn_weight = { base = 0 modifier = { add = 10000 has_country_flag = zabrak_council } } } # ini by Chriskar
 	system = { id = "3418" name = "Utapau" position = { x = -101 y = 422 } initializer = canon_utapau_system_initializer spawn_weight = { base = 0 modifier = { add = 10000 has_country_flag = utapauan_committee } } }
 	system = { id = "3443" name = "Pantora" position = { x = -213 y = 397 } initializer = canon_pantora_system_initializer spawn_weight = { base = 0 modifier = { add = 10000 has_country_flag = pantoran_assembly } } }
@@ -2917,6 +2917,7 @@ static_galaxy_scenario = {
 	system = { id = "2990" name = "NAME_Equanus" position = { x = 6 y = -387 } } # no ini
 	system = { id = "2991" name = "Dubrillion" position = { x = 17 y = -381 } initializer = dubrillion_system_initializer } # POI
 	system = { id = "2992" name = "Ahakista" position = { x = 16 y = -376 } initializer = ahakista_system_initializer }
+	system = { id = "2993" name = "Dantooine" position = { x = 0 y = -348 } initializer = canon_dantooine_system_initializer }
 	system = { id = "2994" name = "Ord Trasi" position = { x = -7 y = -324 } initializer = ord_trasi_system_initializer } # Primitiv
 	system = { id = "2995" name = "NAME_Zeffo" position = { x = -89 y = -349 } initializer = zeffo_system_initializer }
 	# Free ids up to 3010

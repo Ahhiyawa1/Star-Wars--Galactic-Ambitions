@@ -4,7 +4,6 @@ defined_text = {
 	random = no
 	text = { weight = { weight = 1 } localization_key = GFX_council_room_common trigger = { has_paragon_dlc = no } }
 	text = { weight = { weight = 100 } localization_key = GFX_council_room_rebellion trigger = { has_origin = origin_swp_restoration } }
-	text = { weight = { weight = 100 } localization_key = GFX_council_room_galactic_republic trigger = { has_origin = origin_swp_twilight_of_the_republic } }
 	text = { weight = { weight = 100 } localization_key = GFX_council_room_mandalorian trigger = { has_origin = origin_swp_mandalorian } }
 	text = { weight = { weight = 100 } localization_key = GFX_council_room_banking_clan trigger = { has_country_flag = banking_clan } }
 	text = { weight = { weight = 100 } localization_key = GFX_council_room_separatist trigger = { has_origin = origin_swp_confed_remnant } }
@@ -18,6 +17,7 @@ defined_text = {
 	## CW ##
 
 	text = { weight = { weight = 100 } localization_key = GFX_council_room_galactic_republic trigger = { has_origin = origin_swp_twilight_of_the_republic } }
+	text = { weight = { weight = 100 } localization_key = GFX_council_room_seperatist_alliance trigger = { has_origin = origin_swp_dawn_of_the_cis } }
 
 	#text = { weight = { weight = 100 } localization_key = GFX_council_room_ trigger = { has_origin = } }
 

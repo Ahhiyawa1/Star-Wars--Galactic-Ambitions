@@ -1588,3 +1588,31 @@ create_galactic_republic_country = {
 	}
 }
 
+create_seperatist_alliance_country = {
+	create_country = {
+		name = "NAME_seperatist_alliance"
+		adjective = PRESCRIPTED_species_plural_Seperatist_Alliance
+		ship_prefix = ""
+		type = default
+		origin = "origin_swp_dawn_of_the_cis"
+		ignore_initial_colony_error = yes
+		civics={ civic = "civic_seperatist_patrtiotism" civic = "civic_cis_militarization" civic = "civic_seperatist_senate" civic = "civic_corporate_benefactors" }
+		authority = auth_confederacy_of_independent_systems
+		ethos = {
+			ethic = "ethic_authoritarian"
+			ethic = "ethic_militarist"
+			ethic = "ethic_materialist"
+		}
+		species = event_target:human_species
+		flag = {
+			icon = { category = "starwars" file = "Seperatist_Alliance.dds" }
+			background = { category = "backgrounds" file = "00_solid.dds" }
+			colors = { "customcolor1583" "customcolor1583" "null" "null" }
+		}
+		effect = {
+			set_graphical_culture = cis_01
+			set_country_flag = seperatist_alliance
+			set_country_flag = init_spawned
+		}
+	}
+}

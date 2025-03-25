@@ -31,6 +31,7 @@ is_alliance_country = {
 is_confederate_country = {
 	OR = {
 		has_country_flag = confederate_remnant
+		has_country_flag = seperatist_alliance
 		has_country_flag = terminus_sector_vassal
 		has_country_flag = sluis_sector_vassal
 		has_country_flag = trade_federation

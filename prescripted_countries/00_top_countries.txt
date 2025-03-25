@@ -67,6 +67,66 @@ GalacticRepublic = {
 	room="republic_room"
 }
 
+#####################################
+# Galactic Republic & Allies
+#####################################
+
+# Confederacy of Independent Systems
+SeperatistAlliance = {
+	name_list="SWP_Human2"
+	ship_prefix="PRESCRIPTED_ship_prefix_SeperatistAlliance"
+	species_name="PRESCRIPTED_species_name_SeperatistAlliance"
+	species_plural="PRESCRIPTED_species_plural_SeperatistAlliance"
+	species_class="HUM"
+	species_adjective="PRESCRIPTED_species_adjective_SeperatistAlliance"
+	species_bio="PRESCRIPTED_species_bio_SeperatistAlliance"
+	portrait="human"
+	name="EMPIRE_DESIGN_SeperatistAlliance"
+	adjective="PRESCRIPTED_adjective_SeperatistAlliance"
+
+	authority="auth_confederacy_of_independent_systems"
+	government="gov_cis_phase_01"
+	civics={ "civic_seperatist_patrtiotism" "civic_cis_militarization" "civic_seperatist_senate" "civic_corporate_benefactors" }
+
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+
+	trait="trait_nomadic"
+	trait="trait_communal"
+	trait="trait_wasteful"
+
+	origin = "origin_swp_dawn_of_the_cis"
+
+	flags={ custom_start_screen seperatist_alliance cis_tech human_sw init_spawned }
+	#weapon="red"
+	planet_name="NAME_Raxus_P3"
+	planet_class="pc_ecumenopolis"
+	system_name="NAME_Raxus"
+	initializer="canon_raxus_system_initializer"
+	graphical_culture="cis_01"
+	city_graphical_culture="cis_01"
+	empire_flag={
+		icon = { category="starwars" file="SeperatistAlliance.dds" }
+		background = { category="backgrounds" file="00_solid.dds" }
+		colors = { "customcolor1583" "customcolor1583" "null" "null" }
+	}
+	ruler={
+		gender=male
+		name={
+			first_name = PRESCRIPTED_ruler_first_name_SeperatistAlliance
+			second_name = PRESCRIPTED_ruler_second_name_SeperatistAlliance
+		}
+		portrait="human"
+		texture=0
+		attachment=0
+		clothes=0
+		leader_class = official
+	}
+	spawn_enabled=always
+	room="confederate_remnant_room"
+}
+
 
 #####################################
 # Empire & Allies

@@ -67,6 +67,7 @@ country_event = {
 	
 					# Cis
 					confederate_remnant = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
+					seperatist_alliance = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
 					banking_clan = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
 					tion_hegemony = { give_technology = { tech =  tech_republic_era_support_ships message = no } give_technology = { tech =  tech_republic_era_capital_ships message = no } }
 					trade_federation = { give_technology = { tech =  tech_republic_era_support_ships message = no } }
@@ -623,6 +624,10 @@ country_event = {
 				set_name = "NAME_galactic_republic"
 				set_adjective = "NAME_adjective_GalacticRepublic"
 			}
+			seperatist_alliance = {
+				set_name = "NAME_seperatist_alliance"
+				set_adjective = "NAME_adjective_SeperatistAlliance"
+			}
 			rebel_alliance = {
 				set_name = "NAME_Rebel_Alliance"
 				set_adjective = "Rebel Alliance"
@@ -883,6 +888,43 @@ event = {
 					create_starbase = {
 						size = starbase_starport
 						owner = event_target:galactic_republic
+						module = trading_hub
+					}
+				}
+				else_if = {
+					# CIS
+					limit = {
+						has_star_flag = seperatist_alliance_start_system
+						has_global_flag = canon_map_spawned
+						NOT = {
+							has_star_flag = canon_map_shipyard_system
+						}
+					}
+					create_starbase = {
+						size = starbase_outpost
+						owner = event_target:seperatist_alliance
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = seperatist_alliance_homeworld
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:seperatist_alliance
+						module = shipyard
+						module = trading_hub
+					}
+				}
+				else_if = {
+					limit = {
+						has_star_flag = seperatist_alliance_start_system
+						has_star_flag = canon_map_shipyard_system
+						NOT = { has_global_flag = non_canon_map_spawned }
+					}
+					create_starbase = {
+						size = starbase_starport
+						owner = event_target:seperatist_alliance
 						module = trading_hub
 					}
 				}
@@ -3145,7 +3187,6 @@ country_event = {
 					limit = {
 						has_planet_flag = planet_coruscant
 					}
-					add_deposit = d_ruined_jedi_temple
 					add_deposit = d_the_underworld
 					add_deposit = d_queen_core
 					add_deposit = d_galactic_senate

@@ -19,6 +19,143 @@ establish_republic_communication = {
 				limit = { exists = event_target:mandalorian_clans }
 				establish_communications_no_message = event_target:mandalorian_clans
 			}
+			if = {
+				limit = { exists = event_target:corporate_sector_authority }
+				establish_communications_no_message = event_target:corporate_sector_authority
+			}
+			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
+				limit = { exists = event_target:corellian_security }
+				establish_communications_no_message = event_target:corellian_security
+			}
+			if = {
+				limit = { exists = event_target:bothan_council }
+				establish_communications_no_message = event_target:bothan_council
+			}
+			if = {
+				limit = { exists = event_target:confederate_remnant }
+				establish_communications_no_message = event_target:confederate_remnant
+			}
+			if = {
+				limit = { exists = event_target:juvex_sector }
+				establish_communications_no_message = event_target:juvex_sector
+			}
+			if = {
+				limit = { exists = event_target:senex_sector }
+				establish_communications_no_message = event_target:senex_sector
+			}
+			if = {
+				limit = { exists = event_target:echani_command }
+				establish_communications_no_message = event_target:echani_command
+			}
+			if = {
+				limit = { exists = event_target:trade_federation }
+				establish_communications_no_message = event_target:trade_federation
+			}
+			if = {
+				limit = { exists = event_target:tion_hegemony }
+				establish_communications_no_message = event_target:tion_hegemony
+			}
+			if = {
+				limit = { exists = event_target:banking_clan }
+				establish_communications_no_message = event_target:banking_clan
+			}
+			if = {
+				limit = { exists = event_target:arkanian_dominion }
+				establish_communications_no_message = event_target:arkanian_dominion
+			}
+			if = {
+				limit = { exists = event_target:taanab_authority }
+				establish_communications_no_message = event_target:taanab_authority
+			}
+			if = {
+				limit = { exists = event_target:trandoshan_tribes }
+				establish_communications_no_message = event_target:trandoshan_tribes
+			}
+			if = {
+				limit = { exists = event_target:black_sun_organization }
+				establish_communications_no_message = event_target:black_sun_organization
+			}
+			if = {
+				limit = { exists = event_target:kingdom_of_zeltros }
+				establish_communications_no_message = event_target:kingdom_of_zeltros
+			}
+			if = {
+				limit = { exists = event_target:kingdom_of_onderon }
+				establish_communications_no_message = event_target:kingdom_of_onderon
+			}
+			if = {
+				limit = { exists = event_target:mon_cala_monarchy }
+				establish_communications_no_message = event_target:mon_cala_monarchy
+			}
+			if = {
+				limit = { exists = event_target:dorin_commonwealth }
+				establish_communications_no_message = event_target:dorin_commonwealth
+			}
+			if = {
+				limit = { exists = event_target:commerce_guild }
+				establish_communications_no_message = event_target:commerce_guild
+			}
+			if = {
+				limit = { exists = event_target:ciutric_hegemony }
+				establish_communications_no_message = event_target:ciutric_hegemony
+			}
+			if = {
+				limit = { exists = event_target:chalactan_council }
+				establish_communications_no_message = event_target:chalactan_council
+			}
+			if = {
+				limit = { exists = event_target:eriadu_authority }
+				establish_communications_no_message = event_target:eriadu_authority
+			}
+			if = {
+				limit = { exists = event_target:corporate_alliance }
+				establish_communications_no_message = event_target:corporate_alliance
+			}
+			if = {
+				limit = { exists = event_target:fondor_sector_vassal }
+				establish_communications_no_message = event_target:fondor_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:naboo_sector_vassal }
+				establish_communications_no_message = event_target:naboo_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:terminus_sector_vassal }
+				establish_communications_no_message = event_target:terminus_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:sluis_sector_vassal }
+				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+		}
+	}
+}
+
+establish_seperatist_communication = {
+	if = {
+		limit = { exists = event_target:seperatist_alliance }
+		event_target:seperatist_alliance = {
+			if = {
+				limit = { exists = event_target:galactic_republic }
+				establish_communications_no_message = event_target:senate_loyalists
+			}
+			if = {
+				limit = { exists = event_target:kingdom_of_alderaan }
+				establish_communications_no_message = event_target:kingdom_of_alderaan
+			}
+			if = {
+				limit = { exists = event_target:hutt_cartel }
+				establish_communications_no_message = event_target:hutt_cartel
+			}
+
+			if = {
+				limit = { exists = event_target:mandalorian_clans }
+				establish_communications_no_message = event_target:mandalorian_clans
+			}
 
 			if = {
 				limit = { exists = event_target:corporate_sector_authority }
@@ -158,6 +295,10 @@ establish_ciutric_hegemony_communication = {
 				establish_communications_no_message = event_target:corporate_sector_authority
 			}
 			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
 				limit = { exists = event_target:corellian_security }
 				establish_communications_no_message = event_target:corellian_security
 			}
@@ -258,6 +399,10 @@ establish_senate_loyalists_communication = {
 			if = {
 				limit = { exists = event_target:corporate_sector_authority }
 				establish_communications_no_message = event_target:corporate_sector_authority
+			}
+			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
 			}
 			if = {
 				limit = { exists = event_target:corellian_security }
@@ -391,6 +536,10 @@ establish_kingdom_of_alderaan_communication = {
 			if = {
 				limit = { exists = event_target:corporate_sector_authority }
 				establish_communications_no_message = event_target:corporate_sector_authority
+			}
+			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
 			}
 			if = {
 				limit = { exists = event_target:corellian_security }
@@ -530,6 +679,10 @@ establish_mon_cala_monrachy_communication = {
 				establish_communications_no_message = event_target:corporate_sector_authority
 			}
 			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
 				limit = { exists = event_target:corellian_security }
 				establish_communications_no_message = event_target:corellian_security
 			}
@@ -639,6 +792,10 @@ establish_ryloth_protectorate_communication = {
 				establish_communications_no_message = event_target:corporate_sector_authority
 			}
 			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
 				limit = { exists = event_target:corellian_security }
 				establish_communications_no_message = event_target:corellian_security
 			}
@@ -740,6 +897,10 @@ establish_verpine_enclave_communication = {
 				establish_communications_no_message = event_target:corporate_sector_authority
 			}
 			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
 				limit = { exists = event_target:corellian_security }
 				establish_communications_no_message = event_target:corellian_security
 			}
@@ -822,6 +983,10 @@ establish_hutt_communication = {
 			if = {
 				limit = { exists = event_target:corporate_sector_authority }
 				establish_communications_no_message = event_target:corporate_sector_authority
+			}
+			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
 			}
 			if = {
 				limit = { exists = event_target:corellian_security }
@@ -975,6 +1140,10 @@ establish_mando_communication = {
 			if = {
 				limit = { exists = event_target:corporate_sector_authority }
 				establish_communications_no_message = event_target:corporate_sector_authority
+			}
+			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
 			}
 			if = {
 				limit = { exists = event_target:corellian_security }
@@ -1287,6 +1456,10 @@ establish_corellia_communication = {
 				establish_communications_no_message = event_target:corporate_sector_authority
 			}
 			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
 				limit = { exists = event_target:bothan_council }
 				establish_communications_no_message = event_target:bothan_council
 			}
@@ -1419,6 +1592,10 @@ establish_bothan_communication = {
 				establish_communications_no_message = event_target:corporate_sector_authority
 			}
 			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
 				limit = { exists = event_target:corellian_security }
 				establish_communications_no_message = event_target:corellian_security
 			}
@@ -1538,6 +1715,10 @@ establish_cis_communication = {
 			if = {
 				limit = { exists = event_target:corporate_sector_authority }
 				establish_communications_no_message = event_target:corporate_sector_authority
+			}
+			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
 			}
 			if = {
 				limit = { exists = event_target:corellian_security }
@@ -1693,6 +1874,10 @@ establish_trade_federation_communication = {
 				establish_communications_no_message = event_target:corporate_sector_authority
 			}
 			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
 				limit = { exists = event_target:corellian_security }
 				establish_communications_no_message = event_target:corellian_security
 			}
@@ -1828,6 +2013,10 @@ establish_banking_clan_communication = {
 			if = {
 				limit = { exists = event_target:corporate_sector_authority }
 				establish_communications_no_message = event_target:corporate_sector_authority
+			}
+			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
 			}
 			if = {
 				limit = { exists = event_target:corellian_security }
@@ -1991,6 +2180,10 @@ establish_tion_hegemony_communication = {
 				establish_communications_no_message = event_target:corporate_sector_authority
 			}
 			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
 				limit = { exists = event_target:corellian_security }
 				establish_communications_no_message = event_target:corellian_security
 			}
@@ -2148,6 +2341,10 @@ establish_commerce_guild_communication = {
 				establish_communications_no_message = event_target:corporate_sector_authority
 			}
 			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
 				limit = { exists = event_target:corellian_security }
 				establish_communications_no_message = event_target:corellian_security
 			}
@@ -2275,6 +2472,10 @@ establish_corperate_alliance_communication = {
 			if = {
 				limit = { exists = event_target:corporate_sector_authority }
 				establish_communications_no_message = event_target:corporate_sector_authority
+			}
+			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
 			}
 			if = {
 				limit = { exists = event_target:corellian_security }
@@ -3069,6 +3270,10 @@ establish_black_sun_communication = {
 				establish_communications_no_message = event_target:corporate_sector_authority
 			}
 			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
 				limit = { exists = event_target:corellian_security }
 				establish_communications_no_message = event_target:corellian_security
 			}
@@ -3226,6 +3431,10 @@ establish_kingdom_of_onderon_communication = {
 				establish_communications_no_message = event_target:corporate_sector_authority
 			}
 			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
 				limit = { exists = event_target:corellian_security }
 				establish_communications_no_message = event_target:corellian_security
 			}
@@ -3326,6 +3535,10 @@ establish_kingdom_of_zeltros_communication = {
 				establish_communications_no_message = event_target:corporate_sector_authority
 			}
 			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
 				limit = { exists = event_target:corellian_security }
 				establish_communications_no_message = event_target:corellian_security
 			}
@@ -3424,6 +3637,10 @@ establish_dorin_commonwealth_communication = {
 			if = {
 				limit = { exists = event_target:corporate_sector_authority }
 				establish_communications_no_message = event_target:corporate_sector_authority
+			}
+			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
 			}
 			if = {
 				limit = { exists = event_target:corellian_security }
@@ -3527,6 +3744,10 @@ establish_chalactan_council_communication = {
 				establish_communications_no_message = event_target:corporate_sector_authority
 			}
 			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
 				limit = { exists = event_target:corellian_security }
 				establish_communications_no_message = event_target:corellian_security
 			}
@@ -3623,6 +3844,10 @@ establish_eriadu_communication = {
 			if = {
 				limit = { exists = event_target:corporate_sector_authority }
 				establish_communications_no_message = event_target:corporate_sector_authority
+			}
+			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
 			}
 			if = {
 				limit = { exists = event_target:corellian_security }
@@ -3759,6 +3984,10 @@ establish_naboo_sector_communication = {
 				establish_communications_no_message = event_target:corporate_sector_authority
 			}
 			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
+			}
+			if = {
 				limit = { exists = event_target:corellian_security }
 				establish_communications_no_message = event_target:corellian_security
 			}
@@ -3885,6 +4114,10 @@ establish_fondor_sector_communication = {
 			if = {
 				limit = { exists = event_target:corporate_sector_authority }
 				establish_communications_no_message = event_target:corporate_sector_authority
+			}
+			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
 			}
 			if = {
 				limit = { exists = event_target:corellian_security }
@@ -4141,6 +4374,10 @@ establish_galactic_republic_communication = {
 			if = {
 				limit = { exists = event_target:corporate_sector_authority }
 				establish_communications_no_message = event_target:corporate_sector_authority
+			}
+			if = {
+				limit = { exists = event_target:seperatist_alliance }
+				establish_communications_no_message = event_target:seperatist_alliance
 			}
 			if = {
 				limit = { exists = event_target:corellian_security }

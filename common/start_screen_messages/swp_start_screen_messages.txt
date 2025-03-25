@@ -89,3 +89,14 @@ part = {
 		is_galactic_republic = yes
 	}
 }
+
+
+# CIS
+part = {
+	location = 0
+	localization = "START_SCREEN_SEPERATIST_ALLIANCE"
+
+	trigger = {
+		is_seperatist_alliance = yes
+	}
+}

@@ -105146,7 +105146,7 @@ raxus_system_initializer = {
 	name = "NAME_Raxus"
 	class = "sc_g"
 	flags = {
-		tion_start_system
+		seperatist_alliance_start_system
 		canon_map
 	}
 	planet = {

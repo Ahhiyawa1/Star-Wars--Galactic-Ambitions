@@ -6,7 +6,6 @@
 # Rebel Faction
 is_rebel_alliance_member = {
 	or = {
-		has_country_flag = galactic_republic
 		has_country_flag = senate_loyalists
 		has_country_flag = kingdom_of_alderaan
 		has_country_flag = rebel_alliance
@@ -21,6 +20,7 @@ is_rebel_alliance_member = {
 is_cis_member = {
 	or = {
 		has_country_flag = confederate_remnant
+		has_country_flag = seperatist_alliance
 		has_country_flag = trade_federation
 		has_country_flag = commerce_guild
 		has_country_flag = tion_hegemony
@@ -78,6 +78,11 @@ is_galactic_republic = {
 	has_country_flag = galactic_republic
 }
 
+# CIS
+is_seperatist_alliance = {
+	has_country_flag = seperatist_alliance
+}
+
 # Cis Remnant
 is_cis_remnant = {
 	has_country_flag = confederate_remnant
@@ -129,6 +134,7 @@ is_minor = {
 	is_chiss_ascendancy = no
 	is_hutt_cartel = no
 	is_cis_remnant = no
+	is_seperatist_alliance = no
 	is_galactic_republic = no
 	is_rebel_alliance = no
 	is_republic_loyalists = no
@@ -142,6 +148,7 @@ has_special_institution = {
 		has_country_flag = corporate_sector_authority
 		has_country_flag = hutt_cartel
 		has_country_flag = confederate_remnant
+		has_country_flag = seperatist_alliance
 		has_country_flag = senate_loyalists
 		has_country_flag = rebel_alliance
 		has_country_flag = formable_this_is_the_way
