@@ -28,7 +28,7 @@ gov_cis_phase_01 = {
 	ruler_title = RT_HEAD_OF_STATE
 	ruler_title_female = RT_HEAD_OF_STATE_FEMALE
 	possible = {
-		is_cis = yes
+		is_seperatist_alliance = yes
 		has_authority = auth_confederacy_of_independent_systems
 		has_valid_civic = civic_seperatist_senate
 	}
