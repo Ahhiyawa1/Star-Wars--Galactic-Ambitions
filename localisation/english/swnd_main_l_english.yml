@@ -6414,3 +6414,7 @@ l_english:
 
  gov_cis_phase_01:0 "Confederacy of Independent Systems (Early)"
  gov_cis_phase_01_desc:0 "Likeminded star systems fed up with the Galactic Republic's constant escalating regulations are starting to do something about it. Under the guidance of Count Dooku of Serreno, the CIS have already established a Congress to legislate responses to the Republic's actions."
+
+
+ PRESCRIPTED_species_bio_SeperatistAlliance: " "
+ EMPIRE_DESIGN_SeperatistAlliance_desc: "Likeminded star systems fed up with the Galactic Republic's constant escalating regulations are starting to do something about it. Under the guidance of Count Dooku of Serreno, the CIS have already established a Congress to legislate responses to the Republic's actions."
