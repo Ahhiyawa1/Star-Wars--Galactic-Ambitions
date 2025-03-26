@@ -78,7 +78,7 @@ KaminoanCloners = {
 	species_plural = "PRESCRIPTED_species_plural_KaminoanCloners"
 	species_class = "KAM"
 	species_adjective = "PRESCRIPTED_species_adjective_KaminoanCloners"
-	species_bio="PRESCRIPTED_species_bio_GalacticRepublic"
+	species_bio="PRESCRIPTED_species_bio_KaminoanCloners"
 	
 	authority="auth_oligarchic"
 	government="gov_kaminoan_cloners"
