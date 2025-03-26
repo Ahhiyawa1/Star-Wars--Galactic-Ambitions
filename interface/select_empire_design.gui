@@ -144,23 +144,14 @@ if_resolution = {
 					name = "background"
 					spriteType = "GFX_tiles_dark_area_cut_8"
 				}
-				
-				instantTextBoxType = {
-					name = "green_empire_faction"
-					font = "cg_16b"
-					position = { x = 6 y = -125 }
-					maxWidth = 230
-					text = "Republic Faction"
-					format = left
-					alwaysTransparent = yes
-				}
+			
 
 				instantTextBoxType = {
 					name = "red_republic_faction"
 					font = "cg_16b"
 					position = { x = 6 y = -100 }
 					maxWidth = 230
-					text = "Republic Loyalist Faction"
+					text = "Republic Faction"
 					text_color_code = "R"
 					format = left
 					alwaysTransparent = yes
