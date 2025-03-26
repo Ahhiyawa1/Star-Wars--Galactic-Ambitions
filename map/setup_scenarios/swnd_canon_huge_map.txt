@@ -2142,7 +2142,7 @@ static_galaxy_scenario = {
 	system = { id = "2312" name = "Ord Pardron" position = { x = -324 y = 231 } initializer = ord_pardron_system_initializer }
 	system = { id = "2313" name = "NAME_Iskalon" position = { x = -315 y = 245 } } # no ini
 	system = { id = "2314" name = "NAME_Ragna" position = { x = -288 y = 262 } } # no ini
-	system = { id = "2316" name = "Kamino" position = { x = -353 y = 195 } initializer = kamino_system_initializer } # ini by Chriskar
+	system = { id = "2316" name = "Kamino" position = { x = -353 y = 195 } initializer = canon_kamino_system_initializer } # ini by Chriskar
 	system = { id = "2317" name = "NAME_Varristad" position = { x = -357 y = 201 } } # no ini
 	system = { id = "2318" name = "NAME_Abrion_Major" position = { x = -354 y = 206 } } # no ini
 	system = { id = "2319" name = "NAME_Vuzsa" position = { x = -319 y = 258 } } # no ini

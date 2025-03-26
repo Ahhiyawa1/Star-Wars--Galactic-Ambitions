@@ -147,3 +147,15 @@ civic_corporate_benefactors = {
 	}
 }
 
+civic_kaminoan_cloners = {
+	# unique kaminoan civic
+	modification = no
+	possible = { }
+	pickable_at_start = no
+	random_weight = { base = 0 }
+	modifier = {
+		pop_growth_speed = 0.4
+		armies_cost_mult = -0.5
+		society_tech_cost_mult = -0.2
+	}
+}
