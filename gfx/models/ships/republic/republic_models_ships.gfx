@@ -308,8 +308,8 @@ objectTypes = {
 
 objectTypes = {
 	pdxmesh = {
-		name = "republic_venator_mesh"
-		file = "gfx/models/ships/republic/republic_venator_battleship_mid.mesh"
+		name = "republic_venator_star_destroyer_mesh"
+		file = "gfx/models/ships/republic/republic_venator_star_destroyer_battleship_mid.mesh"
 		scale = 1.0
 	}
 }
@@ -321,8 +321,8 @@ objectTypes = {
 
 objectTypes = {
 	pdxmesh = {
-		name = "republic_venator_resolute_mesh"
-		file = "gfx/models/ships/republic/republic_venator_resolute_battleship_bow.mesh"
+		name = "republic_venator_star_destroyer_resolute_mesh"
+		file = "gfx/models/ships/republic/republic_venator_star_destroyer_resolute_battleship_bow.mesh"
 		scale = 1.0
 	}
 }

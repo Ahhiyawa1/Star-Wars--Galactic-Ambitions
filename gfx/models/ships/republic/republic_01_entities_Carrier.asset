@@ -39,7 +39,7 @@ entity = {
 
 entity = {
 	name = "republic_01_Carrier_bow_L1M1S2_entity"
-	pdxmesh = "republic_venator_resolute_mesh"
+	pdxmesh = "republic_venator_star_destroyer_resolute_mesh"
 	scale = 1.0
 
 	default_state = "idle"
@@ -243,7 +243,7 @@ entity = {
 
 entity = {
 	name = "republic_01_Carrier_bow_L2_entity"
-	pdxmesh = "republic_venator_resolute_mesh"
+	pdxmesh = "republic_venator_star_destroyer_resolute_mesh"
 	scale = 1.0
 
 	default_state = "idle"
@@ -447,7 +447,7 @@ entity = {
 
 entity = {
 	name = "republic_01_Carrier_bow_M1S2SHB_entity"
-	pdxmesh = "republic_venator_resolute_mesh"
+	pdxmesh = "republic_venator_star_destroyer_resolute_mesh"
 	scale = 1.0
 
 	default_state = "idle"
@@ -651,7 +651,7 @@ entity = {
 
 entity = {
 	name = "republic_01_Carrier_bow_XL1_entity"
-	pdxmesh = "republic_venator_resolute_mesh"
+	pdxmesh = "republic_venator_star_destroyer_resolute_mesh"
 	scale = 1.0
 
 	default_state = "idle"
