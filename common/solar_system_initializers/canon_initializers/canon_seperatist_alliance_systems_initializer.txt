@@ -751,7 +751,7 @@ gwenee_system_initializer = {
 					NOT = { has_global_flag = non_canon_map_spawned }
 				}
 				set_owner = event_target:seperatist_alliance
-				generate_ecu_ruined_buildings = yes
+				generate_ecu_buildings = yes
 				generate_owner_pops = { AMOUNT = 19 }
 				prevent_anomaly = yes
 			}

@@ -887,7 +887,17 @@ metellos_system_initializer = {
 		has_ring = yes
 		deposit_blockers = none
 		init_effect = {
-			set_planet_flag = planet_metellos
+			if = {
+				limit = {
+					exists = event_target:galactic_republic
+					NOT = { has_global_flag = non_canon_map_spawned }
+				}
+				set_owner = event_target:
+				set_planet_flag = planet_metellos
+				generate_ecu_buildings = yes
+				generate_owner_pops = { AMOUNT = 17 }
+				prevent_anomaly = yes
+			}
 		}
 		change_orbit = @base_moon_dist
 		moon = {
@@ -2137,7 +2147,18 @@ alsakan_system_initializer = {
 		init_effect = {
 			set_planet_flag = planet_alsakan
 			set_planet_flag = alsakan_homeworld
+			if = {
+				limit = {
+					exists = event_target:galactic_republic
+					NOT = { has_global_flag = non_canon_map_spawned }
+				}
+				set_owner = event_target:galactic_republic
+				generate_ecu_buildings = yes
+				generate_owner_pops = { AMOUNT = 17 }
+				prevent_anomaly = yes
+			}		
 		}
+
 		change_orbit = @base_moon_dist
 	}
 	planet = {
