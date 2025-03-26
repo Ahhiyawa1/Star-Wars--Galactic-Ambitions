@@ -112,7 +112,7 @@ raxus_system_initializer = {
 			}
 			set_owner = event_target:seperatist_alliance
 			generate_owner_pops = { AMOUNT = 20 }
-			generate_colony_buildings = yes
+			generate_ecu_buildings = yes
 			give_start_techs = yes
 			set_name = "NAME_Raxus_P4"
 			create_starting_shipyard = { OWNER = "event_target:seperatist_alliance" }
