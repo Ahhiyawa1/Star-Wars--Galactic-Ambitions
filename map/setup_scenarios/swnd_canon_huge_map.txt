@@ -78,6 +78,8 @@ static_galaxy_scenario = {
 	system = { id = "3943" name = "Bakura" position = { x = 217 y = 265 } initializer = canon_bakura_system_initializer spawn_weight = { base = 0 modifier = { add = 10000 has_country_flag = bakuran_senate } } }
 	system = { id = "4090" name = "Yoggoy" position = { x = 163 y = -180 } initializer = canon_yoggoy_system_initializer spawn_weight = { base = 0 modifier = { add = 10000 has_country_flag = killik_colony } } } # ini by Chriskar
 	system = { id = "4164" name = "Csilla" position = { x = 296 y = -122 } initializer = canon_csilla_system_initializer spawn_weight = { base = 0 modifier = { add = 10000 has_country_flag = chiss_ascendancy } } } # ini by Chriskar
+	system = { id = "2316" name = "Kamino" position = { x = -353 y = 195 } initializer = canon_kamino_system_initializer spawn_weight = { base = 0 modifier = { add = 10000 has_country_flag = kaminoan_cloners } } } # ini by Chriskar
+
 
 	#################################
 	#		Super-Hyperroutes		#
@@ -2142,7 +2144,6 @@ static_galaxy_scenario = {
 	system = { id = "2312" name = "Ord Pardron" position = { x = -324 y = 231 } initializer = ord_pardron_system_initializer }
 	system = { id = "2313" name = "NAME_Iskalon" position = { x = -315 y = 245 } } # no ini
 	system = { id = "2314" name = "NAME_Ragna" position = { x = -288 y = 262 } } # no ini
-	system = { id = "2316" name = "Kamino" position = { x = -353 y = 195 } initializer = canon_kamino_system_initializer } # ini by Chriskar
 	system = { id = "2317" name = "NAME_Varristad" position = { x = -357 y = 201 } } # no ini
 	system = { id = "2318" name = "NAME_Abrion_Major" position = { x = -354 y = 206 } } # no ini
 	system = { id = "2319" name = "NAME_Vuzsa" position = { x = -319 y = 258 } } # no ini

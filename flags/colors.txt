@@ -2056,6 +2056,7 @@ colors = {
 	customcolor2051	= { flag = hsv { 0 0.1 0.44 }	map = hsv { 0 0.1 0.44 } }
 	customcolor2052	= { flag = hsv { 0.98 0.46 0.38 }	map = hsv { 0.98 0.46 0.38 } }
 	customcolor2053	= { flag = hsv { 0.97 1.0 1.0 }	map = hsv { 0.97 1.0 1.0 } }	
+	customcolor2054 = { flag = hsv { 0.56 0.14 0.83 }	map = hsv { 0.56 0.14 0.83 } }  
 
 	dark_brown		= { flag = rgb { 58 38 23 } map = rgb {107 68 40} ship = rgb {255 228 136 } }
 	brown		 	= { flag = rgb { 101 66 40 } map = rgb {156 91 45} ship = rgb {255 228 136 } }

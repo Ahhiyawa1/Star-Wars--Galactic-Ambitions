@@ -142,7 +142,7 @@ canon_kamino_system_initializer = {
 				set_country_flag = canon_map
 			}
 			set_owner = event_target:kaminoan_cloners
-			generate_owner_pops = { AMOUNT = 10 }
+			generate_owner_pops = { AMOUNT = 23 }
 			give_start_techs = yes
 			set_name = "NAME_Kamino_P5"
 			create_starting_shipyard = { OWNER = "event_target:kaminoan_cloners" }
