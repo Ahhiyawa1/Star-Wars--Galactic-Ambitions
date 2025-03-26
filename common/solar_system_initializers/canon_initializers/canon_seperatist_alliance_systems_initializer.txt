@@ -12,7 +12,7 @@ raxus_system_initializer = {
 	}
 	init_effect = {
 		generate_home_system_resources = yes
-		log = "confederacy homeworld"
+		log = "seperatist alliance homeworld"
 	}
 	usage = custom_empire
 	max_instances = 1
@@ -112,6 +112,7 @@ raxus_system_initializer = {
 			}
 			set_owner = event_target:seperatist_alliance
 			generate_owner_pops = { AMOUNT = 20 }
+			generate_colony_buildings = yes
 			give_start_techs = yes
 			set_name = "NAME_Raxus_P4"
 			create_starting_shipyard = { OWNER = "event_target:seperatist_alliance" }
