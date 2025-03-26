@@ -1,0 +1,7 @@
+republic_01 = {
+	randomized = no
+	portraits = {
+	}
+	graphical_culture = republic_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}

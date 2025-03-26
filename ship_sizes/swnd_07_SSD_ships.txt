@@ -1,0 +1,210 @@
+#################################
+# 	Super Star Destroyer		#
+#################################
+########
+#T1
+########
+swp_subjugator ={
+	formation_priority = 50
+	max_speed = @max_speed_ssd
+	acceleration = @accleration_ssd
+	rotation_speed = @rotation_speed_ssd
+	collision_radius = 30
+	max_hitpoints = @max_hull_ssd_t1
+	size_multiplier = @size_multi_ssd_t1
+	fleet_slot_size = 10
+	modifier = {
+		ship_evasion_mult = -0.7
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_ssd_subjugator
+	base_buildtime = @buildtime_ssd_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_advanced_capital_ships" }
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_ssd_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_subjugator_dn = yes }
+	potential_construction = { needs_shipyard_0 = yes }
+	possible_construction = { needs_shipyard_1 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @SSD_fraction
+		}
+	}
+}
+
+swp_bellator ={
+	formation_priority = 50
+	max_speed = @max_speed_ssd
+	acceleration = @accleration_ssd
+	rotation_speed = @rotation_speed_ssd
+	collision_radius = 40
+	max_hitpoints = @max_hull_ssd_t1
+	size_multiplier = @size_multi_ssd_t1
+	fleet_slot_size = 12
+	modifier = {
+		ship_evasion_mult = -0.8
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_ssd_bellator
+	base_buildtime = @buildtime_ssd_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_advanced_capital_ships" }
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_ssd_t1_upkeep
+		}
+	 }
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_bellator_dn = yes }
+	potential_construction = { needs_shipyard_0 = yes }
+	possible_construction = { needs_shipyard_1 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @SSD_fraction
+		}
+	}
+}
+
+swp_solyc_verd ={
+	formation_priority = 50
+	max_speed = @max_speed_ssd
+	acceleration = @accleration_ssd
+	rotation_speed = @rotation_speed_ssd
+	collision_radius = 40
+	max_hitpoints = @max_hull_ssd_t1
+	size_multiplier = @size_multi_ssd_t1
+	fleet_slot_size = 12
+	modifier = {
+		ship_evasion_mult = -0.8
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_ssd_solyc_verd
+	base_buildtime = @buildtime_ssd_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_advanced_capital_ships" }
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_ssd_t1_upkeep
+		}
+	 }
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_solyc_verd_dn = yes }
+	potential_construction = { needs_shipyard_0 = yes }
+	possible_construction = { needs_shipyard_1 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @SSD_fraction
+		}
+	}
+}
+
+#T2
+swp_executor ={
+	formation_priority = 60
+	max_speed = @max_speed_ssd
+	acceleration = @accleration_ssd
+	rotation_speed = @rotation_speed_ssd
+	collision_radius = 80
+	max_hitpoints = @max_hull_ssd_t2
+	size_multiplier = @size_multi_ssd_t2
+	fleet_slot_size = 20
+	modifier = {
+		ship_evasion_mult = -0.9
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_ssd_executor
+	base_buildtime = @buildtime_ssd_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_super_star_destroyer" }
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_ssd_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_executor_dn = yes }
+	potential_construction = { needs_shipyard_0 = yes }
+	possible_construction = { needs_shipyard_1 = yes }
+	ai_ship_data = {
+		min = 2
+		max = 13
+		planet_mult = 0.1
+	}
+}

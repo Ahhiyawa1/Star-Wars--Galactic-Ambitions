@@ -1,0 +1,828 @@
+# Event Ship 1 (Cruiser)
+ship_section_template = {
+	key = "eventship_01_section"
+	ship_size = eventship_01
+	fits_on_slot = mid
+	entity = "eventship_01_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "medium_turret"
+		locatorname = "root"
+	}	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "root"
+	}	
+	
+	medium_utility_slots = 8
+	aux_utility_slots = 1
+}
+
+# Event Ship 2 (Corvette)
+ship_section_template = {
+	key = "eventship_02_section"
+	ship_size = eventship_02
+	fits_on_slot = mid
+	entity = "eventship_02_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	
+	small_utility_slots = 4
+	aux_utility_slots = 1
+}
+
+# Event Ship 3 (Battleship)
+ship_section_template = {
+	key = "eventship_03_section"
+	ship_size = eventship_03
+	fits_on_slot = mid
+	entity = "eventship_03_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "large_turret"
+		locatorname = "root"
+	}
+	
+	large_utility_slots = 8
+	aux_utility_slots = 2
+}
+
+# Event Ship 4 Blue (Battleship)
+ship_section_template = {
+	key = "eventship_04_blue_section"
+	ship_size = eventship_04
+	fits_on_slot = mid
+	entity = "eventship_04_blue_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "root"
+	}
+	
+	large_utility_slots = 8
+	aux_utility_slots = 2
+}
+
+# Event Ship 4 Yellow (Battleship)
+ship_section_template = {
+	key = "eventship_04_yellow_section"
+	ship_size = eventship_04
+	fits_on_slot = mid
+	entity = "eventship_04_yellow_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "root"
+	}
+	
+	large_utility_slots = 8
+	aux_utility_slots = 2
+}
+
+# Event Ship 4 Green (Battleship)
+ship_section_template = {
+	key = "eventship_04_green_section"
+	ship_size = eventship_04
+	fits_on_slot = mid
+	entity = "eventship_04_green_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "root"
+	}
+	
+	large_utility_slots = 8
+	aux_utility_slots = 2
+}
+
+# Event Ship 4 Red (Battleship)
+ship_section_template = {
+	key = "eventship_04_red_section"
+	ship_size = eventship_04
+	fits_on_slot = mid
+	entity = "eventship_04_red_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "root"
+	}
+	
+	large_utility_slots = 8
+	aux_utility_slots = 2
+}
+
+# Event Ship 4 Yellow-Green (Battleship)
+ship_section_template = {
+	key = "eventship_04_yellow_green_section"
+	ship_size = eventship_04
+	fits_on_slot = mid
+	entity = "eventship_04_yellow_green_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "root"
+	}
+	
+	large_utility_slots = 8
+	aux_utility_slots = 2
+}
+
+# Event Ship 5 (Cruiser)
+ship_section_template = {
+	key = "eventship_05_section"
+	ship_size = eventship_05
+	fits_on_slot = mid
+	entity = "eventship_05_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "root"
+	}
+	
+	medium_utility_slots = 8
+	aux_utility_slots = 1
+}
+
+# Event Ship 6 (Destroyer)
+ship_section_template = {
+	key = "eventship_06_section"
+	ship_size = eventship_06
+	fits_on_slot = mid
+	entity = "eventship_06_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "root"
+	}
+	
+	medium_utility_slots = 4
+	aux_utility_slots = 1
+}
+
+# Event Ship 7 (Destroyer)
+ship_section_template = {
+	key = "eventship_07_section"
+	ship_size = eventship_07
+	fits_on_slot = mid
+	entity = "eventship_07_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "root"
+	}
+	
+	medium_utility_slots = 4
+	aux_utility_slots = 1
+}
+
+# Civilian Freighter
+ship_section_template = {
+	key = "civilian_freighter_section"
+	ship_size = civilian_freighter
+	fits_on_slot = mid
+	entity = "cargo_transport_containers_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	
+	small_utility_slots = 3
+	medium_utility_slots = 3
+	large_utility_slots = 3
+}
+
+# Civilian Tanker
+ship_section_template = {
+	key = "civilian_tanker_section"
+	ship_size = civilian_tanker
+	fits_on_slot = mid
+	entity = "cargo_transport_tanker_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	
+	small_utility_slots = 3
+	medium_utility_slots = 3
+	large_utility_slots = 3
+	aux_utility_slots = 1
+}
+
+# Space Ark
+ship_section_template = {
+	key = "ark_ship_section"
+	ship_size = ark_ship
+	fits_on_slot = mid
+	entity = "ark_ship_section_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 1
+}
+
+# Passenger Liner
+ship_section_template = {
+	key = "passenger_liner_section"
+	ship_size = passenger_liner
+	fits_on_slot = mid
+	entity = "abandoned_ship_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 1
+}
+
+# Primitive Space Station
+ship_section_template = {
+	key = "primitive_space_station_section"
+	ship_size = primitive_space_station
+	fits_on_slot = mid
+	entity = "primitive_space_station_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	small_utility_slots = 1
+	aux_utility_slots = 1
+}
+
+# Generic Starbase Section
+ship_section_template = {
+	key = "station_generic_01_key"
+	ship_size = station_generic_01
+	fits_on_slot = east
+	entity = "imperial_01_military_station_golan1_section_entity"
+	icon = "GFX_ship_part_core_mid"
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_09"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_010"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_010"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_011"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_011"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_012"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_012"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_013"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_013"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_014"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_014"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_015"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_015"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_016"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_016"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_017"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_017"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_018"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_018"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_019"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_019"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_020"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_020"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_021"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_021"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_022"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_022"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_023"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_023"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_024"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_024"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_025"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_025"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_026"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_026"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_027"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_027"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_028"
+		template = dby827_medium_turret
+		locatorname = "medium_gun_028"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_04"
+	}
+	component_slot = {
+		name = "TORPEDO_05"
+		template = swp_missile_slot
+		locatorname = "torpedo_05"
+	}
+	component_slot = {
+		name = "TORPEDO_06"
+		template = swp_missile_slot
+		locatorname = "torpedo_06"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+}
+
+# Sensor Station Section
+ship_section_template = {
+	key = "sensor_station_key"
+	ship_size = sensor_station_01
+	fits_on_slot = mid
+	entity = "empty_section_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "root"
+	}
+
+	medium_utility_slots = 4
+}

@@ -1,0 +1,164 @@
+ship_section_template = {
+	key = "REAL_SCIENCESHIP_SECTION"
+	ship_size = science
+	fits_on_slot = mid
+	entity = "real_science_ship_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	small_utility_slots = 3
+}
+
+# ship_section_template = {
+# 	key = "IMP_SCIENCESHIP_SECTION"
+# 	ship_size = science
+# 	fits_on_slot = mid
+# 	entity = "imperial_01_real_science_ship_entity"
+# 	icon = "GFX_ship_part_core_mid"
+# 	prerequisites = { "tech_imperial_science" }
+	
+# 	small_utility_slots = 3
+# }
+
+# ship_section_template = {
+# 	key = "REB_SCIENCESHIP_SECTION"
+# 	ship_size = science
+# 	fits_on_slot = mid
+# 	entity = "rebel_01_real_science_ship_entity"
+# 	icon = "GFX_ship_part_core_mid"
+# 	prerequisites = { "tech_rebel_science" }
+	
+# 	small_utility_slots = 3
+# }
+
+# ship_section_template = {
+# 	key = "HUTT_SCIENCESHIP_SECTION"
+# 	ship_size = science
+# 	fits_on_slot = mid
+# 	entity = "hutt_01_real_science_ship_entity"
+# 	icon = "GFX_ship_part_core_mid"
+# 	prerequisites = { "tech_hutt_science" }
+	
+# 	small_utility_slots = 3
+# }
+
+# ship_section_template = {
+# 	key = "MANDO_SCIENCESHIP_SECTION"
+# 	ship_size = science
+# 	fits_on_slot = mid
+# 	entity = "mando_01_real_science_ship_entity"
+# 	icon = "GFX_ship_part_core_mid"
+# 	prerequisites = { "tech_mando_science" }
+	
+# 	small_utility_slots = 3
+# }
+
+# ship_section_template = {
+# 	key = "COR_SCIENCESHIP_SECTION"
+# 	ship_size = science
+# 	fits_on_slot = mid
+# 	entity = "corellian_01_real_science_ship_entity"
+# 	icon = "GFX_ship_part_core_mid"
+# 	prerequisites = { "tech_corellian_science" }
+	
+# 	small_utility_slots = 3
+# }
+
+# ship_section_template = {
+# 	key = "CIS_SCIENCESHIP_SECTION"
+# 	ship_size = science
+# 	fits_on_slot = mid
+# 	entity = "cis_01_real_science_ship_entity"
+# 	icon = "GFX_ship_part_core_mid"
+# 	prerequisites = { "tech_cis_science" }
+	
+# 	small_utility_slots = 3
+# }
+
+# ship_section_template = {
+# 	key = "CSA_SCIENCESHIP_SECTION"
+# 	ship_size = science
+# 	fits_on_slot = mid
+# 	entity = "csa_01_real_science_ship_entity"
+# 	icon = "GFX_ship_part_core_mid"
+# 	prerequisites = { "tech_csa_science" }
+	
+# 	small_utility_slots = 3
+# }
+
+# ship_section_template = {
+# 	key = "HAP_SCIENCESHIP_SECTION"
+# 	ship_size = science
+# 	fits_on_slot = mid
+# 	entity = "hapes_01_real_science_ship_entity"
+# 	icon = "GFX_ship_part_core_mid"
+# 	prerequisites = { "tech_hapan_science" }
+	
+# 	small_utility_slots = 3
+# }
+
+# ship_section_template = {
+# 	key = "MISC1_SCIENCESHIP_SECTION"
+# 	ship_size = science
+# 	fits_on_slot = mid
+# 	entity = "misc_01_real_science_ship_entity"
+# 	icon = "GFX_ship_part_core_mid"
+# 	prerequisites = { "tech_misc1_science" }
+	
+# 	small_utility_slots = 3
+# }
+
+# ship_section_template = {
+# 	key = "MISC2_SCIENCESHIP_SECTION"
+# 	ship_size = science
+# 	fits_on_slot = mid
+# 	entity = "misc_02_real_science_ship_entity"
+# 	icon = "GFX_ship_part_core_mid"
+# 	prerequisites = { "tech_misc2_science" }
+	
+# 	small_utility_slots = 3
+# }
+
+# ship_section_template = {
+# 	key = "MISC3_SCIENCESHIP_SECTION"
+# 	ship_size = science
+# 	fits_on_slot = mid
+# 	entity = "misc_03_real_science_ship_entity"
+# 	icon = "GFX_ship_part_core_mid"
+# 	prerequisites = { "tech_misc3_science" }
+	
+# 	small_utility_slots = 3
+# }
+
+# ship_section_template = {
+# 	key = "MISC4_SCIENCESHIP_SECTION"
+# 	ship_size = science
+# 	fits_on_slot = mid
+# 	entity = "misc_04_real_science_ship_entity"
+# 	icon = "GFX_ship_part_core_mid"
+# 	prerequisites = { "tech_misc4_science" }
+	
+# 	small_utility_slots = 3
+# }
+
+# ship_section_template = {
+# 	key = "CHS_SCIENCESHIP_SECTION"
+# 	ship_size = science
+# 	fits_on_slot = mid
+# 	entity = "chiss_01_real_science_ship_entity"
+# 	icon = "GFX_ship_part_core_mid"
+# 	prerequisites = { "tech_chiss_science" }
+	
+# 	small_utility_slots = 3
+# }
+
+ship_section_template = {
+	key = "DEFAULT_SCIENCESHIP_SECTION"
+	ship_size = science
+	fits_on_slot = mid
+	entity = "science_ship_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { "tech_science_ship" }
+	
+	small_utility_slots = 3
+	ai_weight = { factor = 10000 }
+}

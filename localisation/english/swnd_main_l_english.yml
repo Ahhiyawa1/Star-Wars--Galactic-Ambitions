@@ -6359,6 +6359,7 @@ l_english:
  EMPIRE_DESIGN_GalacticRepublic: "£empire_star£ §RGalactic Republic§!"
  PRESCRIPTED_adjective_GalacticRepublic: "Galactic Republic"
  PRESCRIPTED_ship_prefix_GalacticRepublic: " "
+ PRESCRIPTED_ship_prefix_SeperatistAlliance: " "
  PRESCRIPTED_species_name_GalacticRepublic: "Republic"
  PRESCRIPTED_species_plural_GalacticRepublic: "Republic"
  PRESCRIPTED_species_adjective_GalacticRepublic: "Human"

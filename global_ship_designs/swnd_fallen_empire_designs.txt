@@ -1,0 +1,574 @@
+### Hapan Fallen Empire Designs
+# Battle Dragon
+ship_design = {
+	name = "NAME_Hapan_Battle_Dragon"
+	ship_size = swp_int_battledragon_cruiser
+	section = {
+		template = "swp_int_battledragon_cruiser_stern_key"
+		slot = "stern"
+		component = { slot = "SMALL_GUN_01" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_02" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_03" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_04" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_05" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_06" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_07" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_08" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_09" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_010" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_01" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_02" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_03" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_04" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_05" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_06" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_07" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_08" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_09" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_010" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "EXTRA_LARGE_01" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_02" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_03" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_04" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_05" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_04" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "TORPEDO_01" template = "TORPEDO_PROTON_LAUNCHER_4" }
+		component = { slot = "TORPEDO_02" template = "TORPEDO_PROTON_LAUNCHER_4" }
+		component = { slot = "TORPEDO_03" template = "TORPEDO_PROTON_LAUNCHER_4" }
+		component = { slot = "TORPEDO_04" template = "TORPEDO_PROTON_LAUNCHER_4" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_FIGHTER_HAPAN_SQUADRON_3" }
+		component = { slot = "STRIKE_CRAFT_02" template = "HANGAR_FIGHTER_HAPAN_SQUADRON_3" }
+		component = { slot = "STRIKE_CRAFT_03" template = "HANGAR_FIGHTER_HAPAN_SQUADRON_3" }
+	}
+	section = {
+		template = "swp_int_battledragon_cruiser_mid_adv_ext_str_key"
+		slot = "mid"
+		component = { slot = "SMALL_UTILITY_1" template = "UTILITY_SMALL_FIRE_RATE_4_A" }
+		component = { slot = "SMALL_UTILITY_2" template = "UTILITY_SMALL_FIRE_RATE_4_A" }
+		component = { slot = "MEDIUM_UTILITY_1" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_2" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "LARGE_UTILITY_1" template = "UTILITY_LARGE_EVASION_PLUS_3_A" }
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_UPKEEP_2_A" }
+	}
+	required_component="SWP_REQUIRED_HYPERDRIVE_5_F"
+	required_component="SWP_REQUIRED_COMPUTER_ARTILLERY_2_A"
+	required_component="SWP_REQUIRED_DEFENSE_SHIELD_A_5_F"
+	required_component="SWP_REQUIRED_THRUSTER_5_F"
+	required_component="SWP_REQUIRED_ARMOR_B_6_F"
+	required_component="SWP_REQUIRED_ARCHITECTURE_HAPAN_1_A"
+	required_component="swp_required_aura_well_3"
+}
+# Nova
+ship_design = {
+	name = "NAME_Hapan_Nova"
+	ship_size = swp_adv_nova_frigate
+	section = {
+		template = "swp_adv_nova_frigate_stern_key"
+		slot = "stern"
+		component = { slot = "SMALL_GUN_01" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_02" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_03" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_04" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_01" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_02" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_03" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_04" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_05" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_06" template = "SMALL_MANDO_TURBO_4" }
+		component = { slot = "EXTRA_LARGE_01" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_02" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_03" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_04" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_FIGHTER_HAPAN_SQUADRON_3" }
+		component = { slot = "STRIKE_CRAFT_02" template = "HANGAR_FIGHTER_HAPAN_SQUADRON_3" }
+	}
+	section = {
+		template = "swp_adv_nova_frigate_mid_adv_ext_str_key"
+		slot = "mid"
+		component = { slot = "SMALL_UTILITY_1" template = "UTILITY_SMALL_FIRE_RATE_4_A" }
+		component = { slot = "MEDIUM_UTILITY_1" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_2" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "LARGE_UTILITY_1" template = "UTILITY_LARGE_EVASION_PLUS_3_A" }
+	}
+	required_component="SWP_REQUIRED_HYPERDRIVE_5_C"
+	required_component="SWP_REQUIRED_COMPUTER_SKIRMISH_2_A"
+	required_component="SWP_REQUIRED_DEFENSE_SHIELD_A_5_C"
+	required_component="SWP_REQUIRED_THRUSTER_5_C"
+	required_component="SWP_REQUIRED_ARMOR_B_6_C"
+	required_component="SWP_REQUIRED_ARCHITECTURE_HAPAN_1_A"
+}
+### Chiss Fallen Empire Designs
+# Asdroni
+ship_design = {
+	name = "NAME_Chiss_Asdroni"
+	ship_size = swp_adv_asdroni_corvette
+	section = {
+		template = "swp_adv_asdroni_corvette_stern_key"
+		slot = "stern"
+		component = { slot = "SMALL_GUN_01" template = "POINT_DEFENCE_CHISS_MASER_CANNON_3" }
+		component = { slot = "SMALL_GUN_02" template = "POINT_DEFENCE_CHISS_MASER_CANNON_3" }
+		component = { slot = "SMALL_GUN_03" template = "POINT_DEFENCE_CHISS_MASER_CANNON_3" }
+		component = { slot = "SMALL_GUN_04" template = "POINT_DEFENCE_CHISS_MASER_CANNON_3" }
+		component = { slot = "SMALL_GUN_05" template = "POINT_DEFENCE_CHISS_MASER_CANNON_3" }
+		component = { slot = "SMALL_GUN_06" template = "POINT_DEFENCE_CHISS_MASER_CANNON_3" }
+		component = { slot = "MEDIUM_GUN_01" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_02" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_03" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_04" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_05" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_06" template = "SMALL_CHISS_MASER_4" }
+	}
+	section = {
+		template = "swp_adv_asdroni_corvette_mid_adv_ext_str_key"
+		slot = "mid"
+		component = { slot = "SMALL_UTILITY_1" template = "UTILITY_SMALL_DAMAGE_4_A" }
+		component = { slot = "MEDIUM_UTILITY_1" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "LARGE_UTILITY_1" template = "UTILITY_LARGE_EVASION_PLUS_3_A" }
+	}
+	required_component="SWP_REQUIRED_HYPERDRIVE_5_A"
+	required_component="SWP_REQUIRED_COMPUTER_SKIRMISH_2_A"
+	required_component="SWP_REQUIRED_DEFENSE_SHIELD_A_5_A"
+	required_component="SWP_REQUIRED_THRUSTER_5_A"
+	required_component="SWP_REQUIRED_ARMOR_B_6_A"
+	required_component="SWP_REQUIRED_ARCHITECTURE_CHISS_1_A"
+}
+# Kariek
+ship_design = {
+	name = "NAME_Chiss_Kariek"
+	ship_size = swp_adv_kariek_frigate
+	section = {
+		template = "swp_adv_kariek_frigate_stern_key"
+		slot = "stern"
+		component = { slot = "MEDIUM_GUN_01" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_02" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_03" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_04" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_05" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_06" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "LARGE_GUN_01" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_02" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_03" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_04" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "EXTRA_LARGE_01" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_02" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_03" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_04" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_FIGHTER_CHISS_SQUADRON_3" }
+	}
+	section = {
+		template = "swp_adv_kariek_frigate_mid_adv_ext_str_key"
+		slot = "mid"
+		component = { slot = "SMALL_UTILITY_1" template = "UTILITY_SMALL_DAMAGE_4_A" }
+		component = { slot = "MEDIUM_UTILITY_1" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_2" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "LARGE_UTILITY_1" template = "UTILITY_LARGE_EVASION_PLUS_3_A" }
+	}
+	required_component="SWP_REQUIRED_HYPERDRIVE_5_C"
+	required_component="SWP_REQUIRED_COMPUTER_SKIRMISH_2_A"
+	required_component="SWP_REQUIRED_DEFENSE_SHIELD_A_5_C"
+	required_component="SWP_REQUIRED_THRUSTER_5_C"
+	required_component="SWP_REQUIRED_ARMOR_B_6_C"
+	required_component="SWP_REQUIRED_ARCHITECTURE_CHISS_1_A"
+}
+# Nuruodo
+ship_design = {
+	name = "NAME_Chiss_Nuruodo"
+	ship_size = swp_adv_nuruodo_cruiser
+	section = {
+		template = "swp_adv_nuruodo_cruiser_stern_key"
+		slot = "stern"
+		component = { slot = "MEDIUM_GUN_01" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_02" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_03" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_04" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_05" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_06" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_07" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_08" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_09" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_010" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "LARGE_GUN_01" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_02" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_03" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_04" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_05" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_06" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_07" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_08" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_FIGHTER_CHISS_SQUADRON_3" }
+		component = { slot = "STRIKE_CRAFT_02" template = "HANGAR_BOMBER_CHISS_SQUADRON_1" }
+	}
+	section = {
+		template = "swp_adv_nuruodo_cruiser_mid_adv_ext_str_key"
+		slot = "mid"
+		component = { slot = "SMALL_UTILITY_1" template = "UTILITY_SMALL_DAMAGE_4_A" }
+		component = { slot = "SMALL_UTILITY_2" template = "UTILITY_SMALL_DAMAGE_4_A" }
+		component = { slot = "MEDIUM_UTILITY_1" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_2" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "LARGE_UTILITY_1" template = "UTILITY_LARGE_EVASION_PLUS_3_A" }
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_HYPERDRIVE_3_A" }
+	}
+	required_component="SWP_REQUIRED_HYPERDRIVE_5_F"
+	required_component="SWP_REQUIRED_COMPUTER_SKIRMISH_2_A"
+	required_component="SWP_REQUIRED_DEFENSE_SHIELD_A_5_F"
+	required_component="SWP_REQUIRED_THRUSTER_5_F"
+	required_component="SWP_REQUIRED_ARMOR_B_6_F"
+	required_component="SWP_REQUIRED_ARCHITECTURE_CHISS_1_A"
+}
+# Prosvoli
+ship_design = {
+	name = "NAME_Chiss_Prosvoli"
+	ship_size = swp_adv_prosvoli_heavy_cruiser
+	section = {
+		template = "swp_adv_prosvoli_heavy_cruiser_stern_key"
+		slot = "stern"
+		component = { slot = "SMALL_GUN_01" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_4" }
+		component = { slot = "SMALL_GUN_02" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_4" }
+		component = { slot = "SMALL_GUN_03" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_4" }
+		component = { slot = "SMALL_GUN_04" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_4" }
+		component = { slot = "SMALL_GUN_05" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_4" }
+		component = { slot = "SMALL_GUN_06" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_4" }
+		component = { slot = "SMALL_GUN_07" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_4" }
+		component = { slot = "SMALL_GUN_08" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_4" }
+		component = { slot = "SMALL_GUN_09" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_4" }
+		component = { slot = "SMALL_GUN_010" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_4" }
+		component = { slot = "MEDIUM_GUN_01" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_02" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_03" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_04" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_05" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_06" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_07" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_08" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_09" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_010" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "LARGE_GUN_01" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_02" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_03" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_04" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_05" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_06" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_07" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_08" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_09" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_010" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_011" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_012" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+	}
+	section = {
+		template = "swp_hapan_vsd2_heavy_cruiser_mid_adv_ext_str_key"
+		slot = "mid"
+		component = { slot = "SMALL_UTILITY_1" template = "UTILITY_SMALL_DAMAGE_4_A" }
+		component = { slot = "SMALL_UTILITY_2" template = "UTILITY_SMALL_DAMAGE_4_A" }
+		component = { slot = "MEDIUM_UTILITY_1" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_2" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_3" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "LARGE_UTILITY_1" template = "UTILITY_LARGE_EVASION_PLUS_3_A" }
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_HYPERDRIVE_3_A" }
+	}
+	required_component="SWP_REQUIRED_HYPERDRIVE_5_H"
+	required_component="SWP_REQUIRED_COMPUTER_SKIRMISH_2_A"
+	required_component="SWP_REQUIRED_DEFENSE_SHIELD_A_5_H"
+	required_component="SWP_REQUIRED_THRUSTER_5_H"
+	required_component="SWP_REQUIRED_ARMOR_B_6_H"
+	required_component="SWP_REQUIRED_ARCHITECTURE_CHISS_1_A"
+}
+# Syndic
+ship_design = {
+	name = "NAME_Chiss_Syndic"
+	ship_size = swp_adv_syndic_destroyer
+	section = {
+		template = "swp_adv_syndic_destroyer_stern_key"
+		slot = "stern"
+		component = { slot = "MEDIUM_GUN_01" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_02" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_03" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_04" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_05" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_06" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_07" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_08" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_09" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_010" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_011" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "MEDIUM_GUN_012" template = "SMALL_CHISS_MASER_4" }
+		component = { slot = "LARGE_GUN_01" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_02" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_03" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_04" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_05" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "LARGE_GUN_06" template = "MEDIUM_CHISS_HEAVY_MASER_4" }
+		component = { slot = "EXTRA_LARGE_01" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_02" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_03" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_04" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_05" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_06" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_FIGHTER_CHISS_SQUADRON_3" }
+		component = { slot = "STRIKE_CRAFT_02" template = "HANGAR_FIGHTER_CHISS_SQUADRON_3" }
+		component = { slot = "STRIKE_CRAFT_03" template = "HANGAR_FIGHTER_CHISS_SQUADRON_3" }
+		component = { slot = "STRIKE_CRAFT_04" template = "HANGAR_FIGHTER_CHISS_SQUADRON_3" }
+		component = { slot = "STRIKE_CRAFT_05" template = "HANGAR_BOMBER_CHISS_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_06" template = "HANGAR_BOMBER_CHISS_SQUADRON_1" }
+	}
+	section = {
+		template = "swp_adv_syndic_destroyer_mid_adv_ext_str_key"
+		slot = "mid"
+		component = { slot = "SMALL_UTILITY_1" template = "UTILITY_SMALL_DAMAGE_4_A" }
+		component = { slot = "SMALL_UTILITY_2" template = "UTILITY_SMALL_DAMAGE_4_A" }
+		component = { slot = "SMALL_UTILITY_3" template = "UTILITY_SMALL_DAMAGE_4_A" }
+		component = { slot = "MEDIUM_UTILITY_1" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_2" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_3" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "LARGE_UTILITY_1" template = "UTILITY_LARGE_EVASION_PLUS_3_A" }
+		component = { slot = "LARGE_UTILITY_2" template = "UTILITY_LARGE_EVASION_PLUS_3_A" }
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_HYPERDRIVE_3_A" }
+	}
+	required_component="SWP_REQUIRED_HYPERDRIVE_5_J"
+	required_component="SWP_REQUIRED_COMPUTER_ARTILLERY_2_A"
+	required_component="SWP_REQUIRED_DEFENSE_SHIELD_A_5_K"
+	required_component="SWP_REQUIRED_THRUSTER_5_K"
+	required_component="SWP_REQUIRED_ARMOR_B_6_J"
+	required_component="SWP_REQUIRED_ARCHITECTURE_CHISS_1_A"
+}
+# Phalanx
+ship_design = {
+	name = "NAME_Chiss_Phalanx"
+	ship_size = swp_phalanx_battlecruiser
+	section = {
+		template = "swp_phalanx_battlecruiser_stern_key"
+		slot = "stern"
+		component = { slot = "SMALL_GUN_01" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_X2_3" }
+		component = { slot = "SMALL_GUN_02" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_X2_3" }
+		component = { slot = "SMALL_GUN_03" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_X2_3" }
+		component = { slot = "SMALL_GUN_04" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_X2_3" }
+		component = { slot = "SMALL_GUN_05" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_X2_3" }
+		component = { slot = "SMALL_GUN_06" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_X2_3" }
+		component = { slot = "SMALL_GUN_07" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_X2_3" }
+		component = { slot = "SMALL_GUN_08" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_X2_3" }
+		component = { slot = "SMALL_GUN_09" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_X2_3" }
+		component = { slot = "SMALL_GUN_010" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_X2_3" }
+		component = { slot = "SMALL_GUN_011" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_X2_3" }
+		component = { slot = "SMALL_GUN_012" template = "POINT_DEFENCE_CHISS_LIGHT_MASER_X2_3" }
+		component = { slot = "MEDIUM_GUN_01" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_02" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_03" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_04" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_05" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_06" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_07" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_08" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_09" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_010" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_011" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_012" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_013" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_014" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_015" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_016" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_017" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "MEDIUM_GUN_018" template = "SMALL_CHISS_MASER_X2_4" }
+		component = { slot = "LARGE_GUN_01" template = "MEDIUM_CHISS_HEAVY_MASER_X2_4" }
+		component = { slot = "LARGE_GUN_02" template = "MEDIUM_CHISS_HEAVY_MASER_X2_4" }
+		component = { slot = "LARGE_GUN_03" template = "MEDIUM_CHISS_HEAVY_MASER_X2_4" }
+		component = { slot = "LARGE_GUN_04" template = "MEDIUM_CHISS_HEAVY_MASER_X2_4" }
+		component = { slot = "LARGE_GUN_05" template = "MEDIUM_CHISS_HEAVY_MASER_X2_4" }
+		component = { slot = "LARGE_GUN_06" template = "MEDIUM_CHISS_HEAVY_MASER_X2_4" }
+		component = { slot = "LARGE_GUN_07" template = "MEDIUM_CHISS_HEAVY_MASER_X2_4" }
+		component = { slot = "LARGE_GUN_08" template = "MEDIUM_CHISS_HEAVY_MASER_X2_4" }
+		component = { slot = "LARGE_GUN_09" template = "MEDIUM_CHISS_HEAVY_MASER_X2_4" }
+		component = { slot = "LARGE_GUN_010" template = "MEDIUM_CHISS_HEAVY_MASER_X2_4" }
+		component = { slot = "LARGE_GUN_011" template = "MEDIUM_CHISS_HEAVY_MASER_X2_4" }
+		component = { slot = "LARGE_GUN_012" template = "MEDIUM_CHISS_HEAVY_MASER_X2_4" }
+		component = { slot = "TORPEDO_01" template = "TORPEDO_CONCUSSION_LAUNCHER_X2_4" }
+		component = { slot = "TORPEDO_02" template = "TORPEDO_CONCUSSION_LAUNCHER_X2_4" }
+		component = { slot = "TORPEDO_03" template = "TORPEDO_CONCUSSION_LAUNCHER_X2_4" }
+		component = { slot = "TORPEDO_04" template = "TORPEDO_CONCUSSION_LAUNCHER_X2_4" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_FIGHTER_CHISS_SQUADRON_3" }
+		component = { slot = "STRIKE_CRAFT_02" template = "HANGAR_BOMBER_CHISS_SQUADRON_1" }
+	}
+	section = {
+		template = "swp_phalanx_battlecruiser_mid_adv_ext_str_key"
+		slot = "mid"
+		component = { slot = "SMALL_UTILITY_1" template = "UTILITY_SMALL_DAMAGE_4_A" }
+		component = { slot = "SMALL_UTILITY_2" template = "UTILITY_SMALL_DAMAGE_4_A" }
+		component = { slot = "SMALL_UTILITY_3" template = "UTILITY_SMALL_DAMAGE_4_A" }
+		component = { slot = "MEDIUM_UTILITY_1" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_2" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_3" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_4" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "LARGE_UTILITY_1" template = "UTILITY_LARGE_EVASION_PLUS_3_A" }
+		component = { slot = "LARGE_UTILITY_2" template = "UTILITY_LARGE_EVASION_PLUS_3_A" }
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_HYPERDRIVE_3_A" }
+	}
+	required_component="SWP_REQUIRED_HYPERDRIVE_5_L"
+	required_component="SWP_REQUIRED_COMPUTER_ARTILLERY_2_A"
+	required_component="SWP_REQUIRED_DEFENSE_SHIELD_A_5_L"
+	required_component="SWP_REQUIRED_THRUSTER_5_L"
+	required_component="SWP_REQUIRED_ARMOR_B_6_L"
+	required_component="SWP_REQUIRED_ARCHITECTURE_CHISS_1_A"
+}
+### Killik Fallen Empire Designs
+# Nebulon B
+ship_design = {
+	name = "NAME_Killik_Nebulon_B"
+	ship_size = swp_neb_b_frigate
+	section = {
+		template = "swp_neb_b_frigate_stern_key"
+		slot = "stern"
+		component = { slot = "SMALL_GUN_01" template = "POINT_DEFENCE_MANDO_RH8_LASER_3" }
+		component = { slot = "SMALL_GUN_02" template = "POINT_DEFENCE_MANDO_RH8_LASER_3" }
+		component = { slot = "SMALL_GUN_03" template = "POINT_DEFENCE_MANDO_RH8_LASER_3" }
+		component = { slot = "SMALL_GUN_04" template = "POINT_DEFENCE_MANDO_RH8_LASER_3" }
+		component = { slot = "SMALL_GUN_05" template = "POINT_DEFENCE_MANDO_RH8_LASER_3" }
+		component = { slot = "SMALL_GUN_06" template = "POINT_DEFENCE_MANDO_RH8_LASER_3" }
+		component = { slot = "SMALL_GUN_07" template = "POINT_DEFENCE_MANDO_RH8_LASER_3" }
+		component = { slot = "SMALL_GUN_08" template = "POINT_DEFENCE_MANDO_RH8_LASER_3" }
+		component = { slot = "SMALL_GUN_09" template = "POINT_DEFENCE_MANDO_RH8_LASER_3" }
+		component = { slot = "SMALL_GUN_010" template = "POINT_DEFENCE_MANDO_RH8_LASER_3" }
+		component = { slot = "MEDIUM_GUN_01" template = "SMALL_MANDO_XI7_TURBOLASER_3" }
+		component = { slot = "MEDIUM_GUN_02" template = "SMALL_MANDO_XI7_TURBOLASER_3" }
+		component = { slot = "MEDIUM_GUN_03" template = "SMALL_MANDO_XI7_TURBOLASER_3" }
+		component = { slot = "MEDIUM_GUN_04" template = "SMALL_MANDO_XI7_TURBOLASER_3" }
+		component = { slot = "MEDIUM_GUN_05" template = "SMALL_MANDO_XI7_TURBOLASER_3" }
+		component = { slot = "MEDIUM_GUN_06" template = "SMALL_MANDO_XI7_TURBOLASER_3" }
+		component = { slot = "MEDIUM_GUN_07" template = "SMALL_MANDO_XI7_TURBOLASER_3" }
+		component = { slot = "MEDIUM_GUN_08" template = "SMALL_MANDO_XI7_TURBOLASER_3" }
+	}
+	section = {
+		template = "swp_neb_b_frigate_mid_ext_str_key"
+		slot = "mid"
+		component = { slot = "SMALL_UTILITY_1" template = "UTILITY_SMALL_FIRE_RATE_4_A" }
+		component = { slot = "MEDIUM_UTILITY_1" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_2" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+	}
+	required_component="SWP_REQUIRED_HYPERDRIVE_5_C"
+	required_component="SWP_REQUIRED_COMPUTER_SKIRMISH_2_A"
+	required_component="SWP_REQUIRED_DEFENSE_SHIELD_A_5_C"
+	required_component="SWP_REQUIRED_THRUSTER_5_C"
+	required_component="SWP_REQUIRED_ARMOR_B_6_C"
+	required_component="SWP_REQUIRED_COMPUTER_SKIRMISH_1_A"
+}
+# Victory SD II
+ship_design = {
+	name = "NAME_Killik_Victory_SD_II"
+	ship_size = swp_vsd2_heavy_cruiser
+	section = {
+		template = "swp_vsd2_heavy_cruiser_stern_key"
+		slot = "stern"
+		component = { slot = "SMALL_GUN_01" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_02" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_03" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_04" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_05" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_06" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_07" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_08" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_09" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_010" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_011" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_012" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_013" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_014" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_015" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_016" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_017" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_018" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_019" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "SMALL_GUN_020" template = "POINT_DEFENCE_MANDO_LIGHT_TURBO_4" }
+		component = { slot = "LARGE_GUN_01" template = "MEDIUM_MANDO_HEAVY_TURBO_4" }
+		component = { slot = "LARGE_GUN_02" template = "MEDIUM_MANDO_HEAVY_TURBO_4" }
+		component = { slot = "LARGE_GUN_03" template = "MEDIUM_MANDO_HEAVY_TURBO_4" }
+		component = { slot = "LARGE_GUN_04" template = "MEDIUM_MANDO_HEAVY_TURBO_4" }
+		component = { slot = "LARGE_GUN_05" template = "MEDIUM_MANDO_HEAVY_TURBO_4" }
+		component = { slot = "LARGE_GUN_06" template = "MEDIUM_MANDO_HEAVY_TURBO_4" }
+		component = { slot = "EXTRA_LARGE_01" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_02" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_03" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_04" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_05" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_06" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_FIGHTER_REBEL_SQUADRON_3" }
+		component = { slot = "STRIKE_CRAFT_02" template = "HANGAR_BOMBER_REBEL_SQUADRON_1" }
+	}
+	section = {
+		template = "swp_vsd2_heavy_cruiser_mid_adv_ext_str_key"
+		slot = "mid"
+		component = { slot = "SMALL_UTILITY_1" template = "UTILITY_SMALL_FIRE_RATE_4_A" }
+		component = { slot = "SMALL_UTILITY_2" template = "UTILITY_SMALL_FIRE_RATE_4_A" }
+		component = { slot = "MEDIUM_UTILITY_1" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_2" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_3" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "LARGE_UTILITY_1" template = "UTILITY_LARGE_EVASION_PLUS_3_A" }
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_HYPERDRIVE_3_A" }
+	}
+	required_component="SWP_REQUIRED_HYPERDRIVE_5_H"
+	required_component="SWP_REQUIRED_COMPUTER_SKIRMISH_2_A"
+	required_component="SWP_REQUIRED_DEFENSE_SHIELD_A_5_H"
+	required_component="SWP_REQUIRED_THRUSTER_5_H"
+	required_component="SWP_REQUIRED_ARMOR_B_6_H"
+	required_component="SWP_REQUIRED_ARCHITECTURE_1_A"
+}
+# Corellian Destroyer
+ship_design = {
+	name = "NAME_Killik_Corellian_Destroyer"
+	ship_size = swp_adv_corellian_destroyer
+	section = {
+		template = "swp_adv_corellian_destroyer_stern_key"
+		slot = "stern"
+		component = { slot = "MEDIUM_GUN_01" template = "SMALL_REBEL_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_02" template = "SMALL_REBEL_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_03" template = "SMALL_REBEL_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_04" template = "SMALL_REBEL_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_05" template = "SMALL_REBEL_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_06" template = "SMALL_REBEL_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_07" template = "SMALL_REBEL_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_08" template = "SMALL_REBEL_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_09" template = "SMALL_REBEL_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_010" template = "SMALL_REBEL_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_011" template = "SMALL_REBEL_TURBO_4" }
+		component = { slot = "MEDIUM_GUN_012" template = "SMALL_REBEL_TURBO_4" }
+		component = { slot = "LARGE_GUN_01" template = "MEDIUM_MANDO_HEAVY_TURBO_4" }
+		component = { slot = "LARGE_GUN_02" template = "MEDIUM_MANDO_HEAVY_TURBO_4" }
+		component = { slot = "LARGE_GUN_03" template = "MEDIUM_MANDO_HEAVY_TURBO_4" }
+		component = { slot = "LARGE_GUN_04" template = "MEDIUM_MANDO_HEAVY_TURBO_4" }
+		component = { slot = "LARGE_GUN_05" template = "MEDIUM_MANDO_HEAVY_TURBO_4" }
+		component = { slot = "LARGE_GUN_06" template = "MEDIUM_MANDO_HEAVY_TURBO_4" }
+		component = { slot = "LARGE_GUN_07" template = "MEDIUM_MANDO_HEAVY_TURBO_4" }
+		component = { slot = "LARGE_GUN_08" template = "MEDIUM_MANDO_HEAVY_TURBO_4" }
+		component = { slot = "EXTRA_LARGE_01" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_02" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_03" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_04" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_05" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_06" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_07" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "EXTRA_LARGE_08" template = "EXTRA_LARGE_ION_CANNON_4" }
+		component = { slot = "TORPEDO_01" template = "TORPEDO_CONCUSSION_LAUNCHER_4" }
+		component = { slot = "TORPEDO_02" template = "TORPEDO_CONCUSSION_LAUNCHER_4" }
+		component = { slot = "TORPEDO_03" template = "TORPEDO_CONCUSSION_LAUNCHER_4" }
+		component = { slot = "TORPEDO_04" template = "TORPEDO_CONCUSSION_LAUNCHER_4" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_FIGHTER_REBEL_SQUADRON_3" }
+		component = { slot = "STRIKE_CRAFT_02" template = "HANGAR_FIGHTER_REBEL_SQUADRON_3" }
+		component = { slot = "STRIKE_CRAFT_03" template = "HANGAR_BOMBER_REBEL_SQUADRON_1" }
+	}
+	section = {
+		template = "swp_adv_corellian_destroyer_mid_adv_ext_str_key"
+		slot = "mid"
+		component = { slot = "SMALL_UTILITY_1" template = "UTILITY_SMALL_FIRE_RATE_4_A" }
+		component = { slot = "SMALL_UTILITY_2" template = "UTILITY_SMALL_FIRE_RATE_4_A" }
+		component = { slot = "SMALL_UTILITY_3" template = "UTILITY_SMALL_FIRE_RATE_4_A" }
+		component = { slot = "MEDIUM_UTILITY_1" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_2" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "MEDIUM_UTILITY_3" template = "UTILITY_MEDIUM_SHIELD_CAPACITOR_4_A" }
+		component = { slot = "LARGE_UTILITY_1" template = "UTILITY_LARGE_EVASION_PLUS_3_A" }
+		component = { slot = "LARGE_UTILITY_2" template = "UTILITY_LARGE_EVASION_PLUS_3_A" }
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_HYPERDRIVE_3_A" }
+	}
+	required_component="SWP_REQUIRED_HYPERDRIVE_5_J"
+	required_component="SWP_REQUIRED_COMPUTER_SKIRMISH_2_A"
+	required_component="SWP_REQUIRED_DEFENSE_SHIELD_A_5_K"
+	required_component="SWP_REQUIRED_THRUSTER_5_H"
+	required_component="SWP_REQUIRED_ARMOR_B_6_J"
+	required_component="SWP_REQUIRED_ARCHITECTURE_1_A"
+}

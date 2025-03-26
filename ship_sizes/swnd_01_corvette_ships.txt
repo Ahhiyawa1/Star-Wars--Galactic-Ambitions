@@ -1,0 +1,954 @@
+#################################
+# 			Corvettes			#
+#################################
+########
+#T1
+########
+swp_cr90_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t1
+	size_multiplier = @size_multi_corv_t1
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_corv_cr90
+	base_buildtime = @buildtime_corv_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_cr90_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_corvettes
+			}
+			modifier = {
+				factor = 0.10
+				has_technology = tech_rebellion_era_corvettes
+			}
+		}
+	}
+}
+
+swp_jehaveyir_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t1
+	size_multiplier = @size_multi_corv_t1
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_corv_jehaveyir
+	base_buildtime = @buildtime_corv_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_jehaveyir_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_corvettes
+			}
+			modifier = {
+				factor = 0.10
+				has_technology = tech_rebellion_era_corvettes
+			}
+		}
+	}
+}
+
+swp_lupus_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t1
+	size_multiplier = @size_multi_corv_t1
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_corv_lupus
+	base_buildtime = @buildtime_corv_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_lupus_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_corvettes
+			}
+			modifier = {
+				factor = 0.10
+				has_technology = tech_rebellion_era_corvettes
+			}
+		}
+	}
+}
+
+swp_early_asdroni_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t1
+	size_multiplier = @size_multi_corv_t1
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_corv_early_asdroni
+	base_buildtime = @buildtime_corv_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_early_asdroni_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_corvettes
+			}
+			modifier = {
+				factor = 0.10
+				has_technology = tech_rebellion_era_corvettes
+			}
+		}
+	}
+}
+
+############
+#T2
+############
+swp_customs_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t2
+	size_multiplier = @size_multi_corv_t1
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0.05
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_corv_customs
+	base_buildtime = @buildtime_corv_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rote_era_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_customs_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+			modifier = {
+				factor = 0.10
+				has_technology = tech_rebellion_era_corvettes
+			}
+		}
+	}
+}
+
+swp_hammerhead_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t2
+	size_multiplier = @size_multi_corv_t1
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0.05
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_corv_hammerhead
+	base_buildtime = @buildtime_corv_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rote_era_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_hammerhead_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+			modifier = {
+				factor = 0.10
+				has_technology = tech_rebellion_era_corvettes
+			}
+		}
+	}
+}
+
+swp_scurge_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t2
+	size_multiplier = @size_multi_corv_t1
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0.05
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_corv_scurge
+	base_buildtime = @buildtime_corv_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rote_era_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_scurge_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+			modifier = {
+				factor = 0.10
+				has_technology = tech_rebellion_era_corvettes
+			}
+		}
+	}
+}
+
+swp_krayt_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t2
+	size_multiplier = @size_multi_corv_t1
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0.05
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_corv_krayt
+	base_buildtime = @buildtime_corv_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rote_era_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_krayt_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = 0
+			base = @corvette_fraction
+			modifier = {
+				factor = 0.10
+				has_technology = tech_rebellion_era_corvettes
+			}
+		}
+	}
+}
+
+swp_diamond_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t2
+	size_multiplier = @size_multi_corv_t1
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0.05
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_corv_diamond
+	base_buildtime = @buildtime_corv_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rote_era_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_diamond_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+			modifier = {
+				factor = 0.10
+				has_technology = tech_rebellion_era_corvettes
+			}
+		}
+	}
+}
+
+swp_etti_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t2
+	size_multiplier = @size_multi_corv_t1
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0.05
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_corv_etti
+	base_buildtime = @buildtime_corv_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rote_era_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_etti_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+			modifier = {
+				factor = 0.10
+				has_technology = tech_rebellion_era_corvettes
+			}
+		}
+	}
+}
+
+swp_asdroni_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t2
+	size_multiplier = @size_multi_corv_t1
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0.05
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_corv_early_asdroni
+	base_buildtime = @buildtime_corv_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rote_era_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_asdroni_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+			modifier = {
+				factor = 0.10
+				has_technology = tech_rebellion_era_corvettes
+			}
+		}
+	}
+}
+
+############
+#T3
+############
+swp_vigil_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t3
+	size_multiplier = @size_multi_corv_t2
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0.10
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_corv_vigil
+	base_buildtime = @buildtime_corv_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rebellion_era_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_vigil_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+		}
+	}
+}
+
+swp_dp20_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t3
+	size_multiplier = @size_multi_corv_t2
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0.10
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_corv_dp20
+	base_buildtime = @buildtime_corv_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rebellion_era_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_dp20_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+		}
+	}
+}
+
+swp_adv_asdroni_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t3
+	size_multiplier = @size_multi_corv_t2
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0.10
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_corv_early_asdroni
+	base_buildtime = @buildtime_corv_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rebellion_era_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_adv_asdroni_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+		}
+	}
+}
+
+swp_raider_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t3
+	size_multiplier = @size_multi_corv_t2
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0.10
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_corv_raider
+	base_buildtime = @buildtime_corv_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rebellion_era_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_raider_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+		}
+	}
+}
+
+swp_dornean_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t3
+	size_multiplier = @size_multi_corv_t2
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0.10
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_corv_dornean
+	base_buildtime = @buildtime_corv_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rebellion_era_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_dornean_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+		}
+	}
+}
+
+swp_crusader_corvette ={
+	formation_priority = 20
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 5
+	max_hitpoints = @max_hull_corv_t3
+	size_multiplier = @size_multi_corv_t2
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0.10
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_corv_crusader
+	base_buildtime = @buildtime_corv_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rebellion_era_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_crusader_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+		}
+	}
+}
+
+swp_marauder_corvette ={
+	formation_priority = 10
+	max_speed = @max_speed_corv
+	acceleration = @accleration_corv
+	rotation_speed = @rotation_speed_corv
+	collision_radius = 3
+	max_hitpoints = @max_hull_corv_t3
+	size_multiplier = @size_multi_corv_t2
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = 0.10
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_corv_marauder
+	base_buildtime = @buildtime_corv_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rebellion_era_corvettes" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_corv_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_marauder_cv = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @corvette_fraction
+		}
+	}
+}

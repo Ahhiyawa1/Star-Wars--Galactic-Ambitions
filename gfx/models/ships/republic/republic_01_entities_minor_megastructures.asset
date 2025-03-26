@@ -1,0 +1,65 @@
+##########
+# HABITATS
+##########
+
+entity = {
+	name = "republic_01_habitat_phase_01_entity"
+	pdxmesh = "republic_haven_L2_mesh"
+	scale = 0.7
+
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "construction" }
+
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+}
+
+entity = {
+	name = "republic_01_habitat_phase_02_entity"
+	pdxmesh = "republic_haven_L4_mesh"
+	scale = 0.7
+
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "construction" }
+
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+}
+
+entity = {
+	name = "republic_01_habitat_phase_03_entity"
+	pdxmesh = "republic_haven_L5_mesh"
+	scale = 0.7
+
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "construction" }
+
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+}
+
+##########
+# HYPER RELAY
+##########
+
+entity = {
+	name = "republic_01_hyper_relay_entity"
+	pdxmesh = "republic_hyper_beacon_mesh"
+	scale = 3.0
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "construction" }
+}

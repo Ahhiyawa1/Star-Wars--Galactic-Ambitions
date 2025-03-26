@@ -1,0 +1,400 @@
+#################################
+# 			Pirates 			#
+#################################
+station_generic_01 = {
+	max_speed = 0
+	acceleration = 0.1
+	rotation_speed = 0.1
+	max_hitpoints = 12000
+	size_multiplier = 1
+	fleet_slot_size = 3
+	graphical_culture = no
+	modifier = {
+		ship_evasion_mult = -1
+		ships_upkeep_mult = -2.5
+	}
+	ship_modifier = {
+		ship_weapon_range_mult = 0.2
+	}
+	icon_frame = 1
+	base_buildtime = 410
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = yes
+	build_block_radius = 200
+	class = shipclass_military_station
+	section_slots = {
+		"east" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+}
+
+pirate_corvette = {
+	formation_priority = 10
+	max_speed = 640
+	acceleration = 0.91
+	rotation_speed = 0.85
+	collision_radius = 3
+	max_hitpoints = 500
+	size_multiplier = 2
+	fleet_slot_size = 1
+	graphical_culture = {
+		"pirate_01"
+	}
+	modifier = {
+		ship_evasion_mult = 0
+		ships_upkeep_mult = -2.5
+	}
+	icon = ship_size_military_1
+	base_buildtime = 420
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+pirate_destroyer = {
+	formation_priority = 20
+	max_speed = 608
+	acceleration = 0.91
+	rotation_speed = 0.75
+	collision_radius = 5
+	max_hitpoints = 1600
+	size_multiplier = 6
+	fleet_slot_size = 2
+	graphical_culture = {
+		"pirate_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.1
+		ships_upkeep_mult = -2.5
+	}
+	icon = ship_size_military_2
+	base_buildtime = 460
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+pirate_cruiser = {
+	formation_priority = 20
+	max_speed = 576
+	acceleration = 0.91
+	rotation_speed = 0.65
+	collision_radius = 7
+	max_hitpoints = 3200
+	size_multiplier = 9
+	fleet_slot_size = 3
+	graphical_culture = {
+		"pirate_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.15
+		ships_upkeep_mult = -2.5
+	}
+	icon = ship_size_military_4
+	base_buildtime = 490
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+pirate_station = {
+	max_speed = 0
+	acceleration = 0
+	rotation_speed = 0
+	max_hitpoints = 4000
+	size_multiplier = 1
+	fleet_slot_size = 3
+	graphical_culture = {
+		"pirate_01"
+	}
+	modifier = {
+		ship_evasion_mult = -1
+		ships_upkeep_mult = -2.5
+	}
+	icon = ship_size_military_station
+	base_buildtime = 410
+	is_designable = no
+	is_space_station = no
+	build_block_radius = 200
+	class = shipclass_military_station
+	section_slots = {
+		"east" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+}
+
+galleon = {
+	formation_priority = 30
+	max_speed = 512
+	acceleration = 0.91
+	rotation_speed = 0.45
+	collision_radius = 14
+	max_hitpoints = 10000
+	size_multiplier = 26
+	fleet_slot_size = 6
+	graphical_culture = {
+		"pirate_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.4
+		ships_upkeep_mult = -2.5
+	}
+	icon_frame = 140
+	base_buildtime = 690
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	combat_disengage_chance = 0.2
+	class = shipclass_military
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+marauder_corvette = {
+	entity = pirate_01_pirate_corvette_entity
+	formation_priority = 10
+	max_speed = 640
+	acceleration = 0.91
+	rotation_speed = 0.85
+	collision_radius = 3
+	max_hitpoints = 500
+	size_multiplier = 2
+	fleet_slot_size = 1
+	graphical_culture = {
+		"pirate_01"
+	}
+	modifier = {
+		ship_evasion_mult = 0
+		ships_upkeep_mult = -2.5
+	}
+	icon = ship_size_military_1
+	base_buildtime = 420
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+marauder_destroyer = {
+	entity = pirate_01_pirate_destroyer_entity
+	formation_priority = 20
+	max_speed = 608
+	acceleration = 0.91
+	rotation_speed = 0.75
+	collision_radius = 5
+	max_hitpoints = 1600
+	size_multiplier = 6
+	fleet_slot_size = 2
+	graphical_culture = {
+		"pirate_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.1
+		ships_upkeep_mult = -2.5
+	}
+	icon = ship_size_military_2
+	base_buildtime = 460
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+marauder_cruiser = {
+	entity = pirate_01_pirate_cruiser_entity
+	formation_priority = 20
+	max_speed = 576
+	acceleration = 0.91
+	rotation_speed = 0.65
+	collision_radius = 7
+	max_hitpoints = 3200
+	size_multiplier = 9
+	fleet_slot_size = 3
+	graphical_culture = {
+		"pirate_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.15
+		ships_upkeep_mult = -2.5
+	}
+	icon = ship_size_military_4
+	base_buildtime = 490
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+marauder_galleon = {
+	entity = pirate_01_galleon_entity
+	formation_priority = 30
+	max_speed = 512
+	acceleration = 0.91
+	rotation_speed = 0.45
+	collision_radius = 14
+	max_hitpoints = 10000
+	size_multiplier = 26
+	fleet_slot_size = 6
+	graphical_culture = {
+		"pirate_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.4
+		ships_upkeep_mult = -2.5
+	}
+	icon = ship_size_military_8
+	base_buildtime = 690
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	combat_disengage_chance = 0.2
+	class = shipclass_military
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+marauder_station = {
+	entity = pirate_01_pirate_station_entity
+	max_speed = 6
+	acceleration = 0.1
+	rotation_speed = 0.1
+	max_hitpoints = 12000
+	size_multiplier = 1
+	fleet_slot_size = 3
+	graphical_culture = {
+		"pirate_01"
+	}
+	modifier = {
+		ship_evasion_mult = -1
+		ships_upkeep_mult = -2.5
+	}
+	ship_modifier = {
+		ship_weapon_range_mult = 0.2
+	}
+	icon = ship_size_military_station
+	base_buildtime = 410
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = yes
+	build_block_radius = 200
+	class = shipclass_military_station
+	section_slots = {
+		"east" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+}
+
+marauder_void_dwelling = {
+	entity = station_generic_01_entity
+	max_speed = 6
+	acceleration = 0.1
+	rotation_speed = 0.1
+	max_hitpoints = 36000
+	size_multiplier = 1
+	fleet_slot_size = 6
+	graphical_culture = no
+	modifier = {
+		ship_evasion_mult = -1
+		ships_upkeep_mult = -2.5
+	}
+	ship_modifier = {
+		ship_weapon_range_mult = 0.2
+	}
+	icon = ship_size_military_station
+	base_buildtime = 410
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = yes
+	build_block_radius = 200
+	class = shipclass_military_station
+	section_slots = {
+		"east" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+}

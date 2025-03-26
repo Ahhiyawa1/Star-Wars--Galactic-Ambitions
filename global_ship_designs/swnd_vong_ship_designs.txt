@@ -1,0 +1,427 @@
+##########################################
+##										##
+##	 Yuuzahn Vong Crisis Ships			##
+##										##
+##########################################
+
+## Vong - Scout - Corvette
+ship_design = {
+	name = "NAME_Vong_Scout"
+	ship_size = swp_advanced_scout
+	section = {
+		template = "yuuzhan_advanced_scout_stern_key"
+		slot = "stern"
+		component = { slot = "LIGHT_KOR_01" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_02" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_03" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_04" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_05" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_06" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_01" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_02" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+	}
+	section = {
+		template = "yuuzhan_advanced_scout_mid_key"
+		slot = "mid"
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_VONG_REGEN_2_A" }
+	}
+	required_component="SWP_REQUIRED_VONG_HYPERDRIVE_5_A"
+	required_component="SWP_REQUIRED_VONG_THRUSTER_5_A"
+	required_component="SWP_REQUIRED_VONG_ARMOR_6_A"
+}
+
+## Vong - il Friil Ma Nat - Frigate
+ship_design = {
+	name = "NAME_Vong_Il_Frill_Ma_Nat"
+	ship_size = swp_ilfriil_man_nat
+	section = {
+		template = "yuuzhan_il_friil_ma_stern_key"
+		slot = "stern"
+		component = { slot = "LIGHT_KOR_01" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_02" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_03" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_04" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_05" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_06" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_01" template = "SMALL_VONG_YAREK_KOR_4" }
+	}
+	section = {
+		template = "yuuzhan_il_friil_ma_mid_key"
+		slot = "mid"
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_VONG_REGEN_2_A" }
+	}
+	required_component="SWP_REQUIRED_VONG_HYPERDRIVE_5_D"
+	required_component="SWP_REQUIRED_VONG_THRUSTER_5_D"
+	required_component="SWP_REQUIRED_VONG_ARMOR_6_D"
+}
+
+## Vong - Sporeship - Frigate
+ship_design = {
+	name = "NAME_Vong_Sporeship"
+	ship_size = swp_spore_ship
+	section = {
+		template = "yuuzhan_spore_ship_stern_key"
+		slot = "stern"
+		component = { slot = "SPORE_GUN_01" template = "TORPEDO_VONG_SPORE_LAUNCHER_4" }
+		component = { slot = "SPORE_GUN_02" template = "TORPEDO_VONG_SPORE_LAUNCHER_4" }
+		component = { slot = "SPORE_GUN_03" template = "TORPEDO_VONG_SPORE_LAUNCHER_4" }
+		component = { slot = "SPORE_GUN_04" template = "TORPEDO_VONG_SPORE_LAUNCHER_4" }
+		component = { slot = "SPORE_GUN_05" template = "TORPEDO_VONG_SPORE_LAUNCHER_4" }
+		component = { slot = "SPORE_GUN_06" template = "TORPEDO_VONG_SPORE_LAUNCHER_4" }
+		component = { slot = "SPORE_GUN_07" template = "TORPEDO_VONG_SPORE_LAUNCHER_4" }
+		component = { slot = "SPORE_GUN_08" template = "TORPEDO_VONG_SPORE_LAUNCHER_4" }
+		component = { slot = "SPORE_GUN_09" template = "TORPEDO_VONG_SPORE_LAUNCHER_4" }
+		component = { slot = "SPORE_GUN_10" template = "TORPEDO_VONG_SPORE_LAUNCHER_4" }
+	}
+	section = {
+		template = "yuuzhan_il_friil_ma_mid_key"
+		slot = "mid"
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_VONG_REGEN_2_A" }
+	}
+	required_component="SWP_REQUIRED_VONG_HYPERDRIVE_5_E"
+	required_component="SWP_REQUIRED_VONG_THRUSTER_5_E"
+	required_component="SWP_REQUIRED_VONG_ARMOR_6_E"
+}
+
+## Vong - Suuv Ban Dkrid - Cruiser
+ship_design = {
+	name = "NAME_Vong_Suuv_Ban_Dkrid"
+	ship_size = swp_suuv_ban_dkrid
+	section = {
+		template = "yuuzhan_suuv_ban_dkrid_stern_key"
+		slot = "stern"
+		component = { slot = "LIGHT_KOR_01" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_02" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_03" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_04" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_05" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_06" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_07" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_01" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_02" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_03" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_04" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_05" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_06" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_02" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_03" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+	}
+	section = {
+		template = "yuuzhan_suuv_ban_dkrid_key"
+		slot = "mid"
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_VONG_REGEN_2_A" }
+	}
+	required_component="SWP_REQUIRED_VONG_HYPERDRIVE_5_F"
+	required_component="SWP_REQUIRED_VONG_THRUSTER_5_F"
+	required_component="SWP_REQUIRED_VONG_ARMOR_6_F"
+}
+
+## Vong - Vua Spar - Cruiser
+ship_design = {
+	name = "NAME_Vong_Vua_Spar"
+	ship_size = swp_vua_spar
+	section = {
+		template = "yuuzhan_vua_spar_stern_key"
+		slot = "stern"
+		component = { slot = "LIGHT_KOR_01" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_02" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_03" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_04" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_01" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_02" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_03" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_04" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "HEAVY_KOR_01" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "ROCKSPITTER_01" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_02" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_02" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_03" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_04" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+	}
+	section = {
+		template = "yuuzhan_vua_spar_key"
+		slot = "mid"
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_VONG_REGEN_2_A" }
+	}
+	required_component="SWP_REQUIRED_VONG_HYPERDRIVE_5_H"
+	required_component="SWP_REQUIRED_VONG_THRUSTER_5_H"
+	required_component="SWP_REQUIRED_VONG_ARMOR_6_H"
+}
+
+## Vong - Shrip Shpa - Scienceship
+ship_design = {
+	name = "NAME_Vong_Shrip_Shpa_Science"
+	ship_size = swp_vong_science
+	section = {
+		template = "YUUZHAN_SCIENCESHIP_SECTION"
+		slot = "stern"
+		component = { slot = "LIGHT_KOR_01" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_02" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_03" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_04" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "CRYSTAL_LAUNCHER_01" template = "POINT_DEFENCE_VONG_CRYSTAL_4" }
+		component = { slot = "CRYSTAL_LAUNCHER_02" template = "POINT_DEFENCE_VONG_CRYSTAL_4" }
+		component = { slot = "CRYSTAL_LAUNCHER_03" template = "POINT_DEFENCE_VONG_CRYSTAL_4" }
+		component = { slot = "CRYSTAL_LAUNCHER_04" template = "POINT_DEFENCE_VONG_CRYSTAL_4" }
+		component = { slot = "CRYSTAL_LAUNCHER_05" template = "POINT_DEFENCE_VONG_CRYSTAL_4" }
+		component = { slot = "CRYSTAL_LAUNCHER_06" template = "POINT_DEFENCE_VONG_CRYSTAL_4" }
+		component = { slot = "ROCKSPITTER_01" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_02" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_03" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+	}
+	required_component="SWP_REQUIRED_VONG_HYPERDRIVE_5_H"
+	required_component="SWP_REQUIRED_VONG_THRUSTER_5_H"
+	required_component="SWP_REQUIRED_VONG_ARMOR_6_H"
+}
+
+## Vong - Shrip Shpa - Constructor
+ship_design = {
+	name = "NAME_Vong_Shrip_Shpa_Constructor"
+	ship_size = swp_vong_constructor
+	section = {
+		template = "YUUZHAN_CONSTRUCTION_SECTION"
+		slot = "stern"
+		component = { slot = "LIGHT_KOR_01" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_02" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_03" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_04" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "CRYSTAL_LAUNCHER_01" template = "POINT_DEFENCE_VONG_CRYSTAL_4" }
+		component = { slot = "CRYSTAL_LAUNCHER_02" template = "POINT_DEFENCE_VONG_CRYSTAL_4" }
+		component = { slot = "CRYSTAL_LAUNCHER_03" template = "POINT_DEFENCE_VONG_CRYSTAL_4" }
+		component = { slot = "CRYSTAL_LAUNCHER_04" template = "POINT_DEFENCE_VONG_CRYSTAL_4" }
+		component = { slot = "CRYSTAL_LAUNCHER_05" template = "POINT_DEFENCE_VONG_CRYSTAL_4" }
+		component = { slot = "CRYSTAL_LAUNCHER_06" template = "POINT_DEFENCE_VONG_CRYSTAL_4" }
+		component = { slot = "ROCKSPITTER_01" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_02" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_03" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+	}
+	required_component="SWP_REQUIRED_VONG_HYPERDRIVE_5_H"
+	required_component="SWP_REQUIRED_VONG_THRUSTER_5_H"
+	required_component="SWP_REQUIRED_VONG_ARMOR_6_H"
+}
+
+## Vong - Slave Ship - Transport
+ship_design = {
+	name = "NAME_Vong_Slave_Transport"
+	ship_size = swp_vong_transport
+	section = {
+		template = "YUUZHAN_TRANSPORT_SECTION"
+		slot = "stern"
+		component = { slot = "LIGHT_KOR_01" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_02" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		#component = { slot = "LIGHT_KOR_03" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		#component = { slot = "LIGHT_KOR_04" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_01" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_02" template = "SMALL_VONG_YAREK_KOR_4" }
+		#component = { slot = "MEDIUM_KOR_03" template = "SMALL_VONG_YAREK_KOR_4" }
+		#component = { slot = "MEDIUM_KOR_04" template = "SMALL_VONG_YAREK_KOR_4" }
+	}
+	required_component="SWP_REQUIRED_VONG_HYPERDRIVE_5_H"
+	required_component="SWP_REQUIRED_VONG_THRUSTER_5_H"
+	required_component="SWP_REQUIRED_VONG_ARMOR_6_H"
+}
+
+## Vong - Slave Ship - Colonizer
+ship_design = {
+	name = "NAME_Vong_Slave_Colonizer"
+	ship_size = swp_vong_colonizer
+	section = {
+		template = "YUUZHAN_COLONIZATION_SECTION"
+		slot = "stern"
+		component = { slot = "LIGHT_KOR_01" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_02" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_03" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_04" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_01" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_02" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_03" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_04" template = "SMALL_VONG_YAREK_KOR_4" }
+	}
+	required_component="SWP_REQUIRED_VONG_HYPERDRIVE_5_H"
+	required_component="SWP_REQUIRED_VONG_THRUSTER_5_H"
+	required_component="SWP_REQUIRED_VONG_ARMOR_6_H"
+}
+
+## Vong - Matalok - Star Destroyer
+ship_design = {
+	name = "NAME_Vong_Matalok"
+	ship_size = swp_matalok
+	section = {
+		template = "yuuzhan_matalok_stern_key"
+		slot = "stern"
+		component = { slot = "LIGHT_KOR_01" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_02" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_03" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_04" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_05" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_06" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_01" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_02" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_03" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_04" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_05" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_06" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "HEAVY_KOR_01" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_02" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_02" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+	}
+	section = {
+		template = "yuuzhan_matalok_key"
+		slot = "mid"
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_VONG_REGEN_2_A" }
+	}
+	required_component="SWP_REQUIRED_VONG_HYPERDRIVE_5_J"
+	required_component="SWP_REQUIRED_VONG_THRUSTER_5_J"
+	required_component="SWP_REQUIRED_VONG_ARMOR_6_J"
+}
+
+## Vong - Miid Roik - Star Destroyer
+ship_design = {
+	name = "NAME_Vong_Miid_Roik"
+	ship_size = swp_miid_roik_attacker
+	section = {
+		template = "yuuzhan_miid_roik_attacker_stern_key"
+		slot = "stern"
+		component = { slot = "LIGHT_KOR_01" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_02" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_03" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_04" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_05" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_06" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_01" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_02" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_03" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_04" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_05" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_06" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_07" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_08" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_09" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_10" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "HEAVY_KOR_01" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_02" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_03" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_04" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_05" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_06" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "ROCKSPITTER_01" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_02" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_03" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_04" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "MELTING_BEAM_01" template = "LARGE_VONG_MELTING_BEAM_X2_4" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_02" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+	}
+	section = {
+		template = "yuuzhan_miid_roik_attacker_key"
+		slot = "mid"
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_VONG_REGEN_2_A" }
+	}
+	required_component="SWP_REQUIRED_VONG_HYPERDRIVE_5_J"
+	required_component="SWP_REQUIRED_VONG_THRUSTER_5_J"
+	required_component="SWP_REQUIRED_VONG_ARMOR_6_J"
+}
+
+## Vong - Miid Roik Dovin Basal - Star Destroyer
+ship_design = {
+	name = "NAME_Vong_Miid_Roik_Dovin_Basal"
+	ship_size = swp_miid_roik_db
+	section = {
+		template = "yuuzhan_miid_roik_db_stern_key"
+		slot = "stern"
+		component = { slot = "LIGHT_KOR_01" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_02" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_03" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_04" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_05" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "LIGHT_KOR_06" template = "POINT_DEFENCE_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_01" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_02" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_03" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_04" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_05" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_06" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_07" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_08" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_09" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "MEDIUM_KOR_10" template = "SMALL_VONG_YAREK_KOR_4" }
+		component = { slot = "HEAVY_KOR_01" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_02" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_03" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_04" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_05" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_06" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_02" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_03" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_04" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+	}
+	section = {
+		template = "yuuzhan_miid_roik_db_key"
+		slot = "mid"
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_VONG_REGEN_2_A" }
+	}
+	required_component="SWP_REQUIRED_VONG_HYPERDRIVE_5_K"
+	required_component="SWP_REQUIRED_VONG_THRUSTER_5_K"
+	required_component="SWP_REQUIRED_VONG_ARMOR_6_K"
+}
+
+## Vong - Dreadnought
+ship_design = {
+	name = "NAME_Vong_Dreadnought"
+	ship_size = swp_vong_dreadnought
+	section = {
+		template = "yuuzhan_dreadnought_stern_key"
+		slot = "stern"
+		component = { slot = "HEAVY_KOR_01" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_02" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_03" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_04" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_05" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_06" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_07" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_08" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_09" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_10" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_11" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_12" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_13" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_14" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_15" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_16" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_17" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "HEAVY_KOR_18" template = "MEDIUM_VONG_YAREK_KOR_3" }
+		component = { slot = "ROCKSPITTER_01" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_02" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_03" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_04" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_05" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_06" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_07" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_08" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_09" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "ROCKSPITTER_10" template = "TORPEDO_VONG_ROCK_SPITTER_4" }
+		component = { slot = "MELTING_BEAM_01" template = "LARGE_VONG_MELTING_BEAM_X2_4" }
+		component = { slot = "STRIKE_CRAFT_01" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_02" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_03" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_04" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_05" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_06" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_07" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+		component = { slot = "STRIKE_CRAFT_08" template = "HANGAR_BOMBER_VONG_SQUADRON_1" }
+	}
+	section = {
+		template = "yuuzhan_dreadnought_key"
+		slot = "mid"
+		component = { slot = "AUX_UTILITY_1" template = "UTILITY_AUX_VONG_REGEN_2_A" }
+		component = { slot = "AUX_UTILITY_2" template = "UTILITY_AUX_VONG_REGEN_2_A" }
+	}
+	required_component="SWP_REQUIRED_VONG_HYPERDRIVE_5_M"
+	required_component="SWP_REQUIRED_VONG_THRUSTER_5_M"
+	required_component="SWP_REQUIRED_VONG_ARMOR_6_M"
+}

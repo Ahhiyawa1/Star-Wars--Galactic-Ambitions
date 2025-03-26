@@ -1,0 +1,2119 @@
+#########################
+#		Corvettes		#
+#########################
+#T1
+# CR90 ( Early Corvette )
+ship_section_template = {
+	key = "swp_cr90_corvette_stern_asc_key"
+	ship_size = swp_cr90_corvette
+	fits_on_slot = stern
+	entity = "swp_cr90_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = cr90_single_point_defence
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = cr90_single_point_defence
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = cr90_single_point_defence
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = cr90_single_point_defence
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = cr90_dual_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = cr90_dual_medium_turret
+		locatorname = "medium_gun_02"
+	}
+}
+
+# Basic Structure ( Early Corvette )
+ship_section_template = {
+	key = "swp_cr90_corvette_mid_basic_str_key"
+	ship_size = swp_cr90_corvette
+	fits_on_slot = mid
+	entity = "swp_cr90_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t0_cost
+			electronics = @electronics_corv_t1_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+# Jehavey'ir ( Early Corvette )
+ship_section_template = {
+	key = "swp_jehaveyir_corvette_stern_key"
+	ship_size = swp_jehaveyir_corvette
+	fits_on_slot = stern
+	entity = "swp_jehaveyir_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = mhic_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = mhic_ion_turret
+		locatorname = "xl_gun_02"
+	}
+}
+
+# Basic Structure ( Early Corvette )
+ship_section_template = {
+	key = "swp_jehaveyir_corvette_mid_basic_str_key"
+	ship_size = swp_jehaveyir_corvette
+	fits_on_slot = mid
+	entity = "swp_jehaveyir_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t0_cost
+			electronics = @electronics_corv_t1_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+# Lupus ( Early Corvette )
+ship_section_template = {
+	key = "swp_lupus_corvette_stern_key"
+	ship_size = swp_lupus_corvette
+	fits_on_slot = stern
+	entity = "swp_lupus_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = swp_default_light_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = swp_default_light_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+}
+
+# Basic Structure ( Early Corvette )
+ship_section_template = {
+	key = "swp_lupus_corvette_mid_basic_str_key"
+	ship_size = swp_lupus_corvette
+	fits_on_slot = mid
+	entity = "swp_lupus_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t0_cost
+			electronics = @electronics_corv_t1_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+# Asdroni ( Early Corvette )
+ship_section_template = {
+	key = "swp_early_asdroni_corvette_stern_key"
+	ship_size = swp_early_asdroni_corvette
+	fits_on_slot = stern
+	entity = "swp_early_asdroni_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+}
+
+# Basic Structure ( Early Corvette )
+ship_section_template = {
+	key = "swp_early_asdroni_corvette_mid_basic_str_key"
+	ship_size = swp_early_asdroni_corvette
+	fits_on_slot = mid
+	entity = "swp_early_asdroni_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t0_cost
+			electronics = @electronics_corv_t1_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+######
+# T2
+######
+# Customs ( Corvette )
+ship_section_template = {
+	key = "swp_customs_corvette_stern_key"
+	ship_size = swp_customs_corvette
+	fits_on_slot = stern
+	entity = "swp_customs_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_07"
+	}
+}
+
+# Internal Structure ( Corvette )
+ship_section_template = {
+	key = "swp_customs_corvette_mid_int_str_key"
+	ship_size = swp_customs_corvette
+	fits_on_slot = mid
+	entity = "swp_customs_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+			electronics = @electronics_corv_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Corvette )
+ship_section_template = {
+	key = "swp_customs_corvette_mid_ext_str_key"
+	ship_size = swp_customs_corvette
+	fits_on_slot = mid
+	entity = "swp_customs_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+			electronics = @electronics_corv_t2_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Hammerhead ( Corvette )
+ship_section_template = {
+	key = "swp_hammerhead_corvette_stern_key"
+	ship_size = swp_hammerhead_corvette
+	fits_on_slot = stern
+	entity = "swp_hammerhead_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "SPECIAL_GUN_01"
+		template = invisible_large_turret
+		locatorname = "special_gun_01"
+	}
+}
+
+# Internal Structure ( Corvette )
+ship_section_template = {
+	key = "swp_hammerhead_corvette_mid_int_str_key"
+	ship_size = swp_hammerhead_corvette
+	fits_on_slot = mid
+	entity = "swp_hammerhead_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+			electronics = @electronics_corv_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Corvette )
+ship_section_template = {
+	key = "swp_hammerhead_corvette_mid_ext_str_key"
+	ship_size = swp_hammerhead_corvette
+	fits_on_slot = mid
+	entity = "swp_hammerhead_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+			electronics = @electronics_corv_t2_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Scurge ( Corvette )
+ship_section_template = {
+	key = "swp_scurge_corvette_stern_key"
+	ship_size = swp_scurge_corvette
+	fits_on_slot = stern
+	entity = "swp_scurge_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+}
+
+# Internal Structure ( Corvette )
+ship_section_template = {
+	key = "swp_scurge_corvette_mid_int_str_key"
+	ship_size = swp_scurge_corvette
+	fits_on_slot = mid
+	entity = "swp_scurge_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+			electronics = @electronics_corv_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Corvette )
+ship_section_template = {
+	key = "swp_scurge_corvette_mid_ext_str_key"
+	ship_size = swp_scurge_corvette
+	fits_on_slot = mid
+	entity = "swp_scurge_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+			electronics = @electronics_corv_t2_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Krayt ( Corvette )
+ship_section_template = {
+	key = "swp_krayt_corvette_stern_key"
+	ship_size = swp_krayt_corvette
+	fits_on_slot = stern
+	entity = "swp_krayt_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+}
+
+# Internal Structure ( Corvette )
+ship_section_template = {
+	key = "swp_krayt_corvette_mid_int_str_key"
+	ship_size = swp_krayt_corvette
+	fits_on_slot = mid
+	entity = "swp_krayt_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+			electronics = @electronics_corv_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Corvette )
+ship_section_template = {
+	key = "swp_krayt_corvette_mid_ext_str_key"
+	ship_size = swp_krayt_corvette
+	fits_on_slot = mid
+	entity = "swp_krayt_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+			electronics = @electronics_corv_t2_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Diamond ( Corvette )
+ship_section_template = {
+	key = "swp_diamond_corvette_stern_key"
+	ship_size = swp_diamond_corvette
+	fits_on_slot = stern
+	entity = "swp_diamond_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = swp_default_light_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = swp_default_light_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = swp_default_light_turret
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = swp_default_light_turret
+		locatorname = "small_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = swp_default_light_turret
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "SMALL_GUN_010"
+		template = swp_default_light_turret
+		locatorname = "small_gun_010"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+}
+
+# Internal Structure ( Corvette )
+ship_section_template = {
+	key = "swp_diamond_corvette_mid_int_str_key"
+	ship_size = swp_diamond_corvette
+	fits_on_slot = mid
+	entity = "swp_diamond_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+			electronics = @electronics_corv_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Corvette )
+ship_section_template = {
+	key = "swp_diamond_corvette_mid_ext_str_key"
+	ship_size = swp_diamond_corvette
+	fits_on_slot = mid
+	entity = "swp_diamond_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+			electronics = @electronics_corv_t2_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Etti ( Corvette )
+ship_section_template = {
+	key = "swp_etti_corvette_stern_key"
+	ship_size = swp_etti_corvette
+	fits_on_slot = stern
+	entity = "swp_etti_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = swp_default_light_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = swp_default_light_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+}
+
+# Internal Structure ( Corvette )
+ship_section_template = {
+	key = "swp_etti_corvette_mid_int_str_key"
+	ship_size = swp_etti_corvette
+	fits_on_slot = mid
+	entity = "swp_etti_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+			electronics = @electronics_corv_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Corvette )
+ship_section_template = {
+	key = "swp_etti_corvette_mid_ext_str_key"
+	ship_size = swp_etti_corvette
+	fits_on_slot = mid
+	entity = "swp_etti_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+			electronics = @electronics_corv_t2_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Asdroni ( Corvette )
+ship_section_template = {
+	key = "swp_asdroni_corvette_stern_key"
+	ship_size = swp_asdroni_corvette
+	fits_on_slot = stern
+	entity = "swp_asdroni_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = swp_default_light_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = swp_default_light_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+}
+
+# Internal Structure ( Corvette )
+ship_section_template = {
+	key = "swp_asdroni_corvette_mid_int_str_key"
+	ship_size = swp_asdroni_corvette
+	fits_on_slot = mid
+	entity = "swp_asdroni_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+			electronics = @electronics_corv_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Corvette )
+ship_section_template = {
+	key = "swp_asdroni_corvette_mid_ext_str_key"
+	ship_size = swp_asdroni_corvette
+	fits_on_slot = mid
+	entity = "swp_asdroni_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t1_cost
+			electronics = @electronics_corv_t2_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+########
+# T3
+########
+# Vigil ( Heavy Corvette )
+ship_section_template = {
+	key = "swp_vigil_corvette_stern_key"
+	ship_size = swp_vigil_corvette
+	fits_on_slot = stern
+	entity = "swp_vigil_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = mdtl_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = mdtl_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = mdtl_large_turret
+		locatorname = "large_gun_03"
+	}
+}
+
+# Advanced Internal Structure ( Heavy Corvette )
+ship_section_template = {
+	key = "swp_vigil_corvette_mid_adv_int_str_key"
+	ship_size = swp_vigil_corvette
+	fits_on_slot = mid
+	entity = "swp_vigil_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+			electronics = @electronics_corv_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 0
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Heavy Corvette )
+ship_section_template = {
+	key = "swp_vigil_corvette_mid_adv_ext_str_key"
+	ship_size = swp_vigil_corvette
+	fits_on_slot = mid
+	entity = "swp_vigil_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+			electronics = @electronics_corv_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# DP20 ( Heavy Corvette )
+ship_section_template = {
+	key = "swp_dp20_corvette_stern_key"
+	ship_size = swp_dp20_corvette
+	fits_on_slot = stern
+	entity = "swp_dp20_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = dp20_lc_point_defence
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = dp20_lc_point_defence
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = dp20_lc_point_defence
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = dp20_lc_point_defence
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = dp20_lc_point_defence
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = dp20_lc_point_defence
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = dp20_dual_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = dp20_dual_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = dp20_dual_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = dp20_dual_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+}
+
+# Advanced Internal Structure ( Heavy Corvette )
+ship_section_template = {
+	key = "swp_dp20_corvette_mid_adv_int_str_key"
+	ship_size = swp_dp20_corvette
+	fits_on_slot = mid
+	entity = "swp_dp20_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+			electronics = @electronics_corv_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 0
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Heavy Corvette )
+ship_section_template = {
+	key = "swp_dp20_corvette_mid_adv_ext_str_key"
+	ship_size = swp_dp20_corvette
+	fits_on_slot = mid
+	entity = "swp_dp20_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+			electronics = @electronics_corv_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Asdroni ( Heavy Corvette )
+ship_section_template = {
+	key = "swp_adv_asdroni_corvette_stern_key"
+	ship_size = swp_adv_asdroni_corvette
+	fits_on_slot = stern
+	entity = "swp_adv_asdroni_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = swp_default_light_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = swp_default_light_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+}
+
+# Advanced Internal Structure ( Heavy Corvette )
+ship_section_template = {
+	key = "swp_adv_asdroni_corvette_mid_adv_int_str_key"
+	ship_size = swp_adv_asdroni_corvette
+	fits_on_slot = mid
+	entity = "swp_adv_asdroni_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+			electronics = @electronics_corv_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 0
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Heavy Corvette )
+ship_section_template = {
+	key = "swp_adv_asdroni_corvette_mid_adv_ext_str_key"
+	ship_size = swp_adv_asdroni_corvette
+	fits_on_slot = mid
+	entity = "swp_adv_asdroni_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+			electronics = @electronics_corv_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Raider ( Advanced Corvette )
+ship_section_template = {
+	key = "swp_raider_corvette_stern_key"
+	ship_size = swp_raider_corvette
+	fits_on_slot = stern
+	entity = "swp_raider_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Corvette )
+ship_section_template = {
+	key = "swp_raider_corvette_mid_adv_int_str_key"
+	ship_size = swp_raider_corvette
+	fits_on_slot = mid
+	entity = "swp_raider_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+			electronics = @electronics_corv_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 0
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Corvette )
+ship_section_template = {
+	key = "swp_raider_corvette_mid_adv_ext_str_key"
+	ship_size = swp_raider_corvette
+	fits_on_slot = mid
+	entity = "swp_raider_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+			electronics = @electronics_corv_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Braha'tok ( Advanced Corvette )
+ship_section_template = {
+	key = "swp_dornean_corvette_stern_key"
+	ship_size = swp_dornean_corvette
+	fits_on_slot = stern
+	entity = "swp_dornean_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Corvette )
+ship_section_template = {
+	key = "swp_dornean_corvette_mid_adv_int_str_key"
+	ship_size = swp_dornean_corvette
+	fits_on_slot = mid
+	entity = "swp_dornean_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+			electronics = @electronics_corv_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 0
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Corvette )
+ship_section_template = {
+	key = "swp_dornean_corvette_mid_adv_ext_str_key"
+	ship_size = swp_dornean_corvette
+	fits_on_slot = mid
+	entity = "swp_dornean_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+			electronics = @electronics_corv_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Crusader ( Advanced Corvette )
+ship_section_template = {
+	key = "swp_crusader_corvette_stern_key"
+	ship_size = swp_crusader_corvette
+	fits_on_slot = stern
+	entity = "swp_crusader_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = lthlc_point_defence_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = lthlc_point_defence_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = lthlc_point_defence_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = lthlc_point_defence_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = lthlc_point_defence_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = lthlc_point_defence_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_04"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Corvette )
+ship_section_template = {
+	key = "swp_crusader_corvette_mid_adv_int_str_key"
+	ship_size = swp_crusader_corvette
+	fits_on_slot = mid
+	entity = "swp_crusader_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+			electronics = @electronics_corv_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 0
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Corvette )
+ship_section_template = {
+	key = "swp_crusader_corvette_mid_adv_ext_str_key"
+	ship_size = swp_crusader_corvette
+	fits_on_slot = mid
+	entity = "swp_crusader_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+			electronics = @electronics_corv_t3_cost 
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Marauder Laser( Advanced Corvette )
+ship_section_template = {
+	key = "swp_marauder_corvette_stern_key"
+	ship_size = swp_marauder_corvette
+	fits_on_slot = stern
+	entity = "swp_marauder_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 50
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+}
+
+# Marauder Rocket ( Advanced Corvette )
+ship_section_template = {
+	key = "swp_marauder_r_corvette_stern_key"
+	ship_size = swp_marauder_corvette
+	fits_on_slot = stern
+	entity = "swp_marauder_r_corvette_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 50
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Corvette )
+ship_section_template = {
+	key = "swp_marauder_corvette_mid_adv_int_str_key"
+	ship_size = swp_marauder_corvette
+	fits_on_slot = mid
+	entity = "swp_marauder_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+			electronics = @electronics_corv_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 0
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Corvette )
+ship_section_template = {
+	key = "swp_marauder_corvette_mid_adv_ext_str_key"
+	ship_size = swp_marauder_corvette
+	fits_on_slot = mid
+	entity = "swp_marauder_corvette_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_corv_t2_cost
+			electronics = @electronics_corv_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}

@@ -1,0 +1,223 @@
+#################################
+# 			Hero/ Special 		#
+#################################
+
+# Rahm Kota Venator
+rahm_kota_venator = {
+	formation_priority = 30
+	max_speed = @max_speed_sd
+	acceleration = @accleration_sd
+	rotation_speed = @rotation_speed_sd
+	collision_radius = 14
+	max_hitpoints = @max_hull_sd_t1
+	size_multiplier = @size_multi_sd_t1
+	fleet_slot_size = 6
+	modifier = {
+		ship_evasion_mult = -0.3
+		ship_weapon_damage = 0.05
+	}
+	icon = ship_size_sd_venator
+	base_buildtime = 0
+	is_designable = no
+	is_space_object = yes
+	default_behavior = skirmisher_mid_range_default
+	prerequisites = {
+		"tech_engineering_rahm_kota_hero"
+	}
+	combat_disengage_chance = 0.2
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+# Darth Nihilus Centurion
+nihilus_centurion = {
+	formation_priority = 30
+	max_speed = 100
+	acceleration = 0.91
+	rotation_speed = 0.45
+	collision_radius = 14
+	max_hitpoints = 46000
+	size_multiplier = 32
+	fleet_slot_size = 32
+	modifier = {
+		ship_evasion_mult = -0.1
+	}
+	icon = ship_size_sd_centurion
+	is_designable = no
+	is_space_station = no
+	default_behavior = skirmisher_mid_range_default
+	prerequisites = {
+		"tech_engineering_nihilus_hero"
+	}
+	combat_disengage_chance = 0
+	class = shipclass_military_special
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+# Thrawn Star Destroyer
+thrawn_star_destroyer = {
+	formation_priority = 30
+	max_speed = @max_speed_sd
+	acceleration = @accleration_sd
+	rotation_speed = @rotation_speed_sd
+	collision_radius = 14
+	max_hitpoints = @max_hull_sd_t3
+	size_multiplier = @size_multi_sd_t3
+	fleet_slot_size = 6
+	graphical_culture = {
+		"imperial_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.45
+		ship_weapon_damage = 0.1
+	}
+	icon = ship_size_sd_imperial1
+	base_buildtime = 0
+	is_designable = no
+	is_space_object = yes
+	default_behavior = skirmisher_mid_range_default
+	prerequisites = {
+		"tech_engineering_thrawn_hero"
+	}
+	combat_disengage_chance = 0.2
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+# Gaunt Star Destroyer
+gaunt_star_destroyer = {
+	formation_priority = 30
+	max_speed = @max_speed_sd
+	acceleration = @accleration_sd
+	rotation_speed = @rotation_speed_sd
+	collision_radius = 14
+	max_hitpoints = @max_hull_sd_t3
+	size_multiplier = @size_multi_sd_t3
+	fleet_slot_size = 6
+	graphical_culture = {
+		"imperial_01"
+	}
+	modifier = {
+		ship_evasion_mult = -0.45
+		ship_weapon_damage = 0.1
+	}
+	icon = ship_size_sd_imperial2
+	base_buildtime = 0
+	is_designable = no
+	is_space_object = yes
+	default_behavior = skirmisher_mid_range_default
+	prerequisites = {
+		"tech_engineering_gaunt_hero"
+	}
+	combat_disengage_chance = 0.2
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+}
+
+# Deathstar
+colossus = {
+	formation_priority = @colossus_formation_priority
+	max_speed = @speed_very_slow
+	acceleration = 0.1
+	rotation_speed = 0.05
+	collision_radius = @colossus_collision_radius
+	max_hitpoints = 140000
+	graphical_culture = {
+		"imperial_01"
+	}
+	modifier = {
+		ship_evasion_add = @colossus_evasion
+	}
+	size_multiplier = 32
+	fleet_slot_size = 32
+	section_slots = {
+		"ship" = {
+			locator = "frame_ship"
+		}
+	}
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 7
+	is_designable = no
+	class = shipclass_military_special
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "combat_computers"
+
+	resources = {
+		category = ships
+		cost = {
+			alloys = 10000
+		}
+		upkeep = {
+			energy = @colossus_upkeep_energy
+			alloys = @colossus_upkeep_alloys
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 10
+	}
+}

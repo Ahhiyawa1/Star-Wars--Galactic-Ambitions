@@ -84,7 +84,6 @@ SeperatistAlliance = {
 	species_bio="PRESCRIPTED_species_bio_SeperatistAlliance"
 	portrait="human"
 	name="EMPIRE_DESIGN_SeperatistAlliance"
-	adjective="PRESCRIPTED_adjective_SeperatistAlliance"
 
 	authority="auth_confederacy_of_independent_systems"
 	government="gov_cis_phase_01"

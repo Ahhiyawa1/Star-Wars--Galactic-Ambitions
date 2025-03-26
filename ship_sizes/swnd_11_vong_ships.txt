@@ -1,0 +1,861 @@
+#################################
+# 			Vong	 			#
+#################################
+swp_advanced_scout = {
+	formation_priority = 10
+	max_speed = 640
+	acceleration = 0.91
+	rotation_speed = 0.85
+	collision_radius = 3
+	max_hitpoints = 1000
+	size_multiplier = 2
+	fleet_slot_size = 1
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 300
+		ship_weapon_damage = 2
+		ship_evasion_mult = 0
+	}
+	icon = ship_size_corv_advanced_scout
+	base_buildtime = 420
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	required_component_set = "swp_required_vong_hyperdrive"
+	required_component_set = "swp_required_vong_thruster"
+	required_component_set = "swp_required_vong_armor"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+	resources = {
+		category = ships
+		upkeep = {
+			alloys = 0.04
+			energy = 0.09
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_ilfriil_man_nat = {
+	formation_priority = 20
+	max_speed = 592
+	acceleration = 0.91
+	rotation_speed = 0.7
+	collision_radius = 5
+	max_hitpoints = 2000
+	size_multiplier = 5
+	fleet_slot_size = 2
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 500
+		ship_weapon_damage = 3
+		ship_evasion_mult = -0.1
+	}
+	icon = ship_size_frig_ilfriil_man_nat
+	base_buildtime = 440
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	required_component_set = "swp_required_vong_hyperdrive"
+	required_component_set = "swp_required_vong_thruster"
+	required_component_set = "swp_required_vong_armor"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+	resources = {
+		category = ships
+		upkeep = {
+			alloys = 0.12
+			energy = 0.25
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_spore_ship = {
+	formation_priority = 20
+	max_speed = 576
+	acceleration = 0.91
+	rotation_speed = 0.65
+	collision_radius = 7
+	max_hitpoints = 2200
+	size_multiplier = 8
+	fleet_slot_size = 3
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 700
+		ship_weapon_damage = 4
+		ship_evasion_mult = -0.15
+	}
+	icon = ship_size_frig_spore_ship
+	base_buildtime = 480
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	required_component_set = "swp_required_vong_hyperdrive"
+	required_component_set = "swp_required_vong_thruster"
+	required_component_set = "swp_required_vong_armor"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+	resources = {
+		category = ships
+		upkeep = {
+			alloys = 0.16
+			energy = 0.32
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_suuv_ban_dkrid = {
+	formation_priority = 20
+	max_speed = 560
+	acceleration = 0.91
+	rotation_speed = 0.6
+	collision_radius = 7
+	max_hitpoints = 3500
+	size_multiplier = 14
+	fleet_slot_size = 3
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 1000
+		ship_weapon_damage = 5
+		ship_evasion_mult = -0.2
+	}
+	icon = ship_size_crui_suuv_ban_dkrid
+	base_buildtime = 540
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	required_component_set = "swp_required_vong_hyperdrive"
+	required_component_set = "swp_required_vong_thruster"
+	required_component_set = "swp_required_vong_armor"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+	resources = {
+		category = ships
+		upkeep = {
+			alloys = 0.21
+			energy = 0.42
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_vua_spar = {
+	formation_priority = 30
+	max_speed = 528
+	acceleration = 0.91
+	rotation_speed = 0.5
+	collision_radius = 10
+	max_hitpoints = 5500
+	size_multiplier = 20
+	fleet_slot_size = 5
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 2000
+		ship_weapon_damage = 6
+		ship_evasion_mult = -0.3
+	}
+	icon = ship_size_h_crui_vua_spar
+	base_buildtime = 610
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	combat_disengage_chance = 0.3
+	class = shipclass_military
+	required_component_set = "swp_required_vong_hyperdrive"
+	required_component_set = "swp_required_vong_thruster"
+	required_component_set = "swp_required_vong_armor"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+	resources = {
+		category = ships
+		upkeep = {
+			alloys = 0.38
+			energy = 0.77
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_matalok = {
+	formation_priority = 30
+	max_speed = 496
+	acceleration = 0.91
+	rotation_speed = 0.4
+	collision_radius = 14
+	max_hitpoints = 12000
+	size_multiplier = 29
+	fleet_slot_size = 6
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 4000
+		ship_weapon_damage = 6
+		ship_evasion_mult = -0.45
+	}
+	icon = ship_size_sd_matalok
+	base_buildtime = 720
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	combat_disengage_chance = 0.2
+	class = shipclass_military
+	required_component_set = "swp_required_vong_hyperdrive"
+	required_component_set = "swp_required_vong_thruster"
+	required_component_set = "swp_required_vong_armor"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+	resources = {
+		category = ships
+		upkeep = {
+			alloys = 0.71
+			energy = 1.42
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_miid_roik_db = {
+	formation_priority = 30
+	max_speed = 480
+	acceleration = 0.9
+	rotation_speed = 0.35
+	collision_radius = 14
+	max_hitpoints = 14000
+	size_multiplier = 33
+	fleet_slot_size = 6
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 5000
+		ship_weapon_damage = 5.5
+		ship_evasion_mult = -0.5
+	}
+	icon = ship_size_sd_miid_roik_db
+	base_buildtime = 780
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	combat_disengage_chance = 0.2
+	class = shipclass_military
+	required_component_set = "swp_required_vong_hyperdrive"
+	required_component_set = "swp_required_vong_thruster"
+	required_component_set = "swp_required_vong_armor"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+	resources = {
+		category = ships
+		upkeep = {
+			alloys = 0.81
+			energy = 1.62
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_miid_roik_attacker = {
+	formation_priority = 30
+	max_speed = 480
+	acceleration = 0.9
+	rotation_speed = 0.35
+	collision_radius = 14
+	max_hitpoints = 14000
+	size_multiplier = 33
+	fleet_slot_size = 6
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 5000
+		ship_weapon_damage = 5.5
+		ship_evasion_mult = -0.5
+	}
+	icon = ship_size_sd_miid_roik_attacker
+	base_buildtime = 780
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	combat_disengage_chance = 0.2
+	class = shipclass_military
+	required_component_set = "swp_required_vong_hyperdrive"
+	required_component_set = "swp_required_vong_thruster"
+	required_component_set = "swp_required_vong_armor"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+	resources = {
+		category = ships
+		upkeep = {
+			alloys = 0.81
+			energy = 1.62
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_vong_dreadnought = {
+	formation_priority = 50
+	max_speed = 448
+	acceleration = 0.9
+	rotation_speed = 0.25
+	collision_radius = 30
+	max_hitpoints = 50000
+	size_multiplier = 93
+	fleet_slot_size = 10
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 20000
+		ship_weapon_damage = 6
+		ship_evasion_mult = -0.7
+	}
+	icon = ship_size_ssd_vong_dreadnought
+	base_buildtime = 1600
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	class = shipclass_military
+	required_component_set = "swp_required_vong_hyperdrive"
+	required_component_set = "swp_required_vong_thruster"
+	required_component_set = "swp_required_vong_armor"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+	resources = {
+		category = ships
+		upkeep = {
+			alloys = 2.68
+			energy = 5.37
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_worldship = {
+	entity = starbase_swarm_entity
+	formation_priority = 60
+	max_speed = 400
+	acceleration = 0.9
+	rotation_speed = 0.15
+	collision_radius = 100
+	max_hitpoints = 120000
+	size_multiplier = 201
+	fleet_slot_size = 20
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 30000
+		ship_weapon_damage = 6
+		ship_evasion_mult = -0.9
+	}
+	icon = ship_size_ssd_worldship
+	base_buildtime = 3270
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = no
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	class = shipclass_military
+	required_component_set = "swp_required_vong_hyperdrive"
+	required_component_set = "swp_required_vong_thruster"
+	required_component_set = "swp_required_vong_armor"
+	section_slots = {
+		"stern" = {
+			locator = "part1"
+		}
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 2
+	resources = {
+		category = ships
+		upkeep = {
+			alloys = 5.31
+			energy = 10.62
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_vong_science = {
+	entity = science_entity
+	max_speed = 528
+	acceleration = 0.45
+	rotation_speed = 0.5
+	max_hitpoints = 5000
+	fleet_slot_size = 1
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 1800
+		ship_evasion_mult = -0.25
+	}
+	icon = ship_size_science
+	base_buildtime = 60
+	components_add_to_cost = no
+	enable_default_design = yes
+	is_designable = no
+	is_civilian = yes
+	valid_target_aggressive_stance = no
+	auto_upgrade = yes
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	class = shipclass_science_ship
+	required_component_set = "swp_required_vong_hyperdrive"
+	required_component_set = "swp_required_vong_thruster"
+	required_component_set = "swp_required_vong_armor"
+	section_slots = {
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+	resources = {
+		category = ships
+		cost = {
+			alloys = 100
+		}
+		upkeep = {
+			alloys = 0.37
+			energy = 0.74
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_vong_constructor = {
+	entity = constructor_entity
+	max_speed = 528
+	acceleration = 0.45
+	rotation_speed = 0.5
+	max_hitpoints = 3000
+	fleet_slot_size = 1
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 1000
+		ship_evasion_mult = -0.25
+	}
+	icon = ship_size_constructor
+	base_buildtime = 60
+	components_add_to_cost = no
+	enable_default_design = yes
+	is_designable = no
+	is_civilian = yes
+	valid_target_aggressive_stance = no
+	auto_upgrade = yes
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	class = shipclass_constructor
+	required_component_set = "swp_required_vong_hyperdrive"
+	required_component_set = "swp_required_vong_thruster"
+	required_component_set = "swp_required_vong_armor"
+	section_slots = {
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+	resources = {
+		category = ships
+		cost = {
+			alloys = 100
+		}
+		upkeep = {
+			alloys = 0.37
+			energy = 0.74
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_vong_colonizer = {
+	entity = colonizer_entity
+	max_speed = 528
+	acceleration = 0.45
+	rotation_speed = 0.5
+	max_hitpoints = 6000
+	fleet_slot_size = 1
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 2200
+		ship_evasion_mult = -0.25
+	}
+	icon = ship_size_colonizer
+	base_buildtime = 360
+	components_add_to_cost = no
+	enable_default_design = yes
+	is_designable = no
+	is_civilian = yes
+	valid_target_aggressive_stance = no
+	auto_upgrade = yes
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	class = shipclass_colonizer
+	required_component_set = "swp_required_vong_hyperdrive"
+	required_component_set = "swp_required_vong_thruster"
+	required_component_set = "swp_required_vong_armor"
+	section_slots = {
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+	resources = {
+		category = colonies
+		cost = {
+			alloys = 400
+			minerals = 1200
+		}
+		upkeep = {
+			alloys = 0.4
+			energy = 0.81
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_vong_transport = {
+	entity = transport_entity
+	formation_priority = 30
+	max_speed = 528
+	acceleration = 0.91
+	rotation_speed = 0.5
+	collision_radius = 10
+	max_hitpoints = 4000
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 1200
+		ship_evasion_mult = -0.5
+	}
+	icon = ship_size_transport
+	base_buildtime = 0
+	components_add_to_cost = no
+	enable_default_design = yes
+	is_designable = no
+	auto_upgrade = yes
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	combat_disengage_chance = 0.3
+	class = shipclass_transport
+	required_component_set = "swp_required_vong_hyperdrive"
+	required_component_set = "swp_required_vong_thruster"
+	required_component_set = "swp_required_vong_armor"
+	num_target_locators = 2
+	section_slots = {
+		"mid" = {
+			locator = "part1"
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_vong_grutchin_pod = {
+	max_speed = 6
+	acceleration = 0.1
+	rotation_speed = 0.1
+	max_hitpoints = 12000
+	size_multiplier = 1
+	fleet_slot_size = 6
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 4000
+		ship_evasion_mult = -1
+	}
+	ship_modifier = {
+		ship_weapon_range_mult = 0.2
+	}
+	base_buildtime = 600
+	components_add_to_cost = no
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = yes
+	build_block_radius = 200
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	class = shipclass_military_station
+	required_component_set = "swp_required_vong_armor"
+	required_component_set = "swp_required_vong_reactor"
+	section_slots = {
+		"west" = {
+			locator = "part1"
+		}
+		"east" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+	resources = {
+		category = starbase_stations
+		cost = {
+			alloys = 400
+		}
+		upkeep = {
+			alloys = 0.73
+			energy = 1.47
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+swp_vong_healing_pod = {
+	max_speed = 6
+	acceleration = 0.1
+	rotation_speed = 0.1
+	max_hitpoints = 9000
+	size_multiplier = 1
+	fleet_slot_size = 6
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	modifier = {
+		ship_armor_add = 3000
+		ship_evasion_mult = -1
+	}
+	ship_modifier = {
+		ship_weapon_range_mult = 0.2
+	}
+	base_buildtime = 720
+	components_add_to_cost = no
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = yes
+	build_block_radius = 200
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	class = shipclass_military_station
+	required_component_set = "swp_required_vong_armor"
+	required_component_set = "swp_required_vong_reactor"
+	section_slots = {
+		"west" = {
+			locator = "part1"
+		}
+		"east" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+	resources = {
+		category = starbase_stations
+		cost = {
+			alloys = 400
+		}
+		upkeep = {
+			alloys = 0.61
+			energy = 1.22
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}
+
+#ship to take up unused weapons and componants
+swp_dummy = {
+	max_speed = 6
+	acceleration = 0.1
+	rotation_speed = 0.1
+	max_hitpoints = 9000
+	size_multiplier = 1
+	fleet_slot_size = 6
+	modifier = {
+		ship_armor_add = 3000
+		ship_evasion_mult = -1
+	}
+	ship_modifier = {
+		ship_weapon_range_mult = 0.2
+	}
+	base_buildtime = 720
+	components_add_to_cost = no
+	enable_default_design = yes
+	is_designable = no
+	is_space_station = yes
+	build_block_radius = 200
+	graphical_culture = {
+		"yuuzhan_01"
+	}
+	prerequisites = {
+		"tech_vong_reactors_1"
+	}
+	class = shipclass_military_station
+	required_component_set = "swp_required_station_reactor"
+	section_slots = {
+		"west" = {
+			locator = "part1"
+		}
+		"east" = {
+			locator = "part1"
+		}
+	}
+	num_target_locators = 0
+	resources = {
+		category = starbase_stations
+		cost = {
+			alloys = 400
+		}
+		upkeep = {
+			alloys = 0.61
+			energy = 1.22
+		}
+	}
+	potential_country = {
+		graphical_culture = yuuzhan_01
+	}
+}

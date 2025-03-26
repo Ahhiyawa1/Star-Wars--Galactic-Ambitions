@@ -1,0 +1,1141 @@
+#################################
+# 			Frigates			#
+#################################
+########
+#T1
+########
+swp_arquitens_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t1
+	size_multiplier = @size_multi_frig_t1
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_frig_arquitens
+	base_buildtime = @buildtime_frig_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = picket_mid_range_default
+	prerequisites = { "tech_republic_era_support_ships" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_arquitens_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_frigates
+			}
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_frigates
+			}
+		}
+	}
+}
+
+swp_kiltirin_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t1
+	size_multiplier = @size_multi_frig_t1
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_frig_kiltirin
+	base_buildtime = @buildtime_frig_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = picket_mid_range_default
+	prerequisites = { "tech_republic_era_support_ships" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_kiltirin_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_frigates
+			}
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_frigates
+			}
+		}
+	}
+}
+
+swp_pelta_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t1
+	size_multiplier = @size_multi_frig_t1
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_frig_pelta
+	base_buildtime = @buildtime_frig_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = picket_mid_range_default
+	prerequisites = { "tech_republic_era_support_ships" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_pelta_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_frigates
+			}
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_frigates
+			}
+		}
+	}
+}
+
+swp_pinnance_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t1
+	size_multiplier = @size_multi_frig_t1
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_frig_pinnance
+	base_buildtime = @buildtime_frig_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = picket_mid_range_default
+	prerequisites = { "tech_republic_era_support_ships" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_pinnace_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_frigates
+			}
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_frigates
+			}
+		}
+	}
+}
+
+swp_nova_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t1
+	size_multiplier = @size_multi_frig_t1
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_frig_nova
+	base_buildtime = @buildtime_frig_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = picket_mid_range_default
+	prerequisites = { "tech_republic_era_support_ships" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_nova_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_frigates
+			}
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_frigates
+			}
+		}
+	}
+}
+
+swp_vigilance_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t1
+	size_multiplier = @size_multi_frig_t1
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_frig_vigilance
+	base_buildtime = @buildtime_frig_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = picket_mid_range_default
+	prerequisites = { "tech_republic_era_support_ships" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_vigilance_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_frigates
+			}
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_frigates
+			}
+		}
+	}
+}
+########
+#T2
+########
+swp_neb_b_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t2
+	size_multiplier = @size_multi_frig_t2
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 8
+	}
+	icon = ship_size_frig_neb_b
+	base_buildtime = @buildtime_frig_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = picket_mid_range_default
+	prerequisites = { "tech_rote_era_frigates" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_neb_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_frigates
+			}
+		}
+	}
+}
+
+swp_cg273_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t2
+	size_multiplier = @size_multi_frig_t2
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 8
+	}
+	icon = ship_size_frig_cg273
+	base_buildtime = @buildtime_frig_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rote_era_frigates" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		 alloys = 1
+	}
+	potential_country = { uses_cg273_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_frigates
+			}
+		}
+	}
+}
+
+swp_kariek_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t2
+	size_multiplier = @size_multi_frig_t2
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 8
+	}
+	icon = ship_size_frig_kariek
+	base_buildtime = @buildtime_frig_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = picket_mid_range_default
+	prerequisites = { "tech_rote_era_frigates" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		 alloys = 1
+	}
+	potential_country = { uses_kariek_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_frigates
+			}
+		}
+	}
+}
+
+swp_escort_carrier_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t2
+	size_multiplier = @size_multi_frig_t2
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 4
+	}
+	icon = ship_size_frig_escort_carrier
+	base_buildtime = @buildtime_frig_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_rote_era_frigates" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		 alloys = 1
+	}
+	potential_country = { uses_escort_carrier_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_carrier_fraction
+			modifier = {
+				factor = 0.25
+				has_technology = tech_rebellion_era_frigates
+			}
+		}
+	}
+}
+
+swp_quasar_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t2
+	size_multiplier = @size_multi_frig_t2
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 4
+	}
+	icon = ship_size_frig_quasar
+	base_buildtime = @buildtime_frig_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_rote_era_frigates" }
+	combat_disengage_chance = 0.5
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		 alloys = 1
+	}
+	potential_country = { uses_quasar_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_carrier_fraction
+			modifier = {
+				factor = 0.25
+				has_technology = tech_rebellion_era_frigates
+			}
+		}
+	}
+}
+
+########
+#T3
+########
+swp_lancer_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t3
+	size_multiplier = @size_multi_frig_t3
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_frig_lancer
+	base_buildtime = @buildtime_frig_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = picket_mid_range_default
+	prerequisites = { "tech_rebellion_era_frigates" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		 alloys = 1
+	}
+	potential_country = { uses_lancer_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+		}
+	}
+}
+
+swp_teroch_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t3
+	size_multiplier = @size_multi_frig_t3
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 8
+	}
+	icon = ship_size_frig_teroch
+	base_buildtime = @buildtime_frig_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = picket_mid_range_default
+	prerequisites = { "tech_rebellion_era_frigates" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		 alloys = 1
+	}
+	potential_country = { uses_teroch_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+		}
+	}
+}
+
+swp_neb_b2_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t3
+	size_multiplier = @size_multi_frig_t3
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_frig_neb_b #53
+	base_buildtime = @buildtime_frig_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = picket_mid_range_default
+	prerequisites = { "tech_rebellion_era_frigates" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		 alloys = 1
+	}
+	potential_country = { uses_neb_b2_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+		}
+	}
+}
+
+swp_adv_nova_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t3
+	size_multiplier = @size_multi_frig_t3
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_frig_nova #54
+	base_buildtime = @buildtime_frig_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = picket_mid_range_default
+	prerequisites = { "tech_rebellion_era_frigates" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		 alloys = 1
+	}
+	potential_country = { uses_adv_nova_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+		}
+	}
+}
+
+swp_adv_vigilance_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t3
+	size_multiplier = @size_multi_frig_t3
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_frig_vigilance #55
+	base_buildtime = @buildtime_frig_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = picket_mid_range_default
+	prerequisites = { "tech_rebellion_era_frigates" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		 alloys = 1
+	}
+	potential_country = { uses_adv_vigilance_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+		}
+	}
+}
+
+swp_velox_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t3
+	size_multiplier = @size_multi_frig_t3
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_frig_velox
+	base_buildtime = @buildtime_frig_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = skirmisher_mid_range_default
+	prerequisites = { "tech_rebellion_era_frigates" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		 alloys = 1
+	}
+	potential_country = { uses_velox_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+		}
+	}
+}
+
+swp_mc30c_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t3
+	size_multiplier = @size_multi_frig_t3
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_frig_mc30c
+	base_buildtime = @buildtime_frig_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = skirmisher_mid_range_default
+	prerequisites = { "tech_rebellion_era_frigates" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		 alloys = 1
+	}
+	potential_country = { uses_mc30c_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+		}
+	}
+}
+
+swp_vengeance_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t3
+	size_multiplier = @size_multi_frig_t3
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 4
+	}
+	icon = ship_size_frig_vengeance
+	base_buildtime = @buildtime_frig_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = skirmisher_mid_range_default
+	prerequisites = { "tech_rebellion_era_frigates" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		 alloys = 1
+	}
+	potential_country = { uses_vengeance_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+		}
+	}
+}
+
+swp_adv_kariek_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t3
+	size_multiplier = @size_multi_frig_t3
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 8
+	}
+	icon = ship_size_frig_kariek #59
+	base_buildtime = @buildtime_frig_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = skirmisher_mid_range_default
+	prerequisites = { "tech_rebellion_era_frigates" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		 alloys = 1
+	}
+	potential_country = { uses_adv_kariek_fr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_fraction
+		}
+	}
+}
+
+########
+#Interdictor
+########
+swp_cc7700_frigate ={
+	formation_priority = 20
+	max_speed = @max_speed_frig
+	acceleration = @accleration_frig
+	rotation_speed = @rotation_speed_frig
+	collision_radius = 5
+	max_hitpoints = @max_hull_frig_t2
+	size_multiplier = 9
+	fleet_slot_size = 2
+	modifier = {
+		ship_evasion_mult = -0.1
+		ship_piracy_suppression_add = 25
+	}
+	icon = ship_size_frig_cc7700
+	base_buildtime = @buildtime_frig_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_interdictors" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_frig_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		 alloys = 1
+	}
+	potential_country = { uses_cc7700_in = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @frigate_interdictor_fraction
+		}
+	}
+}

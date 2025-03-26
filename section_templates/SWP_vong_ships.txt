@@ -1,0 +1,1276 @@
+#Yuuzhan Vong
+
+#Corvette
+#Advanced Scout
+ship_section_template = {
+	key = "yuuzhan_advanced_scout_stern_key"
+	ship_size = swp_advanced_scout
+	fits_on_slot = stern
+	entity = "swp_advanced_scout_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "LIGHT_KOR_01"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_01"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_02"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_02"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_03"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_03"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_04"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_04"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_05"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_05"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_06"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_06"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_01"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_01"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_02"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+	}
+
+	
+	aux_utility_slots = 1
+}
+ship_section_template = {
+	key = "yuuzhan_advanced_scout_mid_key"
+	ship_size = swp_advanced_scout
+	fits_on_slot = mid
+	entity = "swp_advanced_scout_entity"
+	icon = "GFX_ship_part_core_mid"
+	aux_utility_slots = 1
+}
+
+#Frigate
+#il Friil Ma Nat
+ship_section_template = {
+	key = "yuuzhan_il_friil_ma_stern_key"
+	ship_size = swp_ilfriil_man_nat
+	fits_on_slot = stern
+	entity = "swp_ilfriil_man_nat_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "LIGHT_KOR_01"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_01"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_02"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_02"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_03"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_03"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_04"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_04"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_05"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_05"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_06"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_06"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_07"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_07"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_01"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_01"
+	}
+}
+ship_section_template = {
+	key = "yuuzhan_il_friil_ma_mid_key"
+	ship_size = swp_ilfriil_man_nat
+	fits_on_slot = mid
+	entity = "swp_ilfriil_man_nat_entity"
+	icon = "GFX_ship_part_core_mid"
+	aux_utility_slots = 1
+}
+
+#Frigate
+#Spore Ship
+ship_section_template = {
+	key = "yuuzhan_spore_ship_stern_key"
+	ship_size = swp_spore_ship
+	fits_on_slot = stern
+	entity = "swp_spore_ship_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "SPORE_GUN_01"
+		template = "swp_spore_launcher_slot"
+		locatorname = "spore_gun_01"
+	}
+	component_slot = {
+		name = "SPORE_GUN_02"
+		template = "swp_spore_launcher_slot"
+		locatorname = "spore_gun_02"
+	}
+	component_slot = {
+		name = "SPORE_GUN_03"
+		template = "swp_spore_launcher_slot"
+		locatorname = "spore_gun_03"
+	}
+	component_slot = {
+		name = "SPORE_GUN_04"
+		template = "swp_spore_launcher_slot"
+		locatorname = "spore_gun_04"
+	}
+	component_slot = {
+		name = "SPORE_GUN_05"
+		template = "swp_spore_launcher_slot"
+		locatorname = "spore_gun_05"
+	}
+	component_slot = {
+		name = "SPORE_GUN_06"
+		template = "swp_spore_launcher_slot"
+		locatorname = "spore_gun_06"
+	}
+	component_slot = {
+		name = "SPORE_GUN_07"
+		template = "swp_spore_launcher_slot"
+		locatorname = "spore_gun_07"
+	}
+	component_slot = {
+		name = "SPORE_GUN_08"
+		template = "swp_spore_launcher_slot"
+		locatorname = "spore_gun_08"
+	}
+	component_slot = {
+		name = "SPORE_GUN_09"
+		template = "swp_spore_launcher_slot"
+		locatorname = "spore_gun_09"
+	}
+	component_slot = {
+		name = "SPORE_GUN_10"
+		template = "swp_spore_launcher_slot"
+		locatorname = "spore_gun_10"
+	}
+}
+ship_section_template = {
+	key = "yuuzhan_spore_ship_key"
+	ship_size = swp_spore_ship
+	fits_on_slot = mid
+	entity = "swp_spore_ship_entity"
+	icon = "GFX_ship_part_core_mid"
+	aux_utility_slots = 1
+}
+
+#Cruiser
+#Suuv Ban Dkrid
+ship_section_template = {
+	key = "yuuzhan_suuv_ban_dkrid_stern_key"
+	ship_size = swp_suuv_ban_dkrid
+	fits_on_slot = stern
+	entity = "swp_suuv_ban_dkrid_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "LIGHT_KOR_01"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_01"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_02"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_02"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_03"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_03"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_04"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_04"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_05"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_05"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_06"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_06"
+	}
+	component_slot = {
+	 	name = "LIGHT_KOR_07"
+	 	template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_07"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_01"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_01"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_02"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_02"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_03"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_03"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_04"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_04"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_05"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_05"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_06"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_06"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "medium_strike_craft"
+		locatorname = "strike_craft_locator_03"
+	}
+}
+ship_section_template = {
+	key = "yuuzhan_suuv_ban_dkrid_key"
+	ship_size = swp_suuv_ban_dkrid
+	fits_on_slot = mid
+	entity = "swp_suuv_ban_dkrid_entity"
+	icon = "GFX_ship_part_core_mid"
+	aux_utility_slots = 1
+}
+
+#Cruiser
+#Vua'Spar
+ship_section_template = {
+	key = "yuuzhan_vua_spar_stern_key"
+	ship_size = swp_vua_spar
+	fits_on_slot = stern
+	entity = "swp_vua_spar_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "LIGHT_KOR_01"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_01"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_02"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_02"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_03"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_03"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_04"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_04"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_01"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_01"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_02"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_02"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_03"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_03"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_04"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_04"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_01"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_01"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_01"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_01"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_02"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_03"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_04"
+	}
+}
+ship_section_template = {
+	key = "yuuzhan_vua_spar_key"
+	ship_size = swp_vua_spar
+	fits_on_slot = mid
+	entity = "swp_vua_spar_entity"
+	icon = "GFX_ship_part_core_mid"
+	aux_utility_slots = 1
+}
+
+#Vong Science
+#Shrip Shpa
+ship_section_template = {
+	key = "YUUZHAN_SCIENCESHIP_SECTION"
+	ship_size = swp_vong_science
+	fits_on_slot = mid
+	entity = "science_ship_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_vong_drive_1 }
+	
+	component_slot = {
+		name = "LIGHT_KOR_01"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_01"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_02"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_02"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_03"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_03"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_04"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_04"
+	}
+	component_slot = {
+		name = "CRYSTAL_LAUNCHER_01"
+		template = "swp_crystal_launcher_slot"
+		locatorname = "crystal_launcher_01"
+	}
+	component_slot = {
+		name = "CRYSTAL_LAUNCHER_02"
+		template = "swp_crystal_launcher_slot"
+		locatorname = "crystal_launcher_02"
+	}
+	component_slot = {
+		name = "CRYSTAL_LAUNCHER_03"
+		template = "swp_crystal_launcher_slot"
+		locatorname = "crystal_launcher_03"
+	}
+	component_slot = {
+		name = "CRYSTAL_LAUNCHER_04"
+		template = "swp_crystal_launcher_slot"
+		locatorname = "crystal_launcher_04"
+	}
+	component_slot = {
+		name = "CRYSTAL_LAUNCHER_05"
+		template = "swp_crystal_launcher_slot"
+		locatorname = "crystal_launcher_05"
+	}
+	component_slot = {
+		name = "CRYSTAL_LAUNCHER_06"
+		template = "swp_crystal_launcher_slot"
+		locatorname = "crystal_launcher_06"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_01"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_01"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_02"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_02"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_03"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_03"
+	}
+}
+
+#Vong Constructor
+#Shrip Shpa
+ship_section_template = {
+	key = "YUUZHAN_CONSTRUCTION_SECTION"
+	ship_size = swp_vong_constructor
+	fits_on_slot = mid
+	entity = "construction_ship_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_vong_drive_1 }
+	
+	component_slot = {
+		name = "LIGHT_KOR_01"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_01"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_02"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_02"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_03"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_03"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_04"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_04"
+	}
+	component_slot = {
+		name = "CRYSTAL_LAUNCHER_01"
+		template = "swp_crystal_launcher_slot"
+		locatorname = "crystal_launcher_01"
+	}
+	component_slot = {
+		name = "CRYSTAL_LAUNCHER_02"
+		template = "swp_crystal_launcher_slot"
+		locatorname = "crystal_launcher_02"
+	}
+	component_slot = {
+		name = "CRYSTAL_LAUNCHER_03"
+		template = "swp_crystal_launcher_slot"
+		locatorname = "crystal_launcher_03"
+	}
+	component_slot = {
+		name = "CRYSTAL_LAUNCHER_04"
+		template = "swp_crystal_launcher_slot"
+		locatorname = "crystal_launcher_04"
+	}
+	component_slot = {
+		name = "CRYSTAL_LAUNCHER_05"
+		template = "swp_crystal_launcher_slot"
+		locatorname = "crystal_launcher_05"
+	}
+	component_slot = {
+		name = "CRYSTAL_LAUNCHER_06"
+		template = "swp_crystal_launcher_slot"
+		locatorname = "crystal_launcher_06"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_01"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_01"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_02"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_02"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_03"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_03"
+	}
+	aux_utility_slots = 1
+}
+
+#Vong Transport
+#Slave Ship
+ship_section_template = {
+	key = "YUUZHAN_TRANSPORT_SECTION"
+	ship_size = swp_vong_transport
+	fits_on_slot = mid
+	entity = "transport_ship_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_vong_drive_1 }
+	
+	component_slot = {
+		name = "LIGHT_KOR_01"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_beam_01"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_02"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_beam_02"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_03"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_beam_03"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_04"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_beam_04"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_01"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_beam_01"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_02"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_beam_02"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_03"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_beam_03"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_04"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_beam_04"
+	}
+	component_slot = {
+		name = "LARGE_BEAM_01"
+		template = "swp_heavy_beam_slot"
+		locatorname = "large_beam_01"
+	}
+	aux_utility_slots = 1
+}
+
+#Support Cruiser
+#Slave Ship
+ship_section_template = {
+	key = "YUUZHAN_COLONIZATION_SECTION"
+	ship_size = swp_vong_colonizer
+	fits_on_slot = mid
+	entity = "colony_ship_entity"
+	icon = "GFX_ship_part_core_mid"
+	prerequisites = { tech_vong_drive_1 }
+	
+	component_slot = {
+		name = "LIGHT_KOR_01"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_beam_01"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_02"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_beam_02"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_03"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_beam_03"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_04"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_beam_04"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_01"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_beam_01"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_02"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_beam_02"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_03"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_beam_03"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_04"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_beam_04"
+	}
+	component_slot = {
+		name = "LARGE_BEAM_01"
+		template = "swp_heavy_beam_slot"
+		locatorname = "large_beam_01"
+	}
+	aux_utility_slots = 1
+}
+
+#Star Destroyer
+#Matalok
+ship_section_template = {
+	key = "yuuzhan_matalok_stern_key"
+	ship_size = swp_matalok
+	fits_on_slot = stern
+	entity = "swp_matalok_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "LIGHT_KOR_01"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_01"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_02"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_02"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_03"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_03"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_04"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_04"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_05"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_05"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_06"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_06"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_01"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_01"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_02"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_02"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_03"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_03"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_04"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_04"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_05"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_05"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_06"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_06"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_01"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_01"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_02"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "medium_strike_craft"
+		locatorname = "strike_craft_locator_02"
+	}
+}
+ship_section_template = {
+	key = "yuuzhan_matalok_key"
+	ship_size = swp_matalok
+	fits_on_slot = mid
+	entity = "swp_matalok_entity"
+	icon = "GFX_ship_part_core_mid"
+	aux_utility_slots = 1
+}
+
+#Star Destroyer
+#Miid Roik Attacker
+ship_section_template = {
+	key = "yuuzhan_miid_roik_attacker_stern_key"
+	ship_size = swp_miid_roik_attacker
+	fits_on_slot = stern
+	entity = "swp_miid_roik_attacker_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "LIGHT_KOR_01"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_01"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_02"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_02"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_03"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_03"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_04"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_04"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_05"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_05"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_06"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_06"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_01"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_01"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_02"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_02"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_03"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_03"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_04"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_04"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_05"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_05"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_06"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_06"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_07"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_07"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_08"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_08"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_09"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_09"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_10"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_10"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_01"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_01"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_02"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_02"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_03"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_03"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_04"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_04"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_05"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_05"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_06"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_06"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_01"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_01"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_02"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_02"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_03"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_03"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_04"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_04"
+	}
+	component_slot = {
+		name = "MELTING_BEAM_01"
+		template = "swp_melting_beam_slot"
+		locatorname = "beam_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "medium_strike_craft"
+		locatorname = "strike_craft_locator_02"
+	}
+}
+ship_section_template = {
+	key = "yuuzhan_miid_roik_attacker_key"
+	ship_size = swp_miid_roik_attacker
+	fits_on_slot = mid
+	entity = "swp_miid_roik_attacker_entity"
+	icon = "GFX_ship_part_core_mid"
+	aux_utility_slots = 1
+}
+
+#Star Destroyer
+#Miid Roik Dovin Basal
+ship_section_template = {
+	key = "yuuzhan_miid_roik_db_stern_key"
+	ship_size = swp_miid_roik_db
+	fits_on_slot = stern
+	entity = "swp_miid_roik_db_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "LIGHT_KOR_01"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_01"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_02"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_02"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_03"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_03"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_04"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_04"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_05"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_05"
+	}
+	component_slot = {
+		name = "LIGHT_KOR_06"
+		template = "swp_light_yarek_kor_slot"
+		locatorname = "light_kor_06"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_01"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_01"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_02"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_02"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_03"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_03"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_04"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_04"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_05"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_05"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_06"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_06"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_07"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_07"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_08"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_08"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_09"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_09"
+	}
+	component_slot = {
+		name = "MEDIUM_KOR_10"
+		template = "swp_medium_yarek_kor_slot"
+		locatorname = "medium_kor_10"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_01"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_01"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_02"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_02"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_03"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_03"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_04"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_04"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_05"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_05"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_06"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_06"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "medium_strike_craft"
+		locatorname = "strike_craft_locator_03"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "medium_strike_craft"
+		locatorname = "strike_craft_locator_04"
+	}
+}
+ship_section_template = {
+	key = "yuuzhan_miid_roik_db_key"
+	ship_size = swp_miid_roik_db
+	fits_on_slot = mid
+	entity = "swp_miid_roik_db_entity"
+	icon = "GFX_ship_part_core_mid"
+	aux_utility_slots = 1
+}
+
+#Battlecruiser
+#Dreadnought
+ship_section_template = {
+	key = "yuuzhan_dreadnought_stern_key"
+	ship_size = swp_vong_dreadnought
+	fits_on_slot = stern
+	entity = "swp_vong_dreadnought_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "HEAVY_KOR_01"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_01"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_02"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_02"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_03"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_03"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_04"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_04"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_05"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_05"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_06"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_06"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_07"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_07"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_08"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_08"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_09"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_09"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_10"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_10"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_11"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_11"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_12"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_12"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_13"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_13"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_14"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_14"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_15"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_15"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_16"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_16"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_17"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_17"
+	}
+	component_slot = {
+		name = "HEAVY_KOR_18"
+		template = "swp_heavy_yarek_kor_slot"
+		locatorname = "heavy_kor_18"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_01"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_01"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_02"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_02"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_03"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_03"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_04"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_04"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_05"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_05"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_06"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_06"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_07"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_07"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_08"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_08"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_09"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_09"
+	}
+	component_slot = {
+		name = "ROCKSPITTER_10"
+		template = "swp_rock_spitter_slot"
+		locatorname = "rockspitter_10"
+	}
+	component_slot = {
+		name = "MELTING_BEAM_01"
+		template = "swp_melting_beam_slot"
+		locatorname = "melt_beam_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_02"
+	}
+		component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_03"
+	}
+		component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		locatorname = "strike_craft_locator_04"
+	}
+		component_slot = {
+		name = "STRIKE_CRAFT_05"
+		template = "medium_strike_craft"
+		locatorname = "strike_craft_locator_05"
+	}
+		component_slot = {
+		name = "STRIKE_CRAFT_06"
+		template = "medium_strike_craft"
+		locatorname = "strike_craft_locator_06"
+	}
+		component_slot = {
+		name = "STRIKE_CRAFT_07"
+		template = "medium_strike_craft"
+		locatorname = "strike_craft_locator_07"
+	}
+		component_slot = {
+		name = "STRIKE_CRAFT_08"
+		template = "medium_strike_craft"
+		locatorname = "strike_craft_locator_08"
+	}
+}
+ship_section_template = {
+	key = "yuuzhan_dreadnought_key"
+	ship_size = swp_vong_dreadnought
+	fits_on_slot = mid
+	entity = "swp_vong_dreadnought_entity"
+	icon = "GFX_ship_part_core_mid"
+	aux_utility_slots = 2
+}

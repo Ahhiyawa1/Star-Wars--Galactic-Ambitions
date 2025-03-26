@@ -1,0 +1,1035 @@
+#################################
+# 			Cruiser				#
+#################################
+########
+#T1
+########
+swp_victory2_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t1
+	size_multiplier = @size_multi_crui_t1
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.15
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_crui_victory2
+	base_buildtime = @buildtime_crui_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_republic_era_support_ships" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_victory2_cr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_cruisers
+			}
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_cruisers
+			}
+		}
+	}
+}
+
+swp_wavecrest_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t1
+	size_multiplier = @size_multi_crui_t1
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.15
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_crui_wavecrest
+	base_buildtime = @buildtime_crui_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_republic_era_support_ships" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_wavecrest_cr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_cruisers
+			}
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_cruisers
+			}
+		}
+	}
+}
+
+swp_early_battledragon_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t1
+	size_multiplier = @size_multi_crui_t1
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.15
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_crui_early_battledragon
+	base_buildtime = @buildtime_crui_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_republic_era_support_ships" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_early_battledragon_cr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_cruisers
+			}
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_cruisers
+			}
+		}
+	}
+}
+
+swp_nuruodo_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t1
+	size_multiplier = @size_multi_crui_t1
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.15
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_crui_nuruodo
+	base_buildtime = @buildtime_crui_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_republic_era_support_ships" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_nuruodo_cr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_cruisers
+			}
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_cruisers
+			}
+		}
+	}
+}
+
+swp_sabaoth_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t1
+	size_multiplier = @size_multi_crui_t1
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.15
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_crui_sabaoth
+	base_buildtime = @buildtime_crui_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = picket_mid_range_default
+	prerequisites = { "tech_republic_era_support_ships" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_sabaoth_cr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rote_era_cruisers
+			}
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_cruisers
+			}
+		}
+	}
+}
+
+########
+#T2
+########
+swp_kontos_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t2
+	size_multiplier = @size_multi_crui_t2
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.2
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_crui_kontos
+	base_buildtime = @buildtime_crui_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rote_era_cruisers" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_kontos_cr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_cruisers
+			}
+		}
+	}
+}
+
+swp_mc40_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t2
+	size_multiplier = @size_multi_crui_t2
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.2
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_crui_mc40
+	base_buildtime = @buildtime_crui_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rote_era_cruisers" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_mc40_cr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_cruisers
+			}
+		}
+	}
+}
+
+swp_battledragon_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t2
+	size_multiplier = @size_multi_crui_t2
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.2
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_crui_early_battledragon #77
+	base_buildtime = @buildtime_crui_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = charge_default
+	prerequisites = { "tech_rote_era_cruisers" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_battledragon_cr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_cruisers
+			}
+		}
+	}
+}
+
+swp_broadside_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t2
+	size_multiplier = @size_multi_crui_t2
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.2
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_crui_broadside
+	base_buildtime = @buildtime_crui_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_rote_era_cruisers" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_broadside_cr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_cruisers
+			}
+		}
+	}
+}
+
+swp_protector_cruiser ={
+	formation_priority = 30
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t2
+	size_multiplier = @size_multi_crui_t2
+	fleet_slot_size = 5
+	modifier = {
+		ship_evasion_mult = -0.3
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_crui_protector
+	base_buildtime = @buildtime_crui_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_rote_era_cruisers" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_protector_cruiser = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_cruisers
+			}
+		}
+	}
+}
+
+swp_warlord_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t2
+	size_multiplier = @size_multi_crui_t2
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.2
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_crui_warlord
+	base_buildtime = @buildtime_crui_t2
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_rote_era_cruisers" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t2_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_warlord_cr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_cruisers
+			}
+		}
+	}
+}
+
+########
+#T3
+########
+swp_gladiator_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t3
+	size_multiplier = @size_multi_crui_t3
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.2
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_crui_gladiator
+	base_buildtime = @buildtime_crui_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = skirmisher_mid_range_default
+	prerequisites = { "tech_rebellion_era_cruisers" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_gladiator_cr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+		}
+	}
+}
+
+swp_beviin_cruiser ={
+	formation_priority = 30
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t3
+	size_multiplier = @size_multi_crui_t3
+	fleet_slot_size = 5
+	modifier = {
+		ship_evasion_mult = -0.3
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_crui_beviin
+	base_buildtime = @buildtime_crui_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = skirmisher_mid_range_default
+	prerequisites = { "tech_rebellion_era_cruisers" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_beviin_cr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+		}
+	}
+}
+
+swp_liberator_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t3
+	size_multiplier = @size_multi_crui_t3
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.2
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_crui_liberator
+	base_buildtime = @buildtime_crui_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = skirmisher_mid_range_default
+	prerequisites = { "tech_rebellion_era_cruisers" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_liberator_cruiser = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+		}
+	}
+}
+swp_adv_battledragon_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t3
+	size_multiplier = @size_multi_crui_t3
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.2
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_crui_early_battledragon #84
+	base_buildtime = @buildtime_crui_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = skirmisher_mid_range_default
+	prerequisites = { "tech_rebellion_era_cruisers" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_adv_battledragon_cr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+		}
+	}
+}
+
+swp_adv_nuruodo_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t3
+	size_multiplier = @size_multi_crui_t3
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.2
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_crui_nuruodo #85
+	base_buildtime = @buildtime_crui_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = skirmisher_mid_range_default
+	prerequisites = { "tech_rebellion_era_cruisers" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_adv_nuruodo_cr = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_fraction
+		}
+	}
+}
+############
+#Interdictors
+#############
+swp_immobilizer418_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t3
+	size_multiplier = @size_multi_crui_t3
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.2
+		ship_piracy_suppression_add = 25
+	}
+	icon = ship_size_crui_immobilizer418
+	base_buildtime = @buildtime_crui_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_heavy_interdictors" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_immobilizer_hi = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_interdictor_fraction
+		}
+	}
+}
+
+swp_int_battledragon_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t3
+	size_multiplier = @size_multi_crui_t3
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.2
+		ship_piracy_suppression_add = 25
+	}
+	icon = ship_size_crui_early_battledragon #87
+	base_buildtime = @buildtime_crui_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_heavy_interdictors" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_battledragon_hi = yes }
+	#potential_construction = { needs_shipyard_0 = yes }	
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_interdictor_fraction
+		}
+	}
+}
+
+swp_massias_cruiser ={
+	formation_priority = 20
+	max_speed = @max_speed_crui
+	acceleration = @accleration_crui
+	rotation_speed = @rotation_speed_crui
+	collision_radius = 7
+	max_hitpoints = @max_hull_crui_t3
+	size_multiplier = @size_multi_crui_t3
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.2
+		ship_piracy_suppression_add = 25
+	}
+	icon = ship_size_crui_massias
+	base_buildtime = @buildtime_crui_t3
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_heavy_interdictors" }
+	combat_disengage_chance = 0.4
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_crui_t3_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_massias_hi = yes }
+	#potential_construction = { needs_shipyard_0 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @cruiser_interdictor_fraction
+		}
+	}
+}
+ 

@@ -1,0 +1,323 @@
+#################################
+# 			Battlecruisers		#
+#################################
+########
+#T1
+########
+swp_allegiance_battlecruiser ={
+	formation_priority = 40
+	max_speed = @max_speed_bc
+	acceleration = @accleration_bc
+	rotation_speed = @rotation_speed_bc
+	collision_radius = 20
+	max_hitpoints = @max_hull_bc_t1
+	size_multiplier = @size_multi_bc_t1
+	fleet_slot_size = 8
+	modifier = {
+		ship_evasion_mult = -0.6
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_bc_allegiance
+	base_buildtime = @buildtime_bc_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_rote_era_capital_ships" }
+	combat_disengage_chance = 0.1
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_bc_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_allegiance_bc = yes }
+	potential_construction = { needs_shipyard_0 = yes }
+	possible_construction = { needs_shipyard_1 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @battlecruiser_fraction
+			modifier = {
+				factor = 0.1
+				has_technology = tech_rebellion_era_capital_ships
+			}
+		}
+	}
+}
+
+
+swp_lucrehulk_battlecruiser ={
+	formation_priority = 40
+	max_speed = @max_speed_bc
+	acceleration = @accleration_bc
+	rotation_speed = @rotation_speed_bc
+	collision_radius = 20
+	max_hitpoints = @max_hull_bc_t1
+	size_multiplier = @size_multi_bc_t1
+	fleet_slot_size = 8
+	modifier = {
+		ship_evasion_mult = -0.6
+		ship_piracy_suppression_add = 10
+	}
+	icon = ship_size_bc_lucrehulk
+	base_buildtime = @buildtime_bc_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_rote_era_capital_ships" }
+	combat_disengage_chance = 0.1
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_bc_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_lucrehulk_bc = yes }
+	potential_construction = { needs_shipyard_0 = yes }
+	possible_construction = { needs_shipyard_1 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @battlecruiser_fraction
+		}
+	}
+}
+
+
+swp_phalanx_battlecruiser ={
+	formation_priority = 40
+	max_speed = @max_speed_bc
+	acceleration = @accleration_bc
+	rotation_speed = @rotation_speed_bc
+	collision_radius = 20
+	max_hitpoints = @max_hull_bc_t1
+	size_multiplier = @size_multi_bc_t1
+	fleet_slot_size = 8
+	modifier = {
+		ship_evasion_mult = -0.6
+		ship_piracy_suppression_add = 5
+	}
+	icon = ship_size_bc_phalanx
+	base_buildtime = @buildtime_bc_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_rote_era_capital_ships" }
+	combat_disengage_chance = 0.1
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_bc_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_phalanx_bc = yes }
+	potential_construction = { needs_shipyard_0 = yes }
+	possible_construction = { needs_shipyard_1 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @battlecruiser_fraction
+		}
+	}
+}
+
+swp_titan_battlecruiser ={
+	formation_priority = 40
+	max_speed = @max_speed_bc
+	acceleration = @accleration_bc
+	rotation_speed = @rotation_speed_bc
+	collision_radius = 20
+	max_hitpoints = @max_hull_bc_t1
+	size_multiplier = @size_multi_bc_t1
+	fleet_slot_size = 8
+	modifier = {
+		ship_evasion_mult = -0.6
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_bc_titan
+	base_buildtime = @buildtime_bc_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_rebellion_era_capital_ships" }
+	combat_disengage_chance = 0.1
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_bc_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_titan_bc = yes }
+	potential_construction = { needs_shipyard_0 = yes }
+	possible_construction = { needs_shipyard_1 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @battlecruiser_fraction
+		}
+	}
+}
+
+swp_mc80_home1_battlecruiser ={
+	formation_priority = 40
+	max_speed = @max_speed_bc
+	acceleration = @accleration_bc
+	rotation_speed = @rotation_speed_bc
+	collision_radius = 20
+	max_hitpoints = @max_hull_bc_t1
+	size_multiplier = @size_multi_bc_t1
+	fleet_slot_size = 8
+	modifier = {
+		ship_evasion_mult = -0.6
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_bc_home1
+	base_buildtime = @buildtime_bc_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_rebellion_era_capital_ships" }
+	combat_disengage_chance = 0.1
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_bc_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_home1_bc = yes }
+	potential_construction = { needs_shipyard_0 = yes }
+	possible_construction = { needs_shipyard_1 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @battlecruiser_fraction
+		}
+	}
+}
+
+swp_star_home_battlecruiser ={
+	formation_priority = 40
+	max_speed = @max_speed_bc
+	acceleration = @accleration_bc
+	rotation_speed = @rotation_speed_bc
+	collision_radius = 20
+	max_hitpoints = @max_hull_bc_t1
+	size_multiplier = @size_multi_bc_t1
+	fleet_slot_size = 8
+	modifier = {
+		ship_evasion_mult = -0.6
+		ship_piracy_suppression_add = 2
+	}
+	icon = ship_size_bc_star_home
+	base_buildtime = @buildtime_bc_t1
+	enable_default_design = yes
+	is_space_station = no
+ 
+	default_behavior = long_range_sniper
+	prerequisites = { "tech_rebellion_era_capital_ships" }
+	combat_disengage_chance = 0.1
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "swp_required_hyperdrive"
+	required_component_set = "swp_required_thruster"
+	required_component_set = "swp_required_defense"
+	required_component_set = "swp_required_armor"
+	required_component_set = "swp_required_computer"
+	required_component_set = "swp_required_architecture"
+	required_component_set = "swp_required_aura"
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part1" } }
+	num_target_locators = 2
+ 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @energy_bc_t1_upkeep
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 1
+	}
+	potential_country = { uses_star_home_bc = yes }
+	potential_construction = { needs_shipyard_0 = yes }
+	possible_construction = { needs_shipyard_1 = yes }
+	ai_ship_data = {
+		fraction = {
+			base = @battlecruiser_fraction
+		}
+	}
+}

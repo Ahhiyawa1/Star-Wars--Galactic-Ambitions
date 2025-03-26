@@ -1,0 +1,3348 @@
+#########################
+#		Frigates		#
+#########################
+#T1
+# Arquitens ( Early Frigate )
+ship_section_template = {
+	key = "swp_arquitens_frigate_stern_key"
+	ship_size = swp_arquitens_frigate
+	fits_on_slot = stern
+	entity = "swp_arquitens_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t1_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = mqtl_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = mqtl_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = mqtl_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = mqtl_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+}
+
+# Basic Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_arquitens_frigate_mid_basic_str_key"
+	ship_size = swp_arquitens_frigate
+	fits_on_slot = mid
+	entity = "swp_arquitens_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+# Internal Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_arquitens_frigate_mid_int_str_key"
+	ship_size = swp_arquitens_frigate
+	fits_on_slot = mid
+	entity = "swp_arquitens_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t1_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_arquitens_frigate_mid_ext_str_key"
+	ship_size = swp_arquitens_frigate
+	fits_on_slot = mid
+	entity = "swp_arquitens_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t1_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Kiltirin ( Early Frigate )
+ship_section_template = {
+	key = "swp_kiltirin_frigate_stern_key"
+	ship_size = swp_kiltirin_frigate
+	fits_on_slot = stern
+	entity = "swp_kiltirin_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t1_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = qbtl_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = qbtl_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = qbtl_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = qbtl_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = qbtl_large_turret
+		locatorname = "large_gun_05"
+	}
+}
+
+# Basic Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_kiltirin_frigate_mid_basic_str_key"
+	ship_size = swp_kiltirin_frigate
+	fits_on_slot = mid
+	entity = "swp_kiltirin_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+# Internal Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_kiltirin_frigate_mid_int_str_key"
+	ship_size = swp_kiltirin_frigate
+	fits_on_slot = mid
+	entity = "swp_kiltirin_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t1_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_kiltirin_frigate_mid_ext_str_key"
+	ship_size = swp_kiltirin_frigate
+	fits_on_slot = mid
+	entity = "swp_kiltirin_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t1_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Pelta ( Early Frigate )
+ship_section_template = {
+	key = "swp_pelta_frigate_stern_key"
+	ship_size = swp_pelta_frigate
+	fits_on_slot = stern
+	entity = "swp_pelta_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t1_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+}
+
+# Basic Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_pelta_frigate_mid_basic_str_key"
+	ship_size = swp_pelta_frigate
+	fits_on_slot = mid
+	entity = "swp_pelta_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t1_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+# Internal Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_pelta_frigate_mid_int_str_key"
+	ship_size = swp_pelta_frigate
+	fits_on_slot = mid
+	entity = "swp_pelta_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t1_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_pelta_frigate_mid_ext_str_key"
+	ship_size = swp_pelta_frigate
+	fits_on_slot = mid
+	entity = "swp_pelta_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t1_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Pinnace ( Early Frigate )
+ship_section_template = {
+	key = "swp_pinnance_frigate_stern_key"
+	ship_size = swp_pinnance_frigate
+	fits_on_slot = stern
+	entity = "swp_pinnance_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t1_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+}
+
+# Basic Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_pinnance_frigate_mid_basic_str_key"
+	ship_size = swp_pinnance_frigate
+	fits_on_slot = mid
+	entity = "swp_pinnance_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+# Internal Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_pinnance_frigate_mid_int_str_key"
+	ship_size = swp_pinnance_frigate
+	fits_on_slot = mid
+	entity = "swp_pinnance_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t1_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_pinnance_frigate_mid_ext_str_key"
+	ship_size = swp_pinnance_frigate
+	fits_on_slot = mid
+	entity = "swp_pinnance_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t1_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Nova ( Early Frigate )
+ship_section_template = {
+	key = "swp_nova_frigate_stern_key"
+	ship_size = swp_nova_frigate
+	fits_on_slot = stern
+	entity = "swp_nova_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t1_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+}
+
+# Basic Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_nova_frigate_mid_basic_str_key"
+	ship_size = swp_nova_frigate
+	fits_on_slot = mid
+	entity = "swp_nova_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+# Internal Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_nova_frigate_mid_int_str_key"
+	ship_size = swp_nova_frigate
+	fits_on_slot = mid
+	entity = "swp_nova_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t1_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_nova_frigate_mid_ext_str_key"
+	ship_size = swp_nova_frigate
+	fits_on_slot = mid
+	entity = "swp_nova_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t1_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Vigilance ( Early Frigate )
+ship_section_template = {
+	key = "swp_vigilance_frigate_stern_key"
+	ship_size = swp_vigilance_frigate
+	fits_on_slot = stern
+	entity = "swp_vigilance_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t1_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_04"
+	}
+}
+
+
+
+
+# Basic Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_vigilance_frigate_mid_basic_str_key"
+	ship_size = swp_vigilance_frigate
+	fits_on_slot = mid
+	entity = "swp_vigilance_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+# Internal Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_vigilance_frigate_mid_int_str_key"
+	ship_size = swp_vigilance_frigate
+	fits_on_slot = mid
+	entity = "swp_vigilance_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t1_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Early Frigate )
+ship_section_template = {
+	key = "swp_vigilance_frigate_mid_ext_str_key"
+	ship_size = swp_vigilance_frigate
+	fits_on_slot = mid
+	entity = "swp_vigilance_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t1_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+#####
+#T2
+#####
+# Nebulon B ( Frigate )
+ship_section_template = {
+	key = "swp_neb_b_frigate_stern_key"
+	ship_size = swp_neb_b_frigate
+	fits_on_slot = stern
+	entity = "swp_neb_b_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "SMALL_GUN_010"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_010"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_08"
+	}
+}
+
+# Internal Structure ( Frigate )
+ship_section_template = {
+	key = "swp_neb_b_frigate_mid_int_str_key"
+	ship_size = swp_neb_b_frigate
+	fits_on_slot = mid
+	entity = "swp_neb_b_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 50
+	}
+}
+
+# External Structure ( Frigate )
+ship_section_template = {
+	key = "swp_neb_b_frigate_mid_ext_str_key"
+	ship_size = swp_neb_b_frigate
+	fits_on_slot = mid
+	entity = "swp_neb_b_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t2_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 50
+	}
+}
+
+# CG-273 ( Heavy Frigate )
+ship_section_template = {
+	key = "swp_cg273_frigate_stern_key"
+	ship_size = swp_cg273_frigate
+	fits_on_slot = stern
+	entity = "swp_cg273_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = swp_default_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = swp_default_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+}
+
+# Internal Structure ( Heavy Frigate )
+ship_section_template = {
+	key = "swp_cg273_frigate_mid_int_str_key"
+	ship_size = swp_cg273_frigate
+	fits_on_slot = mid
+	entity = "swp_cg273_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Heavy Frigate )
+ship_section_template = {
+	key = "swp_cg273_frigate_mid_ext_str_key"
+	ship_size = swp_cg273_frigate
+	fits_on_slot = mid
+	entity = "swp_cg273_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t2_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Kariek ( Heavy Frigate )
+ship_section_template = {
+	key = "swp_kariek_frigate_stern_key"
+	ship_size = swp_kariek_frigate
+	fits_on_slot = stern
+	entity = "swp_kariek_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = swp_default_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_03"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+}
+
+
+
+# Internal Structure ( Heavy Frigate )
+ship_section_template = {
+	key = "swp_kariek_frigate_mid_int_str_key"
+	ship_size = swp_kariek_frigate
+	fits_on_slot = mid
+	entity = "swp_kariek_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Heavy Frigate )
+ship_section_template = {
+	key = "swp_kariek_frigate_mid_ext_str_key"
+	ship_size = swp_kariek_frigate
+	fits_on_slot = mid
+	entity = "swp_kariek_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t2_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Ton-Falk ( Escort Carrier )
+ship_section_template = {
+	key = "swp_escort_carrier_frigate_stern_key"
+	ship_size = swp_escort_carrier_frigate
+	fits_on_slot = stern
+	entity = "swp_escort_carrier_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = mdtl_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = mdtl_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = mdtl_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = mdtl_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = mdtl_large_turret
+		locatorname = "large_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = mdtl_large_turret
+		locatorname = "large_gun_06"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_03"
+	}
+}
+
+# Internal Structure ( Support Carrier )
+ship_section_template = {
+	key = "swp_escort_carrier_frigate_mid_int_str_key"
+	ship_size = swp_escort_carrier_frigate
+	fits_on_slot = mid
+	entity = "swp_escort_carrier_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Support Carrier )
+ship_section_template = {
+	key = "swp_escort_carrier_frigate_mid_ext_str_key"
+	ship_size = swp_escort_carrier_frigate
+	fits_on_slot = mid
+	entity = "swp_escort_carrier_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t2_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Quasar Fire ( Support Carrier )
+ship_section_template = {
+	key = "swp_quasar_frigate_stern_key"
+	ship_size = swp_quasar_frigate
+	fits_on_slot = stern
+	entity = "swp_quasar_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_03"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_04"
+	}
+}
+
+# Internal Structure ( Support Carrier )
+ship_section_template = {
+	key = "swp_quasar_frigate_mid_int_str_key"
+	ship_size = swp_quasar_frigate
+	fits_on_slot = mid
+	entity = "swp_quasar_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Support Carrier )
+ship_section_template = {
+	key = "swp_quasar_frigate_mid_ext_str_key"
+	ship_size = swp_quasar_frigate
+	fits_on_slot = mid
+	entity = "swp_quasar_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_cost
+			electronics = @electronics_frig_t2_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+#####
+#T3
+####
+# Lancer ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_lancer_frigate_stern_key"
+	ship_size = swp_lancer_frigate
+	fits_on_slot = stern
+	entity = "swp_lancer_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "SMALL_GUN_010"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_010"
+	}
+	component_slot = {
+		name = "SMALL_GUN_011"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_011"
+	}
+	component_slot = {
+		name = "SMALL_GUN_012"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_012"
+	}
+	component_slot = {
+		name = "SMALL_GUN_013"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_013"
+	}
+	component_slot = {
+		name = "SMALL_GUN_014"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_014"
+	}
+	component_slot = {
+		name = "SMALL_GUN_015"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_015"
+	}
+	component_slot = {
+		name = "SMALL_GUN_016"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_016"
+	}
+	component_slot = {
+		name = "SMALL_GUN_017"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_017"
+	}
+	component_slot = {
+		name = "SMALL_GUN_018"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_018"
+	}
+	component_slot = {
+		name = "SMALL_GUN_019"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_019"
+	}
+	component_slot = {
+		name = "SMALL_GUN_020"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_020"
+	}
+	component_slot = {
+		name = "SMALL_GUN_021"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_021"
+	}
+	component_slot = {
+		name = "SMALL_GUN_022"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_022"
+	}
+	component_slot = {
+		name = "SMALL_GUN_023"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_023"
+	}
+	component_slot = {
+		name = "SMALL_GUN_024"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_024"
+	}
+	component_slot = {
+		name = "SMALL_GUN_025"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_025"
+	}
+	component_slot = {
+		name = "SMALL_GUN_026"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_026"
+	}
+	component_slot = {
+		name = "SMALL_GUN_027"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_027"
+	}
+	component_slot = {
+		name = "SMALL_GUN_028"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_028"
+	}
+	component_slot = {
+		name = "SMALL_GUN_029"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_029"
+	}
+	component_slot = {
+		name = "SMALL_GUN_030"
+		template = afql_point_defence_turret
+		locatorname = "small_gun_030"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_lancer_frigate_mid_adv_int_str_key"
+	ship_size = swp_lancer_frigate
+	fits_on_slot = mid
+	entity = "swp_lancer_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_lancer_frigate_mid_adv_ext_str_key"
+	ship_size = swp_lancer_frigate
+	fits_on_slot = mid
+	entity = "swp_lancer_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Teroch ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_teroch_frigate_stern_key"
+	ship_size = swp_teroch_frigate
+	fits_on_slot = stern
+	entity = "swp_teroch_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = mstl_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = mstl_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = mstl_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = mstl_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = mstl_large_turret
+		locatorname = "large_gun_05"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+
+}
+
+# Advanced Internal Structure ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_teroch_frigate_mid_adv_int_str_key"
+	ship_size = swp_teroch_frigate
+	fits_on_slot = mid
+	entity = "swp_teroch_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_teroch_frigate_mid_adv_ext_str_key"
+	ship_size = swp_teroch_frigate
+	fits_on_slot = mid
+	entity = "swp_teroch_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Nebulon B2 ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_neb_b2_frigate_stern_key"
+	ship_size = swp_neb_b2_frigate
+	fits_on_slot = stern
+	entity = "swp_neb_b2_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "SMALL_GUN_010"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_010"
+	}
+	component_slot = {
+		name = "SMALL_GUN_011"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_011"
+	}
+	component_slot = {
+		name = "SMALL_GUN_012"
+		template = rh8_point_defence_turret
+		locatorname = "small_gun_012"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_09"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_010"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_010"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_011"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_011"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_012"
+		template = xi7_medium_turret
+		locatorname = "medium_gun_012"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_neb_b2_frigate_mid_adv_int_str_key"
+	ship_size = swp_neb_b2_frigate
+	fits_on_slot = mid
+	entity = "swp_neb_b2_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_neb_b2_frigate_mid_adv_ext_str_key"
+	ship_size = swp_neb_b2_frigate
+	fits_on_slot = mid
+	entity = "swp_neb_b2_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Nova ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_adv_nova_frigate_stern_key"
+	ship_size = swp_adv_nova_frigate
+	fits_on_slot = stern
+	entity = "swp_adv_nova_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_04"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_adv_nova_frigate_mid_adv_int_str_key"
+	ship_size = swp_adv_nova_frigate
+	fits_on_slot = mid
+	entity = "swp_adv_nova_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_adv_nova_frigate_mid_adv_ext_str_key"
+	ship_size = swp_adv_nova_frigate
+	fits_on_slot = mid
+	entity = "swp_adv_nova_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Vigilance ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_adv_vigilance_frigate_stern_key"
+	ship_size = swp_adv_vigilance_frigate
+	fits_on_slot = stern
+	entity = "swp_adv_vigilance_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_09"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_010"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_010"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_011"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_011"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_012"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_012"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_04"
+	}
+	component_slot = {
+		name = "TORPEDO_05"
+		template = swp_missile_slot
+		locatorname = "torpedo_05"
+	}
+	component_slot = {
+		name = "TORPEDO_06"
+		template = swp_missile_slot
+		locatorname = "torpedo_06"
+	}
+	component_slot = {
+		name = "TORPEDO_07"
+		template = swp_missile_slot
+		locatorname = "torpedo_07"
+	}
+	component_slot = {
+		name = "TORPEDO_08"
+		template = swp_missile_slot
+		locatorname = "torpedo_08"
+	}
+}
+
+
+# Advanced Internal Structure ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_adv_vigilance_frigate_mid_adv_int_str_key"
+	ship_size = swp_adv_vigilance_frigate
+	fits_on_slot = mid
+	entity = "swp_adv_vigilance_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Frigate )
+ship_section_template = {
+	key = "swp_adv_vigilance_frigate_mid_adv_ext_str_key"
+	ship_size = swp_adv_vigilance_frigate
+	fits_on_slot = mid
+	entity = "swp_adv_vigilance_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Velox ( Advanced Heavy Frigate )
+ship_section_template = {
+	key = "swp_velox_frigate_stern_key"
+	ship_size = swp_velox_frigate
+	fits_on_slot = stern
+	entity = "swp_velox_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = lthlc_point_defence_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = lthlc_point_defence_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = lthlc_point_defence_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = lthlc_point_defence_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = lthlc_point_defence_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = lthlc_point_defence_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = dltl_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = mdtl_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = mdtl_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = mdtl_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = mdtl_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = mdtl_large_turret
+		locatorname = "large_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = mdtl_large_turret
+		locatorname = "large_gun_06"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Heavy Frigate )
+ship_section_template = {
+	key = "swp_velox_frigate_mid_adv_int_str_key"
+	ship_size = swp_velox_frigate
+	fits_on_slot = mid
+	entity = "swp_velox_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Heavy Frigate )
+ship_section_template = {
+	key = "swp_velox_frigate_mid_adv_ext_str_key"
+	ship_size = swp_velox_frigate
+	fits_on_slot = mid
+	entity = "swp_velox_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# MC30c ( Advanced Heavy Frigate )
+ship_section_template = {
+	key = "swp_mc30c_frigate_stern_key"
+	ship_size = swp_mc30c_frigate
+	fits_on_slot = stern
+	entity = "swp_mc30c_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_09"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_010"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_04"
+	}
+	component_slot = {
+		name = "TORPEDO_05"
+		template = swp_missile_slot
+		locatorname = "torpedo_05"
+	}
+	component_slot = {
+		name = "TORPEDO_06"
+		template = swp_missile_slot
+		locatorname = "torpedo_06"
+	}
+	component_slot = {
+		name = "TORPEDO_07"
+		template = swp_missile_slot
+		locatorname = "torpedo_07"
+	}
+	component_slot = {
+		name = "TORPEDO_08"
+		template = swp_missile_slot
+		locatorname = "torpedo_08"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Heavy Frigate )
+ship_section_template = {
+	key = "swp_mc30c_frigate_mid_adv_int_str_key"
+	ship_size = swp_mc30c_frigate
+	fits_on_slot = mid
+	entity = "swp_mc30c_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Heavy Frigate )
+ship_section_template = {
+	key = "swp_mc30c_frigate_mid_adv_ext_str_key"
+	ship_size = swp_mc30c_frigate
+	fits_on_slot = mid
+	entity = "swp_mc30c_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Vengeance ( Advanced Heavy Frigate )
+ship_section_template = {
+	key = "swp_vengeance_frigate_stern_key"
+	ship_size = swp_vengeance_frigate
+	fits_on_slot = stern
+	entity = "swp_vengeance_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "SPECIAL_GUN_01"
+		template = invisible_large_turret
+		locatorname = "special_gun_01"
+	}
+	component_slot = {
+		name = "SPECIAL_GUN_02"
+		template = invisible_large_turret
+		locatorname = "special_gun_02"
+	}
+	component_slot = {
+		name = "SPECIAL_GUN_03"
+		template = invisible_large_turret
+		locatorname = "special_gun_03"
+	}
+	component_slot = {
+		name = "SPECIAL_GUN_04"
+		template = invisible_large_turret
+		locatorname = "special_gun_04"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Heavy Frigate )
+ship_section_template = {
+	key = "swp_vengeance_frigate_mid_adv_int_str_key"
+	ship_size = swp_vengeance_frigate
+	fits_on_slot = mid
+	entity = "swp_vengeance_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Heavy Frigate )
+ship_section_template = {
+	key = "swp_vengeance_frigate_mid_adv_ext_str_key"
+	ship_size = swp_vengeance_frigate
+	fits_on_slot = mid
+	entity = "swp_vengeance_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Kariek ( Advanced Heavy Frigate )
+ship_section_template = {
+	key = "swp_adv_kariek_frigate_stern_key"
+	ship_size = swp_adv_kariek_frigate
+	fits_on_slot = stern
+	entity = "swp_adv_kariek_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = swp_default_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = swp_default_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_04"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+}
+
+
+
+# Advanced Internal Structure ( Advanced Heavy Frigate )
+ship_section_template = {
+	key = "swp_adv_kariek_frigate_mid_adv_int_str_key"
+	ship_size = swp_adv_kariek_frigate
+	fits_on_slot = mid
+	entity = "swp_adv_kariek_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Heavy Frigate )
+ship_section_template = {
+	key = "swp_adv_kariek_frigate_mid_adv_ext_str_key"
+	ship_size = swp_adv_kariek_frigate
+	fits_on_slot = mid
+	entity = "swp_adv_kariek_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# CC-7700 ( Interdictor )
+ship_section_template = {
+	key = "swp_cc7700_frigate_stern_key"
+	ship_size = swp_cc7700_frigate
+	fits_on_slot = stern
+	entity = "swp_cc7700_frigate_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = swp_default_light_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = swp_default_light_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = swp_default_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = swp_default_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+}
+
+# Advanced Internal Structure ( Interdictor )
+ship_section_template = {
+	key = "swp_cc7700_frigate_mid_adv_int_str_key"
+	ship_size = swp_cc7700_frigate
+	fits_on_slot = mid
+	entity = "swp_cc7700_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_interdictors
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Interdictor )
+ship_section_template = {
+	key = "swp_cc7700_frigate_mid_adv_ext_str_key"
+	ship_size = swp_cc7700_frigate
+	fits_on_slot = mid
+	entity = "swp_cc7700_frigate_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_interdictors
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_frig_t0_1_cost
+			electronics = @electronics_frig_t3_cost
+		}
+	}
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}

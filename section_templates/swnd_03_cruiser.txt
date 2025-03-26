@@ -1,0 +1,3718 @@
+#########################
+#		Cruiser			#
+#########################
+#T1
+# Victory Mark II ( Escort Cruiser )
+ship_section_template = {
+	key = "swp_victory2_cruiser_stern_key"
+	ship_size = swp_victory2_cruiser
+	fits_on_slot = stern
+	entity = "swp_victory2_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t1_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_04"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+}
+
+# Basic Structure ( Escort Cruiser )
+ship_section_template = {
+	key = "swp_victory2_cruiser_mid_basic_str_key"
+	ship_size = swp_victory2_cruiser
+	fits_on_slot = mid
+	entity = "swp_victory2_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+# Internal Structure ( Escort Cruiser )
+ship_section_template = {
+	key = "swp_victory2_cruiser_mid_int_str_key"
+	ship_size = swp_victory2_cruiser
+	fits_on_slot = mid
+	entity = "swp_victory2_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t1_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Escort Cruiser )
+ship_section_template = {
+	key = "swp_victory2_cruiser_mid_ext_str_key"
+	ship_size = swp_victory2_cruiser
+	fits_on_slot = mid
+	entity = "swp_victory2_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t1_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Wavecrest ( Early Cruiser )
+ship_section_template = {
+	key = "swp_wavecrest_cruiser_stern_key"
+	ship_size = swp_wavecrest_cruiser
+	fits_on_slot = stern
+	entity = "swp_wavecrest_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t1_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_09"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_010"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+}
+
+# Basic Structure ( Early Cruiser )
+ship_section_template = {
+	key = "swp_wavecrest_cruiser_mid_basic_str_key"
+	ship_size = swp_wavecrest_cruiser
+	fits_on_slot = mid
+	entity = "swp_wavecrest_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+# Internal Structure ( Early Cruiser )
+ship_section_template = {
+	key = "swp_wavecrest_cruiser_mid_int_str_key"
+	ship_size = swp_wavecrest_cruiser
+	fits_on_slot = mid
+	entity = "swp_wavecrest_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t1_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Early Cruiser )
+ship_section_template = {
+	key = "swp_wavecrest_cruiser_mid_ext_str_key"
+	ship_size = swp_wavecrest_cruiser
+	fits_on_slot = mid
+	entity = "swp_wavecrest_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t1_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Battle Dragon ( Early Cruiser )
+ship_section_template = {
+	key = "swp_early_battledragon_cruiser_stern_key"
+	ship_size = swp_early_battledragon_cruiser
+	fits_on_slot = stern
+	entity = "swp_early_battledragon_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t1_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = swp_default_light_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = swp_default_light_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = swp_default_light_turret
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = swp_default_light_turret
+		locatorname = "small_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = swp_default_light_turret
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "SMALL_GUN_010"
+		template = swp_default_light_turret
+		locatorname = "small_gun_010"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_04"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_04"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_03"
+	}
+}
+
+# Basic Structure ( Early Cruiser )
+ship_section_template = {
+	key = "swp_early_battledragon_cruiser_mid_basic_str_key"
+	ship_size = swp_early_battledragon_cruiser
+	fits_on_slot = mid
+	entity = "swp_early_battledragon_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+# Internal Structure ( Early Cruiser )
+ship_section_template = {
+	key = "swp_early_battledragon_cruiser_mid_int_str_key"
+	ship_size = swp_early_battledragon_cruiser
+	fits_on_slot = mid
+	entity = "swp_early_battledragon_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t1_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Early Cruiser )
+ship_section_template = {
+	key = "swp_early_battledragon_cruiser_mid_ext_str_key"
+	ship_size = swp_early_battledragon_cruiser
+	fits_on_slot = mid
+	entity = "swp_early_battledragon_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t1_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Nuruodo ( Early Cruiser )
+ship_section_template = {
+	key = "swp_nuruodo_cruiser_stern_key"
+	ship_size = swp_nuruodo_cruiser
+	fits_on_slot = stern
+	entity = "swp_nuruodo_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 280
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = swp_default_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = swp_default_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = swp_default_large_turret
+		locatorname = "large_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = swp_default_large_turret
+		locatorname = "large_gun_06"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+}
+
+
+
+
+
+# Basic Structure ( Early Cruiser )
+ship_section_template = {
+	key = "swp_nuruodo_cruiser_mid_basic_str_key"
+	ship_size = swp_nuruodo_cruiser
+	fits_on_slot = mid
+	entity = "swp_nuruodo_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+# Internal Structure ( Early Cruiser )
+ship_section_template = {
+	key = "swp_nuruodo_cruiser_mid_int_str_key"
+	ship_size = swp_nuruodo_cruiser
+	fits_on_slot = mid
+	entity = "swp_nuruodo_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t1_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Early Cruiser )
+ship_section_template = {
+	key = "swp_nuruodo_cruiser_mid_ext_str_key"
+	ship_size = swp_nuruodo_cruiser
+	fits_on_slot = mid
+	entity = "swp_nuruodo_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t1_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Sabaoth ( Support Cruiser )
+ship_section_template = {
+	key = "swp_sabaoth_cruiser_stern_key"
+	ship_size = swp_sabaoth_cruiser
+	fits_on_slot = stern
+	entity = "swp_sabaoth_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t1_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = swp_default_light_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = swp_default_light_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = swp_default_light_turret
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = swp_default_light_turret
+		locatorname = "small_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = swp_default_light_turret
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "SMALL_GUN_010"
+		template = swp_default_light_turret
+		locatorname = "small_gun_010"
+	}
+	component_slot = {
+		name = "SMALL_GUN_011"
+		template = swp_default_light_turret
+		locatorname = "small_gun_011"
+	}
+	component_slot = {
+		name = "SMALL_GUN_012"
+		template = swp_default_light_turret
+		locatorname = "small_gun_012"
+	}
+	component_slot = {
+		name = "SMALL_GUN_013"
+		template = swp_default_light_turret
+		locatorname = "small_gun_013"
+	}
+	component_slot = {
+		name = "SMALL_GUN_014"
+		template = swp_default_light_turret
+		locatorname = "small_gun_014"
+	}
+	component_slot = {
+		name = "SMALL_GUN_015"
+		template = swp_default_light_turret
+		locatorname = "small_gun_015"
+	}
+	component_slot = {
+		name = "SMALL_GUN_016"
+		template = swp_default_light_turret
+		locatorname = "small_gun_016"
+	}
+	component_slot = {
+		name = "SMALL_GUN_017"
+		template = swp_default_light_turret
+		locatorname = "small_gun_017"
+	}
+	component_slot = {
+		name = "SMALL_GUN_018"
+		template = swp_default_light_turret
+		locatorname = "small_gun_018"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+}
+
+# Basic Structure ( Support Cruiser )
+ship_section_template = {
+	key = "swp_sabaoth_cruiser_mid_basic_str_key"
+	ship_size = swp_sabaoth_cruiser
+	fits_on_slot = mid
+	entity = "swp_sabaoth_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 1
+	}
+}
+
+# Internal Structure ( Support Cruiser )
+ship_section_template = {
+	key = "swp_sabaoth_cruiser_mid_int_str_key"
+	ship_size = swp_sabaoth_cruiser
+	fits_on_slot = mid
+	entity = "swp_sabaoth_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t1_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Support Cruiser )
+ship_section_template = {
+	key = "swp_sabaoth_cruiser_mid_ext_str_key"
+	ship_size = swp_sabaoth_cruiser
+	fits_on_slot = mid
+	entity = "swp_sabaoth_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t1_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+######
+#T2
+######
+
+# Kontos SF ( Cruiser )
+ship_section_template = {
+	key = "swp_kontos_cruiser_stern_key"
+	ship_size = swp_kontos_cruiser
+	fits_on_slot = stern
+	entity = "swp_kontos_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "SMALL_GUN_010"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_010"
+	}
+	component_slot = {
+		name = "SMALL_GUN_011"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_011"
+	}
+	component_slot = {
+		name = "SMALL_GUN_012"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_012"
+	}
+	component_slot = {
+		name = "SMALL_GUN_013"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_013"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = mdtl_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = mdtl_large_turret
+		locatorname = "large_gun_02"
+	}
+}
+
+# Internal Structure ( Cruiser )
+ship_section_template = {
+	key = "swp_kontos_cruiser_mid_int_str_key"
+	ship_size = swp_kontos_cruiser
+	fits_on_slot = mid
+	entity = "swp_kontos_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t2_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Cruiser )
+ship_section_template = {
+	key = "swp_kontos_cruiser_mid_ext_str_key"
+	ship_size = swp_kontos_cruiser
+	fits_on_slot = mid
+	entity = "swp_kontos_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# MC40 ( Cruiser )
+ship_section_template = {
+	key = "swp_mc40_cruiser_stern_key"
+	ship_size = swp_mc40_cruiser
+	fits_on_slot = stern
+	entity = "swp_mc40_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = swp_default_light_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = swp_default_light_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = swp_default_light_turret
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = swp_default_light_turret
+		locatorname = "small_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = swp_default_light_turret
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "SMALL_GUN_010"
+		template = swp_default_light_turret
+		locatorname = "small_gun_010"
+	}
+	component_slot = {
+		name = "SMALL_GUN_011"
+		template = swp_default_light_turret
+		locatorname = "small_gun_011"
+	}
+	component_slot = {
+		name = "SMALL_GUN_012"
+		template = swp_default_light_turret
+		locatorname = "small_gun_012"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+}
+
+# Internal Structure ( Cruiser )
+ship_section_template = {
+	key = "swp_mc40_cruiser_mid_int_str_key"
+	ship_size = swp_mc40_cruiser
+	fits_on_slot = mid
+	entity = "swp_mc40_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t2_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Cruiser )
+ship_section_template = {
+	key = "swp_mc40_cruiser_mid_ext_str_key"
+	ship_size = swp_mc40_cruiser
+	fits_on_slot = mid
+	entity = "swp_mc40_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Battle Dragon ( Cruiser )
+ship_section_template = {
+	key = "swp_battledragon_cruiser_stern_key"
+	ship_size = swp_battledragon_cruiser
+	fits_on_slot = stern
+	entity = "swp_battledragon_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = swp_default_light_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = swp_default_light_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = swp_default_light_turret
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = swp_default_light_turret
+		locatorname = "small_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = swp_default_light_turret
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "SMALL_GUN_010"
+		template = swp_default_light_turret
+		locatorname = "small_gun_010"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_04"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_04"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_05"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_05"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_06"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_06"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_03"
+	}
+}
+
+# Internal Structure ( Cruiser )
+ship_section_template = {
+	key = "swp_battledragon_cruiser_mid_int_str_key"
+	ship_size = swp_battledragon_cruiser
+	fits_on_slot = mid
+	entity = "swp_battledragon_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t2_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Cruiser )
+ship_section_template = {
+	key = "swp_battledragon_cruiser_mid_ext_str_key"
+	ship_size = swp_battledragon_cruiser
+	fits_on_slot = mid
+	entity = "swp_battledragon_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Broadside ( Missile Cruiser )
+ship_section_template = {
+	key = "swp_broadside_cruiser_stern_key"
+	ship_size = swp_broadside_cruiser
+	fits_on_slot = stern
+	entity = "swp_broadside_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_04"
+	}
+	component_slot = {
+		name = "TORPEDO_05"
+		template = swp_missile_slot
+		locatorname = "torpedo_05"
+	}
+	component_slot = {
+		name = "TORPEDO_06"
+		template = swp_missile_slot
+		locatorname = "torpedo_06"
+	}
+	component_slot = {
+		name = "TORPEDO_07"
+		template = swp_missile_slot
+		locatorname = "torpedo_07"
+	}
+	component_slot = {
+		name = "TORPEDO_08"
+		template = swp_missile_slot
+		locatorname = "torpedo_08"
+	}
+	component_slot = {
+		name = "TORPEDO_09"
+		template = swp_missile_slot
+		locatorname = "torpedo_09"
+	}
+	component_slot = {
+		name = "TORPEDO_010"
+		template = swp_missile_slot
+		locatorname = "torpedo_010"
+	}
+}
+
+# Internal Structure ( Missile Cruiser )
+ship_section_template = {
+	key = "swp_broadside_cruiser_mid_int_str_key"
+	ship_size = swp_broadside_cruiser
+	fits_on_slot = mid
+	entity = "swp_broadside_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t2_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Missile Cruiser )
+ship_section_template = {
+	key = "swp_broadside_cruiser_mid_ext_str_key"
+	ship_size = swp_broadside_cruiser
+	fits_on_slot = mid
+	entity = "swp_broadside_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Protector ( Missile Cruiser )
+ship_section_template = {
+	key = "swp_protector_cruiser_stern_key"
+	ship_size = swp_protector_cruiser
+	fits_on_slot = stern
+	entity = "swp_protector_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_09"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_010"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_010"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_04"
+	}
+	component_slot = {
+		name = "TORPEDO_05"
+		template = swp_missile_slot
+		locatorname = "torpedo_05"
+	}
+	component_slot = {
+		name = "TORPEDO_06"
+		template = swp_missile_slot
+		locatorname = "torpedo_06"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = mhic_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = mhic_ion_turret
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = mhic_ion_turret
+		locatorname = "xl_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = mhic_ion_turret
+		locatorname = "xl_gun_04"
+	}
+}
+
+# Internal Structure ( Missile Cruiser )
+ship_section_template = {
+	key = "swp_protector_cruiser_mid_int_str_key"
+	ship_size = swp_protector_cruiser
+	fits_on_slot = mid
+	entity = "swp_protector_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t2_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Missile Cruiser )
+ship_section_template = {
+	key = "swp_protector_cruiser_mid_ext_str_key"
+	ship_size = swp_protector_cruiser
+	fits_on_slot = mid
+	entity = "swp_protector_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Warlord ( Missile Cruiser )
+ship_section_template = {
+	key = "swp_warlord_cruiser_stern_key"
+	ship_size = swp_warlord_cruiser
+	fits_on_slot = stern
+	entity = "swp_warlord_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t2_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = swp_default_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = swp_default_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = swp_default_large_turret
+		locatorname = "large_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = swp_default_large_turret
+		locatorname = "large_gun_06"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_04"
+	}
+	component_slot = {
+		name = "TORPEDO_05"
+		template = swp_missile_slot
+		locatorname = "torpedo_05"
+	}
+	component_slot = {
+		name = "TORPEDO_06"
+		template = swp_missile_slot
+		locatorname = "torpedo_06"
+	}
+	component_slot = {
+		name = "TORPEDO_07"
+		template = swp_missile_slot
+		locatorname = "torpedo_07"
+	}
+	component_slot = {
+		name = "TORPEDO_08"
+		template = swp_missile_slot
+		locatorname = "torpedo_08"
+	}
+	component_slot = {
+		name = "TORPEDO_09"
+		template = swp_missile_slot
+		locatorname = "torpedo_09"
+	}
+	component_slot = {
+		name = "TORPEDO_010"
+		template = swp_missile_slot
+		locatorname = "torpedo_010"
+	}
+	component_slot = {
+		name = "TORPEDO_011"
+		template = swp_missile_slot
+		locatorname = "torpedo_011"
+	}
+	component_slot = {
+		name = "TORPEDO_012"
+		template = swp_missile_slot
+		locatorname = "torpedo_012"
+	}
+	component_slot = {
+		name = "TORPEDO_013"
+		template = swp_missile_slot
+		locatorname = "torpedo_013"
+	}
+	component_slot = {
+		name = "TORPEDO_014"
+		template = swp_missile_slot
+		locatorname = "torpedo_014"
+	}
+}
+
+# Internal Structure ( Missile Cruiser )
+ship_section_template = {
+	key = "swp_warlord_cruiser_mid_int_str_key"
+	ship_size = swp_warlord_cruiser
+	fits_on_slot = mid
+	entity = "swp_warlord_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t2_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# External Structure ( Missile Cruiser )
+ship_section_template = {
+	key = "swp_warlord_cruiser_mid_ext_str_key"
+	ship_size = swp_warlord_cruiser
+	fits_on_slot = mid
+	entity = "swp_warlord_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_improved_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_cost
+			electronics = @electronics_crui_t2_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 40
+	}
+}
+
+######
+#T3
+######
+# Gladiator ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_gladiator_cruiser_stern_key"
+	ship_size = swp_gladiator_cruiser
+	fits_on_slot = stern
+	entity = "swp_gladiator_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = mqtl_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = mqtl_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = mqtl_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = mqtl_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = mqtl_large_turret
+		locatorname = "large_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = mqtl_large_turret
+		locatorname = "large_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = mqtl_large_turret
+		locatorname = "large_gun_07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = mqtl_large_turret
+		locatorname = "large_gun_08"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_04"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = nk7_isd_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = nk7_isd_ion_turret
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = nk7_isd_ion_turret
+		locatorname = "xl_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = nk7_isd_ion_turret
+		locatorname = "xl_gun_04"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_gladiator_cruiser_mid_adv_int_str_key"
+	ship_size = swp_gladiator_cruiser
+	fits_on_slot = mid
+	entity = "swp_gladiator_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t3_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_gladiator_cruiser_mid_adv_ext_str_key"
+	ship_size = swp_gladiator_cruiser
+	fits_on_slot = mid
+	entity = "swp_gladiator_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Beviin ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_beviin_cruiser_stern_key"
+	ship_size = swp_beviin_cruiser
+	fits_on_slot = stern
+	entity = "swp_beviin_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = dmd_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = dmd_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = dmd_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = dmd_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = dmd_large_turret
+		locatorname = "large_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = dmd_large_turret
+		locatorname = "large_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = dmd_large_turret
+		locatorname = "large_gun_07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = dmd_large_turret
+		locatorname = "large_gun_08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		template = dmd_large_turret
+		locatorname = "large_gun_09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_010"
+		template = dmd_large_turret
+		locatorname = "large_gun_010"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_04"
+	}
+	component_slot = {
+		name = "TORPEDO_05"
+		template = swp_missile_slot
+		locatorname = "torpedo_05"
+	}
+	component_slot = {
+		name = "TORPEDO_06"
+		template = swp_missile_slot
+		locatorname = "torpedo_06"
+	}
+	component_slot = {
+		name = "TORPEDO_07"
+		template = swp_missile_slot
+		locatorname = "torpedo_07"
+	}
+	component_slot = {
+		name = "TORPEDO_08"
+		template = swp_missile_slot
+		locatorname = "torpedo_08"
+	}
+	component_slot = {
+		name = "TORPEDO_09"
+		template = swp_missile_slot
+		locatorname = "torpedo_09"
+	}
+	component_slot = {
+		name = "TORPEDO_010"
+		template = swp_missile_slot
+		locatorname = "torpedo_010"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_beviin_cruiser_mid_adv_int_str_key"
+	ship_size = swp_beviin_cruiser
+	fits_on_slot = mid
+	entity = "swp_beviin_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t3_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_beviin_cruiser_mid_adv_ext_str_key"
+	ship_size = swp_beviin_cruiser
+	fits_on_slot = mid
+	entity = "swp_beviin_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Liberator ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_liberator_cruiser_stern_key"
+	ship_size = swp_liberator_cruiser
+	fits_on_slot = stern
+	entity = "swp_liberator_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = swp_default_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = swp_default_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = swp_default_large_turret
+		locatorname = "large_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = swp_default_large_turret
+		locatorname = "large_gun_06"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_04"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_03"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_04"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_05"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_06"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_liberator_cruiser_mid_adv_int_str_key"
+	ship_size = swp_liberator_cruiser
+	fits_on_slot = mid
+	entity = "swp_liberator_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t3_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_liberator_cruiser_mid_adv_ext_str_key"
+	ship_size = swp_liberator_cruiser
+	fits_on_slot = mid
+	entity = "swp_liberator_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Battle Dragon ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_adv_battledragon_cruiser_stern_key"
+	ship_size = swp_adv_battledragon_cruiser
+	fits_on_slot = stern
+	entity = "swp_adv_battledragon_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = swp_default_light_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = swp_default_light_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = swp_default_light_turret
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = swp_default_light_turret
+		locatorname = "small_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = swp_default_light_turret
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "SMALL_GUN_010"
+		template = swp_default_light_turret
+		locatorname = "small_gun_010"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_09"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_010"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_010"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_04"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_04"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_05"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_05"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_06"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_06"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_03"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_adv_battledragon_cruiser_mid_adv_int_str_key"
+	ship_size = swp_adv_battledragon_cruiser
+	fits_on_slot = mid
+	entity = "swp_adv_battledragon_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t3_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_adv_battledragon_cruiser_mid_adv_ext_str_key"
+	ship_size = swp_adv_battledragon_cruiser
+	fits_on_slot = mid
+	entity = "swp_adv_battledragon_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Nuruodo ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_adv_nuruodo_cruiser_stern_key"
+	ship_size = swp_adv_nuruodo_cruiser
+	fits_on_slot = stern
+	entity = "swp_adv_nuruodo_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_09"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_010"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = swp_default_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = swp_default_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = swp_default_large_turret
+		locatorname = "large_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = swp_default_large_turret
+		locatorname = "large_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = swp_default_large_turret
+		locatorname = "large_gun_07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = swp_default_large_turret
+		locatorname = "large_gun_08"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+}
+
+# Advanced Internal Structure ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_adv_nuruodo_cruiser_mid_adv_int_str_key"
+	ship_size = swp_adv_nuruodo_cruiser
+	fits_on_slot = mid
+	entity = "swp_adv_nuruodo_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t3_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Advanced Cruiser )
+ship_section_template = {
+	key = "swp_adv_nuruodo_cruiser_mid_adv_ext_str_key"
+	ship_size = swp_adv_nuruodo_cruiser
+	fits_on_slot = mid
+	entity = "swp_adv_nuruodo_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t3_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 40
+	}
+}
+
+######
+#Interdictors
+######
+# Immobilizer 418 ( Heavy Interdictor )
+ship_section_template = {
+	key = "swp_immobilizer418_cruiser_stern_key"
+	ship_size = swp_immobilizer418_cruiser
+	fits_on_slot = stern
+	entity = "swp_immobilizer418_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "SMALL_GUN_010"
+		template = dltl_point_defence_turret
+		locatorname = "small_gun_010"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = mqtl_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_04"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_03"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_04"
+	}
+}
+
+# Advanced Internal Structure ( Heavy Interdictor )
+ship_section_template = {
+	key = "swp_immobilizer418_cruiser_mid_adv_int_str_key"
+	ship_size = swp_immobilizer418_cruiser
+	fits_on_slot = mid
+	entity = "swp_immobilizer418_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t4_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Heavy Interdictor )
+ship_section_template = {
+	key = "swp_immobilizer418_cruiser_mid_adv_ext_str_key"
+	ship_size = swp_immobilizer418_cruiser
+	fits_on_slot = mid
+	entity = "swp_immobilizer418_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t4_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Battle Dragon ( Heavy Interdictor )
+ship_section_template = {
+	key = "swp_int_battledragon_cruiser_stern_key"
+	ship_size = swp_int_battledragon_cruiser
+	fits_on_slot = stern
+	entity = "swp_int_battledragon_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = swp_default_light_turret
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = swp_default_light_turret
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = swp_default_light_turret
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = swp_default_light_turret
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = swp_default_light_turret
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = swp_default_light_turret
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = swp_default_light_turret
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = swp_default_light_turret
+		locatorname = "small_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_09"
+		template = swp_default_light_turret
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "SMALL_GUN_010"
+		template = swp_default_light_turret
+		locatorname = "small_gun_010"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_09"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_010"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_010"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		template = swp_missile_slot
+		locatorname = "torpedo_01"
+	}
+	component_slot = {
+		name = "TORPEDO_02"
+		template = swp_missile_slot
+		locatorname = "torpedo_02"
+	}
+	component_slot = {
+		name = "TORPEDO_03"
+		template = swp_missile_slot
+		locatorname = "torpedo_03"
+	}
+	component_slot = {
+		name = "TORPEDO_04"
+		template = swp_missile_slot
+		locatorname = "torpedo_04"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_02"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_04"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_05"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_05"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_06"
+		template = swp_default_ion_turret
+		locatorname = "xl_gun_06"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_03"
+	}
+}
+
+# Advanced Internal Structure ( Heavy Interdictor )
+ship_section_template = {
+	key = "swp_int_battledragon_cruiser_mid_adv_int_str_key"
+	ship_size = swp_int_battledragon_cruiser
+	fits_on_slot = mid
+	entity = "swp_int_battledragon_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t4_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Heavy Interdictor )
+ship_section_template = {
+	key = "swp_int_battledragon_cruiser_mid_adv_ext_str_key"
+	ship_size = swp_int_battledragon_cruiser
+	fits_on_slot = mid
+	entity = "swp_int_battledragon_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t4_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 40
+	}
+}
+
+# Massias ( Heavy Interdictor )
+ship_section_template = {
+	key = "swp_massias_cruiser_stern_key"
+	ship_size = swp_massias_cruiser
+	fits_on_slot = stern
+	entity = "swp_massias_cruiser_stern_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t3_cost
+		}
+	}
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+	ai_weight = {
+		factor = 100
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_09"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_010"
+		template = swp_default_medium_turret
+		locatorname = "medium_gun_010"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = swp_default_large_turret
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = swp_default_large_turret
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = swp_default_large_turret
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = swp_default_large_turret
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = swp_default_large_turret
+		locatorname = "large_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = swp_default_large_turret
+		locatorname = "large_gun_06"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = large_strike_craft
+		locatorname = "strike_craft_locator_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = medium_strike_craft
+		locatorname = "strike_craft_locator_03"
+	}
+}
+
+# Advanced Internal Structure ( Heavy Interdictor )
+ship_section_template = {
+	key = "swp_massias_cruiser_mid_adv_int_str_key"
+	ship_size = swp_massias_cruiser
+	fits_on_slot = mid
+	entity = "swp_massias_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t4_cost
+		}
+	}
+	small_utility_slots = 3
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 60
+	}
+}
+
+# Advanced External Structure ( Heavy Interdictor )
+ship_section_template = {
+	key = "swp_massias_cruiser_mid_adv_ext_str_key"
+	ship_size = swp_massias_cruiser
+	fits_on_slot = mid
+	entity = "swp_massias_cruiser_entity"
+	icon = "GFX_ship_part_core_mid"
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_ship_structures
+	}
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @alloy_crui_t0_1_cost
+			electronics = @electronics_crui_t4_cost
+		}
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	aux_utility_slots = 1
+	ai_weight = {
+		factor = 40
+	}
+}
