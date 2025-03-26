@@ -6417,3 +6417,13 @@ l_english:
  NAME_seperatist_alliance: "Separatist Alliance"
  NAME_adjective_SeperatistAlliance: "Separatist"
  START_SCREEN_SEPERATIST_ALLIANCE: " "
+
+ civic_kaminoan_cloners: "Kaminoan Cloners"
+ civic_kaminoan_cloners_desc: "REPLACE_ME"
+ origin_swp_kaminoan_cloners: "Kaminoan Cloners"
+ origin_swp_kaminoan_cloners_desc: "REPLACE_ME"
+
+ gov_kaminoan_cloners: "Kaminoan Cloners"
+ gov_kaminoan_cloners_desc: "REPLACE_ME"
+ EMPIRE_DESIGN_KaminoanCloners: "Kaminoan Cloners"
+ 

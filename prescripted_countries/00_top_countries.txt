@@ -67,6 +67,61 @@ GalacticRepublic = {
 	room="republic_room"
 }
 
+# Kaminoan Cloners
+KaminoanCloners = {
+	name="EMPIRE_DESIGN_KaminoanCloners"
+	name_list="TGR_Republic"
+	portrait="kaminoan"
+	adjective="PRESCRIPTED_adjective_KaminoanCloners"
+	ship_prefix="PRESCRIPTED_ship_prefix_GalacticRepublic"
+	species_name = "PRESCRIPTED_species_name_KaminoanCloners"
+	species_plural = "PRESCRIPTED_species_plural_KaminoanCloners"
+	species_class = "KAM"
+	species_adjective = "PRESCRIPTED_species_adjective_KaminoanCloners"
+	species_bio="PRESCRIPTED_species_bio_GalacticRepublic"
+	
+	authority="auth_oligarchic"
+	government="gov_kaminoan_cloners"
+	civics={ "civic_kaminoan_cloners" "civic_technocracy" }
+
+	flags={ custom_start_screen kaminoan_cloners imperial_tech kaminoan_sw init_spawned }
+	
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_egalitarian"
+
+	trait="trait_intelligent"
+	trait= "trait_sedentary"
+	trait= "trait_decadent"
+		
+	origin = "origin_swp_kaminoan_cloners"
+	
+	planet_name="NAME_Kamino_P5"
+	planet_class="pc_ocean"
+	city_graphical_culture="republic_01"
+	system_name="NAME_Kamino"
+	initializer="canon_kamino_system_initializer"
+	graphical_culture="imperial_01"
+	
+	empire_flag={
+		icon = { category = "starwars" file = "Kaminoan.dds" }
+		background = { category = "backgrounds" file = "00_solid.dds" }
+		colors = { "customcolor2052" "customcolor2052" "null" "null" }
+	}
+	ruler={
+		gender=male
+		name = {
+			first_name = PRESCRIPTED_ruler_first_name_KaminoanCloners
+			second_name = PRESCRIPTED_ruler_second_name_KaminoanCloners
+		}	
+		portrait="kaminoan"
+		texture=0
+		attachment=0
+		clothes=0
+		leader_class = official
+	}
+	spawn_enabled=always
+	room="republic_room"
+}
 #####################################
 # CIS Republic & Allies
 #####################################
