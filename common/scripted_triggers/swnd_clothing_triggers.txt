@@ -57,6 +57,7 @@ uses_neutral_clothes = {
 			has_country_flag = rebel_alliance
 			has_country_flag = kingdom_of_alderaan
 			has_country_flag = galactic_republic
+			has_country_flag = kaminoan_cloners
 			has_country_flag = eriadu_authority
 			has_country_flag = ciutric_hegemony
 			has_country_flag = fondor_sector_vassal

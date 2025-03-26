@@ -91,3 +91,14 @@ part = {
 		is_seperatist_alliance = yes
 	}
 }
+
+
+# Kaminoan Cloners
+part = {
+	location = 0
+	localization = "START_SCREEN_KAMINOAN_CLONERS"
+
+	trigger = {
+		is_kaminoan_cloners = yes
+	}
+}

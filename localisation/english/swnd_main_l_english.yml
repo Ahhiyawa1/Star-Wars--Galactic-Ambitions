@@ -6422,8 +6422,11 @@ l_english:
  civic_kaminoan_cloners_desc: "REPLACE_ME"
  origin_swp_kaminoan_cloners: "Kaminoan Cloners"
  origin_swp_kaminoan_cloners_desc: "REPLACE_ME"
+ PRESCRIPTED_species_bio_KaminoanCloners: " "
+ NAME_adjective_KaminoanCloners: "Separatist"
+ format.kaminoan_cloners: "Kaminoan Cloners"
 
  gov_kaminoan_cloners: "Kaminoan Cloners"
  gov_kaminoan_cloners_desc: "REPLACE_ME"
- EMPIRE_DESIGN_KaminoanCloners: "Kaminoan Cloners"
- 
+ EMPIRE_DESIGN_KaminoanCloners: "£empire_star£ §RKaminoan Cloners§!"
+

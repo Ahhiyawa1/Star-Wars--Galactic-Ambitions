@@ -23,7 +23,7 @@ gov_kaminoan_cloners = {
 	ruler_title = RT_SUPREME_CHANCELLOR
 	ruler_title_female = RT_SUPREME_CHANCELLOR_FEMALE
 	possible = {
-
+		is_kaminoan_cloners = yes
 		has_authority = auth_oligarchic
 		has_valid_civic = civic_kaminoan_cloners
 	}

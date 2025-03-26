@@ -621,6 +621,10 @@ country_event = {
 				set_name = "NAME_galactic_republic"
 				set_adjective = "NAME_adjective_GalacticRepublic"
 			}
+			kaminoan_cloners = {
+				set_name = "NAME_kaminoan_cloners"
+				set_adjective = "NAME_adjective_KaminoanCloners"
+			}
 			seperatist_alliance = {
 				set_name = "NAME_seperatist_alliance"
 				set_adjective = "NAME_adjective_SeperatistAlliance"

@@ -87,6 +87,22 @@ empire_name_format = {
 	noun = "Separatist"	
 }
 
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000000
+			has_country_flag = kaminoan_cloners
+		}
+	}
+	lookups = "[This.GetSpeciesName]"
+	format = "{format.kaminoan_cloners}"
+	prefix_format = ""
+	noun = "Kaminoan"	
+}
+
+
 empire_name_format = {
 	random_weight = {
 		factor = 0

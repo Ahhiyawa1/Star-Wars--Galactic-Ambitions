@@ -75,6 +75,7 @@ other_gfx_culture = {
 imperial_countrys = {
 	OR = {
 		has_country_flag = galactic_republic
+		has_country_flag = kaminoan_cloners
 		has_country_flag = eriadu_authority
 		has_country_flag = ciutric_hegemony
 		has_country_flag = naboo_sector_vassal

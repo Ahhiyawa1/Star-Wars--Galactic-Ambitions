@@ -40,7 +40,7 @@ origin_swp_kaminoan_cloners = {
 	possible = {
 	}
 	
-	description = "origin_tooltip_swp_twilight_of_the_republic_effects"
+	description = "origin_tooltip_swp_kaminoan_cloners_effects"
 	flags = { custom_start_screen }
 
 	random_weight = {

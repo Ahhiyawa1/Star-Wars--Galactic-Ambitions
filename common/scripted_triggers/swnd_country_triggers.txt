@@ -10,6 +10,7 @@ has_normal_events = {
 is_imperial_country = {
 	OR = {
 		has_country_flag = galactic_republic
+		has_country_flag = kaminoan_cloners
 		has_country_flag = galactic_empire
 		has_country_flag = fondor_sector_vassal
 		has_country_flag = naboo_sector_vassal

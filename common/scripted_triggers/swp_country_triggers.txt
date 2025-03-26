@@ -81,6 +81,11 @@ is_galactic_republic = {
 	has_country_flag = galactic_republic
 }
 
+# Galactic Republic
+is_kaminoan_cloners = {
+	has_country_flag = kaminoan_cloners
+}
+
 # CIS
 is_seperatist_alliance = {
 	has_country_flag = seperatist_alliance
