@@ -28,6 +28,25 @@ origin_swp_twilight_of_the_republic = {
 	}
 }
 
+origin_swp_kaminoan_cloners = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+
+	potential = {
+		always = yes
+	}
+
+	possible = {
+	}
+	
+	description = "origin_tooltip_swp_twilight_of_the_republic_effects"
+	flags = { custom_start_screen }
+
+	random_weight = {
+		base = 0
+	}
+}
 
 ## CIS SPHERE ORIGINS ##
 

@@ -1,0 +1,550 @@
+canon_kamino_system_initializer = {
+	name = "NAME_Kamino"
+	class = "rl_standard_stars"
+	flags = {
+		kamino_homeworld
+		kamino_start_system
+		canon_map
+		canon_map_shipyard_system
+		kamino_system
+	}
+	init_effect = {
+		generate_home_system_resources = yes
+		log = "kamino homeworld"
+		
+	}
+	usage = custom_empire
+	max_instances = 1
+	planet = {
+		name = "NAME_Kamino_S"
+		class = star
+		orbit_distance = 0
+		size = {
+			min = 30
+			max = 35
+		}
+		flags = {
+			kamino_star
+		}
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "NAME_Kamino_P1"
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Kamino_P2"
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Kamino_P3"
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Kamino_P4"
+		class = pc_barren
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Kamino_P4_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P4_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Kamino_P5"
+		class = pc_ocean
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = @capital_size
+		has_ring = no
+		deposit_blockers = none
+		modifiers = none
+		init_effect = {
+			#set_planet_entity = { picture = pc_kamino }
+			prevent_anomaly = yes
+			set_planet_flag = planet_kamino
+			save_global_event_target_as = planet_kamino
+			set_planet_flag = kamino_homeworld
+			set_global_flag = kamino_homeworld_spawned
+			check_player_species = { SPECIES = "kaminoan" }
+			if = { limit = { NOT = { any_country = { has_country_flag = kaminoan_cloners } } }
+				create_kaminoan_cloners_country = yes
+			}
+			set_capital = yes
+			random_country = { limit = { has_country_flag = kaminoan_cloners }
+				save_global_event_target_as = kaminoan_cloners
+				set_country_flag = canon_map
+			}
+			set_owner = event_target:kaminoan_cloners
+			generate_owner_pops = { AMOUNT = 10 }
+			give_start_techs = yes
+			set_name = "NAME_Kamino_P5"
+			create_starting_shipyard = { OWNER = "event_target:kaminoan_cloners" }
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Kamino_P5_1"
+			class = pc_arctic
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 7
+				max = 10
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P5_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P5_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Kamino_P6"
+		class = pc_barren
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "NAME_Kamino_P7"
+		class = pc_barren
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Kamino_P7_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P7_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Kamino_P8"
+		class = pc_barren_cold
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Kamino_P8_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P8_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Kamino_P9"
+		class = pc_gas_giant
+		orbit_distance = 60
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 25
+			max = 30
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Kamino_P9_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P9_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P9_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P9_4"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P9_5"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Kamino_P10"
+		class = pc_gas_giant
+		orbit_distance = 60
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 25
+			max = 30
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Kamino_P10_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P10_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P10_3"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P10_4"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P10_5"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Kamino_P11"
+		class = pc_frozen
+		orbit_distance = 60
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Kamino_P11_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P11_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Kamino_P12"
+		class = pc_frozen
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Kamino_P12_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+		moon = {
+			name = "NAME_Kamino_P12_2"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+	planet = {
+		name = "NAME_Kamino_P13"
+		class = pc_frozen
+		orbit_distance = 30
+		orbit_angle = {
+			min = 90
+			max = 270
+		}
+		size = {
+			min = 10
+			max = 15
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "NAME_Kamino_P13_1"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = {
+				min = 90
+				max = 270
+			}
+			size = {
+				min = 2
+				max = 4
+			}
+		}
+	}
+}
