@@ -6355,7 +6355,7 @@ l_english:
  trade_policy_everything_desc: "The §YCorporate Sector§!'s £job_merchant£Merchants trade with the rest of the Galaxy allow the §YAuthority§! to punch far above its weight.\n\n§EEach collected £trade_value£ §YTrade Value§! earns us £energy£§Y0.1§!, £minerals£§Y0.1§!, £food£§Y0.1§!, £unity£§Y0.1§!, £consumer_goods£§Y0.1§!, £alloys£§Y0.1§!, £physics_research£§Y0.1§!, £society_research£§Y0.1§!, £engineering_research£§Y0.1§! and £naval_cap£§Y0.1§!."
 
 
- EMPIRE_DESIGN_SeperatistAlliance: "£empire_star£ §BSeperatist Alliance§!"
+ EMPIRE_DESIGN_SeperatistAlliance: "£empire_star£ §BSeparatist Alliance§!"
  EMPIRE_DESIGN_GalacticRepublic: "£empire_star£ §RGalactic Republic§!"
  PRESCRIPTED_adjective_GalacticRepublic: "Galactic Republic"
  PRESCRIPTED_ship_prefix_GalacticRepublic: " "
