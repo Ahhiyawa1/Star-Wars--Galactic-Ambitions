@@ -127,6 +127,10 @@ establish_republic_communication = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
 		}
 	}
 }
@@ -299,6 +303,10 @@ establish_seperatist_communication = {
 				establish_communications_no_message = event_target:bothan_council
 			}
 			if = {
+				limit = { exists = event_target:bothan_council }
+				establish_communications_no_message = event_target:bothan_council
+			}
+			if = {
 				limit = { exists = event_target:confederate_remnant }
 				establish_communications_no_message = event_target:confederate_remnant
 			}
@@ -394,6 +402,10 @@ establish_seperatist_communication = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
 			
 		}
 	}
@@ -487,6 +499,10 @@ establish_ciutric_hegemony_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:galactic_republic }
@@ -631,6 +647,10 @@ establish_kingdom_of_alderaan_communication = {
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
 			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
+			if = {
 				limit = { exists = event_target:galactic_republic }
 				establish_communications_no_message = event_target:galactic_republic
 			}
@@ -732,6 +752,10 @@ establish_mon_cala_monrachy_communication = {
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
 			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
+			if = {
 				limit = { exists = event_target:galactic_republic }
 				establish_communications_no_message = event_target:galactic_republic
 			}
@@ -827,6 +851,10 @@ establish_ryloth_protectorate_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:galactic_republic }
@@ -928,6 +956,10 @@ establish_verpine_enclave_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:galactic_republic }
@@ -1060,6 +1092,10 @@ establish_hutt_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:galactic_republic }
@@ -1215,6 +1251,10 @@ establish_mando_communication = {
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
 			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
+			if = {
 				limit = { exists = event_target:galactic_republic }
 				establish_communications_no_message = event_target:galactic_republic
 			}
@@ -1362,6 +1402,10 @@ establish_corp_sector_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:galactic_republic }
@@ -1517,6 +1561,10 @@ establish_corellia_communication = {
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
 			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
+			if = {
 				limit = { exists = event_target:galactic_republic }
 				establish_communications_no_message = event_target:galactic_republic
 			}
@@ -1635,6 +1683,10 @@ establish_bothan_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:galactic_republic }
@@ -1756,6 +1808,10 @@ establish_cis_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:galactic_republic }
@@ -1915,6 +1971,10 @@ establish_trade_federation_communication = {
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
 			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
+			if = {
 				limit = { exists = event_target:galactic_republic }
 				establish_communications_no_message = event_target:galactic_republic
 			}
@@ -2062,6 +2122,10 @@ establish_banking_clan_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:galactic_republic }
@@ -2225,6 +2289,10 @@ establish_tion_hegemony_communication = {
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
 			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
+			if = {
 				limit = { exists = event_target:galactic_republic }
 				establish_communications_no_message = event_target:galactic_republic
 			}
@@ -2344,6 +2412,10 @@ establish_commerce_guild_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:galactic_republic }
@@ -2507,6 +2579,10 @@ establish_corperate_alliance_communication = {
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
 			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
+			if = {
 				limit = { exists = event_target:rodian_clans }
 				establish_communications_no_message = event_target:rodian_clans
 			}
@@ -2639,6 +2715,10 @@ establish_juvex_communication = {
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
 			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
+			if = {
 				limit = { exists = event_target:galactic_republic }
 				establish_communications_no_message = event_target:galactic_republic
 			}
@@ -2755,6 +2835,10 @@ establish_senex_communication = {
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
 			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
+			if = {
 				limit = { exists = event_target:galactic_republic }
 				establish_communications_no_message = event_target:galactic_republic
 			}
@@ -2861,6 +2945,10 @@ establish_echani_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:galactic_republic }
@@ -2977,6 +3065,10 @@ establish_arkanian_dominion_communication = {
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
 			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
+			if = {
 				limit = { exists = event_target:galactic_republic }
 				establish_communications_no_message = event_target:galactic_republic
 			}
@@ -3084,6 +3176,10 @@ establish_taanab_authority_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:galactic_republic }
@@ -3284,6 +3380,10 @@ establish_black_sun_communication = {
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
 			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
+			if = {
 				limit = { exists = event_target:galactic_republic }
 				establish_communications_no_message = event_target:galactic_republic
 			}
@@ -3406,6 +3506,10 @@ establish_kingdom_of_onderon_communication = {
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
 			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
+			if = {
 				limit = { exists = event_target:galactic_republic }
 				establish_communications_no_message = event_target:galactic_republic
 			}
@@ -3504,6 +3608,10 @@ establish_kingdom_of_zeltros_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:galactic_republic }
@@ -3606,6 +3714,10 @@ establish_dorin_commonwealth_communication = {
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
 			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
+			if = {
 				limit = { exists = event_target:galactic_republic }
 				establish_communications_no_message = event_target:galactic_republic
 			}
@@ -3701,6 +3813,10 @@ establish_chalactan_council_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:galactic_republic }
@@ -3840,6 +3956,10 @@ establish_eriadu_communication = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
 		}
 	}
 }
@@ -3970,6 +4090,10 @@ establish_naboo_sector_communication = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
 		}
 	}
 }
@@ -4098,6 +4222,10 @@ establish_fondor_sector_communication = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
 		}
 	}
 }
@@ -4114,6 +4242,10 @@ establish_the_centrality_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:kingdom_of_onderon }
@@ -4142,6 +4274,10 @@ establish_cerean_council_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:naboo_sector_vassal }
@@ -4179,6 +4315,10 @@ establish_greater_javin_communication = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
 		}
 	}
 }
@@ -4195,6 +4335,10 @@ establish_pantoran_assembly_communication = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
 			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
+			}
 		}
 	}
 }
@@ -4210,6 +4354,10 @@ establish_rodian_clans_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 			if = {
 				limit = { exists = event_target:naboo_sector_vassal }
@@ -4361,6 +4509,10 @@ establish_galactic_republic_communication = {
 			if = {
 				limit = { exists = event_target:sluis_sector_vassal }
 				establish_communications_no_message = event_target:sluis_sector_vassal
+			}
+			if = {
+				limit = { exists = event_target:kaminoan_cloners }
+				establish_communications_no_message = event_target:kaminoan_cloners
 			}
 		}
 	}

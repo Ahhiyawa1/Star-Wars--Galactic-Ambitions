@@ -555,6 +555,7 @@ has_compound_country_adjective = {
 is_swp_starting_empire = {
 	OR = {
 		has_country_flag = galactic_republic
+		has_country_flag = kaminoan_cloners
 		has_country_flag = rebel_alliance
 		has_country_flag = hutt_cartel
 		has_country_flag = mandalorian_clans

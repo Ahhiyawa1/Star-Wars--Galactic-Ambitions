@@ -1640,7 +1640,7 @@ create_kaminoan_cloners_country = {
 		flag = {
 			icon = { category = "starwars" file = "Kaminoan.dds" }
 			background = { category = "backgrounds" file = "00_solid.dds" }
-			colors = { "customcolor2052" "customcolor2052" "null" "null" }
+			colors = { "customcolor2054" "customcolor2054" "null" "null" }
 		}
 		effect = {
 			set_graphical_culture = imperial_01
