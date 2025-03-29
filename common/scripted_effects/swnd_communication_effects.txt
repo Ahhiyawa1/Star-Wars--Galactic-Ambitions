@@ -303,8 +303,8 @@ establish_seperatist_communication = {
 				establish_communications_no_message = event_target:bothan_council
 			}
 			if = {
-				limit = { exists = event_target:bothan_council }
-				establish_communications_no_message = event_target:bothan_council
+				limit = { exists = event_target:galactic_republic }
+				establish_communications_no_message = event_target:galactic_republic
 			}
 			if = {
 				limit = { exists = event_target:confederate_remnant }
